@@ -2,20 +2,21 @@
 # POLITECH AWARDS 2026 — PR VOTING WORKFLOW
 # ═══════════════════════════════════════════════════════════════════════════════
 #
-# Each PR is an iteration on the voting mechanism. Committee members vote by
-# submitting GitHub reviews:
+# How it works:
+#   1. Someone opens a PR proposing changes to the voting algorithm
+#   2. Committee members (listed in CODEOWNERS) vote via GitHub reviews
+#   3. After 48 hours OR when majority is reached, the PR is resolved
 #
+# Voting:
 #   ✅ Approve         = YES vote
 #   ❌ Request Changes = NO vote
 #
-# Majority approval required to merge. Voting window: 48 hours.
-#
-# Labels:
-#   vote:approved         — Majority approved
-#   vote:rejected         — Majority rejected
-#   vote:pending          — Awaiting votes
-#   vote:deadline-passed  — 48 hours have passed
-#   ready-to-merge        — Approved, awaiting manual merge
+# Labels applied automatically:
+#   vote:pending          — Waiting for votes
+#   vote:approved         — Majority said yes
+#   vote:rejected         — Majority said no
+#   vote:deadline-passed  — 48 hours elapsed
+#   ready-to-merge        — Approved and ready for manual merge
 #
 # ═══════════════════════════════════════════════════════════════════════════════
 
@@ -27,16 +28,17 @@ on:
   pull_request_review:
     types: [submitted]
   schedule:
-    - cron: '0 */6 * * *'  # Check deadlines every 6 hours
+    - cron: "0 */6 * * *" # Check for expired deadlines every 6 hours
 
 permissions:
   pull-requests: write
   contents: read
 
 jobs:
-  # ─────────────────────────────────────────────────────────────────────────────
-  # NOTIFY — Post voting instructions when a PR is opened
-  # ─────────────────────────────────────────────────────────────────────────────
+  # ═══════════════════════════════════════════════════════════════════════════
+  # JOB 1: NOTIFY
+  # When a PR is opened, post voting instructions and set initial label
+  # ═══════════════════════════════════════════════════════════════════════════
   notify:
     if: github.event.action == 'opened'
     runs-on: ubuntu-latest
@@ -44,17 +46,31 @@ jobs:
       - uses: actions/github-script@v7
         with:
           script: |
-            const deadline = new Date(Date.now() + 48*60*60*1000).toISOString().slice(0,16) + ' UTC';
-            await github.rest.issues.addLabels({ ...context.repo, issue_number: context.issue.number, labels: ['vote:pending'] });
-            github.rest.issues.createComment({
+            // Calculate deadline (48 hours from now)
+            const deadline = new Date(Date.now() + 48*60*60*1000)
+              .toISOString()
+              .slice(0, 16) + ' UTC';
+
+            // Add the "vote:pending" label
+            await github.rest.issues.addLabels({
               ...context.repo,
               issue_number: context.issue.number,
-              body: `🗳️ **Voting open until ${deadline}** (48 hours)\n\nCommittee: approve or request changes to cast your vote. Majority required to merge.`
+              labels: ['vote:pending']
             });
 
-  # ─────────────────────────────────────────────────────────────────────────────
-  # TALLY — Count votes after each review submission
-  # ─────────────────────────────────────────────────────────────────────────────
+            // Post instructions for voters
+            await github.rest.issues.createComment({
+              ...context.repo,
+              issue_number: context.issue.number,
+              body: `🗳️ **Voting open until ${deadline}** (48 hours)\n\n` +
+                    `Committee: approve or request changes to cast your vote. ` +
+                    `Majority required to merge.`
+            });
+
+  # ═══════════════════════════════════════════════════════════════════════════
+  # JOB 2: TALLY
+  # After each review, count votes and update status
+  # ═══════════════════════════════════════════════════════════════════════════
   tally:
     if: github.event_name == 'pull_request_review'
     runs-on: ubuntu-latest
@@ -64,32 +80,38 @@ jobs:
       - uses: actions/github-script@v7
         with:
           script: |
-            // Parse committee members from CODEOWNERS
             const fs = require('fs');
+
+            // ─── Step 1: Get committee members from CODEOWNERS ───
             const codeowners = fs.readFileSync('.github/CODEOWNERS', 'utf8');
-            const members = codeowners.match(/@[\w-]+/g)?.map(m => m.slice(1).toLowerCase()) || [];
+            const members = codeowners
+              .match(/@[\w-]+/g)                    // Find all @mentions
+              ?.map(m => m.slice(1).toLowerCase())  // Remove @ and lowercase
+              || [];
             const majority = Math.floor(members.length / 2) + 1;
 
-            // Fetch all reviews on this PR
-            const reviews = await github.rest.pulls.listReviews({
+            // ─── Step 2: Fetch all reviews on this PR ───
+            const { data: reviews } = await github.rest.pulls.listReviews({
               ...context.repo,
               pull_number: context.issue.number
             });
 
-            // Get latest vote from each committee member
+            // ─── Step 3: Get each member's latest vote ───
+            // (Later reviews override earlier ones)
             const votes = {};
-            reviews.data.forEach(r => {
-              if (members.includes(r.user.login.toLowerCase())) {
-                votes[r.user.login.toLowerCase()] = r.state;
+            for (const review of reviews) {
+              const username = review.user.login.toLowerCase();
+              if (members.includes(username)) {
+                votes[username] = review.state;
               }
-            });
+            }
 
-            // Count the votes
+            // ─── Step 4: Count yes/no/pending ───
             const yes = Object.values(votes).filter(v => v === 'APPROVED').length;
             const no = Object.values(votes).filter(v => v === 'CHANGES_REQUESTED').length;
             const pending = members.length - Object.keys(votes).length;
 
-            // Determine status and label
+            // ─── Step 5: Determine outcome ───
             let status, label;
             if (yes >= majority) {
               status = '✅ Approved';
@@ -102,23 +124,41 @@ jobs:
               label = 'vote:pending';
             }
 
-            // Update labels (remove old vote labels, add current)
-            const { data: currentLabels } = await github.rest.issues.listLabelsOnIssue({ ...context.repo, issue_number: context.issue.number });
-            for (const l of currentLabels.filter(l => l.name.startsWith('vote:') && l.name !== 'vote:deadline-passed')) {
-              await github.rest.issues.removeLabel({ ...context.repo, issue_number: context.issue.number, name: l.name }).catch(() => {});
-            }
-            await github.rest.issues.addLabels({ ...context.repo, issue_number: context.issue.number, labels: [label] });
+            // ─── Step 6: Update labels ───
+            // Remove old vote labels (except deadline-passed)
+            const { data: currentLabels } = await github.rest.issues.listLabelsOnIssue({
+              ...context.repo,
+              issue_number: context.issue.number
+            });
 
-            // Post tally update
-            github.rest.issues.createComment({
+            for (const l of currentLabels) {
+              if (l.name.startsWith('vote:') && l.name !== 'vote:deadline-passed') {
+                await github.rest.issues.removeLabel({
+                  ...context.repo,
+                  issue_number: context.issue.number,
+                  name: l.name
+                }).catch(() => {}); // Ignore if already removed
+              }
+            }
+
+            // Add new label
+            await github.rest.issues.addLabels({
+              ...context.repo,
+              issue_number: context.issue.number,
+              labels: [label]
+            });
+
+            // ─── Step 7: Post status update ───
+            await github.rest.issues.createComment({
               ...context.repo,
               issue_number: context.issue.number,
               body: `**${status}** — ${yes} yes, ${no} no, ${pending} pending`
             });
 
-  # ─────────────────────────────────────────────────────────────────────────────
-  # DEADLINE — Resolve PRs past the 48-hour window
-  # ─────────────────────────────────────────────────────────────────────────────
+  # ═══════════════════════════════════════════════════════════════════════════
+  # JOB 3: DEADLINE
+  # Runs on schedule to close voting on PRs older than 48 hours
+  # ═══════════════════════════════════════════════════════════════════════════
   deadline:
     if: github.event_name == 'schedule'
     runs-on: ubuntu-latest
@@ -129,68 +169,104 @@ jobs:
         with:
           script: |
             const fs = require('fs');
-            const { data: prs } = await github.rest.pulls.list({ ...context.repo, state: 'open' });
-            const cutoff = Date.now() - 48*60*60*1000;
 
-            // Parse committee members from CODEOWNERS
+            // ─── Setup ───
+            const { data: openPRs } = await github.rest.pulls.list({
+              ...context.repo,
+              state: 'open'
+            });
+            const cutoff = Date.now() - 48*60*60*1000; // 48 hours ago
+
+            // Get committee from CODEOWNERS
             const codeowners = fs.readFileSync('.github/CODEOWNERS', 'utf8');
-            const members = codeowners.match(/@[\w-]+/g)?.map(m => m.slice(1).toLowerCase()) || [];
-            const membersOriginal = codeowners.match(/@[\w-]+/g)?.map(m => m.slice(1)) || [];
+            const mentions = codeowners.match(/@[\w-]+/g) || [];
+            const members = mentions.map(m => m.slice(1).toLowerCase());
+            const membersOriginal = mentions.map(m => m.slice(1)); // Keep original case for @mentions
             const majority = Math.floor(members.length / 2) + 1;
 
-            for (const pr of prs) {
+            // ─── Process each open PR ───
+            for (const pr of openPRs) {
+              // Skip PRs less than 48 hours old
               if (new Date(pr.created_at) >= cutoff) continue;
 
-              // Check if already processed
-              const { data: labels } = await github.rest.issues.listLabelsOnIssue({ ...context.repo, issue_number: pr.number });
+              // Skip PRs already processed
+              const { data: labels } = await github.rest.issues.listLabelsOnIssue({
+                ...context.repo,
+                issue_number: pr.number
+              });
               if (labels.some(l => l.name === 'vote:deadline-passed')) continue;
 
-              // Tally final votes
-              const reviews = await github.rest.pulls.listReviews({ ...context.repo, pull_number: pr.number });
-              const votes = {};
-              reviews.data.forEach(r => {
-                if (members.includes(r.user.login.toLowerCase())) {
-                  votes[r.user.login.toLowerCase()] = r.state;
-                }
+              // ─── Count final votes ───
+              const { data: reviews } = await github.rest.pulls.listReviews({
+                ...context.repo,
+                pull_number: pr.number
               });
+
+              const votes = {};
+              for (const review of reviews) {
+                const username = review.user.login.toLowerCase();
+                if (members.includes(username)) {
+                  votes[username] = review.state;
+                }
+              }
 
               const yes = Object.values(votes).filter(v => v === 'APPROVED').length;
               const no = Object.values(votes).filter(v => v === 'CHANGES_REQUESTED').length;
-              const approved = yes >= majority;
-              const rejected = no >= majority;
 
-              // Add deadline label
-              await github.rest.issues.addLabels({ ...context.repo, issue_number: pr.number, labels: ['vote:deadline-passed'] });
+              // Mark voting as closed
+              await github.rest.issues.addLabels({
+                ...context.repo,
+                issue_number: pr.number,
+                labels: ['vote:deadline-passed']
+              });
 
-              if (approved) {
-                // Pick a random codeowner to merge
-                const assignee = membersOriginal[Math.floor(Math.random() * membersOriginal.length)];
-                
-                await github.rest.issues.addLabels({ ...context.repo, issue_number: pr.number, labels: ['ready-to-merge'] });
-                await github.rest.issues.addAssignees({ ...context.repo, issue_number: pr.number, assignees: [assignee] });
+              // ─── Handle outcome ───
+              // Pick a random committee member to take action
+              const assignee = membersOriginal[Math.floor(Math.random() * membersOriginal.length)];
+
+              if (yes >= majority) {
+                // ✅ APPROVED — assign someone to merge
+                await github.rest.issues.addLabels({
+                  ...context.repo,
+                  issue_number: pr.number,
+                  labels: ['ready-to-merge']
+                });
+                await github.rest.issues.addAssignees({
+                  ...context.repo,
+                  issue_number: pr.number,
+                  assignees: [assignee]
+                });
                 await github.rest.issues.createComment({
                   ...context.repo,
                   issue_number: pr.number,
-                  body: `⏰ **Voting closed — APPROVED**\n\nFinal tally: ${yes} yes, ${no} no\n\n✅ @${assignee} — please review and merge when ready.`
+                  body: `⏰ **Voting closed — APPROVED**\n\n` +
+                        `Final tally: ${yes} yes, ${no} no\n\n` +
+                        `✅ @${assignee} — please review and merge when ready.`
                 });
 
-              } else if (rejected) {
-                // Pick a random codeowner to close
-                const assignee = membersOriginal[Math.floor(Math.random() * membersOriginal.length)];
-                
-                await github.rest.issues.addAssignees({ ...context.repo, issue_number: pr.number, assignees: [assignee] });
+              } else if (no >= majority) {
+                // ❌ REJECTED — assign someone to close
+                await github.rest.issues.addAssignees({
+                  ...context.repo,
+                  issue_number: pr.number,
+                  assignees: [assignee]
+                });
                 await github.rest.issues.createComment({
                   ...context.repo,
                   issue_number: pr.number,
-                  body: `⏰ **Voting closed — REJECTED**\n\nFinal tally: ${yes} yes, ${no} no\n\n❌ @${assignee} — please close this PR.`
+                  body: `⏰ **Voting closed — REJECTED**\n\n` +
+                        `Final tally: ${yes} yes, ${no} no\n\n` +
+                        `❌ @${assignee} — please close this PR.`
                 });
 
               } else {
-                // No majority — leave open for committee discussion
+                // 🤔 NO MAJORITY — needs discussion
                 await github.rest.issues.createComment({
                   ...context.repo,
                   issue_number: pr.number,
-                  body: `⏰ **Voting closed — NO MAJORITY**\n\nFinal tally: ${yes} yes, ${no} no (needed ${majority})\n\n🤔 Committee should discuss and reach consensus.`
+                  body: `⏰ **Voting closed — NO MAJORITY**\n\n` +
+                        `Final tally: ${yes} yes, ${no} no (needed ${majority})\n\n` +
+                        `🤔 Committee should discuss and reach consensus.`
                 });
               }
             }
