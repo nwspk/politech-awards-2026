@@ -1,0 +1,13 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+# POLITECH AWARDS 2026 — GOVERNANCE COMMITTEE
+# ═══════════════════════════════════════════════════════════════════════════════
+#
+# This file defines the committee members who must review and vote on all PRs.
+# Each PR represents an iteration on the voting mechanism and requires majority
+# approval within 48 hours to be merged.
+#
+# Add committee members by their GitHub username (prefixed with @)
+# ═══════════════════════════════════════════════════════════════════════════════
+
+# All files in the repository require review from the governance committee
+* @frederickobrien @asilsidahmed-Newspeak @ChrisOwen101 @sugaroverflow
