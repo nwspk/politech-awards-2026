@@ -4,12 +4,12 @@
 #
 # How it works:
 #   1. Someone opens a PR proposing changes to the voting algorithm
-#   2. Committee members (listed in CODEOWNERS) vote via GitHub reviews
+#   2. Committee members (listed in CODEOWNERS) vote via emoji reactions
 #   3. After 48 hours OR when majority is reached, the PR is resolved
 #
-# Voting:
-#   ✅ Approve         = YES vote
-#   ❌ Request Changes = NO vote
+# Voting (react to the bot's voting comment):
+#   👍 = YES vote
+#   👎 = NO vote
 #
 # Labels applied automatically:
 #   vote:pending          — Waiting for votes
@@ -25,8 +25,8 @@ name: PR Voting
 on:
   pull_request:
     types: [opened]
-  pull_request_review:
-    types: [submitted]
+  issue_comment:
+    types: [created]  # Re-tally when someone comments (as proxy for reaction activity)
   schedule:
     - cron: "0 */6 * * *" # Check for expired deadlines every 6 hours
 
@@ -58,21 +58,20 @@ jobs:
               labels: ['vote:pending']
             });
 
-            // Post instructions for voters
+            // Post voting comment (committee reacts to this!)
             await github.rest.issues.createComment({
               ...context.repo,
               issue_number: context.issue.number,
               body: `🗳️ **Voting open until ${deadline}** (48 hours)\n\n` +
-                    `Committee: approve or request changes to cast your vote. ` +
-                    `Majority required to merge.`
+                    `👍 👎 😄 🎉 😕 ❤️ 🚀 👀 — React to cast your vote. Majority required to merge.`
             });
 
   # ═══════════════════════════════════════════════════════════════════════════
   # JOB 2: TALLY
-  # After each review, count votes and update status
+  # Count emoji reactions on the voting comment and update status
   # ═══════════════════════════════════════════════════════════════════════════
   tally:
-    if: github.event_name == 'pull_request_review'
+    if: github.event_name == 'issue_comment' && github.event.issue.pull_request
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -90,25 +89,47 @@ jobs:
               || [];
             const majority = Math.floor(members.length / 2) + 1;
 
-            // ─── Step 2: Fetch all reviews on this PR ───
-            const { data: reviews } = await github.rest.pulls.listReviews({
+            // ─── Step 2: Find the voting comment (posted by github-actions bot) ───
+            const { data: comments } = await github.rest.issues.listComments({
               ...context.repo,
-              pull_number: context.issue.number
+              issue_number: context.issue.number
             });
 
-            // ─── Step 3: Get each member's latest vote ───
-            // (Later reviews override earlier ones)
+            const votingComment = comments.find(c =>
+              c.user.login === 'github-actions[bot]' &&
+              c.body.includes('🗳️') &&
+              c.body.includes('Voting open')
+            );
+
+            if (!votingComment) {
+              console.log('No voting comment found, skipping tally');
+              return;
+            }
+
+            // ─── Step 3: Fetch reactions on the voting comment ───
+            const { data: reactions } = await github.rest.reactions.listForIssueComment({
+              ...context.repo,
+              comment_id: votingComment.id
+            });
+
+            // ─── Step 4: Count votes from committee members ───
+            // 👍 (+1) = YES, 👎 (-1) = NO
+            // Each member's vote is determined by their reaction(s)
             const votes = {};
-            for (const review of reviews) {
-              const username = review.user.login.toLowerCase();
+            for (const reaction of reactions) {
+              const username = reaction.user.login.toLowerCase();
               if (members.includes(username)) {
-                votes[username] = review.state;
+                // +1 (👍) = yes, -1 (👎) = no
+                if (reaction.content === '+1') {
+                  votes[username] = 'yes';
+                } else if (reaction.content === '-1') {
+                  votes[username] = 'no';
+                }
               }
             }
 
-            // ─── Step 4: Count yes/no/pending ───
-            const yes = Object.values(votes).filter(v => v === 'APPROVED').length;
-            const no = Object.values(votes).filter(v => v === 'CHANGES_REQUESTED').length;
+            const yes = Object.values(votes).filter(v => v === 'yes').length;
+            const no = Object.values(votes).filter(v => v === 'no').length;
             const pending = members.length - Object.keys(votes).length;
 
             // ─── Step 5: Determine outcome ───
@@ -152,7 +173,7 @@ jobs:
             await github.rest.issues.createComment({
               ...context.repo,
               issue_number: context.issue.number,
-              body: `**${status}** — ${yes} yes, ${no} no, ${pending} pending`
+              body: `**${status}** — ${yes} 👍, ${no} 👎, ${pending} pending`
             });
 
   # ═══════════════════════════════════════════════════════════════════════════
@@ -196,22 +217,40 @@ jobs:
               });
               if (labels.some(l => l.name === 'vote:deadline-passed')) continue;
 
-              // ─── Count final votes ───
-              const { data: reviews } = await github.rest.pulls.listReviews({
+              // ─── Find the voting comment ───
+              const { data: comments } = await github.rest.issues.listComments({
                 ...context.repo,
-                pull_number: pr.number
+                issue_number: pr.number
+              });
+
+              const votingComment = comments.find(c =>
+                c.user.login === 'github-actions[bot]' &&
+                c.body.includes('🗳️') &&
+                c.body.includes('Voting open')
+              );
+
+              if (!votingComment) continue;
+
+              // ─── Count final votes from emoji reactions ───
+              const { data: reactions } = await github.rest.reactions.listForIssueComment({
+                ...context.repo,
+                comment_id: votingComment.id
               });
 
               const votes = {};
-              for (const review of reviews) {
-                const username = review.user.login.toLowerCase();
+              for (const reaction of reactions) {
+                const username = reaction.user.login.toLowerCase();
                 if (members.includes(username)) {
-                  votes[username] = review.state;
+                  if (reaction.content === '+1') {
+                    votes[username] = 'yes';
+                  } else if (reaction.content === '-1') {
+                    votes[username] = 'no';
+                  }
                 }
               }
 
-              const yes = Object.values(votes).filter(v => v === 'APPROVED').length;
-              const no = Object.values(votes).filter(v => v === 'CHANGES_REQUESTED').length;
+              const yes = Object.values(votes).filter(v => v === 'yes').length;
+              const no = Object.values(votes).filter(v => v === 'no').length;
 
               // Mark voting as closed
               await github.rest.issues.addLabels({
@@ -240,7 +279,7 @@ jobs:
                   ...context.repo,
                   issue_number: pr.number,
                   body: `⏰ **Voting closed — APPROVED**\n\n` +
-                        `Final tally: ${yes} yes, ${no} no\n\n` +
+                        `Final tally: ${yes} 👍, ${no} 👎\n\n` +
                         `✅ @${assignee} — please review and merge when ready.`
                 });
 
@@ -255,7 +294,7 @@ jobs:
                   ...context.repo,
                   issue_number: pr.number,
                   body: `⏰ **Voting closed — REJECTED**\n\n` +
-                        `Final tally: ${yes} yes, ${no} no\n\n` +
+                        `Final tally: ${yes} 👍, ${no} 👎\n\n` +
                         `❌ @${assignee} — please close this PR.`
                 });
 
@@ -265,7 +304,7 @@ jobs:
                   ...context.repo,
                   issue_number: pr.number,
                   body: `⏰ **Voting closed — NO MAJORITY**\n\n` +
-                        `Final tally: ${yes} yes, ${no} no (needed ${majority})\n\n` +
+                        `Final tally: ${yes} 👍, ${no} 👎 (needed ${majority})\n\n` +
                         `🤔 Committee should discuss and reach consensus.`
                 });
               }
