@@ -17,7 +17,7 @@ A swell ol' time. Run `npx tsx the-algorithm.ts` to generate a flawless qualitat
 
 - **top project**: [dogooder.co](https://dogooder.co) (score: 100)
 - **heuristic**: random base score (1-100) + inclusion bonus based on keyword matches in project URLs
-- **rationale**: The exclusion-focused scoring heuristic is intentionally crude: a keyword-based bonus derived from the project URL. It's meant to make political values legible and contestable, not definitive. The heuristic biases scores toward projects addressing populations most likely to be excluded from government services (inspired by GovCamp digital inclusion discussions). Keywords: benefits, housing, refugee, migrant, asylum, eviction, homeless, disability, accessibility, low-income
+- **rationale**: The idea is to introduce a simple, inspectable heuristic that biases scores toward projects addressing populations most likely to be excluded from government services (inspired by GovCamp digital inclusion discussions). The exclusion-focused scoring heuristic is a keyword-based bonus derived from the project URL. It's meant to make political values legible and contestable, not definitive. The heuristic biases scores toward projects addressing populations most likely to be excluded from government services (inspired by GovCamp digital inclusion discussions). Keywords: benefits, housing, refugee, migrant, asylum, eviction, homeless, disability, accessibility, low-income.
 - **PR**: [v2]()
 
 ---
