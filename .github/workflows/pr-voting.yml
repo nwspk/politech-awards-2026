@@ -1,0 +1,311 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+# POLITECH AWARDS 2026 — PR VOTING WORKFLOW
+# ═══════════════════════════════════════════════════════════════════════════════
+#
+# How it works:
+#   1. Someone opens a PR proposing changes to the voting algorithm
+#   2. Committee members (listed in CODEOWNERS) vote via emoji reactions
+#   3. After 48 hours OR when majority is reached, the PR is resolved
+#
+# Voting (react to the bot's voting comment):
+#   👍 = YES vote
+#   👎 = NO vote
+#
+# Labels applied automatically:
+#   vote:pending          — Waiting for votes
+#   vote:approved         — Majority said yes
+#   vote:rejected         — Majority said no
+#   vote:deadline-passed  — 48 hours elapsed
+#   ready-to-merge        — Approved and ready for manual merge
+#
+# ═══════════════════════════════════════════════════════════════════════════════
+
+name: PR Voting
+
+on:
+  pull_request:
+    types: [opened]
+  issue_comment:
+    types: [created]  # Re-tally when someone comments (as proxy for reaction activity)
+  schedule:
+    - cron: "0 */6 * * *" # Check for expired deadlines every 6 hours
+
+permissions:
+  pull-requests: write
+  contents: read
+
+jobs:
+  # ═══════════════════════════════════════════════════════════════════════════
+  # JOB 1: NOTIFY
+  # When a PR is opened, post voting instructions and set initial label
+  # ═══════════════════════════════════════════════════════════════════════════
+  notify:
+    if: github.event.action == 'opened'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            // Calculate deadline (48 hours from now)
+            const deadline = new Date(Date.now() + 48*60*60*1000)
+              .toISOString()
+              .slice(0, 16) + ' UTC';
+
+            // Add the "vote:pending" label
+            await github.rest.issues.addLabels({
+              ...context.repo,
+              issue_number: context.issue.number,
+              labels: ['vote:pending']
+            });
+
+            // Post voting comment (committee reacts to this!)
+            await github.rest.issues.createComment({
+              ...context.repo,
+              issue_number: context.issue.number,
+              body: `🗳️ **Voting open until ${deadline}** (48 hours)\n\n` +
+                    `👍 👎 😄 🎉 😕 ❤️ 🚀 👀 — React to cast your vote. Majority required to merge.`
+            });
+
+  # ═══════════════════════════════════════════════════════════════════════════
+  # JOB 2: TALLY
+  # Count emoji reactions on the voting comment and update status
+  # ═══════════════════════════════════════════════════════════════════════════
+  tally:
+    if: github.event_name == 'issue_comment' && github.event.issue.pull_request
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+
+            // ─── Step 1: Get committee members from CODEOWNERS ───
+            const codeowners = fs.readFileSync('.github/CODEOWNERS', 'utf8');
+            const members = codeowners
+              .match(/@[\w-]+/g)                    // Find all @mentions
+              ?.map(m => m.slice(1).toLowerCase())  // Remove @ and lowercase
+              || [];
+            const majority = Math.floor(members.length / 2) + 1;
+
+            // ─── Step 2: Find the voting comment (posted by github-actions bot) ───
+            const { data: comments } = await github.rest.issues.listComments({
+              ...context.repo,
+              issue_number: context.issue.number
+            });
+
+            const votingComment = comments.find(c =>
+              c.user.login === 'github-actions[bot]' &&
+              c.body.includes('🗳️') &&
+              c.body.includes('Voting open')
+            );
+
+            if (!votingComment) {
+              console.log('No voting comment found, skipping tally');
+              return;
+            }
+
+            // ─── Step 3: Fetch reactions on the voting comment ───
+            const { data: reactions } = await github.rest.reactions.listForIssueComment({
+              ...context.repo,
+              comment_id: votingComment.id
+            });
+
+            // ─── Step 4: Count votes from committee members ───
+            // 👍 (+1) = YES, 👎 (-1) = NO
+            // Each member's vote is determined by their reaction(s)
+            const votes = {};
+            for (const reaction of reactions) {
+              const username = reaction.user.login.toLowerCase();
+              if (members.includes(username)) {
+                // +1 (👍) = yes, -1 (👎) = no
+                if (reaction.content === '+1') {
+                  votes[username] = 'yes';
+                } else if (reaction.content === '-1') {
+                  votes[username] = 'no';
+                }
+              }
+            }
+
+            const yes = Object.values(votes).filter(v => v === 'yes').length;
+            const no = Object.values(votes).filter(v => v === 'no').length;
+            const pending = members.length - Object.keys(votes).length;
+
+            // ─── Step 5: Determine outcome ───
+            let status, label;
+            if (yes >= majority) {
+              status = '✅ Approved';
+              label = 'vote:approved';
+            } else if (no >= majority) {
+              status = '❌ Rejected';
+              label = 'vote:rejected';
+            } else {
+              status = `⏳ ${yes}/${majority} approvals`;
+              label = 'vote:pending';
+            }
+
+            // ─── Step 6: Update labels ───
+            // Remove old vote labels (except deadline-passed)
+            const { data: currentLabels } = await github.rest.issues.listLabelsOnIssue({
+              ...context.repo,
+              issue_number: context.issue.number
+            });
+
+            for (const l of currentLabels) {
+              if (l.name.startsWith('vote:') && l.name !== 'vote:deadline-passed') {
+                await github.rest.issues.removeLabel({
+                  ...context.repo,
+                  issue_number: context.issue.number,
+                  name: l.name
+                }).catch(() => {}); // Ignore if already removed
+              }
+            }
+
+            // Add new label
+            await github.rest.issues.addLabels({
+              ...context.repo,
+              issue_number: context.issue.number,
+              labels: [label]
+            });
+
+            // ─── Step 7: Post status update ───
+            await github.rest.issues.createComment({
+              ...context.repo,
+              issue_number: context.issue.number,
+              body: `**${status}** — ${yes} 👍, ${no} 👎, ${pending} pending`
+            });
+
+  # ═══════════════════════════════════════════════════════════════════════════
+  # JOB 3: DEADLINE
+  # Runs on schedule to close voting on PRs older than 48 hours
+  # ═══════════════════════════════════════════════════════════════════════════
+  deadline:
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+
+            // ─── Setup ───
+            const { data: openPRs } = await github.rest.pulls.list({
+              ...context.repo,
+              state: 'open'
+            });
+            const cutoff = Date.now() - 48*60*60*1000; // 48 hours ago
+
+            // Get committee from CODEOWNERS
+            const codeowners = fs.readFileSync('.github/CODEOWNERS', 'utf8');
+            const mentions = codeowners.match(/@[\w-]+/g) || [];
+            const members = mentions.map(m => m.slice(1).toLowerCase());
+            const membersOriginal = mentions.map(m => m.slice(1)); // Keep original case for @mentions
+            const majority = Math.floor(members.length / 2) + 1;
+
+            // ─── Process each open PR ───
+            for (const pr of openPRs) {
+              // Skip PRs less than 48 hours old
+              if (new Date(pr.created_at) >= cutoff) continue;
+
+              // Skip PRs already processed
+              const { data: labels } = await github.rest.issues.listLabelsOnIssue({
+                ...context.repo,
+                issue_number: pr.number
+              });
+              if (labels.some(l => l.name === 'vote:deadline-passed')) continue;
+
+              // ─── Find the voting comment ───
+              const { data: comments } = await github.rest.issues.listComments({
+                ...context.repo,
+                issue_number: pr.number
+              });
+
+              const votingComment = comments.find(c =>
+                c.user.login === 'github-actions[bot]' &&
+                c.body.includes('🗳️') &&
+                c.body.includes('Voting open')
+              );
+
+              if (!votingComment) continue;
+
+              // ─── Count final votes from emoji reactions ───
+              const { data: reactions } = await github.rest.reactions.listForIssueComment({
+                ...context.repo,
+                comment_id: votingComment.id
+              });
+
+              const votes = {};
+              for (const reaction of reactions) {
+                const username = reaction.user.login.toLowerCase();
+                if (members.includes(username)) {
+                  if (reaction.content === '+1') {
+                    votes[username] = 'yes';
+                  } else if (reaction.content === '-1') {
+                    votes[username] = 'no';
+                  }
+                }
+              }
+
+              const yes = Object.values(votes).filter(v => v === 'yes').length;
+              const no = Object.values(votes).filter(v => v === 'no').length;
+
+              // Mark voting as closed
+              await github.rest.issues.addLabels({
+                ...context.repo,
+                issue_number: pr.number,
+                labels: ['vote:deadline-passed']
+              });
+
+              // ─── Handle outcome ───
+              // Pick a random committee member to take action
+              const assignee = membersOriginal[Math.floor(Math.random() * membersOriginal.length)];
+
+              if (yes >= majority) {
+                // ✅ APPROVED — assign someone to merge
+                await github.rest.issues.addLabels({
+                  ...context.repo,
+                  issue_number: pr.number,
+                  labels: ['ready-to-merge']
+                });
+                await github.rest.issues.addAssignees({
+                  ...context.repo,
+                  issue_number: pr.number,
+                  assignees: [assignee]
+                });
+                await github.rest.issues.createComment({
+                  ...context.repo,
+                  issue_number: pr.number,
+                  body: `⏰ **Voting closed — APPROVED**\n\n` +
+                        `Final tally: ${yes} 👍, ${no} 👎\n\n` +
+                        `✅ @${assignee} — please review and merge when ready.`
+                });
+
+              } else if (no >= majority) {
+                // ❌ REJECTED — assign someone to close
+                await github.rest.issues.addAssignees({
+                  ...context.repo,
+                  issue_number: pr.number,
+                  assignees: [assignee]
+                });
+                await github.rest.issues.createComment({
+                  ...context.repo,
+                  issue_number: pr.number,
+                  body: `⏰ **Voting closed — REJECTED**\n\n` +
+                        `Final tally: ${yes} 👍, ${no} 👎\n\n` +
+                        `❌ @${assignee} — please close this PR.`
+                });
+
+              } else {
+                // 🤔 NO MAJORITY — needs discussion
+                await github.rest.issues.createComment({
+                  ...context.repo,
+                  issue_number: pr.number,
+                  body: `⏰ **Voting closed — NO MAJORITY**\n\n` +
+                        `Final tally: ${yes} 👍, ${no} 👎 (needed ${majority})\n\n` +
+                        `🤔 Committee should discuss and reach consensus.`
+                });
+              }
+            }
