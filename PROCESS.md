@@ -37,6 +37,25 @@ Committee members vote by reacting to the voting comment: 👍 = YES, 👎 = NO.
 - Majority no → someone is assigned to close
 - No majority after 48 hours → non-voters get tagged daily until majority is reached
 
+## Labels
+
+These are added to PRs automatically by the bots. You don't need to add them yourself.
+
+| Label | Meaning |
+|-------|---------|
+| `vote:pending` | Voting is open, waiting for reactions |
+| `vote:approved` | Majority voted yes |
+| `vote:rejected` | Majority voted no |
+| `vote:deadline-passed` | 48-hour voting window elapsed |
+| `ready-to-merge` | Approved — assigned member should merge |
+
+If a bot needs to be re-triggered (e.g. after a fix), add one of these manually:
+
+| Label | Triggers |
+|-------|----------|
+| `run-bot` | Re-runs the iteration bot |
+| `start-vote` | Re-starts the voting process |
+
 ## Committee
 
 Defined in [`.github/CODEOWNERS`](.github/CODEOWNERS). Decisions are made by majority vote (excluding abstentions). To join, add yourself to the CODEOWNERS file.
