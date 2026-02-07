@@ -1,0 +1,77 @@
+# Technical Documentation
+
+Internal reference for the bots, scripts, and data formats powering this repo.
+
+## Iteration Bot
+
+`.github/workflows/iteration-bot.yml` + `scripts/iteration-bot.ts`
+
+**Triggers**: PR marked "Ready for review", or `run-bot` label added. Does not run on drafts.
+
+**What it does** (in order):
+
+1. Checks out the PR branch and installs dependencies
+2. Runs `the-algorithm.ts` using the PR's version of the code
+3. Parses `## Heuristic` and `## Rationale` from the PR description
+4. Auto-assigns a version number (highest existing + 1)
+5. Detects data sources by scanning `the-algorithm.ts` for patterns (e.g. `fetch(`, `octokit`, `openai`)
+6. Updates `iterations.json` (adds or updates entry, matched by PR number)
+7. Runs `sync-readme.ts` to regenerate the Iterations section
+8. Commits and pushes `iterations.json`, `README.md`, `results.json` to the PR branch
+9. Posts a comment with version, top 5 projects, detected data sources, and next steps
+
+**Re-runs**: Adding the `run-bot` label re-triggers the bot. It updates the existing entry rather than creating a duplicate.
+
+## Voting Bot
+
+`.github/workflows/pr-voting.yml`
+
+**Triggers**: PR marked "Ready for review", or `start-vote` label added.
+
+**How it works**:
+
+1. **Notify** — Posts a voting comment with a 48-hour deadline. Adds `vote:pending` label.
+2. **Tally** — Recounts votes each time a comment is posted. Only reactions from members in `.github/CODEOWNERS` count. Updates labels and posts a tally.
+3. **Resolve or remind** — A daily scheduled job checks PRs older than 48 hours:
+   - Majority yes → `ready-to-merge` label, random member assigned to merge
+   - Majority no → random member assigned to close
+   - No majority → tags non-voters with a reminder (once per 24 hours)
+
+**Voting**: React to the bot's voting comment — 👍 = YES, 👎 = NO.
+
+**Labels**:
+
+| Label | Meaning |
+|-------|---------|
+| `vote:pending` | Waiting for votes |
+| `vote:approved` | Majority said yes |
+| `vote:rejected` | Majority said no |
+| `vote:deadline-passed` | 48 hours elapsed |
+| `ready-to-merge` | Approved and ready for manual merge |
+
+## sync-readme.ts
+
+Regenerates the **Iterations** section of `README.md` from `iterations.json`. Finds `<!-- ITERATIONS:START -->` / `<!-- ITERATIONS:END -->` markers and replaces everything between them.
+
+Runs automatically as part of the iteration bot. Run manually with `npx tsx sync-readme.ts`.
+
+## iterations.json Schema
+
+Source of truth for all iteration metadata.
+
+| Field | Type | Set by | Description |
+|-------|------|--------|-------------|
+| `version` | `string` | bot | e.g. `"v3"` — auto-assigned |
+| `date` | `string \| null` | bot | Date the bot ran (YYYY-MM-DD) |
+| `author` | `string \| null` | bot | GitHub username of the PR author |
+| `pr_number` | `number \| null` | bot | PR number (also used for re-run detection) |
+| `pr_url` | `string \| null` | bot | Full PR URL |
+| `pr_status` | `string \| null` | bot / manual | `"open"`, `"merged"`, or `"rejected"` |
+| `top_project` | `object` | bot | `{ name, url, score }` — highest-scoring project |
+| `heuristic` | `string` | bot (from PR) | Parsed from `## Heuristic` |
+| `rationale` | `string \| null` | bot (from PR) | Parsed from `## Rationale` |
+| `data_sources` | `string[] \| null` | bot | Auto-detected from `the-algorithm.ts` |
+| `keywords` | `string[] \| null` | manual | Specific criteria, if any |
+| `limitations` | `string \| null` | manual | Known blind spots |
+| `vote_result` | `string \| null` | manual | Committee vote outcome |
+| `assessment_output` | `boolean` | bot / manual | Does this iteration produce written assessments? |

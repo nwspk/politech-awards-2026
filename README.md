@@ -1,46 +1,59 @@
-# Political Technology Awards
+# Political Technology Awards 2026
 
-A swell ol' time. Run `npx tsx the-algorithm.ts` to generate a flawless qualitative ranking of projects.*
+An open-source evaluation of 321 political technology projects by the [Newspeak House](https://newspeak.house) fellowship cohort.
 
-\* Results may not be flawless
+The committee iterates on a scoring algorithm through pull requests. Each PR proposes a new heuristic that scores projects from the [longlist](candidates.csv). The timeline of proposals forms the basis of the committee's public statement on process and legitimacy.
 
+## How It Works
+
+1. **Propose** — Open a PR with your scoring idea (the template auto-fills). You don't need to write code — describe your heuristic and tag someone for help.
+2. **Bot runs** — When the PR is marked "Ready for review", a bot runs the algorithm, posts results, and assigns a version number.
+3. **Vote** — Committee members vote with 👍 / 👎 on the voting comment. Majority required within 48 hours.
+4. **Merge or close** — Approved PRs get merged; rejected ones get closed.
+
+## Contents
+
+- [Quick Start](#quick-start) — run the algorithm locally
+- [Iterations](#iterations) — history of all algorithm versions
+- [Committee Process](PROCESS.md) — step-by-step details for opening a PR, voting, and deliverables
+- [Technical Details](TECHNICAL.md) — bots, scripts, and data formats
+- [Briefing Document](https://docs.google.com/document/d/14GgwyiA7t-AMRj4P5JFNijHXjATEQvQUvaxyIVZG-LA/edit?tab=t.0#heading=h.yyqjou9klunq) — full project guidelines
+
+## Quick Start
+
+```bash
+npm install
+npx tsx the-algorithm.ts   # runs the algorithm, writes results.json
+```
+
+Edit `the-algorithm.ts` to add your heuristic, then open a PR.
 
 ## Iterations
 
-### v1
+<!-- ITERATIONS:START -->
 
-- **top project**: [relationaltechproject.org](https://relationaltechproject.org)
-- **heuristic**: This is a highly sophisticated first pass at the algorithm which assigns each project a randomised score between 1 and 100
-- **PR**: [v1](https://github.com/nwspk/politech-awards-2026/pull/1)
+| Version | Heuristic | Top Project | PR | Status |
+|---------|-----------|-------------|-----|--------|
+| v1 | Random score between 1 and 100 | relationaltechproject.org | [v1](https://github.com/nwspk/politech-awards-2026/pull/1) | merged |
+| v2 | Random base score (1-100) + inclusion bonus based on exclusion keywords in URL | dogooder.co | [v2](https://github.com/nwspk/politech-awards-2026/pull/2) | merged |
 
 ### v2
 
-- **top project**: [dogooder.co](https://dogooder.co) (score: 100)
-- **heuristic**: random base score (1-100) + inclusion bonus based on keyword matches in project URLs
-- **rationale**: The idea is to introduce a simple, inspectable heuristic that biases scores toward projects addressing populations most likely to be excluded from government services (inspired by GovCamp digital inclusion discussions). The exclusion-focused scoring heuristic is a keyword-based bonus derived from the project URL. It's meant to make political values legible and contestable, not definitive. The heuristic biases scores toward projects addressing populations most likely to be excluded from government services (inspired by GovCamp digital inclusion discussions). Keywords: benefits, housing, refugee, migrant, asylum, eviction, homeless, disability, accessibility, low-income.
-- **PR**: [v2]()
+- **Top project**: [dogooder.co](https://dogooder.co) (score: 100)
+- **Heuristic**: Random base score (1-100) + inclusion bonus based on exclusion keywords in URL
+- **Rationale**: The exclusion-focused scoring heuristic is intentionally crude: a keyword-based bonus derived from the project URL. It's meant to make political values legible and contestable, not definitive. The heuristic biases scores toward projects addressing populations most likely to be excluded from government services (inspired by GovCamp digital inclusion discussions).
+- **Data sources**: project URL
+- **Keywords**: benefits, housing, refugee, migrant, asylum, eviction, homeless, disability, accessibility, low-income
+- **Limitations**: Only matches keywords in the URL string itself, not in actual project content. Many relevant projects won't have these keywords in their URL.
+- **Proposed** by Asil on 2026-02-04
+- **PR**: [v2](https://github.com/nwspk/politech-awards-2026/pull/2) (merged)
 
----
-## Decision Model
+### v1
 
-All changes require majority approval from the committee defined in [`.github/CODEOWNERS`](.github/CODEOWNERS).
+- **Top project**: [relationaltechproject.org](https://relationaltechproject.org)
+- **Heuristic**: Random score between 1 and 100
+- **Data sources**: project URL
+- **Limitations**: Entirely random; no meaningful evaluation of projects.
+- **PR**: [v1](https://github.com/nwspk/politech-awards-2026/pull/1) (merged)
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                     PR LIFECYCLE                                │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│   1. PR Opened                                                  │
-│      └── Committee notified, 48-hour voting window begins       │
-│                                                                 │
-│   2. Voting                                                     │
-│      └── ✅ Approve = YES                                       │
-│      └── ❌ Request Changes = NO                                │
-│                                                                 │
-│   3. Resolution                                                 │
-│      └── Majority approval → Merge                              │
-│      └── Majority rejection → Close                             │
-│      └── No majority → Discuss                                  │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
+<!-- ITERATIONS:END -->
