@@ -43,6 +43,7 @@ The project longlist lives in `candidates.csv` (321 projects).
 
 To add a new data source (scraped content, API data, survey results, etc.), use the [data collection template](../../compare?template=data-collection.md) instead.
 
+
 ## Iterations
 
 <!-- ITERATIONS:START -->
@@ -72,6 +73,30 @@ To add a new data source (scraped content, API data, survey results, etc.), use 
 - **PR**: [v1](https://github.com/nwspk/politech-awards-2026/pull/1) (merged)
 
 <!-- ITERATIONS:END -->
+
+## Decision Model
+
+All changes require majority approval from the committee defined in [`.github/CODEOWNERS`](.github/CODEOWNERS).
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                     PR LIFECYCLE                                │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│   1. PR Opened                                                  │
+│      └── Committee notified, 48-hour voting window begins       │
+│                                                                 │
+│   2. Voting                                                     │
+│      └── ✅ Approve = YES                                       │
+│      └── ❌ Request Changes = NO                                │
+│                                                                 │
+│   3. Resolution                                                 │
+│      └── Majority approval → Merge                              │
+│      └── Majority rejection → Close                             │
+│      └── No majority → Discuss                                  │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
 
 ## Deliverables
 
@@ -190,8 +215,9 @@ Voting happens through **GitHub PR reviews**. The process follows the committee'
 
 1. The bot posts its results comment, which includes a checklist item asking the committee to review and vote
 2. Committee members **approve** or **request changes** on the PR using GitHub's review system
-3. A PR is merged when it has **majority approval from codeowners** (excluding abstentions)
-4. When merged, the iteration's `pr_status` in `iterations.json` becomes the record of the committee's decision
+3. A 48-hour voting window begins when the PR is opened
+4. A PR is merged when it has **majority approval from codeowners** (excluding abstentions)
+5. When merged, the iteration's `pr_status` in `iterations.json` becomes the record of the committee's decision
 
 > **Future automation**: A voting bot could be added to count approvals against the CODEOWNERS list and auto-merge when majority is reached, or to post a running tally as reviews come in. This would live in a separate workflow (e.g. `.github/workflows/voting-bot.yml`) triggered on `pull_request_review` events.
 
