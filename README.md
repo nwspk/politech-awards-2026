@@ -4,45 +4,82 @@ An open-source evaluation of 321 political technology projects by the [Newspeak 
 
 The committee iterates on a scoring algorithm through pull requests. Each PR proposes a new version of the heuristic that takes a project URL, scores it, and (eventually) produces a written assessment. The timeline of proposals and their outcomes forms the basis of the committee's public statement on process and legitimacy.
 
-Run the current algorithm:
+For full project guidelines, see the [briefing document](https://docs.google.com/document/d/14GgwyiA7t-AMRj4P5JFNijHXjATEQvQUvaxyIVZG-LA/edit?tab=t.0#heading=h.yyqjou9klunq).
 
-```
-npx tsx the-algorithm.ts
-```
+## Table of Contents
 
-Results are written to `results.json`.
-The project longlist lives in `candidates.csv` (321 projects).
+- [How to Join the Committee](#how-to-join-the-committee)
+- [How to Propose an Iteration](#how-to-propose-an-iteration)
+- [PR Lifecycle](#pr-lifecycle)
+- [Iterations](#iterations)
+- [Deliverables](#deliverables)
+- [Project Longlist](#project-longlist)
+- [Repo Structure](#repo-structure)
+- [Technical Documentation](#technical-documentation)
+  - [Iteration Bot](#iteration-bot)
+  - [Voting Bot](#voting-bot)
+  - [sync-readme.ts](#sync-readmets)
+  - [iterations.json Schema](#iterationsjson-schema)
 
-## How the Committee Works
+## How to Join the Committee
 
-- **Governance**: To join the Committee, add yourself to the [CODEOWNERS](./github/CODEOWNERS) file. Members comment on PRs; codeowners ensure consistency. Decisions by majority vote (excluding abstentions).
-- **Cadence**: Meetings every two weeks until two weeks before the awards ceremony. Each meeting sets tasks for the next session.
-- **Philosophy**: There is no perfect algorithm. Each iteration makes it a bit better — or meaningfully contests the last.
-- **Exploration phase**: The committee is currently iterating, learning, and refining processes before committing to final approaches.
+Add yourself to the [CODEOWNERS](.github/CODEOWNERS) file. Decisions are made by majority vote (excluding abstentions).
 
 ## How to Propose an Iteration
 
-**You do not need to write code.** Describe your idea, and someone on the committee can implement it.
+Every PR auto-fills with the iteration template. Fill in **Heuristic** (one sentence) and **Rationale** (as detailed as you like), then check the implementation box.
 
-### The flow
+**If you have an idea but need help coding it:**
 
-1. **Open a PR** using the [iteration template](../../compare?template=iteration.md) — fill in two things:
-   - **Heuristic**: one sentence describing what your scoring approach does
-   - **Rationale**: why this is a good change, what values it encodes, any keywords or criteria, and its known blind spots
-2. **Check the implementation box**: "just an idea" or "code is ready" — tag someone if you need help
-3. **When the code is ready**, mark the PR as "Ready for review"
-4. **The bot takes over**:
-   - Runs the algorithm automatically
-   - Auto-assigns a version number
-   - Posts a comment with the top 5 projects and their scores
-   - Detects what data sources the iteration uses
-   - Updates `iterations.json` and this README
-5. **The committee votes** — approve the PR to merge
+1. Open a PR (even an empty one) — the template auto-fills
+2. Describe your heuristic and rationale
+3. Check "Just an idea — I need help coding this up" and tag someone
+4. When someone implements it and the code is ready, mark the PR as "Ready for review"
 
-### Adding new data
+**If you're writing the code yourself:**
+
+1. Create a branch, add your heuristic to `the-algorithm.ts`
+2. Test locally: `npm install && npx tsx the-algorithm.ts`
+3. Open a PR — the template auto-fills. Describe your heuristic and rationale
+4. Check "Code is ready to review" and mark the PR as "Ready for review"
+5. The bots handle the rest (version number, results, `iterations.json`, README, voting)
 
 To add a new data source (scraped content, API data, survey results, etc.), use the [data collection template](../../compare?template=data-collection.md) instead.
 
+## PR Lifecycle
+
+When a PR is marked **"Ready for review"**, two bots kick in:
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                     PR LIFECYCLE                                │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│   1. PR Opened (draft OK)                                       │
+│      └── Author fills in heuristic + rationale                  │
+│      └── Tag someone if you need help coding it                 │
+│                                                                 │
+│   2. PR Marked "Ready for Review"                               │
+│      ├── 🤖 Iteration Bot                                      │
+│      │   └── Runs the algorithm, posts top 5 results            │
+│      │   └── Auto-assigns version number                        │
+│      │   └── Updates iterations.json + README                   │
+│      └── 🗳️ Voting Bot                                         │
+│          └── Posts voting comment with 48-hour deadline          │
+│          └── Adds vote:pending label                            │
+│                                                                 │
+│   3. Committee Votes (👍 / 👎 on the voting comment)            │
+│      └── Tally updated automatically                            │
+│                                                                 │
+│   4. Resolution                                                 │
+│      ├── ✅ Majority yes → ready-to-merge, assignee merges      │
+│      ├── ❌ Majority no  → assignee closes                      │
+│      └── 🤔 No majority after 48hr → non-voters tagged daily   │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+All changes require majority approval from the committee defined in [`.github/CODEOWNERS`](.github/CODEOWNERS).
 
 ## Iterations
 
@@ -73,30 +110,6 @@ To add a new data source (scraped content, API data, survey results, etc.), use 
 - **PR**: [v1](https://github.com/nwspk/politech-awards-2026/pull/1) (merged)
 
 <!-- ITERATIONS:END -->
-
-## Decision Model
-
-All changes require majority approval from the committee defined in [`.github/CODEOWNERS`](.github/CODEOWNERS).
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                     PR LIFECYCLE                                │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│   1. PR Opened                                                  │
-│      └── Committee notified, 48-hour voting window begins       │
-│                                                                 │
-│   2. Voting                                                     │
-│      └── ✅ Approve = YES                                       │
-│      └── ❌ Request Changes = NO                                │
-│                                                                 │
-│   3. Resolution                                                 │
-│      └── Majority approval → Merge                              │
-│      └── Majority rejection → Close                             │
-│      └── No majority → Discuss                                  │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
 
 ## Deliverables
 
@@ -132,11 +145,13 @@ Each committee member publishes a written reflection covering:
 ├── scripts/
 │   └── iteration-bot.ts   # Bot: auto-version, run algo, post results on PRs
 ├── .github/
-│   ├── workflows/
-│   │   └── iteration-bot.yml   # GitHub Action that triggers the bot
-│   └── PULL_REQUEST_TEMPLATE/
-│       ├── iteration.md         # Template for algorithm iterations
-│       └── data-collection.md   # Template for new data sources
+│   ├── CODEOWNERS                   # Committee members (majority required to merge)
+│   ├── PULL_REQUEST_TEMPLATE.md     # Default PR template (iteration, auto-fills)
+│   ├── PULL_REQUEST_TEMPLATE/
+│   │   └── data-collection.md       # Template for new data sources
+│   └── workflows/
+│       ├── iteration-bot.yml        # Runs algorithm + updates metadata on PRs
+│       └── pr-voting.yml            # Emoji-based voting with 48hr deadline
 ├── package.json
 └── tsconfig.json
 ```
@@ -147,124 +162,79 @@ Each committee member publishes a written reflection covering:
 
 ### Iteration Bot
 
-The iteration bot is a GitHub Action (`.github/workflows/iteration-bot.yml`) backed by a TypeScript script (`scripts/iteration-bot.ts`). Its job is to automate everything a human shouldn't have to do manually when proposing an iteration.
+`.github/workflows/iteration-bot.yml` + `scripts/iteration-bot.ts`
 
-#### Triggers
+**Triggers**: PR marked "Ready for review", or `run-bot` label added. Does not run on drafts.
 
-The bot runs when either of these happens on a PR:
+**What it does** (in order):
 
-| Trigger | When to use |
-|---------|-------------|
-| **PR marked "Ready for review"** | The normal flow — code is done, mark it ready, the bot takes over |
-| **`run-bot` label added** | Re-run the bot after changes, or manually trigger on any PR |
+1. Checks out the PR branch and installs dependencies
+2. Runs `the-algorithm.ts` using the PR's version of the code
+3. Parses the `## Heuristic` and `## Rationale` sections from the PR description
+4. Auto-assigns a version number (highest existing + 1)
+5. Detects data sources by scanning `the-algorithm.ts` for patterns:
+   - `candidates.csv` → project URL
+   - `fetch(`, `axios` → scraped content
+   - `octokit` → GitHub API
+   - `openai`, `anthropic`, `claude`, `gpt`, `gemini` → LLM analysis
+   - other `.csv`/`.json`/`.tsv` → additional data files
+6. Updates `iterations.json` (adds or updates entry, matched by PR number)
+7. Runs `sync-readme.ts` to regenerate the Iterations section
+8. Commits and pushes `iterations.json`, `README.md`, `results.json` to the PR branch
+9. Posts a comment with: version, top 5 projects + scores, detected data sources, next steps
 
-The bot will not run on draft PRs.
+**Re-runs**: Adding `run-bot` label re-triggers the bot. It updates the existing entry (same version number) rather than creating a duplicate.
 
-#### What the bot does
+### Voting Bot
 
-When triggered, the workflow runs these steps in order:
+`.github/workflows/pr-voting.yml`
 
-1. **Checks out the PR branch** (not `main` — it works on the proposer's code)
-2. **Installs dependencies** (`npm install`)
-3. **Runs the algorithm** (`npx tsx the-algorithm.ts`) using the PR's version of `the-algorithm.ts`
-4. **Runs the iteration bot script**, which:
-   - **Parses the PR description** — extracts the `## Heuristic` and `## Rationale` sections from the PR body, stripping HTML comments
-   - **Auto-assigns a version number** — reads `iterations.json`, finds the highest existing version, increments by 1. If the PR already has an entry (re-run), it keeps the same version
-   - **Reads `results.json`** — pulls the top 5 highest-scoring projects
-   - **Detects data sources** — scans `the-algorithm.ts` for patterns indicating what data the algorithm consumes (e.g., `fetch()` calls, LLM library imports, additional CSV/JSON files)
-   - **Updates `iterations.json`** — adds or updates the entry for this PR
-   - **Writes `bot-comment.md`** — the comment body that will be posted on the PR
-5. **Syncs the README** (`npx tsx sync-readme.ts`) — regenerates the Iterations section from `iterations.json`
-6. **Commits and pushes** — commits `iterations.json`, `README.md`, and `results.json` back to the PR branch as `iteration-bot[bot]`
-7. **Posts a comment on the PR** with:
-   - The auto-assigned version number
-   - A table of the top 5 projects and their scores
-   - Detected data sources
-   - Next steps: asks the author for a written assessment and prompts the committee to vote
+**Triggers**: PR marked "Ready for review", or `start-vote` label added.
 
-#### Data source detection
+**How it works**:
 
-The bot scans `the-algorithm.ts` for patterns to infer what data the iteration uses:
+1. **Notify** — Posts a voting comment with a 48-hour deadline. Adds `vote:pending` label. Committee members vote by reacting to this comment:
+   - 👍 = YES
+   - 👎 = NO
+2. **Tally** — Recounts votes each time a comment is posted on the PR. Only reactions from members listed in `.github/CODEOWNERS` are counted. Updates labels and posts a tally comment.
+3. **Resolve or remind** — A daily scheduled job checks PRs older than 48 hours:
+   - **Majority yes** → `ready-to-merge` label, random committee member assigned to merge
+   - **Majority no** → random committee member assigned to close
+   - **No majority** → tags non-voters with a friendly reminder, repeating every 24 hours until majority is reached
 
-| Pattern | Detected source |
-|---------|----------------|
-| `candidates.csv` | project URL |
-| `fetch(`, `axios`, `got(`, `request(` | scraped content |
-| `github.com.*api`, `octokit` | GitHub API |
-| `openai`, `anthropic`, `claude`, `gpt`, `gemini` | LLM analysis |
-| `.csv`, `.json`, `.tsv` (other than candidates.csv) | additional data files |
+**Labels**:
 
-#### Re-runs
-
-If the bot has already run on a PR (matched by PR number), re-triggering it (via the `run-bot` label) **updates the existing entry** in `iterations.json` rather than creating a duplicate. The version number stays the same.
-
-#### Environment variables
-
-The GitHub Action passes these to the bot script:
-
-| Variable | Source |
-|----------|--------|
-| `PR_BODY` | The full PR description (markdown) |
-| `PR_NUMBER` | The PR number (e.g. `3`) |
-| `PR_URL` | The full GitHub URL of the PR |
-| `PR_AUTHOR` | The GitHub username of the PR author |
-
-### Voting Process
-
-Voting happens through **GitHub PR reviews**. The process follows the committee's CODEOWNERS governance model:
-
-1. The bot posts its results comment, which includes a checklist item asking the committee to review and vote
-2. Committee members **approve** or **request changes** on the PR using GitHub's review system
-3. A 48-hour voting window begins when the PR is opened
-4. A PR is merged when it has **majority approval from codeowners** (excluding abstentions)
-5. When merged, the iteration's `pr_status` in `iterations.json` becomes the record of the committee's decision
-
-> **Future automation**: A voting bot could be added to count approvals against the CODEOWNERS list and auto-merge when majority is reached, or to post a running tally as reviews come in. This would live in a separate workflow (e.g. `.github/workflows/voting-bot.yml`) triggered on `pull_request_review` events.
+| Label | Meaning |
+|-------|---------|
+| `vote:pending` | Waiting for votes |
+| `vote:approved` | Majority said yes |
+| `vote:rejected` | Majority said no |
+| `vote:deadline-passed` | 48 hours elapsed |
+| `ready-to-merge` | Approved and ready for manual merge |
 
 ### sync-readme.ts
 
-A utility script that regenerates the **Iterations** section of `README.md` from `iterations.json`. The rest of the README is left untouched.
+Regenerates the **Iterations** section of `README.md` from `iterations.json`. Looks for `<!-- ITERATIONS:START -->` / `<!-- ITERATIONS:END -->` markers and replaces everything between them. The rest of the README is untouched.
 
-#### How it works
-
-The script looks for two HTML comment markers in `README.md`:
-
-```
-<!-- ITERATIONS:START -->
-...everything between these markers is replaced...
-<!-- ITERATIONS:END -->
-```
-
-It generates:
-- A **summary table** of all iterations (version, heuristic, top project, PR link, status)
-- **Detailed entries** for each iteration (most recent first), showing all available fields: top project, heuristic, rationale, data sources, keywords, limitations, author, date, and PR link
-
-#### When it runs
-
-| Context | Who runs it |
-|---------|-------------|
-| **On PRs** | The iteration bot runs it automatically after updating `iterations.json` |
-| **Manually** | Run `npx tsx sync-readme.ts` locally if you've edited `iterations.json` by hand |
+**Runs automatically** as part of the iteration bot. **Run manually** with `npx tsx sync-readme.ts` if you edit `iterations.json` by hand.
 
 ### iterations.json Schema
 
-`iterations.json` is the single source of truth for all iteration metadata. It is consumed by `sync-readme.ts` (to generate the README), the iteration bot (to determine version numbers), and can be consumed by any external system (website, chat bot, etc.).
-
-Each entry:
+Single source of truth for all iteration metadata. Consumed by `sync-readme.ts`, the iteration bot, and any external system (website, chat bot, etc.).
 
 | Field | Type | Set by | Description |
 |-------|------|--------|-------------|
-| `version` | `string` | bot | Version label, e.g. `"v3"`. Auto-assigned based on highest existing version. |
+| `version` | `string` | bot | e.g. `"v3"` — auto-assigned |
 | `date` | `string \| null` | bot | Date the bot ran (YYYY-MM-DD) |
 | `author` | `string \| null` | bot | GitHub username of the PR author |
-| `pr_number` | `number \| null` | bot | GitHub PR number. Also used to detect re-runs. |
-| `pr_url` | `string \| null` | bot | Full URL to the PR |
+| `pr_number` | `number \| null` | bot | PR number (also used for re-run detection) |
+| `pr_url` | `string \| null` | bot | Full PR URL |
 | `pr_status` | `string \| null` | bot / manual | `"open"`, `"merged"`, or `"rejected"` |
-| `top_project` | `object` | bot | `{ name, url, score }` — highest-scoring project under this heuristic |
-| `heuristic` | `string` | bot (from PR) | One-line summary, parsed from the PR's `## Heuristic` section |
-| `rationale` | `string \| null` | bot (from PR) | Parsed from the PR's `## Rationale` section |
+| `top_project` | `object` | bot | `{ name, url, score }` — highest-scoring project |
+| `heuristic` | `string` | bot (from PR) | Parsed from `## Heuristic` |
+| `rationale` | `string \| null` | bot (from PR) | Parsed from `## Rationale` |
 | `data_sources` | `string[] \| null` | bot | Auto-detected from `the-algorithm.ts` |
-| `keywords` | `string[] \| null` | manual | Specific keywords or criteria used, if any |
-| `limitations` | `string \| null` | manual | Known blind spots (author should note in rationale) |
-| `vote_result` | `string \| null` | manual | Outcome of committee vote, if recorded |
-| `assessment_output` | `boolean` | bot / manual | Whether this iteration produces written assessments, not just scores |
+| `keywords` | `string[] \| null` | manual | Specific criteria, if any |
+| `limitations` | `string \| null` | manual | Known blind spots |
+| `vote_result` | `string \| null` | manual | Committee vote outcome |
+| `assessment_output` | `boolean` | bot / manual | Does this iteration produce written assessments? |

@@ -3,9 +3,10 @@
 # ═══════════════════════════════════════════════════════════════════════════════
 #
 # How it works:
-#   1. Someone opens a PR proposing changes to the voting algorithm
+#   1. PR is marked "Ready for review" — voting comment posted with 48hr deadline
 #   2. Committee members (listed in CODEOWNERS) vote via emoji reactions
-#   3. After 48 hours OR when majority is reached, the PR is resolved
+#   3. When majority is reached, the PR is resolved
+#   4. If no majority after 48 hours, non-voters are tagged daily until majority
 #
 # Voting (react to the bot's voting comment):
 #   👍 = YES vote
@@ -24,11 +25,13 @@ name: PR Voting
 
 on:
   pull_request:
-    types: [opened]
+    types: [ready_for_review]  # Start voting when PR is marked ready (after iteration bot runs)
+  pull_request_target:
+    types: [labeled]           # Also start voting when 'start-vote' label is added manually
   issue_comment:
-    types: [created]  # Re-tally when someone comments (as proxy for reaction activity)
+    types: [created]           # Re-tally when someone comments (as proxy for reaction activity)
   schedule:
-    - cron: "0 */6 * * *" # Check for expired deadlines every 6 hours
+    - cron: "0 12 * * *"      # Check daily at noon UTC — nag non-voters every 24 hours
 
 permissions:
   pull-requests: write
@@ -40,7 +43,9 @@ jobs:
   # When a PR is opened, post voting instructions and set initial label
   # ═══════════════════════════════════════════════════════════════════════════
   notify:
-    if: github.event.action == 'opened'
+    if: >
+      github.event.action == 'ready_for_review' ||
+      (github.event.action == 'labeled' && github.event.label.name == 'start-vote')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/github-script@v7
@@ -177,8 +182,8 @@ jobs:
             });
 
   # ═══════════════════════════════════════════════════════════════════════════
-  # JOB 3: DEADLINE
-  # Runs on schedule to close voting on PRs older than 48 hours
+  # JOB 3: DEADLINE + REMINDERS
+  # Runs daily. Resolves PRs that reached majority. Nags non-voters on the rest.
   # ═══════════════════════════════════════════════════════════════════════════
   deadline:
     if: github.event_name == 'schedule'
@@ -196,21 +201,23 @@ jobs:
               ...context.repo,
               state: 'open'
             });
-            const cutoff = Date.now() - 48*60*60*1000; // 48 hours ago
+            const now = Date.now();
+            const cutoff48h = now - 48*60*60*1000;
+            const cutoff24h = now - 24*60*60*1000;
 
             // Get committee from CODEOWNERS
             const codeowners = fs.readFileSync('.github/CODEOWNERS', 'utf8');
             const mentions = codeowners.match(/@[\w-]+/g) || [];
             const members = mentions.map(m => m.slice(1).toLowerCase());
-            const membersOriginal = mentions.map(m => m.slice(1)); // Keep original case for @mentions
+            const membersOriginal = mentions.map(m => m.slice(1));
             const majority = Math.floor(members.length / 2) + 1;
 
             // ─── Process each open PR ───
             for (const pr of openPRs) {
-              // Skip PRs less than 48 hours old
-              if (new Date(pr.created_at) >= cutoff) continue;
+              // Skip PRs less than 48 hours old (voting still in initial window)
+              if (new Date(pr.created_at) >= cutoff48h) continue;
 
-              // Skip PRs already processed
+              // Skip PRs already resolved
               const { data: labels } = await github.rest.issues.listLabelsOnIssue({
                 ...context.repo,
                 issue_number: pr.number
@@ -231,7 +238,7 @@ jobs:
 
               if (!votingComment) continue;
 
-              // ─── Count final votes from emoji reactions ───
+              // ─── Count votes from emoji reactions ───
               const { data: reactions } = await github.rest.reactions.listForIssueComment({
                 ...context.repo,
                 comment_id: votingComment.id
@@ -252,23 +259,15 @@ jobs:
               const yes = Object.values(votes).filter(v => v === 'yes').length;
               const no = Object.values(votes).filter(v => v === 'no').length;
 
-              // Mark voting as closed
-              await github.rest.issues.addLabels({
-                ...context.repo,
-                issue_number: pr.number,
-                labels: ['vote:deadline-passed']
-              });
-
               // ─── Handle outcome ───
-              // Pick a random committee member to take action
               const assignee = membersOriginal[Math.floor(Math.random() * membersOriginal.length)];
 
               if (yes >= majority) {
-                // ✅ APPROVED — assign someone to merge
+                // ✅ APPROVED — resolve and assign someone to merge
                 await github.rest.issues.addLabels({
                   ...context.repo,
                   issue_number: pr.number,
-                  labels: ['ready-to-merge']
+                  labels: ['vote:deadline-passed', 'ready-to-merge']
                 });
                 await github.rest.issues.addAssignees({
                   ...context.repo,
@@ -284,7 +283,12 @@ jobs:
                 });
 
               } else if (no >= majority) {
-                // ❌ REJECTED — assign someone to close
+                // ❌ REJECTED — resolve and assign someone to close
+                await github.rest.issues.addLabels({
+                  ...context.repo,
+                  issue_number: pr.number,
+                  labels: ['vote:deadline-passed']
+                });
                 await github.rest.issues.addAssignees({
                   ...context.repo,
                   issue_number: pr.number,
@@ -299,13 +303,34 @@ jobs:
                 });
 
               } else {
-                // 🤔 NO MAJORITY — needs discussion
+                // 🤔 NO MAJORITY YET — nag non-voters (but only once per 24 hours)
+
+                // Check if we already sent a reminder in the last 24 hours
+                const lastReminder = comments
+                  .filter(c =>
+                    c.user.login === 'github-actions[bot]' &&
+                    c.body.includes('👋 Friendly reminder')
+                  )
+                  .pop(); // most recent
+
+                if (lastReminder && new Date(lastReminder.created_at) >= cutoff24h) {
+                  console.log(`PR #${pr.number}: reminder already sent in last 24h, skipping`);
+                  continue;
+                }
+
+                // Find who hasn't voted
+                const nonVoters = membersOriginal.filter(m =>
+                  !Object.keys(votes).includes(m.toLowerCase())
+                );
+
+                const tags = nonVoters.map(m => `@${m}`).join(' ');
                 await github.rest.issues.createComment({
                   ...context.repo,
                   issue_number: pr.number,
-                  body: `⏰ **Voting closed — NO MAJORITY**\n\n` +
-                        `Final tally: ${yes} 👍, ${no} 👎 (needed ${majority})\n\n` +
-                        `🤔 Committee should discuss and reach consensus.`
+                  body: `👋 **Friendly reminder** — this PR is waiting on votes.\n\n` +
+                        `Current tally: ${yes} 👍, ${no} 👎 (need ${majority} for majority)\n\n` +
+                        `Still waiting on: ${tags}\n\n` +
+                        `React 👍 or 👎 on the [voting comment](${votingComment.html_url}) above.`
                 });
               }
             }
