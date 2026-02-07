@@ -138,7 +138,7 @@ function detectDataSources(): string[] {
   if (/openai|anthropic|claude|gpt|llm|gemini/i.test(code))
     sources.push("LLM analysis");
   // Look for readFileSync/createReadStream of data files, excluding candidates.csv and results.json
-  const dataFileReads = code.replace("candidates.csv", "").replace("results.json", "");
+  const dataFileReads = code.replaceAll("candidates.csv", "").replaceAll("results.json", "");
   if (/readFileSync|createReadStream/.test(dataFileReads) && /\.csv|\.json|\.tsv/i.test(dataFileReads))
     sources.push("additional data files");
 
@@ -218,6 +218,13 @@ function main(): void {
   );
 
   // -------------------------------------------------------------------------
+  // Read committee members from CODEOWNERS
+  // -------------------------------------------------------------------------
+
+  const codeowners = fs.readFileSync(".github/CODEOWNERS", "utf-8");
+  const committeeTags = (codeowners.match(/@[\w-]+/g) || []).join(" ");
+
+  // -------------------------------------------------------------------------
   // Generate bot comment
   // -------------------------------------------------------------------------
 
@@ -275,6 +282,8 @@ ${dataSourcesList}
 
 - [ ] **@${prAuthor}**: Write your assessment — edit the **Assessment** section in the PR description above (you can see the results now!)
 - [ ] **Committee**: Review and vote — approve the PR to merge this iteration
+
+**Committee**: ${committeeTags}
 
 ---
 
