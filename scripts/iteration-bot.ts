@@ -127,7 +127,9 @@ function detectDataSources(): string[] {
     sources.push("GitHub API");
   if (/openai|anthropic|claude|gpt|llm|gemini/i.test(code))
     sources.push("LLM analysis");
-  if (/\.csv|\.json|\.tsv/i.test(code.replace("candidates.csv", "")))
+  // Look for readFileSync/createReadStream of data files, excluding candidates.csv and results.json
+  const dataFileReads = code.replace("candidates.csv", "").replace("results.json", "");
+  if (/readFileSync|createReadStream/.test(dataFileReads) && /\.csv|\.json|\.tsv/i.test(dataFileReads))
     sources.push("additional data files");
 
   if (sources.length === 0) sources.push("project URL");
