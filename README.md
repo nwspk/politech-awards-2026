@@ -36,15 +36,6 @@ Edit `the-algorithm.ts` to add your heuristic, then open a PR.
 |---------|-----------|-------------|-----|--------|
 | v1 | Random score between 1 and 100 | relationaltechproject.org | [v1](https://github.com/nwspk/politech-awards-2026/pull/1) | merged |
 | v2 | Random base score (1-100) + inclusion bonus based on exclusion keywords in URL | dogooder.co | [v2](https://github.com/nwspk/politech-awards-2026/pull/2) | merged |
-| v3 | No heuristic description provided | newpublic.substack.com | [v3](https://github.com/nwspk/politech-awards-2026/pull/4) | open |
-
-### v3
-
-- **Top project**: [newpublic.substack.com](https://newpublic.substack.com/p/introducing-roundabout-built-for) (score: 100)
-- **Heuristic**: No heuristic description provided
-- **Data sources**: project URL, additional data files
-- **Proposed** by sugaroverflow on 2026-02-07
-- **PR**: [v3](https://github.com/nwspk/politech-awards-2026/pull/4) (open)
 
 ### v2
 
