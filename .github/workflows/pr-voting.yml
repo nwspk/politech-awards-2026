@@ -49,13 +49,22 @@ jobs:
       (github.event.action == 'labeled' && github.event.label.name == 'start-vote')
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+
       - uses: actions/github-script@v7
         with:
           script: |
+            const fs = require('fs');
+
             // Calculate deadline (48 hours from now)
             const deadline = new Date(Date.now() + 48*60*60*1000)
               .toISOString()
               .slice(0, 16) + ' UTC';
+
+            // Read committee members from CODEOWNERS
+            const codeowners = fs.readFileSync('.github/CODEOWNERS', 'utf8');
+            const members = codeowners.match(/@[\w-]+/g) || [];
+            const tags = members.join(' ');
 
             // Add the "vote:pending" label
             await github.rest.issues.addLabels({
@@ -69,7 +78,12 @@ jobs:
               ...context.repo,
               issue_number: context.issue.number,
               body: `🗳️ **Voting open until ${deadline}** (48 hours)\n\n` +
-                    `👍 👎 😄 🎉 😕 ❤️ 🚀 👀 — React to cast your vote. Majority required to merge.`
+                    `React to this comment to cast your vote:\n` +
+                    `- 👍 = **YES**\n` +
+                    `- 👎 = **NO**\n` +
+                    `- No reaction = **ABSTAIN**\n\n` +
+                    `Only 👍 and 👎 reactions are counted. Majority required to merge.\n\n` +
+                    `**Committee**: ${tags}`
             });
 
   # ═══════════════════════════════════════════════════════════════════════════
