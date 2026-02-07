@@ -1,0 +1,117 @@
+{
+  "$schema": "Keyword cluster definitions for the Politech Awards 2026 scoring algorithm",
+  "version": "v3",
+  "methodology": "Each cluster is derived from an established UK policy framework. Keyword matches against project URLs produce a weighted bonus score. This is a URL-based proxy heuristic — see 'tradeoffs' for known limitations.",
+  "clusters": [
+    {
+      "id": "digital-inclusion",
+      "name": "Digital Inclusion / Exclusion",
+      "framework": "Good Things Foundation + DCMS Digital Inclusion Strategy (2014, refreshed 2024)",
+      "framework_url": "https://www.gov.uk/government/publications/government-digital-inclusion-strategy",
+      "rationale": "Projects addressing digital exclusion directly target populations unable to access government services online — a core barrier to civic participation.",
+      "weight": 4,
+      "max_bonus": 12,
+      "keywords": [
+        "digital-inclusion",
+        "digital-skills",
+        "connectivity",
+        "broadband",
+        "device-access",
+        "accessibility",
+        "assistive-technology",
+        "digital-divide",
+        "digital-exclusion",
+        "digital-literacy"
+      ]
+    },
+    {
+      "id": "socio-economic-vulnerability",
+      "name": "Socio-economic Vulnerability",
+      "framework": "Joseph Rowntree Foundation (JRF) UK Poverty Framework",
+      "framework_url": "https://www.jrf.org.uk/uk-poverty-2024",
+      "rationale": "Projects serving economically vulnerable populations address structural barriers to political engagement and public service access.",
+      "weight": 4,
+      "max_bonus": 12,
+      "keywords": [
+        "low-income",
+        "poverty",
+        "deprivation",
+        "food-insecurity",
+        "social-housing",
+        "benefits",
+        "universal-credit",
+        "cost-of-living",
+        "debt",
+        "financial-exclusion"
+      ]
+    },
+    {
+      "id": "public-service-access",
+      "name": "Public Service Access / Gov Access",
+      "framework": "Local Government Association (LGA) Digital & Service Transformation frameworks",
+      "framework_url": "https://www.local.gov.uk/our-support/research/research-publications",
+      "rationale": "Projects improving access to public services address the gap between service availability and population reach, especially for those navigating complex bureaucracies.",
+      "weight": 3,
+      "max_bonus": 9,
+      "keywords": [
+        "local-authority",
+        "council",
+        "public-health",
+        "nhs",
+        "welfare",
+        "casework",
+        "legal-aid",
+        "citizen",
+        "gov",
+        "public-service"
+      ]
+    },
+    {
+      "id": "marginalised-communities",
+      "name": "Marginalised Communities",
+      "framework": "Equality Act 2010 Protected Characteristics + Social Exclusion Unit legacy categories",
+      "framework_url": "https://www.legislation.gov.uk/ukpga/2010/15/contents",
+      "rationale": "Projects serving communities that face structural discrimination are directly relevant to political technology's mission of equitable civic participation.",
+      "weight": 5,
+      "max_bonus": 15,
+      "keywords": [
+        "refugee",
+        "migrant",
+        "asylum",
+        "disabled",
+        "disability",
+        "care-leaver",
+        "domestic-violence",
+        "homelessness",
+        "homeless",
+        "trafficking",
+        "modern-slavery"
+      ]
+    }
+  ],
+  "tradeoffs": {
+    "false_positives": [
+      "URL substring matching is context-blind: 'benefits' could mean employee benefits rather than welfare benefits",
+      "'council' could appear in non-UK contexts (e.g. 'council-of-europe' unrelated to local authority services)",
+      "'nhs' could match in unrelated strings (e.g. a domain containing 'nhs' by coincidence)",
+      "'gov' will match any .gov domain regardless of whether the project improves public access",
+      "'debt' may appear in financial industry projects unrelated to poverty",
+      "Projects with keyword-rich URLs may score highly without actually serving the target population"
+    ],
+    "false_negatives": [
+      "Projects genuinely addressing exclusion may not have relevant keywords in their URL",
+      "URL-based matching cannot assess project quality, reach, or actual impact",
+      "Hyphenated keywords (e.g. 'digital-inclusion') may not match URLs using other separators like underscores or camelCase",
+      "Non-English project URLs will not match English-language keywords",
+      "Abbreviated or colloquial terms (e.g. 'UC' for Universal Credit, 'DV' for domestic violence) are not matched"
+    ],
+    "mitigations": [
+      "Random base score (1-100) ensures non-matching projects still receive a meaningful score",
+      "Per-cluster caps prevent any single cluster from dominating the total bonus",
+      "Match details are included in results.json for full transparency and auditability",
+      "Keyword clusters and weights are stored in a separate, human-readable JSON file for independent inspection",
+      "Each cluster cites a specific policy framework, making the political assumptions explicit and contestable",
+      "The committee can adjust weights, caps, and keywords via PR — each change goes through the voting process"
+    ]
+  }
+}
