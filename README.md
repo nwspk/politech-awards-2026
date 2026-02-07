@@ -57,7 +57,7 @@ To add a new data source (scraped content, API data, survey results, etc.), use 
 
 - **Top project**: [dogooder.co](https://dogooder.co) (score: 100)
 - **Heuristic**: Random base score (1-100) + inclusion bonus based on exclusion keywords in URL
-- **Rationale**: The exclusion-focused scoring heuristic is intentionally a first pass: a keyword-based bonus derived from the project URL. It's meant to make political values legible and contestable, not definitive. The heuristic biases scores toward projects addressing populations most likely to be excluded from government services (inspired by GovCamp digital inclusion discussions).
+- **Rationale**: The exclusion-focused scoring heuristic is intentionally crude: a keyword-based bonus derived from the project URL. It's meant to make political values legible and contestable, not definitive. The heuristic biases scores toward projects addressing populations most likely to be excluded from government services (inspired by GovCamp digital inclusion discussions).
 - **Data sources**: project URL
 - **Keywords**: benefits, housing, refugee, migrant, asylum, eviction, homeless, disability, accessibility, low-income
 - **Limitations**: Only matches keywords in the URL string itself, not in actual project content. Many relevant projects won't have these keywords in their URL.
