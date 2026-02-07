@@ -215,7 +215,13 @@ function main(): void {
     )
     .join("\n");
 
-  const dataSourcesList = dataSources.map((s) => `- ${s}`).join("\n");
+  const dataSourcesList = dataSources
+    .map((s) =>
+      s === "project URL"
+        ? `- [project URL](candidates.csv)`
+        : `- ${s}`
+    )
+    .join("\n");
 
   const comment = `## Iteration Bot Results
 
