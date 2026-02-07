@@ -97,11 +97,21 @@ function getNextVersion(iterations: Iteration[]): string {
 // Results analysis
 // ---------------------------------------------------------------------------
 
-function getTopProjects(n: number): ResultEntry[] {
-  const results: ResultEntry[] = JSON.parse(
-    fs.readFileSync("results.json", "utf-8")
-  );
+function getAllResults(): ResultEntry[] {
+  return JSON.parse(fs.readFileSync("results.json", "utf-8"));
+}
+
+function getTopProjects(results: ResultEntry[], n: number): ResultEntry[] {
   return results.slice(0, n);
+}
+
+function getMiddleProjects(results: ResultEntry[], n: number): ResultEntry[] {
+  const midStart = Math.floor((results.length - n) / 2);
+  return results.slice(midStart, midStart + n);
+}
+
+function getBottomProjects(results: ResultEntry[], n: number): ResultEntry[] {
+  return results.slice(-n);
 }
 
 function projectName(url: string): string {
@@ -164,7 +174,10 @@ function main(): void {
       : getNextVersion(iterations);
 
   // Run results
-  const topProjects = getTopProjects(5);
+  const allResults = getAllResults();
+  const topProjects = getTopProjects(allResults, 5);
+  const midProjects = getMiddleProjects(allResults, 5);
+  const bottomProjects = getBottomProjects(allResults, 5);
   const topProject = topProjects[0];
   const dataSources = detectDataSources();
 
@@ -208,12 +221,19 @@ function main(): void {
   // Generate bot comment
   // -------------------------------------------------------------------------
 
-  const topTable = topProjects
-    .map(
-      (p, i) =>
-        `| ${i + 1} | [${projectName(p.url)}](${p.url}) | ${p.score} |`
-    )
-    .join("\n");
+  const formatTable = (projects: ResultEntry[], startRank: number) =>
+    projects
+      .map(
+        (p, i) =>
+          `| ${startRank + i} | [${projectName(p.url)}](${p.url}) | ${p.score} |`
+      )
+      .join("\n");
+
+  const topTable = formatTable(topProjects, 1);
+  const midStartRank = Math.floor((allResults.length - 5) / 2) + 1;
+  const midTable = formatTable(midProjects, midStartRank);
+  const bottomStartRank = allResults.length - 4;
+  const bottomTable = formatTable(bottomProjects, bottomStartRank);
 
   const dataSourcesList = dataSources
     .map((s) =>
@@ -227,7 +247,7 @@ function main(): void {
 
 **Version**: ${version} (auto-assigned)
 **Author**: @${prAuthor}
-**Algorithm run**: Complete
+**Algorithm run**: Complete — ${allResults.length} projects scored
 
 ### Top 5 Projects
 
@@ -235,13 +255,25 @@ function main(): void {
 |------|---------|-------|
 ${topTable}
 
+### Middle 5 Projects
+
+| Rank | Project | Score |
+|------|---------|-------|
+${midTable}
+
+### Bottom 5 Projects
+
+| Rank | Project | Score |
+|------|---------|-------|
+${bottomTable}
+
 ### Data Sources Detected
 
 ${dataSourcesList}
 
 ### Next Steps
 
-- [ ] **@${prAuthor}**: Add a written assessment for the top-scoring project(s) if you'd like
+- [ ] **@${prAuthor}**: Write your assessment — edit the **Assessment** section in the PR description above (you can see the results now!)
 - [ ] **Committee**: Review and vote — approve the PR to merge this iteration
 
 ---
