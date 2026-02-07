@@ -25,7 +25,7 @@ name: PR Voting
 
 on:
   pull_request:
-    types: [ready_for_review]  # Start voting when PR is marked ready (after iteration bot runs)
+    types: [opened, ready_for_review]  # Start voting when PR is opened or marked ready
   pull_request_target:
     types: [labeled]           # Also start voting when 'start-vote' label is added manually
   issue_comment:
@@ -44,6 +44,7 @@ jobs:
   # ═══════════════════════════════════════════════════════════════════════════
   notify:
     if: >
+      (github.event.action == 'opened' && github.event.pull_request.draft == false) ||
       github.event.action == 'ready_for_review' ||
       (github.event.action == 'labeled' && github.event.label.name == 'start-vote')
     runs-on: ubuntu-latest

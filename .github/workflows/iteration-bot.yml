@@ -2,14 +2,14 @@ name: Iteration Bot
 
 on:
   pull_request:
-    types: [ready_for_review, labeled]
+    types: [opened, ready_for_review, labeled]
 
 jobs:
   iteration-bot:
-    # Runs when a PR is marked ready for review, or when 'run-bot' label is added
     if: >
       github.event.pull_request.draft == false &&
       (
+        github.event.action == 'opened' ||
         github.event.action == 'ready_for_review' ||
         (github.event.action == 'labeled' && github.event.label.name == 'run-bot')
       )
