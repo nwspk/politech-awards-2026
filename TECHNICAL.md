@@ -55,6 +55,35 @@ Regenerates the **Iterations** section of `README.md` from `iterations.json`. Fi
 
 Runs automatically as part of the iteration bot. Run manually with `npx tsx sync-readme.ts`.
 
+## Cache Sites
+
+`scripts/cache-sites.ts` fetches each URL in `candidates.csv` and stores the HTML in a SQLite database at `cache/sites.sqlite`.
+
+Run manually:
+
+`npx tsx scripts/cache-sites.ts`
+
+Or via npm:
+
+`npm run cache:sites`
+
+Notes:
+- Re-fetch everything by deleting `cache/sites.sqlite`
+- Requests time out after 15000ms
+- Re-try failed URLs with `npm run cache:sites:retry`
+
+## Read Cache
+
+`scripts/read-cache.ts` serves a cached HTML page from the SQLite database so it can be opened in a browser.
+
+Run manually:
+
+`npx tsx scripts/read-cache.ts <url> [port]`
+
+Or via npm:
+
+`npm run cache:read -- <url> [port]`
+
 ## iterations.json Schema
 
 Source of truth for all iteration metadata.

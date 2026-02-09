@@ -1,5 +1,7 @@
 import * as fs from 'fs';
 import csv from 'csv-parser';
+import Database from 'better-sqlite3';
+import path from 'path';
 
 interface Candidate {
     url: string;
@@ -52,9 +54,96 @@ function heuristicV2(url: string): number {
     return baseScore + inclusionBonus;
 }
 
+
+// --- v3 ---
+// fetch information added
+// we can now check if the project is live and accessible
+// we can now reward projects that describe their project well.
+
+// heuristic function as non-random version of heuristicV2; 
+// with a penalty for failing to fetch, and a bonus for containing 
+// body terms. This example uses AI-related keywords.
+
+function readCacheSignals(): {
+    isFailed(url: string): boolean;
+    bodyFor(url: string): string;
+    close(): void;
+} {
+    const db = new Database(path.resolve('cache', 'sites.sqlite'), {readonly: true});
+
+    const failedRows = db
+      .prepare('SELECT url FROM pages WHERE error IS NOT NULL')
+      .all() as Array<{ url: string }>;
+
+      const failedSet = new Set(failedRows.map(row => row.url));
+
+      const bodyStmt = db.prepare('SELECT body FROM pages WHERE url = ?')
+
+      return {
+        isFailed(url: string): boolean {
+            return failedSet.has(url);
+        },
+        bodyFor(url: string): string {
+            const row = bodyStmt.get(url) as {body?: string | null};
+            return row?.body ?? '';
+        },
+        close(): void {
+            db.close();
+            }
+        };
+}
+
+function calculateFailedPenalty(url: string): number {
+    const fetchCache = readCacheSignals();
+    return fetchCache.isFailed(url) ? 10 : 0;
+}
+
+
+function calculateAIBonus(url: string): number {
+    const fetchCache = readCacheSignals();
+    const fetchBody = fetchCache.bodyFor(url);
+
+    const AI_KEYWORDS = [
+        'Artificial Intelligence',
+        'existential',
+        'systemic',
+        'impact',
+        'tractability',
+        'neglectedness',
+        'AI alignment',
+        'AI governance',
+        'AI policy',
+        'AI regulation',
+        'AI ethics',
+        'AI safety',
+        'AI risk',
+        'alignment',
+    ].map(keyword => keyword.toLowerCase());
+
+    return Math.min(3, AI_KEYWORDS
+    .filter(
+        keyword => fetchBody.toLowerCase().includes(keyword.toLowerCase())
+    ).length) * 5;  // same rules as exclusionScoreV2
+}
+
+function fetchInformationHeuristic(url: string): number {
+    const baseScore = 50;  // non-random base score
+
+    // continues to reward projects that address excluded populations
+    const inclusivityBonus = exclusionScoreV2(url);
+
+    // penalizes projects that have failed to fetch (indicates project is not live and accessible)
+    const failedPenalty = calculateFailedPenalty(url);
+    
+    // awards projects that contain AI-related keywords in the body
+    const AIBonus = calculateAIBonus(url);
+
+    return baseScore + inclusivityBonus - failedPenalty + AIBonus;
+}
+
 // select which heuristic version to use
 // change this to switch between versions
-const CURRENT_HEURISTIC: ScoringFunction = heuristicV2;
+const CURRENT_HEURISTIC: ScoringFunction = fetchInformationHeuristic;
 
 // process candidates from CSV and score them
 function processCandidates(scoringFunction: ScoringFunction): Promise<Candidate[]> {
