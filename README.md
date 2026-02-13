@@ -36,6 +36,34 @@ Edit `the-algorithm.ts` to add your heuristic, then open a PR.
 |---------|-----------|-------------|-----|--------|
 | v1 | Random score between 1 and 100 | relationaltechproject.org | [v1](https://github.com/nwspk/politech-awards-2026/pull/1) | merged |
 | v2 | Random base score (1-100) + inclusion bonus based on exclusion keywords in URL | dogooder.co | [v2](https://github.com/nwspk/politech-awards-2026/pull/2) | merged |
+| v3 | Removing the random scoring tilt mechanism by trying to score projects by keyword clusters. Each project receives points if the URL (the only data we currently have) matches across the 4 policy-framework-aligned keyword clusters. | benefits-calculator.turn2us.org.uk | [v3](https://github.com/nwspk/politech-awards-2026/pull/6) | open |
+| v4 | Removing the random scoring tilt mechanism by trying to score projects by keyword clusters. Each project receives points if the URL (the only data we currently have) matches across the 4 policy-framework-aligned keyword clusters. | benefits-calculator.turn2us.org.uk | [v4](https://github.com/nwspk/politech-awards-2026/pull/7) | open |
+
+### v4
+
+- **Top project**: [benefits-calculator.turn2us.org.uk](https://benefits-calculator.turn2us.org.uk) (score: 11)
+- **Heuristic**: Removing the random scoring tilt mechanism by trying to score projects by keyword clusters. Each project receives points if the URL (the only data we currently have) matches across the 4 policy-framework-aligned keyword clusters.
+- **Rationale**: v2 showed that keyword matching against URLs can surface relevant projects — but the random base score meant that it was different each time it was run, which isn't very reliable. This iteration removes randomness entirely to ask:  
+
+**what can keyword clusters alone tell us about 321 projects when our only data source is a URL string?**
+
+It turns out the answer is: almost nothing. Only 2 of 321 projects score above baseline. We can probably consider this a failure of our dataset which is only URLs.
+- **Data sources**: project URL, additional data files
+- **Proposed** by sugaroverflow on 2026-02-07
+- **PR**: [v4](https://github.com/nwspk/politech-awards-2026/pull/7) (open)
+
+### v3
+
+- **Top project**: [benefits-calculator.turn2us.org.uk](https://benefits-calculator.turn2us.org.uk) (score: 11)
+- **Heuristic**: Removing the random scoring tilt mechanism by trying to score projects by keyword clusters. Each project receives points if the URL (the only data we currently have) matches across the 4 policy-framework-aligned keyword clusters.
+- **Rationale**: v2 showed that keyword matching against URLs can surface relevant projects — but the random base score meant that it was different each time it was run, which isn't very reliable. This iteration removes randomness entirely to ask:  
+
+**what can keyword clusters alone tell us about 321 projects when our only data source is a URL string?**
+
+It turns out the answer is: almost nothing. Only 2 of 321 projects score above baseline. We can probably consider this a failure of our dataset which is only URLs.
+- **Data sources**: project URL, additional data files
+- **Proposed** by sugaroverflow on 2026-02-07
+- **PR**: [v3](https://github.com/nwspk/politech-awards-2026/pull/6) (open)
 
 ### v2
 
