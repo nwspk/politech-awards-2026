@@ -54,16 +54,114 @@ function heuristicV2(url: string): number {
     return baseScore + inclusionBonus;
 }
 
+// --- v3a (from main): deterministic keyword-cluster scoring ---
+// URL-only matching across four policy-framework-aligned clusters.
+interface KeywordCluster {
+    name: string;
+    framework: string;
+    frameworkUrl: string;
+    keywords: string[];
+    pointsPerMatch: number;
+    maxPoints: number;
+}
 
-// --- v3 ---
-// fetch information added
-// we can now check if the project is live and accessible
-// we can now reward projects that describe their project well.
+const KEYWORD_CLUSTERS_V3: KeywordCluster[] = [
+    {
+        name: "Digital Inclusion",
+        framework: "DCMS Digital Inclusion Strategy 2014; Good Things Foundation",
+        frameworkUrl: "https://www.gov.uk/government/publications/government-digital-inclusion-strategy",
+        keywords: [
+            "digital inclusion",
+            "digital skills",
+            "connectivity",
+            "broadband access",
+            "device access",
+            "accessibility",
+            "assistive technology"
+        ],
+        pointsPerMatch: 10,
+        maxPoints: 25
+    },
+    {
+        name: "Socio-economic Vulnerability",
+        framework: "Joseph Rowntree Foundation poverty framing",
+        frameworkUrl: "https://www.jrf.org.uk/",
+        keywords: [
+            "low income",
+            "poverty",
+            "deprivation",
+            "food insecurity",
+            "social housing",
+            "benefits",
+            "universal credit"
+        ],
+        pointsPerMatch: 10,
+        maxPoints: 25
+    },
+    {
+        name: "Public Service Access",
+        framework: "GOV.UK Service Standard",
+        frameworkUrl: "https://www.gov.uk/service-manual/service-standard",
+        keywords: [
+            "local authority",
+            "council services",
+            "public health",
+            "nhs",
+            "welfare",
+            "casework",
+            "legal aid"
+        ],
+        pointsPerMatch: 10,
+        maxPoints: 25
+    },
+    {
+        name: "Marginalised Communities",
+        framework: "Equality Act 2010 protected characteristics",
+        frameworkUrl: "https://www.legislation.gov.uk/ukpga/2010/15/contents",
+        keywords: [
+            "refugees",
+            "migrants",
+            "asylum",
+            "disabled",
+            "care leavers",
+            "domestic violence",
+            "homelessness"
+        ],
+        pointsPerMatch: 10,
+        maxPoints: 25
+    }
+];
 
-// heuristic function as non-random version of heuristicV2; 
-// with a penalty for failing to fetch, and a bonus for containing 
-// body terms. This example uses AI-related keywords.
+const BASELINE_SCORE_V3 = 1;
 
+function clusterScore(url: string, cluster: KeywordCluster): number {
+    const lower = url.toLowerCase();
+    let points = 0;
+    for (const keyword of cluster.keywords) {
+        const normalised = keyword.toLowerCase();
+        const hyphenated = normalised.replace(/ /g, "-");
+        const compounded = normalised.replace(/ /g, "");
+        if (
+            lower.includes(normalised) ||
+            lower.includes(hyphenated) ||
+            lower.includes(compounded)
+        ) {
+            points += cluster.pointsPerMatch;
+        }
+    }
+    return Math.min(points, cluster.maxPoints);
+}
+
+function heuristicV3(url: string): number {
+    let score = BASELINE_SCORE_V3;
+    for (const cluster of KEYWORD_CLUSTERS_V3) {
+        score += clusterScore(url, cluster);
+    }
+    return score;
+}
+
+// --- v3b: fetch information heuristic ---
+// Uses cache to check if project is live and rewards AI-related keywords in body.
 function readCacheSignals(): {
     isFailed(url: string): boolean;
     bodyFor(url: string): string;
@@ -143,6 +241,8 @@ function fetchInformationHeuristic(url: string): number {
 
 // select which heuristic version to use
 // change this to switch between versions
+// heuristicV3: deterministic URL keyword-cluster scoring (from main)
+// fetchInformationHeuristic: cache-based, AI bonus, fetch-failure penalty
 const CURRENT_HEURISTIC: ScoringFunction = fetchInformationHeuristic;
 
 // process candidates from CSV and score them
