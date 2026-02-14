@@ -2,8 +2,17 @@
   "name": "politech-awards-2026",
   "version": "1.0.0",
   "type": "module",
+  "scripts": {
+    "cache:sites": "npx tsx scripts/cache-sites.ts",
+    "cache:sites:retry": "npx tsx scripts/cache-sites.ts --retry-failed",
+    "cache:read": "npx tsx scripts/read-cache.ts"
+  },
   "devDependencies": {
+    "@types/node": "^25.2.2",
+    "better-sqlite3": "^12.6.2",
     "csv-parser": "^3.2.0",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
   }
 }
