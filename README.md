@@ -1,14 +1,18 @@
 # Political Technology Awards 2026
 
-An open-source evaluation of 321 political technology projects by the [Newspeak House](https://newspeak.house) fellowship cohort.
+The Political Technology Awards is an open evaluation exercise run by the 2025–26 [Newspeak House](https://newspeak.house) fellowship cohort. We're building a public, inspectable ranking of civic and political technology projects — the kind of tools that help citizens understand institutions, participate in democracy, and hold power to account.
 
-The committee iterates on a scoring algorithm through pull requests. Each PR proposes a new heuristic that scores projects from the [longlist](candidates.csv). The timeline of proposals forms the basis of the committee's public statement on process and legitimacy.
+**How we evaluate:** We use a scoring algorithm that evolves over time. Each version applies different heuristics (governance signals, civic impact, data completeness, etc.) and produces a ranked list from our [longlist](candidates.csv) of 321 projects. The algorithm lives in this repo; you can inspect the code, the pull requests, and the rationale for every change. We may add written assessments per project as the evaluation matures.
+
+**Why this matters:** Rankings are political. By making our process transparent and iterative, we hope to surface both strong projects and the tradeoffs inherent in any evaluation framework.
+
+The committee iterates on the algorithm through pull requests. Each PR proposes a new heuristic; the timeline of proposals forms the basis of our public statement on process and legitimacy.
 
 ## How It Works
 
 1. **Propose** — Open a PR with your scoring idea (the template auto-fills). You don't need to write code — describe your heuristic and tag someone for help.
 2. **Bot runs** — When the PR is marked "Ready for review", a bot runs the algorithm, posts results, and assigns a version number.
-3. **Vote** — Committee members vote with 👍 / 👎 on the voting comment. Majority required within 48 hours.
+3. **Vote** — Committee members vote with 👍 / 👎 on the voting comment. Majority of those who vote wins; abstentions don't count. PR author (if in the committee) counts as yes when abstaining.
 4. **Merge or close** — Approved PRs get merged; rejected ones get closed.
 
 ## Contents
@@ -32,25 +36,11 @@ Edit `the-algorithm.ts` to add your heuristic, then open a PR.
 
 <!-- ITERATIONS:START -->
 
-| Version | Heuristic | Top Project | PR | Status |
-|---------|-----------|-------------|-----|--------|
-| v1 | Random score between 1 and 100 | relationaltechproject.org | [v1](https://github.com/nwspk/politech-awards-2026/pull/1) | merged |
-| v2 | Random base score (1-100) + inclusion bonus based on exclusion keywords in URL | dogooder.co | [v2](https://github.com/nwspk/politech-awards-2026/pull/2) | merged |
-| v3 | Removing the random scoring tilt mechanism by trying to score projects by keyword clusters. Each project receives points if the URL (the only data we currently have) matches across the 4 policy-framework-aligned keyword clusters. | benefits-calculator.turn2us.org.uk | [v3](https://github.com/nwspk/politech-awards-2026/pull/6) | open |
-| v4 | Removing the random scoring tilt mechanism by trying to score projects by keyword clusters. Each project receives points if the URL (the only data we currently have) matches across the 4 policy-framework-aligned keyword clusters. | benefits-calculator.turn2us.org.uk | [v4](https://github.com/nwspk/politech-awards-2026/pull/7) | open |
-
-### v4
-
-- **Top project**: [benefits-calculator.turn2us.org.uk](https://benefits-calculator.turn2us.org.uk) (score: 11)
-- **Heuristic**: Removing the random scoring tilt mechanism by trying to score projects by keyword clusters. Each project receives points if the URL (the only data we currently have) matches across the 4 policy-framework-aligned keyword clusters.
-- **Rationale**: v2 showed that keyword matching against URLs can surface relevant projects — but the random base score meant that it was different each time it was run, which isn't very reliable. This iteration removes randomness entirely to ask:  
-
-**what can keyword clusters alone tell us about 321 projects when our only data source is a URL string?**
-
-It turns out the answer is: almost nothing. Only 2 of 321 projects score above baseline. We can probably consider this a failure of our dataset which is only URLs.
-- **Data sources**: project URL, additional data files
-- **Proposed** by sugaroverflow on 2026-02-07
-- **PR**: [v4](https://github.com/nwspk/politech-awards-2026/pull/7) (open)
+| Version | Heuristic                                                                                                                                                                                                                             | Top Project                        | PR                                                         | Status |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- | ---------------------------------------------------------- | ------ |
+| v1      | Random score between 1 and 100                                                                                                                                                                                                        | relationaltechproject.org          | [v1](https://github.com/nwspk/politech-awards-2026/pull/1) | merged |
+| v2      | Random base score (1-100) + inclusion bonus based on exclusion keywords in URL                                                                                                                                                        | dogooder.co                        | [v2](https://github.com/nwspk/politech-awards-2026/pull/2) | merged |
+| v3      | Removing the random scoring tilt mechanism by trying to score projects by keyword clusters. Each project receives points if the URL (the only data we currently have) matches across the 4 policy-framework-aligned keyword clusters. | benefits-calculator.turn2us.org.uk | [v3](https://github.com/nwspk/politech-awards-2026/pull/7) | merged |
 
 ### v3
 
@@ -63,7 +53,7 @@ It turns out the answer is: almost nothing. Only 2 of 321 projects score above b
 It turns out the answer is: almost nothing. Only 2 of 321 projects score above baseline. We can probably consider this a failure of our dataset which is only URLs.
 - **Data sources**: project URL, additional data files
 - **Proposed** by sugaroverflow on 2026-02-07
-- **PR**: [v3](https://github.com/nwspk/politech-awards-2026/pull/6) (open)
+- **PR**: [v3](https://github.com/nwspk/politech-awards-2026/pull/7) (merged)
 
 ### v2
 
