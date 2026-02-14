@@ -36,12 +36,12 @@ Edit `the-algorithm.ts` to add your heuristic, then open a PR.
 
 <!-- ITERATIONS:START -->
 
-| Version | Heuristic | Top Project | PR | Status |
-|---------|-----------|-------------|-----|--------|
-| v1 | Random score between 1 and 100 | relationaltechproject.org | [v1](https://github.com/nwspk/politech-awards-2026/pull/1) | merged |
-| v2 | Random base score (1-100) + inclusion bonus based on exclusion keywords in URL | dogooder.co | [v2](https://github.com/nwspk/politech-awards-2026/pull/2) | merged |
-| v3 | Removing the random scoring tilt mechanism by trying to score projects by keyword clusters. Each project receives points if the URL (the only data we currently have) matches across the 4 policy-framework-aligned keyword clusters. | benefits-calculator.turn2us.org.uk | [v3](https://github.com/nwspk/politech-awards-2026/pull/6) | open |
-| v4 | Base score (50) + inclusion bonus (URL keywords) − fetch-failure penalty (10) + AI-body bonus (up to 15). Uses cached page fetches to penalise dead/inaccessible sites and reward projects whose page content mentions AI governance, safety, or policy keywords. | algorithmwatch.org | [v4](https://github.com/nwspk/politech-awards-2026/pull/9) | open |
+| Version | Heuristic | Top Project | PR |
+|---------|-----------|-------------|-----|
+| v1 | Random score between 1 and 100 | relationaltechproject.org | [v1](https://github.com/nwspk/politech-awards-2026/pull/1) |
+| v2 | Random base score (1-100) + inclusion bonus based on exclusion keywords in URL | dogooder.co | [v2](https://github.com/nwspk/politech-awards-2026/pull/2) |
+| v3 | Removing the random scoring tilt mechanism by trying to score projects by keyword clusters. Each project receives points if the URL (the only data we currently have) matches across the 4 policy-framework-aligned keyword clusters. | benefits-calculator.turn2us.org.uk | [v3](https://github.com/nwspk/politech-awards-2026/pull/7) |
+| v4 | Base score (50) + inclusion bonus (URL keywords) − fetch-failure penalty (10) + AI-body bonus (up to 15). Uses cached page fetches to penalise dead/inaccessible sites and reward projects whose page content mentions AI governance, safety, or policy keywords. | algorithmwatch.org | [v4](https://github.com/nwspk/politech-awards-2026/pull/9) |
 
 ### v4
 
@@ -52,20 +52,20 @@ Edit `the-algorithm.ts` to add your heuristic, then open a PR.
 - **Keywords**: benefits, housing, refugee, migrant, asylum, eviction, homeless, disability, accessibility, low-income, AI alignment, AI governance, AI safety
 - **Limitations**: Requires cache to be populated (npm run cache:sites). AI bonus capped at 3 keyword matches × 5 points.
 - **Proposed** by jcoombes on 2026-02-13
-- **PR**: [v4](https://github.com/nwspk/politech-awards-2026/pull/9) (open)
+- **PR**: [v4](https://github.com/nwspk/politech-awards-2026/pull/9)
 
 ### v3
 
 - **Top project**: [benefits-calculator.turn2us.org.uk](https://benefits-calculator.turn2us.org.uk) (score: 11)
 - **Heuristic**: Removing the random scoring tilt mechanism by trying to score projects by keyword clusters. Each project receives points if the URL (the only data we currently have) matches across the 4 policy-framework-aligned keyword clusters.
-- **Rationale**: v2 showed that keyword matching against URLs can surface relevant projects — but the random base score meant that it was different each time it was run, which isn't very reliable. This iteration removes randomness entirely to ask: 
+- **Rationale**: v2 showed that keyword matching against URLs can surface relevant projects — but the random base score meant that it was different each time it was run, which isn't very reliable. This iteration removes randomness entirely to ask:  
 
 **what can keyword clusters alone tell us about 321 projects when our only data source is a URL string?**
 
 It turns out the answer is: almost nothing. Only 2 of 321 projects score above baseline. We can probably consider this a failure of our dataset which is only URLs.
 - **Data sources**: project URL, additional data files
 - **Proposed** by sugaroverflow on 2026-02-07
-- **PR**: [v3](https://github.com/nwspk/politech-awards-2026/pull/6) (open)
+- **PR**: [v3](https://github.com/nwspk/politech-awards-2026/pull/7)
 
 ### v2
 
@@ -76,7 +76,7 @@ It turns out the answer is: almost nothing. Only 2 of 321 projects score above b
 - **Keywords**: benefits, housing, refugee, migrant, asylum, eviction, homeless, disability, accessibility, low-income
 - **Limitations**: Only matches keywords in the URL string itself, not in actual project content. Many relevant projects won't have these keywords in their URL.
 - **Proposed** by Asil on 2026-02-04
-- **PR**: [v2](https://github.com/nwspk/politech-awards-2026/pull/2) (merged)
+- **PR**: [v2](https://github.com/nwspk/politech-awards-2026/pull/2)
 
 ### v1
 
@@ -84,6 +84,6 @@ It turns out the answer is: almost nothing. Only 2 of 321 projects score above b
 - **Heuristic**: Random score between 1 and 100
 - **Data sources**: project URL
 - **Limitations**: Entirely random; no meaningful evaluation of projects.
-- **PR**: [v1](https://github.com/nwspk/politech-awards-2026/pull/1) (merged)
+- **PR**: [v1](https://github.com/nwspk/politech-awards-2026/pull/1)
 
 <!-- ITERATIONS:END -->

@@ -99,12 +99,7 @@ function formatIteration(iteration: Iteration): string {
 
   // PR link
   if (iteration.pr_url) {
-    const statusBadge = iteration.pr_status
-      ? ` (${iteration.pr_status})`
-      : "";
-    lines.push(
-      `- **PR**: [${iteration.version}](${iteration.pr_url})${statusBadge}`
-    );
+    lines.push(`- **PR**: [${iteration.version}](${iteration.pr_url})`);
   }
 
   return lines.join("\n");
@@ -117,17 +112,16 @@ function generateIterationsSection(iterations: Iteration[]): string {
   parts.push("");
 
   // summary table
-  parts.push("| Version | Heuristic | Top Project | PR | Status |");
-  parts.push("|---------|-----------|-------------|-----|--------|");
+  parts.push("| Version | Heuristic | Top Project | PR |");
+  parts.push("|---------|-----------|-------------|-----|");
 
   for (const iter of iterations) {
     const prLink = iter.pr_url
       ? `[${iter.version}](${iter.pr_url})`
       : "—";
-    const status = iter.pr_status || "—";
     const topName = iter.top_project.name;
     parts.push(
-      `| ${iter.version} | ${iter.heuristic} | ${topName} | ${prLink} | ${status} |`
+      `| ${iter.version} | ${iter.heuristic} | ${topName} | ${prLink} |`
     );
   }
 
