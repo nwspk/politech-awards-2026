@@ -3,8 +3,8 @@
 # ═══════════════════════════════════════════════════════════════════════════════
 #
 # This file defines the committee members who must review and vote on all PRs.
-# Each PR represents an iteration on the voting mechanism and requires majority
-# approval within 48 hours to be merged.
+# Each PR represents an iteration. Committee members vote; majority of voters
+# decides within 48 hours. PR author counts as yes if in committee.
 #
 # Add committee members by their GitHub username (prefixed with @)
 # ═══════════════════════════════════════════════════════════════════════════════
