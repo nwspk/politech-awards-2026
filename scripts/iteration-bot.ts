@@ -44,8 +44,8 @@ interface Iteration {
   data_sources: string[] | null;
   keywords: string[] | null;
   limitations: string | null;
+  assessment: string | null;
   vote_result: string | null;
-  assessment_output: boolean;
 }
 
 interface ResultEntry {
@@ -74,10 +74,14 @@ function extractSection(body: string, heading: string): string {
 function parsePRBody(body: string): {
   heuristic: string;
   rationale: string;
+  limitations: string;
+  assessment: string;
 } {
   return {
     heuristic: extractSection(body, "Heuristic"),
     rationale: extractSection(body, "Rationale"),
+    limitations: extractSection(body, "Limitations"),
+    assessment: extractSection(body, "Assessment"),
   };
 }
 
@@ -165,7 +169,8 @@ function main(): void {
   const existingIdx = iterations.findIndex((i) => i.pr_number === prNumber);
 
   // Parse PR description
-  const { heuristic, rationale } = parsePRBody(prBody);
+  const { heuristic, rationale, limitations, assessment } =
+    parsePRBody(prBody);
 
   // Determine version
   const version =
@@ -198,9 +203,9 @@ function main(): void {
     rationale: rationale || null,
     data_sources: dataSources,
     keywords: null,
-    limitations: null,
+    limitations: limitations || null,
+    assessment: assessment || null,
     vote_result: null,
-    assessment_output: false,
   };
 
   // Insert or update
@@ -216,6 +221,20 @@ function main(): void {
     "iterations.json",
     JSON.stringify(iterations, null, 2) + "\n"
   );
+
+  // -------------------------------------------------------------------------
+  // Write versioned results to results/{version}.json
+  // -------------------------------------------------------------------------
+
+  if (!fs.existsSync("results")) {
+    fs.mkdirSync("results", { recursive: true });
+  }
+  const resultsPath = `results/${version}.json`;
+  fs.writeFileSync(
+    resultsPath,
+    JSON.stringify(allResults, null, 2) + "\n"
+  );
+  console.log(`✓ Results written to ${resultsPath}`);
 
   // -------------------------------------------------------------------------
   // Read committee members from CODEOWNERS
