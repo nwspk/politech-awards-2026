@@ -59,29 +59,6 @@
   },
   {
     "version": "v4",
-    "date": "2026-02-07",
-    "author": "sugaroverflow",
-    "pr_number": 7,
-    "pr_url": "https://github.com/nwspk/politech-awards-2026/pull/7",
-    "pr_status": "open",
-    "top_project": {
-      "name": "benefits-calculator.turn2us.org.uk",
-      "url": "https://benefits-calculator.turn2us.org.uk",
-      "score": 11
-    },
-    "heuristic": "Removing the random scoring tilt mechanism by trying to score projects by keyword clusters. Each project receives points if the URL (the only data we currently have) matches across the 4 policy-framework-aligned keyword clusters.",
-    "rationale": "v2 showed that keyword matching against URLs can surface relevant projects — but the random base score meant that it was different each time it was run, which isn't very reliable. This iteration removes randomness entirely to ask:  \n\n**what can keyword clusters alone tell us about 321 projects when our only data source is a URL string?**\n\nIt turns out the answer is: almost nothing. Only 2 of 321 projects score above baseline. We can probably consider this a failure of our dataset which is only URLs.",
-    "data_sources": [
-      "project URL",
-      "additional data files"
-    ],
-    "keywords": null,
-    "limitations": null,
-    "vote_result": null,
-    "assessment_output": false
-  },
-  {
-    "version": "v5",
     "date": "2026-02-13",
     "author": "jcoombes",
     "pr_number": 9,
@@ -93,7 +70,7 @@
       "score": 65
     },
     "heuristic": "Base score (50) + inclusion bonus (URL keywords) − fetch-failure penalty (10) + AI-body bonus (up to 15). Uses cached page fetches to penalise dead/inaccessible sites and reward projects whose page content mentions AI governance, safety, or policy keywords.",
-    "rationale": "v4 showed that URL-only matching yields almost no signal. This iteration fetches each project's homepage, caches the HTML, and uses the cached body to surface projects that explicitly discuss AI governance, safety, or policy. Sites that fail to fetch receive a penalty.",
+    "rationale": "v3 showed that URL-only matching yields almost no signal. This iteration fetches each project's homepage, caches the HTML, and uses the cached body to surface projects that explicitly discuss AI governance, safety, or policy. Sites that fail to fetch receive a penalty.",
     "data_sources": [
       "project URL",
       "cached page body"
