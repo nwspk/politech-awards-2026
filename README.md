@@ -15,8 +15,8 @@ The committee iterates on a scoring algorithm through pull requests. Each PR pro
 
 - [Quick Start](#quick-start) — run the algorithm locally
 - [Iterations](#iterations) — history of all algorithm versions
-- [Committee Process](PROCESS.md) — step-by-step details for opening a PR, voting, and deliverables
-- [Technical Details](TECHNICAL.md) — bots, scripts, and data formats
+- [Committee Process](docs/PROCESS.md) — step-by-step details for opening a PR, voting, and deliverables
+- [Technical Details](docs/TECHNICAL.md) — bots, scripts, and data formats
 - [Briefing Document](https://docs.google.com/document/d/14GgwyiA7t-AMRj4P5JFNijHXjATEQvQUvaxyIVZG-LA/edit?tab=t.0#heading=h.yyqjou9klunq) — full project guidelines
 
 ## Quick Start

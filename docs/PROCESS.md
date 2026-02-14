@@ -30,12 +30,13 @@ When a PR is marked **"Ready for review"**, two bots kick in:
 1. **Iteration Bot** — Runs the algorithm, posts the top 5 results, auto-assigns a version number, and updates `iterations.json` + README.
 2. **Voting Bot** — Posts a voting comment with a 48-hour deadline and adds a `vote:pending` label.
 
-Committee members vote by reacting to the voting comment: 👍 = YES, 👎 = NO.
+Committee members vote by reacting to the voting comment: 👍 = YES, 👎 = NO. No reaction = abstain (not counted).
 
-**Resolution:**
-- Majority yes → `ready-to-merge` label, someone is assigned to merge
-- Majority no → someone is assigned to close
-- No majority after 48 hours → non-voters get tagged daily until majority is reached
+**Voting rules:**
+- Majority of those who vote wins (abstentions don't count)
+- PR author counts as a YES vote only if they're in the committee (CODEOWNERS)
+- At 24h: reminder to non-voters ("if you don't vote, this may pass without you")
+- At 48h: resolve — more 👍 than 👎 → merge; more 👎 than 👍 → close
 
 ## Labels
 
@@ -58,7 +59,7 @@ If a bot needs to be re-triggered (e.g. after a fix), add one of these manually:
 
 ## Committee
 
-Defined in [`.github/CODEOWNERS`](.github/CODEOWNERS). Decisions are made by majority vote (excluding abstentions). To join, add yourself to the CODEOWNERS file.
+Defined in [`.github/CODEOWNERS`](../.github/CODEOWNERS). Decisions are made by majority of those who vote; abstentions don't block. To join, add yourself to the CODEOWNERS file.
 
 ## Deliverables
 
