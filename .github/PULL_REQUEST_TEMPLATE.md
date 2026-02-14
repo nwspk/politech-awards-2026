@@ -7,8 +7,13 @@
 ## Rationale
 
 <!-- Why is this a good change? What values does it encode or contest?
-     Include any specific keywords, criteria, or known limitations here.
      This is the most important part — be as detailed as you like. -->
+
+
+
+## Limitations
+
+<!-- Known blind spots or constraints of this approach. -->
 
 
 
