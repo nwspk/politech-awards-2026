@@ -4,7 +4,7 @@
  * Reads iterations.json and regenerates the "Iterations" section of README.md.
  * The rest of the README is left untouched.
  *
- * Usage: npx tsx sync-readme.ts
+ * Usage: npx tsx scripts/sync-readme.ts
  *
  * The script looks for these markers in README.md:
  *   <!-- ITERATIONS:START -->
@@ -33,8 +33,8 @@ interface Iteration {
   data_sources: string[] | null;
   keywords: string[] | null;
   limitations: string | null;
+  assessment: string | null;
   vote_result: string | null;
-  assessment_output: boolean;
 }
 
 const ITERATIONS_FILE = "iterations.json";
@@ -84,9 +84,9 @@ function formatIteration(iteration: Iteration): string {
     lines.push(`- **Limitations**: ${iteration.limitations}`);
   }
 
-  // assessment output
-  if (iteration.assessment_output) {
-    lines.push(`- **Written assessments**: Yes`);
+  // assessment (post-results reflection from PR)
+  if (iteration.assessment) {
+    lines.push(`- **Assessment**: ${iteration.assessment}`);
   }
 
   // author and date
