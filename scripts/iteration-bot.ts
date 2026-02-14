@@ -222,6 +222,14 @@ function main(): void {
     JSON.stringify(iterations, null, 2) + "\n"
   );
 
+  // Write versioned results snapshot so each iteration has its own archived output
+  const versionedResultsPath = `results-${version}.json`;
+  fs.writeFileSync(
+    versionedResultsPath,
+    JSON.stringify(allResults, null, 2) + "\n"
+  );
+  console.log(`✓ Results snapshot written to ${versionedResultsPath}`);
+
   // -------------------------------------------------------------------------
   // Write versioned results to results/{version}.json
   // -------------------------------------------------------------------------
