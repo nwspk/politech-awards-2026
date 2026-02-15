@@ -28,8 +28,8 @@
     "pr_url": "https://github.com/nwspk/politech-awards-2026/pull/2",
     "pr_status": "merged",
     "top_project": {
-      "name": "dogooder.co",
-      "url": "https://dogooder.co",
+      "name": "civicmatch.app",
+      "url": "https://civicmatch.app",
       "score": 100
     },
     "heuristic": "Random base score (1-100) + inclusion bonus based on exclusion keywords in URL",

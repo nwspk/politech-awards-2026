@@ -39,7 +39,7 @@ Edit `the-algorithm.ts` to add your heuristic, then open a PR.
 | Version | Heuristic | Top Project | PR |
 |---------|-----------|-------------|-----|
 | v1 | Random score between 1 and 100 | relationaltechproject.org | [v1](https://github.com/nwspk/politech-awards-2026/pull/1) |
-| v2 | Random base score (1-100) + inclusion bonus based on exclusion keywords in URL | dogooder.co | [v2](https://github.com/nwspk/politech-awards-2026/pull/2) |
+| v2 | Random base score (1-100) + inclusion bonus based on exclusion keywords in URL | civicmatch.app | [v2](https://github.com/nwspk/politech-awards-2026/pull/2) |
 | v3 | Removing the random scoring tilt mechanism by trying to score projects by keyword clusters. Each project receives points if the URL (the only data we currently have) matches across the 4 policy-framework-aligned keyword clusters. | benefits-calculator.turn2us.org.uk | [v3](https://github.com/nwspk/politech-awards-2026/pull/7) |
 | v4 | Base score (50) + inclusion bonus (URL keywords) − fetch-failure penalty (10) + AI-body bonus (up to 15). Uses cached page fetches to penalise dead/inaccessible sites and reward projects whose page content mentions AI governance, safety, or policy keywords. | algorithmwatch.org | [v4](https://github.com/nwspk/politech-awards-2026/pull/9) |
 
@@ -69,7 +69,7 @@ It turns out the answer is: almost nothing. Only 2 of 321 projects score above b
 
 ### v2
 
-- **Top project**: [dogooder.co](https://dogooder.co) (score: 100)
+- **Top project**: [civicmatch.app](https://civicmatch.app) (score: 100)
 - **Heuristic**: Random base score (1-100) + inclusion bonus based on exclusion keywords in URL
 - **Rationale**: The exclusion-focused scoring heuristic is intentionally crude: a keyword-based bonus derived from the project URL. It's meant to make political values legible and contestable, not definitive. The heuristic biases scores toward projects addressing populations most likely to be excluded from government services (inspired by GovCamp digital inclusion discussions).
 - **Data sources**: project URL
