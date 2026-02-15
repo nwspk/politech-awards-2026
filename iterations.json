@@ -13,7 +13,9 @@
     },
     "heuristic": "Random score between 1 and 100",
     "rationale": null,
-    "data_sources": ["project URL"],
+    "data_sources": [
+      "project URL"
+    ],
     "keywords": null,
     "limitations": "Entirely random; no meaningful evaluation of projects.",
     "vote_result": null
@@ -32,8 +34,21 @@
     },
     "heuristic": "Random base score (1-100) + inclusion bonus based on exclusion keywords in URL",
     "rationale": "The exclusion-focused scoring heuristic is intentionally crude: a keyword-based bonus derived from the project URL. It's meant to make political values legible and contestable, not definitive. The heuristic biases scores toward projects addressing populations most likely to be excluded from government services (inspired by GovCamp digital inclusion discussions).",
-    "data_sources": ["project URL"],
-    "keywords": ["benefits", "housing", "refugee", "migrant", "asylum", "eviction", "homeless", "disability", "accessibility", "low-income"],
+    "data_sources": [
+      "project URL"
+    ],
+    "keywords": [
+      "benefits",
+      "housing",
+      "refugee",
+      "migrant",
+      "asylum",
+      "eviction",
+      "homeless",
+      "disability",
+      "accessibility",
+      "low-income"
+    ],
     "limitations": "Only matches keywords in the URL string itself, not in actual project content. Many relevant projects won't have these keywords in their URL.",
     "vote_result": null
   },
@@ -51,7 +66,10 @@
     },
     "heuristic": "Removing the random scoring tilt mechanism by trying to score projects by keyword clusters. Each project receives points if the URL (the only data we currently have) matches across the 4 policy-framework-aligned keyword clusters.",
     "rationale": "v2 showed that keyword matching against URLs can surface relevant projects — but the random base score meant that it was different each time it was run, which isn't very reliable. This iteration removes randomness entirely to ask:  \r\n\r\n**what can keyword clusters alone tell us about 321 projects when our only data source is a URL string?**\r\n\r\nIt turns out the answer is: almost nothing. Only 2 of 321 projects score above baseline. We can probably consider this a failure of our dataset which is only URLs.",
-    "data_sources": ["project URL", "additional data files"],
+    "data_sources": [
+      "project URL",
+      "additional data files"
+    ],
     "keywords": null,
     "limitations": null,
     "vote_result": null,
@@ -63,7 +81,7 @@
     "author": "jcoombes",
     "pr_number": 9,
     "pr_url": "https://github.com/nwspk/politech-awards-2026/pull/9",
-    "pr_status": "open",
+    "pr_status": "merged",
     "top_project": {
       "name": "algorithmwatch.org",
       "url": "https://algorithmwatch.org",

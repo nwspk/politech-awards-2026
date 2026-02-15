@@ -20,38 +20,15 @@
  */
 
 import * as fs from "fs";
-
-// ---------------------------------------------------------------------------
-// Types
-// ---------------------------------------------------------------------------
-
-interface TopProject {
-  name: string;
-  url: string;
-  score: number | null;
-}
-
-interface Iteration {
-  version: string;
-  date: string | null;
-  author: string | null;
-  pr_number: number | null;
-  pr_url: string | null;
-  pr_status: string | null;
-  top_project: TopProject;
-  heuristic: string;
-  rationale: string | null;
-  data_sources: string[] | null;
-  keywords: string[] | null;
-  limitations: string | null;
-  assessment: string | null;
-  vote_result: string | null;
-}
-
-interface ResultEntry {
-  url: string;
-  score: number;
-}
+import {
+  type Iteration,
+  type ResultEntry,
+  projectName,
+  loadIterations,
+  saveIterations,
+  loadResults,
+  snapshotVersionResults,
+} from "./shared.js";
 
 // ---------------------------------------------------------------------------
 // Parse the PR body
@@ -101,10 +78,6 @@ function getNextVersion(iterations: Iteration[]): string {
 // Results analysis
 // ---------------------------------------------------------------------------
 
-function getAllResults(): ResultEntry[] {
-  return JSON.parse(fs.readFileSync("results.json", "utf-8"));
-}
-
 function getTopProjects(results: ResultEntry[], n: number): ResultEntry[] {
   return results.slice(0, n);
 }
@@ -116,14 +89,6 @@ function getMiddleProjects(results: ResultEntry[], n: number): ResultEntry[] {
 
 function getBottomProjects(results: ResultEntry[], n: number): ResultEntry[] {
   return results.slice(-n);
-}
-
-function projectName(url: string): string {
-  try {
-    return new URL(url).hostname.replace(/^www\./, "");
-  } catch {
-    return url;
-  }
 }
 
 // ---------------------------------------------------------------------------
@@ -161,9 +126,7 @@ function main(): void {
   const prAuthor = process.env.PR_AUTHOR || "";
 
   // Load existing iterations
-  const iterations: Iteration[] = JSON.parse(
-    fs.readFileSync("iterations.json", "utf-8")
-  );
+  const iterations = loadIterations();
 
   // Check if this PR already has an entry (re-run case)
   const existingIdx = iterations.findIndex((i) => i.pr_number === prNumber);
@@ -179,7 +142,7 @@ function main(): void {
       : getNextVersion(iterations);
 
   // Run results
-  const allResults = getAllResults();
+  const allResults = loadResults();
   const topProjects = getTopProjects(allResults, 5);
   const midProjects = getMiddleProjects(allResults, 5);
   const bottomProjects = getBottomProjects(allResults, 5);
@@ -217,20 +180,10 @@ function main(): void {
     console.log(`✓ Added new entry for ${version} (PR #${prNumber})`);
   }
 
-  fs.writeFileSync(
-    "iterations.json",
-    JSON.stringify(iterations, null, 2) + "\n"
-  );
+  saveIterations(iterations);
 
   // Write versioned results to results/{version}.json
-  if (!fs.existsSync("results")) {
-    fs.mkdirSync("results", { recursive: true });
-  }
-  const resultsPath = `results/${version}.json`;
-  fs.writeFileSync(
-    resultsPath,
-    JSON.stringify(allResults, null, 2) + "\n"
-  );
+  const resultsPath = snapshotVersionResults(version, allResults);
   console.log(`✓ Results written to ${resultsPath}`);
 
   // -------------------------------------------------------------------------

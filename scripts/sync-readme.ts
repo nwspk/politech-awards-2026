@@ -13,39 +13,11 @@
  */
 
 import * as fs from "fs";
+import { type Iteration, loadIterations } from "./shared.js";
 
-interface TopProject {
-  name: string;
-  url: string;
-  score: number | null;
-}
-
-interface Iteration {
-  version: string;
-  date: string | null;
-  author: string | null;
-  pr_number: number | null;
-  pr_url: string | null;
-  pr_status: string | null;
-  top_project: TopProject;
-  heuristic: string;
-  rationale: string | null;
-  data_sources: string[] | null;
-  keywords: string[] | null;
-  limitations: string | null;
-  assessment: string | null;
-  vote_result: string | null;
-}
-
-const ITERATIONS_FILE = "iterations.json";
 const README_FILE = "README.md";
 const START_MARKER = "<!-- ITERATIONS:START -->";
 const END_MARKER = "<!-- ITERATIONS:END -->";
-
-function loadIterations(): Iteration[] {
-  const raw = fs.readFileSync(ITERATIONS_FILE, "utf-8");
-  return JSON.parse(raw) as Iteration[];
-}
 
 function formatIteration(iteration: Iteration): string {
   const lines: string[] = [];
