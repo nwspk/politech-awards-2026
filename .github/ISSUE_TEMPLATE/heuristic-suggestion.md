@@ -1,6 +1,7 @@
 ---
 name: Heuristic suggestion
 description: Suggest an iteration of the awards algorithm (no code required). Tag @sugaroverflow to implement it.
+about: Suggest an iteration of the awards algorithm (no code required). Tag @sugaroverflow to implement it.
 title: "[Heuristic] "
 labels: heuristic-suggestion
 assignees: sugaroverflow
