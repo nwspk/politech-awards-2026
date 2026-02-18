@@ -1,3 +1,5 @@
+<!-- Suggesting an idea without code? Open a [Heuristic suggestion](https://github.com/nwspk/politech-awards-2026/issues/new?template=heuristic-suggestion.md) issue and tag @sugaroverflow to implement it. -->
+
 ## Heuristic
 
 <!-- One sentence: what does your scoring approach do? -->
@@ -32,10 +34,7 @@
 
 ## Implementation
 
-- [ ] Just an idea — I need help coding this up
 - [ ] Code is ready to review
-
-<!-- If you need help, tag a committee member here: @ -->
 
 <!-- ────────────────────────────────────────────────
      Everything below will be filled in by the bot

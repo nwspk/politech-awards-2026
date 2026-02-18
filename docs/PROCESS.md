@@ -4,20 +4,17 @@ How the awards committee works — proposing iterations, voting, and delivering 
 
 ## How to Propose an Iteration
 
-Every PR auto-fills with the iteration template. Fill in **Heuristic** (one sentence) and **Rationale** (as detailed as you like), then check the implementation box.
+**If you have an idea but don't want to write code (or don't have a branch):**
 
-**If you have an idea but need help coding it:**
-
-1. Open a PR (even an empty one) — the template auto-fills
-2. Describe your heuristic and rationale
-3. Check "Just an idea — I need help coding this up" and tag someone
-4. When someone implements it and the code is ready, mark the PR as "Ready for review"
+1. Open a [Heuristic suggestion](https://github.com/nwspk/politech-awards-2026/issues/new?template=heuristic-suggestion.md) issue (New issue → "Heuristic suggestion")
+2. Fill in **Heuristic**, **Rationale**, **Limitations**, and optionally **Assessment** — same fields as the PR template
+3. Tag **@sugaroverflow** in a comment; they'll implement it and open a PR. The rest of the flow is the same as below
 
 **If you're writing the code yourself:**
 
 1. Create a branch, edit `the-algorithm.ts`
 2. Test locally: `npm install && npx tsx the-algorithm.ts`
-3. Open a PR — describe your heuristic and rationale
+3. Open a PR — the template auto-fills; fill in **Heuristic** (one sentence) and **Rationale** (as detailed as you like), then check "Code is ready to review"
 4. Mark the PR as "Ready for review"
 5. The bots handle the rest (version number, results, README, voting)
 
