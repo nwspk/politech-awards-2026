@@ -2,6 +2,8 @@
 
 Internal reference for the bots, scripts, and data formats powering this repo.
 
+**Heuristic suggestions:** Non-code contributors can open a [Heuristic suggestion](https://github.com/nwspk/politech-awards-2026/issues/new?template=heuristic-suggestion.md) issue (same fields as the PR template) and tag @sugaroverflow to implement; the resulting PR then goes through the normal iteration and voting flow.
+
 ## Iteration Bot
 
 [`.github/workflows/iteration-bot.yml`](../.github/workflows/iteration-bot.yml) + [`scripts/iteration-bot.ts`](../scripts/iteration-bot.ts)

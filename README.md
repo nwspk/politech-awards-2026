@@ -10,7 +10,7 @@ The committee iterates on the algorithm through pull requests. Each PR proposes 
 
 ## How It Works
 
-1. **Propose** — Open a PR with your scoring idea (the template auto-fills). You don't need to write code — describe your heuristic and tag someone for help.
+1. **Propose** — Have an idea but no code? Open a [Heuristic suggestion](https://github.com/nwspk/politech-awards-2026/issues/new?template=heuristic-suggestion.md) issue (same fields as the PR template), then tag **@sugaroverflow** to implement it. If you're ready with code, open a PR — the template auto-fills.
 2. **Bot runs** — When the PR is marked "Ready for review", a bot runs the algorithm, posts results, and assigns a version number.
 3. **Vote** — Committee members vote with 👍 / 👎 on the voting comment. Majority of those who vote wins; abstentions don't count. PR author (if in the committee) counts as yes when abstaining.
 4. **Merge or close** — Approved PRs get merged; rejected ones get closed.
