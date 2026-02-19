@@ -155,7 +155,7 @@ async function addAssignees(issueNumber: number, assignees: string[]): Promise<v
 
 async function runNotify(issueNumber: number): Promise<void> {
   const { original } = getCommittee();
-  const tags = original.join(" ");
+  const tags = original.map((m) => `@${m}`).join(" ");
   const deadline = new Date(Date.now() + 48 * 60 * 60 * 1000)
     .toISOString()
     .slice(0, 16) + " UTC";
