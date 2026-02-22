@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "cache:sites": "npx tsx scripts/cache-sites.ts",
+    "itn-a-eval": "npx tsx scripts/itn-a-eval.ts",
     "cache:sites:retry": "npx tsx scripts/cache-sites.ts --retry-failed",
     "cache:read": "npx tsx scripts/read-cache.ts"
   },
