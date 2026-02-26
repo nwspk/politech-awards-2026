@@ -167,28 +167,28 @@ function readCacheSignals(): {
     bodyFor(url: string): string;
     close(): void;
 } {
-    const db = new Database(path.resolve('cache', 'sites.sqlite'), {readonly: true});
+    const db = new Database(path.resolve('cache', 'sites.sqlite'), { readonly: true });
 
     const failedRows = db
-      .prepare('SELECT url FROM pages WHERE error IS NOT NULL')
-      .all() as Array<{ url: string }>;
+        .prepare('SELECT url FROM pages WHERE error IS NOT NULL')
+        .all() as Array<{ url: string }>;
 
-      const failedSet = new Set(failedRows.map(row => row.url));
+    const failedSet = new Set(failedRows.map(row => row.url));
 
-      const bodyStmt = db.prepare('SELECT body FROM pages WHERE url = ?')
+    const bodyStmt = db.prepare('SELECT body FROM pages WHERE url = ?')
 
-      return {
+    return {
         isFailed(url: string): boolean {
             return failedSet.has(url);
         },
         bodyFor(url: string): string {
-            const row = bodyStmt.get(url) as {body?: string | null};
+            const row = bodyStmt.get(url) as { body?: string | null };
             return row?.body ?? '';
         },
         close(): void {
             db.close();
-            }
-        };
+        }
+    };
 }
 
 function calculateFailedPenalty(url: string): number {
@@ -219,9 +219,9 @@ function calculateAIBonus(url: string): number {
     ].map(keyword => keyword.toLowerCase());
 
     return Math.min(3, AI_KEYWORDS
-    .filter(
-        keyword => fetchBody.toLowerCase().includes(keyword.toLowerCase())
-    ).length) * 5;  // same rules as exclusionScoreV2
+        .filter(
+            keyword => fetchBody.toLowerCase().includes(keyword.toLowerCase())
+        ).length) * 5;  // same rules as exclusionScoreV2
 }
 
 function fetchInformationHeuristic(url: string): number {
@@ -232,18 +232,115 @@ function fetchInformationHeuristic(url: string): number {
 
     // penalizes projects that have failed to fetch (indicates project is not live and accessible)
     const failedPenalty = calculateFailedPenalty(url);
-    
+
     // awards projects that contain AI-related keywords in the body
     const AIBonus = calculateAIBonus(url);
 
     return baseScore + inclusivityBonus - failedPenalty + AIBonus;
 }
 
+// --- v5: ITN/A Multi-Agent Deliberation ---
+// Reads from cache/deliberation.json (for the deliberated shortlist) and
+// cache/assessments.json (for the full evaluated set), produced by:
+//   npx tsx scripts/itn-a-eval.ts        → cache/assessments.json
+//   npx tsx scripts/itn-a-deliberate.ts  → cache/deliberation.json
+//
+// Scoring tiers:
+//   Deliberated projects:       aggregate score from deliberation (range: 51–90)
+//   2+ greens, not deliberated: 45  (strong signal, below deliberation floor)
+//   1 green:                    20
+//   0 greens / grey / red:       5  (baseline)
+//
+// URL matching is normalised (strips www., trailing slashes, lowercases)
+// so candidates.csv URLs reliably match cache keys regardless of formatting.
+
+interface AssessmentBuckets {
+    political?: string;
+    relational?: string;
+    experimental?: string;
+}
+
+function normalizeUrl(raw: string): string {
+    try {
+        const u = new URL(raw.startsWith('http') ? raw : 'https://' + raw);
+        return (u.hostname.replace(/^www\./, '') + u.pathname)
+            .toLowerCase()
+            .replace(/\/$/, '');
+    } catch {
+        return raw.toLowerCase().replace(/\/$/, '');
+    }
+}
+
+function loadItnAScores(): {
+    deliberation: Map<string, number>;
+    assessments: Map<string, AssessmentBuckets>;
+} {
+    const deliberation = new Map<string, number>();
+    const assessments = new Map<string, AssessmentBuckets>();
+
+    const deliberationPath = path.resolve('cache', 'deliberation.json');
+    if (fs.existsSync(deliberationPath)) {
+        const data = JSON.parse(fs.readFileSync(deliberationPath, 'utf-8'));
+        for (const entry of data.final_scores ?? []) {
+            deliberation.set(normalizeUrl(entry.url), entry.aggregate);
+        }
+        console.log(`[v5] Loaded ${deliberation.size} deliberated scores`);
+    } else {
+        console.warn('[v5] No deliberation.json found — falling back to assessment tiers only');
+    }
+
+    const assessmentsPath = path.resolve('cache', 'assessments.json');
+    if (fs.existsSync(assessmentsPath)) {
+        const data = JSON.parse(fs.readFileSync(assessmentsPath, 'utf-8'));
+        for (const [url, a] of Object.entries(data) as [string, any][]) {
+            assessments.set(normalizeUrl(url), {
+                political: a.political?.bucket,
+                relational: a.relational?.bucket,
+                experimental: a.experimental?.bucket,
+            });
+        }
+        console.log(`[v5] Loaded ${assessments.size} project assessments`);
+    } else {
+        console.warn('[v5] No assessments.json found — unassessed projects will score 5');
+    }
+
+    return { deliberation, assessments };
+}
+
+// Load once per process, not per URL call
+let _itnACache: ReturnType<typeof loadItnAScores> | null = null;
+function getItnAScores() {
+    if (!_itnACache) _itnACache = loadItnAScores();
+    return _itnACache;
+}
+
+function countGreens(buckets: AssessmentBuckets): number {
+    return ([buckets.political, buckets.relational, buckets.experimental] as (string | undefined)[])
+        .filter(b => b === 'green').length;
+}
+
+function heuristicV5(url: string): number {
+    const { deliberation, assessments } = getItnAScores();
+    const key = normalizeUrl(url);
+
+    // Tier 1: deliberated — use the score from the multi-agent argument process
+    if (deliberation.has(key)) {
+        return deliberation.get(key)!;
+    }
+
+    // Tier 2: assessed but not deliberated — bucket-based tier
+    const buckets = assessments.get(key);
+    if (!buckets) return 5; // never assessed
+
+    const greens = countGreens(buckets);
+    if (greens >= 2) return 45; // strong signal, just below deliberation floor
+    if (greens === 1) return 20;
+    return 5; // grey / red / zero greens
+}
+
 // select which heuristic version to use
-// change this to switch between versions
-// heuristicV3: deterministic URL keyword-cluster scoring (from main)
-// fetchInformationHeuristic: cache-based, AI bonus, fetch-failure penalty
-const CURRENT_HEURISTIC: ScoringFunction = fetchInformationHeuristic;
+// v5 is the ITN/A multi-agent deliberation heuristic
+const CURRENT_HEURISTIC: ScoringFunction = heuristicV5;
 
 // process candidates from CSV and score them
 function processCandidates(scoringFunction: ScoringFunction): Promise<Candidate[]> {
