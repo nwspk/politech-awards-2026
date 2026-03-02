@@ -77,6 +77,18 @@ Read deliberation-summary.md to see the Stage 2 discussions between agents.
 **All agents run on the same model** (x-ai/grok-4.1-fast). True independence would use different models or temperatures. The disagreements that emerge are real — rank spreads of 15–20 on contested projects, genuine score revisions in argument — but they're disagreements within one model's possibility space. Tried a range of models in the process but this one emerged as the cheapest and fastest while producing interesting analysis.
 
 The evaluation framework reflects specific values — systemic change over symptom treatment, genuine experimentation over locked gospel, nourishment over extraction, stewardship over ego. Projects that score low may be genuinely valuable under different value weightings.
+- **Assessment**: to be completed
+
+---
+
+*Files added/modified:*
+- `scripts/the-algorithm.ts` — v5 heuristic added, `CURRENT_HEURISTIC` switched to `heuristicV5`
+- `scripts/itn-a-eval.ts` — new: three-agent ITN/A evaluation pipeline
+- `scripts/itn-a-deliberate.ts` — new: multi-turn deliberation with relative scoring and facilitator
+- `cache/assessments.json` — evaluation outputs for all 321 projects (committed as deliverable)
+- `cache/deliberation.json` — deliberation outputs: scores, argument logs, winner, constellation
+- **Proposed** by Gamithra on 2026-02-22
+- **PR**: [v5](https://github.com/nwspk/politech-awards-2026/pull/12)
 
 ### v4
 
@@ -96,7 +108,6 @@ The evaluation framework reflects specific values — systemic change over sympt
 - **Rationale**: v2 showed that keyword matching against URLs can surface relevant projects — but the random base score meant that it was different each time it was run, which isn't very reliable. This iteration removes randomness entirely to ask:  
 
 **what can keyword clusters alone tell us about 321 projects when our only data source is a URL string?**
-
 
 It turns out the answer is: almost nothing. Only 2 of 321 projects score above baseline. We can probably consider this a failure of our dataset which is only URLs.
 - **Data sources**: project URL, additional data files
