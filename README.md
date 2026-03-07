@@ -87,7 +87,7 @@ The evaluation framework reflects specific values — systemic change over sympt
 - `scripts/itn-a-deliberate.ts` — new: multi-turn deliberation with relative scoring and facilitator
 - `cache/assessments.json` — evaluation outputs for all 321 projects (committed as deliverable)
 - `cache/deliberation.json` — deliberation outputs: scores, argument logs, winner, constellation
-- **Proposed** by Gamithra on 2026-02-22
+- **Proposed** by @Gamithra on 2026-02-22
 - **PR**: [v5](https://github.com/nwspk/politech-awards-2026/pull/12)
 
 ### v4 — AI governance body bonus
@@ -98,7 +98,7 @@ The evaluation framework reflects specific values — systemic change over sympt
 - **Data sources**: project URL, cached page body
 - **Keywords**: benefits, housing, refugee, migrant, asylum, eviction, homeless, disability, accessibility, low-income, AI alignment, AI governance, AI safety
 - **Limitations**: Requires cache to be populated (npm run cache:sites). AI bonus capped at 3 keyword matches × 5 points.
-- **Proposed** by jcoombes on 2026-02-13
+- **Proposed** by @jcoombes on 2026-02-13
 - **PR**: [v4](https://github.com/nwspk/politech-awards-2026/pull/9)
 
 ### v3 — Keyword clusters (no randomness)
@@ -111,7 +111,7 @@ The evaluation framework reflects specific values — systemic change over sympt
 
 It turns out the answer is: almost nothing. Only 2 of 321 projects score above baseline. We can probably consider this a failure of our dataset which is only URLs.
 - **Data sources**: project URL, additional data files
-- **Proposed** by sugaroverflow on 2026-02-07
+- **Proposed** by @sugaroverflow on 2026-02-07
 - **PR**: [v3](https://github.com/nwspk/politech-awards-2026/pull/7)
 
 ### v2 — Exclusion keyword bonus
@@ -122,7 +122,7 @@ It turns out the answer is: almost nothing. Only 2 of 321 projects score above b
 - **Data sources**: project URL
 - **Keywords**: benefits, housing, refugee, migrant, asylum, eviction, homeless, disability, accessibility, low-income
 - **Limitations**: Only matches keywords in the URL string itself, not in actual project content. Many relevant projects won't have these keywords in their URL.
-- **Proposed** by Asil on 2026-02-04
+- **Proposed** by @Asil on 2026-02-04
 - **PR**: [v2](https://github.com/nwspk/politech-awards-2026/pull/2)
 
 ### v1 — Random scoring

@@ -134,6 +134,25 @@ function main(): void {
   const { title, heuristic, rationale, limitations, assessment } =
     parsePRBody(prBody);
 
+  // Only create a new iteration when the PR has a non-empty Heuristic section.
+  // This prevents phantom versions (e.g. v6) when PRs are opened without a real heuristic.
+  const isNewVersion = getVersionForPr(prNumber) === null;
+  if (isNewVersion && !heuristic.trim()) {
+    const comment = `## Iteration Bot — Heuristic Required
+
+This PR does not include a **Heuristic** section in the description. The iteration bot only creates a new version when the PR proposes a concrete scoring heuristic.
+
+**To proceed:**
+1. Edit the PR description and add a \`## Heuristic\` section (one sentence describing how your iteration scores projects)
+2. Add the \`run-bot\` label to re-trigger the bot
+
+See the [PR template](.github/PULL_REQUEST_TEMPLATE.md) and [process docs](docs/PROCESS.md) for guidance.
+`;
+    fs.writeFileSync("bot-comment.md", comment);
+    console.log("✓ Skipped: no Heuristic section — wrote bot-comment.md");
+    return;
+  }
+
   const version =
     getVersionForPr(prNumber) ?? getNextVersion();
 
@@ -150,7 +169,7 @@ function main(): void {
     version,
     title: resolvedTitle,
     date: new Date().toISOString().split("T")[0],
-    author: prAuthor || null,
+    author: prAuthor ? `@${prAuthor}` : null,
     pr_number: prNumber,
     pr_url: prUrl,
     pr_status: "open",
