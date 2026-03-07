@@ -10,32 +10,38 @@ Reference for the bots, scripts, and data formats powering this repo.
 
 | Bot | When it runs | What it does |
 |-----|--------------|--------------|
-| **Iteration Bot** | PR "Ready for review" or `run-bot` label | Runs algorithm, creates/updates `iterations/{version}.md`, posts results |
-| **Voting Bot** | PR "Ready for review" or `start-vote` label | Posts voting comment, tracks 👍/👎, resolves at 48h |
-| **Post-Merge Finalization** | PR merged to main | Updates `pr_status` → merged, re-snapshots results |
+| **Iteration Details Updater** | PR has `iteration` label + "Ready for review", or `run-bot` label | Creates/updates `iterations/{version}.md` from your committed `results.json` (no algorithm run) |
+| **Voting Bot** | PR has `iteration` label + "Ready for review", or `start-vote` label | Posts voting comment, tracks 👍/👎, resolves at 48h |
+| **Post-Merge Finalization** | PR merged to main | Updates `pr_status` → merged, snapshots `results/{version}.json` from merged `results.json` |
 
-**Manual triggers:** `run-bot` — re-run iteration bot. `start-vote` — re-start voting.
+**Iteration PRs only:** Bots run only when the PR has the `iteration` label. Data collection, docs, and other PRs skip the bots — add `iteration` only when proposing a new scoring heuristic. (Create the label in repo Settings → Labels if it doesn't exist.)
+
+**Manual triggers:** `run-bot` — re-run iteration details updater. `start-vote` — re-start voting.
+
+**Setup:** Create the `iteration` label in repo settings (Issues → Labels) if it doesn't exist. Suggested color: `#0E8A16` (green).
 
 ### Flow diagram
 
 ```mermaid
 flowchart TB
-    subgraph PR_OPEN["PR opened / Ready for review"]
-        A1[Run algorithm] --> A2[results.json]
-        A2 --> A3[Create iterations/vN.md from PR body]
-        A3 --> A4[build-iterations → iterations.json]
-        A4 --> A5[Snapshot results/vN.json]
-        A5 --> A6[sync-readme → README]
-        A6 --> A7[Commit & push]
+    subgraph AUTHOR["Author (before PR)"]
+        A0[Run algorithm locally] --> A0b[Commit results.json + cache]
+    end
+
+    subgraph PR_OPEN["PR with iteration label"]
+        A1[Bot reads committed results.json] --> A2[Create iterations/vN.md from PR body]
+        A2 --> A3[build-iterations → iterations.json]
+        A3 --> A4[Snapshot results/vN.json]
+        A4 --> A5[sync-readme → README]
+        A5 --> A6[Commit & push]
     end
 
     subgraph PR_MERGE["PR merged to main"]
-        B1[Run algorithm] --> B2[results.json]
-        B2 --> B3[Re-snapshot results/vN.json]
-        B3 --> B4[Update iterations/vN.md: pr_status, top_project]
-        B4 --> B5[build-iterations → iterations.json]
-        B5 --> B6[sync-readme → README]
-        B6 --> B7[Commit & push]
+        B1[Use merged results.json] --> B2[Snapshot results/vN.json]
+        B2 --> B3[Update iterations/vN.md: pr_status, top_project]
+        B3 --> B4[build-iterations → iterations.json]
+        B4 --> B5[sync-readme → README]
+        B5 --> B6[Commit & push]
     end
 
     subgraph SOURCE_OF_TRUTH["Source of truth"]
@@ -47,28 +53,30 @@ flowchart TB
 
 | When | Creates | Updates |
 |------|---------|---------|
-| **PR opened** | `iterations/vN.md`, `results/vN.json` | `results.json`, `iterations.json`, README |
+| **PR opened** (with `results.json`) | `iterations/vN.md`, `results/vN.json` | `iterations.json`, README |
 | **PR merged** | — | `iterations/vN.md`, `results/vN.json`, `iterations.json`, README |
 
 ---
 
-## Iteration Bot
+## Iteration Details Updater
 
-[`.github/workflows/iteration-bot.yml`](../.github/workflows/iteration-bot.yml) + [`scripts/iteration-bot.ts`](../scripts/iteration-bot.ts)
+[`.github/workflows/iteration-details-updater.yml`](../.github/workflows/iteration-details-updater.yml) + [`scripts/iteration-details-updater.ts`](../scripts/iteration-details-updater.ts)
 
-**Triggers:** PR marked "Ready for review", or `run-bot` label. Does not run on drafts.
+**Triggers:** PR has `iteration` label and is "Ready for review", or `run-bot` label. Does not run on drafts. Non-iteration PRs (data, docs, fixes) skip the updater.
+
+**Author-provided results:** The bot does not run the algorithm. You run it locally and commit `results.json`. The bot reads your results and creates the iteration.
 
 **What it does:**
 
-1. Runs `the-algorithm.ts` with the PR branch's code
+1. Checks for `results.json` in the PR branch — if missing, posts "Results Required" and exits
 2. Parses `## Title`, `## Heuristic`, `## Rationale`, `## Limitations`, `## Assessment` from the PR
 3. Determines version (re-run: finds existing `iterations/{version}.md` by `pr_number`; new: next version from existing files)
 4. Writes or updates `iterations/{version}.md` — single source of truth
 5. Runs `build-iterations` to regenerate `iterations.json`
 6. Runs `sync-readme` to regenerate the Iterations section in README
-7. Writes `results/{version}.json` with the full ranked list
-8. Commits and pushes `iterations/`, `iterations.json`, README, results
-9. Posts a comment with top 5, middle 5, bottom 5 projects
+7. Snapshots `results/{version}.json` from your committed `results.json`
+8. Commits and pushes `iterations/`, `iterations.json`, README, `results/`
+9. Posts a comment with top 5, middle 5, bottom 5 from your results
 
 **Re-runs:** Add `run-bot` to update the existing entry instead of creating a duplicate.
 
@@ -80,7 +88,7 @@ flowchart TB
 
 [`.github/workflows/pr-voting.yml`](../.github/workflows/pr-voting.yml) + [`scripts/voting-bot.ts`](../scripts/voting-bot.ts)
 
-**Triggers:** PR "Ready for review", or `start-vote` label.
+**Triggers:** PR has `iteration` label and is "Ready for review", or `start-vote` label. Non-iteration PRs skip the voting flow.
 
 **Flow:** Notify (48h deadline) → Tally (on each comment) → Remind (24h) → Resolve (48h). Majority of those who vote wins. React 👍 = YES, 👎 = NO. Abstentions don't count.
 
@@ -97,7 +105,7 @@ flowchart TB
 
 **Triggers:** Automatically when a PR is merged to main.
 
-**What it does:** Re-runs the algorithm, re-snapshots `results/{version}.json`, updates `iterations/{version}.md` (`pr_status` → merged, `top_project` from fresh results), regenerates `iterations.json` and README. Runs in the background; no action needed.
+**What it does:** Uses the merged `results.json` (no algorithm run). Updates `iterations/{version}.md` (`pr_status` → merged, `top_project` from results), snapshots `results/{version}.json`, regenerates `iterations.json` and README. Runs in the background; no action needed.
 
 ---
 
@@ -105,13 +113,16 @@ flowchart TB
 
 | Label | Meaning |
 |-------|---------|
+| `iteration` | **Opt-in:** PR proposes a new heuristic — bots run only when this label is present. Add when ready for algorithm run + committee vote. |
 | `vote:pending` | Voting open |
 | `vote:approved` | Majority yes |
 | `vote:rejected` | Majority no |
 | `vote:deadline-passed` | 48h elapsed |
 | `ready-to-merge` | Approved — merge when ready |
-| `run-bot` | Manual: re-run iteration bot |
+| `run-bot` | Manual: re-run iteration details updater |
 | `start-vote` | Manual: re-start voting |
+
+**Setup:** Create the `iteration` label in repo settings (Issues → Labels) if it doesn't exist. Suggested color: `0E8A16` (green).
 
 ---
 
@@ -122,7 +133,7 @@ flowchart TB
 - **Frontmatter:** `title`, `author` (GitHub handle, e.g. @username), `date`, `pr_url`, `version`, `pr_number`, `pr_status`, `top_project`, `keywords`
 - **Body:** `## Heuristic`, `## Rationale`, `## Data sources`, `## Limitations`, `## Assessment`
 
-The iteration bot creates these from the PR. Post-merge updates `pr_status` and `top_project`. **`iterations.json` is generated from these files** — never edit it directly. After editing an `.md` file, run `npm run build:iterations`.
+The iteration details updater creates these from the PR. Post-merge updates `pr_status` and `top_project`. **`iterations.json` is generated from these files** — never edit it directly. After editing an `.md` file, run `npm run build:iterations`.
 
 ---
 

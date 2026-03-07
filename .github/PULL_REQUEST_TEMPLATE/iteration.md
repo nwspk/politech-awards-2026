@@ -1,4 +1,13 @@
+---
+name: Iteration proposal
+about: Propose a new scoring heuristic for committee voting
+title: "[Iteration] "
+labels: ["iteration"]
+---
+
 <!-- Suggesting an idea without code? Open a [Heuristic suggestion](https://github.com/nwspk/politech-awards-2026/issues/new?template=heuristic-suggestion.md) issue and tag @sugaroverflow to implement it. -->
+
+<!-- When this PR is ready for the bots to run, add the `iteration` label. Bots only run on PRs with that label. -->
 
 ## Title
 
@@ -41,11 +50,12 @@
 - [ ] Code is ready to review
 
 <!-- ────────────────────────────────────────────────
-     Everything below will be filled in by the bot
-     when this PR is marked ready for review:
+     When ready: add the "iteration" label, then mark Ready for review.
+     Bots run only when the iteration label is present (data/docs PRs skip them).
+
+     The bot will fill in (from your committed results.json):
      - Version number
      - iterations/{version}.md created (source of truth)
      - iterations.json and README generated from it
-     - Algorithm results (top, middle, and bottom projects + scores)
-     - Data sources detected
+     - results/{version}.json snapshot
      ──────────────────────────────────────────────── -->
