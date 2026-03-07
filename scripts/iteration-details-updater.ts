@@ -1,20 +1,11 @@
 /**
- * iteration-bot.ts
+ * iteration-details-updater.ts
  *
- * Runs as part of the GitHub Actions "Iteration Bot" workflow.
- * Triggered when a PR is marked ready for review (or labeled 'run-bot').
+ * Runs as part of GitHub Actions "Iteration Details Updater".
+ * Triggered when PR has `iteration` label and is ready, or labeled `run-bot`.
  *
- * The iterations/*.md files are the single source of truth. This bot:
- * 1. Parses the PR description
- * 2. Creates or updates iterations/{version}.md
- * 3. Runs build-iterations to regenerate iterations.json
- * 4. Writes results and bot comment
- *
- * Environment variables (set by GitHub Actions):
- *   PR_BODY    - the pull request description
- *   PR_NUMBER  - the pull request number
- *   PR_URL     - the pull request HTML URL
- *   PR_AUTHOR  - the GitHub username of the PR author
+ * This updater does NOT run the algorithm. It expects results.json to already
+ * be committed by the PR author.
  */
 
 import { execSync } from "child_process";
@@ -33,10 +24,6 @@ import {
   writeIterationMd,
   iterationToMd,
 } from "./iterations-md.js";
-
-// ---------------------------------------------------------------------------
-// Parse the PR body
-// ---------------------------------------------------------------------------
 
 function stripComments(text: string): string {
   return text.replace(/<!--[\s\S]*?-->/g, "").trim();
@@ -68,10 +55,6 @@ function parsePRBody(body: string): {
   };
 }
 
-// ---------------------------------------------------------------------------
-// Version management (from .md files — single source of truth)
-// ---------------------------------------------------------------------------
-
 function getVersionForPr(prNumber: number): string | null {
   const files = listIterationMdFiles();
   for (const file of files) {
@@ -93,10 +76,6 @@ function getNextVersion(): string {
   return `v${n + 1}`;
 }
 
-// ---------------------------------------------------------------------------
-// Data source detection
-// ---------------------------------------------------------------------------
-
 function detectDataSources(): string[] {
   const code = fs.readFileSync("the-algorithm.ts", "utf-8");
   const sources: string[] = [];
@@ -109,21 +88,31 @@ function detectDataSources(): string[] {
   if (/openai|anthropic|claude|gpt|llm|gemini/i.test(code))
     sources.push("LLM analysis");
   const dataFileReads = code
-    .replaceAll("candidates.csv", "")
-    .replaceAll("results.json", "");
+    .replace(/candidates\.csv/g, "")
+    .replace(/results\.json/g, "");
   if (
     /readFileSync|createReadStream/.test(dataFileReads) &&
     /\.csv|\.json|\.tsv/i.test(dataFileReads)
-  )
+  ) {
     sources.push("additional data files");
+  }
 
   if (sources.length === 0) sources.push("project URL");
   return sources;
 }
 
-// ---------------------------------------------------------------------------
-// Main
-// ---------------------------------------------------------------------------
+function formatTable(projects: ResultEntry[], startRank: number): string {
+  return projects
+    .map(
+      (p, i) =>
+        `| ${startRank + i} | [${projectName(p.url)}](${p.url}) | ${p.score} |`
+    )
+    .join("\n");
+}
+
+function writeComment(comment: string): void {
+  fs.writeFileSync("bot-comment.md", comment);
+}
 
 function main(): void {
   const prBody = process.env.PR_BODY || "";
@@ -134,29 +123,42 @@ function main(): void {
   const { title, heuristic, rationale, limitations, assessment } =
     parsePRBody(prBody);
 
-  // Only create a new iteration when the PR has a non-empty Heuristic section.
-  // This prevents phantom versions (e.g. v6) when PRs are opened without a real heuristic.
-  const isNewVersion = getVersionForPr(prNumber) === null;
-  if (isNewVersion && !heuristic.trim()) {
-    const comment = `## Iteration Bot — Heuristic Required
+  if (!fs.existsSync("results.json")) {
+    writeComment(`## Iteration Details Updater — Results Required
 
-This PR does not include a **Heuristic** section in the description. The iteration bot only creates a new version when the PR proposes a concrete scoring heuristic.
+This PR is missing **\`results.json\`**.
 
-**To proceed:**
-1. Edit the PR description and add a \`## Heuristic\` section (one sentence describing how your iteration scores projects)
-2. Add the \`run-bot\` label to re-trigger the bot
-
-See the [PR template](.github/PULL_REQUEST_TEMPLATE.md) and [process docs](docs/PROCESS.md) for guidance.
-`;
-    fs.writeFileSync("bot-comment.md", comment);
-    console.log("✓ Skipped: no Heuristic section — wrote bot-comment.md");
+The updater does not run the algorithm in CI. Please run the algorithm locally, commit the updated \`results.json\`, and then re-run by adding the \`run-bot\` label.
+`);
+    console.log("Skipped: results.json missing.");
     return;
   }
 
-  const version =
-    getVersionForPr(prNumber) ?? getNextVersion();
+  const isNewVersion = getVersionForPr(prNumber) === null;
+  if (isNewVersion && !heuristic.trim()) {
+    writeComment(`## Iteration Details Updater — Heuristic Required
+
+This PR does not include a **Heuristic** section in the description. The updater only creates a new version when the PR proposes a concrete scoring heuristic.
+
+**To proceed:**
+1. Edit the PR description and add a \`## Heuristic\` section
+2. Add the \`run-bot\` label to re-trigger the updater
+`);
+    console.log("Skipped: no Heuristic section.");
+    return;
+  }
 
   const allResults = loadResults();
+  if (allResults.length === 0) {
+    writeComment(`## Iteration Details Updater — Results Required
+
+The committed **\`results.json\`** is empty. Please run the algorithm locally, commit populated results, then re-run with the \`run-bot\` label.
+`);
+    console.log("Skipped: results.json empty.");
+    return;
+  }
+
+  const version = getVersionForPr(prNumber) ?? getNextVersion();
   const topProject = allResults[0];
   const dataSources = detectDataSources();
 
@@ -188,25 +190,12 @@ See the [PR template](.github/PULL_REQUEST_TEMPLATE.md) and [process docs](docs/
   };
 
   writeIterationMd(version, iterationToMd(entry));
-  console.log(`✓ iterations/${version}.md written`);
+  console.log(`Wrote iterations/${version}.md`);
 
-  // Build iterations.json from .md (single source of truth)
   execSync("npx tsx scripts/build-iterations.ts", { stdio: "inherit" });
 
   snapshotVersionResults(version, allResults);
-  console.log(`✓ Results written to results/${version}.json`);
-
-  // -------------------------------------------------------------------------
-  // Generate bot comment
-  // -------------------------------------------------------------------------
-
-  const formatTable = (projects: ResultEntry[], startRank: number) =>
-    projects
-      .map(
-        (p, i) =>
-          `| ${startRank + i} | [${projectName(p.url)}](${p.url}) | ${p.score} |`
-      )
-      .join("\n");
+  console.log(`Wrote results/${version}.json`);
 
   const topProjects = allResults.slice(0, 5);
   const midStart = Math.floor((allResults.length - 5) / 2);
@@ -217,22 +206,14 @@ See the [PR template](.github/PULL_REQUEST_TEMPLATE.md) and [process docs](docs/
   const midTable = formatTable(midProjects, midStart + 1);
   const bottomTable = formatTable(bottomProjects, allResults.length - 4);
 
-  const dataSourcesList = dataSources
-    .map((s) =>
-      s === "project URL"
-        ? `- [project URL](candidates.csv)`
-        : `- ${s}`
-    )
-    .join("\n");
-
   const codeowners = fs.readFileSync(".github/CODEOWNERS", "utf-8");
   const committeeTags = (codeowners.match(/@[\w-]+/g) || []).join(" ");
 
-  const comment = `## Iteration Bot Results
+  writeComment(`## Iteration Details Updater Results
 
 **Version**: ${version} (auto-assigned)
 **Author**: @${prAuthor}
-**Algorithm run**: Complete — ${allResults.length} projects scored
+**Committed results read**: ${allResults.length} projects scored
 
 ### Top 5 Projects
 
@@ -252,25 +233,14 @@ ${midTable}
 |------|---------|-------|
 ${bottomTable}
 
-### Data Sources Detected
-
-${dataSourcesList}
-
 ### Next Steps
 
-- [ ] **@${prAuthor}**: Write your assessment — edit \`iterations/${version}.md\` (the **Assessment** section) or the PR description
-- [ ] **Committee**: Review and vote — approve the PR to merge this iteration
+- [ ] **@${prAuthor}**: Update your assessment in \`iterations/${version}.md\` if needed
+- [ ] **Committee**: Review and vote
 
 **Committee**: ${committeeTags}
-
----
-
-*\`iterations/${version}.md\` is the source of truth. \`iterations.json\` and \`README.md\` are generated from it.*
-*To re-run the bot, add the \`run-bot\` label.*
-`;
-
-  fs.writeFileSync("bot-comment.md", comment);
-  console.log("✓ Bot comment written to bot-comment.md");
+`);
+  console.log("Wrote bot-comment.md");
 }
 
 main();

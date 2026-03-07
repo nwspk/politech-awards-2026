@@ -21,16 +21,24 @@ import {
 import { updateIterationMdFrontmatter } from "./iterations-md.js";
 
 function main(): void {
+  const mergedPrNumber = parseInt(process.env.MERGED_PR_NUMBER || "", 10);
+  if (!Number.isFinite(mergedPrNumber)) {
+    console.error("MERGED_PR_NUMBER is required.");
+    process.exit(1);
+  }
+
   // Ensure iterations.json is current (built from .md)
   execSync("npx tsx scripts/build-iterations.ts", { stdio: "inherit" });
 
   const iterations = loadIterations();
   const results = loadResults();
 
-  const openEntries = iterations.filter((i) => i.pr_status === "open");
+  const openEntries = iterations.filter(
+    (i) => i.pr_status === "open" && i.pr_number === mergedPrNumber
+  );
 
   if (openEntries.length === 0) {
-    console.log("No open iterations to finalize.");
+    console.log(`No open iteration found for PR #${mergedPrNumber}.`);
     return;
   }
 

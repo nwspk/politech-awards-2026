@@ -13,18 +13,20 @@ How the awards committee works — proposing iterations, voting, and delivering 
 **If you're writing the code yourself:**
 
 1. Create a branch, edit `the-algorithm.ts`
-2. Test locally: `npm install && npx tsx the-algorithm.ts`
+2. Run locally: `npm install && npx tsx the-algorithm.ts` — commit `results.json` (and any cache your heuristic needs, e.g. `cache/assessments.json`)
 3. Open a PR — the template auto-fills; fill in **Heuristic** (one sentence) and **Rationale** (as detailed as you like), then check "Code is ready to review"
-4. Mark the PR as "Ready for review"
-5. The bots handle the rest (version number, results, README, voting)
+4. Mark the PR as "Ready for review" and add the **`iteration`** label
+5. The bots create the iteration from your results, update README, and start voting
 
 To add a new data source (scraped content, API data, survey results, etc.), use the [data collection template](../../compare?template=data-collection.md).
 
 ## What Happens When You Open a PR
 
-When a PR is marked **"Ready for review"**, two bots kick in:
+**Bots run only on iteration PRs** — PRs with the `iteration` label. Data collection, docs, and other PRs skip the bots.
 
-1. **Iteration Bot** — Runs the algorithm, posts the top 5 results, auto-assigns a version number, and updates `iterations/`, `iterations.json`, and README.
+When a PR has the **`iteration`** label and is marked **"Ready for review"**, two bots kick in:
+
+1. **Iteration Details Updater** — Reads your committed `results.json`, creates `iterations/{version}.md`, auto-assigns a version number, and updates `iterations.json` and README. (You run the algorithm locally; the updater does not.)
 2. **Voting Bot** — Posts a voting comment with a 48-hour deadline and adds a `vote:pending` label.
 
 For full details on triggers, behaviour, and troubleshooting, see [Technical Documentation](TECHNICAL.md#bots-at-a-glance).
@@ -39,7 +41,7 @@ Committee members vote by reacting to the voting comment: 👍 = YES, 👎 = NO.
 
 ## Labels
 
-Bots add labels automatically (`vote:pending`, `vote:approved`, etc.). To re-trigger a bot: add `run-bot` (iteration bot) or `start-vote` (voting). Full reference: [TECHNICAL.md](TECHNICAL.md#labels).
+Bots add labels automatically (`vote:pending`, `vote:approved`, etc.). To re-trigger: add `run-bot` (iteration details updater) or `start-vote` (voting). Full reference: [TECHNICAL.md](TECHNICAL.md#labels).
 
 ## Committee
 
