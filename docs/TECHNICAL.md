@@ -1,120 +1,138 @@
 # Technical Documentation
 
-Internal reference for the bots, scripts, and data formats powering this repo.
+Reference for the bots, scripts, and data formats powering this repo.
 
 **Heuristic suggestions:** Non-code contributors can open a [Heuristic suggestion](https://github.com/nwspk/politech-awards-2026/issues/new?template=heuristic-suggestion.md) issue (same fields as the PR template) and tag @sugaroverflow to implement; the resulting PR then goes through the normal iteration and voting flow.
+
+---
+
+## Bots at a glance
+
+| Bot | When it runs | What it does |
+|-----|--------------|--------------|
+| **Iteration Bot** | PR "Ready for review" or `run-bot` label | Runs algorithm, creates/updates `iterations/{version}.md`, posts results |
+| **Voting Bot** | PR "Ready for review" or `start-vote` label | Posts voting comment, tracks 👍/👎, resolves at 48h |
+| **Post-Merge Finalization** | PR merged to main | Updates `pr_status` → merged, re-snapshots results |
+
+**Manual triggers:** `run-bot` — re-run iteration bot. `start-vote` — re-start voting.
+
+---
 
 ## Iteration Bot
 
 [`.github/workflows/iteration-bot.yml`](../.github/workflows/iteration-bot.yml) + [`scripts/iteration-bot.ts`](../scripts/iteration-bot.ts)
 
-**Triggers**: PR marked "Ready for review", or `run-bot` label added. Does not run on drafts.
+**Triggers:** PR marked "Ready for review", or `run-bot` label. Does not run on drafts.
 
-**What it does** (in order):
+**What it does:**
 
-1. Checks out the PR branch and installs dependencies
-2. Runs `the-algorithm.ts` using the PR's version of the code
-3. Parses `## Heuristic`, `## Rationale`, `## Limitations`, and `## Assessment` from the PR description
-4. Auto-assigns a version number (highest existing + 1)
-5. Detects data sources by scanning `the-algorithm.ts` for patterns (e.g. `fetch(`, `octokit`, `openai`)
-6. Updates `iterations.json` (adds or updates entry, matched by PR number)
-7. Runs `scripts/sync-readme.ts` to regenerate the Iterations section
-8. Writes full rankings to `results/{version}.json` (e.g. `results/v4.json`)
-9. Commits and pushes `iterations.json`, `README.md`, `results.json`, and `results/` to the PR branch
-10. Posts a comment with version, top 5 projects, detected data sources, and next steps
+1. Runs `the-algorithm.ts` with the PR branch's code
+2. Parses `## Title`, `## Heuristic`, `## Rationale`, `## Limitations`, `## Assessment` from the PR
+3. Determines version (re-run: finds existing `iterations/{version}.md` by `pr_number`; new: next version from existing files)
+4. Writes or updates `iterations/{version}.md` — single source of truth
+5. Runs `build-iterations` to regenerate `iterations.json`
+6. Runs `sync-readme` to regenerate the Iterations section in README
+7. Writes `results/{version}.json` with the full ranked list
+8. Commits and pushes `iterations/`, `iterations.json`, README, results
+9. Posts a comment with top 5, middle 5, bottom 5 projects
 
-**Re-runs**: Adding the `run-bot` label re-triggers the bot. It updates the existing entry rather than creating a duplicate.
+**Re-runs:** Add `run-bot` to update the existing entry instead of creating a duplicate.
 
-## results/ Directory
+**Fork PRs:** The bot runs and posts results but cannot push to your fork. Pull from upstream or re-run locally.
 
-Versioned rankings are stored in `results/v1.json`, `results/v2.json`, etc. Each file contains the full ranked list from that iteration's merge.
-
-- **`results.json`** (root) — Current/latest run; overwritten each time the algorithm runs.
-- **`results/v{N}.json`** — Historical snapshot for each merged iteration; written by the iteration bot and committed with the PR.
-
+---
 
 ## Voting Bot
 
 [`.github/workflows/pr-voting.yml`](../.github/workflows/pr-voting.yml) + [`scripts/voting-bot.ts`](../scripts/voting-bot.ts)
 
-**Triggers**: PR marked "Ready for review", or `start-vote` label added.
+**Triggers:** PR "Ready for review", or `start-vote` label.
 
-**How it works**:
+**Flow:** Notify (48h deadline) → Tally (on each comment) → Remind (24h) → Resolve (48h). Majority of those who vote wins. React 👍 = YES, 👎 = NO. Abstentions don't count.
 
-1. **Notify** — Posts a voting comment with a 48-hour deadline. Adds `vote:pending` label.
-2. **Tally** — Recounts votes each time a comment is posted. Majority of those who vote wins. PR author (if in CODEOWNERS) counts as yes when abstaining.
-3. **Remind** — At 24h: reminder to non-voters ("if you don't vote, this may pass by majority of voters").
-4. **Resolve** — At 48h: more 👍 than 👎 → `ready-to-merge`; more 👎 than 👍 → assign to close; tie → reject.
+**Run manually:**
+- `npx tsx scripts/voting-bot.ts notify <issue_number>`
+- `npx tsx scripts/voting-bot.ts tally <issue_number>`
+- `npx tsx scripts/voting-bot.ts deadline`
 
-**Voting**: React to the bot's voting comment — 👍 = YES, 👎 = NO. Abstentions don't count.
+---
 
-**Run manually**:
-- `npx tsx scripts/voting-bot.ts notify <issue_number>` — start voting
-- `npx tsx scripts/voting-bot.ts tally <issue_number>` — recount votes
-- `npx tsx scripts/voting-bot.ts deadline` — process 24h reminders and 48h resolutions
+## Post-Merge Finalization
 
-**Labels**:
+[`.github/workflows/on-merge.yml`](../.github/workflows/on-merge.yml) + [`scripts/finalize-merge.ts`](../scripts/finalize-merge.ts)
+
+**Triggers:** Automatically when a PR is merged to main.
+
+**What it does:** Re-runs the algorithm, re-snapshots `results/{version}.json`, updates `iterations/{version}.md` (`pr_status` → merged, `top_project` from fresh results), regenerates `iterations.json` and README. Runs in the background; no action needed.
+
+---
+
+## Labels
 
 | Label | Meaning |
 |-------|---------|
-| `vote:pending` | Waiting for votes |
-| `vote:approved` | Majority said yes |
-| `vote:rejected` | Majority said no |
-| `vote:deadline-passed` | 48 hours elapsed |
-| `ready-to-merge` | Approved and ready for manual merge |
+| `vote:pending` | Voting open |
+| `vote:approved` | Majority yes |
+| `vote:rejected` | Majority no |
+| `vote:deadline-passed` | 48h elapsed |
+| `ready-to-merge` | Approved — merge when ready |
+| `run-bot` | Manual: re-run iteration bot |
+| `start-vote` | Manual: re-start voting |
 
-## scripts/sync-readme.ts
+---
 
-Regenerates the **Iterations** section of `README.md` from `iterations.json`. Finds `<!-- ITERATIONS:START -->` / `<!-- ITERATIONS:END -->` markers and replaces everything between them.
+## iterations/ Directory
 
-Runs automatically as part of the iteration bot. Run manually with `npx tsx scripts/sync-readme.ts`.
+`iterations/v1.md`, `iterations/v2.md`, etc. are the **single source of truth** per iteration. Each file has:
 
-## Cache Sites
+- **Frontmatter:** `title`, `author`, `date`, `pr_url`, `version`, `pr_number`, `pr_status`, `top_project`, `keywords`
+- **Body:** `## Heuristic`, `## Rationale`, `## Data sources`, `## Limitations`, `## Assessment`
 
-`scripts/cache-sites.ts` fetches each URL in `candidates.csv` and stores the HTML in a SQLite database at `cache/sites.sqlite`.
+The iteration bot creates these from the PR. Post-merge updates `pr_status` and `top_project`. **`iterations.json` is generated from these files** — never edit it directly. After editing an `.md` file, run `npm run build:iterations`.
 
-Run manually:
+---
 
-`npx tsx scripts/cache-sites.ts`
+## results/ Directory
 
-Or via npm:
+- **`results.json`** — Current run; overwritten each time the algorithm runs
+- **`results/v{N}.json`** — Historical snapshot per merged iteration
 
-`npm run cache:sites`
+---
 
-Notes:
-- Re-fetch everything by deleting `cache/sites.sqlite`
-- Requests time out after 15000ms
-- Re-try failed URLs with `npm run cache:sites:retry`
+## Scripts
 
-## Read Cache
+**build-iterations** — Rebuilds `iterations.json` from `iterations/*.md`. Run after editing any iteration.  
+`npm run build:iterations` or `npx tsx scripts/build-iterations.ts`
 
-`scripts/read-cache.ts` serves a cached HTML page from the SQLite database so it can be opened in a browser.
+**sync-readme** — Regenerates the Iterations section in README from `iterations.json`.  
+`npx tsx scripts/sync-readme.ts`
 
-Run manually:
+**cache:sites** — Fetches each URL in `candidates.csv` into `cache/sites.sqlite`.  
+`npm run cache:sites` — Re-fetch: delete `cache/sites.sqlite`. Retry failed: `npm run cache:sites:retry`
 
-`npx tsx scripts/read-cache.ts <url> [port]`
-
-Or via npm:
-
+**cache:read** — Serves a cached page in the browser.  
 `npm run cache:read -- <url> [port]`
+
+---
 
 ## iterations.json Schema
 
-Source of truth for all iteration metadata.
+Generated by `build-iterations`. Do not edit manually.
 
-| Field | Type | Set by | Description |
-|-------|------|--------|-------------|
-| `version` | `string` | bot | e.g. `"v3"` — auto-assigned |
-| `date` | `string \| null` | bot | Date the bot ran (YYYY-MM-DD) |
-| `author` | `string \| null` | bot | GitHub username of the PR author |
-| `pr_number` | `number \| null` | bot | PR number (also used for re-run detection) |
-| `pr_url` | `string \| null` | bot | Full PR URL |
-| `pr_status` | `string \| null` | bot / manual | `"open"`, `"merged"`, or `"rejected"` |
-| `top_project` | `object` | bot | `{ name, url, score }` — highest-scoring project |
-| `heuristic` | `string` | bot (from PR) | Parsed from `## Heuristic` |
-| `rationale` | `string \| null` | bot (from PR) | Parsed from `## Rationale` |
-| `data_sources` | `string[] \| null` | bot | Auto-detected from `the-algorithm.ts` |
-| `keywords` | `string[] \| null` | manual | Specific criteria, if any |
-| `limitations` | `string \| null` | bot (from PR) | Parsed from `## Limitations` |
-| `assessment` | `string \| null` | bot (from PR) | Post-results reflection from `## Assessment` |
-| `vote_result` | `string \| null` | manual | Committee vote outcome |
+| Field | Type | Description |
+|-------|------|-------------|
+| `version` | string | e.g. `"v3"` |
+| `title` | string \| null | Display name |
+| `date` | string \| null | YYYY-MM-DD |
+| `author` | string \| null | GitHub username |
+| `pr_number` | number \| null | PR number |
+| `pr_url` | string \| null | Full PR URL |
+| `pr_status` | string \| null | `"open"`, `"merged"`, `"rejected"` |
+| `top_project` | object | `{ name, url, score }` |
+| `heuristic` | string | From `## Heuristic` |
+| `rationale` | string \| null | From `## Rationale` |
+| `data_sources` | string[] \| null | Auto-detected from code |
+| `keywords` | string[] \| null | From frontmatter |
+| `limitations` | string \| null | From `## Limitations` |
+| `assessment` | string \| null | From `## Assessment` |
+| `vote_result` | string \| null | Committee outcome |

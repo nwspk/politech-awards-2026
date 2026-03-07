@@ -4,13 +4,11 @@
  * Runs as part of the GitHub Actions "Iteration Bot" workflow.
  * Triggered when a PR is marked ready for review (or labeled 'run-bot').
  *
- * What it does:
- * 1. Reads results.json (algorithm must have already run)
- * 2. Determines the next version number from iterations.json
- * 3. Parses the PR description for heuristic and rationale
- * 4. Detects data sources used by the current algorithm
- * 5. Updates iterations.json with the new entry
- * 6. Writes bot-comment.md for the workflow to post on the PR
+ * The iterations/*.md files are the single source of truth. This bot:
+ * 1. Parses the PR description
+ * 2. Creates or updates iterations/{version}.md
+ * 3. Runs build-iterations to regenerate iterations.json
+ * 4. Writes results and bot comment
  *
  * Environment variables (set by GitHub Actions):
  *   PR_BODY    - the pull request description
@@ -19,16 +17,22 @@
  *   PR_AUTHOR  - the GitHub username of the PR author
  */
 
+import { execSync } from "child_process";
 import * as fs from "fs";
 import {
   type Iteration,
   type ResultEntry,
   projectName,
-  loadIterations,
-  saveIterations,
   loadResults,
   snapshotVersionResults,
 } from "./shared.js";
+import {
+  listIterationMdFiles,
+  readIterationMd,
+  parseIterationMd,
+  writeIterationMd,
+  iterationToMd,
+} from "./iterations-md.js";
 
 // ---------------------------------------------------------------------------
 // Parse the PR body
@@ -39,7 +43,6 @@ function stripComments(text: string): string {
 }
 
 function extractSection(body: string, heading: string): string {
-  // Match from "## Heading" to the next "## " or end of string
   const pattern = new RegExp(
     `## ${heading}\\s*\\n([\\s\\S]*?)(?=\\n## |$)`,
     "i"
@@ -49,12 +52,15 @@ function extractSection(body: string, heading: string): string {
 }
 
 function parsePRBody(body: string): {
+  title: string | null;
   heuristic: string;
   rationale: string;
   limitations: string;
   assessment: string;
 } {
+  const title = extractSection(body, "Title");
   return {
+    title: title || null,
     heuristic: extractSection(body, "Heuristic"),
     rationale: extractSection(body, "Rationale"),
     limitations: extractSection(body, "Limitations"),
@@ -63,32 +69,28 @@ function parsePRBody(body: string): {
 }
 
 // ---------------------------------------------------------------------------
-// Version management
+// Version management (from .md files — single source of truth)
 // ---------------------------------------------------------------------------
 
-function getNextVersion(iterations: Iteration[]): string {
-  const versions = iterations.map((i) =>
-    parseInt(i.version.replace("v", ""), 10)
-  );
-  const max = Math.max(...versions, 0);
-  return `v${max + 1}`;
+function getVersionForPr(prNumber: number): string | null {
+  const files = listIterationMdFiles();
+  for (const file of files) {
+    const version = file.replace(/\.md$/, "");
+    const content = readIterationMd(version);
+    const { frontmatter } = parseIterationMd(content);
+    if (frontmatter.pr_number === prNumber) {
+      return version;
+    }
+  }
+  return null;
 }
 
-// ---------------------------------------------------------------------------
-// Results analysis
-// ---------------------------------------------------------------------------
-
-function getTopProjects(results: ResultEntry[], n: number): ResultEntry[] {
-  return results.slice(0, n);
-}
-
-function getMiddleProjects(results: ResultEntry[], n: number): ResultEntry[] {
-  const midStart = Math.floor((results.length - n) / 2);
-  return results.slice(midStart, midStart + n);
-}
-
-function getBottomProjects(results: ResultEntry[], n: number): ResultEntry[] {
-  return results.slice(-n);
+function getNextVersion(): string {
+  const files = listIterationMdFiles();
+  if (files.length === 0) return "v1";
+  const last = files[files.length - 1];
+  const n = parseInt(last.replace(/^v|\.md$/g, ""), 10);
+  return `v${n + 1}`;
 }
 
 // ---------------------------------------------------------------------------
@@ -106,9 +108,13 @@ function detectDataSources(): string[] {
     sources.push("GitHub API");
   if (/openai|anthropic|claude|gpt|llm|gemini/i.test(code))
     sources.push("LLM analysis");
-  // Look for readFileSync/createReadStream of data files, excluding candidates.csv and results.json
-  const dataFileReads = code.replaceAll("candidates.csv", "").replaceAll("results.json", "");
-  if (/readFileSync|createReadStream/.test(dataFileReads) && /\.csv|\.json|\.tsv/i.test(dataFileReads))
+  const dataFileReads = code
+    .replaceAll("candidates.csv", "")
+    .replaceAll("results.json", "");
+  if (
+    /readFileSync|createReadStream/.test(dataFileReads) &&
+    /\.csv|\.json|\.tsv/i.test(dataFileReads)
+  )
     sources.push("additional data files");
 
   if (sources.length === 0) sources.push("project URL");
@@ -125,35 +131,26 @@ function main(): void {
   const prUrl = process.env.PR_URL || "";
   const prAuthor = process.env.PR_AUTHOR || "";
 
-  // Load existing iterations
-  const iterations = loadIterations();
-
-  // Check if this PR already has an entry (re-run case)
-  const existingIdx = iterations.findIndex((i) => i.pr_number === prNumber);
-
-  // Parse PR description
-  const { heuristic, rationale, limitations, assessment } =
+  const { title, heuristic, rationale, limitations, assessment } =
     parsePRBody(prBody);
 
-  // Determine version
   const version =
-    existingIdx >= 0
-      ? iterations[existingIdx].version
-      : getNextVersion(iterations);
+    getVersionForPr(prNumber) ?? getNextVersion();
 
-  // Run results
   const allResults = loadResults();
-  const topProjects = getTopProjects(allResults, 5);
-  const midProjects = getMiddleProjects(allResults, 5);
-  const bottomProjects = getBottomProjects(allResults, 5);
-  const topProject = topProjects[0];
+  const topProject = allResults[0];
   const dataSources = detectDataSources();
 
-  // Build iteration entry
+  const resolvedTitle =
+    title ||
+    (heuristic ? heuristic.split("\n")[0].trim().slice(0, 80) : null) ||
+    version;
+
   const entry: Iteration = {
     version,
+    title: resolvedTitle,
     date: new Date().toISOString().split("T")[0],
-    author: prAuthor,
+    author: prAuthor || null,
     pr_number: prNumber,
     pr_url: prUrl,
     pr_status: "open",
@@ -171,27 +168,14 @@ function main(): void {
     vote_result: null,
   };
 
-  // Insert or update
-  if (existingIdx >= 0) {
-    iterations[existingIdx] = entry;
-    console.log(`✓ Updated existing entry for ${version} (PR #${prNumber})`);
-  } else {
-    iterations.push(entry);
-    console.log(`✓ Added new entry for ${version} (PR #${prNumber})`);
-  }
+  writeIterationMd(version, iterationToMd(entry));
+  console.log(`✓ iterations/${version}.md written`);
 
-  saveIterations(iterations);
+  // Build iterations.json from .md (single source of truth)
+  execSync("npx tsx scripts/build-iterations.ts", { stdio: "inherit" });
 
-  // Write versioned results to results/{version}.json
-  const resultsPath = snapshotVersionResults(version, allResults);
-  console.log(`✓ Results written to ${resultsPath}`);
-
-  // -------------------------------------------------------------------------
-  // Read committee members from CODEOWNERS
-  // -------------------------------------------------------------------------
-
-  const codeowners = fs.readFileSync(".github/CODEOWNERS", "utf-8");
-  const committeeTags = (codeowners.match(/@[\w-]+/g) || []).join(" ");
+  snapshotVersionResults(version, allResults);
+  console.log(`✓ Results written to results/${version}.json`);
 
   // -------------------------------------------------------------------------
   // Generate bot comment
@@ -205,11 +189,14 @@ function main(): void {
       )
       .join("\n");
 
+  const topProjects = allResults.slice(0, 5);
+  const midStart = Math.floor((allResults.length - 5) / 2);
+  const midProjects = allResults.slice(midStart, midStart + 5);
+  const bottomProjects = allResults.slice(-5);
+
   const topTable = formatTable(topProjects, 1);
-  const midStartRank = Math.floor((allResults.length - 5) / 2) + 1;
-  const midTable = formatTable(midProjects, midStartRank);
-  const bottomStartRank = allResults.length - 4;
-  const bottomTable = formatTable(bottomProjects, bottomStartRank);
+  const midTable = formatTable(midProjects, midStart + 1);
+  const bottomTable = formatTable(bottomProjects, allResults.length - 4);
 
   const dataSourcesList = dataSources
     .map((s) =>
@@ -218,6 +205,9 @@ function main(): void {
         : `- ${s}`
     )
     .join("\n");
+
+  const codeowners = fs.readFileSync(".github/CODEOWNERS", "utf-8");
+  const committeeTags = (codeowners.match(/@[\w-]+/g) || []).join(" ");
 
   const comment = `## Iteration Bot Results
 
@@ -249,14 +239,14 @@ ${dataSourcesList}
 
 ### Next Steps
 
-- [ ] **@${prAuthor}**: Write your assessment — edit the **Assessment** section in the PR description above (you can see the results now!)
+- [ ] **@${prAuthor}**: Write your assessment — edit \`iterations/${version}.md\` (the **Assessment** section) or the PR description
 - [ ] **Committee**: Review and vote — approve the PR to merge this iteration
 
 **Committee**: ${committeeTags}
 
 ---
 
-*\`iterations.json\` and \`README.md\` have been auto-updated on this branch.*
+*\`iterations/${version}.md\` is the source of truth. \`iterations.json\` and \`README.md\` are generated from it.*
 *To re-run the bot, add the \`run-bot\` label.*
 `;
 

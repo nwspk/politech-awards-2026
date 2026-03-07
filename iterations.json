@@ -1,6 +1,7 @@
 [
   {
     "version": "v1",
+    "title": "Random scoring",
     "date": null,
     "author": null,
     "pr_number": 1,
@@ -18,10 +19,12 @@
     ],
     "keywords": null,
     "limitations": "Entirely random; no meaningful evaluation of projects.",
+    "assessment": null,
     "vote_result": null
   },
   {
     "version": "v2",
+    "title": "Exclusion keyword bonus",
     "date": "2026-02-04",
     "author": "Asil",
     "pr_number": 2,
@@ -50,10 +53,12 @@
       "low-income"
     ],
     "limitations": "Only matches keywords in the URL string itself, not in actual project content. Many relevant projects won't have these keywords in their URL.",
+    "assessment": null,
     "vote_result": null
   },
   {
     "version": "v3",
+    "title": "Keyword clusters (no randomness)",
     "date": "2026-02-07",
     "author": "sugaroverflow",
     "pr_number": 7,
@@ -65,18 +70,19 @@
       "score": 11
     },
     "heuristic": "Removing the random scoring tilt mechanism by trying to score projects by keyword clusters. Each project receives points if the URL (the only data we currently have) matches across the 4 policy-framework-aligned keyword clusters.",
-    "rationale": "v2 showed that keyword matching against URLs can surface relevant projects — but the random base score meant that it was different each time it was run, which isn't very reliable. This iteration removes randomness entirely to ask:  \r\n\r\n**what can keyword clusters alone tell us about 321 projects when our only data source is a URL string?**\r\n\r\nIt turns out the answer is: almost nothing. Only 2 of 321 projects score above baseline. We can probably consider this a failure of our dataset which is only URLs.",
+    "rationale": "v2 showed that keyword matching against URLs can surface relevant projects — but the random base score meant that it was different each time it was run, which isn't very reliable. This iteration removes randomness entirely to ask:\n\n**what can keyword clusters alone tell us about 321 projects when our only data source is a URL string?**\n\nIt turns out the answer is: almost nothing. Only 2 of 321 projects score above baseline. We can probably consider this a failure of our dataset which is only URLs.",
     "data_sources": [
       "project URL",
       "additional data files"
     ],
     "keywords": null,
     "limitations": null,
-    "vote_result": null,
-    "assessment_output": false
+    "assessment": null,
+    "vote_result": null
   },
   {
     "version": "v4",
+    "title": "AI governance body bonus",
     "date": "2026-02-13",
     "author": "jcoombes",
     "pr_number": 9,
@@ -109,11 +115,12 @@
       "AI safety"
     ],
     "limitations": "Requires cache to be populated (npm run cache:sites). AI bonus capped at 3 keyword matches × 5 points.",
-    "vote_result": null,
-    "assessment_output": false
+    "assessment": null,
+    "vote_result": null
   },
   {
     "version": "v5",
+    "title": "Three-agent ITN/A deliberation",
     "date": "2026-02-22",
     "author": "Gamithra",
     "pr_number": 12,
@@ -125,15 +132,40 @@
       "score": 90
     },
     "heuristic": "Three-agent ITN/A deliberation: independent AI evaluators assess each project through political, relational, and experimental personas on 4 different lenses, argue in multi-turn conversation, and produce a ranked shortlist.",
-    "rationale": "v5 changes the question from \"does this project match criteria\" to \"does this project make sense to three evaluators who are forced to argue with each other.\"\r\n\r\nThe pipeline has two stages:\r\n\r\n**Stage 1 — Evaluation** (`scripts/itn-a-eval.ts`): Each of the 321 projects is assessed independently by three agents: political (power lens), relational (care lens), experimental (epistemics lens) — each applying the full ITN/A protocol: self-check, four lenses with spectrum positioning, felt sense, then a bucket assignment (green / yellow / red / grey). Results cached to `cache/assessments.json` (this is ~39k lines and took a good few hours to run).\r\n\r\n**Stage 2 — Deliberation** (`scripts/itn-a-deliberate.ts`): The projects that reached green consensus across all three agents enter a deliberation round. Agents score all 21 *relative to each other* with full page content available — not against an abstract rubric but against the actual field. The top conflicts by rank spread are then argued in multi-turn conversation (3 turns each, with a facilitator between turns who calls out evasion). Final scores reflect where positions settled after argument. Results cached to `cache/deliberation.json`.\r\n\r\n**Scoring in the-algorithm.ts**:\r\n- Deliberated projects: their argument-settled aggregate score (range in this run: 51–90)\r\n- 2+ green assessments, not deliberated: 45\r\n- 1 green assessment: 20\r\n- 0 greens / grey / red: 5\r\n\r\nThe numeric scores should be read as *ordinal*, not cardinal — 90 means \"won the deliberation,\" not \"90% good.\" The gap between tiers (90 → 45 → 20 → 5) is intentionally large; the ranking within each tier is what matters.\r\n\r\n**Winner this run: vTaiwan (g0v)**\r\n\r\nvTaiwan ranked first in the deliberation — the agents converged on it as the project that most fully embodies political technology in 2026: proven participatory infrastructure, real policy impact (Uber regulation, same-sex marriage), and genuinely open forks (Poland, France). The case against: Taiwan-centric origins, uncertain scaling to low-trust or non-digital-first contexts.\r\n\r\nRead deliberation-summary.md to see the Stage 2 discussions between agents.",
+    "rationale": "v5 changes the question from \"does this project match criteria\" to \"does this project make sense to three evaluators who are forced to argue with each other.\"\n\nThe pipeline has two stages:\n\n**Stage 1 — Evaluation** (`scripts/itn-a-eval.ts`): Each of the 321 projects is assessed independently by three agents: political (power lens), relational (care lens), experimental (epistemics lens) — each applying the full ITN/A protocol: self-check, four lenses with spectrum positioning, felt sense, then a bucket assignment (green / yellow / red / grey). Results cached to `cache/assessments.json` (this is ~39k lines and took a good few hours to run).\n\n**Stage 2 — Deliberation** (`scripts/itn-a-deliberate.ts`): The projects that reached green consensus across all three agents enter a deliberation round. Agents score all 21 *relative to each other* with full page content available — not against an abstract rubric but against the actual field. The top conflicts by rank spread are then argued in multi-turn conversation (3 turns each, with a facilitator between turns who calls out evasion). Final scores reflect where positions settled after argument. Results cached to `cache/deliberation.json`.\n\n**Scoring in the-algorithm.ts**:\n- Deliberated projects: their argument-settled aggregate score (range in this run: 51–90)\n- 2+ green assessments, not deliberated: 45\n- 1 green assessment: 20\n- 0 greens / grey / red: 5\n\nThe numeric scores should be read as *ordinal*, not cardinal — 90 means \"won the deliberation,\" not \"90% good.\" The gap between tiers (90 → 45 → 20 → 5) is intentionally large; the ranking within each tier is what matters.\n\n**Winner this run: vTaiwan (g0v)**\n\nvTaiwan ranked first in the deliberation — the agents converged on it as the project that most fully embodies political technology in 2026: proven participatory infrastructure, real policy impact (Uber regulation, same-sex marriage), and genuinely open forks (Poland, France). The case against: Taiwan-centric origins, uncertain scaling to low-trust or non-digital-first contexts.\n\nRead deliberation-summary.md to see the Stage 2 discussions between agents.",
     "data_sources": [
       "project URL",
       "scraped content",
       "additional data files"
     ],
     "keywords": null,
-    "limitations": "Approximately 280 of 321 projects receive a score of 5, 20, or 45 with no fine-grained distinction within those tiers. The current cached page content isn't very useful. The projects that models have former knowledge of rank much higher.\r\n\r\n**The agents argue from page content + prior assessments.** The deliberation agents see extracted page text (3000 chars) and the evaluation summaries. This is better than nothing but still lossy — page text isn't the same as knowing what a project actually does in practice.\r\n\r\n**All agents run on the same model** (x-ai/grok-4.1-fast). True independence would use different models or temperatures. The disagreements that emerge are real — rank spreads of 15–20 on contested projects, genuine score revisions in argument — but they're disagreements within one model's possibility space. Tried a range of models in the process but this one emerged as the cheapest and fastest while producing interesting analysis.\r\n\r\nThe evaluation framework reflects specific values — systemic change over symptom treatment, genuine experimentation over locked gospel, nourishment over extraction, stewardship over ego. Projects that score low may be genuinely valuable under different value weightings.",
-    "assessment": "to be completed\r\n\r\n---\r\n\r\n*Files added/modified:*\r\n- `scripts/the-algorithm.ts` — v5 heuristic added, `CURRENT_HEURISTIC` switched to `heuristicV5`\r\n- `scripts/itn-a-eval.ts` — new: three-agent ITN/A evaluation pipeline\r\n- `scripts/itn-a-deliberate.ts` — new: multi-turn deliberation with relative scoring and facilitator\r\n- `cache/assessments.json` — evaluation outputs for all 321 projects (committed as deliverable)\r\n- `cache/deliberation.json` — deliberation outputs: scores, argument logs, winner, constellation",
+    "limitations": "Approximately 280 of 321 projects receive a score of 5, 20, or 45 with no fine-grained distinction within those tiers. The current cached page content isn't very useful. The projects that models have former knowledge of rank much higher.\n\n**The agents argue from page content + prior assessments.** The deliberation agents see extracted page text (3000 chars) and the evaluation summaries. This is better than nothing but still lossy — page text isn't the same as knowing what a project actually does in practice.\n\n**All agents run on the same model** (x-ai/grok-4.1-fast). True independence would use different models or temperatures. The disagreements that emerge are real — rank spreads of 15–20 on contested projects, genuine score revisions in argument — but they're disagreements within one model's possibility space. Tried a range of models in the process but this one emerged as the cheapest and fastest while producing interesting analysis.\n\nThe evaluation framework reflects specific values — systemic change over symptom treatment, genuine experimentation over locked gospel, nourishment over extraction, stewardship over ego. Projects that score low may be genuinely valuable under different value weightings.",
+    "assessment": "to be completed\n\n---\n\n*Files added/modified:*\n- `scripts/the-algorithm.ts` — v5 heuristic added, `CURRENT_HEURISTIC` switched to `heuristicV5`\n- `scripts/itn-a-eval.ts` — new: three-agent ITN/A evaluation pipeline\n- `scripts/itn-a-deliberate.ts` — new: multi-turn deliberation with relative scoring and facilitator\n- `cache/assessments.json` — evaluation outputs for all 321 projects (committed as deliverable)\n- `cache/deliberation.json` — deliberation outputs: scores, argument logs, winner, constellation",
+    "vote_result": null
+  },
+  {
+    "version": "v6",
+    "title": "v6",
+    "date": "2026-03-07",
+    "author": "sugaroverflow",
+    "pr_number": 13,
+    "pr_url": "https://github.com/nwspk/politech-awards-2026/pull/13",
+    "pr_status": "open",
+    "top_project": {
+      "name": "github.com",
+      "url": "https://github.com/g0v/vue.vtaiwan.tw",
+      "score": 90
+    },
+    "heuristic": "No heuristic description provided",
+    "rationale": null,
+    "data_sources": [
+      "project URL",
+      "scraped content",
+      "additional data files"
+    ],
+    "keywords": null,
+    "limitations": null,
+    "assessment": null,
     "vote_result": null
   }
 ]
