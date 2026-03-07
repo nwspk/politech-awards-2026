@@ -19,6 +19,7 @@ export interface TopProject {
 
 export interface Iteration {
   version: string;
+  title: string | null;
   date: string | null;
   author: string | null;
   pr_number: number | null;

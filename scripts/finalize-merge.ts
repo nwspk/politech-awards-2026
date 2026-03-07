@@ -3,30 +3,30 @@
  *
  * Runs after a PR is merged to main (called by .github/workflows/on-merge.yml).
  *
- * What it does:
- * 1. Reads iterations.json and finds entries with pr_status "open"
- * 2. Re-snapshots results.json → results/{version}.json for each
- * 3. Updates pr_status to "merged"
- * 4. Writes back iterations.json
- *
- * This prevents stale per-version result files — the iteration bot writes
- * results/{version}.json at PR-open time (before the algorithm may have run
- * properly), and this script overwrites it with the final post-merge output.
+ * iterations/*.md are the single source of truth. This script:
+ * 1. Runs build-iterations to load current state from .md into iterations.json
+ * 2. Finds entries with pr_status "open" (the just-merged iteration)
+ * 3. Updates the .md file(s): pr_status → "merged", top_project from results
+ * 4. Re-snapshots results/{version}.json
+ * 5. Runs build-iterations to regenerate iterations.json from updated .md
  */
 
+import { execSync } from "child_process";
 import {
   projectName,
   loadIterations,
-  saveIterations,
   loadResults,
   snapshotVersionResults,
 } from "./shared.js";
+import { updateIterationMdFrontmatter } from "./iterations-md.js";
 
 function main(): void {
+  // Ensure iterations.json is current (built from .md)
+  execSync("npx tsx scripts/build-iterations.ts", { stdio: "inherit" });
+
   const iterations = loadIterations();
   const results = loadResults();
 
-  // Find entries still marked "open" — these are the just-merged versions
   const openEntries = iterations.filter((i) => i.pr_status === "open");
 
   if (openEntries.length === 0) {
@@ -36,26 +36,27 @@ function main(): void {
 
   for (const entry of openEntries) {
     // Re-snapshot results.json → results/{version}.json
-    const path = snapshotVersionResults(entry.version, results);
-    console.log(`✓ Re-snapshotted ${path} from results.json`);
+    snapshotVersionResults(entry.version, results);
+    console.log(`✓ Re-snapshotted results/${entry.version}.json`);
 
-    // Update top_project to reflect current results
+    // Update .md: pr_status → merged, top_project from current results
+    const updates: { pr_status: string; top_project?: { name: string; url: string; score: number | null } } = {
+      pr_status: "merged",
+    };
     if (results.length > 0) {
       const top = results[0];
-      entry.top_project = {
+      updates.top_project = {
         name: projectName(top.url),
         url: top.url,
         score: top.score,
       };
     }
-
-    // Mark as merged
-    entry.pr_status = "merged";
-    console.log(`✓ ${entry.version} pr_status → merged`);
+    updateIterationMdFrontmatter(entry.version, updates);
+    console.log(`✓ iterations/${entry.version}.md updated (pr_status → merged)`);
   }
 
-  saveIterations(iterations);
-  console.log(`✓ iterations.json updated`);
+  // Regenerate iterations.json from updated .md
+  execSync("npx tsx scripts/build-iterations.ts", { stdio: "inherit" });
 }
 
 main();
