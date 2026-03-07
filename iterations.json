@@ -142,30 +142,5 @@
     "limitations": "Approximately 280 of 321 projects receive a score of 5, 20, or 45 with no fine-grained distinction within those tiers. The current cached page content isn't very useful. The projects that models have former knowledge of rank much higher.\n\n**The agents argue from page content + prior assessments.** The deliberation agents see extracted page text (3000 chars) and the evaluation summaries. This is better than nothing but still lossy — page text isn't the same as knowing what a project actually does in practice.\n\n**All agents run on the same model** (x-ai/grok-4.1-fast). True independence would use different models or temperatures. The disagreements that emerge are real — rank spreads of 15–20 on contested projects, genuine score revisions in argument — but they're disagreements within one model's possibility space. Tried a range of models in the process but this one emerged as the cheapest and fastest while producing interesting analysis.\n\nThe evaluation framework reflects specific values — systemic change over symptom treatment, genuine experimentation over locked gospel, nourishment over extraction, stewardship over ego. Projects that score low may be genuinely valuable under different value weightings.",
     "assessment": "to be completed\n\n---\n\n*Files added/modified:*\n- `scripts/the-algorithm.ts` — v5 heuristic added, `CURRENT_HEURISTIC` switched to `heuristicV5`\n- `scripts/itn-a-eval.ts` — new: three-agent ITN/A evaluation pipeline\n- `scripts/itn-a-deliberate.ts` — new: multi-turn deliberation with relative scoring and facilitator\n- `cache/assessments.json` — evaluation outputs for all 321 projects (committed as deliverable)\n- `cache/deliberation.json` — deliberation outputs: scores, argument logs, winner, constellation",
     "vote_result": null
-  },
-  {
-    "version": "v6",
-    "title": "v6",
-    "date": "2026-03-07",
-    "author": "sugaroverflow",
-    "pr_number": 13,
-    "pr_url": "https://github.com/nwspk/politech-awards-2026/pull/13",
-    "pr_status": "merged",
-    "top_project": {
-      "name": "github.com",
-      "url": "https://github.com/g0v/vue.vtaiwan.tw",
-      "score": 90
-    },
-    "heuristic": "No heuristic description provided",
-    "rationale": null,
-    "data_sources": [
-      "project URL",
-      "scraped content",
-      "additional data files"
-    ],
-    "keywords": null,
-    "limitations": null,
-    "assessment": null,
-    "vote_result": null
   }
 ]
