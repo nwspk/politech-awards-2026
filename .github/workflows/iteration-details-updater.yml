@@ -1,17 +1,20 @@
-name: Iteration Bot
+name: Iteration Details Updater
 
 on:
   pull_request:
     types: [opened, ready_for_review, labeled]
 
 jobs:
-  iteration-bot:
+  iteration-details-updater:
     if: >
       github.event.pull_request.draft == false &&
       (
-        github.event.action == 'opened' ||
-        github.event.action == 'ready_for_review' ||
-        (github.event.action == 'labeled' && github.event.label.name == 'run-bot')
+        (github.event.action == 'labeled' && github.event.label.name == 'run-bot') ||
+        (github.event.action == 'labeled' && github.event.label.name == 'iteration') ||
+        (
+          (github.event.action == 'opened' || github.event.action == 'ready_for_review') &&
+          contains(github.event.pull_request.labels.*.name, 'iteration')
+        )
       )
     runs-on: ubuntu-latest
     permissions:
@@ -33,16 +36,13 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run the algorithm
-        run: npx tsx the-algorithm.ts
-
-      - name: Run iteration bot
+      - name: Run iteration details updater
         env:
           PR_BODY: ${{ github.event.pull_request.body }}
           PR_NUMBER: ${{ github.event.pull_request.number }}
           PR_URL: ${{ github.event.pull_request.html_url }}
           PR_AUTHOR: ${{ github.event.pull_request.user.login }}
-        run: npx tsx scripts/iteration-bot.ts
+        run: npx tsx scripts/iteration-details-updater.ts
 
       - name: Sync README
         run: npx tsx scripts/sync-readme.ts
@@ -51,9 +51,9 @@ jobs:
       - name: Commit and push updates
         if: github.repository == github.event.pull_request.head.repo.full_name
         run: |
-          git config user.name "iteration-bot[bot]"
-          git config user.email "iteration-bot[bot]@users.noreply.github.com"
-          git add iterations.json iterations/ README.md results.json results/
+          git config user.name "iteration-details-updater[bot]"
+          git config user.email "iteration-details-updater[bot]@users.noreply.github.com"
+          git add iterations.json iterations/ README.md results/
           git diff --staged --quiet || git commit -m "bot: update iteration metadata, results, and README"
           git push
 
@@ -65,7 +65,7 @@ jobs:
             let body = fs.readFileSync('bot-comment.md', 'utf-8');
             const isFork = context.payload.pull_request.head.repo.full_name !== context.repo.owner + '/' + context.repo.repo;
             if (isFork) {
-              body += '\n\n---\n_This PR is from a fork. The bot ran the algorithm and posted results above but did not push commits (GitHub does not allow writing to fork branches)._';
+              body += '\n\n---\n_This PR is from a fork. The updater read your results and posted above but did not push commits (GitHub does not allow writing to fork branches)._';
             }
             await github.rest.issues.createComment({
               owner: context.repo.owner,

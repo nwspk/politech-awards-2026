@@ -1,7 +1,7 @@
 /**
  * shared.ts
  *
- * Common types and utilities used by iteration-bot, finalize-merge,
+ * Common types and utilities used by iteration-details-updater, finalize-merge,
  * and sync-readme.
  */
 
