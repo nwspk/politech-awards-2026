@@ -8,7 +8,7 @@
  *        npm run build:iterations
  *
  * Run after editing iterations/*.md to regenerate iterations.json.
- * The iteration bot and finalize-merge also run this after updating .md files.
+ * The iteration details updater and finalize-merge also run this after updating .md files.
  */
 
 import {
