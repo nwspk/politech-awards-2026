@@ -90,6 +90,8 @@ The evaluation framework reflects specific values — systemic change over sympt
 - **Proposed** by @Gamithra on 2026-02-22
 - **PR**: [v5](https://github.com/nwspk/politech-awards-2026/pull/12)
 
+---
+
 ### v4 — AI governance body bonus
 
 - **Top project**: [algorithmwatch.org](https://algorithmwatch.org) (score: 65)
@@ -100,6 +102,8 @@ The evaluation framework reflects specific values — systemic change over sympt
 - **Limitations**: Requires cache to be populated (npm run cache:sites). AI bonus capped at 3 keyword matches × 5 points.
 - **Proposed** by @jcoombes on 2026-02-13
 - **PR**: [v4](https://github.com/nwspk/politech-awards-2026/pull/9)
+
+---
 
 ### v3 — Keyword clusters (no randomness)
 
@@ -114,6 +118,8 @@ It turns out the answer is: almost nothing. Only 2 of 321 projects score above b
 - **Proposed** by @sugaroverflow on 2026-02-07
 - **PR**: [v3](https://github.com/nwspk/politech-awards-2026/pull/7)
 
+---
+
 ### v2 — Exclusion keyword bonus
 
 - **Top project**: [civicmatch.app](https://civicmatch.app) (score: 100)
@@ -124,6 +130,8 @@ It turns out the answer is: almost nothing. Only 2 of 321 projects score above b
 - **Limitations**: Only matches keywords in the URL string itself, not in actual project content. Many relevant projects won't have these keywords in their URL.
 - **Proposed** by @Asil on 2026-02-04
 - **PR**: [v2](https://github.com/nwspk/politech-awards-2026/pull/2)
+
+---
 
 ### v1 — Random scoring
 

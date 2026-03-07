@@ -106,8 +106,9 @@ function generateIterationsSection(iterations: Iteration[]): string {
 
   // detailed entries (most recent first)
   const reversed = [...iterations].reverse();
-  for (const iter of reversed) {
-    parts.push(formatIteration(iter));
+  for (let i = 0; i < reversed.length; i++) {
+    if (i > 0) parts.push("---", "");
+    parts.push(formatIteration(reversed[i]));
     parts.push("");
   }
 
