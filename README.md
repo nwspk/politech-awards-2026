@@ -20,7 +20,7 @@ The committee iterates on the algorithm through pull requests. Each PR proposes 
 - [Quick Start](#quick-start) — run the algorithm locally
 - [Iterations](#iterations) — history of all algorithm versions
 - [Committee Process](docs/PROCESS.md) — step-by-step details for opening a PR, voting, and deliverables
-- [Technical Details](docs/TECHNICAL.md) — bots, scripts, and data formats
+- [Technical Documentation](docs/TECHNICAL.md) — bots, scripts, labels, and reference
 - [Briefing Document](https://docs.google.com/document/d/14GgwyiA7t-AMRj4P5JFNijHXjATEQvQUvaxyIVZG-LA/edit?tab=t.0#heading=h.yyqjou9klunq) — full project guidelines
 
 ## Quick Start
@@ -36,15 +36,15 @@ Edit `the-algorithm.ts` to add your heuristic, then open a PR.
 
 <!-- ITERATIONS:START -->
 
-| Version | Heuristic | Top Project | PR |
-|---------|-----------|-------------|-----|
-| v1 | Random score between 1 and 100 | relationaltechproject.org | [v1](https://github.com/nwspk/politech-awards-2026/pull/1) |
-| v2 | Random base score (1-100) + inclusion bonus based on exclusion keywords in URL | civicmatch.app | [v2](https://github.com/nwspk/politech-awards-2026/pull/2) |
-| v3 | Removing the random scoring tilt mechanism by trying to score projects by keyword clusters. Each project receives points if the URL (the only data we currently have) matches across the 4 policy-framework-aligned keyword clusters. | benefits-calculator.turn2us.org.uk | [v3](https://github.com/nwspk/politech-awards-2026/pull/7) |
-| v4 | Base score (50) + inclusion bonus (URL keywords) − fetch-failure penalty (10) + AI-body bonus (up to 15). Uses cached page fetches to penalise dead/inaccessible sites and reward projects whose page content mentions AI governance, safety, or policy keywords. | algorithmwatch.org | [v4](https://github.com/nwspk/politech-awards-2026/pull/9) |
-| v5 | Three-agent ITN/A deliberation: independent AI evaluators assess each project through political, relational, and experimental personas on 4 different lenses, argue in multi-turn conversation, and produce a ranked shortlist. | github.com | [v5](https://github.com/nwspk/politech-awards-2026/pull/12) |
+| Version | Title | Heuristic | Top Project | PR |
+|---------|-------|-----------|-------------|-----|
+| v1 | Random scoring | Random score between 1 and 100 | relationaltechproject.org | [v1](https://github.com/nwspk/politech-awards-2026/pull/1) |
+| v2 | Exclusion keyword bonus | Random base score (1-100) + inclusion bonus based on exclusion keywords in URL | civicmatch.app | [v2](https://github.com/nwspk/politech-awards-2026/pull/2) |
+| v3 | Keyword clusters (no randomness) | Removing the random scoring tilt mechanism by trying to score projects by keyword clusters. Each project receives points if the URL (the only data we currently have) matches across the 4 policy-framework-aligned keyword clusters. | benefits-calculator.turn2us.org.uk | [v3](https://github.com/nwspk/politech-awards-2026/pull/7) |
+| v4 | AI governance body bonus | Base score (50) + inclusion bonus (URL keywords) − fetch-failure penalty (10) + AI-body bonus (up to 15). Uses cached page fetches to penalise dead/inaccessible sites and reward projects whose page content mentions AI governance, safety, or policy keywords. | algorithmwatch.org | [v4](https://github.com/nwspk/politech-awards-2026/pull/9) |
+| v5 | Three-agent ITN/A deliberation | Three-agent ITN/A deliberation: independent AI evaluators assess each project through political, relational, and experimental personas on 4 different lenses, argue in multi-turn conversation, and produce a ranked shortlist. | github.com | [v5](https://github.com/nwspk/politech-awards-2026/pull/12) |
 
-### v5
+### v5 — Three-agent ITN/A deliberation
 
 - **Top project**: [github.com](https://github.com/g0v/vue.vtaiwan.tw) (score: 90)
 - **Heuristic**: Three-agent ITN/A deliberation: independent AI evaluators assess each project through political, relational, and experimental personas on 4 different lenses, argue in multi-turn conversation, and produce a ranked shortlist.
@@ -90,7 +90,7 @@ The evaluation framework reflects specific values — systemic change over sympt
 - **Proposed** by Gamithra on 2026-02-22
 - **PR**: [v5](https://github.com/nwspk/politech-awards-2026/pull/12)
 
-### v4
+### v4 — AI governance body bonus
 
 - **Top project**: [algorithmwatch.org](https://algorithmwatch.org) (score: 65)
 - **Heuristic**: Base score (50) + inclusion bonus (URL keywords) − fetch-failure penalty (10) + AI-body bonus (up to 15). Uses cached page fetches to penalise dead/inaccessible sites and reward projects whose page content mentions AI governance, safety, or policy keywords.
@@ -101,11 +101,11 @@ The evaluation framework reflects specific values — systemic change over sympt
 - **Proposed** by jcoombes on 2026-02-13
 - **PR**: [v4](https://github.com/nwspk/politech-awards-2026/pull/9)
 
-### v3
+### v3 — Keyword clusters (no randomness)
 
 - **Top project**: [benefits-calculator.turn2us.org.uk](https://benefits-calculator.turn2us.org.uk) (score: 11)
 - **Heuristic**: Removing the random scoring tilt mechanism by trying to score projects by keyword clusters. Each project receives points if the URL (the only data we currently have) matches across the 4 policy-framework-aligned keyword clusters.
-- **Rationale**: v2 showed that keyword matching against URLs can surface relevant projects — but the random base score meant that it was different each time it was run, which isn't very reliable. This iteration removes randomness entirely to ask:  
+- **Rationale**: v2 showed that keyword matching against URLs can surface relevant projects — but the random base score meant that it was different each time it was run, which isn't very reliable. This iteration removes randomness entirely to ask:
 
 **what can keyword clusters alone tell us about 321 projects when our only data source is a URL string?**
 
@@ -114,7 +114,7 @@ It turns out the answer is: almost nothing. Only 2 of 321 projects score above b
 - **Proposed** by sugaroverflow on 2026-02-07
 - **PR**: [v3](https://github.com/nwspk/politech-awards-2026/pull/7)
 
-### v2
+### v2 — Exclusion keyword bonus
 
 - **Top project**: [civicmatch.app](https://civicmatch.app) (score: 100)
 - **Heuristic**: Random base score (1-100) + inclusion bonus based on exclusion keywords in URL
@@ -125,7 +125,7 @@ It turns out the answer is: almost nothing. Only 2 of 321 projects score above b
 - **Proposed** by Asil on 2026-02-04
 - **PR**: [v2](https://github.com/nwspk/politech-awards-2026/pull/2)
 
-### v1
+### v1 — Random scoring
 
 - **Top project**: [relationaltechproject.org](https://relationaltechproject.org)
 - **Heuristic**: Random score between 1 and 100

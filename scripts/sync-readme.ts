@@ -22,7 +22,11 @@ const END_MARKER = "<!-- ITERATIONS:END -->";
 function formatIteration(iteration: Iteration): string {
   const lines: string[] = [];
 
-  lines.push(`### ${iteration.version}`);
+  const heading =
+    iteration.title && iteration.title !== iteration.version
+      ? `${iteration.version} — ${iteration.title}`
+      : iteration.version;
+  lines.push(`### ${heading}`);
   lines.push("");
 
   // top project
@@ -84,16 +88,17 @@ function generateIterationsSection(iterations: Iteration[]): string {
   parts.push("");
 
   // summary table
-  parts.push("| Version | Heuristic | Top Project | PR |");
-  parts.push("|---------|-----------|-------------|-----|");
+  parts.push("| Version | Title | Heuristic | Top Project | PR |");
+  parts.push("|---------|-------|-----------|-------------|-----|");
 
   for (const iter of iterations) {
     const prLink = iter.pr_url
       ? `[${iter.version}](${iter.pr_url})`
       : "—";
     const topName = iter.top_project.name;
+    const title = iter.title || "—";
     parts.push(
-      `| ${iter.version} | ${iter.heuristic} | ${topName} | ${prLink} |`
+      `| ${iter.version} | ${title} | ${iter.heuristic} | ${topName} | ${prLink} |`
     );
   }
 

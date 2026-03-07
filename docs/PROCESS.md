@@ -24,8 +24,10 @@ To add a new data source (scraped content, API data, survey results, etc.), use 
 
 When a PR is marked **"Ready for review"**, two bots kick in:
 
-1. **Iteration Bot** — Runs the algorithm, posts the top 5 results, auto-assigns a version number, and updates `iterations.json` + README.
+1. **Iteration Bot** — Runs the algorithm, posts the top 5 results, auto-assigns a version number, and updates `iterations/`, `iterations.json`, and README.
 2. **Voting Bot** — Posts a voting comment with a 48-hour deadline and adds a `vote:pending` label.
+
+For full details on triggers, behaviour, and troubleshooting, see [Technical Documentation](TECHNICAL.md#bots-at-a-glance).
 
 Committee members vote by reacting to the voting comment: 👍 = YES, 👎 = NO. No reaction = abstain (not counted).
 
@@ -37,22 +39,7 @@ Committee members vote by reacting to the voting comment: 👍 = YES, 👎 = NO.
 
 ## Labels
 
-These are added to PRs automatically by the bots. You don't need to add them yourself.
-
-| Label | Meaning |
-|-------|---------|
-| `vote:pending` | Voting is open, waiting for reactions |
-| `vote:approved` | Majority voted yes |
-| `vote:rejected` | Majority voted no |
-| `vote:deadline-passed` | 48-hour voting window elapsed |
-| `ready-to-merge` | Approved — assigned member should merge |
-
-If a bot needs to be re-triggered (e.g. after a fix), add one of these manually:
-
-| Label | Triggers |
-|-------|----------|
-| `run-bot` | Re-runs the iteration bot |
-| `start-vote` | Re-starts the voting process |
+Bots add labels automatically (`vote:pending`, `vote:approved`, etc.). To re-trigger a bot: add `run-bot` (iteration bot) or `start-vote` (voting). Full reference: [TECHNICAL.md](TECHNICAL.md#labels).
 
 ## Committee
 
