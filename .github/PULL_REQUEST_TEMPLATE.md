@@ -1,5 +1,9 @@
 <!-- Suggesting an idea without code? Open a [Heuristic suggestion](https://github.com/nwspk/politech-awards-2026/issues/new?template=heuristic-suggestion.md) issue and tag @sugaroverflow to implement it. -->
 
+## Title
+
+<!-- Optional: a short name for this iteration (e.g. "Exclusion keyword bonus"). If omitted, the first line of Heuristic or the version number is used. -->
+
 ## Heuristic
 
 <!-- One sentence: what does your scoring approach do? -->
@@ -40,7 +44,8 @@
      Everything below will be filled in by the bot
      when this PR is marked ready for review:
      - Version number
+     - iterations/{version}.md created (source of truth)
+     - iterations.json and README generated from it
      - Algorithm results (top, middle, and bottom projects + scores)
      - Data sources detected
-     - Updated iterations.json and README
      ──────────────────────────────────────────────── -->
