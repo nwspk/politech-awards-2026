@@ -43,6 +43,15 @@ Edit `the-algorithm.ts` to add your heuristic, then open a PR.
 | v3 | Keyword clusters (no randomness) | Removing the random scoring tilt mechanism by trying to score projects by keyword clusters. Each project receives points if the URL (the only data we currently have) matches across the 4 policy-framework-aligned keyword clusters. | benefits-calculator.turn2us.org.uk | [v3](https://github.com/nwspk/politech-awards-2026/pull/7) |
 | v4 | AI governance body bonus | Base score (50) + inclusion bonus (URL keywords) − fetch-failure penalty (10) + AI-body bonus (up to 15). Uses cached page fetches to penalise dead/inaccessible sites and reward projects whose page content mentions AI governance, safety, or policy keywords. | algorithmwatch.org | [v4](https://github.com/nwspk/politech-awards-2026/pull/9) |
 | v5 | Three-agent ITN/A deliberation | Three-agent ITN/A deliberation: independent AI evaluators assess each project through political, relational, and experimental personas on 4 different lenses, argue in multi-turn conversation, and produce a ranked shortlist. | github.com | [v5](https://github.com/nwspk/politech-awards-2026/pull/12) |
+| v6 | v6 | No heuristic description provided | github.com | [v6](https://github.com/nwspk/politech-awards-2026/pull/13) |
+
+### v6
+
+- **Top project**: [github.com](https://github.com/g0v/vue.vtaiwan.tw) (score: 90)
+- **Heuristic**: No heuristic description provided
+- **Data sources**: project URL, scraped content, additional data files
+- **Proposed** by sugaroverflow on 2026-03-07
+- **PR**: [v6](https://github.com/nwspk/politech-awards-2026/pull/13)
 
 ### v5 — Three-agent ITN/A deliberation
 
