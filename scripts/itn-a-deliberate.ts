@@ -32,8 +32,24 @@ const TOP_CONFLICTS = parseInt(getArg("--top-conflicts") ?? "4", 10);
 const ARGUMENT_ROUNDS = parseInt(getArg("--argument-rounds") ?? "3", 10);
 const SETUP = getArg("--setup");
 const SHORTLIST_FILE = getArg("--shortlist-file");
+const MODELS_STR = getArg("--models"); // e.g. political=x-ai/grok-4.1-fast,relational=anthropic/claude-sonnet-4,experimental=moonshotai/kimi-latest
 
 function getArg(f: string) { const i = args.indexOf(f); return i !== -1 ? args[i + 1] : undefined; }
+
+// v6 mixed jury: per-agent model override
+const MODEL_MAP: Record<string, string> | null = MODELS_STR
+  ? (() => {
+      const m: Record<string, string> = {};
+      for (const part of MODELS_STR.split(",")) {
+        const [role, modelId] = part.split("=").map((s) => s.trim());
+        if (role && modelId) m[role] = modelId;
+      }
+      return m.political && m.relational && m.experimental ? m : null;
+    })()
+  : null;
+function getModelForAgent(agentId: string): string {
+  return (MODEL_MAP && MODEL_MAP[agentId]) || MODEL;
+}
 
 // v6: when --setup NAME, use cache/assessments-{NAME}.json and cache/deliberation-{NAME}.json
 const ASSESSMENTS_PATH = path.resolve("cache", SETUP ? `assessments-${SETUP}.json` : "assessments.json");
@@ -206,6 +222,7 @@ interface WinnerDecision {
     decided_against: Array<{ url: string; display: string; why_not: string }>;
     constellation: Array<{ url: string; display: string; role: string }>;
     portfolio_argument: string;
+    confidence?: number;  // 0-100, v6: how confident the facilitator is in this winner
 }
 
 // ---------------------------------------------------------------------------
@@ -310,9 +327,10 @@ function summariseProject(url: string, assessment: any, pageText?: string): stri
 // OpenRouter
 // ---------------------------------------------------------------------------
 
-async function call(system: string, user: string, maxTokens = 3000): Promise<string> {
+async function call(system: string, user: string, maxTokens = 3000, modelOverride?: string): Promise<string> {
     const apiKey = process.env.OPENROUTER_API_KEY;
     if (!apiKey) throw new Error("OPENROUTER_API_KEY not set");
+    const model = modelOverride ?? MODEL;
     const resp = await fetch(OPENROUTER_API, {
         method: "POST",
         headers: {
@@ -322,7 +340,7 @@ async function call(system: string, user: string, maxTokens = 3000): Promise<str
             "X-Title": "Politech ITN/A Deliberation"
         },
         body: JSON.stringify({
-            model: MODEL,
+            model,
             messages: [{ role: "system", content: system }, { role: "user", content: user }],
             max_tokens: maxTokens,
             temperature: 0.55
@@ -551,8 +569,11 @@ Respond ONLY with valid JSON:
   "constellation": [
     {"url": "...", "display": "...", "role": "what this contributes that the winner doesn't"}
   ],
-  "portfolio_argument": "what this constellation does together"
-}`;
+  "portfolio_argument": "what this constellation does together",
+  "confidence": 0
+}
+
+confidence (number 0-100): How confident are you in this winner? 0 = very uncertain, 100 = fully confident. Be honest — if the deliberation was close or contentious, use a lower number.`;
 
 // ---------------------------------------------------------------------------
 // Stats
@@ -571,6 +592,7 @@ function stddev(nums: number[]): number {
 async function main() {
     console.log(`\nITN/A Deliberation v3 — relative scoring + real argument + winner`);
     console.log(`Model: ${MODEL} | min-greens: ${MIN_GREENS} | conflicts: ${TOP_CONFLICTS} | argument rounds: ${ARGUMENT_ROUNDS}`);
+    if (MODEL_MAP) console.log(`Mixed jury: political=${MODEL_MAP.political}, relational=${MODEL_MAP.relational}, experimental=${MODEL_MAP.experimental}`);
     if (SETUP) console.log(`Setup: ${SETUP} → ${ASSESSMENTS_PATH} → ${DELIBERATION_PATH}`);
     if (SHORTLIST_FILE) console.log(`Shortlist file: ${SHORTLIST_FILE}`);
     console.log();
@@ -624,7 +646,8 @@ async function main() {
             const raw = await call(
                 SCORE_SYSTEM(agentId),
                 `Score and rank all ${shortlist.length} projects relative to each other.\n\nAll project summaries:\n\n${summaries}\n\nExact URL strings to use as keys:\n${urlList}`,
-                5000
+                5000,
+                getModelForAgent(agentId)
             );
             const result = parseJson<AgentScoreCard>(raw);
             agentScores[agentId] = result;
@@ -727,7 +750,7 @@ async function main() {
             process.stdout.write(`    ${agentId}... `);
             try {
                 const prompt = buildTurn1Prompt(agentId, url, thread, agentScores);
-                const raw = await call("You are in a deliberation argument. Be specific, direct, willing to disagree. Engage with what others actually said.", prompt, 1200);
+                const raw = await call("You are in a deliberation argument. Be specific, direct, willing to disagree. Engage with what others actually said.", prompt, 1200, getModelForAgent(agentId));
                 const turn = parseJson<ArgumentTurn>(raw);
                 turn.turn = 1;
                 thread.turns.push(turn);
@@ -750,7 +773,8 @@ async function main() {
                 facilitatorNote = await call(
                     "You are a sharp, experienced facilitator. Read the argument and identify evasions, productive tensions, and unanswered questions. Be direct.",
                     buildFacilitatorPrompt(thread, turnNum - 1),
-                    400
+                    400,
+                    getModelForAgent(MODEL_MAP ? "relational" : "facilitator")
                 );
                 const facEntry: FacilitatorNote = {
                     after_turn: turnNum - 1,
@@ -771,7 +795,7 @@ async function main() {
                 process.stdout.write(`    ${agentId}... `);
                 try {
                     const prompt = buildSubsequentTurnPrompt(agentId, url, thread, turnNum, facilitatorNote);
-                    const raw = await call("You are in a deliberation argument. You MUST engage with specific claims made against you. No evasion.", prompt, 1200);
+                    const raw = await call("You are in a deliberation argument. You MUST engage with specific claims made against you. No evasion.", prompt, 1200, getModelForAgent(agentId));
                     const turn = parseJson<ArgumentTurn>(raw);
                     turn.turn = turnNum;
                     thread.turns.push(turn);
@@ -801,7 +825,8 @@ async function main() {
             const res = await call(
                 "Summarize what this argument actually revealed about this project. What genuine insight emerged from the disagreement? 2-3 sentences.",
                 `Project: ${display}\n\nFull argument:\n${allTurns}`,
-                300
+                300,
+                getModelForAgent(MODEL_MAP ? "relational" : "facilitator")
             );
             thread.resolution = res;
             state.argument_threads[url] = thread;
@@ -863,7 +888,8 @@ async function main() {
         const raw = await call(
             WINNER_SYSTEM,
             `FINAL SCORES after argument:\n${scoreSummary}\n\nWHAT THE ARGUMENTS REVEALED:\n${argumentSummary}\n\nNow name the winner.`,
-            2000
+            2000,
+            getModelForAgent(MODEL_MAP ? "relational" : "facilitator")
         );
         const decision = parseJson<WinnerDecision>(raw);
         state.winner = decision;
@@ -882,6 +908,7 @@ async function main() {
         console.log(`WINNER: ${state.winner.display}`);
         console.log(`  FOR: ${state.winner.case_for}`);
         console.log(`  AGAINST: ${state.winner.case_against}`);
+        if (state.winner.confidence != null) console.log(`  CONFIDENCE: ${state.winner.confidence}%`);
         console.log(`\nCONSTELLATION:`);
         state.winner.constellation?.forEach(c => {
             console.log(`  ★ ${c.display}`);
