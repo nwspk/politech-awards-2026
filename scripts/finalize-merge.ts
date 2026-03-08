@@ -3,11 +3,11 @@
  *
  * Runs after a PR is merged to main (called by .github/workflows/on-merge.yml).
  *
- * iterations/*.md are the single source of truth. This script:
+ * iterations/*/README.md are the single source of truth. This script:
  * 1. Runs build-iterations to load current state from .md into iterations.json
  * 2. Finds entries with pr_status "open" (the just-merged iteration)
  * 3. Updates the .md file(s): pr_status → "merged", top_project from results
- * 4. Re-snapshots results/{version}.json
+ * 4. Re-snapshots iterations/{version}/results.json
  * 5. Runs build-iterations to regenerate iterations.json from updated .md
  */
 
@@ -43,9 +43,9 @@ function main(): void {
   }
 
   for (const entry of openEntries) {
-    // Re-snapshot results.json → results/{version}.json
+    // Re-snapshot results.json → iterations/{version}/results.json
     snapshotVersionResults(entry.version, results);
-    console.log(`✓ Re-snapshotted results/${entry.version}.json`);
+    console.log(`✓ Re-snapshotted iterations/${entry.version}/results.json`);
 
     // Update .md: pr_status → merged, top_project from current results
     const updates: { pr_status: string; top_project?: { name: string; url: string; score: number | null } } = {
@@ -60,7 +60,7 @@ function main(): void {
       };
     }
     updateIterationMdFrontmatter(entry.version, updates);
-    console.log(`✓ iterations/${entry.version}.md updated (pr_status → merged)`);
+    console.log(`✓ iterations/${entry.version}/README.md updated (pr_status → merged)`);
   }
 
   // Regenerate iterations.json from updated .md

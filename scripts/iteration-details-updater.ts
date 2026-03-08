@@ -190,12 +190,12 @@ The committed **\`results.json\`** is empty. Please run the algorithm locally, c
   };
 
   writeIterationMd(version, iterationToMd(entry));
-  console.log(`Wrote iterations/${version}.md`);
+  console.log(`Wrote iterations/${version}/README.md`);
 
   execSync("npx tsx scripts/build-iterations.ts", { stdio: "inherit" });
 
   snapshotVersionResults(version, allResults);
-  console.log(`Wrote results/${version}.json`);
+  console.log(`Wrote iterations/${version}/results.json`);
 
   const topProjects = allResults.slice(0, 5);
   const midStart = Math.floor((allResults.length - 5) / 2);
@@ -235,7 +235,7 @@ ${bottomTable}
 
 ### Next Steps
 
-- [ ] **@${prAuthor}**: Update your assessment in \`iterations/${version}.md\` if needed
+- [ ] **@${prAuthor}**: Update your assessment in \`iterations/${version}/README.md\` if needed
 - [ ] **Committee**: Review and vote
 
 **Committee**: ${committeeTags}

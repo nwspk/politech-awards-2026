@@ -1,8 +1,8 @@
 /**
  * iterations-md.ts
  *
- * Shared utilities for reading and writing iterations/*.md files.
- * These .md files are the single source of truth per iteration.
+ * Shared utilities for reading and writing README.md in each iteration folder (iterations/v1/, etc.).
+ * The README.md in each iteration folder is the single source of truth.
  */
 
 import * as fs from "fs";
@@ -251,31 +251,35 @@ export function iterationToMd(iter: Iteration): string {
   return `---\n${frontmatterLines.join("\n")}\n---\n\n${body}\n`;
 }
 
-/** List all iteration .md files (e.g. v1.md, v2.md). */
+/** List all iteration folders (v1, v2, …) by reading iterations/ subdirs; each has README.md. */
 export function listIterationMdFiles(): string[] {
   if (!fs.existsSync(ITERATIONS_DIR)) return [];
-  return fs
-    .readdirSync(ITERATIONS_DIR)
-    .filter((f) => /^v\d+\.md$/.test(f))
+  const entries = fs.readdirSync(ITERATIONS_DIR, { withFileTypes: true });
+  return entries
+    .filter((d) => d.isDirectory() && /^v\d+$/.test(d.name))
     .sort((a, b) => {
-      const na = parseInt(a.replace(/^v|\.md$/g, ""), 10);
-      const nb = parseInt(b.replace(/^v|\.md$/g, ""), 10);
+      const na = parseInt(a.name.replace(/^v/, ""), 10);
+      const nb = parseInt(b.name.replace(/^v/, ""), 10);
       return na - nb;
-    });
+    })
+    .map((d) => `${d.name}.md`);
 }
 
-/** Read and parse an iteration .md file. */
+const ITERATION_MD_FILENAME = "README.md";
+
+/** Read the iteration .md file (iterations/{version}/README.md). */
 export function readIterationMd(version: string): string {
-  const filePath = path.join(ITERATIONS_DIR, `${version}.md`);
+  const filePath = path.join(ITERATIONS_DIR, version, ITERATION_MD_FILENAME);
   return fs.readFileSync(filePath, "utf-8");
 }
 
-/** Write an iteration .md file. */
+/** Write the iteration .md file (iterations/{version}/README.md). */
 export function writeIterationMd(version: string, content: string): void {
-  if (!fs.existsSync(ITERATIONS_DIR)) {
-    fs.mkdirSync(ITERATIONS_DIR, { recursive: true });
+  const dir = path.join(ITERATIONS_DIR, version);
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir, { recursive: true });
   }
-  const filePath = path.join(ITERATIONS_DIR, `${version}.md`);
+  const filePath = path.join(dir, ITERATION_MD_FILENAME);
   fs.writeFileSync(filePath, content);
 }
 
@@ -284,7 +288,7 @@ export function updateIterationMdFrontmatter(
   version: string,
   updates: { pr_status?: string; top_project?: TopProject }
 ): void {
-  const filePath = path.join(ITERATIONS_DIR, `${version}.md`);
+  const filePath = path.join(ITERATIONS_DIR, version, ITERATION_MD_FILENAME);
   let content = fs.readFileSync(filePath, "utf-8");
   const match = content.match(/^---\s*\n([\s\S]*?)\n---\s*\n([\s\S]*)$/);
   if (!match) return;

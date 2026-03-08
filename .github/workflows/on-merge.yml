@@ -3,7 +3,7 @@
 # ═══════════════════════════════════════════════════════════════════════════════
 #
 # Runs after a PR is merged to main. Uses the merged results.json (author's
-# output) to update pr_status → "merged", top_project, and results/{version}.json.
+# output) to update pr_status → "merged", top_project, and iterations/{version}/results.json.
 # No algorithm run — we use whatever the author committed.
 #
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -46,6 +46,6 @@ jobs:
         run: |
           git config user.name "iteration-details-updater[bot]"
           git config user.email "iteration-details-updater[bot]@users.noreply.github.com"
-          git add iterations.json iterations/ README.md results/
+          git add iterations.json iterations/ README.md
           git diff --staged --quiet || git commit -m "bot: finalize merge — re-snapshot versioned results and update pr_status"
           git push

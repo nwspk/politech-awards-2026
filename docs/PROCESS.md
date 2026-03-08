@@ -26,7 +26,7 @@ To add a new data source (scraped content, API data, survey results, etc.), use 
 
 When a PR has the **`iteration`** label and is marked **"Ready for review"**, two bots kick in:
 
-1. **Iteration Details Updater** — Reads your committed `results.json`, creates `iterations/{version}.md`, auto-assigns a version number, and updates `iterations.json` and README. (You run the algorithm locally; the updater does not.)
+1. **Iteration Details Updater** — Reads your committed `results.json`, creates `iterations/{version}/README.md`, auto-assigns a version number, and updates `iterations.json` and README. (You run the algorithm locally; the updater does not.)
 2. **Voting Bot** — Posts a voting comment with a 48-hour deadline and adds a `vote:pending` label.
 
 For full details on triggers, behaviour, and troubleshooting, see [Technical Documentation](TECHNICAL.md#bots-at-a-glance).
