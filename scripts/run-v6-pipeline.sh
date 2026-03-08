@@ -25,7 +25,7 @@ npx tsx scripts/itn-a-eval.ts --setup grok --model x-ai/grok-4.1-fast
 npx tsx scripts/itn-a-eval.ts --setup all-claude --model anthropic/claude-sonnet-4
 npx tsx scripts/itn-a-eval.ts --setup all-kimi --model moonshotai/kimi-k2.5
 
-echo "2/6 — Shortlist (union ≥2 greens, top up to 100 with ≥2Y or 1G+1Y)..."
+echo "2/6 — Shortlist (grok-green OR claude/kimi green|yellow per dimension)..."
 npx tsx scripts/build-v6-shortlist.ts \
   cache/assessments-grok.json cache/assessments-all-claude.json cache/assessments-all-kimi.json \
   --out cache/pilot-shortlist.json --min-size 100
