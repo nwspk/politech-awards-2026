@@ -1,8 +1,11 @@
 /**
  * build-v6-shortlist.ts — v6 Phase 1 shortlist
  *
- * Union of (≥2 greens) across three assessment files; if fewer than 100 URLs,
- * top up to at least 100 with projects that have (≥2 yellow) or (1 green + 1 yellow) in any model.
+ * New rule: include any project where at least one model gives green OR yellow
+ * across any dimension:
+ *   - Grok (1st file): include if any dimension is green
+ *   - Claude (2nd file): include if any dimension is green or yellow
+ *   - Kimi (3rd file): include if any dimension is green or yellow
  *
  * Usage:
  *   npx tsx scripts/build-v6-shortlist.ts cache/assessments-grok.json cache/assessments-all-claude.json cache/assessments-all-kimi.json --out cache/pilot-shortlist.json
@@ -63,49 +66,41 @@ function main() {
 
   const allByUrl = new Map<string, Array<{ greenCount: number; yellowCount: number }>>();
 
+  // Collect all URLs from any file and ensure exactly 3 entries per URL (grok, claude, kimi order)
+  const allUrls = new Set<string>();
+  const byFile: Array<Record<string, { greenCount: number; yellowCount: number }>> = [];
   for (const f of files) {
     const data = loadAssessments(f);
-    for (const [url, counts] of Object.entries(data)) {
-      if (!allByUrl.has(url)) allByUrl.set(url, []);
-      allByUrl.get(url)!.push(counts);
-    }
+    byFile.push(data);
+    for (const url of Object.keys(data)) allUrls.add(url);
+  }
+  const empty = { greenCount: 0, yellowCount: 0 };
+  for (const url of allUrls) {
+    const perModel = files.map((_, idx) => byFile[idx][url] ?? empty);
+    allByUrl.set(url, perModel);
   }
 
-  // Tier 1: union of (≥2 greens) in any model
-  const tier1 = new Set<string>();
+  // Build shortlist: URL included if (grok: any green) OR (claude: any green or yellow) OR (kimi: any green or yellow)
+  const shortlist: string[] = [];
   for (const [url, perModel] of allByUrl) {
-    const hasTwoGreens = perModel.some((c) => c.greenCount >= 2);
-    if (hasTwoGreens) tier1.add(url);
+    const passes =
+      perModel.some((c, idx) =>
+        idx === 0 ? c.greenCount >= 1 : c.greenCount >= 1 || c.yellowCount >= 1
+      );
+    if (passes) shortlist.push(url);
   }
 
-  let shortlist = Array.from(tier1);
-  console.error(`Tier 1 (≥2 greens in any model): ${shortlist.length} URLs`);
+  console.error(`Shortlist (grok-green OR claude/kimi green|yellow): ${shortlist.length} URLs`);
 
   if (shortlist.length < minSize) {
-    // Tier 2: (≥2 yellow) or (1 green + 1 yellow) in any model, not already in tier1
-    const tier2Candidates: { url: string; score: number; gPlusY: number }[] = [];
-    for (const [url, perModel] of allByUrl) {
-      if (tier1.has(url)) continue;
-      for (const c of perModel) {
-        const twoYellow = c.yellowCount >= 2;
-        const oneGreenOneYellow = c.greenCount >= 1 && c.yellowCount >= 1;
-        if (twoYellow || oneGreenOneYellow) {
-          const score = twoYellow ? 2 : 1;
-          const gPlusY = c.greenCount + c.yellowCount;
-          tier2Candidates.push({ url, score, gPlusY });
-          break;
-        }
-      }
-    }
-    tier2Candidates.sort((a, b) => b.score - a.score || b.gPlusY - a.gPlusY);
-    const seen = new Set(shortlist);
-    for (const { url } of tier2Candidates) {
-      if (seen.has(url)) continue;
-      shortlist.push(url);
-      seen.add(url);
+    // Optional top-up: add URLs with any red/grey signal until we reach minSize (e.g. 100)
+    const rest = Array.from(allByUrl.keys()).filter((u) => !new Set(shortlist).has(u));
+    for (const url of rest) {
       if (shortlist.length >= minSize) break;
+      shortlist.push(url);
     }
-    console.error(`Tier 2 top-up: ${shortlist.length - tier1.size} URLs → total ${shortlist.length}`);
+    if (shortlist.length > 0 && shortlist.length >= minSize)
+      console.error(`Top-up to --min-size ${minSize}: ${shortlist.length} URLs total`);
   }
 
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
