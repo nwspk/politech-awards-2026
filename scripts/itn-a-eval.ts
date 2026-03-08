@@ -6,6 +6,7 @@
  *   npx tsx scripts/itn-a-eval.ts --url https://example.com
  *   npx tsx scripts/itn-a-eval.ts --retry-errors
  *   npx tsx scripts/itn-a-eval.ts --model x-ai/grok-3-mini-beta
+ *   npx tsx scripts/itn-a-eval.ts --setup grok --model x-ai/grok-4.1-fast   # v6: write to cache/assessments-grok.json
  */
 
 import fs from "fs";
@@ -19,28 +20,34 @@ import Database from "better-sqlite3";
 
 const DEFAULT_MODEL = "x-ai/grok-4.1-fast";
 const OPENROUTER_API = "https://openrouter.ai/api/v1/chat/completions";
-const ASSESSMENTS_PATH = path.resolve("cache", "assessments.json");
 const CACHE_DB_PATH = path.resolve("cache", "sites.sqlite");
 const CANDIDATES_CSV = path.resolve("candidates.csv");
 
-// Target chars of readable text to pass in per project
-const BODY_CHAR_LIMIT = 3500;
-
-const CALL_DELAY_MS = 600;
-
 // ---------------------------------------------------------------------------
-// Args
+// Args (parsed early so path helpers can use them)
 // ---------------------------------------------------------------------------
 
 const args = process.argv.slice(2);
-const MODEL = getArg("--model") ?? DEFAULT_MODEL;
-const SINGLE_URL = getArg("--url");
-const RETRY_ERRORS = args.includes("--retry-errors");
-
 function getArg(flag: string): string | undefined {
   const idx = args.indexOf(flag);
   return idx !== -1 ? args[idx + 1] : undefined;
 }
+
+// Assessments path: cache/assessments.json by default, or cache/assessments-{setup}.json when --setup NAME is set (v6)
+function getAssessmentsPath(): string {
+  const setup = getArg("--setup");
+  const base = setup ? `assessments-${setup}.json` : "assessments.json";
+  return path.resolve("cache", base);
+}
+const ASSESSMENTS_PATH = getAssessmentsPath();
+
+const MODEL = getArg("--model") ?? DEFAULT_MODEL;
+const SINGLE_URL = getArg("--url");
+const RETRY_ERRORS = args.includes("--retry-errors");
+
+// Target chars of readable text to pass in per project
+const BODY_CHAR_LIMIT = 3500;
+const CALL_DELAY_MS = 600;
 
 // ---------------------------------------------------------------------------
 // Types

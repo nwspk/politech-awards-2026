@@ -278,18 +278,18 @@ function loadItnAScores(): {
     const deliberation = new Map<string, number>();
     const assessments = new Map<string, AssessmentBuckets>();
 
-    const deliberationPath = path.resolve('cache', 'deliberation.json');
+    const deliberationPath = process.env.DELIBERATION_PATH || path.resolve('cache', 'deliberation.json');
     if (fs.existsSync(deliberationPath)) {
         const data = JSON.parse(fs.readFileSync(deliberationPath, 'utf-8'));
         for (const entry of data.final_scores ?? []) {
             deliberation.set(normalizeUrl(entry.url), entry.aggregate);
         }
-        console.log(`[v5] Loaded ${deliberation.size} deliberated scores`);
+        console.log(`[v5] Loaded ${deliberation.size} deliberated scores from ${deliberationPath}`);
     } else {
         console.warn('[v5] No deliberation.json found — falling back to assessment tiers only');
     }
 
-    const assessmentsPath = path.resolve('cache', 'assessments.json');
+    const assessmentsPath = process.env.ASSESSMENTS_PATH || path.resolve('cache', 'assessments.json');
     if (fs.existsSync(assessmentsPath)) {
         const data = JSON.parse(fs.readFileSync(assessmentsPath, 'utf-8'));
         for (const [url, a] of Object.entries(data) as [string, any][]) {
@@ -299,7 +299,7 @@ function loadItnAScores(): {
                 experimental: a.experimental?.bucket,
             });
         }
-        console.log(`[v5] Loaded ${assessments.size} project assessments`);
+        console.log(`[v5] Loaded ${assessments.size} project assessments from ${assessmentsPath}`);
     } else {
         console.warn('[v5] No assessments.json found — unassessed projects will score 5');
     }
@@ -368,8 +368,9 @@ function processCandidates(scoringFunction: ScoringFunction): Promise<Candidate[
 // sort candidates by score (highest first) and write results
 function writeResults(candidates: Candidate[]): void {
     candidates.sort((a, b) => b.score - a.score);
-    fs.writeFileSync('results.json', JSON.stringify(candidates, null, 2));
-    console.log(`Results written to results.json`);
+    const outPath = process.env.RESULTS_PATH || 'results.json';
+    fs.writeFileSync(outPath, JSON.stringify(candidates, null, 2));
+    console.log(`Results written to ${outPath}`);
 }
 
 // main execution
