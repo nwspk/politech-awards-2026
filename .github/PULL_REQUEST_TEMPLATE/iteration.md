@@ -55,7 +55,7 @@ labels: ["iteration"]
 
      The bot will fill in (from your committed results.json):
      - Version number
-     - iterations/{version}.md created (source of truth)
+     - iterations/{version}/ created (README.md is source of truth)
      - iterations.json and README generated from it
-     - results/{version}.json snapshot
+     - iterations/{version}/results.json snapshot
      ──────────────────────────────────────────────── -->

@@ -38,7 +38,17 @@ The numeric scores should be read as *ordinal*, not cardinal — 90 means "won t
 
 vTaiwan ranked first in the deliberation — the agents converged on it as the project that most fully embodies political technology in 2026: proven participatory infrastructure, real policy impact (Uber regulation, same-sex marriage), and genuinely open forks (Poland, France). The case against: Taiwan-centric origins, uncertain scaling to low-trust or non-digital-first contexts.
 
-Read deliberation-summary.md to see the Stage 2 discussions between agents.
+See **[Documents](#documents)** below for the Stage 2 deliberation summary and raw outputs.
+
+## Documents
+
+v5’s deliberation and evaluation outputs are archived in this repo so they are not overwritten by later iterations:
+
+- **[Deliberation summary](deliberation-summary.md)** — Stage 2 discussions between agents (relative scoring, argument rounds, winner)
+- [Deliberation data](deliberation.json) — full deliberation output: scores, argument logs, constellation
+- [Assessments](assessments.json) — Stage 1 evaluation for all 321 projects (green/yellow/red/grey)
+
+Ranked shortlist: [results.json](results.json) (in this folder).
 
 ## Data sources
 
@@ -66,5 +76,6 @@ to be completed
 - `scripts/the-algorithm.ts` — v5 heuristic added, `CURRENT_HEURISTIC` switched to `heuristicV5`
 - `scripts/itn-a-eval.ts` — new: three-agent ITN/A evaluation pipeline
 - `scripts/itn-a-deliberate.ts` — new: multi-turn deliberation with relative scoring and facilitator
-- `cache/assessments.json` — evaluation outputs for all 321 projects (committed as deliverable)
-- `cache/deliberation.json` — deliberation outputs: scores, argument logs, winner, constellation
+- `iterations/v5/` — snapshot of v5 deliverables (deliberation summary, deliberation.json, assessments.json) so future runs don’t overwrite them
+- `cache/assessments.json` — evaluation outputs for all 321 projects (live cache; v5 snapshot in `iterations/v5/assessments.json`)
+- `cache/deliberation.json` — deliberation outputs (live cache; v5 snapshot in `iterations/v5/deliberation.json`)

@@ -74,17 +74,18 @@ export function loadResults(): ResultEntry[] {
 }
 
 /**
- * Write (or overwrite) results/{version}.json with the given results.
- * Creates the results/ directory if it doesn't exist.
+ * Write (or overwrite) iterations/{version}/results.json with the given results.
+ * Creates iterations/{version}/ if it doesn't exist.
  */
 export function snapshotVersionResults(
   version: string,
   results: ResultEntry[]
 ): string {
-  if (!fs.existsSync("results")) {
-    fs.mkdirSync("results", { recursive: true });
+  const dir = `iterations/${version}`;
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir, { recursive: true });
   }
-  const resultsPath = `results/${version}.json`;
+  const resultsPath = `${dir}/results.json`;
   fs.writeFileSync(resultsPath, JSON.stringify(results, null, 2) + "\n");
   return resultsPath;
 }

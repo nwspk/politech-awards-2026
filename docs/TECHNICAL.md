@@ -10,9 +10,9 @@ Reference for the bots, scripts, and data formats powering this repo.
 
 | Bot | When it runs | What it does |
 |-----|--------------|--------------|
-| **Iteration Details Updater** | PR has `iteration` label + "Ready for review", or `run-bot` label | Creates/updates `iterations/{version}.md` from your committed `results.json` (no algorithm run) |
+| **Iteration Details Updater** | PR has `iteration` label + "Ready for review", or `run-bot` label | Creates/updates `iterations/{version}/README.md` from your committed `results.json` (no algorithm run) |
 | **Voting Bot** | PR has `iteration` label + "Ready for review", or `start-vote` label | Posts voting comment, tracks 👍/👎, resolves at 48h |
-| **Post-Merge Finalization** | PR merged to main | Updates `pr_status` → merged, snapshots `results/{version}.json` from merged `results.json` |
+| **Post-Merge Finalization** | PR merged to main | Updates `pr_status` → merged, snapshots `iterations/{version}/results.json` from merged `results.json` |
 
 **Iteration PRs only:** Bots run only when the PR has the `iteration` label. Data collection, docs, and other PRs skip the bots — add `iteration` only when proposing a new scoring heuristic. (Create the label in repo Settings → Labels if it doesn't exist.)
 
@@ -29,23 +29,23 @@ flowchart TB
     end
 
     subgraph PR_OPEN["PR with iteration label"]
-        A1[Bot reads committed results.json] --> A2[Create iterations/vN.md from PR body]
+        A1[Bot reads committed results.json] --> A2[Create iterations/vN/README.md from PR body]
         A2 --> A3[build-iterations → iterations.json]
-        A3 --> A4[Snapshot results/vN.json]
+        A3 --> A4[Snapshot iterations/vN/results.json]
         A4 --> A5[sync-readme → README]
         A5 --> A6[Commit & push]
     end
 
     subgraph PR_MERGE["PR merged to main"]
-        B1[Use merged results.json] --> B2[Snapshot results/vN.json]
-        B2 --> B3[Update iterations/vN.md: pr_status, top_project]
+        B1[Use merged results.json] --> B2[Snapshot iterations/vN/results.json]
+        B2 --> B3[Update iterations/vN/README.md: pr_status, top_project]
         B3 --> B4[build-iterations → iterations.json]
         B4 --> B5[sync-readme → README]
         B5 --> B6[Commit & push]
     end
 
     subgraph SOURCE_OF_TRUTH["Source of truth"]
-        MD[iterations/*.md]
+        MD[iterations/*/README.md]
         MD --> JSON[iterations.json]
         JSON --> README[README Iterations section]
     end
@@ -53,8 +53,8 @@ flowchart TB
 
 | When | Creates | Updates |
 |------|---------|---------|
-| **PR opened** (with `results.json`) | `iterations/vN.md`, `results/vN.json` | `iterations.json`, README |
-| **PR merged** | — | `iterations/vN.md`, `results/vN.json`, `iterations.json`, README |
+| **PR opened** (with `results.json`) | `iterations/vN/README.md`, `iterations/vN/results.json` | `iterations.json`, README |
+| **PR merged** | — | `iterations/vN/README.md`, `iterations/vN/results.json`, `iterations.json`, README |
 
 ---
 
@@ -70,12 +70,12 @@ flowchart TB
 
 1. Checks for `results.json` in the PR branch — if missing, posts "Results Required" and exits
 2. Parses `## Title`, `## Heuristic`, `## Rationale`, `## Limitations`, `## Assessment` from the PR
-3. Determines version (re-run: finds existing `iterations/{version}.md` by `pr_number`; new: next version from existing files)
-4. Writes or updates `iterations/{version}.md` — single source of truth
+3. Determines version (re-run: finds existing `iterations/{version}/README.md` by `pr_number`; new: next version from existing folders)
+4. Writes or updates `iterations/{version}/README.md` — single source of truth
 5. Runs `build-iterations` to regenerate `iterations.json`
 6. Runs `sync-readme` to regenerate the Iterations section in README
-7. Snapshots `results/{version}.json` from your committed `results.json`
-8. Commits and pushes `iterations/`, `iterations.json`, README, `results/`
+7. Snapshots `iterations/{version}/results.json` from your committed `results.json`
+8. Commits and pushes `iterations/`, `iterations.json`, README
 9. Posts a comment with top 5, middle 5, bottom 5 from your results
 
 **Re-runs:** Add `run-bot` to update the existing entry instead of creating a duplicate.
@@ -105,7 +105,7 @@ flowchart TB
 
 **Triggers:** Automatically when a PR is merged to main.
 
-**What it does:** Uses the merged `results.json` (no algorithm run). Updates `iterations/{version}.md` (`pr_status` → merged, `top_project` from results), snapshots `results/{version}.json`, regenerates `iterations.json` and README. Runs in the background; no action needed.
+**What it does:** Uses the merged `results.json` (no algorithm run). Updates `iterations/{version}/README.md` (`pr_status` → merged, `top_project` from results), snapshots `iterations/{version}/results.json`, regenerates `iterations.json` and README. Runs in the background; no action needed.
 
 ---
 
@@ -128,25 +128,24 @@ flowchart TB
 
 ## iterations/ Directory
 
-`iterations/v1.md`, `iterations/v2.md`, etc. are the **single source of truth** per iteration. Each file has:
+Each iteration has a folder `iterations/vN/` containing:
 
-- **Frontmatter:** `title`, `author` (GitHub handle, e.g. @username), `date`, `pr_url`, `version`, `pr_number`, `pr_status`, `top_project`, `keywords`
-- **Body:** `## Heuristic`, `## Rationale`, `## Data sources`, `## Limitations`, `## Assessment`
+- **`README.md`** — Single source of truth for that iteration (frontmatter + ## Heuristic, ## Rationale, ## Data sources, ## Limitations, ## Assessment). GitHub shows it when you open the folder.
+- **`results.json`** — Ranked shortlist snapshot for that run. Iterations with extra artifacts (e.g. v5’s deliberation outputs) keep them in the same folder.
 
-The iteration details updater creates these from the PR. Post-merge updates `pr_status` and `top_project`. **`iterations.json` is generated from these files** — never edit it directly. After editing an `.md` file, run `npm run build:iterations`.
+The iteration details updater creates the folder and writes `README.md` and `results.json`; post-merge updates `pr_status` and `top_project` in `README.md`. **`iterations.json` is generated from the README files** — never edit it directly. After editing a README, run `npm run build:iterations`.
 
 ---
 
 ## results/ Directory
 
-- **`results.json`** — Current run; overwritten each time the algorithm runs
-- **`results/v{N}.json`** — Historical snapshot per merged iteration
+- **`results.json`** (repo root) — Current run; overwritten each time the algorithm runs. Versioned snapshots live in `iterations/vN/results.json`, not in `results/`.
 
 ---
 
 ## Scripts
 
-**build-iterations** — Rebuilds `iterations.json` from `iterations/*.md`. Run after editing any iteration.  
+**build-iterations** — Rebuilds `iterations.json` from `iterations/*/README.md`. Run after editing any iteration.  
 `npm run build:iterations` or `npx tsx scripts/build-iterations.ts`
 
 **sync-readme** — Regenerates the Iterations section in README from `iterations.json`.  

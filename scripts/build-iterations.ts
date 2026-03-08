@@ -1,14 +1,14 @@
 /**
  * build-iterations.ts
  *
- * Builds iterations.json from iterations/*.md files.
- * The .md files are the single source of truth per iteration.
+ * Builds iterations.json from README.md in each iteration folder (iterations/v1/, iterations/v2/, ...).
+ * The README.md in each iteration folder is the single source of truth per iteration.
  *
  * Usage: npx tsx scripts/build-iterations.ts
  *        npm run build:iterations
  *
- * Run after editing iterations/*.md to regenerate iterations.json.
- * The iteration details updater and finalize-merge also run this after updating .md files.
+ * Run after editing any iteration README to regenerate iterations.json.
+ * The iteration details updater and finalize-merge also run this after updating README files.
  */
 
 import {
@@ -22,7 +22,7 @@ import { saveIterations } from "./shared.js";
 function buildIterations(): void {
   const files = listIterationMdFiles();
   if (files.length === 0) {
-    console.log("No iteration .md files found in iterations/");
+    console.log("No iteration folders found in iterations/");
     return;
   }
 
@@ -60,7 +60,7 @@ function buildIterations(): void {
 
   saveIterations(iterations);
   console.log(
-    `✓ iterations.json built from ${iterations.length} markdown file(s) in iterations/`
+    `✓ iterations.json built from ${iterations.length} iteration README(s) in iterations/`
   );
 }
 
