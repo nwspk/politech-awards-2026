@@ -12,6 +12,8 @@
  *   npx tsx scripts/itn-a-deliberate.ts --top-conflicts 4
  *   npx tsx scripts/itn-a-deliberate.ts --argument-rounds 3
  *   npx tsx scripts/itn-a-deliberate.ts --min-greens 2
+ *   npx tsx scripts/itn-a-deliberate.ts --setup grok --min-greens 2   # v6: read cache/assessments-grok.json, write cache/deliberation-grok.json
+ *   npx tsx scripts/itn-a-deliberate.ts --setup grok --shortlist-file cache/pilot-union-top100.json --min-greens 2   # v6: shortlist = union ∩ ≥min-greens
  */
 
 import fs from "fs";
@@ -20,8 +22,6 @@ import Database from "better-sqlite3";
 
 const DEFAULT_MODEL = "x-ai/grok-4.1-fast";
 const OPENROUTER_API = "https://openrouter.ai/api/v1/chat/completions";
-const ASSESSMENTS_PATH = path.resolve("cache", "assessments.json");
-const DELIBERATION_PATH = path.resolve("cache", "deliberation.json");
 const CACHE_DB_PATH = path.resolve("cache", "sites.sqlite");
 const BODY_CHAR_LIMIT = 3000; // per project in scoring prompt
 
@@ -30,8 +30,14 @@ const MODEL = getArg("--model") ?? DEFAULT_MODEL;
 const MIN_GREENS = parseInt(getArg("--min-greens") ?? "3", 10);
 const TOP_CONFLICTS = parseInt(getArg("--top-conflicts") ?? "4", 10);
 const ARGUMENT_ROUNDS = parseInt(getArg("--argument-rounds") ?? "3", 10);
+const SETUP = getArg("--setup");
+const SHORTLIST_FILE = getArg("--shortlist-file");
 
 function getArg(f: string) { const i = args.indexOf(f); return i !== -1 ? args[i + 1] : undefined; }
+
+// v6: when --setup NAME, use cache/assessments-{NAME}.json and cache/deliberation-{NAME}.json
+const ASSESSMENTS_PATH = path.resolve("cache", SETUP ? `assessments-${SETUP}.json` : "assessments.json");
+const DELIBERATION_PATH = path.resolve("cache", SETUP ? `deliberation-${SETUP}.json` : "deliberation.json");
 function sleep(ms: number) { return new Promise(r => setTimeout(r, ms)); }
 
 function displayUrl(url: string): string {
@@ -248,6 +254,36 @@ function buildShortlist(assessments: any) {
         .map(([url, a]: [string, any]) => ({ url, assessment: a, greenCount: getGreenCount(a) }))
         .filter(({ greenCount }) => greenCount >= MIN_GREENS)
         .sort((a, b) => b.greenCount - a.greenCount);
+}
+
+// v6: load URL set from --shortlist-file (JSON array or one URL per line). Normalize for matching.
+function loadShortlistUrlSet(filePath: string): Set<string> {
+    const raw = fs.readFileSync(filePath, "utf-8").trim();
+    let urls: string[] = [];
+    if (raw.startsWith("[")) {
+        try {
+            urls = JSON.parse(raw) as string[];
+        } catch {
+            urls = raw.split(/\n/).map(s => s.trim()).filter(Boolean);
+        }
+    } else {
+        urls = raw.split(/\n/).map(s => s.trim()).filter(Boolean);
+    }
+    const set = new Set<string>();
+    for (const u of urls) {
+        set.add(u);
+        set.add(normalizeUrlForMatch(u));
+    }
+    return set;
+}
+
+function normalizeUrlForMatch(url: string): string {
+    try {
+        const u = new URL(url.startsWith("http") ? url : "https://" + url);
+        return (u.hostname.replace(/^www\./, "") + u.pathname).toLowerCase().replace(/\/$/, "");
+    } catch {
+        return url.toLowerCase().replace(/\/$/, "");
+    }
 }
 
 function summariseProject(url: string, assessment: any, pageText?: string): string {
@@ -534,12 +570,26 @@ function stddev(nums: number[]): number {
 
 async function main() {
     console.log(`\nITN/A Deliberation v3 — relative scoring + real argument + winner`);
-    console.log(`Model: ${MODEL} | conflicts: ${TOP_CONFLICTS} | argument rounds: ${ARGUMENT_ROUNDS}\n`);
+    console.log(`Model: ${MODEL} | min-greens: ${MIN_GREENS} | conflicts: ${TOP_CONFLICTS} | argument rounds: ${ARGUMENT_ROUNDS}`);
+    if (SETUP) console.log(`Setup: ${SETUP} → ${ASSESSMENTS_PATH} → ${DELIBERATION_PATH}`);
+    if (SHORTLIST_FILE) console.log(`Shortlist file: ${SHORTLIST_FILE}`);
+    console.log();
 
     if (!process.env.OPENROUTER_API_KEY) { console.error("OPENROUTER_API_KEY not set"); process.exit(1); }
 
     const assessments = loadAssessments();
-    const entries = buildShortlist(assessments);
+    let entries = buildShortlist(assessments);
+
+    if (SHORTLIST_FILE) {
+        if (!fs.existsSync(SHORTLIST_FILE)) {
+            console.error(`Shortlist file not found: ${SHORTLIST_FILE}`);
+            process.exit(1);
+        }
+        const urlSet = loadShortlistUrlSet(SHORTLIST_FILE);
+        const before = entries.length;
+        entries = entries.filter(e => urlSet.has(e.url) || urlSet.has(normalizeUrlForMatch(e.url)));
+        console.log(`Shortlist filter: ${before} → ${entries.length} (union ∩ ≥${MIN_GREENS} greens)\n`);
+    }
 
     if (entries.length === 0) {
         console.error(`No projects with ${MIN_GREENS}+ green votes.`); process.exit(1);
