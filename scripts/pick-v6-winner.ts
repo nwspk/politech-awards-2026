@@ -83,9 +83,9 @@ function main() {
       : winner.setup === "all-claude"
         ? "--model anthropic/claude-sonnet-4"
         : winner.setup === "all-kimi"
-          ? "--model moonshotai/kimi-latest"
+          ? "--model moonshotai/kimi-k2.5"
           : winner.setup === "mixed"
-            ? "--models political=x-ai/grok-4.1-fast,relational=anthropic/claude-sonnet-4,experimental=moonshotai/kimi-latest"
+            ? "--models political=x-ai/grok-4.1-fast,relational=anthropic/claude-sonnet-4,experimental=moonshotai/kimi-k2.5"
             : "";
 
   if (!modelFlag) {
