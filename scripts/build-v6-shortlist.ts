@@ -1,111 +1,101 @@
 /**
- * build-v6-shortlist.ts — v6 Phase 1 shortlist
+ * build-v6-shortlist.ts
  *
- * New rule: include any project where at least one model gives green OR yellow
- * across any dimension:
- *   - Grok (1st file): include if any dimension is green
- *   - Claude (2nd file): include if any dimension is green or yellow
- *   - Kimi (3rd file): include if any dimension is green or yellow
+ * Builds the combined deliberation pool (pilot-shortlist.json) from three assessment files.
+ *
+ * Rule: a project is included if at least 2 of the 3 models rated it green OR yellow
+ * in any dimension (political, relational, or experimental).
+ *
+ * Rationale for "2-of-3" approach:
+ *   - "Union" (any model) gave 242 entries — too loose, single-model noise included.
+ *   - "Intersection" (all 3) gave only 88 — too tight; Claude is structurally conservative
+ *     (RLHF calibration gives ~3 greens vs ~120 for Grok), so requiring Claude's agreement
+ *     would unfairly narrow the pool.
+ *   - "2-of-3" gave 183 — two models must independently find a project interesting, which
+ *     filters noise while keeping a rich, genuinely contested shortlist for deliberation.
+ *     Chosen to cast a wide net so juries can meaningfully disagree.
  *
  * Usage:
- *   npx tsx scripts/build-v6-shortlist.ts cache/assessments-grok.json cache/assessments-all-claude.json cache/assessments-all-kimi.json --out cache/pilot-shortlist.json
- *   npx tsx scripts/build-v6-shortlist.ts cache/assessments-grok.json cache/assessments-all-claude.json cache/assessments-all-kimi.json --out cache/pilot-shortlist.json --min-size 100
+ *   npx tsx scripts/build-v6-shortlist.ts
+ *   npx tsx scripts/build-v6-shortlist.ts --out cache/pilot-shortlist.json
  */
 
 import fs from "fs";
 import path from "path";
 
-const DEFAULT_MIN_SIZE = 100;
 const args = process.argv.slice(2);
-
-function getArg(flag: string): string | undefined {
-  const i = args.indexOf(flag);
-  return i !== -1 ? args[i + 1] : undefined;
+function getArg(f: string): string | undefined {
+    const i = args.indexOf(f);
+    return i !== -1 ? args[i + 1] : undefined;
 }
 
-function getGreenCount(a: any): number {
-  return ["political", "relational", "experimental"].filter(
-    (k) => a[k] && !(a[k] as any).error && (a[k] as any).bucket === "green"
-  ).length;
+const OUT_PATH = getArg("--out") ?? path.resolve("cache", "pilot-shortlist.json");
+
+const ASSESSMENT_FILES = [
+    path.resolve("cache", "assessments-grok.json"),
+    path.resolve("cache", "assessments-all-claude.json"),
+    path.resolve("cache", "assessments-all-kimi.json"),
+];
+
+function hasGreenOrYellow(entry: any): boolean {
+    return ["political", "relational", "experimental"].some((k) => {
+        const bucket = entry?.[k]?.bucket;
+        return bucket === "green" || bucket === "yellow";
+    });
 }
 
-function getYellowCount(a: any): number {
-  return ["political", "relational", "experimental"].filter(
-    (k) => a[k] && !(a[k] as any).error && (a[k] as any).bucket === "yellow"
-  ).length;
-}
-
-function loadAssessments(filePath: string): Record<string, { greenCount: number; yellowCount: number }> {
-  if (!fs.existsSync(filePath)) throw new Error(`File not found: ${filePath}`);
-  const data = JSON.parse(fs.readFileSync(filePath, "utf-8")) as Record<string, any>;
-  const out: Record<string, { greenCount: number; yellowCount: number }> = {};
-  for (const [url, a] of Object.entries(data)) {
-    out[url] = { greenCount: getGreenCount(a), yellowCount: getYellowCount(a) };
-  }
-  return out;
+function loadAssessments(filePath: string): Record<string, any> {
+    if (!fs.existsSync(filePath)) {
+        console.warn(`  Warning: ${filePath} not found, skipping.`);
+        return {};
+    }
+    return JSON.parse(fs.readFileSync(filePath, "utf-8"));
 }
 
 function main() {
-  const outPath = getArg("--out") ?? "cache/pilot-shortlist.json";
-  const minSize = parseInt(getArg("--min-size") ?? String(DEFAULT_MIN_SIZE), 10);
+    console.log("\nbuild-v6-shortlist");
+    console.log("  Strategy: 2-of-3 models must rate green or yellow in any dimension");
 
-  const files: string[] = [];
-  for (let i = 0; i < args.length; i++) {
-    if (args[i] === "--out" || args[i] === "--min-size") {
-      i++;
-      continue;
+    // Load all three assessment files
+    const allAssessments = ASSESSMENT_FILES.map((f) => {
+        const data = loadAssessments(f);
+        console.log(`  ${path.basename(f)}: ${Object.keys(data).length} entries`);
+        return data;
+    });
+
+    // Collect all URLs across all files
+    const allUrls = new Set<string>();
+    for (const data of allAssessments) {
+        Object.keys(data).forEach((u) => allUrls.add(u));
     }
-    if (args[i].startsWith("--")) continue;
-    files.push(args[i]);
-  }
+    console.log(`  Total unique URLs: ${allUrls.size}`);
 
-  if (files.length < 2) {
-    console.error("Usage: build-v6-shortlist.ts <assessments1.json> <assessments2.json> <assessments3.json> [--out path] [--min-size N]");
-    process.exit(1);
-  }
+    // Per-model green-or-yellow sets (for reporting)
+    const perModelSets = allAssessments.map((data) => {
+        const s = new Set<string>();
+        for (const [url, entry] of Object.entries(data)) {
+            if (hasGreenOrYellow(entry)) s.add(url);
+        }
+        return s;
+    });
 
-  const allByUrl = new Map<string, Array<{ greenCount: number; yellowCount: number }>>();
+    const names = ["grok", "claude", "kimi"];
+    perModelSets.forEach((s, i) => console.log(`  ${names[i]} green+yellow: ${s.size}`));
 
-  // Collect all URLs from any file and ensure exactly 3 entries per URL (grok, claude, kimi order)
-  const allUrls = new Set<string>();
-  const byFile: Array<Record<string, { greenCount: number; yellowCount: number }>> = [];
-  for (const f of files) {
-    const data = loadAssessments(f);
-    byFile.push(data);
-    for (const url of Object.keys(data)) allUrls.add(url);
-  }
-  const empty = { greenCount: 0, yellowCount: 0 };
-  for (const url of allUrls) {
-    const perModel = files.map((_, idx) => byFile[idx][url] ?? empty);
-    allByUrl.set(url, perModel);
-  }
-
-  // Build shortlist: URL included if (grok: any green) OR (claude: any green or yellow) OR (kimi: any green or yellow)
-  const shortlist: string[] = [];
-  for (const [url, perModel] of allByUrl) {
-    const passes =
-      perModel.some((c, idx) =>
-        idx === 0 ? c.greenCount >= 1 : c.greenCount >= 1 || c.yellowCount >= 1
-      );
-    if (passes) shortlist.push(url);
-  }
-
-  console.error(`Shortlist (grok-green OR claude/kimi green|yellow): ${shortlist.length} URLs`);
-
-  if (shortlist.length < minSize) {
-    // Optional top-up: add URLs with any red/grey signal until we reach minSize (e.g. 100)
-    const rest = Array.from(allByUrl.keys()).filter((u) => !new Set(shortlist).has(u));
-    for (const url of rest) {
-      if (shortlist.length >= minSize) break;
-      shortlist.push(url);
+    // Include if ≥2 models flag it
+    const pool = new Set<string>();
+    for (const url of allUrls) {
+        const votes = perModelSets.filter((s) => s.has(url)).length;
+        if (votes >= 2) pool.add(url);
     }
-    if (shortlist.length > 0 && shortlist.length >= minSize)
-      console.error(`Top-up to --min-size ${minSize}: ${shortlist.length} URLs total`);
-  }
 
-  fs.mkdirSync(path.dirname(outPath), { recursive: true });
-  fs.writeFileSync(outPath, JSON.stringify(shortlist, null, 2) + "\n");
-  console.error(`Shortlist: ${shortlist.length} URLs → ${outPath}`);
+    console.log(`\n  Final pool (2-of-3): ${pool.size} URLs`);
+
+    const result = Array.from(pool);
+    const dir = path.dirname(OUT_PATH);
+    if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+    fs.writeFileSync(OUT_PATH, JSON.stringify(result, null, 2) + "\n");
+    console.log(`  Written to ${OUT_PATH}`);
 }
 
 main();
