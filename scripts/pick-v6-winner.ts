@@ -1,115 +1,184 @@
 /**
- * pick-v6-winner.ts — Phase 3: pick jury with highest confidence, optionally promote
+ * pick-v6-winner.ts
  *
- * Reads the four deliberation JSONs; picks the setup whose winner.confidence is highest.
- * With --promote, runs full deliberation (no shortlist filter, ≥2 greens only) for that setup
- * and then the algorithm → results.json.
+ * Reads the six deliberation files, compares winner.confidence, and prints
+ * which jury won. Optionally runs the algorithm for that setup to produce results.json.
  *
  * Usage:
  *   npx tsx scripts/pick-v6-winner.ts
- *   npx tsx scripts/pick-v6-winner.ts --promote
- *   npx tsx scripts/pick-v6-winner.ts --delib cache/deliberation-grok.json cache/deliberation-all-claude.json cache/deliberation-all-kimi.json cache/deliberation-mixed.json --promote
+ *   npx tsx scripts/pick-v6-winner.ts --promote   # also runs the-algorithm.ts for the winner
  */
 
 import fs from "fs";
 import path from "path";
 import { execSync } from "child_process";
 
-const DEFAULT_DELIBS = [
-  "cache/deliberation-grok.json",
-  "cache/deliberation-all-claude.json",
-  "cache/deliberation-all-kimi.json",
-  "cache/deliberation-mixed.json",
-];
-
 const args = process.argv.slice(2);
-const promote = args.includes("--promote");
-let delibPaths: string[] = DEFAULT_DELIBS;
-const delibIdx = args.indexOf("--delib");
-if (delibIdx !== -1) {
-  delibPaths = [];
-  for (let i = delibIdx + 1; i < args.length && !args[i].startsWith("--"); i++) {
-    delibPaths.push(args[i]);
-  }
+const PROMOTE = args.includes("--promote");
+
+interface JuryConfig {
+    name: string;
+    deliberationFile: string;
+    assessmentsFile: string;
+    resultsFile: string;
+    model: string;
+    shortlistFilter: "own-greens" | "combined";
 }
 
-function setupNameFromPath(p: string): string {
-  const base = path.basename(p, ".json");
-  if (base === "deliberation-grok") return "grok";
-  if (base === "deliberation-all-claude") return "all-claude";
-  if (base === "deliberation-all-kimi") return "all-kimi";
-  if (base === "deliberation-mixed") return "mixed";
-  return base.replace("deliberation-", "");
+const JURIES: JuryConfig[] = [
+    {
+        name: "grok",
+        deliberationFile: "cache/deliberation-grok.json",
+        assessmentsFile: "cache/assessments-grok.json",
+        resultsFile: "results-grok.json",
+        model: "x-ai/grok-4.1-fast",
+        shortlistFilter: "own-greens",
+    },
+    {
+        name: "claude",
+        deliberationFile: "cache/deliberation-all-claude.json",
+        assessmentsFile: "cache/assessments-all-claude.json",
+        resultsFile: "results-all-claude.json",
+        model: "anthropic/claude-sonnet-4-6",
+        shortlistFilter: "own-greens",
+    },
+    {
+        name: "kimi",
+        deliberationFile: "cache/deliberation-all-kimi.json",
+        assessmentsFile: "cache/assessments-all-kimi.json",
+        resultsFile: "results-all-kimi.json",
+        model: "moonshotai/kimi-k2",
+        shortlistFilter: "own-greens",
+    },
+    {
+        name: "mixed",
+        deliberationFile: "cache/deliberation-mixed.json",
+        assessmentsFile: "cache/assessments-merged.json",
+        resultsFile: "results-mixed.json",
+        model: "openai/gpt-4o",
+        shortlistFilter: "combined",
+    },
+    {
+        name: "adversarial",
+        deliberationFile: "cache/deliberation-adversarial.json",
+        assessmentsFile: "cache/assessments-merged.json",
+        resultsFile: "results-adversarial.json",
+        model: "deepseek/deepseek-r1",
+        shortlistFilter: "combined",
+    },
+    {
+        name: "specialist",
+        deliberationFile: "cache/deliberation-specialist.json",
+        assessmentsFile: "cache/assessments-merged.json",
+        resultsFile: "results-specialist.json",
+        model: "google/gemini-2.5-pro + meta-llama/llama-3.3-70b + mistralai/mistral-large",
+        shortlistFilter: "combined",
+    },
+];
+
+interface WinnerDecision {
+    url: string;
+    display: string;
+    score: number;
+    confidence?: number;
+    case_for: string;
+    case_against: string;
+}
+
+interface DeliberationState {
+    model: string;
+    winner: WinnerDecision | null;
+    status: string;
+}
+
+function loadDelib(filePath: string): DeliberationState | null {
+    const resolved = path.resolve(filePath);
+    if (!fs.existsSync(resolved)) return null;
+    try {
+        return JSON.parse(fs.readFileSync(resolved, "utf-8"));
+    } catch {
+        return null;
+    }
 }
 
 function main() {
-  const repoRoot = path.resolve(__dirname, "..");
-  process.chdir(repoRoot);
+    console.log("\n═══════════════════════════════════════════");
+    console.log("pick-v6-winner — comparing six jury verdicts");
+    console.log("═══════════════════════════════════════════\n");
 
-  const scores: { setup: string; path: string; confidence: number }[] = [];
+    const results: Array<{
+        jury: JuryConfig;
+        winner: WinnerDecision | null;
+        confidence: number;
+        status: string;
+    }> = [];
 
-  for (const p of delibPaths) {
-    const full = path.resolve(p);
-    if (!fs.existsSync(full)) {
-      console.error(`Missing: ${full}`);
-      continue;
+    for (const jury of JURIES) {
+        const delib = loadDelib(jury.deliberationFile);
+        if (!delib) {
+            console.log(`  [${jury.name}] — file not found: ${jury.deliberationFile}`);
+            results.push({ jury, winner: null, confidence: -1, status: "missing" });
+            continue;
+        }
+
+        const winner = delib.winner;
+        const confidence = winner?.confidence ?? -1;
+        const status = delib.status ?? "unknown";
+
+        if (!winner) {
+            console.log(`  [${jury.name}] — no winner yet (status: ${status})`);
+        } else {
+            console.log(`  [${jury.name}] winner: ${winner.display} | confidence: ${confidence}/100 | status: ${status}`);
+            console.log(`    for: ${winner.case_for?.slice(0, 120)}...`);
+        }
+
+        results.push({ jury, winner, confidence, status });
     }
-    const data = JSON.parse(fs.readFileSync(full, "utf-8"));
-    const confidence = data.winner?.confidence;
-    const setup = setupNameFromPath(p);
-    scores.push({
-      setup,
-      path: full,
-      confidence: typeof confidence === "number" ? confidence : 0,
-    });
-  }
 
-  if (scores.length === 0) {
-    console.error("No deliberation files found.");
-    process.exit(1);
-  }
+    // Find highest-confidence complete jury
+    const complete = results.filter((r) => r.winner && r.confidence >= 0);
+    if (complete.length === 0) {
+        console.log("\nNo complete deliberations found. Run all six juries first.");
+        return;
+    }
 
-  scores.sort((a, b) => b.confidence - a.confidence);
-  const winner = scores[0];
-  console.log("Confidence by setup:");
-  scores.forEach((s) => console.log(`  ${s.setup}: ${s.confidence}%`));
-  console.log(`\nWinner: ${winner.setup} (${winner.confidence}%)`);
+    complete.sort((a, b) => b.confidence - a.confidence);
+    const best = complete[0];
 
-  if (!promote) return;
+    console.log(`\n${"═".repeat(43)}`);
+    console.log(`WINNER JURY: ${best.jury.name.toUpperCase()} (confidence: ${best.confidence}/100)`);
+    console.log(`  Winner project: ${best.winner!.display}`);
+    console.log(`  Model: ${best.jury.model}`);
+    console.log(`  Assessments: ${best.jury.assessmentsFile}`);
+    console.log(`${"═".repeat(43)}`);
 
-  const modelFlag =
-    winner.setup === "grok"
-      ? "--model x-ai/grok-4.1-fast"
-      : winner.setup === "all-claude"
-        ? "--model anthropic/claude-sonnet-4"
-        : winner.setup === "all-kimi"
-          ? "--model moonshotai/kimi-k2.5"
-          : winner.setup === "mixed"
-            ? "--models political=x-ai/grok-4.1-fast,relational=anthropic/claude-sonnet-4,experimental=moonshotai/kimi-k2.5"
-            : "";
+    // Show full confidence ranking
+    console.log("\nAll juries by confidence:");
+    for (const r of complete) {
+        const marker = r === best ? "★" : " ";
+        console.log(`  ${marker} ${r.jury.name.padEnd(12)} ${String(r.confidence).padStart(3)}/100  winner: ${r.winner!.display}`);
+    }
 
-  if (!modelFlag) {
-    console.error("Unknown setup for promote:", winner.setup);
-    process.exit(1);
-  }
+    if (!PROMOTE) {
+        console.log("\nRun with --promote to run the full algorithm for the winning setup → results.json");
+        return;
+    }
 
-  const assessmentsPath = path.resolve("cache", `assessments-${winner.setup}.json`);
-  const deliberationPath = path.resolve("cache", `deliberation-${winner.setup}.json`);
-  if (!fs.existsSync(assessmentsPath)) {
-    console.error(`Assessments not found: ${assessmentsPath}. Run evals and merge (for mixed) first.`);
-    process.exit(1);
-  }
+    console.log(`\nPromoting ${best.jury.name} setup → running the-algorithm.ts...`);
+    const env = {
+        ...process.env,
+        ASSESSMENTS_PATH: path.resolve(best.jury.assessmentsFile),
+        DELIBERATION_PATH: path.resolve(best.jury.deliberationFile),
+        RESULTS_PATH: path.resolve("results.json"),
+    };
 
-  console.log("\nPromoting: full deliberation (≥2 greens, no shortlist) then algorithm...");
-  execSync(
-    `npx tsx scripts/itn-a-deliberate.ts --setup ${winner.setup} --min-greens 2 ${modelFlag}`,
-    { stdio: "inherit" }
-  );
-  execSync(
-    `ASSESSMENTS_PATH=${assessmentsPath} DELIBERATION_PATH=${deliberationPath} RESULTS_PATH=results.json npx tsx the-algorithm.ts`,
-    { stdio: "inherit" }
-  );
-  console.log("Done. results.json written.");
+    try {
+        execSync("npx tsx the-algorithm.ts", { env, stdio: "inherit" });
+        console.log(`\nDone. results.json written for ${best.jury.name} jury.`);
+    } catch (err) {
+        console.error("Error running the-algorithm.ts:", err);
+        process.exitCode = 1;
+    }
 }
 
 main();

@@ -1,10 +1,10 @@
 #!/bin/bash
-# v6 pipeline — evals (all 321), shortlist (union ≥2 greens + top-up to 100), merge for mixed,
-# four juries (Grok, Claude, Kimi, mixed), algorithm per jury, then pick winner by confidence.
+# v6 pipeline runner — 6 juries (3 original + 3 mixed)
 # Usage: from repo root, with OPENROUTER_API_KEY set:
 #   ./scripts/run-v6-pipeline.sh
-#   ./scripts/run-v6-pipeline.sh --promote   # also run Phase 3: promote best to results.json
-# Or on a server: nohup ./scripts/run-v6-pipeline.sh >> v6-pipeline.log 2>&1 &
+#   ./scripts/run-v6-pipeline.sh --promote   # also runs Phase 3 promote after picking winner
+# Or on a server:
+#   nohup ./scripts/run-v6-pipeline.sh >> v6-pipeline.log 2>&1 &
 set -e
 cd "$(dirname "$0")/.."
 
@@ -13,42 +13,89 @@ if [ -z "${OPENROUTER_API_KEY}" ]; then
   exit 1
 fi
 
-PROMOTE=""
-for a in "$@"; do
-  [ "$a" = "--promote" ] && PROMOTE="--promote" && break
-done
+PROMOTE_FLAG=""
+if [[ "$*" == *"--promote"* ]]; then
+  PROMOTE_FLAG="--promote"
+fi
 
-echo "Starting v6 pipeline at $(date)"
+SHORTLIST="cache/pilot-shortlist.json"
+MERGED="cache/assessments-merged.json"
 
-echo "1/6 — Evals (Grok, Claude, Kimi, all 321)..."
-npx tsx scripts/itn-a-eval.ts --setup grok --model x-ai/grok-4.1-fast
-npx tsx scripts/itn-a-eval.ts --setup all-claude --model anthropic/claude-sonnet-4
-npx tsx scripts/itn-a-eval.ts --setup all-kimi --model moonshotai/kimi-k2.5
+echo "=== v6 pipeline starting at $(date) ==="
+echo ""
 
-echo "2/6 — Shortlist (grok-green OR claude/kimi green|yellow per dimension)..."
-npx tsx scripts/build-v6-shortlist.ts \
-  cache/assessments-grok.json cache/assessments-all-claude.json cache/assessments-all-kimi.json \
-  --out cache/pilot-shortlist.json --min-size 100
+# ── Phase 1a: Evals ──────────────────────────────────────────────────────────
+echo "1/6 — Evals (Grok, Claude, Kimi)..."
+npx tsx scripts/itn-a-eval.ts --setup grok       --model x-ai/grok-4.1-fast
+npx tsx scripts/itn-a-eval.ts --setup all-claude --model anthropic/claude-sonnet-4-6
+npx tsx scripts/itn-a-eval.ts --setup all-kimi   --model moonshotai/kimi-k2
 
-echo "3/6 — Merge assessments for mixed jury..."
-npx tsx scripts/merge-assessments.ts \
-  cache/assessments-grok.json cache/assessments-all-claude.json cache/assessments-all-kimi.json \
-  --out cache/assessments-mixed.json
+# ── Phase 1b: Shortlist (union ≥2G, top-up to 100) ──────────────────────────
+echo ""
+echo "2/6 — Shortlist (union ≥2 greens, top-up to 100)..."
+npx tsx scripts/build-v6-shortlist.ts --out "$SHORTLIST"
 
-echo "4/6 — Deliberations (Grok, Claude, Kimi, mixed-model jury)..."
-npx tsx scripts/itn-a-deliberate.ts --setup grok --shortlist-file cache/pilot-shortlist.json --min-greens 2 --model x-ai/grok-4.1-fast
-npx tsx scripts/itn-a-deliberate.ts --setup all-claude --shortlist-file cache/pilot-shortlist.json --min-greens 2 --model anthropic/claude-sonnet-4
-npx tsx scripts/itn-a-deliberate.ts --setup all-kimi --shortlist-file cache/pilot-shortlist.json --min-greens 2 --model moonshotai/kimi-k2.5
-npx tsx scripts/itn-a-deliberate.ts --setup mixed --shortlist-file cache/pilot-shortlist.json --min-greens 2 \
-  --models "political=x-ai/grok-4.1-fast,relational=anthropic/claude-sonnet-4,experimental=moonshotai/kimi-k2.5"
+# ── Phase 1c: Merge assessments for mixed juries ─────────────────────────────
+echo ""
+echo "3/6 — Merge assessments for mixed juries..."
+npx tsx scripts/merge-assessments.ts --out "$MERGED"
 
+# ── Phase 2: Deliberations ───────────────────────────────────────────────────
+echo ""
+echo "4/6 — Deliberations (6 juries)..."
+
+# Original juries: each model reads its own eval data, filtered to own ≥2 greens
+npx tsx scripts/itn-a-deliberate.ts \
+  --setup grok --shortlist-file "$SHORTLIST" --min-greens 2 \
+  --model x-ai/grok-4.1-fast
+
+npx tsx scripts/itn-a-deliberate.ts \
+  --setup all-claude --shortlist-file "$SHORTLIST" --min-greens 2 \
+  --model anthropic/claude-sonnet-4-6
+
+npx tsx scripts/itn-a-deliberate.ts \
+  --setup all-kimi --shortlist-file "$SHORTLIST" --min-greens 2 \
+  --model moonshotai/kimi-k2
+
+# Mixed juries: new models read merged assessments, use combined shortlist (no per-model filter)
+npx tsx scripts/itn-a-deliberate.ts \
+  --setup mixed \
+  --assessments-file "$MERGED" \
+  --output-file cache/deliberation-mixed.json \
+  --shortlist-file "$SHORTLIST" --min-greens 0 \
+  --model openai/gpt-4o
+
+npx tsx scripts/itn-a-deliberate.ts \
+  --setup adversarial \
+  --assessments-file "$MERGED" \
+  --output-file cache/deliberation-adversarial.json \
+  --shortlist-file "$SHORTLIST" --min-greens 0 \
+  --model deepseek/deepseek-r1
+
+npx tsx scripts/itn-a-deliberate.ts \
+  --setup specialist \
+  --assessments-file "$MERGED" \
+  --output-file cache/deliberation-specialist.json \
+  --shortlist-file "$SHORTLIST" --min-greens 0 \
+  --model-political  google/gemini-2.5-pro \
+  --model-relational meta-llama/llama-3.3-70b-instruct \
+  --model-experimental mistralai/mistral-large
+
+# ── Phase 2: Algorithm (results per jury) ────────────────────────────────────
+echo ""
 echo "5/6 — Algorithm (results per jury)..."
-ASSESSMENTS_PATH=cache/assessments-grok.json DELIBERATION_PATH=cache/deliberation-grok.json RESULTS_PATH=results-grok.json npx tsx the-algorithm.ts
-ASSESSMENTS_PATH=cache/assessments-all-claude.json DELIBERATION_PATH=cache/deliberation-all-claude.json RESULTS_PATH=results-all-claude.json npx tsx the-algorithm.ts
-ASSESSMENTS_PATH=cache/assessments-all-kimi.json DELIBERATION_PATH=cache/deliberation-all-kimi.json RESULTS_PATH=results-all-kimi.json npx tsx the-algorithm.ts
-ASSESSMENTS_PATH=cache/assessments-mixed.json DELIBERATION_PATH=cache/deliberation-mixed.json RESULTS_PATH=results-mixed.json npx tsx the-algorithm.ts
 
-echo "6/6 — Pick winner (highest confidence)..."
-npx tsx scripts/pick-v6-winner.ts $PROMOTE
+ASSESSMENTS_PATH=cache/assessments-grok.json       DELIBERATION_PATH=cache/deliberation-grok.json       RESULTS_PATH=results-grok.json       npx tsx the-algorithm.ts
+ASSESSMENTS_PATH=cache/assessments-all-claude.json  DELIBERATION_PATH=cache/deliberation-all-claude.json  RESULTS_PATH=results-all-claude.json  npx tsx the-algorithm.ts
+ASSESSMENTS_PATH=cache/assessments-all-kimi.json    DELIBERATION_PATH=cache/deliberation-all-kimi.json    RESULTS_PATH=results-all-kimi.json    npx tsx the-algorithm.ts
+ASSESSMENTS_PATH="$MERGED"                          DELIBERATION_PATH=cache/deliberation-mixed.json       RESULTS_PATH=results-mixed.json       npx tsx the-algorithm.ts
+ASSESSMENTS_PATH="$MERGED"                          DELIBERATION_PATH=cache/deliberation-adversarial.json RESULTS_PATH=results-adversarial.json npx tsx the-algorithm.ts
+ASSESSMENTS_PATH="$MERGED"                          DELIBERATION_PATH=cache/deliberation-specialist.json  RESULTS_PATH=results-specialist.json  npx tsx the-algorithm.ts
 
-echo "v6 pipeline finished at $(date)"
+# ── Phase 3: Pick winner ──────────────────────────────────────────────────────
+echo ""
+echo "6/6 — Pick highest-confidence jury..."
+npx tsx scripts/pick-v6-winner.ts $PROMOTE_FLAG
+
+echo ""
+echo "=== v6 pipeline finished at $(date) ==="
