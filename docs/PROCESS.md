@@ -13,7 +13,7 @@ How the awards committee works — proposing iterations, voting, and delivering 
 **If you're writing the code yourself:**
 
 1. Create a branch, edit `the-algorithm.ts`
-2. Run locally: `npm install && npx tsx the-algorithm.ts` — commit `results.json` (and any cache your heuristic needs, e.g. `cache/assessments.json`)
+2. Run locally: `npm install && npx tsx the-algorithm.ts` — commit `results.json` and **any cache files your heuristic needs** (e.g. `cache/assessments.json`, `cache/deliberation.json` for v5; for v6, the assessment and deliberation JSON files under `cache/`). When your PR is merged, the bot will copy these into `iterations/{version}/` so they are preserved and not overwritten by later runs.
 3. Open a PR — the template auto-fills; fill in **Heuristic** (one sentence) and **Rationale** (as detailed as you like), then check "Code is ready to review"
 4. Mark the PR as "Ready for review" and add the **`iteration`** label
 5. The bots create the iteration from your results, update README, and start voting
@@ -28,6 +28,8 @@ When a PR has the **`iteration`** label and is marked **"Ready for review"**, tw
 
 1. **Iteration Details Updater** — Reads your committed `results.json`, creates `iterations/{version}/README.md`, auto-assigns a version number, and updates `iterations.json` and README. (You run the algorithm locally; the updater does not.)
 2. **Voting Bot** — Posts a voting comment with a 48-hour deadline and adds a `vote:pending` label.
+
+When an iteration PR is **merged**, the post-merge bot re-snapshots `results.json` into `iterations/{version}/` and **copies that version’s cache files** (e.g. `cache/assessments.json`, `cache/deliberation.json`) into `iterations/{version}/` so they are preserved in the repo and not overwritten by later pipeline runs. Commit any cache files your iteration needs so the snapshot can include them.
 
 For full details on triggers, behaviour, and troubleshooting, see [Technical Documentation](TECHNICAL.md#bots-at-a-glance).
 
