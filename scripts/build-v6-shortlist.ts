@@ -3,13 +3,17 @@
  *
  * Builds the combined deliberation pool (pilot-shortlist.json) from three assessment files.
  *
- * Rule: a project is included if at least 1 of the 3 models rated it green OR yellow
+ * Rule: a project is included if at least 2 of the 3 models rated it green OR yellow
  * in any dimension (political, relational, or experimental).
  *
- * Rationale for "1-of-3" (union) approach:
- *   - Cast the widest net — any single model finding a project interesting is enough.
- *   - Preserves all potentially interesting candidates for deliberation.
- *   - Juries can filter further during the deliberation phase.
+ * Rationale for "2-of-3" approach:
+ *   - "Union" (any model) gave 242 entries — too loose, single-model noise included.
+ *   - "Intersection" (all 3) gave only 88 — too tight; Claude is structurally conservative
+ *     (RLHF calibration gives ~3 greens vs ~120 for Grok), so requiring Claude's agreement
+ *     would unfairly narrow the pool.
+ *   - "2-of-3" gave 183 — two models must independently find a project interesting, which
+ *     filters noise while keeping a rich, genuinely contested shortlist for deliberation.
+ *     Chosen to cast a wide net so juries can meaningfully disagree.
  *
  * Usage:
  *   npx tsx scripts/build-v6-shortlist.ts
@@ -50,7 +54,7 @@ function loadAssessments(filePath: string): Record<string, any> {
 
 function main() {
     console.log("\nbuild-v6-shortlist");
-    console.log("  Strategy: ≥1 model must rate green or yellow in any dimension");
+    console.log("  Strategy: 2-of-3 models must rate green or yellow in any dimension");
 
     // Load all three assessment files
     const allAssessments = ASSESSMENT_FILES.map((f) => {
@@ -78,14 +82,14 @@ function main() {
     const names = ["grok", "claude", "kimi"];
     perModelSets.forEach((s, i) => console.log(`  ${names[i]} green+yellow: ${s.size}`));
 
-    // Include if ≥1 model flags it
+    // Include if ≥2 models flag it
     const pool = new Set<string>();
     for (const url of allUrls) {
         const votes = perModelSets.filter((s) => s.has(url)).length;
-        if (votes >= 1) pool.add(url);
+        if (votes >= 2) pool.add(url);
     }
 
-    console.log(`\n  Final pool (≥1-of-3): ${pool.size} URLs`);
+    console.log(`\n  Final pool (2-of-3): ${pool.size} URLs`);
 
     const result = Array.from(pool);
     const dir = path.dirname(OUT_PATH);
