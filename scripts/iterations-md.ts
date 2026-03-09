@@ -34,7 +34,8 @@ function parseYamlValue(val: string): unknown {
 }
 
 export function parseIterationMd(content: string): ParsedIterationMd {
-  const match = content.match(/^---\s*\n([\s\S]*?)\n---\s*\n([\s\S]*)$/);
+  const normalized = content.replace(/\r\n/g, "\n").replace(/\r/g, "\n");
+  const match = normalized.match(/^---\s*\n([\s\S]*?)\n---\s*\n([\s\S]*)$/);
   if (!match) {
     return { frontmatter: {}, body: content };
   }
@@ -112,7 +113,7 @@ function parseDataSourcesFromBody(body: string): string[] | null {
   const items = section
     .split("\n")
     .map((line) => line.replace(/^[-*]\s*/, "").trim())
-    .filter((s) => s.length > 0);
+    .filter((s) => s.length > 0 && s !== "---" && !/^-+$/.test(s));
   return items.length > 0 ? items : null;
 }
 

@@ -81,6 +81,16 @@ function formatIteration(iteration: Iteration): string {
   return lines.join("\n");
 }
 
+function tableCellText(text: string, maxLength = 120): string {
+  const oneLine = text
+    .split(/\n/)[0]
+    .replace(/\s+/g, " ")
+    .replace(/\|/g, " ")
+    .trim();
+  if (oneLine.length <= maxLength) return oneLine;
+  return oneLine.slice(0, maxLength - 1) + "…";
+}
+
 function generateIterationsSection(iterations: Iteration[]): string {
   const parts: string[] = [];
 
@@ -97,8 +107,9 @@ function generateIterationsSection(iterations: Iteration[]): string {
       : "—";
     const topName = iter.top_project.name;
     const title = iter.title || "—";
+    const heuristicCell = tableCellText(iter.heuristic);
     parts.push(
-      `| ${iter.version} | ${title} | ${iter.heuristic} | ${topName} | ${prLink} |`
+      `| ${iter.version} | ${title} | ${heuristicCell} | ${topName} | ${prLink} |`
     );
   }
 
