@@ -1,5 +1,15 @@
 {
   "url": "https://fullfact.org/ai",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:48.104Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1470,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "Full Fact is the UK’s independent fact checking charity",
+    "scraped_final_url": "https://fullfact.org/ai/"
+  },
   "collected_at": "2026-03-09T23:21:13.445Z",
   "collected_by": "collect-enriched-script",
   "name": "Full Fact AI",
@@ -34,15 +44,11 @@
   ],
   "political_units": "Multiple national governments and parliaments across 30 countries",
   "open_source": false,
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "software-as-a-service",
     "machine learning tool"
   ],
   "founded_year": 2016,
-  "team_size": null,
   "funding_model": [
     "paid license"
   ],
@@ -53,7 +59,6 @@
     "National Endowment for Democracy"
   ],
   "funding_verified": true,
-  "last_funding_event": null,
   "dependency_risks": [
     "Reliance on proprietary machine learning models",
     "Dependency on third-party data sources for claim verification",
@@ -72,7 +77,6 @@
     "Recognition as leading fact-checking technology platform"
   ],
   "in_civictech_guide": true,
-  "wikipedia_page": null,
   "policy_outcomes": [
     "Used to identify misleading claims by MPs about migrant numbers, leading to requests for correction",
     "Supported monitoring of 12 national elections through 2024"
@@ -80,7 +84,6 @@
   "causation_strength": "anecdotal",
   "outcome_methodology": "Case study documentation of specific claims identified and corrected; election monitoring reports",
   "replication_materials_available": false,
-  "preregistered_studies": [],
   "published_performance_metrics": "Over 40 fact-checking organizations using tools across 3 languages; processes approximately 333,000 sentences on typical weekday; 200+ fact-check articles published using tool-identified claims",
   "documented_limitations": [
     "Language-dependent performance across different linguistic contexts",
@@ -98,9 +101,6 @@
   "contributor_governance": "Fact-checking organizations contribute claims and feedback; collaborative model with partner organizations",
   "disparity_tracking": "Monitoring of claim detection across different geographic regions and languages; efforts to address language bias",
   "community_ownership": "Collaborative model with 40+ fact-checking organizations; shared governance through partner network",
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
   "elections_used_in": [
     "12 national elections (2024)"
   ],

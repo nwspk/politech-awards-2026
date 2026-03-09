@@ -1,5 +1,15 @@
 {
   "url": "https://www.objector.ai",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:14.484Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 700,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Object to planning applications in the UK with Objector.ai. Check objection \r\ngrounds for free &amp; create powerful, policy-based objection letters, \r\nlobbying videos, and committee speeches in minutes.",
+    "scraped_final_url": "https://www.objector.ai/"
+  },
   "collected_at": "2026-03-09T23:20:58.894Z",
   "collected_by": "collect-enriched-script",
   "name": "Objector.ai",
@@ -29,9 +39,6 @@
     "national"
   ],
   "open_source": "no",
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "platform",
     "app"
@@ -41,9 +48,7 @@
   "funding_model": [
     "subscriptions"
   ],
-  "known_funders": [],
   "funding_verified": false,
-  "last_funding_event": null,
   "dependency_risks": [
     "Reliance on UK planning policy which may change",
     "Dependency on local council planning portals for document access"
@@ -56,16 +61,9 @@
       "url": null
     }
   ],
-  "academic_citations": [],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
   "causation_strength": "anecdotal",
-  "outcome_methodology": null,
   "replication_materials_available": false,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": [
     "Limited to UK planning system",
     "Requires users to upload planning documents manually",
@@ -78,15 +76,7 @@
     "Tool may not capture local context or emerging planning issues"
   ],
   "governance_model": "LLC",
-  "curation_criteria": null,
-  "contributor_governance": null,
-  "disparity_tracking": null,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": "Dual AI-powered system for identifying objection grounds, generating letters, and providing planning policy explanations",
   "pass2_at": "2026-03-09T23:21:45.704Z"
 }

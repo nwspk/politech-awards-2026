@@ -1,5 +1,15 @@
 {
   "url": "https://www.globaleaks.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:00.418Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 298,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "GlobaLeaks - Free and Open-Source Whistleblowing Software",
+    "scraped_final_url": "https://www.globaleaks.org/"
+  },
   "collected_at": "2026-03-09T23:20:55.466Z",
   "collected_by": "collect-enriched-script",
   "name": "GlobaLeaks",
@@ -88,7 +98,6 @@
   "causation_strength": "anecdotal",
   "outcome_methodology": "Case studies and user testimonials from deployed instances; no randomized controlled trials",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "Security audits published; user adoption metrics available on website",
   "documented_limitations": "Limited quantitative impact evaluation; reliance on self-reported outcomes from deploying organizations",
   "jurisdictional_scope": "international",
@@ -98,10 +107,7 @@
   "contributor_governance": "Meritocratic model with core maintainers; community contributions reviewed through GitHub pull requests",
   "disparity_tracking": "No formal disparity tracking; efforts to support deployment in Global South through capacity building",
   "community_ownership": "Community-driven development with user feedback incorporated; not owned by users but governed by nonprofit foundation",
-  "controversies": [],
-  "political_bias_allegations": null,
   "legal_regulatory_issues": "Subject to varying national regulations on whistleblowing and data protection; some authoritarian regimes have attempted to block access",
-  "elections_used_in": [],
   "government_partnerships": [
     "European Commission",
     "Various national anti-corruption agencies"

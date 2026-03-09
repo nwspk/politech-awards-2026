@@ -1,5 +1,15 @@
 {
   "url": "https://matrix.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:48.215Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 173,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Matrix, the open protocol for secure decentralised communications",
+    "scraped_final_url": "https://matrix.org/"
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "Matrix",
@@ -123,7 +133,6 @@
   "causation_strength": "directly_cited",
   "outcome_methodology": "public procurement records and government announcements",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "Federation performance benchmarks, server scalability reports, and encryption overhead analysis available in technical documentation",
   "documented_limitations": [
     "federation can be complex to operate at scale",
@@ -145,9 +154,7 @@
   "controversies": [
     "tensions between Element's commercial interests and Foundation neutrality have been publicly discussed"
   ],
-  "political_bias_allegations": null,
   "legal_regulatory_issues": "GDPR compliance considerations for federated deployments; data residency requirements in government implementations (France, Germany)",
-  "elections_used_in": [],
   "government_partnerships": [
     {
       "body": "DINUM (Direction Interministérielle du Numérique, France)",

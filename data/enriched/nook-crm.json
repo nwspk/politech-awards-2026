@@ -1,5 +1,15 @@
 {
   "url": "https://nookcrm.com",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:14.553Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 2207,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "The open-source case management tool for community energy groups.",
+    "scraped_final_url": "https://nookcrm.com/"
+  },
   "collected_at": "2026-03-09T23:20:09.920Z",
   "collected_by": "collect-enriched-script",
   "name": "Nook CRM",
@@ -28,8 +38,6 @@
   ],
   "open_source": "no",
   "github_url": "not_applicable",
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "platform",
     "app"
@@ -48,7 +56,6 @@
   "dependency_risks": [
     "Reliance on Energy Industry Voluntary Redress Scheme funding"
   ],
-  "news_articles": [],
   "academic_citations": [
     {
       "title": "From Waterfall to Agile software: Development models in the IT sector, 2006 to 2018. Impacts on company management",
@@ -69,28 +76,15 @@
       "doi": "https://doi.org/10.14569/ijarai.2013.020409"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
   "causation_strength": "anecdotal",
-  "outcome_methodology": null,
   "replication_materials_available": false,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
-  "documented_limitations": [],
   "jurisdictional_scope": "United Kingdom",
-  "failure_modes": [],
   "governance_model": "project_of_larger_org",
-  "curation_criteria": null,
   "contributor_governance": "closed",
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
   "political_bias_allegations": false,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:33.680Z",
   "pass3_at": "2026-03-09T23:22:48.105Z",

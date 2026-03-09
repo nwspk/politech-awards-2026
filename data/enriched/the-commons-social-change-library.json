@@ -1,5 +1,15 @@
 {
   "url": "https://commonslibrary.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:42:57.701Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 559,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Do you want to change the world for the better? Commons Library is an online library for social change - Making activism smarter &amp; stronger.",
+    "scraped_final_url": "https://commonslibrary.org/"
+  },
   "collected_at": "2026-03-09T23:18:10.394Z",
   "collected_by": "collect-enriched-script",
   "name": "The Commons Social Change Library",
@@ -33,9 +43,6 @@
     "international"
   ],
   "open_source": false,
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "database",
     "platform"
@@ -50,11 +57,9 @@
     "Omidyar Network"
   ],
   "funding_verified": true,
-  "last_funding_event": null,
   "dependency_risks": [
     "Reliance on small team for curation and maintenance"
   ],
-  "news_articles": [],
   "academic_citations": [
     {
       "title": "Global cancer statistics",
@@ -75,28 +80,11 @@
       "doi": "https://doi.org/10.3322/caac.21551"
     }
   ],
-  "awards": [],
   "in_civictech_guide": true,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
-  "replication_materials_available": null,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
-  "documented_limitations": [],
   "jurisdictional_scope": "International with focus on Australia and Iran",
-  "failure_modes": [],
   "governance_model": "project_of_larger_org",
   "curation_criteria": "Resources curated by Commons librarians on topics including campaign strategy, community organizing, justice, diversity, and creative activism",
-  "contributor_governance": null,
-  "disparity_tracking": null,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:20.763Z",
   "pass3_at": "2026-03-09T23:22:11.842Z",

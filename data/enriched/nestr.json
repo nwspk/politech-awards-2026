@@ -1,5 +1,15 @@
 {
   "url": "https://nestr.io",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:13.255Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 961,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Collaboration &amp; Productivity software. Create &amp; find organisations you actually care for!",
+    "scraped_final_url": "https://nestr.io/"
+  },
   "collected_at": "2026-03-09T23:20:06.136Z",
   "collected_by": "collect-enriched-script",
   "name": "Nestr",
@@ -29,9 +39,6 @@
     "Multi-national"
   ],
   "open_source": "no",
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "platform",
     "app"
@@ -41,14 +48,11 @@
   "funding_model": [
     "subscriptions"
   ],
-  "known_funders": null,
   "funding_verified": false,
-  "last_funding_event": null,
   "dependency_risks": [
     "Proprietary platform dependency",
     "Subscription-based revenue model sustainability"
   ],
-  "news_articles": [],
   "academic_citations": [
     {
       "title": "NeSTR: A Neuro-Symbolic Abductive Framework for Temporal Reasoning in Large Language Models",
@@ -69,28 +73,12 @@
       "doi": "https://doi.org/10.1186/s40462-020-00201-1"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": false,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
-  "documented_limitations": [],
   "jurisdictional_scope": "International",
-  "failure_modes": [],
   "governance_model": "Centralized (proprietary platform)",
-  "curation_criteria": null,
   "contributor_governance": "Closed (proprietary)",
-  "disparity_tracking": null,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": true,
   "pass2_at": "2026-03-09T23:21:34.087Z",
   "pass3_at": "2026-03-09T23:22:47.624Z",

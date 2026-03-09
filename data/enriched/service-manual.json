@@ -1,5 +1,15 @@
 {
   "url": "https://www.gov.uk/service-manual",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:01.255Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 648,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Helping government teams create and run great digital services that meet the Service Standard.",
+    "scraped_final_url": "https://www.gov.uk/service-manual"
+  },
   "collected_at": "2026-03-09T23:20:52.056Z",
   "collected_by": "collect-enriched-script",
   "name": "Service Manual",
@@ -28,8 +38,6 @@
   ],
   "open_source": false,
   "github_url": "https://github.com/alphagov/service-manual-publisher",
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "platform",
     "course"
@@ -72,7 +80,6 @@
   "causation_strength": "directly_cited",
   "outcome_methodology": "Compliance tracking and audit of UK government digital services against Service Standard criteria",
   "replication_materials_available": false,
-  "preregistered_studies": [],
   "published_performance_metrics": "Service Standard compliance rates across UK government departments",
   "documented_limitations": [
     "Limited to UK government context",
@@ -93,8 +100,6 @@
     "GDS influence perceived to have declined post-2016 following senior leadership departures"
   ],
   "political_bias_allegations": false,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     {
       "partner": "UK Government Digital Service (GDS)",

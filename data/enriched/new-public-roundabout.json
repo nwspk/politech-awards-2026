@@ -1,5 +1,15 @@
 {
   "url": "https://newpublic.substack.com/p/introducing-roundabout-built-for",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:14.037Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 2142,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "New_ Public’s app for local communities enters closed beta in five pilot communities",
+    "scraped_final_url": "https://newpublic.substack.com/p/introducing-roundabout-built-for"
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "New_ Public Roundabout",
@@ -32,9 +42,6 @@
     "local municipalities (pilot communities)"
   ],
   "open_source": false,
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "web app",
     "mobile app (in development)"
@@ -49,7 +56,6 @@
     "New_ Public (nonprofit product studio)"
   ],
   "funding_verified": false,
-  "last_funding_event": null,
   "dependency_risks": [
     "early-stage product (closed beta as of Nov 2025)",
     "limited to five pilot communities at launch",
@@ -71,15 +77,10 @@
       "doi": "https://doi.org/10.1145/143557.143593"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
   "wikipedia_page": false,
-  "policy_outcomes": [],
-  "causation_strength": null,
   "outcome_methodology": "National survey on local digital spaces conducted with Center for Media Engagement, University of Texas at Austin",
   "replication_materials_available": false,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": [
     "closed beta, not publicly available as of Nov 2025",
     "US-only focus at launch"
@@ -95,11 +96,8 @@
   "contributor_governance": "Steward-led; each community has its own steward(s); New_ Public sets platform values",
   "disparity_tracking": false,
   "community_ownership": "Intended to grow toward community control; currently nonprofit-incubated",
-  "controversies": [],
   "political_bias_allegations": false,
   "legal_regulatory_issues": false,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:34.880Z",
   "pass3_at": "2026-03-09T23:22:47.852Z",

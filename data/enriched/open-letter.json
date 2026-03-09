@@ -1,5 +1,15 @@
 {
   "url": "https://openletter.earth",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:32.288Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1246,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Open Letter is a platform for writing and signing open letters.",
+    "scraped_final_url": "https://openletter.earth/"
+  },
   "collected_at": "2026-03-09T23:20:26.196Z",
   "collected_by": "collect-enriched-script",
   "name": "Open Letter",
@@ -39,21 +49,13 @@
     "international"
   ],
   "open_source": false,
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "platform",
     "database"
   ],
   "founded_year": 2015,
-  "team_size": null,
   "funding_model": "nonprofit",
-  "known_funders": [],
   "funding_verified": true,
-  "last_funding_event": null,
-  "dependency_risks": [],
-  "news_articles": [],
   "academic_citations": [
     {
       "title": "The Gift of Therapy: An Open Letter to a New Generation of Therapists and Their Patients",
@@ -74,9 +76,7 @@
       "doi": "https://doi.org/10.1177/1532708607305123"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
   "policy_outcomes": [
     {
       "description": "Avenue Van Vollenhoven in Schaerbeek made car-free following open letter campaign; decision motivated by COVID-19 social distancing needs; resulted in increased pedestrian, cyclist, and child use of public space",
@@ -95,23 +95,12 @@
     }
   ],
   "causation_strength": "anecdotal",
-  "outcome_methodology": null,
   "replication_materials_available": false,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
-  "documented_limitations": [],
   "jurisdictional_scope": "international",
-  "failure_modes": [],
-  "governance_model": null,
-  "curation_criteria": null,
-  "contributor_governance": null,
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
   "political_bias_allegations": false,
   "legal_regulatory_issues": false,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:35.878Z",
   "propublica_match": {

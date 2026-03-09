@@ -1,9 +1,19 @@
 {
   "url": "https://openprocurement.io",
-  "name": "OpenProcurement",
-  "tagline": "Open source e-procurement toolkit powering transparent public procurement systems.",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:34.348Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 554,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "OpenProcurement is an open source toolkit, designed specifically for procurement of goods and services on behalf of public authorities or private entities.",
+    "scraped_final_url": "https://openprocurement.io/en"
+  },
   "collected_at": "2026-03-09T00:00:00Z",
   "collected_by": "agent-batch-33",
+  "name": "OpenProcurement",
+  "tagline": "Open source e-procurement toolkit powering transparent public procurement systems.",
   "project_type": "toolkit / platform",
   "org_type": "private company (Quintagroup Ltd.)",
   "issue_area": [
@@ -85,7 +95,6 @@
   "causation_strength": "moderate-strong - attributed savings based on procurement data comparison",
   "outcome_methodology": "government procurement data analysis",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": true,
   "documented_limitations": [
     "limited to jurisdictions with government adoption",
@@ -106,7 +115,6 @@
   ],
   "political_bias_allegations": "None documented; platform designed for cross-party transparency compliance",
   "legal_regulatory_issues": "Compliant with EU transparency directives and Ukrainian procurement law; no major legal challenges documented",
-  "elections_used_in": [],
   "government_partnerships": [
     "Ukrainian Ministry of Economic Development and Trade",
     "Moldova government (MTender)"

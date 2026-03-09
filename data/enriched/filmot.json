@@ -1,5 +1,15 @@
 {
   "url": "https://filmot.com",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:46.076Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 102,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": null,
+    "scraped_final_url": "https://filmot.com/"
+  },
   "collected_at": "2026-03-09T23:21:11.466Z",
   "collected_by": "collect-enriched-script",
   "name": "Filmot",
@@ -23,11 +33,7 @@
     "journalists",
     "general_public"
   ],
-  "political_units": [],
   "open_source": false,
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "web_application"
   ],
@@ -36,14 +42,11 @@
   "funding_model": [
     "patronage"
   ],
-  "known_funders": [],
   "funding_verified": false,
-  "last_funding_event": null,
   "dependency_risks": [
     "reliance_on_youtube_api",
     "youtube_policy_changes"
   ],
-  "news_articles": [],
   "academic_citations": [
     {
       "title": "On Love as Comedy",
@@ -64,15 +67,8 @@
       "doi": "https://doi.org/10.2478/jnmlp-2021-0007"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": false,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": [
     "dependent_on_youtube_api_availability",
     "limited_to_youtube_content",
@@ -84,15 +80,9 @@
     "service_discontinuation_risk"
   ],
   "governance_model": "individual_creator",
-  "curation_criteria": null,
-  "contributor_governance": null,
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
   "political_bias_allegations": false,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:25.528Z",
   "pass3_at": "2026-03-09T23:22:24.342Z",

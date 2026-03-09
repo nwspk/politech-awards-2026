@@ -1,5 +1,15 @@
 {
   "url": "https://cotsi.org/",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:07.421Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 60,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "Discover how the Cambridge Online Trust & Safety Index (COTSI) tracks SMS verifications of social media accounts, such as Facebook, Instagram, TikTok, WhatsApp, and Telegram; cloud infrastructure providers, such as Amazon Web Services, Google Firebase, and OpenAI; marketplaces; online banks; crypto exchanges; and more.",
+    "scraped_final_url": "https://cotsi.org/platforms"
+  },
   "collected_at": "2026-03-09T23:18:17.340Z",
   "collected_by": "collect-enriched-script",
   "name": "COTSI (Cyber Operational Threat Situational Intelligence)",
@@ -28,9 +38,6 @@
     "international"
   ],
   "open_source": false,
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "database",
     "platform"
@@ -42,36 +49,18 @@
     "Stanford Internet Observatory"
   ],
   "funding_verified": true,
-  "last_funding_event": null,
-  "dependency_risks": [],
   "news_articles": [
     "Stanford researchers map the online manipulation economy through COTSI database"
   ],
   "academic_citations": [
     "Mapping the online manipulation economy"
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": false,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
-  "documented_limitations": [],
   "jurisdictional_scope": "Global",
-  "failure_modes": [],
   "governance_model": "academic research institution",
-  "curation_criteria": null,
-  "contributor_governance": null,
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:20.942Z"
 }

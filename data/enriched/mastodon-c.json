@@ -1,5 +1,15 @@
 {
   "url": "https://www.mastodonc.com",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:08.544Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 221,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Think big. Plan wisely.",
+    "scraped_final_url": "https://www.mastodonc.com/"
+  },
   "collected_at": "2026-03-09T23:20:57.064Z",
   "collected_by": "collect-enriched-script",
   "name": "Mastodon C",
@@ -78,7 +88,6 @@
   "causation_strength": "moderate",
   "outcome_methodology": "case study analysis",
   "replication_materials_available": false,
-  "preregistered_studies": [],
   "published_performance_metrics": true,
   "documented_limitations": [
     "Limited transparency on proprietary analytics methods",
@@ -93,10 +102,8 @@
   "contributor_governance": "Internal team-based governance with external advisory board",
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
   "political_bias_allegations": false,
   "legal_regulatory_issues": false,
-  "elections_used_in": [],
   "government_partnerships": [
     {
       "partner": "UK Government",

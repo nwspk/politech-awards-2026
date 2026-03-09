@@ -1,5 +1,15 @@
 {
   "url": "https://arxiv.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:42:36.638Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 981,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "arXiv is a free distribution service and an open-access archive for nearly 2.4 million\n      scholarly articles in the fields of physics, mathematics, computer science, quantitative biology, quantitative finance, statistics, electrical engineering and systems science, and economics.\n      Materials on this site are not peer-reviewed by arXiv.",
+    "scraped_final_url": "https://arxiv.org/"
+  },
   "collected_at": "2026-03-09T23:18:11.786Z",
   "collected_by": "collect-enriched-script",
   "name": "arXiv",
@@ -71,11 +81,7 @@
   ],
   "in_civictech_guide": false,
   "wikipedia_page": "https://en.wikipedia.org/wiki/ArXiv",
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "arXiv publishes annual statistics on submissions, downloads, and user engagement",
   "documented_limitations": [
     "Materials on site are not peer-reviewed by arXiv",
@@ -89,15 +95,11 @@
   "governance_model": "project_of_larger_org",
   "curation_criteria": "Submissions must be original research or significant revisions; moderation based on arXiv policies and community standards; subject-specific advisory boards review policies",
   "contributor_governance": "Community-driven moderation with volunteer moderators; advisory boards for different subject areas; Cornell University oversight as host institution",
-  "disparity_tracking": null,
   "community_ownership": "Partial - hosted by Cornell University with community input through advisory boards; not community-owned but community-governed in moderation",
   "controversies": [
     "Debates over moderation transparency and appeal processes",
     "Discussions about representation of non-English language research"
   ],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     "Cornell University (host institution)"
   ],

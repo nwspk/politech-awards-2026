@@ -1,5 +1,15 @@
 {
   "url": "https://nymtech.net",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:19.367Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 11,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Stay private online with Nym’s decentralized VPN. Block trackers, hide your IP, and browse safely—now 75% off, try free VPN trial",
+    "scraped_final_url": "https://nym.com/"
+  },
   "collected_at": "2026-03-09T23:20:07.461Z",
   "collected_by": "collect-enriched-script",
   "name": "Nym",
@@ -66,12 +76,7 @@
     "Privacy Innovation Award 2021"
   ],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": true,
   "documented_limitations": true,
   "jurisdictional_scope": "international",
@@ -84,11 +89,7 @@
   "contributor_governance": "Community-driven with transparent contribution process",
   "disparity_tracking": false,
   "community_ownership": true,
-  "controversies": [],
-  "political_bias_allegations": null,
   "legal_regulatory_issues": "Potential regulatory scrutiny in jurisdictions restricting privacy tools",
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:35.870Z"
 }

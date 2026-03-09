@@ -1,5 +1,15 @@
 {
   "url": "https://expo.diia.gov.ua",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:35.971Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 2346,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "Diia — ecosystem created by the Ministry of Digital Transformation of Ukraine. It includes mobile app, portal and diverse projects of digital transformation.",
+    "scraped_final_url": "https://expo.diia.gov.ua/"
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "Diia",
@@ -75,7 +85,6 @@
   "causation_strength": "directly_cited",
   "outcome_methodology": "Administrative data tracking from Ministry of Digital Transformation; user adoption metrics; business registration completion times; document verification statistics",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "https://expo.diia.gov.ua - Platform reports 15+ million users, 100+ government services integrated, 99.9% uptime during peacetime operations",
   "documented_limitations": [
     "limited to Ukrainian residents",
@@ -97,7 +106,6 @@
   ],
   "political_bias_allegations": "No documented allegations; platform designed as neutral government infrastructure",
   "legal_regulatory_issues": "Wartime emergency powers expanded government data collection authorities; GDPR compliance questions raised regarding data residency and cross-border transfers",
-  "elections_used_in": [],
   "government_partnerships": [
     "Ministry of Digital Transformation of Ukraine"
   ],

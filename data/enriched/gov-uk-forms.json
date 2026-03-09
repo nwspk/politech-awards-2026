@@ -1,9 +1,19 @@
 {
   "url": "https://www.forms.service.gov.uk",
-  "name": "GOV.UK Forms",
-  "tagline": "Create accessible online forms for UK government without technical knowledge",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:58.531Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 373,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "We’d like to use analytics cookies so we can understand how you use this website and make improvements.",
+    "scraped_final_url": "https://www.forms.service.gov.uk/"
+  },
   "collected_at": "2026-03-09T23:20:51.738Z",
   "collected_by": "collect-enriched-script",
+  "name": "GOV.UK Forms",
+  "tagline": "Create accessible online forms for UK government without technical knowledge",
   "project_type": "Tool/Platform",
   "org_type": "Government/public sector",
   "issue_area": [
@@ -70,9 +80,7 @@
       "doi": "https://doi.org/10.1136/bmj.m1985"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
   "policy_outcomes": [
     "Standardized form creation across UK central government",
     "Improved accessibility compliance with WCAG 2.1 AA standards",
@@ -81,7 +89,6 @@
   "causation_strength": "moderate",
   "outcome_methodology": "Administrative data tracking from platform usage metrics",
   "replication_materials_available": false,
-  "preregistered_studies": [],
   "published_performance_metrics": "78 organisations using GOV.UK Forms; 404 forms (live and archived); 531,364 form submissions since September 2022",
   "documented_limitations": [
     "Limited to UK central government use cases",
@@ -98,10 +105,6 @@
   "contributor_governance": "Managed by Government Digital Service; contributions accepted via GitHub with GDS review process",
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     {
       "partner": "Government Digital Service",

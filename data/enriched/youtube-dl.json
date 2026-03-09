@@ -1,5 +1,15 @@
 {
   "url": "https://github.com/ytdl-org/youtube-dl",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:13.618Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 13281,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Command-line program to download videos from YouTube.com and other video sites - ytdl-org/youtube-dl",
+    "scraped_final_url": "https://github.com/ytdl-org/youtube-dl"
+  },
   "collected_at": "2026-03-09T23:19:59.053Z",
   "collected_by": "collect-enriched-script",
   "name": "youtube-dl",
@@ -44,7 +54,6 @@
     "Community donations"
   ],
   "funding_verified": false,
-  "last_funding_event": null,
   "dependency_risks": [
     "Platform API changes (YouTube, etc.)",
     "Legal challenges from copyright holders",
@@ -57,15 +66,9 @@
   "academic_citations": [
     "Cited in digital rights and copyright law research"
   ],
-  "awards": null,
   "in_civictech_guide": false,
   "wikipedia_page": "https://en.wikipedia.org/wiki/Youtube-dl",
-  "policy_outcomes": null,
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": true,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": [
     "Dependent on external platform APIs which change frequently",
     "Legal exposure in jurisdictions with strict copyright enforcement"
@@ -87,8 +90,6 @@
   ],
   "political_bias_allegations": false,
   "legal_regulatory_issues": "Subject to DMCA and international copyright law challenges; has faced multiple takedown notices",
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:31.127Z"
 }

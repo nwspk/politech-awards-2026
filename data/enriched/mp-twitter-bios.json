@@ -1,5 +1,15 @@
 {
   "url": "https://www.mptwitterbios.co.uk",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:09.930Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 14354,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "How many MPs disclose their party in their Twitter bio?",
+    "scraped_final_url": "https://www.mptwitterbios.co.uk/"
+  },
   "collected_at": "2026-03-09T23:20:56.276Z",
   "collected_by": "collect-enriched-script",
   "name": "MP Twitter Bios",
@@ -28,7 +38,6 @@
   ],
   "open_source": true,
   "github_url": "https://github.com/lse-data-analysis/mp-twitter-bios",
-  "github_stars": null,
   "last_commit_date": "2023-11-18",
   "format": [
     "database",
@@ -41,9 +50,6 @@
     "London School of Economics"
   ],
   "funding_verified": false,
-  "last_funding_event": null,
-  "dependency_risks": [],
-  "news_articles": [],
   "academic_citations": [
     {
       "title": "\"How Old Do You Think I Am?\" A Study of Language and Age in Twitter",
@@ -64,31 +70,16 @@
       "doi": "https://doi.org/10.1007/s10462-023-10466-8"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": true,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": [
     "Data snapshot as of 18/11/2023; Twitter/X API changes may affect ongoing updates",
     "Relies on manual or automated parsing of Twitter bios which may miss implicit party references"
   ],
   "jurisdictional_scope": "United Kingdom Parliament",
-  "failure_modes": [],
   "governance_model": "project_of_larger_org",
-  "curation_criteria": null,
-  "contributor_governance": null,
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:44.924Z",
   "pass3_at": "2026-03-09T23:23:24.361Z",

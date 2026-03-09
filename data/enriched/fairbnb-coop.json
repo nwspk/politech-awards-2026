@@ -104,5 +104,15 @@
     "City of Bologna (Italy) - local tourism partnership"
   ],
   "ai_involvement": "Minimal; basic recommendation algorithms for host-guest matching",
-  "pass2_at": "2026-03-09T23:21:28.426Z"
+  "pass2_at": "2026-03-09T23:21:28.426Z",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:38.032Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 159,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "A vacation rental platform which gives back 50% of its revenues to support local community projects of your choice.",
+    "scraped_final_url": "https://fairbnb.coop/"
+  }
 }

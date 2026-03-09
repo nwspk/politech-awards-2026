@@ -1,7 +1,7 @@
 {
   "url": "https://decidim.org",
-  "collected_at": "2026-03-09T22:00:00Z",
-  "collected_by": "nano-bot",
+  "collected_at": "2026-03-09T23:46:57.394Z",
+  "collected_by": "collect-enriched-script",
   "name": "Decidim",
   "tagline": "A free/libre, open and safe digital platform for citizen participation. Reprogramming democracy is now possible.",
   "project_type": "Tool/Platform",
@@ -154,5 +154,15 @@
       "year": 2023
     }
   ],
-  "ai_involvement": null
+  "ai_involvement": null,
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:12.268Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 676,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Decidim helps citizens, organizations and public institutions self-organize democratically at every scale.",
+    "scraped_final_url": "https://decidim.org/"
+  }
 }

@@ -1,5 +1,15 @@
 {
   "url": "https://www.csail.mit.edu/research/wikum-bridging-discussion-systems-and-wikis-collective-summarization",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:53.033Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 326,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Large-scale discussions between many participants abound on the internet today. But as these discussions grow to tens of thousands of posts, they become ever more difficult for a reader to digest.",
+    "scraped_final_url": "https://www.csail.mit.edu/research/wikum-bridging-discussion-systems-and-wikis-collective-summarization"
+  },
   "collected_at": "2026-03-09T23:20:49.684Z",
   "collected_by": "collect-enriched-script",
   "name": "Wikum",
@@ -46,32 +56,19 @@
   "funding_verified": true,
   "last_funding_event": "2017",
   "dependency_risks": "Limited ongoing maintenance; last commit in 2017 suggests project may not be actively developed",
-  "news_articles": [],
   "academic_citations": [
     "Zhang, Amy X. and Verou, Lea and Karger, David. Wikum: Bridging Discussion Forums and Wikis Using Recursive Summarization. CSCW 2017"
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "User studies conducted in CSCW 2017 publication",
   "documented_limitations": "Research paper documents limitations of recursive summarization approach",
   "jurisdictional_scope": "Global",
   "failure_modes": "Potential challenges in scaling collective summarization; dependency on community participation",
   "governance_model": "project_of_larger_org",
-  "curation_criteria": null,
   "contributor_governance": "Academic research project governance through MIT CSAIL",
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:44.406Z"
 }

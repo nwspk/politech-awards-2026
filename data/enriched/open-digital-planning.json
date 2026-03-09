@@ -1,5 +1,15 @@
 {
   "url": "https://opendigitalplanning.org/",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:29.104Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 440,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Planning services designed by councils for councils.",
+    "scraped_final_url": "https://opendigitalplanning.org/"
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "Open Digital Planning",
@@ -90,7 +100,6 @@
       "doi": "https://doi.org/10.1016/j.cities.2020.103064"
     }
   ],
-  "awards": [],
   "in_civictech_guide": true,
   "wikipedia_page": false,
   "policy_outcomes": [
@@ -108,7 +117,6 @@
   "causation_strength": "correlated",
   "outcome_methodology": "self-reported processing time reductions from participating councils",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "30% reduction in processing time per application (self-reported)",
   "documented_limitations": [
     "England-specific legislation and planning system; limited international transferability",
@@ -125,10 +133,6 @@
   "contributor_governance": "Councils co-own services and contribute to product direction; product decisions made collaboratively by participating LPAs",
   "disparity_tracking": "Equity considerations embedded in council co-design process; focus on ensuring digital access across diverse council sizes and digital maturity levels; monitoring adoption across urban and rural authorities",
   "community_ownership": "Moving toward council-owned not-for-profit; councils currently co-direct product strategy",
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     {
       "partner": "Ministry of Housing, Communities and Local Government (MHCLG)",

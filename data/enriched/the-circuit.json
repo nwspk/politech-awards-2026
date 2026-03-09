@@ -1,5 +1,15 @@
 {
   "url": "https://thecircuit.cc",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:22.888Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 657,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "The Circuit is a multi-yearlong collaborative journalism project focused on investigating and revealing the inner workings of the Cook County Circuit Court system.",
+    "scraped_final_url": "https://thecircuit.cc/"
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "The Circuit",
@@ -88,12 +98,9 @@
   ],
   "in_civictech_guide": false,
   "wikipedia_page": false,
-  "policy_outcomes": [],
   "causation_strength": "anecdotal",
   "outcome_methodology": "Observational analysis of judicial patterns and case outcomes; no experimental design",
   "replication_materials_available": false,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": [
     "data covers 2000-2018 only; post-2018 cases not included"
   ],
@@ -107,10 +114,6 @@
   "contributor_governance": "Collaborative governance across partner organizations with editorial oversight from journalism partners",
   "disparity_tracking": true,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     "Cook County Circuit Court (data access)"
   ],

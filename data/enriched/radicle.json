@@ -1,5 +1,15 @@
 {
   "url": "https://radicle.xyz",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:05.015Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 573,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "The Radicle forge is an open source, peer-to-peer code collaboration stack built on Git.",
+    "scraped_final_url": "https://radicle.xyz/"
+  },
   "collected_at": "2026-03-09T23:20:37.135Z",
   "collected_by": "collect-enriched-script",
   "name": "Radicle",
@@ -76,16 +86,7 @@
       "doi": "https://doi.org/10.1104/pp.122.4.1179"
     }
   ],
-  "awards": null,
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": null,
-  "causation_strength": null,
-  "outcome_methodology": null,
-  "replication_materials_available": null,
-  "preregistered_studies": null,
-  "published_performance_metrics": null,
-  "documented_limitations": null,
   "jurisdictional_scope": "international",
   "failure_modes": [
     "Low adoption among mainstream developers",
@@ -96,11 +97,6 @@
   "contributor_governance": "open source contribution model",
   "disparity_tracking": false,
   "community_ownership": true,
-  "controversies": null,
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": null,
-  "government_partnerships": null,
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:39.024Z",
   "pass3_at": "2026-03-09T23:23:02.390Z",

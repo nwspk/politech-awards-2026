@@ -1,5 +1,15 @@
 {
   "url": "https://civicrm.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:42:51.884Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 757,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "Our users have registered more than 24,441,697 event participants",
+    "scraped_final_url": "https://civicrm.org/"
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "CiviCRM",
@@ -61,7 +71,6 @@
     "Service provider ecosystem"
   ],
   "funding_verified": true,
-  "last_funding_event": null,
   "dependency_risks": [
     "depends on underlying CMS platforms (Drupal, WordPress, etc.)",
     "community-funded sustainability model"
@@ -93,7 +102,6 @@
   "causation_strength": "anecdotal",
   "outcome_methodology": "User-reported statistics and case studies from implementing organizations",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "116M+ donations processed, 189M+ contacts, 24M+ event participants (2025)",
   "documented_limitations": [
     "Dependency on underlying CMS platform stability",
@@ -112,10 +120,6 @@
   "contributor_governance": "Community contributors with Core Team coordination; public issue tracker",
   "disparity_tracking": false,
   "community_ownership": "Community-governed; California LLC legal entity",
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     "Partnerships with local government agencies and public sector organizations using CiviCRM for constituent management"
   ],

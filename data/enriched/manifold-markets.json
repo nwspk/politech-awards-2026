@@ -99,5 +99,15 @@
   ],
   "government_partnerships": [],
   "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:34.083Z"
+  "pass2_at": "2026-03-09T23:21:34.083Z",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:45.737Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 46,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Manifold is a social prediction game. Bet on news, politics, tech, &amp; AI with play money. Or create your own prediction market.",
+    "scraped_final_url": "https://manifold.markets/"
+  }
 }

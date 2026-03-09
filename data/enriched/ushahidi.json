@@ -1,5 +1,15 @@
 {
   "url": "https://www.ushahidi.com",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:41.742Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 490,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "Ushahidi is an open source software application which utilises user-generated reports to collate and map data.",
+    "scraped_final_url": "https://www.ushahidi.com/"
+  },
   "collected_at": "2026-03-09T23:21:01.719Z",
   "collected_by": "collect-enriched-script",
   "name": "Ushahidi",
@@ -102,7 +112,6 @@
   "causation_strength": "anecdotal",
   "outcome_methodology": "Case study documentation; user testimonials; deployment tracking; post-incident analysis of crowdsourced data accuracy",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": {
     "deployments": 200000,
     "posts_testimonials": 50000,
@@ -131,7 +140,6 @@
     "Concerns about data privacy in crisis situations",
     "Questions about accuracy of crowdsourced information during emergencies"
   ],
-  "political_bias_allegations": null,
   "legal_regulatory_issues": "Data protection compliance challenges across multiple jurisdictions; GDPR compliance for European deployments",
   "elections_used_in": [
     {

@@ -1,5 +1,15 @@
 {
   "url": "https://www.hotosm.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:05.138Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 2115,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "OpenStreetMap users in HOT&#x27;s priority regions",
+    "scraped_final_url": "https://www.hotosm.org/en/"
+  },
   "collected_at": "2026-03-09T23:20:53.824Z",
   "collected_by": "collect-enriched-script",
   "name": "Humanitarian OpenStreetMap Team (HOT)",
@@ -119,7 +129,6 @@
   "causation_strength": "moderate",
   "outcome_methodology": "case studies and impact assessments",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": true,
   "documented_limitations": [
     "Data quality varies by region and volunteer expertise",
@@ -142,9 +151,6 @@
     "Debates over mapping accuracy and validation in conflict zones",
     "Questions about whose priorities drive mapping projects"
   ],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     "UN Office for the Coordination of Humanitarian Affairs (OCHA)",
     "World Health Organization (WHO)",

@@ -1,5 +1,15 @@
 {
   "url": "https://liquidfeedback.com",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:40.518Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 529,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "The official home page of the LiquidFeedback project.",
+    "scraped_final_url": "https://liquidfeedback.com/en/"
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "LiquidFeedback",
@@ -110,7 +120,6 @@
   "causation_strength": "correlated",
   "outcome_methodology": "case studies and institutional adoption records",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "User engagement metrics and adoption rates documented in EU WeGovNow and CO3 project reports; case studies on Pirate Party Germany participation rates available in academic literature",
   "documented_limitations": [
     "complexity can create barriers for non-technical users",

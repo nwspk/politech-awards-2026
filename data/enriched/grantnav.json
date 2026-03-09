@@ -1,5 +1,15 @@
 {
   "url": "https://grantnav.threesixtygiving.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:19.374Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 346,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "You can use GrantNav to search, filter and download data about awarded grants supporting good causes and communities across the UK.",
+    "scraped_final_url": "https://grantnav.threesixtygiving.org/"
+  },
   "collected_at": "2026-03-09T23:19:41.741Z",
   "collected_by": "collect-enriched-script",
   "name": "GrantNav",
@@ -57,9 +67,7 @@
   "academic_citations": [
     "Open data research citing 360Giving standards"
   ],
-  "awards": [],
   "in_civictech_guide": true,
-  "wikipedia_page": null,
   "policy_outcomes": [
     "Increased transparency in UK grant funding",
     "Adoption of 360Giving Data Standard by major UK funders"
@@ -67,7 +75,6 @@
   "causation_strength": "moderate",
   "outcome_methodology": "observational",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": true,
   "documented_limitations": [
     "Data coverage limited to funders who voluntarily publish in 360Giving Data Standard",
@@ -83,10 +90,6 @@
   "contributor_governance": "360Giving organizational governance",
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     "UK Cabinet Office",
     "National Lottery Community Fund"

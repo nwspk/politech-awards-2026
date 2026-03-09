@@ -1,5 +1,15 @@
 {
   "url": "https://pageviews.wmcloud.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:41.891Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 372,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Your settings will be remembered on the same browser and computer.",
+    "scraped_final_url": "https://pageviews.wmcloud.org/"
+  },
   "collected_at": "2026-03-09T23:20:29.680Z",
   "collected_by": "collect-enriched-script",
   "name": "Pageviews Analysis",
@@ -46,7 +56,6 @@
     "Dependent on Wikimedia API availability",
     "Reliant on Toolforge infrastructure"
   ],
-  "news_articles": [],
   "academic_citations": [
     {
       "title": "What can Google Trends and Wikipedia-Pageview analysis tell us about the landscape of epilepsy surgery over time?",
@@ -67,15 +76,8 @@
       "doi": "https://doi.org/10.20525/ijrbs.v8i3.250"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": true,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": [
     "Ad blocker interference with metrics display",
     "Limited to 10 pages per comparison"
@@ -90,11 +92,6 @@
   "contributor_governance": "Meritocratic; contributions accepted via GitHub pull requests",
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:37.398Z",
   "pass3_at": "2026-03-09T23:22:54.387Z",

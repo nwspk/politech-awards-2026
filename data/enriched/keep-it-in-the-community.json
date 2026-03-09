@@ -1,5 +1,15 @@
 {
   "url": "https://plunkett.my.site.com/keepitinthecommunity/s",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:51.198Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 13,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": null,
+    "scraped_final_url": "https://plunkett.my.site.com/keepitinthecommunity/s/"
+  },
   "collected_at": "2026-03-09T23:20:29.816Z",
   "collected_by": "collect-enriched-script",
   "name": "Keep It In The Community",
@@ -26,22 +36,13 @@
     "Municipal"
   ],
   "open_source": false,
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "Web Platform"
   ],
-  "founded_year": null,
-  "team_size": null,
   "funding_model": [
     "Non-profit"
   ],
-  "known_funders": [],
   "funding_verified": false,
-  "last_funding_event": null,
-  "dependency_risks": [],
-  "news_articles": [],
   "academic_citations": [
     {
       "title": "Failure to keep Appointments at a Community Health Centre: Analysis of causes",
@@ -62,28 +63,15 @@
       "doi": "https://doi.org/10.3109/02813439008994940"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": false,
-  "preregistered_studies": [],
   "published_performance_metrics": false,
-  "documented_limitations": [],
   "jurisdictional_scope": "Local",
-  "failure_modes": [],
   "governance_model": "Community-based",
-  "curation_criteria": null,
-  "contributor_governance": null,
   "disparity_tracking": false,
   "community_ownership": true,
-  "controversies": [],
   "political_bias_allegations": false,
   "legal_regulatory_issues": false,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:37.150Z",
   "pass3_at": "2026-03-09T23:22:57.040Z",

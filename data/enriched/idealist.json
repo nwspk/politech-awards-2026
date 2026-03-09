@@ -1,5 +1,15 @@
 {
   "url": "https://idealist.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:32.078Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 684,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "Find volunteer opportunities, nonprofit jobs, social-impact opportunities and more on the Idealist platform.",
+    "scraped_final_url": "https://www.idealist.org/en"
+  },
   "collected_at": "2026-03-09T23:20:00.716Z",
   "collected_by": "collect-enriched-script",
   "name": "Idealist",
@@ -28,9 +38,6 @@
     "international"
   ],
   "open_source": "no",
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "platform",
     "api",
@@ -67,25 +74,11 @@
   ],
   "in_civictech_guide": true,
   "wikipedia_page": "https://en.wikipedia.org/wiki/Idealist.org",
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
-  "replication_materials_available": null,
-  "preregistered_studies": [],
   "published_performance_metrics": "Millions of users, thousands of organizations served",
-  "documented_limitations": [],
   "jurisdictional_scope": "Global",
-  "failure_modes": [],
   "governance_model": "LLC",
   "curation_criteria": "Organizations must be registered nonprofits or social enterprises; job postings must align with social impact mission",
   "contributor_governance": "Moderated platform with organizational verification requirements",
-  "disparity_tracking": null,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
-  "ai_involvement": null,
   "pass2_at": "2026-03-09T23:21:32.695Z"
 }

@@ -1,5 +1,15 @@
 {
   "url": "https://www.marksoutoftenancy.com",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:07.330Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 545,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "We&#039;re all about landlord reviews. Get the real inside story from renters like you. Read, write and share reviews on Marks Out Of Tenancy today.",
+    "scraped_final_url": "https://www.marksoutoftenancy.com/"
+  },
   "collected_at": "2026-03-09T23:20:58.124Z",
   "collected_by": "collect-enriched-script",
   "name": "Marks Out Of Tenancy",
@@ -32,9 +42,6 @@
     "local"
   ],
   "open_source": "no",
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "platform",
     "database"
@@ -49,12 +56,10 @@
     "UK public health charity (unnamed)"
   ],
   "funding_verified": false,
-  "last_funding_event": null,
   "dependency_risks": [
     "Reliance on user-generated review content for data quality",
     "Dependence on single unnamed public health charity funder"
   ],
-  "news_articles": [],
   "academic_citations": [
     {
       "title": "People as Infrastructure: Intersecting Fragments in Johannesburg",
@@ -75,14 +80,8 @@
       "doi": "https://doi.org/10.1257/jep.9.1.99"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": false,
-  "preregistered_studies": [],
   "published_performance_metrics": false,
   "documented_limitations": [
     "No information on review verification mechanisms",
@@ -99,10 +98,7 @@
   "contributor_governance": "Social enterprise governance; contributor roles and decision-making processes not publicly detailed",
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
   "political_bias_allegations": false,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     {
       "partner": "Local authorities",

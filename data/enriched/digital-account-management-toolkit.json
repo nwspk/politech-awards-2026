@@ -1,5 +1,15 @@
 {
   "url": "https://digitalcharitylab.org/product/digital-account-management-toolkit",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:25.575Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 849,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "A free downloadable resource from Digital Charity Lab and ODV Digital, to help you ensure that your organisation doesn’t get locked out of its social media or other digital accounts.",
+    "scraped_final_url": "https://digitalcharitylab.org/product/digital-account-management-toolkit/"
+  },
   "collected_at": "2026-03-09T23:19:40.038Z",
   "collected_by": "collect-enriched-script",
   "name": "Digital Account Management Toolkit",
@@ -30,9 +40,6 @@
     "Ireland"
   ],
   "open_source": "no",
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "report",
     "database",
@@ -47,9 +54,7 @@
     "Digital Charity Lab"
   ],
   "funding_verified": false,
-  "last_funding_event": null,
   "dependency_risks": "Dependent on Digital Charity Lab for ongoing maintenance and updates; limited team capacity for rapid response to security issues",
-  "news_articles": [],
   "academic_citations": [
     {
       "title": "Factors associated with COVID-19-related death using OpenSAFELY",
@@ -70,14 +75,8 @@
       "doi": "https://doi.org/10.1186/s41239-019-0171-0"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": false,
-  "preregistered_studies": [],
   "published_performance_metrics": false,
   "documented_limitations": "Limited to UK and Ireland; resource availability dependent on nonprofit sector demand; no formal evaluation of security outcomes",
   "jurisdictional_scope": [
@@ -86,15 +85,8 @@
   ],
   "failure_modes": "Account lockout prevention may fail if nonprofits do not follow toolkit recommendations; toolkit may become outdated as social media platforms change security protocols",
   "governance_model": "project_of_larger_org",
-  "curation_criteria": null,
-  "contributor_governance": null,
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:24.958Z",
   "pass3_at": "2026-03-09T23:22:18.976Z",

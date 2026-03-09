@@ -1,5 +1,15 @@
 {
   "url": "https://globalfactcheck.bot/",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:14.915Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 521,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "A pioneering AI platform that empowers fact-checkers and citizens\n          worldwide to verify information accuracy with just a few clicks.\n          Fighting misinformation across 50+ languages, powered by 38 trusted\n          organizations.",
+    "scraped_final_url": "https://globalfactcheck.bot/"
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "Global Fact-Check Bot (GFC)",
@@ -34,9 +44,6 @@
     "Multiple national jurisdictions across 43 countries"
   ],
   "open_source": false,
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "chatbot",
     "web platform",
@@ -88,14 +95,11 @@
       "doi": "https://doi.org/10.3389/fenvs.2022.978691"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
   "wikipedia_page": false,
-  "policy_outcomes": [],
   "causation_strength": "Not yet established - project in early implementation phase",
   "outcome_methodology": "Pilot testing across five Eastern European fact-checking organizations; formal evaluation framework under development",
   "replication_materials_available": false,
-  "preregistered_studies": [],
   "published_performance_metrics": "78% accuracy rate in pilot testing across five Eastern European fact-checking organizations",
   "documented_limitations": [
     "Currently only 10 languages in Phase 1 (50+ planned)",
@@ -113,11 +117,7 @@
   "contributor_governance": "Elected working groups; new organizational members expected to be admitted from 2026",
   "disparity_tracking": "Planned expansion to 50+ languages aims to address geographic and linguistic disparities in fact-checking coverage",
   "community_ownership": "Collectively owned by the 38 founding member organizations",
-  "controversies": [],
   "political_bias_allegations": "None documented; governance structure designed to mitigate bias through multi-organizational oversight",
-  "legal_regulatory_issues": [],
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": "Core: planner-evaluator LLM architecture that maps out action plans and verifies evidence before generating responses",
   "pass2_at": "2026-03-09T23:21:32.376Z",
   "pass3_at": "2026-03-09T23:22:36.935Z",

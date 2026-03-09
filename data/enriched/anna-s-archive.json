@@ -1,5 +1,15 @@
 {
   "url": "https://annas-archive.pm",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T13:07:40.897Z",
+    "homepage_http_status": null,
+    "dead_link": true,
+    "homepage_word_count": null,
+    "homepage_has_team_page": null,
+    "homepage_has_impact_metrics": null,
+    "scraped_description": null,
+    "scraped_final_url": null
+  },
   "collected_at": "2026-03-09T23:18:14.447Z",
   "collected_by": "collect-enriched-script",
   "name": "Anna's Archive",
@@ -42,9 +52,7 @@
   "funding_model": [
     "donations"
   ],
-  "known_funders": [],
   "funding_verified": false,
-  "last_funding_event": null,
   "dependency_risks": [
     "Legal exposure in jurisdictions with strict copyright enforcement",
     "Domain hosting and infrastructure vulnerability",
@@ -78,15 +86,7 @@
       "doi": "https://doi.org/10.1111/gcb.70237"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
-  "replication_materials_available": null,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": [
     "Operates in legal gray zone regarding copyright",
     "Subject to takedown and domain seizure",
@@ -102,17 +102,12 @@
   "governance_model": "individual",
   "curation_criteria": "Aggregates shadow library content including books, papers, and academic materials; focuses on preservation and access rather than original curation",
   "contributor_governance": "Open-source contribution model with GitHub-based development; limited formal governance structure",
-  "disparity_tracking": null,
   "community_ownership": false,
   "controversies": [
     "Copyright infringement allegations",
     "Debate over shadow library ethics and legality"
   ],
-  "political_bias_allegations": null,
   "legal_regulatory_issues": "Operates in legal ambiguity; subject to copyright enforcement actions in multiple jurisdictions",
-  "elections_used_in": [],
-  "government_partnerships": [],
-  "ai_involvement": null,
   "pass2_at": "2026-03-09T23:21:21.952Z",
   "pass3_at": "2026-03-09T23:22:01.740Z",
   "_sources": [

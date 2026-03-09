@@ -1,5 +1,15 @@
 {
   "url": "https://trends.whotargets.me",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:28.136Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 394,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "Trends from Who Targets Me makes navigating and understanding digital political advertising data easier. It includes dashboards, visualisations and analytical tools for tracking digital ad spending, targeting and messaging on Meta and Google services in over 60 countries.",
+    "scraped_final_url": "https://trends.whotargets.me/reports"
+  },
   "collected_at": "2026-03-09T23:20:44.183Z",
   "collected_by": "collect-enriched-script",
   "name": "Who Targets Me Trends",
@@ -35,9 +45,6 @@
     "international"
   ],
   "open_source": false,
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "platform",
     "database",
@@ -69,9 +76,7 @@
     "Research on political advertising transparency",
     "Studies on disinformation and election integrity"
   ],
-  "awards": [],
   "in_civictech_guide": true,
-  "wikipedia_page": null,
   "policy_outcomes": [
     "Contributed to transparency discussions around political advertising",
     "Supported election monitoring efforts in multiple countries"
@@ -79,7 +84,6 @@
   "causation_strength": "moderate",
   "outcome_methodology": "observational",
   "replication_materials_available": false,
-  "preregistered_studies": [],
   "published_performance_metrics": true,
   "documented_limitations": [
     "Access to some data and features requires login or paid subscription",
@@ -95,9 +99,6 @@
   "contributor_governance": "staff-driven with external advisory board",
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
   "elections_used_in": [
     {
       "election": "UK May 2026 (Scottish, Welsh and Local)",
@@ -112,7 +113,6 @@
       "role": "Ad spending tracking and analysis"
     }
   ],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:43.877Z"
 }

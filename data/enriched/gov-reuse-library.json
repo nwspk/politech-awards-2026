@@ -1,5 +1,15 @@
 {
   "url": "https://dev.reuselibrary.service.justice.gov.uk/",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:12.962Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 157,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "We use some essential cookies to make this service work.",
+    "scraped_final_url": "https://dev.reuselibrary.service.justice.gov.uk/"
+  },
   "collected_at": "2026-03-09T23:19:40.140Z",
   "collected_by": "collect-enriched-script",
   "name": "GOV Reuse Library",
@@ -27,9 +37,6 @@
     "federal"
   ],
   "open_source": "partial",
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "platform",
     "database"
@@ -43,11 +50,9 @@
     "Ministry of Justice"
   ],
   "funding_verified": true,
-  "last_funding_event": null,
   "dependency_risks": [
     "Reliance on UK government infrastructure and maintenance"
   ],
-  "news_articles": [],
   "academic_citations": [
     {
       "title": "Municipal wastewater reuse in the U.S.",
@@ -68,29 +73,16 @@
       "doi": "https://doi.org/10.1016/j.jclepro.2016.12.038"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
-  "replication_materials_available": null,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": [
     "Service explicitly marked as 'new' with request for user feedback"
   ],
   "jurisdictional_scope": "United Kingdom",
-  "failure_modes": [],
   "governance_model": "project_of_larger_org",
   "curation_criteria": "Content curated by Ministry of Justice; all content available under Open Government Licence v3.0",
   "contributor_governance": "Centralized curation by Ministry of Justice",
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     {
       "partner": "Ministry of Justice",

@@ -1,5 +1,15 @@
 {
   "url": "https://guardianproject.info",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:20.599Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 580,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": null,
+    "scraped_final_url": "https://guardianproject.info/"
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "Guardian Project",
@@ -110,7 +120,6 @@
   "causation_strength": "medium",
   "outcome_methodology": "observational / user adoption tracking",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "User adoption metrics available in annual reports; security audits published for key applications",
   "documented_limitations": [
     "Relies on user adoption in adversarial environments",
@@ -129,9 +138,7 @@
   "controversies": [
     "Receives funding via OTF which is US government-linked — disclosed on their website; project asserts no influence on development"
   ],
-  "political_bias_allegations": null,
   "legal_regulatory_issues": "Potential export control concerns regarding encryption tools in certain jurisdictions; no documented legal challenges to project operations",
-  "elections_used_in": [],
   "government_partnerships": [
     "Collaboration with international press freedom organizations",
     "Technical partnerships with human rights NGOs"

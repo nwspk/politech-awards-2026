@@ -1,5 +1,15 @@
 {
   "url": "https://esper.com/product",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:34.433Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 526,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Esper provides a purpose-built policy management platform for local, state and federal government agencies.",
+    "scraped_final_url": "https://esper.com/products/"
+  },
   "collected_at": "2026-03-09T23:19:22.353Z",
   "collected_by": "collect-enriched-script",
   "name": "Esper",
@@ -30,9 +40,6 @@
     "federal"
   ],
   "open_source": "no",
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "platform",
     "api"
@@ -42,14 +49,11 @@
   "funding_model": [
     "subscriptions"
   ],
-  "known_funders": [],
   "funding_verified": false,
-  "last_funding_event": null,
   "dependency_risks": [
     "Proprietary platform dependency",
     "Vendor lock-in risk for government agencies"
   ],
-  "news_articles": [],
   "academic_citations": [
     {
       "title": "ESGO/ESTRO/ESP guidelines for the management of patients with endometrial carcinoma",
@@ -70,27 +74,13 @@
       "doi": "https://doi.org/10.1038/nature09074"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": false,
-  "preregistered_studies": [],
   "published_performance_metrics": false,
-  "documented_limitations": [],
   "jurisdictional_scope": "United States and Canada",
-  "failure_modes": [],
   "governance_model": "LLC",
-  "curation_criteria": null,
-  "contributor_governance": null,
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     {
       "partner": "Multiple U.S. state and local government agencies",

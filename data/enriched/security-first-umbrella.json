@@ -1,5 +1,15 @@
 {
   "url": "https://secfirst.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T13:07:59.850Z",
+    "homepage_http_status": null,
+    "dead_link": true,
+    "homepage_word_count": null,
+    "homepage_has_team_page": null,
+    "homepage_has_impact_metrics": null,
+    "scraped_description": null,
+    "scraped_final_url": null
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "Security First / Umbrella",
@@ -30,7 +40,6 @@
     "diplomats",
     "human rights defenders"
   ],
-  "political_units": [],
   "open_source": true,
   "github_url": "https://github.com/securityfirst/Umbrella_android",
   "github_stars": 288,
@@ -72,12 +81,7 @@
   ],
   "in_civictech_guide": false,
   "wikipedia_page": false,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": true,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": [
     "guides cover 40+ topics but threat landscape evolves rapidly",
     "app adoption metrics not publicly disclosed"
@@ -94,11 +98,6 @@
   "contributor_governance": "open GitHub; content-as-code standard; responsible disclosure policy published",
   "disparity_tracking": "Not explicitly tracked; serves marginalized communities (journalists, activists in high-risk regions)",
   "community_ownership": "Community contributions welcomed through open source model; content-as-code approach enables community input",
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": "No AI/machine learning components; rule-based security guidance framework",
   "pass2_at": "2026-03-09T23:21:41.437Z"
 }

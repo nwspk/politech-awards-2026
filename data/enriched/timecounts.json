@@ -1,5 +1,15 @@
 {
   "url": "https://timecounts.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:26.148Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 758,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "Discover Timecounts, the free all-in-one volunteer management software built for leaders of volunteers. Simplify scheduling, track hours, and mobilize your community. Start for free today!",
+    "scraped_final_url": "https://join.timecounts.app/"
+  },
   "collected_at": "2026-03-09T23:20:43.630Z",
   "collected_by": "collect-enriched-script",
   "name": "Timecounts",
@@ -34,9 +44,6 @@
     "international"
   ],
   "open_source": "no",
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "platform",
     "app"
@@ -46,14 +53,11 @@
   "funding_model": [
     "subscriptions"
   ],
-  "known_funders": [],
   "funding_verified": false,
-  "last_funding_event": null,
   "dependency_risks": [
     "Proprietary platform dependency",
     "Subscription-based model creates ongoing cost burden for nonprofits"
   ],
-  "news_articles": [],
   "academic_citations": [
     {
       "title": "Design of Traffic Timecount Backwards Display Unit of Fieldbus",
@@ -74,31 +78,20 @@
       "doi": "https://doi.org/10.1007/s11214-014-0109-8"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
   "wikipedia_page": false,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": false,
-  "preregistered_studies": [],
   "published_performance_metrics": false,
   "documented_limitations": [
     "No published impact studies or independent verification of claimed benefits",
     "Testimonial from single organization (Oceanside Public Library) provided but no systematic evaluation"
   ],
   "jurisdictional_scope": "Global (39+ countries)",
-  "failure_modes": [],
   "governance_model": "LLC",
-  "curation_criteria": null,
-  "contributor_governance": null,
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
   "political_bias_allegations": false,
   "legal_regulatory_issues": false,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:41.768Z",
   "pass3_at": "2026-03-09T23:23:14.659Z",

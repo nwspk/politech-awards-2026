@@ -1,5 +1,15 @@
 {
   "url": "https://orcid.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:36.247Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 9,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": null,
+    "scraped_final_url": "https://orcid.org/"
+  },
   "collected_at": "2026-03-09T23:20:25.484Z",
   "collected_by": "collect-enriched-script",
   "name": "ORCID",
@@ -80,7 +90,6 @@
   "causation_strength": "moderate",
   "outcome_methodology": "observational",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "https://orcid.org/about/what-is-orcid/mission",
   "documented_limitations": [
     "JavaScript required to access platform",
@@ -97,10 +106,7 @@
   "contributor_governance": "Open contribution model with community input; governance through member organizations and community working groups",
   "disparity_tracking": "Monitoring adoption disparities across geographic regions and research disciplines; efforts to increase adoption in underrepresented regions",
   "community_ownership": "Member-based governance with input from research institutions, funders, and publishers",
-  "controversies": [],
   "political_bias_allegations": false,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     "National Science Foundation (USA)",
     "National Institutes of Health (USA)",

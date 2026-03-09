@@ -1,5 +1,15 @@
 {
   "url": "https://getodk.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:49.372Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1251,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "Powerful forms to collect the data you need wherever it is. Join the researchers, field teams, and other professionals using ODK to collect data that matters.",
+    "scraped_final_url": "https://getodk.org/"
+  },
   "collected_at": "2026-03-09T23:19:40.695Z",
   "collected_by": "collect-enriched-script",
   "name": "ODK (Open Data Kit)",
@@ -82,7 +92,6 @@
   "causation_strength": "moderate",
   "outcome_methodology": "observational studies and case studies from deployment contexts",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": true,
   "documented_limitations": [
     "Requires technical capacity for implementation",
@@ -99,9 +108,6 @@
   "contributor_governance": "Community-based with core team oversight; GitHub-based contribution process; regular community forums",
   "disparity_tracking": true,
   "community_ownership": true,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
   "elections_used_in": [
     "Election monitoring in multiple African countries",
     "Civic participation initiatives globally"

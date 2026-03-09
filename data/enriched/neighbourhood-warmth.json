@@ -1,5 +1,15 @@
 {
   "url": "https://www.mysociety.org/climate/neighbourhood-warmth",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:13.129Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 807,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "mySociety provides technology, research and data to help people be active citizens, in more than 40 countries around the world.",
+    "scraped_final_url": "https://www.mysociety.org/climate/neighbourhood-warmth/"
+  },
   "collected_at": "2026-03-09T23:20:58.885Z",
   "collected_by": "collect-enriched-script",
   "name": "Neighbourhood Warmth",
@@ -30,9 +40,6 @@
     "federal"
   ],
   "open_source": false,
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "platform",
     "app"
@@ -48,12 +55,10 @@
     "mySociety (parent organization)"
   ],
   "funding_verified": true,
-  "last_funding_event": null,
   "dependency_risks": [
     "Reliance on local authority partnerships for initial deployment",
     "Sustainability dependent on securing ongoing funding model"
   ],
-  "news_articles": [],
   "academic_citations": [
     {
       "title": "Wood production response to climate change will depend critically on forest composition and structure",
@@ -74,14 +79,8 @@
       "doi": "https://doi.org/10.1080/1369183x.2020.1717937"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": false,
-  "preregistered_studies": [],
   "published_performance_metrics": false,
   "documented_limitations": [
     "Project appears to be in early/prototype stage with limited deployment data",
@@ -93,14 +92,8 @@
     "Difficulty sustaining platform without viable funding model"
   ],
   "governance_model": "project_of_larger_org",
-  "curation_criteria": null,
-  "contributor_governance": null,
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     {
       "partner": "Local authorities",

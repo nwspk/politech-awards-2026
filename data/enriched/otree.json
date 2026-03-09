@@ -1,5 +1,15 @@
 {
   "url": "https://www.otree.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:21.042Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 194,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "oTree: Behavioral research platform",
+    "scraped_final_url": "https://www.otree.org/"
+  },
   "collected_at": "2026-03-09T23:20:58.880Z",
   "collected_by": "collect-enriched-script",
   "name": "oTree",
@@ -36,7 +46,6 @@
     "psychologists",
     "students"
   ],
-  "political_units": [],
   "open_source": "yes",
   "github_url": "https://github.com/oTree-org/oTree",
   "github_stars": 1100,
@@ -72,11 +81,7 @@
   ],
   "in_civictech_guide": false,
   "wikipedia_page": false,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "2700+ citations demonstrating research impact",
   "documented_limitations": [
     "Requires technical knowledge for complex experiments",
@@ -90,12 +95,7 @@
   "governance_model": "Academic open-source with core maintainers",
   "curation_criteria": "Community contributions reviewed by core development team",
   "contributor_governance": "Open-source contribution model with GitHub-based collaboration",
-  "disparity_tracking": null,
   "community_ownership": "Academic community-driven",
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     {
       "partner": "World Bank",

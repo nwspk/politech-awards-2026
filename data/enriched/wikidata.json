@@ -1,9 +1,19 @@
 {
   "url": "https://www.wikidata.org",
-  "name": "Wikidata",
-  "tagline": "A free and open knowledge base that can be read and edited by both machines and humans",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:50.134Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1456,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Wikidata is a free and open knowledge base that can be read and edited by both humans and machines.",
+    "scraped_final_url": "https://www.wikidata.org/wiki/Wikidata:Main_Page"
+  },
   "collected_at": "2026-03-09T23:21:02.374Z",
   "collected_by": "collect-enriched-script",
+  "name": "Wikidata",
+  "tagline": "A free and open knowledge base that can be read and edited by both machines and humans",
   "project_type": "Database",
   "org_type": "Nonprofit/charity",
   "issue_area": [
@@ -77,10 +87,7 @@
     "Data shown in 64% of all Wikipedia pages; used by Apple Siri and Amazon Alexa",
     "Recognised as a digital public good in 2025"
   ],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "Data quality assessments published in academic literature; coverage statistics available on Wikidata website",
   "documented_limitations": [
     "Data quality varies by language and topic",
@@ -105,7 +112,6 @@
   ],
   "political_bias_allegations": "Documented concerns about Western-centric bias in data coverage; ongoing community discussions about neutrality in structured data representation",
   "legal_regulatory_issues": "Subject to copyright and data protection regulations across jurisdictions; GDPR compliance considerations for personal data",
-  "elections_used_in": [],
   "government_partnerships": [
     "Various government agencies use Wikidata for open data initiatives"
   ],

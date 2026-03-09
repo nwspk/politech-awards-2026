@@ -1,5 +1,15 @@
 {
   "url": "https://societyforhopefultechnologists.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:16.917Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 542,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "For everyone who wants technologies to work for people and planet.",
+    "scraped_final_url": "https://societyforhopefultechnologists.org/"
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "Society for Hopeful Technologists",
@@ -33,9 +43,6 @@
     "United Kingdom"
   ],
   "open_source": false,
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "online community",
     "newsletter",
@@ -48,9 +55,7 @@
     "volunteer-run",
     "membership (forthcoming)"
   ],
-  "known_funders": [],
   "funding_verified": false,
-  "last_funding_event": null,
   "dependency_risks": [
     "entirely volunteer-run",
     "membership model not yet launched",
@@ -84,14 +89,9 @@
       "doi": "https://doi.org/10.1016/0741-5214(91)90315-l"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
   "wikipedia_page": false,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": false,
-  "preregistered_studies": [],
   "published_performance_metrics": "2025 survey of 522 UK tech workers: 98% don't feel represented by leading industry voices; only 15% comfortable raising concerns",
   "documented_limitations": [
     "UK-centric so far",
@@ -109,12 +109,6 @@
   "contributor_governance": "open Signal group for organisers; newsletter-based community",
   "disparity_tracking": false,
   "community_ownership": "community-shaped; over 100 Hopeful Technologists contributed to the vision",
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
-  "ai_involvement": null,
   "pass2_at": "2026-03-09T23:21:41.483Z",
   "pass3_at": "2026-03-09T23:23:10.485Z",
   "_sources": [

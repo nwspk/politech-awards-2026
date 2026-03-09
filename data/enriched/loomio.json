@@ -1,5 +1,15 @@
 {
   "url": "https://www.loomio.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:06.616Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1341,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Loomio is a collaborative decision-making app that saves time in meetings and keeps a record of decisions",
+    "scraped_final_url": "https://www.loomio.com/"
+  },
   "collected_at": "2026-03-09T23:20:58.706Z",
   "collected_by": "collect-enriched-script",
   "name": "Loomio",
@@ -71,7 +81,6 @@
     "Mozilla Open Web Fellowship (2014)"
   ],
   "in_civictech_guide": true,
-  "wikipedia_page": null,
   "policy_outcomes": [
     {
       "description": "Used in Zohran Mamdani's historic NYC mayoral primary campaign to coordinate 13,000 members with zero paid staff",
@@ -82,7 +91,6 @@
   "causation_strength": "anecdotal",
   "outcome_methodology": "Case study documentation of campaign coordination",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "User engagement metrics available on platform; case studies published on Loomio blog",
   "documented_limitations": [
     "Limited evidence on long-term decision quality outcomes",
@@ -98,11 +106,7 @@
   "governance_model": "LLC",
   "curation_criteria": "Open source contribution guidelines on GitHub; community moderation policies documented in platform terms",
   "contributor_governance": "Open source community contributions accepted via GitHub; core team maintains decision authority",
-  "disparity_tracking": null,
   "community_ownership": "Cooperative governance model explored; currently LLC structure with social enterprise mission",
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
   "elections_used_in": [
     {
       "election": "NYC Democratic Socialists of America mayoral primary",
@@ -112,6 +116,5 @@
   "government_partnerships": [
     "New Zealand local government pilots"
   ],
-  "ai_involvement": null,
   "pass2_at": "2026-03-09T23:21:49.590Z"
 }

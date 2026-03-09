@@ -1,5 +1,15 @@
 {
   "url": "https://voteforpolicies.org.uk",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:34.718Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 314,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "Vote for Policies helps you to vote and know what you",
+    "scraped_final_url": "https://voteforpolicies.org.uk/"
+  },
   "collected_at": "2026-03-09T23:20:46.669Z",
   "collected_by": "collect-enriched-script",
   "name": "Vote for Policies",
@@ -26,9 +36,6 @@
     "federal"
   ],
   "open_source": false,
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "platform",
     "survey"
@@ -57,15 +64,9 @@
     "Citations in political science literature on voter decision-making",
     "Academic studies on online voter education platforms"
   ],
-  "awards": [],
   "in_civictech_guide": true,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
   "causation_strength": "anecdotal",
-  "outcome_methodology": null,
   "replication_materials_available": false,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": [
     "Project discontinued after 2024 election",
     "No longer developing Manifesto Tracker"
@@ -79,16 +80,12 @@
   "contributor_governance": "Editorial board oversight; limited public contribution model",
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
   "elections_used_in": [
     {
       "election": "UK General Elections (2009-2024)",
       "role": "voter education and policy comparison tool"
     }
   ],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:43.764Z"
 }

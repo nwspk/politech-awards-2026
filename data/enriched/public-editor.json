@@ -1,5 +1,15 @@
 {
   "url": "https://www.publiceditor.io",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T13:08:00.160Z",
+    "homepage_http_status": null,
+    "dead_link": true,
+    "homepage_word_count": null,
+    "homepage_has_team_page": null,
+    "homepage_has_impact_metrics": null,
+    "scraped_description": null,
+    "scraped_final_url": null
+  },
   "collected_at": "2026-03-09T23:21:00.569Z",
   "collected_by": "collect-enriched-script",
   "name": "Public Editor",
@@ -30,9 +40,6 @@
     "regional"
   ],
   "open_source": false,
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "platform"
   ],
@@ -45,7 +52,6 @@
   ],
   "funding_verified": true,
   "last_funding_event": "2023",
-  "dependency_risks": [],
   "news_articles": [
     "TechCrunch coverage of fact-checking platforms",
     "Poynter Institute articles on editorial transparency"
@@ -70,28 +76,12 @@
       "doi": "https://doi.org/10.2807/1560-7917.es.2020.25.5.200131e"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
-  "replication_materials_available": null,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
-  "documented_limitations": [],
   "jurisdictional_scope": "international",
-  "failure_modes": [],
   "governance_model": "centralized",
   "curation_criteria": "editorial standards for fact-checking verification",
-  "contributor_governance": null,
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:47.692Z",
   "pass3_at": "2026-03-09T23:23:28.978Z",

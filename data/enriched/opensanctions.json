@@ -1,5 +1,15 @@
 {
   "url": "https://www.opensanctions.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:19.016Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 710,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "OpenSanctions helps investigators find leads, allows companies to manage risk and enables technologists to build data-driven products.",
+    "scraped_final_url": "https://www.opensanctions.org/"
+  },
   "collected_at": "2026-03-09T23:20:58.894Z",
   "collected_by": "collect-enriched-script",
   "name": "OpenSanctions",
@@ -91,7 +101,6 @@
   "causation_strength": "moderate",
   "outcome_methodology": "Case studies and user adoption tracking",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": true,
   "documented_limitations": [
     "Data extraction from free text sources prone to LLM errors including dropped middle names and hallucinated details",
@@ -106,7 +115,6 @@
   "governance_model": "Open governance with community contributions and advisory board oversight",
   "curation_criteria": "Data meets quality standards for screening systems and investigative use; de-duplicated and cleaned through open source data pipeline",
   "contributor_governance": "Open contribution model with code review and data validation processes",
-  "disparity_tracking": null,
   "community_ownership": "Community-driven with open contribution model",
   "controversies": [
     "Individuals have requested removal from database; deletion policy published but contested",
@@ -114,7 +122,6 @@
   ],
   "political_bias_allegations": "None formal; database reflects official government sanctions designations which may themselves carry geopolitical bias",
   "legal_regulatory_issues": "GDPR-relevant data on individuals; privacy policy and deletion request process published; operates under German law",
-  "elections_used_in": [],
   "government_partnerships": [
     {
       "partner": "UN Security Council",

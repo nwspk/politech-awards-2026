@@ -1,5 +1,15 @@
 {
   "url": "https://github.com/stanfordcdt/pb",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:09.285Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 890,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Participatory Budgeting Platform. Contribute to StanfordCDT/pb development by creating an account on GitHub.",
+    "scraped_final_url": "https://github.com/stanfordcdt/pb"
+  },
   "collected_at": "2026-03-09T23:19:37.780Z",
   "collected_by": "collect-enriched-script",
   "name": "Stanford Participatory Budgeting Platform",
@@ -56,16 +66,13 @@
   "academic_citations": [
     "Participatory Budgeting in the United States: A Comparative Analysis (Stanford CDT research)"
   ],
-  "awards": [],
   "in_civictech_guide": true,
-  "wikipedia_page": null,
   "policy_outcomes": [
     "Enabled participatory budgeting processes in multiple US municipalities"
   ],
   "causation_strength": "moderate",
   "outcome_methodology": "case_study",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "Platform usage statistics and deployment data available in project documentation",
   "documented_limitations": [
     "Limited to US context",
@@ -80,9 +87,6 @@
   "contributor_governance": "Academic institution governance through Stanford Center on Democracy, Development, and the Rule of Law",
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
   "elections_used_in": [
     "Participatory budgeting elections in US cities"
   ],

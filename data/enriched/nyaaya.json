@@ -1,5 +1,15 @@
 {
   "url": "https://nyaaya.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:17.458Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1084,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Nyaaya’s repository of legal explainers with simple, actionable, reliable and accessible legal information is divided into nine broad themes, so you can easily locate explainers on issues that interest you. Each explainer will help you understand the law that governs that issue and the remedies available to you under that law.",
+    "scraped_final_url": "https://nyaaya.org/"
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "Nyaaya",
@@ -94,15 +104,11 @@
       "doi": null
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
   "wikipedia_page": false,
-  "policy_outcomes": [],
   "causation_strength": "not evaluated",
   "outcome_methodology": "not documented",
   "replication_materials_available": false,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": [
     "over 30 crore Indians cannot read; English-language bias despite Hindi and Kannada versions",
     "complex multi-layer legislative frameworks hard to simplify fully"
@@ -117,11 +123,6 @@
   "contributor_governance": "Samvidhaan Fellowship programme for contributors; collaborative editorial process",
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": "OpenNyAI — a related open-source initiative using AI for justice solutions in India",
   "pass2_at": "2026-03-09T23:21:35.155Z",
   "pass3_at": "2026-03-09T23:22:48.555Z",

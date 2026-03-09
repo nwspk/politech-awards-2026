@@ -1,5 +1,15 @@
 {
   "url": "https://mapit.mysociety.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:46.498Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 456,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "MapIt: a web service that maps postcodes and geographical points to administrative areas.",
+    "scraped_final_url": "https://mapit.mysociety.org/"
+  },
   "collected_at": "2026-03-09T23:20:08.232Z",
   "collected_by": "collect-enriched-script",
   "name": "MapIt",
@@ -64,7 +74,6 @@
     "Recognized as key civic infrastructure by UK Government Digital Service"
   ],
   "in_civictech_guide": true,
-  "wikipedia_page": null,
   "policy_outcomes": [
     {
       "description": "UK Government uses MapIt to match users with their local council for services like recycling or allotment applications",
@@ -75,7 +84,6 @@
   "causation_strength": "anecdotal",
   "outcome_methodology": "Service integration tracking - MapIt API calls from government services",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "API uptime and response time metrics available on mySociety documentation",
   "documented_limitations": [
     "Limited to UK administrative boundaries",
@@ -90,12 +98,7 @@
   "governance_model": "project_of_larger_org",
   "curation_criteria": "mySociety project governance - open source contributions welcome with code review process",
   "contributor_governance": "Community contributions via GitHub pull requests, reviewed by mySociety team",
-  "disparity_tracking": null,
   "community_ownership": "Community-driven development with open source contributions, but owned and maintained by mySociety",
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     {
       "partner": "UK Government",

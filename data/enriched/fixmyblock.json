@@ -1,5 +1,15 @@
 {
   "url": "https://fixmyblock.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:47.048Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 878,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "FixMyBlock aims to cut through the jargon and empower residents. Find out everything your landlords should be doing to keep tower blocks safe — and what to do if they aren&#8217;t.",
+    "scraped_final_url": "https://fixmyblock.org/"
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "FixMyBlock",
@@ -32,9 +42,6 @@
     "Scotland"
   ],
   "open_source": false,
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "guides",
     "template letters",
@@ -56,17 +63,11 @@
     "reliant on single grant funder",
     "no open-source codebase to fork"
   ],
-  "news_articles": [],
-  "academic_citations": [],
-  "awards": [],
   "in_civictech_guide": false,
   "wikipedia_page": false,
-  "policy_outcomes": [],
   "causation_strength": "Unknown",
   "outcome_methodology": "Not formally evaluated",
   "replication_materials_available": false,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": [
     "coverage limited to England, Wales and Scotland (not Northern Ireland)",
     "focused on tower block / social housing tenants only"
@@ -81,11 +82,6 @@
   "contributor_governance": "Managed by Tower Blocks UK and mySociety partnership",
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:26.103Z"
 }

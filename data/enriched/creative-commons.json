@@ -1,5 +1,15 @@
 {
   "url": "https://creativecommons.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:07.805Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 728,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "Help us keep the internet free and open.",
+    "scraped_final_url": "https://creativecommons.org/"
+  },
   "collected_at": "2026-03-09T21:00:00Z",
   "collected_by": "nano-bot",
   "name": "Creative Commons",
@@ -52,7 +62,6 @@
     "scientists",
     "students"
   ],
-  "political_units": [],
   "open_source": "partial",
   "github_url": "https://github.com/creativecommons",
   "github_stars": 148,
@@ -120,7 +129,6 @@
     "Lessig (2004). Free Culture. Penguin Press.",
     "Creative Commons (2009). 'Defining Noncommercial.' Research report."
   ],
-  "awards": [],
   "in_civictech_guide": false,
   "wikipedia_page": true,
   "policy_outcomes": [
@@ -148,7 +156,6 @@
   "causation_strength": "correlated",
   "outcome_methodology": "Annual reports and State of the Commons reports quantify adoption metrics (licensed works, geographic reach, institutional adoption) but do not use controlled methodology; policy outcomes documented but causal attribution relies on advocacy accounts.",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "State of the Commons: ~900M licensed works (2014), ~2B licensed works (2019); 2024 Annual Report: 1,890 CC Certificate graduates across 68 countries",
   "documented_limitations": [
     "CC licenses are non-revocable but CC cannot enforce compliance without individual copyright holders acting",
@@ -176,7 +183,6 @@
   ],
   "political_bias_allegations": "Allegations that CC disproportionately serves interests of large technology companies (Google, Silicon Valley) at expense of individual creators",
   "legal_regulatory_issues": "CC licenses tested in courts in multiple jurisdictions; generally upheld. Ongoing policy engagement on AI training data and copyright.",
-  "elections_used_in": [],
   "government_partnerships": [
     "Engagement with national governments on open education policy mandates (14 countries as of 2014)",
     "Qatar National Library partnership",

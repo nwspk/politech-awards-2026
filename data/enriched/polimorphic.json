@@ -1,5 +1,15 @@
 {
   "url": "https://www.polimorphic.com",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:33.184Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1660,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "We&#x27;re on a mission to create technology that lets governments of all sizes deliver “for the people.&quot; Our AI chat, voice, CRM, and Workflow solutions allow local governments to meet resident service demands, while streamlining internal operations.",
+    "scraped_final_url": "https://www.polimorphic.com/"
+  },
   "collected_at": "2026-03-09T23:20:58.896Z",
   "collected_by": "collect-enriched-script",
   "name": "Polimorphic",
@@ -30,23 +40,17 @@
     "federal"
   ],
   "open_source": "no",
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "platform",
     "api",
     "app"
   ],
-  "founded_year": null,
   "team_size": "medium",
   "funding_model": [
     "vc",
     "subscriptions"
   ],
-  "known_funders": [],
   "funding_verified": false,
-  "last_funding_event": null,
   "dependency_risks": [
     "Proprietary platform dependency",
     "Vendor lock-in risk for government clients"
@@ -90,7 +94,6 @@
     }
   ],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
   "policy_outcomes": [
     {
       "description": "Littleton, CO reduced resident calls by 50% through implementation",
@@ -111,7 +114,6 @@
   "causation_strength": "anecdotal",
   "outcome_methodology": "Case study reports from government partners; methodology not independently verified",
   "replication_materials_available": false,
-  "preregistered_studies": [],
   "published_performance_metrics": "Claims of up to 90% voicemail reduction and 50% call reduction in case studies, but methodology not detailed",
   "documented_limitations": [
     "Proprietary platform limits independent verification of claims",
@@ -126,12 +128,7 @@
   "governance_model": "LLC",
   "curation_criteria": "Proprietary; not publicly documented",
   "contributor_governance": "Not applicable - proprietary commercial platform",
-  "disparity_tracking": null,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     {
       "partner": "Littleton, CO",

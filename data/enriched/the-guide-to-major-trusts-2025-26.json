@@ -1,5 +1,15 @@
 {
   "url": "https://www.dsc.org.uk/publication/the-guide-to-major-trusts-2025-26/",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:57.025Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 995,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "The Guide to Major Trusts 2025/26 is the UK&#039;s definitive detailed guide to grant funding. It supplies information on over 1,000 of the largest UK funders which award a combined annual total of over £7.19 billion.",
+    "scraped_final_url": "https://www.dsc.org.uk/publication/the-guide-to-major-trusts-2025-26/"
+  },
   "collected_at": "2026-03-09T23:20:51.529Z",
   "collected_by": "collect-enriched-script",
   "name": "The Guide to Major Trusts 2025/26",
@@ -28,9 +38,6 @@
     "federal"
   ],
   "open_source": "no",
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "database",
     "report"
@@ -45,9 +52,6 @@
     "Directory of Social Change"
   ],
   "funding_verified": true,
-  "last_funding_event": null,
-  "dependency_risks": [],
-  "news_articles": [],
   "academic_citations": [
     {
       "title": "Internet of Things: A Survey on Enabling Technologies, Protocols, and Applications",
@@ -68,28 +72,10 @@
       "doi": "https://doi.org/10.1016/s0140-6736(18)32203-7"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
-  "replication_materials_available": null,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
-  "documented_limitations": [],
   "jurisdictional_scope": "United Kingdom",
-  "failure_modes": [],
   "governance_model": "project_of_larger_org",
   "curation_criteria": "Grant-makers with potential to give over £300,000 annually",
-  "contributor_governance": null,
-  "disparity_tracking": null,
-  "community_ownership": null,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:43.574Z",
   "pass3_at": "2026-03-09T23:23:20.770Z",

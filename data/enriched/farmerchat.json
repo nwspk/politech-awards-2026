@@ -1,5 +1,15 @@
 {
   "url": "https://farmerchat.digitalgreen.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:45.042Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 697,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "Helping farmers thrive with real-time insights and support",
+    "scraped_final_url": "https://digitalgreen.org/farmer.chat/"
+  },
   "collected_at": "2026-03-09T23:19:16.582Z",
   "collected_by": "collect-enriched-script",
   "name": "FarmerChat",
@@ -24,12 +34,8 @@
   "communities_served": "Smallholder farmers, rural agricultural communities",
   "political_units": "District and state level in India; national level in African countries",
   "open_source": false,
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": "Mobile application, Web platform, Conversational AI",
   "founded_year": 2020,
-  "team_size": null,
   "funding_model": "Philanthropic grants, Impact investment",
   "known_funders": [
     "Digital Green",
@@ -37,7 +43,6 @@
     "CGIAR"
   ],
   "funding_verified": true,
-  "last_funding_event": null,
   "dependency_risks": "Dependent on mobile connectivity, language model accuracy, agricultural data quality",
   "news_articles": [
     "Digital Green launches FarmerChat AI platform for smallholder farmers"
@@ -50,28 +55,13 @@
       "doi": null
     }
   ],
-  "awards": null,
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": null,
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": false,
-  "preregistered_studies": null,
-  "published_performance_metrics": null,
-  "documented_limitations": null,
   "jurisdictional_scope": "International (South Asia, Sub-Saharan Africa)",
   "failure_modes": "Language barriers, low digital literacy, inconsistent internet connectivity, agricultural context specificity",
   "governance_model": "Centralized governance by Digital Green organization",
-  "curation_criteria": null,
-  "contributor_governance": null,
   "disparity_tracking": true,
   "community_ownership": false,
-  "controversies": null,
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": null,
-  "government_partnerships": null,
   "ai_involvement": true,
   "pass2_at": "2026-03-09T23:21:26.778Z",
   "pass3_at": "2026-03-09T23:22:23.711Z",

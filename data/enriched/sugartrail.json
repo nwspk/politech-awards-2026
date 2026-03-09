@@ -1,5 +1,15 @@
 {
   "url": "https://github.com/ribenamaplesyrup/sugartrail",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:07.906Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 994,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Visualise networks of companies, officers and addresses connected through UK Companies House - ribenamaplesyrup/sugartrail",
+    "scraped_final_url": "https://github.com/ribenamaplesyrup/sugartrail"
+  },
   "collected_at": "2026-03-09T23:19:22.616Z",
   "collected_by": "collect-enriched-script",
   "name": "Sugartrail",
@@ -46,7 +56,6 @@
     "Depends on Companies House data availability and API stability",
     "Reliant on UK regulatory framework"
   ],
-  "news_articles": [],
   "academic_citations": [
     {
       "title": "SugarTrail: Indoor navigation in retail environments without surveys and maps",
@@ -67,28 +76,21 @@
       "doi": "https://doi.org/10.1155/2017/1268515"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
   "wikipedia_page": false,
-  "policy_outcomes": [],
   "causation_strength": "Unknown - no documented policy outcomes",
   "outcome_methodology": "Not applicable",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "Not published",
   "documented_limitations": "Project documentation does not include formal limitations assessment",
   "jurisdictional_scope": "United Kingdom",
-  "failure_modes": [],
   "governance_model": "project_of_larger_org",
   "curation_criteria": "Open source contribution model - no formal curation criteria documented",
   "contributor_governance": "Solo developer project - no formal governance structure",
   "disparity_tracking": "Not tracked",
   "community_ownership": "Individual developer ownership",
-  "controversies": [],
   "political_bias_allegations": false,
   "legal_regulatory_issues": false,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:28.879Z",
   "pass3_at": "2026-03-09T23:22:34.421Z",

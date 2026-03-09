@@ -7,15 +7,15 @@ The existing `candidates-with-data.csv` covers ~80 of 320 projects with basic me
 `cache/assessments-merged.json` frequently flag "thin content" — reviewers couldn't find
 team, funding, impact, or usage data, leading to low-confidence scores.
 
-This document defines a richer data schema for the **183 shortlisted projects**, drawing
-on the taxonomy used by the [Civic Tech Field Guide](https://civictech.guide/) as a
-reference standard for how political technology projects are described in the field.
+This document defines a richer data schema for **all 321 candidates**, drawing on the
+taxonomy used by the [Civic Tech Field Guide](https://civictech.guide/) as a reference
+standard for how political technology projects are described in the field.
 
 ---
 
 ## Output
 
-- `data/enriched/<slug>.json` — one file per project URL (slugified from domain+path)
+- `data/enriched/<project-name>.json` — one file per project, named by the project's `name` field
 - `data/enriched/projects-enriched.json` — combined index
 
 ---
@@ -40,6 +40,23 @@ reference standard for how political technology projects are described in the fi
 | `countries_deployed` | string[] | |
 | `communities_served` | string[] | e.g. youth, refugees, journalists, campaigners, researchers, citizens, government staff |
 | `political_units` | string[] | `city` · `state` · `federal` · `international` — distinguishes local govtech from global advocacy |
+
+### Section 0 — Scraped Page Data *(derived directly from cache/sites.sqlite, no LLM)*
+
+| Field | Type | Notes |
+|---|---|---|
+| `scraped.homepage_last_scraped` | string | ISO date when the page was last fetched from `cache/sites.sqlite` |
+| `scraped.homepage_http_status` | number | HTTP status code at last scrape — 200, 404, 503, etc. |
+| `scraped.dead_link` | bool | True if status ≥ 400 or fetch error at last scrape |
+| `scraped.homepage_word_count` | number | Word count of visible text — proxy for content richness |
+| `scraped.homepage_has_team_page` | bool | Whether the homepage links to an /about, /team, /people, or /staff page |
+| `scraped.homepage_has_impact_metrics` | bool | Whether the homepage text contains quantified impact claims (e.g. "1.2M users", "deployed in 40 countries") |
+| `scraped.scraped_description` | string | Raw meta description tag or first paragraph — unfiltered, not LLM-summarized |
+| `scraped.scraped_final_url` | string | Final URL after redirects — detects domain changes |
+
+These fields are populated by **Pass 0** (`--pass 0`) and are fast, cheap, and fully reproducible from the cached data. They do not require an API call and can be regenerated at any time. Jury assessors can use `dead_link`, `homepage_word_count`, and `homepage_has_impact_metrics` as quick signals before reading the full dossier.
+
+---
 
 ### Section 3 — Technical Profile
 

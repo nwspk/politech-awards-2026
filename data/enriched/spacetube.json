@@ -1,5 +1,15 @@
 {
   "url": "https://spacetu.be",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:18.907Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 105,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Spacetube lets you open a channel to other groups from your chat platform, so you can\n            talk to your own group and outside groups in the same way.",
+    "scraped_final_url": "https://spacetu.be/"
+  },
   "collected_at": "2026-03-09T23:20:31.614Z",
   "collected_by": "collect-enriched-script",
   "name": "Spacetube",
@@ -28,22 +38,16 @@
   ],
   "open_source": "yes",
   "github_url": "https://github.com/spacetube/spacetube",
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "platform",
     "app"
   ],
-  "founded_year": null,
   "team_size": "small",
   "funding_model": "volunteer",
-  "known_funders": [],
   "funding_verified": false,
-  "last_funding_event": null,
   "dependency_risks": [
     "Dependency on Matrix protocol maintenance and adoption"
   ],
-  "news_articles": [],
   "academic_citations": [
     {
       "title": "Construction and thermal efficiency test of 145m and 165m SpaceTube® large-aperture parabolic trough collector prototypes",
@@ -64,28 +68,13 @@
       "doi": "https://doi.org/10.3354/ame01806"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
-  "replication_materials_available": null,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
-  "documented_limitations": [],
   "jurisdictional_scope": "international",
-  "failure_modes": [],
   "governance_model": "project_of_larger_org",
-  "curation_criteria": null,
   "contributor_governance": "open_contributions",
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
   "political_bias_allegations": false,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:40.381Z",
   "pass3_at": "2026-03-09T23:23:11.139Z",

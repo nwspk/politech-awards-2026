@@ -1,5 +1,15 @@
 {
   "url": "https://github.com/bluesky-social",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:51.679Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 856,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "bluesky-social has 41 repositories available. Follow their code on GitHub.",
+    "scraped_final_url": "https://github.com/bluesky-social"
+  },
   "collected_at": "2026-03-09T23:21:11.495Z",
   "collected_by": "collect-enriched-script",
   "name": "Bluesky Social",
@@ -65,14 +75,9 @@
     "Decentralized social media protocols research",
     "AT Protocol technical documentation"
   ],
-  "awards": [],
   "in_civictech_guide": false,
   "wikipedia_page": "https://en.wikipedia.org/wiki/Bluesky_(social_network)",
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "User growth metrics, server uptime statistics",
   "documented_limitations": [
     "Limited moderation infrastructure at scale",
@@ -87,16 +92,11 @@
   "governance_model": "open_source_community",
   "curation_criteria": "Open source contribution guidelines, AT Protocol standards",
   "contributor_governance": "Community-driven development with core team oversight",
-  "disparity_tracking": null,
   "community_ownership": "Partial - open source but venture-backed",
   "controversies": [
     "Moderation policy debates",
     "Concerns about venture capital influence on decentralization goals"
   ],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": "Content moderation systems, recommendation algorithms",
   "pass2_at": "2026-03-09T23:21:29.065Z"
 }

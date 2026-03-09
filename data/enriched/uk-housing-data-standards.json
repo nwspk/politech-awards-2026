@@ -1,5 +1,15 @@
 {
   "url": "https://hact.org.uk/tools-and-services/uk-housing-data-standards",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:22.001Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 3018,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "As a social housing organisation, you know the importance of collecting consistent, coherent, and complete data on your residents and housing stock.",
+    "scraped_final_url": "https://hact.org.uk/tools-and-services/uk-housing-data-standards/"
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "UK Housing Data Standards",
@@ -90,7 +100,6 @@
       "doi": "https://doi.org/10.1016/j.eneco.2015.01.022"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
   "wikipedia_page": false,
   "policy_outcomes": [
@@ -108,7 +117,6 @@
   "causation_strength": "correlated",
   "outcome_methodology": "Sector adoption tracking; download counts; qualitative case studies",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "Downloaded over 2,000 times by social housing organisations; 100+ housing associations and software companies involved in development",
   "documented_limitations": [
     "Adoption remains voluntary with no mandatory enforcement mechanism",
@@ -125,10 +133,8 @@
   "contributor_governance": "Sector consultation process for new versions; working groups with housing associations and software companies",
   "disparity_tracking": false,
   "community_ownership": "IP co-owned by HACT and OSCRE; standards freely available under Creative Commons licence",
-  "controversies": [],
   "political_bias_allegations": false,
   "legal_regulatory_issues": false,
-  "elections_used_in": [],
   "government_partnerships": [
     {
       "partner": "Regulator of Social Housing (implicit via Awaab's Law compliance framework)",

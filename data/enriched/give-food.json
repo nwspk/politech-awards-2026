@@ -1,5 +1,15 @@
 {
   "url": "https://www.givefood.org.uk",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:59.013Z",
+    "homepage_http_status": 403,
+    "dead_link": true,
+    "homepage_word_count": 9,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": null,
+    "scraped_final_url": "https://www.givefood.org.uk/"
+  },
   "collected_at": "2026-03-09T23:20:54.850Z",
   "collected_by": "collect-enriched-script",
   "name": "Give Food",
@@ -63,7 +73,6 @@
     "Tech for Good Award (2019)"
   ],
   "in_civictech_guide": true,
-  "wikipedia_page": null,
   "policy_outcomes": [
     {
       "description": "Platform enables citizens to write to MPs regarding food insecurity",
@@ -74,7 +83,6 @@
   "causation_strength": "anecdotal",
   "outcome_methodology": "Platform tracks user engagement metrics and MP correspondence generated through the platform",
   "replication_materials_available": false,
-  "preregistered_studies": [],
   "published_performance_metrics": {
     "food_banks_mapped": 3121,
     "donation_points": 7734,
@@ -97,10 +105,6 @@
   "contributor_governance": "Community-driven contributions with moderation by core team; open to volunteers for data collection and verification",
   "disparity_tracking": "Platform tracks food insecurity by geographic location and identifies areas with highest need",
   "community_ownership": "Community-driven data collection model with food banks and local organizations as primary data contributors",
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     "Partnerships with local councils for data sharing and advocacy"
   ],

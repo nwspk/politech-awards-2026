@@ -1,5 +1,15 @@
 {
   "url": "https://ciudadaniai.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:42:49.003Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 938,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Somos una organización latinoamericana que lucha por la transformación de las democracias.",
+    "scraped_final_url": "https://ciudadaniai.org/"
+  },
   "collected_at": "2026-03-09T23:18:15.538Z",
   "collected_by": "collect-enriched-script",
   "name": "Fundación Ciudadanía Inteligente",
@@ -84,7 +94,6 @@
     "Ashoka Fellow recognition (2015)"
   ],
   "in_civictech_guide": true,
-  "wikipedia_page": null,
   "policy_outcomes": [
     {
       "description": "Transparentes platform tracks legislative compliance in Chile",
@@ -105,7 +114,6 @@
   "causation_strength": "anecdotal",
   "outcome_methodology": "Mixed methods approach combining platform usage analytics, stakeholder interviews, and policy document analysis",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "Annual impact reports available on website documenting platform usage, legislative changes tracked, and civic engagement metrics",
   "documented_limitations": [
     "Limited quantitative evidence of direct policy causation",
@@ -123,9 +131,6 @@
   "contributor_governance": "Open contribution model with community guidelines; board includes civil society representatives and regional partners",
   "disparity_tracking": "Monitors digital access disparities and inclusion of marginalized communities in civic participation initiatives",
   "community_ownership": "Strong emphasis on local ownership through partnerships with regional civil society organizations and community co-design processes",
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
   "elections_used_in": [
     {
       "election": "Chile 2025 Elections",

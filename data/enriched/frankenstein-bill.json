@@ -1,5 +1,15 @@
 {
   "url": "https://gordonguthrie.github.io/frankensteinbill",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:15.548Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 681,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Frankenstein Bill - a dummy parliamentary bill collecting and explaining potential speedbumps for government software development and digitally-enabled service design.",
+    "scraped_final_url": "https://gordonguthrie.github.io/frankensteinbill/"
+  },
   "collected_at": "2026-03-09T23:21:13.086Z",
   "collected_by": "collect-enriched-script",
   "name": "Frankenstein Bill",
@@ -52,8 +62,6 @@
   ],
   "funding_verified": true,
   "last_funding_event": "2017-01-01",
-  "dependency_risks": [],
-  "news_articles": [],
   "academic_citations": [
     {
       "title": "<i>Frankenstein</i>and the “Spark of Being”: Electricity, Animation, and Adaptation",
@@ -74,32 +82,23 @@
       "doi": "https://doi.org/10.1145/79173.79176"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
   "policy_outcomes": [
     "Informed Scottish Government digital service policy discussions"
   ],
   "causation_strength": "Indirect",
   "outcome_methodology": "Qualitative assessment based on policy maker feedback",
   "replication_materials_available": true,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": [
     "Single-author project with limited ongoing maintenance",
     "Focused on Scottish context with limited international applicability"
   ],
   "jurisdictional_scope": "Multi-jurisdictional (fragments from multiple jurisdictions)",
-  "failure_modes": [],
   "governance_model": "Open contribution via GitHub pull requests or email",
   "curation_criteria": "Legislative extracts with explanations of implications for digital service delivery; examples should be distinct from existing entries",
   "contributor_governance": "Community contributions accepted via PR or email; contributors should follow specified format",
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     "Scottish Government (host organization)"
   ],

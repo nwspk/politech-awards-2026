@@ -1,5 +1,15 @@
 {
   "url": "https://talktothecity.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:21.199Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 23,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Talk to the City",
+    "scraped_final_url": "https://talktothecity.org/"
+  },
   "collected_at": "2026-03-09T23:20:37.370Z",
   "collected_by": "collect-enriched-script",
   "name": "Talk to the City",
@@ -65,7 +75,6 @@
     "Civic Tech Award 2024"
   ],
   "in_civictech_guide": true,
-  "wikipedia_page": null,
   "policy_outcomes": [
     "Used in participatory budgeting processes",
     "Adopted by municipal governments for public consultation"
@@ -73,7 +82,6 @@
   "causation_strength": "moderate",
   "outcome_methodology": "case study analysis",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": true,
   "documented_limitations": [
     "AI bias in summarization",
@@ -90,10 +98,6 @@
   "contributor_governance": "Open contribution model with review process",
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     "Municipal government partnerships for participatory budgeting"
   ],

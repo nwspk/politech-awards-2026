@@ -1,5 +1,15 @@
 {
   "url": "https://vframe.io",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:31.223Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 462,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Human rights researchers often rely on videos shared online to document war crimes, atrocities, and human rights violations. Manually reviewing these videos is expensive, does not scale, and can cause vicarious trauma. As an increasing number of videos are posted, a new approach is needed to understand these large datasets.",
+    "scraped_final_url": "https://vframe.io/"
+  },
   "collected_at": "2026-03-09T23:20:55.862Z",
   "collected_by": "collect-enriched-script",
   "name": "VFRAME",
@@ -93,7 +103,6 @@
     "Mozilla Foundation award for digital rights and open source technology"
   ],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
   "policy_outcomes": [
     "Evidence generated used in international humanitarian law documentation efforts",
     "Adoption by human rights organizations for war crimes investigation workflows"
@@ -101,7 +110,6 @@
   "causation_strength": "anecdotal",
   "outcome_methodology": "Case study documentation of tool adoption by human rights organizations and war crimes investigators; performance metrics validation through peer-reviewed publication",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "Up to 99% accuracy at over 400 FPS on single workstation for munition detection",
   "documented_limitations": [
     "Requires high-quality video source material",
@@ -124,7 +132,6 @@
   ],
   "political_bias_allegations": "Allegations of Western-centric focus on Syrian and Ukrainian conflicts; limited deployment in other conflict zones",
   "legal_regulatory_issues": "Questions regarding admissibility of AI-generated evidence in international courts; concerns about chain of custody for digitally processed evidence",
-  "elections_used_in": [],
   "government_partnerships": [
     {
       "partner": "Tech 4 Tracing",

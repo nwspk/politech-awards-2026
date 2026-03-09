@@ -1,5 +1,15 @@
 {
   "url": "https://github.com/travisbrown/birdwatch",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:10.684Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 2887,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Data related to X&#39;s Community Notes system. Contribute to travisbrown/birdwatch development by creating an account on GitHub.",
+    "scraped_final_url": "https://github.com/travisbrown/birdwatch"
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "Community Notes (Birdwatch) Analysis Tool",
@@ -83,14 +93,11 @@
       "doi": "https://doi.org/10.1017/s0030605303000371"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
   "wikipedia_page": false,
-  "policy_outcomes": [],
   "causation_strength": "unknown",
   "outcome_methodology": "not applicable",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "Approximately 96% of distinct participant IDs resolved to aliases; ~12% of noted tweets not available",
   "documented_limitations": [
     "~12% of tweets that received Community Notes unavailable during compilation",
@@ -111,7 +118,6 @@
   ],
   "political_bias_allegations": "Accused by conservative outlets of targeting right-wing accounts disproportionately in related projects",
   "legal_regulatory_issues": "potential privacy concerns regarding alias resolution and user identification",
-  "elections_used_in": [],
   "government_partnerships": [
     "Prototype Fund (German Federal Ministry of Education and Research)"
   ],

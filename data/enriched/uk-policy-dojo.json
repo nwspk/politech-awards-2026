@@ -1,5 +1,15 @@
 {
   "url": "https://github.com/mikekelly/policy-dojo",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:02.301Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 820,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "A policy dojo for AIs to discuss UK policy options - mikekelly/Policy-Dojo",
+    "scraped_final_url": "https://github.com/mikekelly/policy-dojo"
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "UK Policy Dojo",
@@ -42,16 +52,13 @@
   "funding_model": [
     "unfunded / personal project"
   ],
-  "known_funders": [],
   "funding_verified": false,
-  "last_funding_event": null,
   "dependency_risks": [
     "single maintainer",
     "no institutional backing",
     "dependent on AI model availability",
     "very early stage with minimal adoption"
   ],
-  "news_articles": [],
   "academic_citations": [
     {
       "title": "Host culling as an adaptive management tool for chronic wasting disease in white‐tailed deer: a modelling study",
@@ -72,15 +79,11 @@
       "doi": "https://doi.org/10.1111/conl.12339"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
   "wikipedia_page": false,
-  "policy_outcomes": [],
   "causation_strength": "unverified",
   "outcome_methodology": "Not applicable - project is experimental framework without documented policy impact",
   "replication_materials_available": true,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": [
     "experimental framework",
     "AI agents may introduce bias or dogma",
@@ -94,13 +97,7 @@
   "governance_model": "Individual-maintained open source repository; agent identity tracked via git commit SHAs",
   "curation_criteria": "Adversarial review framework where AI agents representing different policy schools-of-thought critique policy proposals; contributions tracked via git commits",
   "contributor_governance": "Fork-based; each contributor runs their own AI agent in a forked repo",
-  "disparity_tracking": null,
   "community_ownership": "Limited - single maintainer project with open contribution model via forks",
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": "Core mechanism: AI agents propose and adversarially review UK policy documents using defined school-of-thought identities tracked via git",
   "pass2_at": "2026-03-09T23:21:28.577Z",
   "pass3_at": "2026-03-09T23:22:30.303Z",

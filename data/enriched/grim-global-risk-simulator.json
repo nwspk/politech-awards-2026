@@ -1,5 +1,15 @@
 {
   "url": "https://github.com/sentinelteam/grim",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:08.605Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 910,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "AI Wargamer and Global Risk Simulator. Contribute to SentinelTeam/grim development by creating an account on GitHub.",
+    "scraped_final_url": "https://github.com/sentinelteam/grim"
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "GRIM (Global Risk Simulator)",
@@ -88,15 +98,11 @@
       "doi": "https://doi.org/10.5194/acp-13-8879-2013"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
   "wikipedia_page": false,
-  "policy_outcomes": [],
   "causation_strength": "Unverified",
   "outcome_methodology": "Not applicable — research/simulation tool without direct policy implementation",
   "replication_materials_available": true,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": [
     "Realism limited by quality of LLM game-master outputs",
     "Expert agents not yet built in",
@@ -113,11 +119,6 @@
   "contributor_governance": "Open pull requests and issues; maintainers offer onboarding for consistent contributors",
   "disparity_tracking": "Not tracked — research tool without demographic user data collection",
   "community_ownership": "Limited — maintained by Sentinel Team core team; community contributions welcome but governance remains centralized",
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": "Core functionality: uses Claude Sonnet 3.7 and OpenAI models as Forecaster agents and Game Master; fully AI-driven scenario simulation",
   "pass2_at": "2026-03-09T23:21:30.732Z",
   "pass3_at": "2026-03-09T23:22:34.853Z",

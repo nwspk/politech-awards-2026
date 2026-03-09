@@ -1,5 +1,15 @@
 {
   "url": "https://opensupplyhub.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:35.677Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 3,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Open Supply Hub (OS Hub) is an accessible, collaborative, supply chain mapping platform, used and populated by stakeholders across sectors and supply chains.",
+    "scraped_final_url": "https://opensupplyhub.org/"
+  },
   "collected_at": "2026-03-09T23:20:19.392Z",
   "collected_by": "collect-enriched-script",
   "name": "Open Supply Hub",
@@ -51,7 +61,6 @@
   ],
   "funding_verified": true,
   "last_funding_event": "2024",
-  "dependency_risks": [],
   "news_articles": [
     "https://www.theguardian.com/business/2021/dec/26/fashion-industry-transparency-open-supply-hub",
     "https://www.reuters.com/business/sustainable-business/open-supply-hub-launches-new-features-2023-03-15/"
@@ -63,7 +72,6 @@
     "Tech for Good Award 2020"
   ],
   "in_civictech_guide": true,
-  "wikipedia_page": null,
   "policy_outcomes": [
     "Increased corporate supply chain transparency reporting",
     "Adoption by major apparel brands for compliance tracking"
@@ -71,7 +79,6 @@
   "causation_strength": "moderate",
   "outcome_methodology": "observational",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": true,
   "documented_limitations": [
     "Data quality varies by region",
@@ -88,10 +95,6 @@
   "contributor_governance": "Open contribution model with community review process",
   "disparity_tracking": true,
   "community_ownership": "multi-stakeholder model",
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     "Bangladesh Ministry of Labour"
   ],

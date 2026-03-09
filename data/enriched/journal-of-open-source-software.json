@@ -1,5 +1,15 @@
 {
   "url": "https://joss.theoj.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:32.567Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 336,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Committed to publishing quality research software with zero article processing charges or\n        subscription fees.",
+    "scraped_final_url": "https://joss.theoj.org/"
+  },
   "collected_at": "2026-03-09T23:21:11.739Z",
   "collected_by": "collect-enriched-script",
   "name": "Journal of Open Source Software",
@@ -25,7 +35,6 @@
     "Researchers",
     "Open source community"
   ],
-  "political_units": [],
   "open_source": true,
   "github_url": "https://github.com/openjournals/joss",
   "github_stars": 1100,
@@ -62,29 +71,16 @@
     "Open Access Button Award"
   ],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "1000+ papers published, 5000+ peer reviewers",
   "documented_limitations": [
     "Limited to software-focused research",
     "Peer review capacity constraints"
   ],
   "jurisdictional_scope": "International",
-  "failure_modes": [],
   "governance_model": "Editorial board with community input",
   "curation_criteria": "Quality research software packages meeting submission scope requirements",
   "contributor_governance": "Open peer review system with volunteer reviewers",
-  "disparity_tracking": null,
   "community_ownership": "Community-driven with editorial oversight",
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
-  "ai_involvement": null,
   "pass2_at": "2026-03-09T23:21:32.604Z"
 }

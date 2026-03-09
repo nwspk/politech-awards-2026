@@ -1,5 +1,15 @@
 {
   "url": "https://github.com/notchia/dao-governance-surfaces",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:03.129Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1193,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Extract and label the &quot;governance surface&quot; of a set of DAO smart contracts - notchia/dao-governance-surfaces",
+    "scraped_final_url": "https://github.com/notchia/dao-governance-surfaces"
+  },
   "collected_at": "2026-03-09T23:19:22.064Z",
   "collected_by": "collect-enriched-script",
   "name": "DAO Governance Surfaces",
@@ -35,14 +45,11 @@
   "founded_year": 2023,
   "team_size": "solo",
   "funding_model": "unfunded",
-  "known_funders": [],
   "funding_verified": false,
-  "last_funding_event": null,
   "dependency_risks": [
     "Solidity parser dependency",
     "Reliance on external smart contract data sources"
   ],
-  "news_articles": [],
   "academic_citations": [
     {
       "title": "Aligning ‘Decentralized Autonomous Organization’ to Precedents in Cybernetics",
@@ -63,28 +70,15 @@
       "doi": "https://doi.org/10.1109/access.2021.3051602"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": true,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": "Limited to Solidity-based smart contracts; coverage depends on available contract data sources",
   "jurisdictional_scope": "international",
-  "failure_modes": [],
   "governance_model": "project_of_larger_org",
-  "curation_criteria": null,
   "contributor_governance": "solo developer project",
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
   "political_bias_allegations": false,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:27.593Z",
   "pass3_at": "2026-03-09T23:22:30.996Z",

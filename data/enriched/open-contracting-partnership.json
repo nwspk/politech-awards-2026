@@ -1,9 +1,19 @@
 {
   "url": "https://www.open-contracting.org",
-  "name": "Open Contracting Partnership",
-  "tagline": "Open, fair & efficient public contracting to improve US$2 trillion in annual public procurement spending",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:15.117Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1590,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "We connect governments, civil society and business to open up and monitor public procurement. Open contracting results in fairer deals and less corruption.",
+    "scraped_final_url": "https://www.open-contracting.org/"
+  },
   "collected_at": "2026-03-09T23:20:58.895Z",
   "collected_by": "collect-enriched-script",
+  "name": "Open Contracting Partnership",
+  "tagline": "Open, fair & efficient public contracting to improve US$2 trillion in annual public procurement spending",
   "project_type": "Organization",
   "org_type": "Nonprofit/charity",
   "issue_area": [
@@ -119,7 +129,6 @@
     }
   ],
   "in_civictech_guide": true,
-  "wikipedia_page": null,
   "policy_outcomes": [
     {
       "description": "UK Procurement Act implementation influenced by open contracting principles",
@@ -140,7 +149,6 @@
   "causation_strength": "correlated",
   "outcome_methodology": "Mixed methods including case studies, government adoption tracking, and procurement data analysis across implementing countries",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "$17 billion better spent, 19 million people served in 2025",
   "documented_limitations": "Outcome attribution challenges due to multiple concurrent reforms; data quality varies significantly by country; limited long-term impact studies; difficulty isolating OCP's specific contribution from broader transparency initiatives",
   "jurisdictional_scope": "Global with regional focus areas",
@@ -151,9 +159,7 @@
   "disparity_tracking": "Monitoring procurement transparency gaps between high-income and low-income countries; tracking women-owned business participation in procurement; analyzing geographic disparities in contract value distribution",
   "community_ownership": "Government ownership through formal adoption of OCDS; civil society co-implementation in monitoring and advocacy; private sector participation in data standards development",
   "controversies": "Concerns about data privacy in some jurisdictions; debates over appropriate level of contract disclosure; tensions between transparency and commercial confidentiality",
-  "political_bias_allegations": null,
   "legal_regulatory_issues": "Data protection compliance challenges under GDPR and similar regulations; varying legal frameworks for public procurement transparency across countries; intellectual property considerations for proprietary procurement data",
-  "elections_used_in": [],
   "government_partnerships": [
     {
       "partner": "Government of Brazil",

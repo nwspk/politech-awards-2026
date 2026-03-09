@@ -71,5 +71,15 @@
   "elections_used_in": [],
   "government_partnerships": [],
   "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:24.319Z"
+  "pass2_at": "2026-03-09T23:21:24.319Z",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:27.006Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 45,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "docs.plus is an open-source, real-time collaborative tool that enables communities to share and organize knowledge in a hierarchical manner. Collaborate on documents and share knowledge in a structured, logical way.",
+    "scraped_final_url": "https://docs.plus/"
+  }
 }

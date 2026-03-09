@@ -1,5 +1,15 @@
 {
   "url": "https://www.openorigins.com",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:16.789Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1488,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "OpenOrigins ensures pixel-perfect authentication at the source, restoring believability in visual media.",
+    "scraped_final_url": "https://www.openorigins.com/"
+  },
   "collected_at": "2026-03-09T23:20:59.538Z",
   "collected_by": "collect-enriched-script",
   "name": "OpenOrigins",
@@ -31,9 +41,6 @@
     "international"
   ],
   "open_source": false,
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "platform",
     "api"
@@ -72,28 +79,14 @@
       "doi": "https://doi.org/10.1145/3698061.3726918"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": false,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
-  "documented_limitations": [],
   "jurisdictional_scope": "international",
-  "failure_modes": [],
   "governance_model": "corporate board",
   "curation_criteria": "Proprietary verification algorithms; editorial standards for content assessment",
   "contributor_governance": "closed",
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": true,
   "pass2_at": "2026-03-09T23:21:48.164Z",
   "pass3_at": "2026-03-09T23:23:26.784Z",

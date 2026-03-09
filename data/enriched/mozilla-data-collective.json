@@ -1,5 +1,15 @@
 {
   "url": "https://datacollective.mozillafoundation.org/",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:10.305Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 998,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Mozilla Data Collective is rebuilding the AI data ecosystem with communities at the centre.",
+    "scraped_final_url": "https://datacollective.mozillafoundation.org/"
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "Mozilla Data Collective",
@@ -56,7 +66,6 @@
     "early stage — GitHub org created June 2025",
     "sustainability of community contribution model unclear"
   ],
-  "news_articles": [],
   "academic_citations": [
     {
       "title": "ImageJ2: ImageJ for the next generation of scientific image data",
@@ -77,14 +86,11 @@
       "doi": "https://doi.org/10.1257/0895330054048678"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
   "wikipedia_page": false,
-  "policy_outcomes": [],
   "causation_strength": "not_applicable",
   "outcome_methodology": "not_applicable",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "470+ datasets as of March 2026",
   "documented_limitations": [
     "Early stage project with limited track record",
@@ -102,11 +108,8 @@
   "contributor_governance": "Individual and organizational data owners control their datasets; platform sets baseline authentication and legal contract requirements",
   "disparity_tracking": false,
   "community_ownership": "Data owners retain ownership; Mozilla Foundation backs platform",
-  "controversies": [],
   "political_bias_allegations": false,
   "legal_regulatory_issues": false,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": "Central — platform purpose is high-quality AI training data; grew from Mozilla Common Voice",
   "pass2_at": "2026-03-09T23:21:22.010Z",
   "pass3_at": "2026-03-09T23:22:14.837Z",

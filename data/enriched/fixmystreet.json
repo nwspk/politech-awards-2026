@@ -1,5 +1,15 @@
 {
   "url": "https://www.fixmystreet.com",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:57.778Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 465,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Need to report a problem in your local area? Learn all about FixMyStreet, how it works and what happens to your report once you ve made it.",
+    "scraped_final_url": "https://www.fixmystreet.com/"
+  },
   "collected_at": "2026-03-09T23:20:51.908Z",
   "collected_by": "collect-enriched-script",
   "name": "FixMyStreet",
@@ -76,7 +86,6 @@
   "causation_strength": "moderate",
   "outcome_methodology": "observational_with_controls",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": {
     "reports_past_week": 32918,
     "fixed_past_month": 66972,
@@ -103,7 +112,6 @@
   ],
   "political_bias_allegations": false,
   "legal_regulatory_issues": "GDPR compliance measures implemented (2018)",
-  "elections_used_in": [],
   "government_partnerships": [
     {
       "partner": "UK local councils",

@@ -1,5 +1,15 @@
 {
   "url": "https://www.mpwatch.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:10.556Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 438,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Along with environmental and democratic allies, we aim to address the democratic deficit,  by building and realising the potential of grassroots community groups to expose and oppose MPs of bad faith who work against the interest of their constituents.",
+    "scraped_final_url": "https://www.mpwatch.org/"
+  },
   "collected_at": "2026-03-09T23:20:57.224Z",
   "collected_by": "collect-enriched-script",
   "name": "MP Watch",
@@ -29,9 +39,6 @@
     "federal"
   ],
   "open_source": false,
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "platform",
     "report"
@@ -46,8 +53,6 @@
     "Individual donors"
   ],
   "funding_verified": false,
-  "last_funding_event": null,
-  "dependency_risks": [],
   "news_articles": [
     "https://www.theguardian.com/environment/2021/jun/15/mp-watch-climate-campaign"
   ],
@@ -71,27 +76,17 @@
       "doi": "https://doi.org/10.3390/nu10081004"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
   "causation_strength": "anecdotal",
-  "outcome_methodology": null,
   "replication_materials_available": false,
-  "preregistered_studies": [],
   "published_performance_metrics": false,
-  "documented_limitations": [],
   "jurisdictional_scope": "United Kingdom",
-  "failure_modes": [],
   "governance_model": "Centralized advocacy organization",
   "curation_criteria": "Evidence-based climate and nature policies; non-partisan approach",
   "contributor_governance": "Limited external contributor governance",
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
   "political_bias_allegations": false,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     {
       "partner": "UK Parliament / MPs",
