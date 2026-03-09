@@ -52,6 +52,8 @@ The three original models deliberate on their own evaluation data (each model re
 
 The six jury verdicts are compared by confidence score. The **highest-confidence jury** is promoted and selects the final award winner.
 
+---
+
 ## Rationale
 
 v5 showed us that a single deliberating agent via Grok could produce a well-reasoned winner (one that made sense in an obvious political-tech-award sort of way), but left an open question:
@@ -69,11 +71,15 @@ Winner selection is based on the **confidence score** — the jury that is most 
 
 Grok 4.1 Fast again had the highest confidence (as in v5). It was also the cheapest and fastest model while still producing interesting analysis.
 
+---
+
 ## Data sources
 
 - project URL
 - scraped content
 - additional data files
+
+---
 
 ## Limitations
 
@@ -88,6 +94,8 @@ Grok 4.1 Fast again had the highest confidence (as in v5). It was also the cheap
   - Several container resets meant partial progress was lost and some evaluations were re-run.
   - Deliberation phase: ~6h 38m (14:40–21:18 UTC).
   - Total cost ~$11.30, mostly from re-runs due to stalling.
+
+---
 
 ## Assessment
 
@@ -111,6 +119,8 @@ Different AI training backgrounds appear to encode different political values:
 - **Specialist panel** — civic access tools with proven relational networks
 
 **AlgorithmWatch** as the promoted winner (score 97, confidence 95) is defensible: it scored near-uniformly high across all three lenses (political 98, relational 97, experimental 97) and was **contested**, meaning it survived challenge.
+
+---
 
 ### Findings & reflections
 
@@ -161,6 +171,8 @@ Goal: roughly **100 projects** (~⅓ of the dataset).
 | specialist | gemini-2.5-pro + llama-3.3-70b + mistral-large | per-lens specialists |
 
 Winner selection compares `winner.confidence` across all six deliberation outputs.
+
+---
 
 ### Open questions
 
