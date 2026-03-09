@@ -12,6 +12,8 @@
  *   npx tsx scripts/itn-a-deliberate.ts --top-conflicts 4
  *   npx tsx scripts/itn-a-deliberate.ts --argument-rounds 3
  *   npx tsx scripts/itn-a-deliberate.ts --min-greens 2
+ *   npx tsx scripts/itn-a-deliberate.ts --setup grok --min-greens 2   # v6: read cache/assessments-grok.json, write cache/deliberation-grok.json
+ *   npx tsx scripts/itn-a-deliberate.ts --setup grok --shortlist-file cache/pilot-union-top100.json --min-greens 2   # v6: shortlist = union ∩ ≥min-greens
  */
 
 import fs from "fs";
@@ -20,18 +22,32 @@ import Database from "better-sqlite3";
 
 const DEFAULT_MODEL = "x-ai/grok-4.1-fast";
 const OPENROUTER_API = "https://openrouter.ai/api/v1/chat/completions";
-const ASSESSMENTS_PATH = path.resolve("cache", "assessments.json");
-const DELIBERATION_PATH = path.resolve("cache", "deliberation.json");
 const CACHE_DB_PATH = path.resolve("cache", "sites.sqlite");
 const BODY_CHAR_LIMIT = 3000; // per project in scoring prompt
 
 const args = process.argv.slice(2);
 const MODEL = getArg("--model") ?? DEFAULT_MODEL;
+// Per-agent model overrides (specialist jury). Fall back to --model / default.
+const MODEL_POLITICAL = getArg("--model-political") ?? MODEL;
+const MODEL_RELATIONAL = getArg("--model-relational") ?? MODEL;
+const MODEL_EXPERIMENTAL = getArg("--model-experimental") ?? MODEL;
+const AGENT_MODELS: Record<string, string> = {
+    political: MODEL_POLITICAL,
+    relational: MODEL_RELATIONAL,
+    experimental: MODEL_EXPERIMENTAL,
+};
 const MIN_GREENS = parseInt(getArg("--min-greens") ?? "3", 10);
 const TOP_CONFLICTS = parseInt(getArg("--top-conflicts") ?? "4", 10);
 const ARGUMENT_ROUNDS = parseInt(getArg("--argument-rounds") ?? "3", 10);
+const SETUP = getArg("--setup");
+const SHORTLIST_FILE = getArg("--shortlist-file");
 
 function getArg(f: string) { const i = args.indexOf(f); return i !== -1 ? args[i + 1] : undefined; }
+
+// v6: when --setup NAME, use cache/assessments-{NAME}.json and cache/deliberation-{NAME}.json
+// --assessments-file and --output-file override paths explicitly (for mixed juries)
+const ASSESSMENTS_PATH = getArg("--assessments-file") ?? path.resolve("cache", SETUP ? `assessments-${SETUP}.json` : "assessments.json");
+const DELIBERATION_PATH = getArg("--output-file") ?? path.resolve("cache", SETUP ? `deliberation-${SETUP}.json` : "deliberation.json");
 function sleep(ms: number) { return new Promise(r => setTimeout(r, ms)); }
 
 function displayUrl(url: string): string {
@@ -162,6 +178,7 @@ interface ArgumentTurn {
     revision_reason: string | null;
     claims_made: string[];      // specific claims this agent is putting forward
     claims_rejected: string[];  // specific claims from others they're pushing back on
+    raw_prose?: string;         // set when model broke format and returned prose instead of JSON
 }
 
 interface FacilitatorNote {
@@ -195,6 +212,7 @@ interface WinnerDecision {
     url: string;
     display: string;
     score: number;
+    confidence: number;  // 0-100: how clearly this winner emerged; 100 = no doubt, 50 = genuine toss-up
     case_for: string;
     case_against: string;
     decided_against: Array<{ url: string; display: string; why_not: string }>;
@@ -250,6 +268,36 @@ function buildShortlist(assessments: any) {
         .sort((a, b) => b.greenCount - a.greenCount);
 }
 
+// v6: load URL set from --shortlist-file (JSON array or one URL per line). Normalize for matching.
+function loadShortlistUrlSet(filePath: string): Set<string> {
+    const raw = fs.readFileSync(filePath, "utf-8").trim();
+    let urls: string[] = [];
+    if (raw.startsWith("[")) {
+        try {
+            urls = JSON.parse(raw) as string[];
+        } catch {
+            urls = raw.split(/\n/).map(s => s.trim()).filter(Boolean);
+        }
+    } else {
+        urls = raw.split(/\n/).map(s => s.trim()).filter(Boolean);
+    }
+    const set = new Set<string>();
+    for (const u of urls) {
+        set.add(u);
+        set.add(normalizeUrlForMatch(u));
+    }
+    return set;
+}
+
+function normalizeUrlForMatch(url: string): string {
+    try {
+        const u = new URL(url.startsWith("http") ? url : "https://" + url);
+        return (u.hostname.replace(/^www\./, "") + u.pathname).toLowerCase().replace(/\/$/, "");
+    } catch {
+        return url.toLowerCase().replace(/\/$/, "");
+    }
+}
+
 function summariseProject(url: string, assessment: any, pageText?: string): string {
     const lines = [`[${displayUrl(url)}]  full url: ${url}`];
     if (pageText) {
@@ -274,7 +322,7 @@ function summariseProject(url: string, assessment: any, pageText?: string): stri
 // OpenRouter
 // ---------------------------------------------------------------------------
 
-async function call(system: string, user: string, maxTokens = 3000): Promise<string> {
+async function call(system: string, user: string, maxTokens = 3000, model = MODEL): Promise<string> {
     const apiKey = process.env.OPENROUTER_API_KEY;
     if (!apiKey) throw new Error("OPENROUTER_API_KEY not set");
     const resp = await fetch(OPENROUTER_API, {
@@ -286,7 +334,7 @@ async function call(system: string, user: string, maxTokens = 3000): Promise<str
             "X-Title": "Politech ITN/A Deliberation"
         },
         body: JSON.stringify({
-            model: MODEL,
+            model: model,
             messages: [{ role: "system", content: system }, { role: "user", content: user }],
             max_tokens: maxTokens,
             temperature: 0.55
@@ -296,6 +344,37 @@ async function call(system: string, user: string, maxTokens = 3000): Promise<str
     const data: any = await resp.json();
     if (data.error) throw new Error(data.error.message);
     return data.choices?.[0]?.message?.content ?? "";
+}
+
+async function callJson<T>(system: string, user: string, maxTokens = 1200, model = MODEL): Promise<T> {
+    const raw = await call(system, user, maxTokens, model);
+    try {
+        return normalizeArgumentTurn(parseJson<T>(raw)) as T;
+    } catch (_) {
+        // Model got emotionally invested and returned prose — save it, then retry
+        process.stdout.write(`[prose rescued] `);
+        const retry = await call(
+            system,
+            `Your previous response was not valid JSON. You MUST respond with a JSON object only — no prose, no markdown, no explanation.\n\nYour previous response was:\n${raw.slice(0, 400)}\n\nNow respond with valid JSON only.`,
+            maxTokens,
+            model
+        );
+        const turn = normalizeArgumentTurn(parseJson<T>(retry)) as any;
+        turn.raw_prose = raw;  // preserve the original passionate response
+        return turn as T;
+    }
+}
+
+function toArray(v: any): string[] {
+    if (Array.isArray(v)) return v;
+    if (typeof v === "string" && v.length > 0) return [v];
+    return [];
+}
+
+function normalizeArgumentTurn(turn: any): ArgumentTurn {
+    turn.claims_made = toArray(turn.claims_made);
+    turn.claims_rejected = toArray(turn.claims_rejected);
+    return turn as ArgumentTurn;
 }
 
 function parseJson<T>(raw: string): T {
@@ -499,6 +578,7 @@ Your job: name a winner and explain it honestly. This means:
 - Acknowledging the strongest case AGAINST the winner
 - Explaining what was decided against and why — this matters as much as the winner
 - Identifying a constellation of 3-5 projects that together form a portfolio
+- Rating your confidence (0–100) in this choice: 100 = no doubt, the evidence was clear; 50 = genuine toss-up between two strong candidates; 0 = forced choice with no good options
 
 The winner should be defensible as "the project that most fully embodies what political technology should be doing in 2026" — not the safest choice, not the most famous, but the most alive and necessary one.
 
@@ -507,6 +587,7 @@ Respond ONLY with valid JSON:
   "url": "exact url",
   "display": "...",
   "score": 0,
+  "confidence": 0-100,
   "case_for": "genuine 2-3 sentence case",
   "case_against": "the strongest objection to this choice",
   "decided_against": [
@@ -534,12 +615,32 @@ function stddev(nums: number[]): number {
 
 async function main() {
     console.log(`\nITN/A Deliberation v3 — relative scoring + real argument + winner`);
-    console.log(`Model: ${MODEL} | conflicts: ${TOP_CONFLICTS} | argument rounds: ${ARGUMENT_ROUNDS}\n`);
+    const isSpecialist = MODEL_POLITICAL !== MODEL || MODEL_RELATIONAL !== MODEL || MODEL_EXPERIMENTAL !== MODEL;
+    if (isSpecialist) {
+        console.log(`Models: political=${MODEL_POLITICAL} | relational=${MODEL_RELATIONAL} | experimental=${MODEL_EXPERIMENTAL}`);
+    } else {
+        console.log(`Model: ${MODEL}`);
+    }
+    console.log(`min-greens: ${MIN_GREENS} | conflicts: ${TOP_CONFLICTS} | argument rounds: ${ARGUMENT_ROUNDS}`);
+    if (SETUP) console.log(`Setup: ${SETUP} → ${ASSESSMENTS_PATH} → ${DELIBERATION_PATH}`);
+    if (SHORTLIST_FILE) console.log(`Shortlist file: ${SHORTLIST_FILE}`);
+    console.log();
 
     if (!process.env.OPENROUTER_API_KEY) { console.error("OPENROUTER_API_KEY not set"); process.exit(1); }
 
     const assessments = loadAssessments();
-    const entries = buildShortlist(assessments);
+    let entries = buildShortlist(assessments);
+
+    if (SHORTLIST_FILE) {
+        if (!fs.existsSync(SHORTLIST_FILE)) {
+            console.error(`Shortlist file not found: ${SHORTLIST_FILE}`);
+            process.exit(1);
+        }
+        const urlSet = loadShortlistUrlSet(SHORTLIST_FILE);
+        const before = entries.length;
+        entries = entries.filter(e => urlSet.has(e.url) || urlSet.has(normalizeUrlForMatch(e.url)));
+        console.log(`Shortlist filter: ${before} → ${entries.length} (union ∩ ≥${MIN_GREENS} greens)\n`);
+    }
 
     if (entries.length === 0) {
         console.error(`No projects with ${MIN_GREENS}+ green votes.`); process.exit(1);
@@ -574,7 +675,8 @@ async function main() {
             const raw = await call(
                 SCORE_SYSTEM(agentId),
                 `Score and rank all ${shortlist.length} projects relative to each other.\n\nAll project summaries:\n\n${summaries}\n\nExact URL strings to use as keys:\n${urlList}`,
-                5000
+                5000,
+                AGENT_MODELS[agentId]
             );
             const result = parseJson<AgentScoreCard>(raw);
             agentScores[agentId] = result;
@@ -677,8 +779,7 @@ async function main() {
             process.stdout.write(`    ${agentId}... `);
             try {
                 const prompt = buildTurn1Prompt(agentId, url, thread, agentScores);
-                const raw = await call("You are in a deliberation argument. Be specific, direct, willing to disagree. Engage with what others actually said.", prompt, 1200);
-                const turn = parseJson<ArgumentTurn>(raw);
+                const turn = await callJson<ArgumentTurn>("You are in a deliberation argument. Be specific, direct, willing to disagree. Engage with what others actually said.", prompt, 1200, AGENT_MODELS[agentId]);
                 turn.turn = 1;
                 thread.turns.push(turn);
                 state.argument_threads[url] = thread;
@@ -721,8 +822,7 @@ async function main() {
                 process.stdout.write(`    ${agentId}... `);
                 try {
                     const prompt = buildSubsequentTurnPrompt(agentId, url, thread, turnNum, facilitatorNote);
-                    const raw = await call("You are in a deliberation argument. You MUST engage with specific claims made against you. No evasion.", prompt, 1200);
-                    const turn = parseJson<ArgumentTurn>(raw);
+                    const turn = await callJson<ArgumentTurn>("You are in a deliberation argument. You MUST engage with specific claims made against you. No evasion.", prompt, 1200, AGENT_MODELS[agentId]);
                     turn.turn = turnNum;
                     thread.turns.push(turn);
 
