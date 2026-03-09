@@ -161,8 +161,7 @@ I was surprised to find this was **Grok 4.1 Fast again**, as with the assessment
   - Total cost was approximately **$11.30**, mostly from re-runs caused by stalling.
 
 ---
-- **Assessment**: You can read human-readable Markdown summaries of all six jury deliberations in the  
-[jury README](/nwspk/politech-awards-2026/blob/main/iterations/v6/jury-delegations/README.md)
+- **Assessment**: You can read human-readable Markdown summaries of all six jury deliberations in the [jury README](https://github.com/nwspk/politech-awards-2026/blob/main/iterations/v6/jury-delegations/README.md).
 
 The most striking result is that **all six juries disagreed on their winners:**
 
