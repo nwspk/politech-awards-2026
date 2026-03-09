@@ -179,5 +179,8 @@ Winner selection compares `winner.confidence` across all six deliberation output
 - The specialist jury (per-lens model specialisation) is experimental - there is no prior evidence that routing political/relational/experimental to different models improves deliberation quality.
 - Confidence scores across juries will tell us how contested the winner is. High variance = interesting; low variance = robust consensus.
 - Open expansions to still experiment with from [the v5 iteration](https://github.com/nwspk/politech-awards-2026/pull/12)
+<<<<<<< HEAD
 
+=======
+>>>>>>> 793d89e (fix: typo with the jury readme link and file formatting.)
 - I would personally like to try a different framework to test my reflections on Grok vs Claude on deliberations and confidence.

@@ -14,3 +14,5 @@ Six independent juries evaluated 321 candidates. Each used different AI models a
 ## How the winner was chosen
 
 The `pick-v6-winner` script compared all six juries by confidence score and selected the highest-confidence jury as authoritative. The winning jury's `results.json` is the canonical output.
+
+____
