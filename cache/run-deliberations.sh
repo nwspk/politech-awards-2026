@@ -71,6 +71,6 @@ log "ALGO DONE"
 
 # ── Phase 3: Pick winner ──────────────────────────────────────────────────────
 log "PICK — Selecting highest-confidence jury..."
-npx tsx scripts/pick-v6-winner.ts 2>&1 | tee -a "$LOG" || log "PICK FAILED"
+npx tsx scripts/v6/pick-v6-winner.ts 2>&1 | tee -a "$LOG" || log "PICK FAILED"
 
 log "=== v6 pipeline COMPLETE ==="

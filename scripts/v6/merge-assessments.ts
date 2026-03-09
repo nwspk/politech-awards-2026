@@ -6,9 +6,9 @@
  * relational, experimental), pick the entry with the strongest bucket
  * (green > yellow > red > grey), preferring more complete entries.
  *
- * Usage:
- *   npx tsx scripts/merge-assessments.ts
- *   npx tsx scripts/merge-assessments.ts --out cache/assessments-merged.json
+ * Usage (from repo root):
+ *   npx tsx scripts/v6/merge-assessments.ts
+ *   npx tsx scripts/v6/merge-assessments.ts --out cache/assessments-merged.json
  */
 
 import fs from "fs";

@@ -4,9 +4,9 @@
  * Reads the six deliberation files, compares winner.confidence, and prints
  * which jury won. Optionally runs the algorithm for that setup to produce results.json.
  *
- * Usage:
- *   npx tsx scripts/pick-v6-winner.ts
- *   npx tsx scripts/pick-v6-winner.ts --promote   # also runs the-algorithm.ts for the winner
+ * Usage (from repo root):
+ *   npx tsx scripts/v6/pick-v6-winner.ts
+ *   npx tsx scripts/v6/pick-v6-winner.ts --promote   # also runs the-algorithm.ts for the winner
  */
 
 import fs from "fs";
