@@ -1,0 +1,96 @@
+{
+  "url": "https://www.campaigntracker.nl/en",
+  "name": "CampAIgn Tracker",
+  "tagline": "Real-time monitoring of AI-generated content in political campaigns across social media platforms",
+  "collected_at": "2026-03-09T00:00:00Z",
+  "collected_by": "agent-batch-24",
+  "project_type": "research dashboard",
+  "org_type": "academic",
+  "issue_area": [
+    "election integrity",
+    "AI transparency",
+    "political advertising",
+    "disinformation"
+  ],
+  "sdg_alignment": [
+    "SDG 16"
+  ],
+  "decade_plus": false,
+  "geography": "Europe",
+  "countries_deployed": [
+    "Netherlands",
+    "Germany"
+  ],
+  "communities_served": [
+    "journalists",
+    "researchers",
+    "civil society"
+  ],
+  "political_units": [
+    "national parliaments"
+  ],
+  "open_source": true,
+  "github_url": "https://github.com/favstats",
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "web dashboard",
+    "data visualisation"
+  ],
+  "founded_year": 2024,
+  "team_size": null,
+  "funding_model": [
+    "prize/award",
+    "institutional research funding"
+  ],
+  "known_funders": [
+    "Baden-W\u00fcrttemberg Stiftung (Politechathon prize)"
+  ],
+  "funding_verified": false,
+  "last_funding_event": "2024",
+  "dependency_risks": [
+    "Meta API access",
+    "TikTok API access",
+    "X API access"
+  ],
+  "news_articles": [
+    "https://www.polcomm.org/campaign-tracker-for-the-dutch-2025-elections/",
+    "https://algosoc.org/results/ai-transparency-in-political-campaigns-the-campaign-tracker-for-the-2025-german-election"
+  ],
+  "academic_citations": [],
+  "awards": [
+    "Baden-W\u00fcrttemberg Stiftung Politechathon Media Literacy Award (2024)"
+  ],
+  "in_civictech_guide": null,
+  "wikipedia_page": null,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": [
+    "Only monitors parties/accounts in the tracker's curated list",
+    "AI detection not fully reliable"
+  ],
+  "jurisdictional_scope": "national",
+  "failure_modes": [
+    "API access revoked by platforms",
+    "AI detection model errors",
+    "incomplete account coverage"
+  ],
+  "governance_model": "academic research project",
+  "curation_criteria": "Monitors posts from political parties, candidates, and selected influencers on Facebook, Instagram, TikTok, and X",
+  "contributor_governance": null,
+  "disparity_tracking": null,
+  "community_ownership": false,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [
+    "Dutch parliamentary election 2025",
+    "German federal election 2025"
+  ],
+  "government_partnerships": [],
+  "ai_involvement": true
+}

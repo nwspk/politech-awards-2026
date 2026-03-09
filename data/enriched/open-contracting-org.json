@@ -1,0 +1,99 @@
+{
+  "url": "https://www.open-contracting.org",
+  "name": "Open Contracting Partnership",
+  "tagline": "Making public contracting open, fair and efficient to benefit people and the planet.",
+  "collected_at": "2026-03-09T23:05:00Z",
+  "collected_by": "agent-batch-38",
+  "project_type": "standards-body-and-advocacy-org",
+  "org_type": "nonprofit-501c3",
+  "issue_area": [
+    "public-procurement",
+    "anti-corruption",
+    "open-data",
+    "transparency",
+    "governance"
+  ],
+  "sdg_alignment": [
+    "SDG 16",
+    "SDG 17",
+    "SDG 11"
+  ],
+  "decade_plus": false,
+  "geography": "global",
+  "countries_deployed": [],
+  "communities_served": [
+    "governments",
+    "civil-society",
+    "businesses",
+    "procuring-entities"
+  ],
+  "political_units": [],
+  "open_source": true,
+  "github_url": "https://github.com/open-contracting",
+  "github_stars": 149,
+  "last_commit_date": "2026-01-06",
+  "format": [
+    "data-standard",
+    "advocacy",
+    "technical-assistance",
+    "research"
+  ],
+  "founded_year": 2015,
+  "team_size": 27,
+  "funding_model": [
+    "grants",
+    "donations"
+  ],
+  "known_funders": [],
+  "funding_verified": false,
+  "last_funding_event": null,
+  "dependency_risks": [
+    "grant-funding-dependency"
+  ],
+  "news_articles": [
+    "https://www.open-contracting.org/2026/01/20/17-billion-better-spent-19-million-people-served/",
+    "https://www.open-contracting.org/2026/03/03/the-uk-procurement-act-one-year-on/"
+  ],
+  "academic_citations": [],
+  "awards": [],
+  "in_civictech_guide": null,
+  "wikipedia_page": null,
+  "policy_outcomes": [
+    "Indirect positive impact on estimated 209 million lives and USD 116 billion of public spending (2019-2023 strategy cycle)",
+    "USD 17 billion better spent and 19 million people served in 2025",
+    "Open Contracting Data Standard (OCDS) adopted in 50+ countries",
+    "Brazil using open data and AI to improve USD 75 billion medicine procurement market"
+  ],
+  "causation_strength": "moderate",
+  "outcome_methodology": "Annual impact reports with documented stories and systemic impact assessments; 2024-2030 strategy goals tracked publicly",
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": true,
+  "documented_limitations": [
+    "relies on government willingness to adopt",
+    "impact attribution is indirect"
+  ],
+  "jurisdictional_scope": "global",
+  "failure_modes": [
+    "government backsliding on transparency",
+    "data standard adoption without use"
+  ],
+  "governance_model": "Governing Board of ~10 individuals from government, private sector, civil society, and development organizations; independent 501c3 based in Washington DC",
+  "curation_criteria": null,
+  "contributor_governance": "Open-source standard with community contributions; staff in 50+ countries",
+  "disparity_tracking": true,
+  "community_ownership": false,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [
+    "UK",
+    "Brazil",
+    "Mexico",
+    "Kazakhstan",
+    "Nigeria",
+    "Ukraine"
+  ],
+  "ai_involvement": true
+}

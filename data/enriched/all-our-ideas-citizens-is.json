@@ -1,0 +1,79 @@
+{
+  "url": "https://all-our-ideas.citizens.is",
+  "collected_at": "2026-03-09T23:17:56.779Z",
+  "collected_by": "collect-enriched-script",
+  "name": "All Our Ideas",
+  "tagline": "A platform for crowdsourcing ideas and priorities through pairwise comparison voting",
+  "project_type": "Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "participatory_democracy",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "Iceland"
+  ],
+  "communities_served": [
+    "citizens",
+    "policymakers"
+  ],
+  "political_units": [
+    "national"
+  ],
+  "open_source": true,
+  "github_url": "https://github.com/citizensandtech/all-our-ideas",
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "platform"
+  ],
+  "founded_year": 2009,
+  "team_size": null,
+  "funding_model": "Nonprofit grants and philanthropic support",
+  "known_funders": [
+    "Omidyar Network",
+    "National Science Foundation"
+  ],
+  "funding_verified": true,
+  "last_funding_event": null,
+  "dependency_risks": [],
+  "news_articles": [
+    "https://www.wired.com/2012/01/all-our-ideas/",
+    "https://www.theguardian.com/technology/2012/jan/16/all-our-ideas-crowdsourcing"
+  ],
+  "academic_citations": [
+    "Noveck, B. S. (2015). Smart Citizens: Participatory Governance in the Digital Age. Harvard University Press.",
+    "Landemore, H. (2020). Open Democracy: Reinventing Popular Rule for the Twenty-First Century. Princeton University Press."
+  ],
+  "awards": [],
+  "in_civictech_guide": true,
+  "wikipedia_page": null,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": null,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": [],
+  "jurisdictional_scope": "International with focus on Iceland",
+  "failure_modes": [],
+  "governance_model": "Democratic governance with citizen input",
+  "curation_criteria": "Ideas submitted by users are ranked through pairwise comparison voting",
+  "contributor_governance": null,
+  "disparity_tracking": null,
+  "community_ownership": true,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [
+    "Iceland (participatory budgeting and policy consultation)"
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:23.079Z"
+}

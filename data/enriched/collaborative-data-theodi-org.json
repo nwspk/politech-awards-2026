@@ -1,0 +1,96 @@
+{
+  "url": "https://collaborative-data.theodi.org",
+  "collected_at": "2026-03-09T23:18:08.373Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Collaborative Data Patterns",
+  "tagline": "A guidebook for designing and running projects involving collaborative maintenance of shared data assets",
+  "project_type": "Publication",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "civic_data",
+    "participatory_democracy"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "data practitioners",
+    "organizations",
+    "communities",
+    "project designers"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "partial",
+  "github_url": null,
+  "github_stars": null,
+  "last_commit_date": null,
+  "founded_year": 2016,
+  "team_size": "small",
+  "funding_model": [
+    "public_funding"
+  ],
+  "known_funders": [
+    "Open Data Institute"
+  ],
+  "funding_verified": true,
+  "last_funding_event": null,
+  "dependency_risks": [
+    "Reliance on Open Data Institute for maintenance and updates"
+  ],
+  "news_articles": [],
+  "academic_citations": [
+    {
+      "title": "Competitive drive, pattern a, and coronary heart disease: A further analysis of some data from the Western Collaborative Group Study",
+      "year": 1977,
+      "cited_by": 427,
+      "doi": "https://doi.org/10.1016/0021-9681(77)90071-6"
+    },
+    {
+      "title": "Clustering and Sequential Pattern Mining of Online Collaborative Learning Data",
+      "year": 2009,
+      "cited_by": 292,
+      "doi": "https://doi.org/10.1109/tkde.2008.138"
+    },
+    {
+      "title": "Dietary patterns in six European populations: results from EURALIM, a collaborative European data harmonization and information campaign",
+      "year": 2000,
+      "cited_by": 119,
+      "doi": "https://doi.org/10.1038/sj.ejcn.1600934"
+    }
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": [],
+  "jurisdictional_scope": "International",
+  "failure_modes": [],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Patterns addressing repeatable solutions to commonly encountered problems in collaborative data maintenance",
+  "contributor_governance": "Open contribution model with suggestion mechanism",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:20.606Z",
+  "pass3_at": "2026-03-09T23:22:11.262Z",
+  "_sources": [
+    "openalex"
+  ]
+}

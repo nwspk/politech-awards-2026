@@ -1,0 +1,96 @@
+{
+  "url": "https://www.notifications.service.gov.uk",
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "GOV.UK Notify",
+  "tagline": "Send emails, text messages and letters to users \u2014 free messaging infrastructure for UK public sector services",
+  "project_type": "Tool/Platform",
+  "org_type": "Government/public sector",
+  "issue_area": [
+    "govtech"
+  ],
+  "sdg_alignment": [
+    "SDG 16",
+    "SDG 9"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "UK residents receiving government communications",
+    "central government teams",
+    "local authorities",
+    "NHS"
+  ],
+  "political_units": [
+    "federal",
+    "state",
+    "city"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/alphagov/notifications-api",
+  "github_stars": 74,
+  "last_commit_date": "2026-03-09",
+  "format": [
+    "api",
+    "platform"
+  ],
+  "founded_year": 2016,
+  "team_size": "medium",
+  "funding_model": [
+    "public_funding"
+  ],
+  "known_funders": [
+    "UK Government Digital Service (GDS)"
+  ],
+  "funding_verified": true,
+  "last_funding_event": null,
+  "dependency_risks": [
+    "single government supplier dependency",
+    "SMS provider contracts",
+    "postal print-and-post partner"
+  ],
+  "news_articles": [],
+  "academic_citations": [],
+  "awards": [],
+  "in_civictech_guide": null,
+  "wikipedia_page": false,
+  "policy_outcomes": [
+    {
+      "description": "12.2 billion messages sent since May 2016 (7.2B emails, 5.0B texts, 92.5M letters) to UK residents from government services",
+      "link": "https://www.notifications.service.gov.uk/features/performance",
+      "year": 2026
+    }
+  ],
+  "causation_strength": "anecdotal",
+  "outcome_methodology": null,
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": "12.2B messages sent; 95% of emails and texts delivered within 10 seconds",
+  "documented_limitations": [
+    "UK public sector only",
+    "letters limited to next working day delivery by 3pm"
+  ],
+  "jurisdictional_scope": "national",
+  "failure_modes": [
+    "SMS delivery failures during high-demand events",
+    "scam/phishing risk if sender names are spoofed"
+  ],
+  "governance_model": "foundation",
+  "curation_criteria": "Restricted to central government, local authorities, and NHS teams",
+  "contributor_governance": "GDS-controlled; public contributions accepted via GitHub PRs",
+  "disparity_tracking": null,
+  "community_ownership": null,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [
+    "NHS",
+    "UK local authorities",
+    "UK central government departments"
+  ],
+  "ai_involvement": null
+}

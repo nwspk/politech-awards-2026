@@ -1,0 +1,122 @@
+{
+  "url": "https://landexplorer.coop",
+  "collected_at": "2026-03-09T23:20:08.104Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Land Explorer",
+  "tagline": "Mapping tools that help communities find, access and manage land for common good projects",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "civic_data",
+    "participatory_democracy"
+  ],
+  "sdg_alignment": [
+    "SDG 11 – Sustainable Cities and Communities",
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "community organizations",
+    "land trusts",
+    "neighborhood planners",
+    "community energy groups",
+    "housing developers",
+    "permaculture groups"
+  ],
+  "political_units": [
+    "national",
+    "local"
+  ],
+  "open_source": false,
+  "github_url": null,
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "platform",
+    "app"
+  ],
+  "founded_year": 2020,
+  "team_size": "small",
+  "funding_model": [
+    "donations",
+    "grants"
+  ],
+  "known_funders": [
+    "Cooperative Development Foundation",
+    "Community Shares Unit"
+  ],
+  "funding_verified": false,
+  "last_funding_event": null,
+  "dependency_risks": [
+    "Ordnance Survey data dependency",
+    "Land Registry data integration (noted as 'coming soon')"
+  ],
+  "news_articles": [],
+  "academic_citations": [
+    {
+      "title": "The promised land? Exploring the future visions and narrative silences of cellular agriculture in news and industry media",
+      "year": 2021,
+      "cited_by": 71,
+      "doi": "https://doi.org/10.1016/j.jrurstud.2021.04.002"
+    },
+    {
+      "title": "Exploring land use changes and the role of palm oil production in Indonesia and Malaysia",
+      "year": 2010,
+      "cited_by": 482,
+      "doi": "https://doi.org/10.1016/j.landusepol.2010.06.001"
+    },
+    {
+      "title": "No Man’s Land: Exploring the Space between Gilligan and Kohlberg",
+      "year": 2007,
+      "cited_by": 46,
+      "doi": "https://doi.org/10.1007/s10551-007-9470-9"
+    }
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [
+    {
+      "description": "Testimonial from HM Land Registry Director stating tool 'helps implement government policy'",
+      "link": null,
+      "year": null
+    }
+  ],
+  "causation_strength": "anecdotal",
+  "outcome_methodology": null,
+  "replication_materials_available": false,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": [
+    "Land Registry data integration still pending",
+    "Geographic scope limited to England (based on 'Who Owns England?' branding)"
+  ],
+  "jurisdictional_scope": "England",
+  "failure_modes": [],
+  "governance_model": "cooperative",
+  "curation_criteria": null,
+  "contributor_governance": null,
+  "disparity_tracking": false,
+  "community_ownership": true,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [
+    {
+      "partner": "HM Land Registry",
+      "nature": "Data partnership / integration",
+      "country": "United Kingdom"
+    }
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:31.315Z",
+  "pass3_at": "2026-03-09T23:22:41.770Z",
+  "_sources": [
+    "openalex"
+  ]
+}

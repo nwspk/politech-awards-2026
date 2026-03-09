@@ -1,0 +1,101 @@
+{
+  "url": "https://privacybadger.org",
+  "name": "Privacy Badger",
+  "tagline": "A free browser extension made by EFF to stop companies from spying on you online.",
+  "collected_at": "2026-03-09T00:00:00Z",
+  "collected_by": "agent-batch-33",
+  "project_type": "browser extension / software tool",
+  "org_type": "nonprofit (Electronic Frontier Foundation)",
+  "issue_area": [
+    "privacy",
+    "surveillance",
+    "digital rights",
+    "tracker blocking"
+  ],
+  "sdg_alignment": [
+    "SDG 16 - Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": true,
+  "geography": "global",
+  "countries_deployed": [
+    "global"
+  ],
+  "communities_served": [
+    "general internet users",
+    "journalists",
+    "activists",
+    "privacy-conscious individuals"
+  ],
+  "political_units": [
+    "global"
+  ],
+  "open_source": true,
+  "github_url": "https://github.com/EFForg/privacybadger",
+  "github_stars": 2800,
+  "last_commit_date": "2026-02-20",
+  "format": [
+    "browser extension"
+  ],
+  "founded_year": 2014,
+  "team_size": 3,
+  "funding_model": [
+    "donations",
+    "membership (EFF)"
+  ],
+  "known_funders": [
+    "Electronic Frontier Foundation member donations"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "ongoing EFF organizational funding",
+  "dependency_risks": [
+    "dependent on browser vendor APIs (Chrome, Firefox, Edge)",
+    "Google Manifest V3 API changes may restrict extension capabilities"
+  ],
+  "news_articles": [
+    "https://www.eff.org/deeplinks/2014/04/privacy-badger",
+    "https://www.eff.org/deeplinks/2025/03/online-tracking-out-control-privacy-badger-can-help-you-fight-back"
+  ],
+  "academic_citations": [
+    "Englehardt, S., & Narayanan, A. (2016). Online tracking: A 1-million-site measurement and analysis. Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security.",
+    "Mayer, J. R., & Mitchell, J. C. (2012). Third-party web tracking: Policy and technology. 2012 IEEE Symposium on Security and Privacy."
+  ],
+  "awards": [
+    "EFF Award for Privacy Protection"
+  ],
+  "in_civictech_guide": false,
+  "wikipedia_page": "https://en.wikipedia.org/wiki/Privacy_Badger",
+  "policy_outcomes": [
+    "Over 1 million users by April 2017",
+    "Sends Global Privacy Control and Do Not Track signals on behalf of users",
+    "Documents canvas-based fingerprinting via Cover Your Tracks project"
+  ],
+  "causation_strength": "medium",
+  "outcome_methodology": "heuristic tracker detection; automated learning via Badger Sett training project",
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": false,
+  "documented_limitations": [
+    "Changed from heuristic learning to pre-trained blocklist in 2020 after Google Security Team disclosed fingerprinting vulnerability",
+    "Primarily protects against third-party tracking, not first-party",
+    "Cannot prevent all forms of fingerprinting"
+  ],
+  "jurisdictional_scope": "global",
+  "failure_modes": [
+    "browser API restrictions (Manifest V3)",
+    "tracker evasion techniques evolve faster than blocking rules"
+  ],
+  "governance_model": "Maintained by EFF staff; open source contributions accepted via GitHub",
+  "curation_criteria": "Blocks third-party trackers that ignore Global Privacy Control and Do Not Track signals",
+  "contributor_governance": "EFF-led; open source community contributions",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "controversies": [
+    "2020: Google Security Team disclosed that Privacy Badger's heuristic learning could be exploited to fingerprint users; EFF changed default behaviour"
+  ],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:39.959Z"
+}

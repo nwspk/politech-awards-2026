@@ -1,0 +1,158 @@
+{
+  "url": "https://decidim.org",
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "Decidim",
+  "tagline": "A free/libre, open and safe digital platform for citizen participation. Reprogramming democracy is now possible.",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "participatory_democracy",
+    "govtech"
+  ],
+  "sdg_alignment": [
+    "SDG 10",
+    "SDG 11",
+    "SDG 16",
+    "SDG 17"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "Spain",
+    "Switzerland",
+    "France",
+    "Finland",
+    "United States",
+    "Brazil",
+    "Japan",
+    "Italy",
+    "Mexico",
+    "Germany",
+    "Belgium",
+    "Portugal"
+  ],
+  "communities_served": [
+    "municipal governments",
+    "regional governments",
+    "citizens' associations",
+    "universities",
+    "NGOs",
+    "trade unions"
+  ],
+  "political_units": [
+    "city",
+    "state",
+    "federal",
+    "international"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/decidim/decidim",
+  "github_stars": 1715,
+  "last_commit_date": "2026-03-09",
+  "format": [
+    "platform"
+  ],
+  "founded_year": 2016,
+  "team_size": "medium",
+  "funding_model": [
+    "grants",
+    "public_funding"
+  ],
+  "known_funders": [
+    "City of Barcelona (initial development)"
+  ],
+  "funding_verified": true,
+  "last_funding_event": null,
+  "dependency_risks": [
+    "Community volunteer dependency",
+    "Political context dependency (some deployments ceased with electoral change)",
+    "Digital divide risk in low-income areas"
+  ],
+  "news_articles": [],
+  "academic_citations": [
+    "Barandiaran et al. (2024) \u2014 Decidim, a Technopolitical Network for Participatory Democracy, Springer",
+    "Borge Bravo et al. (2022) \u2014 Democratic disruption or continuity?, American Behavioral Scientist",
+    "Suter et al. (2023) \u2014 Decidim use in Zurich and Lucerne"
+  ],
+  "awards": [
+    "Digital Public Goods Alliance recognition (2023)"
+  ],
+  "in_civictech_guide": true,
+  "wikipedia_page": true,
+  "policy_outcomes": [
+    {
+      "description": "Barcelona strategic planning: 40,000 citizens participated, ~8,000 proposals accepted, 90% of Barcelona City Council 2016-2019 budget execution tracked",
+      "link": "https://www.decidim.barcelona/",
+      "year": 2017
+    },
+    {
+      "description": "European Commission citizen engagement platform for Conference on the Future of Europe (19 April 2021 \u2013 9 May 2022)",
+      "link": "https://citizens.ec.europa.eu/",
+      "year": 2021
+    },
+    {
+      "description": "Brasil Participativo \u2014 nationwide federal participatory platform for Brazil",
+      "link": "https://brasilparticipativo.presidencia.gov.br/",
+      "year": 2023
+    },
+    {
+      "description": "Zurich participatory budget (Stadtidee) CHF 540,000",
+      "link": null,
+      "year": 2022
+    }
+  ],
+  "causation_strength": "correlated",
+  "outcome_methodology": "Mixed methods",
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": "40,000+ participants in Barcelona; used by European Commission, French Senate, City of Helsinki, Government of Brazil",
+  "documented_limitations": [
+    "Effectiveness dependent on political will and electoral outcomes",
+    "Strengthens digital divide in some top-down implementations",
+    "Citizens' associations sometimes resist direct participation tools"
+  ],
+  "jurisdictional_scope": "global",
+  "failure_modes": [
+    "Political dependency (use ceased in Badalona after mayor lost power)",
+    "Digital divide risk",
+    "Institutional resistance from civil society intermediaries"
+  ],
+  "governance_model": "cooperative",
+  "curation_criteria": "Decidim Social Contract defines values, free software licences, transparency, equality, data privacy",
+  "contributor_governance": "Metadecidim community \u2014 open community of developers, activists, consultancies, researchers and municipal staff; Decidim Free Software Association (formal governance, established 2019)",
+  "disparity_tracking": true,
+  "community_ownership": "Decidim Free Software Association (democratic governance)",
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [
+    {
+      "name": "City Council of Barcelona",
+      "type": "founding_and_deployment",
+      "year": 2016
+    },
+    {
+      "name": "European Commission",
+      "type": "deployment",
+      "year": 2021
+    },
+    {
+      "name": "French Senate",
+      "type": "deployment",
+      "year": null
+    },
+    {
+      "name": "City of Helsinki",
+      "type": "deployment",
+      "year": null
+    },
+    {
+      "name": "Government of Brazil (Presid\u00eancia)",
+      "type": "deployment",
+      "year": 2023
+    }
+  ],
+  "ai_involvement": null
+}

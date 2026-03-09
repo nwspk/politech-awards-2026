@@ -1,0 +1,147 @@
+{
+  "url": "https://okfn.org/en/projects/open-data-editor/",
+  "collected_at": "2026-03-09T23:20:20.764Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Open Data Editor (ODE)",
+  "tagline": "A no-code desktop app for error-free spreadsheets with guaranteed privacy and FAIR data",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "civic_data",
+    "govtech",
+    "media_journalism"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions",
+    "SDG 17 – Partnerships for the Goals"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "Cambodia",
+    "South Africa",
+    "Ghana",
+    "Mexico",
+    "India",
+    "Croatia",
+    "France",
+    "Kenya"
+  ],
+  "communities_served": [
+    "nonprofits",
+    "data journalists",
+    "activists",
+    "public servants",
+    "researchers",
+    "government officials"
+  ],
+  "political_units": [
+    "international",
+    "national",
+    "city"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/okfn/opendataeditor",
+  "github_stars": 287,
+  "last_commit_date": "2025-02-15",
+  "format": [
+    "app",
+    "course"
+  ],
+  "founded_year": 2021,
+  "team_size": "small",
+  "funding_model": [
+    "grants",
+    "donations"
+  ],
+  "known_funders": [
+    "Open Knowledge Foundation",
+    "Shuttleworth Foundation",
+    "Omidyar Network"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2024",
+  "dependency_risks": [
+    "Reliance on Open Knowledge Foundation institutional support",
+    "Dependency on volunteer/grant-funded development model"
+  ],
+  "news_articles": [
+    {
+      "title": "Open Data Editor: Making Data Work for Everyone",
+      "outlet": "Open Knowledge Foundation Blog",
+      "date": "2023-06-15",
+      "url": "https://okfn.org/en/blog/"
+    }
+  ],
+  "academic_citations": [
+    {
+      "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+      "year": 2020,
+      "cited_by": 35475,
+      "doi": "https://doi.org/10.1038/s41592-019-0686-2"
+    },
+    {
+      "title": "2. Classification and Diagnosis of Diabetes:<i>Standards of Medical Care in Diabetes—2022</i>",
+      "year": 2021,
+      "cited_by": 4595,
+      "doi": "https://doi.org/10.2337/dc22-s002"
+    },
+    {
+      "title": "ADVANCED SPECTRAL METHODS FOR CLIMATIC TIME SERIES",
+      "year": 2002,
+      "cited_by": 2201,
+      "doi": "https://doi.org/10.1029/2000rg000092"
+    }
+  ],
+  "awards": [
+    {
+      "name": "Digital Public Good (DPG) recognition",
+      "year": 2025
+    }
+  ],
+  "in_civictech_guide": true,
+  "wikipedia_page": null,
+  "policy_outcomes": [
+    {
+      "description": "Used by Zagreb city government to comply with open data standards and foster data literacy across city offices",
+      "link": null,
+      "year": 2023
+    }
+  ],
+  "causation_strength": "anecdotal",
+  "outcome_methodology": "Case study documentation from government partners",
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": "User adoption metrics and data quality improvement rates available in project documentation",
+  "documented_limitations": [
+    "Designed for tabular data only (Excel, Google Sheets, CSV)",
+    "Targets non-technical users without advanced programming knowledge"
+  ],
+  "jurisdictional_scope": "International with documented use cases in 8+ countries",
+  "failure_modes": [
+    "Limited support for complex data structures beyond tabular formats",
+    "Dependency on user familiarity with basic data concepts"
+  ],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Open source contribution guidelines; focus on data quality and accessibility standards",
+  "contributor_governance": "Open Knowledge Foundation oversight with community contributions via GitHub",
+  "disparity_tracking": "Deployment in Global South countries (Cambodia, South Africa, Ghana, Kenya, India) indicates focus on accessibility across economic contexts",
+  "community_ownership": "Community-driven development through open source model; partnerships with local organizations in deployment countries",
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [
+    {
+      "partner": "Zagreb city government",
+      "nature": "Open data compliance and data literacy",
+      "country": "Croatia"
+    }
+  ],
+  "ai_involvement": "Privacy-enhanced AI for data error detection and analysis",
+  "pass2_at": "2026-03-09T23:21:37.213Z",
+  "pass3_at": "2026-03-09T23:22:49.444Z",
+  "_sources": [
+    "openalex"
+  ]
+}

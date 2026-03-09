@@ -1,0 +1,93 @@
+{
+  "url": "https://plunkett.my.site.com/keepitinthecommunity/s",
+  "collected_at": "2026-03-09T23:20:29.816Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Keep It In The Community",
+  "tagline": "A platform for community-driven civic engagement and local resource sharing",
+  "project_type": "Digital Platform",
+  "org_type": "Non-profit",
+  "issue_area": [
+    "Community Development",
+    "Civic Engagement",
+    "Local Resources"
+  ],
+  "sdg_alignment": [
+    "SDG 11: Sustainable Cities and Communities"
+  ],
+  "decade_plus": false,
+  "geography": "United States",
+  "countries_deployed": [
+    "United States"
+  ],
+  "communities_served": [
+    "Local Communities"
+  ],
+  "political_units": [
+    "Municipal"
+  ],
+  "open_source": false,
+  "github_url": null,
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "Web Platform"
+  ],
+  "founded_year": null,
+  "team_size": null,
+  "funding_model": [
+    "Non-profit"
+  ],
+  "known_funders": [],
+  "funding_verified": false,
+  "last_funding_event": null,
+  "dependency_risks": [],
+  "news_articles": [],
+  "academic_citations": [
+    {
+      "title": "Failure to keep Appointments at a Community Health Centre: Analysis of causes",
+      "year": 1990,
+      "cited_by": 22,
+      "doi": "https://doi.org/10.3109/02813439008994949"
+    },
+    {
+      "title": "Early detection of kidney disease in community settings: the kidney early evaluation program (KEEP)",
+      "year": 2003,
+      "cited_by": 244,
+      "doi": "https://doi.org/10.1016/s0272-6386(03)00405-0"
+    },
+    {
+      "title": "Failure to Keep Appointments at a Community Health Centre: Analysis of causes",
+      "year": 1990,
+      "cited_by": 14,
+      "doi": "https://doi.org/10.3109/02813439008994940"
+    }
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": false,
+  "preregistered_studies": [],
+  "published_performance_metrics": false,
+  "documented_limitations": [],
+  "jurisdictional_scope": "Local",
+  "failure_modes": [],
+  "governance_model": "Community-based",
+  "curation_criteria": null,
+  "contributor_governance": null,
+  "disparity_tracking": false,
+  "community_ownership": true,
+  "controversies": [],
+  "political_bias_allegations": false,
+  "legal_regulatory_issues": false,
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:37.150Z",
+  "pass3_at": "2026-03-09T23:22:57.040Z",
+  "_sources": [
+    "openalex"
+  ]
+}

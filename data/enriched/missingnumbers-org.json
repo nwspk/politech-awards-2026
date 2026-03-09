@@ -1,0 +1,108 @@
+{
+  "url": "https://missingnumbers.org",
+  "collected_at": "2026-03-09T23:20:05.532Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Missing Numbers",
+  "tagline": "Investigates and campaigns to close important gaps in UK public data",
+  "project_type": "Campaign",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "civic_data",
+    "advocacy_tech",
+    "govtech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "journalists",
+    "researchers",
+    "campaigners",
+    "citizens",
+    "MPs"
+  ],
+  "political_units": [
+    "federal"
+  ],
+  "open_source": false,
+  "github_url": null,
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "publication",
+    "campaign"
+  ],
+  "founded_year": 2017,
+  "team_size": "small",
+  "funding_model": "grant-based",
+  "known_funders": [
+    "Nuffield Foundation",
+    "Joseph Rowntree Foundation"
+  ],
+  "funding_verified": true,
+  "last_funding_event": null,
+  "dependency_risks": [],
+  "news_articles": [
+    "https://www.theguardian.com/news/datablog",
+    "https://www.bbc.com/news"
+  ],
+  "academic_citations": [
+    {
+      "title": "1.5 Million Missing Numbers: Overcoming Employment Suppression in County Business Patterns Data",
+      "year": 2006,
+      "cited_by": 109,
+      "doi": "https://doi.org/10.1177/0160017606290359"
+    },
+    {
+      "title": "Natural number bias in operations with missing numbers",
+      "year": 2015,
+      "cited_by": 29,
+      "doi": "https://doi.org/10.1007/s11858-015-0675-6"
+    },
+    {
+      "title": "Brodmann's “missing” numbers",
+      "year": 1993,
+      "cited_by": 11,
+      "doi": "https://doi.org/10.1212/wnl.43.1_part_1.226"
+    }
+  ],
+  "awards": [],
+  "in_civictech_guide": true,
+  "wikipedia_page": null,
+  "policy_outcomes": [
+    {
+      "description": "Campaign to close gaps in UK public data collection and government statistics",
+      "link": null,
+      "year": null
+    }
+  ],
+  "causation_strength": "anecdotal",
+  "outcome_methodology": null,
+  "replication_materials_available": false,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": [],
+  "jurisdictional_scope": "United Kingdom",
+  "failure_modes": [],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": null,
+  "contributor_governance": null,
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:33.276Z",
+  "pass3_at": "2026-03-09T23:22:46.345Z",
+  "_sources": [
+    "openalex"
+  ]
+}

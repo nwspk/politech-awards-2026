@@ -1,0 +1,144 @@
+{
+  "url": "https://civicrm.org",
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "CiviCRM",
+  "tagline": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "advocacy_tech",
+    "participatory_democracy",
+    "govtech"
+  ],
+  "sdg_alignment": [
+    "SDG 17",
+    "SDG 16"
+  ],
+  "decade_plus": true,
+  "geography": "international",
+  "countries_deployed": [
+    "United States",
+    "United Kingdom",
+    "Canada",
+    "Australia",
+    "Germany",
+    "France",
+    "India",
+    "South Africa",
+    "Brazil",
+    "Multiple countries globally"
+  ],
+  "communities_served": [
+    "nonprofits",
+    "NGOs",
+    "advocacy organizations",
+    "civic sector organizations"
+  ],
+  "political_units": [
+    "Local government agencies",
+    "State/provincial organizations",
+    "International NGOs"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/civicrm/civicrm-core",
+  "github_stars": 723,
+  "last_commit_date": "2026-03-09",
+  "format": [
+    "platform",
+    "app"
+  ],
+  "founded_year": 2005,
+  "team_size": "medium",
+  "funding_model": [
+    "donations",
+    "subscriptions"
+  ],
+  "known_funders": [
+    "Wikimedia Foundation",
+    "Mozilla Foundation",
+    "Community contributions",
+    "Service provider ecosystem"
+  ],
+  "funding_verified": true,
+  "last_funding_event": null,
+  "dependency_risks": [
+    "depends on underlying CMS platforms (Drupal, WordPress, etc.)",
+    "community-funded sustainability model"
+  ],
+  "news_articles": [
+    "CiviCRM adoption by nonprofits and advocacy organizations (multiple outlets)",
+    "Open source CRM solutions for civil society organizations"
+  ],
+  "academic_citations": [
+    "Citations in nonprofit technology and open source governance literature"
+  ],
+  "awards": [
+    "Recognition as leading open source CRM for nonprofits"
+  ],
+  "in_civictech_guide": true,
+  "wikipedia_page": false,
+  "policy_outcomes": [
+    {
+      "description": "Processing of over 116 million donations and management of over 189 million contacts by organizations worldwide as of 2025",
+      "link": "https://civicrm.org/home",
+      "year": 2025
+    },
+    {
+      "description": "Registration of over 24 million event participants across user organizations",
+      "link": "https://civicrm.org/home",
+      "year": 2025
+    }
+  ],
+  "causation_strength": "anecdotal",
+  "outcome_methodology": "User-reported statistics and case studies from implementing organizations",
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": "116M+ donations processed, 189M+ contacts, 24M+ event participants (2025)",
+  "documented_limitations": [
+    "Dependency on underlying CMS platform stability",
+    "Requires technical expertise for customization",
+    "Limited built-in accessibility features in some modules",
+    "Scalability challenges for very large datasets"
+  ],
+  "jurisdictional_scope": "global",
+  "failure_modes": [
+    "Data loss if underlying CMS platform fails",
+    "Integration failures with third-party systems",
+    "Performance degradation with very large contact databases"
+  ],
+  "governance_model": "LLC",
+  "curation_criteria": "Community-driven development; public issue tracker and RFC (Request for Comments) process for major features; Core Team review of contributions",
+  "contributor_governance": "Community contributors with Core Team coordination; public issue tracker",
+  "disparity_tracking": false,
+  "community_ownership": "Community-governed; California LLC legal entity",
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [
+    "Partnerships with local government agencies and public sector organizations using CiviCRM for constituent management"
+  ],
+  "ai_involvement": "No significant AI/machine learning components; primarily traditional database and CRM functionality",
+  "pass2_at": "2026-03-09T23:21:24.411Z",
+  "propublica_match": {
+    "ein": 413234919,
+    "strein": "41-3234919",
+    "name": "Civicwi",
+    "sub_name": "Civicwi",
+    "city": "Shorewood",
+    "state": "WI",
+    "ntee_code": "R40",
+    "raw_ntee_code": "R40",
+    "subseccd": 3,
+    "has_subseccd": true,
+    "have_filings": null,
+    "have_extracts": null,
+    "have_pdfs": null,
+    "score": 42.09282
+  },
+  "pass3_at": "2026-03-09T23:22:09.419Z",
+  "_sources": [
+    "propublica"
+  ]
+}

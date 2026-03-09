@@ -1,0 +1,85 @@
+{
+  "url": "https://turbophonebank.com",
+  "collected_at": "2026-03-09T23:20:37.732Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Turbo Phonebank",
+  "tagline": "A free phonebank platform that turns Google Sheets into phonebanks and textbanks with 2-tap calling",
+  "project_type": "Tool/Platform",
+  "org_type": "Grassroots/indie",
+  "issue_area": [
+    "participatory_democracy",
+    "advocacy_tech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United States"
+  ],
+  "communities_served": [
+    "campaigners",
+    "volunteers",
+    "organizers"
+  ],
+  "political_units": [
+    "federal"
+  ],
+  "open_source": "no",
+  "github_url": null,
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "platform",
+    "app"
+  ],
+  "founded_year": 2020,
+  "team_size": "solo",
+  "funding_model": [
+    "donations"
+  ],
+  "known_funders": [],
+  "funding_verified": false,
+  "last_funding_event": null,
+  "dependency_risks": [
+    "Google Sheets API dependency",
+    "Supabase database provider dependency",
+    "Google Voice integration dependency",
+    "Single maintainer (Evan Schwartz)"
+  ],
+  "news_articles": [],
+  "academic_citations": [],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": false,
+  "preregistered_studies": [],
+  "published_performance_metrics": false,
+  "documented_limitations": [
+    "Single maintainer dependency",
+    "Limited institutional funding",
+    "Reliance on third-party APIs"
+  ],
+  "jurisdictional_scope": "United States",
+  "failure_modes": [
+    "API rate limiting from Google Sheets",
+    "Service interruption if maintainer unavailable",
+    "Dependency on Supabase uptime"
+  ],
+  "governance_model": "individual",
+  "curation_criteria": null,
+  "contributor_governance": "Individual project - no formal contributor governance",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:42.268Z"
+}

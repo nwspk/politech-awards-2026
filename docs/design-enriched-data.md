@@ -15,7 +15,7 @@ reference standard for how political technology projects are described in the fi
 
 ## Output
 
-- `data/enriched/<slug>.json` — one file per project URL (slugified)
+- `data/enriched/<slug>.json` — one file per project URL (slugified from domain+path)
 - `data/enriched/projects-enriched.json` — combined index
 
 ---

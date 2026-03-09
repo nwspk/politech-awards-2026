@@ -1,0 +1,99 @@
+{
+  "url": "https://www.otree.org",
+  "collected_at": "2026-03-09T23:20:58.880Z",
+  "collected_by": "collect-enriched-script",
+  "name": "oTree",
+  "tagline": "Open-source platform for web-based behavioral research and interactive experiments",
+  "project_type": "Tool/Platform",
+  "org_type": "Academic/research",
+  "issue_area": [
+    "research infrastructure",
+    "behavioral economics",
+    "experimental design"
+  ],
+  "sdg_alignment": [
+    "SDG 4: Quality Education",
+    "SDG 9: Industry, Innovation and Infrastructure"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "United States",
+    "United Kingdom",
+    "Germany",
+    "Australia",
+    "Canada",
+    "Netherlands",
+    "France",
+    "Japan",
+    "China",
+    "India"
+  ],
+  "communities_served": [
+    "researchers",
+    "academics",
+    "economists",
+    "psychologists",
+    "students"
+  ],
+  "political_units": [],
+  "open_source": "yes",
+  "github_url": "https://github.com/oTree-org/oTree",
+  "github_stars": 1100,
+  "last_commit_date": "2024-12-15",
+  "format": [
+    "platform",
+    "api"
+  ],
+  "founded_year": 2011,
+  "team_size": "small",
+  "funding_model": [
+    "grants"
+  ],
+  "known_funders": [
+    "National Science Foundation",
+    "German Research Foundation (DFG)",
+    "University of Chicago"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2023",
+  "dependency_risks": [
+    "Reliance on Python ecosystem",
+    "Maintenance dependent on academic funding"
+  ],
+  "news_articles": [
+    "Featured in academic technology publications and economics research journals"
+  ],
+  "academic_citations": [
+    "2700+ academic publications cited on homepage"
+  ],
+  "awards": [
+    "Widely adopted in experimental economics and behavioral research"
+  ],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": "2700+ citations demonstrating research impact",
+  "documented_limitations": [
+    "Requires technical knowledge for complex experiments",
+    "Limited built-in statistical analysis tools"
+  ],
+  "jurisdictional_scope": "International",
+  "failure_modes": [],
+  "governance_model": "Academic open-source with core maintainers",
+  "curation_criteria": "Community contributions reviewed by core development team",
+  "contributor_governance": "Open-source contribution model with GitHub-based collaboration",
+  "disparity_tracking": null,
+  "community_ownership": "Academic community-driven",
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": "OTAI (AI Builder) feature mentioned for building experiments without coding",
+  "pass2_at": "2026-03-09T23:21:48.625Z"
+}

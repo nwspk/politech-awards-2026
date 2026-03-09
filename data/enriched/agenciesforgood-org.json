@@ -1,0 +1,96 @@
+{
+  "url": "https://www.agenciesforgood.org",
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "Agencies for Good",
+  "tagline": "A community of tech for good agencies, consultancies and freelancers supporting socially impactful work",
+  "project_type": "community network",
+  "org_type": "informal community / unincorporated network",
+  "issue_area": [
+    "civic technology",
+    "digital for good",
+    "nonprofit technology",
+    "social enterprise"
+  ],
+  "sdg_alignment": [
+    "SDG 17 - Partnerships for the Goals"
+  ],
+  "decade_plus": false,
+  "geography": "United Kingdom",
+  "countries_deployed": [
+    "GB"
+  ],
+  "communities_served": [
+    "tech for good agencies",
+    "digital consultancies",
+    "freelancers",
+    "nonprofits and charities"
+  ],
+  "political_units": [],
+  "open_source": false,
+  "github_url": null,
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "slack community",
+    "online directory",
+    "networking platform"
+  ],
+  "founded_year": 2020,
+  "team_size": "~6 (working group volunteers)",
+  "funding_model": [
+    "philanthropic grant",
+    "in-kind support"
+  ],
+  "known_funders": [
+    "Catalyst",
+    "Nominet"
+  ],
+  "funding_verified": true,
+  "last_funding_event": null,
+  "dependency_risks": [
+    "volunteer-run working group",
+    "reliance on Slack platform",
+    "informal governance"
+  ],
+  "news_articles": [
+    {
+      "headline": "Agencies for Good: Building Trust, Collaboration, and Innovation in the Tech for Good Sector",
+      "outlet": "Medium / Catalyst",
+      "date": "2023-01-01",
+      "url": "https://medium.com/wethecatalysts/agencies-for-good-building-trust-collaboration-and-innovation-in-the-tech-for-good-sector-398bab74b15e"
+    }
+  ],
+  "academic_citations": [],
+  "awards": [],
+  "in_civictech_guide": null,
+  "wikipedia_page": false,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": false,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": [
+    "UK-centric membership",
+    "no formal membership criteria or accreditation",
+    "relies on self-reported ethical stance"
+  ],
+  "jurisdictional_scope": "national",
+  "failure_modes": [
+    "volunteer attrition",
+    "platform dependency on Slack",
+    "lack of formal incorporation"
+  ],
+  "governance_model": "volunteer working group with open membership request process",
+  "curation_criteria": "Members must be agencies, consultancies or freelancers doing tech for good; must have worked with at least two nonprofits",
+  "contributor_governance": "Working group of ~6 volunteers manages community moderation and membership",
+  "disparity_tracking": null,
+  "community_ownership": "community-run; no formal legal entity identified",
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": null
+}

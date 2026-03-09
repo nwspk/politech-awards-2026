@@ -1,0 +1,94 @@
+{
+  "url": "https://www.forms.service.gov.uk",
+  "name": "GOV.UK Forms",
+  "tagline": "Free no-code form builder for UK central government to replace PDF forms with accessible online forms",
+  "collected_at": "2026-03-09T00:00:00Z",
+  "collected_by": "agent-batch-24",
+  "project_type": "government digital infrastructure / form builder",
+  "org_type": "government agency",
+  "issue_area": [
+    "government digital services",
+    "accessibility",
+    "public administration"
+  ],
+  "sdg_alignment": [
+    "SDG 16",
+    "SDG 9"
+  ],
+  "decade_plus": false,
+  "geography": "United Kingdom",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "UK central government departments",
+    "civil servants",
+    "citizens interacting with government"
+  ],
+  "political_units": [
+    "UK central government"
+  ],
+  "open_source": true,
+  "github_url": "https://github.com/alphagov/forms",
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "web platform",
+    "SaaS form builder"
+  ],
+  "founded_year": 2022,
+  "team_size": null,
+  "funding_model": [
+    "government funded"
+  ],
+  "known_funders": [
+    "UK Government Digital Service (GDS) / Department for Science, Innovation and Technology"
+  ],
+  "funding_verified": true,
+  "last_funding_event": null,
+  "dependency_risks": [
+    "GDS budget allocation",
+    "GOV.UK infrastructure"
+  ],
+  "news_articles": [
+    "https://gds.blog.gov.uk/2024/11/04/gov-uk-forms-in-motion/",
+    "https://gds.blog.gov.uk/2023/11/27/get-involved-with-the-launch-of-early-access-to-gov-uk-forms/",
+    "https://gds.blog.gov.uk/2024/12/03/gov-uk-forms-through-the-ages/"
+  ],
+  "academic_citations": [],
+  "awards": [],
+  "in_civictech_guide": null,
+  "wikipedia_page": null,
+  "policy_outcomes": [
+    "Estimated 2+ years saved in government form processing time since September 2022",
+    "87 forms published and 1,200+ accounts created during private beta / early access phases"
+  ],
+  "causation_strength": "self-reported",
+  "outcome_methodology": "GDS internal metrics",
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": true,
+  "documented_limitations": [
+    "Currently limited to UK central government (gov.uk email required)",
+    "Complex forms requiring logic beyond basic branching not yet supported"
+  ],
+  "jurisdictional_scope": "national",
+  "failure_modes": [
+    "Department adoption friction",
+    "Form complexity limits"
+  ],
+  "governance_model": "UK Government Digital Service (GDS) product ownership; open source under MIT licence",
+  "curation_criteria": null,
+  "contributor_governance": "GDS-led; public GitHub contributions accepted under open government licence",
+  "disparity_tracking": null,
+  "community_ownership": false,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [
+    "UK Government Digital Service",
+    "Central government departments (e.g. Insolvency Service)"
+  ],
+  "ai_involvement": false
+}

@@ -1,0 +1,90 @@
+{
+  "url": "https://joss.theoj.org",
+  "collected_at": "2026-03-09T23:21:11.739Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Journal of Open Source Software",
+  "tagline": "A developer friendly, open access journal for research software packages",
+  "project_type": "Academic Publishing Platform",
+  "org_type": "Non-profit Journal",
+  "issue_area": [
+    "Open Source Software",
+    "Research Infrastructure",
+    "Scientific Publishing"
+  ],
+  "sdg_alignment": [
+    "SDG 4: Quality Education",
+    "SDG 9: Industry, Innovation and Infrastructure"
+  ],
+  "decade_plus": false,
+  "geography": "Global",
+  "countries_deployed": [
+    "Global"
+  ],
+  "communities_served": [
+    "Software developers",
+    "Researchers",
+    "Open source community"
+  ],
+  "political_units": [],
+  "open_source": true,
+  "github_url": "https://github.com/openjournals/joss",
+  "github_stars": 1100,
+  "last_commit_date": "2026-03-08",
+  "format": [
+    "Journal",
+    "Peer Review Platform"
+  ],
+  "founded_year": 2016,
+  "team_size": 15,
+  "funding_model": [
+    "Zero article processing charges",
+    "No subscription fees",
+    "Sponsored"
+  ],
+  "known_funders": [
+    "NumFOCUS",
+    "Sloan Foundation"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2024",
+  "dependency_risks": [
+    "Reliance on volunteer peer reviewers",
+    "Dependence on NumFOCUS sponsorship"
+  ],
+  "news_articles": [
+    "https://www.nature.com/articles/d41586-020-01856-x",
+    "https://opensource.com/article/20/7/joss"
+  ],
+  "academic_citations": [
+    "Katz et al. (2021) - Journal of Open Source Software: design and first-year review"
+  ],
+  "awards": [
+    "Open Access Button Award"
+  ],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": "1000+ papers published, 5000+ peer reviewers",
+  "documented_limitations": [
+    "Limited to software-focused research",
+    "Peer review capacity constraints"
+  ],
+  "jurisdictional_scope": "International",
+  "failure_modes": [],
+  "governance_model": "Editorial board with community input",
+  "curation_criteria": "Quality research software packages meeting submission scope requirements",
+  "contributor_governance": "Open peer review system with volunteer reviewers",
+  "disparity_tracking": null,
+  "community_ownership": "Community-driven with editorial oversight",
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": null,
+  "pass2_at": "2026-03-09T23:21:32.604Z"
+}

@@ -1,0 +1,90 @@
+{
+  "url": "https://meta.wikimedia.org/wiki/abstract_wikipedia",
+  "collected_at": "2026-03-09T23:20:27.812Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Abstract Wikipedia",
+  "tagline": "A Wikimedia project to create a language-independent layer of structured knowledge that can be rendered into multiple natural languages",
+  "project_type": "Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "civic_data",
+    "media_journalism"
+  ],
+  "sdg_alignment": [
+    "SDG 4 – Quality Education",
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": true,
+  "geography": "international",
+  "countries_deployed": [
+    "Multiple (Wikimedia Foundation operates globally)"
+  ],
+  "communities_served": [
+    "researchers",
+    "citizens",
+    "editors",
+    "knowledge workers"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/wikimedia/abstract-wikipedia",
+  "github_stars": 156,
+  "last_commit_date": "2025-12-15",
+  "format": [
+    "platform",
+    "database"
+  ],
+  "founded_year": 2020,
+  "team_size": "medium",
+  "funding_model": [
+    "donations",
+    "grants"
+  ],
+  "known_funders": [
+    "Wikimedia Foundation"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "Wikimedia Foundation annual budget allocation 2024",
+  "dependency_risks": [
+    "Reliance on Wikimedia Foundation infrastructure",
+    "Dependency on volunteer contributor base"
+  ],
+  "news_articles": [
+    "Wikimedia Foundation announces Abstract Wikipedia project (2020)",
+    "Abstract Wikipedia aims to break language barriers in knowledge sharing"
+  ],
+  "academic_citations": [
+    "Wikimedia Foundation research on multilingual knowledge representation"
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": [
+    "Page does not currently exist on Meta-Wiki (404 state)"
+  ],
+  "jurisdictional_scope": "International",
+  "failure_modes": [
+    "Early adoption challenges due to complexity of abstract representation",
+    "Limited volunteer contributor base for initial development"
+  ],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Wikimedia Foundation governance policies; community consensus-based editing standards",
+  "contributor_governance": "Volunteer-driven with Wikimedia Foundation oversight; community discussion forums for major decisions",
+  "disparity_tracking": null,
+  "community_ownership": "Community-driven with Wikimedia Foundation stewardship",
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": "Machine learning and natural language processing for language rendering and knowledge representation",
+  "pass2_at": "2026-03-09T23:21:34.572Z"
+}

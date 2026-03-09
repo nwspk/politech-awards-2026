@@ -1,0 +1,131 @@
+{
+  "url": "https://www.gov.uk/service-manual",
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "GOV.UK Service Manual",
+  "tagline": "Helping teams create and run great digital services that meet the Service Standard",
+  "project_type": "government digital standards framework and guidance resource",
+  "org_type": "government agency",
+  "issue_area": [
+    "digital government",
+    "public service delivery",
+    "accessibility",
+    "user research",
+    "agile delivery",
+    "technology standards"
+  ],
+  "sdg_alignment": [
+    "SDG 16 - Peace, Justice and Strong Institutions",
+    "SDG 9 - Industry, Innovation and Infrastructure"
+  ],
+  "decade_plus": true,
+  "geography": "United Kingdom",
+  "countries_deployed": [
+    "GB"
+  ],
+  "communities_served": [
+    "UK government service teams",
+    "civil servants",
+    "government contractors",
+    "public sector digital practitioners"
+  ],
+  "political_units": [
+    "UK central government",
+    "UK devolved administrations (advisory)"
+  ],
+  "open_source": true,
+  "github_url": "https://github.com/alphagov/service-manual-publisher",
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "online guidance",
+    "standards framework",
+    "community of practice"
+  ],
+  "founded_year": 2013,
+  "team_size": null,
+  "funding_model": [
+    "government budget"
+  ],
+  "known_funders": [
+    "UK Government (Cabinet Office / DSIT)"
+  ],
+  "funding_verified": true,
+  "last_funding_event": null,
+  "dependency_risks": [
+    "UK government policy changes",
+    "machinery of government reorganisations (GDS moved to DSIT 2024)",
+    "political appetite for digital reform"
+  ],
+  "news_articles": [
+    {
+      "headline": "Introducing the next stage of the Service Manual",
+      "outlet": "Government Digital Service Blog",
+      "date": "2016-12-19",
+      "url": "https://gds.blog.gov.uk/2016/12/19/introducing-the-next-stage-of-the-service-manual/"
+    }
+  ],
+  "academic_citations": [
+    "The Case of the UK's Government Digital Service: The Professionalisation of a Paradigmatic Public Digital Agency. Digital Government: Research and Practice. ACM. 2023."
+  ],
+  "awards": [],
+  "in_civictech_guide": null,
+  "wikipedia_page": true,
+  "policy_outcomes": [
+    {
+      "description": "GOV.UK consolidation of 1,700 government websites saved over \u00a370 million per year in hosting costs",
+      "link": "https://www.gov.uk/government/publications/state-of-digital-government-review/state-of-digital-government-review",
+      "year": 2023
+    },
+    {
+      "description": "UK ranked 3rd in OECD 2023 digital government index; GOV.UK cited as an exemplar; Service Manual standards credited as foundational",
+      "link": "https://www.gov.uk/government/publications/state-of-digital-government-review/state-of-digital-government-review",
+      "year": 2023
+    },
+    {
+      "description": "Service Standard applied to all large government digital services from April 2014, structuring assessment and delivery of hundreds of public services",
+      "link": "https://www.gov.uk/service-manual/service-standard",
+      "year": 2014
+    }
+  ],
+  "causation_strength": "correlated",
+  "outcome_methodology": "government audits, OECD benchmarking, service assessment pass/fail records",
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": true,
+  "documented_limitations": [
+    "applies primarily to UK central government; adoption in local government is advisory only",
+    "47% of central government services still lack a digital pathway as of 2025"
+  ],
+  "jurisdictional_scope": "national",
+  "failure_modes": [
+    "political deprioritisation of digital reform",
+    "resource cuts to GDS",
+    "departments bypassing assessment processes"
+  ],
+  "governance_model": "government-owned; maintained by Central Digital and Data Office (CDDO) and GDS within DSIT",
+  "curation_criteria": "Content reflects the 14-point Service Standard; updated via community consultation and GDS editorial process",
+  "contributor_governance": "GDS/CDDO editorial team with community-of-practice input; public GitHub repository accepts contributions",
+  "disparity_tracking": null,
+  "community_ownership": "Crown copyright; open government licence",
+  "controversies": [
+    "Ongoing debate about mandatory vs advisory application to devolved/local government",
+    "GDS influence perceived to have declined post-2016 following senior leadership departures"
+  ],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [
+    {
+      "name": "Central Digital and Data Office (CDDO)",
+      "role": "primary owner of Service Standard from 2021",
+      "country": "UK"
+    },
+    {
+      "name": "Department for Science, Innovation and Technology (DSIT)",
+      "role": "GDS moved to DSIT July 2024",
+      "country": "UK"
+    }
+  ],
+  "ai_involvement": null
+}

@@ -1,0 +1,91 @@
+{
+  "url": "https://ddocs.new/",
+  "collected_at": "2026-03-09T23:18:17.883Z",
+  "collected_by": "collect-enriched-script",
+  "name": "dDocs",
+  "tagline": "Decentralized documentation platform for civic and open governance",
+  "project_type": "Platform",
+  "org_type": "Open Source Community Project",
+  "issue_area": [
+    "Government Transparency",
+    "Open Data",
+    "Civic Engagement"
+  ],
+  "sdg_alignment": [
+    "SDG 16: Peace, Justice and Strong Institutions",
+    "SDG 17: Partnerships for the Goals"
+  ],
+  "decade_plus": false,
+  "geography": "Global",
+  "countries_deployed": [
+    "Multiple"
+  ],
+  "communities_served": [
+    "Civic technologists",
+    "Government transparency advocates",
+    "Open data communities"
+  ],
+  "political_units": "Multiple jurisdictions",
+  "open_source": true,
+  "github_url": null,
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": "Web-based platform",
+  "founded_year": null,
+  "team_size": null,
+  "funding_model": "Community-driven / Open source",
+  "known_funders": null,
+  "funding_verified": false,
+  "last_funding_event": null,
+  "dependency_risks": "Limited information available on project sustainability and maintenance",
+  "news_articles": null,
+  "academic_citations": [
+    {
+      "title": "Effect of DMDF on the PM emission from a turbo-charged diesel engine with DDOC and DPOC",
+      "year": 2015,
+      "cited_by": 46,
+      "doi": "https://doi.org/10.1016/j.apenergy.2015.03.030"
+    },
+    {
+      "title": "Detection of Distributed Denial of Charge (DDoC) Attacks Using Deep Neural Networks With Vector Embedding",
+      "year": 2023,
+      "cited_by": 20,
+      "doi": "https://doi.org/10.1109/access.2023.3296562"
+    },
+    {
+      "title": "Aspirin inhibits RANKL-induced osteoclast differentiation in dendritic cells by suppressing NF-κB and NFATc1 activation",
+      "year": 2019,
+      "cited_by": 93,
+      "doi": "https://doi.org/10.1186/s13287-019-1500-x"
+    }
+  ],
+  "awards": null,
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": null,
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": null,
+  "preregistered_studies": null,
+  "published_performance_metrics": null,
+  "documented_limitations": null,
+  "jurisdictional_scope": "Global",
+  "failure_modes": null,
+  "governance_model": "Open source community governance",
+  "curation_criteria": null,
+  "contributor_governance": "Community contributions",
+  "disparity_tracking": null,
+  "community_ownership": true,
+  "controversies": null,
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": null,
+  "government_partnerships": null,
+  "ai_involvement": null,
+  "pass2_at": "2026-03-09T23:21:21.297Z",
+  "pass3_at": "2026-03-09T23:22:15.896Z",
+  "_sources": [
+    "openalex",
+    "civictech-guide-api"
+  ]
+}

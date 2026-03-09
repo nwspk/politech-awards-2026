@@ -1,0 +1,100 @@
+{
+  "url": "https://www.shareddigitalguides.org.uk",
+  "collected_at": "2026-03-09T23:21:00.938Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Shared Digital Guides",
+  "tagline": "Non-profit organisations share step-by-step guides to using digital tools for social good",
+  "project_type": "Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "govtech",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions",
+    "SDG 17 – Partnerships for the Goals"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "non-profit organisations",
+    "charities",
+    "social enterprises"
+  ],
+  "political_units": [
+    "national"
+  ],
+  "open_source": "partial",
+  "github_url": null,
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "platform",
+    "database"
+  ],
+  "founded_year": null,
+  "team_size": "small",
+  "funding_model": [
+    "grants"
+  ],
+  "known_funders": [
+    "CAST"
+  ],
+  "funding_verified": true,
+  "last_funding_event": null,
+  "dependency_risks": [
+    "Dependency on CAST for ongoing maintenance and support"
+  ],
+  "news_articles": [],
+  "academic_citations": [
+    {
+      "title": "Touring Machines: Guide Agents for Sharing Stories about Digital Places",
+      "year": 1999,
+      "cited_by": 20,
+      "doi": null
+    },
+    {
+      "title": "Smart cities: big data, civic hackers, and the quest for a new utopia",
+      "year": 2014,
+      "cited_by": 1599,
+      "doi": "https://doi.org/10.5860/choice.51-3557"
+    },
+    {
+      "title": "IDEAS (Integrate, Design, Assess, and Share): A Framework and Toolkit of Strategies for the Development of More Effective Digital Interventions to Change Health Behavior",
+      "year": 2016,
+      "cited_by": 407,
+      "doi": "https://doi.org/10.2196/jmir.5927"
+    }
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": null,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": [],
+  "jurisdictional_scope": "United Kingdom",
+  "failure_modes": [],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Community-contributed guides curated by CAST for quality and relevance to non-profit digital tool adoption",
+  "contributor_governance": "Open contribution model with CAST editorial oversight",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:47.462Z",
+  "pass3_at": "2026-03-09T23:23:29.825Z",
+  "_sources": [
+    "openalex"
+  ]
+}

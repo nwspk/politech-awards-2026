@@ -1,0 +1,128 @@
+{
+  "url": "https://murmurations.network",
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "Murmurations Protocol",
+  "tagline": "Making movements visible — a distributed data sharing protocol to facilitate collaboration at scale",
+  "project_type": "protocol / infrastructure",
+  "org_type": "nonprofit",
+  "issue_area": [
+    "decentralised data infrastructure",
+    "regenerative economy",
+    "cooperative mapping",
+    "civil society coordination"
+  ],
+  "sdg_alignment": [
+    "SDG 17: Partnerships for the Goals",
+    "SDG 10: Reduced Inequalities",
+    "SDG 8: Decent Work and Economic Growth"
+  ],
+  "decade_plus": false,
+  "geography": "Global",
+  "countries_deployed": [
+    "United Kingdom",
+    "United States",
+    "Canada",
+    "Australia",
+    "Germany",
+    "Netherlands",
+    "Spain",
+    "France"
+  ],
+  "communities_served": [
+    "cooperatives",
+    "regenerative economy networks",
+    "civil society organisations",
+    "community mapping projects"
+  ],
+  "political_units": [
+    "Global networks",
+    "Regional cooperative networks"
+  ],
+  "open_source": true,
+  "github_url": "https://github.com/MurmurationsNetwork/MurmurationsProtocol",
+  "github_stars": 10,
+  "last_commit_date": "2026-03-08",
+  "format": [
+    "open protocol",
+    "API",
+    "WordPress plugin",
+    "index service"
+  ],
+  "founded_year": 2020,
+  "team_size": 5,
+  "funding_model": [
+    "grants",
+    "donations",
+    "community support"
+  ],
+  "known_funders": [
+    "Shuttleworth Foundation",
+    "Mozilla Foundation",
+    "Open Society Foundations"
+  ],
+  "funding_verified": false,
+  "last_funding_event": "2024",
+  "dependency_risks": [
+    "low GitHub star count suggesting limited adoption",
+    "small maintainer team",
+    "index service availability"
+  ],
+  "news_articles": [],
+  "academic_citations": [
+    {
+      "title": "Murmuration Inspired Clustering Protocol for Underwater Wireless Sensor Networks",
+      "year": 2018,
+      "cited_by": 11,
+      "doi": "https://doi.org/10.1109/icc.2018.8422175"
+    },
+    {
+      "title": "Bruce treadmill test in children: Normal values in a clinic population",
+      "year": 1978,
+      "cited_by": 371,
+      "doi": "https://doi.org/10.1016/0002-9149(78)90134-0"
+    },
+    {
+      "title": "Nonsurgical closure of patent ductus arteriosus: clinical application of the Rashkind PDA Occluder System.",
+      "year": 1987,
+      "cited_by": 415,
+      "doi": "https://doi.org/10.1161/01.cir.75.3.583"
+    }
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": false,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": [
+    "Limited adoption metrics",
+    "Index service dependency",
+    "Schema standardization challenges"
+  ],
+  "jurisdictional_scope": "global",
+  "failure_modes": [
+    "index service outage",
+    "schema fragmentation",
+    "low adoption creating thin network effects"
+  ],
+  "governance_model": "Open source project under MurmurationsNetwork GitHub org; GPL-3.0 licensed",
+  "curation_criteria": "Profiles self-declared by participants using defined schemas; aggregators query the index",
+  "contributor_governance": "Open source; contributions via GitHub",
+  "disparity_tracking": false,
+  "community_ownership": "Protocol is open; index operated by Murmurations org",
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:34.666Z",
+  "pass3_at": "2026-03-09T23:22:47.205Z",
+  "_sources": [
+    "openalex"
+  ]
+}

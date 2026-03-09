@@ -1,0 +1,123 @@
+{
+  "url": "https://societyforhopefultechnologists.org",
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "Society for Hopeful Technologists",
+  "tagline": "For everyone who wants technologies to work for people and planet.",
+  "project_type": "solidarity network / advocacy community",
+  "org_type": "informal network (membership launch planned 2026)",
+  "issue_area": [
+    "ethical technology",
+    "tech worker advocacy",
+    "digital rights",
+    "environmental sustainability",
+    "social justice in tech"
+  ],
+  "sdg_alignment": [
+    "SDG 9: Industry, Innovation and Infrastructure",
+    "SDG 10: Reduced Inequalities",
+    "SDG 13: Climate Action"
+  ],
+  "decade_plus": false,
+  "geography": "United Kingdom (primary); global aspiration",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "tech workers",
+    "progressive technologists",
+    "civic technologists",
+    "ethically-minded developers"
+  ],
+  "political_units": [
+    "United Kingdom"
+  ],
+  "open_source": false,
+  "github_url": null,
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "online community",
+    "newsletter",
+    "Signal group",
+    "in-person events"
+  ],
+  "founded_year": 2025,
+  "team_size": "volunteer organising committee",
+  "funding_model": [
+    "volunteer-run",
+    "membership (forthcoming)"
+  ],
+  "known_funders": [],
+  "funding_verified": false,
+  "last_funding_event": null,
+  "dependency_risks": [
+    "entirely volunteer-run",
+    "membership model not yet launched",
+    "dependent on founder Rachel Coldicutt's network"
+  ],
+  "news_articles": [
+    {
+      "headline": "A Union for Hopeful Technologists",
+      "outlet": "Just Enough Internet (Rachel Coldicutt newsletter, Buttondown)",
+      "date": "2025-02-27",
+      "url": "https://buttondown.com/justenoughinternet/archive/a-union-for-hopeful-technologists/"
+    }
+  ],
+  "academic_citations": [
+    {
+      "title": "Recommendations for Comprehensive Stroke Centers",
+      "year": 2005,
+      "cited_by": 580,
+      "doi": "https://doi.org/10.1161/01.str.0000170622.07210.b4"
+    },
+    {
+      "title": "The Role of Nutrition Education in Combating Food Fads",
+      "year": 1961,
+      "cited_by": 2,
+      "doi": "https://doi.org/10.1001/jama.1961.03040190079044"
+    },
+    {
+      "title": "Monitoring vascular surgical performance",
+      "year": 1991,
+      "cited_by": 3,
+      "doi": "https://doi.org/10.1016/0741-5214(91)90315-l"
+    }
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": false,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": false,
+  "preregistered_studies": [],
+  "published_performance_metrics": "2025 survey of 522 UK tech workers: 98% don't feel represented by leading industry voices; only 15% comfortable raising concerns",
+  "documented_limitations": [
+    "UK-centric so far",
+    "no formal governance structure yet",
+    "membership not yet launched"
+  ],
+  "jurisdictional_scope": "United Kingdom (primary)",
+  "failure_modes": [
+    "volunteer burnout",
+    "failure to formalise governance",
+    "loss of momentum without formal membership structure"
+  ],
+  "governance_model": "volunteer organising committee; charter-based; independent of party politics and commercial interests",
+  "curation_criteria": "community-shaped vision; charter-based principles focused on ethical technology and worker representation",
+  "contributor_governance": "open Signal group for organisers; newsletter-based community",
+  "disparity_tracking": false,
+  "community_ownership": "community-shaped; over 100 Hopeful Technologists contributed to the vision",
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": null,
+  "pass2_at": "2026-03-09T23:21:41.483Z",
+  "pass3_at": "2026-03-09T23:23:10.485Z",
+  "_sources": [
+    "openalex"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "url": "https://www.tech.gov.sg",
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "GovTech Singapore",
+  "tagline": "Singapore's statutory board driving digital government \u2014 engineering tech products and services for public agencies and citizens",
+  "project_type": "Organization",
+  "org_type": "Government/public sector",
+  "issue_area": [
+    "govtech",
+    "digital_rights",
+    "emerging_tech",
+    "cybersecurity"
+  ],
+  "sdg_alignment": [
+    "SDG 9",
+    "SDG 16",
+    "SDG 17"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "Singapore"
+  ],
+  "communities_served": [
+    "Singapore residents",
+    "Singapore businesses",
+    "Singapore public agencies"
+  ],
+  "political_units": [
+    "federal"
+  ],
+  "open_source": "partial",
+  "github_url": "https://github.com/GovTechSG",
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "platform",
+    "api",
+    "app"
+  ],
+  "founded_year": 2016,
+  "team_size": "large",
+  "funding_model": [
+    "public_funding"
+  ],
+  "known_funders": [
+    "Singapore government"
+  ],
+  "funding_verified": true,
+  "last_funding_event": null,
+  "dependency_risks": [
+    "single-nation scope limits portability",
+    "government policy changes"
+  ],
+  "news_articles": [],
+  "academic_citations": [],
+  "awards": [],
+  "in_civictech_guide": null,
+  "wikipedia_page": true,
+  "policy_outcomes": [
+    {
+      "description": "Singpass digital identity system serves all residents; MyInfo data-sharing reduces form-filling across government and private sector",
+      "link": "https://www.tech.gov.sg",
+      "year": null
+    },
+    {
+      "description": "TraceTogether contact tracing deployed at national scale during COVID-19 pandemic",
+      "link": "https://www.tech.gov.sg",
+      "year": 2020
+    }
+  ],
+  "causation_strength": "directly_cited",
+  "outcome_methodology": null,
+  "replication_materials_available": false,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": [
+    "limited to Singapore jurisdiction",
+    "TraceTogether raised civil liberties concerns over data use by police"
+  ],
+  "jurisdictional_scope": "national",
+  "failure_modes": [
+    "data misuse (TraceTogether police access controversy)",
+    "vendor lock-in",
+    "centralisation risks"
+  ],
+  "governance_model": "foundation",
+  "curation_criteria": null,
+  "contributor_governance": null,
+  "disparity_tracking": null,
+  "community_ownership": null,
+  "controversies": [
+    "TraceTogether data was accessed by Singapore Police Force despite earlier government assurances it would only be used for contact tracing (2021)"
+  ],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [
+    "all Singapore government ministries and statutory boards"
+  ],
+  "ai_involvement": "Extensive AI use across product portfolio including AI governance frameworks"
+}

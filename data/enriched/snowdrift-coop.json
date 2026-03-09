@@ -1,0 +1,104 @@
+{
+  "url": "https://snowdrift.coop",
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "Snowdrift.coop",
+  "tagline": "Crowdmatching for public goods",
+  "project_type": "funding platform",
+  "org_type": "nonprofit cooperative",
+  "issue_area": [
+    "open source sustainability",
+    "public goods funding",
+    "digital commons",
+    "cooperative economics"
+  ],
+  "sdg_alignment": [
+    "SDG 9: Industry, Innovation and Infrastructure",
+    "SDG 17: Partnerships for the Goals"
+  ],
+  "decade_plus": false,
+  "geography": "global",
+  "countries_deployed": [
+    "United States"
+  ],
+  "communities_served": [
+    "free/libre/open source developers",
+    "digital public goods creators",
+    "open source patrons"
+  ],
+  "political_units": [
+    "United States (federal)"
+  ],
+  "open_source": true,
+  "github_url": "https://codeberg.org/snowdrift/snowdrift",
+  "github_stars": 4,
+  "last_commit_date": "2025-11-20",
+  "format": [
+    "web platform",
+    "crowdfunding",
+    "cooperative membership"
+  ],
+  "founded_year": 2013,
+  "team_size": "small (volunteer + part-time)",
+  "funding_model": [
+    "patron donations",
+    "crowdmatching pledges",
+    "grants",
+    "direct donations"
+  ],
+  "known_funders": [
+    "Aleph Objects Inc.",
+    "Linux Fund",
+    "People Who Give a Damn"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2014 fund-drive (pre-launch sponsors)",
+  "dependency_risks": [
+    "still in alpha",
+    "small team",
+    "slow development pace",
+    "relies on volunteer contributions"
+  ],
+  "news_articles": [
+    "Snowdrift.coop coverage in open source and cooperative economics publications"
+  ],
+  "academic_citations": [
+    "Referenced in public goods funding and cooperative economics literature"
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": false,
+  "policy_outcomes": [],
+  "causation_strength": "not applicable - funding platform without direct policy outcomes",
+  "outcome_methodology": "not applicable",
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": [
+    "Patron count",
+    "Crowdmatching pledge amounts",
+    "Project funding success rates"
+  ],
+  "documented_limitations": [
+    "alpha status — not yet launched full crowdmatching",
+    "outside projects not yet enabled",
+    "small patron base"
+  ],
+  "jurisdictional_scope": "global",
+  "failure_modes": [
+    "coordination failure if patron base stays small",
+    "free-rider problem (the problem it aims to solve)",
+    "sustained underfunding"
+  ],
+  "governance_model": "nonprofit cooperative; steering committee; member governance",
+  "curation_criteria": "projects must be free/libre/open (FLO)",
+  "contributor_governance": "open source; community forum; governance repo on Codeberg",
+  "disparity_tracking": false,
+  "community_ownership": "patron-members co-own the cooperative",
+  "controversies": [],
+  "political_bias_allegations": false,
+  "legal_regulatory_issues": [],
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:41.688Z"
+}

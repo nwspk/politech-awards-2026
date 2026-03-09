@@ -1,0 +1,159 @@
+{
+  "url": "https://www.hotosm.org",
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "Humanitarian OpenStreetMap Team (HOT)",
+  "tagline": "Open mapping for humanitarian response and development \u2014 mapping places home to one billion people",
+  "project_type": "open mapping platform and humanitarian coordination network",
+  "org_type": "nonprofit (US 501(c)(3))",
+  "issue_area": [
+    "humanitarian response",
+    "disaster preparedness",
+    "open data",
+    "mapping and GIS",
+    "climate resilience",
+    "public health",
+    "displacement and migration",
+    "gender equality"
+  ],
+  "sdg_alignment": [
+    "SDG 1 - No Poverty",
+    "SDG 3 - Good Health and Well-Being",
+    "SDG 10 - Reduced Inequalities",
+    "SDG 11 - Sustainable Cities and Communities",
+    "SDG 13 - Climate Action",
+    "SDG 17 - Partnerships for the Goals"
+  ],
+  "decade_plus": true,
+  "geography": "Global",
+  "countries_deployed": [
+    "Global (94+ countries)"
+  ],
+  "communities_served": [
+    "disaster-affected communities",
+    "humanitarian responders",
+    "public health workers",
+    "people in poverty or at risk of disaster",
+    "OpenStreetMap volunteer mappers"
+  ],
+  "political_units": [
+    "UN agencies",
+    "national governments in Global South",
+    "local governments"
+  ],
+  "open_source": true,
+  "github_url": "https://github.com/hotosm",
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "mapping platform",
+    "tasking manager tool",
+    "volunteer coordination",
+    "data exports",
+    "training programmes",
+    "regional hubs"
+  ],
+  "founded_year": 2010,
+  "team_size": "50-200",
+  "funding_model": [
+    "grants",
+    "fee-for-service",
+    "philanthropic donations"
+  ],
+  "known_funders": [
+    "USAID",
+    "World Bank",
+    "The Audacious Project",
+    "American Red Cross",
+    "British Red Cross",
+    "M\u00e9decins Sans Fronti\u00e8res"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "Audacious Project grant announced 2020",
+  "dependency_risks": [
+    "heavy reliance on USAID funding (effectively severed from early 2025 due to US foreign aid cuts)",
+    "volunteer community sustainability",
+    "OpenStreetMap platform dependency"
+  ],
+  "news_articles": [
+    {
+      "headline": "HOT receives Audacious Project funding to map one billion people",
+      "outlet": "HOT Website",
+      "date": "2020-06-29",
+      "url": "https://www.hotosm.org/updates/audacious-announcement/"
+    }
+  ],
+  "academic_citations": [
+    "The evolution of humanitarian mapping within the OpenStreetMap community. Scientific Reports. 2021. https://www.nature.com/articles/s41598-021-82404-z"
+  ],
+  "awards": [
+    "Audacious Project 2020 grantee"
+  ],
+  "in_civictech_guide": null,
+  "wikipedia_page": true,
+  "policy_outcomes": [
+    {
+      "description": "HOT volunteer maps used by US Marine Corps for search and rescue in Haiti earthquake 2010",
+      "link": "https://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team/History",
+      "year": 2010
+    },
+    {
+      "description": "OpenStreetMap data contributed to 95% measles vaccination rate in DRC and 27% improvement in tracking patients during Ebola response in Sierra Leone",
+      "link": "https://www.audaciousproject.org/grantees/humanitarian-openstreetmap-team",
+      "year": 2018
+    },
+    {
+      "description": "Missing Maps project (co-founded 2014) engaged 150,000+ mappers to pre-emptively map vulnerable communities for humanitarian preparedness",
+      "link": "https://www.missingmaps.org",
+      "year": 2014
+    }
+  ],
+  "causation_strength": "correlated",
+  "outcome_methodology": "partner organisation reporting, field evaluations, vaccination and disease response tracking data",
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": true,
+  "documented_limitations": [
+    "data quality varies by region and volunteer density",
+    "mapping coverage uneven \u2014 urban bias",
+    "sustainability concerns following US aid cuts 2025",
+    "fee-for-service model concentrated ~70% of budget on partner delivery vs community investment"
+  ],
+  "jurisdictional_scope": "global",
+  "failure_modes": [
+    "loss of major funders (USAID dependency)",
+    "OpenStreetMap community fragmentation",
+    "data staleness in low-activity regions",
+    "volunteer burnout"
+  ],
+  "governance_model": "501(c)(3) with voting membership, elected board, staff, and four regional Open Mapping Hubs",
+  "curation_criteria": "Humanitarian and development mapping projects prioritised; Tasking Manager coordinates volunteer mapping tasks",
+  "contributor_governance": "Voting members elect board; open volunteer contributor model via OpenStreetMap and Tasking Manager",
+  "disparity_tracking": true,
+  "community_ownership": "Data published to OpenStreetMap (ODbL licence); tools open source under various licences",
+  "controversies": [
+    "Heavy USAID dependency described as structural risk; aid cuts in 2025 created significant financial uncertainty",
+    "Criticism that ~8% community investment vs 70% fee-for-service delivery created imbalance in mission alignment"
+  ],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [
+    {
+      "name": "USAID",
+      "role": "major funder of mapping programmes",
+      "country": "US"
+    },
+    {
+      "name": "World Bank",
+      "role": "project donor",
+      "country": "international"
+    },
+    {
+      "name": "UN OCHA",
+      "role": "humanitarian coordination partner",
+      "country": "international"
+    }
+  ],
+  "ai_involvement": "fAIr \u2014 AI-assisted mapping tool developed by HOT using machine learning for feature detection from satellite imagery"
+}
