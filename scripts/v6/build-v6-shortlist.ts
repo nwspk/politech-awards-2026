@@ -15,9 +15,9 @@
  *     filters noise while keeping a rich, genuinely contested shortlist for deliberation.
  *     Chosen to cast a wide net so juries can meaningfully disagree.
  *
- * Usage:
- *   npx tsx scripts/build-v6-shortlist.ts
- *   npx tsx scripts/build-v6-shortlist.ts --out cache/pilot-shortlist.json
+ * Usage (from repo root):
+ *   npx tsx scripts/v6/build-v6-shortlist.ts
+ *   npx tsx scripts/v6/build-v6-shortlist.ts --out cache/pilot-shortlist.json
  */
 
 import fs from "fs";
