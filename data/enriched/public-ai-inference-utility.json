@@ -1,0 +1,110 @@
+{
+  "url": "https://publicai.co/",
+  "collected_at": "2026-03-09T23:20:31.494Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Public AI Inference Utility",
+  "tagline": "A public access point for public and sovereign AI models",
+  "project_type": "Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "emerging_tech",
+    "digital_rights"
+  ],
+  "sdg_alignment": [
+    "SDG 9: Industry, Innovation and Infrastructure",
+    "SDG 10: Reduced Inequalities"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "Switzerland"
+  ],
+  "communities_served": [
+    "developers",
+    "researchers",
+    "public institutions"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/PublicAI/inference-utility",
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "api",
+    "platform"
+  ],
+  "founded_year": 2025,
+  "team_size": "small",
+  "funding_model": [
+    "public_funding"
+  ],
+  "known_funders": [
+    "Swiss government institutions",
+    "European public research funding"
+  ],
+  "funding_verified": false,
+  "last_funding_event": null,
+  "dependency_risks": [
+    "Reliance on partner institutions for models and compute",
+    "Open source sustainability model"
+  ],
+  "news_articles": [],
+  "academic_citations": [
+    {
+      "title": "OrthoFinder: solving fundamental biases in whole genome comparisons dramatically improves orthogroup inference accuracy",
+      "year": 2015,
+      "cited_by": 3837,
+      "doi": "https://doi.org/10.1186/s13059-015-0721-2"
+    },
+    {
+      "title": "Performance of ChatGPT on USMLE: Potential for AI-assisted medical education using large language models",
+      "year": 2023,
+      "cited_by": 3305,
+      "doi": "https://doi.org/10.1371/journal.pdig.0000198"
+    },
+    {
+      "title": "Machine learning and deep learning",
+      "year": 2021,
+      "cited_by": 2297,
+      "doi": "https://doi.org/10.1007/s12525-021-00475-2"
+    }
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": [
+    "Project launched September 2025, very recent"
+  ],
+  "jurisdictional_scope": "International",
+  "failure_modes": [],
+  "governance_model": "nonprofit",
+  "curation_criteria": "Open source contribution standards; models must be public and sovereign AI systems",
+  "contributor_governance": "Open source contribution model via pull requests",
+  "disparity_tracking": false,
+  "community_ownership": true,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [
+    {
+      "partner": "Leading public institutions and national labs",
+      "nature": "Model and compute provision",
+      "country": "Multiple"
+    }
+  ],
+  "ai_involvement": "Core technology - provides inference utility for open-source language models including Apertus",
+  "pass2_at": "2026-03-09T23:21:38.666Z",
+  "pass3_at": "2026-03-09T23:23:00.468Z",
+  "_sources": [
+    "openalex"
+  ]
+}

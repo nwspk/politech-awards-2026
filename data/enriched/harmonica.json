@@ -1,0 +1,124 @@
+{
+  "url": "https://harmonica.chat/",
+  "collected_at": "2026-03-09T23:19:59.234Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Harmonica",
+  "tagline": "AI-powered facilitation platform for conversational surveys and stakeholder engagement",
+  "project_type": "Tool/Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "participatory_democracy",
+    "govtech",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "France",
+    "Finland",
+    "Multiple (unspecified)"
+  ],
+  "communities_served": [
+    "teams",
+    "organizations",
+    "governance bodies",
+    "peacemaking organizations",
+    "educational institutions"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "no",
+  "github_url": null,
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "platform",
+    "api"
+  ],
+  "founded_year": null,
+  "team_size": "small",
+  "funding_model": [
+    "donations",
+    "subscriptions"
+  ],
+  "known_funders": [],
+  "funding_verified": false,
+  "last_funding_event": null,
+  "dependency_risks": [
+    "Proprietary AI model dependency",
+    "Single platform reliance"
+  ],
+  "news_articles": [],
+  "academic_citations": [
+    {
+      "title": "Acoustics of the glass harmonica",
+      "year": 1991,
+      "cited_by": 38,
+      "doi": "https://doi.org/10.1121/1.2029857"
+    },
+    {
+      "title": "Harmonica: A Framework of Heterogeneous Computing Systems With Memristor-Based Neuromorphic Computing Accelerators",
+      "year": 2016,
+      "cited_by": 70,
+      "doi": "https://doi.org/10.1109/tcsi.2016.2529279"
+    },
+    {
+      "title": "Acoustics of the glass harmonica",
+      "year": 1994,
+      "cited_by": 37,
+      "doi": "https://doi.org/10.1121/1.408458"
+    }
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [],
+  "causation_strength": "anecdotal",
+  "outcome_methodology": null,
+  "replication_materials_available": false,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": [
+    "No independent verification of impact claims",
+    "Limited public documentation of methodology",
+    "Testimonials provided but no third-party validation"
+  ],
+  "jurisdictional_scope": "International",
+  "failure_modes": [],
+  "governance_model": "LLC",
+  "curation_criteria": null,
+  "contributor_governance": null,
+  "disparity_tracking": null,
+  "community_ownership": false,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [
+    {
+      "partner": "CMI - Martti Ahtisaari Peace Foundation",
+      "nature": "Stakeholder engagement for peacemaking strategies",
+      "country": "Finland"
+    },
+    {
+      "partner": "Missions Publiques",
+      "nature": "Facilitation and stakeholder engagement",
+      "country": "France"
+    },
+    {
+      "partner": "ENS-PSL",
+      "nature": "Student workshop on AI governance",
+      "country": "France"
+    }
+  ],
+  "ai_involvement": "Core functionality: AI-powered conversational facilitation, automated insight generation, theme organization, and report generation",
+  "pass2_at": "2026-03-09T23:21:30.856Z",
+  "pass3_at": "2026-03-09T23:22:39.656Z",
+  "_sources": [
+    "openalex"
+  ]
+}

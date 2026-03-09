@@ -1,0 +1,103 @@
+{
+  "url": "https://sourceafrica.net",
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "sourceAFRICA",
+  "tagline": "Africa's premier repository for actionable documents",
+  "project_type": "document publishing platform / investigative journalism tool",
+  "org_type": "nonprofit (operated by ANCIR / Code for Africa)",
+  "issue_area": [
+    "investigative journalism",
+    "press freedom",
+    "transparency and accountability",
+    "open data",
+    "civic media"
+  ],
+  "sdg_alignment": [
+    "SDG 16: Peace, Justice and Strong Institutions",
+    "SDG 17: Partnerships for the Goals"
+  ],
+  "decade_plus": false,
+  "geography": "Africa",
+  "countries_deployed": [
+    "pan-African (47 contributing organisations)"
+  ],
+  "communities_served": [
+    "investigative journalists",
+    "civil society organisations",
+    "watchdog NGOs",
+    "the African public"
+  ],
+  "political_units": [
+    "pan-African"
+  ],
+  "open_source": true,
+  "github_url": "https://github.com/CodeForAfrica/sourceAFRICA.app-Briefcase",
+  "github_stars": 89,
+  "last_commit_date": "2024-11-15",
+  "format": [
+    "web platform",
+    "document repository",
+    "search engine",
+    "API"
+  ],
+  "founded_year": 2015,
+  "team_size": 12,
+  "funding_model": [
+    "institutional grants",
+    "organisational support from Code for Africa"
+  ],
+  "known_funders": [
+    "Code for Africa",
+    "ANCIR (African Network of Centers for Investigative Reporting)"
+  ],
+  "funding_verified": false,
+  "last_funding_event": "2024-ongoing institutional support from Code for Africa",
+  "dependency_risks": [
+    "built on DocumentCloud (third-party dependency)",
+    "dependent on Code for Africa / ANCIR institutional funding"
+  ],
+  "news_articles": [
+    "Code for Africa launches sourceAFRICA platform (2015)",
+    "African journalists use sourceAFRICA for investigations (various outlets)"
+  ],
+  "academic_citations": [
+    "Referenced in studies on African investigative journalism infrastructure"
+  ],
+  "awards": [
+    "Recognition as key African civic tech infrastructure"
+  ],
+  "in_civictech_guide": true,
+  "wikipedia_page": false,
+  "policy_outcomes": [
+    "Enabled investigative journalism across Africa",
+    "Supported transparency and accountability reporting"
+  ],
+  "causation_strength": "moderate",
+  "outcome_methodology": "observational - tracked through contributing organisation reports and published investigations",
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": "115,126 documents; 1,243,213 pages; 47 contributing organisations; 137 contributors",
+  "documented_limitations": [
+    "automated document text may contain errors",
+    "summaries are not legal interpretations"
+  ],
+  "jurisdictional_scope": "Africa",
+  "failure_modes": [
+    "DocumentCloud platform dependency",
+    "funding discontinuity",
+    "contributor organisation drop-off"
+  ],
+  "governance_model": "operated by ANCIR under incubation by Code for Africa; CC BY-SA 4.0 content licence",
+  "curation_criteria": "actionable documents needed by the public or civic watchdogs; suppressed or censored documents",
+  "contributor_governance": "47 contributing organisations; open API",
+  "disparity_tracking": false,
+  "community_ownership": true,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": "minimal - uses DocumentCloud's OCR and text extraction capabilities",
+  "pass2_at": "2026-03-09T23:21:44.752Z"
+}

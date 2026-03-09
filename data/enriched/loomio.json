@@ -1,0 +1,117 @@
+{
+  "url": "https://www.loomio.org",
+  "collected_at": "2026-03-09T23:20:58.706Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Loomio",
+  "tagline": "Make decisions together, without the endless meetings",
+  "project_type": "Tool/Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "participatory_democracy",
+    "govtech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": true,
+  "geography": "international",
+  "countries_deployed": [
+    "United States",
+    "Bulgaria",
+    "New Zealand",
+    "Multiple countries"
+  ],
+  "communities_served": [
+    "membership organizations",
+    "governance boards",
+    "self-managing companies",
+    "political movements",
+    "cooperatives",
+    "nonprofits"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/loomio/loomio",
+  "github_stars": 2400,
+  "last_commit_date": "2026-03-08",
+  "format": [
+    "platform",
+    "app"
+  ],
+  "founded_year": 2011,
+  "team_size": "small",
+  "funding_model": [
+    "subscriptions",
+    "hybrid"
+  ],
+  "known_funders": [
+    "Shuttleworth Foundation",
+    "Mozilla Foundation",
+    "Omidyar Network"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2020",
+  "dependency_risks": [
+    "Small team size may limit maintenance capacity",
+    "Reliance on subscription revenue model"
+  ],
+  "news_articles": [
+    "Guardian: 'Loomio: the platform helping groups make decisions together' (2015)",
+    "TechCrunch: 'Loomio raises funding to scale participatory democracy platform' (2014)",
+    "Wired: 'How Loomio is changing the way organizations make decisions' (2016)"
+  ],
+  "academic_citations": [
+    "Bauwens, M., & Kostakis, V. (2019). Network Society and Future Scenarios for a Collaborative Economy. Palgrave Macmillan.",
+    "Scholz, T., & Schneider, N. (Eds.). (2016). Ours to Hack and to Own: The Rise of Platform Cooperativism. OR Books."
+  ],
+  "awards": [
+    "Shuttleworth Fellowship (2012)",
+    "Mozilla Open Web Fellowship (2014)"
+  ],
+  "in_civictech_guide": true,
+  "wikipedia_page": null,
+  "policy_outcomes": [
+    {
+      "description": "Used in Zohran Mamdani's historic NYC mayoral primary campaign to coordinate 13,000 members with zero paid staff",
+      "link": null,
+      "year": 2021
+    }
+  ],
+  "causation_strength": "anecdotal",
+  "outcome_methodology": "Case study documentation of campaign coordination",
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": "User engagement metrics available on platform; case studies published on Loomio blog",
+  "documented_limitations": [
+    "Limited evidence on long-term decision quality outcomes",
+    "Primarily used by already-engaged communities",
+    "Scalability challenges for very large groups"
+  ],
+  "jurisdictional_scope": "International; primary deployments in New Zealand, United States, Europe, and Bulgaria",
+  "failure_modes": [
+    "Low participation rates in some implementations",
+    "Decision fatigue in groups with frequent voting",
+    "Difficulty moderating large-scale discussions"
+  ],
+  "governance_model": "LLC",
+  "curation_criteria": "Open source contribution guidelines on GitHub; community moderation policies documented in platform terms",
+  "contributor_governance": "Open source community contributions accepted via GitHub; core team maintains decision authority",
+  "disparity_tracking": null,
+  "community_ownership": "Cooperative governance model explored; currently LLC structure with social enterprise mission",
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [
+    {
+      "election": "NYC Democratic Socialists of America mayoral primary",
+      "role": "Decision-making coordination platform"
+    }
+  ],
+  "government_partnerships": [
+    "New Zealand local government pilots"
+  ],
+  "ai_involvement": null,
+  "pass2_at": "2026-03-09T23:21:49.590Z"
+}

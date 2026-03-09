@@ -1,0 +1,119 @@
+{
+  "url": "https://www.agenciesforgood.org",
+  "collected_at": "2026-03-09T23:20:49.048Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Agencies for Good",
+  "tagline": "A community of tech for good agencies, consultancies and freelancers supporting socially impactful work",
+  "project_type": "Network",
+  "org_type": "Grassroots/indie",
+  "issue_area": [
+    "govtech",
+    "advocacy_tech",
+    "participatory_democracy"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions",
+    "SDG 17 – Partnerships for the Goals"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "tech agencies",
+    "consultancies",
+    "freelancers",
+    "social impact organizations"
+  ],
+  "political_units": [
+    "federal"
+  ],
+  "open_source": false,
+  "github_url": null,
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "platform",
+    "network"
+  ],
+  "founded_year": 2020,
+  "team_size": "small",
+  "funding_model": [
+    "grants",
+    "hybrid"
+  ],
+  "known_funders": [
+    "Catalyst",
+    "Nominet"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "June 2020",
+  "dependency_risks": [
+    "Reliance on volunteer working group leadership",
+    "Dependence on Slack platform for community infrastructure"
+  ],
+  "news_articles": [
+    {
+      "headline": "Agencies for Good: Building Trust, Collaboration, and Innovation in the Tech for Good Sector",
+      "outlet": "Medium / Catalyst",
+      "date": "2023-01-01",
+      "url": "https://medium.com/wethecatalysts/agencies-for-good-building-trust-collaboration-and-innovation-in-the-tech-for-good-sector-398bab74b15e"
+    }
+  ],
+  "academic_citations": [
+    {
+      "title": "Developing agency through good work: Longitudinal effects of job autonomy and skill utilization on locus of control",
+      "year": 2015,
+      "cited_by": 91,
+      "doi": "https://doi.org/10.1016/j.jvb.2015.05.004"
+    },
+    {
+      "title": "The contribution of integrity agencies to good governance",
+      "year": 2012,
+      "cited_by": 34,
+      "doi": "https://doi.org/10.1080/01442872.2011.601200"
+    },
+    {
+      "title": "“It’s been a wonderful life”: accounts of the interplay between structure and agency by “good” university teachers",
+      "year": 2011,
+      "cited_by": 40,
+      "doi": "https://doi.org/10.1007/s10734-011-9445-8"
+    }
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": false,
+  "policy_outcomes": [],
+  "causation_strength": "unknown",
+  "outcome_methodology": null,
+  "replication_materials_available": false,
+  "preregistered_studies": [],
+  "published_performance_metrics": false,
+  "documented_limitations": [
+    "Community-based network with no published impact metrics",
+    "No documented policy influence or civic tech outcomes"
+  ],
+  "jurisdictional_scope": "United Kingdom",
+  "failure_modes": [
+    "volunteer attrition",
+    "platform dependency on Slack",
+    "lack of formal incorporation"
+  ],
+  "governance_model": "cooperative",
+  "curation_criteria": "Tech for good agencies, consultancies, and freelancers committed to socially impactful work",
+  "contributor_governance": "Working group review process for membership",
+  "disparity_tracking": false,
+  "community_ownership": true,
+  "controversies": [],
+  "political_bias_allegations": false,
+  "legal_regulatory_issues": false,
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:43.194Z",
+  "pass3_at": "2026-03-09T23:23:17.629Z",
+  "_sources": [
+    "openalex"
+  ]
+}

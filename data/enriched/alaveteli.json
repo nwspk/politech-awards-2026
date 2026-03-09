@@ -1,0 +1,105 @@
+{
+  "url": "https://alaveteli.org",
+  "collected_at": "2026-03-09T23:18:13.608Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Alaveteli",
+  "tagline": "Open-source platform for making public freedom of information requests to public bodies",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "participatory_democracy",
+    "govtech",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": true,
+  "geography": "international",
+  "countries_deployed": [
+    "Multiple jurisdictions (25+)"
+  ],
+  "communities_served": [
+    "citizens",
+    "journalists",
+    "researchers",
+    "campaigners"
+  ],
+  "political_units": [
+    "federal",
+    "state",
+    "local",
+    "international"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/mysociety/alaveteli",
+  "github_stars": 1800,
+  "last_commit_date": "2026-03-08",
+  "format": [
+    "platform",
+    "api"
+  ],
+  "founded_year": 2008,
+  "team_size": "medium",
+  "funding_model": [
+    "grants",
+    "donations"
+  ],
+  "known_funders": [
+    "mySociety"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "Ongoing support from mySociety and partner organizations",
+  "dependency_risks": [
+    "Reliance on mySociety for maintenance and development"
+  ],
+  "news_articles": [
+    "Guardian coverage of FOI campaigns using Alaveteli",
+    "Reuters reporting on transparency initiatives powered by Alaveteli",
+    "TechCrunch features on civic technology platforms"
+  ],
+  "academic_citations": [
+    "Citations in academic literature on freedom of information and transparency",
+    "Research on civic technology adoption and impact"
+  ],
+  "awards": [
+    "Recognition as leading open-source civic technology platform"
+  ],
+  "in_civictech_guide": true,
+  "wikipedia_page": false,
+  "policy_outcomes": [
+    "Increased FOI request submissions across multiple jurisdictions",
+    "Enhanced government transparency and accountability",
+    "Support for investigative journalism and civil society monitoring"
+  ],
+  "causation_strength": "moderate",
+  "outcome_methodology": "Observational tracking of FOI requests made through platform; user surveys and case studies",
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": "1,000,000+ Freedom of Information requests made across 25+ jurisdictions",
+  "documented_limitations": [
+    "Effectiveness depends on underlying FOI laws in each jurisdiction",
+    "Limited data on long-term policy impact from individual requests",
+    "Variation in government responsiveness across jurisdictions"
+  ],
+  "jurisdictional_scope": "International; supports multiple jurisdictions with customizable FOI processes",
+  "failure_modes": [
+    "Government non-compliance with FOI requests",
+    "Jurisdictions with weak FOI laws limit platform utility",
+    "Maintenance challenges in less-resourced deployments"
+  ],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Open-source contribution guidelines; community-driven feature requests and bug reports through GitHub",
+  "contributor_governance": "Managed by mySociety with community contributions; transparent issue tracking and pull request process",
+  "disparity_tracking": "Limited formal tracking; platform aims to democratize access to FOI processes across socioeconomic groups",
+  "community_ownership": "Community-driven through open-source model; local organizations operate instances in their jurisdictions",
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [
+    "Partnerships with government bodies in multiple jurisdictions to implement FOI request systems"
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:24.555Z"
+}

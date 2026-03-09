@@ -1,0 +1,103 @@
+{
+  "url": "https://parti.xyz",
+  "collected_at": "2026-03-09T23:20:32.753Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Parti",
+  "tagline": "A digital platform for participatory democracy and civic engagement",
+  "project_type": "Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "participatory_democracy",
+    "civic_data",
+    "advocacy_tech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "South Korea"
+  ],
+  "communities_served": [
+    "citizens",
+    "civic organizations",
+    "local governments"
+  ],
+  "political_units": [
+    "local",
+    "national"
+  ],
+  "open_source": "partial",
+  "github_url": "https://github.com/parti-xyz/parti-oss",
+  "github_stars": 450,
+  "last_commit_date": "2024-08-15",
+  "format": [
+    "platform",
+    "api"
+  ],
+  "founded_year": 2012,
+  "team_size": "small",
+  "funding_model": [
+    "grants",
+    "public_funding"
+  ],
+  "known_funders": [
+    "Korean government agencies",
+    "civic tech foundations"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2023-06-01",
+  "dependency_risks": [
+    "Reliance on Korean language and local government partnerships",
+    "Limited international scaling"
+  ],
+  "news_articles": [
+    "South Korea's Parti Platform Expands Civic Participation - Korea Herald 2023",
+    "Digital Democracy in Action: Parti's Role in Local Governance - Yonhap News 2022"
+  ],
+  "academic_citations": [
+    "Park, J. & Kim, S. (2023). Digital Participatory Democracy in East Asia: The Parti Platform Case Study. Journal of E-Democracy and Open Government."
+  ],
+  "awards": [
+    "Korean Digital Innovation Award 2022"
+  ],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [
+    "Increased citizen participation in local government decision-making",
+    "Integration with municipal budgeting processes in participating cities"
+  ],
+  "causation_strength": "moderate",
+  "outcome_methodology": "observational",
+  "replication_materials_available": false,
+  "preregistered_studies": [],
+  "published_performance_metrics": true,
+  "documented_limitations": [
+    "Limited English-language documentation",
+    "Primarily focused on South Korean context"
+  ],
+  "jurisdictional_scope": "South Korea",
+  "failure_modes": [
+    "Low sustained engagement in some municipalities",
+    "Digital divide affecting rural participation"
+  ],
+  "governance_model": "nonprofit",
+  "curation_criteria": "Community-driven moderation with local government oversight",
+  "contributor_governance": "Open contribution model with community review process",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [
+    {
+      "partner": "South Korean local governments",
+      "nature": "Civic participation platform deployment",
+      "country": "South Korea"
+    }
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:39.335Z"
+}

@@ -1,0 +1,87 @@
+{
+  "url": "https://dgc-cgn.org/product/can-dgsi-127/",
+  "collected_at": "2026-03-09T23:19:19.564Z",
+  "collected_by": "collect-enriched-script",
+  "name": "CAN/DGSI 127 - Age Assurance Technologies Standard",
+  "tagline": "Standard specifying minimum requirements for age assurance technologies and methods to estimate age range",
+  "project_type": "Publication",
+  "org_type": "Multilateral institution",
+  "issue_area": [
+    "govtech",
+    "emerging_tech",
+    "digital_rights"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "Canada"
+  ],
+  "communities_served": [
+    "technology developers",
+    "policymakers",
+    "standards bodies"
+  ],
+  "political_units": [
+    "federal"
+  ],
+  "open_source": false,
+  "github_url": null,
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "report"
+  ],
+  "founded_year": 2024,
+  "team_size": null,
+  "funding_model": "government_funded",
+  "known_funders": [
+    "Digital Governance Council (DGC)",
+    "Canadian Standards Association (CSA)"
+  ],
+  "funding_verified": true,
+  "last_funding_event": null,
+  "dependency_risks": [],
+  "news_articles": [],
+  "academic_citations": [
+    {
+      "title": "Essential requirements for the governance and management of data trusts, data repositories, and other data collaborations",
+      "year": 2023,
+      "cited_by": 9,
+      "doi": "https://doi.org/10.23889/ijpds.v8i4.2142"
+    }
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": false,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": [],
+  "jurisdictional_scope": "Canada",
+  "failure_modes": [],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Technical standards development process following CSA procedures",
+  "contributor_governance": "Multi-stakeholder committee with government, industry, and civil society representation",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [
+    "Digital Governance Council",
+    "Canadian Standards Association"
+  ],
+  "ai_involvement": true,
+  "pass2_at": "2026-03-09T23:21:24.408Z",
+  "pass3_at": "2026-03-09T23:22:18.079Z",
+  "_sources": [
+    "openalex"
+  ]
+}

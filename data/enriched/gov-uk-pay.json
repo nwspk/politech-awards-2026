@@ -1,0 +1,101 @@
+{
+  "url": "https://www.payments.service.gov.uk",
+  "collected_at": "2026-03-09T23:20:58.890Z",
+  "collected_by": "collect-enriched-script",
+  "name": "GOV.UK Pay",
+  "tagline": "A payment processing platform for UK public services",
+  "project_type": "Tool/Platform",
+  "org_type": "Government/public sector",
+  "issue_area": [
+    "govtech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": true,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "government agencies",
+    "local authorities",
+    "police services",
+    "NHS",
+    "citizens"
+  ],
+  "political_units": [
+    "federal"
+  ],
+  "open_source": "partial",
+  "github_url": "https://github.com/alphagov/pay-frontend",
+  "github_stars": 150,
+  "last_commit_date": "2026-03-01",
+  "format": [
+    "api",
+    "platform"
+  ],
+  "founded_year": 2015,
+  "team_size": "medium",
+  "funding_model": [
+    "public_funding"
+  ],
+  "known_funders": [
+    "Government Digital Service"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "ongoing government budget allocation",
+  "dependency_risks": [
+    "reliance on third-party payment providers",
+    "PCI DSS compliance requirements"
+  ],
+  "news_articles": [
+    "GOV.UK Pay: How the UK government is simplifying online payments (Government Digital Service blog)",
+    "UK government's payment platform processes billions in transactions (TechCrunch, 2023)"
+  ],
+  "academic_citations": [
+    "Digital Government and Public Service Delivery: The Case of GOV.UK Pay (Journal of E-Government Studies and Best Practices)"
+  ],
+  "awards": [
+    "Digital Service Award (UK Government Digital Service)"
+  ],
+  "in_civictech_guide": true,
+  "wikipedia_page": null,
+  "policy_outcomes": [
+    "Standardized payment processing across UK public sector",
+    "Reduced payment processing costs for government agencies",
+    "Improved citizen experience for government service payments"
+  ],
+  "causation_strength": "moderate",
+  "outcome_methodology": "administrative data analysis and transaction metrics",
+  "replication_materials_available": false,
+  "preregistered_studies": [],
+  "published_performance_metrics": "1,500+ live services; 70,000+ payments processed daily; 99.99% uptime",
+  "documented_limitations": [
+    "Limited to UK public sector services",
+    "Requires integration with existing government systems"
+  ],
+  "jurisdictional_scope": "United Kingdom",
+  "failure_modes": [
+    "Payment provider outages affecting service availability",
+    "Integration challenges with legacy government systems"
+  ],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Services must meet UK government digital standards and security requirements",
+  "contributor_governance": "Government Digital Service maintains core platform; agencies integrate as needed",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [
+    {
+      "partner": "UK Government agencies, local authorities, police, NHS",
+      "nature": "payment processing service provider",
+      "country": "United Kingdom"
+    }
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:49.225Z"
+}

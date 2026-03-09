@@ -1,0 +1,102 @@
+{
+  "url": "https://sobre.ejparticipe.org",
+  "collected_at": "2026-03-09T23:20:34.971Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Empurrando Juntas (EJ)",
+  "tagline": "AI-powered opinion collection platform that segments audiences into personas based on their views",
+  "project_type": "Tool/Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "participatory_democracy",
+    "govtech",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "Brazil"
+  ],
+  "communities_served": [
+    "organizations",
+    "communicators",
+    "government agencies",
+    "institutions"
+  ],
+  "political_units": [
+    "federal",
+    "state",
+    "municipal"
+  ],
+  "open_source": "no",
+  "github_url": null,
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "platform",
+    "api"
+  ],
+  "founded_year": null,
+  "team_size": "small",
+  "funding_model": [
+    "subscriptions"
+  ],
+  "known_funders": [],
+  "funding_verified": false,
+  "last_funding_event": null,
+  "dependency_risks": [
+    "Proprietary platform dependency",
+    "Reliance on third-party integrations (Telegram, WhatsApp, Mautic)"
+  ],
+  "news_articles": [],
+  "academic_citations": [
+    {
+      "title": "O Associativismo faz bem à saúde? O caso das doenças raras",
+      "year": 2018,
+      "cited_by": 15,
+      "doi": "https://doi.org/10.1590/1413-81232018232.24032017"
+    },
+    {
+      "title": "Educação Ambiental pelo Ecoturismo numa trilha marinha no Parque Estadual da Ilha Anchieta, Ubatuba (SP)",
+      "year": 2010,
+      "cited_by": 9,
+      "doi": "https://doi.org/10.34024/rbecotur.2010.v3.5895"
+    },
+    {
+      "title": "BRINQUEDOS ALTERNATIVOS EM ESCOLAS INFANTIS DE UMA CIDADE DO INTERIOR DE SÃO PAULO",
+      "year": 2018,
+      "cited_by": 1,
+      "doi": "https://doi.org/10.4025/jphyseduc.v29i1.2902"
+    }
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [],
+  "causation_strength": "unknown",
+  "outcome_methodology": null,
+  "replication_materials_available": false,
+  "preregistered_studies": [],
+  "published_performance_metrics": false,
+  "documented_limitations": [],
+  "jurisdictional_scope": "Brazil",
+  "failure_modes": [],
+  "governance_model": "LLC",
+  "curation_criteria": null,
+  "contributor_governance": "proprietary",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": "AI-powered persona clustering and opinion segmentation",
+  "pass2_at": "2026-03-09T23:21:40.903Z",
+  "pass3_at": "2026-03-09T23:23:09.979Z",
+  "_sources": [
+    "openalex"
+  ]
+}

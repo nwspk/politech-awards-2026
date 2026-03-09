@@ -1,0 +1,95 @@
+{
+  "url": "https://riseup.net",
+  "collected_at": "2026-03-09T23:20:35.628Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Riseup",
+  "tagline": "Secure online communication tools for people and groups working on liberatory social change",
+  "project_type": "Platform",
+  "org_type": "Grassroots/indie",
+  "issue_area": [
+    "digital_rights",
+    "cybersecurity",
+    "advocacy_tech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": true,
+  "geography": "international",
+  "countries_deployed": [
+    "Multiple (global)"
+  ],
+  "communities_served": [
+    "activists",
+    "social movements",
+    "advocacy organizations",
+    "grassroots groups"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "partial",
+  "github_url": "https://github.com/riseupnet",
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "platform",
+    "api"
+  ],
+  "founded_year": 1999,
+  "team_size": "small",
+  "funding_model": [
+    "donations"
+  ],
+  "known_funders": [
+    "Community donations",
+    "Grassroots fundraising"
+  ],
+  "funding_verified": false,
+  "last_funding_event": "2022-01-06",
+  "dependency_risks": [
+    "Reliance on volunteer labor and donations",
+    "Single point of failure for activist communications infrastructure"
+  ],
+  "news_articles": [
+    "Guardian coverage of encrypted email services",
+    "EFF documentation of Riseup services",
+    "Various activist media outlets"
+  ],
+  "academic_citations": [
+    "Citations in digital rights and cybersecurity literature"
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": null,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": [
+    "Service disruptions documented (network switch outage May 2021, scheduled outages)",
+    "Limited scalability as volunteer-run operation"
+  ],
+  "jurisdictional_scope": "Global, but subject to varying national laws",
+  "failure_modes": [
+    "Infrastructure failures (documented network switch outage 2021)",
+    "Service availability dependent on volunteer capacity"
+  ],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Community-driven, open to activists and social movements aligned with liberatory principles",
+  "contributor_governance": "Volunteer-based collective governance",
+  "disparity_tracking": false,
+  "community_ownership": true,
+  "controversies": [
+    "2012 FBI investigation and server seizure",
+    "Ongoing surveillance and legal pressure from various governments"
+  ],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": "Subject to government surveillance requests and legal challenges in multiple jurisdictions; history of law enforcement action",
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:40.666Z"
+}

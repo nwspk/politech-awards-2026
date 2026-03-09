@@ -1,0 +1,114 @@
+{
+  "url": "https://en.wikipedia.org/wiki/wikipedia:in_the_news",
+  "collected_at": "2026-03-09T23:21:12.530Z",
+  "collected_by": "collect-enriched-script",
+  "name": "In the news",
+  "tagline": "Section of the Main Page directing readers to articles substantially updated to reflect recent or current events of wide interest",
+  "project_type": "content curation platform",
+  "org_type": "volunteer-driven wiki project",
+  "issue_area": [
+    "information access",
+    "news aggregation",
+    "encyclopedic knowledge"
+  ],
+  "sdg_alignment": [
+    "SDG 4 - Quality Education",
+    "SDG 16 - Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "Global",
+  "countries_deployed": [
+    "Global - all countries with Wikipedia access"
+  ],
+  "communities_served": [
+    "Wikipedia readers",
+    "General public"
+  ],
+  "political_units": [
+    "Global"
+  ],
+  "open_source": true,
+  "github_url": null,
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "web portal",
+    "content curation"
+  ],
+  "founded_year": 2001,
+  "team_size": null,
+  "funding_model": [
+    "volunteer-driven"
+  ],
+  "known_funders": [
+    "Wikimedia Foundation"
+  ],
+  "funding_verified": true,
+  "last_funding_event": null,
+  "dependency_risks": [
+    "Dependent on Wikimedia Foundation infrastructure",
+    "Reliant on volunteer editor participation",
+    "Subject to Wikipedia's content policies and consensus requirements"
+  ],
+  "news_articles": [],
+  "academic_citations": [
+    {
+      "title": "The spread of true and false news online",
+      "year": 2018,
+      "cited_by": 7950,
+      "doi": "https://doi.org/10.1126/science.aap9559"
+    },
+    {
+      "title": "Social Media and Fake News in the 2016 Election",
+      "year": 2017,
+      "cited_by": 6377,
+      "doi": "https://doi.org/10.1257/jep.31.2.211"
+    },
+    {
+      "title": "Good News and Bad News: Representation Theorems and Applications",
+      "year": 1981,
+      "cited_by": 3306,
+      "doi": "https://doi.org/10.2307/3003562"
+    }
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": "https://en.wikipedia.org/wiki/wikipedia:in_the_news",
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": null,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": [
+    "Not an online newspaper",
+    "Does not accept original journalism or first-hand reports",
+    "Relies on reliable secondary sources"
+  ],
+  "jurisdictional_scope": "Global",
+  "failure_modes": [
+    "Potential for editorial conflicts over event significance",
+    "Lag time between events and article updates",
+    "Bias toward events in well-covered regions"
+  ],
+  "governance_model": "consensus-based editorial process",
+  "curation_criteria": [
+    "Article quality and updates reflecting recent events",
+    "Wide interest and significance",
+    "Consensus on ITN candidates page"
+  ],
+  "contributor_governance": "volunteer editors and administrators",
+  "disparity_tracking": null,
+  "community_ownership": true,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": null,
+  "pass2_at": "2026-03-09T23:21:25.402Z",
+  "pass3_at": "2026-03-09T23:22:22.193Z",
+  "_sources": [
+    "openalex"
+  ]
+}

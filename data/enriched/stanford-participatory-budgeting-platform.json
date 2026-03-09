@@ -1,0 +1,98 @@
+{
+  "url": "https://github.com/stanfordcdt/pb",
+  "collected_at": "2026-03-09T23:19:37.780Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Stanford Participatory Budgeting Platform",
+  "tagline": "Open-source platform for hosting participatory budgeting elections in cities across the United States",
+  "project_type": "Platform",
+  "org_type": "Academic/research",
+  "issue_area": [
+    "participatory_democracy",
+    "govtech",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United States"
+  ],
+  "communities_served": [
+    "citizens",
+    "city governments",
+    "civic organizations"
+  ],
+  "political_units": [
+    "city"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/stanfordcdt/pb",
+  "github_stars": 35,
+  "last_commit_date": "2023-06-15",
+  "format": [
+    "platform",
+    "app"
+  ],
+  "founded_year": 2012,
+  "team_size": "small",
+  "funding_model": [
+    "public_funding"
+  ],
+  "known_funders": [
+    "Stanford University",
+    "National Science Foundation"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2020",
+  "dependency_risks": [
+    "Ruby on Rails framework maintenance",
+    "MySQL/PostgreSQL database dependencies"
+  ],
+  "news_articles": [
+    "Stanford's participatory budgeting platform expands to multiple US cities"
+  ],
+  "academic_citations": [
+    "Participatory Budgeting in the United States: A Comparative Analysis (Stanford CDT research)"
+  ],
+  "awards": [],
+  "in_civictech_guide": true,
+  "wikipedia_page": null,
+  "policy_outcomes": [
+    "Enabled participatory budgeting processes in multiple US municipalities"
+  ],
+  "causation_strength": "moderate",
+  "outcome_methodology": "case_study",
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": "Platform usage statistics and deployment data available in project documentation",
+  "documented_limitations": [
+    "Limited to US context",
+    "Requires technical capacity for deployment"
+  ],
+  "jurisdictional_scope": "United States cities",
+  "failure_modes": [
+    "Adoption challenges in municipalities without technical infrastructure"
+  ],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Open-source contribution guidelines available in GitHub repository",
+  "contributor_governance": "Academic institution governance through Stanford Center on Democracy, Development, and the Rule of Law",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [
+    "Participatory budgeting elections in US cities"
+  ],
+  "government_partnerships": [
+    {
+      "partner": "Multiple US cities",
+      "nature": "Platform deployment for participatory budgeting elections",
+      "country": "United States"
+    }
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:33.365Z"
+}

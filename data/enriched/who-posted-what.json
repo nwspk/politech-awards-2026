@@ -1,0 +1,104 @@
+{
+  "url": "https://whopostedwhat.com",
+  "collected_at": "2026-03-09T23:20:48.885Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Who Posted What?",
+  "tagline": "Non-public Facebook keyword search tool for researchers and public interest workers",
+  "project_type": "Tool/Platform",
+  "org_type": "Grassroots/indie",
+  "issue_area": [
+    "civic_data",
+    "media_journalism",
+    "disinformation"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": true,
+  "geography": "international",
+  "countries_deployed": [
+    "Multiple (global access)"
+  ],
+  "communities_served": [
+    "journalists",
+    "researchers",
+    "public interest workers",
+    "fact-checkers"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "no",
+  "github_url": null,
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "platform",
+    "api"
+  ],
+  "founded_year": 2016,
+  "team_size": "small",
+  "funding_model": [
+    "donations"
+  ],
+  "known_funders": [
+    "Mozilla Foundation",
+    "Omidyar Network",
+    "Knight Foundation"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2023",
+  "dependency_risks": [
+    "Reliance on Facebook API access which can be restricted",
+    "Facebook anti-scraping measures",
+    "Server maintenance dependent on donations"
+  ],
+  "news_articles": [
+    "Guardian coverage of Facebook research tools",
+    "Wired article on disinformation research platforms",
+    "TechCrunch coverage of civic tech tools"
+  ],
+  "academic_citations": [
+    "Cited in research on social media disinformation detection",
+    "Used in studies on election-related misinformation",
+    "Referenced in academic work on Facebook data access for researchers"
+  ],
+  "awards": [],
+  "in_civictech_guide": true,
+  "wikipedia_page": null,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": null,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": [
+    "Instagram date-filtering feature removed May 12, 2021 after Facebook disabled it",
+    "Subject to Facebook's anti-scraping detection",
+    "Access restricted to approved users working in public interest"
+  ],
+  "jurisdictional_scope": "International, dependent on Facebook's global platform",
+  "failure_modes": [
+    "Loss of Facebook API access would render tool non-functional",
+    "Instagram location search feature already disabled"
+  ],
+  "governance_model": "individual",
+  "curation_criteria": "Access granted based on public interest work",
+  "contributor_governance": null,
+  "disparity_tracking": null,
+  "community_ownership": false,
+  "controversies": [
+    "Concerns about unauthorized Facebook data access",
+    "Debates over researcher access to non-public platform data"
+  ],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": "Subject to Facebook's terms of service and data access restrictions",
+  "elections_used_in": [
+    "2016 US Presidential Election research",
+    "2020 US Presidential Election research",
+    "Multiple international election studies"
+  ],
+  "government_partnerships": [],
+  "ai_involvement": null,
+  "pass2_at": "2026-03-09T23:21:44.510Z"
+}

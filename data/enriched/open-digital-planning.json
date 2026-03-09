@@ -1,0 +1,150 @@
+{
+  "url": "https://opendigitalplanning.org/",
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "Open Digital Planning",
+  "tagline": "Planning services designed by councils for councils — a community of Local Planning Authorities transforming England's digital planning system",
+  "project_type": "Government digital services platform / civic infrastructure",
+  "org_type": "Government-backed community programme (MHCLG); transitioning to independent nonprofit",
+  "issue_area": [
+    "urban planning",
+    "local government",
+    "digital public services",
+    "open data",
+    "housing"
+  ],
+  "sdg_alignment": [
+    "SDG 11 — Sustainable Cities and Communities",
+    "SDG 16 — Peace, Justice and Strong Institutions",
+    "SDG 9 — Industry, Innovation and Infrastructure"
+  ],
+  "decade_plus": false,
+  "geography": "United Kingdom (England)",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "local planning authorities",
+    "council planning officers",
+    "residents",
+    "planning applicants",
+    "developers"
+  ],
+  "political_units": [
+    "local government (Local Planning Authorities in England)",
+    "central government (MHCLG)"
+  ],
+  "open_source": true,
+  "github_url": "https://github.com/theopensystemslab/ripa",
+  "github_stars": 1200,
+  "last_commit_date": "2025-03-08",
+  "format": [
+    "back-office case management software (BOPS)",
+    "planning application submission (PlanX)",
+    "digital planning register",
+    "data platform",
+    "community network"
+  ],
+  "founded_year": 2018,
+  "team_size": 25,
+  "funding_model": [
+    "government grant (MHCLG Local Digital Fund)",
+    "Digital Planning Improvement Fund (£50,000 grants per LPA)"
+  ],
+  "known_funders": [
+    "Ministry of Housing, Communities and Local Government (MHCLG)",
+    "Local Digital Fund"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2025 — 49 additional Local Planning Authorities joined via Digital Planning Improvement Fund; 171 total LPAs now supported",
+  "dependency_risks": [
+    "sustained government funding for MHCLG Digital Planning Programme",
+    "adoption pace of councils",
+    "legislation needed to mandate data standardisation"
+  ],
+  "news_articles": [
+    {
+      "headline": "Open Digital Planning: a cross-sector partnership to transform local planning services",
+      "outlet": "MHCLG Digital Blog",
+      "date": "2025-03-13",
+      "url": "https://mhclgdigital.blog.gov.uk/2025/03/13/open-digital-planning-a-cross-sector-partnership-to-transform-local-planning-services/"
+    }
+  ],
+  "academic_citations": [
+    {
+      "title": "The “All of Us” Research Program",
+      "year": 2019,
+      "cited_by": 2174,
+      "doi": "https://doi.org/10.1056/nejmsr1809937"
+    },
+    {
+      "title": "The Digital Twin: Realizing the Cyber-Physical Production System for Industry 4.0",
+      "year": 2017,
+      "cited_by": 939,
+      "doi": "https://doi.org/10.1016/j.procir.2016.11.152"
+    },
+    {
+      "title": "A digital twin smart city for citizen feedback",
+      "year": 2021,
+      "cited_by": 479,
+      "doi": "https://doi.org/10.1016/j.cities.2020.103064"
+    }
+  ],
+  "awards": [],
+  "in_civictech_guide": true,
+  "wikipedia_page": false,
+  "policy_outcomes": [
+    {
+      "description": "PlanX and BOPS deployed by 100+ Local Planning Authorities across England, cutting planning application processing times by approximately 30% per application",
+      "link": "https://opendigitalplanning.org/products",
+      "year": 2024
+    },
+    {
+      "description": "171 Local Planning Authorities now publishing planning data on the Planning Data Platform via the Digital Planning Improvement Fund",
+      "link": "https://opendigitalplanning.org/insights",
+      "year": 2025
+    }
+  ],
+  "causation_strength": "correlated",
+  "outcome_methodology": "self-reported processing time reductions from participating councils",
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": "30% reduction in processing time per application (self-reported)",
+  "documented_limitations": [
+    "England-specific legislation and planning system; limited international transferability",
+    "requires council political will and digital capability"
+  ],
+  "jurisdictional_scope": "national (England)",
+  "failure_modes": [
+    "government funding withdrawal",
+    "low council adoption outside early cohorts",
+    "inability to achieve legislative mandate for data standards"
+  ],
+  "governance_model": "Community of Local Planning Authorities co-owned by members; MHCLG provides delivery guidance; transitioning to independent not-for-profit entity jointly owned by councils",
+  "curation_criteria": "Open contribution model for councils; product decisions made collaboratively by participating Local Planning Authorities; technical contributions governed via GitHub contribution guidelines",
+  "contributor_governance": "Councils co-own services and contribute to product direction; product decisions made collaboratively by participating LPAs",
+  "disparity_tracking": "Equity considerations embedded in council co-design process; focus on ensuring digital access across diverse council sizes and digital maturity levels; monitoring adoption across urban and rural authorities",
+  "community_ownership": "Moving toward council-owned not-for-profit; councils currently co-direct product strategy",
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [
+    {
+      "partner": "Ministry of Housing, Communities and Local Government (MHCLG)",
+      "description": "Primary funder and coordination partner for the Digital Planning Programme",
+      "country": "UK"
+    },
+    {
+      "partner": "Incubator for Artificial Intelligence (i.AI)",
+      "description": "Co-host of Local Government Innovation Hackathon",
+      "country": "UK"
+    }
+  ],
+  "ai_involvement": "Partnered with i.AI (UK Government Incubator for Artificial Intelligence) for hackathon; AI use in planning data processing under exploration",
+  "pass2_at": "2026-03-09T23:21:40.435Z",
+  "pass3_at": "2026-03-09T23:22:51.718Z",
+  "_sources": [
+    "openalex"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "url": "https://alltechishuman.org/responsible-tech-guide-2025",
+  "collected_at": "2026-03-09T23:17:58.997Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Responsible Tech Guide 2025",
+  "tagline": "Flagship resource providing information, inspiration, and pathways for involvement in the Responsible Tech ecosystem",
+  "project_type": "Publication",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "emerging_tech",
+    "digital_rights",
+    "govtech",
+    "advocacy_tech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions",
+    "SDG 17 – Partnerships for the Goals"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "Multiple (114 countries represented in Slack community)"
+  ],
+  "communities_served": [
+    "technologists",
+    "policymakers",
+    "researchers",
+    "advocates",
+    "civic tech practitioners"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": false,
+  "github_url": null,
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "report",
+    "guide"
+  ],
+  "founded_year": 2024,
+  "team_size": "medium",
+  "funding_model": [
+    "donations",
+    "grants"
+  ],
+  "known_funders": [
+    "All Tech Is Human"
+  ],
+  "funding_verified": true,
+  "last_funding_event": null,
+  "dependency_risks": "Dependent on All Tech Is Human organization for continued publication and maintenance",
+  "news_articles": [],
+  "academic_citations": [
+    {
+      "title": "Internet of Things: A Survey on Enabling Technologies, Protocols, and Applications",
+      "year": 2015,
+      "cited_by": 8108,
+      "doi": "https://doi.org/10.1109/comst.2015.2444095"
+    },
+    {
+      "title": "Nanotechnology in the real world: Redeveloping the nanomaterial consumer products inventory",
+      "year": 2015,
+      "cited_by": 1736,
+      "doi": "https://doi.org/10.3762/bjnano.6.181"
+    },
+    {
+      "title": "Agriculture 4.0: Broadening Responsible Innovation in an Era of Smart Farming",
+      "year": 2018,
+      "cited_by": 584,
+      "doi": "https://doi.org/10.3389/fsufs.2018.00087"
+    }
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": false,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": [],
+  "jurisdictional_scope": "International",
+  "failure_modes": [],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Curated collection of responsible tech resources, organizations, and initiatives vetted by All Tech Is Human editorial team",
+  "contributor_governance": "Managed by All Tech Is Human staff; community submissions reviewed by editorial team",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:21.211Z",
+  "pass3_at": "2026-03-09T23:22:01.031Z",
+  "_sources": [
+    "openalex"
+  ]
+}

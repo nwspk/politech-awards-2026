@@ -1,0 +1,121 @@
+{
+  "url": "https://riversentiment.app",
+  "collected_at": "2026-03-09T23:20:38.914Z",
+  "collected_by": "collect-enriched-script",
+  "name": "River Sentiment Dashboard",
+  "tagline": "Displays social media sentiment about rivers alongside ecological status data for 450+ rivers in the Thames basin",
+  "project_type": "Tool/Platform",
+  "org_type": "Academic/research",
+  "issue_area": [
+    "civic_data",
+    "advocacy_tech"
+  ],
+  "sdg_alignment": [
+    "SDG 6 – Clean Water and Sanitation",
+    "SDG 14 – Life Below Water",
+    "SDG 15 – Life on Land"
+  ],
+  "decade_plus": false,
+  "geography": "regional",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "researchers",
+    "citizens",
+    "environmental advocates",
+    "policymakers"
+  ],
+  "political_units": [
+    "state"
+  ],
+  "open_source": "partial",
+  "github_url": "https://github.com",
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "platform",
+    "database",
+    "api"
+  ],
+  "founded_year": null,
+  "team_size": "small",
+  "funding_model": [
+    "public_funding"
+  ],
+  "known_funders": [
+    "Oxford University",
+    "Thames21"
+  ],
+  "funding_verified": false,
+  "last_funding_event": null,
+  "dependency_risks": [
+    "Reliance on Twitter/X API for data collection",
+    "Dependence on Environment Agency data availability",
+    "NRC Word-Emotion Association Lexicon licensing"
+  ],
+  "news_articles": [],
+  "academic_citations": [
+    {
+      "title": "Toward Scalable Systems for Big Data Analytics: A Technology Tutorial",
+      "year": 2014,
+      "cited_by": 1087,
+      "doi": "https://doi.org/10.1109/access.2014.2332453"
+    },
+    {
+      "title": "Use of Data Visualisation for Zero-Day Malware Detection",
+      "year": 2018,
+      "cited_by": 131,
+      "doi": "https://doi.org/10.1155/2018/1728303"
+    },
+    {
+      "title": "An Artificial Intelligence and NLP based Islamic FinTech Model Combining Zakat and Qardh-Al-Hasan for Countering the Adverse Impact of COVID 19 on SMEs and Individuals",
+      "year": 2020,
+      "cited_by": 150,
+      "doi": "https://doi.org/10.35808/ijeba/466"
+    }
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": false,
+  "preregistered_studies": [],
+  "published_performance_metrics": false,
+  "documented_limitations": [
+    "Limited to English-language tweets",
+    "Requires full river name mention for accurate detection",
+    "Sentiment analysis accuracy dependent on NLP model performance",
+    "Geographic scope limited to Thames basin"
+  ],
+  "jurisdictional_scope": "Thames basin, England",
+  "failure_modes": [
+    "Tweets without full river names may be missed",
+    "Sarcasm and context-dependent sentiment may be misclassified",
+    "Social media sentiment may not represent broader public opinion"
+  ],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": null,
+  "contributor_governance": null,
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "controversies": [],
+  "political_bias_allegations": false,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [
+    {
+      "partner": "Environment Agency",
+      "nature": "Data provider (ecological status, RNAG data)",
+      "country": "United Kingdom"
+    }
+  ],
+  "ai_involvement": "Natural language processing for sentiment analysis and emotion detection using NRC Word-Emotion Association Lexicon",
+  "pass2_at": "2026-03-09T23:21:40.076Z",
+  "pass3_at": "2026-03-09T23:23:06.686Z",
+  "_sources": [
+    "openalex"
+  ]
+}

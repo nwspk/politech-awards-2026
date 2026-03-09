@@ -1,0 +1,134 @@
+{
+  "url": "https://consulproject.org",
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "CONSUL Democracy",
+  "tagline": "The most complete citizen participation tool for an open, transparent and democratic government.",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "participatory_democracy",
+    "govtech"
+  ],
+  "sdg_alignment": [
+    "SDG 16",
+    "SDG 11",
+    "SDG 17"
+  ],
+  "decade_plus": true,
+  "geography": "international",
+  "countries_deployed": [
+    "Spain",
+    "Germany",
+    "Denmark",
+    "Brazil",
+    "Netherlands",
+    "Slovenia",
+    "Uruguay",
+    "Portugal",
+    "United Kingdom",
+    "Greece",
+    "Romania",
+    "Scotland"
+  ],
+  "communities_served": [
+    "municipal governments",
+    "civil society organizations",
+    "citizens"
+  ],
+  "political_units": [
+    "city",
+    "state",
+    "federal"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/consuldemocracy/consuldemocracy",
+  "github_stars": 1523,
+  "last_commit_date": "2026-03-09",
+  "format": [
+    "platform"
+  ],
+  "founded_year": 2015,
+  "team_size": "small",
+  "funding_model": [
+    "grants",
+    "public_funding"
+  ],
+  "known_funders": [
+    "UNDP",
+    "Inter-American Development Bank",
+    "European Commission"
+  ],
+  "funding_verified": false,
+  "last_funding_event": "2025 Digital Public Good Alliance recognition",
+  "dependency_risks": [
+    "small foundation team",
+    "reliance on Certified Companies for revenue"
+  ],
+  "news_articles": [
+    "https://www.theguardian.com/cities/2016/mar/15/madrid-city-60-minute-rule-city-assembly",
+    "https://www.wired.com/2015/12/madrid-is-using-participatory-budgeting-to-let-citizens-decide-how-to-spend-millions/"
+  ],
+  "academic_citations": [
+    "Baiocchi, G., & Ganuza, E. (2017). Popular democracy: The paradox of participation. Stanford University Press.",
+    "Sintomer, Y., Herzberg, C., & Röcke, A. (2016). Participatory budgeting in Europe: Democracy and public governance. Routledge."
+  ],
+  "awards": [
+    "2025 Digital Public Good (DPGA)",
+    "2024 Digital Public Good (DPGA)",
+    "2022 Recommended by Open Government Partnership",
+    "2019 European Commission Sharing & Reuse Award",
+    "2018 United Nations Public Service Award",
+    "2018 OECD Observatory of Public Sector Innovation recognition"
+  ],
+  "in_civictech_guide": true,
+  "wikipedia_page": false,
+  "policy_outcomes": [
+    {
+      "description": "Used by Decide Madrid, the participatory platform for the City of Madrid, enabling binding citizen proposals and participatory budgeting.",
+      "link": "https://decide.madrid.es",
+      "year": 2015
+    },
+    {
+      "description": "UNDP collaboration to develop SDG module for aligning citizen participation with Sustainable Development Goals.",
+      "link": null,
+      "year": 2020
+    }
+  ],
+  "causation_strength": "correlated",
+  "outcome_methodology": "Platform tracks participation metrics including number of proposals, votes cast, and citizen engagement rates; outcomes measured through government adoption rates and participatory budgeting allocations",
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": "~350 governments have used the platform; 'more than 250 cities and organizations' per homepage",
+  "documented_limitations": [
+    "Digital divide: requires internet access and digital literacy",
+    "Language barriers in multilingual deployments",
+    "Varying levels of government commitment to implementing citizen proposals",
+    "Limited data on long-term behavioral change or policy impact"
+  ],
+  "jurisdictional_scope": "global",
+  "failure_modes": [
+    "Low participation rates in some municipalities due to lack of promotion",
+    "Difficulty sustaining engagement over time without institutional support",
+    "Technical barriers for non-technical users"
+  ],
+  "governance_model": "foundation",
+  "curation_criteria": "Open source contribution guidelines under AGPLv3; code review by foundation maintainers; Certified Companies program for commercial implementations",
+  "contributor_governance": "Open source under AGPLv3; Certified Companies contribute code; Foundation maintains core",
+  "disparity_tracking": "Limited documented tracking; platform aims for inclusive participation but equity outcomes not systematically measured across demographics",
+  "community_ownership": "Community-driven development through open source model; local government ownership of implementations; foundation stewardship of core platform",
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [
+    "Madrid",
+    "Munich",
+    "Aarhus",
+    "UNDP",
+    "Inter-American Development Bank",
+    "Open Government Partnership"
+  ],
+  "ai_involvement": "No documented AI or machine learning components in core platform",
+  "pass2_at": "2026-03-09T23:21:26.187Z"
+}

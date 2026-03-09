@@ -1,0 +1,87 @@
+{
+  "url": "https://github.com/vbuterin/dao",
+  "collected_at": "2026-03-09T23:19:43.403Z",
+  "collected_by": "collect-enriched-script",
+  "name": "The DAO (Standard DAO Framework)",
+  "tagline": "A Standard DAO (Decentralized Autonomous Organization) framework written in Solidity",
+  "project_type": "Platform",
+  "org_type": "Grassroots/indie",
+  "issue_area": [
+    "emerging_tech",
+    "participatory_democracy"
+  ],
+  "sdg_alignment": [
+    "SDG 16: Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "international"
+  ],
+  "communities_served": [
+    "developers",
+    "blockchain enthusiasts",
+    "decentralized governance practitioners"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/vbuterin/dao",
+  "github_stars": 31,
+  "last_commit_date": "2016-06-17",
+  "format": [
+    "platform",
+    "api"
+  ],
+  "founded_year": 2016,
+  "team_size": "solo",
+  "funding_model": "unfunded",
+  "known_funders": [],
+  "funding_verified": false,
+  "last_funding_event": null,
+  "dependency_risks": [
+    "Solidity smart contract security vulnerabilities",
+    "Ethereum network dependency",
+    "Historical association with The DAO hack (2016)"
+  ],
+  "news_articles": [
+    "The DAO hack (2016) - widely covered by Reuters, Guardian, Wired, TechCrunch",
+    "Ethereum hard fork decision following The DAO hack"
+  ],
+  "academic_citations": [
+    "Referenced in blockchain governance and smart contract security literature"
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": null,
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": "Smart contract vulnerabilities, governance attack vectors, token holder concentration risks",
+  "jurisdictional_scope": "international",
+  "failure_modes": [
+    "Smart contract vulnerabilities",
+    "Governance attack vectors",
+    "Token holder concentration risks"
+  ],
+  "governance_model": "individual",
+  "curation_criteria": null,
+  "contributor_governance": "individual developer project",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "controversies": [
+    "Associated with The DAO hack of 2016, one of the most significant cryptocurrency security breaches"
+  ],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": [
+    "Regulatory uncertainty around DAO legal status and liability"
+  ],
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:30.045Z"
+}

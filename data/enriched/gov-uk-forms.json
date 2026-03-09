@@ -1,0 +1,118 @@
+{
+  "url": "https://www.forms.service.gov.uk",
+  "name": "GOV.UK Forms",
+  "tagline": "Create accessible online forms for UK government without technical knowledge",
+  "collected_at": "2026-03-09T23:20:51.738Z",
+  "collected_by": "collect-enriched-script",
+  "project_type": "Tool/Platform",
+  "org_type": "Government/public sector",
+  "issue_area": [
+    "govtech",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "central government organisations",
+    "public sector agencies",
+    "citizens"
+  ],
+  "political_units": [
+    "federal"
+  ],
+  "open_source": "partial",
+  "github_url": "https://github.com/alphagov/forms",
+  "github_stars": 156,
+  "last_commit_date": "2026-03-08",
+  "format": [
+    "platform"
+  ],
+  "founded_year": 2022,
+  "team_size": "small",
+  "funding_model": [
+    "public_funding"
+  ],
+  "known_funders": [
+    "Government Digital Service"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2024-04-01",
+  "dependency_risks": [
+    "Reliance on Government Digital Service for maintenance and development"
+  ],
+  "news_articles": [
+    "GOV.UK Forms: Making government forms accessible to all (Government Digital Service blog, 2022)",
+    "UK government launches new forms platform to simplify citizen interactions (Civil Service World, 2022)"
+  ],
+  "academic_citations": [
+    {
+      "title": "Mechanism of rat liver microsomal stearyl-CoA desaturase. Studies of the substrate specificity, enzyme-substrate interactions, and the function of lipid.",
+      "year": 1976,
+      "cited_by": 560,
+      "doi": "https://doi.org/10.1016/s0021-9258(17)33223-4"
+    },
+    {
+      "title": "Effects on the central nervous system of hypernatremic and hyponatremic states",
+      "year": 1976,
+      "cited_by": 338,
+      "doi": "https://doi.org/10.1038/ki.1976.82"
+    },
+    {
+      "title": "Features of 20 133 UK patients in hospital with covid-19 using the ISARIC WHO Clinical Characterisation Protocol: prospective observational cohort study",
+      "year": 2020,
+      "cited_by": 3614,
+      "doi": "https://doi.org/10.1136/bmj.m1985"
+    }
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [
+    "Standardized form creation across UK central government",
+    "Improved accessibility compliance with WCAG 2.1 AA standards",
+    "Reduced form creation costs for government departments"
+  ],
+  "causation_strength": "moderate",
+  "outcome_methodology": "Administrative data tracking from platform usage metrics",
+  "replication_materials_available": false,
+  "preregistered_studies": [],
+  "published_performance_metrics": "78 organisations using GOV.UK Forms; 404 forms (live and archived); 531,364 form submissions since September 2022",
+  "documented_limitations": [
+    "Limited to UK central government use cases",
+    "Requires integration with existing government systems",
+    "Dependent on GDS infrastructure and support"
+  ],
+  "jurisdictional_scope": "United Kingdom central government",
+  "failure_modes": [
+    "Service availability dependent on GDS infrastructure",
+    "Limited customization options for complex form requirements"
+  ],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Forms must comply with UK government digital standards and accessibility requirements",
+  "contributor_governance": "Managed by Government Digital Service; contributions accepted via GitHub with GDS review process",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [
+    {
+      "partner": "Government Digital Service",
+      "nature": "Built and maintained by",
+      "country": "United Kingdom"
+    }
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:45.838Z",
+  "pass3_at": "2026-03-09T23:23:21.344Z",
+  "_sources": [
+    "openalex"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "url": "https://github.com/blacksky-algorithms/rsky",
+  "collected_at": "2026-03-09T23:19:20.418Z",
+  "collected_by": "collect-enriched-script",
+  "name": "rsky",
+  "tagline": "An AT Protocol implementation prioritizing community safety and self-governance, written in Rust",
+  "project_type": "Platform",
+  "org_type": "Grassroots/indie",
+  "issue_area": [
+    "digital_rights",
+    "emerging_tech"
+  ],
+  "sdg_alignment": [
+    "SDG 16: Peace, Justice and Strong Institutions",
+    "SDG 10: Reduced Inequalities"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "United States",
+    "Global"
+  ],
+  "communities_served": [
+    "developers",
+    "platform users"
+  ],
+  "political_units": [
+    "Global"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/blacksky-algorithms/rsky",
+  "github_stars": 626,
+  "last_commit_date": "2024",
+  "format": [
+    "platform",
+    "api"
+  ],
+  "founded_year": 2023,
+  "team_size": "small",
+  "funding_model": "Community-driven/volunteer",
+  "known_funders": [],
+  "funding_verified": false,
+  "last_funding_event": null,
+  "dependency_risks": [
+    "AT Protocol dependency",
+    "Rust ecosystem maintenance"
+  ],
+  "news_articles": [],
+  "academic_citations": [
+    {
+      "title": "Estimation of Sky Thermal Irradiance in Arid Climate under Clear Sky Conditions",
+      "year": 2020,
+      "cited_by": 11,
+      "doi": "https://doi.org/10.1007/s10765-020-02656-1"
+    },
+    {
+      "title": "Pain as a global public health priority",
+      "year": 2011,
+      "cited_by": 1379,
+      "doi": "https://doi.org/10.1186/1471-2458-11-770"
+    },
+    {
+      "title": "Advanced glycation end-products and the progress of diabetic vascular complications.",
+      "year": 2004,
+      "cited_by": 342,
+      "doi": "https://doi.org/10.33549/physiolres.930430"
+    }
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": [
+    "Early-stage implementation",
+    "Limited production deployment",
+    "Dependency on AT Protocol ecosystem maturity"
+  ],
+  "jurisdictional_scope": "International",
+  "failure_modes": [
+    "Protocol incompatibility",
+    "Community moderation challenges",
+    "Scalability limitations"
+  ],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Community-driven moderation and safety standards aligned with AT Protocol principles",
+  "contributor_governance": "Open contribution model with community review",
+  "disparity_tracking": false,
+  "community_ownership": true,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:26.866Z",
+  "pass3_at": "2026-03-09T23:22:25.581Z",
+  "_sources": [
+    "openalex"
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "url": "https://localinsight.org",
+  "collected_at": "2026-03-09T23:20:04.484Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Local Insight",
+  "tagline": "Community and Neighbourhood Data Platform",
+  "project_type": "Tool/Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "civic_data",
+    "govtech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "councils",
+    "grantmakers",
+    "housing associations",
+    "charities",
+    "researchers"
+  ],
+  "political_units": [
+    "local",
+    "state"
+  ],
+  "open_source": "no",
+  "github_url": null,
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "platform",
+    "api",
+    "database",
+    "dashboard"
+  ],
+  "founded_year": 2010,
+  "team_size": "medium",
+  "funding_model": [
+    "subscriptions"
+  ],
+  "known_funders": [],
+  "funding_verified": false,
+  "last_funding_event": null,
+  "dependency_risks": [
+    "Subscription-based model creates dependency on continued funding",
+    "Reliance on third-party data sources for 1500+ indicators"
+  ],
+  "news_articles": [],
+  "academic_citations": [
+    {
+      "title": "Adaptations to climate change, drought and desertification: local insights to enhance policy in southern Africa",
+      "year": 2009,
+      "cited_by": 352,
+      "doi": "https://doi.org/10.1016/j.envsci.2009.04.002"
+    },
+    {
+      "title": "More Than Just An Eyesore: Local Insights And Solutions on Vacant Land And Urban Health",
+      "year": 2012,
+      "cited_by": 289,
+      "doi": "https://doi.org/10.1007/s11524-012-9782-7"
+    },
+    {
+      "title": "Connecting for Health: Global Vision, Local Insight",
+      "year": 2006,
+      "cited_by": 54,
+      "doi": "https://doi.org/10.1258/135763306776738585"
+    }
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": false,
+  "preregistered_studies": [],
+  "published_performance_metrics": false,
+  "documented_limitations": [],
+  "jurisdictional_scope": "United Kingdom",
+  "failure_modes": [],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": null,
+  "contributor_governance": null,
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "controversies": [],
+  "political_bias_allegations": false,
+  "legal_regulatory_issues": false,
+  "elections_used_in": [],
+  "government_partnerships": [
+    {
+      "partner": "UK Councils",
+      "nature": "Data platform subscription/usage",
+      "country": "United Kingdom"
+    }
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:31.975Z",
+  "pass3_at": "2026-03-09T23:22:43.363Z",
+  "_sources": [
+    "openalex"
+  ]
+}

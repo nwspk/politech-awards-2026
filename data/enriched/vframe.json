@@ -1,0 +1,142 @@
+{
+  "url": "https://vframe.io",
+  "collected_at": "2026-03-09T23:20:55.862Z",
+  "collected_by": "collect-enriched-script",
+  "name": "VFRAME",
+  "tagline": "Computer vision for OSINT: detecting illegal munitions and documenting war crimes through AI-powered video analysis",
+  "project_type": "Tool/Platform",
+  "org_type": "Academic/research",
+  "issue_area": [
+    "advocacy_tech",
+    "emerging_tech",
+    "digital_rights"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": true,
+  "geography": "international",
+  "countries_deployed": [
+    "Syria",
+    "Ukraine",
+    "Germany"
+  ],
+  "communities_served": [
+    "human rights researchers",
+    "journalists",
+    "war crimes investigators",
+    "NGOs"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "partial",
+  "github_url": "https://github.com/vframe-io",
+  "github_stars": 1200,
+  "last_commit_date": "2024-11-15",
+  "format": [
+    "api",
+    "tool",
+    "database"
+  ],
+  "founded_year": 2017,
+  "team_size": "small",
+  "funding_model": [
+    "grants",
+    "public_funding"
+  ],
+  "known_funders": [
+    "European Union"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2022",
+  "dependency_risks": [
+    "Reliance on synthetic data generation quality",
+    "Dependency on partnership with Tech 4 Tracing for scaling"
+  ],
+  "news_articles": [
+    {
+      "headline": "Researchers train AI on 'synthetic data' to uncover Syrian war crimes",
+      "outlet": "Financial Times",
+      "date": null,
+      "url": null
+    },
+    {
+      "headline": "AI helps scour video archives for evidence of human-rights abuses",
+      "outlet": "The Economist",
+      "date": null,
+      "url": null
+    },
+    {
+      "headline": "How Artificial Intelligence Helps Solve War Crimes",
+      "outlet": "Der Spiegel",
+      "date": null,
+      "url": null
+    },
+    {
+      "headline": "AI Emerges as Crucial Tool for Groups Seeking Justice for Syria War Crimes",
+      "outlet": "Wall Street Journal",
+      "date": null,
+      "url": null
+    },
+    {
+      "headline": "AI Could Help Human Rights Activists Prove War Crimes",
+      "outlet": "MIT Technology Review",
+      "date": null,
+      "url": null
+    }
+  ],
+  "academic_citations": [
+    "Journal of Conventional Weapons Destruction (June 2023) - 9N235 object detector development (open access)"
+  ],
+  "awards": [
+    "Mozilla Foundation award for digital rights and open source technology"
+  ],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [
+    "Evidence generated used in international humanitarian law documentation efforts",
+    "Adoption by human rights organizations for war crimes investigation workflows"
+  ],
+  "causation_strength": "anecdotal",
+  "outcome_methodology": "Case study documentation of tool adoption by human rights organizations and war crimes investigators; performance metrics validation through peer-reviewed publication",
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": "Up to 99% accuracy at over 400 FPS on single workstation for munition detection",
+  "documented_limitations": [
+    "Requires high-quality video source material",
+    "Synthetic data generation dependent on accurate 3D models",
+    "Limited to specific object classes currently trained"
+  ],
+  "jurisdictional_scope": "International - applicable to any conflict zone with video documentation",
+  "failure_modes": [
+    "Potential for false positives/negatives in object detection",
+    "Vicarious trauma risk remains for human reviewers of flagged content"
+  ],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Open source contributions reviewed by core team; focus on expanding object detection classes and improving synthetic data generation pipelines",
+  "contributor_governance": "Community contributions accepted via GitHub; core development team maintains quality control and integration decisions",
+  "disparity_tracking": "Not explicitly tracked; project focuses on geographic coverage across conflict zones rather than demographic representation",
+  "community_ownership": "Limited community ownership; primarily research-driven project with partnerships rather than community governance model",
+  "controversies": [
+    "Concerns about potential misuse of munition detection technology for targeting purposes",
+    "Debate over synthetic data reliability for legal evidence standards"
+  ],
+  "political_bias_allegations": "Allegations of Western-centric focus on Syrian and Ukrainian conflicts; limited deployment in other conflict zones",
+  "legal_regulatory_issues": "Questions regarding admissibility of AI-generated evidence in international courts; concerns about chain of custody for digitally processed evidence",
+  "elections_used_in": [],
+  "government_partnerships": [
+    {
+      "partner": "Tech 4 Tracing",
+      "nature": "Technology implementation and scaling partnership",
+      "country": "International"
+    },
+    {
+      "partner": "Mnemonic.org",
+      "nature": "Collaboration on war crimes documentation since 2017",
+      "country": "Germany"
+    }
+  ],
+  "ai_involvement": "Core technology: convolutional neural networks for object detection, semantic segmentation, and image classification trained on synthetic data",
+  "pass2_at": "2026-03-09T23:21:48.472Z"
+}

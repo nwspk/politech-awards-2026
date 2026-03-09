@@ -1,0 +1,101 @@
+{
+  "url": "https://coops.tech",
+  "collected_at": "2026-03-09T23:18:18.392Z",
+  "collected_by": "collect-enriched-script",
+  "name": "CoTech",
+  "tagline": "A UK-wide network of cooperative technology companies building values-aligned digital products",
+  "project_type": "Network",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "participatory_democracy",
+    "govtech",
+    "digital_rights"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions",
+    "SDG 8 – Decent Work and Economic Growth"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "organizations seeking values-aligned technology",
+    "cooperative businesses",
+    "social enterprises",
+    "nonprofits"
+  ],
+  "political_units": [
+    "national"
+  ],
+  "open_source": "partial",
+  "github_url": "https://git.coop",
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "platform",
+    "service"
+  ],
+  "founded_year": 2014,
+  "team_size": "medium",
+  "funding_model": [
+    "subscriptions"
+  ],
+  "known_funders": [],
+  "funding_verified": false,
+  "last_funding_event": null,
+  "dependency_risks": [
+    "Reliance on member co-ops remaining active",
+    "Network sustainability dependent on cooperative model adoption"
+  ],
+  "news_articles": [],
+  "academic_citations": [
+    {
+      "title": "The COTECH Knowledge Database: Assessment of Critical Factors in Micro Moulding",
+      "year": 2012,
+      "cited_by": 5,
+      "doi": "https://doi.org/10.3850/978-981-07-3353-7_286"
+    },
+    {
+      "title": "Single-cell joint detection of chromatin occupancy and transcriptome enables higher-dimensional epigenomic reconstructions",
+      "year": 2021,
+      "cited_by": 93,
+      "doi": "https://doi.org/10.1038/s41592-021-01129-z"
+    },
+    {
+      "title": "Second Conference of Computational Methods in Offshore Technology and First Conference of Oil and Gas Technology (COTech &amp; OGTech 2019)",
+      "year": 2019,
+      "cited_by": 1,
+      "doi": "https://doi.org/10.1088/1757-899x/700/1/011001"
+    }
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": null,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": [],
+  "jurisdictional_scope": "United Kingdom",
+  "failure_modes": [],
+  "governance_model": "cooperative",
+  "curation_criteria": "Member organizations must operate as cooperatives or align with cooperative principles; focus on technology companies providing values-aligned digital products and services",
+  "contributor_governance": "Democratic ownership and decision-making supported through cooperative structure",
+  "disparity_tracking": false,
+  "community_ownership": true,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": "Custom AI applications offered as service",
+  "pass2_at": "2026-03-09T23:21:20.955Z",
+  "pass3_at": "2026-03-09T23:22:14.012Z",
+  "_sources": [
+    "openalex"
+  ]
+}
