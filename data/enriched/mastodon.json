@@ -1,5 +1,15 @@
 {
   "url": "https://github.com/mastodon/mastodon",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:01.552Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1403,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Your self-hosted, globally interconnected microblogging community - mastodon/mastodon",
+    "scraped_final_url": "https://github.com/mastodon/mastodon"
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "Mastodon",
@@ -107,7 +117,6 @@
   "causation_strength": "correlational",
   "outcome_methodology": "observational - user adoption and instance growth metrics tracked; no randomized controlled trials",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "GitHub activity metrics, instance count tracking (4,000+ instances as of 2025), user growth statistics published on mastodon.social",
   "documented_limitations": [
     "instance fragmentation",
@@ -134,7 +143,6 @@
   ],
   "political_bias_allegations": "Allegations of left-leaning bias in moderation practices on largest instances (mastodon.social); disputed by instance operators citing community standards rather than political ideology",
   "legal_regulatory_issues": "German non-profit status lapsed; new US 501(c)(3) entity Mastodon Inc established (EIN 92-3333630)",
-  "elections_used_in": [],
   "government_partnerships": [
     "EU institutions exploring Mastodon for official communications (2023-2024)",
     "Japanese government agencies piloting instances (2023)"

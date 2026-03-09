@@ -1,5 +1,15 @@
 {
   "url": "https://oneproject.org/",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:22.419Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 481,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "We partner with the rising global movement for economic democracy to build core technology, mobilize catalytic resources, and show the world that a better system is possible today.",
+    "scraped_final_url": "https://oneproject.org/"
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "One Project",
@@ -35,8 +45,6 @@
   ],
   "open_source": true,
   "github_url": "https://github.com/oneproject-org",
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "digital platform (Common)",
     "grantmaking (Horizon Fund)",
@@ -56,7 +64,6 @@
     "Ford Foundation"
   ],
   "funding_verified": false,
-  "last_funding_event": null,
   "dependency_risks": [
     "reliance on founder philanthropic capital",
     "Common platform not yet publicly launched at scale"
@@ -68,16 +75,9 @@
   "academic_citations": [
     "Citations in participatory economics and democratic governance literature"
   ],
-  "awards": [],
   "in_civictech_guide": true,
   "wikipedia_page": false,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": false,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
-  "documented_limitations": [],
   "jurisdictional_scope": "global",
   "failure_modes": [
     "platform dependency on single philanthropic founder",
@@ -88,11 +88,6 @@
   "contributor_governance": "Open source contribution guidelines; community input on platform development priorities",
   "disparity_tracking": "Horizon Fund explicitly tracks funding distribution to underrepresented communities and organisations led by people of color",
   "community_ownership": "Community-led organisations receive resources through Horizon Fund; Common platform designed to give communities control over capital allocation",
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": "AI Commons publication exploring decentralised and community-led AI development",
   "pass2_at": "2026-03-09T23:21:36.258Z"
 }

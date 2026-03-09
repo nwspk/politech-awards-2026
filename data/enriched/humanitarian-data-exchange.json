@@ -1,5 +1,15 @@
 {
   "url": "https://data.humdata.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:08.929Z",
+    "homepage_http_status": 202,
+    "dead_link": false,
+    "homepage_word_count": null,
+    "homepage_has_team_page": null,
+    "homepage_has_impact_metrics": null,
+    "scraped_description": null,
+    "scraped_final_url": "https://data.humdata.org/"
+  },
   "collected_at": "2026-03-09T23:18:20.360Z",
   "collected_by": "collect-enriched-script",
   "name": "Humanitarian Data Exchange",
@@ -62,7 +72,6 @@
     "UN OCHA Innovation Award (2015)"
   ],
   "in_civictech_guide": true,
-  "wikipedia_page": null,
   "policy_outcomes": [
     "Improved data standardization in humanitarian sector",
     "Enhanced coordination between humanitarian organizations",
@@ -71,7 +80,6 @@
   "causation_strength": "moderate",
   "outcome_methodology": "observational",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "Data sharing volume increased 300% since 2014; 1000+ organizations registered",
   "documented_limitations": [
     "Data quality varies by contributing organization",
@@ -88,10 +96,6 @@
   "contributor_governance": "Open contribution model with OCHA review and validation process",
   "disparity_tracking": "Tracks geographic coverage gaps and identifies underrepresented regions",
   "community_ownership": "Community-driven with OCHA institutional oversight",
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     {
       "partner": "OCHA (UN Office for the Coordination of Humanitarian Affairs)",

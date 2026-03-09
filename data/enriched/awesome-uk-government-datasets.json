@@ -1,5 +1,15 @@
 {
   "url": "https://github.com/i-dot-ai/awesome-gov-datasets",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:59.627Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1835,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "A curated set of references to useful UK Government datasets  - GitHub - i-dot-ai/awesome-gov-datasets: A curated set of references to useful UK Government datasets",
+    "scraped_final_url": "https://github.com/i-dot-ai/awesome-gov-datasets"
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "Awesome UK Government Datasets",
@@ -56,7 +66,6 @@
     "relies on volunteer contributions for dataset additions",
     "dataset links may become stale"
   ],
-  "news_articles": [],
   "academic_citations": [
     {
       "title": "COVID-19 and digital disruption in UK universities: afflictions and affordances of emergency online migration",
@@ -77,15 +86,11 @@
       "doi": "https://doi.org/10.1108/ijchm-06-2017-0322"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
   "wikipedia_page": false,
-  "policy_outcomes": [],
   "causation_strength": "not applicable",
   "outcome_methodology": "not applicable",
   "replication_materials_available": true,
-  "preregistered_studies": [],
-  "published_performance_metrics": [],
   "documented_limitations": [
     "self-described as Prototype maturity level",
     "UK-only scope"
@@ -101,10 +106,8 @@
   "contributor_governance": "Pull-request based; no formal contributor governance documented",
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
   "political_bias_allegations": false,
   "legal_regulatory_issues": false,
-  "elections_used_in": [],
   "government_partnerships": [
     {
       "partner": "i.AI (Incubator for Artificial Intelligence)",

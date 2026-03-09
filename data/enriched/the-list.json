@@ -1,5 +1,15 @@
 {
   "url": "https://the-list.uk",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:22.058Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 304,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Track and monitor changes to UK grant and foundation funding opportunities. Get instant notifications about trusts &amp; foundations changes, eligibility criteria, grant windows, and application deadlines. By Fundraisers, For Fundraisers.",
+    "scraped_final_url": "https://the-list.uk/"
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "The List",
@@ -31,9 +41,6 @@
     "Northern Ireland"
   ],
   "open_source": false,
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "web platform",
     "email notifications"
@@ -44,9 +51,7 @@
     "donations",
     "volunteer-run"
   ],
-  "known_funders": [],
   "funding_verified": false,
-  "last_funding_event": null,
   "dependency_risks": [
     "maintained by single individual (Jo Jeffery) with one technical collaborator; no institutional backing"
   ],
@@ -78,15 +83,9 @@
       "doi": "https://doi.org/10.1016/s0895-4356(98)00131-0"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
   "wikipedia_page": false,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": false,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": [
     "Relies on community-submitted data with no formal verification process",
     "Single-person maintenance creates sustainability risk",
@@ -103,11 +102,6 @@
   "contributor_governance": "Open community submissions; no formal governance structure stated",
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:42.231Z",
   "pass3_at": "2026-03-09T23:23:13.171Z",

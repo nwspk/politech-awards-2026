@@ -1,5 +1,15 @@
 {
   "url": "https://datatrusts.uk",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:10.696Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 185,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "This is the web presence of the data trusts initiative.",
+    "scraped_final_url": "https://datatrusts.uk/"
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "The Data Trusts Initiative",
@@ -31,9 +41,6 @@
     "Scotland"
   ],
   "open_source": "no",
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "report",
     "course"
@@ -61,7 +68,6 @@
     "Montgomery et al. (2021) — Data Governance for the 21st Century",
     "Global Partnership on AI (2022) — Enabling Data Sharing for Social Benefit Through Data Trusts"
   ],
-  "awards": [],
   "in_civictech_guide": false,
   "wikipedia_page": false,
   "policy_outcomes": [
@@ -79,8 +85,6 @@
   "causation_strength": "anecdotal",
   "outcome_methodology": "Case study",
   "replication_materials_available": true,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": [
     "Legal frameworks for data trusts remain underspecified in UK law",
     "Pilots are small-scale and early-stage"
@@ -96,10 +100,7 @@
   "contributor_governance": "Academic institution governance (University of Cambridge); advisory board structure",
   "disparity_tracking": false,
   "community_ownership": "Limited; primarily researcher-led with community input through pilot projects",
-  "controversies": [],
-  "political_bias_allegations": null,
   "legal_regulatory_issues": "Ongoing uncertainty regarding legal status and enforceability of data trusts under UK law; GDPR compliance considerations",
-  "elections_used_in": [],
   "government_partnerships": [
     {
       "name": "AI Council (UK)",

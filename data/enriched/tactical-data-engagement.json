@@ -1,5 +1,15 @@
 {
   "url": "https://communities.sunlightfoundation.com/methodology",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:42:58.485Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 4106,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "A guiding framework for data providers, inside and outside of City Hall, to investigate and catalyze community use of information and open data.",
+    "scraped_final_url": "https://communities.sunlightfoundation.com/methodology/"
+  },
   "collected_at": "2026-03-09T23:18:14.567Z",
   "collected_by": "collect-enriched-script",
   "name": "Tactical Data Engagement",
@@ -30,9 +40,6 @@
     "state"
   ],
   "open_source": false,
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "report",
     "course"
@@ -47,7 +54,6 @@
   ],
   "funding_verified": true,
   "last_funding_event": "What Works Cities initiative support",
-  "dependency_risks": [],
   "news_articles": [
     "Sunlight Foundation's work on open data policies covered by various civic tech and government publications"
   ],
@@ -71,9 +77,7 @@
       "doi": "https://doi.org/10.2514/1.40136"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
   "policy_outcomes": [
     {
       "description": "Sunlight's Open Cities team helped over 60 U.S. cities enact open data policies",
@@ -89,22 +93,16 @@
   "causation_strength": "anecdotal",
   "outcome_methodology": "Case study documentation and policy tracking",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "Open data policy adoption rates across 60+ cities",
   "documented_limitations": [
     "Many local governments publish large amounts of data but have little idea who is using it or for what purposes"
   ],
   "jurisdictional_scope": "United States cities, counties, and states",
-  "failure_modes": [],
   "governance_model": "project_of_larger_org",
   "curation_criteria": "Focus on resident-centered data use and community problem-solving applications",
   "contributor_governance": "Sunlight Foundation organizational governance",
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     {
       "partner": "Multiple U.S. cities (60+)",

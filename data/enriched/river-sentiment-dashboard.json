@@ -1,5 +1,15 @@
 {
   "url": "https://riversentiment.app",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:11.044Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 580,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "People talk about rivers online: from complaints about pollution to celebrations of wildlife, rivers provoke passionate social media comments. When people express their feelings about rivers on Twitter, we get a glimpse of how nature affects human wellbeing. The River Sentiment Dashboard displays social media sentiment alongside data about the ecological status of more than 450 rivers in the Thames basin in England. This prototype has been developed by Oxford University and Thames21.",
+    "scraped_final_url": "https://riversentiment.app/"
+  },
   "collected_at": "2026-03-09T23:20:38.914Z",
   "collected_by": "collect-enriched-script",
   "name": "River Sentiment Dashboard",
@@ -31,14 +41,11 @@
   ],
   "open_source": "partial",
   "github_url": "https://github.com",
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "platform",
     "database",
     "api"
   ],
-  "founded_year": null,
   "team_size": "small",
   "funding_model": [
     "public_funding"
@@ -48,13 +55,11 @@
     "Thames21"
   ],
   "funding_verified": false,
-  "last_funding_event": null,
   "dependency_risks": [
     "Reliance on Twitter/X API for data collection",
     "Dependence on Environment Agency data availability",
     "NRC Word-Emotion Association Lexicon licensing"
   ],
-  "news_articles": [],
   "academic_citations": [
     {
       "title": "Toward Scalable Systems for Big Data Analytics: A Technology Tutorial",
@@ -75,14 +80,8 @@
       "doi": "https://doi.org/10.35808/ijeba/466"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": false,
-  "preregistered_studies": [],
   "published_performance_metrics": false,
   "documented_limitations": [
     "Limited to English-language tweets",
@@ -97,14 +96,9 @@
     "Social media sentiment may not represent broader public opinion"
   ],
   "governance_model": "project_of_larger_org",
-  "curation_criteria": null,
-  "contributor_governance": null,
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
   "political_bias_allegations": false,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     {
       "partner": "Environment Agency",

@@ -1,5 +1,15 @@
 {
   "url": "https://docs.holepunch.to",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:26.426Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1672,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Pear loads applications remotely from peers and allows anyone to create and share applications with peers.",
+    "scraped_final_url": "https://docs.pears.com/"
+  },
   "collected_at": "2026-03-09T23:19:38.196Z",
   "collected_by": "collect-enriched-script",
   "name": "Pear by Holepunch",
@@ -22,11 +32,8 @@
     "developers",
     "application creators"
   ],
-  "political_units": null,
   "open_source": "yes",
   "github_url": "https://github.com/holepunchto",
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "platform",
     "api"
@@ -38,22 +45,11 @@
     "Holepunch (parent organization)"
   ],
   "funding_verified": false,
-  "last_funding_event": null,
   "dependency_risks": [
     "Reliance on peer-to-peer network stability",
     "Dependency on Bare runtime for cross-platform functionality"
   ],
-  "news_articles": [],
-  "academic_citations": [],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
-  "replication_materials_available": null,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": [
     "Platform is described as having experimental and unstable modules",
     "Documentation indicates some modules are new and untested"
@@ -64,15 +60,9 @@
     "Dependency on Bare runtime stability"
   ],
   "governance_model": "project_of_larger_org",
-  "curation_criteria": null,
   "contributor_governance": "Open source contribution model with maintainer oversight",
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:24.570Z"
 }

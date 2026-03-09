@@ -1,5 +1,15 @@
 {
   "url": "https://littlesis.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:43.143Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 540,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "The Public Accountability Initiative, LittleSis, is a nonprofit public interest research organization focused on corporate and government accountability.",
+    "scraped_final_url": "https://littlesis.org/"
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "LittleSis",
@@ -87,7 +97,6 @@
   "causation_strength": "anecdotal",
   "outcome_methodology": "Power-mapping research used in campaigns; training workshops for organizers; research cited in Washington Post, The Guardian, Politico, CNBC",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "Database contains 200,000+ entities with relationship data; active volunteer contributor base; API usage metrics available",
   "documented_limitations": [
     "Data coverage concentrated on US elite networks",
@@ -108,8 +117,6 @@
   ],
   "political_bias_allegations": "Allegations of left-leaning bias in selection of entities tracked; project maintains focus on corporate and government power structures across political spectrum",
   "legal_regulatory_issues": "Potential legal challenges regarding publication of personal relationship data; project operates within First Amendment protections for public interest research",
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": "No primary AI/machine learning involvement; database uses traditional relational database architecture and manual curation",
   "pass2_at": "2026-03-09T23:21:35.216Z"
 }

@@ -1,5 +1,15 @@
 {
   "url": "https://opencouncil.network",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:26.608Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 514,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Know what your local councillors are doing for you, every day. Weekly summaries, videos and transcripts of meetings held by local councils across the UK.",
+    "scraped_final_url": "https://opencouncil.network/"
+  },
   "collected_at": "2026-03-09T23:20:19.014Z",
   "collected_by": "collect-enriched-script",
   "name": "Open Council Network",
@@ -64,7 +74,6 @@
     "Nesta Innovation in Civic Tech Award (2020)"
   ],
   "in_civictech_guide": true,
-  "wikipedia_page": null,
   "policy_outcomes": [
     "Increased transparency in local council decision-making",
     "Enhanced citizen awareness of local government activities"
@@ -72,7 +81,6 @@
   "causation_strength": "moderate",
   "outcome_methodology": "User engagement metrics and council transparency assessments",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": true,
   "documented_limitations": [
     "Coverage limited to councils with accessible meeting data",
@@ -87,10 +95,6 @@
   "contributor_governance": "Open contribution model with community review process",
   "disparity_tracking": false,
   "community_ownership": true,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     "Partnerships with multiple UK local authorities for data sharing"
   ],

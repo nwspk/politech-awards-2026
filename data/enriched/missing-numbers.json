@@ -1,5 +1,15 @@
 {
   "url": "https://missingnumbers.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:02.597Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 175,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "Missing Numbers investigates, and campaigns to close, important gaps in UK public data.",
+    "scraped_final_url": "https://missingnumbers.org/"
+  },
   "collected_at": "2026-03-09T23:20:05.532Z",
   "collected_by": "collect-enriched-script",
   "name": "Missing Numbers",
@@ -30,9 +40,6 @@
     "federal"
   ],
   "open_source": false,
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "publication",
     "campaign"
@@ -45,8 +52,6 @@
     "Joseph Rowntree Foundation"
   ],
   "funding_verified": true,
-  "last_funding_event": null,
-  "dependency_risks": [],
   "news_articles": [
     "https://www.theguardian.com/news/datablog",
     "https://www.bbc.com/news"
@@ -71,9 +76,7 @@
       "doi": "https://doi.org/10.1212/wnl.43.1_part_1.226"
     }
   ],
-  "awards": [],
   "in_civictech_guide": true,
-  "wikipedia_page": null,
   "policy_outcomes": [
     {
       "description": "Campaign to close gaps in UK public data collection and government statistics",
@@ -82,23 +85,11 @@
     }
   ],
   "causation_strength": "anecdotal",
-  "outcome_methodology": null,
   "replication_materials_available": false,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
-  "documented_limitations": [],
   "jurisdictional_scope": "United Kingdom",
-  "failure_modes": [],
   "governance_model": "project_of_larger_org",
-  "curation_criteria": null,
-  "contributor_governance": null,
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:33.276Z",
   "pass3_at": "2026-03-09T23:22:46.345Z",

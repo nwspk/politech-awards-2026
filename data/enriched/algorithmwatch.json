@@ -1,5 +1,15 @@
 {
   "url": "https://algorithmwatch.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:42:32.523Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1061,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Whether you use ChatGPT, Claude or Gemini, Copilot or Perplexity – generative AI poses massive problems: many results are inaccurate and politically problematic, the systems’ energy and water consumption is enormous. At the same time, they have become an integral part of everyday life. AlgorithmWatch has developed guidelines to help use generative AI responsibly.",
+    "scraped_final_url": "https://algorithmwatch.org/en/"
+  },
   "collected_at": "2026-03-09T21:00:00Z",
   "collected_by": "nano-bot",
   "name": "AlgorithmWatch",
@@ -85,7 +95,6 @@
     "Horizon Europe (FINDHR project)"
   ],
   "funding_verified": true,
-  "last_funding_event": null,
   "dependency_risks": [
     "grant-dependent (over 90% of revenue from grants in 2022)",
     "EU regulatory environment changes could shift relevance",
@@ -191,8 +200,6 @@
   "causation_strength": "directly_cited",
   "outcome_methodology": "Self-reports policy wins citing specific legislative text changes campaigned for, supplemented by documented parliamentary testimony and expert appointments. No independent third-party verification of causal attribution.",
   "replication_materials_available": true,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": [
     "Acknowledges EU AI Act alone will not resolve fundamental power asymmetries in AI governance",
     "Research access blocked by platforms (e.g., X/Twitter) limiting monitoring scope",
@@ -212,9 +219,6 @@
   "contributor_governance": "gGmbH (charitable limited liability company) structure; three shareholders (Christina Elmer, Angela Müller, Matthias Spielkamp); supervisory board includes Sabine Leutheusser-Schnarrenberger",
   "disparity_tracking": true,
   "community_ownership": "Shareholder-governed gGmbH; supporting membership open to the public but no community ownership of legal entity",
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
   "elections_used_in": [
     {
       "election": "2021 German federal election",

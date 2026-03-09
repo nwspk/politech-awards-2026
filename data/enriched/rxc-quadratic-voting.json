@@ -1,5 +1,15 @@
 {
   "url": "https://quadraticvote.radicalxchange.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:04.568Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 74,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "An easy tool to host a quadratic vote",
+    "scraped_final_url": "https://quadraticvote.radicalxchange.org/"
+  },
   "collected_at": "2026-03-09T23:20:32.017Z",
   "collected_by": "collect-enriched-script",
   "name": "RxC Quadratic Voting",
@@ -62,7 +72,6 @@
     "Civic Tech Award Finalist (2020)"
   ],
   "in_civictech_guide": true,
-  "wikipedia_page": null,
   "policy_outcomes": [
     "Used in organizational governance decisions",
     "Adopted by several DAOs for resource allocation"
@@ -70,7 +79,6 @@
   "causation_strength": "moderate",
   "outcome_methodology": "case_studies",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": true,
   "documented_limitations": [
     "Limited empirical evidence on large-scale electoral use",
@@ -87,11 +95,6 @@
   "contributor_governance": "open_contributions",
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:41.533Z"
 }

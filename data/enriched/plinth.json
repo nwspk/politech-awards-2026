@@ -1,5 +1,15 @@
 {
   "url": "https://www.plinth.org.uk",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:30.614Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 641,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "An AI-powered ecosystem to improve the way community organisations, non-profits and funders work together.",
+    "scraped_final_url": "https://www.plinth.org.uk/"
+  },
   "collected_at": "2026-03-09T23:20:58.896Z",
   "collected_by": "collect-enriched-script",
   "name": "Plinth",
@@ -32,9 +42,6 @@
     "national"
   ],
   "open_source": "no",
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "platform",
     "api"
@@ -51,7 +58,6 @@
     "Big Society Capital"
   ],
   "funding_verified": true,
-  "last_funding_event": null,
   "dependency_risks": [
     "proprietary platform dependency",
     "reliance on AI systems for critical functions"
@@ -80,9 +86,7 @@
       "doi": "https://doi.org/10.1016/j.enbuild.2013.11.006"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
   "policy_outcomes": [
     {
       "description": "Used by local authorities for Holiday & Activity Food (HAF) programme management and DfE reporting",
@@ -96,22 +100,10 @@
     }
   ],
   "causation_strength": "anecdotal",
-  "outcome_methodology": null,
   "replication_materials_available": false,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
-  "documented_limitations": [],
   "jurisdictional_scope": "United Kingdom",
-  "failure_modes": [],
   "governance_model": "LLC",
-  "curation_criteria": null,
-  "contributor_governance": null,
-  "disparity_tracking": null,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     {
       "partner": "UK Department for Education",

@@ -1,5 +1,15 @@
 {
   "url": "https://plausible.io",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:48.844Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1319,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Plausible is a lightweight and open-source Google Analytics alternative. Your website data is 100% yours and the privacy of your visitors is respected.",
+    "scraped_final_url": "https://plausible.io/"
+  },
   "collected_at": "2026-03-09T23:20:28.449Z",
   "collected_by": "collect-enriched-script",
   "name": "Plausible Analytics",
@@ -62,12 +72,6 @@
     "Product Hunt recognition for privacy-focused analytics"
   ],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
-  "replication_materials_available": null,
-  "preregistered_studies": [],
   "published_performance_metrics": {
     "paying_subscribers": 16000,
     "tracked_pageviews": "260B",
@@ -83,15 +87,8 @@
     "Service outages could impact website analytics for paying customers"
   ],
   "governance_model": "LLC",
-  "curation_criteria": null,
   "contributor_governance": "Open source contribution guidelines on GitHub; community-driven feature requests via GitHub discussions",
-  "disparity_tracking": null,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": "Monitors traffic from AI tools (ChatGPT, Perplexity, Claude)",
   "pass2_at": "2026-03-09T23:21:39.297Z"
 }

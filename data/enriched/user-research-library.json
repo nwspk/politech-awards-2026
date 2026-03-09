@@ -1,5 +1,15 @@
 {
   "url": "https://research.localgov.digital",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:07.198Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 246,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Research related to people who need help to find somewhere to live.",
+    "scraped_final_url": "https://research.localgov.digital/"
+  },
   "collected_at": "2026-03-09T23:20:36.471Z",
   "collected_by": "collect-enriched-script",
   "name": "User Research Library",
@@ -28,9 +38,6 @@
     "local"
   ],
   "open_source": false,
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "database",
     "platform"
@@ -45,9 +52,6 @@
     "Hackney Council"
   ],
   "funding_verified": true,
-  "last_funding_event": null,
-  "dependency_risks": [],
-  "news_articles": [],
   "academic_citations": [
     {
       "title": "Fiji: an open-source platform for biological-image analysis",
@@ -68,27 +72,14 @@
       "doi": "https://doi.org/10.1161/01.cir.101.23.e215"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": false,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
-  "documented_limitations": [],
   "jurisdictional_scope": "United Kingdom local government",
-  "failure_modes": [],
   "governance_model": "project_of_larger_org",
   "curation_criteria": "User research documents from local government services organized by service area and research phase",
   "contributor_governance": "Managed by host organization (Hackney Council) with contributions from participating local authorities",
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     {
       "partner": "Hackney Council",

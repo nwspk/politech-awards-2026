@@ -1,5 +1,15 @@
 {
   "url": "https://richardpope.org/2017/03/05/beckton-a-tool-to-build",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:08.422Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 355,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "10 years on from PledgeBank, it should be many times easier to build a focused conditional commitment service, because today, we have services like GoCardless and Stripe, as well as things like Twillio and MailGun for messaging.",
+    "scraped_final_url": "https://richardpope.org/2017/03/05/beckton-a-tool-to-build/"
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "Beckton",
@@ -41,15 +51,12 @@
   "funding_model": [
     "volunteer"
   ],
-  "known_funders": [],
   "funding_verified": false,
-  "last_funding_event": null,
   "dependency_risks": [
     "abandoned prototype — no active development since ~2019",
     "dependency on GoCardless API",
     "not production-deployed"
   ],
-  "news_articles": [],
   "academic_citations": [
     {
       "title": "Excavation of a Neolithic settlement and ritual complex at Beckton Farm, Lockerbie, Dumfries & Galloway",
@@ -70,15 +77,9 @@
       "doi": "https://doi.org/10.9750/psas.127.69.121"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
   "wikipedia_page": false,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": true,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": [
     "prototype only — not finished or production-deployed",
     "author notes it was 'never quite finished'"
@@ -90,15 +91,8 @@
     "no user base"
   ],
   "governance_model": "solo author project",
-  "curation_criteria": null,
   "contributor_governance": "not applicable — solo author project",
-  "disparity_tracking": null,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:39.470Z",
   "pass3_at": "2026-03-09T23:23:06.042Z",

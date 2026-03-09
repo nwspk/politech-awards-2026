@@ -1,5 +1,15 @@
 {
   "url": "https://publicmediastack.com",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:58.159Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 423,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Your ethical guide to public media technology.",
+    "scraped_final_url": "https://publicmediastack.com/"
+  },
   "collected_at": "2026-03-09T23:20:30.287Z",
   "collected_by": "collect-enriched-script",
   "name": "Public Media Stack",
@@ -30,9 +40,6 @@
     "international"
   ],
   "open_source": false,
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "database",
     "report",
@@ -47,9 +54,6 @@
     "Knight Foundation"
   ],
   "funding_verified": true,
-  "last_funding_event": null,
-  "dependency_risks": [],
-  "news_articles": [],
   "academic_citations": [
     {
       "title": "OpinionFlow: Visual Analysis of Opinion Diffusion on Social Media",
@@ -70,30 +74,15 @@
       "doi": "https://doi.org/10.1109/taffc.2016.2531682"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
-  "replication_materials_available": null,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": [
     "Limited to 100+ software products researched at time of 2020 launch"
   ],
   "jurisdictional_scope": "Global",
-  "failure_modes": [],
   "governance_model": "project_of_larger_org",
   "curation_criteria": "Products evaluated on pricing models, data collection policies, ownership structures, and technical stability",
-  "contributor_governance": null,
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:38.606Z",
   "pass3_at": "2026-03-09T23:23:00.846Z",

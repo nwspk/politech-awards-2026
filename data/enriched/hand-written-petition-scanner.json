@@ -1,5 +1,15 @@
 {
   "url": "https://hand-written-petition-scanner.streamlit.app",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T13:07:48.475Z",
+    "homepage_http_status": null,
+    "dead_link": true,
+    "homepage_word_count": null,
+    "homepage_has_team_page": null,
+    "homepage_has_impact_metrics": null,
+    "scraped_description": null,
+    "scraped_final_url": null
+  },
   "collected_at": "2026-03-09T23:19:42.501Z",
   "collected_by": "collect-enriched-script",
   "name": "Hand-Written Petition Scanner",
@@ -24,25 +34,18 @@
   ],
   "political_units": "Multiple (petition campaigns operate across various jurisdictions)",
   "open_source": "partial",
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "app",
     "tool"
   ],
-  "founded_year": null,
   "team_size": "solo",
   "funding_model": "Unknown - appears to be unfunded/volunteer-run",
-  "known_funders": null,
   "funding_verified": false,
-  "last_funding_event": null,
   "dependency_risks": [
     "Streamlit platform dependency",
     "OCR accuracy limitations",
     "Handwriting variability"
   ],
-  "news_articles": [],
   "academic_citations": [
     {
       "title": "Binocular Rivalry: Frontal Activity Relates to Introspection and Action But Not to Perception",
@@ -63,15 +66,7 @@
       "doi": "https://doi.org/10.1523/jneurosci.1300-09.2009"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
-  "replication_materials_available": null,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": [
     "OCR accuracy depends on handwriting legibility",
     "Language support may be limited",
@@ -84,15 +79,8 @@
     "Non-Latin scripts may not be supported"
   ],
   "governance_model": "individual",
-  "curation_criteria": null,
   "contributor_governance": "Solo developer - no formal governance structure",
-  "disparity_tracking": null,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": "OCR/machine learning for handwriting recognition",
   "pass2_at": "2026-03-09T23:21:30.760Z",
   "pass3_at": "2026-03-09T23:22:39.444Z",

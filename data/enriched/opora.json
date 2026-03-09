@@ -1,5 +1,15 @@
 {
   "url": "https://www.oporaua.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:19.727Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 711,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Громадянська мережа ОПОРА – спостерігаємо за виборами, моніторимо парламент, аналізуємо дані соцмереж та мову війни, збираємо інфо про воєнні злочини росіян.",
+    "scraped_final_url": "https://oporaua.org/"
+  },
   "collected_at": "2026-03-09T23:20:58.895Z",
   "collected_by": "collect-enriched-script",
   "name": "ОПОРА (Opora)",
@@ -33,8 +43,6 @@
   ],
   "open_source": false,
   "github_url": "https://github.com/OPORA",
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "platform",
     "database",
@@ -55,7 +63,6 @@
     "Open Society Foundations"
   ],
   "funding_verified": true,
-  "last_funding_event": null,
   "dependency_risks": "High dependency on international donor funding; potential vulnerability to political pressure given Ukraine's geopolitical situation",
   "news_articles": [
     "Guardian coverage of Ukrainian election monitoring",
@@ -85,7 +92,6 @@
   "causation_strength": "correlated",
   "outcome_methodology": "Observational studies and monitoring reports documenting election integrity issues and civic participation metrics",
   "replication_materials_available": false,
-  "preregistered_studies": [],
   "published_performance_metrics": true,
   "documented_limitations": "Limited by access to certain election administration data; constrained by security concerns during conflict periods",
   "jurisdictional_scope": "Ukraine",
@@ -95,9 +101,7 @@
   "contributor_governance": "Board-led governance with input from network of election observers and civil society partners",
   "disparity_tracking": true,
   "community_ownership": true,
-  "controversies": [],
   "political_bias_allegations": "OPORA maintains explicitly non-partisan stance; no credible bias allegations found",
-  "legal_regulatory_issues": null,
   "elections_used_in": [
     {
       "election": "Ukrainian parliamentary elections",

@@ -1,5 +1,15 @@
 {
   "url": "https://github.com/huridocs",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:59.063Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 969,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "HURIDOCS equips human rights defenders with tools to mobilise information for justice and accountability. - HURIDOCS",
+    "scraped_final_url": "https://github.com/huridocs"
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "HURIDOCS",
@@ -128,7 +138,6 @@
   "causation_strength": "anecdotal",
   "outcome_methodology": "Case studies and user testimonials from partner organizations; documented usage in accountability processes",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "GitHub activity metrics; user adoption statistics across partner organizations; case documentation volumes",
   "documented_limitations": [
     "tools require technical capacity to deploy and maintain",
@@ -145,10 +154,6 @@
   "contributor_governance": "Open source repositories on GitHub (37+ repos); contributions accepted via standard GitHub workflow",
   "disparity_tracking": true,
   "community_ownership": "Open source; human rights community co-develops standards and tools",
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     {
       "partner": "European Commission",

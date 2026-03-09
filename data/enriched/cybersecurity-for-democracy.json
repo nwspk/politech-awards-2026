@@ -1,5 +1,15 @@
 {
   "url": "https://cybersecurityfordemocracy.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:08.482Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 580,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Cybersecurity for Democracy is a research-based effort to expose online threats to our social fabric – and recommend how to counter them. We are part of the Center for Cybersecurity at NYU.",
+    "scraped_final_url": "https://cybersecurityfordemocracy.org/"
+  },
   "collected_at": "2026-03-09T23:21:13.743Z",
   "collected_by": "collect-enriched-script",
   "name": "Cybersecurity for Democracy",
@@ -59,7 +69,6 @@
   ],
   "funding_verified": true,
   "last_funding_event": "2025-09-01",
-  "dependency_risks": [],
   "news_articles": [
     "Guardian: 'How researchers are fighting platform manipulation' (2024)",
     "Wired: 'Inside NYU's Cybersecurity for Democracy Lab' (2023)",
@@ -75,7 +84,6 @@
     "Privacy Enhanced Technology Symposium (PETS) awards - 2 researchers"
   ],
   "in_civictech_guide": true,
-  "wikipedia_page": null,
   "policy_outcomes": [
     {
       "policy": "Digital Services Act (DSA)",
@@ -112,9 +120,6 @@
   "contributor_governance": "Multi-university consortium with faculty steering committee; open contribution guidelines for tools and datasets",
   "disparity_tracking": "Center tracks research outcomes across geographic regions and demographic groups; publishes equity assessments in annual reports",
   "community_ownership": "Collaborative governance with partner institutions; researcher and policymaker advisory boards",
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
   "elections_used_in": [
     "2024 US Presidential Election - platform monitoring research",
     "2024 EU Parliamentary Elections - content moderation analysis"

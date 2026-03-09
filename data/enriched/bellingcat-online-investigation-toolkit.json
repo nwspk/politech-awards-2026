@@ -1,5 +1,15 @@
 {
   "url": "https://bellingcat.gitbook.io/toolkit",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:42:38.801Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1059,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "A toolkit for open source researchers",
+    "scraped_final_url": "https://bellingcat.gitbook.io/toolkit"
+  },
   "collected_at": "2026-03-09T21:00:00Z",
   "collected_by": "nano-bot",
   "name": "Bellingcat Online Investigation Toolkit",
@@ -18,7 +28,6 @@
   ],
   "decade_plus": true,
   "geography": "international",
-  "countries_deployed": [],
   "communities_served": [
     "investigative journalists",
     "fact-checkers",
@@ -32,7 +41,6 @@
   "open_source": "yes",
   "github_url": "https://github.com/bellingcat/toolkit",
   "github_stars": 487,
-  "last_commit_date": null,
   "format": [
     "platform",
     "database"
@@ -59,7 +67,6 @@
     "European Union (Grant Agreement 101158277-BENEDMO-2023-DEPLOY-04)"
   ],
   "funding_verified": true,
-  "last_funding_event": null,
   "dependency_risks": [
     "reliance on volunteer community for content maintenance",
     "individual tool availability subject to third-party decisions",
@@ -139,8 +146,6 @@
   "causation_strength": "directly_cited",
   "outcome_methodology": "Open-source intelligence (OSINT): cross-referencing satellite imagery, social media posts, flight manifests, phone records, leaked government databases, and geolocation techniques",
   "replication_materials_available": true,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": [
     "Only 15% of survey participants found it easy to discover the right tools (motivating the toolkit rebuild)",
     "Toolkit described as a work-in-progress with growing tool descriptions",
@@ -165,8 +170,6 @@
   ],
   "political_bias_allegations": "Rated Left-Center biased by Media Bias/Fact Check; alleged by critics to align with Western geopolitical interests due to NED and UK/US-linked funder ties",
   "legal_regulatory_issues": "Russia designated Bellingcat a 'foreign agent' in 2022; Igor Bezler (Russian-backed militant) sued for defamation over MH17 reporting",
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": "Toolkit features an AI-powered natural language search interface (OpenAI) to help researchers discover appropriate tools",
   "pass3_at": "2026-03-09T23:22:03.225Z",
   "_sources": [

@@ -1,5 +1,15 @@
 {
   "url": "https://constituteproject.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:42:59.984Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 376,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Check out Constitute to read, search, and compare the world’s constitutions!",
+    "scraped_final_url": "https://constituteproject.org/"
+  },
   "collected_at": "2026-03-09T23:18:15.110Z",
   "collected_by": "collect-enriched-script",
   "name": "Constitute Project",
@@ -55,7 +65,6 @@
   ],
   "funding_verified": true,
   "last_funding_event": "2023",
-  "dependency_risks": [],
   "news_articles": [
     "https://www.wired.com/story/constitute-project-constitutions",
     "https://www.theguardian.com/world/constitute-project"
@@ -68,7 +77,6 @@
     "Recognized as leading constitutional research resource"
   ],
   "in_civictech_guide": true,
-  "wikipedia_page": null,
   "policy_outcomes": [
     {
       "description": "Used as resource by Constitutional Review Commission of The Gambia",
@@ -99,23 +107,17 @@
   "causation_strength": "anecdotal",
   "outcome_methodology": "Documented usage by government and international organizations",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "Database contains 194 constitutions with detailed comparative analysis",
   "documented_limitations": [
     "Limited to written constitutional documents",
     "Does not capture informal constitutional practices"
   ],
   "jurisdictional_scope": "Global",
-  "failure_modes": [],
   "governance_model": "project_of_larger_org",
   "curation_criteria": "Comprehensive inclusion of all national constitutions and constitutional amendments with expert review",
   "contributor_governance": "Academic advisory board with constitutional law experts",
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     {
       "partner": "Constitutional Review Commission of The Gambia",

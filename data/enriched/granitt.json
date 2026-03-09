@@ -1,5 +1,15 @@
 {
   "url": "https://granitt.io",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:18.585Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 5,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": null,
+    "scraped_final_url": "https://granitt.io/"
+  },
   "collected_at": "2026-03-09T23:19:18.075Z",
   "collected_by": "collect-enriched-script",
   "name": "Granitt",
@@ -31,9 +41,6 @@
     "federal"
   ],
   "open_source": "no",
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "platform",
     "api"
@@ -47,7 +54,6 @@
   ],
   "funding_verified": true,
   "last_funding_event": "2023",
-  "dependency_risks": [],
   "news_articles": [
     "https://www.civicplus.com/blog/granitt-government-transparency"
   ],
@@ -71,31 +77,13 @@
       "doi": "https://doi.org/10.18261/agora.42.3-4.8"
     }
   ],
-  "awards": [],
   "in_civictech_guide": true,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
-  "replication_materials_available": null,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
-  "documented_limitations": [],
   "jurisdictional_scope": "North America",
-  "failure_modes": [],
   "governance_model": "Corporate board",
-  "curation_criteria": null,
-  "contributor_governance": null,
-  "disparity_tracking": null,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     "Multiple municipal governments"
   ],
-  "ai_involvement": null,
   "pass2_at": "2026-03-09T23:21:30.604Z",
   "pass3_at": "2026-03-09T23:22:38.299Z",
   "_sources": [

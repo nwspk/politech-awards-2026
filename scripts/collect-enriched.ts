@@ -6,10 +6,11 @@
  * Fully resumable — skips already-complete files.
  *
  * Usage:
+ *   npx tsx scripts/collect-enriched.ts --pass 0               # pass 0: scraped-page fields (fast, no LLM)
  *   npx tsx scripts/collect-enriched.ts                        # pass 1: broad sweep
  *   npx tsx scripts/collect-enriched.ts --pass 2               # pass 2: fill null fields
  *   npx tsx scripts/collect-enriched.ts --pass 3               # pass 3: structured DB lookups
- *   npx tsx scripts/collect-enriched.ts --pass all             # run all three in sequence
+ *   npx tsx scripts/collect-enriched.ts --pass all             # run all four in sequence
  *   npx tsx scripts/collect-enriched.ts --url https://x.com    # single project, pass 1
  *   npx tsx scripts/collect-enriched.ts --retry-errors         # redo error files
  *   npx tsx scripts/collect-enriched.ts --concurrency 50
@@ -19,6 +20,7 @@ import fs from "fs";
 import path from "path";
 import csv from "csv-parser";
 import { execSync } from "child_process";
+import Database from "better-sqlite3";
 
 // ---------------------------------------------------------------------------
 // Config
@@ -70,6 +72,27 @@ function readCandidateUrls(): Promise<string[]> {
   });
 }
 
+// URL → filename index (built once at startup, then kept in sync)
+// Allows the script to find project-name files regardless of how they were created.
+const urlIndex = new Map<string, string>(); // normalised url → filename (no .json)
+
+function buildUrlIndex(): void {
+  if (!fs.existsSync(OUTPUT_DIR)) return;
+  for (const f of fs.readdirSync(OUTPUT_DIR)) {
+    if (!f.endsWith(".json")) continue;
+    try {
+      const d = JSON.parse(fs.readFileSync(path.join(OUTPUT_DIR, f), "utf-8")) as Record<string, unknown>;
+      const url = ((d.url as string) || "").replace(/\/+$/, "").toLowerCase();
+      if (url) urlIndex.set(url, f.replace(".json", ""));
+    } catch {}
+  }
+}
+
+function resolveSlug(url: string): string {
+  const norm = url.replace(/\/+$/, "").toLowerCase();
+  return urlIndex.get(norm) ?? slugify(url);
+}
+
 function loadFile(slug: string): Record<string, unknown> | null {
   const p = path.join(OUTPUT_DIR, `${slug}.json`);
   if (!fs.existsSync(p)) return null;
@@ -78,6 +101,9 @@ function loadFile(slug: string): Record<string, unknown> | null {
 
 function saveFile(slug: string, data: Record<string, unknown>): void {
   fs.writeFileSync(path.join(OUTPUT_DIR, `${slug}.json`), JSON.stringify(data, null, 2) + "\n");
+  // Keep index in sync
+  const url = ((data.url as string) || "").replace(/\/+$/, "").toLowerCase();
+  if (url) urlIndex.set(url, slug);
 }
 
 function countNulls(obj: Record<string, unknown>): string[] {
@@ -90,16 +116,27 @@ function countNulls(obj: Record<string, unknown>): string[] {
 // Page fetch
 // ---------------------------------------------------------------------------
 
+interface CachedPage {
+  body: string;
+  status: number;
+  fetched_at: string;
+  final_url: string | null;
+  error: string | null;
+}
+
+function fetchCachedRow(url: string): CachedPage | null {
+  if (!fs.existsSync(CACHE_DB_PATH)) return null;
+  try {
+    const db = new Database(CACHE_DB_PATH, { readonly: true });
+    const row = db.prepare("SELECT body, status, fetched_at, final_url, error FROM pages WHERE url = ?").get(url) as CachedPage | undefined;
+    db.close();
+    return row ?? null;
+  } catch { return null; }
+}
+
 function fetchPage(url: string): string {
-  if (fs.existsSync(CACHE_DB_PATH)) {
-    try {
-      const Database = require("better-sqlite3");
-      const db = new Database(CACHE_DB_PATH, { readonly: true });
-      const row = db.prepare("SELECT body FROM pages WHERE url = ?").get(url) as { body: string } | undefined;
-      db.close();
-      if (row?.body) return extractText(row.body).slice(0, 4000);
-    } catch {}
-  }
+  const row = fetchCachedRow(url);
+  if (row?.body) return extractText(row.body).slice(0, 4000);
   try {
     const html = execSync(`curl -s -L --max-time 15 --user-agent "Mozilla/5.0" "${url}"`, { timeout: 20000 }).toString();
     return extractText(html).slice(0, 4000);
@@ -153,6 +190,65 @@ function parseJSON(raw: string): Record<string, unknown> {
 }
 
 // ---------------------------------------------------------------------------
+// PASS 0 — Scraped-page fields (fast, no LLM — reads from cache/sites.sqlite)
+// ---------------------------------------------------------------------------
+
+function extractMetaDescription(html: string): string | null {
+  const m = html.match(/<meta[^>]+name=["']description["'][^>]+content=["']([^"']{10,500})["']/i)
+    || html.match(/<meta[^>]+content=["']([^"']{10,500})["'][^>]+name=["']description["']/i);
+  return m ? m[1].trim() : null;
+}
+
+function extractFirstParagraph(html: string): string | null {
+  const m = html.match(/<p[^>]*>([^<]{40,500})<\/p>/i);
+  if (!m) return null;
+  return m[1].replace(/&[a-z]+;/gi, " ").trim();
+}
+
+function hasTeamPage(html: string, url: string): boolean {
+  return /href=["'][^"']*\/(about|team|people|who-we-are|staff|founders)[^"']*["']/i.test(html);
+}
+
+function hasImpactMetrics(text: string): boolean {
+  // Numbers followed by impact-adjacent words
+  return /\d[\d,.]+\s*(users?|countries|cities|campaigns?|elections?|governments?|organisations?|organizations?|partners?|instances?|deployments?|downloads?|projects?)\b/i.test(text)
+    || /\b(million|billion|thousand)\s+\w+/i.test(text);
+}
+
+async function pass0(url: string, index: number, total: number): Promise<void> {
+  const slug = resolveSlug(url);
+  const existing = loadFile(slug);
+
+  // Only skip if pass0 already run
+  if (existing?.scraped?.homepage_last_scraped) {
+    console.log(`[P0 ${index}/${total}] SKIP  ${slug}`);
+    return;
+  }
+
+  const row = fetchCachedRow(url);
+  const html = row?.body ?? "";
+  const text = extractText(html);
+
+  const scraped: Record<string, unknown> = {
+    homepage_last_scraped: row?.fetched_at ?? null,
+    homepage_http_status: row?.status ?? null,
+    dead_link: row ? (row.error !== null || (row.status !== null && row.status >= 400)) : null,
+    homepage_word_count: text ? text.split(/\s+/).filter(Boolean).length : null,
+    homepage_has_team_page: html ? hasTeamPage(html, url) : null,
+    homepage_has_impact_metrics: text ? hasImpactMetrics(text) : null,
+    scraped_description: html ? (extractMetaDescription(html) ?? extractFirstParagraph(html) ?? null) : null,
+    scraped_final_url: row?.final_url ?? null,
+  };
+
+  const merged = existing
+    ? { ...existing, scraped }
+    : { url, scraped, collected_at: new Date().toISOString(), collected_by: "collect-enriched-script" };
+
+  saveFile(slug, merged);
+  console.log(`[P0 ${index}/${total}] DONE  ${slug} (status=${scraped.homepage_http_status}, words=${scraped.homepage_word_count})`);
+}
+
+// ---------------------------------------------------------------------------
 // PASS 1 — Broad sweep
 // ---------------------------------------------------------------------------
 
@@ -192,7 +288,7 @@ Return JSON with ALL fields (null if unknown):
 }
 
 async function pass1(url: string, index: number, total: number): Promise<void> {
-  const slug = slugify(url);
+  const slug = resolveSlug(url);
   const outPath = path.join(OUTPUT_DIR, `${slug}.json`);
 
   if (fs.existsSync(outPath)) {
@@ -251,7 +347,7 @@ Use your knowledge of this project to fill as many empty fields as possible. Onl
 }
 
 async function pass2(url: string, index: number, total: number): Promise<void> {
-  const slug = slugify(url);
+  const slug = resolveSlug(url);
   const existing = loadFile(slug);
   if (!existing || existing.error) { console.log(`[P2 ${index}/${total}] SKIP  ${slug} (no pass1 data)`); return; }
 
@@ -277,7 +373,7 @@ async function pass2(url: string, index: number, total: number): Promise<void> {
 // ---------------------------------------------------------------------------
 
 async function pass3(url: string, index: number, total: number): Promise<void> {
-  const slug = slugify(url);
+  const slug = resolveSlug(url);
   const existing = loadFile(slug);
   if (!existing || existing.error) { console.log(`[P3 ${index}/${total}] SKIP  ${slug}`); return; }
 
@@ -394,6 +490,7 @@ async function runPass(
 
 async function main() {
   fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+  buildUrlIndex();
 
   const urls = SINGLE_URL ? [SINGLE_URL] : await readCandidateUrls();
 
@@ -403,6 +500,7 @@ async function main() {
   console.log(`Output:      ${OUTPUT_DIR}`);
   console.log(`Pass:        ${PASS}`);
 
+  if (PASS === "0" || PASS === "all") await runPass("0 (scraped fields)", pass0, urls);
   if (PASS === "1" || PASS === "all") await runPass("1 (broad sweep)", pass1, urls);
   if (PASS === "2" || PASS === "all") await runPass("2 (fill nulls)", pass2, urls);
   if (PASS === "3" || PASS === "all") await runPass("3 (structured DBs)", pass3, urls);

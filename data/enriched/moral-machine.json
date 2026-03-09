@@ -1,5 +1,15 @@
 {
   "url": "https://moralmachine.net",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:10.494Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 7,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": null,
+    "scraped_final_url": "https://www.moralmachine.net/"
+  },
   "collected_at": "2026-03-09T23:20:20.586Z",
   "collected_by": "collect-enriched-script",
   "name": "Moral Machine",
@@ -63,7 +73,6 @@
     "Featured in Nature journal (2018)"
   ],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
   "policy_outcomes": [
     "Informed discussions on autonomous vehicle ethics in academic and policy circles",
     "Referenced in AI ethics frameworks and guidelines"
@@ -71,7 +80,6 @@
   "causation_strength": "correlational",
   "outcome_methodology": "Crowdsourced preference aggregation study with global participation",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "10+ million responses from 233 countries and territories",
   "documented_limitations": [
     "Self-selection bias in crowdsourced responses",
@@ -91,10 +99,6 @@
     "Criticism that the platform oversimplifies complex ethical decision-making in autonomous vehicles",
     "Concerns about cultural bias in ethical preference aggregation"
   ],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": "Core to project design - studying AI ethical decision-making",
   "pass2_at": "2026-03-09T23:21:36.013Z"
 }

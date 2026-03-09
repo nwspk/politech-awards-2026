@@ -1,5 +1,15 @@
 {
   "url": "https://coralproject.net",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:03.454Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 437,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "Coral improves community on your website through smart technology, effective design, and strategies that work.",
+    "scraped_final_url": "https://coralproject.net/"
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "Coral",
@@ -92,7 +102,6 @@
   "causation_strength": "anecdotal",
   "outcome_methodology": "User adoption metrics and case studies from partner newsrooms",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "Used in 30 countries and 23 languages",
   "documented_limitations": [
     "AI moderation bias in non-English languages",
@@ -112,10 +121,6 @@
   "controversies": [
     "Concerns about AI moderation bias affecting non-English language communities"
   ],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": "Uses AI for comment moderation",
   "pass2_at": "2026-03-09T23:21:23.873Z"
 }

@@ -1,9 +1,19 @@
 {
   "url": "https://www.opencrvs.org",
-  "name": "OpenCRVS",
-  "tagline": "Open source digital civil registration and vital statistics system for every person on the planet",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:16.231Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 734,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Our vision is that every person on the planet is recognised, protected and provided for from birth",
+    "scraped_final_url": "https://www.opencrvs.org/"
+  },
   "collected_at": "2026-03-09T23:20:58.885Z",
   "collected_by": "collect-enriched-script",
+  "name": "OpenCRVS",
+  "tagline": "Open source digital civil registration and vital statistics system for every person on the planet",
   "project_type": "Platform",
   "org_type": "Nonprofit/charity",
   "issue_area": [
@@ -75,7 +85,6 @@
     "Recognized as critical infrastructure for SDG 16.9 implementation"
   ],
   "in_civictech_guide": true,
-  "wikipedia_page": null,
   "policy_outcomes": [
     {
       "description": "Recognized as a Digital Public Good by the Digital Public Goods Alliance",
@@ -91,7 +100,6 @@
   "causation_strength": "anecdotal",
   "outcome_methodology": "Case studies and implementation reports from deploying countries; monitoring of registration coverage and system uptime",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "System uptime, registration processing times, user adoption rates documented in implementation reports",
   "documented_limitations": [
     "Requires significant local capacity building and infrastructure investment",
@@ -109,10 +117,6 @@
   "contributor_governance": "Community-driven development with contributions from government partners, NGOs, and individual developers; managed through GitHub",
   "disparity_tracking": "Focused on reaching marginalized populations lacking legal identity; tracks coverage in rural and underserved areas",
   "community_ownership": true,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     {
       "partner": "Multiple national governments",

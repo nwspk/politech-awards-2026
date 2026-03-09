@@ -1,5 +1,15 @@
 {
   "url": "https://choosealicense.com",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:42:45.264Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 239,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Non-judgmental guidance on choosing a license for your open source project",
+    "scraped_final_url": "https://choosealicense.com/"
+  },
   "collected_at": "2026-03-09T23:18:15.017Z",
   "collected_by": "collect-enriched-script",
   "name": "Choose a License",
@@ -46,7 +56,6 @@
   ],
   "funding_verified": true,
   "last_funding_event": "ongoing GitHub support",
-  "dependency_risks": [],
   "news_articles": [
     "GitHub Blog - Introducing choosealicense.com",
     "TechCrunch coverage of GitHub open source initiatives"
@@ -71,29 +80,12 @@
       "doi": "https://doi.org/10.1057/palgrave.jibs.8490501"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
-  "replication_materials_available": null,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
-  "documented_limitations": [],
   "jurisdictional_scope": "international",
-  "failure_modes": [],
   "governance_model": "project_of_larger_org",
   "curation_criteria": "Community-preferred licenses and common open source licensing patterns",
   "contributor_governance": "GitHub-managed with community contributions via pull requests",
-  "disparity_tracking": null,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
-  "ai_involvement": null,
   "pass2_at": "2026-03-09T23:21:21.322Z",
   "pass3_at": "2026-03-09T23:22:07.290Z",
   "_sources": [

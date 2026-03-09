@@ -1,5 +1,15 @@
 {
   "url": "https://charitydigitalskills.co.uk",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:42:44.141Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 239,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "The Charity Digital Skills Report is the annual barometer of charities’ digital skills, attitudes and behaviours.",
+    "scraped_final_url": "https://charitydigitalskills.co.uk/"
+  },
   "collected_at": "2026-03-09T23:18:14.875Z",
   "collected_by": "collect-enriched-script",
   "name": "Charity Digital Skills Report",
@@ -33,9 +43,6 @@
     "federal"
   ],
   "open_source": false,
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "report",
     "survey",
@@ -51,12 +58,10 @@
     "Media Trust"
   ],
   "funding_verified": true,
-  "last_funding_event": null,
   "dependency_risks": [
     "Reliance on annual survey participation rates",
     "Dependency on Media Trust and other funders for course offerings"
   ],
-  "news_articles": [],
   "academic_citations": [
     {
       "title": "The impact of a professional upskilling training programme on developing teachers' digital competence",
@@ -77,9 +82,7 @@
       "doi": "https://doi.org/10.1257/jel.20171452"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
   "policy_outcomes": [
     {
       "description": "Findings used by funders and infrastructure organizations to inform investment decisions in digital support for the charity sector",
@@ -90,25 +93,16 @@
   "causation_strength": "anecdotal",
   "outcome_methodology": "Survey-based research; findings reported qualitatively without formal impact evaluation framework",
   "replication_materials_available": false,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": [
     "No methodological details provided on survey sampling or statistical rigor",
     "No information on response rate or representativeness of 672 respondents",
     "No published methodology for how findings influence policy decisions"
   ],
   "jurisdictional_scope": "United Kingdom",
-  "failure_modes": [],
   "governance_model": "project_of_larger_org",
   "curation_criteria": "Annual survey of UK registered charities; respondents self-selected through online survey distribution",
   "contributor_governance": "Managed by Media Trust as part of organizational research function; no public contributor governance structure documented",
-  "disparity_tracking": null,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "pass2_at": "2026-03-09T23:21:21.772Z",
   "pass3_at": "2026-03-09T23:22:05.964Z",
   "_sources": [

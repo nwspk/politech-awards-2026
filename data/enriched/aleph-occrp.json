@@ -1,5 +1,15 @@
 {
   "url": "https://aleph.occrp.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:42:24.229Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": null,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": null,
+    "scraped_description": null,
+    "scraped_final_url": "https://aleph.occrp.org/"
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "Aleph (OCCRP)",
@@ -97,7 +107,6 @@
   "causation_strength": "directly_cited",
   "outcome_methodology": "Investigative journalism outcomes tracked through published reports, policy responses, and documented resignations/regulatory actions; methodology relies on journalistic verification and public record documentation",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "Platform usage statistics and investigation impact metrics published in OCCRP annual reports; specific performance benchmarks not formally published",
   "documented_limitations": [
     "Access to Aleph restricted to journalists and activists on case-by-case basis",
@@ -120,7 +129,6 @@
   ],
   "political_bias_allegations": "Allegations that heavy US government funding skews story selection away from US-based subjects; OCCRP states the funding agreement explicitly bars use of funds for US investigations",
   "legal_regulatory_issues": "Designated undesirable organisation in Russia; journalists in several covered countries have faced legal harassment",
-  "elections_used_in": [],
   "government_partnerships": [
     "USAID",
     "US NED",

@@ -1,5 +1,15 @@
 {
   "url": "https://sci-hub.se",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T13:07:59.644Z",
+    "homepage_http_status": null,
+    "dead_link": true,
+    "homepage_word_count": null,
+    "homepage_has_team_page": null,
+    "homepage_has_impact_metrics": null,
+    "scraped_description": null,
+    "scraped_final_url": null
+  },
   "collected_at": "2026-03-09T23:20:43.267Z",
   "collected_by": "collect-enriched-script",
   "name": "Sci-Hub",
@@ -29,9 +39,6 @@
     "international"
   ],
   "open_source": "no",
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "platform",
     "database"
@@ -41,9 +48,7 @@
   "funding_model": [
     "donations"
   ],
-  "known_funders": [],
   "funding_verified": false,
-  "last_funding_event": null,
   "dependency_risks": [
     "Domain seizure and legal action from publishers",
     "Server hosting instability due to legal pressure",
@@ -60,15 +65,9 @@
   "academic_citations": [
     "Himmelstein et al. (2018) - 'Sci-Hub provides access to nearly all scholarly literature published within the last 50 years'"
   ],
-  "awards": [],
   "in_civictech_guide": false,
   "wikipedia_page": "https://en.wikipedia.org/wiki/Sci-Hub",
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": false,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": [
     "Operates in legal gray area; not a sustainable long-term solution",
     "Does not address underlying systemic issues in academic publishing",
@@ -82,7 +81,6 @@
   ],
   "governance_model": "individual",
   "curation_criteria": "Automated indexing of academic papers from publisher databases and institutional repositories; no formal curation process",
-  "contributor_governance": null,
   "disparity_tracking": false,
   "community_ownership": false,
   "controversies": [
@@ -90,10 +88,7 @@
     "Debate over whether it constitutes piracy vs. civil disobedience",
     "Concerns about data security and user privacy"
   ],
-  "political_bias_allegations": null,
   "legal_regulatory_issues": "Multiple ongoing lawsuits from academic publishers; domain blocked in several countries; founder (Alexandra Elbakyan) faces legal action",
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:40.511Z"
 }

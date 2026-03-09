@@ -1,9 +1,19 @@
 {
   "url": "https://www.torproject.org",
-  "name": "Tor Project",
-  "tagline": "Anonymity Online - Advance human rights and defend privacy through free and open source anonymity and privacy technologies",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:40.870Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 420,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Anonymity Online | Defend yourself against tracking and surveillance. Circumvent censorship.",
+    "scraped_final_url": "https://www.torproject.org/"
+  },
   "collected_at": "2026-03-09T23:21:01.735Z",
   "collected_by": "collect-enriched-script",
+  "name": "Tor Project",
+  "tagline": "Anonymity Online - Advance human rights and defend privacy through free and open source anonymity and privacy technologies",
   "project_type": "Tool/Platform",
   "org_type": "Nonprofit/charity",
   "issue_area": [
@@ -83,7 +93,6 @@
   "causation_strength": "moderate",
   "outcome_methodology": "Observational - usage metrics and user testimonials from journalists and activists",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": true,
   "documented_limitations": [
     "Tor exit nodes can be monitored",
@@ -111,7 +120,6 @@
     "Varying legal status across jurisdictions",
     "Potential restrictions in authoritarian regimes"
   ],
-  "elections_used_in": [],
   "government_partnerships": [
     {
       "partner": "US Government agencies",

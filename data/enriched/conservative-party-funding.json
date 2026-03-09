@@ -1,5 +1,15 @@
 {
   "url": "https://conservativepartyfunding.co.uk",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:42:59.462Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 177,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "The Conservative Party has accepted more than £27 million in donations since the 2019 elections, according to the Electoral Commission. Find out how much each industry has donated and what companies are making the donations.",
+    "scraped_final_url": "https://conservativepartyfunding.co.uk/"
+  },
   "collected_at": "2026-03-09T23:17:59.230Z",
   "collected_by": "collect-enriched-script",
   "name": "Conservative Party Funding",
@@ -28,9 +38,6 @@
     "federal"
   ],
   "open_source": false,
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "database",
     "platform"
@@ -38,11 +45,7 @@
   "founded_year": 2019,
   "team_size": "solo",
   "funding_model": "unfunded",
-  "known_funders": [],
   "funding_verified": false,
-  "last_funding_event": null,
-  "dependency_risks": [],
-  "news_articles": [],
   "academic_citations": [
     {
       "title": "The Tea Party and the Remaking of Republican Conservatism",
@@ -63,14 +66,8 @@
       "doi": "https://doi.org/10.1111/j.1541-0072.1999.tb01998.x"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": false,
-  "preregistered_studies": [],
   "published_performance_metrics": false,
   "documented_limitations": [
     "Data sourced from Electoral Commission; project does not appear to conduct independent verification",
@@ -78,17 +75,9 @@
     "No information on data update frequency or completeness"
   ],
   "jurisdictional_scope": "United Kingdom",
-  "failure_modes": [],
   "governance_model": "individual",
-  "curation_criteria": null,
-  "contributor_governance": null,
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:20.497Z",
   "pass3_at": "2026-03-09T23:22:12.885Z",

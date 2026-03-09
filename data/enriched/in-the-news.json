@@ -1,5 +1,15 @@
 {
   "url": "https://en.wikipedia.org/wiki/wikipedia:in_the_news",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:32.906Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 3951,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "This is an accepted version of this page",
+    "scraped_final_url": "https://en.wikipedia.org/wiki/Wikipedia:In_the_news"
+  },
   "collected_at": "2026-03-09T23:21:12.530Z",
   "collected_by": "collect-enriched-script",
   "name": "In the news",
@@ -28,15 +38,11 @@
     "Global"
   ],
   "open_source": true,
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "web portal",
     "content curation"
   ],
   "founded_year": 2001,
-  "team_size": null,
   "funding_model": [
     "volunteer-driven"
   ],
@@ -44,13 +50,11 @@
     "Wikimedia Foundation"
   ],
   "funding_verified": true,
-  "last_funding_event": null,
   "dependency_risks": [
     "Dependent on Wikimedia Foundation infrastructure",
     "Reliant on volunteer editor participation",
     "Subject to Wikipedia's content policies and consensus requirements"
   ],
-  "news_articles": [],
   "academic_citations": [
     {
       "title": "The spread of true and false news online",
@@ -71,15 +75,8 @@
       "doi": "https://doi.org/10.2307/3003562"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
   "wikipedia_page": "https://en.wikipedia.org/wiki/wikipedia:in_the_news",
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
-  "replication_materials_available": null,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": [
     "Not an online newspaper",
     "Does not accept original journalism or first-hand reports",
@@ -98,14 +95,7 @@
     "Consensus on ITN candidates page"
   ],
   "contributor_governance": "volunteer editors and administrators",
-  "disparity_tracking": null,
   "community_ownership": true,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
-  "ai_involvement": null,
   "pass2_at": "2026-03-09T23:21:25.402Z",
   "pass3_at": "2026-03-09T23:22:22.193Z",
   "_sources": [

@@ -1,9 +1,19 @@
 {
   "url": "https://privacybadger.org",
-  "name": "Privacy Badger",
-  "tagline": "A free browser extension made by EFF to stop companies from spying on you online.",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:55.322Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 3568,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Privacy Badger is a browser extension that stops advertisers and other third-party trackers from secretly tracking where you go and what pages you look at on the web.  If an advertiser seems to be tracking you across multiple websites without your permission, Privacy Badger automatically blocks that advertiser from loading any more content in your browser.  To the advertiser, it s like you suddenly disappeared.",
+    "scraped_final_url": "https://privacybadger.org/"
+  },
   "collected_at": "2026-03-09T00:00:00Z",
   "collected_by": "agent-batch-33",
+  "name": "Privacy Badger",
+  "tagline": "A free browser extension made by EFF to stop companies from spying on you online.",
   "project_type": "browser extension / software tool",
   "org_type": "nonprofit (Electronic Frontier Foundation)",
   "issue_area": [
@@ -72,7 +82,6 @@
   "causation_strength": "medium",
   "outcome_methodology": "heuristic tracker detection; automated learning via Badger Sett training project",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": false,
   "documented_limitations": [
     "Changed from heuristic learning to pre-trained blocklist in 2020 after Google Security Team disclosed fingerprinting vulnerability",
@@ -92,10 +101,6 @@
   "controversies": [
     "2020: Google Security Team disclosed that Privacy Badger's heuristic learning could be exploited to fingerprint users; EFF changed default behaviour"
   ],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:39.959Z"
 }

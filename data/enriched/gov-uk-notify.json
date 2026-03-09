@@ -1,5 +1,15 @@
 {
   "url": "https://www.notifications.service.gov.uk",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:14.033Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 278,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "GOV.UK Notify lets you send emails, text messages and letters to your users. Try it now if you work in central government, a local authority, or the NHS.",
+    "scraped_final_url": "https://www.notifications.service.gov.uk/"
+  },
   "collected_at": "2026-03-09T23:20:58.248Z",
   "collected_by": "collect-enriched-script",
   "name": "GOV.UK Notify",
@@ -69,7 +79,6 @@
   "causation_strength": "moderate",
   "outcome_methodology": "administrative data analysis and user adoption metrics",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": {
     "organizations_using": 1739,
     "services_using": 11895,
@@ -91,10 +100,6 @@
   "contributor_governance": "open source contributions accepted via GitHub; managed by Government Digital Service team",
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     {
       "partner": "Government Digital Service",

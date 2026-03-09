@@ -1,5 +1,15 @@
 {
   "url": "https://civictech.guide",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:42:52.873Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1335,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "A rich, crowdsourced collection of thousands of tech for good projects from around the world.",
+    "scraped_final_url": "https://civictech.guide/"
+  },
   "collected_at": "2026-03-09T23:18:12.287Z",
   "collected_by": "collect-enriched-script",
   "name": "Civic Tech Field Guide",
@@ -35,9 +45,6 @@
     "international"
   ],
   "open_source": false,
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "database",
     "platform",
@@ -66,12 +73,7 @@
     "Recognition as leading civic tech resource"
   ],
   "in_civictech_guide": true,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": false,
-  "preregistered_studies": [],
   "published_performance_metrics": {
     "curated_entries": 12000,
     "job_resources": 125,
@@ -93,10 +95,6 @@
   "contributor_governance": "Community contributions reviewed by core team; transparent submission process",
   "disparity_tracking": "Tracks representation of projects from diverse geographies and communities",
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     {
       "partner": "UNESCO",

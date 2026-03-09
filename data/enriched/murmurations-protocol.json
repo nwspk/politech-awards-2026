@@ -1,5 +1,15 @@
 {
   "url": "https://murmurations.network",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:11.884Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 586,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "The Murmurations protocol makes distributed data interoperable by combining three key elements: Profiles, an Index and Aggregators.",
+    "scraped_final_url": "https://murmurations.network/"
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "Murmurations Protocol",
@@ -68,7 +78,6 @@
     "small maintainer team",
     "index service availability"
   ],
-  "news_articles": [],
   "academic_citations": [
     {
       "title": "Murmuration Inspired Clustering Protocol for Underwater Wireless Sensor Networks",
@@ -89,15 +98,9 @@
       "doi": "https://doi.org/10.1161/01.cir.75.3.583"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
   "wikipedia_page": false,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": true,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": [
     "Limited adoption metrics",
     "Index service dependency",
@@ -114,11 +117,6 @@
   "contributor_governance": "Open source; contributions via GitHub",
   "disparity_tracking": false,
   "community_ownership": "Protocol is open; index operated by Murmurations org",
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:34.666Z",
   "pass3_at": "2026-03-09T23:22:47.205Z",

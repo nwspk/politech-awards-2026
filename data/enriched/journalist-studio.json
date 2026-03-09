@@ -1,5 +1,15 @@
 {
   "url": "https://journaliststudio.google.com",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:33.537Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 460,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "A collection of tools to empower journalists to do their work more efficiently, creatively, and securely",
+    "scraped_final_url": "https://journaliststudio.google.com/"
+  },
   "collected_at": "2026-03-09T23:19:59.750Z",
   "collected_by": "collect-enriched-script",
   "name": "Journalist Studio",
@@ -69,29 +79,17 @@
     "Google News Initiative recognition"
   ],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": false,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": [
     "Limited to Google ecosystem",
     "Requires technical expertise for some features"
   ],
   "jurisdictional_scope": "international",
-  "failure_modes": [],
   "governance_model": "project_of_larger_org",
   "curation_criteria": "Tools selected for journalistic impact and security standards",
   "contributor_governance": "Google-controlled with limited external contribution pathways",
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": true,
   "pass2_at": "2026-03-09T23:21:32.084Z"
 }

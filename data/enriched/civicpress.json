@@ -1,5 +1,15 @@
 {
   "url": "https://civicpress.io/",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:42:51.303Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1669,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "CivicPress is an open-source civic platform that helps municipalities publish records, meetings, and maps in formats people can read, verify, and trust.",
+    "scraped_final_url": "https://civicpress.io/"
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "CivicPress",
@@ -39,41 +49,25 @@
   "funding_model": [
     "self-funded"
   ],
-  "known_funders": [],
   "funding_verified": false,
-  "last_funding_event": null,
   "dependency_risks": [
     "early-stage project with low GitHub activity",
     "small contributor base"
   ],
-  "news_articles": [],
-  "academic_citations": [],
-  "awards": [],
   "in_civictech_guide": false,
   "wikipedia_page": false,
-  "policy_outcomes": [],
   "causation_strength": "unknown",
-  "outcome_methodology": null,
   "replication_materials_available": true,
-  "preregistered_studies": [],
-  "published_performance_metrics": [],
   "documented_limitations": [
     "early-stage development",
     "limited deployment history",
     "small user base"
   ],
   "jurisdictional_scope": "local government",
-  "failure_modes": [],
   "governance_model": "individual",
-  "curation_criteria": null,
   "contributor_governance": "open contributions via GitHub",
   "disparity_tracking": false,
   "community_ownership": "no",
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": "no",
   "pass2_at": "2026-03-09T23:21:21.125Z"
 }

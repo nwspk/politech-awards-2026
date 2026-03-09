@@ -135,5 +135,15 @@
     }
   ],
   "ai_involvement": null,
-  "pass2_at": "2026-03-09T23:21:39.125Z"
+  "pass2_at": "2026-03-09T23:21:39.125Z",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:20.345Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 888,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "We partner to build",
+    "scraped_final_url": "https://oa.works/"
+  }
 }

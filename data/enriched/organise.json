@@ -1,5 +1,15 @@
 {
   "url": "https://www.organise.org.uk",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:20.644Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 653,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "The million-strong workers&#x27; network to anonymously chat to colleagues, let off steam, and campaign for better pay and conditions.",
+    "scraped_final_url": "https://about.organise.network/"
+  },
   "collected_at": "2026-03-09T23:20:58.893Z",
   "collected_by": "collect-enriched-script",
   "name": "Organise",
@@ -29,9 +39,6 @@
     "federal"
   ],
   "open_source": "no",
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "platform",
     "app"
@@ -99,7 +106,6 @@
   "causation_strength": "anecdotal",
   "outcome_methodology": "self-reported campaign wins; petition signature counts; media coverage tracking",
   "replication_materials_available": false,
-  "preregistered_studies": [],
   "published_performance_metrics": "25 million+ member actions (survey answers, petition signatures, open letters, emails); 5000+ worker-led actions created",
   "documented_limitations": [
     "Limited to UK jurisdiction",
@@ -120,9 +126,6 @@
     "open platform means unverified employer grievances can be published without fact-checking"
   ],
   "political_bias_allegations": "broadly left-leaning focus on worker rights; no formal allegations found",
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:48.655Z",
   "pass3_at": "2026-03-09T23:23:27.202Z",

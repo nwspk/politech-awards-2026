@@ -1,5 +1,15 @@
 {
   "url": "https://parti.xyz",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T13:07:59.447Z",
+    "homepage_http_status": null,
+    "dead_link": true,
+    "homepage_word_count": null,
+    "homepage_has_team_page": null,
+    "homepage_has_impact_metrics": null,
+    "scraped_description": null,
+    "scraped_final_url": null
+  },
   "collected_at": "2026-03-09T23:20:32.753Z",
   "collected_by": "collect-enriched-script",
   "name": "Parti",
@@ -63,7 +73,6 @@
     "Korean Digital Innovation Award 2022"
   ],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
   "policy_outcomes": [
     "Increased citizen participation in local government decision-making",
     "Integration with municipal budgeting processes in participating cities"
@@ -71,7 +80,6 @@
   "causation_strength": "moderate",
   "outcome_methodology": "observational",
   "replication_materials_available": false,
-  "preregistered_studies": [],
   "published_performance_metrics": true,
   "documented_limitations": [
     "Limited English-language documentation",
@@ -87,10 +95,6 @@
   "contributor_governance": "Open contribution model with community review process",
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     {
       "partner": "South Korean local governments",

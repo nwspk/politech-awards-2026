@@ -1,5 +1,15 @@
 {
   "url": "https://cortico.ai/platform",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:04.929Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 878,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Conversations that travel Listen in Joanna shares her experience interacting with the U.S. Education System This conversation highlight comes from our project with Carnegie Corporation of New York",
+    "scraped_final_url": "https://cortico.ai/platform/"
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "Cortico",
@@ -31,9 +41,6 @@
     "city"
   ],
   "open_source": "no",
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "platform"
   ],
@@ -55,7 +62,6 @@
     "Craig Newmark"
   ],
   "funding_verified": true,
-  "last_funding_event": null,
   "dependency_risks": [
     "grant-dependent",
     "small team",
@@ -83,7 +89,6 @@
       "venue": null
     }
   ],
-  "awards": [],
   "in_civictech_guide": true,
   "wikipedia_page": false,
   "policy_outcomes": [
@@ -106,7 +111,6 @@
   "causation_strength": "anecdotal",
   "outcome_methodology": "Qualitative sensemaking; audio highlights and transcripts; human-led pattern identification supported by AI",
   "replication_materials_available": false,
-  "preregistered_studies": [],
   "published_performance_metrics": "275+ partners, 40+ US states, 60+ countries (partner network)",
   "documented_limitations": [
     "Small-group dialogue model may not scale to large populations",
@@ -123,10 +127,6 @@
   "contributor_governance": "Staff-led; community partners are collaborators but not governors",
   "disparity_tracking": true,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     "City of Cambridge MA",
     "City of Durham NC",

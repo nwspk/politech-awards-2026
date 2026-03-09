@@ -1,5 +1,15 @@
 {
   "url": "https://policykit.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:52.836Z",
+    "homepage_http_status": 503,
+    "dead_link": true,
+    "homepage_word_count": 32,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "The server is temporarily unable to service your\nrequest due to maintenance downtime or capacity\nproblems. Please try again later.",
+    "scraped_final_url": "https://policykit.org/"
+  },
   "collected_at": "2026-03-09T23:20:38.648Z",
   "collected_by": "collect-enriched-script",
   "name": "PolicyKit",
@@ -71,14 +81,10 @@
     "Pika: Empowering Non-Programmers to Author Executable Governance Policies in Online Communities (ACM'20)",
     "PolicyKit: Building Governance in Online Communities (ACM'20)"
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
   "causation_strength": "anecdotal",
   "outcome_methodology": "case studies and user feedback from deployed communities",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "community engagement metrics, policy adoption rates in pilot communities",
   "documented_limitations": [
     "Limited to online communities with existing platform integrations",
@@ -94,13 +100,7 @@
   "governance_model": "project_of_larger_org",
   "curation_criteria": "open-source contribution guidelines, peer review for policy implementations",
   "contributor_governance": "University of Washington-led with community contributions via GitHub",
-  "disparity_tracking": null,
   "community_ownership": "limited - primarily academic-led with community input",
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": "no",
   "pass2_at": "2026-03-09T23:21:39.907Z"
 }

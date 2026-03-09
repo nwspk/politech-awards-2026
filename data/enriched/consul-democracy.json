@@ -1,5 +1,15 @@
 {
   "url": "https://consulproject.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:01.462Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 616,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "The open source CONSUL DEMOCRACY software is free to use and modify.",
+    "scraped_final_url": "https://consuldemocracy.org/"
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "CONSUL Democracy",
@@ -98,7 +108,6 @@
   "causation_strength": "correlated",
   "outcome_methodology": "Platform tracks participation metrics including number of proposals, votes cast, and citizen engagement rates; outcomes measured through government adoption rates and participatory budgeting allocations",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "~350 governments have used the platform; 'more than 250 cities and organizations' per homepage",
   "documented_limitations": [
     "Digital divide: requires internet access and digital literacy",
@@ -117,10 +126,6 @@
   "contributor_governance": "Open source under AGPLv3; Certified Companies contribute code; Foundation maintains core",
   "disparity_tracking": "Limited documented tracking; platform aims for inclusive participation but equity outcomes not systematically measured across demographics",
   "community_ownership": "Community-driven development through open source model; local government ownership of implementations; foundation stewardship of core platform",
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     "Madrid",
     "Munich",

@@ -1,5 +1,15 @@
 {
   "url": "https://library.theengineroom.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:39.296Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 3254,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "We're always finding information through our direct support, community and research work that we think should be shared as widely as possible. So, we summarise what we've found, and present it in a simple, easy-to-understand way.",
+    "scraped_final_url": "https://library.theengineroom.org/"
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "The Engine Room Library",
@@ -66,15 +76,9 @@
   "academic_citations": [
     "Cited in academic literature on responsible data and human rights technology"
   ],
-  "awards": [],
   "in_civictech_guide": true,
   "wikipedia_page": false,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": true,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": [
     "books intentionally kept short; depth is limited by format"
   ],
@@ -88,11 +92,6 @@
   "contributor_governance": "openly licensed; community can suggest additions via contact form",
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:32.568Z"
 }

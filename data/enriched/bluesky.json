@@ -1,5 +1,15 @@
 {
   "url": "https://bsky.app",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:42:41.103Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 40,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Social media as it should be. Find your community among millions of users, unleash your creativity, and have some fun again.",
+    "scraped_final_url": "https://bsky.app/"
+  },
   "collected_at": "2026-03-09T23:18:13.761Z",
   "collected_by": "collect-enriched-script",
   "name": "Bluesky",
@@ -74,11 +84,7 @@
   ],
   "in_civictech_guide": false,
   "wikipedia_page": "https://en.wikipedia.org/wiki/Bluesky_(social_network)",
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": false,
-  "preregistered_studies": [],
   "published_performance_metrics": "User growth metrics published quarterly; moderation statistics available in transparency reports",
   "documented_limitations": [
     "Early-stage platform with smaller user base than competitors",
@@ -102,8 +108,6 @@
   ],
   "political_bias_allegations": "Allegations of left-leaning user base and moderation bias from conservative users (2023-2024)",
   "legal_regulatory_issues": "Subject to EU Digital Services Act compliance; ongoing regulatory scrutiny of content moderation practices",
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": "Machine learning used for content recommendation and moderation assistance; algorithmic feed personalization",
   "pass2_at": "2026-03-09T23:21:23.762Z"
 }

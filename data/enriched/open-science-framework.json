@@ -1,5 +1,15 @@
 {
   "url": "https://osf.io",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:36.728Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": null,
+    "scraped_final_url": "https://osf.io/"
+  },
   "collected_at": "2026-03-09T23:20:25.792Z",
   "collected_by": "collect-enriched-script",
   "name": "Open Science Framework",
@@ -95,9 +105,7 @@
     "Debates over mandatory data sharing requirements",
     "Discussions about privacy protections for sensitive research"
   ],
-  "political_bias_allegations": null,
   "legal_regulatory_issues": "GDPR compliance considerations for international researcher data",
-  "elections_used_in": [],
   "government_partnerships": [
     "NIH collaboration on open science standards",
     "NSF integration for grant management"

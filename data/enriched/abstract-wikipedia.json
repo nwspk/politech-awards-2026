@@ -1,5 +1,15 @@
 {
   "url": "https://meta.wikimedia.org/wiki/abstract_wikipedia",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:00.141Z",
+    "homepage_http_status": 404,
+    "dead_link": true,
+    "homepage_word_count": 168,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": null,
+    "scraped_final_url": "https://meta.wikimedia.org/wiki/Abstract_wikipedia"
+  },
   "collected_at": "2026-03-09T23:20:27.812Z",
   "collected_by": "collect-enriched-script",
   "name": "Abstract Wikipedia",
@@ -58,15 +68,8 @@
   "academic_citations": [
     "Wikimedia Foundation research on multilingual knowledge representation"
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": true,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": [
     "Page does not currently exist on Meta-Wiki (404 state)"
   ],
@@ -78,13 +81,7 @@
   "governance_model": "project_of_larger_org",
   "curation_criteria": "Wikimedia Foundation governance policies; community consensus-based editing standards",
   "contributor_governance": "Volunteer-driven with Wikimedia Foundation oversight; community discussion forums for major decisions",
-  "disparity_tracking": null,
   "community_ownership": "Community-driven with Wikimedia Foundation stewardship",
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": "Machine learning and natural language processing for language rendering and knowledge representation",
   "pass2_at": "2026-03-09T23:21:34.572Z"
 }

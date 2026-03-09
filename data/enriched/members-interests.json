@@ -1,5 +1,15 @@
 {
   "url": "https://membersinterests.org.uk",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T13:07:58.593Z",
+    "homepage_http_status": null,
+    "dead_link": true,
+    "homepage_word_count": null,
+    "homepage_has_team_page": null,
+    "homepage_has_impact_metrics": null,
+    "scraped_description": null,
+    "scraped_final_url": null
+  },
   "collected_at": "2026-03-09T23:20:05.337Z",
   "collected_by": "collect-enriched-script",
   "name": "Members' Interests",
@@ -30,9 +40,6 @@
     "federal"
   ],
   "open_source": "partial",
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "database",
     "platform"
@@ -46,7 +53,6 @@
     "UK Parliament"
   ],
   "funding_verified": true,
-  "last_funding_event": null,
   "dependency_risks": [
     "Reliance on UK Parliament for data provision and maintenance"
   ],
@@ -74,9 +80,7 @@
       "doi": "https://doi.org/10.1080/09571264.2014.871122"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
   "policy_outcomes": [
     "Increased transparency of UK parliamentary financial interests",
     "Support for Members' Interests Register compliance"
@@ -84,8 +88,6 @@
   "causation_strength": "moderate",
   "outcome_methodology": "Observational - tracking parliamentary transparency initiatives",
   "replication_materials_available": false,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": [
     "Limited to UK Parliament members",
     "Data accuracy dependent on MP declarations"
@@ -99,10 +101,6 @@
   "contributor_governance": "Managed by UK Parliament",
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     {
       "partner": "UK Parliament",

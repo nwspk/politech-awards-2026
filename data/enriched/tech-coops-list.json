@@ -1,5 +1,15 @@
 {
   "url": "https://tech-coops.xyz",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:21.672Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 3628,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "A list of tech coops and resources concerning tech coops and worker owned cooperatives in general.",
+    "scraped_final_url": "https://tech-coops.xyz/"
+  },
   "collected_at": "2026-03-09T23:20:43.750Z",
   "collected_by": "collect-enriched-script",
   "name": "Tech Coops List",
@@ -44,14 +54,11 @@
     "donations",
     "community_contribution"
   ],
-  "known_funders": [],
   "funding_verified": false,
-  "last_funding_event": null,
   "dependency_risks": [
     "Relies on volunteer contributions and community maintenance",
     "No documented funding or organizational structure"
   ],
-  "news_articles": [],
   "academic_citations": [
     {
       "title": "An Overview of the Global Historical Climatology Network-Daily Database",
@@ -72,32 +79,18 @@
       "doi": "https://doi.org/10.1038/srep14947"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
-  "replication_materials_available": null,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": [
     "List focuses on tech coops providing software development and consulting services",
     "Geographic coverage varies by region",
     "No systematic verification of coop status or claims"
   ],
   "jurisdictional_scope": "International with emphasis on North America and Europe",
-  "failure_modes": [],
   "governance_model": "project_of_larger_org",
   "curation_criteria": "Worker-owned cooperatives operating in information technology industry, primarily software development and consulting services",
   "contributor_governance": "Open contribution model via GitHub pull requests with CONTRIBUTING.md guidelines",
   "disparity_tracking": false,
   "community_ownership": true,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:41.645Z",
   "pass3_at": "2026-03-09T23:23:12.849Z",

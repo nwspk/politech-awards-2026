@@ -1,5 +1,15 @@
 {
   "url": "https://github.com/whotargetsme/ad-transparency-standards/blob/main/implement.md",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:12.815Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 419,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "A proposed schema for disclosure of advertising transparency data. - ad-transparency-standards/implement.md at main · WhoTargetsMe/ad-transparency-standards",
+    "scraped_final_url": "https://github.com/whotargetsme/ad-transparency-standards/blob/main/implement.md"
+  },
   "collected_at": "2026-03-09T23:19:22.178Z",
   "collected_by": "collect-enriched-script",
   "name": "Political Advertising Transparency Data Standard",
@@ -58,9 +68,7 @@
   "academic_citations": [
     "Research on political advertising transparency standards"
   ],
-  "awards": [],
   "in_civictech_guide": true,
-  "wikipedia_page": null,
   "policy_outcomes": [
     "Influenced EU Digital Services Act transparency requirements",
     "Referenced in platform policy discussions"
@@ -68,7 +76,6 @@
   "causation_strength": "moderate",
   "outcome_methodology": "Standards adoption tracking and platform implementation analysis",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": true,
   "documented_limitations": "Limited platform adoption; voluntary implementation creates inconsistency",
   "jurisdictional_scope": "International with focus on US, UK, and EU",
@@ -78,9 +85,6 @@
   "contributor_governance": "Open contribution model with review process",
   "disparity_tracking": false,
   "community_ownership": "Collaborative with platforms and civil society",
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
   "elections_used_in": [
     "2020 US Presidential Election",
     "2024 US Presidential Election",

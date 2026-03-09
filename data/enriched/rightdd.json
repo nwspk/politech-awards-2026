@@ -1,5 +1,15 @@
 {
   "url": "https://www.rightsdd.com",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:35.314Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 909,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "RightsDD is an award-winning startup. Use RightsDD&#x27;s technology to assess and monitor suppliers for environmental, social and governance  (ESG) risk, including human rights risk. Train employees with RightsDD&#x27;s online and in-person anti-slavery courses. Benefit from our specialist consulting.",
+    "scraped_final_url": "https://www.rightsdd.com/"
+  },
   "collected_at": "2026-03-09T23:21:01.312Z",
   "collected_by": "collect-enriched-script",
   "name": "RightDD",
@@ -32,9 +42,6 @@
     "international"
   ],
   "open_source": "no",
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "platform",
     "database",
@@ -45,14 +52,11 @@
   "funding_model": [
     "subscriptions"
   ],
-  "known_funders": [],
   "funding_verified": false,
-  "last_funding_event": null,
   "dependency_risks": [
     "proprietary risk database dependency",
     "third-party data integration reliance"
   ],
-  "news_articles": [],
   "academic_citations": [
     {
       "title": "Prenatal features of Noonan syndrome: prevalence and prognostic value",
@@ -67,28 +71,13 @@
       "doi": "https://doi.org/10.22214/ijraset.2023.49473"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": false,
-  "preregistered_studies": [],
   "published_performance_metrics": false,
-  "documented_limitations": [],
   "jurisdictional_scope": "Global supply chains; UK Modern Slavery Act compliance; TSX/V issuer requirements",
-  "failure_modes": [],
   "governance_model": "LLC",
-  "curation_criteria": null,
-  "contributor_governance": null,
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:47.268Z",
   "pass3_at": "2026-03-09T23:23:29.449Z",

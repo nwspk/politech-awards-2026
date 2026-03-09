@@ -1,9 +1,19 @@
 {
   "url": "https://www.workerinfoexchange.org",
-  "name": "Worker Info Exchange",
-  "tagline": "Platform connecting workers with information about labor rights, workplace conditions, and employment resources",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:50.911Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 517,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "Worker Info Exchange is a non profit organisation dedicated to helping workers access and gain insight from data collected from them at work.\n \nWhether you are an Uber driver or a Deliveroo rider,  we aim to tilt the balance away from big platforms in favour of the people.",
+    "scraped_final_url": "https://www.workerinfoexchange.org/"
+  },
   "collected_at": "2026-03-09T23:21:00.755Z",
   "collected_by": "collect-enriched-script",
+  "name": "Worker Info Exchange",
+  "tagline": "Platform connecting workers with information about labor rights, workplace conditions, and employment resources",
   "project_type": "Platform",
   "org_type": "Nonprofit/charity",
   "issue_area": [
@@ -31,9 +41,6 @@
     "state"
   ],
   "open_source": false,
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "platform",
     "database"
@@ -46,7 +53,6 @@
     "Open Society Foundations (via DFF)"
   ],
   "funding_verified": false,
-  "last_funding_event": null,
   "dependency_risks": [
     "Small team / single-founder organisation",
     "Reliance on GDPR and UK data protection law",
@@ -77,9 +83,7 @@
       "doi": "https://doi.org/10.1057/palgrave.jibs.8490248"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
   "policy_outcomes": [
     "Amsterdam District Court (2023) ordered Uber and Ola Cabs to disclose algorithmic management data to drivers",
     "Court of Appeal Amsterdam ruled platforms cannot use trade secrets exemptions to deny drivers data access",
@@ -89,7 +93,6 @@
   "causation_strength": "strong",
   "outcome_methodology": "strategic litigation using GDPR Data Subject Access Requests; large-scale data audit (1.5M+ trips, 258 drivers, 2016-2024)",
   "replication_materials_available": false,
-  "preregistered_studies": [],
   "published_performance_metrics": false,
   "documented_limitations": [
     "Geographically limited to GDPR jurisdictions",
@@ -103,15 +106,10 @@
     "Loss of key legal personnel"
   ],
   "governance_model": "nonprofit board",
-  "curation_criteria": null,
-  "contributor_governance": null,
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
   "political_bias_allegations": false,
   "legal_regulatory_issues": false,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:49.127Z",
   "pass3_at": "2026-03-09T23:23:32.791Z",

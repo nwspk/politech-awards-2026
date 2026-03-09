@@ -1,5 +1,15 @@
 {
   "url": "https://github.com/propublica/django-collaborative",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:05.867Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1289,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "ProPublica&#39;s collaborative tip-gathering framework. Import and manage CSV, Google Sheets and Screendoor data with ease. - propublica/django-collaborative",
+    "scraped_final_url": "https://github.com/propublica/django-collaborative"
+  },
   "collected_at": "2026-03-09T23:19:39.054Z",
   "collected_by": "collect-enriched-script",
   "name": "django-collaborative",
@@ -48,7 +58,6 @@
     "Django framework maintenance",
     "Python dependency updates"
   ],
-  "news_articles": [],
   "academic_citations": [
     {
       "title": "Lean GHTorrent: GitHub data on demand",
@@ -69,28 +78,15 @@
       "doi": "https://doi.org/10.5120/ijca2018917193"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
   "wikipedia_page": false,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": true,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
-  "documented_limitations": [],
   "jurisdictional_scope": "United States",
-  "failure_modes": [],
   "governance_model": "project_of_larger_org",
   "curation_criteria": "Open source contribution guidelines via GitHub; managed by ProPublica engineering team",
   "contributor_governance": "ProPublica-managed; open source contributions accepted via pull requests",
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:28.034Z",
   "pass3_at": "2026-03-09T23:22:32.723Z",

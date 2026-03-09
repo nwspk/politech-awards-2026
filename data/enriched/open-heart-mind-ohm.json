@@ -1,5 +1,15 @@
 {
   "url": "https://openheartmind.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:31.728Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 403,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "A participatory, gift-based gathering of art, science, wellbeing, culture and more — powered by Wisdom.",
+    "scraped_final_url": "https://openheartmind.org/"
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "Open Heart Mind (OHM)",
@@ -61,18 +71,14 @@
     "early-stage platform with limited adoption",
     "reliance on donation-based funding"
   ],
-  "news_articles": [],
   "academic_citations": [
     "AIMOS 2023 conference presentation on Metavaluation framework"
   ],
-  "awards": [],
   "in_civictech_guide": false,
   "wikipedia_page": false,
-  "policy_outcomes": [],
   "causation_strength": "Not yet established (early-stage, pre-impact evaluation)",
   "outcome_methodology": "Participatory peer evaluation — peer reviews treated as contributions in their own right to generate community-driven value metrics",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": false,
   "documented_limitations": [
     "early-stage; limited evidence base beyond small pilot gatherings",
@@ -89,11 +95,8 @@
   "contributor_governance": "All participants can contribute and earn recognition; contributions tracked and rewarded through Wisdom peer evaluation system",
   "disparity_tracking": false,
   "community_ownership": "Gift-based, community co-created events and platform; all research and tools freely available under open source licences",
-  "controversies": [],
   "political_bias_allegations": false,
   "legal_regulatory_issues": false,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": "Research question explicitly exploring training AI systems on participatory community value systems as alternative to internet scraping",
   "pass2_at": "2026-03-09T23:21:36.638Z"
 }

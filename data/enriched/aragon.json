@@ -1,5 +1,15 @@
 {
   "url": "https://aragon.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:42:36.187Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 807,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Aragon gives organizations the tools to build, govern, and accrue value effectively onchain.",
+    "scraped_final_url": "https://www.aragon.org/"
+  },
   "collected_at": "2026-03-09T23:18:04.453Z",
   "collected_by": "collect-enriched-script",
   "name": "Aragon",
@@ -66,12 +76,6 @@
     "Recognized as leading DAO governance infrastructure platform"
   ],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
-  "replication_materials_available": null,
-  "preregistered_studies": [],
   "published_performance_metrics": "10K projects launched; $35B+ assets governed",
   "documented_limitations": [
     "Smart contract security risks",
@@ -88,16 +92,11 @@
   "governance_model": "LLC",
   "curation_criteria": "Decentralized governance through ANT token holders and community proposals",
   "contributor_governance": "Open-source contribution model with community review process",
-  "disparity_tracking": null,
   "community_ownership": "Partial - ANT token holders have governance rights; community-driven development",
   "controversies": [
     "Regulatory scrutiny around DAO legal status and liability",
     "Security incidents in DAO governance implementations"
   ],
-  "political_bias_allegations": null,
   "legal_regulatory_issues": "Ongoing regulatory uncertainty regarding DAO legal status and governance liability across jurisdictions",
-  "elections_used_in": [],
-  "government_partnerships": [],
-  "ai_involvement": null,
   "pass2_at": "2026-03-09T23:21:24.010Z"
 }

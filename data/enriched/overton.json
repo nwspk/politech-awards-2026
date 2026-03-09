@@ -1,5 +1,15 @@
 {
   "url": "https://overton.io",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:39.284Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 5,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Overton connects research with policy. Our software Overton Index and Overton Engage are the only tools you need to understand and influence policy.",
+    "scraped_final_url": "https://www.overton.io/"
+  },
   "collected_at": "2026-03-09T23:20:19.502Z",
   "collected_by": "collect-enriched-script",
   "name": "Overton",
@@ -27,12 +37,8 @@
     "State legislatures"
   ],
   "open_source": false,
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": "Web platform / SaaS",
   "founded_year": 2017,
-  "team_size": null,
   "funding_model": "Subscription-based / Commercial",
   "known_funders": [
     "Founders Fund",
@@ -40,7 +46,6 @@
     "angel investors"
   ],
   "funding_verified": false,
-  "last_funding_event": null,
   "dependency_risks": "Proprietary platform dependency, reliance on legislative data sources",
   "news_articles": [
     "TechCrunch coverage of Overton",
@@ -66,28 +71,14 @@
       "doi": "https://doi.org/10.1016/0005-2736(72)90023-5"
     }
   ],
-  "awards": null,
   "in_civictech_guide": false,
   "wikipedia_page": false,
-  "policy_outcomes": null,
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": false,
-  "preregistered_studies": null,
-  "published_performance_metrics": null,
-  "documented_limitations": null,
   "jurisdictional_scope": "United States",
-  "failure_modes": null,
   "governance_model": "Corporate governance",
   "curation_criteria": "Automated analysis of legislative text and political positions",
-  "contributor_governance": null,
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": null,
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": null,
-  "government_partnerships": null,
   "ai_involvement": "Machine learning for text analysis and policy classification",
   "pass2_at": "2026-03-09T23:21:37.479Z",
   "pass3_at": "2026-03-09T23:22:53.966Z",

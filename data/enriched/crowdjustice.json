@@ -1,5 +1,15 @@
 {
   "url": "https://www.crowdjustice.com",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:50.996Z",
+    "homepage_http_status": 403,
+    "dead_link": true,
+    "homepage_word_count": 9,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": null,
+    "scraped_final_url": "https://www.crowdjustice.com/"
+  },
   "collected_at": "2026-03-09T23:20:49.191Z",
   "collected_by": "collect-enriched-script",
   "name": "CrowdJustice",
@@ -32,9 +42,6 @@
     "international"
   ],
   "open_source": "no",
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "platform"
   ],
@@ -83,31 +90,15 @@
       "doi": "https://doi.org/10.1136/bmj.n1321"
     }
   ],
-  "awards": [],
   "in_civictech_guide": true,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
-  "replication_materials_available": null,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": [
     "Page content unavailable - JavaScript required"
   ],
   "jurisdictional_scope": "Multi-jurisdictional (UK, US, Canada, Australia)",
-  "failure_modes": [],
   "governance_model": "LLC",
   "curation_criteria": "Cases must involve legal action or justice campaigns; platform reviews submissions for legitimacy",
   "contributor_governance": "User-driven campaign creation with platform moderation",
-  "disparity_tracking": null,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
-  "ai_involvement": null,
   "pass2_at": "2026-03-09T23:21:46.670Z",
   "pass3_at": "2026-03-09T23:23:18.632Z",
   "_sources": [

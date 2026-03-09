@@ -1,5 +1,15 @@
 {
   "url": "https://blog.kagi.com/slopstop",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:42:40.298Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 879,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "-------------------------------------------------------------------\nYour collective defense against AI-generated spam and content farms\n-------------------------------------------------------------------\n\nWe made it our mission to prevent the web from becoming useless and a harmful space.",
+    "scraped_final_url": "https://blog.kagi.com/slopstop"
+  },
   "collected_at": "2026-03-09T21:00:00Z",
   "collected_by": "nano-bot",
   "name": "Kagi SlopStop",
@@ -35,7 +45,6 @@
   ],
   "open_source": "partial",
   "github_url": "https://github.com/kagisearch",
-  "github_stars": null,
   "last_commit_date": "2026-03-09",
   "format": [
     "search engine feature",
@@ -51,7 +60,6 @@
     "Kagi Inc. (self-funded through subscription revenue)"
   ],
   "funding_verified": false,
-  "last_funding_event": null,
   "dependency_risks": [
     "relies on user community for crowdsourced AI slop reporting",
     "Kagi Search subscriber base required for sustainability",
@@ -83,15 +91,10 @@
       "url": "https://news.ycombinator.com/item?id=42787762"
     }
   ],
-  "academic_citations": [],
-  "awards": [],
   "in_civictech_guide": false,
   "wikipedia_page": true,
-  "policy_outcomes": [],
   "causation_strength": "anecdotal",
-  "outcome_methodology": null,
   "replication_materials_available": false,
-  "preregistered_studies": [],
   "published_performance_metrics": "Kagi blog states AI-generated content accounts for 30–41% of fail response rate in most chatbots; no independent published metrics for SlopStop detection accuracy",
   "documented_limitations": [
     "Downranking does not remove content — flagged results can still appear lower in results",
@@ -116,10 +119,6 @@
     "Kagi previously used Yandex as a search source; critics alleged this indirectly funded Russia (2024). Post-dates SlopStop launch.",
     "Concerns about transparency of AI detection methodology and potential false positives affecting legitimate content"
   ],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": "Central to the tool: Kagi uses AI-based detection to identify AI-generated content, combined with crowdsourced user reports. Blog states they are 'using AI to destroy AI slop'. Dataset of flagged AI-slop domains intended to train future detection models and will eventually be shared publicly.",
   "pass2_at": "2026-03-09T23:21:25.792Z"
 }

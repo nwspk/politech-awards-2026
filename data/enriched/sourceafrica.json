@@ -1,5 +1,15 @@
 {
   "url": "https://sourceafrica.net",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:17.607Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 208,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": null,
+    "scraped_final_url": "https://sourceafrica.net/"
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "sourceAFRICA",
@@ -76,7 +86,6 @@
   "causation_strength": "moderate",
   "outcome_methodology": "observational - tracked through contributing organisation reports and published investigations",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "115,126 documents; 1,243,213 pages; 47 contributing organisations; 137 contributors",
   "documented_limitations": [
     "automated document text may contain errors",
@@ -93,11 +102,6 @@
   "contributor_governance": "47 contributing organisations; open API",
   "disparity_tracking": false,
   "community_ownership": true,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": "minimal - uses DocumentCloud's OCR and text extraction capabilities",
   "pass2_at": "2026-03-09T23:21:44.752Z"
 }

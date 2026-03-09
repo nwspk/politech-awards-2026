@@ -1,5 +1,15 @@
 {
   "url": "https://yourtracka.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:55.172Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 545,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Tracka is a community of active citizens who monitor the implementation of government projects in their communities.",
+    "scraped_final_url": "https://www.yourtracka.org/ng"
+  },
   "collected_at": "2026-03-09T23:21:02.974Z",
   "collected_by": "collect-enriched-script",
   "name": "Tracka",
@@ -31,9 +41,6 @@
     "state"
   ],
   "open_source": false,
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "platform",
     "app",
@@ -51,8 +58,6 @@
     "MacArthur Foundation"
   ],
   "funding_verified": true,
-  "last_funding_event": null,
-  "dependency_risks": [],
   "news_articles": [
     "https://www.theguardian.com/global-development/2019/jul/15/nigerian-startup-tracka-uses-crowdsourcing-to-track-public-projects",
     "https://www.wired.com/story/tracka-nigeria-civic-tech/"
@@ -82,7 +87,6 @@
     "Ashoka Fellowship"
   ],
   "in_civictech_guide": true,
-  "wikipedia_page": null,
   "policy_outcomes": [
     {
       "description": "Project monitoring and community feedback leading to improved project implementation across Nigerian states",
@@ -93,7 +97,6 @@
   "causation_strength": "anecdotal",
   "outcome_methodology": "Community-based monitoring and reporting with government feedback loops",
   "replication_materials_available": false,
-  "preregistered_studies": [],
   "published_performance_metrics": "36 states, 19,000+ projects tracked, 17,000+ communities engaged, 100+ reports generated",
   "documented_limitations": [
     "Limited government responsiveness in some states",
@@ -109,10 +112,6 @@
   "contributor_governance": "Community members can report project status; civil society organizations can submit reports",
   "disparity_tracking": true,
   "community_ownership": true,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     "Nigerian state governments",
     "Federal Ministry of Works"

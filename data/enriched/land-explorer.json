@@ -1,5 +1,15 @@
 {
   "url": "https://landexplorer.coop",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:37.336Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1619,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Mapping tools that help your community Work, Play, Eat, &amp; Grow. We believe in common good land use with shared benefits.",
+    "scraped_final_url": "https://landexplorer.coop/"
+  },
   "collected_at": "2026-03-09T23:20:08.104Z",
   "collected_by": "collect-enriched-script",
   "name": "Land Explorer",
@@ -32,9 +42,6 @@
     "local"
   ],
   "open_source": false,
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "platform",
     "app"
@@ -50,12 +57,10 @@
     "Community Shares Unit"
   ],
   "funding_verified": false,
-  "last_funding_event": null,
   "dependency_risks": [
     "Ordnance Survey data dependency",
     "Land Registry data integration (noted as 'coming soon')"
   ],
-  "news_articles": [],
   "academic_citations": [
     {
       "title": "The promised land? Exploring the future visions and narrative silences of cellular agriculture in news and industry media",
@@ -76,9 +81,7 @@
       "doi": "https://doi.org/10.1007/s10551-007-9470-9"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
   "policy_outcomes": [
     {
       "description": "Testimonial from HM Land Registry Director stating tool 'helps implement government policy'",
@@ -87,25 +90,15 @@
     }
   ],
   "causation_strength": "anecdotal",
-  "outcome_methodology": null,
   "replication_materials_available": false,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": [
     "Land Registry data integration still pending",
     "Geographic scope limited to England (based on 'Who Owns England?' branding)"
   ],
   "jurisdictional_scope": "England",
-  "failure_modes": [],
   "governance_model": "cooperative",
-  "curation_criteria": null,
-  "contributor_governance": null,
   "disparity_tracking": false,
   "community_ownership": true,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     {
       "partner": "HM Land Registry",

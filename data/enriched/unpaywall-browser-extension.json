@@ -1,5 +1,15 @@
 {
   "url": "https://unpaywall.org/products/extension",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:29.651Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 17,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": null,
+    "scraped_final_url": "https://unpaywall.org/products/extension"
+  },
   "collected_at": "2026-03-09T23:20:44.428Z",
   "collected_by": "collect-enriched-script",
   "name": "Unpaywall Browser Extension",
@@ -68,11 +78,7 @@
   ],
   "in_civictech_guide": false,
   "wikipedia_page": false,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": true,
   "documented_limitations": [
     "Limited to papers with open access versions available",
@@ -88,11 +94,8 @@
   "contributor_governance": "Open source contribution model with maintainers from Impactstory",
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
   "political_bias_allegations": false,
   "legal_regulatory_issues": false,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:43.409Z"
 }

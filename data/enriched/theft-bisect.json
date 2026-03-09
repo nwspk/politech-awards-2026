@@ -1,5 +1,15 @@
 {
   "url": "https://onodi.co/bisect/",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:23.048Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 982,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "If it is available we will review around two hours of CCTV footage to try to identify the incident, but it is not proportionate to review longer periods as it keeps officers from being available to respond to emergencies, visibly patrolling railway stations and trains, investigating crimes with identified lines of enquiry or which cause the most harm to victims – such as violent or sexual offences.",
+    "scraped_final_url": "https://onodi.co/bisect/"
+  },
   "collected_at": "2026-03-09T23:20:21.811Z",
   "collected_by": "collect-enriched-script",
   "name": "Theft Bisect",
@@ -37,9 +47,7 @@
   "founded_year": 2025,
   "team_size": "solo",
   "funding_model": "unfunded",
-  "known_funders": [],
   "funding_verified": false,
-  "last_funding_event": null,
   "dependency_risks": [
     "Relies on Claude Code for AI implementation",
     "Single developer project"
@@ -72,9 +80,7 @@
       "doi": "https://doi.org/10.1136/jnnp.71.2.254"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
   "policy_outcomes": [
     {
       "description": "Tool created to demonstrate to British Transport Police that binary search could make reviewing longer CCTV footage feasible, challenging their two-hour footage review policy",
@@ -85,7 +91,6 @@
   "causation_strength": "anecdotal",
   "outcome_methodology": "Advocacy demonstration tool; effectiveness measured by tool performance metrics rather than policy adoption",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "Tool can narrow 64 minutes of footage to 30-second window in ~10 seconds; 8-hour video search estimated at ~20 seconds",
   "documented_limitations": [
     "Potential GDPR/privacy concerns for police use with sensitive footage",
@@ -102,13 +107,9 @@
   "contributor_governance": "Not applicable - solo project",
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
   "legal_regulatory_issues": [
     "GDPR/privacy concerns regarding police use of video analysis tools"
   ],
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": "Claude Code used to build the tool",
   "pass2_at": "2026-03-09T23:21:35.888Z",
   "pass3_at": "2026-03-09T23:22:49.884Z",

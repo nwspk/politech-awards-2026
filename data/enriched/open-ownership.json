@@ -1,9 +1,19 @@
 {
   "url": "https://www.openownership.org",
-  "name": "Open Ownership",
-  "tagline": "Driving global shift towards transparency and accountability in corporate ownership and control",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:18.464Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 808,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Open Ownership provides support and guidance on all aspects of beneficial ownership transparency reforms as we believe revealing the true owners of corporate vehicles is an essential part of a well-functioning economy and society",
+    "scraped_final_url": "https://www.openownership.org/en/"
+  },
   "collected_at": "2026-03-09T23:21:01.967Z",
   "collected_by": "collect-enriched-script",
+  "name": "Open Ownership",
+  "tagline": "Driving global shift towards transparency and accountability in corporate ownership and control",
   "project_type": "Organization",
   "org_type": "Nonprofit/charity",
   "issue_area": [
@@ -76,7 +86,6 @@
     "Transparency International Award for Anti-Corruption Innovation"
   ],
   "in_civictech_guide": true,
-  "wikipedia_page": null,
   "policy_outcomes": [
     {
       "description": "Senegal expanded beneficial ownership declarations and advanced legal reforms for public access with support from Opening Extractives",
@@ -97,7 +106,6 @@
   "causation_strength": "correlated",
   "outcome_methodology": "Mixed methods including government adoption tracking, policy analysis, and stakeholder interviews",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "Annual impact reports tracking beneficial ownership register implementations and policy adoptions",
   "documented_limitations": [
     "Variation in government capacity and political will to implement reforms",
@@ -114,10 +122,6 @@
   "contributor_governance": "Multi-stakeholder governance including government representatives, civil society, and private sector participants",
   "disparity_tracking": "Monitoring implementation disparities across countries with varying governance capacity and resources",
   "community_ownership": "Collaborative model with government agencies, civil society organizations, and international partners",
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     {
       "partner": "Patents and Company Registration Agency (PACRA)",

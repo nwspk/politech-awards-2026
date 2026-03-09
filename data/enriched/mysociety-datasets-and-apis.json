@@ -1,5 +1,15 @@
 {
   "url": "https://data.mysociety.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:09.400Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 211,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "mySociety is a not-for-profit social enterprise, based in the UK but working with partners internationally.\n            We build and share digital technologies that help people be active citizens, across the three areas of\n            Democracy, Transparency, and Community.",
+    "scraped_final_url": "https://data.mysociety.org/"
+  },
   "collected_at": "2026-03-09T23:19:38.686Z",
   "collected_by": "collect-enriched-script",
   "name": "mySociety Datasets and APIs",
@@ -86,7 +96,6 @@
   "causation_strength": "moderate",
   "outcome_methodology": "observational studies, case studies, stakeholder interviews",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": true,
   "documented_limitations": [
     "Data quality varies by jurisdiction",
@@ -103,9 +112,6 @@
   "contributor_governance": "Open contribution model with documented contribution guidelines; community review process for new datasets",
   "disparity_tracking": "Monitors geographic coverage gaps and works to include underrepresented regions in datasets",
   "community_ownership": "Community-driven curation with public feedback mechanisms; advisory board includes civil society representatives",
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
   "elections_used_in": [
     "UK parliamentary elections (voter information)",
     "Local elections (candidate and constituency data)"

@@ -1,9 +1,19 @@
 {
   "url": "https://opencollective.com",
-  "name": "Open Collective",
-  "tagline": "Raise, manage and disburse money with full transparency.",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:25.960Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 844,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Open Collective is a legal and financial toolbox for groups. It’s a fundraising + legal status + money management platform for your community. What do you want to do?",
+    "scraped_final_url": "https://opencollective.com/"
+  },
   "collected_at": "2026-03-09T00:00:00Z",
   "collected_by": "agent-batch-33",
+  "name": "Open Collective",
+  "tagline": "Raise, manage and disburse money with full transparency.",
   "project_type": "platform",
   "org_type": "nonprofit",
   "issue_area": [
@@ -84,12 +94,6 @@
     "Mozilla Foundation Grant Recipient"
   ],
   "in_civictech_guide": true,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
-  "replication_materials_available": null,
-  "preregistered_studies": [],
   "published_performance_metrics": true,
   "documented_limitations": [
     "Platform dependency on fiscal hosts for legal compliance",
@@ -103,15 +107,11 @@
   "governance_model": "Platform stewardship transitioned in 2024 to Open Finance Consortium Inc. (OFiCo), a US 501(c)(6) association governed collectively by fiscal hosts and communities",
   "curation_criteria": "Collectives must comply with fiscal host policies; platform prohibits illegal activities, discrimination, and harassment; transparent financial reporting required",
   "contributor_governance": "community-owned via OFiCo since 2024",
-  "disparity_tracking": null,
   "community_ownership": true,
   "controversies": [
     "Open Collective Foundation dissolved abruptly in 2024, leaving ~600 collectives to transition funds"
   ],
-  "political_bias_allegations": null,
   "legal_regulatory_issues": "OCF dissolution 2024 - collectives required to find new fiscal hosts",
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:38.881Z"
 }

@@ -1,9 +1,19 @@
 {
   "url": "https://github.com/datakind/data-observation-toolkit",
-  "name": "Data Observation Toolkit (DOT)",
-  "tagline": "Open-source toolkit to monitor data integrity and flag problems in public health and humanitarian datasets",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:54.858Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 6390,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "The Data Observation Toolkit (DOT) can be used to monitor data in order to flag problems with data integrity and scenarios that might need attention.  - GitHub - datakind/Data-Observation-Toolkit: The Data Observation Toolkit (DOT) can be used to monitor data in order to flag problems with data integrity and scenarios that might need attention.",
+    "scraped_final_url": "https://github.com/datakind/data-observation-toolkit"
+  },
   "collected_at": "2026-03-09T20:00:00Z",
   "collected_by": "agent-batch-30",
+  "name": "Data Observation Toolkit (DOT)",
+  "tagline": "Open-source toolkit to monitor data integrity and flag problems in public health and humanitarian datasets",
   "project_type": "tool",
   "org_type": "nonprofit",
   "issue_area": [
@@ -67,14 +77,12 @@
     "Verified Digital Public Good (DPGA)"
   ],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
   "policy_outcomes": [
     "Improved data quality monitoring in frontline health systems in Uganda"
   ],
   "causation_strength": "correlational",
   "outcome_methodology": "Case study evaluation of data quality improvements in Uganda health facilities",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "Data quality improvement rates in pilot health facilities (available in project documentation)",
   "documented_limitations": [
     "Requires technical setup; Python and Docker skills needed"
@@ -89,10 +97,6 @@
   "contributor_governance": "GitHub issues",
   "disparity_tracking": "Designed to identify data quality disparities across health facilities and geographic regions",
   "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     "Uganda Ministry of Health (indirectly via frontline health partners)"
   ],

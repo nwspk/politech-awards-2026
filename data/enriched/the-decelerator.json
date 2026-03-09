@@ -1,5 +1,15 @@
 {
   "url": "https://decelerator.org.uk",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:11.575Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 344,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "By using this website, you agree to our use of cookies. We use cookies to provide you with a great experience and to help our website run effectively. Please see our Cookies Policy for more information (https://decelerator.org.uk/cookies)",
+    "scraped_final_url": "https://decelerator.org.uk/"
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "The Decelerator",
@@ -28,9 +38,6 @@
     "United Kingdom"
   ],
   "open_source": "no",
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "course",
     "report"
@@ -59,7 +66,6 @@
     "Small team",
     "Uncertain continuation beyond 2029"
   ],
-  "news_articles": [],
   "academic_citations": [
     {
       "title": "Type Ia Supernova Discoveries at<i>z</i>&gt; 1 from the<i>Hubble Space Telescope</i>: Evidence for Past Deceleration and Constraints on Dark Energy Evolution",
@@ -80,15 +86,9 @@
       "doi": "https://doi.org/10.1103/physrevlett.48.596"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
   "wikipedia_page": false,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": true,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": [
     "Modest scale",
     "Focus on UK civil society only",
@@ -101,15 +101,7 @@
     "Stigma around discussing endings"
   ],
   "governance_model": "LLC",
-  "curation_criteria": null,
-  "contributor_governance": null,
   "disparity_tracking": true,
-  "community_ownership": null,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": "no",
   "pass2_at": "2026-03-09T23:21:23.808Z",
   "pass3_at": "2026-03-09T23:22:16.143Z",

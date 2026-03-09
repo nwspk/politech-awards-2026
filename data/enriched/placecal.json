@@ -1,5 +1,15 @@
 {
   "url": "https://github.com/geeksforsocialchange/placecal",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:58.413Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 2263,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Bring your community together. Contribute to geeksforsocialchange/PlaceCal development by creating an account on GitHub.",
+    "scraped_final_url": "https://github.com/geeksforsocialchange/placecal"
+  },
   "collected_at": "2026-03-09T23:19:21.667Z",
   "collected_by": "collect-enriched-script",
   "name": "PlaceCal",
@@ -47,9 +57,7 @@
     "Community Foundation grants"
   ],
   "funding_verified": true,
-  "last_funding_event": null,
   "dependency_risks": "Dependent on volunteer contributions and grant funding; small team size creates sustainability risk",
-  "news_articles": [],
   "academic_citations": [
     {
       "title": "Making a place for technology in communities: PlaceCal and the capabilities approach",
@@ -70,28 +78,18 @@
       "doi": null
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
   "wikipedia_page": false,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": false,
-  "documented_limitations": [],
   "jurisdictional_scope": "Local (UK-based, primarily Manchester and surrounding areas)",
-  "failure_modes": [],
   "governance_model": "project_of_larger_org",
   "curation_criteria": "Community-submitted events; moderation by local coordinators",
   "contributor_governance": "Open source contributions via GitHub; managed by Geeks for Social Change core team",
   "disparity_tracking": false,
   "community_ownership": false,
-  "controversies": [],
   "political_bias_allegations": false,
   "legal_regulatory_issues": false,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:27.793Z",
   "propublica_match": {

@@ -1,5 +1,15 @@
 {
   "url": "https://www.teachingpublicservice.digital",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:38.172Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 599,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "Select \\u201CAccept all\\u201D to agree to our use of cookies and similar technologies to enhance your browsing experience, security, analytics and customization. Select \\u201DManage cookies\\u201D to make more choices or opt out.",
+    "scraped_final_url": "https://www.teachingpublicservice.digital/"
+  },
   "collected_at": "2026-03-09T23:20:59.324Z",
   "collected_by": "collect-enriched-script",
   "name": "Teaching Public Service in the Digital Age",
@@ -50,7 +60,6 @@
   ],
   "funding_verified": true,
   "last_funding_event": "2024",
-  "dependency_risks": [],
   "news_articles": [
     "Harvard Kennedy School Ash Center publications",
     "Digital Public Library of America announcements"
@@ -58,30 +67,16 @@
   "academic_citations": [
     "Cited in public administration and digital governance literature"
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": "Course adoption metrics across 75 universities",
-  "documented_limitations": [],
   "jurisdictional_scope": "International (75 universities across 30 countries)",
-  "failure_modes": [],
   "governance_model": "project_of_larger_org",
   "curation_criteria": "Open-access educational materials vetted by academic institutions",
   "contributor_governance": "Academic institution-led with community contributions",
-  "disparity_tracking": null,
   "community_ownership": "Institutional ownership through partner universities",
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     "Multiple government agencies as course participants and partners"
   ],
-  "ai_involvement": null,
   "pass2_at": "2026-03-09T23:21:49.177Z"
 }

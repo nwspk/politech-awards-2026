@@ -1,5 +1,15 @@
 {
   "url": "https://ethelo.com",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:35.147Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1310,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "The world&#8217;s leading group solutions technology",
+    "scraped_final_url": "https://ethelo.com/"
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "Ethelo",
@@ -108,7 +118,6 @@
   "causation_strength": "anecdotal",
   "outcome_methodology": "Self-reported",
   "replication_materials_available": false,
-  "preregistered_studies": [],
   "published_performance_metrics": "Self-reported: 17,000 residents in Metro Vancouver; 76% support figure from internal exit surveys",
   "documented_limitations": [
     "Performance metrics are largely self-reported",
@@ -124,10 +133,6 @@
   "contributor_governance": "Closed governance model; contributions managed by Ethelo team; open-source components accept external contributions via GitHub",
   "disparity_tracking": false,
   "community_ownership": "No community ownership structure; proprietary platform operated by Ethelo Inc.",
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     {
       "name": "Public Works Canada",

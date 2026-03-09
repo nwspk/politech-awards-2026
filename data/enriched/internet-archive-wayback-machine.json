@@ -1,5 +1,15 @@
 {
   "url": "https://web.archive.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:45.280Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 590,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Capture a web page as it appears now for use as a trusted\n                          citation in the future.",
+    "scraped_final_url": "https://web.archive.org/"
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "Internet Archive Wayback Machine",
@@ -106,7 +116,6 @@
   "causation_strength": "correlated",
   "outcome_methodology": "Institutional adoption; legal proceedings reference archive as authoritative source; journalists and researchers routinely cite captures",
   "replication_materials_available": true,
-  "preregistered_studies": [],
   "published_performance_metrics": true,
   "documented_limitations": [
     "Robots.txt exclusions allow sites to opt out of archiving",
@@ -129,9 +138,7 @@
     "Music industry lawsuit (2023) over Great 78 Project; settled September 2025",
     "October 2024 data breach: 31 million user accounts compromised; SN_BLACKMETA hacker group claimed responsibility"
   ],
-  "political_bias_allegations": null,
   "legal_regulatory_issues": "Major copyright litigation: Hachette v. Internet Archive (lost 2023); music industry suit (settled 2025); data breach October 2024",
-  "elections_used_in": [],
   "government_partnerships": [
     "Library of Congress (collaboration on digital preservation)",
     "National Archives (partnership on historical preservation)",

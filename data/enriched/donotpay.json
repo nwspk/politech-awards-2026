@@ -1,5 +1,15 @@
 {
   "url": "https://www.donotpay.com",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:56.167Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": null,
+    "scraped_final_url": "https://www.donotpay.com/"
+  },
   "collected_at": "2026-03-09T23:20:56.060Z",
   "collected_by": "collect-enriched-script",
   "name": "DoNotPay",
@@ -32,8 +42,6 @@
   ],
   "open_source": "no",
   "github_url": "Not applicable - proprietary platform",
-  "github_stars": null,
-  "last_commit_date": null,
   "format": [
     "app",
     "platform"
@@ -89,15 +97,9 @@
       "doi": "https://doi.org/10.1016/j.obhdp.2020.01.008"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
   "wikipedia_page": "https://en.wikipedia.org/wiki/DoNotPay",
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": false,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": [
     "Limited to specific legal domains",
     "Not a substitute for licensed attorney advice",
@@ -120,8 +122,6 @@
   ],
   "political_bias_allegations": false,
   "legal_regulatory_issues": "Multiple bar associations have issued warnings about unauthorized practice of law; regulatory scrutiny ongoing",
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": "Core technology uses large language models for legal document generation and advice",
   "pass2_at": "2026-03-09T23:21:44.849Z",
   "pass3_at": "2026-03-09T23:23:20.123Z",

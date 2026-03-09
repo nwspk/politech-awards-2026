@@ -1,5 +1,15 @@
 {
   "url": "https://github.com/cavi-au/consent-o-matic",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:52.245Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 3871,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Browser extension that automatically fills out cookie popups based on your preferences - cavi-au/Consent-O-Matic",
+    "scraped_final_url": "https://github.com/cavi-au/consent-o-matic"
+  },
   "collected_at": "2026-03-09T23:19:19.046Z",
   "collected_by": "collect-enriched-script",
   "name": "Consent-O-Matic",
@@ -35,11 +45,8 @@
   "founded_year": 2019,
   "team_size": "small",
   "funding_model": "volunteer-driven",
-  "known_funders": [],
   "funding_verified": false,
-  "last_funding_event": null,
   "dependency_risks": "Relies on volunteer maintenance; dependent on browser API stability and cookie consent regulation changes",
-  "news_articles": [],
   "academic_citations": [
     {
       "title": "Consent-O-Matic: Automatically Answering Consent Pop-ups Using Adversarial Interoperability",
@@ -60,15 +67,8 @@
       "doi": "https://doi.org/10.1161/01.cir.55.4.613"
     }
   ],
-  "awards": [],
   "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
   "replication_materials_available": true,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
   "documented_limitations": "Limited to cookie consent popups; effectiveness depends on website compliance with consent standards; may not work with all consent management platforms",
   "jurisdictional_scope": "Global",
   "failure_modes": "Extension may fail when websites use non-standard consent implementations; updates required as consent platforms evolve",
@@ -76,11 +76,6 @@
   "contributor_governance": "GitHub-based open source model with community contributions",
   "disparity_tracking": false,
   "community_ownership": true,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
   "ai_involvement": false,
   "pass2_at": "2026-03-09T23:21:27.596Z",
   "pass3_at": "2026-03-09T23:22:26.118Z",

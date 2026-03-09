@@ -1,5 +1,15 @@
 {
   "url": "https://upgrader.gapminder.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:30.288Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 78,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Gapminder Worldview Upgrader - Get rid of your misconceptions about global development!",
+    "scraped_final_url": "https://upgrader.gapminder.org/"
+  },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "Gapminder Worldview Upgrader",
@@ -76,7 +86,6 @@
   "causation_strength": "moderate",
   "outcome_methodology": "Pre/post quiz assessment; longitudinal tracking of user attitude changes; comparison with control groups in educational settings",
   "replication_materials_available": false,
-  "preregistered_studies": [],
   "published_performance_metrics": "Users show average 15-20% improvement in factual knowledge post-quiz; 70% of users report increased awareness of personal misconceptions",
   "documented_limitations": [
     "misconceptions tested are global averages; may not reflect local context",
@@ -92,10 +101,6 @@
   "contributor_governance": "Open source contributions reviewed by Gapminder core team; community contributions welcome via GitHub pull requests",
   "disparity_tracking": "Tracks performance disparities by geography, education level, and language; publishes annual equity reports",
   "community_ownership": "Community-driven translation efforts; volunteer translators in 30+ languages; open GitHub repository for contributions",
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
   "government_partnerships": [
     "Swedish Ministry of Education",
     "UNESCO"
