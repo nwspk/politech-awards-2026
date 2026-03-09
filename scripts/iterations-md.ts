@@ -251,12 +251,15 @@ export function iterationToMd(iter: Iteration): string {
   return `---\n${frontmatterLines.join("\n")}\n---\n\n${body}\n`;
 }
 
-/** List all iteration folders (v1, v2, …) by reading iterations/ subdirs; each has README.md. */
+/** List all iteration folders (v1, v2, …) that have a README.md; each is the single source of truth. */
 export function listIterationMdFiles(): string[] {
   if (!fs.existsSync(ITERATIONS_DIR)) return [];
   const entries = fs.readdirSync(ITERATIONS_DIR, { withFileTypes: true });
   return entries
     .filter((d) => d.isDirectory() && /^v\d+$/.test(d.name))
+    .filter((d) =>
+      fs.existsSync(path.join(ITERATIONS_DIR, d.name, "README.md"))
+    )
     .sort((a, b) => {
       const na = parseInt(a.name.replace(/^v/, ""), 10);
       const nb = parseInt(b.name.replace(/^v/, ""), 10);
