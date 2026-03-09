@@ -8,7 +8,8 @@
  * 2. Finds entries with pr_status "open" (the just-merged iteration)
  * 3. Updates the .md file(s): pr_status → "merged", top_project from results
  * 4. Re-snapshots iterations/{version}/results.json
- * 5. Runs build-iterations to regenerate iterations.json from updated .md
+ * 5. Copies that version's cache files (assessments, deliberations, etc.) into iterations/{version}/ so they are preserved
+ * 6. Runs build-iterations to regenerate iterations.json from updated .md
  */
 
 import { execSync } from "child_process";
@@ -17,6 +18,7 @@ import {
   loadIterations,
   loadResults,
   snapshotVersionResults,
+  snapshotVersionCache,
 } from "./shared.js";
 import { updateIterationMdFrontmatter } from "./iterations-md.js";
 
@@ -46,6 +48,12 @@ function main(): void {
     // Re-snapshot results.json → iterations/{version}/results.json
     snapshotVersionResults(entry.version, results);
     console.log(`✓ Re-snapshotted iterations/${entry.version}/results.json`);
+
+    // Snapshot cache files → iterations/{version}/ (so they aren't lost when cache is overwritten)
+    const copied = snapshotVersionCache(entry.version);
+    if (copied.length > 0) {
+      console.log(`✓ Snapshot cache → iterations/${entry.version}/: ${copied.join(", ")}`);
+    }
 
     // Update .md: pr_status → merged, top_project from current results
     const updates: { pr_status: string; top_project?: { name: string; url: string; score: number | null } } = {

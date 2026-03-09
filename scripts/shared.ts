@@ -89,3 +89,48 @@ export function snapshotVersionResults(
   fs.writeFileSync(resultsPath, JSON.stringify(results, null, 2) + "\n");
   return resultsPath;
 }
+
+/**
+ * Cache files to snapshot from cache/ into iterations/{version}/ on merge.
+ * Only files that exist in cache/ are copied; missing files are skipped.
+ */
+const CACHE_SNAPSHOT_FILES: Record<string, string[]> = {
+  v5: ["assessments.json", "deliberation.json"],
+  v6: [
+    "assessments-grok.json",
+    "assessments-all-claude.json",
+    "assessments-all-kimi.json",
+    "assessments-merged.json",
+    "deliberation-grok.json",
+    "deliberation-all-claude.json",
+    "deliberation-all-kimi.json",
+    "deliberation-mixed.json",
+    "deliberation-adversarial.json",
+    "deliberation-specialist.json",
+    "pilot-shortlist.json",
+  ],
+};
+
+/**
+ * Copy version-specific cache files from cache/ to iterations/{version}/.
+ * Skips files that don't exist. Call after merge so iteration data is preserved.
+ */
+export function snapshotVersionCache(version: string): string[] {
+  const files = CACHE_SNAPSHOT_FILES[version];
+  if (!files || files.length === 0) return [];
+
+  const dir = `iterations/${version}`;
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir, { recursive: true });
+  }
+
+  const copied: string[] = [];
+  for (const name of files) {
+    const src = `cache/${name}`;
+    if (!fs.existsSync(src)) continue;
+    const dest = `${dir}/${name}`;
+    fs.copyFileSync(src, dest);
+    copied.push(name);
+  }
+  return copied;
+}

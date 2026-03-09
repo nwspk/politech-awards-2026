@@ -33,12 +33,12 @@ npx tsx scripts/itn-a-eval.ts --setup all-kimi   --model moonshotai/kimi-k2
 # ── Phase 1b: Shortlist (union ≥2G, top-up to 100) ──────────────────────────
 echo ""
 echo "2/6 — Shortlist (union ≥2 greens, top-up to 100)..."
-npx tsx scripts/build-v6-shortlist.ts --out "$SHORTLIST"
+npx tsx scripts/v6/build-v6-shortlist.ts --out "$SHORTLIST"
 
 # ── Phase 1c: Merge assessments for mixed juries ─────────────────────────────
 echo ""
 echo "3/6 — Merge assessments for mixed juries..."
-npx tsx scripts/merge-assessments.ts --out "$MERGED"
+npx tsx scripts/v6/merge-assessments.ts --out "$MERGED"
 
 # ── Phase 2: Deliberations ───────────────────────────────────────────────────
 echo ""
@@ -95,7 +95,7 @@ ASSESSMENTS_PATH="$MERGED"                          DELIBERATION_PATH=cache/deli
 # ── Phase 3: Pick winner ──────────────────────────────────────────────────────
 echo ""
 echo "6/6 — Pick highest-confidence jury..."
-npx tsx scripts/pick-v6-winner.ts $PROMOTE_FLAG
+npx tsx scripts/v6/pick-v6-winner.ts $PROMOTE_FLAG
 
 echo ""
 echo "=== v6 pipeline finished at $(date) ==="
