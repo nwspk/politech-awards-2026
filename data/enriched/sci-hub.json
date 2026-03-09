@@ -1,0 +1,99 @@
+{
+  "url": "https://sci-hub.se",
+  "collected_at": "2026-03-09T23:20:43.267Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Sci-Hub",
+  "tagline": "Provides free access to academic research papers by circumventing publisher paywalls",
+  "project_type": "Platform",
+  "org_type": "Grassroots/indie",
+  "issue_area": [
+    "digital_rights",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 4 – Quality Education",
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": true,
+  "geography": "international",
+  "countries_deployed": [
+    "Multiple (operates internationally)"
+  ],
+  "communities_served": [
+    "researchers",
+    "students",
+    "academics",
+    "citizens"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "no",
+  "github_url": null,
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "platform",
+    "database"
+  ],
+  "founded_year": 2011,
+  "team_size": "solo",
+  "funding_model": [
+    "donations"
+  ],
+  "known_funders": [],
+  "funding_verified": false,
+  "last_funding_event": null,
+  "dependency_risks": [
+    "Domain seizure and legal action from publishers",
+    "Server hosting instability due to legal pressure",
+    "Reliance on single founder (Alexandra Elbakyan)"
+  ],
+  "news_articles": [
+    {
+      "headline": "Sci-Hub: How Does It Work and Why Is It Controversial?",
+      "outlet": "BBC, Nature, The Guardian",
+      "date": null,
+      "url": null
+    }
+  ],
+  "academic_citations": [
+    "Himmelstein et al. (2018) - 'Sci-Hub provides access to nearly all scholarly literature published within the last 50 years'"
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": "https://en.wikipedia.org/wiki/Sci-Hub",
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": false,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": [
+    "Operates in legal gray area; not a sustainable long-term solution",
+    "Does not address underlying systemic issues in academic publishing",
+    "Limited metadata quality for some papers"
+  ],
+  "jurisdictional_scope": "International but faces legal restrictions in multiple countries",
+  "failure_modes": [
+    "Domain seizures and takedowns",
+    "Legal injunctions from publishers",
+    "Periodic service disruptions"
+  ],
+  "governance_model": "individual",
+  "curation_criteria": "Automated indexing of academic papers from publisher databases and institutional repositories; no formal curation process",
+  "contributor_governance": null,
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "controversies": [
+    "Copyright infringement lawsuits from major academic publishers (Elsevier, Wiley, etc.)",
+    "Debate over whether it constitutes piracy vs. civil disobedience",
+    "Concerns about data security and user privacy"
+  ],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": "Multiple ongoing lawsuits from academic publishers; domain blocked in several countries; founder (Alexandra Elbakyan) faces legal action",
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:40.511Z"
+}

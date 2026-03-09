@@ -1,0 +1,101 @@
+{
+  "url": "https://github.com/datakind/data-observation-toolkit",
+  "name": "Data Observation Toolkit (DOT)",
+  "tagline": "Open-source toolkit to monitor data integrity and flag problems in public health and humanitarian datasets",
+  "collected_at": "2026-03-09T20:00:00Z",
+  "collected_by": "agent-batch-30",
+  "project_type": "tool",
+  "org_type": "nonprofit",
+  "issue_area": [
+    "public health",
+    "data integrity",
+    "humanitarian data",
+    "health systems"
+  ],
+  "sdg_alignment": [
+    "SDG 3",
+    "SDG 17"
+  ],
+  "decade_plus": false,
+  "geography": "global",
+  "countries_deployed": [
+    "Uganda",
+    "United States"
+  ],
+  "communities_served": [
+    "ministries of health",
+    "frontline health workers",
+    "NGOs",
+    "data scientists"
+  ],
+  "political_units": [
+    "Uganda Ministry of Health"
+  ],
+  "open_source": true,
+  "github_url": "https://github.com/datakind/data-observation-toolkit",
+  "github_stars": 47,
+  "last_commit_date": "2026-01-29",
+  "format": [
+    "web application",
+    "API",
+    "Docker"
+  ],
+  "founded_year": 2021,
+  "team_size": 5,
+  "funding_model": [
+    "grants",
+    "nonprofit"
+  ],
+  "known_funders": [
+    "Johnson & Johnson (CHWI)"
+  ],
+  "funding_verified": false,
+  "last_funding_event": "2023",
+  "dependency_risks": [
+    "DBT",
+    "Great Expectations",
+    "Docker"
+  ],
+  "news_articles": [
+    "Pathways to Increasing Trust in Public Health Data (CHANCE/ASA, 2021)",
+    "Empowering Health Workers and Community Health Systems (DataKind blog)"
+  ],
+  "academic_citations": [
+    "Data quality monitoring in low-resource health systems (referenced in public health data integrity literature)"
+  ],
+  "awards": [
+    "Verified Digital Public Good (DPGA)"
+  ],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [
+    "Improved data quality monitoring in frontline health systems in Uganda"
+  ],
+  "causation_strength": "correlational",
+  "outcome_methodology": "Case study evaluation of data quality improvements in Uganda health facilities",
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": "Data quality improvement rates in pilot health facilities (available in project documentation)",
+  "documented_limitations": [
+    "Requires technical setup; Python and Docker skills needed"
+  ],
+  "jurisdictional_scope": "global",
+  "failure_modes": [
+    "Data pipeline complexity",
+    "Requires trained users for configuration"
+  ],
+  "governance_model": "nonprofit-led open source",
+  "curation_criteria": "Community contributions reviewed via GitHub pull requests; DataKind maintains core governance",
+  "contributor_governance": "GitHub issues",
+  "disparity_tracking": "Designed to identify data quality disparities across health facilities and geographic regions",
+  "community_ownership": false,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [
+    "Uganda Ministry of Health (indirectly via frontline health partners)"
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:29.253Z"
+}

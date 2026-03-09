@@ -1,0 +1,94 @@
+{
+  "url": "https://dogooder.co",
+  "collected_at": "2026-03-09T23:18:19.796Z",
+  "collected_by": "collect-enriched-script",
+  "name": "DoGooder",
+  "tagline": "Civic engagement and advocacy platform for grassroots campaigns",
+  "project_type": "Software platform",
+  "org_type": "For-profit social enterprise",
+  "issue_area": [
+    "Civic engagement",
+    "Advocacy",
+    "Grassroots organizing"
+  ],
+  "sdg_alignment": [
+    "SDG 16: Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "Australia",
+  "countries_deployed": [
+    "Australia"
+  ],
+  "communities_served": [
+    "Activists",
+    "Non-profit organizations",
+    "Community groups",
+    "Social movements"
+  ],
+  "political_units": [
+    "Australian federal",
+    "State and local governments"
+  ],
+  "open_source": false,
+  "github_url": null,
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": "Web-based platform",
+  "founded_year": 2012,
+  "team_size": null,
+  "funding_model": "Freemium subscription model",
+  "known_funders": null,
+  "funding_verified": false,
+  "last_funding_event": null,
+  "dependency_risks": null,
+  "news_articles": null,
+  "academic_citations": [
+    {
+      "title": "doGooder",
+      "year": 2008,
+      "cited_by": 6,
+      "doi": "https://doi.org/10.1145/1358628.1358941"
+    },
+    {
+      "title": "Facial Deformities and Plastic Surgery: A Psychosocial Study",
+      "year": 1954,
+      "cited_by": 36,
+      "doi": "https://doi.org/10.1001/jama.1954.02940410088031"
+    },
+    {
+      "title": "Comentarios sobre «do-good», «dogooder» y «do-goodism».",
+      "year": 2007,
+      "cited_by": 0,
+      "doi": null
+    }
+  ],
+  "awards": null,
+  "in_civictech_guide": false,
+  "wikipedia_page": false,
+  "policy_outcomes": null,
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": false,
+  "preregistered_studies": false,
+  "published_performance_metrics": null,
+  "documented_limitations": null,
+  "jurisdictional_scope": "Australia",
+  "failure_modes": null,
+  "governance_model": null,
+  "curation_criteria": null,
+  "contributor_governance": null,
+  "disparity_tracking": null,
+  "community_ownership": false,
+  "controversies": null,
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": null,
+  "government_partnerships": null,
+  "ai_involvement": false,
+  "collection_note": "URL blocked by Cloudflare security service. No page content accessible. Unable to determine project details. Information populated from external knowledge of DoGooder platform.",
+  "pass2_at": "2026-03-09T23:21:24.658Z",
+  "pass3_at": "2026-03-09T23:22:20.285Z",
+  "_sources": [
+    "openalex"
+  ]
+}

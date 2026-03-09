@@ -1,0 +1,102 @@
+{
+  "url": "https://www.prolific.com",
+  "collected_at": "2026-03-09T23:20:58.895Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Prolific",
+  "tagline": "Easily collect high-quality data from real people",
+  "project_type": "Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "emerging_tech",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 9: Industry, Innovation and Infrastructure",
+    "SDG 17: Partnerships for the Goals"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "United States",
+    "United Kingdom",
+    "Multiple (70+ countries mentioned for Collective Intelligence Project)"
+  ],
+  "communities_served": [
+    "AI/ML developers",
+    "researchers",
+    "academic institutions",
+    "organizations",
+    "participants"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "no",
+  "github_url": null,
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "platform",
+    "api"
+  ],
+  "founded_year": 2013,
+  "team_size": "medium",
+  "funding_model": [
+    "subscriptions",
+    "vc"
+  ],
+  "known_funders": [
+    "Kindred Ventures",
+    "Lerer Hippeau",
+    "Entrepreneur First"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "Series A funding (2019)",
+  "dependency_risks": "Platform dependency - users rely on Prolific's infrastructure for participant recruitment; potential service disruption risks; data privacy compliance requirements across multiple jurisdictions",
+  "news_articles": [
+    "Prolific raises Series A funding for research data platform",
+    "How Prolific is changing academic research recruitment"
+  ],
+  "academic_citations": [
+    "Prolific has been cited in numerous peer-reviewed studies on crowdsourcing and research methodology",
+    "Used extensively in psychology, behavioral economics, and AI safety research"
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [
+    {
+      "description": "Collective Intelligence Project used Prolific to bring voices from 70+ countries into AI governance discussions",
+      "link": null,
+      "year": 2023
+    }
+  ],
+  "causation_strength": "anecdotal",
+  "outcome_methodology": "Prolific serves as a data collection infrastructure; outcomes depend on how client organizations use the platform for research and decision-making",
+  "replication_materials_available": false,
+  "preregistered_studies": [],
+  "published_performance_metrics": "Prolific publishes data quality metrics and participant demographics on their platform; case studies available on website",
+  "documented_limitations": [
+    "Participant pool may not be fully representative of global populations",
+    "Self-selection bias in crowdsourced research",
+    "Cost barriers may limit accessibility for some researchers"
+  ],
+  "jurisdictional_scope": "international",
+  "failure_modes": [
+    "Platform outages could disrupt ongoing research studies",
+    "Data quality issues if participant vetting processes fail",
+    "Regulatory compliance failures across different jurisdictions"
+  ],
+  "governance_model": "LLC",
+  "curation_criteria": "Prolific uses automated and manual screening to verify participant quality; participants must pass attention checks and maintain quality standards",
+  "contributor_governance": "Participant-driven platform with built-in quality control mechanisms; researchers can set custom screening criteria",
+  "disparity_tracking": "Prolific tracks participant demographics including geographic location, age, education level; limited public reporting on equity metrics",
+  "community_ownership": false,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": "Subject to GDPR, CCPA, and other data privacy regulations; must comply with research ethics requirements across jurisdictions",
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": "Prolific is used for AI training, evaluation, safety testing, and data annotation; the platform itself supports AI development workflows",
+  "pass2_at": "2026-03-09T23:21:51.177Z"
+}

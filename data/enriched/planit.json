@@ -1,0 +1,119 @@
+{
+  "url": "https://planit.org.uk",
+  "collected_at": "2026-03-09T23:20:26.392Z",
+  "collected_by": "collect-enriched-script",
+  "name": "PlanIT",
+  "tagline": "Digital platform enabling community participation in local planning decisions",
+  "project_type": "Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "participatory_democracy",
+    "govtech",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions",
+    "SDG 11 – Sustainable Cities and Communities"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "citizens",
+    "local authorities",
+    "planning professionals",
+    "developers"
+  ],
+  "political_units": [
+    "local",
+    "state"
+  ],
+  "open_source": "no",
+  "github_url": null,
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "platform",
+    "api"
+  ],
+  "founded_year": 2015,
+  "team_size": "small",
+  "funding_model": [
+    "subscriptions",
+    "public_funding"
+  ],
+  "known_funders": [
+    "Nesta",
+    "UK Government Digital Service"
+  ],
+  "funding_verified": true,
+  "last_funding_event": null,
+  "dependency_risks": [],
+  "news_articles": [
+    "https://www.theguardian.com/cities/2016/sep/13/planit-digital-platform-community-planning-decisions",
+    "https://www.wired.co.uk/article/planit-civic-tech"
+  ],
+  "academic_citations": [
+    {
+      "title": "PlanIT",
+      "year": 2019,
+      "cited_by": 199,
+      "doi": "https://doi.org/10.1145/3306346.3322941"
+    },
+    {
+      "title": "PLANiTS: a curated sequence reference dataset for plant ITS DNA metabarcoding",
+      "year": 2020,
+      "cited_by": 124,
+      "doi": "https://doi.org/10.1093/database/baz155"
+    },
+    {
+      "title": "PLANIT",
+      "year": 1967,
+      "cited_by": 15,
+      "doi": "https://doi.org/10.1145/1465611.1465684"
+    }
+  ],
+  "awards": [
+    "Nesta Innovation Award 2016"
+  ],
+  "in_civictech_guide": true,
+  "wikipedia_page": null,
+  "policy_outcomes": [
+    "Adoption by multiple UK local authorities for planning consultations",
+    "Integration with local planning processes in 15+ councils"
+  ],
+  "causation_strength": "moderate",
+  "outcome_methodology": "case studies and local authority feedback",
+  "replication_materials_available": false,
+  "preregistered_studies": [],
+  "published_performance_metrics": true,
+  "documented_limitations": [
+    "Limited to UK planning context",
+    "Requires local authority buy-in for effectiveness"
+  ],
+  "jurisdictional_scope": "United Kingdom",
+  "failure_modes": [
+    "Low adoption rates in some councils due to legacy system integration challenges"
+  ],
+  "governance_model": "centralized - company-led with stakeholder advisory board",
+  "curation_criteria": "Community contributions moderated by platform administrators; planning documents curated by local authorities",
+  "contributor_governance": "Limited - primarily platform-managed with local authority oversight",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [
+    "Multiple UK local authorities",
+    "UK Government Digital Service"
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:39.244Z",
+  "pass3_at": "2026-03-09T23:22:56.534Z",
+  "_sources": [
+    "openalex"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "url": "https://arxiv.org/abs/2005.13701",
+  "collected_at": "2026-03-09T23:17:57.786Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Modular Politics",
+  "tagline": "A governance layer framework for building composable, modular online community governance systems",
+  "project_type": "Publication",
+  "org_type": "Academic/research",
+  "issue_area": [
+    "participatory_democracy",
+    "govtech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": "N/A - theoretical framework",
+  "communities_served": [
+    "researchers",
+    "platform operators",
+    "online community managers"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": false,
+  "github_url": null,
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "report"
+  ],
+  "founded_year": 2020,
+  "team_size": "small",
+  "funding_model": "Academic research",
+  "known_funders": null,
+  "funding_verified": false,
+  "last_funding_event": null,
+  "dependency_risks": [],
+  "news_articles": [],
+  "academic_citations": [
+    "Referenced in governance and platform studies literature"
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": "Theoretical framework - no empirical outcomes",
+  "replication_materials_available": false,
+  "preregistered_studies": [],
+  "published_performance_metrics": false,
+  "documented_limitations": "Theoretical framework without implementation case studies",
+  "jurisdictional_scope": "International",
+  "failure_modes": [],
+  "governance_model": "Modular governance framework (subject of research)",
+  "curation_criteria": null,
+  "contributor_governance": null,
+  "disparity_tracking": false,
+  "community_ownership": null,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:20.996Z"
+}

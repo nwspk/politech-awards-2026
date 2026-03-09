@@ -1,0 +1,119 @@
+{
+  "url": "https://decelerator.org.uk",
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "The Decelerator",
+  "tagline": "A free support service for civil society organisations facing endings — closures, mergers, leadership transitions, and programme ends.",
+  "project_type": "Organization",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "advocacy_tech"
+  ],
+  "sdg_alignment": [
+    "SDG 17"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "civil society organisations",
+    "charities",
+    "social enterprises",
+    "nonprofit leaders",
+    "trustees"
+  ],
+  "political_units": [
+    "United Kingdom"
+  ],
+  "open_source": "no",
+  "github_url": null,
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "course",
+    "report"
+  ],
+  "founded_year": 2023,
+  "team_size": "small",
+  "funding_model": [
+    "grants"
+  ],
+  "known_funders": [
+    "Pears Foundation",
+    "Paul Hamlyn Foundation",
+    "Esmee Fairbairn Foundation",
+    "Lloyds Bank Foundation",
+    "Trust for London",
+    "Unbound Philanthropy",
+    "AB Charitable Trust",
+    "The Dulverton Trust",
+    "William Grant & Sons",
+    "Legal Education Foundation"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2024",
+  "dependency_risks": [
+    "Funding runs to approximately 2029/2030",
+    "Small team",
+    "Uncertain continuation beyond 2029"
+  ],
+  "news_articles": [],
+  "academic_citations": [
+    {
+      "title": "Type Ia Supernova Discoveries at<i>z</i>&gt; 1 from the<i>Hubble Space Telescope</i>: Evidence for Past Deceleration and Constraints on Dark Energy Evolution",
+      "year": 2004,
+      "cited_by": 3988,
+      "doi": "https://doi.org/10.1086/383612"
+    },
+    {
+      "title": "Decelerating Neutral Dipolar Molecules",
+      "year": 1999,
+      "cited_by": 641,
+      "doi": "https://doi.org/10.1103/physrevlett.83.1558"
+    },
+    {
+      "title": "Laser Deceleration of an Atomic Beam",
+      "year": 1982,
+      "cited_by": 554,
+      "doi": "https://doi.org/10.1103/physrevlett.48.596"
+    }
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": false,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": [
+    "Modest scale",
+    "Focus on UK civil society only",
+    "Funded support has a fixed end date"
+  ],
+  "jurisdictional_scope": "national",
+  "failure_modes": [
+    "Funding exhaustion by 2030",
+    "Low awareness among sector leaders who need it",
+    "Stigma around discussing endings"
+  ],
+  "governance_model": "LLC",
+  "curation_criteria": null,
+  "contributor_governance": null,
+  "disparity_tracking": true,
+  "community_ownership": null,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": "no",
+  "pass2_at": "2026-03-09T23:21:23.808Z",
+  "pass3_at": "2026-03-09T23:22:16.143Z",
+  "_sources": [
+    "openalex"
+  ]
+}

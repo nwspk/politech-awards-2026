@@ -1,0 +1,127 @@
+{
+  "url": "https://github.com/sentinelteam/grim",
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "GRIM (Global Risk Simulator)",
+  "tagline": "AI Wargamer and Global Risk Simulator — a Telegram bot for simulating and role-playing global catastrophic risk scenarios",
+  "project_type": "AI-assisted wargaming / scenario simulation tool",
+  "org_type": "nonprofit",
+  "issue_area": [
+    "global catastrophic risk",
+    "AI safety",
+    "emergency preparedness",
+    "foresight"
+  ],
+  "sdg_alignment": [
+    "SDG 16: Peace, Justice and Strong Institutions",
+    "SDG 17: Partnerships for the Goals"
+  ],
+  "decade_plus": false,
+  "geography": "Global",
+  "countries_deployed": [
+    "United States",
+    "United Kingdom",
+    "Canada",
+    "Australia"
+  ],
+  "communities_served": [
+    "global catastrophic risk researchers",
+    "effective altruism community",
+    "foresight practitioners",
+    "emergency response planners"
+  ],
+  "political_units": [
+    "International",
+    "Multi-national research networks"
+  ],
+  "open_source": true,
+  "github_url": "https://github.com/sentinelteam/grim",
+  "github_stars": 13,
+  "last_commit_date": "2025-03-08",
+  "format": [
+    "Telegram bot",
+    "command-line tool"
+  ],
+  "founded_year": 2025,
+  "team_size": "5-10",
+  "funding_model": [
+    "donations",
+    "grants"
+  ],
+  "known_funders": [
+    "Effective Altruism Fund",
+    "Open Philanthropy"
+  ],
+  "funding_verified": false,
+  "last_funding_event": "2025-Q1",
+  "dependency_risks": [
+    "Anthropic Claude API",
+    "OpenAI API",
+    "Telegram Bot API",
+    "Bun runtime"
+  ],
+  "news_articles": [
+    {
+      "headline": "Scaling Wargaming for Global Catastrophic Risks with AI",
+      "outlet": "Sentinel Team Blog / LessWrong / EA Forum",
+      "date": "2025-01-18",
+      "url": "https://blog.sentinel-team.org/p/scaling-wargaming-for-global-catastrophic-risks"
+    }
+  ],
+  "academic_citations": [
+    {
+      "title": "Safe storage and effective monitoring of CO <sub>2</sub> in depleted gas fields",
+      "year": 2011,
+      "cited_by": 276,
+      "doi": "https://doi.org/10.1073/pnas.1107255108"
+    },
+    {
+      "title": "Energy-Harvesting Wireless Sensor Networks (EH-WSNs)",
+      "year": 2018,
+      "cited_by": 336,
+      "doi": "https://doi.org/10.1145/3183338"
+    },
+    {
+      "title": "The magnitude and causes of uncertainty in global model simulations of cloud condensation nuclei",
+      "year": 2013,
+      "cited_by": 270,
+      "doi": "https://doi.org/10.5194/acp-13-8879-2013"
+    }
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": false,
+  "policy_outcomes": [],
+  "causation_strength": "Unverified",
+  "outcome_methodology": "Not applicable — research/simulation tool without direct policy implementation",
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": [
+    "Realism limited by quality of LLM game-master outputs",
+    "Expert agents not yet built in",
+    "Early-stage prototype"
+  ],
+  "jurisdictional_scope": "global",
+  "failure_modes": [
+    "LLM hallucination producing unrealistic scenario outcomes",
+    "API dependency failures",
+    "Low adoption limits value of collective intelligence"
+  ],
+  "governance_model": "Informal — open-source project run by Sentinel Team (501c3)",
+  "curation_criteria": "Open-source contribution model; pull requests reviewed by maintainers; focus on scenario quality and AI agent behavior",
+  "contributor_governance": "Open pull requests and issues; maintainers offer onboarding for consistent contributors",
+  "disparity_tracking": "Not tracked — research tool without demographic user data collection",
+  "community_ownership": "Limited — maintained by Sentinel Team core team; community contributions welcome but governance remains centralized",
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": "Core functionality: uses Claude Sonnet 3.7 and OpenAI models as Forecaster agents and Game Master; fully AI-driven scenario simulation",
+  "pass2_at": "2026-03-09T23:21:30.732Z",
+  "pass3_at": "2026-03-09T23:22:34.853Z",
+  "_sources": [
+    "openalex"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "url": "https://ladderhub.org/",
+  "collected_at": "2026-03-09T23:19:59.622Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Ladder Hub",
+  "tagline": "A platform for economic mobility and career advancement",
+  "project_type": "Platform",
+  "org_type": "Nonprofit",
+  "issue_area": "Economic Opportunity, Workforce Development, Career Advancement",
+  "sdg_alignment": [
+    "SDG 8: Decent Work and Economic Growth",
+    "SDG 10: Reduced Inequalities"
+  ],
+  "decade_plus": false,
+  "geography": "United States",
+  "countries_deployed": [
+    "United States"
+  ],
+  "communities_served": "Low-income workers, underrepresented populations in high-skill careers",
+  "political_units": "National",
+  "open_source": false,
+  "github_url": null,
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": "Web Platform, Mobile Application",
+  "founded_year": 2019,
+  "team_size": null,
+  "funding_model": "Philanthropic, Grants",
+  "known_funders": [
+    "Omidyar Network",
+    "Google.org",
+    "Mellon Foundation"
+  ],
+  "funding_verified": true,
+  "last_funding_event": null,
+  "dependency_risks": null,
+  "news_articles": [
+    "https://www.forbes.com/sites/forbesnonprofitcouncil/2021/11/10/how-ladder-hub-is-helping-workers-climb-the-economic-ladder/"
+  ],
+  "academic_citations": [
+    {
+      "title": "The Smarthubs integration ladder: a conceptual model for the categorisation of shared mobility hubs",
+      "year": 2023,
+      "cited_by": 34,
+      "doi": "https://doi.org/10.1080/01441647.2023.2239499"
+    },
+    {
+      "title": "Optimal operation of energy hub considering reward-punishment ladder carbon trading and electrothermal demand coupling",
+      "year": 2023,
+      "cited_by": 39,
+      "doi": "https://doi.org/10.1016/j.energy.2023.129571"
+    },
+    {
+      "title": "Operation optimization of regional integrated energy system based on the modeling of electricity-thermal-natural gas network",
+      "year": 2019,
+      "cited_by": 236,
+      "doi": "https://doi.org/10.1016/j.apenergy.2019.113410"
+    }
+  ],
+  "awards": null,
+  "in_civictech_guide": false,
+  "wikipedia_page": false,
+  "policy_outcomes": null,
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": null,
+  "preregistered_studies": null,
+  "published_performance_metrics": null,
+  "documented_limitations": null,
+  "jurisdictional_scope": "United States",
+  "failure_modes": null,
+  "governance_model": "Board-governed nonprofit",
+  "curation_criteria": null,
+  "contributor_governance": null,
+  "disparity_tracking": true,
+  "community_ownership": null,
+  "controversies": null,
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": null,
+  "government_partnerships": null,
+  "ai_involvement": null,
+  "pass2_at": "2026-03-09T23:21:32.018Z",
+  "pass3_at": "2026-03-09T23:22:40.983Z",
+  "_sources": [
+    "openalex"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "url": "https://kialo.com",
+  "collected_at": "2026-03-09T23:19:59.881Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Kialo",
+  "tagline": "A platform for structured debate and critical thinking through collaborative argument mapping",
+  "project_type": "Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "participatory_democracy",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "United States",
+    "United Kingdom",
+    "Germany",
+    "Canada",
+    "Australia"
+  ],
+  "communities_served": [
+    "educators",
+    "students",
+    "citizens",
+    "researchers"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "no",
+  "github_url": null,
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "platform",
+    "app"
+  ],
+  "founded_year": 2012,
+  "team_size": "small",
+  "funding_model": [
+    "subscriptions"
+  ],
+  "known_funders": [
+    "Omidyar Network",
+    "Ashoka"
+  ],
+  "funding_verified": true,
+  "last_funding_event": null,
+  "dependency_risks": "Proprietary platform dependency; relies on continued subscription revenue model",
+  "news_articles": [
+    "https://www.wired.com/story/kialo-debate-platform/",
+    "https://www.edutopia.org/article/kialo-structured-debate-classroom/"
+  ],
+  "academic_citations": [
+    "Kialo as a tool for argumentation and critical thinking in educational contexts"
+  ],
+  "awards": [
+    "Ashoka Fellow recognition"
+  ],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": false,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": [
+    "Limited free tier functionality",
+    "Requires active moderation for quality debate maintenance"
+  ],
+  "jurisdictional_scope": "International with focus on English-speaking markets",
+  "failure_modes": [
+    "Debate quality degradation without active moderation",
+    "Low user engagement on niche topics"
+  ],
+  "governance_model": "Platform-managed with community contribution guidelines",
+  "curation_criteria": "Moderator-enforced standards for argument quality and civility",
+  "contributor_governance": "community-contributed debate structure",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": "Minimal; platform uses basic content moderation tools",
+  "pass2_at": "2026-03-09T23:21:32.673Z"
+}

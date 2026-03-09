@@ -1,0 +1,98 @@
+{
+  "url": "https://library.theengineroom.org",
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "The Engine Room Library",
+  "tagline": "Open, multilingual research guides on using data and technology for social change",
+  "project_type": "knowledge library / research resource",
+  "org_type": "programme of a non-profit organisation",
+  "issue_area": [
+    "civil society technology",
+    "responsible data",
+    "human rights tech",
+    "open contracting",
+    "investigative research"
+  ],
+  "sdg_alignment": [
+    "SDG 16: Peace, Justice and Strong Institutions",
+    "SDG 17: Partnerships for the Goals"
+  ],
+  "decade_plus": false,
+  "geography": "global",
+  "countries_deployed": [
+    "Global - multilingual resource accessible worldwide"
+  ],
+  "communities_served": [
+    "civil society organisations",
+    "human rights defenders",
+    "NGOs",
+    "activists",
+    "researchers"
+  ],
+  "political_units": [
+    "Global"
+  ],
+  "open_source": true,
+  "github_url": "https://github.com/the-engine-room/library",
+  "github_stars": 89,
+  "last_commit_date": "2025-11-15",
+  "format": [
+    "online knowledge base",
+    "multilingual guides"
+  ],
+  "founded_year": 2011,
+  "team_size": 5,
+  "funding_model": [
+    "grants",
+    "paid consultancies",
+    "pro bono partnerships"
+  ],
+  "known_funders": [
+    "Open Society Foundations",
+    "Omidyar Network",
+    "Ford Foundation",
+    "Transparency International"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2024",
+  "dependency_risks": [
+    "parent organisation (The Engine Room) funding sustainability",
+    "content may become stale if not actively maintained"
+  ],
+  "news_articles": [
+    "The Engine Room featured in Guardian coverage of responsible data practices",
+    "TechCrunch coverage of The Engine Room's data activism work"
+  ],
+  "academic_citations": [
+    "Cited in academic literature on responsible data and human rights technology"
+  ],
+  "awards": [],
+  "in_civictech_guide": true,
+  "wikipedia_page": false,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": [
+    "books intentionally kept short; depth is limited by format"
+  ],
+  "jurisdictional_scope": "global",
+  "failure_modes": [
+    "content staleness",
+    "dependency on The Engine Room institutional funding"
+  ],
+  "governance_model": "managed by The Engine Room staff; openly licensed content accepts community feedback",
+  "curation_criteria": "topics drawn from The Engine Room's direct support, community, and research work",
+  "contributor_governance": "openly licensed; community can suggest additions via contact form",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:32.568Z"
+}

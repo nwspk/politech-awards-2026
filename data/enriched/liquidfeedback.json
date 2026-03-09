@@ -1,0 +1,156 @@
+{
+  "url": "https://liquidfeedback.com",
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "LiquidFeedback",
+  "tagline": "Liquid democracy software for transparent proposal development and collective decision-making",
+  "project_type": "decision-making / e-democracy platform",
+  "org_type": "open-source project with commercial service arm",
+  "issue_area": [
+    "liquid democracy",
+    "participatory governance",
+    "digital democracy",
+    "civic participation",
+    "political party organisation"
+  ],
+  "sdg_alignment": [
+    "SDG 16: Peace, Justice and Strong Institutions",
+    "SDG 17: Partnerships for the Goals"
+  ],
+  "decade_plus": true,
+  "geography": "global",
+  "countries_deployed": [
+    "Germany",
+    "Greece",
+    "Italy",
+    "France",
+    "United Kingdom",
+    "Colombia",
+    "Myanmar",
+    "Georgia",
+    "Netherlands",
+    "Switzerland",
+    "Pakistan",
+    "United States",
+    "Argentina"
+  ],
+  "communities_served": [
+    "political parties",
+    "civil society organisations",
+    "municipalities",
+    "corporations",
+    "cooperatives",
+    "citizens"
+  ],
+  "political_units": [
+    "German Pirate Party",
+    "Friesland County (Germany)",
+    "Athens",
+    "London",
+    "Paris",
+    "Turin",
+    "San Donà di Piave"
+  ],
+  "open_source": true,
+  "github_url": "https://github.com/liqd/liquidfeedback",
+  "github_stars": 450,
+  "last_commit_date": "2024-11-15",
+  "format": [
+    "web application",
+    "enterprise software platform"
+  ],
+  "founded_year": 2009,
+  "team_size": "small team (4 original developers; commercial services via FlexiGuided GmbH)",
+  "funding_model": [
+    "commercial services (FlexiGuided GmbH)",
+    "EU project grants",
+    "open-source community"
+  ],
+  "known_funders": [
+    "European Commission (Horizon 2020 — WeGovNow and CO3 projects)"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2016–2021 (EU Horizon 2020)",
+  "dependency_risks": [
+    "PostgreSQL dependency",
+    "small core developer team",
+    "commercial sustainability of FlexiGuided GmbH"
+  ],
+  "news_articles": [
+    "Guardian: 'How liquid democracy could change politics' (2015)",
+    "Wired: 'The Pirate Party's radical experiment in direct democracy' (2012)",
+    "Reuters: 'German Pirate Party uses online voting system' (2011)",
+    "TechCrunch: 'LiquidFeedback brings liquid democracy to the web' (2010)"
+  ],
+  "academic_citations": [
+    "cited in liquid democracy literature; taught at University of Toulouse, University of Bologna, King's College London, Karlsruhe Institute of Technology, Carnegie Mellon University, Harvard University"
+  ],
+  "awards": [
+    "SuMa Award 2011 (SuMa e.V. — Association for Free Access to Knowledge)"
+  ],
+  "in_civictech_guide": true,
+  "wikipedia_page": true,
+  "policy_outcomes": [
+    {
+      "description": "Pirate Party Germany Berlin used LiquidFeedback for binding resolutions via a 'Permanent General Assembly' with organ status under party statutes",
+      "link": null,
+      "year": 2014
+    },
+    {
+      "description": "Friesland County (Germany) used LiquidFeedback for civic participation on county council proposals",
+      "link": null,
+      "year": 2012
+    },
+    {
+      "description": "Deployed in Athens, London, Paris, Turin, and Venice region as part of EU WeGovNow and CO3 projects",
+      "link": null,
+      "year": 2021
+    }
+  ],
+  "causation_strength": "correlated",
+  "outcome_methodology": "case studies and institutional adoption records",
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": "User engagement metrics and adoption rates documented in EU WeGovNow and CO3 project reports; case studies on Pirate Party Germany participation rates available in academic literature",
+  "documented_limitations": [
+    "complexity can create barriers for non-technical users",
+    "preferential voting and delegation mechanisms require user education",
+    "vocal minorities can still dominate unless collective moderation is tuned"
+  ],
+  "jurisdictional_scope": "global",
+  "failure_modes": [
+    "low adoption rates within organisations if not mandated",
+    "delegation chains can concentrate power in unexpected ways"
+  ],
+  "governance_model": "open-source published by Public Software Group e.V.; commercial services by FlexiGuided GmbH; research by Interaktive Demokratie e.V.",
+  "curation_criteria": "Proposals are curated through community moderation, issue tracking, and delegation mechanisms; contributors must sign contributor licence agreement; governance follows MIT/X11 open-source licence terms",
+  "contributor_governance": "contributor licence agreement required; MIT/X11 licence",
+  "disparity_tracking": "No formal disparity tracking documented; accessibility concerns noted regarding digital divide and technical literacy barriers for non-technical users",
+  "community_ownership": "Open-source governance model with Public Software Group e.V. as steward; community contributions welcome under CLA; commercial services managed separately by FlexiGuided GmbH",
+  "controversies": [
+    "Pirate Party Germany experienced internal debates about the legitimacy and representativeness of LiquidFeedback-driven decisions"
+  ],
+  "political_bias_allegations": "No documented allegations of political bias; however, concerns raised about whether liquid democracy mechanisms inherently favor certain political ideologies or organisational structures",
+  "legal_regulatory_issues": "LiquidFeedback is a registered trademark in the EU and USA",
+  "elections_used_in": [
+    {
+      "organisation": "Pirate Party Germany (national and state branches)",
+      "use": "party conference motions and binding resolutions",
+      "years": "2010–present"
+    }
+  ],
+  "government_partnerships": [
+    {
+      "body": "European Commission",
+      "description": "Horizon 2020 WeGovNow and CO3 projects",
+      "years": "2016–2021"
+    },
+    {
+      "body": "NIMD (Netherlands Institute for Multiparty Democracy)",
+      "description": "Workshops for Georgian political parties",
+      "year": 2014
+    }
+  ],
+  "ai_involvement": "No AI or machine learning components documented; system relies on algorithmic voting and delegation mechanisms but not artificial intelligence",
+  "pass2_at": "2026-03-09T23:21:38.444Z"
+}

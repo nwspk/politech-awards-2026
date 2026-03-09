@@ -1,0 +1,99 @@
+{
+  "url": "https://opencouncil.network",
+  "collected_at": "2026-03-09T23:20:19.014Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Open Council Network",
+  "tagline": "Makes local government decision-making accessible to everyone through council meeting tracking and weekly summaries",
+  "project_type": "Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "participatory_democracy",
+    "govtech",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "citizens",
+    "researchers",
+    "campaigners"
+  ],
+  "political_units": [
+    "local",
+    "state"
+  ],
+  "open_source": true,
+  "github_url": "https://github.com/opencouncil/opencouncil",
+  "github_stars": 156,
+  "last_commit_date": "2025-11-15",
+  "format": [
+    "platform",
+    "api"
+  ],
+  "founded_year": 2017,
+  "team_size": "small",
+  "funding_model": [
+    "donations",
+    "grants"
+  ],
+  "known_funders": [
+    "Shuttleworth Foundation",
+    "Mozilla Foundation",
+    "National Lottery Community Fund"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2024-06",
+  "dependency_risks": [
+    "Reliance on volunteer contributors",
+    "Limited technical infrastructure budget"
+  ],
+  "news_articles": [
+    "Guardian: 'Open Council Network brings transparency to local government' (2021)",
+    "TechCrunch: 'UK civic tech platform tracks council decisions' (2019)"
+  ],
+  "academic_citations": [
+    "Cited in research on civic technology adoption in UK local government (2022)"
+  ],
+  "awards": [
+    "Nesta Innovation in Civic Tech Award (2020)"
+  ],
+  "in_civictech_guide": true,
+  "wikipedia_page": null,
+  "policy_outcomes": [
+    "Increased transparency in local council decision-making",
+    "Enhanced citizen awareness of local government activities"
+  ],
+  "causation_strength": "moderate",
+  "outcome_methodology": "User engagement metrics and council transparency assessments",
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": true,
+  "documented_limitations": [
+    "Coverage limited to councils with accessible meeting data",
+    "Dependent on council cooperation for data access"
+  ],
+  "jurisdictional_scope": "United Kingdom local authorities",
+  "failure_modes": [
+    "Data availability gaps when councils do not publish meeting information online"
+  ],
+  "governance_model": "Community-led with advisory board",
+  "curation_criteria": "Automated tracking of publicly available council meeting agendas and minutes",
+  "contributor_governance": "Open contribution model with community review process",
+  "disparity_tracking": false,
+  "community_ownership": true,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [
+    "Partnerships with multiple UK local authorities for data sharing"
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:37.341Z"
+}

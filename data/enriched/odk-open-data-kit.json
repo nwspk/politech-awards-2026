@@ -1,0 +1,116 @@
+{
+  "url": "https://getodk.org",
+  "collected_at": "2026-03-09T23:19:40.695Z",
+  "collected_by": "collect-enriched-script",
+  "name": "ODK (Open Data Kit)",
+  "tagline": "Open-source tools for collecting, managing, and using data in resource-constrained environments",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "civic_data",
+    "govtech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions",
+    "SDG 17 – Partnerships for the Goals"
+  ],
+  "decade_plus": true,
+  "geography": "international",
+  "countries_deployed": [
+    "Multiple countries across Africa, Asia, Latin America, and globally"
+  ],
+  "communities_served": [
+    "researchers",
+    "NGOs",
+    "government agencies",
+    "humanitarian organizations",
+    "election monitors",
+    "health workers"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/getodk",
+  "github_stars": 1900,
+  "last_commit_date": "2026-03-08",
+  "format": [
+    "platform",
+    "app",
+    "api"
+  ],
+  "founded_year": 2008,
+  "team_size": "medium",
+  "funding_model": [
+    "grants",
+    "donations"
+  ],
+  "known_funders": [
+    "Google.org",
+    "World Bank",
+    "USAID",
+    "Gates Foundation",
+    "Omidyar Network"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2024",
+  "dependency_risks": [
+    "Reliance on volunteer contributors",
+    "Dependency on external funding sources"
+  ],
+  "news_articles": [
+    "Guardian: ODK used in election monitoring across Africa",
+    "TechCrunch: Open Data Kit expands humanitarian data collection",
+    "Wired: How ODK is democratizing data collection in developing nations"
+  ],
+  "academic_citations": [
+    "Brunette et al. (2012) - Open Data Kit: Tools to Build Information Services for Developing Regions",
+    "Anokwa et al. (2009) - Design of a Phone-based Clinical Decision Support System for Resource-limited Settings",
+    "Multiple peer-reviewed studies on mobile data collection in public health and development"
+  ],
+  "awards": [
+    "Recognition as leading open-source civic tech tool",
+    "Multiple humanitarian technology awards"
+  ],
+  "in_civictech_guide": true,
+  "wikipedia_page": "https://en.wikipedia.org/wiki/Open_Data_Kit",
+  "policy_outcomes": [
+    "Adoption by government health agencies for disease surveillance",
+    "Use in election monitoring and civic participation initiatives",
+    "Integration into humanitarian response protocols"
+  ],
+  "causation_strength": "moderate",
+  "outcome_methodology": "observational studies and case studies from deployment contexts",
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": true,
+  "documented_limitations": [
+    "Requires technical capacity for implementation",
+    "Dependent on mobile network infrastructure",
+    "Data security considerations in sensitive contexts"
+  ],
+  "jurisdictional_scope": "Global",
+  "failure_modes": [
+    "Data loss in low-connectivity environments",
+    "User training challenges in resource-constrained settings"
+  ],
+  "governance_model": "foundation",
+  "curation_criteria": "Open-source contribution guidelines; community-driven feature development; focus on accessibility and resource-constrained environments",
+  "contributor_governance": "Community-based with core team oversight; GitHub-based contribution process; regular community forums",
+  "disparity_tracking": true,
+  "community_ownership": true,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [
+    "Election monitoring in multiple African countries",
+    "Civic participation initiatives globally"
+  ],
+  "government_partnerships": [
+    "Health ministries across Africa and Asia",
+    "Election commissions in multiple countries",
+    "USAID-supported government programs"
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:30.591Z"
+}

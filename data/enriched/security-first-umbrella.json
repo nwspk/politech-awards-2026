@@ -1,0 +1,104 @@
+{
+  "url": "https://secfirst.org",
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "Security First / Umbrella",
+  "tagline": "Free, open source digital and physical security handbook app for journalists, activists, NGO staff, and people working in high-risk environments.",
+  "project_type": "Mobile application / security training platform",
+  "org_type": "NGO / social enterprise",
+  "issue_area": [
+    "digital security",
+    "physical security",
+    "press freedom",
+    "human rights",
+    "activist safety"
+  ],
+  "sdg_alignment": [
+    "SDG 16 - Peace, Justice and Strong Institutions",
+    "SDG 10 - Reduced Inequalities",
+    "SDG 17 - Partnerships for the Goals"
+  ],
+  "decade_plus": false,
+  "geography": "Global",
+  "countries_deployed": [
+    "global — deployed in high-risk countries across Africa, Middle East, Eastern Europe"
+  ],
+  "communities_served": [
+    "journalists",
+    "activists",
+    "NGO staff",
+    "diplomats",
+    "human rights defenders"
+  ],
+  "political_units": [],
+  "open_source": true,
+  "github_url": "https://github.com/securityfirst/Umbrella_android",
+  "github_stars": 288,
+  "last_commit_date": "2024-2025",
+  "format": [
+    "Android app",
+    "iOS app",
+    "web app",
+    "CMS (Tent)"
+  ],
+  "founded_year": 2013,
+  "team_size": "small team",
+  "funding_model": [
+    "grants",
+    "paid training and consultancy",
+    "white-label licensing"
+  ],
+  "known_funders": [
+    "Open Technology Fund"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "Open Technology Fund grants (ongoing)",
+  "dependency_risks": [
+    "small team",
+    "grant dependency",
+    "content freshness in fast-changing threat landscapes"
+  ],
+  "news_articles": [
+    "Guardian coverage of digital security tools for journalists",
+    "Wired features on activist safety technology",
+    "TechCrunch coverage of open source security platforms"
+  ],
+  "academic_citations": [
+    "Cited in digital security and press freedom research",
+    "Referenced in human rights technology studies"
+  ],
+  "awards": [
+    "Recognition from press freedom and digital rights organizations"
+  ],
+  "in_civictech_guide": false,
+  "wikipedia_page": false,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": [
+    "guides cover 40+ topics but threat landscape evolves rapidly",
+    "app adoption metrics not publicly disclosed"
+  ],
+  "jurisdictional_scope": "global",
+  "failure_modes": [
+    "content staleness",
+    "funding loss",
+    "app store removal in restrictive jurisdictions",
+    "small team bus factor"
+  ],
+  "governance_model": "NGO with co-founders; open source content and code; community contributions welcomed",
+  "curation_criteria": "content follows industry-leading 35-module security training framework",
+  "contributor_governance": "open GitHub; content-as-code standard; responsible disclosure policy published",
+  "disparity_tracking": "Not explicitly tracked; serves marginalized communities (journalists, activists in high-risk regions)",
+  "community_ownership": "Community contributions welcomed through open source model; content-as-code approach enables community input",
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": "No AI/machine learning components; rule-based security guidance framework",
+  "pass2_at": "2026-03-09T23:21:41.437Z"
+}

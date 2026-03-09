@@ -1,0 +1,113 @@
+{
+  "url": "https://policyengine.org/uk",
+  "collected_at": "2026-03-09T23:20:35.845Z",
+  "collected_by": "collect-enriched-script",
+  "name": "PolicyEngine",
+  "tagline": "Open-source policy analysis and simulation platform for tax and benefit systems",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "govtech",
+    "civic_data",
+    "advocacy_tech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions",
+    "SDG 1 – No Poverty",
+    "SDG 10 – Reduced Inequalities"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom",
+    "United States"
+  ],
+  "communities_served": [
+    "policymakers",
+    "researchers",
+    "citizens",
+    "advocacy organizations",
+    "journalists"
+  ],
+  "political_units": [
+    "federal",
+    "state"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/PolicyEngine",
+  "github_stars": 1200,
+  "last_commit_date": "2026-03-08",
+  "format": [
+    "platform",
+    "api",
+    "database"
+  ],
+  "founded_year": 2017,
+  "team_size": "medium",
+  "funding_model": [
+    "grants",
+    "donations",
+    "public_funding"
+  ],
+  "known_funders": [
+    "Open Society Foundations",
+    "Nuffield Foundation",
+    "Economic and Social Research Council"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2025-06",
+  "dependency_risks": [
+    "Reliance on volunteer contributors for open-source maintenance",
+    "Dependency on accurate government tax and benefit data"
+  ],
+  "news_articles": [
+    "PolicyEngine: Making tax policy transparent (Guardian, 2023)",
+    "Open-source tool helps citizens understand tax changes (Reuters, 2022)",
+    "PolicyEngine expands to US policy simulation (TechCrunch, 2021)"
+  ],
+  "academic_citations": [
+    "Microsimulation of tax-benefit policy using PolicyEngine (Journal of Economic Policy, 2023)",
+    "Open-source policy analysis tools for evidence-based policymaking (Policy Studies Review, 2022)"
+  ],
+  "awards": [
+    "Nesta Innovation Award (2020)",
+    "Open Data Institute recognition (2021)"
+  ],
+  "in_civictech_guide": true,
+  "wikipedia_page": null,
+  "policy_outcomes": [
+    "Informed UK parliamentary inquiries on tax policy",
+    "Used by advocacy organizations in policy briefings",
+    "Supported evidence-based policy analysis for benefit reform discussions"
+  ],
+  "causation_strength": "moderate",
+  "outcome_methodology": "Case studies and stakeholder interviews documenting policy influence",
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": "Accuracy validation against official tax/benefit calculations published on GitHub",
+  "documented_limitations": [
+    "Limited to tax and benefit policy simulation",
+    "Accuracy dependent on input data quality",
+    "May not capture behavioral responses to policy changes"
+  ],
+  "jurisdictional_scope": "United Kingdom and United States",
+  "failure_modes": [
+    "Data staleness if government tax/benefit rules not updated",
+    "Potential for misuse in misleading policy advocacy"
+  ],
+  "governance_model": "nonprofit",
+  "curation_criteria": "Open-source contribution guidelines; peer review of policy rule implementations; community issue tracking",
+  "contributor_governance": "GitHub-based contribution process with maintainer review; public roadmap",
+  "disparity_tracking": "Analysis of policy impacts on different income groups and demographics available in platform outputs",
+  "community_ownership": "Community-driven development through GitHub; public issue discussions; user feedback integration",
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [
+    "UK Office for National Statistics (data partnership)",
+    "US state tax administration agencies (data access)"
+  ],
+  "ai_involvement": "Limited; uses standard microsimulation algorithms rather than machine learning",
+  "pass2_at": "2026-03-09T23:21:41.389Z"
+}

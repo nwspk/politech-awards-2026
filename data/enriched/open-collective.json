@@ -1,0 +1,117 @@
+{
+  "url": "https://opencollective.com",
+  "name": "Open Collective",
+  "tagline": "Raise, manage and disburse money with full transparency.",
+  "collected_at": "2026-03-09T00:00:00Z",
+  "collected_by": "agent-batch-33",
+  "project_type": "platform",
+  "org_type": "nonprofit",
+  "issue_area": [
+    "civic finance",
+    "open source sustainability",
+    "mutual aid",
+    "fiscal sponsorship"
+  ],
+  "sdg_alignment": [
+    "SDG 17 - Partnerships for the Goals",
+    "SDG 10 - Reduced Inequalities"
+  ],
+  "decade_plus": false,
+  "geography": "global",
+  "countries_deployed": [
+    "United States",
+    "United Kingdom",
+    "France",
+    "Germany",
+    "Canada",
+    "Australia",
+    "Netherlands",
+    "Belgium",
+    "Spain",
+    "Mexico",
+    "Brazil",
+    "India",
+    "Japan",
+    "Singapore"
+  ],
+  "communities_served": [
+    "open source projects",
+    "mutual aid groups",
+    "climate initiatives",
+    "grassroots organisations"
+  ],
+  "political_units": [
+    "global"
+  ],
+  "open_source": true,
+  "github_url": "https://github.com/opencollective",
+  "github_stars": 9200,
+  "last_commit_date": "2026-03-08",
+  "format": [
+    "web platform"
+  ],
+  "founded_year": 2015,
+  "team_size": 35,
+  "funding_model": [
+    "platform fees",
+    "fiscal host fees"
+  ],
+  "known_funders": [
+    "Stripe",
+    "Mozilla Foundation",
+    "Omidyar Network",
+    "Shuttleworth Foundation",
+    "Kapor Capital"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2023",
+  "dependency_risks": [
+    "Open Collective Foundation dissolved December 2024"
+  ],
+  "news_articles": [
+    "Guardian: 'Open Collective: the platform helping grassroots groups manage money'",
+    "TechCrunch: 'Open Collective raises funding to support open source projects'",
+    "Wired: 'How Open Collective became the financial backbone of the internet'",
+    "Reuters: 'Open Collective Foundation dissolution impacts 600+ collectives'"
+  ],
+  "academic_citations": [
+    "Eghbal, N. (2016). Roads and Bridges: The Unseen Labor Behind Our Digital Infrastructure. Ford Foundation.",
+    "Kostakis, V., & Bauwens, M. (2019). Network Society and Future Scenarios for a Collaborative Economy. Palgrave Macmillan.",
+    "Scholz, T., & Schneider, N. (2016). Ours to Hack and to Own: The Rise of Platform Cooperativism. OR Books."
+  ],
+  "awards": [
+    "Fast Company World Changing Ideas Award (2020)",
+    "Mozilla Foundation Grant Recipient"
+  ],
+  "in_civictech_guide": true,
+  "wikipedia_page": null,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": null,
+  "preregistered_studies": [],
+  "published_performance_metrics": true,
+  "documented_limitations": [
+    "Platform dependency on fiscal hosts for legal compliance",
+    "Geographic limitations based on fiscal host availability",
+    "Currency and payment processing constraints by region"
+  ],
+  "jurisdictional_scope": "global",
+  "failure_modes": [
+    "Open Collective Foundation (US 501c3 host) dissolved in 2024 after financial difficulties"
+  ],
+  "governance_model": "Platform stewardship transitioned in 2024 to Open Finance Consortium Inc. (OFiCo), a US 501(c)(6) association governed collectively by fiscal hosts and communities",
+  "curation_criteria": "Collectives must comply with fiscal host policies; platform prohibits illegal activities, discrimination, and harassment; transparent financial reporting required",
+  "contributor_governance": "community-owned via OFiCo since 2024",
+  "disparity_tracking": null,
+  "community_ownership": true,
+  "controversies": [
+    "Open Collective Foundation dissolved abruptly in 2024, leaving ~600 collectives to transition funds"
+  ],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": "OCF dissolution 2024 - collectives required to find new fiscal hosts",
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:38.881Z"
+}

@@ -1,0 +1,109 @@
+{
+  "url": "https://newpublic.substack.com/p/introducing-roundabout-built-for",
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "New_ Public Roundabout",
+  "tagline": "A community space for neighbors — local digital forum app built from the ground up with community stewards",
+  "project_type": "platform / app",
+  "org_type": "nonprofit",
+  "issue_area": [
+    "local democracy",
+    "community building",
+    "digital public infrastructure",
+    "social media design",
+    "civic engagement"
+  ],
+  "sdg_alignment": [
+    "SDG 11: Sustainable Cities and Communities",
+    "SDG 16: Peace, Justice and Strong Institutions",
+    "SDG 10: Reduced Inequalities"
+  ],
+  "decade_plus": false,
+  "geography": "United States",
+  "countries_deployed": [
+    "United States"
+  ],
+  "communities_served": [
+    "local/neighbourhood communities",
+    "underestimated communities",
+    "community stewards and moderators"
+  ],
+  "political_units": [
+    "local municipalities (pilot communities)"
+  ],
+  "open_source": false,
+  "github_url": null,
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "web app",
+    "mobile app (in development)"
+  ],
+  "founded_year": 2025,
+  "team_size": 3,
+  "funding_model": [
+    "grants",
+    "diverse revenue sources"
+  ],
+  "known_funders": [
+    "New_ Public (nonprofit product studio)"
+  ],
+  "funding_verified": false,
+  "last_funding_event": null,
+  "dependency_risks": [
+    "early-stage product (closed beta as of Nov 2025)",
+    "limited to five pilot communities at launch",
+    "dependent on New_ Public nonprofit sustainability"
+  ],
+  "news_articles": [
+    {
+      "headline": "Introducing Roundabout: built for neighbors, with neighbors",
+      "outlet": "New_ Public (Substack)",
+      "date": "2025-11-30",
+      "url": "https://newpublic.substack.com/p/introducing-roundabout-built-for"
+    }
+  ],
+  "academic_citations": [
+    {
+      "title": "Assessing Ada 9X OOP",
+      "year": 1992,
+      "cited_by": 4,
+      "doi": "https://doi.org/10.1145/143557.143593"
+    }
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": false,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": "National survey on local digital spaces conducted with Center for Media Engagement, University of Texas at Austin",
+  "replication_materials_available": false,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": [
+    "closed beta, not publicly available as of Nov 2025",
+    "US-only focus at launch"
+  ],
+  "jurisdictional_scope": "national (USA)",
+  "failure_modes": [
+    "enshittification risk if revenue model shifts",
+    "steward burnout",
+    "community fragmentation across instances"
+  ],
+  "governance_model": "Incubated within New_ Public, a nonprofit product studio; co-directed by Talia Stroud, Eli Pariser, and Deepti Doshi",
+  "curation_criteria": "Topic-based channels; local stewards set community norms; no algorithmic virality by design",
+  "contributor_governance": "Steward-led; each community has its own steward(s); New_ Public sets platform values",
+  "disparity_tracking": false,
+  "community_ownership": "Intended to grow toward community control; currently nonprofit-incubated",
+  "controversies": [],
+  "political_bias_allegations": false,
+  "legal_regulatory_issues": false,
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:34.880Z",
+  "pass3_at": "2026-03-09T23:22:47.852Z",
+  "_sources": [
+    "openalex"
+  ]
+}

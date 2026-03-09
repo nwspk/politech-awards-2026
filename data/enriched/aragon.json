@@ -1,0 +1,103 @@
+{
+  "url": "https://aragon.org",
+  "collected_at": "2026-03-09T23:18:04.453Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Aragon",
+  "tagline": "The Home of Onchain Organizations – governance and ownership infrastructure for DAOs and protocols",
+  "project_type": "Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "govtech",
+    "emerging_tech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": "Global (blockchain-based, jurisdiction-agnostic)",
+  "communities_served": [
+    "protocols",
+    "DAOs",
+    "decentralized organizations",
+    "token holders"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "partial",
+  "github_url": "https://github.com/aragon",
+  "github_stars": 2800,
+  "last_commit_date": "2026-03-08",
+  "format": [
+    "platform",
+    "app",
+    "api"
+  ],
+  "founded_year": 2017,
+  "team_size": "medium",
+  "funding_model": [
+    "vc",
+    "hybrid"
+  ],
+  "known_funders": [
+    "Polychain Capital",
+    "Placeholder",
+    "Dragonfly Capital",
+    "Lerer Hippeau",
+    "Consensys"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2023",
+  "dependency_risks": [
+    "blockchain network dependency",
+    "smart contract security risks",
+    "regulatory uncertainty around DAOs and tokenomics"
+  ],
+  "news_articles": [
+    "Aragon DAO governance platform reaches $35B in assets under governance (2024)",
+    "Aragon launches Aragon OSx for enhanced DAO governance (2023)",
+    "Decentralized governance platform Aragon expands ecosystem (TechCrunch, 2022)"
+  ],
+  "academic_citations": [
+    "Governance in Decentralized Autonomous Organizations (DAOs) - multiple peer-reviewed studies reference Aragon as case study"
+  ],
+  "awards": [
+    "Recognized as leading DAO governance infrastructure platform"
+  ],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": null,
+  "preregistered_studies": [],
+  "published_performance_metrics": "10K projects launched; $35B+ assets governed",
+  "documented_limitations": [
+    "Smart contract security risks",
+    "Regulatory uncertainty for DAOs",
+    "Blockchain scalability constraints",
+    "User experience complexity for non-technical users"
+  ],
+  "jurisdictional_scope": "Global blockchain networks",
+  "failure_modes": [
+    "Smart contract vulnerabilities",
+    "Regulatory crackdowns on DAOs",
+    "Blockchain network congestion affecting governance speed"
+  ],
+  "governance_model": "LLC",
+  "curation_criteria": "Decentralized governance through ANT token holders and community proposals",
+  "contributor_governance": "Open-source contribution model with community review process",
+  "disparity_tracking": null,
+  "community_ownership": "Partial - ANT token holders have governance rights; community-driven development",
+  "controversies": [
+    "Regulatory scrutiny around DAO legal status and liability",
+    "Security incidents in DAO governance implementations"
+  ],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": "Ongoing regulatory uncertainty regarding DAO legal status and governance liability across jurisdictions",
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": null,
+  "pass2_at": "2026-03-09T23:21:24.010Z"
+}
