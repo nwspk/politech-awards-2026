@@ -1,0 +1,103 @@
+{
+  "url": "https://www.wikidata.org",
+  "name": "Wikidata",
+  "tagline": "A free and open knowledge base that can be read and edited by both humans and machines.",
+  "collected_at": "2026-03-09T00:00:00Z",
+  "collected_by": "agent-batch-39",
+  "project_type": "knowledge base / open data platform",
+  "org_type": "nonprofit",
+  "issue_area": [
+    "open data",
+    "knowledge commons",
+    "information access",
+    "linked open data"
+  ],
+  "sdg_alignment": [
+    "SDG 4",
+    "SDG 9",
+    "SDG 16",
+    "SDG 17"
+  ],
+  "decade_plus": true,
+  "geography": "global",
+  "countries_deployed": [],
+  "communities_served": [
+    "researchers",
+    "journalists",
+    "educators",
+    "developers",
+    "general public",
+    "Wikipedia editors"
+  ],
+  "political_units": [],
+  "open_source": true,
+  "github_url": "https://github.com/wikidata",
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "open database",
+    "API",
+    "SPARQL query service",
+    "linked open data"
+  ],
+  "founded_year": 2012,
+  "team_size": null,
+  "funding_model": [
+    "foundation funding",
+    "donations",
+    "grants"
+  ],
+  "known_funders": [
+    "Wikimedia Foundation",
+    "Allen Institute for AI",
+    "Gordon and Betty Moore Foundation",
+    "Google"
+  ],
+  "funding_verified": true,
+  "last_funding_event": null,
+  "dependency_risks": [
+    "Dependence on Wikimedia Foundation for hosting and governance",
+    "Community volunteer labour for data quality"
+  ],
+  "news_articles": [],
+  "academic_citations": [
+    "https://cacm.acm.org/research/wikidata/",
+    "https://dl.acm.org/doi/fullHtml/10.1145/3543873.3585579"
+  ],
+  "awards": [
+    "Recognized as a digital public good by the Digital Public Goods Alliance (2025)"
+  ],
+  "in_civictech_guide": null,
+  "wikipedia_page": "https://en.wikipedia.org/wiki/Wikidata",
+  "policy_outcomes": [
+    "Data shown in 64% of all Wikipedia pages; used by Apple Siri and Amazon Alexa",
+    "Recognised as a digital public good in 2025"
+  ],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": true,
+  "documented_limitations": [
+    "Data quality varies by topic and language",
+    "Vandalism and inaccuracies possible",
+    "Lower coverage in non-English languages"
+  ],
+  "jurisdictional_scope": "global",
+  "failure_modes": [
+    "Community attrition",
+    "Data quality degradation without active curation",
+    "Potential for coordinated misinformation campaigns"
+  ],
+  "governance_model": "Wikimedia Foundation hosts; community-governed via open editing model and Wikidata policies",
+  "curation_criteria": "Community-defined notability and sourcing policies; open to all structured factual data",
+  "contributor_governance": "Open editing with community policies; sysop roles for protection and moderation",
+  "disparity_tracking": null,
+  "community_ownership": true,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": true
+}

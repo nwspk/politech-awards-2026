@@ -1,0 +1,124 @@
+{
+  "url": "https://www.opensanctions.org",
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "OpenSanctions",
+  "tagline": "Supreme Data on Supreme Leaders \u2014 open international database of sanctions, PEPs, and entities of criminal or political interest",
+  "project_type": "open data platform and compliance database",
+  "org_type": "for-profit GmbH (with open/non-commercial access tier)",
+  "issue_area": [
+    "anti-corruption",
+    "financial crime",
+    "sanctions compliance",
+    "investigative journalism",
+    "political transparency",
+    "AML/KYC"
+  ],
+  "sdg_alignment": [
+    "SDG 16 - Peace, Justice and Strong Institutions",
+    "SDG 17 - Partnerships for the Goals"
+  ],
+  "decade_plus": false,
+  "geography": "Global (HQ: Berlin, Germany)",
+  "countries_deployed": [
+    "Global (330+ data sources across multiple jurisdictions)"
+  ],
+  "communities_served": [
+    "investigative journalists",
+    "compliance officers",
+    "fintech/regtech companies",
+    "academics",
+    "civil society organisations"
+  ],
+  "political_units": [],
+  "open_source": "partial",
+  "github_url": "https://github.com/opensanctions/opensanctions",
+  "github_stars": 538,
+  "last_commit_date": null,
+  "format": [
+    "open dataset",
+    "REST API",
+    "bulk data download",
+    "on-premise API (yente)",
+    "web search interface"
+  ],
+  "founded_year": 2021,
+  "team_size": "~15",
+  "funding_model": [
+    "commercial data licensing",
+    "API subscriptions",
+    "grant funding (initial)"
+  ],
+  "known_funders": [
+    "German Federal Ministry for Education and Research (BMBF) \u2014 grant 01IS21S48, Sep 2021\u2013Feb 2022"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "BMBF grant September 2021\u2013February 2022",
+  "dependency_risks": [
+    "commercial revenue sustainability",
+    "dependence on government-published source data quality",
+    "scope limited by what governments publish officially"
+  ],
+  "news_articles": [
+    {
+      "headline": "This was 2024 at OpenSanctions",
+      "outlet": "OpenSanctions Blog",
+      "date": "2024-12-18",
+      "url": "https://www.opensanctions.org/articles/2024-review/"
+    }
+  ],
+  "academic_citations": [],
+  "awards": [],
+  "in_civictech_guide": null,
+  "wikipedia_page": false,
+  "policy_outcomes": [
+    {
+      "description": "Data used in New York Times investigation exposing illicit flow of Western technology to Russia through Hong Kong shell companies",
+      "link": null,
+      "year": 2023
+    },
+    {
+      "description": "Data used to identify billionaires and oligarchs hiding assets and circumventing sanctions via financial firms in Cyprus",
+      "link": null,
+      "year": 2022
+    }
+  ],
+  "causation_strength": "anecdotal",
+  "outcome_methodology": null,
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": true,
+  "documented_limitations": [
+    "coverage dependent on official government publications",
+    "PEP coverage varies significantly by country",
+    "matching API has known false positive risks at scale",
+    "non-commercial CC licence limits direct civil society reuse in commercial contexts"
+  ],
+  "jurisdictional_scope": "global",
+  "failure_modes": [
+    "commercial revenue model failure",
+    "government source data removal or paywalling",
+    "false negatives in screening due to transliteration or alias gaps",
+    "legal challenges to inclusion of individuals"
+  ],
+  "governance_model": "for-profit GmbH (OpenSanctions Datenbanken GmbH) with founder-led management; open source codebase; data inclusion criteria published publicly",
+  "curation_criteria": "Entities must appear on official sanctions lists, government watchlists, or meet documented criteria for PEP or criminal interest",
+  "contributor_governance": "Community can submit data source suggestions and flag data issues; core pipeline maintained by paid team",
+  "disparity_tracking": null,
+  "community_ownership": "Data: CC 4.0 Attribution NonCommercial; Code: MIT licence",
+  "controversies": [
+    "Individuals have requested removal from database; deletion policy published but contested",
+    "Inclusion of Russian company data from 2022 prompted questions about data completeness and political framing"
+  ],
+  "political_bias_allegations": "None formal; database reflects official government sanctions designations which may themselves carry geopolitical bias",
+  "legal_regulatory_issues": "GDPR-relevant data on individuals; privacy policy and deletion request process published; operates under German law",
+  "elections_used_in": [],
+  "government_partnerships": [
+    {
+      "name": "GLEIF (Global LEI Foundation)",
+      "role": "collaboration to enhance sanctions and AML screening using Legal Entity Identifiers",
+      "country": "international"
+    }
+  ],
+  "ai_involvement": "LLM-assisted text extraction used for entity data ingestion from unstructured sources, with human moderation; matching API uses ML-based scoring for entity resolution"
+}

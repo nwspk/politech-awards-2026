@@ -1,0 +1,113 @@
+{
+  "url": "https://monitormamdani.com/",
+  "collected_at": "2026-03-09T23:20:10.033Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Monitor Mamdani",
+  "tagline": "Live NYC Mayor Tracking Dashboard monitoring Zohran Mamdani's campaign promises and performance",
+  "project_type": "Tool/Platform",
+  "org_type": "Grassroots/indie",
+  "issue_area": [
+    "participatory_democracy",
+    "govtech",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "city",
+  "countries_deployed": [
+    "United States"
+  ],
+  "communities_served": [
+    "citizens",
+    "voters",
+    "researchers"
+  ],
+  "political_units": [
+    "city"
+  ],
+  "open_source": "unknown",
+  "github_url": null,
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "platform",
+    "dashboard"
+  ],
+  "founded_year": 2025,
+  "team_size": "small",
+  "funding_model": "unfunded",
+  "known_funders": [],
+  "funding_verified": false,
+  "last_funding_event": null,
+  "dependency_risks": [
+    "Relies on third-party data sources: Virlo, Firecrawl, Polymarket, Kalshi, NYC Open Data",
+    "Dependent on continued availability of prediction market data"
+  ],
+  "news_articles": [],
+  "academic_citations": [
+    {
+      "title": "A Comparative Study of Mamdani and Sugeno Fuzzy Models for Quality of Web Services Monitoring",
+      "year": 2017,
+      "cited_by": 13,
+      "doi": "https://doi.org/10.14569/ijacsa.2017.080948"
+    },
+    {
+      "title": "Condition Based Monitoring of Machine Using Mamdani Fuzzy Network",
+      "year": 2018,
+      "cited_by": 13,
+      "doi": "https://doi.org/10.1109/phm-chongqing.2018.00204"
+    },
+    {
+      "title": "Monitoring Water Quality for Catfish Ponds Using Fuzzy Mamdani Method with Internet of Things",
+      "year": 2022,
+      "cited_by": 9,
+      "doi": "https://doi.org/10.1109/icitri56423.2022.9970242"
+    }
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": false,
+  "preregistered_studies": [],
+  "published_performance_metrics": false,
+  "documented_limitations": [
+    "Data updated hourly, not real-time",
+    "Campaign promises completion tracking shows 0/0 with 'Analyzing...' status"
+  ],
+  "jurisdictional_scope": "New York City",
+  "failure_modes": [
+    "Data loading failures evident in multiple dashboard sections showing 'LOADING...' states"
+  ],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": null,
+  "contributor_governance": null,
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [
+    {
+      "election": "2025 NYC Mayoral Election",
+      "role": "Campaign promise tracking and accountability monitoring"
+    }
+  ],
+  "government_partnerships": [
+    {
+      "partner": "NYC Open Data",
+      "nature": "Data source integration",
+      "country": "United States"
+    }
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:33.369Z",
+  "pass3_at": "2026-03-09T23:22:46.601Z",
+  "_sources": [
+    "openalex"
+  ]
+}

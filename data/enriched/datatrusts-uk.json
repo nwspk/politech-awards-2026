@@ -1,0 +1,112 @@
+{
+  "url": "https://datatrusts.uk",
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "The Data Trusts Initiative",
+  "tagline": "Working at the interface of technology, policy and the law to create data trusts that empower individuals and communities while supporting data use for social benefit.",
+  "project_type": "Organization",
+  "org_type": "Academic/research",
+  "issue_area": [
+    "civic_data",
+    "digital_rights"
+  ],
+  "sdg_alignment": [
+    "SDG 10",
+    "SDG 16",
+    "SDG 17"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "NHS patients",
+    "coastal communities",
+    "birth cohort participants",
+    "data rights holders"
+  ],
+  "political_units": [
+    "England",
+    "Scotland"
+  ],
+  "open_source": "no",
+  "github_url": null,
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "report",
+    "course"
+  ],
+  "founded_year": 2020,
+  "team_size": "small",
+  "funding_model": [
+    "grants"
+  ],
+  "known_funders": [
+    "Patrick J McGovern Foundation"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2023",
+  "dependency_risks": [
+    "time-limited grant funding",
+    "academic institution dependency (Cambridge ML@CL)"
+  ],
+  "news_articles": [
+    "Data trusts could help patients control their health records (The Guardian, 2021)",
+    "How data trusts could give people control over their personal information (Wired, 2021)"
+  ],
+  "academic_citations": [
+    "Delacroix & Lawrence (2019) — Bottom-up data trusts, Internet Policy Review",
+    "Montgomery et al. (2021) — Data Governance for the 21st Century",
+    "Global Partnership on AI (2022) — Enabling Data Sharing for Social Benefit Through Data Trusts"
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": false,
+  "policy_outcomes": [
+    {
+      "description": "Submission to UK AI Council's Exploring Legal Mechanisms for Data Stewardship",
+      "link": "https://datatrusts.uk/publications",
+      "year": 2021
+    },
+    {
+      "description": "Three real-world data trust pilots launched: Born in Scotland Data Trust, Brixham Data Trust, GP Data Trust",
+      "link": "https://datatrusts.uk/pilot-projects-1",
+      "year": 2022
+    }
+  ],
+  "causation_strength": "anecdotal",
+  "outcome_methodology": "Case study",
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": [
+    "Legal frameworks for data trusts remain underspecified in UK law",
+    "Pilots are small-scale and early-stage"
+  ],
+  "jurisdictional_scope": "national",
+  "failure_modes": [
+    "Unresolved legal status of data trusts",
+    "Low public awareness",
+    "Funding dependency"
+  ],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Academic research-driven; focus on legal and policy frameworks for data trusts; community benefit orientation",
+  "contributor_governance": "Academic institution governance (University of Cambridge); advisory board structure",
+  "disparity_tracking": false,
+  "community_ownership": "Limited; primarily researcher-led with community input through pilot projects",
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": "Ongoing uncertainty regarding legal status and enforceability of data trusts under UK law; GDPR compliance considerations",
+  "elections_used_in": [],
+  "government_partnerships": [
+    {
+      "name": "AI Council (UK)",
+      "type": "advisory",
+      "year": 2021
+    }
+  ],
+  "ai_involvement": "Limited; focus is on data governance and legal frameworks rather than AI systems, though AI governance is contextually relevant",
+  "pass2_at": "2026-03-09T23:21:25.755Z"
+}

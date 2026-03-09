@@ -1,0 +1,108 @@
+{
+  "url": "https://www.mpwatch.org",
+  "collected_at": "2026-03-09T23:20:57.224Z",
+  "collected_by": "collect-enriched-script",
+  "name": "MP Watch",
+  "tagline": "Uniting People and Politicians for Climate Action",
+  "project_type": "Network",
+  "org_type": "Advocacy org",
+  "issue_area": [
+    "participatory_democracy",
+    "advocacy_tech"
+  ],
+  "sdg_alignment": [
+    "SDG 13 – Climate Action",
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "citizens",
+    "campaigners",
+    "MPs",
+    "constituents"
+  ],
+  "political_units": [
+    "federal"
+  ],
+  "open_source": false,
+  "github_url": null,
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "platform",
+    "report"
+  ],
+  "founded_year": 2019,
+  "team_size": "small",
+  "funding_model": [
+    "donations"
+  ],
+  "known_funders": [
+    "Climate Emergency Fund",
+    "Individual donors"
+  ],
+  "funding_verified": false,
+  "last_funding_event": null,
+  "dependency_risks": [],
+  "news_articles": [
+    "https://www.theguardian.com/environment/2021/jun/15/mp-watch-climate-campaign"
+  ],
+  "academic_citations": [
+    {
+      "title": "Mytilus spp. as sentinels for monitoring microplastic pollution in Norwegian coastal waters: A qualitative and quantitative study",
+      "year": 2018,
+      "cited_by": 263,
+      "doi": "https://doi.org/10.1016/j.envpol.2018.08.077"
+    },
+    {
+      "title": "The impact of online celebrity in livestreaming E-commerce on purchase intention from the perspective of emotional contagion",
+      "year": 2021,
+      "cited_by": 304,
+      "doi": "https://doi.org/10.1016/j.jretconser.2021.102733"
+    },
+    {
+      "title": "The Associations between Dietary Patterns and Sedentary Behaviors in Polish Adults (LifeStyle Study)",
+      "year": 2018,
+      "cited_by": 57,
+      "doi": "https://doi.org/10.3390/nu10081004"
+    }
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [],
+  "causation_strength": "anecdotal",
+  "outcome_methodology": null,
+  "replication_materials_available": false,
+  "preregistered_studies": [],
+  "published_performance_metrics": false,
+  "documented_limitations": [],
+  "jurisdictional_scope": "United Kingdom",
+  "failure_modes": [],
+  "governance_model": "Centralized advocacy organization",
+  "curation_criteria": "Evidence-based climate and nature policies; non-partisan approach",
+  "contributor_governance": "Limited external contributor governance",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "controversies": [],
+  "political_bias_allegations": false,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [
+    {
+      "partner": "UK Parliament / MPs",
+      "nature": "Engagement and briefing partnership",
+      "country": "United Kingdom"
+    }
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:45.399Z",
+  "pass3_at": "2026-03-09T23:23:24.861Z",
+  "_sources": [
+    "openalex"
+  ]
+}

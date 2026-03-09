@@ -1,0 +1,109 @@
+{
+  "url": "https://developers.democracyclub.org.uk/api/v1",
+  "collected_at": "2026-03-09T23:21:11.563Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Democracy Club Developer API",
+  "tagline": "API for accessing ballots, candidates and polling stations data",
+  "project_type": "data_infrastructure",
+  "org_type": "nonprofit",
+  "issue_area": [
+    "election_information",
+    "voter_access",
+    "civic_participation"
+  ],
+  "sdg_alignment": [
+    "SDG_16_peace_justice_institutions"
+  ],
+  "decade_plus": false,
+  "geography": "United Kingdom",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "voters",
+    "developers",
+    "civic_tech_organizations"
+  ],
+  "political_units": [
+    "Wales",
+    "England",
+    "Scotland",
+    "Northern_Ireland"
+  ],
+  "open_source": true,
+  "github_url": "https://github.com/DemocracyClub/EveryElection",
+  "github_stars": 85,
+  "last_commit_date": "2025-12-15",
+  "format": [
+    "REST_API",
+    "JSON"
+  ],
+  "founded_year": 2009,
+  "team_size": 12,
+  "funding_model": [
+    "grants",
+    "donations"
+  ],
+  "known_funders": [
+    "Electoral Commission",
+    "Omidyar Network",
+    "Google.org",
+    "Mozilla Foundation"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2024-06",
+  "dependency_risks": [
+    "Reliance on volunteer contributions for data collection",
+    "Dependency on Electoral Services Councils for official data"
+  ],
+  "news_articles": [
+    "https://www.theguardian.com/technology/2015/may/07/democracy-club-election-data",
+    "https://www.bbc.co.uk/news/technology"
+  ],
+  "academic_citations": [
+    "Ballotpedia and Democracy Club as election information sources in UK civic tech research"
+  ],
+  "awards": [
+    "Mozilla Foundation Award for Civic Tech"
+  ],
+  "in_civictech_guide": true,
+  "wikipedia_page": null,
+  "policy_outcomes": [
+    "Improved voter access to polling station information",
+    "Enhanced candidate information availability during elections"
+  ],
+  "causation_strength": "moderate",
+  "outcome_methodology": "observational",
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": true,
+  "documented_limitations": [
+    "Data completeness varies by local authority",
+    "Relies on volunteer data collection and verification"
+  ],
+  "jurisdictional_scope": "United Kingdom",
+  "failure_modes": [
+    "Data gaps in some local authorities",
+    "Delays in candidate data collection during election periods"
+  ],
+  "governance_model": "nonprofit board governance",
+  "curation_criteria": "Community-contributed data verified against official Electoral Commission sources",
+  "contributor_governance": "Open contribution model with community review process",
+  "disparity_tracking": false,
+  "community_ownership": true,
+  "controversies": [],
+  "political_bias_allegations": false,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [
+    "2015 UK General Election",
+    "2017 UK General Election",
+    "2019 UK General Election",
+    "2024 UK General Election",
+    "Local elections 2019-2024"
+  ],
+  "government_partnerships": [
+    "Electoral_Services_Councils"
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:26.744Z"
+}

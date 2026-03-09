@@ -1,0 +1,96 @@
+{
+  "url": "https://grantnav.threesixtygiving.org",
+  "collected_at": "2026-03-09T23:19:41.741Z",
+  "collected_by": "collect-enriched-script",
+  "name": "GrantNav",
+  "tagline": "Search, explore and download grants data published by UK funders in the 360Giving Data Standard",
+  "project_type": "Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "civic_data",
+    "govtech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions",
+    "SDG 17 – Partnerships for the Goals"
+  ],
+  "decade_plus": true,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "funders",
+    "researchers",
+    "grant recipients",
+    "civil society organizations",
+    "citizens"
+  ],
+  "political_units": [
+    "federal"
+  ],
+  "open_source": "partial",
+  "github_url": "https://github.com/ThreeSixtyGiving/grantnav",
+  "github_stars": 45,
+  "last_commit_date": "2024-11-15",
+  "founded_year": 2015,
+  "team_size": "small",
+  "funding_model": [
+    "grants",
+    "public_funding"
+  ],
+  "known_funders": [
+    "360Giving",
+    "Omidyar Network",
+    "Shuttleworth Foundation"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2023",
+  "dependency_risks": [
+    "Reliance on voluntary participation by UK funders to publish data",
+    "Data quality dependent on funder compliance with 360Giving Data Standard"
+  ],
+  "news_articles": [
+    "https://www.threesixtygiving.org/news/",
+    "Guardian coverage of 360Giving initiatives"
+  ],
+  "academic_citations": [
+    "Open data research citing 360Giving standards"
+  ],
+  "awards": [],
+  "in_civictech_guide": true,
+  "wikipedia_page": null,
+  "policy_outcomes": [
+    "Increased transparency in UK grant funding",
+    "Adoption of 360Giving Data Standard by major UK funders"
+  ],
+  "causation_strength": "moderate",
+  "outcome_methodology": "observational",
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": true,
+  "documented_limitations": [
+    "Data coverage limited to funders who voluntarily publish in 360Giving Data Standard",
+    "Data quality varies by funder compliance"
+  ],
+  "jurisdictional_scope": "United Kingdom",
+  "failure_modes": [
+    "Incomplete data coverage due to voluntary participation",
+    "Data lag between grant disbursement and publication"
+  ],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "360Giving Data Standard compliance",
+  "contributor_governance": "360Giving organizational governance",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [
+    "UK Cabinet Office",
+    "National Lottery Community Fund"
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:31.377Z"
+}

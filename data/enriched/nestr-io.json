@@ -1,0 +1,100 @@
+{
+  "url": "https://nestr.io",
+  "collected_at": "2026-03-09T23:20:06.136Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Nestr",
+  "tagline": "Purpose-driven collaboration platform using self-organization and AI",
+  "project_type": "Tool/Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "participatory_democracy"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "United States",
+    "Europe"
+  ],
+  "communities_served": [
+    "organizations",
+    "teams",
+    "DAOs",
+    "startups",
+    "remote teams"
+  ],
+  "political_units": [
+    "Multi-national"
+  ],
+  "open_source": "no",
+  "github_url": null,
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "platform",
+    "app"
+  ],
+  "founded_year": 2021,
+  "team_size": "small",
+  "funding_model": [
+    "subscriptions"
+  ],
+  "known_funders": null,
+  "funding_verified": false,
+  "last_funding_event": null,
+  "dependency_risks": [
+    "Proprietary platform dependency",
+    "Subscription-based revenue model sustainability"
+  ],
+  "news_articles": [],
+  "academic_citations": [
+    {
+      "title": "NeSTR: A Neuro-Symbolic Abductive Framework for Temporal Reasoning in Large Language Models",
+      "year": 2025,
+      "cited_by": 0,
+      "doi": null
+    },
+    {
+      "title": "Build Nesting or Hierarchical Structures [R package nestr version 0.1.1]",
+      "year": 2021,
+      "cited_by": 0,
+      "doi": null
+    },
+    {
+      "title": "Analysis of movement recursions to detect reproductive events and estimate their fate in central place foragers",
+      "year": 2020,
+      "cited_by": 55,
+      "doi": "https://doi.org/10.1186/s40462-020-00201-1"
+    }
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": false,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": [],
+  "jurisdictional_scope": "International",
+  "failure_modes": [],
+  "governance_model": "Centralized (proprietary platform)",
+  "curation_criteria": null,
+  "contributor_governance": "Closed (proprietary)",
+  "disparity_tracking": null,
+  "community_ownership": false,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": true,
+  "pass2_at": "2026-03-09T23:21:34.087Z",
+  "pass3_at": "2026-03-09T23:22:47.624Z",
+  "_sources": [
+    "openalex"
+  ]
+}

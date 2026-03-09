@@ -1,0 +1,87 @@
+{
+  "url": "https://www.welivedit.ai",
+  "collected_at": "2026-03-09T23:21:01.089Z",
+  "collected_by": "collect-enriched-script",
+  "name": "We Live It",
+  "tagline": "AI-powered platform for community-driven urban planning and civic engagement",
+  "project_type": "Digital platform",
+  "org_type": "For-profit / Social enterprise",
+  "issue_area": "Urban planning, community engagement, civic participation",
+  "sdg_alignment": [
+    "SDG 11: Sustainable Cities and Communities",
+    "SDG 16: Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "Global",
+  "countries_deployed": [
+    "United States",
+    "United Kingdom",
+    "Canada"
+  ],
+  "communities_served": "Urban residents, city planners, community organizations",
+  "political_units": "Cities, municipalities",
+  "open_source": false,
+  "github_url": null,
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": "Web platform, Mobile application",
+  "founded_year": 2020,
+  "team_size": "10-25",
+  "funding_model": "Venture capital, SaaS subscriptions",
+  "known_funders": [
+    "Techstars",
+    "angel investors"
+  ],
+  "funding_verified": false,
+  "last_funding_event": null,
+  "dependency_risks": "Reliance on AI/machine learning infrastructure, data privacy concerns",
+  "news_articles": [],
+  "academic_citations": [
+    {
+      "title": "Big data: a revolution that will transform how we live, work, and think",
+      "year": 2013,
+      "cited_by": 3674,
+      "doi": "https://doi.org/10.5860/choice.50-6804"
+    },
+    {
+      "title": "Do we live inside a domain wall?",
+      "year": 1983,
+      "cited_by": 1300,
+      "doi": "https://doi.org/10.1016/0370-2693(83)91253-4"
+    },
+    {
+      "title": "Big data: a revolution that will transform how we live, work, and think",
+      "year": 2014,
+      "cited_by": 1638,
+      "doi": "https://doi.org/10.1080/1369118x.2014.923482"
+    }
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": false,
+  "policy_outcomes": null,
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": false,
+  "preregistered_studies": false,
+  "published_performance_metrics": false,
+  "documented_limitations": false,
+  "jurisdictional_scope": "International",
+  "failure_modes": null,
+  "governance_model": "Corporate governance",
+  "curation_criteria": null,
+  "contributor_governance": "Internal team-driven",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "controversies": null,
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": false,
+  "government_partnerships": null,
+  "ai_involvement": true,
+  "pass2_at": "2026-03-09T23:21:49.406Z",
+  "pass3_at": "2026-03-09T23:23:31.615Z",
+  "_sources": [
+    "openalex"
+  ]
+}

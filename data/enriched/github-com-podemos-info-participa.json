@@ -1,0 +1,124 @@
+{
+  "url": "https://github.com/podemos-info/participa",
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "Participa (Podemos)",
+  "tagline": "Unified census and participation platform for Podemos: voting, donations, microcredits, and citizen initiatives",
+  "project_type": "Civic participation / member engagement platform",
+  "org_type": "Political party",
+  "issue_area": [
+    "participatory democracy",
+    "political party membership",
+    "online voting",
+    "crowdfunding / political financing",
+    "civic mobilisation"
+  ],
+  "sdg_alignment": [
+    "SDG 16 - Peace, Justice and Strong Institutions",
+    "SDG 10 - Reduced Inequalities"
+  ],
+  "decade_plus": false,
+  "geography": "Spain",
+  "countries_deployed": [
+    "Spain"
+  ],
+  "communities_served": [
+    "Podemos party members",
+    "Spanish citizens",
+    "political activists"
+  ],
+  "political_units": [
+    "Podemos (Spain)",
+    "Spanish municipal",
+    "provincial",
+    "regional",
+    "national electoral units"
+  ],
+  "open_source": true,
+  "github_url": "https://github.com/podemos-info/participa",
+  "github_stars": 60,
+  "last_commit_date": "2023-01-03",
+  "format": [
+    "web application",
+    "Ruby on Rails",
+    "Android app (Phonegap)"
+  ],
+  "founded_year": 2015,
+  "team_size": "Unknown - internal Podemos development team",
+  "funding_model": [
+    "political party funding"
+  ],
+  "known_funders": [
+    "Podemos"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "Ongoing as part of Podemos party operations; last active development 2023",
+  "dependency_risks": [
+    "Agora Voting integration dependency",
+    "Redsys payment gateway dependency",
+    "Ruby 2.0/Rails 4.1 — heavily outdated stack",
+    "project appears dormant since ~2023"
+  ],
+  "news_articles": [
+    "Podemos uses online voting platform for internal democracy (various Spanish media outlets, 2015-2017)",
+    "Participa platform enables mass participation in Podemos decisions (El Diario, 2016)"
+  ],
+  "academic_citations": [
+    "Participedia: Participa Podemos entry — https://participedia.net/method/6070"
+  ],
+  "awards": [
+    "Innovation in Politics Institute nomination (listed in Civic Tech Field Guide)"
+  ],
+  "in_civictech_guide": true,
+  "wikipedia_page": false,
+  "policy_outcomes": [
+    {
+      "description": "Used for all binding Podemos votes for over a year — more than 30 votes including organisational, ethical, and political documents, and internal elections at state, regional, provincial, and municipal levels",
+      "link": "https://participa.podemos.info/",
+      "year": 2015
+    },
+    {
+      "description": "Enabled Podemos Citizen's Assembly of over 500,000 members to make decisions via its online platform",
+      "link": "https://directory.civictech.guide/listing/participa-podemos",
+      "year": 2016
+    }
+  ],
+  "causation_strength": "correlated",
+  "outcome_methodology": "Observational - voting participation rates tracked; no randomized control trials; outcomes measured by vote counts and member participation statistics",
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": "Participation rates reported informally (500,000+ members engaged); no formal published performance evaluation studies",
+  "documented_limitations": [
+    "geographic census-based voting may exclude some members",
+    "requires SMS verification",
+    "outdated tech stack (Rails 4.1/Ruby 2.0)"
+  ],
+  "jurisdictional_scope": "national",
+  "failure_modes": [
+    "voter fraud risk via SMS verification bypass",
+    "dependency on Agora Voting availability",
+    "single-party use limits replicability"
+  ],
+  "governance_model": "Controlled by Podemos party; open source code allows forks (CatComu fork exists for Barcelona en Comú); successor platform participa2 based on Decidim",
+  "curation_criteria": "Party-controlled platform; contributions accepted via GitHub but strategic direction determined by Podemos leadership; focus on member engagement and internal democracy",
+  "contributor_governance": "Party-controlled; external contributions possible via GitHub PRs but platform direction set by Podemos",
+  "disparity_tracking": "No documented equity or inclusion metrics; SMS verification requirement may create barriers for members without mobile access",
+  "community_ownership": "Limited - platform owned and controlled by Podemos party; members participate in voting but do not control platform governance or development",
+  "controversies": [
+    "Platform used exclusively by left-wing party raises questions about neutrality in civic tech",
+    "SMS verification requirement criticized as potential barrier to participation"
+  ],
+  "political_bias_allegations": "Platform developed and controlled exclusively by Podemos (left-wing party); not a neutral civic tool",
+  "legal_regulatory_issues": "Subject to Spanish electoral and data protection regulations; SMS verification raises GDPR compliance considerations",
+  "elections_used_in": [
+    {
+      "election": "Podemos internal elections (Secretary General, Citizen Councils)",
+      "country": "Spain",
+      "years": "2015-2017",
+      "note": "Used for all binding internal Podemos votes — 30+ votes"
+    }
+  ],
+  "government_partnerships": [],
+  "ai_involvement": "No AI or machine learning components documented in platform architecture",
+  "pass2_at": "2026-03-09T23:21:33.721Z"
+}

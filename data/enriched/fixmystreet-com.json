@@ -1,0 +1,101 @@
+{
+  "url": "https://www.fixmystreet.com",
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "FixMyStreet",
+  "tagline": "Report, view, and discuss local street-related problems \u2014 routed to the responsible council",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "govtech",
+    "participatory_democracy"
+  ],
+  "sdg_alignment": [
+    "SDG 11",
+    "SDG 16"
+  ],
+  "decade_plus": true,
+  "geography": "international",
+  "countries_deployed": [
+    "United Kingdom",
+    "Norway",
+    "Australia",
+    "New Zealand",
+    "South Korea",
+    "Sweden"
+  ],
+  "communities_served": [
+    "local residents",
+    "UK councils",
+    "local authorities"
+  ],
+  "political_units": [
+    "city",
+    "state"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/mysociety/fixmystreet",
+  "github_stars": 577,
+  "last_commit_date": "2026-03-09",
+  "format": [
+    "platform",
+    "app"
+  ],
+  "founded_year": 2007,
+  "team_size": "small",
+  "funding_model": [
+    "grants",
+    "subscriptions"
+  ],
+  "known_funders": [
+    "mySociety"
+  ],
+  "funding_verified": true,
+  "last_funding_event": null,
+  "dependency_risks": [
+    "council API fragmentation",
+    "volunteer maintenance burden",
+    "dependence on OpenStreetMap"
+  ],
+  "news_articles": [],
+  "academic_citations": [],
+  "awards": [],
+  "in_civictech_guide": null,
+  "wikipedia_page": true,
+  "policy_outcomes": [
+    {
+      "description": "Mapped and routed street-problem reports to responsible UK councils; measurable fix rates reported by partner councils",
+      "link": "https://www.fixmystreet.com",
+      "year": null
+    }
+  ],
+  "causation_strength": "correlated",
+  "outcome_methodology": null,
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": [
+    "depends on council responsiveness",
+    "urban bias in reports",
+    "no guaranteed fix SLA"
+  ],
+  "jurisdictional_scope": "local",
+  "failure_modes": [
+    "councils ignoring reports",
+    "duplicate reports",
+    "coverage gaps in non-UK deployments"
+  ],
+  "governance_model": "foundation",
+  "curation_criteria": null,
+  "contributor_governance": "Open-source; pull requests accepted on GitHub",
+  "disparity_tracking": null,
+  "community_ownership": null,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [
+    "UK local councils (many formally integrated)"
+  ],
+  "ai_involvement": null
+}

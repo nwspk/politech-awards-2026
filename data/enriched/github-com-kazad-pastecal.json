@@ -1,0 +1,79 @@
+{
+  "url": "https://github.com/kazad/pastecal",
+  "collected_at": "2026-03-09T23:19:22.766Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Pastecal",
+  "tagline": "Zero-login shared calendar for collaborative scheduling without authentication",
+  "project_type": "Tool/Platform",
+  "org_type": "Grassroots/indie",
+  "issue_area": [
+    "civic_data",
+    "participatory_democracy"
+  ],
+  "sdg_alignment": [
+    "SDG 16: Peace, Justice and Strong Institutions",
+    "SDG 17: Partnerships for the Goals"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "Multiple countries via open-source deployment"
+  ],
+  "communities_served": [
+    "citizens",
+    "organizers",
+    "collaborative groups"
+  ],
+  "political_units": [
+    "Local community groups",
+    "Non-governmental organizations"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/kazad/pastecal",
+  "github_stars": 23,
+  "last_commit_date": "2024",
+  "format": [
+    "platform",
+    "app"
+  ],
+  "founded_year": 2020,
+  "team_size": "solo",
+  "funding_model": "unfunded/volunteer",
+  "known_funders": [],
+  "funding_verified": false,
+  "last_funding_event": null,
+  "dependency_risks": [
+    "Firebase dependency for backend infrastructure",
+    "Single maintainer project"
+  ],
+  "news_articles": [],
+  "academic_citations": [],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": "Single maintainer dependency; Firebase backend reliance; limited user documentation",
+  "jurisdictional_scope": "International/Global",
+  "failure_modes": [
+    "Project abandonment due to single maintainer",
+    "Firebase service disruption",
+    "Lack of user support infrastructure"
+  ],
+  "governance_model": "individual",
+  "curation_criteria": "Open-source contribution model; community fork-friendly design",
+  "contributor_governance": "Individual maintainer with open-source contribution welcome",
+  "disparity_tracking": null,
+  "community_ownership": false,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:28.374Z"
+}

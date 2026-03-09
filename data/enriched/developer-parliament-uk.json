@@ -1,0 +1,101 @@
+{
+  "url": "https://developer.parliament.uk",
+  "collected_at": "2026-03-09T23:21:11.463Z",
+  "collected_by": "collect-enriched-script",
+  "name": "UK Parliament Developer Portal",
+  "tagline": "APIs and data for accessing UK Parliament information",
+  "project_type": "API/Developer Platform",
+  "org_type": "Government",
+  "issue_area": [
+    "Government Transparency",
+    "Civic Engagement",
+    "Open Data"
+  ],
+  "sdg_alignment": [
+    "SDG 16: Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "United Kingdom",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "Developers",
+    "Civic Tech Community",
+    "Researchers",
+    "Citizens"
+  ],
+  "political_units": [
+    "UK Parliament"
+  ],
+  "open_source": false,
+  "github_url": null,
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "API",
+    "Developer Portal"
+  ],
+  "founded_year": 2014,
+  "team_size": null,
+  "funding_model": [
+    "Government"
+  ],
+  "known_funders": [
+    "UK Parliament"
+  ],
+  "funding_verified": true,
+  "last_funding_event": null,
+  "dependency_risks": [],
+  "news_articles": [],
+  "academic_citations": [
+    {
+      "title": "The Sketch Engine",
+      "year": 2014,
+      "cited_by": 1961,
+      "doi": "https://doi.org/10.1007/s40607-014-0009-9"
+    },
+    {
+      "title": "Reuters Institute Digital News Report 2015",
+      "year": 2015,
+      "cited_by": 1906,
+      "doi": "https://doi.org/10.2139/ssrn.2619576"
+    },
+    {
+      "title": "The ethical, legal and social implications of using artificial intelligence systems in breast cancer care",
+      "year": 2019,
+      "cited_by": 285,
+      "doi": "https://doi.org/10.1016/j.breast.2019.10.001"
+    }
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": null,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": [],
+  "jurisdictional_scope": "United Kingdom",
+  "failure_modes": [],
+  "governance_model": "Government-operated",
+  "curation_criteria": null,
+  "contributor_governance": null,
+  "disparity_tracking": null,
+  "community_ownership": false,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [
+    "UK Parliament"
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:23.578Z",
+  "pass3_at": "2026-03-09T23:22:17.380Z",
+  "_sources": [
+    "openalex"
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "url": "https://www.torproject.org",
+  "name": "The Tor Project",
+  "tagline": "Free and open source anonymity and privacy technologies to defend against tracking, surveillance, and censorship.",
+  "collected_at": "2026-03-09T00:00:00Z",
+  "collected_by": "agent-batch-39",
+  "project_type": "software / infrastructure",
+  "org_type": "nonprofit",
+  "issue_area": [
+    "privacy",
+    "censorship circumvention",
+    "digital rights",
+    "internet freedom"
+  ],
+  "sdg_alignment": [
+    "SDG 16",
+    "SDG 10"
+  ],
+  "decade_plus": true,
+  "geography": "global",
+  "countries_deployed": [],
+  "communities_served": [
+    "journalists",
+    "activists",
+    "whistleblowers",
+    "human rights defenders",
+    "general public"
+  ],
+  "political_units": [],
+  "open_source": true,
+  "github_url": "https://github.com/torproject/tor",
+  "github_stars": 4865,
+  "last_commit_date": "2024-03-05",
+  "format": [
+    "browser extension / app",
+    "network infrastructure",
+    "open source software"
+  ],
+  "founded_year": 2006,
+  "team_size": null,
+  "funding_model": [
+    "grants",
+    "individual donations",
+    "government contracts",
+    "corporate donations"
+  ],
+  "known_funders": [
+    "US State Department",
+    "USAGM",
+    "National Science Foundation",
+    "DARPA",
+    "Electronic Frontier Foundation",
+    "Ford Foundation",
+    "Open Society Foundations",
+    "Alfred P. Sloan Foundation",
+    "Heising-Simons Foundation",
+    "Mozilla",
+    "Mullvad",
+    "Proton",
+    "OpenSats",
+    "Zcash Foundation",
+    "NLnet"
+  ],
+  "funding_verified": true,
+  "last_funding_event": null,
+  "dependency_risks": [
+    "US government funding historically dominant (~80% in 2012, ~35% in 2024)",
+    "reliance on volunteer relay operators"
+  ],
+  "news_articles": [
+    "https://cyberinsider.com/tor-project-received-2-5m-from-the-us-government-to-bolster-privacy/"
+  ],
+  "academic_citations": [],
+  "awards": [],
+  "in_civictech_guide": null,
+  "wikipedia_page": "https://en.wikipedia.org/wiki/The_Tor_Project",
+  "policy_outcomes": [
+    "Used during Arab Spring (2010-2011) to circumvent government censorship",
+    "Tool of choice for journalists operating in repressive regimes"
+  ],
+  "causation_strength": "moderate",
+  "outcome_methodology": null,
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": [
+    "Exit node surveillance risk",
+    "Slow connection speeds",
+    "Not effective against global passive adversaries"
+  ],
+  "jurisdictional_scope": "global",
+  "failure_modes": [
+    "Exit node compromise",
+    "Traffic correlation attacks",
+    "Dependence on sufficient relay diversity"
+  ],
+  "governance_model": "501(c)(3) nonprofit; board-governed; open source community",
+  "curation_criteria": null,
+  "contributor_governance": "open source; GitLab-hosted; community contributions accepted",
+  "disparity_tracking": null,
+  "community_ownership": true,
+  "controversies": [
+    "Historically large share of US government funding raises questions about independence",
+    "Tor used for both privacy protection and illicit activity on the dark web"
+  ],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [
+    "US State Department",
+    "USAGM",
+    "NSF",
+    "DARPA"
+  ],
+  "ai_involvement": false
+}

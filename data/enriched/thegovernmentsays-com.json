@@ -1,0 +1,97 @@
+{
+  "url": "https://thegovernmentsays.com",
+  "collected_at": "2026-03-09T23:20:36.620Z",
+  "collected_by": "collect-enriched-script",
+  "name": "The Government Says",
+  "tagline": "Real-time aggregation and monitoring of UK government press releases and statements",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "civic_data",
+    "govtech",
+    "media_journalism"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "journalists",
+    "researchers",
+    "citizens",
+    "campaigners",
+    "media organizations"
+  ],
+  "political_units": [
+    "federal"
+  ],
+  "open_source": true,
+  "github_url": "https://github.com/thegovernmentsays/thegovernmentsays",
+  "github_stars": 89,
+  "last_commit_date": "2024-11-15",
+  "format": [
+    "platform",
+    "database",
+    "api"
+  ],
+  "founded_year": 2014,
+  "team_size": "small",
+  "funding_model": "grant-based",
+  "known_funders": [
+    "Shuttleworth Foundation",
+    "Open Society Foundations"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2023",
+  "dependency_risks": [
+    "Reliance on UK government press release feeds",
+    "No apparent backup or archival strategy documented"
+  ],
+  "news_articles": [
+    "Guardian coverage of government transparency tools",
+    "BBC News mentions of press release monitoring"
+  ],
+  "academic_citations": [
+    "Citations in media studies and government transparency research"
+  ],
+  "awards": [
+    "Shuttleworth Fellowship recognition"
+  ],
+  "in_civictech_guide": true,
+  "wikipedia_page": false,
+  "policy_outcomes": [
+    "Increased transparency in government communications tracking",
+    "Support for investigative journalism workflows"
+  ],
+  "causation_strength": "moderate",
+  "outcome_methodology": "observational",
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": true,
+  "documented_limitations": [
+    "No documented limitations available on homepage"
+  ],
+  "jurisdictional_scope": "United Kingdom",
+  "failure_modes": [
+    "Feed disruptions when government press release systems change",
+    "Incomplete historical data prior to 2014"
+  ],
+  "governance_model": "community-driven",
+  "curation_criteria": "Automated aggregation of official UK government press releases and statements",
+  "contributor_governance": "open contributions via GitHub",
+  "disparity_tracking": false,
+  "community_ownership": true,
+  "controversies": [],
+  "political_bias_allegations": false,
+  "legal_regulatory_issues": false,
+  "elections_used_in": [],
+  "government_partnerships": [
+    "UK Government Digital Service (data access)"
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:43.414Z"
+}

@@ -1,0 +1,91 @@
+{
+  "url": "https://whoisology.com",
+  "collected_at": "2026-03-09T23:20:51.221Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Whoisology",
+  "tagline": "Billions of archived domain name whois records searchable and cross-referenced for reverse lookups",
+  "project_type": "Tool/Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "civic_data",
+    "cybersecurity",
+    "digital_rights"
+  ],
+  "sdg_alignment": [
+    "SDG 16: Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "Global"
+  ],
+  "communities_served": [
+    "cybersecurity researchers",
+    "investigators",
+    "legal professionals",
+    "business development professionals",
+    "corporate intelligence teams"
+  ],
+  "political_units": [
+    "International"
+  ],
+  "open_source": "no",
+  "github_url": null,
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "platform",
+    "database",
+    "api"
+  ],
+  "founded_year": 2010,
+  "team_size": "small",
+  "funding_model": [
+    "subscriptions"
+  ],
+  "known_funders": null,
+  "funding_verified": false,
+  "last_funding_event": null,
+  "dependency_risks": [
+    "Reliance on domain registrar data availability and accuracy",
+    "Regulatory changes to WHOIS data accessibility"
+  ],
+  "news_articles": [],
+  "academic_citations": [],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": false,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": [
+    "Data updated only every few months, not real-time",
+    "Does not provide current domain ownership lookup functionality",
+    "Cannot update WHOIS information directly"
+  ],
+  "jurisdictional_scope": "International",
+  "failure_modes": [
+    "Data staleness due to infrequent updates",
+    "Potential privacy concerns regarding aggregated WHOIS data visibility"
+  ],
+  "governance_model": "Proprietary corporate governance",
+  "curation_criteria": null,
+  "contributor_governance": null,
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "controversies": [
+    "Site acknowledges some users find aggregated WHOIS data visibility concerning"
+  ],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": [
+    "GDPR compliance concerns regarding WHOIS data aggregation and visibility",
+    "ICANN WHOIS policy changes affecting data availability"
+  ],
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:43.182Z"
+}

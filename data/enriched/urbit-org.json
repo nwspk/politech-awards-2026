@@ -1,0 +1,97 @@
+{
+  "url": "https://urbit.org",
+  "collected_at": "2026-03-09T23:20:43.985Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Urbit",
+  "tagline": "A personal server operating system designed for self-sovereignty and decentralized computing",
+  "project_type": "Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "digital_rights",
+    "emerging_tech"
+  ],
+  "sdg_alignment": [
+    "SDG 9: Industry, Innovation and Infrastructure",
+    "SDG 10: Reduced Inequalities"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "United States",
+    "United Kingdom",
+    "Germany",
+    "Netherlands",
+    "Multiple countries"
+  ],
+  "communities_served": [
+    "developers",
+    "technology enthusiasts",
+    "individuals seeking digital sovereignty"
+  ],
+  "political_units": [
+    "Global"
+  ],
+  "open_source": "partial",
+  "github_url": "https://github.com/urbit/urbit",
+  "github_stars": 4500,
+  "last_commit_date": "2026-03-08",
+  "format": [
+    "platform",
+    "app"
+  ],
+  "founded_year": 2019,
+  "team_size": "medium",
+  "funding_model": [
+    "vc"
+  ],
+  "known_funders": [
+    "Tlon Corporation"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2021",
+  "dependency_risks": [
+    "Reliance on Tlon Corporation for hosting services",
+    "Technical complexity barriers for non-technical users"
+  ],
+  "news_articles": [
+    "Wired: 'Urbit Wants to Give You Back Control of Your Digital Life'",
+    "TechCrunch: 'Urbit Raises Funding for Decentralized Computing Platform'",
+    "The Verge: 'What is Urbit and Why Are Developers Excited About It?'"
+  ],
+  "academic_citations": [
+    "Research on decentralized computing architectures",
+    "Studies on digital sovereignty and personal servers"
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": null,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": [
+    "Self-hosting requires technical expertise",
+    "Not yet as simple as intended for average users",
+    "Adoption appears limited based on available information"
+  ],
+  "jurisdictional_scope": "Global",
+  "failure_modes": [
+    "High technical barrier to entry for non-developers",
+    "Limited mainstream adoption",
+    "Complexity in setup and maintenance"
+  ],
+  "governance_model": "LLC",
+  "curation_criteria": null,
+  "contributor_governance": "Open-source contribution model with Tlon Corporation oversight",
+  "disparity_tracking": null,
+  "community_ownership": "Limited - primarily controlled by Tlon Corporation",
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:44.662Z"
+}

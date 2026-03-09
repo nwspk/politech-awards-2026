@@ -1,0 +1,114 @@
+{
+  "url": "https://gov.uk/find-local-consultations",
+  "collected_at": "2026-03-09T23:19:42.628Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Find local consultations",
+  "tagline": "A UK government service enabling citizens to discover and participate in local council consultations",
+  "project_type": "Tool/Platform",
+  "org_type": "Government/public sector",
+  "issue_area": [
+    "participatory_democracy",
+    "govtech",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "citizens",
+    "local councils",
+    "residents"
+  ],
+  "political_units": [
+    "local",
+    "national"
+  ],
+  "open_source": false,
+  "github_url": null,
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "platform",
+    "database"
+  ],
+  "founded_year": 2014,
+  "team_size": null,
+  "funding_model": [
+    "public_funding"
+  ],
+  "known_funders": [
+    "UK Government"
+  ],
+  "funding_verified": true,
+  "last_funding_event": null,
+  "dependency_risks": [
+    "Reliance on local councils to submit consultation data",
+    "Limited to England and Wales only"
+  ],
+  "news_articles": [],
+  "academic_citations": [
+    {
+      "title": "Inequity and inequality in the use of health care in England: an empirical investigation",
+      "year": 2004,
+      "cited_by": 370,
+      "doi": "https://doi.org/10.1016/j.socscimed.2004.07.016"
+    },
+    {
+      "title": "Culture and communication: Can landscape visualization improve forest management consultation with indigenous communities?",
+      "year": 2005,
+      "cited_by": 320,
+      "doi": "https://doi.org/10.1016/j.landurbplan.2005.04.004"
+    },
+    {
+      "title": "The Implication of Land Grabbing on Pastoral Economy in Sudan",
+      "year": 2016,
+      "cited_by": 183,
+      "doi": null
+    }
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": false,
+  "preregistered_studies": [],
+  "published_performance_metrics": false,
+  "documented_limitations": [
+    "Available in England and Wales only",
+    "Dependent on local councils to populate consultation data"
+  ],
+  "jurisdictional_scope": "England and Wales",
+  "failure_modes": [
+    "Data completeness depends on council participation",
+    "Potential for outdated or incomplete consultation listings"
+  ],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": null,
+  "contributor_governance": null,
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "controversies": [],
+  "political_bias_allegations": false,
+  "legal_regulatory_issues": false,
+  "elections_used_in": [],
+  "government_partnerships": [
+    {
+      "partner": "Local councils across England and Wales",
+      "nature": "Data submission and consultation hosting",
+      "country": "United Kingdom"
+    }
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:29.482Z",
+  "pass3_at": "2026-03-09T23:22:37.621Z",
+  "_sources": [
+    "openalex"
+  ]
+}

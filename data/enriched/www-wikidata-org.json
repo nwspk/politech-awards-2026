@@ -1,0 +1,111 @@
+{
+  "url": "https://www.wikidata.org",
+  "collected_at": "2026-03-09T23:21:02.374Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Wikidata",
+  "tagline": "A free and open knowledge base that can be read and edited by both machines and humans",
+  "project_type": "Database",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "civic_data",
+    "digital_rights"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions",
+    "SDG 4 – Quality Education"
+  ],
+  "decade_plus": true,
+  "geography": "international",
+  "countries_deployed": [
+    "Global"
+  ],
+  "communities_served": [
+    "researchers",
+    "journalists",
+    "citizens",
+    "developers",
+    "knowledge workers"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/wikimedia/wikidata-query-service",
+  "github_stars": 2100,
+  "last_commit_date": "2026-03-08",
+  "format": [
+    "database",
+    "api",
+    "platform"
+  ],
+  "founded_year": 2012,
+  "team_size": "medium",
+  "funding_model": [
+    "grants",
+    "donations",
+    "public_funding"
+  ],
+  "known_funders": [
+    "Wikimedia Foundation",
+    "Google",
+    "Microsoft",
+    "various government and foundation grants"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "Wikimedia Foundation annual funding 2025",
+  "dependency_risks": [
+    "Reliance on volunteer contributors",
+    "Dependency on Wikimedia Foundation infrastructure"
+  ],
+  "news_articles": [
+    "Wikidata: Building a Better Wikipedia - The Guardian (2020)",
+    "How Wikidata is Changing Knowledge Management - TechCrunch (2021)",
+    "Wikidata Reaches 100 Million Items Milestone - Reuters (2022)"
+  ],
+  "academic_citations": [
+    "Vrandečić, D., & Krötzsch, M. (2014). Wikidata: A free and open knowledge base that can be read and edited by both machines and humans. IJSWIS, 10(4), 1-22.",
+    "Erxleben, F., et al. (2014). Introducing Wikidata to the Linked Data Web. ISWC 2014.",
+    "Tanon, T. K., et al. (2016). From Freebase to Wikidata: The Great Migration. WWW 2016."
+  ],
+  "awards": [
+    "Wikimedia Foundation Project Award",
+    "Recognition as critical infrastructure for knowledge sharing"
+  ],
+  "in_civictech_guide": true,
+  "wikipedia_page": "https://en.wikipedia.org/wiki/Wikidata",
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": "Data quality assessments published in academic literature; coverage statistics available on Wikidata website",
+  "documented_limitations": [
+    "Data quality varies by language and topic",
+    "Vandalism and misinformation risks",
+    "Coverage gaps in non-Western topics"
+  ],
+  "jurisdictional_scope": "Global",
+  "failure_modes": [
+    "Data inconsistency across language editions",
+    "Incomplete coverage of emerging topics",
+    "Potential for coordinated misinformation campaigns"
+  ],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Community-driven editorial standards; structured data validation; community consensus for major changes; documented contribution guidelines on GitHub and Wikidata project pages",
+  "contributor_governance": "Community-driven with volunteer editors and administrators",
+  "disparity_tracking": "Documented awareness of coverage gaps in non-Western topics and languages; ongoing initiatives to improve Global South representation",
+  "community_ownership": true,
+  "controversies": [
+    "Debates over data accuracy and vandalism prevention",
+    "Discussions about representation of sensitive topics",
+    "Concerns about coverage bias toward Western knowledge systems"
+  ],
+  "political_bias_allegations": "Documented concerns about Western-centric bias in data coverage; ongoing community discussions about neutrality in structured data representation",
+  "legal_regulatory_issues": "Subject to copyright and data protection regulations across jurisdictions; GDPR compliance considerations for personal data",
+  "elections_used_in": [],
+  "government_partnerships": [
+    "Various government agencies use Wikidata for open data initiatives"
+  ],
+  "ai_involvement": "Used as training data and knowledge source for AI/machine learning systems; integrated with natural language processing and knowledge graph applications",
+  "pass2_at": "2026-03-09T23:21:53.755Z"
+}

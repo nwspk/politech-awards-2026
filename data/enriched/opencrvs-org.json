@@ -1,0 +1,94 @@
+{
+  "url": "https://www.opencrvs.org",
+  "name": "OpenCRVS",
+  "tagline": "Open-source digital civil registration and vital statistics system for low-resource settings.",
+  "collected_at": "2026-03-09T23:05:00Z",
+  "collected_by": "agent-batch-38",
+  "project_type": "open-source-software-platform",
+  "org_type": "nonprofit",
+  "issue_area": [
+    "civil-registration",
+    "digital-public-goods",
+    "identity",
+    "human-rights",
+    "digital-infrastructure"
+  ],
+  "sdg_alignment": [
+    "SDG 16.9",
+    "SDG 3",
+    "SDG 17"
+  ],
+  "decade_plus": false,
+  "geography": "global",
+  "countries_deployed": [],
+  "communities_served": [
+    "governments",
+    "unregistered-populations",
+    "children",
+    "development-partners"
+  ],
+  "political_units": [],
+  "open_source": true,
+  "github_url": "https://github.com/opencrvs/opencrvs-core",
+  "github_stars": 114,
+  "last_commit_date": "2026-03-09",
+  "format": [
+    "software-platform",
+    "technical-assistance",
+    "community"
+  ],
+  "founded_year": 2017,
+  "team_size": 14,
+  "funding_model": [
+    "grants",
+    "implementation-services"
+  ],
+  "known_funders": [
+    "NORAD"
+  ],
+  "funding_verified": true,
+  "last_funding_event": null,
+  "dependency_risks": [
+    "grant-funding-dependency",
+    "reliance-on-government-adoption"
+  ],
+  "news_articles": [],
+  "academic_citations": [],
+  "awards": [
+    "Digital Public Good (DPG Alliance vetted)"
+  ],
+  "in_civictech_guide": null,
+  "wikipedia_page": null,
+  "policy_outcomes": [
+    "Addresses gap: 25% of children under five unregistered worldwide",
+    "Addresses gap: 1 billion people unable to prove identity",
+    "Addresses gap: 66% of world deaths unrecorded",
+    "Deployed as digital public infrastructure in multiple countries"
+  ],
+  "causation_strength": "direct",
+  "outcome_methodology": "Country deployment stories; DPG standard compliance assessment",
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": true,
+  "documented_limitations": [
+    "requires low-resource setting adaptation",
+    "limited without government buy-in"
+  ],
+  "jurisdictional_scope": "global",
+  "failure_modes": [
+    "government capacity constraints",
+    "connectivity requirements in low-resource settings",
+    "sustainability of DPG without recurring funding"
+  ],
+  "governance_model": "Co-founded and led by Annina Wersun (Chief Impact Officer) and Ed Duffus (CEO); community of implementing countries, system integrators, and development partners",
+  "curation_criteria": null,
+  "contributor_governance": "Open-source; community forum and GitHub for contributions; product and service roadmap shaped collaboratively",
+  "disparity_tracking": true,
+  "community_ownership": true,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": false
+}

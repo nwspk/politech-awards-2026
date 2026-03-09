@@ -1,0 +1,107 @@
+{
+  "url": "https://dev.reuselibrary.service.justice.gov.uk/",
+  "collected_at": "2026-03-09T23:19:40.140Z",
+  "collected_by": "collect-enriched-script",
+  "name": "GOV Reuse Library",
+  "tagline": "Find and reuse digital service elements - Building public services together, one reusable block at a time",
+  "project_type": "Platform",
+  "org_type": "Government/public sector",
+  "issue_area": [
+    "govtech",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "government digital service teams",
+    "public sector developers",
+    "service designers"
+  ],
+  "political_units": [
+    "federal"
+  ],
+  "open_source": "partial",
+  "github_url": null,
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "platform",
+    "database"
+  ],
+  "founded_year": 2024,
+  "team_size": "small",
+  "funding_model": [
+    "public_funding"
+  ],
+  "known_funders": [
+    "Ministry of Justice"
+  ],
+  "funding_verified": true,
+  "last_funding_event": null,
+  "dependency_risks": [
+    "Reliance on UK government infrastructure and maintenance"
+  ],
+  "news_articles": [],
+  "academic_citations": [
+    {
+      "title": "Municipal wastewater reuse in the U.S.",
+      "year": 2016,
+      "cited_by": 6,
+      "doi": null
+    },
+    {
+      "title": "Government as a Platform",
+      "year": 2011,
+      "cited_by": 480,
+      "doi": "https://doi.org/10.1162/inov_a_00056"
+    },
+    {
+      "title": "Institutional incentives in circular economy transition: The case of material use in the Dutch textile industry",
+      "year": 2016,
+      "cited_by": 368,
+      "doi": "https://doi.org/10.1016/j.jclepro.2016.12.038"
+    }
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": null,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": [
+    "Service explicitly marked as 'new' with request for user feedback"
+  ],
+  "jurisdictional_scope": "United Kingdom",
+  "failure_modes": [],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Content curated by Ministry of Justice; all content available under Open Government Licence v3.0",
+  "contributor_governance": "Centralized curation by Ministry of Justice",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [
+    {
+      "partner": "Ministry of Justice",
+      "nature": "Curator and operator",
+      "country": "United Kingdom"
+    }
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:23.705Z",
+  "pass3_at": "2026-03-09T23:22:16.831Z",
+  "_sources": [
+    "openalex"
+  ]
+}

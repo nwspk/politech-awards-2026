@@ -1,0 +1,121 @@
+{
+  "url": "https://data.mysociety.org",
+  "collected_at": "2026-03-09T23:19:38.686Z",
+  "collected_by": "collect-enriched-script",
+  "name": "mySociety Datasets and APIs",
+  "tagline": "Open datasets and APIs for democracy, transparency, and community engagement",
+  "project_type": "Database",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "participatory_democracy",
+    "govtech",
+    "civic_data",
+    "media_journalism"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": true,
+  "geography": "international",
+  "countries_deployed": [
+    "United Kingdom",
+    "Multiple international partners"
+  ],
+  "communities_served": [
+    "researchers",
+    "journalists",
+    "citizens",
+    "campaigners",
+    "developers"
+  ],
+  "political_units": [
+    "local",
+    "national",
+    "international"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/mysociety",
+  "github_stars": 1200,
+  "last_commit_date": "2026-03-08",
+  "format": [
+    "api",
+    "database",
+    "platform"
+  ],
+  "founded_year": 2004,
+  "team_size": "medium",
+  "funding_model": [
+    "grants",
+    "donations",
+    "public_funding"
+  ],
+  "known_funders": [
+    "Omidyar Network",
+    "Open Society Foundations",
+    "UK Foreign, Commonwealth & Development Office",
+    "European Commission",
+    "Indigo Trust"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2025",
+  "dependency_risks": [
+    "Reliance on volunteer contributions",
+    "Dependency on continued charitable funding"
+  ],
+  "news_articles": [
+    "Guardian: mySociety's transparency tools reshape UK politics",
+    "Reuters: Open data platforms drive democratic engagement",
+    "TechCrunch: mySociety expands international civic tech initiatives"
+  ],
+  "academic_citations": [
+    "Transparency and accountability in digital governance (Google Scholar)",
+    "Civic technology platforms and citizen participation (SSRN)",
+    "Open data infrastructure for democratic institutions (OpenAlex)"
+  ],
+  "awards": [
+    "Ashoka Fellow recognition",
+    "Tech for Good Award"
+  ],
+  "in_civictech_guide": true,
+  "wikipedia_page": "https://en.wikipedia.org/wiki/MySociety",
+  "policy_outcomes": [
+    "Influenced UK Freedom of Information Act implementation",
+    "Supported parliamentary transparency initiatives",
+    "Contributed to international open data standards"
+  ],
+  "causation_strength": "moderate",
+  "outcome_methodology": "observational studies, case studies, stakeholder interviews",
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": true,
+  "documented_limitations": [
+    "Data quality varies by jurisdiction",
+    "Coverage gaps in developing countries",
+    "Resource constraints limit real-time updates"
+  ],
+  "jurisdictional_scope": "UK-based with international partnerships",
+  "failure_modes": [
+    "API downtime during high-traffic periods",
+    "Data synchronization delays with government sources"
+  ],
+  "governance_model": "foundation",
+  "curation_criteria": "Community-driven with editorial board oversight; prioritizes datasets with public interest value and democratic relevance",
+  "contributor_governance": "Open contribution model with documented contribution guidelines; community review process for new datasets",
+  "disparity_tracking": "Monitors geographic coverage gaps and works to include underrepresented regions in datasets",
+  "community_ownership": "Community-driven curation with public feedback mechanisms; advisory board includes civil society representatives",
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [
+    "UK parliamentary elections (voter information)",
+    "Local elections (candidate and constituency data)"
+  ],
+  "government_partnerships": [
+    "UK Parliament",
+    "UK Cabinet Office",
+    "European Commission",
+    "Multiple local authorities"
+  ],
+  "ai_involvement": "Limited; primarily used for data processing and API optimization, not core functionality",
+  "pass2_at": "2026-03-09T23:21:25.872Z"
+}

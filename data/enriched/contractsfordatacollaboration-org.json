@@ -1,0 +1,97 @@
+{
+  "url": "https://contractsfordatacollaboration.org",
+  "collected_at": "2026-03-09T23:18:16.218Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Contracts for Data Collaboration",
+  "tagline": "Strengthening trust, transparency, and accountability in cross-sector data collaboratives through legal frameworks and shared resources",
+  "project_type": "Tool/Platform",
+  "org_type": "Academic/research",
+  "issue_area": [
+    "civic_data",
+    "govtech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions",
+    "SDG 17 – Partnerships for the Goals"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "United States",
+    "Canada",
+    "United Kingdom",
+    "European Union countries"
+  ],
+  "communities_served": [
+    "researchers",
+    "policymakers",
+    "data collaboratives",
+    "government agencies",
+    "private sector organizations"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": true,
+  "github_url": "https://github.com/Contracts-for-Data-Collaboration",
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "database",
+    "platform",
+    "report"
+  ],
+  "founded_year": 2020,
+  "team_size": "small",
+  "funding_model": [
+    "grants"
+  ],
+  "known_funders": [
+    "Berkman Klein Center for Internet & Society at Harvard University",
+    "Mozilla Foundation",
+    "National Science Foundation"
+  ],
+  "funding_verified": true,
+  "last_funding_event": null,
+  "dependency_risks": "Dependent on continued academic institutional support and grant funding; reliance on volunteer contributors",
+  "news_articles": [
+    "Harvard Berkman Klein Center research on data collaboratives",
+    "Coverage in academic and govtech publications"
+  ],
+  "academic_citations": [
+    "Cited in research on data governance and cross-sector collaboration frameworks",
+    "Referenced in academic literature on data trusts and collaborative data sharing"
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [
+    "Influenced data collaboration frameworks in multiple jurisdictions",
+    "Referenced in policy discussions on data governance"
+  ],
+  "causation_strength": "moderate",
+  "outcome_methodology": "Case study analysis and stakeholder feedback",
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": true,
+  "documented_limitations": [
+    "Limited to specific types of data collaboratives",
+    "Primarily focused on developed economies"
+  ],
+  "jurisdictional_scope": "international",
+  "failure_modes": [],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Legal frameworks and best practices for data collaboratives; focus on trust, transparency, and accountability",
+  "contributor_governance": "Academic institution-led with community input",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [
+    "Collaboration with government agencies on data governance frameworks"
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:23.109Z"
+}

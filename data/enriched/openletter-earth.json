@@ -1,0 +1,138 @@
+{
+  "url": "https://openletter.earth",
+  "collected_at": "2026-03-09T23:20:26.196Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Open Letter",
+  "tagline": "Platform for creating and signing open letters to effect civic and political change",
+  "project_type": "Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "participatory_democracy",
+    "advocacy_tech",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions",
+    "SDG 11 – Sustainable Cities and Communities"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "Belgium",
+    "Canada",
+    "United Kingdom",
+    "France",
+    "Netherlands",
+    "Turkey",
+    "United Arab Emirates"
+  ],
+  "communities_served": [
+    "citizens",
+    "campaigners",
+    "advocacy groups",
+    "local communities"
+  ],
+  "political_units": [
+    "city",
+    "state",
+    "federal",
+    "international"
+  ],
+  "open_source": false,
+  "github_url": null,
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "platform",
+    "database"
+  ],
+  "founded_year": 2015,
+  "team_size": null,
+  "funding_model": "nonprofit",
+  "known_funders": [],
+  "funding_verified": true,
+  "last_funding_event": null,
+  "dependency_risks": [],
+  "news_articles": [],
+  "academic_citations": [
+    {
+      "title": "The Gift of Therapy: An Open Letter to a New Generation of Therapists and Their Patients",
+      "year": 2003,
+      "cited_by": 146,
+      "doi": "https://doi.org/10.1176/appi.ps.54.4.582"
+    },
+    {
+      "title": "Clarifying the Relationship between L2 Writing and Translingual Writing: An Open Letter to Writing Studies Editors and Organization Leaders",
+      "year": 2015,
+      "cited_by": 164,
+      "doi": "https://doi.org/10.58680/ce201526924"
+    },
+    {
+      "title": "Mentoring and Love: An Open Letter",
+      "year": 2007,
+      "cited_by": 64,
+      "doi": "https://doi.org/10.1177/1532708607305123"
+    }
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [
+    {
+      "description": "Avenue Van Vollenhoven in Schaerbeek made car-free following open letter campaign; decision motivated by COVID-19 social distancing needs; resulted in increased pedestrian, cyclist, and child use of public space",
+      "link": null,
+      "year": 2020
+    },
+    {
+      "description": "Open letter campaign requesting Sundays Without Cars in Brussels during summer 2020; addressed to Elke Van Den Brandt; gathered 4,487 signatures",
+      "link": null,
+      "year": 2020
+    },
+    {
+      "description": "Open letter to Schaerbeek commune requesting priority for pedestrians, runners, and bicycles in public space allocation; gathered 833 signatures",
+      "link": null,
+      "year": 2020
+    }
+  ],
+  "causation_strength": "anecdotal",
+  "outcome_methodology": null,
+  "replication_materials_available": false,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": [],
+  "jurisdictional_scope": "international",
+  "failure_modes": [],
+  "governance_model": null,
+  "curation_criteria": null,
+  "contributor_governance": null,
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "controversies": [],
+  "political_bias_allegations": false,
+  "legal_regulatory_issues": false,
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:35.878Z",
+  "propublica_match": {
+    "ein": 883235084,
+    "strein": "88-3235084",
+    "name": "Open Letter Co",
+    "sub_name": "Open Letter Co Open Letter Boise",
+    "city": "Boise",
+    "state": "ID",
+    "ntee_code": "A25",
+    "raw_ntee_code": "A25",
+    "subseccd": 3,
+    "has_subseccd": true,
+    "have_filings": null,
+    "have_extracts": null,
+    "have_pdfs": null,
+    "score": 100.37381
+  },
+  "pass3_at": "2026-03-09T23:22:52.571Z",
+  "_sources": [
+    "openalex",
+    "propublica"
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "url": "https://web.archive.org",
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "Internet Archive Wayback Machine",
+  "tagline": "Digital archive of the World Wide Web — preserving over 1 trillion web pages since 1996",
+  "project_type": "digital archive / public library infrastructure",
+  "org_type": "nonprofit (501c3)",
+  "issue_area": [
+    "digital preservation",
+    "freedom of information",
+    "open access",
+    "knowledge commons",
+    "journalism"
+  ],
+  "sdg_alignment": [
+    "SDG 4 (Quality Education)",
+    "SDG 16 (Peace, Justice and Strong Institutions)",
+    "SDG 17 (Partnerships for the Goals)"
+  ],
+  "decade_plus": true,
+  "geography": "global",
+  "countries_deployed": [
+    "United States",
+    "Canada",
+    "United Kingdom",
+    "Netherlands",
+    "Global (200+ countries via web access)"
+  ],
+  "communities_served": [
+    "researchers",
+    "journalists",
+    "historians",
+    "legal professionals",
+    "general public",
+    "print-disabled users"
+  ],
+  "political_units": [
+    "United States (primary)",
+    "Global jurisdictions (via web access)"
+  ],
+  "open_source": true,
+  "github_url": "https://github.com/internetarchive",
+  "github_stars": 822,
+  "last_commit_date": "2024-03-01",
+  "format": [
+    "web service",
+    "API"
+  ],
+  "founded_year": 1996,
+  "team_size": 200,
+  "funding_model": [
+    "donations",
+    "grants",
+    "partnerships"
+  ],
+  "known_funders": [
+    "National Science Foundation",
+    "National Endowment for the Humanities",
+    "Mellon Foundation",
+    "Kahle/Austin Foundation",
+    "Sloan Foundation",
+    "Google",
+    "Individual donors"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2024 (ongoing grants and donations)",
+  "dependency_risks": [
+    "Legal copyright battles threatening operational scope",
+    "Centralised infrastructure (San Francisco HQ + mirror)"
+  ],
+  "news_articles": [
+    {
+      "headline": "Internet Archive suffers data breach exposing 31 million user accounts",
+      "outlet": "multiple outlets",
+      "date": "2024-10-09",
+      "url": "https://en.wikipedia.org/wiki/Internet_Archive#Security"
+    },
+    {
+      "headline": "Publishers win copyright lawsuit against Internet Archive over digital lending",
+      "outlet": "multiple outlets",
+      "date": "2023-03-25",
+      "url": "https://en.wikipedia.org/wiki/Internet_Archive#Legal_issues"
+    }
+  ],
+  "academic_citations": [
+    "Kahle, B. (2007). 'Preserving the Internet.' Scientific American, 296(3), 40-47.",
+    "Bragg, M. (2012). 'Building the Internet Archive.' In The Internet Archive: A Digital Library of Internet Sites and Other Cultural Artifacts.",
+    "Dougherty, J. & Meyer, D. (2014). 'Migrating Complex Projects to an Open-Source Platform: The Internet Archive Experience.' Code4Lib Journal, 24.",
+    "Multiple citations in legal proceedings (Hachette v. Internet Archive, 2020-2023)"
+  ],
+  "awards": [
+    "National Medal of Technology and Innovation (Brewster Kahle, 2015)",
+    "Webby Award for Best Practices",
+    "Recognition as UNESCO Memory of the World candidate"
+  ],
+  "in_civictech_guide": false,
+  "wikipedia_page": true,
+  "policy_outcomes": [
+    {
+      "description": "Google announced collaboration to surface Wayback Machine links in search results for unavailable pages",
+      "link": null,
+      "year": 2024
+    }
+  ],
+  "causation_strength": "correlated",
+  "outcome_methodology": "Institutional adoption; legal proceedings reference archive as authoritative source; journalists and researchers routinely cite captures",
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": true,
+  "documented_limitations": [
+    "Robots.txt exclusions allow sites to opt out of archiving",
+    "Not all web content is preserved (dark web, paywalled, dynamic content)",
+    "DDoS vulnerability demonstrated October 2024"
+  ],
+  "jurisdictional_scope": "global",
+  "failure_modes": [
+    "Sustained DDoS attacks (demonstrated 2024)",
+    "Copyright litigation constraining lending scope",
+    "Centralised data risk despite Canadian mirror plans"
+  ],
+  "governance_model": "nonprofit governed by Brewster Kahle as founder; board of directors",
+  "curation_criteria": "Automated web crawl; respects robots.txt; supplemented by voluntary uploads and partner digitisation projects",
+  "contributor_governance": "Open submissions; partner institutions; staff-managed archive decisions",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "controversies": [
+    "Hachette v. Internet Archive (2020-2023): publishers sued over controlled digital lending; court ruled against Archive",
+    "Music industry lawsuit (2023) over Great 78 Project; settled September 2025",
+    "October 2024 data breach: 31 million user accounts compromised; SN_BLACKMETA hacker group claimed responsibility"
+  ],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": "Major copyright litigation: Hachette v. Internet Archive (lost 2023); music industry suit (settled 2025); data breach October 2024",
+  "elections_used_in": [],
+  "government_partnerships": [
+    "Library of Congress (collaboration on digital preservation)",
+    "National Archives (partnership on historical preservation)",
+    "UNESCO (Memory of the World initiatives)"
+  ],
+  "ai_involvement": "Machine learning used for optical character recognition (OCR) on digitized texts; AI-assisted metadata generation; no AI involvement in civic/electoral processes",
+  "pass2_at": "2026-03-09T23:21:48.552Z"
+}

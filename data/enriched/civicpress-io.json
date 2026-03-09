@@ -1,0 +1,79 @@
+{
+  "url": "https://civicpress.io/",
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "CivicPress",
+  "tagline": "Open infrastructure for transparent local government",
+  "project_type": "Tool/Platform",
+  "org_type": "Grassroots/indie",
+  "issue_area": [
+    "govtech",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16",
+    "SDG 11"
+  ],
+  "decade_plus": false,
+  "geography": "city",
+  "countries_deployed": [
+    "United States"
+  ],
+  "communities_served": [
+    "municipal governments",
+    "local government staff",
+    "citizens seeking public records"
+  ],
+  "political_units": [
+    "city"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/CivicPress/civicpress",
+  "github_stars": 5,
+  "last_commit_date": "2026-02-09",
+  "format": [
+    "platform"
+  ],
+  "founded_year": 2025,
+  "team_size": "solo",
+  "funding_model": [
+    "self-funded"
+  ],
+  "known_funders": [],
+  "funding_verified": false,
+  "last_funding_event": null,
+  "dependency_risks": [
+    "early-stage project with low GitHub activity",
+    "small contributor base"
+  ],
+  "news_articles": [],
+  "academic_citations": [],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": false,
+  "policy_outcomes": [],
+  "causation_strength": "unknown",
+  "outcome_methodology": null,
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": [],
+  "documented_limitations": [
+    "early-stage development",
+    "limited deployment history",
+    "small user base"
+  ],
+  "jurisdictional_scope": "local government",
+  "failure_modes": [],
+  "governance_model": "individual",
+  "curation_criteria": null,
+  "contributor_governance": "open contributions via GitHub",
+  "disparity_tracking": false,
+  "community_ownership": "no",
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": "no",
+  "pass2_at": "2026-03-09T23:21:21.125Z"
+}
