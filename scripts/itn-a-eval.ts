@@ -6,6 +6,7 @@
  *   npx tsx scripts/itn-a-eval.ts --url https://example.com
  *   npx tsx scripts/itn-a-eval.ts --retry-errors
  *   npx tsx scripts/itn-a-eval.ts --model x-ai/grok-3-mini-beta
+ *   npx tsx scripts/itn-a-eval.ts --setup grok --model x-ai/grok-4.1-fast   # v6: write to cache/assessments-grok.json
  */
 
 import fs from "fs";
@@ -19,28 +20,35 @@ import Database from "better-sqlite3";
 
 const DEFAULT_MODEL = "x-ai/grok-4.1-fast";
 const OPENROUTER_API = "https://openrouter.ai/api/v1/chat/completions";
-const ASSESSMENTS_PATH = path.resolve("cache", "assessments.json");
 const CACHE_DB_PATH = path.resolve("cache", "sites.sqlite");
 const CANDIDATES_CSV = path.resolve("candidates.csv");
 
-// Target chars of readable text to pass in per project
-const BODY_CHAR_LIMIT = 3500;
-
-const CALL_DELAY_MS = 600;
-
 // ---------------------------------------------------------------------------
-// Args
+// Args (parsed early so path helpers can use them)
 // ---------------------------------------------------------------------------
 
 const args = process.argv.slice(2);
-const MODEL = getArg("--model") ?? DEFAULT_MODEL;
-const SINGLE_URL = getArg("--url");
-const RETRY_ERRORS = args.includes("--retry-errors");
-
 function getArg(flag: string): string | undefined {
   const idx = args.indexOf(flag);
   return idx !== -1 ? args[idx + 1] : undefined;
 }
+
+// Assessments path: cache/assessments.json by default, or cache/assessments-{setup}.json when --setup NAME is set (v6)
+function getAssessmentsPath(): string {
+  const setup = getArg("--setup");
+  const base = setup ? `assessments-${setup}.json` : "assessments.json";
+  return path.resolve("cache", base);
+}
+const ASSESSMENTS_PATH = getAssessmentsPath();
+
+const MODEL = getArg("--model") ?? DEFAULT_MODEL;
+const SINGLE_URL = getArg("--url");
+const RETRY_ERRORS = args.includes("--retry-errors");
+const CONCURRENCY = parseInt(getArg("--concurrency") ?? "1", 10);
+
+// Target chars of readable text to pass in per project
+const BODY_CHAR_LIMIT = 3500;
+const CALL_DELAY_MS = 600;
 
 // ---------------------------------------------------------------------------
 // Types
@@ -495,8 +503,7 @@ async function main() {
   let projectsDone = 0;
   let totalErrors = 0;
 
-  for (const url of pending) {
-    projectsDone++;
+  async function processUrl(url: string, queueIndex: number): Promise<void> {
     const { text, hadCache } = getCachedEntry(db, url);
     const textPreview = text
       ? `PAGE CONTENT (${text.length} chars extracted):\n---\n${text}\n---`
@@ -510,7 +517,8 @@ ${textPreview}
 
 Complete all steps: evaluator self-check, four lenses with spectrum positioning, felt sense, bucket, key read. Be genuinely reflective in the self-check. If page content is thin or absent, say so in the relevant fields rather than inventing.`;
 
-    console.log(`[${projectsDone}/${pending.length}] ${hostname(url)} ${hadCache ? `(${text.length} chars)` : "(no cache)"}`);
+    const idx = ++projectsDone;
+    console.log(`[${idx}/${pending.length}] ${hostname(url)} ${hadCache ? `(${text.length} chars)` : "(no cache)"}`);
 
     // Initialise entry so we can write partial results immediately
     if (!assessments[url]) {
@@ -539,11 +547,10 @@ Complete all steps: evaluator self-check, four lenses with spectrum positioning,
         process.stdout.write(`${parsed.bucket}\n`);
       } catch (err) {
         const msg = err instanceof Error ? err.message : String(err);
-        // Do NOT persist errors — absent entries auto-retry on next run
         process.stdout.write(`ERROR: ${msg.slice(0, 80)}\n`);
         projectErrors++;
         await sleep(CALL_DELAY_MS);
-        continue; // skip save, don't write partial
+        continue;
       }
 
       // Save after every SUCCESSFUL agent call — live updates
@@ -554,8 +561,20 @@ Complete all steps: evaluator self-check, four lenses with spectrum positioning,
     }
 
     if (projectErrors > 0) totalErrors++;
-    await sleep(400);
   }
+
+  // Worker pool: CONCURRENCY workers drain the pending queue concurrently
+  console.log(`Concurrency: ${CONCURRENCY}\n`);
+  const queue = [...pending];
+  let queueIndex = 0;
+  const workers = Array.from({ length: Math.min(CONCURRENCY, pending.length) }, async () => {
+    while (queue.length > 0) {
+      const url = queue.shift();
+      if (!url) break;
+      await processUrl(url, queueIndex++);
+    }
+  });
+  await Promise.all(workers);
 
   db.close();
 
