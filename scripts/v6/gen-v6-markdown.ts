@@ -1,8 +1,10 @@
 /**
  * Generates readable Markdown summaries of v6 jury deliberations.
- * Output goes to iterations/v6/{jury-name}.md
+ * Output goes to iterations/v6/ (or jury-delegations/ if you move the output).
+ * Reads deliberation JSON from cache/ or, if missing, from iterations/v6/ so it works after clone.
  *
- * Usage: npx tsx scripts/gen-v6-markdown.ts
+ * Usage (from repo root):
+ *   npx tsx scripts/v6/gen-v6-markdown.ts
  */
 
 import fs from "fs";
@@ -10,9 +12,10 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const ROOT = path.resolve(__dirname, "..");
+const ROOT = path.resolve(__dirname, "..", "..");
 const CACHE = path.join(ROOT, "cache");
-const OUT = path.join(ROOT, "iterations", "v6");
+const ITER_V6 = path.join(ROOT, "iterations", "v6");
+const OUT = path.join(ITER_V6, "jury-delegations");
 
 interface Turn {
   agent: string;
@@ -240,13 +243,22 @@ function renderJury(jury: typeof JURIES[0], d: Deliberation): string {
   return lines.join("\n");
 }
 
+/** Resolve path to a deliberation JSON: prefer iterations/v6/, then cache/. */
+function deliberationPath(juryFile: string): string | null {
+  const inIter = path.join(ITER_V6, juryFile);
+  const inCache = path.join(CACHE, juryFile);
+  if (fs.existsSync(inIter)) return inIter;
+  if (fs.existsSync(inCache)) return inCache;
+  return null;
+}
+
 // Main
 fs.mkdirSync(OUT, { recursive: true });
 
 for (const jury of JURIES) {
-  const filePath = path.join(CACHE, jury.file);
-  if (!fs.existsSync(filePath)) {
-    console.log(`Skipping ${jury.name} — file not found`);
+  const filePath = deliberationPath(jury.file);
+  if (!filePath) {
+    console.log(`Skipping ${jury.name} — ${jury.file} not found in iterations/v6/ or cache/`);
     continue;
   }
 
@@ -268,8 +280,8 @@ const indexLines: string[] = [
 ];
 
 for (const jury of JURIES) {
-  const filePath = path.join(CACHE, jury.file);
-  if (!fs.existsSync(filePath)) continue;
+  const filePath = deliberationPath(jury.file);
+  if (!filePath) continue;
   const d: Deliberation = JSON.parse(fs.readFileSync(filePath, "utf8"));
   const w = d.winner;
   indexLines.push(`| ${jury.label} | [${jury.name}.md](./${jury.name}.md) | ${w.display} | ${w.confidence}/100 |`);
