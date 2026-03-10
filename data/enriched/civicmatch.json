@@ -31,7 +31,9 @@
   ],
   "communities_served": [
     "General public",
-    "Constituents"
+    "Constituents",
+    "Changemakers",
+    "Impact project founders"
   ],
   "political_units": [
     "Federal",
@@ -52,5 +54,10 @@
   "disparity_tracking": false,
   "community_ownership": false,
   "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:20.828Z"
+  "pass2_at": "2026-03-09T23:21:20.828Z",
+  "pass5_at": "2026-03-10T00:47:18.751Z",
+  "pass5_jina_words": 99,
+  "pass5_changes": [
+    "communities_served"
+  ]
 }

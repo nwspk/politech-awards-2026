@@ -94,5 +94,8 @@
     "NASA"
   ],
   "ai_involvement": "Supported projects include machine learning and AI tools; NumFOCUS itself does not directly develop AI systems",
-  "pass2_at": "2026-03-09T23:21:36.384Z"
+  "pass2_at": "2026-03-09T23:21:36.384Z",
+  "pass5_at": "2026-03-10T00:59:57.227Z",
+  "pass5_jina_words": 387,
+  "pass5_changes": []
 }

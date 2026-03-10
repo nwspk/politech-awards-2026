@@ -98,5 +98,8 @@
   "political_bias_allegations": false,
   "legal_regulatory_issues": false,
   "ai_involvement": "Research question explicitly exploring training AI systems on participatory community value systems as alternative to internet scraping",
-  "pass2_at": "2026-03-09T23:21:36.638Z"
+  "pass2_at": "2026-03-09T23:21:36.638Z",
+  "pass5_at": "2026-03-10T00:48:50.965Z",
+  "pass5_jina_words": 289,
+  "pass5_changes": []
 }

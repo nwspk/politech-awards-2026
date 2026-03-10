@@ -93,5 +93,8 @@
   "community_ownership": false,
   "political_bias_allegations": false,
   "ai_involvement": "Uses NLP/ML models (grobid, biblio-glutton, spaCy) for citation extraction and parsing",
-  "pass2_at": "2026-03-09T23:21:28.004Z"
+  "pass2_at": "2026-03-09T23:21:28.004Z",
+  "pass5_at": "2026-03-10T00:46:17.530Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": []
 }

@@ -91,5 +91,8 @@
   "curation_criteria": "Worker-submitted ratings and reviews of requesters on Amazon Mechanical Turk; community moderation of contributions",
   "contributor_governance": "Worker-led with platform worker participation",
   "community_ownership": true,
-  "pass2_at": "2026-03-09T23:21:43.769Z"
+  "pass2_at": "2026-03-09T23:21:43.769Z",
+  "pass5_at": "2026-03-10T00:51:49.203Z",
+  "pass5_jina_words": 579,
+  "pass5_changes": []
 }

@@ -62,7 +62,10 @@
   "dependency_risks": "Platform dependency - users rely on Prolific's infrastructure for participant recruitment; potential service disruption risks; data privacy compliance requirements across multiple jurisdictions",
   "news_articles": [
     "Prolific raises Series A funding for research data platform",
-    "How Prolific is changing academic research recruitment"
+    "How Prolific is changing academic research recruitment",
+    "Ai2 reduced human data collection from weeks to hours with Prolific, building state-of-the-art multimodal AI models faster",
+    "Columbia University researchers used Prolific to explore how people make choices when fighting climate change",
+    "The Collective Intelligence Project used Prolific to bring voices from 70+ countries into AI governance"
   ],
   "academic_citations": [
     "Prolific has been cited in numerous peer-reviewed studies on crowdsourcing and research methodology",
@@ -71,9 +74,19 @@
   "in_civictech_guide": false,
   "policy_outcomes": [
     {
-      "description": "Collective Intelligence Project used Prolific to bring voices from 70+ countries into AI governance discussions",
-      "link": null,
+      "description": "Collective Intelligence Project used Prolific to bring voices from 70+ countries into the heart of AI governance",
+      "link": "https://www.prolific.com/resources/how-the-collective-intelligence-project-is-democratizing-ai-development-with-global-human-perspectives",
       "year": 2023
+    },
+    {
+      "description": "Ai2 reduced human data collection from weeks to hours with Prolific, accelerating factuality testing by 10x for state-of-the-art multimodal AI models",
+      "link": "https://www.prolific.com/resources/how-a-leading-ai-company-accelerated-factuality-testing-by-10x-with-prolific",
+      "year": null
+    },
+    {
+      "description": "Columbia University researchers used Prolific to explore how people make choices when fighting climate change, redefining environmental decision-making",
+      "link": "https://www.prolific.com/resources/how-columbia-university-researchers-are-redefining-environmental-decision-making-with-prolific",
+      "year": null
     }
   ],
   "causation_strength": "anecdotal",
@@ -98,5 +111,11 @@
   "community_ownership": false,
   "legal_regulatory_issues": "Subject to GDPR, CCPA, and other data privacy regulations; must comply with research ethics requirements across jurisdictions",
   "ai_involvement": "Prolific is used for AI training, evaluation, safety testing, and data annotation; the platform itself supports AI development workflows",
-  "pass2_at": "2026-03-09T23:21:51.177Z"
+  "pass2_at": "2026-03-09T23:21:51.177Z",
+  "pass5_at": "2026-03-10T01:00:23.817Z",
+  "pass5_jina_words": 421,
+  "pass5_changes": [
+    "news_articles",
+    "policy_outcomes"
+  ]
 }

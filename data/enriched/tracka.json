@@ -89,6 +89,41 @@
   "in_civictech_guide": true,
   "policy_outcomes": [
     {
+      "description": "Primary Health Centre fence and staff quarters in Ningo, Akwanga LGA, Nasarawa State completed after 7+ years of abandonment following Tracka tracking and reporting",
+      "link": null,
+      "year": null
+    },
+    {
+      "description": "Functional borehole and two solar street lights installed in Ampekrom, Nkawkaw, Eastern region after 40 years without clean water access",
+      "link": null,
+      "year": null
+    },
+    {
+      "description": "Hospital completed and fully equipped in Ungwan Uku, FCT following community engagement and accountability demands facilitated by Tracka",
+      "link": null,
+      "year": null
+    },
+    {
+      "description": "Long-abandoned Magami-Kwajale-Ningi road in Plateau State work commenced following 2024 town hall and petitions to ICPC",
+      "link": null,
+      "year": 2024
+    },
+    {
+      "description": "New classrooms and additional teachers provided in Kwangwaro and Kwaire following advocacy efforts",
+      "link": null,
+      "year": null
+    },
+    {
+      "description": "Shirgiya clinic made functional, Kafin Lemo school and PHC renovated, new school blocks built in Sangara, health centre completed in Agwarmaje",
+      "link": null,
+      "year": null
+    },
+    {
+      "description": "New hospital underway in Bingin Diwa and three boreholes providing clean water installed",
+      "link": null,
+      "year": null
+    },
+    {
       "description": "Project monitoring and community feedback leading to improved project implementation across Nigerian states",
       "link": null,
       "year": null
@@ -121,5 +156,10 @@
   "pass3_at": "2026-03-09T23:23:33.569Z",
   "_sources": [
     "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:57:55.726Z",
+  "pass5_jina_words": 801,
+  "pass5_changes": [
+    "policy_outcomes"
   ]
 }

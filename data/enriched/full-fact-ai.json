@@ -106,5 +106,8 @@
   ],
   "government_partnerships": "Partnerships with government fact-checking units and election monitoring bodies in multiple countries",
   "ai_involvement": "Machine learning and artificial intelligence core to tool functionality for claim identification and monitoring",
-  "pass2_at": "2026-03-09T23:21:30.611Z"
+  "pass2_at": "2026-03-09T23:21:30.611Z",
+  "pass5_at": "2026-03-10T00:46:15.740Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": []
 }

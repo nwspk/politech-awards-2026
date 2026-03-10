@@ -116,5 +116,8 @@
     "Various government agencies use Wikidata for open data initiatives"
   ],
   "ai_involvement": "Used as training data and knowledge source for AI/machine learning systems; integrated with natural language processing and knowledge graph applications",
-  "pass2_at": "2026-03-09T23:21:53.755Z"
+  "pass2_at": "2026-03-09T23:21:53.755Z",
+  "pass5_at": "2026-03-10T00:57:13.997Z",
+  "pass5_jina_words": 354,
+  "pass5_changes": []
 }

@@ -145,5 +145,8 @@
     }
   ],
   "ai_involvement": "Core technology: convolutional neural networks for object detection, semantic segmentation, and image classification trained on synthetic data",
-  "pass2_at": "2026-03-09T23:21:48.472Z"
+  "pass2_at": "2026-03-09T23:21:48.472Z",
+  "pass5_at": "2026-03-10T00:52:04.452Z",
+  "pass5_jina_words": 420,
+  "pass5_changes": []
 }

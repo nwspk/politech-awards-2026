@@ -80,5 +80,8 @@
   "curation_criteria": "Content reviewed by community members and core team; focus on practical, evidence-based activism strategies",
   "contributor_governance": "open_contribution",
   "community_ownership": true,
-  "pass2_at": "2026-03-09T23:21:23.254Z"
+  "pass2_at": "2026-03-09T23:21:23.254Z",
+  "pass5_at": "2026-03-10T00:41:05.382Z",
+  "pass5_jina_words": 617,
+  "pass5_changes": []
 }

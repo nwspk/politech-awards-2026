@@ -122,5 +122,8 @@
     "Concerns about AI moderation bias affecting non-English language communities"
   ],
   "ai_involvement": "Uses AI for comment moderation",
-  "pass2_at": "2026-03-09T23:21:23.873Z"
+  "pass2_at": "2026-03-09T23:21:23.873Z",
+  "pass5_at": "2026-03-10T00:44:52.092Z",
+  "pass5_jina_words": 399,
+  "pass5_changes": []
 }

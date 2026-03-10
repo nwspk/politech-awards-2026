@@ -91,5 +91,8 @@
   "disparity_tracking": false,
   "community_ownership": false,
   "ai_involvement": true,
-  "pass2_at": "2026-03-09T23:21:32.084Z"
+  "pass2_at": "2026-03-09T23:21:32.084Z",
+  "pass5_at": "2026-03-10T00:46:27.464Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": []
 }

@@ -97,5 +97,17 @@
   "pass3_at": "2026-03-09T23:22:43.594Z",
   "_sources": [
     "openalex"
+  ],
+  "policy_outcomes": [
+    "Community governance frameworks for self-organising groups",
+    "Corruption-resistant public registries for votes, land, licenses, and trade agreements",
+    "Private financial networks for secure cross-border transactions",
+    "Decentralised archives for censorship-resistant knowledge preservation",
+    "Secure communications infrastructure for coordination in hostile environments"
+  ],
+  "pass5_at": "2026-03-10T00:47:48.734Z",
+  "pass5_jina_words": 427,
+  "pass5_changes": [
+    "policy_outcomes"
   ]
 }

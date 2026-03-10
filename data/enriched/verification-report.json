@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-10T00:29:34.929Z",
+  "generated_at": "2026-03-10T01:06:00.702Z",
   "total_files": 321,
   "clean": [
     {
@@ -989,7 +989,6 @@
       "nullFields": [
         "known_funders",
         "news_articles",
-        "policy_outcomes",
         "causation_strength",
         "failure_modes",
         "elections_used_in"
@@ -1188,7 +1187,6 @@
       "flags": [],
       "nullFields": [
         "known_funders",
-        "policy_outcomes",
         "elections_used_in"
       ],
       "passLevel": 2
@@ -1219,7 +1217,6 @@
       "nullFields": [
         "known_funders",
         "news_articles",
-        "policy_outcomes",
         "causation_strength",
         "documented_limitations",
         "failure_modes",
@@ -1506,13 +1503,21 @@
       "passLevel": 3
     },
     {
+      "file": "prolific.json",
+      "name": "Prolific",
+      "url": "https://www.prolific.com",
+      "flags": [],
+      "nullFields": [
+        "elections_used_in"
+      ],
+      "passLevel": 2
+    },
+    {
       "file": "public-ai-inference-utility.json",
       "name": "Public AI Inference Utility",
       "url": "https://publicai.co/",
       "flags": [],
       "nullFields": [
-        "news_articles",
-        "policy_outcomes",
         "causation_strength",
         "failure_modes",
         "elections_used_in"
@@ -1923,7 +1928,6 @@
       "flags": [],
       "nullFields": [
         "known_funders",
-        "policy_outcomes",
         "causation_strength",
         "elections_used_in"
       ],
@@ -2169,8 +2173,8 @@
   ],
   "summary": {
     "errors": 0,
-    "warnings": 81,
-    "clean": 172,
+    "warnings": 82,
+    "clean": 173,
     "by_pass_level": [
       {
         "level": 0,
@@ -2192,7 +2196,7 @@
     "flag_counts": {
       "DECADE_PLUS_INCONSISTENT": 5,
       "DEAD_LINK_HAS_DATA": 20,
-      "INVALID_ENUM": 100,
+      "INVALID_ENUM": 101,
       "THIN_HOMEPAGE": 47,
       "OUTCOME_NO_LINK": 35,
       "MODERATE_NULL_COUNT": 6,
@@ -2202,12 +2206,12 @@
     },
     "top_null_fields": {
       "elections_used_in": 294,
-      "policy_outcomes": 192,
+      "policy_outcomes": 184,
       "causation_strength": 150,
       "failure_modes": 124,
-      "news_articles": 118,
+      "news_articles": 116,
       "documented_limitations": 82,
-      "known_funders": 73,
+      "known_funders": 72,
       "ai_involvement": 37,
       "team_size": 35,
       "founded_year": 28,
@@ -3402,6 +3406,11 @@
       "url": "https://dunadyne.org",
       "flags": [
         {
+          "level": "warn",
+          "code": "INVALID_ENUM",
+          "message": "governance_model: \"Decentralized Unincorporated Nonprofit Association (DUNA)\" not in allowed values (foundation · LLC · cooperative · project_of_larger_org · individual)"
+        },
+        {
           "level": "info",
           "code": "THIN_HOMEPAGE",
           "message": "homepage_word_count=16 — very thin page, LLM data may be unreliable"
@@ -4330,7 +4339,6 @@
         }
       ],
       "nullFields": [
-        "policy_outcomes",
         "causation_strength",
         "failure_modes",
         "elections_used_in"
@@ -4465,7 +4473,6 @@
       "nullFields": [
         "known_funders",
         "news_articles",
-        "policy_outcomes",
         "causation_strength",
         "failure_modes",
         "elections_used_in"
@@ -4762,12 +4769,15 @@
           "level": "warn",
           "code": "INVALID_ENUM",
           "message": "open_source: \"unknown\" not in allowed values (yes · no · partial)"
+        },
+        {
+          "level": "info",
+          "code": "OUTCOME_NO_LINK",
+          "message": "5 policy_outcome(s) have no evidence link"
         }
       ],
       "nullFields": [
         "known_funders",
-        "news_articles",
-        "policy_outcomes",
         "causation_strength"
       ],
       "passLevel": 3
@@ -5041,7 +5051,6 @@
       "flags": [],
       "nullFields": [
         "known_funders",
-        "policy_outcomes",
         "elections_used_in"
       ],
       "passLevel": 2
@@ -5130,7 +5139,6 @@
       "nullFields": [
         "known_funders",
         "news_articles",
-        "policy_outcomes",
         "causation_strength",
         "documented_limitations",
         "failure_modes",
@@ -5562,7 +5570,6 @@
       ],
       "nullFields": [
         "team_size",
-        "policy_outcomes",
         "causation_strength",
         "documented_limitations",
         "failure_modes",
@@ -6026,13 +6033,7 @@
       "file": "prolific.json",
       "name": "Prolific",
       "url": "https://www.prolific.com",
-      "flags": [
-        {
-          "level": "info",
-          "code": "OUTCOME_NO_LINK",
-          "message": "1 policy_outcome(s) have no evidence link"
-        }
-      ],
+      "flags": [],
       "nullFields": [
         "elections_used_in"
       ],
@@ -6044,8 +6045,6 @@
       "url": "https://publicai.co/",
       "flags": [],
       "nullFields": [
-        "news_articles",
-        "policy_outcomes",
         "causation_strength",
         "failure_modes",
         "elections_used_in"
@@ -6315,12 +6314,12 @@
         {
           "level": "warn",
           "code": "INVALID_ENUM",
-          "message": "governance_model: \"Community-driven collaborative governance\" not in allowed values (foundation · LLC · cooperative · project_of_larger_org · individual)"
+          "message": "governance_model: \"Community-driven collaborative governance with W3C community process\" not in allowed values (foundation · LLC · cooperative · project_of_larger_org · individual)"
         },
         {
           "level": "info",
           "code": "MODERATE_NULL_COUNT",
-          "message": "13/22 core fields are null/empty"
+          "message": "12/22 core fields are null/empty"
         }
       ],
       "nullFields": [
@@ -6328,7 +6327,6 @@
         "countries_deployed",
         "team_size",
         "funding_model",
-        "known_funders",
         "funding_verified",
         "news_articles",
         "policy_outcomes",
@@ -6820,7 +6818,6 @@
       "flags": [],
       "nullFields": [
         "known_funders",
-        "policy_outcomes",
         "causation_strength",
         "elections_used_in"
       ],
@@ -6886,7 +6883,7 @@
         {
           "level": "info",
           "code": "OUTCOME_NO_LINK",
-          "message": "1 policy_outcome(s) have no evidence link"
+          "message": "8 policy_outcome(s) have no evidence link"
         }
       ],
       "nullFields": [

@@ -87,5 +87,8 @@
     "Local government authorities in UK"
   ],
   "ai_involvement": "AI-powered platform with real-time transcription in 100+ languages, automatic anonymization, translation, theme clustering, custom tagging, and interactive visualization",
-  "pass2_at": "2026-03-09T23:21:47.268Z"
+  "pass2_at": "2026-03-09T23:21:47.268Z",
+  "pass5_at": "2026-03-10T00:54:19.240Z",
+  "pass5_jina_words": 479,
+  "pass5_changes": []
 }

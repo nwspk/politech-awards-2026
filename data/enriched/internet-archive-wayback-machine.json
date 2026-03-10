@@ -145,5 +145,8 @@
     "UNESCO (Memory of the World initiatives)"
   ],
   "ai_involvement": "Machine learning used for optical character recognition (OCR) on digitized texts; AI-assisted metadata generation; no AI involvement in civic/electoral processes",
-  "pass2_at": "2026-03-09T23:21:48.552Z"
+  "pass2_at": "2026-03-09T23:21:48.552Z",
+  "pass5_at": "2026-03-10T00:52:18.153Z",
+  "pass5_jina_words": 58,
+  "pass5_changes": []
 }

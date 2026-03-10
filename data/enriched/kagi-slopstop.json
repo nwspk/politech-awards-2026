@@ -120,5 +120,8 @@
     "Concerns about transparency of AI detection methodology and potential false positives affecting legitimate content"
   ],
   "ai_involvement": "Central to the tool: Kagi uses AI-based detection to identify AI-generated content, combined with crowdsourced user reports. Blog states they are 'using AI to destroy AI slop'. Dataset of flagged AI-slop domains intended to train future detection models and will eventually be shared publicly.",
-  "pass2_at": "2026-03-09T23:21:25.792Z"
+  "pass2_at": "2026-03-09T23:21:25.792Z",
+  "pass5_at": "2026-03-10T00:42:13.014Z",
+  "pass5_jina_words": 831,
+  "pass5_changes": []
 }

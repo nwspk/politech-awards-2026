@@ -68,5 +68,8 @@
   "contributor_governance": "Managed through Metagov organizational structure with academic institutional governance",
   "community_ownership": false,
   "ai_involvement": "AI alignment researchers are listed as primary community served; platform designed to support AI governance research",
-  "pass2_at": "2026-03-09T23:21:34.508Z"
+  "pass2_at": "2026-03-09T23:21:34.508Z",
+  "pass5_at": "2026-03-10T01:00:18.197Z",
+  "pass5_jina_words": 176,
+  "pass5_changes": []
 }

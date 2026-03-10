@@ -125,5 +125,8 @@
     }
   ],
   "ai_involvement": "No AI/machine learning components; rule-based system for civil registration and vital statistics",
-  "pass2_at": "2026-03-09T23:21:50.866Z"
+  "pass2_at": "2026-03-09T23:21:50.866Z",
+  "pass5_at": "2026-03-10T00:55:31.129Z",
+  "pass5_jina_words": 239,
+  "pass5_changes": []
 }

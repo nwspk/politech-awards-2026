@@ -104,5 +104,8 @@
   "contributor_governance": "Open-source contribution guidelines; community voting on features",
   "community_ownership": "Partial; communities operate on Discourse infrastructure but lack ownership of platform code",
   "ai_involvement": "AI-assisted community management features mentioned but not detailed",
-  "pass2_at": "2026-03-09T23:21:46.976Z"
+  "pass2_at": "2026-03-09T23:21:46.976Z",
+  "pass5_at": "2026-03-10T00:54:28.511Z",
+  "pass5_jina_words": 550,
+  "pass5_changes": []
 }

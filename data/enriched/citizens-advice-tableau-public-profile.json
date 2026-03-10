@@ -13,7 +13,7 @@
   "collected_at": "2026-03-09T23:20:29.909Z",
   "collected_by": "collect-enriched-script",
   "name": "Citizens Advice Tableau Public Profile",
-  "tagline": "Data visualizations and dashboards from Citizens Advice organization",
+  "tagline": "Data visualizations and dashboards tracking advice issues, consumer trends, and client demographics across the United Kingdom",
   "project_type": "Database",
   "org_type": "Nonprofit/charity",
   "issue_area": [
@@ -87,5 +87,10 @@
   "pass3_at": "2026-03-09T23:22:58.712Z",
   "_sources": [
     "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:51:36.126Z",
+  "pass5_jina_words": 228,
+  "pass5_changes": [
+    "tagline"
   ]
 }

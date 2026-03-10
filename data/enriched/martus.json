@@ -137,5 +137,8 @@
   "contributor_governance": "managed by Benetech",
   "community_ownership": false,
   "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:47.052Z"
+  "pass2_at": "2026-03-09T23:21:47.052Z",
+  "pass5_at": "2026-03-10T00:56:31.379Z",
+  "pass5_jina_words": 781,
+  "pass5_changes": []
 }

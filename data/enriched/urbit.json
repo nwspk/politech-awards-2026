@@ -88,5 +88,8 @@
   "contributor_governance": "Open-source contribution model with Tlon Corporation oversight",
   "community_ownership": "Limited - primarily controlled by Tlon Corporation",
   "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:44.662Z"
+  "pass2_at": "2026-03-09T23:21:44.662Z",
+  "pass5_at": "2026-03-10T00:52:01.258Z",
+  "pass5_jina_words": 756,
+  "pass5_changes": []
 }

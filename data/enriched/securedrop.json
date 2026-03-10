@@ -113,5 +113,8 @@
   "political_bias_allegations": false,
   "legal_regulatory_issues": "Potential legal challenges in authoritarian jurisdictions; legal support provided by Freedom of the Press Foundation",
   "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:41.978Z"
+  "pass2_at": "2026-03-09T23:21:41.978Z",
+  "pass5_at": "2026-03-10T00:51:30.208Z",
+  "pass5_jina_words": 485,
+  "pass5_changes": []
 }

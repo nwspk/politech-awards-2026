@@ -58,7 +58,9 @@
     "Slack dependency for core community infrastructure"
   ],
   "news_articles": [
-    "Tech workers organize for climate action (various tech publications, 2018-2024)"
+    "Tech workers organize for climate action (various tech publications, 2018-2024)",
+    "Climate Solutions at Work - Drawdown",
+    "How to Be a Responsible Member of the Interwebs - Sierra Club"
   ],
   "academic_citations": [
     {
@@ -112,5 +114,10 @@
     "homepage_has_impact_metrics": false,
     "scraped_description": "The climate crisis is happening all around us. As tech workers, we can use our skills to take and accelerate climate action.",
     "scraped_final_url": "https://climateaction.tech/"
-  }
+  },
+  "pass5_at": "2026-03-10T00:47:22.238Z",
+  "pass5_jina_words": 463,
+  "pass5_changes": [
+    "news_articles"
+  ]
 }

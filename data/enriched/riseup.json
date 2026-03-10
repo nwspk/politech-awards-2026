@@ -88,5 +88,8 @@
   ],
   "legal_regulatory_issues": "Subject to government surveillance requests and legal challenges in multiple jurisdictions; history of law enforcement action",
   "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:40.666Z"
+  "pass2_at": "2026-03-09T23:21:40.666Z",
+  "pass5_at": "2026-03-10T00:51:22.406Z",
+  "pass5_jina_words": 626,
+  "pass5_changes": []
 }

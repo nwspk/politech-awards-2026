@@ -28,7 +28,9 @@
   "decade_plus": false,
   "geography": "national",
   "countries_deployed": [
-    "United States"
+    "United Kingdom",
+    "United States",
+    "International"
   ],
   "communities_served": [
     "labor organizers",
@@ -51,7 +53,8 @@
   "team_size": "small",
   "funding_model": [
     "donations",
-    "grants"
+    "grants",
+    "merchandise sales"
   ],
   "known_funders": [
     "Grassroots Collaborative",
@@ -88,6 +91,8 @@
   ],
   "in_civictech_guide": false,
   "documented_limitations": [
+    "Does not claim to be an official account of all action across the country",
+    "Does not represent all collective action and different tactics of disruption",
     "Data completeness depends on community reporting",
     "Geographic coverage may be uneven"
   ],
@@ -102,5 +107,12 @@
   "pass3_at": "2026-03-09T23:23:11.989Z",
   "_sources": [
     "openalex"
+  ],
+  "pass5_at": "2026-03-10T01:00:23.591Z",
+  "pass5_jina_words": 184,
+  "pass5_changes": [
+    "countries_deployed",
+    "funding_model",
+    "documented_limitations"
   ]
 }

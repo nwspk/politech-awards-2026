@@ -3,7 +3,7 @@
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "openparliament.ca",
-  "tagline": "Keeping tabs on Canada's Parliament — making it easy to follow your MPs, bills, debates, and committees.",
+  "tagline": "Making it easy to find out what your representatives in Ottawa are up to — see what they're saying, what laws they're proposing, and track parliamentary debates and bills.",
   "project_type": "Tool/Platform",
   "org_type": "Grassroots/indie",
   "issue_area": [
@@ -65,7 +65,8 @@
   "preregistered_studies": [],
   "published_performance_metrics": null,
   "documented_limitations": [
-    "site noted as less comprehensive than Parliament's own site for most users now"
+    "site noted as less comprehensive than Parliament's own site for most users now",
+    "AI-generated summaries of Hansard debates may contain inaccuracies or fabrications"
   ],
   "jurisdictional_scope": "national",
   "failure_modes": [
@@ -73,7 +74,7 @@
     "scraping fragility if Parliament changes site structure"
   ],
   "governance_model": "individual",
-  "curation_criteria": "Automated scraping and indexing of official House of Commons data; user-contributed MP tracking features",
+  "curation_criteria": "Automated scraping and indexing of official House of Commons data; user-contributed MP tracking features; computer-generated summaries of parliamentary debates",
   "contributor_governance": "ad hoc; issues and PRs via GitHub",
   "disparity_tracking": null,
   "community_ownership": false,
@@ -82,7 +83,7 @@
   "legal_regulatory_issues": null,
   "elections_used_in": [],
   "government_partnerships": [],
-  "ai_involvement": "AI-generated summaries of Hansard debates (labelled with warning on site)",
+  "ai_involvement": "AI-generated summaries of Hansard debates (labelled with warning on site noting that summaries are computer-generated and may contain inaccuracies or total fabrications)",
   "pass2_at": "2026-03-09T23:21:36.301Z",
   "scraped": {
     "homepage_last_scraped": "2026-02-09T12:45:32.772Z",
@@ -93,5 +94,13 @@
     "homepage_has_impact_metrics": false,
     "scraped_description": "Info on what your representatives are doing in Ottawa can be hard to find and use. We",
     "scraped_final_url": "https://openparliament.ca/"
-  }
+  },
+  "pass5_at": "2026-03-10T01:00:22.895Z",
+  "pass5_jina_words": 505,
+  "pass5_changes": [
+    "tagline",
+    "documented_limitations",
+    "curation_criteria",
+    "ai_involvement"
+  ]
 }

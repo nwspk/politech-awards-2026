@@ -67,5 +67,8 @@
   "policy_outcomes": [],
   "causation_strength": "anecdotal",
   "news_articles": [],
-  "pass2_at": "2026-03-10T00:27:56.725Z"
+  "pass2_at": "2026-03-10T00:27:56.725Z",
+  "pass5_at": "2026-03-10T00:47:51.911Z",
+  "pass5_jina_words": 58,
+  "pass5_changes": []
 }

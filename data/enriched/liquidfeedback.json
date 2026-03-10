@@ -161,5 +161,8 @@
     }
   ],
   "ai_involvement": "No AI or machine learning components documented; system relies on algorithmic voting and delegation mechanisms but not artificial intelligence",
-  "pass2_at": "2026-03-09T23:21:38.444Z"
+  "pass2_at": "2026-03-09T23:21:38.444Z",
+  "pass5_at": "2026-03-10T00:46:31.424Z",
+  "pass5_jina_words": 552,
+  "pass5_changes": []
 }

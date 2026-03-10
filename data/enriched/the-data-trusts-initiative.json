@@ -109,5 +109,8 @@
     }
   ],
   "ai_involvement": "Limited; focus is on data governance and legal frameworks rather than AI systems, though AI governance is contextually relevant",
-  "pass2_at": "2026-03-09T23:21:25.755Z"
+  "pass2_at": "2026-03-09T23:21:25.755Z",
+  "pass5_at": "2026-03-10T00:45:43.545Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": []
 }

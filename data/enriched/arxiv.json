@@ -104,5 +104,8 @@
     "Cornell University (host institution)"
   ],
   "ai_involvement": "arXiv uses machine learning for paper classification and recommendation systems; AI-assisted moderation tools under development",
-  "pass2_at": "2026-03-09T23:21:25.763Z"
+  "pass2_at": "2026-03-09T23:21:25.763Z",
+  "pass5_at": "2026-03-10T00:42:02.256Z",
+  "pass5_jina_words": 278,
+  "pass5_changes": []
 }

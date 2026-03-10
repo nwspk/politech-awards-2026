@@ -109,5 +109,8 @@
   "political_bias_allegations": "Allegations of left-leaning user base and moderation bias from conservative users (2023-2024)",
   "legal_regulatory_issues": "Subject to EU Digital Services Act compliance; ongoing regulatory scrutiny of content moderation practices",
   "ai_involvement": "Machine learning used for content recommendation and moderation assistance; algorithmic feed personalization",
-  "pass2_at": "2026-03-09T23:21:23.762Z"
+  "pass2_at": "2026-03-09T23:21:23.762Z",
+  "pass5_at": "2026-03-10T00:47:21.751Z",
+  "pass5_jina_words": 266,
+  "pass5_changes": []
 }

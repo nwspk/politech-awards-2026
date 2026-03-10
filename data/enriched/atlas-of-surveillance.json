@@ -93,5 +93,8 @@
   "disparity_tracking": "Tracks disparities in surveillance technology deployment across jurisdictions by demographics and geography",
   "community_ownership": "Community-contributed data with EFF institutional oversight",
   "ai_involvement": "No direct AI involvement; database used to analyze AI-enabled surveillance systems",
-  "pass2_at": "2026-03-09T23:21:23.795Z"
+  "pass2_at": "2026-03-09T23:21:23.795Z",
+  "pass5_at": "2026-03-10T00:47:21.323Z",
+  "pass5_jina_words": 298,
+  "pass5_changes": []
 }

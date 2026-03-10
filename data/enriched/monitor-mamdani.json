@@ -102,5 +102,87 @@
   "pass3_at": "2026-03-09T23:22:46.601Z",
   "_sources": [
     "openalex"
+  ],
+  "news_articles": [
+    {
+      "title": "Zohran Mamdani's Full Victory Speech, November 4th, 2025",
+      "source": "YouTube",
+      "date": "2025-11-04",
+      "url": "https://www.youtube.com/watch?v=5cG4WD8uEwE",
+      "summary": "Zohran Mamdani's victory speech following his historic election as NYC Mayor on November 4th, 2025"
+    },
+    {
+      "title": "Zohran Mamdani wins New York City mayoral election | CNN Politics",
+      "source": "CNN",
+      "date": "2025-11-04",
+      "url": "https://www.cnn.com/2025/11/04/politics/nyc-mayor-zohran-mamdani-wins",
+      "summary": "Zohran Mamdani, the 34-year-old democratic socialist whose focus on working-class issues and personal magnetism attracted a diverse coalition, wins NYC mayoral election"
+    },
+    {
+      "title": "Zohran Mamdani wins NYC mayoral election after energizing young voters",
+      "source": "CBS News",
+      "date": "2025-11-04",
+      "url": "https://www.cbsnews.com/newyork/news/mamdani-wins-nyc-mayoral-election-2025/",
+      "summary": "Zohran Mamdani, a 34-year-old democratic socialist state assemblyman from Queens, becomes New York City's 111th mayor"
+    },
+    {
+      "title": "Zohran Mamdani Wins NYC Mayoral Election 2025 in Historic Victory",
+      "source": "Vanity Fair",
+      "date": "2025-11-04",
+      "url": "https://www.vanityfair.com/news/story/zohran-mamdani-wins-nyc-mayoral-election-2025",
+      "summary": "The 34-year-old democratic socialist ran a Gen Z–fueled campaign aiming to make the city more affordable and equitable for all"
+    },
+    {
+      "title": "Zohran Mamdani wins New York City mayor's race - CNBC",
+      "source": "CNBC",
+      "date": "2025-11-04",
+      "url": "https://www.cnbc.com/2025/11/04/nyc-mayoral-race-mamdani-cuomo-sliwa.html",
+      "summary": "Zohran Mamdani defeats Andrew Cuomo (independent) and Republican nominee Curtis Sliwa in NYC mayoral race"
+    },
+    {
+      "title": "Zohran Mamdani wins 2025 NYC mayoral election - NY Post",
+      "source": "NY Post",
+      "date": "2025-11-04",
+      "url": "https://nypost.com/2025/11/04/us-news/zohran-mamdani-wins-2025-nyc-mayoral-election/",
+      "summary": "The Uganda-born Mamdani becomes the Big Apple's first Muslim and first socialist mayor, as well as one of the youngest"
+    }
+  ],
+  "policy_outcomes": [
+    {
+      "promise": "Freeze the rent",
+      "category": "Housing & Rent",
+      "status": "IN PROGRESS",
+      "prediction_market_odds": "54% YES (Will Mamdani freeze NYC rents before 2027?)"
+    },
+    {
+      "promise": "Make NYC buses free",
+      "category": "Free Transit",
+      "status": "IN PROGRESS",
+      "prediction_market_odds": "2% YES (Will Mamdani make NYC buses free by March 31?)"
+    },
+    {
+      "promise": "Pass the 2% Millionaire Tax",
+      "category": "Taxation",
+      "status": "IN PROGRESS",
+      "prediction_market_odds": "14% YES (Will Mamdani pass the 2% Millionaire Tax before 2027?)"
+    },
+    {
+      "promise": "Raise the minimum wage to $30",
+      "category": "Workers Rights",
+      "status": "IN PROGRESS",
+      "prediction_market_odds": "11% YES (Will Mamdani raise the minimum wage to $30 before 2027?)"
+    },
+    {
+      "promise": "Raise corporate taxes",
+      "category": "Taxation",
+      "status": "IN PROGRESS",
+      "prediction_market_odds": "16% YES (Will Mamdani raise corporate taxes before 2027?)"
+    }
+  ],
+  "pass5_at": "2026-03-10T00:48:02.542Z",
+  "pass5_jina_words": 664,
+  "pass5_changes": [
+    "news_articles",
+    "policy_outcomes"
   ]
 }

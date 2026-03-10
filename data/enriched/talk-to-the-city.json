@@ -13,7 +13,7 @@
   "collected_at": "2026-03-09T23:20:37.370Z",
   "collected_by": "collect-enriched-script",
   "name": "Talk to the City",
-  "tagline": "AI-powered platform for analyzing and visualizing large-scale public input and deliberation",
+  "tagline": "Open-source LLM survey tool to improve collective discourse and decision-making by analyzing qualitative responses and generating easy-to-navigate reports",
   "project_type": "Tool/Platform",
   "org_type": "Academic/research",
   "issue_area": [
@@ -28,6 +28,7 @@
   "geography": "international",
   "countries_deployed": [
     "United States",
+    "Taiwan",
     "United Kingdom",
     "Canada",
     "Australia"
@@ -36,7 +37,9 @@
     "researchers",
     "citizens",
     "policymakers",
-    "civic organizations"
+    "civic organizations",
+    "peacebuilders",
+    "mediators"
   ],
   "political_units": [
     "international"
@@ -64,6 +67,8 @@
     "Dependency on AI Objectives Institute"
   ],
   "news_articles": [
+    "https://ai.objectives.institute/blog/using-ai-to-give-people-a-voice-a-case-study-in-michigan",
+    "https://ai.objectives.institute/blog/amplifying-voices-talk-to-the-city-in-taiwan",
     "https://www.wired.com/story/talk-to-the-city-ai-democracy/",
     "https://www.theguardian.com/technology/2024/talk-to-the-city"
   ],
@@ -77,7 +82,10 @@
   "in_civictech_guide": true,
   "policy_outcomes": [
     "Used in participatory budgeting processes",
-    "Adopted by municipal governments for public consultation"
+    "Adopted by municipal governments for public consultation",
+    "Used by Taiwan AI Assembly for deliberation workshops analyzing 2,000+ opinions from 400 participants",
+    "Deployed by Silent Cry non-profit to explore reentry challenges for formerly incarcerated people",
+    "Used in 2024 Deliberative Technology in Polarized Contexts workshop at Notre Dame University with peacebuilders and mediators"
   ],
   "causation_strength": "correlated",
   "outcome_methodology": "case study analysis",
@@ -99,8 +107,19 @@
   "disparity_tracking": false,
   "community_ownership": false,
   "government_partnerships": [
-    "Municipal government partnerships for participatory budgeting"
+    "Municipal government partnerships for participatory budgeting",
+    "Taiwan AI Assembly"
   ],
   "ai_involvement": true,
-  "pass2_at": "2026-03-09T23:21:43.421Z"
+  "pass2_at": "2026-03-09T23:21:43.421Z",
+  "pass5_at": "2026-03-10T01:00:24.037Z",
+  "pass5_jina_words": 421,
+  "pass5_changes": [
+    "tagline",
+    "countries_deployed",
+    "communities_served",
+    "news_articles",
+    "policy_outcomes",
+    "government_partnerships"
+  ]
 }

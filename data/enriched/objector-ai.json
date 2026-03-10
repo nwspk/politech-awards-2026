@@ -60,7 +60,9 @@
   "awards": [],
   "in_civictech_guide": false,
   "wikipedia_page": null,
-  "policy_outcomes": [],
+  "policy_outcomes": [
+    "Community empowerment in planning objections (The Moylgrove Community, Pembrokeshire reported feeling empowered to challenge planning issues using the platform)"
+  ],
   "causation_strength": "anecdotal",
   "outcome_methodology": null,
   "replication_materials_available": false,
@@ -87,7 +89,7 @@
   "legal_regulatory_issues": null,
   "elections_used_in": [],
   "government_partnerships": [],
-  "ai_involvement": "Dual AI-powered system for identifying objection grounds, generating letters, and providing policy explanations",
+  "ai_involvement": "Dual AI-powered system for identifying valid objection grounds ranked by impact, generating policy-backed planning objection letters, creating councillor lobbying videos and letters, drafting planning committee speeches, and providing AI Planning Policy Advisor explanations of objection grounds and cited policies",
   "pass2_at": "2026-03-09T23:21:34.440Z",
   "scraped": {
     "homepage_last_scraped": "2026-02-09T12:45:21.259Z",
@@ -98,5 +100,11 @@
     "homepage_has_impact_metrics": false,
     "scraped_description": "Object to planning applications in the UK with Objector.ai. Check objection \r\ngrounds for free &amp; create powerful, policy-based objection letters, \r\nlobbying videos, and committee speeches in minutes.",
     "scraped_final_url": "https://www.objector.ai/"
-  }
+  },
+  "pass5_at": "2026-03-10T01:04:12.101Z",
+  "pass5_jina_words": 569,
+  "pass5_changes": [
+    "policy_outcomes",
+    "ai_involvement"
+  ]
 }

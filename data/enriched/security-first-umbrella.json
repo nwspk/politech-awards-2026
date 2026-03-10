@@ -127,5 +127,8 @@
   "disparity_tracking": "Not explicitly tracked; serves marginalized communities (journalists, activists in high-risk regions)",
   "community_ownership": "Community contributions welcomed through open source model; content-as-code approach enables community input",
   "ai_involvement": "No AI/machine learning components; rule-based security guidance framework",
-  "pass2_at": "2026-03-10T00:27:58.343Z"
+  "pass2_at": "2026-03-10T00:27:58.343Z",
+  "pass5_at": "2026-03-10T00:51:42.271Z",
+  "pass5_jina_words": 259,
+  "pass5_changes": []
 }

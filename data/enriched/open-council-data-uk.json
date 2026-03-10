@@ -87,5 +87,11 @@
   "pass3_at": "2026-03-09T23:22:51.216Z",
   "_sources": [
     "openalex"
+  ],
+  "policy_outcomes": "Tracks GB councillor compositions across 18,645 councillors across 369 councils (as of 08-03-2026) and 462 Northern Ireland councillors. Provides historical composition data from 1973-2025 for GB and 2014-2025 for Northern Ireland. Maintains by-election archive (2021-25) and tracks party distribution across multiple governance models.",
+  "pass5_at": "2026-03-10T01:00:23.356Z",
+  "pass5_jina_words": 421,
+  "pass5_changes": [
+    "policy_outcomes"
   ]
 }

@@ -13,7 +13,7 @@
   "collected_at": "2026-03-09T23:20:32.017Z",
   "collected_by": "collect-enriched-script",
   "name": "RxC Quadratic Voting",
-  "tagline": "An easy tool to host a quadratic vote for collective decision-making",
+  "tagline": "An easy tool to host a quadratic vote. Quadratic Voting is the mathematically optimal way to vote in a democratic community by allocating votes that express the degree of your preferences, not just direction.",
   "project_type": "Tool/Platform",
   "org_type": "Nonprofit/charity",
   "issue_area": [
@@ -96,5 +96,10 @@
   "disparity_tracking": false,
   "community_ownership": false,
   "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:41.533Z"
+  "pass2_at": "2026-03-09T23:21:41.533Z",
+  "pass5_at": "2026-03-10T00:51:41.324Z",
+  "pass5_jina_words": 102,
+  "pass5_changes": [
+    "tagline"
+  ]
 }

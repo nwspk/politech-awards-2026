@@ -102,5 +102,8 @@
     "2020: Google Security Team disclosed that Privacy Badger's heuristic learning could be exploited to fingerprint users; EFF changed default behaviour"
   ],
   "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:39.959Z"
+  "pass2_at": "2026-03-09T23:21:39.959Z",
+  "pass5_at": "2026-03-10T00:50:17.757Z",
+  "pass5_jina_words": 366,
+  "pass5_changes": []
 }
