@@ -18,10 +18,21 @@ The committee iterates on the algorithm through pull requests. Each PR proposes 
 ## Contents
 
 - [Quick Start](#quick-start) — run the algorithm locally
+- [Data progress](#data-progress) — how we've improved project data over time (cache → data dump → enriched dossiers)
 - [Iterations](#iterations) — history of all algorithm versions
 - [Committee Process](docs/PROCESS.md) — step-by-step details for opening a PR, voting, and deliverables
 - [Technical Documentation](docs/TECHNICAL.md) — bots, scripts, labels, and reference
 - [Briefing Document](https://docs.google.com/document/d/14GgwyiA7t-AMRj4P5JFNijHXjATEQvQUvaxyIVZG-LA/edit?tab=t.0#heading=h.yyqjou9klunq) — full project guidelines
+
+## Data progress
+
+We've made **3 attempts** so far to give the algorithm and juries better project data:
+
+1. **Cache** — From v4 onward we cached fetched homepages (`cache/sites.sqlite`) and later pipeline outputs: assessments and deliberations in `cache/assessments*.json`, `cache/deliberation*.json`. This made heuristics fast and reproducible but the data was **ephemeral** (pipeline-generated, overwritten) and **thin** — raw page bodies and model outputs, not structured research.
+
+2. **Data dump** — A one-off export, `candidates-with-data.csv`, added basic metadata (name, tagline, description, org type, geography, features) for ~80 of 321 projects. Useful for early experiments but **partial** and **ad-hoc** — no shared schema, and AI assessments still often flagged "thin content" (missing team, funding, impact, usage).
+
+3. **Enriched data (current)** — Structured dossiers for **all 321 candidates** in `data/enriched/<slug>.json`, with a defined schema aligned to the [Civic Tech Field Guide](https://civictech.guide/) and v6 jury gap analysis. Three-pass collection (broad sweep → null-field targeting → structured DB lookups) produces research-grade, verifiable fields (e.g. `funding_verified`, `causation_strength`, `policy_outcomes`). Full schema, rationale, and methodology: [Enriched data — design & decisions](docs/enriched-data-design-and-decisions.md).
 
 ## Quick Start
 
