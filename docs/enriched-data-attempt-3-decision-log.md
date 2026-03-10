@@ -375,4 +375,38 @@ Projects with <50 words on the scraped page and 6+ null core fields, where the L
 | `failure_modes` | 124 (39%) | Absence signals lack of self-critical documentation |
 | `news_articles` | 118 (37%) | External validation signal |
 
-**Recommended next action:** Run a targeted Pass 2 on Tier 1 and Tier 2 projects before the committee review, prioritising `policy_outcomes`, `causation_strength`, and `news_articles`.
+**Recommended next action:** Run a targeted Pass 2 on Tier 1 and Tier 2 projects before the committee review, prioritising `policy_outcomes`, `causation_strength`, and `news_articles`. *(Completed — see Decision 14.)*
+
+---
+
+### Decision 14 — Targeted priority Pass 2 on Tier 1 and Tier 2 projects
+
+**Date:** 2026-03-10
+
+**Decision:** Run a focused second collection pass on the 24 Tier 1 and Tier 2 projects, specifically targeting `policy_outcomes`, `causation_strength`, and `news_articles` regardless of overall null count.
+
+**Reasoning:** The standard Pass 2 threshold (≥10 null fields) would skip many of these projects, which had already been partially enriched but were still missing the three highest-stakes jury fields. A dedicated priority pass with a stronger system prompt and no threshold bypass was needed to maximise data quality before committee review.
+
+**Implementation:** Three additions to `collect-enriched.ts`:
+- `--url-file` — accepts a newline-separated list of URLs, so the pass can be targeted at an arbitrary subset
+- `--force-pass2` — bypasses the null-count threshold so every listed project gets re-run
+- `--priority-fields` — activates an alternative system prompt (`P2_PRIORITY_SYSTEM`) that instructs the LLM to focus on `policy_outcomes`, `causation_strength`, and `news_articles` first, with strict instructions on evidence links and source confidence
+
+Also fixed a latent bug in `parseJSON`: the function was doing a simple strip of markdown fences, but when the LLM appended explanatory prose after a large JSON block, the parse failed. Fixed by extracting the outermost `{...}` block from the raw output before parsing.
+
+**Process:** 24 URLs written to `tier1-2-urls.txt` (4 Tier 1 + 20 Tier 2 unique projects). Pass ran at 24 concurrent workers. One timeout (Metaculus) retried individually.
+
+**Outcome:**
+
+| Metric | Before | After |
+|---|---|---|
+| Projects with policy_outcomes | 0/24 | 11/24 |
+| Projects with news_articles | 3/24 | 17/24 |
+| DEAD_LINK_HAS_DATA flags | 22 | 20 |
+| OUTCOME_NO_LINK flags | 36 | 35 |
+
+**Projects that filled well** (gained `policy_outcomes` and `news_articles`): Abstract Wikipedia, CrowdJustice, Entitledto, Give Food, Members' Interests, Metaculus, Open Access (Transparency International UK), Parti, PlanIT, Security First / Umbrella, UK Parliament Developer Portal.
+
+**Projects that remain data-poor after targeted pass** (all returned `causation_strength: "anecdotal"` with 0 policy outcomes and 0–1 news articles): Unknown Academic Paper (SSRN), tracking-template Firebase app, Local Deep Researcher, Papertree, Agreement Engine, DoGooder, Hand-Written Petition Scanner, Membership, Public Editor, Violation Tracker UK.
+
+**Interpretation:** The 10 persistently data-poor projects fall into two groups. The first four (SSRN paper, Firebase app, Local Deep Researcher, Papertree) are genuine Tier 1 critical cases — either not real public projects or projects with almost no web presence. The remaining six are legitimate but genuinely niche tools with minimal media coverage and no documented policy outcomes — their honest assessment is `anecdotal` at best. The committee should note that these projects' low enrichment scores reflect sparse evidence, not researcher error.
