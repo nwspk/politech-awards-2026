@@ -15,7 +15,7 @@
   "name": "Local Deep Researcher",
   "tagline": "A research tool for investigating local issues and civic engagement",
   "project_type": "Tool/Platform",
-  "org_type": null,
+  "org_type": "Nonprofit/charity",
   "issue_area": "Civic Engagement, Research, Local Government",
   "sdg_alignment": [
     "SDG 16: Peace, Justice and Strong Institutions",
@@ -56,7 +56,10 @@
   "in_civictech_guide": false,
   "wikipedia_page": false,
   "jurisdictional_scope": "Global",
-  "pass2_at": "2026-03-09T23:21:31.441Z",
+  "policy_outcomes": [],
+  "causation_strength": "anecdotal",
+  "news_articles": [],
+  "pass2_at": "2026-03-10T00:27:56.131Z",
   "pass3_at": "2026-03-09T23:22:43.006Z",
   "_sources": [
     "openalex"

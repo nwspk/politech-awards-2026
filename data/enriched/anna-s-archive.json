@@ -58,6 +58,8 @@
     "Domain hosting and infrastructure vulnerability",
     "Reliance on volunteer contributors"
   ],
+  "policy_outcomes": [],
+  "causation_strength": "anecdotal",
   "news_articles": [
     {
       "headline": "Anna's Archive: A Shadow Library for the Internet Age",
@@ -108,7 +110,7 @@
     "Debate over shadow library ethics and legality"
   ],
   "legal_regulatory_issues": "Operates in legal ambiguity; subject to copyright enforcement actions in multiple jurisdictions",
-  "pass2_at": "2026-03-09T23:21:21.952Z",
+  "pass2_at": "2026-03-10T00:27:58.929Z",
   "pass3_at": "2026-03-09T23:22:01.740Z",
   "_sources": [
     "openalex"

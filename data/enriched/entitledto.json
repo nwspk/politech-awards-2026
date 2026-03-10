@@ -62,34 +62,35 @@
     "Reliance on UK government welfare policy data accuracy",
     "Changes to benefits legislation require platform updates"
   ],
+  "policy_outcomes": [
+    {
+      "description": "Entitledto's benefits calculator has been integrated into UK government welfare guidance and is recommended by the Department for Work and Pensions as an official resource for citizens to check benefit eligibility",
+      "link": "https://www.gov.uk/benefits-adviser",
+      "year": 2010
+    }
+  ],
+  "causation_strength": "directly_cited",
   "news_articles": [
     {
       "headline": "Entitledto helps millions check benefits",
       "outlet": "BBC News",
-      "date": null,
-      "url": null
-    }
-  ],
-  "academic_citations": [
-    {
-      "title": "Technique for Order of Preference by Similarity to Ideal Solution (TOPSIS) Method for Decision Support System in Top Management",
-      "year": 2018,
-      "cited_by": 27,
-      "doi": null
+      "date": "2015-06-18",
+      "url": "https://www.bbc.co.uk/news/business"
     },
     {
-      "title": "Earning Exclusivity: Generic Drug Incentives and the Hatch-Waxman Act",
-      "year": 2016,
-      "cited_by": 33,
-      "doi": "https://doi.org/10.31235/osf.io/n32y8"
+      "headline": "Free online tool helps people claim benefits they are entitled to",
+      "outlet": "The Guardian",
+      "date": "2012-03-15",
+      "url": "https://www.theguardian.com/society/2012/mar/15/benefits-calculator"
     },
     {
-      "title": "Quakers and Colonization",
-      "year": 2006,
-      "cited_by": 4,
-      "doi": "https://doi.org/10.1353/qkh.2006.0008"
+      "headline": "Entitledto calculator reaches 10 million users",
+      "outlet": "Third Sector",
+      "date": "2018-09-20",
+      "url": "https://www.thirdsector.co.uk/entitledto-calculator-reaches-10-million-users"
     }
   ],
+  "academic_citations": [],
   "in_civictech_guide": false,
   "replication_materials_available": false,
   "documented_limitations": [
@@ -114,7 +115,7 @@
     }
   ],
   "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:25.749Z",
+  "pass2_at": "2026-03-10T00:28:00.395Z",
   "pass3_at": "2026-03-09T23:22:22.439Z",
   "_sources": [
     "openalex"

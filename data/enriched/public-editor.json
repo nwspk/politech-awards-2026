@@ -52,10 +52,9 @@
   ],
   "funding_verified": true,
   "last_funding_event": "2023",
-  "news_articles": [
-    "TechCrunch coverage of fact-checking platforms",
-    "Poynter Institute articles on editorial transparency"
-  ],
+  "policy_outcomes": [],
+  "causation_strength": "anecdotal",
+  "news_articles": [],
   "academic_citations": [
     {
       "title": "Walking in/as Publics: Editors Introduction",
@@ -83,7 +82,7 @@
   "disparity_tracking": false,
   "community_ownership": false,
   "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:47.692Z",
+  "pass2_at": "2026-03-10T00:27:57.119Z",
   "pass3_at": "2026-03-09T23:23:28.978Z",
   "_sources": [
     "openalex"

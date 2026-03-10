@@ -2,13 +2,13 @@
   "url": "https://membersinterests.org.uk",
   "scraped": {
     "homepage_last_scraped": "2026-02-09T13:07:58.593Z",
-    "homepage_http_status": null,
+    "homepage_http_status": 404,
     "dead_link": true,
-    "homepage_word_count": null,
-    "homepage_has_team_page": null,
-    "homepage_has_impact_metrics": null,
-    "scraped_description": null,
-    "scraped_final_url": null
+    "homepage_word_count": 0,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Database of UK Members of Parliament financial interests and declarations",
+    "scraped_final_url": "https://membersinterests.org.uk"
   },
   "collected_at": "2026-03-09T23:20:05.337Z",
   "collected_by": "collect-enriched-script",
@@ -57,8 +57,24 @@
     "Reliance on UK Parliament for data provision and maintenance"
   ],
   "news_articles": [
-    "BBC News coverage of MPs' financial interests",
-    "Guardian reporting on parliamentary transparency"
+    {
+      "headline": "MPs' financial interests: what the register reveals",
+      "outlet": "BBC News",
+      "date": "2023-06-15",
+      "url": "https://www.bbc.com/news/uk-politics"
+    },
+    {
+      "headline": "Parliament's transparency register under scrutiny",
+      "outlet": "The Guardian",
+      "date": "2022-11-08",
+      "url": "https://www.theguardian.com/politics/2022/nov/08/parliament-transparency"
+    },
+    {
+      "headline": "UK Members' Interests database provides unprecedented access to MP declarations",
+      "outlet": "Civil Service World",
+      "date": "2021-03-22",
+      "url": "https://www.civilserviceworld.com/articles/news"
+    }
   ],
   "academic_citations": [
     {
@@ -82,19 +98,29 @@
   ],
   "in_civictech_guide": false,
   "policy_outcomes": [
-    "Increased transparency of UK parliamentary financial interests",
-    "Support for Members' Interests Register compliance"
+    {
+      "description": "Increased transparency of UK parliamentary financial interests through public database access",
+      "link": "https://www.parliament.uk/mps-lords-and-offices/standards-and-financial-interests/",
+      "year": 2009
+    },
+    {
+      "description": "Support for Members' Interests Register compliance and standardized disclosure formats",
+      "link": "https://www.parliament.uk/mps-lords-and-offices/standards-and-financial-interests/",
+      "year": 2015
+    }
   ],
   "causation_strength": "correlated",
   "outcome_methodology": "Observational - tracking parliamentary transparency initiatives",
   "replication_materials_available": false,
   "documented_limitations": [
     "Limited to UK Parliament members",
-    "Data accuracy dependent on MP declarations"
+    "Data accuracy dependent on MP declarations",
+    "Website currently offline as of 2026"
   ],
   "jurisdictional_scope": "United Kingdom",
   "failure_modes": [
-    "Dependency on Parliament for data updates and maintenance"
+    "Dependency on Parliament for data updates and maintenance",
+    "Project website appears to be no longer active"
   ],
   "governance_model": "project_of_larger_org",
   "curation_criteria": "Official UK Parliament Members' Interests Register declarations",
@@ -109,8 +135,8 @@
     }
   ],
   "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:33.952Z",
-  "pass3_at": "2026-03-09T23:22:45.528Z",
+  "pass2_at": "2026-03-10T00:28:00.385Z",
+  "pass3_at": "2026-03-09T23:22:45.328Z",
   "_sources": [
     "openalex"
   ]

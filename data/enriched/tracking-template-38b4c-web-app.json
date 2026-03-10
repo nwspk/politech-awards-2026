@@ -31,7 +31,7 @@
   "in_civictech_guide": null,
   "wikipedia_page": null,
   "policy_outcomes": [],
-  "causation_strength": null,
+  "causation_strength": "anecdotal",
   "outcome_methodology": null,
   "replication_materials_available": null,
   "preregistered_studies": [],
@@ -59,5 +59,6 @@
     "homepage_has_impact_metrics": false,
     "scraped_description": null,
     "scraped_final_url": "https://tracking-template-38b4c.web.app/"
-  }
+  },
+  "pass2_at": "2026-03-10T00:27:55.564Z"
 }

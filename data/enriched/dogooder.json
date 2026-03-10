@@ -24,7 +24,7 @@
   "sdg_alignment": [
     "SDG 16: Peace, Justice and Strong Institutions"
   ],
-  "decade_plus": false,
+  "decade_plus": true,
   "geography": "national",
   "countries_deployed": [
     "Australia"
@@ -71,8 +71,11 @@
   "jurisdictional_scope": "Australia",
   "community_ownership": false,
   "ai_involvement": false,
-  "collection_note": "URL blocked by Cloudflare security service. No page content accessible. Unable to determine project details. Information populated from external knowledge of DoGooder platform.",
-  "pass2_at": "2026-03-09T23:21:24.658Z",
+  "policy_outcomes": [],
+  "causation_strength": "anecdotal",
+  "news_articles": [],
+  "collection_note": "URL blocked by Cloudflare security service. No page content accessible. Unable to determine project details. Information populated from external knowledge of DoGooder platform. No verifiable policy outcomes or news coverage could be independently confirmed.",
+  "pass2_at": "2026-03-10T00:27:56.324Z",
   "pass3_at": "2026-03-09T23:22:20.285Z",
   "_sources": [
     "openalex"

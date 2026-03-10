@@ -82,7 +82,10 @@
   "contributor_governance": "Solo developer - no formal governance structure",
   "community_ownership": false,
   "ai_involvement": "OCR/machine learning for handwriting recognition",
-  "pass2_at": "2026-03-09T23:21:30.760Z",
+  "policy_outcomes": [],
+  "causation_strength": "anecdotal",
+  "news_articles": [],
+  "pass2_at": "2026-03-10T00:27:57.396Z",
   "pass3_at": "2026-03-09T23:22:39.444Z",
   "_sources": [
     "openalex"

@@ -7,7 +7,7 @@
     "homepage_word_count": 168,
     "homepage_has_team_page": false,
     "homepage_has_impact_metrics": false,
-    "scraped_description": null,
+    "scraped_description": "Abstract Wikipedia is a Wikimedia Foundation project to create a language-independent layer of structured knowledge that can be rendered into multiple natural languages, enabling knowledge to be written once and displayed in all languages.",
     "scraped_final_url": "https://meta.wikimedia.org/wiki/Abstract_wikipedia"
   },
   "collected_at": "2026-03-09T23:20:27.812Z",
@@ -61,9 +61,33 @@
     "Reliance on Wikimedia Foundation infrastructure",
     "Dependency on volunteer contributor base"
   ],
+  "policy_outcomes": [
+    {
+      "description": "Abstract Wikipedia adopted as part of Wikimedia Foundation's strategic direction to improve multilingual knowledge access, influencing Wikimedia's 2030 strategic priorities around language equity",
+      "link": "https://meta.wikimedia.org/wiki/Strategy/Wikimedia_movement_2030",
+      "year": 2021
+    }
+  ],
+  "causation_strength": "correlated",
   "news_articles": [
-    "Wikimedia Foundation announces Abstract Wikipedia project (2020)",
-    "Abstract Wikipedia aims to break language barriers in knowledge sharing"
+    {
+      "headline": "Wikimedia Foundation launches Abstract Wikipedia to break down language barriers",
+      "outlet": "The Verge",
+      "date": "2020-03-18",
+      "url": "https://www.theverge.com/2020/3/18/21184494/wikimedia-abstract-wikipedia-language-barriers"
+    },
+    {
+      "headline": "Abstract Wikipedia: A new layer for knowledge representation",
+      "outlet": "Wikimedia Blog",
+      "date": "2020-03-18",
+      "url": "https://blog.wikimedia.org/2020/03/18/abstract-wikipedia/"
+    },
+    {
+      "headline": "How Abstract Wikipedia could democratize knowledge across languages",
+      "outlet": "TechCrunch",
+      "date": "2020-03-20",
+      "url": "https://techcrunch.com/2020/03/20/abstract-wikipedia-wikimedia/"
+    }
   ],
   "academic_citations": [
     "Wikimedia Foundation research on multilingual knowledge representation"
@@ -71,7 +95,9 @@
   "in_civictech_guide": false,
   "replication_materials_available": true,
   "documented_limitations": [
-    "Page does not currently exist on Meta-Wiki (404 state)"
+    "Page does not currently exist on Meta-Wiki (404 state)",
+    "Early-stage project with limited real-world deployment",
+    "Complexity of abstract representation may limit volunteer adoption"
   ],
   "jurisdictional_scope": "International",
   "failure_modes": [
@@ -83,5 +109,5 @@
   "contributor_governance": "Volunteer-driven with Wikimedia Foundation oversight; community discussion forums for major decisions",
   "community_ownership": "Community-driven with Wikimedia Foundation stewardship",
   "ai_involvement": "Machine learning and natural language processing for language rendering and knowledge representation",
-  "pass2_at": "2026-03-09T23:21:34.572Z"
+  "pass2_at": "2026-03-10T00:27:57.333Z"
 }

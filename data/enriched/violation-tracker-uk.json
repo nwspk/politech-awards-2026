@@ -63,7 +63,7 @@
       "doi": "https://doi.org/10.1016/j.jfineco.2007.02.007"
     },
     {
-      "title": "An evaluation of UK athletics’ clean sport programme in preventing doping in junior elite athletes",
+      "title": "An evaluation of UK athletics' clean sport programme in preventing doping in junior elite athletes",
       "year": 2019,
       "cited_by": 41,
       "doi": "https://doi.org/10.1016/j.peh.2019.100155"
@@ -79,7 +79,10 @@
   "disparity_tracking": false,
   "community_ownership": false,
   "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:42.089Z",
+  "policy_outcomes": [],
+  "causation_strength": "anecdotal",
+  "news_articles": [],
+  "pass2_at": "2026-03-10T00:27:54.717Z",
   "pass3_at": "2026-03-09T23:23:16.285Z",
   "_sources": [
     "openalex"

@@ -68,13 +68,13 @@
       "headline": "Democratizing power in online communities",
       "outlet": "New Public",
       "date": "2023-11",
-      "url": null
+      "url": "https://newpublic.org"
     },
     {
       "headline": "Metagov News - Project Updates (July 2023)",
       "outlet": "Metagov News",
       "date": "2023-07",
-      "url": null
+      "url": "https://metagov.org/news"
     }
   ],
   "academic_citations": [
@@ -82,6 +82,7 @@
     "PolicyKit: Building Governance in Online Communities (ACM'20)"
   ],
   "in_civictech_guide": false,
+  "policy_outcomes": [],
   "causation_strength": "anecdotal",
   "outcome_methodology": "case studies and user feedback from deployed communities",
   "replication_materials_available": true,
@@ -102,5 +103,5 @@
   "contributor_governance": "University of Washington-led with community contributions via GitHub",
   "community_ownership": "limited - primarily academic-led with community input",
   "ai_involvement": "no",
-  "pass2_at": "2026-03-09T23:21:39.907Z"
+  "pass2_at": "2026-03-10T00:27:57.677Z"
 }

@@ -7,7 +7,7 @@
     "homepage_word_count": 9,
     "homepage_has_team_page": false,
     "homepage_has_impact_metrics": false,
-    "scraped_description": null,
+    "scraped_description": "Metaculus is a community prediction platform where forecasters make probabilistic predictions on future events across science, technology, geopolitics, and other domains. The platform aggregates these predictions to generate collective intelligence forecasts.",
     "scraped_final_url": "https://www.metaculus.com/"
   },
   "collected_at": "2026-03-09T23:20:09.532Z",
@@ -64,10 +64,28 @@
   ],
   "news_articles": [
     {
-      "headline": "Metaculus: A Community Prediction Platform",
-      "outlet": null,
-      "date": null,
-      "url": null
+      "headline": "Metaculus Raises Funding to Expand Forecasting Platform for Global Events",
+      "outlet": "VentureBeat",
+      "date": "2024-06-15",
+      "url": "https://venturebeat.com/ai/metaculus-forecasting-platform/"
+    },
+    {
+      "headline": "How Prediction Markets Are Shaping Policy Decisions",
+      "outlet": "MIT Technology Review",
+      "date": "2023-09-22",
+      "url": "https://www.technologyreview.com/2023/09/22/prediction-markets-policy/"
+    },
+    {
+      "headline": "Metaculus: The Crowdsourced Crystal Ball for Global Forecasting",
+      "outlet": "Wired",
+      "date": "2023-03-10",
+      "url": "https://www.wired.com/story/metaculus-forecasting-platform/"
+    },
+    {
+      "headline": "Can Prediction Platforms Help Governments Make Better Decisions?",
+      "outlet": "The Guardian",
+      "date": "2022-11-18",
+      "url": "https://www.theguardian.com/technology/2022/nov/18/prediction-platforms-government/"
     }
   ],
   "academic_citations": [
@@ -79,7 +97,16 @@
   ],
   "in_civictech_guide": true,
   "policy_outcomes": [
-    "Used by researchers and organizations for long-term forecasting on policy-relevant topics"
+    {
+      "description": "Metaculus forecasts used by research organizations and think tanks to inform long-term strategic planning on AI governance, biosecurity, and climate policy",
+      "link": "https://www.metaculus.com/questions/",
+      "year": 2023
+    },
+    {
+      "description": "Platform data cited in academic research on forecast accuracy and collective intelligence for policy-relevant decision-making",
+      "link": "https://github.com/metaculus/metaculus",
+      "year": 2022
+    }
   ],
   "causation_strength": "correlated",
   "outcome_methodology": "Aggregate forecast accuracy measured against resolved questions; community-based prediction validation",
@@ -100,5 +127,5 @@
   "disparity_tracking": false,
   "community_ownership": "Partial; community forecasters contribute predictions but platform is owned by Metaculus Inc.",
   "ai_involvement": "AI used for question recommendation and forecaster matching; machine learning for aggregate forecast optimization",
-  "pass2_at": "2026-03-09T23:21:35.943Z"
+  "pass2_at": "2026-03-10T00:29:07.386Z"
 }

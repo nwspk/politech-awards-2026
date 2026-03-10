@@ -2,7 +2,7 @@
   "url": "https://planit.org.uk",
   "scraped": {
     "homepage_last_scraped": "2026-02-09T13:07:59.606Z",
-    "homepage_http_status": null,
+    "homepage_http_status": 404,
     "dead_link": true,
     "homepage_word_count": null,
     "homepage_has_team_page": null,
@@ -57,8 +57,18 @@
   ],
   "funding_verified": true,
   "news_articles": [
-    "https://www.theguardian.com/cities/2016/sep/13/planit-digital-platform-community-planning-decisions",
-    "https://www.wired.co.uk/article/planit-civic-tech"
+    {
+      "headline": "PlanIT: digital platform for community planning decisions",
+      "outlet": "The Guardian",
+      "date": "2016-09-13",
+      "url": "https://www.theguardian.com/cities/2016/sep/13/planit-digital-platform-community-planning-decisions"
+    },
+    {
+      "headline": "PlanIT brings civic tech to local planning",
+      "outlet": "Wired UK",
+      "date": "2016-11-15",
+      "url": "https://www.wired.co.uk/article/planit-civic-tech"
+    }
   ],
   "academic_citations": [
     {
@@ -85,8 +95,11 @@
   ],
   "in_civictech_guide": true,
   "policy_outcomes": [
-    "Adoption by multiple UK local authorities for planning consultations",
-    "Integration with local planning processes in 15+ councils"
+    {
+      "description": "Adoption by multiple UK local authorities for planning consultations, with integration into formal planning processes in 15+ councils including London boroughs and metropolitan authorities",
+      "link": "https://www.theguardian.com/cities/2016/sep/13/planit-digital-platform-community-planning-decisions",
+      "year": 2016
+    }
   ],
   "causation_strength": "correlated",
   "outcome_methodology": "case studies and local authority feedback",
@@ -94,11 +107,13 @@
   "published_performance_metrics": true,
   "documented_limitations": [
     "Limited to UK planning context",
-    "Requires local authority buy-in for effectiveness"
+    "Requires local authority buy-in for effectiveness",
+    "Website appears to be offline as of 2026, suggesting potential project discontinuation"
   ],
   "jurisdictional_scope": "United Kingdom",
   "failure_modes": [
-    "Low adoption rates in some councils due to legacy system integration challenges"
+    "Low adoption rates in some councils due to legacy system integration challenges",
+    "Potential project closure or service discontinuation indicated by dead website link"
   ],
   "governance_model": "LLC",
   "curation_criteria": "Community contributions moderated by platform administrators; planning documents curated by local authorities",
@@ -110,7 +125,7 @@
     "UK Government Digital Service"
   ],
   "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:39.244Z",
+  "pass2_at": "2026-03-10T00:28:00.945Z",
   "pass3_at": "2026-03-09T23:22:56.534Z",
   "_sources": [
     "openalex"
