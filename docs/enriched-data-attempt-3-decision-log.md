@@ -422,6 +422,60 @@ The dataset has a credibility problem: it looks richer than it is because arrays
 
 `dead_link=true` at scrape time. For well-known projects (Sci-Hub, Anna's Archive) training data is likely sufficient. For niche ones the LLM data may be months or years out of date, or hallucinated. Jina did not help here — a dead site is dead to all scrapers.
 
+ True dead links (404/503/no response):
+
+  ┌─────────────────────────────────────────────┬─────────────┬───────────────────────────────────────────────────┐
+  │                   Project                   │   Status    │                       Notes                       │
+  ├─────────────────────────────────────────────┼─────────────┼───────────────────────────────────────────────────┤
+  │ Abstract Wikipedia                          │ 404         │ Wikimedia redirect/restructure — page moved       │
+  ├─────────────────────────────────────────────┼─────────────┼───────────────────────────────────────────────────┤
+  │ Local Deep Researcher                       │ 404         │ Vercel demo app — likely taken down               │
+  ├─────────────────────────────────────────────┼─────────────┼───────────────────────────────────────────────────┤
+  │ Members' Interests                          │ 404         │ Domain appears defunct                            │
+  ├─────────────────────────────────────────────┼─────────────┼───────────────────────────────────────────────────┤
+  │ Open Access – Transparency International UK │ 404         │ Subdomain gone                                    │
+  ├─────────────────────────────────────────────┼─────────────┼───────────────────────────────────────────────────┤
+  │ PlanIT                                      │ 404         │ Domain dead                                       │
+  ├─────────────────────────────────────────────┼─────────────┼───────────────────────────────────────────────────┤
+  │ PolicyKit                                   │ 503         │ Service unavailable — may be down                 │
+  ├─────────────────────────────────────────────┼─────────────┼───────────────────────────────────────────────────┤
+  │ Anna's Archive                              │ no response │ Likely geo-blocked or rate-limited at scrape time │
+  ├─────────────────────────────────────────────┼─────────────┼───────────────────────────────────────────────────┤
+  │ Hand-Written Petition Scanner               │ no response │ Streamlit demo — probably expired                 │
+  ├─────────────────────────────────────────────┼─────────────┼───────────────────────────────────────────────────┤
+  │ Public Editor                               │ no response │ No response at scrape time                        │
+  ├─────────────────────────────────────────────┼─────────────┼───────────────────────────────────────────────────┤
+  │ Sci-Hub                                     │ no response │ Blocked at network level (mirrors rotate)         │
+  └─────────────────────────────────────────────┴─────────────┴───────────────────────────────────────────────────┘
+
+  Blocked scrapers (403) — sites are live, just won't serve bots:
+
+  ┌────────────────────────────────┬──────────────────────────────────┐
+  │            Project             │              Notes               │
+  ├────────────────────────────────┼──────────────────────────────────┤
+  │ Agreement Engine               │ Medium post                      │
+  ├────────────────────────────────┼──────────────────────────────────┤
+  │ CrowdJustice                   │ Active product, just bot-blocked │
+  ├────────────────────────────────┼──────────────────────────────────┤
+  │ DoGooder                       │ Active product                   │
+  ├────────────────────────────────┼──────────────────────────────────┤
+  │ Entitledto                     │ Active product                   │
+  ├────────────────────────────────┼──────────────────────────────────┤
+  │ Give Food                      │ Active product                   │
+  ├────────────────────────────────┼──────────────────────────────────┤
+  │ Membership                     │ Medium post                      │
+  ├────────────────────────────────┼──────────────────────────────────┤
+  │ Metaculus                      │ Active product                   │
+  ├────────────────────────────────┼──────────────────────────────────┤
+  │ UK Parliament Developer Portal │ Active, bot-blocked              │
+  ├────────────────────────────────┼──────────────────────────────────┤
+  │ Unknown Academic Paper (SSRN)  │ SSRN paywalled                   │
+  ├────────────────────────────────┼──────────────────────────────────┤
+  │ Violation Tracker UK           │ Active product                   │
+  └────────────────────────────────┴──────────────────────────────────┘
+
+  So really only ~10 are genuinely dead/unreachable. The other 10 are real live products that blocked the scraper — their LLM data is likely fine for well-known ones (Metaculus, CrowdJustice, Sci-Hub, Give Food), more suspect for the smaller ones (Members' Interests, Entitledto, DoGooder).
+
 ---
 
 #### 5. 4 confirmed non-projects in the candidate list
