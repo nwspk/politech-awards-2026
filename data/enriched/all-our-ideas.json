@@ -35,7 +35,7 @@
   "political_units": [
     "national"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/citizensandtech/all-our-ideas",
   "format": [
     "platform"

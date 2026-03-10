@@ -14,15 +14,15 @@
   "collected_by": "collect-enriched-script",
   "name": "Overton",
   "tagline": "A platform for understanding and analyzing political positions and policy proposals",
-  "project_type": "Software platform / Research tool",
-  "org_type": "For-profit / Research organization",
+  "project_type": "Tool/Platform",
+  "org_type": "For-profit/social enterprise",
   "issue_area": "Political analysis, policy research, civic engagement",
   "sdg_alignment": [
     "SDG 16: Peace, Justice and Strong Institutions",
     "SDG 17: Partnerships for the Goals"
   ],
   "decade_plus": false,
-  "geography": "Global",
+  "geography": "international",
   "countries_deployed": [
     "United States"
   ],
@@ -36,7 +36,7 @@
     "United States federal",
     "State legislatures"
   ],
-  "open_source": false,
+  "open_source": "no",
   "format": "Web platform / SaaS",
   "founded_year": 2017,
   "funding_model": "Subscription-based / Commercial",
@@ -75,7 +75,7 @@
   "wikipedia_page": false,
   "replication_materials_available": false,
   "jurisdictional_scope": "United States",
-  "governance_model": "Corporate governance",
+  "governance_model": "LLC",
   "curation_criteria": "Automated analysis of legislative text and political positions",
   "disparity_tracking": false,
   "community_ownership": false,

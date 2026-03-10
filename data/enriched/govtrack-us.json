@@ -83,7 +83,7 @@
     "Enhanced citizen awareness of congressional voting records",
     "Improved access to legislative data for researchers and journalists"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "observational",
   "replication_materials_available": true,
   "published_performance_metrics": true,

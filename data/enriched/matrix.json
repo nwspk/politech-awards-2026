@@ -14,8 +14,8 @@
   "collected_by": "nano-bot",
   "name": "Matrix",
   "tagline": "An open standard and network for secure, decentralised, interoperable communication",
-  "project_type": "open communication protocol / standard",
-  "org_type": "non-profit foundation (UK Community Interest Company)",
+  "project_type": "Publication",
+  "org_type": "Nonprofit/charity",
   "issue_area": [
     "decentralised communications",
     "digital rights",
@@ -29,7 +29,7 @@
     "SDG 17: Partnerships for the Goals"
   ],
   "decade_plus": true,
-  "geography": "global",
+  "geography": "international",
   "countries_deployed": [
     "France",
     "Germany",
@@ -65,7 +65,7 @@
     "Germany (Bundeswehr, public sector)",
     "European Union (various member states)"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/matrix-org",
   "github_stars": 18500,
   "last_commit_date": "2026-03-09",
@@ -76,7 +76,7 @@
     "SDKs"
   ],
   "founded_year": 2014,
-  "team_size": 25,
+  "team_size": "medium",
   "funding_model": [
     "membership fees",
     "donations",
@@ -146,7 +146,7 @@
     "spam and abuse in open federation",
     "key verification burden on users"
   ],
-  "governance_model": "Matrix.org Foundation C.I.C. (UK non-profit); Spec Core Team maintains Matrix Specification; elected Governing Board with member representation",
+  "governance_model": "foundation",
   "curation_criteria": "Matrix Specification Change (MSC) process: open proposal system with community review, Spec Core Team approval, and Governing Board oversight for major changes",
   "contributor_governance": "open specification process via Matrix Spec Change (MSC) proposals; Governing Board elected by members",
   "disparity_tracking": "No formal disparity tracking documented; accessibility and inclusion discussed in community forums but not systematically measured",

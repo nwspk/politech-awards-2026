@@ -44,7 +44,7 @@
     "federal",
     "international"
   ],
-  "open_source": false,
+  "open_source": "no",
   "format": [
     "platform",
     "database",
@@ -81,7 +81,7 @@
     "Contributed to transparency discussions around political advertising",
     "Supported election monitoring efforts in multiple countries"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "observational",
   "replication_materials_available": false,
   "published_performance_metrics": true,
@@ -94,7 +94,7 @@
     "API access restrictions from Meta and Google",
     "Data gaps during platform policy changes"
   ],
-  "governance_model": "nonprofit board governance",
+  "governance_model": "foundation",
   "curation_criteria": "Political advertising data from Meta and Google platforms",
   "contributor_governance": "staff-driven with external advisory board",
   "disparity_tracking": false,

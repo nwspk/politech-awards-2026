@@ -77,7 +77,7 @@
     "Increased citizen participation in local government decision-making",
     "Integration with municipal budgeting processes in participating cities"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "observational",
   "replication_materials_available": false,
   "published_performance_metrics": true,
@@ -90,7 +90,7 @@
     "Low sustained engagement in some municipalities",
     "Digital divide affecting rural participation"
   ],
-  "governance_model": "nonprofit",
+  "governance_model": "foundation",
   "curation_criteria": "Community-driven moderation with local government oversight",
   "contributor_governance": "Open contribution model with community review process",
   "disparity_tracking": false,

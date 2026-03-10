@@ -73,7 +73,7 @@
     "Influenced EU Digital Services Act transparency requirements",
     "Referenced in platform policy discussions"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "Standards adoption tracking and platform implementation analysis",
   "replication_materials_available": true,
   "published_performance_metrics": true,

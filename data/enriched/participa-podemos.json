@@ -14,7 +14,7 @@
   "collected_by": "nano-bot",
   "name": "Participa (Podemos)",
   "tagline": "Unified census and participation platform for Podemos: voting, donations, microcredits, and citizen initiatives",
-  "project_type": "Civic participation / member engagement platform",
+  "project_type": "Tool/Platform",
   "org_type": "Political party",
   "issue_area": [
     "participatory democracy",
@@ -44,7 +44,7 @@
     "regional",
     "national electoral units"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/podemos-info/participa",
   "github_stars": 60,
   "last_commit_date": "2023-01-03",
@@ -54,7 +54,7 @@
     "Android app (Phonegap)"
   ],
   "founded_year": 2015,
-  "team_size": "Unknown - internal Podemos development team",
+  "team_size": "small",
   "funding_model": [
     "political party funding"
   ],

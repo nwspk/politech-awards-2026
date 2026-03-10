@@ -37,7 +37,7 @@
   "political_units": [
     "federal"
   ],
-  "open_source": false,
+  "open_source": "no",
   "format": [
     "database",
     "platform"

@@ -79,7 +79,7 @@
     "Influenced NIH and NSF open science policies",
     "Adopted by major research institutions for reproducibility standards"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "observational_studies",
   "replication_materials_available": true,
   "preregistered_studies": [

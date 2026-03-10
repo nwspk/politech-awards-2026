@@ -14,8 +14,8 @@
   "collected_by": "nano-bot",
   "name": "sourceAFRICA",
   "tagline": "Africa's premier repository for actionable documents",
-  "project_type": "document publishing platform / investigative journalism tool",
-  "org_type": "nonprofit (operated by ANCIR / Code for Africa)",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
   "issue_area": [
     "investigative journalism",
     "press freedom",
@@ -41,7 +41,7 @@
   "political_units": [
     "pan-African"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/CodeForAfrica/sourceAFRICA.app-Briefcase",
   "github_stars": 89,
   "last_commit_date": "2024-11-15",
@@ -52,7 +52,7 @@
     "API"
   ],
   "founded_year": 2015,
-  "team_size": 12,
+  "team_size": "medium",
   "funding_model": [
     "institutional grants",
     "organisational support from Code for Africa"
@@ -83,7 +83,7 @@
     "Enabled investigative journalism across Africa",
     "Supported transparency and accountability reporting"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "observational - tracked through contributing organisation reports and published investigations",
   "replication_materials_available": true,
   "published_performance_metrics": "115,126 documents; 1,243,213 pages; 47 contributing organisations; 137 contributors",

@@ -126,7 +126,7 @@
     "Adoption by national governments for disaster preparedness planning",
     "Influence on open data policies in development agencies"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "case studies and impact assessments",
   "replication_materials_available": true,
   "published_performance_metrics": true,

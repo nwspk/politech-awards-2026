@@ -14,20 +14,20 @@
   "collected_by": "collect-enriched-script",
   "name": "Democracy Fund Open Source",
   "tagline": "Open source tools and resources for civic engagement and democratic participation",
-  "project_type": "Software platform / toolkit",
-  "org_type": "Non-profit foundation",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
   "issue_area": "Civic engagement, voting access, election administration",
   "sdg_alignment": [
     "SDG 16: Peace, Justice and Strong Institutions"
   ],
   "decade_plus": false,
-  "geography": "United States",
+  "geography": "national",
   "countries_deployed": [
     "United States"
   ],
   "communities_served": "Voters, election officials, civic organizations, researchers",
   "political_units": "Federal, state, local",
-  "open_source": true,
+  "open_source": "yes",
   "format": "Software tools, documentation, open datasets",
   "founded_year": 2015,
   "funding_model": "Foundation grants and philanthropic support",
@@ -60,7 +60,7 @@
   "replication_materials_available": true,
   "preregistered_studies": false,
   "jurisdictional_scope": "United States",
-  "governance_model": "Foundation-led with community contribution model",
+  "governance_model": "foundation",
   "contributor_governance": "Open contribution model with review process",
   "community_ownership": false,
   "government_partnerships": true,

@@ -77,7 +77,7 @@
     "Reduced duplicate identity verification across agencies",
     "Improved digital service accessibility"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "Service adoption metrics and user satisfaction surveys",
   "replication_materials_available": true,
   "published_performance_metrics": true,

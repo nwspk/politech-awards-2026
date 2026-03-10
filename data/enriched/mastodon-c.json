@@ -85,7 +85,7 @@
     "Contributed to UK government open data standards",
     "Supported EU data governance frameworks"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "case study analysis",
   "replication_materials_available": false,
   "published_performance_metrics": true,

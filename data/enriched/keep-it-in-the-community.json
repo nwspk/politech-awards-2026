@@ -14,8 +14,8 @@
   "collected_by": "collect-enriched-script",
   "name": "Keep It In The Community",
   "tagline": "A platform for community-driven civic engagement and local resource sharing",
-  "project_type": "Digital Platform",
-  "org_type": "Non-profit",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
   "issue_area": [
     "Community Development",
     "Civic Engagement",
@@ -25,7 +25,7 @@
     "SDG 11: Sustainable Cities and Communities"
   ],
   "decade_plus": false,
-  "geography": "United States",
+  "geography": "national",
   "countries_deployed": [
     "United States"
   ],
@@ -35,7 +35,7 @@
   "political_units": [
     "Municipal"
   ],
-  "open_source": false,
+  "open_source": "no",
   "format": [
     "Web Platform"
   ],

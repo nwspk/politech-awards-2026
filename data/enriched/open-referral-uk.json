@@ -14,8 +14,8 @@
   "collected_by": "nano-bot",
   "name": "Open Referral UK",
   "tagline": "The open data standard that makes it easy to publish, find, and use community services data.",
-  "project_type": "Open data standard / community services infrastructure",
-  "org_type": "Standards body / government-supported initiative",
+  "project_type": "Network",
+  "org_type": "Government/public sector",
   "issue_area": [
     "community services",
     "social care",
@@ -29,7 +29,7 @@
     "SDG 17 - Partnerships for the Goals"
   ],
   "decade_plus": false,
-  "geography": "United Kingdom",
+  "geography": "national",
   "countries_deployed": [
     "United Kingdom"
   ],
@@ -42,7 +42,7 @@
   "political_units": [
     "UK local authorities"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/OpenReferralUK",
   "github_stars": 89,
   "last_commit_date": "2025-11-15",
@@ -54,7 +54,7 @@
     "documentation"
   ],
   "founded_year": 2016,
-  "team_size": 5,
+  "team_size": "small",
   "funding_model": [
     "government grant"
   ],

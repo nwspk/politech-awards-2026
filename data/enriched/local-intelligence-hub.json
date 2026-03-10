@@ -39,7 +39,7 @@
   "political_units": [
     "federal"
   ],
-  "open_source": false,
+  "open_source": "no",
   "github_url": "https://github.com/mysociety/local-intelligence-hub",
   "format": [
     "platform",

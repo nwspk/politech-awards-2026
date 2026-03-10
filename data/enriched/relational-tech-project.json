@@ -39,7 +39,7 @@
     "local",
     "regional"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "format": [
     "software",
     "toolkit",

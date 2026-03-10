@@ -4,8 +4,8 @@
   "collected_by": "nano-bot",
   "name": "OA.Works",
   "tagline": "Powerfully simple open access tools for a just and kind information age",
-  "project_type": "toolset / platform",
-  "org_type": "nonprofit (fiscally sponsored project)",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
   "issue_area": [
     "open access",
     "scholarly publishing",
@@ -19,7 +19,7 @@
     "SDG 17: Partnerships for the Goals"
   ],
   "decade_plus": true,
-  "geography": "Global",
+  "geography": "international",
   "countries_deployed": [
     "United States",
     "United Kingdom",
@@ -36,7 +36,7 @@
   "political_units": [
     "Global (non-territorial)"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/oaworks",
   "github_stars": 49,
   "last_commit_date": "2026-03-09",
@@ -48,7 +48,7 @@
     "interlibrary loan tool"
   ],
   "founded_year": 2013,
-  "team_size": 12,
+  "team_size": "medium",
   "funding_model": [
     "grants",
     "library subscriptions",
@@ -118,7 +118,7 @@
     "funder exit reducing operational capacity",
     "institutional library subscription churn"
   ],
-  "governance_model": "Nonprofit project housed at Code for Science & Society (fiscal sponsor); governed by Advisory Committee",
+  "governance_model": "project_of_larger_org",
   "curation_criteria": "Tools built in partnership with librarians and open access advocates; values-driven product decisions",
   "contributor_governance": "Open source repositories; Advisory Committee oversees strategy",
   "disparity_tracking": "Implicit through focus on research equity and global access; tools designed to reduce barriers for researchers in lower-income countries and under-resourced institutions",

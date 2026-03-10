@@ -14,8 +14,8 @@
   "collected_by": "nano-bot",
   "name": "Beckton",
   "tagline": "A conditional-commitment tool for creating groups of paying members — only charges if enough people join.",
-  "project_type": "Civic tech prototype / membership organising tool",
-  "org_type": "Individual open source prototype",
+  "project_type": "Tool/Platform",
+  "org_type": "Grassroots/indie",
   "issue_area": [
     "collective action",
     "labour organising",
@@ -27,7 +27,7 @@
     "SDG 10 - Reduced Inequalities"
   ],
   "decade_plus": false,
-  "geography": "United Kingdom",
+  "geography": "national",
   "countries_deployed": [
     "United Kingdom"
   ],
@@ -39,7 +39,7 @@
   "political_units": [
     "United Kingdom"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/richardjpope/beckton",
   "github_stars": 10,
   "last_commit_date": "2019-02-14",
@@ -47,7 +47,7 @@
     "web application prototype"
   ],
   "founded_year": 2017,
-  "team_size": 1,
+  "team_size": "solo",
   "funding_model": [
     "volunteer"
   ],
@@ -90,7 +90,7 @@
     "GoCardless API dependency",
     "no user base"
   ],
-  "governance_model": "solo author project",
+  "governance_model": "project_of_larger_org",
   "contributor_governance": "not applicable — solo author project",
   "community_ownership": false,
   "ai_involvement": false,

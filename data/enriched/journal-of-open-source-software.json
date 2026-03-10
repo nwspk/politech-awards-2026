@@ -14,8 +14,8 @@
   "collected_by": "collect-enriched-script",
   "name": "Journal of Open Source Software",
   "tagline": "A developer friendly, open access journal for research software packages",
-  "project_type": "Academic Publishing Platform",
-  "org_type": "Non-profit Journal",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
   "issue_area": [
     "Open Source Software",
     "Research Infrastructure",
@@ -26,7 +26,7 @@
     "SDG 9: Industry, Innovation and Infrastructure"
   ],
   "decade_plus": false,
-  "geography": "Global",
+  "geography": "international",
   "countries_deployed": [
     "Global"
   ],
@@ -35,7 +35,7 @@
     "Researchers",
     "Open source community"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/openjournals/joss",
   "github_stars": 1100,
   "last_commit_date": "2026-03-08",
@@ -44,7 +44,7 @@
     "Peer Review Platform"
   ],
   "founded_year": 2016,
-  "team_size": 15,
+  "team_size": "medium",
   "funding_model": [
     "Zero article processing charges",
     "No subscription fees",

@@ -38,7 +38,7 @@
     "local",
     "national"
   ],
-  "open_source": false,
+  "open_source": "no",
   "format": [
     "platform",
     "database"

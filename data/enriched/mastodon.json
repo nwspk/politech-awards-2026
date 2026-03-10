@@ -14,8 +14,8 @@
   "collected_by": "nano-bot",
   "name": "Mastodon",
   "tagline": "Your self-hosted, globally interconnected microblogging community",
-  "project_type": "platform",
-  "org_type": "nonprofit",
+  "project_type": "Platform",
+  "org_type": "Nonprofit/charity",
   "issue_area": [
     "digital public infrastructure",
     "social media",
@@ -28,7 +28,7 @@
     "SDG 17: Partnerships for the Goals"
   ],
   "decade_plus": false,
-  "geography": "Global",
+  "geography": "international",
   "countries_deployed": [
     "United States",
     "Germany",
@@ -57,7 +57,7 @@
     "Canada",
     "Australia"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/mastodon/mastodon",
   "github_stars": 49724,
   "last_commit_date": "2026-03-09",
@@ -68,7 +68,7 @@
     "self-hostable server software"
   ],
   "founded_year": 2016,
-  "team_size": 18,
+  "team_size": "medium",
   "funding_model": [
     "donations",
     "crowdfunding",
@@ -114,7 +114,7 @@
     "Referenced in policy discussions on decentralized social media governance",
     "Contributed to broader conversations on digital public infrastructure"
   ],
-  "causation_strength": "correlational",
+  "causation_strength": "correlated",
   "outcome_methodology": "observational - user adoption and instance growth metrics tracked; no randomized controlled trials",
   "replication_materials_available": true,
   "published_performance_metrics": "GitHub activity metrics, instance count tracking (4,000+ instances as of 2025), user growth statistics published on mastodon.social",
@@ -131,7 +131,7 @@
     "volunteer moderator burnout",
     "non-profit status complications"
   ],
-  "governance_model": "Non-profit with board (Mastodon Inc, 501c3 US); transitioning to community governance in 2025",
+  "governance_model": "foundation",
   "curation_criteria": "Each instance sets its own moderation rules; no central curation",
   "contributor_governance": "Open source contributions via GitHub; core decisions by Mastodon Inc leadership; community governance process started 2025",
   "disparity_tracking": "Limited formal tracking; community discussions about accessibility and inclusion for marginalized users; no published equity metrics",

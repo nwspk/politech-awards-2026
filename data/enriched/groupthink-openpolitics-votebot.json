@@ -14,7 +14,7 @@
   "collected_by": "nano-bot",
   "name": "Groupthink (OpenPolitics Votebot)",
   "tagline": "A collaborative democratic platform built atop GitHub, designed for open policymaking and manifesto writing",
-  "project_type": "Collaborative policymaking / democratic voting platform",
+  "project_type": "Tool/Platform",
   "org_type": "Civil society / open source project",
   "issue_area": [
     "open policymaking",
@@ -27,7 +27,7 @@
     "SDG 10 - Reduced Inequalities"
   ],
   "decade_plus": false,
-  "geography": "United Kingdom",
+  "geography": "national",
   "countries_deployed": [
     "United Kingdom"
   ],
@@ -40,7 +40,7 @@
   "political_units": [
     "UK general public"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/openpolitics/groupthink",
   "github_stars": 39,
   "last_commit_date": "2023-12-25",
@@ -50,7 +50,7 @@
     "Ruby on Rails"
   ],
   "founded_year": 2013,
-  "team_size": "small (5-10 core contributors)",
+  "team_size": "large",
   "funding_model": [
     "volunteer / unfunded"
   ],

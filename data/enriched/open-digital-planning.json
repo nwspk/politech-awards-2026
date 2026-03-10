@@ -14,8 +14,8 @@
   "collected_by": "nano-bot",
   "name": "Open Digital Planning",
   "tagline": "Planning services designed by councils for councils — a community of Local Planning Authorities transforming England's digital planning system",
-  "project_type": "Government digital services platform / civic infrastructure",
-  "org_type": "Government-backed community programme (MHCLG); transitioning to independent nonprofit",
+  "project_type": "Method",
+  "org_type": "Nonprofit/charity",
   "issue_area": [
     "urban planning",
     "local government",
@@ -44,7 +44,7 @@
     "local government (Local Planning Authorities in England)",
     "central government (MHCLG)"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/theopensystemslab/ripa",
   "github_stars": 1200,
   "last_commit_date": "2025-03-08",
@@ -56,7 +56,7 @@
     "community network"
   ],
   "founded_year": 2018,
-  "team_size": 25,
+  "team_size": "medium",
   "funding_model": [
     "government grant (MHCLG Local Digital Fund)",
     "Digital Planning Improvement Fund (£50,000 grants per LPA)"

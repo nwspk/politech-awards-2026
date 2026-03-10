@@ -77,7 +77,7 @@
     "Informed discussions on autonomous vehicle ethics in academic and policy circles",
     "Referenced in AI ethics frameworks and guidelines"
   ],
-  "causation_strength": "correlational",
+  "causation_strength": "correlated",
   "outcome_methodology": "Crowdsourced preference aggregation study with global participation",
   "replication_materials_available": true,
   "published_performance_metrics": "10+ million responses from 233 countries and territories",

@@ -82,7 +82,7 @@
     "Enhanced government transparency and accountability",
     "Support for investigative journalism and civil society monitoring"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "Observational tracking of FOI requests made through platform; user surveys and case studies",
   "replication_materials_available": true,
   "published_performance_metrics": "1,000,000+ Freedom of Information requests made across 25+ jurisdictions",

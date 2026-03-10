@@ -14,7 +14,7 @@
   "collected_by": "nano-bot",
   "name": "LiquidFeedback",
   "tagline": "Liquid democracy software for transparent proposal development and collective decision-making",
-  "project_type": "decision-making / e-democracy platform",
+  "project_type": "Tool/Platform",
   "org_type": "open-source project with commercial service arm",
   "issue_area": [
     "liquid democracy",
@@ -28,7 +28,7 @@
     "SDG 17: Partnerships for the Goals"
   ],
   "decade_plus": true,
-  "geography": "global",
+  "geography": "international",
   "countries_deployed": [
     "Germany",
     "Greece",
@@ -61,7 +61,7 @@
     "Turin",
     "San Donà di Piave"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/liqd/liquidfeedback",
   "github_stars": 450,
   "last_commit_date": "2024-11-15",
@@ -70,7 +70,7 @@
     "enterprise software platform"
   ],
   "founded_year": 2009,
-  "team_size": "small team (4 original developers; commercial services via FlexiGuided GmbH)",
+  "team_size": "small",
   "funding_model": [
     "commercial services (FlexiGuided GmbH)",
     "EU project grants",

@@ -39,7 +39,7 @@
   "political_units": [
     "federal"
   ],
-  "open_source": false,
+  "open_source": "no",
   "format": [
     "platform",
     "network"
@@ -90,7 +90,7 @@
   ],
   "in_civictech_guide": false,
   "wikipedia_page": false,
-  "causation_strength": "unknown",
+  "causation_strength": "anecdotal",
   "replication_materials_available": false,
   "published_performance_metrics": false,
   "documented_limitations": [

@@ -14,7 +14,7 @@
   "collected_by": "collect-enriched-script",
   "name": "In the news",
   "tagline": "Section of the Main Page directing readers to articles substantially updated to reflect recent or current events of wide interest",
-  "project_type": "content curation platform",
+  "project_type": "Tool/Platform",
   "org_type": "volunteer-driven wiki project",
   "issue_area": [
     "information access",
@@ -26,7 +26,7 @@
     "SDG 16 - Peace, Justice and Strong Institutions"
   ],
   "decade_plus": false,
-  "geography": "Global",
+  "geography": "international",
   "countries_deployed": [
     "Global - all countries with Wikipedia access"
   ],
@@ -37,7 +37,7 @@
   "political_units": [
     "Global"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "format": [
     "web portal",
     "content curation"

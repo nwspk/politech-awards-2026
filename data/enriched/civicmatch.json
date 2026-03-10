@@ -14,8 +14,8 @@
   "collected_by": "collect-enriched-script",
   "name": "CivicMatch",
   "tagline": "Connect citizens with civic opportunities and elected representatives",
-  "project_type": "Web application",
-  "org_type": "Nonprofit",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
   "issue_area": [
     "Civic engagement",
     "Representative accountability",
@@ -25,7 +25,7 @@
     "SDG 16: Peace, Justice and Strong Institutions"
   ],
   "decade_plus": false,
-  "geography": "United States",
+  "geography": "national",
   "countries_deployed": [
     "United States"
   ],
@@ -38,7 +38,7 @@
     "State",
     "Local"
   ],
-  "open_source": false,
+  "open_source": "no",
   "format": "Web application",
   "funding_model": "Nonprofit",
   "funding_verified": false,

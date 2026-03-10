@@ -14,8 +14,8 @@
   "collected_by": "collect-enriched-script",
   "name": "Framework for Meaningful Engagement 2.0",
   "tagline": "Practical suggestions on how to engage civil society and affected communities in AI development to support platforms and AI developers in creating rights-based products",
-  "project_type": "Framework/Toolkit",
-  "org_type": "NGO/Civil Society",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
   "issue_area": [
     "AI governance",
     "Civic participation",
@@ -26,7 +26,7 @@
     "SDG 16: Peace, Justice and Strong Institutions"
   ],
   "decade_plus": false,
-  "geography": "Global",
+  "geography": "international",
   "countries_deployed": [
     "Netherlands",
     "United States"
@@ -41,7 +41,7 @@
     "Amsterdam",
     "Netherlands"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "format": [
     "Framework document",
     "Guidance toolkit"
@@ -85,7 +85,7 @@
     "Adoption by Amsterdam city government for AI governance",
     "Integration into Discord's safety protocols"
   ],
-  "causation_strength": "Medium",
+  "causation_strength": "correlated",
   "outcome_methodology": "Case study documentation; pilot implementation tracking",
   "replication_materials_available": true,
   "published_performance_metrics": "Framework adoption metrics; stakeholder feedback documentation",
@@ -94,7 +94,7 @@
     "Implementation outcomes depend on organizational commitment"
   ],
   "jurisdictional_scope": "Global",
-  "governance_model": "Co-created with over 300 individuals and groups from civil society, private sector, and public service",
+  "governance_model": "individual",
   "curation_criteria": "Multi-stakeholder consultation; rights-based approach; practical applicability",
   "contributor_governance": "Multi-stakeholder consultation process",
   "disparity_tracking": "Framework addresses equity and inclusion in AI development; focuses on affected communities and marginalized groups",

@@ -72,7 +72,7 @@
   "policy_outcomes": [
     "Enabled participatory budgeting processes in multiple organizations and communities"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "observational; case studies from deployed instances",
   "replication_materials_available": true,
   "published_performance_metrics": "User engagement metrics and deployment case studies available on project website",

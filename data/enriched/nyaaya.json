@@ -14,8 +14,8 @@
   "collected_by": "nano-bot",
   "name": "Nyaaya",
   "tagline": "India's Laws Explained — open access legal information for every Indian citizen",
-  "project_type": "Legal information platform",
-  "org_type": "Nonprofit / NGO initiative (initiative of Vidhi Centre for Legal Policy)",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
   "issue_area": [
     "access to justice",
     "legal literacy",
@@ -27,7 +27,7 @@
     "SDG 10 — Reduced Inequalities"
   ],
   "decade_plus": false,
-  "geography": "India",
+  "geography": "national",
   "countries_deployed": [
     "India"
   ],
@@ -59,7 +59,7 @@
     "glossary"
   ],
   "founded_year": 2016,
-  "team_size": 15,
+  "team_size": "medium",
   "funding_model": [
     "philanthropy",
     "grants"

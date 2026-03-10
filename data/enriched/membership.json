@@ -14,14 +14,14 @@
   "collected_by": "collect-enriched-script",
   "name": "Membership",
   "tagline": "A prototype for decentralized membership and governance systems",
-  "project_type": "Software/Platform",
-  "org_type": "Individual/Open Source",
+  "project_type": "Tool/Platform",
+  "org_type": "Grassroots/indie",
   "issue_area": "Governance, Democracy, Civic Participation",
   "sdg_alignment": [
     "SDG 16: Peace, Justice and Strong Institutions"
   ],
   "decade_plus": false,
-  "geography": "Global",
+  "geography": "international",
   "countries_deployed": [
     "Multiple"
   ],
@@ -30,9 +30,9 @@
     "Governance practitioners",
     "Decentralization advocates"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "format": "Prototype/Concept",
-  "team_size": 1,
+  "team_size": "solo",
   "funding_model": "Unfunded/Volunteer",
   "funding_verified": false,
   "dependency_risks": "Early-stage prototype with limited maintenance",
@@ -64,7 +64,7 @@
   "documented_limitations": false,
   "jurisdictional_scope": "Global/Theoretical",
   "failure_modes": "Prototype stage - limited real-world deployment",
-  "governance_model": "Individual creator",
+  "governance_model": "individual",
   "disparity_tracking": false,
   "community_ownership": false,
   "ai_involvement": false,

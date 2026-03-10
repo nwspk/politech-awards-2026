@@ -14,8 +14,8 @@
   "collected_by": "agent-batch-33",
   "name": "Open Collective",
   "tagline": "Raise, manage and disburse money with full transparency.",
-  "project_type": "platform",
-  "org_type": "nonprofit",
+  "project_type": "Platform",
+  "org_type": "Nonprofit/charity",
   "issue_area": [
     "civic finance",
     "open source sustainability",
@@ -27,7 +27,7 @@
     "SDG 10 - Reduced Inequalities"
   ],
   "decade_plus": false,
-  "geography": "global",
+  "geography": "international",
   "countries_deployed": [
     "United States",
     "United Kingdom",
@@ -53,7 +53,7 @@
   "political_units": [
     "global"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/opencollective",
   "github_stars": 9200,
   "last_commit_date": "2026-03-08",
@@ -61,7 +61,7 @@
     "web platform"
   ],
   "founded_year": 2015,
-  "team_size": 35,
+  "team_size": "medium",
   "funding_model": [
     "platform fees",
     "fiscal host fees"

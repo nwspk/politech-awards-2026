@@ -88,7 +88,7 @@
     "Adoption by multiple UK local authorities for planning consultations",
     "Integration with local planning processes in 15+ councils"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "case studies and local authority feedback",
   "replication_materials_available": false,
   "published_performance_metrics": true,
@@ -100,7 +100,7 @@
   "failure_modes": [
     "Low adoption rates in some councils due to legacy system integration challenges"
   ],
-  "governance_model": "centralized - company-led with stakeholder advisory board",
+  "governance_model": "LLC",
   "curation_criteria": "Community contributions moderated by platform administrators; planning documents curated by local authorities",
   "contributor_governance": "Limited - primarily platform-managed with local authority oversight",
   "disparity_tracking": false,

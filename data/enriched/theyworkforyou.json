@@ -80,7 +80,7 @@
     "Enhanced citizen engagement with legislative processes",
     "Influenced parliamentary data publication standards"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "observational tracking of platform usage and parliamentary engagement metrics",
   "replication_materials_available": true,
   "published_performance_metrics": "Platform tracks 2M+ annual visitors, 100K+ registered users, comprehensive Hansard database coverage",

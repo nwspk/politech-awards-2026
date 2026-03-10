@@ -14,8 +14,8 @@
   "collected_by": "nano-bot",
   "name": "Gapminder Worldview Upgrader",
   "tagline": "Important stuff most people get wrong — a free educational tool to help people rid themselves of common systematic misconceptions about global development",
-  "project_type": "Data literacy / educational quiz tool",
-  "org_type": "Non-profit foundation",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
   "issue_area": [
     "data literacy",
     "global development",
@@ -30,7 +30,7 @@
     "SDG 10 - Reduced Inequalities"
   ],
   "decade_plus": false,
-  "geography": "Global",
+  "geography": "international",
   "countries_deployed": [
     "Global - available in 30+ languages"
   ],
@@ -44,7 +44,7 @@
   "political_units": [
     "Global"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/Gapminder",
   "github_stars": 2100,
   "last_commit_date": "2024-12-15",
@@ -53,7 +53,7 @@
     "quiz / interactive tool"
   ],
   "founded_year": 2005,
-  "team_size": 45,
+  "team_size": "medium",
   "funding_model": [
     "foundation grants",
     "operating foundation"
@@ -83,7 +83,7 @@
     "Adopted by educational institutions in 50+ countries",
     "Used in corporate training programs by Fortune 500 companies"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "Pre/post quiz assessment; longitudinal tracking of user attitude changes; comparison with control groups in educational settings",
   "replication_materials_available": false,
   "published_performance_metrics": "Users show average 15-20% improvement in factual knowledge post-quiz; 70% of users report increased awareness of personal misconceptions",
@@ -96,7 +96,7 @@
     "question bank may become outdated as global statistics change",
     "engagement may not translate to durable attitude change"
   ],
-  "governance_model": "Operated by Gapminder Foundation, an independent Swedish non-profit; no political, religious or economic affiliations",
+  "governance_model": "foundation",
   "curation_criteria": "Questions selected on strict criteria: majority of respondents answer them incorrectly; aligned with UN SDG framework",
   "contributor_governance": "Open source contributions reviewed by Gapminder core team; community contributions welcome via GitHub pull requests",
   "disparity_tracking": "Tracks performance disparities by geography, education level, and language; publishes annual equity reports",

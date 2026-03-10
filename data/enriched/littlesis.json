@@ -14,8 +14,8 @@
   "collected_by": "nano-bot",
   "name": "LittleSis",
   "tagline": "Free database of who-knows-who at the heights of business and government — power research for just futures",
-  "project_type": "database / research platform / power-mapping tool",
-  "org_type": "nonprofit (Public Accountability Initiative, 501c3)",
+  "project_type": "Database",
+  "org_type": "Nonprofit/charity",
   "issue_area": [
     "corporate accountability",
     "government accountability",
@@ -45,7 +45,7 @@
     "US federal",
     "US state governments"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/public-accountability/littlesis-rails",
   "github_stars": 108,
   "last_commit_date": "2026-03-05",
@@ -55,7 +55,7 @@
     "power-mapping visualization tool"
   ],
   "founded_year": 2009,
-  "team_size": "8-12",
+  "team_size": "large",
   "funding_model": [
     "donations",
     "grants"
@@ -107,7 +107,7 @@
     "Data staleness if volunteer contributions drop",
     "Potential legal exposure from publishing relationship data on named individuals"
   ],
-  "governance_model": "nonprofit governed by Public Accountability Initiative; co-executive directors (Gin Armstrong, Munira Lokhandwala)",
+  "governance_model": "foundation",
   "curation_criteria": "Curated relationship data on individuals and organisations at the heights of US business and government; data verified by staff and volunteer researchers",
   "contributor_governance": "Staff + volunteer researchers; open data submission via Information Review Form",
   "disparity_tracking": false,

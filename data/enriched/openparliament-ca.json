@@ -4,8 +4,8 @@
   "collected_by": "nano-bot",
   "name": "openparliament.ca",
   "tagline": "Keeping tabs on Canada's Parliament — making it easy to follow your MPs, bills, debates, and committees.",
-  "project_type": "Parliamentary monitoring / open data platform",
-  "org_type": "Independent volunteer project",
+  "project_type": "Tool/Platform",
+  "org_type": "Grassroots/indie",
   "issue_area": [
     "parliamentary transparency",
     "open government",
@@ -17,7 +17,7 @@
     "SDG 17 - Partnerships for the Goals"
   ],
   "decade_plus": true,
-  "geography": "Canada",
+  "geography": "national",
   "countries_deployed": [
     "Canada"
   ],
@@ -30,7 +30,7 @@
   "political_units": [
     "House of Commons of Canada"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/michaelmulley/openparliament",
   "github_stars": 306,
   "last_commit_date": "2025-12-15",
@@ -40,7 +40,7 @@
     "bulk data download"
   ],
   "founded_year": 2010,
-  "team_size": 1,
+  "team_size": "solo",
   "funding_model": [
     "volunteer",
     "donations"
@@ -72,7 +72,7 @@
     "single-maintainer bus factor",
     "scraping fragility if Parliament changes site structure"
   ],
-  "governance_model": "solo maintainer; open source contributions welcomed",
+  "governance_model": "individual",
   "curation_criteria": "Automated scraping and indexing of official House of Commons data; user-contributed MP tracking features",
   "contributor_governance": "ad hoc; issues and PRs via GitHub",
   "disparity_tracking": null,

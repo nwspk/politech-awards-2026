@@ -15,7 +15,7 @@
   "name": "Cybersecurity for Democracy",
   "tagline": "A multi-university center for problem-driven research and research-driven policy",
   "project_type": "Research Center",
-  "org_type": "Academic/Multi-University",
+  "org_type": "Academic/research",
   "issue_area": [
     "Cybersecurity",
     "Platform Transparency",
@@ -46,7 +46,7 @@
     "European Commission",
     "U.S. Courts"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/cybersecurityfordemocracy",
   "github_stars": 150,
   "last_commit_date": "2025-12-15",
@@ -57,7 +57,7 @@
     "Amicus Briefs"
   ],
   "founded_year": 2019,
-  "team_size": 25,
+  "team_size": "medium",
   "funding_model": [
     "Academic Institution"
   ],

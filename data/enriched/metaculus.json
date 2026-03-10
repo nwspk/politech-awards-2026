@@ -81,7 +81,7 @@
   "policy_outcomes": [
     "Used by researchers and organizations for long-term forecasting on policy-relevant topics"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "Aggregate forecast accuracy measured against resolved questions; community-based prediction validation",
   "replication_materials_available": true,
   "published_performance_metrics": "Metaculus Track Record Report; annual accuracy statistics published on platform",

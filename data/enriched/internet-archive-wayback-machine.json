@@ -14,8 +14,8 @@
   "collected_by": "nano-bot",
   "name": "Internet Archive Wayback Machine",
   "tagline": "Digital archive of the World Wide Web — preserving over 1 trillion web pages since 1996",
-  "project_type": "digital archive / public library infrastructure",
-  "org_type": "nonprofit (501c3)",
+  "project_type": "Database",
+  "org_type": "Nonprofit/charity",
   "issue_area": [
     "digital preservation",
     "freedom of information",
@@ -29,7 +29,7 @@
     "SDG 17 (Partnerships for the Goals)"
   ],
   "decade_plus": true,
-  "geography": "global",
+  "geography": "international",
   "countries_deployed": [
     "United States",
     "Canada",
@@ -49,7 +49,7 @@
     "United States (primary)",
     "Global jurisdictions (via web access)"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/internetarchive",
   "github_stars": 822,
   "last_commit_date": "2024-03-01",
@@ -58,7 +58,7 @@
     "API"
   ],
   "founded_year": 1996,
-  "team_size": 200,
+  "team_size": "large",
   "funding_model": [
     "donations",
     "grants",
@@ -128,7 +128,7 @@
     "Copyright litigation constraining lending scope",
     "Centralised data risk despite Canadian mirror plans"
   ],
-  "governance_model": "nonprofit governed by Brewster Kahle as founder; board of directors",
+  "governance_model": "foundation",
   "curation_criteria": "Automated web crawl; respects robots.txt; supplemented by voluntary uploads and partner digitisation projects",
   "contributor_governance": "Open submissions; partner institutions; staff-managed archive decisions",
   "disparity_tracking": false,

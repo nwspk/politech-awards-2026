@@ -38,7 +38,7 @@
     "local",
     "state"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/opencouncil/opencouncil",
   "github_stars": 156,
   "last_commit_date": "2025-11-15",
@@ -78,7 +78,7 @@
     "Increased transparency in local council decision-making",
     "Enhanced citizen awareness of local government activities"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "User engagement metrics and council transparency assessments",
   "replication_materials_available": true,
   "published_performance_metrics": true,

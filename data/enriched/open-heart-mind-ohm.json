@@ -14,8 +14,8 @@
   "collected_by": "nano-bot",
   "name": "Open Heart Mind (OHM)",
   "tagline": "Participatory gatherings and regenerative systems for collective flourishing — developing Wisdom, an open-source peer evaluation platform",
-  "project_type": "Community platform / participatory governance tooling",
-  "org_type": "Registered charity (DGR, Australia)",
+  "project_type": "Network",
+  "org_type": "Nonprofit/charity",
   "issue_area": [
     "participatory governance",
     "collective intelligence",
@@ -43,7 +43,7 @@
   "political_units": [
     "Local community groups (Australia)"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/openheartmind/WISDOM",
   "github_stars": 45,
   "last_commit_date": "2025-12-15",
@@ -54,7 +54,7 @@
     "community peer evaluation framework"
   ],
   "founded_year": 2023,
-  "team_size": "small (core team ~10, collaborative volunteer contributors)",
+  "team_size": "medium",
   "funding_model": [
     "donations",
     "community contributions",
@@ -90,7 +90,7 @@
     "insufficient adoption to achieve network effects",
     "funding gap"
   ],
-  "governance_model": "Decentralised, community-led; governed by open science principles; Cooper Smout as founding lead",
+  "governance_model": "cooperative",
   "curation_criteria": "Community peer evaluation via Wisdom; contributions assessed collectively rather than by central authority",
   "contributor_governance": "All participants can contribute and earn recognition; contributions tracked and rewarded through Wisdom peer evaluation system",
   "disparity_tracking": false,

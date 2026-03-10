@@ -14,7 +14,7 @@
   "collected_by": "collect-enriched-script",
   "name": "Granicus",
   "tagline": "The Citizen Experience Platform for Government",
-  "project_type": "Software/SaaS Platform",
+  "project_type": "Tool/Platform",
   "org_type": "Private Company",
   "issue_area": [
     "Digital Government",
@@ -46,7 +46,7 @@
     "Higher education"
   ],
   "political_units": "Multi-jurisdictional local and central government agencies",
-  "open_source": false,
+  "open_source": "no",
   "format": [
     "SaaS Platform",
     "Cloud-based Software"
@@ -100,7 +100,7 @@
     "Performance metrics are vendor-claimed without independent verification"
   ],
   "jurisdictional_scope": "Multi-jurisdictional",
-  "governance_model": "Corporate governance (private company)",
+  "governance_model": "LLC",
   "community_ownership": false,
   "government_partnerships": [
     "Multiple local and central government agencies (unspecified)"

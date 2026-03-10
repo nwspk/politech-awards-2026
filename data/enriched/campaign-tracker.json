@@ -81,7 +81,7 @@
     "Increased transparency requirements for political advertising in Dutch electoral law (2023)",
     "Adoption of Campaign Tracker data by Dutch Parliament for campaign finance monitoring"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "observational",
   "replication_materials_available": true,
   "published_performance_metrics": true,
@@ -95,7 +95,7 @@
     "Incomplete data from smaller parties",
     "Delays in official campaign finance reporting"
   ],
-  "governance_model": "nonprofit board with stakeholder advisory council",
+  "governance_model": "foundation",
   "curation_criteria": "Tracks all registered political parties and campaigns meeting electoral thresholds; includes advertising spend, donor information, and media coverage analysis",
   "contributor_governance": "Open contribution model with editorial review process for data submissions",
   "disparity_tracking": true,

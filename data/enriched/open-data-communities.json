@@ -71,7 +71,7 @@
     "Supported research on housing and planning policy",
     "Facilitated transparency in local government finance data"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "observational",
   "replication_materials_available": false,
   "documented_limitations": [

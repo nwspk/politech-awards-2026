@@ -88,7 +88,7 @@
     "Supports UK beneficial ownership transparency requirements",
     "Informs civil society advocacy on corporate accountability"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "observational",
   "replication_materials_available": false,
   "published_performance_metrics": false,

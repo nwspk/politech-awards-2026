@@ -14,8 +14,8 @@
   "collected_by": "collect-enriched-script",
   "name": "Filmot",
   "tagline": "Search in Youtube captions and subtitles",
-  "project_type": "search_tool",
-  "org_type": "individual_project",
+  "project_type": "Platform",
+  "org_type": "Grassroots/indie",
   "issue_area": [
     "information_access",
     "media_transparency"
@@ -24,7 +24,7 @@
     "SDG 16 - Peace, Justice and Strong Institutions"
   ],
   "decade_plus": false,
-  "geography": "global",
+  "geography": "international",
   "countries_deployed": [
     "global"
   ],
@@ -33,12 +33,12 @@
     "journalists",
     "general_public"
   ],
-  "open_source": false,
+  "open_source": "no",
   "format": [
     "web_application"
   ],
   "founded_year": 2013,
-  "team_size": 1,
+  "team_size": "solo",
   "funding_model": [
     "patronage"
   ],
@@ -79,7 +79,7 @@
     "youtube_api_changes",
     "service_discontinuation_risk"
   ],
-  "governance_model": "individual_creator",
+  "governance_model": "individual",
   "disparity_tracking": false,
   "community_ownership": false,
   "political_bias_allegations": false,

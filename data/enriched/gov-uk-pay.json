@@ -75,7 +75,7 @@
     "Reduced payment processing costs for government agencies",
     "Improved citizen experience for government service payments"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "administrative data analysis and transaction metrics",
   "replication_materials_available": false,
   "published_performance_metrics": "1,500+ live services; 70,000+ payments processed daily; 99.99% uptime",
