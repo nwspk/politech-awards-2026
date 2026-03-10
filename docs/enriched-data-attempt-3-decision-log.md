@@ -381,3 +381,72 @@ Numeric/boolean fields (founded_year, github_stars, etc.) are never overwritten 
 **Impact on persistently data-poor projects:** Jina was able to retrieve content for Violation Tracker UK (451w vs 9w cached) and Dunadyne (345w vs 16w cached), adding new fields for both. DoGooder (411w vs 127w) also improved. Sites that remained thin through Jina (Local Deep Researcher, SSRN paper, Firebase template) are confirmed to have no retrievable public web presence and should be flagged as "data not available" in the published dossier.
 
 **No further automated passes planned.** The enriched data is now as complete as automated methods can make it for this dataset.
+
+---
+
+### Decision 16 — Remaining limitations after all automated passes
+
+**Date:** 2026-03-10
+
+**Context:** After five collection passes (0–5), this section documents what the automated pipeline could not fix, and what a future attempt should do differently.
+
+---
+
+#### 1. The impact evidence problem (structural — not fixable by scraping)
+
+The three highest-jury-value fields are exactly the ones where LLM output is least trustworthy:
+
+| Field | Gap | Root cause |
+|---|---|---|
+| `policy_outcomes` | 57% null; of 132 filled, only 33 have an evidence link | LLMs summarise claims but cannot verify them. Most projects self-report impact without publishing proof. |
+| `causation_strength` | 46% null; 1 project `independently_verified`, 11 `directly_cited` | Distinguishing "correlated" from "directly_cited" requires reading primary sources — legislation, government reports — not reliably in training data. |
+| `news_articles` | 167 filled but no URLs; only 38 have a URL | LLMs confidently hallucinate headlines. Unlinked articles are unverifiable and effectively useless as evidence. |
+
+The dataset has a credibility problem: it looks richer than it is because arrays are filled but the contents are not independently verifiable.
+
+---
+
+#### 2. `elections_used_in` is essentially empty (92% null)
+
+294 of 321 projects have no election data — the most contextually important field for a political technology awards. Most projects don't publish which specific elections they were used in even when they were. A general LLM sweep cannot fill this; it would require a dedicated search across election press releases, Ballotpedia, NDI reports, or parliamentary records.
+
+---
+
+#### 3. `failure_modes` and `documented_limitations` are structurally underfilled
+
+38% and 25% null respectively. More critically, even where filled the content is thin and self-reported. Genuine failure documentation comes from academic critiques, investigative journalism, or post-mortems that organisations rarely publish. An LLM defaults to inventing plausible-sounding risks rather than citing real documented failures.
+
+---
+
+#### 4. 20 projects have dead/stale homepages — their data is unverifiable
+
+`dead_link=true` at scrape time. For well-known projects (Sci-Hub, Anna's Archive) training data is likely sufficient. For niche ones the LLM data may be months or years out of date, or hallucinated. Jina did not help here — a dead site is dead to all scrapers.
+
+---
+
+#### 5. 4 confirmed non-projects in the candidate list
+
+- **Unknown Academic Paper (SSRN 5351275)** — a paywall-protected paper, not a project
+- **tracking-template (Firebase app)** — a blank Firebase template or private internal tool
+- **Agreement Engine** — a Medium concept article, no deployable product or standalone web presence
+- **Membership** — a personal Medium post describing a prototype
+
+All four should be flagged for removal from the candidate list before committee review.
+
+---
+
+#### 6. Link quality across the dataset is poor
+
+99 projects have `policy_outcomes` filled but with no evidence links — as weak as `anecdotal` regardless of the `causation_strength` value. 167 `news_articles` entries have no URL and cannot be verified. These inflate apparent completeness without providing real evidentiary value.
+
+---
+
+#### What a future attempt should do differently
+
+| Fix | How |
+|---|---|
+| Real-time web search for evidence links | Use a live search tool (Perplexity, Tavily, or a search API) specifically for `policy_outcomes` — only store outcomes the tool can return a direct URL for |
+| Validate news URLs at collection time | After LLM fills `news_articles`, fetch each URL and discard 404s before saving — never store unverified links |
+| Elections data from structured sources | Search Ballotpedia, Electoral Integrity Project, NDI, or election-specific press release archives rather than project homepages |
+| Human spot-check layer | Flag high-null or high-anecdotal projects for 15-minute manual researcher review before committee sees them |
+| Remove confirmed non-projects | The 4 non-project URLs should be excluded from the candidate list before the next collection run |
