@@ -42,7 +42,7 @@
   "political_units": [
     "international"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/Contracts-for-Data-Collaboration",
   "format": [
     "database",
@@ -74,7 +74,7 @@
     "Influenced data collaboration frameworks in multiple jurisdictions",
     "Referenced in policy discussions on data governance"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "Case study analysis and stakeholder feedback",
   "replication_materials_available": true,
   "published_performance_metrics": true,

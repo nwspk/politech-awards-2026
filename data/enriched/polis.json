@@ -14,8 +14,8 @@
   "collected_by": "agent-batch-30",
   "name": "Polis",
   "tagline": "Open-source AI-powered platform for large-scale open-ended public feedback and deliberation",
-  "project_type": "platform",
-  "org_type": "nonprofit",
+  "project_type": "Platform",
+  "org_type": "Nonprofit/charity",
   "issue_area": [
     "deliberative democracy",
     "civic participation",
@@ -25,7 +25,7 @@
     "SDG 16"
   ],
   "decade_plus": false,
-  "geography": "global",
+  "geography": "international",
   "countries_deployed": [
     "Taiwan",
     "United States",
@@ -45,7 +45,7 @@
     "City of Taipei",
     "Various municipal governments"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/compdemocracy/polis",
   "github_stars": 1131,
   "last_commit_date": "2026-03-09",
@@ -54,7 +54,7 @@
     "API"
   ],
   "founded_year": 2012,
-  "team_size": 8,
+  "team_size": "small",
   "funding_model": [
     "grants",
     "nonprofit"
@@ -83,7 +83,7 @@
   "policy_outcomes": [
     "Used in vTaiwan process to inform legislation on Uber and Airbnb regulation in Taiwan"
   ],
-  "causation_strength": "correlational",
+  "causation_strength": "correlated",
   "outcome_methodology": "Qualitative analysis of policy recommendations generated from Polis conversations and subsequent legislative outcomes",
   "replication_materials_available": true,
   "published_performance_metrics": "Participation rates, conversation quality metrics, and consensus mapping accuracy documented in academic publications",
@@ -98,7 +98,7 @@
     "Requires skilled facilitation",
     "Risk of low participation without promotion"
   ],
-  "governance_model": "nonprofit with open-source community",
+  "governance_model": "foundation",
   "curation_criteria": "Open contribution model with community review; moderation guidelines available in GitHub documentation",
   "contributor_governance": "GitHub issues and discussions",
   "disparity_tracking": "No systematic tracking of demographic representation or equity outcomes documented",

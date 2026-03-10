@@ -14,8 +14,8 @@
   "collected_by": "agent-batch-38",
   "name": "Papertree",
   "tagline": "Interactive tree planting data platform for transparent climate action accountability",
-  "project_type": "open-source-software-platform",
-  "org_type": "startup",
+  "project_type": "Tool/Platform",
+  "org_type": "For-profit/social enterprise",
   "issue_area": [
     "climate",
     "transparency",
@@ -28,13 +28,13 @@
     "SDG 16"
   ],
   "decade_plus": false,
-  "geography": "global",
+  "geography": "international",
   "communities_served": [
     "tree planting organisations",
     "climate advocates",
     "researchers"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "format": [
     "web platform",
     "data visualisation"

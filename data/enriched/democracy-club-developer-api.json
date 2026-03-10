@@ -14,8 +14,8 @@
   "collected_by": "collect-enriched-script",
   "name": "Democracy Club Developer API",
   "tagline": "API for accessing ballots, candidates and polling stations data",
-  "project_type": "data_infrastructure",
-  "org_type": "nonprofit",
+  "project_type": "Method",
+  "org_type": "Nonprofit/charity",
   "issue_area": [
     "election_information",
     "voter_access",
@@ -25,7 +25,7 @@
     "SDG_16_peace_justice_institutions"
   ],
   "decade_plus": false,
-  "geography": "United Kingdom",
+  "geography": "national",
   "countries_deployed": [
     "United Kingdom"
   ],
@@ -40,7 +40,7 @@
     "Scotland",
     "Northern_Ireland"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/DemocracyClub/EveryElection",
   "github_stars": 85,
   "last_commit_date": "2025-12-15",
@@ -49,7 +49,7 @@
     "JSON"
   ],
   "founded_year": 2009,
-  "team_size": 12,
+  "team_size": "medium",
   "funding_model": [
     "grants",
     "donations"
@@ -81,7 +81,7 @@
     "Improved voter access to polling station information",
     "Enhanced candidate information availability during elections"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "observational",
   "replication_materials_available": true,
   "published_performance_metrics": true,
@@ -94,7 +94,7 @@
     "Data gaps in some local authorities",
     "Delays in candidate data collection during election periods"
   ],
-  "governance_model": "nonprofit board governance",
+  "governance_model": "foundation",
   "curation_criteria": "Community-contributed data verified against official Electoral Commission sources",
   "contributor_governance": "Open contribution model with community review process",
   "disparity_tracking": false,

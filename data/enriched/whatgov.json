@@ -38,7 +38,7 @@
   "political_units": [
     "federal"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/mysociety/whatdotheyknow-theme",
   "format": [
     "platform",
@@ -59,7 +59,7 @@
   ],
   "in_civictech_guide": true,
   "jurisdictional_scope": "United Kingdom Parliament",
-  "governance_model": "Nonprofit governance under mySociety",
+  "governance_model": "foundation",
   "curation_criteria": "Parliamentary data from UK Parliament official sources",
   "disparity_tracking": false,
   "community_ownership": false,

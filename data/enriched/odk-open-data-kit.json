@@ -89,7 +89,7 @@
     "Use in election monitoring and civic participation initiatives",
     "Integration into humanitarian response protocols"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "observational studies and case studies from deployment contexts",
   "replication_materials_available": true,
   "published_performance_metrics": true,

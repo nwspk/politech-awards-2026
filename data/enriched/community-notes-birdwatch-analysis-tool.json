@@ -14,8 +14,8 @@
   "collected_by": "nano-bot",
   "name": "Community Notes (Birdwatch) Analysis Tool",
   "tagline": "Metadata repository and analysis tools for X's Community Notes system, adding user aliases and tweet-author data missing from official snapshots",
-  "project_type": "data analysis / research tool / accountability tool",
-  "org_type": "individual researcher",
+  "project_type": "Tool/Platform",
+  "org_type": "Academic/research",
   "issue_area": [
     "misinformation",
     "platform accountability",
@@ -27,7 +27,7 @@
     "SDG 10: Reduced Inequalities"
   ],
   "decade_plus": false,
-  "geography": "Global",
+  "geography": "international",
   "countries_deployed": [
     "Germany",
     "Global (X/Twitter operates globally)"
@@ -41,7 +41,7 @@
   "political_units": [
     "Global"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/travisbrown/birdwatch",
   "github_stars": 9,
   "last_commit_date": "2025-04-01",
@@ -51,7 +51,7 @@
     "command-line tool"
   ],
   "founded_year": 2023,
-  "team_size": 1,
+  "team_size": "solo",
   "funding_model": [
     "Prototype Fund grant"
   ],
@@ -95,7 +95,7 @@
   ],
   "in_civictech_guide": false,
   "wikipedia_page": false,
-  "causation_strength": "unknown",
+  "causation_strength": "anecdotal",
   "outcome_methodology": "not applicable",
   "replication_materials_available": true,
   "published_performance_metrics": "Approximately 96% of distinct participant IDs resolved to aliases; ~12% of noted tweets not available",
@@ -108,7 +108,7 @@
     "X/Twitter restricting access to Community Notes snapshot data",
     "Platform policy preventing alias resolution"
   ],
-  "governance_model": "Individual maintainer (Travis Brown); open-source Rust project",
+  "governance_model": "project_of_larger_org",
   "curation_criteria": "Metadata only; all data sourced from X's publicly published daily Community Notes snapshots",
   "contributor_governance": "open-source community contributions accepted; single maintainer decision authority",
   "disparity_tracking": true,

@@ -14,8 +14,8 @@
   "collected_by": "nano-bot",
   "name": "One Project",
   "tagline": "Building infrastructure for economic democracy — connecting people, organisations, and resources to coordinate and grow a new economy",
-  "project_type": "Civic technology platform / economic democracy infrastructure",
-  "org_type": "Nonprofit (501c3)",
+  "project_type": "Method",
+  "org_type": "Nonprofit/charity",
   "issue_area": [
     "economic democracy",
     "participatory governance",
@@ -43,7 +43,7 @@
     "San Francisco Bay Area",
     "United States"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/oneproject-org",
   "format": [
     "digital platform (Common)",
@@ -53,7 +53,7 @@
     "storytelling"
   ],
   "founded_year": 2019,
-  "team_size": "30+",
+  "team_size": "medium",
   "funding_model": [
     "philanthropy",
     "self-funding (founder Justin Rosenstein)"
@@ -83,7 +83,7 @@
     "platform dependency on single philanthropic founder",
     "Common platform still in development / waitlist phase"
   ],
-  "governance_model": "Nonprofit with CEO (Aaron Tanaka) and Founder & President (Justin Rosenstein)",
+  "governance_model": "foundation",
   "curation_criteria": "Community-led organisations focused on economic democracy and participatory governance; emphasis on organisations working toward equitable resource distribution",
   "contributor_governance": "Open source contribution guidelines; community input on platform development priorities",
   "disparity_tracking": "Horizon Fund explicitly tracks funding distribution to underrepresented communities and organisations led by people of color",

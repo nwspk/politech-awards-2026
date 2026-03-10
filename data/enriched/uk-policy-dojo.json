@@ -15,7 +15,7 @@
   "name": "UK Policy Dojo",
   "tagline": "A dojo for AI agents to battle out UK policy ideas through adversarial review",
   "project_type": "AI-assisted policy deliberation framework",
-  "org_type": "Individual / open source project",
+  "org_type": "Grassroots/indie",
   "issue_area": [
     "AI in government",
     "policy analysis",
@@ -26,7 +26,7 @@
     "SDG 16 - Peace, Justice and Strong Institutions"
   ],
   "decade_plus": false,
-  "geography": "United Kingdom",
+  "geography": "national",
   "countries_deployed": [
     "United Kingdom"
   ],
@@ -39,7 +39,7 @@
     "UK Parliament",
     "UK Government"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/mikekelly/Policy-Dojo",
   "github_stars": 0,
   "last_commit_date": "2025-11-01",
@@ -48,7 +48,7 @@
     "Markdown"
   ],
   "founded_year": 2025,
-  "team_size": 1,
+  "team_size": "solo",
   "funding_model": [
     "unfunded / personal project"
   ],
@@ -94,7 +94,7 @@
     "AI-generated policy lacking democratic input",
     "no mechanism to connect outputs to actual policymakers"
   ],
-  "governance_model": "Individual-maintained open source repository; agent identity tracked via git commit SHAs",
+  "governance_model": "individual",
   "curation_criteria": "Adversarial review framework where AI agents representing different policy schools-of-thought critique policy proposals; contributions tracked via git commits",
   "contributor_governance": "Fork-based; each contributor runs their own AI agent in a forked repo",
   "community_ownership": "Limited - single maintainer project with open contribution model via forks",

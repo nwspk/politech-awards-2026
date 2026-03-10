@@ -76,7 +76,7 @@
     "Reduced costs for government agencies through shared service model",
     "Improved citizen communication from government services"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "administrative data analysis and user adoption metrics",
   "replication_materials_available": true,
   "published_performance_metrics": {

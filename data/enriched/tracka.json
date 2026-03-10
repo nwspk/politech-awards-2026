@@ -40,7 +40,7 @@
     "federal",
     "state"
   ],
-  "open_source": false,
+  "open_source": "no",
   "format": [
     "platform",
     "app",
@@ -107,7 +107,7 @@
   "failure_modes": [
     "Low government implementation of community recommendations in some jurisdictions"
   ],
-  "governance_model": "Nonprofit board governance with community advisory structures",
+  "governance_model": "foundation",
   "curation_criteria": "Projects must be government-funded infrastructure or development initiatives at federal or state level",
   "contributor_governance": "Community members can report project status; civil society organizations can submit reports",
   "disparity_tracking": true,

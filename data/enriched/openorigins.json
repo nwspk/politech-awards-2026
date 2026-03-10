@@ -40,13 +40,13 @@
   "political_units": [
     "international"
   ],
-  "open_source": false,
+  "open_source": "no",
   "format": [
     "platform",
     "api"
   ],
   "founded_year": 2021,
-  "team_size": "10-25",
+  "team_size": "large",
   "funding_model": "venture capital",
   "known_funders": [
     "Omidyar Network",
@@ -82,7 +82,7 @@
   "in_civictech_guide": false,
   "replication_materials_available": false,
   "jurisdictional_scope": "international",
-  "governance_model": "corporate board",
+  "governance_model": "LLC",
   "curation_criteria": "Proprietary verification algorithms; editorial standards for content assessment",
   "contributor_governance": "closed",
   "disparity_tracking": false,

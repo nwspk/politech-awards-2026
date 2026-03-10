@@ -14,8 +14,8 @@
   "collected_by": "collect-enriched-script",
   "name": "Frankenstein Bill",
   "tagline": "A dummy parliamentary bill collecting and explaining potential speedbumps for government software development and digitally-enabled service design",
-  "project_type": "Policy research and guidance tool",
-  "org_type": "Government research fellowship",
+  "project_type": "Tool/Platform",
+  "org_type": "Academic/research",
   "issue_area": [
     "Digital government",
     "Legislative technology",
@@ -43,7 +43,7 @@
   "political_units": [
     "Scottish Government"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/gordonguthrie/frankensteinbill",
   "github_stars": 45,
   "last_commit_date": "2024-11-15",
@@ -53,7 +53,7 @@
     "Git repository"
   ],
   "founded_year": 2017,
-  "team_size": 1,
+  "team_size": "solo",
   "funding_model": [
     "Government fellowship"
   ],

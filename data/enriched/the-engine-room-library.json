@@ -14,8 +14,8 @@
   "collected_by": "nano-bot",
   "name": "The Engine Room Library",
   "tagline": "Open, multilingual research guides on using data and technology for social change",
-  "project_type": "knowledge library / research resource",
-  "org_type": "programme of a non-profit organisation",
+  "project_type": "Database",
+  "org_type": "Nonprofit/charity",
   "issue_area": [
     "civil society technology",
     "responsible data",
@@ -28,7 +28,7 @@
     "SDG 17: Partnerships for the Goals"
   ],
   "decade_plus": false,
-  "geography": "global",
+  "geography": "international",
   "countries_deployed": [
     "Global - multilingual resource accessible worldwide"
   ],
@@ -42,7 +42,7 @@
   "political_units": [
     "Global"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/the-engine-room/library",
   "github_stars": 89,
   "last_commit_date": "2025-11-15",
@@ -51,7 +51,7 @@
     "multilingual guides"
   ],
   "founded_year": 2011,
-  "team_size": 5,
+  "team_size": "small",
   "funding_model": [
     "grants",
     "paid consultancies",

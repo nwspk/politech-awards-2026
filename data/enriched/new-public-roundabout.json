@@ -14,8 +14,8 @@
   "collected_by": "nano-bot",
   "name": "New_ Public Roundabout",
   "tagline": "A community space for neighbors — local digital forum app built from the ground up with community stewards",
-  "project_type": "platform / app",
-  "org_type": "nonprofit",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
   "issue_area": [
     "local democracy",
     "community building",
@@ -29,7 +29,7 @@
     "SDG 10: Reduced Inequalities"
   ],
   "decade_plus": false,
-  "geography": "United States",
+  "geography": "national",
   "countries_deployed": [
     "United States"
   ],
@@ -41,13 +41,13 @@
   "political_units": [
     "local municipalities (pilot communities)"
   ],
-  "open_source": false,
+  "open_source": "no",
   "format": [
     "web app",
     "mobile app (in development)"
   ],
   "founded_year": 2025,
-  "team_size": 3,
+  "team_size": "small",
   "funding_model": [
     "grants",
     "diverse revenue sources"
@@ -91,7 +91,7 @@
     "steward burnout",
     "community fragmentation across instances"
   ],
-  "governance_model": "Incubated within New_ Public, a nonprofit product studio; co-directed by Talia Stroud, Eli Pariser, and Deepti Doshi",
+  "governance_model": "foundation",
   "curation_criteria": "Topic-based channels; local stewards set community norms; no algorithmic virality by design",
   "contributor_governance": "Steward-led; each community has its own steward(s); New_ Public sets platform values",
   "disparity_tracking": false,

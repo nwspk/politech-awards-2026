@@ -85,7 +85,7 @@
     "Increased transparency of UK parliamentary financial interests",
     "Support for Members' Interests Register compliance"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "Observational - tracking parliamentary transparency initiatives",
   "replication_materials_available": false,
   "documented_limitations": [

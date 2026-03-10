@@ -66,7 +66,7 @@
     "Increased transparency in EU budget allocation",
     "Enhanced public access to spending data across member states"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "observational",
   "replication_materials_available": false,
   "preregistered_studies": [],

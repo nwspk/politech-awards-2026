@@ -90,7 +90,7 @@
     "Referenced in international privacy policy discussions",
     "Supported by UN human rights initiatives"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "Observational - usage metrics and user testimonials from journalists and activists",
   "replication_materials_available": true,
   "published_performance_metrics": true,

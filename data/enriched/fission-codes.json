@@ -59,11 +59,11 @@
     }
   ],
   "in_civictech_guide": false,
-  "causation_strength": "not_applicable",
+  "causation_strength": "anecdotal",
   "outcome_methodology": "not_applicable",
   "replication_materials_available": false,
   "jurisdictional_scope": "not_applicable",
-  "governance_model": "unknown",
+  "governance_model": null,
   "curation_criteria": "unknown",
   "contributor_governance": "unknown",
   "disparity_tracking": false,

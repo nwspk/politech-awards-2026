@@ -89,7 +89,7 @@
     "Used by advocacy organizations in policy briefings",
     "Supported evidence-based policy analysis for benefit reform discussions"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "Case studies and stakeholder interviews documenting policy influence",
   "replication_materials_available": true,
   "published_performance_metrics": "Accuracy validation against official tax/benefit calculations published on GitHub",
@@ -103,7 +103,7 @@
     "Data staleness if government tax/benefit rules not updated",
     "Potential for misuse in misleading policy advocacy"
   ],
-  "governance_model": "nonprofit",
+  "governance_model": "foundation",
   "curation_criteria": "Open-source contribution guidelines; peer review of policy rule implementations; community issue tracking",
   "contributor_governance": "GitHub-based contribution process with maintainer review; public roadmap",
   "disparity_tracking": "Analysis of policy impacts on different income groups and demographics available in platform outputs",

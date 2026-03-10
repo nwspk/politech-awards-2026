@@ -86,7 +86,7 @@
     "Improved accessibility compliance with WCAG 2.1 AA standards",
     "Reduced form creation costs for government departments"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "Administrative data tracking from platform usage metrics",
   "replication_materials_available": false,
   "published_performance_metrics": "78 organisations using GOV.UK Forms; 404 forms (live and archived); 531,364 form submissions since September 2022",

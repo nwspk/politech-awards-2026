@@ -83,7 +83,7 @@
     "Contributed to open data initiatives in local councils",
     "Supported transparency in municipal service delivery"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "observational_with_controls",
   "replication_materials_available": true,
   "published_performance_metrics": {

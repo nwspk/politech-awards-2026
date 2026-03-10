@@ -14,8 +14,8 @@
   "collected_by": "nano-bot",
   "name": "GRIM (Global Risk Simulator)",
   "tagline": "AI Wargamer and Global Risk Simulator — a Telegram bot for simulating and role-playing global catastrophic risk scenarios",
-  "project_type": "AI-assisted wargaming / scenario simulation tool",
-  "org_type": "nonprofit",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
   "issue_area": [
     "global catastrophic risk",
     "AI safety",
@@ -27,7 +27,7 @@
     "SDG 17: Partnerships for the Goals"
   ],
   "decade_plus": false,
-  "geography": "Global",
+  "geography": "international",
   "countries_deployed": [
     "United States",
     "United Kingdom",
@@ -44,7 +44,7 @@
     "International",
     "Multi-national research networks"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/sentinelteam/grim",
   "github_stars": 13,
   "last_commit_date": "2025-03-08",
@@ -53,7 +53,7 @@
     "command-line tool"
   ],
   "founded_year": 2025,
-  "team_size": "5-10",
+  "team_size": "large",
   "funding_model": [
     "donations",
     "grants"
@@ -114,7 +114,7 @@
     "API dependency failures",
     "Low adoption limits value of collective intelligence"
   ],
-  "governance_model": "Informal — open-source project run by Sentinel Team (501c3)",
+  "governance_model": "project_of_larger_org",
   "curation_criteria": "Open-source contribution model; pull requests reviewed by maintainers; focus on scenario quality and AI agent behavior",
   "contributor_governance": "Open pull requests and issues; maintainers offer onboarding for consistent contributors",
   "disparity_tracking": "Not tracked — research tool without demographic user data collection",

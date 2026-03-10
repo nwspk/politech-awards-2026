@@ -81,7 +81,7 @@
     "Integration with Estonian e-governance infrastructure",
     "Used for municipal consultations in multiple Estonian cities"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "case study documentation",
   "replication_materials_available": true,
   "published_performance_metrics": true,
@@ -95,7 +95,7 @@
     "Low participation rates in some municipal initiatives",
     "Technical barriers for non-digital-native users"
   ],
-  "governance_model": "nonprofit",
+  "governance_model": "foundation",
   "curation_criteria": "Open contribution model with community review process",
   "contributor_governance": "Democratic decision-making through GitHub issues and community forums",
   "disparity_tracking": false,

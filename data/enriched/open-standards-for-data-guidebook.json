@@ -14,8 +14,8 @@
   "collected_by": "nano-bot",
   "name": "Open Standards for Data Guidebook",
   "tagline": "Helping people and organisations create, develop and adopt open standards for data",
-  "project_type": "Knowledge resource / guidebook",
-  "org_type": "Non-profit",
+  "project_type": "Database",
+  "org_type": "Nonprofit/charity",
   "issue_area": [
     "open data",
     "data standards",
@@ -27,7 +27,7 @@
     "SDG 9 - Industry, Innovation and Infrastructure"
   ],
   "decade_plus": false,
-  "geography": "Global",
+  "geography": "international",
   "countries_deployed": [
     "United Kingdom",
     "Global"
@@ -41,7 +41,7 @@
   "political_units": [
     "Global"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/theodi/open-standards-guidebook",
   "github_stars": 29,
   "last_commit_date": "2026-02-03",
@@ -50,7 +50,7 @@
     "documentation"
   ],
   "founded_year": 2018,
-  "team_size": "Small (5-10 core maintainers at ODI)",
+  "team_size": "large",
   "funding_model": [
     "grant funding",
     "government contract"

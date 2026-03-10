@@ -80,7 +80,7 @@
     "Adoption by online communities for governance frameworks",
     "Integration into community organizing toolkits"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "case studies and community feedback",
   "replication_materials_available": true,
   "published_performance_metrics": true,

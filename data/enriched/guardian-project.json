@@ -14,8 +14,8 @@
   "collected_by": "nano-bot",
   "name": "Guardian Project",
   "tagline": "Secure, privacy-enhancing mobile applications and tools for journalists, activists, and people at risk",
-  "project_type": "software suite / open-source toolkit",
-  "org_type": "nonprofit / unincorporated collective",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
   "issue_area": [
     "digital security",
     "privacy",
@@ -29,7 +29,7 @@
     "SDG 10 (Reduced Inequalities)"
   ],
   "decade_plus": true,
-  "geography": "global",
+  "geography": "international",
   "countries_deployed": [
     "United States",
     "United Kingdom",
@@ -60,7 +60,7 @@
     "global",
     "transnational"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/guardianproject",
   "github_stars": 6796,
   "last_commit_date": "2026-03-09",
@@ -70,7 +70,7 @@
     "software library"
   ],
   "founded_year": 2009,
-  "team_size": 8,
+  "team_size": "small",
   "funding_model": [
     "grants",
     "contracts / for-hire services"
@@ -117,7 +117,7 @@
     "Tools used by journalists in countries with restricted press freedom",
     "Contributed to global discourse on privacy-by-design principles"
   ],
-  "causation_strength": "medium",
+  "causation_strength": "correlated",
   "outcome_methodology": "observational / user adoption tracking",
   "replication_materials_available": true,
   "published_performance_metrics": "User adoption metrics available in annual reports; security audits published for key applications",

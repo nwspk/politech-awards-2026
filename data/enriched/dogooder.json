@@ -14,8 +14,8 @@
   "collected_by": "collect-enriched-script",
   "name": "DoGooder",
   "tagline": "Civic engagement and advocacy platform for grassroots campaigns",
-  "project_type": "Software platform",
-  "org_type": "For-profit social enterprise",
+  "project_type": "Tool/Platform",
+  "org_type": "For-profit/social enterprise",
   "issue_area": [
     "Civic engagement",
     "Advocacy",
@@ -25,7 +25,7 @@
     "SDG 16: Peace, Justice and Strong Institutions"
   ],
   "decade_plus": false,
-  "geography": "Australia",
+  "geography": "national",
   "countries_deployed": [
     "Australia"
   ],
@@ -39,7 +39,7 @@
     "Australian federal",
     "State and local governments"
   ],
-  "open_source": false,
+  "open_source": "no",
   "format": "Web-based platform",
   "founded_year": 2012,
   "funding_model": "Freemium subscription model",

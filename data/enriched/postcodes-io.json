@@ -78,7 +78,7 @@
   "published_performance_metrics": true,
   "documented_limitations": true,
   "jurisdictional_scope": "United Kingdom",
-  "governance_model": "Corporate governance (Ideal Postcodes Ltd)",
+  "governance_model": "LLC",
   "curation_criteria": "UK postcode data from Royal Mail; geographic accuracy and API performance standards",
   "contributor_governance": "Open source contributions via GitHub pull requests; maintained by Ideal Postcodes team",
   "disparity_tracking": false,

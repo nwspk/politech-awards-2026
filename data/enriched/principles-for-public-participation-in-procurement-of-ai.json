@@ -15,7 +15,7 @@
   "name": "Principles for Public Participation in Procurement of AI",
   "tagline": "Framework for public participation in AI procurement decisions",
   "project_type": "Publication",
-  "org_type": "non-profit",
+  "org_type": "Nonprofit/charity",
   "issue_area": [
     "emerging_tech",
     "participatory_democracy",
@@ -41,12 +41,12 @@
   "political_units": [
     "international"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "format": [
     "report"
   ],
   "founded_year": 2021,
-  "team_size": 15,
+  "team_size": "medium",
   "funding_model": [
     "grants",
     "foundation_funding"
@@ -73,7 +73,7 @@
     "Influenced EU AI Act procurement guidelines",
     "Adopted by multiple government procurement offices"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "case study analysis",
   "replication_materials_available": true,
   "published_performance_metrics": true,

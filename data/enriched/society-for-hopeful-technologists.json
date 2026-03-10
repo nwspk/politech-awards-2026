@@ -14,7 +14,7 @@
   "collected_by": "nano-bot",
   "name": "Society for Hopeful Technologists",
   "tagline": "For everyone who wants technologies to work for people and planet.",
-  "project_type": "solidarity network / advocacy community",
+  "project_type": "Network",
   "org_type": "informal network (membership launch planned 2026)",
   "issue_area": [
     "ethical technology",
@@ -42,7 +42,7 @@
   "political_units": [
     "United Kingdom"
   ],
-  "open_source": false,
+  "open_source": "no",
   "format": [
     "online community",
     "newsletter",
@@ -50,7 +50,7 @@
     "in-person events"
   ],
   "founded_year": 2025,
-  "team_size": "volunteer organising committee",
+  "team_size": "small",
   "funding_model": [
     "volunteer-run",
     "membership (forthcoming)"

@@ -14,8 +14,8 @@
   "collected_by": "nano-bot",
   "name": "The List",
   "tagline": "Tracking changes to grant-making behaviour of Trusts and Foundations in the UK — By Fundraisers, For Fundraisers",
-  "project_type": "Community-powered funding intelligence tracker",
-  "org_type": "Independent project (individual-run)",
+  "project_type": "Network",
+  "org_type": "Grassroots/indie",
   "issue_area": [
     "nonprofit funding",
     "philanthropy",
@@ -25,7 +25,7 @@
     "SDG 17 - Partnerships for the Goals"
   ],
   "decade_plus": false,
-  "geography": "United Kingdom",
+  "geography": "national",
   "countries_deployed": [
     "UK"
   ],
@@ -40,13 +40,13 @@
     "Wales",
     "Northern Ireland"
   ],
-  "open_source": false,
+  "open_source": "no",
   "format": [
     "web platform",
     "email notifications"
   ],
   "founded_year": 2024,
-  "team_size": "2",
+  "team_size": "small",
   "funding_model": [
     "donations",
     "volunteer-run"
@@ -97,7 +97,7 @@
     "accuracy depends on community-submitted data",
     "no formal fact-checking process stated"
   ],
-  "governance_model": "Individual-run; community-contributed data; CC BY-NC licence",
+  "governance_model": "individual",
   "curation_criteria": "Changes to UK Trust and Foundation grant-making behaviour, submitted by fundraisers",
   "contributor_governance": "Open community submissions; no formal governance structure stated",
   "disparity_tracking": false,

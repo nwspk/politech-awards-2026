@@ -14,8 +14,8 @@
   "collected_by": "nano-bot",
   "name": "soweego",
   "tagline": "Link Wikidata to large catalogs",
-  "project_type": "data pipeline / entity-linking tool",
-  "org_type": "open source research project (Wikimedia Foundation grantee)",
+  "project_type": "Tool/Platform",
+  "org_type": "Academic/research",
   "issue_area": [
     "open knowledge",
     "linked data",
@@ -28,7 +28,7 @@
     "SDG 17: Partnerships for the Goals"
   ],
   "decade_plus": false,
-  "geography": "global",
+  "geography": "international",
   "countries_deployed": [
     "global (infrastructure-based, not geographically limited)"
   ],
@@ -40,7 +40,7 @@
     "computer scientists",
     "open data practitioners"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/Wikidata/soweego",
   "github_stars": 79,
   "last_commit_date": "2021-12-10",
@@ -50,7 +50,7 @@
     "Docker-based"
   ],
   "founded_year": 2017,
-  "team_size": "small research team (Fondazione Bruno Kessler / FBK)",
+  "team_size": "small",
   "funding_model": [
     "Wikimedia Foundation Project Grant"
   ],
@@ -70,7 +70,7 @@
   ],
   "in_civictech_guide": false,
   "wikipedia_page": false,
-  "causation_strength": "not applicable",
+  "causation_strength": "anecdotal",
   "outcome_methodology": "not applicable",
   "replication_materials_available": true,
   "published_performance_metrics": [
@@ -86,7 +86,7 @@
     "Wikidata infrastructure changes breaking pipeline",
     "privacy/ethics concerns around automated identity linking"
   ],
-  "governance_model": "Wikimedia Foundation grant project; grantee-led (FBK); volunteer contributors",
+  "governance_model": "foundation",
   "curation_criteria": "trusted, professionally or peer-curated identifier catalogs",
   "contributor_governance": "open source on GitHub (Wikidata org)",
   "disparity_tracking": false,

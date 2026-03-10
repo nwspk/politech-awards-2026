@@ -14,15 +14,15 @@
   "collected_by": "collect-enriched-script",
   "name": "Local Deep Researcher",
   "tagline": "A research tool for investigating local issues and civic engagement",
-  "project_type": "Software Tool",
-  "org_type": "Unknown",
+  "project_type": "Tool/Platform",
+  "org_type": null,
   "issue_area": "Civic Engagement, Research, Local Government",
   "sdg_alignment": [
     "SDG 16: Peace, Justice and Strong Institutions",
     "SDG 17: Partnerships for the Goals"
   ],
   "decade_plus": false,
-  "geography": "Global",
+  "geography": "international",
   "countries_deployed": [
     "United States"
   ],

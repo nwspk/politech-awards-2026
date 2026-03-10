@@ -75,7 +75,7 @@
     "Informed local surveillance ordinances in multiple cities",
     "Used in advocacy campaigns for police accountability"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "case study documentation",
   "replication_materials_available": true,
   "published_performance_metrics": "Data completeness varies by jurisdiction (40-95% coverage)",

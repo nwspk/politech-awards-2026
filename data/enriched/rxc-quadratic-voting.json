@@ -39,7 +39,7 @@
     "local",
     "organizational"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/RadicalxChange/quadratic-voting",
   "github_stars": 287,
   "last_commit_date": "2025-11-15",
@@ -48,7 +48,7 @@
     "app"
   ],
   "founded_year": 2018,
-  "team_size": 8,
+  "team_size": "small",
   "funding_model": "nonprofit_grants",
   "known_funders": [
     "Radical Markets Foundation",
@@ -76,7 +76,7 @@
     "Used in organizational governance decisions",
     "Adopted by several DAOs for resource allocation"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "case_studies",
   "replication_materials_available": true,
   "published_performance_metrics": true,

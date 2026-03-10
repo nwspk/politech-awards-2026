@@ -14,8 +14,8 @@
   "collected_by": "collect-enriched-script",
   "name": "Gender Pay Gap Service",
   "tagline": "Search and compare gender pay gap data",
-  "project_type": "data_platform",
-  "org_type": "government",
+  "project_type": "Tool/Platform",
+  "org_type": "Government/public sector",
   "issue_area": [
     "gender_equality",
     "labor_rights",
@@ -26,7 +26,7 @@
     "SDG 10: Reduced Inequalities"
   ],
   "decade_plus": false,
-  "geography": "United Kingdom",
+  "geography": "national",
   "countries_deployed": [
     "United Kingdom"
   ],
@@ -39,7 +39,7 @@
   "political_units": [
     "United Kingdom"
   ],
-  "open_source": false,
+  "open_source": "no",
   "format": [
     "web_application",
     "searchable_database",

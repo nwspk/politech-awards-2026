@@ -14,8 +14,8 @@
   "collected_by": "nano-bot",
   "name": "The Circuit",
   "tagline": "A data-driven collaborative journalism investigation into Cook County's court system using 3 million criminal cases",
-  "project_type": "Data journalism / civic data platform",
-  "org_type": "Non-profit journalism collaborative",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
   "issue_area": [
     "criminal justice",
     "judicial accountability",
@@ -27,7 +27,7 @@
     "SDG 10 - Reduced Inequalities"
   ],
   "decade_plus": false,
-  "geography": "United States",
+  "geography": "national",
   "countries_deployed": [
     "US"
   ],
@@ -51,7 +51,7 @@
     "interactive database"
   ],
   "founded_year": 2019,
-  "team_size": 12,
+  "team_size": "medium",
   "funding_model": [
     "grant funding"
   ],

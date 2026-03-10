@@ -83,7 +83,7 @@
     "Project launched September 2025, very recent"
   ],
   "jurisdictional_scope": "International",
-  "governance_model": "nonprofit",
+  "governance_model": "foundation",
   "curation_criteria": "Open source contribution standards; models must be public and sovereign AI systems",
   "contributor_governance": "Open source contribution model via pull requests",
   "disparity_tracking": false,

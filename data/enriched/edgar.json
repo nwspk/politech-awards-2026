@@ -14,8 +14,8 @@
   "collected_by": "collect-enriched-script",
   "name": "EDGAR",
   "tagline": "Tool for the retrieval of corporate and financial data from the SEC",
-  "project_type": "data_access_tool",
-  "org_type": "nonprofit",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
   "issue_area": [
     "government_transparency",
     "financial_accountability",
@@ -26,7 +26,7 @@
     "SDG 17: Partnerships for the Goals"
   ],
   "decade_plus": false,
-  "geography": "United States",
+  "geography": "national",
   "countries_deployed": [
     "United States"
   ],
@@ -38,7 +38,7 @@
   "political_units": [
     "United States Federal"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/bellingcat/edgar",
   "github_stars": 196,
   "last_commit_date": "2024-01-15",
@@ -47,7 +47,7 @@
     "python_package"
   ],
   "founded_year": 2020,
-  "team_size": 3,
+  "team_size": "small",
   "funding_model": [
     "nonprofit_grants",
     "donor_supported"
@@ -89,7 +89,7 @@
     "Requires API rate limit management"
   ],
   "jurisdictional_scope": "United States",
-  "governance_model": "nonprofit_led",
+  "governance_model": "foundation",
   "contributor_governance": "open_source_community",
   "disparity_tracking": false,
   "community_ownership": false,

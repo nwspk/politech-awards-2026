@@ -14,8 +14,8 @@
   "collected_by": "nano-bot",
   "name": "UK Housing Data Standards",
   "tagline": "Sector-developed data standards for UK social housing to improve data governance, performance, and regulatory reporting",
-  "project_type": "open data standard / technical standard",
-  "org_type": "charity / social enterprise",
+  "project_type": "Publication",
+  "org_type": "Nonprofit/charity",
   "issue_area": [
     "housing",
     "social housing",
@@ -30,7 +30,7 @@
     "SDG 17: Partnerships for the Goals"
   ],
   "decade_plus": false,
-  "geography": "United Kingdom",
+  "geography": "national",
   "countries_deployed": [
     "United Kingdom"
   ],
@@ -55,7 +55,7 @@
     "proof-of-concept code"
   ],
   "founded_year": 2018,
-  "team_size": "11-50",
+  "team_size": "large",
   "funding_model": [
     "charity income",
     "paid services",

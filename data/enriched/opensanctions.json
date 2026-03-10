@@ -98,7 +98,7 @@
     "Integration into investigative journalism workflows",
     "Use by NGOs for sanctions monitoring"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "Case studies and user adoption tracking",
   "replication_materials_available": true,
   "published_performance_metrics": true,

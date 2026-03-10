@@ -38,7 +38,7 @@
   "political_units": [
     "federal"
   ],
-  "open_source": false,
+  "open_source": "no",
   "format": [
     "platform",
     "database"
@@ -90,7 +90,7 @@
     "Increased public awareness of environmental hazards",
     "Supported environmental justice campaigns in UK communities"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "case study documentation",
   "replication_materials_available": false,
   "documented_limitations": [

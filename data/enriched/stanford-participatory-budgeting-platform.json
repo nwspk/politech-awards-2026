@@ -70,7 +70,7 @@
   "policy_outcomes": [
     "Enabled participatory budgeting processes in multiple US municipalities"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "case_study",
   "replication_materials_available": true,
   "published_performance_metrics": "Platform usage statistics and deployment data available in project documentation",

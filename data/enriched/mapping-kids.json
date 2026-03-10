@@ -4,15 +4,15 @@
   "collected_by": "collect-enriched-script",
   "name": "Mapping.kids",
   "tagline": "A platform for creating and sharing interactive maps for educational purposes",
-  "project_type": "Educational Technology Platform",
-  "org_type": "Non-profit / Educational Initiative",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
   "issue_area": "Education, Civic Engagement, Digital Literacy",
   "sdg_alignment": [
     "SDG 4: Quality Education",
     "SDG 10: Reduced Inequalities"
   ],
   "decade_plus": false,
-  "geography": "Global",
+  "geography": "international",
   "countries_deployed": [
     "Multiple countries"
   ],

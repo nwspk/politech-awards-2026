@@ -93,7 +93,7 @@
     "Supported parliamentary transparency initiatives",
     "Contributed to international open data standards"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "observational studies, case studies, stakeholder interviews",
   "replication_materials_available": true,
   "published_performance_metrics": true,

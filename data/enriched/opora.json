@@ -41,7 +41,7 @@
   "political_units": [
     "federal"
   ],
-  "open_source": false,
+  "open_source": "no",
   "github_url": "https://github.com/OPORA",
   "format": [
     "platform",
@@ -96,7 +96,7 @@
   "documented_limitations": "Limited by access to certain election administration data; constrained by security concerns during conflict periods",
   "jurisdictional_scope": "Ukraine",
   "failure_modes": "Operational disruptions during military conflict; potential data collection challenges in occupied or contested territories",
-  "governance_model": "nonprofit",
+  "governance_model": "foundation",
   "curation_criteria": "Evidence-based election monitoring standards; adherence to international election observation guidelines",
   "contributor_governance": "Board-led governance with input from network of election observers and civil society partners",
   "disparity_tracking": true,

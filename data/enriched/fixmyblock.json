@@ -41,7 +41,7 @@
     "Wales",
     "Scotland"
   ],
-  "open_source": false,
+  "open_source": "no",
   "format": [
     "guides",
     "template letters",
@@ -49,7 +49,7 @@
     "website"
   ],
   "founded_year": 2020,
-  "team_size": "Small (under 10)",
+  "team_size": "medium",
   "funding_model": [
     "grant funding"
   ],
@@ -65,7 +65,7 @@
   ],
   "in_civictech_guide": false,
   "wikipedia_page": false,
-  "causation_strength": "Unknown",
+  "causation_strength": "anecdotal",
   "outcome_methodology": "Not formally evaluated",
   "replication_materials_available": false,
   "documented_limitations": [
@@ -77,7 +77,7 @@
     "content becomes outdated as housing law changes",
     "low awareness among intended audience"
   ],
-  "governance_model": "Project of Tower Blocks UK, created in collaboration with mySociety",
+  "governance_model": "project_of_larger_org",
   "curation_criteria": "Guides cover legal entitlements and practical escalation steps for tower block tenants in UK social housing",
   "contributor_governance": "Managed by Tower Blocks UK and mySociety partnership",
   "disparity_tracking": false,

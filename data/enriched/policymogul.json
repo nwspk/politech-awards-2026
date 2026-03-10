@@ -15,7 +15,7 @@
   "name": "PolicyMogul",
   "tagline": "Champions of public affairs",
   "project_type": "Platform",
-  "org_type": "For-profit",
+  "org_type": "For-profit/social enterprise",
   "issue_area": [
     "govtech",
     "advocacy_tech"
@@ -24,7 +24,7 @@
     "SDG 16: Peace, Justice and Strong Institutions"
   ],
   "decade_plus": false,
-  "geography": "United States",
+  "geography": "national",
   "countries_deployed": [
     "United States"
   ],
@@ -37,19 +37,19 @@
     "State",
     "Local"
   ],
-  "open_source": false,
+  "open_source": "no",
   "format": [
     "platform"
   ],
   "founded_year": 2012,
-  "team_size": "10-50",
+  "team_size": "medium",
   "funding_model": "Subscription",
   "funding_verified": false,
   "dependency_risks": "Proprietary platform dependency; reliance on subscription model sustainability",
   "in_civictech_guide": false,
   "replication_materials_available": false,
   "jurisdictional_scope": "United States",
-  "governance_model": "Corporate",
+  "governance_model": "LLC",
   "community_ownership": false,
   "pass2_at": "2026-03-09T23:21:37.978Z"
 }

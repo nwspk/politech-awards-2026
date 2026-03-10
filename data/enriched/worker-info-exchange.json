@@ -40,7 +40,7 @@
     "federal",
     "state"
   ],
-  "open_source": false,
+  "open_source": "no",
   "format": [
     "platform",
     "database"
@@ -90,7 +90,7 @@
     "First court order overturning an automated worker dismissal decision under GDPR Article 22",
     "Uber ordered to disclose basis for unfair dismissals, wage deductions, and surveillance systems"
   ],
-  "causation_strength": "strong",
+  "causation_strength": "independently_verified",
   "outcome_methodology": "strategic litigation using GDPR Data Subject Access Requests; large-scale data audit (1.5M+ trips, 258 drivers, 2016-2024)",
   "replication_materials_available": false,
   "published_performance_metrics": false,
@@ -105,7 +105,7 @@
     "Regulatory capture or weakening of GDPR",
     "Loss of key legal personnel"
   ],
-  "governance_model": "nonprofit board",
+  "governance_model": "foundation",
   "disparity_tracking": false,
   "community_ownership": false,
   "political_bias_allegations": false,

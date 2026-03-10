@@ -14,8 +14,8 @@
   "collected_by": "collect-enriched-script",
   "name": "Full Fact AI",
   "tagline": "Scalable, robust software designed for fact checkers to identify the most important bad information",
-  "project_type": "AI-powered misinformation detection and fact-checking tool",
-  "org_type": "Non-profit fact-checking organization",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
   "issue_area": [
     "misinformation detection",
     "fact-checking",
@@ -27,7 +27,7 @@
     "SDG 16: Peace, Justice and Strong Institutions"
   ],
   "decade_plus": false,
-  "geography": "Global",
+  "geography": "international",
   "countries_deployed": [
     "United Kingdom",
     "United States",
@@ -43,7 +43,7 @@
     "public policy makers"
   ],
   "political_units": "Multiple national governments and parliaments across 30 countries",
-  "open_source": false,
+  "open_source": "no",
   "format": [
     "software-as-a-service",
     "machine learning tool"
@@ -96,7 +96,7 @@
     "Language processing challenges in non-English contexts",
     "Difficulty with context-dependent or nuanced misinformation"
   ],
-  "governance_model": "Non-profit organizational governance with advisory board of fact-checking experts",
+  "governance_model": "foundation",
   "curation_criteria": "Claims selected based on prevalence, potential impact, and relevance to public debate; prioritization of high-volume false claims",
   "contributor_governance": "Fact-checking organizations contribute claims and feedback; collaborative model with partner organizations",
   "disparity_tracking": "Monitoring of claim detection across different geographic regions and languages; efforts to address language bias",

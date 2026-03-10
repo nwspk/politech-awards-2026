@@ -76,7 +76,7 @@
     "Increased corporate supply chain transparency reporting",
     "Adoption by major apparel brands for compliance tracking"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "observational",
   "replication_materials_available": true,
   "published_performance_metrics": true,
@@ -90,7 +90,7 @@
     "Data verification challenges",
     "Limited enforcement mechanisms"
   ],
-  "governance_model": "nonprofit board governance with multi-stakeholder advisory council",
+  "governance_model": "foundation",
   "curation_criteria": "Facility data verified through multiple sources; worker rights information curated by partner organizations",
   "contributor_governance": "Open contribution model with community review process",
   "disparity_tracking": true,

@@ -14,8 +14,8 @@
   "collected_by": "agent-batch-33",
   "name": "Participedia",
   "tagline": "A global crowdsourcing platform for researchers, activists, practitioners, and anyone interested in public participation and democratic innovations.",
-  "project_type": "research platform / knowledge commons",
-  "org_type": "academic / nonprofit",
+  "project_type": "Database",
+  "org_type": "Nonprofit/charity",
   "issue_area": [
     "democratic innovation",
     "public participation",
@@ -27,7 +27,7 @@
     "SDG 17 - Partnerships for the Goals"
   ],
   "decade_plus": true,
-  "geography": "global",
+  "geography": "international",
   "countries_deployed": [
     "Canada",
     "United States",
@@ -51,7 +51,7 @@
     "national",
     "transnational"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/participedia",
   "github_stars": 89,
   "last_commit_date": "2024-11-15",
@@ -61,7 +61,7 @@
     "open access research tool"
   ],
   "founded_year": 2009,
-  "team_size": 15,
+  "team_size": "medium",
   "funding_model": [
     "academic grants",
     "government research grants"
@@ -89,7 +89,7 @@
     "1,800+ cases of participatory democracy documented (Phase 1)",
     "330+ methods of participation catalogued"
   ],
-  "causation_strength": "correlational",
+  "causation_strength": "correlated",
   "outcome_methodology": "crowdsourced case documentation; structured comparative data collection",
   "replication_materials_available": true,
   "published_performance_metrics": false,

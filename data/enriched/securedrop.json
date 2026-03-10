@@ -86,7 +86,7 @@
     "Adoption by major news organizations for source protection",
     "Influence on media industry standards for whistleblower protection"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "observational",
   "replication_materials_available": true,
   "published_performance_metrics": true,

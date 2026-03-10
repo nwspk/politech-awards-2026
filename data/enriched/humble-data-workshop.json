@@ -14,7 +14,7 @@
   "collected_by": "nano-bot",
   "name": "Humble Data Workshop",
   "tagline": "Free data science and Python workshops for underrepresented groups in tech",
-  "project_type": "community workshop / training programme",
+  "project_type": "Network",
   "org_type": "volunteer-run community initiative",
   "issue_area": [
     "digital literacy",
@@ -27,7 +27,7 @@
     "SDG 10: Reduced Inequalities"
   ],
   "decade_plus": false,
-  "geography": "global",
+  "geography": "international",
   "countries_deployed": [
     "United Kingdom",
     "United States",
@@ -50,14 +50,14 @@
   "political_units": [
     "local communities across multiple countries"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/HumbleData",
   "format": [
     "in-person workshop",
     "online workshop"
   ],
   "founded_year": 2020,
-  "team_size": "small volunteer team (~6 organisers)",
+  "team_size": "small",
   "funding_model": [
     "volunteer-run",
     "conference partnerships"

@@ -14,8 +14,8 @@
   "collected_by": "agent-batch-33",
   "name": "Privacy Badger",
   "tagline": "A free browser extension made by EFF to stop companies from spying on you online.",
-  "project_type": "browser extension / software tool",
-  "org_type": "nonprofit (Electronic Frontier Foundation)",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
   "issue_area": [
     "privacy",
     "surveillance",
@@ -26,7 +26,7 @@
     "SDG 16 - Peace, Justice and Strong Institutions"
   ],
   "decade_plus": true,
-  "geography": "global",
+  "geography": "international",
   "countries_deployed": [
     "global"
   ],
@@ -39,7 +39,7 @@
   "political_units": [
     "global"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/EFForg/privacybadger",
   "github_stars": 2800,
   "last_commit_date": "2026-02-20",
@@ -47,7 +47,7 @@
     "browser extension"
   ],
   "founded_year": 2014,
-  "team_size": 3,
+  "team_size": "small",
   "funding_model": [
     "donations",
     "membership (EFF)"
@@ -79,7 +79,7 @@
     "Sends Global Privacy Control and Do Not Track signals on behalf of users",
     "Documents canvas-based fingerprinting via Cover Your Tracks project"
   ],
-  "causation_strength": "medium",
+  "causation_strength": "correlated",
   "outcome_methodology": "heuristic tracker detection; automated learning via Badger Sett training project",
   "replication_materials_available": true,
   "published_performance_metrics": false,

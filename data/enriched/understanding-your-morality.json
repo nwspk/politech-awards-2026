@@ -14,15 +14,15 @@
   "collected_by": "collect-enriched-script",
   "name": "Understanding Your Morality",
   "tagline": "An interactive tool to help people understand their moral values and reasoning",
-  "project_type": "Educational Tool / Assessment Platform",
-  "org_type": "Non-profit",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
   "issue_area": "Civic Engagement, Values Education, Critical Thinking",
   "sdg_alignment": [
     "SDG 4: Quality Education",
     "SDG 16: Peace, Justice and Strong Institutions"
   ],
   "decade_plus": false,
-  "geography": "Global",
+  "geography": "international",
   "countries_deployed": [
     "United States",
     "International"
@@ -32,7 +32,7 @@
     "Students",
     "Educators"
   ],
-  "open_source": false,
+  "open_source": "no",
   "format": "Web-based Interactive Tool",
   "founded_year": 2012,
   "funding_model": "Non-profit / Philanthropic",

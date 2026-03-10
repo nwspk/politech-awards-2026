@@ -37,7 +37,7 @@
   "political_units": [
     "federal"
   ],
-  "open_source": false,
+  "open_source": "no",
   "format": [
     "platform",
     "database"
@@ -67,7 +67,7 @@
   ],
   "in_civictech_guide": true,
   "jurisdictional_scope": "Nigeria",
-  "governance_model": "Nonprofit board governance",
+  "governance_model": "foundation",
   "disparity_tracking": false,
   "community_ownership": false,
   "elections_used_in": [

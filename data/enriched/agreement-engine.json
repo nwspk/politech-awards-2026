@@ -37,7 +37,7 @@
   "political_units": [
     "international"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/metagov/agreement-engine",
   "format": [
     "platform",

@@ -14,7 +14,7 @@
   "collected_by": "agent-batch-30",
   "name": "vTaiwan",
   "tagline": "Taiwan's open digital democracy platform for collaborative online public consultation on legislation",
-  "project_type": "platform",
+  "project_type": "Platform",
   "org_type": "civic tech community",
   "issue_area": [
     "deliberative democracy",
@@ -41,7 +41,7 @@
     "Taiwan Executive Yuan",
     "National Development Council"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/g0v/vue.vtaiwan.tw",
   "github_stars": 77,
   "last_commit_date": "2024-11-05",
@@ -49,7 +49,7 @@
     "web application"
   ],
   "founded_year": 2014,
-  "team_size": "15-25",
+  "team_size": "large",
   "funding_model": [
     "volunteer",
     "government partnership"

@@ -39,7 +39,7 @@
   "political_units": [
     "federal"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/thegovernmentsays/thegovernmentsays",
   "github_stars": 89,
   "last_commit_date": "2024-11-15",
@@ -77,7 +77,7 @@
     "Increased transparency in government communications tracking",
     "Support for investigative journalism workflows"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "observational",
   "replication_materials_available": true,
   "published_performance_metrics": true,

@@ -77,7 +77,7 @@
     "Enhanced coordination between humanitarian organizations",
     "Increased transparency in crisis response operations"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "observational",
   "replication_materials_available": true,
   "published_performance_metrics": "Data sharing volume increased 300% since 2014; 1000+ organizations registered",

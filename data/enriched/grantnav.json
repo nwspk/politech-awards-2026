@@ -72,7 +72,7 @@
     "Increased transparency in UK grant funding",
     "Adoption of 360Giving Data Standard by major UK funders"
   ],
-  "causation_strength": "moderate",
+  "causation_strength": "correlated",
   "outcome_methodology": "observational",
   "replication_materials_available": true,
   "published_performance_metrics": true,

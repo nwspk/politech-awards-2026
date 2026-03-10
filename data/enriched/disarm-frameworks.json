@@ -48,7 +48,7 @@
     "European Union",
     "US Government"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/DISARMFoundation/DISARMframeworks",
   "github_stars": 263,
   "last_commit_date": "2022-01-29",
@@ -62,7 +62,7 @@
     "MISP integration"
   ],
   "founded_year": 2018,
-  "team_size": "5-15",
+  "team_size": "large",
   "funding_model": [
     "volunteer/community",
     "nonprofit operations"
@@ -116,7 +116,7 @@
     "framework may lag emerging disinformation tactics",
     "misuse of Blue Framework TTPs in non-democratic contexts"
   ],
-  "governance_model": "Maintained by DISARM Foundation; evolved from MisinfosecWG → CogSecCollab → MITRE/FIU merger → DISARM Foundation (2022)",
+  "governance_model": "foundation",
   "curation_criteria": "Red Framework: creator TTPs from observed incidents; Blue Framework: countermeasures from 2019 volunteer workshop",
   "contributor_governance": "Open contributions via Google Form; DISARM Foundation holds design authority",
   "community_ownership": "Community-driven; CC-BY-4.0 licensed; DISARM Foundation as steward",

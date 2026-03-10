@@ -4,8 +4,8 @@
   "collected_by": "nano-bot",
   "name": "Snowdrift.coop",
   "tagline": "Crowdmatching for public goods",
-  "project_type": "funding platform",
-  "org_type": "nonprofit cooperative",
+  "project_type": "Platform",
+  "org_type": "Nonprofit/charity",
   "issue_area": [
     "open source sustainability",
     "public goods funding",
@@ -17,7 +17,7 @@
     "SDG 17: Partnerships for the Goals"
   ],
   "decade_plus": false,
-  "geography": "global",
+  "geography": "international",
   "countries_deployed": [
     "United States"
   ],
@@ -29,7 +29,7 @@
   "political_units": [
     "United States (federal)"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://codeberg.org/snowdrift/snowdrift",
   "github_stars": 4,
   "last_commit_date": "2025-11-20",
@@ -39,7 +39,7 @@
     "cooperative membership"
   ],
   "founded_year": 2013,
-  "team_size": "small (volunteer + part-time)",
+  "team_size": "small",
   "funding_model": [
     "patron donations",
     "crowdmatching pledges",
@@ -89,7 +89,7 @@
     "free-rider problem (the problem it aims to solve)",
     "sustained underfunding"
   ],
-  "governance_model": "nonprofit cooperative; steering committee; member governance",
+  "governance_model": "cooperative",
   "curation_criteria": "projects must be free/libre/open (FLO)",
   "contributor_governance": "open source; community forum; governance repo on Codeberg",
   "disparity_tracking": false,

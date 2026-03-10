@@ -39,7 +39,7 @@
     "federal",
     "state"
   ],
-  "open_source": false,
+  "open_source": "no",
   "format": [
     "platform",
     "app",

@@ -14,8 +14,8 @@
   "collected_by": "agent-batch-30",
   "name": "Data Observation Toolkit (DOT)",
   "tagline": "Open-source toolkit to monitor data integrity and flag problems in public health and humanitarian datasets",
-  "project_type": "tool",
-  "org_type": "nonprofit",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
   "issue_area": [
     "public health",
     "data integrity",
@@ -27,7 +27,7 @@
     "SDG 17"
   ],
   "decade_plus": false,
-  "geography": "global",
+  "geography": "international",
   "countries_deployed": [
     "Uganda",
     "United States"
@@ -41,7 +41,7 @@
   "political_units": [
     "Uganda Ministry of Health"
   ],
-  "open_source": true,
+  "open_source": "yes",
   "github_url": "https://github.com/datakind/data-observation-toolkit",
   "github_stars": 47,
   "last_commit_date": "2026-01-29",
@@ -51,7 +51,7 @@
     "Docker"
   ],
   "founded_year": 2021,
-  "team_size": 5,
+  "team_size": "small",
   "funding_model": [
     "grants",
     "nonprofit"
@@ -80,7 +80,7 @@
   "policy_outcomes": [
     "Improved data quality monitoring in frontline health systems in Uganda"
   ],
-  "causation_strength": "correlational",
+  "causation_strength": "correlated",
   "outcome_methodology": "Case study evaluation of data quality improvements in Uganda health facilities",
   "replication_materials_available": true,
   "published_performance_metrics": "Data quality improvement rates in pilot health facilities (available in project documentation)",
@@ -92,7 +92,7 @@
     "Data pipeline complexity",
     "Requires trained users for configuration"
   ],
-  "governance_model": "nonprofit-led open source",
+  "governance_model": "foundation",
   "curation_criteria": "Community contributions reviewed via GitHub pull requests; DataKind maintains core governance",
   "contributor_governance": "GitHub issues",
   "disparity_tracking": "Designed to identify data quality disparities across health facilities and geographic regions",

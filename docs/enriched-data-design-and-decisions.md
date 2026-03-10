@@ -256,3 +256,71 @@ Additions came from analysing v6 jury deliberations (`iterations/v6/jury-delegat
 - **Method:** Web search + project homepage + GitHub API for open source; Pass 2 targets nulls; Pass 3 uses structured DBs (see Decision 4).
 - **Missing fields:** Leave `null` rather than guessing; note confidence where relevant.
 - **Metadata:** Each file should include `collected_at` (ISO) and `collected_by` where applicable.
+
+---
+
+### Decision 9 — Pass 0: scraped-page fields from cache
+
+**Date:** 2026-03-10
+
+**Decision:** Add a Pass 0 that extracts structured fields directly from `cache/sites.sqlite` before any LLM call.
+
+**Reasoning:** The sites SQLite contains raw HTML for all 321 projects scraped in February 2026. This lets us derive verifiable, reproducible facts cheaply:
+- HTTP status at scrape time (dead link detection)
+- Word count (proxy for content richness)
+- Whether the homepage links to a team/about page
+- Whether the page has quantified impact claims (number + impact noun pattern)
+- Raw meta description or first paragraph (unfiltered, not LLM-summarised)
+- Final URL after redirects (detects domain migrations)
+
+None of these require API calls. They are deterministic and can be regenerated at any time. They also serve as confidence signals for the LLM-derived data: a 30-word homepage with a dead link should lower confidence in any Pass 1 data.
+
+**Outcome:** `scripts/data-processing/collect-enriched.ts --pass 0` added. Bug discovered: `require("better-sqlite3")` silently fails in tsx/ESM context (caught by try/catch, returns null). Fixed by replacing with top-level ESM import. All 321 files now have `scraped.*` fields populated. Stats: 22 dead links · 180 with team pages · 57 with impact metrics detected.
+
+---
+
+### Decision 10 — Script organisation: data-processing subfolder
+
+**Date:** 2026-03-10
+
+**Decision:** Move enrichment scripts (`collect-enriched.ts`, `rename-enriched.ts`, `verify-enriched.ts`) into `scripts/data-processing/`.
+
+**Reasoning:** The root `scripts/` folder contains a mix of pipeline scripts (v6 scoring, voting bot, iteration builder) and one-off data-processing utilities. Separating them makes the pipeline scripts easier to find and the data-processing work self-contained.
+
+**Outcome:** `scripts/data-processing/` created. All three enrichment scripts moved. No path changes required — scripts use `path.resolve()` relative to `process.cwd()` and must be run from the project root.
+
+---
+
+### Decision 11 — Pass 4: data quality verification
+
+**Date:** 2026-03-10
+
+**Decision:** Add a verification pass (`scripts/data-processing/verify-enriched.ts`) that checks all 321 dossiers for schema conformance, internal consistency, and data quality signals.
+
+**Reasoning:** The LLM-generated data (Passes 1–2) has no automated quality check. Specific failure modes to catch:
+- **Schema violations:** enum fields set to values outside the allowed set (e.g. `org_type: "NGO"` instead of `"Nonprofit/charity"`)
+- **Internal contradictions:** `open_source=yes` with no `github_url`; `decade_plus=true` but `founded_year >= 2016`; `causation_strength=independently_verified` with no `policy_outcomes`; `funding_verified=true` with no `known_funders`
+- **Thin homepage signal:** `homepage_word_count < 50` means the LLM had very little real page content to work from — data is more likely hallucinated
+- **Dead link with data:** `dead_link=true` but file has LLM-derived data — that data may be stale or invented
+- **High null count:** ≥15 null core fields flags a candidate for re-collection
+- **Outcome links missing:** `policy_outcomes` entries without evidence URLs
+
+The script produces a summary report and can write `data/enriched/verification-report.json` for durable reference.
+
+**Outcome:** `scripts/data-processing/verify-enriched.ts` added. Also added `scripts/data-processing/normalize-enums.ts` to fix systematic LLM enum drift before verification. Three normalization passes ran across all 321 files, correcting 500 enum values. Final verification state (2026-03-10):
+
+| Metric | Count |
+|---|---|
+| Files with 0 flags (clean) | 171 / 321 (53%) |
+| Files with warnings | 81 |
+| Files with errors | 0 |
+| INVALID_ENUM remaining | 100 (one-off creative strings, not systematic) |
+| THIN_HOMEPAGE (< 50 words) | 45 |
+| OUTCOME_NO_LINK | 36 |
+| DEAD_LINK_HAS_DATA | 22 |
+| OPEN_SOURCE_NO_GITHUB | 8 |
+| HIGH_NULL_COUNT (≥ 15 nulls) | 2 |
+
+Top null fields flagged for future passes: `elections_used_in` (92% null), `policy_outcomes` (61%), `causation_strength` (52%), `failure_modes` (39%), `news_articles` (37%).
+
+Full machine-readable report: `data/enriched/verification-report.json`.

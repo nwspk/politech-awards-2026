@@ -14,8 +14,8 @@
   "collected_by": "nano-bot",
   "name": "Global Fact-Check Bot (GFC)",
   "tagline": "A pioneering AI platform that empowers fact-checkers and citizens worldwide to verify information accuracy across 50+ languages, powered by 38 trusted organizations",
-  "project_type": "AI fact-checking chatbot / civic information tool",
-  "org_type": "international NGO consortium",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
   "issue_area": [
     "misinformation",
     "disinformation",
@@ -29,7 +29,7 @@
     "SDG 10: Reduced Inequalities"
   ],
   "decade_plus": false,
-  "geography": "Global",
+  "geography": "international",
   "countries_deployed": [
     "43 countries across Europe, Americas, Africa, MENA, Asia"
   ],
@@ -43,14 +43,14 @@
   "political_units": [
     "Multiple national jurisdictions across 43 countries"
   ],
-  "open_source": false,
+  "open_source": "no",
   "format": [
     "chatbot",
     "web platform",
     "embeddable widget"
   ],
   "founded_year": 2024,
-  "team_size": "38 partner organizations",
+  "team_size": "medium",
   "funding_model": [
     "grants",
     "membership fees (anticipated)",
