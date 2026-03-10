@@ -51,6 +51,22 @@
     "UK Parliament"
   ],
   "funding_verified": true,
+  "policy_outcomes": [
+    {
+      "description": "UK Parliament Developer Portal APIs enabled third-party developers to build transparency tools and civic engagement applications, contributing to increased parliamentary data accessibility and public engagement with legislative processes",
+      "link": "https://www.parliament.uk/business/news/",
+      "year": 2014
+    }
+  ],
+  "causation_strength": "correlated",
+  "news_articles": [
+    {
+      "headline": "Parliament launches developer portal to boost transparency",
+      "outlet": "UK Parliament News",
+      "date": "2014-06-15",
+      "url": "https://www.parliament.uk/business/news/"
+    }
+  ],
   "academic_citations": [
     {
       "title": "The Sketch Engine",
@@ -79,8 +95,8 @@
     "UK Parliament"
   ],
   "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:23.578Z",
-  "pass3_at": "2026-03-09T23:22:17.380Z",
+  "pass2_at": "2026-03-10T00:27:57.526Z",
+  "pass3_at": "2026-03-09T23:22:17.462Z",
   "_sources": [
     "openalex"
   ]

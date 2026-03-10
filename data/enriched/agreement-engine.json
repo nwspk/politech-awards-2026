@@ -56,11 +56,16 @@
   ],
   "in_civictech_guide": false,
   "documented_limitations": [
-    "Page content unavailable - JavaScript and cookies required to access Medium article"
+    "Page content unavailable - JavaScript and cookies required to access Medium article",
+    "Limited public documentation of real-world policy outcomes",
+    "Project appears to be in early research/development phase with minimal deployed implementations"
   ],
   "jurisdictional_scope": "international",
   "governance_model": "project_of_larger_org",
   "community_ownership": false,
   "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:32.793Z"
+  "policy_outcomes": [],
+  "causation_strength": "anecdotal",
+  "news_articles": [],
+  "pass2_at": "2026-03-10T00:27:56.725Z"
 }

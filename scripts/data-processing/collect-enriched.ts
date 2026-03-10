@@ -41,7 +41,10 @@ function getArg(flag: string): string | undefined {
 
 const MODEL = getArg("--model") ?? DEFAULT_MODEL;
 const SINGLE_URL = getArg("--url");
+const URL_FILE = getArg("--url-file"); // path to newline-separated URL list
 const RETRY_ERRORS = args.includes("--retry-errors");
+const FORCE_PASS2 = args.includes("--force-pass2"); // bypass null threshold for pass 2
+const PRIORITY_FIELDS = args.includes("--priority-fields"); // emphasise policy_outcomes, causation_strength, news_articles
 const CONCURRENCY = parseInt(getArg("--concurrency") ?? "50", 10);
 const PASS = getArg("--pass") ?? "1";
 
@@ -185,7 +188,14 @@ async function callLLM(system: string, user: string): Promise<string> {
 }
 
 function parseJSON(raw: string): Record<string, unknown> {
-  const cleaned = raw.replace(/^```json\s*/i, "").replace(/```\s*$/, "").trim();
+  // Strip markdown fences
+  let cleaned = raw.replace(/^```json\s*/i, "").replace(/^```\s*/i, "").replace(/```\s*$/, "").trim();
+  // Extract the outermost {...} block — handles trailing prose after JSON
+  const start = cleaned.indexOf("{");
+  const end = cleaned.lastIndexOf("}");
+  if (start !== -1 && end !== -1 && end > start) {
+    cleaned = cleaned.slice(start, end + 1);
+  }
   return JSON.parse(cleaned);
 }
 
@@ -335,8 +345,34 @@ Search strategies by field:
 Only update null/empty fields. Do not change fields that already have values.
 Return ONLY the complete updated JSON, no markdown fences.`;
 
+const P2_PRIORITY_SYSTEM = `You are filling critical evidence gaps in a project dossier for the Political Technology Awards 2026.
+
+THREE PRIORITY FIELDS — focus most effort here:
+
+1. policy_outcomes: Find specific, documented cases where this project contributed to a real-world policy or social change.
+   - Look for: press releases, government reports, academic papers, news coverage that credits the project
+   - Format: [{description: "...", link: "https://...", year: 2023}]
+   - Be conservative: only include outcomes with a traceable link. If you cannot find a link, do not include the outcome.
+
+2. causation_strength: Based on the evidence you find, rate:
+   - "anecdotal" = project claims impact, no linked evidence
+   - "correlated" = timing/proximity suggests impact, not proven
+   - "directly_cited" = policy text or official document explicitly names the project
+   - "independently_verified" = third-party research verified the causal claim
+
+3. news_articles: Find 3–5 real news articles about this project.
+   - Format: [{headline: "...", outlet: "Guardian", date: "2023-04-12", url: "https://..."}]
+   - Only include articles you are confident exist. Do not fabricate headlines or URLs.
+
+Then fill any other null/empty fields as normal. Only update null/empty fields. Do not change existing values.
+Return ONLY the complete updated JSON, no markdown fences.`;
+
 function p2Prompt(existing: Record<string, unknown>, nullFields: string[]): string {
-  return `Fill the empty fields in this project dossier.
+  const system = PRIORITY_FIELDS ? P2_PRIORITY_SYSTEM : P2_SYSTEM;
+  const priorityNote = PRIORITY_FIELDS
+    ? "\n\nPRIORITY: Focus especially on policy_outcomes, causation_strength, and news_articles before filling other fields."
+    : "";
+  return `Fill the empty fields in this project dossier.${priorityNote}
 
 Empty fields to target: ${nullFields.join(", ")}
 
@@ -351,12 +387,19 @@ async function pass2(url: string, index: number, total: number): Promise<void> {
   const existing = loadFile(slug);
   if (!existing || existing.error) { console.log(`[P2 ${index}/${total}] SKIP  ${slug} (no pass1 data)`); return; }
 
+  // In priority mode, always include the three key fields even if already partially filled
+  const priorityFields = ["policy_outcomes", "causation_strength", "news_articles"];
   const nullFields = countNulls(existing);
-  if (nullFields.length < NULL_THRESHOLD) { console.log(`[P2 ${index}/${total}] SKIP  ${slug} (${nullFields.length} nulls < threshold)`); return; }
+  const forcedFields = PRIORITY_FIELDS
+    ? [...new Set([...nullFields, ...priorityFields.filter(f => {
+        const v = existing[f]; return v === null || v === undefined || (Array.isArray(v) && v.length === 0);
+      })])]
+    : nullFields;
+  if (!FORCE_PASS2 && forcedFields.length < NULL_THRESHOLD) { console.log(`[P2 ${index}/${total}] SKIP  ${slug} (${forcedFields.length} nulls < threshold)`); return; }
 
-  console.log(`[P2 ${index}/${total}] START ${slug} (${nullFields.length} nulls: ${nullFields.slice(0, 4).join(", ")}...)`);
+  console.log(`[P2 ${index}/${total}] START ${slug} (${forcedFields.length} nulls: ${forcedFields.slice(0, 4).join(", ")}...)`);
   try {
-    const raw = await callLLM(P2_SYSTEM, p2Prompt(existing, nullFields));
+    const raw = await callLLM(PRIORITY_FIELDS ? P2_PRIORITY_SYSTEM : P2_SYSTEM, p2Prompt(existing, forcedFields));
     const updated = parseJSON(raw);
     updated.collected_at = existing.collected_at;
     updated.pass2_at = new Date().toISOString();
@@ -492,7 +535,14 @@ async function main() {
   fs.mkdirSync(OUTPUT_DIR, { recursive: true });
   buildUrlIndex();
 
-  const urls = SINGLE_URL ? [SINGLE_URL] : await readCandidateUrls();
+  let urls: string[];
+  if (SINGLE_URL) {
+    urls = [SINGLE_URL];
+  } else if (URL_FILE) {
+    urls = fs.readFileSync(URL_FILE, "utf-8").split("\n").map(u => u.trim()).filter(u => u.startsWith("http"));
+  } else {
+    urls = await readCandidateUrls();
+  }
 
   console.log(`Model:       ${MODEL}`);
   console.log(`Concurrency: ${CONCURRENCY}`);

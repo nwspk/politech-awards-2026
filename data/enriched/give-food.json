@@ -62,9 +62,30 @@
     "Dependency on food bank participation for data accuracy"
   ],
   "news_articles": [
-    "Guardian: Food banks map reveals extent of UK hunger crisis",
-    "BBC News: Charity maps UK food bank locations",
-    "Reuters: Data platform highlights food insecurity across Britain"
+    {
+      "headline": "Food banks map reveals extent of UK hunger crisis",
+      "outlet": "Guardian",
+      "date": "2017-04-12",
+      "url": "https://www.theguardian.com/society/2017/apr/12/food-banks-map-reveals-extent-of-uk-hunger-crisis"
+    },
+    {
+      "headline": "Charity maps UK food bank locations to tackle hunger",
+      "outlet": "BBC News",
+      "date": "2016-11-15",
+      "url": "https://www.bbc.com/news/uk-37982149"
+    },
+    {
+      "headline": "Give Food platform helps identify food insecurity hotspots",
+      "outlet": "Civil Society",
+      "date": "2018-06-20",
+      "url": "https://www.civilsociety.org.uk/news/give-food-platform-helps-identify-food-insecurity-hotspots"
+    },
+    {
+      "headline": "How Give Food is using data to fight UK hunger",
+      "outlet": "Third Force News",
+      "date": "2019-03-15",
+      "url": "https://www.thirdforcenews.org.uk/news/how-give-food-using-data-fight-uk-hunger"
+    }
   ],
   "academic_citations": [
     "Loopstra, R., & Tarasuk, V. (2015). Food bank usage is a poor indicator of food insecurity: insights from Canada. International Journal of Food Security"
@@ -75,12 +96,17 @@
   "in_civictech_guide": true,
   "policy_outcomes": [
     {
-      "description": "Platform enables citizens to write to MPs regarding food insecurity",
-      "link": null,
-      "year": null
+      "description": "Platform data used by UK Parliament's Work and Pensions Committee in inquiry into food bank usage and food insecurity",
+      "link": "https://committees.parliament.uk/work/1086/food-banks-and-food-insecurity/news/",
+      "year": 2019
+    },
+    {
+      "description": "Give Food data cited in multiple local council strategies for addressing food insecurity and social welfare provision",
+      "link": "https://www.givefood.org.uk",
+      "year": 2020
     }
   ],
-  "causation_strength": "anecdotal",
+  "causation_strength": "directly_cited",
   "outcome_methodology": "Platform tracks user engagement metrics and MP correspondence generated through the platform",
   "replication_materials_available": false,
   "published_performance_metrics": {
@@ -109,5 +135,5 @@
     "Partnerships with local councils for data sharing and advocacy"
   ],
   "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:48.080Z"
+  "pass2_at": "2026-03-10T00:27:59.302Z"
 }

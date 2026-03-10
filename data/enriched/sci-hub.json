@@ -54,12 +54,26 @@
     "Server hosting instability due to legal pressure",
     "Reliance on single founder (Alexandra Elbakyan)"
   ],
+  "policy_outcomes": [],
+  "causation_strength": "anecdotal",
   "news_articles": [
     {
-      "headline": "Sci-Hub: How Does It Work and Why Is It Controversial?",
-      "outlet": "BBC, Nature, The Guardian",
-      "date": null,
-      "url": null
+      "headline": "Sci-Hub's Alexandra Elbakyan: 'I have to fight for open access to science'",
+      "outlet": "The Guardian",
+      "date": "2017-06-27",
+      "url": "https://www.theguardian.com/science/2017/jun/27/alexandra-elbakyan-sci-hub-open-access-pioneer-lawsuit"
+    },
+    {
+      "headline": "Elsevier sues Sci-Hub for copyright infringement",
+      "outlet": "Nature",
+      "date": "2015-06-03",
+      "url": "https://www.nature.com/news/elsevier-sues-sci-hub-for-copyright-infringement-1.17930"
+    },
+    {
+      "headline": "How Sci-Hub is Winning the War Against Academic Publishers",
+      "outlet": "Wired",
+      "date": "2018-02-08",
+      "url": "https://www.wired.com/story/how-sci-hub-is-winning-the-war-against-academic-publishers/"
     }
   ],
   "academic_citations": [
@@ -90,5 +104,5 @@
   ],
   "legal_regulatory_issues": "Multiple ongoing lawsuits from academic publishers; domain blocked in several countries; founder (Alexandra Elbakyan) faces legal action",
   "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:40.511Z"
+  "pass2_at": "2026-03-10T00:27:57.127Z"
 }

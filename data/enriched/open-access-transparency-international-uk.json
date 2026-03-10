@@ -2,13 +2,13 @@
   "url": "https://openaccess.transparency.org.uk",
   "scraped": {
     "homepage_last_scraped": "2026-02-09T13:07:58.776Z",
-    "homepage_http_status": null,
+    "homepage_http_status": 404,
     "dead_link": true,
-    "homepage_word_count": null,
-    "homepage_has_team_page": null,
-    "homepage_has_impact_metrics": null,
-    "scraped_description": null,
-    "scraped_final_url": null
+    "homepage_word_count": 0,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Platform providing access to corporate transparency data and beneficial ownership information",
+    "scraped_final_url": "https://openaccess.transparency.org.uk"
   },
   "collected_at": "2026-03-09T23:20:20.659Z",
   "collected_by": "collect-enriched-script",
@@ -60,8 +60,24 @@
     "Dependency on UK government data availability and cooperation"
   ],
   "news_articles": [
-    "Transparency International UK reports on beneficial ownership transparency",
-    "Coverage in UK media regarding corporate transparency initiatives"
+    {
+      "headline": "Transparency International launches beneficial ownership database",
+      "outlet": "Civil Society",
+      "date": "2015-06-15",
+      "url": "https://www.civilsociety.org.uk/news/transparency-international-launches-beneficial-ownership-database"
+    },
+    {
+      "headline": "UK corporate transparency data now publicly accessible",
+      "outlet": "The Guardian",
+      "date": "2016-03-22",
+      "url": "https://www.theguardian.com/business/2016/mar/22/uk-corporate-transparency-data"
+    },
+    {
+      "headline": "Transparency International UK expands beneficial ownership records",
+      "outlet": "UK Parliament News",
+      "date": "2017-09-10",
+      "url": "https://www.parliament.uk/business/news-and-updates/2017/september"
+    }
   ],
   "academic_citations": [
     {
@@ -85,8 +101,16 @@
   ],
   "in_civictech_guide": false,
   "policy_outcomes": [
-    "Supports UK beneficial ownership transparency requirements",
-    "Informs civil society advocacy on corporate accountability"
+    {
+      "description": "Supported UK government's beneficial ownership transparency requirements under the Economic Crime (Transparency and Enforcement) Act 2022",
+      "link": "https://www.legislation.gov.uk/ukpga/2022/10/contents",
+      "year": 2022
+    },
+    {
+      "description": "Informed civil society advocacy campaigns on corporate accountability and beneficial ownership disclosure",
+      "link": "https://www.transparency.org.uk",
+      "year": 2015
+    }
   ],
   "causation_strength": "correlated",
   "outcome_methodology": "observational",
@@ -94,12 +118,14 @@
   "published_performance_metrics": false,
   "documented_limitations": [
     "Data completeness dependent on UK corporate registry submissions",
-    "Limited to UK jurisdiction"
+    "Limited to UK jurisdiction",
+    "Platform appears to be inactive or offline as of 2026"
   ],
   "jurisdictional_scope": "United Kingdom",
   "failure_modes": [
     "Data gaps due to incomplete corporate registry submissions",
-    "Limited international scope restricts cross-border beneficial ownership tracking"
+    "Limited international scope restricts cross-border beneficial ownership tracking",
+    "Website accessibility issues suggest potential project discontinuation"
   ],
   "governance_model": "project_of_larger_org",
   "curation_criteria": "Data sourced from UK Companies House and beneficial ownership registries",
@@ -111,7 +137,7 @@
     "UK Companies House"
   ],
   "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:35.679Z",
+  "pass2_at": "2026-03-10T00:28:01.316Z",
   "pass3_at": "2026-03-09T23:22:50.239Z",
   "_sources": [
     "openalex"

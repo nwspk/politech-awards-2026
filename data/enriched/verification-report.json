@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-10T00:07:10.926Z",
+  "generated_at": "2026-03-10T00:29:34.929Z",
   "total_files": 321,
   "clean": [
     {
@@ -1377,6 +1377,16 @@
       "passLevel": 3
     },
     {
+      "file": "parti.json",
+      "name": "Parti",
+      "url": "https://parti.xyz",
+      "flags": [],
+      "nullFields": [
+        "elections_used_in"
+      ],
+      "passLevel": 2
+    },
+    {
       "file": "pastecal.json",
       "name": "Pastecal",
       "url": "https://github.com/kazad/pastecal",
@@ -2160,7 +2170,7 @@
   "summary": {
     "errors": 0,
     "warnings": 81,
-    "clean": 171,
+    "clean": 172,
     "by_pass_level": [
       {
         "level": 0,
@@ -2168,11 +2178,11 @@
       },
       {
         "level": 1,
-        "count": 4
+        "count": 2
       },
       {
         "level": 2,
-        "count": 167
+        "count": 169
       },
       {
         "level": 3,
@@ -2181,10 +2191,10 @@
     ],
     "flag_counts": {
       "DECADE_PLUS_INCONSISTENT": 5,
-      "DEAD_LINK_HAS_DATA": 22,
+      "DEAD_LINK_HAS_DATA": 20,
       "INVALID_ENUM": 100,
-      "THIN_HOMEPAGE": 45,
-      "OUTCOME_NO_LINK": 36,
+      "THIN_HOMEPAGE": 47,
+      "OUTCOME_NO_LINK": 35,
       "MODERATE_NULL_COUNT": 6,
       "OPEN_SOURCE_NO_GITHUB": 8,
       "FUNDING_VERIFIED_NO_FUNDERS": 1,
@@ -2192,8 +2202,8 @@
     },
     "top_null_fields": {
       "elections_used_in": 294,
-      "policy_outcomes": 197,
-      "causation_strength": 167,
+      "policy_outcomes": 192,
+      "causation_strength": 150,
       "failure_modes": 124,
       "news_articles": 118,
       "documented_limitations": 82,
@@ -2226,8 +2236,6 @@
         }
       ],
       "nullFields": [
-        "policy_outcomes",
-        "causation_strength",
         "elections_used_in"
       ],
       "passLevel": 2
@@ -2293,7 +2301,6 @@
       "nullFields": [
         "news_articles",
         "policy_outcomes",
-        "causation_strength",
         "failure_modes",
         "elections_used_in"
       ],
@@ -2380,7 +2387,6 @@
       "nullFields": [
         "known_funders",
         "policy_outcomes",
-        "causation_strength",
         "elections_used_in",
         "ai_involvement"
       ],
@@ -3031,8 +3037,6 @@
         }
       ],
       "nullFields": [
-        "policy_outcomes",
-        "causation_strength",
         "failure_modes",
         "elections_used_in",
         "ai_involvement"
@@ -3352,7 +3356,6 @@
         "known_funders",
         "news_articles",
         "policy_outcomes",
-        "causation_strength",
         "documented_limitations",
         "failure_modes",
         "governance_model",
@@ -3464,8 +3467,6 @@
         }
       ],
       "nullFields": [
-        "policy_outcomes",
-        "causation_strength",
         "elections_used_in"
       ],
       "passLevel": 3
@@ -3725,11 +3726,6 @@
           "level": "info",
           "code": "DEAD_LINK_HAS_DATA",
           "message": "dead_link=true but file has LLM data — verify freshness"
-        },
-        {
-          "level": "info",
-          "code": "OUTCOME_NO_LINK",
-          "message": "1 policy_outcome(s) have no evidence link"
         },
         {
           "level": "info",
@@ -4014,7 +4010,6 @@
         "known_funders",
         "news_articles",
         "policy_outcomes",
-        "causation_strength",
         "elections_used_in"
       ],
       "passLevel": 3
@@ -4412,7 +4407,7 @@
         {
           "level": "info",
           "code": "MODERATE_NULL_COUNT",
-          "message": "14/22 core fields are null/empty"
+          "message": "12/22 core fields are null/empty"
         },
         {
           "level": "info",
@@ -4421,7 +4416,6 @@
         }
       ],
       "nullFields": [
-        "org_type",
         "open_source",
         "founded_year",
         "team_size",
@@ -4429,7 +4423,6 @@
         "known_funders",
         "news_articles",
         "policy_outcomes",
-        "causation_strength",
         "documented_limitations",
         "failure_modes",
         "governance_model",
@@ -4658,6 +4651,11 @@
           "level": "info",
           "code": "DEAD_LINK_HAS_DATA",
           "message": "dead_link=true but file has LLM data — verify freshness"
+        },
+        {
+          "level": "info",
+          "code": "THIN_HOMEPAGE",
+          "message": "homepage_word_count=0 — very thin page, LLM data may be unreliable"
         }
       ],
       "nullFields": [
@@ -4691,7 +4689,6 @@
         "known_funders",
         "news_articles",
         "policy_outcomes",
-        "causation_strength",
         "elections_used_in"
       ],
       "passLevel": 3
@@ -5085,6 +5082,11 @@
           "level": "info",
           "code": "DEAD_LINK_HAS_DATA",
           "message": "dead_link=true but file has LLM data — verify freshness"
+        },
+        {
+          "level": "info",
+          "code": "THIN_HOMEPAGE",
+          "message": "homepage_word_count=0 — very thin page, LLM data may be unreliable"
         }
       ],
       "nullFields": [
@@ -5594,7 +5596,7 @@
         {
           "level": "info",
           "code": "MODERATE_NULL_COUNT",
-          "message": "12/22 core fields are null/empty"
+          "message": "11/22 core fields are null/empty"
         }
       ],
       "nullFields": [
@@ -5605,13 +5607,12 @@
         "known_funders",
         "news_articles",
         "policy_outcomes",
-        "causation_strength",
         "documented_limitations",
         "failure_modes",
         "governance_model",
         "elections_used_in"
       ],
-      "passLevel": 1
+      "passLevel": 2
     },
     {
       "file": "parallel-parliament.json",
@@ -5662,13 +5663,7 @@
       "file": "parti.json",
       "name": "Parti",
       "url": "https://parti.xyz",
-      "flags": [
-        {
-          "level": "info",
-          "code": "DEAD_LINK_HAS_DATA",
-          "message": "dead_link=true but file has LLM data — verify freshness"
-        }
-      ],
+      "flags": [],
       "nullFields": [
         "elections_used_in"
       ],
@@ -6074,8 +6069,8 @@
         }
       ],
       "nullFields": [
+        "news_articles",
         "policy_outcomes",
-        "causation_strength",
         "documented_limitations",
         "failure_modes",
         "elections_used_in"
@@ -6359,7 +6354,6 @@
       "nullFields": [
         "known_funders",
         "policy_outcomes",
-        "causation_strength",
         "elections_used_in"
       ],
       "passLevel": 2
@@ -6383,16 +6377,9 @@
           "level": "warn",
           "code": "INVALID_ENUM",
           "message": "governance_model: \"NGO with co-founders; open source content and code; community contributions welcomed\" not in allowed values (foundation · LLC · cooperative · project_of_larger_org · individual)"
-        },
-        {
-          "level": "info",
-          "code": "DEAD_LINK_HAS_DATA",
-          "message": "dead_link=true but file has LLM data — verify freshness"
         }
       ],
       "nullFields": [
-        "policy_outcomes",
-        "causation_strength",
         "elections_used_in"
       ],
       "passLevel": 2
@@ -6915,7 +6902,7 @@
         {
           "level": "warn",
           "code": "HIGH_NULL_COUNT",
-          "message": "21/22 core fields are null/empty — may need re-collection"
+          "message": "20/22 core fields are null/empty — may need re-collection"
         },
         {
           "level": "info",
@@ -6939,14 +6926,13 @@
         "funding_verified",
         "news_articles",
         "policy_outcomes",
-        "causation_strength",
         "documented_limitations",
         "failure_modes",
         "governance_model",
         "elections_used_in",
         "ai_involvement"
       ],
-      "passLevel": 1
+      "passLevel": 2
     },
     {
       "file": "turbo-phonebank.json",
@@ -7037,9 +7023,6 @@
       ],
       "nullFields": [
         "team_size",
-        "news_articles",
-        "policy_outcomes",
-        "causation_strength",
         "documented_limitations",
         "failure_modes",
         "elections_used_in"
@@ -7110,7 +7093,7 @@
         {
           "level": "warn",
           "code": "HIGH_NULL_COUNT",
-          "message": "18/22 core fields are null/empty — may need re-collection"
+          "message": "17/22 core fields are null/empty — may need re-collection"
         },
         {
           "level": "info",
@@ -7131,7 +7114,6 @@
         "funding_verified",
         "news_articles",
         "policy_outcomes",
-        "causation_strength",
         "documented_limitations",
         "failure_modes",
         "governance_model",
@@ -7265,7 +7247,6 @@
         "team_size",
         "news_articles",
         "policy_outcomes",
-        "causation_strength",
         "failure_modes",
         "elections_used_in"
       ],
