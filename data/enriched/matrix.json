@@ -173,5 +173,8 @@
     }
   ],
   "ai_involvement": "No AI/machine learning components in core Matrix protocol; some client applications may use AI for moderation or spam detection, but not part of standard specification",
-  "pass2_at": "2026-03-09T23:21:40.578Z"
+  "pass2_at": "2026-03-09T23:21:40.578Z",
+  "pass5_at": "2026-03-10T01:00:24.523Z",
+  "pass5_jina_words": 224,
+  "pass5_changes": []
 }

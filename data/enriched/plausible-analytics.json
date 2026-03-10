@@ -90,5 +90,8 @@
   "contributor_governance": "Open source contribution guidelines on GitHub; community-driven feature requests via GitHub discussions",
   "community_ownership": false,
   "ai_involvement": "Monitors traffic from AI tools (ChatGPT, Perplexity, Claude)",
-  "pass2_at": "2026-03-09T23:21:39.297Z"
+  "pass2_at": "2026-03-09T23:21:39.297Z",
+  "pass5_at": "2026-03-10T00:49:09.281Z",
+  "pass5_jina_words": 553,
+  "pass5_changes": []
 }

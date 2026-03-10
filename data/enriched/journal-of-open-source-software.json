@@ -82,5 +82,8 @@
   "curation_criteria": "Quality research software packages meeting submission scope requirements",
   "contributor_governance": "Open peer review system with volunteer reviewers",
   "community_ownership": "Community-driven with editorial oversight",
-  "pass2_at": "2026-03-09T23:21:32.604Z"
+  "pass2_at": "2026-03-09T23:21:32.604Z",
+  "pass5_at": "2026-03-10T00:46:27.256Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": []
 }

@@ -10,7 +10,8 @@
  *   npx tsx scripts/collect-enriched.ts                        # pass 1: broad sweep
  *   npx tsx scripts/collect-enriched.ts --pass 2               # pass 2: fill null fields
  *   npx tsx scripts/collect-enriched.ts --pass 3               # pass 3: structured DB lookups
- *   npx tsx scripts/collect-enriched.ts --pass all             # run all four in sequence
+ *   npx tsx scripts/collect-enriched.ts --pass 5               # pass 5: Jina Reader re-fetch + LLM improvement
+ *   npx tsx scripts/collect-enriched.ts --pass all             # run all passes in sequence
  *   npx tsx scripts/collect-enriched.ts --url https://x.com    # single project, pass 1
  *   npx tsx scripts/collect-enriched.ts --retry-errors         # redo error files
  *   npx tsx scripts/collect-enriched.ts --concurrency 50
@@ -143,6 +144,18 @@ function fetchPage(url: string): string {
   try {
     const html = execSync(`curl -s -L --max-time 15 --user-agent "Mozilla/5.0" "${url}"`, { timeout: 20000 }).toString();
     return extractText(html).slice(0, 4000);
+  } catch { return ""; }
+}
+
+function fetchPageJina(url: string): string {
+  try {
+    const jinaUrl = `https://r.jina.ai/${url}`;
+    const out = execSync(`curl -s -L --max-time 30 --user-agent "Mozilla/5.0" "${jinaUrl}"`, { timeout: 35000 }).toString();
+    // Jina returns markdown — strip any Jina header boilerplate
+    const cleaned = out.replace(/^Title:.*\n/m, "").replace(/^URL Source:.*\n/m, "").replace(/^Markdown Content:\n/m, "").trim();
+    // Detect rate-limit response (JSON error with 429)
+    if (cleaned.startsWith("{") && cleaned.includes("429")) return "__RATE_LIMITED__";
+    return cleaned.slice(0, 6000);
   } catch { return ""; }
 }
 
@@ -503,6 +516,154 @@ async function pass3(url: string, index: number, total: number): Promise<void> {
 }
 
 // ---------------------------------------------------------------------------
+// PASS 5 — Jina Reader re-fetch + LLM improvement pass
+// ---------------------------------------------------------------------------
+
+const P5_SYSTEM = `You are improving an existing project dossier using freshly fetched page content.
+
+You will be given:
+1. The current dossier (which may have null/empty fields or short descriptions)
+2. Fresh page content retrieved via Jina Reader (a headless renderer that can access JS-heavy pages)
+
+Your task: update fields ONLY where Jina provides better information.
+
+Rules:
+- If a field is null/empty AND Jina content provides an answer → fill it
+- If a field already has a value AND Jina content provides a substantially more detailed answer → update it
+- If Jina content does not improve on the existing value → leave it unchanged
+- Never set a field to null or empty if it already has a value
+- Never invent facts not present in the Jina content
+- Pay special attention to: policy_outcomes, news_articles, tagline, founded_year, team_size, governance_model, org_type, countries_deployed
+
+Return ONLY the complete updated JSON, no markdown fences.`;
+
+function p5Prompt(existing: Record<string, unknown>, jinaContent: string): string {
+  return `Improve this dossier using the fresh Jina Reader page content below.
+
+Only update fields where the page content provides better information than what exists.
+For null/empty fields: fill them if the content answers them.
+For fields with short/vague values: update only if content is substantially more detailed.
+
+FRESH PAGE CONTENT (via Jina Reader):
+${jinaContent}
+
+CURRENT DOSSIER:
+${JSON.stringify(existing, null, 2)}
+
+Return the complete updated JSON.`;
+}
+
+// Returns true if newVal is meaningfully better than oldVal
+function isBetterValue(oldVal: unknown, newVal: unknown): boolean {
+  if (newVal === null || newVal === undefined) return false;
+  if (oldVal === null || oldVal === undefined) return true;
+  if (Array.isArray(oldVal) && Array.isArray(newVal)) {
+    return newVal.length > oldVal.length;
+  }
+  if (typeof oldVal === "string" && typeof newVal === "string") {
+    // Accept if new value is at least 30% longer
+    return newVal.length > oldVal.length * 1.3 && newVal.length - oldVal.length > 20;
+  }
+  return false; // numbers, booleans — don't overwrite existing
+}
+
+// Merge updated dossier: only apply improvements
+function mergeImprovements(
+  existing: Record<string, unknown>,
+  updated: Record<string, unknown>
+): { merged: Record<string, unknown>; changes: string[] } {
+  const merged = { ...existing };
+  const changes: string[] = [];
+
+  // Fields that are safe to overwrite or fill
+  const improvableFields = [
+    "name", "tagline", "project_type", "org_type", "issue_area", "sdg_alignment", "decade_plus",
+    "geography", "countries_deployed", "communities_served", "political_units",
+    "open_source", "github_url", "github_stars", "last_commit_date", "format",
+    "founded_year", "team_size", "funding_model", "known_funders", "funding_verified", "last_funding_event", "dependency_risks",
+    "news_articles", "academic_citations", "awards", "in_civictech_guide", "wikipedia_page",
+    "policy_outcomes", "causation_strength", "outcome_methodology", "replication_materials_available",
+    "preregistered_studies", "published_performance_metrics",
+    "documented_limitations", "jurisdictional_scope", "failure_modes",
+    "governance_model", "curation_criteria", "contributor_governance", "disparity_tracking", "community_ownership",
+    "controversies", "political_bias_allegations", "legal_regulatory_issues",
+    "elections_used_in", "government_partnerships", "ai_involvement",
+  ];
+
+  for (const field of improvableFields) {
+    const oldVal = existing[field];
+    const newVal = updated[field];
+    if (isBetterValue(oldVal, newVal)) {
+      merged[field] = newVal;
+      changes.push(field);
+    }
+  }
+
+  return { merged, changes };
+}
+
+async function pass5(url: string, index: number, total: number): Promise<void> {
+  const slug = resolveSlug(url);
+  const existing = loadFile(slug);
+  if (!existing || existing.error) {
+    console.log(`[P5 ${index}/${total}] SKIP  ${slug} (no prior data)`);
+    return;
+  }
+
+  // Check if already run (unless --retry-errors)
+  if (existing.pass5_at && !RETRY_ERRORS) {
+    console.log(`[P5 ${index}/${total}] SKIP  ${slug} (pass5 done)`);
+    return;
+  }
+
+  // Fetch via Jina — retry once on rate limit
+  let jinaContent = fetchPageJina(url);
+  if (jinaContent === "__RATE_LIMITED__") {
+    await new Promise(r => setTimeout(r, 12000)); // wait 12s then retry
+    jinaContent = fetchPageJina(url);
+    if (jinaContent === "__RATE_LIMITED__") {
+      console.log(`[P5 ${index}/${total}] SKIP  ${slug} (Jina rate limited after retry)`);
+      return;
+    }
+  }
+  const wordCount = jinaContent.split(/\s+/).filter(Boolean).length;
+
+  if (wordCount < 50) {
+    console.log(`[P5 ${index}/${total}] SKIP  ${slug} (Jina returned ${wordCount} words — too thin)`);
+    // Still mark as attempted
+    saveFile(slug, { ...existing, pass5_at: new Date().toISOString(), pass5_jina_words: wordCount, pass5_changes: [] });
+    return;
+  }
+
+  // Check if Jina is better than what we already have
+  const cachedRow = fetchCachedRow(url);
+  const cachedWords = cachedRow?.body ? extractText(cachedRow.body).split(/\s+/).filter(Boolean).length : 0;
+  if (wordCount <= cachedWords * 1.1 && existing.pass2_at) {
+    // Jina isn't giving us meaningfully more — skip LLM call if data already rich
+    const nullCount = countNulls(existing).length;
+    if (nullCount < 8) {
+      console.log(`[P5 ${index}/${total}] SKIP  ${slug} (Jina=${wordCount}w vs cached=${cachedWords}w, dossier rich enough)`);
+      saveFile(slug, { ...existing, pass5_at: new Date().toISOString(), pass5_jina_words: wordCount, pass5_changes: [] });
+      return;
+    }
+  }
+
+  console.log(`[P5 ${index}/${total}] START ${slug} (Jina=${wordCount}w vs cached=${cachedWords}w)`);
+  try {
+    const raw = await callLLM(P5_SYSTEM, p5Prompt(existing, jinaContent));
+    const updated = parseJSON(raw);
+    const { merged, changes } = mergeImprovements(existing, updated);
+    merged.pass5_at = new Date().toISOString();
+    merged.pass5_jina_words = wordCount;
+    merged.pass5_changes = changes;
+    saveFile(slug, merged);
+    console.log(`[P5 ${index}/${total}] DONE  ${slug} (+${changes.length} improvements: ${changes.slice(0, 4).join(", ")})`);
+  } catch (err) {
+    console.error(`[P5 ${index}/${total}] ERR   ${slug}: ${err instanceof Error ? err.message : err}`);
+  }
+}
+
+// ---------------------------------------------------------------------------
 // Worker pool runner
 // ---------------------------------------------------------------------------
 
@@ -554,6 +715,7 @@ async function main() {
   if (PASS === "1" || PASS === "all") await runPass("1 (broad sweep)", pass1, urls);
   if (PASS === "2" || PASS === "all") await runPass("2 (fill nulls)", pass2, urls);
   if (PASS === "3" || PASS === "all") await runPass("3 (structured DBs)", pass3, urls);
+  if (PASS === "5" || PASS === "all") await runPass("5 (Jina Reader)", pass5, urls);
 
   const files = fs.readdirSync(OUTPUT_DIR).filter(f => f.endsWith(".json"));
   const errors = files.filter(f => {

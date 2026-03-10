@@ -13,7 +13,7 @@
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "Aleph (OCCRP)",
-  "tagline": "Search and browse documents and data; find the people and companies you look for.",
+  "tagline": "The global archive of research material for investigative reporting. Follow the money through government records and databases.",
   "project_type": "Tool/Platform",
   "org_type": "Nonprofit/charity",
   "issue_area": [
@@ -109,8 +109,9 @@
   "replication_materials_available": true,
   "published_performance_metrics": "Platform usage statistics and investigation impact metrics published in OCCRP annual reports; specific performance benchmarks not formally published",
   "documented_limitations": [
-    "Access to Aleph restricted to journalists and activists on case-by-case basis",
-    "Depends on document quality and completeness of source datasets"
+    "Access to Aleph restricted to journalists and activists on case-by-case basis; applications reviewed individually with access typically granted within 72 hours",
+    "Depends on document quality and completeness of source datasets",
+    "Regularly fetches public records from over 200 online sources but coverage depends on availability of public records in each jurisdiction"
   ],
   "jurisdictional_scope": "global",
   "failure_modes": [
@@ -119,7 +120,7 @@
     "USAID funding dependency creates structural vulnerability to US foreign policy shifts"
   ],
   "governance_model": "foundation",
-  "curation_criteria": "Access granted to journalists and activists case-by-case; government records and public databases are primary sources",
+  "curation_criteria": "Access granted to journalists and activists case-by-case through application process; government records and public databases are primary sources; regularly fetches public records from over 200 online sources",
   "contributor_governance": "MIT-licensed open source; community contributions accepted via GitHub; OCCRP controls platform deployment and access policy",
   "disparity_tracking": "No formal disparity tracking; platform access restricted to vetted journalists and activists, limiting transparency on equity of access across regions and demographics",
   "community_ownership": "Community-contributed code accepted via GitHub; however, platform access and deployment decisions remain centralized under OCCRP control; no formal community governance structure",
@@ -138,5 +139,12 @@
     "Swedish government"
   ],
   "ai_involvement": "Uses AI/ML for document processing and entity extraction within the platform",
-  "pass2_at": "2026-03-09T23:21:27.087Z"
+  "pass2_at": "2026-03-09T23:21:27.087Z",
+  "pass5_at": "2026-03-10T00:47:27.316Z",
+  "pass5_jina_words": 267,
+  "pass5_changes": [
+    "tagline",
+    "documented_limitations",
+    "curation_criteria"
+  ]
 }

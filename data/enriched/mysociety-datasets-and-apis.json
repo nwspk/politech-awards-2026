@@ -123,5 +123,8 @@
     "Multiple local authorities"
   ],
   "ai_involvement": "Limited; primarily used for data processing and API optimization, not core functionality",
-  "pass2_at": "2026-03-09T23:21:25.872Z"
+  "pass2_at": "2026-03-09T23:21:25.872Z",
+  "pass5_at": "2026-03-10T00:45:43.042Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": []
 }

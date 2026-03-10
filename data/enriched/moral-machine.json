@@ -51,7 +51,11 @@
     "public_funding"
   ],
   "known_funders": [
-    "MIT Media Lab"
+    "MIT Media Lab",
+    "Max Planck Institute for Human Development",
+    "University of Exeter",
+    "Toulouse School of Economics",
+    "University of British Columbia"
   ],
   "funding_verified": true,
   "last_funding_event": "2018",
@@ -91,8 +95,8 @@
     "Ethical dilemmas presented may not reflect real-world autonomous vehicle scenarios"
   ],
   "governance_model": "project_of_larger_org",
-  "curation_criteria": "Ethical dilemmas presented in standardized format; responses aggregated by demographic and geographic variables",
-  "contributor_governance": "Open participation model; no formal contributor governance structure documented",
+  "curation_criteria": "Ethical dilemmas presented in standardized format with visual representations (skull for death, medical cross for injury, question mark for uncertain outcomes); responses aggregated by demographic and geographic variables",
+  "contributor_governance": "Open participation model; users can judge scenarios, design custom scenarios, and browse/discuss community-created content; no formal contributor governance structure documented",
   "disparity_tracking": "Tracked by country, age, gender, and education level in published analyses",
   "community_ownership": false,
   "controversies": [
@@ -100,5 +104,12 @@
     "Concerns about cultural bias in ethical preference aggregation"
   ],
   "ai_involvement": "Core to project design - studying AI ethical decision-making",
-  "pass2_at": "2026-03-09T23:21:36.013Z"
+  "pass2_at": "2026-03-09T23:21:36.013Z",
+  "pass5_at": "2026-03-10T01:04:13.184Z",
+  "pass5_jina_words": 829,
+  "pass5_changes": [
+    "known_funders",
+    "curation_criteria",
+    "contributor_governance"
+  ]
 }

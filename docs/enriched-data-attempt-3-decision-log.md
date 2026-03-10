@@ -410,3 +410,47 @@ Also fixed a latent bug in `parseJSON`: the function was doing a simple strip of
 **Projects that remain data-poor after targeted pass** (all returned `causation_strength: "anecdotal"` with 0 policy outcomes and 0–1 news articles): Unknown Academic Paper (SSRN), tracking-template Firebase app, Local Deep Researcher, Papertree, Agreement Engine, DoGooder, Hand-Written Petition Scanner, Membership, Public Editor, Violation Tracker UK.
 
 **Interpretation:** The 10 persistently data-poor projects fall into two groups. The first four (SSRN paper, Firebase app, Local Deep Researcher, Papertree) are genuine Tier 1 critical cases — either not real public projects or projects with almost no web presence. The remaining six are legitimate but genuinely niche tools with minimal media coverage and no documented policy outcomes — their honest assessment is `anecdotal` at best. The committee should note that these projects' low enrichment scores reflect sparse evidence, not researcher error.
+
+---
+
+### Decision 15 — Pass 5: Jina Reader re-fetch for thin/blocked sites
+
+**Date:** 2026-03-10
+
+**Decision:** Add a fifth collection pass using [Jina Reader](https://r.jina.ai/) (`r.jina.ai/<url>`) to re-fetch all 321 projects and update dossier fields only where the new content is better than what was already collected.
+
+**Reasoning:** Ten projects remained data-poor after the targeted Pass 2 (Decision 14). Investigation showed four categories: (1) not real projects, (2) Medium/blog post URLs with no product homepage, (3) JavaScript-rendered demo apps with no documentation, and (4) real sites returning 403 to our `curl`-based scraper (DoGooder, Violation Tracker UK, Public Editor, Papertree). Jina Reader is a free headless renderer that renders JS, bypasses some bot-detection, and returns clean markdown. It is better suited than direct `curl` for sites in category 4. As a secondary benefit, Jina often returns more structured text from standard sites, so running it across all 321 can opportunistically improve taglines and context fields even for projects that were already reasonably enriched.
+
+**"Better than existing" rule:** Fields are updated only if:
+- The field is currently null/empty and Jina provides an answer, **or**
+- The field has a value and the new value is at least 30% longer and >20 characters more — signalling substantially more detail, not just rephrasing.
+
+Numeric/boolean fields (founded_year, github_stars, etc.) are never overwritten by this heuristic — only string and array fields.
+
+**Implementation:** Added to `scripts/data-processing/collect-enriched.ts`:
+- `fetchPageJina(url)` — fetches `r.jina.ai/<url>` via curl, detects rate-limit JSON responses, strips Jina header lines, returns up to 6,000 characters
+- `pass5()` — fetches via Jina, skips if <50 words returned; skips LLM call if Jina is no richer than cached content AND dossier already has <8 nulls; runs `callLLM()` otherwise
+- `isBetterValue()` + `mergeImprovements()` — merge logic that only applies changes where the new value is demonstrably richer
+- Rate-limit detection: if Jina returns a 429 JSON error, wait 12 seconds and retry once
+
+**Rate limiting:** Jina's free tier allows 20 requests/minute per IP. At 60 concurrent workers, the first run immediately triggered rate limits. After reducing to 15 concurrent workers, the pass completed cleanly. A 12-second backoff retry handles isolated 429s.
+
+**Process:** Three runs total:
+1. 30-worker host-job (killed at ~45/321 to switch to higher concurrency)
+2. 60-worker run (killed immediately; rate limits hit within seconds)
+3. 15-worker run (completed 254/321) + 10-worker follow-up for remaining 67 (completed all but 24 timeouts)
+
+**Outcome:**
+
+| Metric | Value |
+|---|---|
+| Projects processed (pass5_at set) | 297/321 (93%) |
+| Projects with ≥1 field improved | 30 |
+| Total field improvements | 68 |
+| Top improved fields | tagline (13), policy_outcomes (13), communities_served (6), news_articles (6), countries_deployed (5) |
+| Projects not reached | 24 (LLM timeouts during Jina+LLM combined call — acceptable gap) |
+
+**Impact on persistently data-poor projects:** Jina was able to retrieve content for Violation Tracker UK (451w vs 9w cached) and Dunadyne (345w vs 16w cached), adding new fields for both. DoGooder (411w vs 127w) also improved. Sites that remained thin through Jina (Local Deep Researcher, SSRN paper, Firebase template) are confirmed to have no retrievable public web presence and should be flagged as "data not available" in the published dossier.
+
+**No further automated passes planned.** The enriched data is now as complete as automated methods can make it for this dataset.
+

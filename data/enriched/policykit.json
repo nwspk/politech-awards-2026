@@ -103,5 +103,8 @@
   "contributor_governance": "University of Washington-led with community contributions via GitHub",
   "community_ownership": "limited - primarily academic-led with community input",
   "ai_involvement": "no",
-  "pass2_at": "2026-03-10T00:27:57.677Z"
+  "pass2_at": "2026-03-10T00:27:57.677Z",
+  "pass5_at": "2026-03-10T00:49:45.482Z",
+  "pass5_jina_words": 38,
+  "pass5_changes": []
 }

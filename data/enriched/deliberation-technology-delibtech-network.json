@@ -62,5 +62,8 @@
   "disparity_tracking": false,
   "community_ownership": false,
   "ai_involvement": "Yes - network focuses on AI-powered technologies in deliberative processes; coordinated by AI & Democracy Foundation",
-  "pass2_at": "2026-03-09T23:21:43.822Z"
+  "pass2_at": "2026-03-09T23:21:43.822Z",
+  "pass5_at": "2026-03-10T00:54:25.255Z",
+  "pass5_jina_words": 845,
+  "pass5_changes": []
 }

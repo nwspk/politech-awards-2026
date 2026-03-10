@@ -118,5 +118,8 @@
   "political_bias_allegations": "Allegations of left-leaning bias in selection of entities tracked; project maintains focus on corporate and government power structures across political spectrum",
   "legal_regulatory_issues": "Potential legal challenges regarding publication of personal relationship data; project operates within First Amendment protections for public interest research",
   "ai_involvement": "No primary AI/machine learning involvement; database uses traditional relational database architecture and manual curation",
-  "pass2_at": "2026-03-09T23:21:35.216Z"
+  "pass2_at": "2026-03-09T23:21:35.216Z",
+  "pass5_at": "2026-03-10T00:46:34.751Z",
+  "pass5_jina_words": 521,
+  "pass5_changes": []
 }

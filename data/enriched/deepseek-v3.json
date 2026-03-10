@@ -94,5 +94,8 @@
   "political_bias_allegations": "Potential concerns regarding alignment with Chinese regulatory requirements and content policies",
   "legal_regulatory_issues": "Subject to US export controls on advanced AI technology; potential restrictions under Biden administration AI executive order",
   "ai_involvement": "Core technology is large language model (LLM) with Mixture-of-Experts architecture",
-  "pass2_at": "2026-03-09T23:21:30.623Z"
+  "pass2_at": "2026-03-09T23:21:30.623Z",
+  "pass5_at": "2026-03-10T00:46:18.011Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": []
 }

@@ -72,5 +72,8 @@
   "governance_model": "LLC",
   "disparity_tracking": false,
   "community_ownership": false,
-  "pass2_at": "2026-03-09T23:21:20.647Z"
+  "pass2_at": "2026-03-09T23:21:20.647Z",
+  "pass5_at": "2026-03-10T00:43:21.973Z",
+  "pass5_jina_words": 458,
+  "pass5_changes": []
 }

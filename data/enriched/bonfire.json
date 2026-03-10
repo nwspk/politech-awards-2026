@@ -92,5 +92,8 @@
   "disparity_tracking": "Not formally tracked; project emphasizes accessibility and inclusion for marginalized communities through decentralized design",
   "community_ownership": "Finances transparently managed on Open Collective; community-driven development; no investor or VC involvement",
   "ai_involvement": "No AI/machine learning components; focus on human-centered, community-controlled design",
-  "pass2_at": "2026-03-09T23:21:23.654Z"
+  "pass2_at": "2026-03-09T23:21:23.654Z",
+  "pass5_at": "2026-03-10T00:42:14.435Z",
+  "pass5_jina_words": 525,
+  "pass5_changes": []
 }

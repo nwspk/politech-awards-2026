@@ -110,5 +110,8 @@
     "Ministry of Digital Transformation of Ukraine"
   ],
   "ai_involvement": "Limited AI involvement; primarily uses rule-based document verification and identity authentication systems; no machine learning-based decision systems documented",
-  "pass2_at": "2026-03-09T23:21:29.897Z"
+  "pass2_at": "2026-03-09T23:21:29.897Z",
+  "pass5_at": "2026-03-10T00:46:13.926Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": []
 }

@@ -85,6 +85,11 @@
   ],
   "in_civictech_guide": true,
   "policy_outcomes": [
+    "Trusted by researchers and policy organizations including National Institute of Economic and Social Research, Citizens' Economic Council, UBILabs, Adam Smith Institute, UBI Center, Centre Think Tank, Social Market Foundation, The Liberal Party, UK in a Changing Europe, Centre for Policy Studies, and Green Party of England and Wales",
+    "Provided Spring Statement 2026 analysis on OBR forecast and effects on UK living standards",
+    "Analyzed two-child limit reintroduction with budgetary, distributional, poverty, and inequality impacts",
+    "Developed salary sacrifice cap analysis tool for revenue and distributional impacts",
+    "Created student loan deductions calculator for repayments, marginal tax rates, and lifetime costs",
     "Informed UK parliamentary inquiries on tax policy",
     "Used by advocacy organizations in policy briefings",
     "Supported evidence-based policy analysis for benefit reform discussions"
@@ -113,5 +118,10 @@
     "US state tax administration agencies (data access)"
   ],
   "ai_involvement": "Limited; uses standard microsimulation algorithms rather than machine learning",
-  "pass2_at": "2026-03-09T23:21:41.389Z"
+  "pass2_at": "2026-03-09T23:21:41.389Z",
+  "pass5_at": "2026-03-10T01:04:14.782Z",
+  "pass5_jina_words": 327,
+  "pass5_changes": [
+    "policy_outcomes"
+  ]
 }

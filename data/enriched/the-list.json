@@ -107,5 +107,11 @@
   "pass3_at": "2026-03-09T23:23:13.171Z",
   "_sources": [
     "openalex"
+  ],
+  "policy_outcomes": "Provides instant notifications of changes to funder strategies, eligibility criteria, grant windows, and application deadlines; tracks confirmed funding changes from UK Trusts and Foundations",
+  "pass5_at": "2026-03-10T01:00:28.887Z",
+  "pass5_jina_words": 453,
+  "pass5_changes": [
+    "policy_outcomes"
   ]
 }

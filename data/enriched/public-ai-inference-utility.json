@@ -27,7 +27,10 @@
   "decade_plus": false,
   "geography": "international",
   "countries_deployed": [
-    "Switzerland"
+    "Switzerland",
+    "Singapore",
+    "Australia",
+    "Germany"
   ],
   "communities_served": [
     "developers",
@@ -90,9 +93,29 @@
   "community_ownership": true,
   "government_partnerships": [
     {
-      "partner": "Leading public institutions and national labs",
+      "partner": "Swiss AI",
       "nature": "Model and compute provision",
-      "country": "Multiple"
+      "country": "Switzerland"
+    },
+    {
+      "partner": "AI Singapore",
+      "nature": "Inference partner",
+      "country": "Singapore"
+    },
+    {
+      "partner": "National Computational Infrastructure Australia",
+      "nature": "Inference partner",
+      "country": "Australia"
+    },
+    {
+      "partner": "Juelich Supercomputing Center",
+      "nature": "Inference partner",
+      "country": "Germany"
+    },
+    {
+      "partner": "Swiss National Supercomputing Centre",
+      "nature": "Inference partner",
+      "country": "Switzerland"
     }
   ],
   "ai_involvement": "Core technology - provides inference utility for open-source language models including Apertus",
@@ -100,5 +123,44 @@
   "pass3_at": "2026-03-09T23:23:00.468Z",
   "_sources": [
     "openalex"
+  ],
+  "news_articles": [
+    {
+      "title": "Apertus Launch - Most Powerful Open-Source Language Model from Public Institution",
+      "date": "2025-09-02",
+      "url": "https://publicai.co/stories/apertus"
+    },
+    {
+      "title": "Official Inference Provider on Hugging Face",
+      "date": "2025-09-16",
+      "url": "https://publicai.co/stories/huggingface"
+    },
+    {
+      "title": "Public AI Inference Utility Launch",
+      "date": "2025-09-02",
+      "url": "https://publicai.co/stories/utility"
+    },
+    {
+      "title": "An Airbus for AI - Third Way Frontier Lab Proposal",
+      "date": "2025-09-01",
+      "url": "https://publicai.co/stories/airbus"
+    },
+    {
+      "title": "If Open Source is to Win, It Must Go Public",
+      "date": "2025-07-12",
+      "url": "https://publicai.co/stories/open-source-win"
+    }
+  ],
+  "policy_outcomes": [
+    "Launched Apertus, the most powerful open-source language model released by a public institution (September 2, 2025)",
+    "Became official inference provider on Hugging Face (September 16, 2025)"
+  ],
+  "pass5_at": "2026-03-10T00:51:49.452Z",
+  "pass5_jina_words": 469,
+  "pass5_changes": [
+    "countries_deployed",
+    "news_articles",
+    "policy_outcomes",
+    "government_partnerships"
   ]
 }

@@ -59,7 +59,8 @@
   "last_funding_event": "2023",
   "dependency_risks": [
     "Reliance on mySociety for hosting and maintenance",
-    "Dependency on GovEval for data accuracy"
+    "Dependency on GovEval for data accuracy",
+    "Reliance on Mythic Beasts for hosting infrastructure"
   ],
   "news_articles": [
     "Guardian coverage of mySociety projects (2015-2020)",
@@ -100,5 +101,10 @@
     "Partnerships with UK Parliament and local government bodies for data access"
   ],
   "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:51.733Z"
+  "pass2_at": "2026-03-09T23:21:51.733Z",
+  "pass5_at": "2026-03-10T00:57:48.925Z",
+  "pass5_jina_words": 170,
+  "pass5_changes": [
+    "dependency_risks"
+  ]
 }

@@ -13,7 +13,7 @@
   "collected_at": "2026-03-09T23:18:08.442Z",
   "collected_by": "collect-enriched-script",
   "name": "Landlord Tech Watch",
-  "tagline": "Monitoring and documenting landlord technology platforms and their impact on tenant rights",
+  "tagline": "Producing data, scholarship, and popular educational materials documenting how property technology increases landlord power while disempowering tenants",
   "project_type": "Database",
   "org_type": "Grassroots/indie",
   "issue_area": [
@@ -103,5 +103,12 @@
   "pass3_at": "2026-03-09T23:22:02.176Z",
   "_sources": [
     "openalex"
+  ],
+  "policy_outcomes": "Provides action plan for tenants to defend themselves from landlord tech; maintains deployment map to track landlord technology installations",
+  "pass5_at": "2026-03-10T00:47:23.136Z",
+  "pass5_jina_words": 531,
+  "pass5_changes": [
+    "tagline",
+    "policy_outcomes"
   ]
 }

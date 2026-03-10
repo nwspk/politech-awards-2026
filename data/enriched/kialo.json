@@ -84,5 +84,8 @@
   "disparity_tracking": false,
   "community_ownership": false,
   "ai_involvement": "Minimal; platform uses basic content moderation tools",
-  "pass2_at": "2026-03-09T23:21:32.673Z"
+  "pass2_at": "2026-03-09T23:21:32.673Z",
+  "pass5_at": "2026-03-10T00:46:27.707Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": []
 }

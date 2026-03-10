@@ -130,5 +130,8 @@
     }
   ],
   "ai_involvement": "LLM-based text extraction for entity identification from free text sources, with human moderation",
-  "pass2_at": "2026-03-09T23:21:49.255Z"
+  "pass2_at": "2026-03-09T23:21:49.255Z",
+  "pass5_at": "2026-03-10T00:55:37.703Z",
+  "pass5_jina_words": 518,
+  "pass5_changes": []
 }

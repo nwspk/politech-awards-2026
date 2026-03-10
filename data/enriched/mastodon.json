@@ -148,5 +148,8 @@
     "Japanese government agencies piloting instances (2023)"
   ],
   "ai_involvement": "No AI in core product as of 2026; AI-generated content moderation tools under community discussion",
-  "pass2_at": "2026-03-09T23:21:35.135Z"
+  "pass2_at": "2026-03-09T23:21:35.135Z",
+  "pass5_at": "2026-03-10T00:46:19.791Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": []
 }

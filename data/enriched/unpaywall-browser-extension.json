@@ -97,5 +97,8 @@
   "political_bias_allegations": false,
   "legal_regulatory_issues": false,
   "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:43.409Z"
+  "pass2_at": "2026-03-09T23:21:43.409Z",
+  "pass5_at": "2026-03-10T00:59:50.024Z",
+  "pass5_jina_words": 23,
+  "pass5_changes": []
 }

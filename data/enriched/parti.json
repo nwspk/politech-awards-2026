@@ -13,7 +13,7 @@
   "collected_at": "2026-03-09T23:20:32.753Z",
   "collected_by": "collect-enriched-script",
   "name": "Parti",
-  "tagline": "A digital platform for participatory democracy and civic engagement",
+  "tagline": "함께 만드는 워킹그룹, 빠띠 카누 (Together Making Working Groups, Parti Canu) - A platform for connecting people with similar interests loosely and collaborating through shared documents, voting, and surveys",
   "project_type": "Platform",
   "org_type": "Nonprofit/charity",
   "issue_area": [
@@ -144,5 +144,10 @@
     }
   ],
   "ai_involvement": false,
-  "pass2_at": "2026-03-10T00:27:59.173Z"
+  "pass2_at": "2026-03-10T00:27:59.173Z",
+  "pass5_at": "2026-03-10T01:00:33.267Z",
+  "pass5_jina_words": 83,
+  "pass5_changes": [
+    "tagline"
+  ]
 }

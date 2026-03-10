@@ -13,7 +13,7 @@
   "collected_at": "2026-03-09T23:20:32.251Z",
   "collected_by": "collect-enriched-script",
   "name": "Relational Tech Project",
-  "tagline": "Build what we need",
+  "tagline": "Tools crafted by, with, and for neighbors - made to help us care for and trust each other",
   "project_type": "Organization",
   "org_type": "Grassroots/indie",
   "issue_area": [
@@ -33,7 +33,9 @@
   "communities_served": [
     "grassroots organizers",
     "civic technologists",
-    "digital rights advocates"
+    "digital rights advocates",
+    "neighborhood builders",
+    "relational technologists"
   ],
   "political_units": [
     "local",
@@ -43,7 +45,8 @@
   "format": [
     "software",
     "toolkit",
-    "educational_resources"
+    "educational_resources",
+    "community_events"
   ],
   "funding_model": "grassroots/community-supported",
   "funding_verified": false,
@@ -78,5 +81,12 @@
   "_sources": [
     "openalex",
     "civictech-guide-api"
+  ],
+  "pass5_at": "2026-03-10T00:51:41.764Z",
+  "pass5_jina_words": 499,
+  "pass5_changes": [
+    "tagline",
+    "communities_served",
+    "format"
   ]
 }

@@ -3,7 +3,7 @@
   "collected_at": "2026-03-09T23:20:31.374Z",
   "collected_by": "collect-enriched-script",
   "name": "Schema.org",
-  "tagline": "A collaborative, community activity with a mission to create, maintain, and promote schemas for structured data on the Internet",
+  "tagline": "A collaborative, community activity with a mission to create, maintain, and promote schemas for structured data on the Internet, on web pages, in email messages, and beyond",
   "project_type": "Publication",
   "org_type": "Collaborative Community Project",
   "issue_area": [],
@@ -21,7 +21,12 @@
   "founded_year": 2011,
   "team_size": null,
   "funding_model": [],
-  "known_funders": [],
+  "known_funders": [
+    "Google",
+    "Microsoft",
+    "Yahoo",
+    "Yandex"
+  ],
   "funding_verified": null,
   "last_funding_event": null,
   "dependency_risks": [],
@@ -58,9 +63,9 @@
   "documented_limitations": [],
   "jurisdictional_scope": null,
   "failure_modes": [],
-  "governance_model": "Community-driven collaborative governance",
+  "governance_model": "Community-driven collaborative governance with W3C community process",
   "curation_criteria": null,
-  "contributor_governance": "Open community contributions with steering group oversight",
+  "contributor_governance": "Open community contributions via public mailing list (public-schemaorg@w3.org) and GitHub",
   "disparity_tracking": null,
   "community_ownership": true,
   "controversies": [],
@@ -84,5 +89,13 @@
     "homepage_has_impact_metrics": true,
     "scraped_description": "Schema.org is a set of extensible schemas that enables webmasters to embed\n    structured data on their web pages for use by search engines and other applications.",
     "scraped_final_url": "https://schema.org/"
-  }
+  },
+  "pass5_at": "2026-03-10T00:51:41.531Z",
+  "pass5_jina_words": 204,
+  "pass5_changes": [
+    "tagline",
+    "known_funders",
+    "governance_model",
+    "contributor_governance"
+  ]
 }

@@ -91,5 +91,8 @@
   "political_bias_allegations": false,
   "legal_regulatory_issues": "Subject to DMCA and international copyright law challenges; has faced multiple takedown notices",
   "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:31.127Z"
+  "pass2_at": "2026-03-09T23:21:31.127Z",
+  "pass5_at": "2026-03-10T00:46:23.555Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": []
 }

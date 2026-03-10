@@ -13,7 +13,7 @@
   "collected_at": "2026-03-09T23:18:13.608Z",
   "collected_by": "collect-enriched-script",
   "name": "Alaveteli",
-  "tagline": "Open-source platform for making public freedom of information requests to public bodies",
+  "tagline": "Run your own Freedom of Information website - An open-source platform for making public freedom of information requests to public bodies",
   "project_type": "Tool/Platform",
   "org_type": "Nonprofit/charity",
   "issue_area": [
@@ -80,7 +80,8 @@
   "policy_outcomes": [
     "Increased FOI request submissions across multiple jurisdictions",
     "Enhanced government transparency and accountability",
-    "Support for investigative journalism and civil society monitoring"
+    "Support for investigative journalism and civil society monitoring",
+    "Over 1,000,000+ Freedom of Information requests made through platform across 25+ jurisdictions"
   ],
   "causation_strength": "correlated",
   "outcome_methodology": "Observational tracking of FOI requests made through platform; user surveys and case studies",
@@ -106,5 +107,11 @@
     "Partnerships with government bodies in multiple jurisdictions to implement FOI request systems"
   ],
   "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:24.555Z"
+  "pass2_at": "2026-03-09T23:21:24.555Z",
+  "pass5_at": "2026-03-10T00:47:21.983Z",
+  "pass5_jina_words": 464,
+  "pass5_changes": [
+    "tagline",
+    "policy_outcomes"
+  ]
 }

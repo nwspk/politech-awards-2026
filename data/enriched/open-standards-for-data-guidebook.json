@@ -102,5 +102,8 @@
     }
   ],
   "ai_involvement": "None - guidebook is human-authored reference material",
-  "pass2_at": "2026-03-09T23:21:43.250Z"
+  "pass2_at": "2026-03-09T23:21:43.250Z",
+  "pass5_at": "2026-03-10T00:52:13.097Z",
+  "pass5_jina_words": 205,
+  "pass5_changes": []
 }

@@ -128,5 +128,8 @@
     }
   ],
   "ai_involvement": "No AI or machine learning components documented in platform architecture",
-  "pass2_at": "2026-03-09T23:21:33.721Z"
+  "pass2_at": "2026-03-09T23:21:33.721Z",
+  "pass5_at": "2026-03-10T00:46:20.701Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": []
 }

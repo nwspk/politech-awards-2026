@@ -13,7 +13,7 @@
   "collected_at": "2026-03-09T21:00:00Z",
   "collected_by": "nano-bot",
   "name": "AlgorithmWatch",
-  "tagline": "A non-profit research and advocacy organisation to evaluate and shed light on algorithmic decision making processes that have a social relevance.",
+  "tagline": "A non-governmental, non-profit organization based in Berlin and Zurich that fights for a world where algorithms and Artificial Intelligence (AI) do not weaken justice, human rights, democracy, and sustainability but strengthen them.",
   "project_type": "Organization",
   "org_type": "Nonprofit/charity",
   "issue_area": [
@@ -123,7 +123,19 @@
       "headline": "AlgorithmWatch's guidelines to use generative AI responsibly",
       "outlet": "AlgorithmWatch",
       "date": "2026-01-14",
-      "url": "https://algorithmwatch.org/en/publication/"
+      "url": "https://algorithmwatch.org/en/generative-ai-guideline/"
+    },
+    {
+      "headline": "Sexualized images on X: What we are doing to stop them and what we expect from the EU",
+      "outlet": "AlgorithmWatch",
+      "date": "2026-01-08",
+      "url": "https://algorithmwatch.org/en/sexualized-images-on-x/"
+    },
+    {
+      "headline": "Focus Attention on Accountability for AI − not on AGI and Longtermist Abstractions",
+      "outlet": "AlgorithmWatch",
+      "date": "2025-09-29",
+      "url": "https://algorithmwatch.org/en/positions/"
     }
   ],
   "academic_citations": [
@@ -262,5 +274,11 @@
   "pass3_at": "2026-03-09T23:22:00.349Z",
   "_sources": [
     "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:47:49.022Z",
+  "pass5_jina_words": 497,
+  "pass5_changes": [
+    "tagline",
+    "news_articles"
   ]
 }

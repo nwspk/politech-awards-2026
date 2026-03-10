@@ -78,5 +78,8 @@
   "governance_model": "LLC",
   "community_ownership": false,
   "ai_involvement": "Dual AI-powered system for identifying objection grounds, generating letters, and providing planning policy explanations",
-  "pass2_at": "2026-03-09T23:21:45.704Z"
+  "pass2_at": "2026-03-09T23:21:45.704Z",
+  "pass5_at": "2026-03-10T00:55:25.457Z",
+  "pass5_jina_words": 569,
+  "pass5_changes": []
 }

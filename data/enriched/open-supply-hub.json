@@ -27,13 +27,24 @@
   "decade_plus": false,
   "geography": "international",
   "countries_deployed": [
-    "Global"
+    "Global",
+    "Bangladesh",
+    "China",
+    "India",
+    "Brazil",
+    "Turkey"
   ],
   "communities_served": [
     "researchers",
     "advocacy organizations",
     "supply chain stakeholders",
-    "workers"
+    "workers",
+    "brands",
+    "retailers",
+    "civil society",
+    "facilities",
+    "multi-stakeholder initiatives",
+    "service providers"
   ],
   "political_units": [
     "international"
@@ -99,5 +110,11 @@
     "Bangladesh Ministry of Labour"
   ],
   "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:38.629Z"
+  "pass2_at": "2026-03-09T23:21:38.629Z",
+  "pass5_at": "2026-03-10T01:00:23.105Z",
+  "pass5_jina_words": 161,
+  "pass5_changes": [
+    "countries_deployed",
+    "communities_served"
+  ]
 }

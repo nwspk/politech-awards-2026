@@ -159,5 +159,8 @@
     }
   ],
   "ai_involvement": "Minimal - CKAN is a data management platform; some instances may use AI for data discovery or classification, but not core functionality",
-  "pass2_at": "2026-03-09T23:21:26.770Z"
+  "pass2_at": "2026-03-09T23:21:26.770Z",
+  "pass5_at": "2026-03-10T00:43:37.958Z",
+  "pass5_jina_words": 562,
+  "pass5_changes": []
 }

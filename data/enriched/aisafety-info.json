@@ -92,5 +92,8 @@
     "homepage_has_impact_metrics": false,
     "scraped_description": "AI safety FAQ",
     "scraped_final_url": "https://aisafety.info/"
-  }
+  },
+  "pass5_at": "2026-03-10T00:47:20.092Z",
+  "pass5_jina_words": 295,
+  "pass5_changes": []
 }

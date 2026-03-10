@@ -178,5 +178,8 @@
     }
   ],
   "ai_involvement": "Yes - AI used in Brazil's medicine procurement decision-making system",
-  "pass2_at": "2026-03-09T23:21:54.855Z"
+  "pass2_at": "2026-03-09T23:21:54.855Z",
+  "pass5_at": "2026-03-10T00:55:28.921Z",
+  "pass5_jina_words": 241,
+  "pass5_changes": []
 }
