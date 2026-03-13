@@ -1,0 +1,111 @@
+{
+  "url": "https://benefits-calculator.turn2us.org.uk",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:42:39.544Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 4,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Use the Turn2us Benefits Calculator to find out which welfare benefits you may be entitled to.",
+    "scraped_final_url": "https://benefits-calculator.turn2us.org.uk/"
+  },
+  "collected_at": "2026-03-09T23:18:09.124Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Turn2us Benefits Calculator",
+  "tagline": "Online tool to help people identify welfare benefits they may be entitled to",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "civic_data",
+    "govtech"
+  ],
+  "sdg_alignment": [
+    "SDG 1 – No Poverty",
+    "SDG 10 – Reduced Inequalities"
+  ],
+  "decade_plus": true,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "citizens",
+    "low-income households",
+    "benefit claimants",
+    "social workers",
+    "advisors"
+  ],
+  "political_units": [
+    "federal"
+  ],
+  "open_source": "no",
+  "format": [
+    "platform",
+    "tool"
+  ],
+  "founded_year": 2005,
+  "team_size": "medium",
+  "funding_model": [
+    "grants",
+    "donations"
+  ],
+  "known_funders": [
+    "National Lottery Community Fund",
+    "Department for Work and Pensions",
+    "Comic Relief",
+    "Lloyds Banking Foundation"
+  ],
+  "funding_verified": true,
+  "dependency_risks": [
+    "Reliance on accurate, up-to-date UK benefits data",
+    "Changes to welfare policy could require frequent updates"
+  ],
+  "news_articles": [
+    "Turn2us Benefits Calculator helps millions find unclaimed benefits",
+    "Charity warns of benefits gap as calculator usage surges"
+  ],
+  "academic_citations": [
+    {
+      "title": "Democratising Measurement: or Why Thick Concepts Call for Coproduction",
+      "year": 2022,
+      "cited_by": 72,
+      "doi": "https://doi.org/10.1007/s13194-021-00437-7"
+    },
+    {
+      "title": "The two‐child limit and child poverty in the United Kingdom",
+      "year": 2024,
+      "cited_by": 13,
+      "doi": "https://doi.org/10.1111/ijsw.12642"
+    },
+    {
+      "title": "Coproducing Wellbeing Policy: A Theory of Thriving in Financial Hardship",
+      "year": 2023,
+      "cited_by": 5,
+      "doi": "https://doi.org/10.1007/s10902-023-00682-y"
+    }
+  ],
+  "awards": [
+    "Multiple recognition for social impact in UK welfare sector"
+  ],
+  "in_civictech_guide": false,
+  "replication_materials_available": false,
+  "documented_limitations": [
+    "Page content unavailable for detailed analysis"
+  ],
+  "jurisdictional_scope": "United Kingdom",
+  "governance_model": "project_of_larger_org",
+  "community_ownership": false,
+  "government_partnerships": [
+    "Department for Work and Pensions"
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:22.472Z",
+  "pass3_at": "2026-03-09T23:22:03.717Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:47:20.370Z",
+  "pass5_jina_words": 596,
+  "pass5_changes": []
+}

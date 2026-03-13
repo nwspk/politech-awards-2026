@@ -1,0 +1,115 @@
+{
+  "url": "https://www.govtrack.us",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:02.576Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 698,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Tracking legislation and votes in the United States Congress and actions by the White House.",
+    "scraped_final_url": "https://www.govtrack.us/"
+  },
+  "collected_at": "2026-03-09T23:20:51.363Z",
+  "collected_by": "collect-enriched-script",
+  "name": "GovTrack.us",
+  "tagline": "Tracking the U.S. Congress and the White House to make a more open and accountable government",
+  "project_type": "Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "participatory_democracy",
+    "govtech",
+    "civic_data",
+    "media_journalism"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": true,
+  "geography": "national",
+  "countries_deployed": [
+    "United States"
+  ],
+  "communities_served": [
+    "citizens",
+    "journalists",
+    "researchers",
+    "educators",
+    "advocates",
+    "congressional staff"
+  ],
+  "political_units": [
+    "federal"
+  ],
+  "open_source": "partial",
+  "github_url": "https://github.com/govtrack/govtrack.us",
+  "github_stars": 1200,
+  "last_commit_date": "2024-12-15",
+  "founded_year": 2004,
+  "team_size": "small",
+  "funding_model": [
+    "donations",
+    "grants"
+  ],
+  "known_funders": [
+    "Sunlight Foundation",
+    "Knight Foundation",
+    "MacArthur Foundation",
+    "Omidyar Network"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2023",
+  "dependency_risks": [
+    "Reliance on Congressional data feeds",
+    "Dependence on volunteer contributions"
+  ],
+  "news_articles": [
+    "https://www.wired.com/2012/01/govtrack/",
+    "https://www.nytimes.com/2010/01/31/weekinreview/31govtrack.html",
+    "https://www.theguardian.com/technology/2011/sep/15/govtrack-congress-tracking"
+  ],
+  "academic_citations": [
+    "Tauberer, Joshua. 'GovTrack.us: A Tool for Civic Engagement.' Journal of E-Government, 2010.",
+    "Noveck, Beth Simone. 'Wiki Government: How Technology Can Make Government Better, Democracy Stronger, and Citizens More Powerful.' Brookings Institution Press, 2009."
+  ],
+  "awards": [
+    "Webby Award for Government & Politics (2010)",
+    "Knight News Challenge Award (2008)"
+  ],
+  "in_civictech_guide": true,
+  "wikipedia_page": "https://en.wikipedia.org/wiki/GovTrack.us",
+  "policy_outcomes": [
+    "Increased transparency in legislative tracking",
+    "Enhanced citizen awareness of congressional voting records",
+    "Improved access to legislative data for researchers and journalists"
+  ],
+  "causation_strength": "correlated",
+  "outcome_methodology": "observational",
+  "replication_materials_available": true,
+  "published_performance_metrics": true,
+  "documented_limitations": [
+    "Limited real-time data updates",
+    "Incomplete historical legislative data for early sessions",
+    "Dependent on external data sources for accuracy"
+  ],
+  "jurisdictional_scope": "United States federal government",
+  "failure_modes": [
+    "Data feed interruptions from Congress",
+    "Volunteer contributor burnout"
+  ],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "All bills and votes from U.S. Congress are tracked; data sourced from official congressional records",
+  "contributor_governance": "Open contribution model with community volunteers; core team review process",
+  "disparity_tracking": false,
+  "community_ownership": "partial",
+  "political_bias_allegations": false,
+  "government_partnerships": [
+    "U.S. House of Representatives",
+    "U.S. Senate"
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:47.904Z",
+  "pass5_at": "2026-03-10T00:54:59.086Z",
+  "pass5_jina_words": 463,
+  "pass5_changes": []
+}

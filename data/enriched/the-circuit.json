@@ -1,0 +1,129 @@
+{
+  "url": "https://thecircuit.cc",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:22.888Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 657,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "The Circuit is a multi-yearlong collaborative journalism project focused on investigating and revealing the inner workings of the Cook County Circuit Court system.",
+    "scraped_final_url": "https://thecircuit.cc/"
+  },
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "The Circuit",
+  "tagline": "A data-driven collaborative journalism investigation into Cook County's court system using 3 million criminal cases",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "criminal justice",
+    "judicial accountability",
+    "racial equity",
+    "court transparency"
+  ],
+  "sdg_alignment": [
+    "SDG 16 - Peace, Justice and Strong Institutions",
+    "SDG 10 - Reduced Inequalities"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "US"
+  ],
+  "communities_served": [
+    "Cook County residents",
+    "criminal defendants",
+    "journalists",
+    "researchers",
+    "public defenders"
+  ],
+  "political_units": [
+    "Cook County, Illinois"
+  ],
+  "open_source": "partial",
+  "github_url": "https://github.com/datamade/the-circuit",
+  "github_stars": 89,
+  "last_commit_date": "2021-03-15",
+  "format": [
+    "web platform",
+    "data journalism",
+    "interactive database"
+  ],
+  "founded_year": 2019,
+  "team_size": "medium",
+  "funding_model": [
+    "grant funding"
+  ],
+  "known_funders": [
+    "Robert R. McCormick Foundation"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2020",
+  "dependency_risks": [
+    "multi-partner collaborative — sustainability contingent on continued partner commitment"
+  ],
+  "news_articles": [
+    {
+      "headline": "Meet the Cook County judge attorneys least want to appear before",
+      "outlet": "Injustice Watch",
+      "date": "2020-10-22",
+      "url": "https://www.injusticewatch.org/project/the-circuit/"
+    }
+  ],
+  "academic_citations": [
+    {
+      "title": "Memristor-The missing circuit element",
+      "year": 1971,
+      "cited_by": 9715,
+      "doi": "https://doi.org/10.1109/tct.1971.1083337"
+    },
+    {
+      "title": "Cramming More Components Onto Integrated Circuits",
+      "year": 1998,
+      "cited_by": 5773,
+      "doi": "https://doi.org/10.1109/jproc.1998.658762"
+    },
+    {
+      "title": "CMOS analog circuit design",
+      "year": 1988,
+      "cited_by": 3214,
+      "doi": "https://doi.org/10.1016/0167-9260(88)90044-2"
+    }
+  ],
+  "awards": [
+    "2020 Peter Lisagor Award — Best Data Journalism",
+    "2020 Peter Lisagor Award — Best Series (Non-deadline Reporting)",
+    "2020 Peter Lisagor Award — Best Investigative/Public Service Reporting"
+  ],
+  "in_civictech_guide": false,
+  "wikipedia_page": false,
+  "causation_strength": "anecdotal",
+  "outcome_methodology": "Observational analysis of judicial patterns and case outcomes; no experimental design",
+  "replication_materials_available": false,
+  "documented_limitations": [
+    "data covers 2000-2018 only; post-2018 cases not included"
+  ],
+  "jurisdictional_scope": "Local (Cook County, Illinois, US)",
+  "failure_modes": [
+    "dataset frozen at 2018; ongoing updates unclear",
+    "partner organisations may reduce involvement over time"
+  ],
+  "governance_model": "Multi-organisation collaborative: Better Government Association, Injustice Watch, Chicago Reporter, DataMade, University of Chicago Harris School",
+  "curation_criteria": "Criminal case records from Cook County Circuit Court; inclusion based on case availability in public court records database",
+  "contributor_governance": "Collaborative governance across partner organizations with editorial oversight from journalism partners",
+  "disparity_tracking": true,
+  "community_ownership": false,
+  "government_partnerships": [
+    "Cook County Circuit Court (data access)"
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:43.173Z",
+  "pass3_at": "2026-03-09T23:23:13.627Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:54:49.062Z",
+  "pass5_jina_words": 542,
+  "pass5_changes": []
+}

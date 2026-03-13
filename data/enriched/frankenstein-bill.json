@@ -1,0 +1,114 @@
+{
+  "url": "https://gordonguthrie.github.io/frankensteinbill",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:15.548Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 681,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Frankenstein Bill - a dummy parliamentary bill collecting and explaining potential speedbumps for government software development and digitally-enabled service design.",
+    "scraped_final_url": "https://gordonguthrie.github.io/frankensteinbill/"
+  },
+  "collected_at": "2026-03-09T23:21:13.086Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Frankenstein Bill",
+  "tagline": "A dummy parliamentary bill collecting and explaining potential speedbumps for government software development and digitally-enabled service design",
+  "project_type": "Tool/Platform",
+  "org_type": "Academic/research",
+  "issue_area": [
+    "Digital government",
+    "Legislative technology",
+    "Service design",
+    "Software development policy"
+  ],
+  "sdg_alignment": [
+    "SDG 16: Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "Scotland",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "Policy makers",
+    "Legislators",
+    "Technologists",
+    "Service designers",
+    "Content designers",
+    "Organisation designers",
+    "Testers",
+    "Service managers"
+  ],
+  "political_units": [
+    "Scottish Government"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/gordonguthrie/frankensteinbill",
+  "github_stars": 45,
+  "last_commit_date": "2024-11-15",
+  "format": [
+    "Legislative analysis",
+    "Educational guide",
+    "Git repository"
+  ],
+  "founded_year": 2017,
+  "team_size": "solo",
+  "funding_model": [
+    "Government fellowship"
+  ],
+  "known_funders": [
+    "Scottish Government"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2017-01-01",
+  "academic_citations": [
+    {
+      "title": "<i>Frankenstein</i>and the “Spark of Being”: Electricity, Animation, and Adaptation",
+      "year": 2018,
+      "cited_by": 33,
+      "doi": "https://doi.org/10.1080/10509585.2018.1465701"
+    },
+    {
+      "title": "The second image reversed: the international sources of domestic politics",
+      "year": 1978,
+      "cited_by": 1576,
+      "doi": "https://doi.org/10.1017/s002081830003201x"
+    },
+    {
+      "title": "Cyc: toward programs with common sense",
+      "year": 1990,
+      "cited_by": 504,
+      "doi": "https://doi.org/10.1145/79173.79176"
+    }
+  ],
+  "in_civictech_guide": false,
+  "policy_outcomes": [
+    "Informed Scottish Government digital service policy discussions"
+  ],
+  "causation_strength": "Indirect",
+  "outcome_methodology": "Qualitative assessment based on policy maker feedback",
+  "replication_materials_available": true,
+  "documented_limitations": [
+    "Single-author project with limited ongoing maintenance",
+    "Focused on Scottish context with limited international applicability"
+  ],
+  "jurisdictional_scope": "Multi-jurisdictional (fragments from multiple jurisdictions)",
+  "governance_model": "Open contribution via GitHub pull requests or email",
+  "curation_criteria": "Legislative extracts with explanations of implications for digital service delivery; examples should be distinct from existing entries",
+  "contributor_governance": "Community contributions accepted via PR or email; contributors should follow specified format",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "government_partnerships": [
+    "Scottish Government (host organization)"
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:30.226Z",
+  "pass3_at": "2026-03-09T23:22:37.319Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:46:23.983Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": []
+}

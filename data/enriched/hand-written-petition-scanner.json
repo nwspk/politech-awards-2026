@@ -1,0 +1,96 @@
+{
+  "url": "https://hand-written-petition-scanner.streamlit.app",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T13:07:48.475Z",
+    "homepage_http_status": null,
+    "dead_link": true,
+    "homepage_word_count": null,
+    "homepage_has_team_page": null,
+    "homepage_has_impact_metrics": null,
+    "scraped_description": null,
+    "scraped_final_url": null
+  },
+  "collected_at": "2026-03-09T23:19:42.501Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Hand-Written Petition Scanner",
+  "tagline": "Tool for digitizing and analyzing hand-written petitions using optical character recognition",
+  "project_type": "Tool/Platform",
+  "org_type": "Grassroots/indie",
+  "issue_area": [
+    "participatory_democracy",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": "Unknown - tool available globally via web",
+  "communities_served": [
+    "activists",
+    "campaigners",
+    "civic organizations",
+    "researchers"
+  ],
+  "political_units": "Multiple (petition campaigns operate across various jurisdictions)",
+  "open_source": "partial",
+  "format": [
+    "app",
+    "tool"
+  ],
+  "team_size": "solo",
+  "funding_model": "Unknown - appears to be unfunded/volunteer-run",
+  "funding_verified": false,
+  "dependency_risks": [
+    "Streamlit platform dependency",
+    "OCR accuracy limitations",
+    "Handwriting variability"
+  ],
+  "academic_citations": [
+    {
+      "title": "Binocular Rivalry: Frontal Activity Relates to Introspection and Action But Not to Perception",
+      "year": 2014,
+      "cited_by": 428,
+      "doi": "https://doi.org/10.1523/jneurosci.4403-13.2014"
+    },
+    {
+      "title": "Functional Subdivisions in the Left Angular Gyrus Where the Semantic System Meets and Diverges from the Default Network",
+      "year": 2010,
+      "cited_by": 258,
+      "doi": "https://doi.org/10.1523/jneurosci.3377-10.2010"
+    },
+    {
+      "title": "Functional Connectivity Delineates Distinct Roles of the Inferior Frontal Cortex and Presupplementary Motor Area in Stop Signal Inhibition",
+      "year": 2009,
+      "cited_by": 471,
+      "doi": "https://doi.org/10.1523/jneurosci.1300-09.2009"
+    }
+  ],
+  "in_civictech_guide": false,
+  "documented_limitations": [
+    "OCR accuracy depends on handwriting legibility",
+    "Language support may be limited",
+    "Petition format standardization required"
+  ],
+  "jurisdictional_scope": "Global (web-based tool)",
+  "failure_modes": [
+    "Poor handwriting recognition",
+    "Illegible or damaged documents",
+    "Non-Latin scripts may not be supported"
+  ],
+  "governance_model": "individual",
+  "contributor_governance": "Solo developer - no formal governance structure",
+  "community_ownership": false,
+  "ai_involvement": "OCR/machine learning for handwriting recognition",
+  "policy_outcomes": [],
+  "causation_strength": "anecdotal",
+  "news_articles": [],
+  "pass2_at": "2026-03-10T00:27:57.396Z",
+  "pass3_at": "2026-03-09T23:22:39.444Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:46:26.245Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": []
+}

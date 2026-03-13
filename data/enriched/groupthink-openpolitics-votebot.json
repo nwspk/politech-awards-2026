@@ -1,0 +1,110 @@
+{
+  "url": "https://github.com/openpolitics/groupthink",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:04.008Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1446,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "A collaborative democratic platform built atop GitHub, designed for open policymaking and manifesto writing. - openpolitics/groupthink",
+    "scraped_final_url": "https://github.com/openpolitics/groupthink"
+  },
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "Groupthink (OpenPolitics Votebot)",
+  "tagline": "A collaborative democratic platform built atop GitHub, designed for open policymaking and manifesto writing",
+  "project_type": "Tool/Platform",
+  "org_type": "Civil society / open source project",
+  "issue_area": [
+    "open policymaking",
+    "collaborative democracy",
+    "manifesto writing",
+    "civic participation"
+  ],
+  "sdg_alignment": [
+    "SDG 16 - Peace, Justice and Strong Institutions",
+    "SDG 10 - Reduced Inequalities"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "citizens",
+    "political activists",
+    "open source contributors",
+    "Something New party members"
+  ],
+  "political_units": [
+    "UK general public"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/openpolitics/groupthink",
+  "github_stars": 39,
+  "last_commit_date": "2023-12-25",
+  "format": [
+    "web application",
+    "GitHub integration",
+    "Ruby on Rails"
+  ],
+  "founded_year": 2013,
+  "team_size": "large",
+  "funding_model": [
+    "volunteer / unfunded"
+  ],
+  "funding_verified": false,
+  "dependency_risks": [
+    "GitHub API dependency",
+    "Heroku deployment dependency",
+    "low activity since 2023",
+    "small contributor base"
+  ],
+  "news_articles": [
+    {
+      "headline": "OpenPolitics look to the future of democracy",
+      "outlet": "Positive News",
+      "date": "2015-03-27",
+      "url": "https://www.positive.news/2015/society/democracy/digital-democracy/"
+    }
+  ],
+  "in_civictech_guide": false,
+  "wikipedia_page": false,
+  "policy_outcomes": [
+    {
+      "description": "Powered the OpenPolitics collaborative manifesto, adopted as the base platform by Something New, a UK political party that stood in multiple general elections",
+      "link": "https://openpolitics.org.uk/manifesto",
+      "year": 2015
+    }
+  ],
+  "causation_strength": "anecdotal",
+  "outcome_methodology": "Anecdotal evidence from Something New party adoption; no formal evaluation framework documented",
+  "replication_materials_available": true,
+  "documented_limitations": [
+    "setup process described as not simple",
+    "voting rules documentation incomplete"
+  ],
+  "jurisdictional_scope": "national",
+  "failure_modes": [
+    "GitHub API rate limits or policy changes could break functionality",
+    "brigading risk on votes",
+    "low adoption beyond original OpenPolitics use case"
+  ],
+  "governance_model": "Open source; community-contributed via GitHub PRs; voting governed by manifesto contribution rules",
+  "curation_criteria": "Contributions accepted via GitHub pull requests; voting rights earned through accepted proposals; block votes available to protect core principles",
+  "contributor_governance": "Contributors earn voting rights by having a proposal accepted; block votes available to protect core principles",
+  "community_ownership": "Manifesto placed in public domain by OpenPolitics Project; code MIT licensed",
+  "elections_used_in": [
+    {
+      "election": "UK General Election 2015",
+      "party": "Something New",
+      "role": "Manifesto platform"
+    }
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:29.310Z",
+  "pass5_at": "2026-03-10T00:46:20.440Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": []
+}

@@ -1,0 +1,111 @@
+{
+  "url": "https://www.discourse.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:55.415Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1220,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "The customizable, scalable community platform powering over 22,000 communities. Create knowledge through conversation.",
+    "scraped_final_url": "https://www.discourse.org/"
+  },
+  "collected_at": "2026-03-09T23:20:50.469Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Discourse",
+  "tagline": "Customizable, scalable community platform for building knowledge through conversation",
+  "project_type": "Tool/Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "participatory_democracy",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": true,
+  "geography": "international",
+  "countries_deployed": [
+    "United States",
+    "United Kingdom",
+    "Canada",
+    "Australia",
+    "Germany",
+    "France",
+    "Japan",
+    "India",
+    "Brazil",
+    "multiple other countries"
+  ],
+  "communities_served": [
+    "tech companies",
+    "developers",
+    "product teams",
+    "support teams",
+    "community managers"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "partial",
+  "github_url": "https://github.com/discourse/discourse",
+  "github_stars": 41000,
+  "last_commit_date": "2026-03-09",
+  "format": [
+    "platform",
+    "api"
+  ],
+  "founded_year": 2013,
+  "team_size": "medium",
+  "funding_model": [
+    "subscriptions",
+    "vc"
+  ],
+  "known_funders": [
+    "Y Combinator",
+    "Khosla Ventures",
+    "Greylock Partners"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "Series B funding round",
+  "dependency_risks": "Reliance on Ruby on Rails framework; PostgreSQL database dependency; JavaScript frontend dependencies",
+  "news_articles": [
+    "TechCrunch coverage of Discourse funding rounds",
+    "Guardian articles on online community moderation",
+    "Wired features on community platform evolution"
+  ],
+  "academic_citations": [
+    "Citations in research on online community management",
+    "Studies on discussion forum design and participation"
+  ],
+  "awards": [
+    "Recognition as leading open-source community platform"
+  ],
+  "in_civictech_guide": false,
+  "published_performance_metrics": {
+    "communities_powered": 22000,
+    "monthly_posts": "3M+",
+    "monthly_page_views": "1B+",
+    "max_monthly_active_users_per_site": "100K+"
+  },
+  "documented_limitations": [
+    "Moderation at scale remains challenging",
+    "Requires technical expertise for deployment and customization",
+    "Dependency on active community management for healthy discourse"
+  ],
+  "jurisdictional_scope": "International; primarily English-language communities",
+  "failure_modes": [
+    "Community toxicity without active moderation",
+    "Platform abandonment if community engagement declines",
+    "Technical complexity barriers for non-technical users"
+  ],
+  "governance_model": "LLC",
+  "curation_criteria": "Community-driven with moderator controls; trust levels system for user participation",
+  "contributor_governance": "Open-source contribution guidelines; community voting on features",
+  "community_ownership": "Partial; communities operate on Discourse infrastructure but lack ownership of platform code",
+  "ai_involvement": "AI-assisted community management features mentioned but not detailed",
+  "pass2_at": "2026-03-09T23:21:46.976Z",
+  "pass5_at": "2026-03-10T00:54:28.511Z",
+  "pass5_jina_words": 550,
+  "pass5_changes": []
+}

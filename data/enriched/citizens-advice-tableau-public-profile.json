@@ -1,0 +1,96 @@
+{
+  "url": "https://public.tableau.com/app/profile/citizensadvice/vizzes",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:56.469Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 9,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": null,
+    "scraped_final_url": "https://public.tableau.com/app/profile/citizensadvice/vizzes"
+  },
+  "collected_at": "2026-03-09T23:20:29.909Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Citizens Advice Tableau Public Profile",
+  "tagline": "Data visualizations and dashboards tracking advice issues, consumer trends, and client demographics across the United Kingdom",
+  "project_type": "Database",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "civic_data",
+    "advocacy_tech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "citizens",
+    "researchers",
+    "policymakers"
+  ],
+  "political_units": [
+    "federal"
+  ],
+  "open_source": "no",
+  "format": [
+    "database",
+    "report"
+  ],
+  "funding_model": "nonprofit_internal",
+  "known_funders": [
+    "Citizens Advice (parent organization)"
+  ],
+  "funding_verified": true,
+  "dependency_risks": [
+    "Reliance on Tableau Public platform availability"
+  ],
+  "academic_citations": [
+    {
+      "title": "The Impact of Artificial Intelligence and Blockchain on the Accounting Profession",
+      "year": 2020,
+      "cited_by": 318,
+      "doi": "https://doi.org/10.1109/access.2020.3000505"
+    },
+    {
+      "title": "Smart Technology and the Emergence of Algorithmic Bureaucracy: Artificial Intelligence in <scp>UK</scp> Local Authorities",
+      "year": 2020,
+      "cited_by": 167,
+      "doi": "https://doi.org/10.1111/puar.13286"
+    },
+    {
+      "title": "Impact of travel ban implementation on COVID-19 spread in Singapore, Taiwan, Hong Kong and South Korea during the early phase of the pandemic: a comparative study",
+      "year": 2021,
+      "cited_by": 36,
+      "doi": "https://doi.org/10.1186/s12879-021-06449-1"
+    }
+  ],
+  "in_civictech_guide": false,
+  "replication_materials_available": false,
+  "published_performance_metrics": false,
+  "documented_limitations": [
+    "Page content not accessible without JavaScript enabled"
+  ],
+  "jurisdictional_scope": "United Kingdom",
+  "governance_model": "project_of_larger_org",
+  "contributor_governance": "closed",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "political_bias_allegations": false,
+  "legal_regulatory_issues": false,
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:37.657Z",
+  "pass3_at": "2026-03-09T23:22:58.712Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:51:36.126Z",
+  "pass5_jina_words": 228,
+  "pass5_changes": [
+    "tagline"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "url": "https://github.com/ribenamaplesyrup/sugartrail",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:07.906Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 994,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Visualise networks of companies, officers and addresses connected through UK Companies House - ribenamaplesyrup/sugartrail",
+    "scraped_final_url": "https://github.com/ribenamaplesyrup/sugartrail"
+  },
+  "collected_at": "2026-03-09T23:19:22.616Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Sugartrail",
+  "tagline": "Network analysis and visualisation tool for exploring connections between companies, officers and addresses within UK Companies House",
+  "project_type": "Tool/Platform",
+  "org_type": "Grassroots/indie",
+  "issue_area": [
+    "civic_data",
+    "govtech",
+    "advocacy_tech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "journalists",
+    "researchers",
+    "investigators",
+    "campaigners"
+  ],
+  "political_units": [
+    "federal"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/ribenamaplesyrup/sugartrail",
+  "github_stars": 0,
+  "last_commit_date": "Unknown - repository appears inactive or recently created",
+  "format": [
+    "platform",
+    "tool"
+  ],
+  "founded_year": "2020s",
+  "team_size": "solo",
+  "funding_model": "unfunded",
+  "known_funders": "None identified",
+  "funding_verified": false,
+  "last_funding_event": "No funding events identified",
+  "dependency_risks": [
+    "Depends on Companies House data availability and API stability",
+    "Reliant on UK regulatory framework"
+  ],
+  "academic_citations": [
+    {
+      "title": "SugarTrail: Indoor navigation in retail environments without surveys and maps",
+      "year": 2013,
+      "cited_by": 32,
+      "doi": "https://doi.org/10.1109/sahcn.2013.6644999"
+    },
+    {
+      "title": "DrunkWalk",
+      "year": 2015,
+      "cited_by": 54,
+      "doi": "https://doi.org/10.1145/2809695.2809724"
+    },
+    {
+      "title": "Dealing with Insufficient Location Fingerprints in Wi-Fi Based Indoor Location Fingerprinting",
+      "year": 2017,
+      "cited_by": 19,
+      "doi": "https://doi.org/10.1155/2017/1268515"
+    }
+  ],
+  "in_civictech_guide": false,
+  "wikipedia_page": false,
+  "causation_strength": "Unknown - no documented policy outcomes",
+  "outcome_methodology": "Not applicable",
+  "replication_materials_available": true,
+  "published_performance_metrics": "Not published",
+  "documented_limitations": "Project documentation does not include formal limitations assessment",
+  "jurisdictional_scope": "United Kingdom",
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Open source contribution model - no formal curation criteria documented",
+  "contributor_governance": "Solo developer project - no formal governance structure",
+  "disparity_tracking": "Not tracked",
+  "community_ownership": "Individual developer ownership",
+  "political_bias_allegations": false,
+  "legal_regulatory_issues": false,
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:28.879Z",
+  "pass3_at": "2026-03-09T23:22:34.421Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:46:21.811Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": []
+}

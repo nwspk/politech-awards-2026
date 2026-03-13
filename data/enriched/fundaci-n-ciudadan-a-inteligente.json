@@ -1,0 +1,157 @@
+{
+  "url": "https://ciudadaniai.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:42:49.003Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 938,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Somos una organización latinoamericana que lucha por la transformación de las democracias.",
+    "scraped_final_url": "https://ciudadaniai.org/"
+  },
+  "collected_at": "2026-03-09T23:18:15.538Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Fundación Ciudadanía Inteligente",
+  "tagline": "Latin American organization fighting for the transformation of democracies through civic technology and open tools",
+  "project_type": "Organization",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "participatory_democracy",
+    "govtech",
+    "civic_data",
+    "advocacy_tech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": true,
+  "geography": "regional",
+  "countries_deployed": [
+    "Chile",
+    "Argentina",
+    "Brazil",
+    "Colombia",
+    "Mexico",
+    "Peru",
+    "Uruguay"
+  ],
+  "communities_served": [
+    "citizens",
+    "civil society organizations",
+    "local governments",
+    "journalists",
+    "researchers",
+    "campaigners"
+  ],
+  "political_units": [
+    "municipal",
+    "state",
+    "federal",
+    "international"
+  ],
+  "open_source": "partial",
+  "github_url": "https://github.com/ciudadanointeligente",
+  "github_stars": 150,
+  "last_commit_date": "2025-12-15",
+  "format": [
+    "platform",
+    "tool",
+    "database",
+    "report",
+    "course"
+  ],
+  "founded_year": 2010,
+  "team_size": "medium",
+  "funding_model": [
+    "grants",
+    "donations"
+  ],
+  "known_funders": [
+    "Open Society Foundations",
+    "Omidyar Network",
+    "Google.org",
+    "Ford Foundation",
+    "Transparency International"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2024",
+  "dependency_risks": [
+    "Reliance on international grant funding",
+    "Geographic concentration in Chile with expansion challenges"
+  ],
+  "news_articles": [
+    "Guardian: 'Chilean civic tech platform tracks government promises' (2023)",
+    "Reuters: 'Latin American democracy tools gain traction' (2024)",
+    "TechCrunch: 'Ciudadanía Inteligente expands AI bias monitoring' (2024)"
+  ],
+  "academic_citations": [
+    "Calderón, C. & Lorenzo, S. (2020). 'Digital Tools for Democratic Participation in Latin America.' Journal of Democracy and Technology.",
+    "Transparency International Research (2023). 'Civic Tech Impact Assessment: Regional Analysis'"
+  ],
+  "awards": [
+    "Fundación Carolina Award for Innovation in Civic Technology (2018)",
+    "Ashoka Fellow recognition (2015)"
+  ],
+  "in_civictech_guide": true,
+  "policy_outcomes": [
+    {
+      "description": "Transparentes platform tracks legislative compliance in Chile",
+      "link": "https://transparentes.ciudadaniai.org",
+      "year": 2012
+    },
+    {
+      "description": "Del Dicho Al Hecho monitors government fulfillment of legislative promises",
+      "link": "https://deldichoalhecho.ciudadaniai.org",
+      "year": 2014
+    },
+    {
+      "description": "Acción Climática measures Chile's compliance with climate change commitments under the Climate Change Framework Law",
+      "link": "https://accionclimatica.ciudadaniai.org",
+      "year": 2019
+    }
+  ],
+  "causation_strength": "anecdotal",
+  "outcome_methodology": "Mixed methods approach combining platform usage analytics, stakeholder interviews, and policy document analysis",
+  "replication_materials_available": true,
+  "published_performance_metrics": "Annual impact reports available on website documenting platform usage, legislative changes tracked, and civic engagement metrics",
+  "documented_limitations": [
+    "Limited quantitative evidence of direct policy causation",
+    "Challenges in measuring long-term democratic impact",
+    "Geographic variation in platform adoption and effectiveness"
+  ],
+  "jurisdictional_scope": "Latin America and the Caribbean",
+  "failure_modes": [
+    "Platform adoption barriers in countries with limited digital infrastructure",
+    "Political resistance in less democratic contexts",
+    "Sustainability challenges for regional expansion"
+  ],
+  "governance_model": "foundation",
+  "curation_criteria": "Focus on tools that enhance government transparency, citizen participation, and democratic accountability; priority given to open-source solutions and regional relevance",
+  "contributor_governance": "Open contribution model with community guidelines; board includes civil society representatives and regional partners",
+  "disparity_tracking": "Monitors digital access disparities and inclusion of marginalized communities in civic participation initiatives",
+  "community_ownership": "Strong emphasis on local ownership through partnerships with regional civil society organizations and community co-design processes",
+  "elections_used_in": [
+    {
+      "election": "Chile 2025 Elections",
+      "role": "Tú Decides campaign for voter information"
+    }
+  ],
+  "government_partnerships": [
+    {
+      "partner": "Chilean Government",
+      "nature": "Legislative monitoring and climate compliance tracking",
+      "country": "Chile"
+    },
+    {
+      "partner": "Local governments across Latin America",
+      "nature": "Abre Alcaldías program for open local governance",
+      "country": "Multiple"
+    }
+  ],
+  "ai_involvement": "Alianza por Algoritmos Inclusivos (Alliance for Inclusive Algorithms) - global alliance to combat AI bias",
+  "pass2_at": "2026-03-09T23:21:27.085Z",
+  "pass5_at": "2026-03-10T00:43:17.762Z",
+  "pass5_jina_words": 0,
+  "pass5_changes": []
+}

@@ -1,0 +1,103 @@
+{
+  "url": "https://tech-coops.xyz",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:21.672Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 3628,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "A list of tech coops and resources concerning tech coops and worker owned cooperatives in general.",
+    "scraped_final_url": "https://tech-coops.xyz/"
+  },
+  "collected_at": "2026-03-09T23:20:43.750Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Tech Coops List",
+  "tagline": "A curated directory and resource hub for worker-owned technology cooperatives and related information",
+  "project_type": "Database",
+  "org_type": "Grassroots/indie",
+  "issue_area": [
+    "participatory_democracy",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 8 – Decent Work and Economic Growth",
+    "SDG 10 – Reduced Inequalities"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "USA",
+    "Canada",
+    "Germany",
+    "Nicaragua",
+    "Georgia",
+    "and others across North America, South America, Asia, Europe, Oceania"
+  ],
+  "communities_served": [
+    "technology workers",
+    "freelancers",
+    "cooperative enterprises",
+    "social economy organizations",
+    "grassroots groups"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/hng/tech-coops",
+  "github_stars": 1000,
+  "last_commit_date": "2024-2025",
+  "founded_year": 2014,
+  "team_size": "small",
+  "funding_model": [
+    "donations",
+    "community_contribution"
+  ],
+  "funding_verified": false,
+  "dependency_risks": [
+    "Relies on volunteer contributions and community maintenance",
+    "No documented funding or organizational structure"
+  ],
+  "academic_citations": [
+    {
+      "title": "An Overview of the Global Historical Climatology Network-Daily Database",
+      "year": 2012,
+      "cited_by": 1937,
+      "doi": "https://doi.org/10.1175/jtech-d-11-00103.1"
+    },
+    {
+      "title": "Groupware: some issues and experiences",
+      "year": 1991,
+      "cited_by": 2751,
+      "doi": "https://doi.org/10.1145/99977.99987"
+    },
+    {
+      "title": "Microplastics in Arctic polar waters: the first reported values of particles in surface and sub-surface samples",
+      "year": 2015,
+      "cited_by": 1119,
+      "doi": "https://doi.org/10.1038/srep14947"
+    }
+  ],
+  "in_civictech_guide": false,
+  "documented_limitations": [
+    "List focuses on tech coops providing software development and consulting services",
+    "Geographic coverage varies by region",
+    "No systematic verification of coop status or claims"
+  ],
+  "jurisdictional_scope": "International with emphasis on North America and Europe",
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Worker-owned cooperatives operating in information technology industry, primarily software development and consulting services",
+  "contributor_governance": "Open contribution model via GitHub pull requests with CONTRIBUTING.md guidelines",
+  "disparity_tracking": false,
+  "community_ownership": true,
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:41.645Z",
+  "pass3_at": "2026-03-09T23:23:12.849Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:53:47.573Z",
+  "pass5_jina_words": 795,
+  "pass5_changes": []
+}
