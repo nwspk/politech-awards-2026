@@ -1,0 +1,79 @@
+{
+  "url": "https://www.myaction.center",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:11.171Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 229,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "Turn your supporters into an activist force!",
+    "scraped_final_url": "https://www.myaction.center/"
+  },
+  "collected_at": "2026-03-09T23:20:57.410Z",
+  "collected_by": "collect-enriched-script",
+  "name": "MyActionCenter",
+  "tagline": "Turn your supporters into an activist force through coordinated online actions and gamification",
+  "project_type": "Tool/Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "participatory_democracy",
+    "advocacy_tech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "Brazil",
+    "United States"
+  ],
+  "communities_served": [
+    "campaigners",
+    "activists",
+    "nonprofit organizations",
+    "political organizations"
+  ],
+  "political_units": [
+    "federal",
+    "international"
+  ],
+  "open_source": "no",
+  "format": [
+    "platform",
+    "app"
+  ],
+  "team_size": "small",
+  "funding_model": [
+    "subscriptions"
+  ],
+  "funding_verified": false,
+  "dependency_risks": [
+    "Runs 100% on NationBuilder platform",
+    "Dependent on NationBuilder fees and third-party integrations"
+  ],
+  "in_civictech_guide": false,
+  "causation_strength": "anecdotal",
+  "replication_materials_available": false,
+  "published_performance_metrics": false,
+  "documented_limitations": [
+    "Requires NationBuilder platform and associated fees",
+    "Limited public information on effectiveness metrics"
+  ],
+  "jurisdictional_scope": "International (Brazil, United States)",
+  "governance_model": "LLC",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "elections_used_in": [
+    {
+      "election": "Brazil 2018 Presidential Election",
+      "role": "Supporter engagement and coordination tool"
+    }
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:45.236Z",
+  "pass5_at": "2026-03-10T00:57:26.786Z",
+  "pass5_jina_words": 53,
+  "pass5_changes": []
+}

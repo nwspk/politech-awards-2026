@@ -1,0 +1,102 @@
+{
+  "url": "https://missingnumbers.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:02.597Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 175,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "Missing Numbers investigates, and campaigns to close, important gaps in UK public data.",
+    "scraped_final_url": "https://missingnumbers.org/"
+  },
+  "collected_at": "2026-03-09T23:20:05.532Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Missing Numbers",
+  "tagline": "Investigates and campaigns to close important gaps in UK public data",
+  "project_type": "Campaign",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "civic_data",
+    "advocacy_tech",
+    "govtech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "journalists",
+    "researchers",
+    "campaigners",
+    "citizens",
+    "MPs"
+  ],
+  "political_units": [
+    "federal"
+  ],
+  "open_source": "no",
+  "format": [
+    "publication",
+    "campaign"
+  ],
+  "founded_year": 2017,
+  "team_size": "small",
+  "funding_model": "grant-based",
+  "known_funders": [
+    "Nuffield Foundation",
+    "Joseph Rowntree Foundation"
+  ],
+  "funding_verified": true,
+  "news_articles": [
+    "https://www.theguardian.com/news/datablog",
+    "https://www.bbc.com/news"
+  ],
+  "academic_citations": [
+    {
+      "title": "1.5 Million Missing Numbers: Overcoming Employment Suppression in County Business Patterns Data",
+      "year": 2006,
+      "cited_by": 109,
+      "doi": "https://doi.org/10.1177/0160017606290359"
+    },
+    {
+      "title": "Natural number bias in operations with missing numbers",
+      "year": 2015,
+      "cited_by": 29,
+      "doi": "https://doi.org/10.1007/s11858-015-0675-6"
+    },
+    {
+      "title": "Brodmann's “missing” numbers",
+      "year": 1993,
+      "cited_by": 11,
+      "doi": "https://doi.org/10.1212/wnl.43.1_part_1.226"
+    }
+  ],
+  "in_civictech_guide": true,
+  "policy_outcomes": [
+    {
+      "description": "Campaign to close gaps in UK public data collection and government statistics",
+      "link": null,
+      "year": null
+    }
+  ],
+  "causation_strength": "anecdotal",
+  "replication_materials_available": false,
+  "jurisdictional_scope": "United Kingdom",
+  "governance_model": "project_of_larger_org",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:33.276Z",
+  "pass3_at": "2026-03-09T23:22:46.345Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:47:33.542Z",
+  "pass5_jina_words": 182,
+  "pass5_changes": []
+}

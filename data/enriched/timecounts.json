@@ -1,0 +1,104 @@
+{
+  "url": "https://timecounts.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:26.148Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 758,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "Discover Timecounts, the free all-in-one volunteer management software built for leaders of volunteers. Simplify scheduling, track hours, and mobilize your community. Start for free today!",
+    "scraped_final_url": "https://join.timecounts.app/"
+  },
+  "collected_at": "2026-03-09T23:20:43.630Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Timecounts",
+  "tagline": "The Modern Volunteer Management Solution",
+  "project_type": "Tool/Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "participatory_democracy",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions",
+    "SDG 17 – Partnerships for the Goals"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "United States",
+    "39+ countries globally"
+  ],
+  "communities_served": [
+    "nonprofits",
+    "community groups",
+    "event organizers",
+    "schools and universities",
+    "civic and social organizations",
+    "volunteer coordinators"
+  ],
+  "political_units": [
+    "local",
+    "state",
+    "international"
+  ],
+  "open_source": "no",
+  "format": [
+    "platform",
+    "app"
+  ],
+  "founded_year": 2012,
+  "team_size": "small",
+  "funding_model": [
+    "subscriptions"
+  ],
+  "funding_verified": false,
+  "dependency_risks": [
+    "Proprietary platform dependency",
+    "Subscription-based model creates ongoing cost burden for nonprofits"
+  ],
+  "academic_citations": [
+    {
+      "title": "Design of Traffic Timecount Backwards Display Unit of Fieldbus",
+      "year": 2005,
+      "cited_by": 0,
+      "doi": null
+    },
+    {
+      "title": "Design of Power Metering and Reporting System Based on Communication Network",
+      "year": 2006,
+      "cited_by": 1,
+      "doi": null
+    },
+    {
+      "title": "The FIELDS Instrument Suite on MMS: Scientific Objectives, Measurements, and Data Products",
+      "year": 2014,
+      "cited_by": 484,
+      "doi": "https://doi.org/10.1007/s11214-014-0109-8"
+    }
+  ],
+  "in_civictech_guide": false,
+  "wikipedia_page": false,
+  "replication_materials_available": false,
+  "published_performance_metrics": false,
+  "documented_limitations": [
+    "No published impact studies or independent verification of claimed benefits",
+    "Testimonial from single organization (Oceanside Public Library) provided but no systematic evaluation"
+  ],
+  "jurisdictional_scope": "Global (39+ countries)",
+  "governance_model": "LLC",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "political_bias_allegations": false,
+  "legal_regulatory_issues": false,
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:41.768Z",
+  "pass3_at": "2026-03-09T23:23:14.659Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T01:03:37.882Z",
+  "pass5_jina_words": 356,
+  "pass5_changes": []
+}

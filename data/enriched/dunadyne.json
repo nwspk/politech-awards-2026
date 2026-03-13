@@ -1,0 +1,54 @@
+{
+  "url": "https://dunadyne.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:30.485Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 16,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Dunadyne.org is a collective intelligence platform for decentralized unincorporated non-profit associations.",
+    "scraped_final_url": "https://dunadyne.org/"
+  },
+  "collected_at": "2026-03-09T23:18:19.069Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Dunadyne",
+  "tagline": "Collective intelligence platform for forming and organizing Decentralized Unincorporated Nonprofit Associations (DUNAs)",
+  "project_type": "Tool/Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": "Community improvement, capacity building, collective intelligence, decentralized governance",
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "United States"
+  ],
+  "communities_served": [
+    "Organizations",
+    "Researchers",
+    "Data analysts"
+  ],
+  "open_source": "no",
+  "format": "Web application",
+  "funding_model": "Commercial/SaaS",
+  "funding_verified": false,
+  "dependency_risks": "Proprietary platform with limited transparency",
+  "in_civictech_guide": false,
+  "wikipedia_page": false,
+  "replication_materials_available": false,
+  "preregistered_studies": false,
+  "jurisdictional_scope": "Global",
+  "governance_model": "Decentralized Unincorporated Nonprofit Association (DUNA)",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "political_bias_allegations": false,
+  "elections_used_in": false,
+  "notes": "Website requires JavaScript and failed to load network resources. No content available for analysis. Limited public information available about this project.",
+  "pass2_at": "2026-03-09T23:21:24.615Z",
+  "pass5_at": "2026-03-10T00:47:53.506Z",
+  "pass5_jina_words": 347,
+  "pass5_changes": [
+    "tagline",
+    "issue_area",
+    "governance_model"
+  ]
+}

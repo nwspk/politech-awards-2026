@@ -1,0 +1,82 @@
+{
+  "url": "https://github.com/fission-codes/fission-codes",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:56.931Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 2250,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Status codes for smart contracts powering microservices for Web3 - fission-codes/fission-codes",
+    "scraped_final_url": "https://github.com/fission-codes/fission-codes"
+  },
+  "collected_at": "2026-03-09T23:19:38.920Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Fission Codes",
+  "tagline": "Status codes for smart contracts powering microservices for Web3",
+  "project_type": "Tool/Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "emerging_tech"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "communities_served": [
+    "developers",
+    "blockchain/Web3 engineers"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/fission-codes/fission-codes",
+  "github_stars": 36,
+  "last_commit_date": "unknown",
+  "format": [
+    "api",
+    "platform"
+  ],
+  "founded_year": "unknown",
+  "team_size": "small",
+  "funding_model": "unknown",
+  "funding_verified": false,
+  "dependency_risks": "Not applicable - Web3 development tool",
+  "academic_citations": [
+    {
+      "title": "General Description of Fission Observables: GEF Model Code",
+      "year": 2016,
+      "cited_by": 446,
+      "doi": "https://doi.org/10.1016/j.nds.2015.12.009"
+    },
+    {
+      "title": "Deciphering the RNA Polymerase II CTD Code in Fission Yeast",
+      "year": 2011,
+      "cited_by": 133,
+      "doi": "https://doi.org/10.1016/j.molcel.2011.05.024"
+    },
+    {
+      "title": "Development of the mechanistic code MFPR for modelling fission-product release from irradiated UO2 fuel",
+      "year": 2005,
+      "cited_by": 125,
+      "doi": "https://doi.org/10.1016/j.nucengdes.2005.08.006"
+    }
+  ],
+  "in_civictech_guide": false,
+  "causation_strength": "anecdotal",
+  "outcome_methodology": "not_applicable",
+  "replication_materials_available": false,
+  "jurisdictional_scope": "not_applicable",
+  "governance_model": null,
+  "curation_criteria": "unknown",
+  "contributor_governance": "unknown",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "political_bias_allegations": false,
+  "ai_involvement": false,
+  "notes": "This project is a Web3/blockchain development tool focused on smart contract status codes and microservices. It does not appear to be a political technology or civic tech project. The GitHub repository shows 36 stars and 39 commits but lacks substantive documentation visible in the provided page content. No evidence of political impact, policy outcomes, or civic engagement applications.",
+  "pass2_at": "2026-03-09T23:21:27.344Z",
+  "pass3_at": "2026-03-09T23:22:27.656Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:46:18.448Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": []
+}

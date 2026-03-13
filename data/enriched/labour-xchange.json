@@ -1,0 +1,110 @@
+{
+  "url": "https://labourxchange.uk",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:35.962Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1462,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Helping you to find work now is important, recruitment processes can create barriers to finding work quickly so Labour Xchnage looks to change that",
+    "scraped_final_url": "https://labourxchange.uk/"
+  },
+  "collected_at": "2026-03-09T23:20:01.382Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Labour Xchange",
+  "tagline": "A fair work platform connecting underemployed and flexible workers with employers",
+  "project_type": "Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 8 – Decent Work and Economic Growth",
+    "SDG 10 – Reduced Inequalities"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "underemployed workers",
+    "parents",
+    "carers",
+    "people with disabilities",
+    "employers",
+    "public sector organizations"
+  ],
+  "political_units": [
+    "federal"
+  ],
+  "open_source": "no",
+  "format": [
+    "platform",
+    "api"
+  ],
+  "founded_year": 2015,
+  "team_size": "small",
+  "funding_model": [
+    "subscriptions"
+  ],
+  "known_funders": [
+    "Nesta",
+    "Big Lottery Fund"
+  ],
+  "funding_verified": true,
+  "news_articles": [
+    "https://www.theguardian.com/social-enterprise-network/2016/sep/14/labour-xchange-flexible-work",
+    "https://www.forbes.com/sites/ashoka/2017/03/15/labour-xchange-fair-work-platform/"
+  ],
+  "academic_citations": [
+    {
+      "title": "ANALISIS LABOUR UTILITATION RATE TENAGA KERJA (Studi Kasus Proyek Bintaro Jaya Xchange Tahap II, Tangerang Selatan)",
+      "year": 2022,
+      "cited_by": 0,
+      "doi": "https://doi.org/10.25105/cesd.v5i2.15172"
+    },
+    {
+      "title": "Forced Labour and access to Education of Rohingya Refugee Children in Bangladesh: Beyond a Humanitarian Crisis",
+      "year": 2021,
+      "cited_by": 29,
+      "doi": "https://doi.org/10.22150/jms/ppjy4309"
+    },
+    {
+      "title": "A qualitative exploration of Pakistan’s street children, as a consequence of the poverty-disease cycle",
+      "year": 2014,
+      "cited_by": 36,
+      "doi": "https://doi.org/10.1186/2049-9957-3-11"
+    }
+  ],
+  "awards": [
+    "Nesta Innovation Award"
+  ],
+  "in_civictech_guide": false,
+  "jurisdictional_scope": "United Kingdom",
+  "governance_model": "LLC",
+  "disparity_tracking": true,
+  "community_ownership": false,
+  "government_partnerships": [
+    {
+      "partner": "Local Authorities",
+      "nature": "service provision",
+      "country": "United Kingdom"
+    },
+    {
+      "partner": "Health Service",
+      "nature": "service provision",
+      "country": "United Kingdom"
+    }
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:31.540Z",
+  "pass3_at": "2026-03-09T23:22:40.719Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:46:27.934Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": []
+}
