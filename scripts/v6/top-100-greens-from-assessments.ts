@@ -5,9 +5,9 @@
  * Optionally: given multiple assessment files, output the union of their top-100 lists.
  *
  * Usage:
- *   npx tsx scripts/top-100-greens-from-assessments.ts cache/assessments-grok.json
- *   npx tsx scripts/top-100-greens-from-assessments.ts cache/assessments-grok.json --limit 100
- *   npx tsx scripts/top-100-greens-from-assessments.ts --union cache/assessments-grok.json cache/assessments-all-claude.json cache/assessments-all-kimi.json --out cache/pilot-union-top100.json
+ *   npx tsx scripts/v6/top-100-greens-from-assessments.ts cache/assessments-grok.json
+ *   npx tsx scripts/v6/top-100-greens-from-assessments.ts cache/assessments-grok.json --limit 100
+ *   npx tsx scripts/v6/top-100-greens-from-assessments.ts --union cache/assessments-grok.json cache/assessments-all-claude.json cache/assessments-all-kimi.json --out cache/pilot-union-top100.json
  */
 
 import fs from "fs";
@@ -62,7 +62,7 @@ function main() {
     const files: string[] = [];
     for (let i = unionIdx + 1; i < args.length; i++) {
       if (args[i] === "--out" || args[i] === "--limit") {
-        i++; // skip flag value
+        i++;
         continue;
       }
       if (args[i].startsWith("--")) continue;

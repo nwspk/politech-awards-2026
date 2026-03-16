@@ -57,7 +57,7 @@ jobs:
         with:
           node-version: "20"
       - run: npm install
-      - run: npx tsx scripts/voting-bot.ts notify ${{ github.event.pull_request.number || github.event.issue.number }}
+      - run: npx tsx scripts/bots/voting-bot.ts notify ${{ github.event.pull_request.number || github.event.issue.number }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
@@ -71,7 +71,7 @@ jobs:
         with:
           node-version: "20"
       - run: npm install
-      - run: npx tsx scripts/voting-bot.ts tally ${{ github.event.issue.number }}
+      - run: npx tsx scripts/bots/voting-bot.ts tally ${{ github.event.issue.number }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
@@ -85,7 +85,7 @@ jobs:
         with:
           node-version: "20"
       - run: npm install
-      - run: npx tsx scripts/voting-bot.ts deadline
+      - run: npx tsx scripts/bots/voting-bot.ts deadline
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}

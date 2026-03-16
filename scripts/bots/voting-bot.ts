@@ -5,18 +5,14 @@
  * Called by .github/workflows/pr-voting.yml
  *
  * Usage:
- *   npx tsx scripts/voting-bot.ts notify <issue_number>
- *   npx tsx scripts/voting-bot.ts tally <issue_number>
- *   npx tsx scripts/voting-bot.ts deadline
+ *   npx tsx scripts/bots/voting-bot.ts notify <issue_number>
+ *   npx tsx scripts/bots/voting-bot.ts tally <issue_number>
+ *   npx tsx scripts/bots/voting-bot.ts deadline
  *
  * Env: GITHUB_TOKEN, GITHUB_REPOSITORY (set by Actions)
  */
 
 import * as fs from "fs";
-
-// ---------------------------------------------------------------------------
-// GitHub API client
-// ---------------------------------------------------------------------------
 
 const [owner, repo] = (process.env.GITHUB_REPOSITORY || "").split("/");
 const token = process.env.GITHUB_TOKEN;
@@ -34,10 +30,6 @@ async function gh<T>(path: string, init?: RequestInit): Promise<T> {
   if (!res.ok) throw new Error(`GitHub API ${res.status}: ${await res.text()}`);
   return res.json() as Promise<T>;
 }
-
-// ---------------------------------------------------------------------------
-// Shared logic
-// ---------------------------------------------------------------------------
 
 function getCommittee(): { lower: string[]; original: string[] } {
   const codeowners = fs.readFileSync(".github/CODEOWNERS", "utf8");
@@ -149,10 +141,6 @@ async function addAssignees(issueNumber: number, assignees: string[]): Promise<v
   });
 }
 
-// ---------------------------------------------------------------------------
-// Mode: notify
-// ---------------------------------------------------------------------------
-
 async function runNotify(issueNumber: number): Promise<void> {
   const { original } = getCommittee();
   const tags = original.map((m) => `@${m}`).join(" ");
@@ -172,33 +160,18 @@ async function runNotify(issueNumber: number): Promise<void> {
       `If the PR author is in the committee and nobody votes, it passes.\n\n` +
       `**Committee**: ${tags}`
   );
-
-  console.log(`✓ Voting started for PR #${issueNumber}`);
 }
-
-// ---------------------------------------------------------------------------
-// Mode: tally
-// ---------------------------------------------------------------------------
 
 async function runTally(issueNumber: number): Promise<void> {
   const { lower, original } = getCommittee();
-
   const issue = (await gh(`/repos/${owner}/${repo}/issues/${issueNumber}`)) as {
     user?: { login?: string };
   };
   const prAuthor = issue.user?.login?.toLowerCase() ?? null;
-
   const votingComment = await findVotingComment(issueNumber);
-  if (!votingComment) {
-    console.log("No voting comment found, skipping tally");
-    return;
-  }
+  if (!votingComment) return;
 
-  const { yes, no, votes } = await countVotes(
-    votingComment.id,
-    lower,
-    prAuthor
-  );
+  const { yes, no, votes } = await countVotes(votingComment.id, lower, prAuthor);
   const pending = original.length - Object.keys(votes).length;
 
   let status: string;
@@ -226,18 +199,11 @@ async function runTally(issueNumber: number): Promise<void> {
     `**${status}** — ${yes} 👍, ${no} 👎${authorNote}\n\n` +
       `Majority of voters decides. ${pending} abstained.`
   );
-
-  console.log(`✓ Tally: ${status}`);
 }
-
-// ---------------------------------------------------------------------------
-// Mode: deadline
-// ---------------------------------------------------------------------------
 
 async function runDeadline(): Promise<void> {
   const { lower, original } = getCommittee();
-  const assignee =
-    original[Math.floor(Math.random() * original.length)];
+  const assignee = original[Math.floor(Math.random() * original.length)];
   const now = Date.now();
   const cutoff24h = now - 24 * 60 * 60 * 1000;
 
@@ -263,11 +229,7 @@ async function runDeadline(): Promise<void> {
     )) as Comment[];
 
     const prAuthor = pr.user?.login?.toLowerCase() ?? null;
-    const { yes, no, votes } = await countVotes(
-      votingComment.id,
-      lower,
-      prAuthor
-    );
+    const { yes, no, votes } = await countVotes(votingComment.id, lower, prAuthor);
 
     if (is48hOld) {
       if (yes > no) {
@@ -275,31 +237,15 @@ async function runDeadline(): Promise<void> {
         await addAssignees(pr.number, [assignee]);
         await createComment(
           pr.number,
-          `⏰ **Voting closed — APPROVED**\n\n` +
-            `Final tally: ${yes} 👍, ${no} 👎 (majority of voters)\n\n` +
-            `✅ @${assignee} — please review and merge when ready.`
+          `⏰ **Voting closed — APPROVED**\n\nFinal tally: ${yes} 👍, ${no} 👎.\n\n✅ @${assignee} — please review and merge when ready.`
         );
-        console.log(`✓ PR #${pr.number} approved`);
-      } else if (no > yes) {
-        await addLabels(pr.number, ["vote:deadline-passed"]);
-        await addAssignees(pr.number, [assignee]);
-        await createComment(
-          pr.number,
-          `⏰ **Voting closed — REJECTED**\n\n` +
-            `Final tally: ${yes} 👍, ${no} 👎 (majority of voters)\n\n` +
-            `❌ @${assignee} — please close this PR.`
-        );
-        console.log(`✓ PR #${pr.number} rejected`);
       } else {
         await addLabels(pr.number, ["vote:deadline-passed"]);
         await addAssignees(pr.number, [assignee]);
         await createComment(
           pr.number,
-          `⏰ **Voting closed — TIE**\n\n` +
-            `Final tally: ${yes} 👍, ${no} 👎. No majority. Treated as rejected.\n\n` +
-            `❌ @${assignee} — please close this PR.`
+          `⏰ **Voting closed — REJECTED**\n\nFinal tally: ${yes} 👍, ${no} 👎.\n\n❌ @${assignee} — please close this PR.`
         );
-        console.log(`✓ PR #${pr.number} tied, rejected`);
       }
     } else if (is24hOld) {
       const lastReminder = comments
@@ -309,33 +255,22 @@ async function runDeadline(): Promise<void> {
             c.body.includes("👋 Reminder")
         )
         .pop();
-
       if (lastReminder && new Date(lastReminder.created_at).getTime() >= cutoff24h) {
         continue;
       }
-
       const nonVoters = original.filter(
         (m) => !Object.keys(votes).includes(m.toLowerCase())
       );
       const tags = nonVoters.length > 0 ? nonVoters.map((m) => `@${m}`).join(" ") : "";
-
       await createComment(
         pr.number,
-        `👋 **Reminder** — voting closes in ~24 hours.\n\n` +
-          `Current tally: ${yes} 👍, ${no} 👎\n\n` +
-          `**If you do not vote, you abstain.** This PR may pass by majority of those who vote. ` +
-          `The PR author counts as a 👍 vote if they're in the committee.\n\n` +
+        `👋 **Reminder** — voting closes in ~24 hours.\n\nCurrent tally: ${yes} 👍, ${no} 👎\n\n` +
           (tags ? `Still to vote: ${tags}\n\n` : "") +
           `React 👍 or 👎 on the [voting comment](${votingComment.html_url}) above.`
       );
-      console.log(`✓ PR #${pr.number} reminder sent`);
     }
   }
 }
-
-// ---------------------------------------------------------------------------
-// Main
-// ---------------------------------------------------------------------------
 
 async function main(): Promise<void> {
   if (!token || !owner || !repo) {
@@ -347,7 +282,7 @@ async function main(): Promise<void> {
   if (mode === "notify" || mode === "tally") {
     const issueNumber = parseInt(process.argv[3] || "0", 10);
     if (!issueNumber) {
-      console.error(`Usage: npx tsx scripts/voting-bot.ts ${mode} <issue_number>`);
+      console.error(`Usage: npx tsx scripts/bots/voting-bot.ts ${mode} <issue_number>`);
       process.exit(1);
     }
     if (mode === "notify") await runNotify(issueNumber);
@@ -355,7 +290,7 @@ async function main(): Promise<void> {
   } else if (mode === "deadline") {
     await runDeadline();
   } else {
-    console.error("Usage: npx tsx scripts/voting-bot.ts <notify|tally|deadline> [issue_number]");
+    console.error("Usage: npx tsx scripts/bots/voting-bot.ts <notify|tally|deadline> [issue_number]");
     process.exit(1);
   }
 }
