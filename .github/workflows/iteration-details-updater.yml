@@ -42,10 +42,13 @@ jobs:
           PR_NUMBER: ${{ github.event.pull_request.number }}
           PR_URL: ${{ github.event.pull_request.html_url }}
           PR_AUTHOR: ${{ github.event.pull_request.user.login }}
-        run: npx tsx scripts/iteration-details-updater.ts
+        run: npx tsx scripts/bots/iteration-details-updater.ts
 
-      - name: Sync README
-        run: npx tsx scripts/sync-readme.ts
+      - name: Sync iterations log
+        run: npx tsx scripts/bots/sync-iterations-log.ts
+
+      - name: Sync README summary
+        run: npx tsx scripts/bots/sync-readme.ts
 
       # Skip push for fork PRs — GITHUB_TOKEN cannot write to a contributor's fork
       - name: Commit and push updates
@@ -53,8 +56,8 @@ jobs:
         run: |
           git config user.name "iteration-details-updater[bot]"
           git config user.email "iteration-details-updater[bot]@users.noreply.github.com"
-          git add iterations.json iterations/ README.md
-          git diff --staged --quiet || git commit -m "bot: update iteration metadata, results, and README"
+          git add iterations.json iterations/ README.md docs/logs/iterations-log.md
+          git diff --staged --quiet || git commit -m "bot: update iteration metadata and logs"
           git push
 
       - name: Post results comment

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "build:iterations": "npx tsx scripts/build-iterations.ts",
+    "build:iterations": "npx tsx scripts/bots/build-iterations.ts",
     "cache:sites": "npx tsx scripts/cache-sites.ts",
     "itn-a-eval": "npx tsx scripts/itn-a-eval.ts",
     "cache:sites:retry": "npx tsx scripts/cache-sites.ts --retry-failed",

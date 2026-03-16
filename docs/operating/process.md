@@ -6,7 +6,7 @@ How the awards committee works — proposing iterations, voting, and delivering 
 
 **If you have an idea but don't want to write code (or don't have a branch):**
 
-1. Open a [Heuristic suggestion](https://github.com/nwspk/politech-awards-2026/issues/new?template=heuristic-suggestion.md) issue (New issue → "Heuristic suggestion")
+1. Open a [Heuristic suggestion](https://github.com/nwspk/politech-awards-2026/issues/new?template=heuristic-suggestion.md) issue (New issue -> "Heuristic suggestion")
 2. Fill in **Heuristic**, **Rationale**, **Limitations**, and optionally **Assessment** — same fields as the PR template
 3. Tag **@sugaroverflow** in a comment; they'll implement it and open a PR. The rest of the flow is the same as below
 
@@ -31,7 +31,7 @@ When a PR has the **`iteration`** label and is marked **"Ready for review"**, tw
 
 When an iteration PR is **merged**, the post-merge bot re-snapshots `results.json` into `iterations/{version}/` and **copies that version’s cache files** (e.g. `cache/assessments.json`, `cache/deliberation.json`) into `iterations/{version}/` so they are preserved in the repo and not overwritten by later pipeline runs. Commit any cache files your iteration needs so the snapshot can include them.
 
-For full details on triggers, behaviour, and troubleshooting, see [Technical Documentation](TECHNICAL.md#bots-at-a-glance).
+For full details on triggers, behaviour, and troubleshooting, see [Technical Documentation](technical.md#bots-at-a-glance).
 
 Committee members vote by reacting to the voting comment: 👍 = YES, 👎 = NO. No reaction = abstain (not counted).
 
@@ -39,15 +39,15 @@ Committee members vote by reacting to the voting comment: 👍 = YES, 👎 = NO.
 - Majority of those who vote wins (abstentions don't count)
 - PR author counts as a YES vote only if they're in the committee (CODEOWNERS)
 - At 24h: reminder to non-voters ("if you don't vote, this may pass without you")
-- At 48h: resolve — more 👍 than 👎 → merge; more 👎 than 👍 → close
+- At 48h: resolve — more 👍 than 👎 -> merge; more 👎 than 👍 -> close
 
 ## Labels
 
-Bots add labels automatically (`vote:pending`, `vote:approved`, etc.). To re-trigger: add `run-bot` (iteration details updater) or `start-vote` (voting). Full reference: [TECHNICAL.md](TECHNICAL.md#labels).
+Bots add labels automatically (`vote:pending`, `vote:approved`, etc.). To re-trigger: add `run-bot` (iteration details updater) or `start-vote` (voting). Full reference: [technical.md](technical.md#labels).
 
 ## Committee
 
-Defined in [`.github/CODEOWNERS`](../.github/CODEOWNERS). Decisions are made by majority of those who vote; abstentions don't block. To join, add yourself to the CODEOWNERS file.
+Defined in [`.github/CODEOWNERS`](../../.github/CODEOWNERS). Decisions are made by majority of those who vote; abstentions don't block. To join, add yourself to the CODEOWNERS file.
 
 ## Deliverables
 

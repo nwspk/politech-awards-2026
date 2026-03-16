@@ -2,13 +2,6 @@
  * build-iterations.ts
  *
  * Builds iterations.json from README.md in each iteration folder (iterations/v1/, iterations/v2/, ...).
- * The README.md in each iteration folder is the single source of truth per iteration.
- *
- * Usage: npx tsx scripts/build-iterations.ts
- *        npm run build:iterations
- *
- * Run after editing any iteration README to regenerate iterations.json.
- * The iteration details updater and finalize-merge also run this after updating README files.
  */
 
 import {
@@ -31,8 +24,6 @@ function buildIterations(): void {
     const version = file.replace(/\.md$/, "");
     const content = readIterationMd(version);
     const partial = mdToIteration(content, version);
-
-    // mdToIteration returns Partial<Iteration>; we need full Iteration with defaults
     const topProject: TopProject = partial.top_project ?? {
       name: "",
       url: "",

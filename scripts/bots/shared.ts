@@ -7,10 +7,6 @@
 
 import * as fs from "fs";
 
-// ---------------------------------------------------------------------------
-// Types
-// ---------------------------------------------------------------------------
-
 export interface TopProject {
   name: string;
   url: string;
@@ -33,7 +29,7 @@ export interface Iteration {
   limitations: string | null;
   assessment: string | null;
   vote_result: string | null;
-  [key: string]: unknown; // preserve extra fields like assessment_output
+  [key: string]: unknown;
 }
 
 export interface ResultEntry {
@@ -41,11 +37,6 @@ export interface ResultEntry {
   score: number;
 }
 
-// ---------------------------------------------------------------------------
-// Utilities
-// ---------------------------------------------------------------------------
-
-/** Extract a display name from a URL (hostname without "www."). */
 export function projectName(url: string): string {
   try {
     return new URL(url).hostname.replace(/^www\./, "");
@@ -53,10 +44,6 @@ export function projectName(url: string): string {
     return url;
   }
 }
-
-// ---------------------------------------------------------------------------
-// Data I/O
-// ---------------------------------------------------------------------------
 
 export function loadIterations(): Iteration[] {
   return JSON.parse(fs.readFileSync("iterations.json", "utf-8"));
@@ -73,10 +60,6 @@ export function loadResults(): ResultEntry[] {
   return JSON.parse(fs.readFileSync("results.json", "utf-8"));
 }
 
-/**
- * Write (or overwrite) iterations/{version}/results.json with the given results.
- * Creates iterations/{version}/ if it doesn't exist.
- */
 export function snapshotVersionResults(
   version: string,
   results: ResultEntry[]
@@ -90,10 +73,6 @@ export function snapshotVersionResults(
   return resultsPath;
 }
 
-/**
- * Cache files to snapshot from cache/ into iterations/{version}/ on merge.
- * Only files that exist in cache/ are copied; missing files are skipped.
- */
 const CACHE_SNAPSHOT_FILES: Record<string, string[]> = {
   v5: ["assessments.json", "deliberation.json"],
   v6: [
@@ -111,10 +90,6 @@ const CACHE_SNAPSHOT_FILES: Record<string, string[]> = {
   ],
 };
 
-/**
- * Copy version-specific cache files from cache/ to iterations/{version}/.
- * Skips files that don't exist. Call after merge so iteration data is preserved.
- */
 export function snapshotVersionCache(version: string): string[] {
   const files = CACHE_SNAPSHOT_FILES[version];
   if (!files || files.length === 0) return [];
