@@ -8,8 +8,9 @@
  * 2. Rename files from URL-slug to project-name-slug (from the `name` field).
  *
  * Usage:
- *   npx tsx scripts/rename-enriched.ts          # dry run (print plan)
- *   npx tsx scripts/rename-enriched.ts --apply  # apply changes
+ *   # Canonical entrypoint:
+ *   npx tsx scripts/data-processing/rename-enriched.ts          # dry run (print plan)
+ *   npx tsx scripts/data-processing/rename-enriched.ts --apply  # apply changes
  */
 
 import fs from "fs";

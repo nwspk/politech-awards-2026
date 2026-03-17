@@ -242,8 +242,8 @@ function fetchInformationHeuristic(url: string): number {
 // --- v5: ITN/A Multi-Agent Deliberation ---
 // Reads from cache/deliberation.json (for the deliberated shortlist) and
 // cache/assessments.json (for the full evaluated set), produced by:
-//   npx tsx scripts/itn-a-eval.ts        → cache/assessments.json
-//   npx tsx scripts/itn-a-deliberate.ts  → cache/deliberation.json
+//   npx tsx scripts/itn/itn-a-eval.ts        → cache/assessments.json
+//   npx tsx scripts/itn/itn-a-deliberate.ts  → cache/deliberation.json
 //
 // Scoring tiers:
 //   Deliberated projects:       aggregate score from deliberation (range: 51–90)

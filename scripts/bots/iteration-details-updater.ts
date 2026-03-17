@@ -1,11 +1,5 @@
 /**
  * iteration-details-updater.ts
- *
- * Runs as part of GitHub Actions "Iteration Details Updater".
- * Triggered when PR has `iteration` label and is ready, or labeled `run-bot`.
- *
- * This updater does NOT run the algorithm. It expects results.json to already
- * be committed by the PR author.
  */
 
 import { execSync } from "child_process";
@@ -30,10 +24,7 @@ function stripComments(text: string): string {
 }
 
 function extractSection(body: string, heading: string): string {
-  const pattern = new RegExp(
-    `## ${heading}\\s*\\n([\\s\\S]*?)(?=\\n## |$)`,
-    "i"
-  );
+  const pattern = new RegExp(`## ${heading}\\s*\\n([\\s\\S]*?)(?=\\n## |$)`, "i");
   const match = body.match(pattern);
   return match ? stripComments(match[1]).trim() : "";
 }
@@ -61,9 +52,7 @@ function getVersionForPr(prNumber: number): string | null {
     const version = file.replace(/\.md$/, "");
     const content = readIterationMd(version);
     const { frontmatter } = parseIterationMd(content);
-    if (frontmatter.pr_number === prNumber) {
-      return version;
-    }
+    if (frontmatter.pr_number === prNumber) return version;
   }
   return null;
 }
@@ -79,34 +68,21 @@ function getNextVersion(): string {
 function detectDataSources(): string[] {
   const code = fs.readFileSync("the-algorithm.ts", "utf-8");
   const sources: string[] = [];
-
   if (code.includes("candidates.csv")) sources.push("project URL");
-  if (/fetch\s*\(|axios|got\(|request\(/i.test(code))
-    sources.push("scraped content");
-  if (/github\.com.*api|octokit|@octokit/i.test(code))
-    sources.push("GitHub API");
-  if (/openai|anthropic|claude|gpt|llm|gemini/i.test(code))
-    sources.push("LLM analysis");
-  const dataFileReads = code
-    .replace(/candidates\.csv/g, "")
-    .replace(/results\.json/g, "");
-  if (
-    /readFileSync|createReadStream/.test(dataFileReads) &&
-    /\.csv|\.json|\.tsv/i.test(dataFileReads)
-  ) {
+  if (/fetch\s*\(|axios|got\(|request\(/i.test(code)) sources.push("scraped content");
+  if (/github\.com.*api|octokit|@octokit/i.test(code)) sources.push("GitHub API");
+  if (/openai|anthropic|claude|gpt|llm|gemini/i.test(code)) sources.push("LLM analysis");
+  const dataFileReads = code.replace(/candidates\.csv/g, "").replace(/results\.json/g, "");
+  if (/readFileSync|createReadStream/.test(dataFileReads) && /\.csv|\.json|\.tsv/i.test(dataFileReads)) {
     sources.push("additional data files");
   }
-
   if (sources.length === 0) sources.push("project URL");
   return sources;
 }
 
 function formatTable(projects: ResultEntry[], startRank: number): string {
   return projects
-    .map(
-      (p, i) =>
-        `| ${startRank + i} | [${projectName(p.url)}](${p.url}) | ${p.score} |`
-    )
+    .map((p, i) => `| ${startRank + i} | [${projectName(p.url)}](${p.url}) | ${p.score} |`)
     .join("\n");
 }
 
@@ -120,41 +96,22 @@ function main(): void {
   const prUrl = process.env.PR_URL || "";
   const prAuthor = process.env.PR_AUTHOR || "";
 
-  const { title, heuristic, rationale, limitations, assessment } =
-    parsePRBody(prBody);
+  const { title, heuristic, rationale, limitations, assessment } = parsePRBody(prBody);
 
   if (!fs.existsSync("results.json")) {
-    writeComment(`## Iteration Details Updater — Results Required
-
-This PR is missing **\`results.json\`**.
-
-The updater does not run the algorithm in CI. Please run the algorithm locally, commit the updated \`results.json\`, and then re-run by adding the \`run-bot\` label.
-`);
-    console.log("Skipped: results.json missing.");
+    writeComment("## Iteration Details Updater — Results Required\n\nMissing `results.json`.");
     return;
   }
 
   const isNewVersion = getVersionForPr(prNumber) === null;
   if (isNewVersion && !heuristic.trim()) {
-    writeComment(`## Iteration Details Updater — Heuristic Required
-
-This PR does not include a **Heuristic** section in the description. The updater only creates a new version when the PR proposes a concrete scoring heuristic.
-
-**To proceed:**
-1. Edit the PR description and add a \`## Heuristic\` section
-2. Add the \`run-bot\` label to re-trigger the updater
-`);
-    console.log("Skipped: no Heuristic section.");
+    writeComment("## Iteration Details Updater — Heuristic Required");
     return;
   }
 
   const allResults = loadResults();
   if (allResults.length === 0) {
-    writeComment(`## Iteration Details Updater — Results Required
-
-The committed **\`results.json\`** is empty. Please run the algorithm locally, commit populated results, then re-run with the \`run-bot\` label.
-`);
-    console.log("Skipped: results.json empty.");
+    writeComment("## Iteration Details Updater — Results Required\n\n`results.json` is empty.");
     return;
   }
 
@@ -190,12 +147,8 @@ The committed **\`results.json\`** is empty. Please run the algorithm locally, c
   };
 
   writeIterationMd(version, iterationToMd(entry));
-  console.log(`Wrote iterations/${version}/README.md`);
-
-  execSync("npx tsx scripts/build-iterations.ts", { stdio: "inherit" });
-
+  execSync("npx tsx scripts/bots/build-iterations.ts", { stdio: "inherit" });
   snapshotVersionResults(version, allResults);
-  console.log(`Wrote iterations/${version}/results.json`);
 
   const topProjects = allResults.slice(0, 5);
   const midStart = Math.floor((allResults.length - 5) / 2);
@@ -205,7 +158,6 @@ The committed **\`results.json\`** is empty. Please run the algorithm locally, c
   const topTable = formatTable(topProjects, 1);
   const midTable = formatTable(midProjects, midStart + 1);
   const bottomTable = formatTable(bottomProjects, allResults.length - 4);
-
   const codeowners = fs.readFileSync(".github/CODEOWNERS", "utf-8");
   const committeeTags = (codeowners.match(/@[\w-]+/g) || []).join(" ");
 
@@ -240,7 +192,6 @@ ${bottomTable}
 
 **Committee**: ${committeeTags}
 `);
-  console.log("Wrote bot-comment.md");
 }
 
 main();

@@ -12,6 +12,13 @@ top_project:
   score: 97
 ---
 
+## Quick summary
+
+- **What changed vs v5:** moved from one jury to six independent juries.
+- **Selection rule:** promote the jury with highest confidence score.
+- **Current winner:** `algorithmwatch.org` (score 97).
+- **Artifacts:** `results.json`, jury deliberation files, and `jury-delegations/`.
+
 ## Heuristic
 
 This heuristic inherits the approach in [v5: ITN/A multi-agent deliberation heuristic](https://github.com/nwspk/politech-awards-2026/pull/12) with **6 independent AI juries** that run an ITN/A deliberation on a shortlist of 183 projects. The jury with the highest confidence score picks the project winner.

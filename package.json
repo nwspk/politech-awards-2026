@@ -3,9 +3,15 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "build:iterations": "npx tsx scripts/build-iterations.ts",
+    "build:iterations": "npx tsx scripts/bots/build-iterations.ts",
+    "sync:readme": "npx tsx scripts/bots/sync-readme.ts",
+    "sync:iterations-log": "npx tsx scripts/bots/sync-iterations-log.ts",
+    "docs:sync": "npm run build:iterations && npm run sync:readme && npm run sync:iterations-log",
     "cache:sites": "npx tsx scripts/cache-sites.ts",
-    "itn-a-eval": "npx tsx scripts/itn-a-eval.ts",
+    "itn-a-eval": "npx tsx scripts/itn/itn-a-eval.ts",
+    "itn-a-deliberate": "npx tsx scripts/itn/itn-a-deliberate.ts",
+    "collect:enriched": "npx tsx scripts/data-processing/collect-enriched.ts",
+    "rename:enriched": "npx tsx scripts/data-processing/rename-enriched.ts",
     "cache:sites:retry": "npx tsx scripts/cache-sites.ts --retry-failed",
     "cache:read": "npx tsx scripts/read-cache.ts"
   },

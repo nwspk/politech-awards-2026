@@ -1,12 +1,15 @@
 /**
  * itn-a-eval.ts
  *
+ * Canonical entrypoint:
+ *   npx tsx scripts/itn/itn-a-eval.ts
+ *
  * Usage:
- *   npx tsx scripts/itn-a-eval.ts
- *   npx tsx scripts/itn-a-eval.ts --url https://example.com
- *   npx tsx scripts/itn-a-eval.ts --retry-errors
- *   npx tsx scripts/itn-a-eval.ts --model x-ai/grok-3-mini-beta
- *   npx tsx scripts/itn-a-eval.ts --setup grok --model x-ai/grok-4.1-fast   # v6: write to cache/assessments-grok.json
+ *   npx tsx scripts/itn/itn-a-eval.ts
+ *   npx tsx scripts/itn/itn-a-eval.ts --url https://example.com
+ *   npx tsx scripts/itn/itn-a-eval.ts --retry-errors
+ *   npx tsx scripts/itn/itn-a-eval.ts --model x-ai/grok-3-mini-beta
+ *   npx tsx scripts/itn/itn-a-eval.ts --setup grok --model x-ai/grok-4.1-fast   # v6: write to cache/assessments-grok.json
  */
 
 import fs from "fs";
