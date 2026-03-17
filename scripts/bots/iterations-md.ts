@@ -50,7 +50,6 @@ export function parseIterationMd(content: string): ParsedIterationMd {
       const key = topLevel[1];
       const rest = topLevel[2].trim();
       if (key === "top_project") {
-        // Multi-line object (indented name, url, score)
         const obj: Record<string, unknown> = {};
         i++;
         while (i < lines.length) {
@@ -69,7 +68,6 @@ export function parseIterationMd(content: string): ParsedIterationMd {
         continue;
       }
       if (key === "keywords") {
-        // YAML array: keywords: or keywords:\n  - item1\n  - item2
         const arr: string[] = [];
         if (rest) {
           frontmatter.keywords = parseYamlValue(rest);
@@ -130,7 +128,6 @@ function parseTopProject(fm: Record<string, unknown>): TopProject {
   return { name: "", url: "", score: null };
 }
 
-/** Parse a single iteration .md file into an Iteration object. */
 export function mdToIteration(
   content: string,
   version: string
@@ -193,7 +190,6 @@ export function mdToIteration(
   };
 }
 
-/** Serialize an Iteration to .md file content. */
 export function iterationToMd(iter: Iteration): string {
   const topProject = iter.top_project;
   const topProjectYaml =
@@ -252,7 +248,6 @@ export function iterationToMd(iter: Iteration): string {
   return `---\n${frontmatterLines.join("\n")}\n---\n\n${body}\n`;
 }
 
-/** List all iteration folders (v1, v2, …) that have a README.md; each is the single source of truth. */
 export function listIterationMdFiles(): string[] {
   if (!fs.existsSync(ITERATIONS_DIR)) return [];
   const entries = fs.readdirSync(ITERATIONS_DIR, { withFileTypes: true });
@@ -271,13 +266,11 @@ export function listIterationMdFiles(): string[] {
 
 const ITERATION_MD_FILENAME = "README.md";
 
-/** Read the iteration .md file (iterations/{version}/README.md). */
 export function readIterationMd(version: string): string {
   const filePath = path.join(ITERATIONS_DIR, version, ITERATION_MD_FILENAME);
   return fs.readFileSync(filePath, "utf-8");
 }
 
-/** Write the iteration .md file (iterations/{version}/README.md). */
 export function writeIterationMd(version: string, content: string): void {
   const dir = path.join(ITERATIONS_DIR, version);
   if (!fs.existsSync(dir)) {
@@ -287,7 +280,6 @@ export function writeIterationMd(version: string, content: string): void {
   fs.writeFileSync(filePath, content);
 }
 
-/** Update pr_status and optionally top_project in an existing .md file. */
 export function updateIterationMdFrontmatter(
   version: string,
   updates: { pr_status?: string; top_project?: TopProject }
@@ -306,13 +298,13 @@ export function updateIterationMdFrontmatter(
         `pr_status: ${JSON.stringify(updates.pr_status)}`
       );
     } else {
-      newYaml = newYaml.trimEnd() + `\npr_status: ${JSON.stringify(updates.pr_status)}\n`;
+      newYaml =
+        newYaml.trimEnd() + `\npr_status: ${JSON.stringify(updates.pr_status)}\n`;
     }
   }
   if (updates.top_project !== undefined) {
     const tp = updates.top_project;
     const block = `top_project:\n  name: ${JSON.stringify(tp.name)}\n  url: ${JSON.stringify(tp.url)}\n  score: ${tp.score ?? "null"}`;
-    // Match top_project block: key plus indented lines until next top-level key or end
     const topProjectRegex = /^top_project:\s*\n(?:  \w+:.*\n)*/m;
     if (topProjectRegex.test(newYaml)) {
       newYaml = newYaml.replace(topProjectRegex, block + "\n");

@@ -1,6 +1,9 @@
 /**
  * itn-a-deliberate.ts  v3
  *
+ * Canonical entrypoint:
+ *   npx tsx scripts/itn/itn-a-deliberate.ts
+ *
  * score (relative, all projects together) →
  * multi-turn argument (real conversation, facilitator calls out evasions) →
  * final ranking → winner
@@ -8,12 +11,12 @@
  * Saves to deliberation.json after EVERY api call. tail -f cache/deliberation.json to watch live.
  *
  * Usage:
- *   npx tsx scripts/itn-a-deliberate.ts
- *   npx tsx scripts/itn-a-deliberate.ts --top-conflicts 4
- *   npx tsx scripts/itn-a-deliberate.ts --argument-rounds 3
- *   npx tsx scripts/itn-a-deliberate.ts --min-greens 2
- *   npx tsx scripts/itn-a-deliberate.ts --setup grok --min-greens 2   # v6: read cache/assessments-grok.json, write cache/deliberation-grok.json
- *   npx tsx scripts/itn-a-deliberate.ts --setup grok --shortlist-file cache/pilot-union-top100.json --min-greens 2   # v6: shortlist = union ∩ ≥min-greens
+ *   npx tsx scripts/itn/itn-a-deliberate.ts
+ *   npx tsx scripts/itn/itn-a-deliberate.ts --top-conflicts 4
+ *   npx tsx scripts/itn/itn-a-deliberate.ts --argument-rounds 3
+ *   npx tsx scripts/itn/itn-a-deliberate.ts --min-greens 2
+ *   npx tsx scripts/itn/itn-a-deliberate.ts --setup grok --min-greens 2   # v6: read cache/assessments-grok.json, write cache/deliberation-grok.json
+ *   npx tsx scripts/itn/itn-a-deliberate.ts --setup grok --shortlist-file cache/pilot-union-top100.json --min-greens 2   # v6: shortlist = union ∩ ≥min-greens
  */
 
 import fs from "fs";
