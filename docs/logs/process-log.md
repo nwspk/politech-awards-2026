@@ -1,6 +1,6 @@
 # Process Log
 
-Structured process history for the awards committee. This file is designed as a source-of-truth feed for `/awards`.
+Structured process history for the awards committee. Canonical full log for `/awards` rendering.
 
 ## At a glance
 
@@ -10,7 +10,7 @@ Structured process history for the awards committee. This file is designed as a 
 | Meeting record | Full canonical notes captured for Feb 4, Mar 4, Mar 13, and Mar 15 sessions | [Meeting notes](#meeting-notes-full-canonical-record) |
 | Current emphasis | Data quality follow-up, citation reliability, typology, and theory-of-change framing | [2026-03-15 impromptu](#2026-03-15-impromptu) |
 | Governance baseline | CODEOWNERS voting model and iterative PR process | [2026-02-04 notes](#2026-02-04-1800) |
-| Canonical source | This file is canonical for process history and meeting notes | This file |
+| Canonical source | This file (canonical) | This file |
 
 ## Open questions and unresolved tradeoffs
 

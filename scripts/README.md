@@ -25,7 +25,10 @@ Scripts are split into **bot automation** and **algorithm/data pipelines**.
 | `itn-a-deliberate.ts` | Run ITN/A deliberation (`cache/deliberation*.json`). |
 | `snapshot-existing-cache.ts` | One-off copy of cache files into `iterations/v5/` and `iterations/v6/`. |
 | `collect-enriched.ts` | Enrichment runner entrypoint. |
+| `rename-enriched.ts` | Canonical entrypoint to merge + rename enriched dossier files. |
 | `data-processing/*` | Enrichment normalization, verification, and targeted collection passes. |
+
+`scripts/data-processing/rename-enriched.ts` is maintained for compatibility, but use `scripts/rename-enriched.ts` as the canonical command entrypoint.
 
 ## v6 pipeline (`scripts/v6/`)
 
@@ -33,7 +36,7 @@ All v6-specific logic lives under `scripts/v6/`. Run from **repo root** (paths a
 
 | Script | Purpose |
 |--------|--------|
-| `v6/run-v6-pipeline.sh` | **Orchestrator**: evals → shortlist → merge → 6 deliberations → algorithm × 6 → pick winner. |
+| `v6/run-v6-pipeline.sh` | **Orchestrator**: evals → shortlist → merge → 6 deliberations → algorithm × 6 (writes `cache/results-*.json`) → pick winner. |
 | `v6/top-100-greens-from-assessments.ts` | Helper shortlist builder from assessment files. |
 | `v6/build-v6-shortlist.ts` | Build `cache/pilot-shortlist.json` (2-of-3 models green or yellow). |
 | `v6/merge-assessments.ts` | Merge grok/claude/kimi assessments → `cache/assessments-merged.json` for mixed juries. |

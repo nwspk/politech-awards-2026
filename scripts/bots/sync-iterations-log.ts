@@ -23,6 +23,15 @@ function firstLine(text: string): string {
   return text.split(/\n/)[0].replace(/\s+/g, " ").replace(/\|/g, " ").trim();
 }
 
+function rewriteLocalDocLinks(content: string, version: string): string {
+  // Iteration rationale text sometimes references a local "#documents" anchor
+  // that exists in iteration README files but not in this consolidated log.
+  return content.replace(
+    /\]\(#documents\)/gi,
+    `](../../iterations/${version}/README.md#documents)`
+  );
+}
+
 function renderIteration(iteration: Iteration): string {
   const lines: string[] = [];
   const heading = headingFor(iteration);
@@ -35,8 +44,15 @@ function renderIteration(iteration: Iteration): string {
   lines.push(`- **Author**: ${iteration.author ?? "n/a"}`);
   lines.push(`- **Date**: ${iteration.date ?? "n/a"}`);
   lines.push(`- **Top project**: [${iteration.top_project.name}](${iteration.top_project.url})${score}`, "");
-  lines.push("#### Heuristic", "", iteration.heuristic || "n/a", "");
-  lines.push("#### Rationale", "", iteration.rationale || "n/a", "");
+  const heuristic = iteration.heuristic
+    ? rewriteLocalDocLinks(iteration.heuristic, iteration.version)
+    : "n/a";
+  const rationale = iteration.rationale
+    ? rewriteLocalDocLinks(iteration.rationale, iteration.version)
+    : "n/a";
+
+  lines.push("#### Heuristic", "", heuristic, "");
+  lines.push("#### Rationale", "", rationale, "");
   lines.push("#### Data sources", "");
   if (iteration.data_sources && iteration.data_sources.length > 0) {
     for (const source of iteration.data_sources) lines.push(`- ${source}`);

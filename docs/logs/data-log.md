@@ -1,6 +1,6 @@
 # Data-Gathering Log
 
-Structured history of data inputs, cleaning, quality checks, and known gaps. This is intended for `/awards` data-log rendering.
+Structured history of data inputs, cleaning, quality checks, and known gaps. Canonical full log for `/awards` rendering.
 
 ## At a glance
 
@@ -10,7 +10,7 @@ Structured history of data inputs, cleaning, quality checks, and known gaps. Thi
 | Data maturity | Attempt 3 is current baseline (enriched dossiers + verification) | [Attempt 3](#attempt-3-enriched-dossiers-era) |
 | Collection method | Multi-pass collection (Pass 0 to Pass 5) | [Cleaning and normalization steps](#cleaning-and-normalization-steps) |
 | Main risks | Sparse evidence links, bot blocking, dead links, nomination quality issues | [Known limitations and gaps](#known-limitations-and-gaps) |
-| Canonical source | This file is canonical for data-gathering history | [Canonical status](#canonical-status) |
+| Canonical source | This file (canonical) | [Canonical status](#canonical-status) |
 
 ## Attempts log
 
