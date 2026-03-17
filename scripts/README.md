@@ -54,12 +54,9 @@ npx tsx the-algorithm.ts
 | `itn/itn-a-eval.ts` | Canonical ITN evaluation entrypoint (`cache/assessments*.json`). |
 | `itn/itn-a-deliberate.ts` | Canonical ITN deliberation entrypoint (`cache/deliberation*.json`). |
 | `snapshot-existing-cache.ts` | One-off copy of cache files into `iterations/v5/` and `iterations/v6/`. |
-| `collect-enriched.ts` | Compatibility wrapper to data-processing entrypoint. |
 | `data-processing/collect-enriched.ts` | Canonical enrichment collection entrypoint. |
-| `rename-enriched.ts` | Canonical entrypoint to merge + rename enriched dossier files. |
+| `data-processing/rename-enriched.ts` | Canonical entrypoint to merge + rename enriched dossier files. |
 | `data-processing/*` | Enrichment normalization, verification, and targeted collection passes. |
-
-`scripts/data-processing/rename-enriched.ts` is maintained for compatibility, but use `scripts/rename-enriched.ts` as the canonical command entrypoint.
 
 ## v6 pipeline (`scripts/v6/`)
 

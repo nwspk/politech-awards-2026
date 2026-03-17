@@ -9,8 +9,8 @@
  *
  * Usage:
  *   # Canonical entrypoint:
- *   npx tsx scripts/rename-enriched.ts          # dry run (print plan)
- *   npx tsx scripts/rename-enriched.ts --apply  # apply changes
+ *   npx tsx scripts/data-processing/rename-enriched.ts          # dry run (print plan)
+ *   npx tsx scripts/data-processing/rename-enriched.ts --apply  # apply changes
  */
 
 import fs from "fs";

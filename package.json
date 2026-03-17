@@ -11,6 +11,7 @@
     "itn-a-eval": "npx tsx scripts/itn/itn-a-eval.ts",
     "itn-a-deliberate": "npx tsx scripts/itn/itn-a-deliberate.ts",
     "collect:enriched": "npx tsx scripts/data-processing/collect-enriched.ts",
+    "rename:enriched": "npx tsx scripts/data-processing/rename-enriched.ts",
     "cache:sites:retry": "npx tsx scripts/cache-sites.ts --retry-failed",
     "cache:read": "npx tsx scripts/read-cache.ts"
   },
