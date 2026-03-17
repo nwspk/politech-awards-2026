@@ -18,20 +18,20 @@ log "DELIB 1/6 — grok jury: ALREADY DONE (skipping)"
 # Claude is structurally conservative (0 entries with ≥2 pure greens).
 # Use --min-greens 0 and rely on --shortlist-file for filtering.
 log "DELIB 2/6 — claude jury (anthropic/claude-sonnet-4-6)"
-npx tsx scripts/itn-a-deliberate.ts \
+npx tsx scripts/itn/itn-a-deliberate.ts \
   --setup all-claude --shortlist-file "$SHORTLIST" --min-greens 0 \
   --model anthropic/claude-sonnet-4-6 2>&1 | tee -a "$LOG" || log "DELIB 2/6 FAILED — continuing"
 log "DELIB 2/6 DONE"
 
 # Kimi has 33 entries with ≥1 pure green in shortlist — use --min-greens 1
 log "DELIB 3/6 — kimi jury (moonshotai/kimi-k2)"
-npx tsx scripts/itn-a-deliberate.ts \
+npx tsx scripts/itn/itn-a-deliberate.ts \
   --setup all-kimi --shortlist-file "$SHORTLIST" --min-greens 1 \
   --model moonshotai/kimi-k2 2>&1 | tee -a "$LOG" || log "DELIB 3/6 FAILED — continuing"
 log "DELIB 3/6 DONE"
 
 log "DELIB 4/6 — mixed jury (openai/gpt-4o)"
-npx tsx scripts/itn-a-deliberate.ts \
+npx tsx scripts/itn/itn-a-deliberate.ts \
   --setup mixed \
   --assessments-file "$MERGED" \
   --output-file cache/deliberation-mixed.json \
@@ -40,7 +40,7 @@ npx tsx scripts/itn-a-deliberate.ts \
 log "DELIB 4/6 DONE"
 
 log "DELIB 5/6 — adversarial jury (deepseek/deepseek-r1)"
-npx tsx scripts/itn-a-deliberate.ts \
+npx tsx scripts/itn/itn-a-deliberate.ts \
   --setup adversarial \
   --assessments-file "$MERGED" \
   --output-file cache/deliberation-adversarial.json \
@@ -49,7 +49,7 @@ npx tsx scripts/itn-a-deliberate.ts \
 log "DELIB 5/6 DONE"
 
 log "DELIB 6/6 — specialist jury (gemini+llama+mistral)"
-npx tsx scripts/itn-a-deliberate.ts \
+npx tsx scripts/itn/itn-a-deliberate.ts \
   --setup specialist \
   --assessments-file "$MERGED" \
   --output-file cache/deliberation-specialist.json \

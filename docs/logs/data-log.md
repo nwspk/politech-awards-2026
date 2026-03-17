@@ -2,6 +2,17 @@
 
 Structured history of data inputs, cleaning, quality checks, and known gaps. Canonical full log for `/awards` rendering.
 
+## Contributor notes
+
+- Use this log for historical data milestones and quality findings.
+- If you add a new data pass, source, or cleanup step, update:
+  - `Attempts log`
+  - `Data source additions and removals`
+  - `Cleaning and normalization steps` (if relevant)
+- Keep entries short and link to the related PR where possible.
+
+For contribution workflow, see [CONTRIBUTING.md](../../CONTRIBUTING.md).
+
 ## At a glance
 
 | Area | Current state | Where to read details |

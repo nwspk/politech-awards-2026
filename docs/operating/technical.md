@@ -2,7 +2,20 @@
 
 Reference for the bots, scripts, and data formats powering this repo.
 
-**Heuristic suggestions:** Non-code contributors can open a [Heuristic suggestion](https://github.com/nwspk/politech-awards-2026/issues/new?template=heuristic-suggestion.md) issue (same fields as the PR template) and tag @sugaroverflow to implement; the resulting PR then goes through the normal iteration and voting flow.
+## Most common tasks
+
+| I want to... | Do this |
+|---|---|
+| Propose a new heuristic | Edit `the-algorithm.ts`, run it locally, open PR with `iteration` label |
+| Update docs/logs/scripts | Open a normal PR without `iteration` label |
+| Rebuild iteration index | `npm run build:iterations` |
+| Refresh README iteration table | `npm run sync:readme` |
+| Refresh full iterations log | `npm run sync:iterations-log` |
+| Refresh all generated iteration docs | `npm run docs:sync` |
+
+Contributor-first guide: [CONTRIBUTING.md](../../CONTRIBUTING.md)
+
+**Heuristic suggestions:** Non-code contributors can open a [Heuristic suggestion](https://github.com/nwspk/politech-awards-2026/issues/new?template=heuristic-suggestion.md) issue (same fields as the PR template) and tag @sugaroverflow for implementation support.
 
 ---
 
@@ -148,20 +161,17 @@ The iteration details updater creates the folder and writes `README.md` and `res
 
 ## Scripts
 
-**build-iterations** — Rebuilds `iterations.json` from `iterations/*/README.md`. Run after editing any iteration.  
-`npm run build:iterations` or `npx tsx scripts/bots/build-iterations.ts`
+Use [scripts/README.md](../../scripts/README.md) for the full script catalog.
 
-**sync-readme** — Regenerates the bot-maintained Iterations summary in README from `iterations.json`.  
-`npx tsx scripts/bots/sync-readme.ts`
+Most used commands:
 
-**sync-iterations-log** — Regenerates canonical full iteration records in `docs/logs/iterations-log.md` from `iterations.json`.  
-`npx tsx scripts/bots/sync-iterations-log.ts`
-
-**cache:sites** — Fetches each URL in `candidates.csv` into `cache/sites.sqlite`.  
-`npm run cache:sites` — Re-fetch: delete `cache/sites.sqlite`. Retry failed: `npm run cache:sites:retry`
-
-**cache:read** — Serves a cached page in the browser.  
-`npm run cache:read -- <url> [port]`
+- `npm run build:iterations` - rebuild `iterations.json`
+- `npm run sync:readme` - refresh README iteration table
+- `npm run sync:iterations-log` - refresh canonical iterations log
+- `npm run docs:sync` - run all iteration/doc sync steps
+- `npm run cache:sites` - cache candidate pages
+- `npm run cache:sites:retry` - retry failed cache fetches
+- `npm run cache:read -- <url> [port]` - inspect cached page in browser
 
 ---
 

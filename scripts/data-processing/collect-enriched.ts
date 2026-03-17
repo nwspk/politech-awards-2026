@@ -6,15 +6,15 @@
  * Fully resumable — skips already-complete files.
  *
  * Usage:
- *   npx tsx scripts/collect-enriched.ts --pass 0               # pass 0: scraped-page fields (fast, no LLM)
- *   npx tsx scripts/collect-enriched.ts                        # pass 1: broad sweep
- *   npx tsx scripts/collect-enriched.ts --pass 2               # pass 2: fill null fields
- *   npx tsx scripts/collect-enriched.ts --pass 3               # pass 3: structured DB lookups
- *   npx tsx scripts/collect-enriched.ts --pass 5               # pass 5: Jina Reader re-fetch + LLM improvement
- *   npx tsx scripts/collect-enriched.ts --pass all             # run all passes in sequence
- *   npx tsx scripts/collect-enriched.ts --url https://x.com    # single project, pass 1
- *   npx tsx scripts/collect-enriched.ts --retry-errors         # redo error files
- *   npx tsx scripts/collect-enriched.ts --concurrency 50
+ *   npm run collect:enriched -- --pass 0                        # pass 0: scraped-page fields (fast, no LLM)
+ *   npm run collect:enriched                                    # pass 1: broad sweep
+ *   npm run collect:enriched -- --pass 2                        # pass 2: fill null fields
+ *   npm run collect:enriched -- --pass 3                        # pass 3: structured DB lookups
+ *   npm run collect:enriched -- --pass 5                        # pass 5: Jina Reader re-fetch + LLM improvement
+ *   npm run collect:enriched -- --pass all                      # run all passes in sequence
+ *   npm run collect:enriched -- --url https://x.com             # single project, pass 1
+ *   npm run collect:enriched -- --retry-errors                  # redo error files
+ *   npm run collect:enriched -- --concurrency 50
  */
 
 import fs from "fs";
