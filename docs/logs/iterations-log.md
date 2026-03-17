@@ -227,7 +227,7 @@ The numeric scores should be read as *ordinal*, not cardinal — 90 means "won t
 
 vTaiwan ranked first in the deliberation — the agents converged on it as the project that most fully embodies political technology in 2026: proven participatory infrastructure, real policy impact (Uber regulation, same-sex marriage), and genuinely open forks (Poland, France). The case against: Taiwan-centric origins, uncertain scaling to low-trust or non-digital-first contexts.
 
-See **[Documents](#documents)** below for the Stage 2 deliberation summary and raw outputs.
+See **[Documents](../../iterations/v5/README.md#documents)** below for the Stage 2 deliberation summary and raw outputs.
 
 #### Data sources
 
@@ -252,7 +252,7 @@ to be completed
 ---
 
 *Files added/modified:*
-- `scripts/the-algorithm.ts` — v5 heuristic added, `CURRENT_HEURISTIC` switched to `heuristicV5`
+- `the-algorithm.ts` — v5 heuristic added, `CURRENT_HEURISTIC` switched to `heuristicV5`
 - `scripts/itn-a-eval.ts` — new: three-agent ITN/A evaluation pipeline
 - `scripts/itn-a-deliberate.ts` — new: multi-turn deliberation with relative scoring and facilitator
 - `iterations/v5/` — snapshot of v5 deliverables (deliberation summary, deliberation.json, assessments.json) so future runs don’t overwrite them

@@ -82,6 +82,8 @@ Quick links into detailed iteration log entries (canonical full records):
 - [v5](docs/logs/iterations-log.md#v5-three-agent-itn-a-deliberation)
 - [v6](docs/logs/iterations-log.md#v6-six-jury-itn-a-deliberation)
 
+Canonical flow: `iterations/vN/README.md` -> `iterations.json` -> `docs/logs/iterations-log.md` + README summary table.
+
 <!-- ITERATIONS:START -->
 
 _Bot-maintained summary. Full records: [docs/logs/iterations-log.md](docs/logs/iterations-log.md)_

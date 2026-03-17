@@ -18,7 +18,7 @@ How the awards committee works — proposing iterations, voting, and delivering 
 4. Mark the PR as "Ready for review" and add the **`iteration`** label
 5. The bots create the iteration from your results, update README, and start voting
 
-To add a new data source (scraped content, API data, survey results, etc.), use the [data collection template](../../compare?template=data-collection.md).
+To add a new data source (scraped content, API data, survey results, etc.), use the [data collection template](https://github.com/nwspk/politech-awards-2026/compare?template=data-collection.md).
 
 ## What Happens When You Open a PR
 

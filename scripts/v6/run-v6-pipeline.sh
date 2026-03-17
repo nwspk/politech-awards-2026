@@ -76,14 +76,14 @@ npx tsx scripts/itn-a-deliberate.ts \
   --model-experimental mistralai/mistral-large
 
 echo ""
-echo "5/6 — Algorithm (results per jury)..."
+echo "5/6 — Algorithm (results per jury in cache/)..."
 
-ASSESSMENTS_PATH=cache/assessments-grok.json       DELIBERATION_PATH=cache/deliberation-grok.json       RESULTS_PATH=results-grok.json       npx tsx the-algorithm.ts
-ASSESSMENTS_PATH=cache/assessments-all-claude.json  DELIBERATION_PATH=cache/deliberation-all-claude.json  RESULTS_PATH=results-all-claude.json  npx tsx the-algorithm.ts
-ASSESSMENTS_PATH=cache/assessments-all-kimi.json    DELIBERATION_PATH=cache/deliberation-all-kimi.json    RESULTS_PATH=results-all-kimi.json    npx tsx the-algorithm.ts
-ASSESSMENTS_PATH="$MERGED"                          DELIBERATION_PATH=cache/deliberation-mixed.json       RESULTS_PATH=results-mixed.json       npx tsx the-algorithm.ts
-ASSESSMENTS_PATH="$MERGED"                          DELIBERATION_PATH=cache/deliberation-adversarial.json RESULTS_PATH=results-adversarial.json npx tsx the-algorithm.ts
-ASSESSMENTS_PATH="$MERGED"                          DELIBERATION_PATH=cache/deliberation-specialist.json  RESULTS_PATH=results-specialist.json  npx tsx the-algorithm.ts
+ASSESSMENTS_PATH=cache/assessments-grok.json       DELIBERATION_PATH=cache/deliberation-grok.json       RESULTS_PATH=cache/results-grok.json       npx tsx the-algorithm.ts
+ASSESSMENTS_PATH=cache/assessments-all-claude.json DELIBERATION_PATH=cache/deliberation-all-claude.json RESULTS_PATH=cache/results-all-claude.json npx tsx the-algorithm.ts
+ASSESSMENTS_PATH=cache/assessments-all-kimi.json   DELIBERATION_PATH=cache/deliberation-all-kimi.json   RESULTS_PATH=cache/results-all-kimi.json   npx tsx the-algorithm.ts
+ASSESSMENTS_PATH="$MERGED"                          DELIBERATION_PATH=cache/deliberation-mixed.json       RESULTS_PATH=cache/results-mixed.json       npx tsx the-algorithm.ts
+ASSESSMENTS_PATH="$MERGED"                          DELIBERATION_PATH=cache/deliberation-adversarial.json RESULTS_PATH=cache/results-adversarial.json npx tsx the-algorithm.ts
+ASSESSMENTS_PATH="$MERGED"                          DELIBERATION_PATH=cache/deliberation-specialist.json  RESULTS_PATH=cache/results-specialist.json  npx tsx the-algorithm.ts
 
 echo ""
 echo "6/6 — Pick highest-confidence jury..."

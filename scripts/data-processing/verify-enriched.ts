@@ -6,9 +6,9 @@
  * Writes per-file flags and an aggregate report.
  *
  * Usage:
- *   npx tsx scripts/verify-enriched.ts              # verify all, print summary
- *   npx tsx scripts/verify-enriched.ts --verbose    # print per-file issues
- *   npx tsx scripts/verify-enriched.ts --output     # write data/enriched/verification-report.json
+ *   npx tsx scripts/data-processing/verify-enriched.ts              # verify all, print summary
+ *   npx tsx scripts/data-processing/verify-enriched.ts --verbose    # print per-file issues
+ *   npx tsx scripts/data-processing/verify-enriched.ts --output     # write data/enriched/verification-report.json
  */
 
 import fs from "fs";
