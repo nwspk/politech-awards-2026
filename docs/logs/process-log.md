@@ -262,26 +262,6 @@ Consolidated from process notes plus current iteration/data logs.
 - Dimensionality-reduction/value-axis analysis.
 - Uncertainty-aware estimator approach for member/project scoring.
 
----
-
-### 2026-03-31 - The Political Tech Awards Showcase
-
-- **Type**: Milestone
-- **Attendees**: n/a (event milestone entry, not a meeting attendance record)
-- **Related link**: [Awards site](https://2025.newspeak.house/awards)
-- **Planned outputs**:
-  - publish winner list,
-  - process presentation,
-  - long-form statement.
-
-### 2026-04-05
-
-- **Type**: Milestone
-- **Attendees**: n/a (event milestone entry, not a meeting attendance record)
-- **Related link**: [Briefing document](https://docs.google.com/document/d/14GgwyiA7t-AMRj4P5JFNijHXjATEQvQUvaxyIVZG-LA/edit?tab=t.0#heading=h.yyqjou9klunq)
-- **Planned outputs**:
-  - committee reflections on limits, process, and standout projects.
-
 ## Decision and rationale log (high level)
 
 | Date | Change | Why it changed | Source |
