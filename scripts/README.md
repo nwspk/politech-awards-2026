@@ -1,6 +1,36 @@
 # Scripts
 
-Scripts are split into **bot automation** and **algorithm/data pipelines**.
+Quick map of script entrypoints for contributors.
+
+## Most-used commands
+
+```bash
+# Iteration/docs sync
+npm run docs:sync
+
+# Cache workflow
+npm run cache:sites
+npm run cache:sites:retry
+npm run cache:read -- <url> [port]
+
+# ITN pipeline
+npm run itn-a-eval
+npm run itn-a-deliberate
+
+# Enrichment collection
+npm run collect:enriched
+
+# Run the scoring algorithm
+npx tsx the-algorithm.ts
+```
+
+## Structure at a glance
+
+- `scripts/bots/` - automation used by GitHub workflows
+- `scripts/itn/` - canonical ITN entrypoints
+- `scripts/v6/` - v6-specific pipeline scripts
+- `scripts/data-processing/` - enrichment normalization/verification helpers
+- `scripts/*.ts` - shared pipeline entrypoints used across iterations
 
 ## Bots (`scripts/bots/`)
 
@@ -15,16 +45,17 @@ Scripts are split into **bot automation** and **algorithm/data pipelines**.
 | `voting-bot.ts` | Notify/tally/deadline vote workflow. |
 | `shared.ts` | Shared types/utilities for bot scripts. |
 
-## Algorithm and data scripts (repo root + subfolders)
+## Core pipeline scripts
 
 | Script | Purpose |
 |--------|--------|
 | `cache-sites.ts` | Fetch and cache site content into `cache/sites.sqlite`. |
 | `read-cache.ts` | Read cached page for a URL (optionally serve locally). |
-| `itn-a-eval.ts` | Run ITN/A evaluations (`cache/assessments*.json`). |
-| `itn-a-deliberate.ts` | Run ITN/A deliberation (`cache/deliberation*.json`). |
+| `itn/itn-a-eval.ts` | Canonical ITN evaluation entrypoint (`cache/assessments*.json`). |
+| `itn/itn-a-deliberate.ts` | Canonical ITN deliberation entrypoint (`cache/deliberation*.json`). |
 | `snapshot-existing-cache.ts` | One-off copy of cache files into `iterations/v5/` and `iterations/v6/`. |
-| `collect-enriched.ts` | Enrichment runner entrypoint. |
+| `collect-enriched.ts` | Compatibility wrapper to data-processing entrypoint. |
+| `data-processing/collect-enriched.ts` | Canonical enrichment collection entrypoint. |
 | `rename-enriched.ts` | Canonical entrypoint to merge + rename enriched dossier files. |
 | `data-processing/*` | Enrichment normalization, verification, and targeted collection passes. |
 

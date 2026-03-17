@@ -1,6 +1,12 @@
 /**
  * itn-a-eval.ts
  *
+ * Canonical entrypoint:
+ *   npx tsx scripts/itn/itn-a-eval.ts
+ *
+ * Compatibility entrypoint (this file):
+ *   npx tsx scripts/itn-a-eval.ts
+ *
  * Usage:
  *   npx tsx scripts/itn-a-eval.ts
  *   npx tsx scripts/itn-a-eval.ts --url https://example.com

@@ -1,6 +1,12 @@
 /**
  * itn-a-deliberate.ts  v3
  *
+ * Canonical entrypoint:
+ *   npx tsx scripts/itn/itn-a-deliberate.ts
+ *
+ * Compatibility entrypoint (this file):
+ *   npx tsx scripts/itn-a-deliberate.ts
+ *
  * score (relative, all projects together) →
  * multi-turn argument (real conversation, facilitator calls out evasions) →
  * final ranking → winner

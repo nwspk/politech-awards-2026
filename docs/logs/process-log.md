@@ -2,6 +2,15 @@
 
 Structured process history for the awards committee. Canonical full log for `/awards` rendering.
 
+## Contributor notes
+
+- Use this log for meeting notes, governance decisions, and open tradeoffs.
+- Add new entries as new dated headings under `Meeting notes`.
+- Keep the `Open questions and unresolved tradeoffs` table current when decisions change.
+- Prefer concise notes that link to relevant PRs or docs.
+
+For contribution workflow, see [CONTRIBUTING.md](../../CONTRIBUTING.md).
+
 ## At a glance
 
 | Area | Current state | Where to read details |
@@ -258,7 +267,7 @@ Consolidated from process notes plus current iteration/data logs.
 ### 2026-03-31 - The Political Tech Awards Showcase
 
 - **Type**: Milestone
-- **Attendees**: TBD
+- **Attendees**: n/a (event milestone entry, not a meeting attendance record)
 - **Related link**: [Awards site](https://2025.newspeak.house/awards)
 - **Planned outputs**:
   - publish winner list,
@@ -268,7 +277,7 @@ Consolidated from process notes plus current iteration/data logs.
 ### 2026-04-05
 
 - **Type**: Milestone
-- **Attendees**: TBD
+- **Attendees**: n/a (event milestone entry, not a meeting attendance record)
 - **Related link**: [Briefing document](https://docs.google.com/document/d/14GgwyiA7t-AMRj4P5JFNijHXjATEQvQUvaxyIVZG-LA/edit?tab=t.0#heading=h.yyqjou9klunq)
 - **Planned outputs**:
   - committee reflections on limits, process, and standout projects.

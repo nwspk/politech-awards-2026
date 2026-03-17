@@ -25,9 +25,9 @@ echo "=== v6 pipeline starting at $(date) ==="
 echo ""
 
 echo "1/6 — Evals (Grok, Claude, Kimi)..."
-npx tsx scripts/itn-a-eval.ts --setup grok       --model x-ai/grok-4.1-fast
-npx tsx scripts/itn-a-eval.ts --setup all-claude --model anthropic/claude-sonnet-4-6
-npx tsx scripts/itn-a-eval.ts --setup all-kimi   --model moonshotai/kimi-k2
+npx tsx scripts/itn/itn-a-eval.ts --setup grok       --model x-ai/grok-4.1-fast
+npx tsx scripts/itn/itn-a-eval.ts --setup all-claude --model anthropic/claude-sonnet-4-6
+npx tsx scripts/itn/itn-a-eval.ts --setup all-kimi   --model moonshotai/kimi-k2
 
 echo ""
 echo "2/6 — Shortlist (union ≥2 greens, top-up to 100)..."
@@ -40,33 +40,33 @@ npx tsx scripts/v6/merge-assessments.ts --out "$MERGED"
 echo ""
 echo "4/6 — Deliberations (6 juries)..."
 
-npx tsx scripts/itn-a-deliberate.ts \
+npx tsx scripts/itn/itn-a-deliberate.ts \
   --setup grok --shortlist-file "$SHORTLIST" --min-greens 2 \
   --model x-ai/grok-4.1-fast
 
-npx tsx scripts/itn-a-deliberate.ts \
+npx tsx scripts/itn/itn-a-deliberate.ts \
   --setup all-claude --shortlist-file "$SHORTLIST" --min-greens 2 \
   --model anthropic/claude-sonnet-4-6
 
-npx tsx scripts/itn-a-deliberate.ts \
+npx tsx scripts/itn/itn-a-deliberate.ts \
   --setup all-kimi --shortlist-file "$SHORTLIST" --min-greens 2 \
   --model moonshotai/kimi-k2
 
-npx tsx scripts/itn-a-deliberate.ts \
+npx tsx scripts/itn/itn-a-deliberate.ts \
   --setup mixed \
   --assessments-file "$MERGED" \
   --output-file cache/deliberation-mixed.json \
   --shortlist-file "$SHORTLIST" --min-greens 0 \
   --model openai/gpt-4o
 
-npx tsx scripts/itn-a-deliberate.ts \
+npx tsx scripts/itn/itn-a-deliberate.ts \
   --setup adversarial \
   --assessments-file "$MERGED" \
   --output-file cache/deliberation-adversarial.json \
   --shortlist-file "$SHORTLIST" --min-greens 0 \
   --model deepseek/deepseek-r1
 
-npx tsx scripts/itn-a-deliberate.ts \
+npx tsx scripts/itn/itn-a-deliberate.ts \
   --setup specialist \
   --assessments-file "$MERGED" \
   --output-file cache/deliberation-specialist.json \
