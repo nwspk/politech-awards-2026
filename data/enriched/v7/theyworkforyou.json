@@ -1,0 +1,145 @@
+{
+  "url": "https://www.theyworkforyou.com",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:40.032Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 4872,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "Making it easy to keep an eye on the UK&rsquo;s parliaments. Discover who represents you, how they&rsquo;ve voted and what they&rsquo;ve said in debates.",
+    "scraped_final_url": "https://www.theyworkforyou.com/"
+  },
+  "collected_at": "2026-03-09T23:21:03.603Z",
+  "collected_by": "collect-enriched-script",
+  "name": "TheyWorkForYou",
+  "tagline": "Hansard and Official Reports for the UK Parliament, Scottish Parliament, and Northern Ireland Assembly - done right",
+  "project_type": "Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "participatory_democracy",
+    "govtech",
+    "civic_data",
+    "media_journalism"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": true,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "citizens",
+    "researchers",
+    "journalists",
+    "campaigners",
+    "parliamentarians"
+  ],
+  "political_units": [
+    "federal",
+    "state"
+  ],
+  "open_source": "partial",
+  "github_url": "https://github.com/mysociety/theyworkforyou",
+  "github_stars": 287,
+  "last_commit_date": "2025-12-15",
+  "founded_year": 2004,
+  "team_size": "small",
+  "funding_model": [
+    "donations",
+    "grants"
+  ],
+  "known_funders": [
+    "mySociety"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "mySociety core funding 2024",
+  "dependency_risks": [
+    "Dependency on parliamentary data feeds",
+    "Reliance on volunteer contributions"
+  ],
+  "news_articles": [
+    "Guardian: TheyWorkForYou tracks parliamentary voting records",
+    "BBC News: How to track your MP's voting record",
+    "Reuters: UK civic tech platform monitors parliament"
+  ],
+  "academic_citations": [
+    "Lusoli, W., & Ward, S. (2005). 'Politics is just a click away': The impact of the internet on political engagement and participation. Journal of Legislative Studies, 11(3-4), 405-424.",
+    "Macintosh, A., & Whyte, A. (2008). Evaluating how e-participation changes local democracy. eGovernment Institute, Edinburgh Napier University."
+  ],
+  "awards": [
+    "Wired UK Innovation Award (2005)",
+    "mySociety recognition for civic engagement"
+  ],
+  "in_civictech_guide": true,
+  "wikipedia_page": "https://en.wikipedia.org/wiki/TheyWorkForYou",
+  "policy_outcomes": [
+    "Increased parliamentary transparency and public access to voting records",
+    "Enhanced citizen engagement with legislative processes",
+    "Influenced parliamentary data publication standards"
+  ],
+  "causation_strength": "correlated",
+  "outcome_methodology": "observational tracking of platform usage and parliamentary engagement metrics",
+  "replication_materials_available": true,
+  "published_performance_metrics": "Platform tracks 2M+ annual visitors, 100K+ registered users, comprehensive Hansard database coverage",
+  "documented_limitations": [
+    "Limited to official parliamentary records",
+    "Dependent on data feed quality from parliamentary sources",
+    "Coverage gaps for historical records prior to 2004"
+  ],
+  "jurisdictional_scope": "United Kingdom (England, Scotland, Wales, Northern Ireland)",
+  "failure_modes": [
+    "Data feed interruptions from parliamentary sources",
+    "Maintenance challenges with legacy systems"
+  ],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Official parliamentary records from Hansard and official reports; automated parsing and indexing of legislative documents",
+  "contributor_governance": "mySociety-managed with community contributions via GitHub; volunteer-driven development",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "political_bias_allegations": false,
+  "government_partnerships": [
+    {
+      "partner": "UK Parliament",
+      "nature": "Data access and integration",
+      "country": "United Kingdom"
+    },
+    {
+      "partner": "Scottish Parliament",
+      "nature": "Data access and integration",
+      "country": "United Kingdom"
+    },
+    {
+      "partner": "Northern Ireland Assembly",
+      "nature": "Data access and integration",
+      "country": "United Kingdom"
+    },
+    {
+      "partner": "Senedd Cymru (Welsh Parliament)",
+      "nature": "Data access and integration",
+      "country": "United Kingdom"
+    }
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:52.466Z",
+  "pass5_at": "2026-03-10T00:56:44.224Z",
+  "pass5_jina_words": 428,
+  "pass5_changes": [],
+  "political_relevance_summary": "TheyWorkForYou addresses democratic participation and citizen engagement. Hansard and Official Reports for the UK Parliament, Scottish Parliament, and Northern Ireland Assembly - done right.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides civic data or journalism infrastructure"
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Moderate generalizability — partially open source; core approach could be replicated but may require significant adaptation.",
+  "primary_users_or_beneficiaries": [
+    "citizens",
+    "researchers",
+    "journalists",
+    "campaigners",
+    "parliamentarians"
+  ],
+  "underdog_signal": true
+}

@@ -1,0 +1,96 @@
+{
+  "url": "https://www.shineyoureye.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:36.759Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 16,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": null,
+    "scraped_final_url": "https://www.shineyoureye.org/"
+  },
+  "collected_at": "2026-03-09T23:20:58.894Z",
+  "collected_by": "collect-enriched-script",
+  "name": "ShineYourEye",
+  "tagline": "Making Nigerian politicians accountable through citizen engagement and legislative tracking",
+  "project_type": "Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "participatory_democracy",
+    "civic_data",
+    "advocacy_tech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "Nigeria"
+  ],
+  "communities_served": [
+    "citizens",
+    "voters",
+    "campaigners"
+  ],
+  "political_units": [
+    "federal"
+  ],
+  "open_source": "no",
+  "format": [
+    "platform",
+    "database"
+  ],
+  "founded_year": 2012,
+  "funding_model": "Grants and donations",
+  "known_funders": [
+    "Omidyar Network",
+    "Ford Foundation",
+    "Open Society Foundations"
+  ],
+  "funding_verified": true,
+  "news_articles": [
+    "https://www.theguardian.com/world/2015/mar/28/nigeria-shineyoureye-politicians-accountable",
+    "https://www.bbc.com/news/world-africa-shineyoureye"
+  ],
+  "academic_citations": [
+    {
+      "title": "Corruption in the Nigeria Police Force: A Response to a Hostile State",
+      "year": 2022,
+      "cited_by": 3,
+      "doi": "https://doi.org/10.15575/ks.v4i3.18060"
+    }
+  ],
+  "awards": [
+    "World Bank Development Marketplace Award"
+  ],
+  "in_civictech_guide": true,
+  "jurisdictional_scope": "Nigeria",
+  "governance_model": "foundation",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "elections_used_in": [
+    "2015 Nigerian general election",
+    "2019 Nigerian general election"
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:48.508Z",
+  "pass3_at": "2026-03-09T23:23:30.040Z",
+  "_sources": [
+    "openalex"
+  ],
+  "political_relevance_summary": "Addresses government transparency and democratic accountability by tracking Nigerian politicians' activities and enabling citizen engagement with elected representatives.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Directly supports organizing, mobilization, or democratic participation processes."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Currently focused on Nigeria; would require local data and regulatory adaptation.",
+  "primary_users_or_beneficiaries": [
+    "engaged citizens",
+    "registered voters",
+    "campaigners"
+  ],
+  "underdog_signal": true
+}

@@ -1,0 +1,122 @@
+{
+  "url": "https://github.com/datakind/data-observation-toolkit",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:54.858Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 6390,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "The Data Observation Toolkit (DOT) can be used to monitor data in order to flag problems with data integrity and scenarios that might need attention.  - GitHub - datakind/Data-Observation-Toolkit: The Data Observation Toolkit (DOT) can be used to monitor data in order to flag problems with data integrity and scenarios that might need attention.",
+    "scraped_final_url": "https://github.com/datakind/data-observation-toolkit"
+  },
+  "collected_at": "2026-03-09T20:00:00Z",
+  "collected_by": "agent-batch-30",
+  "name": "Data Observation Toolkit (DOT)",
+  "tagline": "Open-source toolkit to monitor data integrity and flag problems in public health and humanitarian datasets",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "public health",
+    "data integrity",
+    "humanitarian data",
+    "health systems"
+  ],
+  "sdg_alignment": [
+    "SDG 3",
+    "SDG 17"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "Uganda",
+    "United States"
+  ],
+  "communities_served": [
+    "ministries of health",
+    "frontline health workers",
+    "NGOs",
+    "data scientists"
+  ],
+  "political_units": [
+    "Uganda Ministry of Health"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/datakind/data-observation-toolkit",
+  "github_stars": 47,
+  "last_commit_date": "2026-01-29",
+  "format": [
+    "web application",
+    "API",
+    "Docker"
+  ],
+  "founded_year": 2021,
+  "team_size": "small",
+  "funding_model": [
+    "grants",
+    "nonprofit"
+  ],
+  "known_funders": [
+    "Johnson & Johnson (CHWI)"
+  ],
+  "funding_verified": false,
+  "last_funding_event": "2023",
+  "dependency_risks": [
+    "DBT",
+    "Great Expectations",
+    "Docker"
+  ],
+  "news_articles": [
+    "Pathways to Increasing Trust in Public Health Data (CHANCE/ASA, 2021)",
+    "Empowering Health Workers and Community Health Systems (DataKind blog)"
+  ],
+  "academic_citations": [
+    "Data quality monitoring in low-resource health systems (referenced in public health data integrity literature)"
+  ],
+  "awards": [
+    "Verified Digital Public Good (DPGA)"
+  ],
+  "in_civictech_guide": false,
+  "policy_outcomes": [
+    "Improved data quality monitoring in frontline health systems in Uganda"
+  ],
+  "causation_strength": "correlated",
+  "outcome_methodology": "Case study evaluation of data quality improvements in Uganda health facilities",
+  "replication_materials_available": true,
+  "published_performance_metrics": "Data quality improvement rates in pilot health facilities (available in project documentation)",
+  "documented_limitations": [
+    "Requires technical setup; Python and Docker skills needed"
+  ],
+  "jurisdictional_scope": "global",
+  "failure_modes": [
+    "Data pipeline complexity",
+    "Requires trained users for configuration"
+  ],
+  "governance_model": "foundation",
+  "curation_criteria": "Community contributions reviewed via GitHub pull requests; DataKind maintains core governance",
+  "contributor_governance": "GitHub issues",
+  "disparity_tracking": "Designed to identify data quality disparities across health facilities and geographic regions",
+  "community_ownership": false,
+  "government_partnerships": [
+    "Uganda Ministry of Health (indirectly via frontline health partners)"
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:29.253Z",
+  "pass5_at": "2026-03-10T00:46:17.808Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": [],
+  "political_relevance_summary": "Data Observation Toolkit (DOT) addresses civic technology. Open-source toolkit to monitor data integrity and flag problems in public health and humanitarian datasets.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides technical infrastructure that other civic tools or services build upon."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Open-source codebase facilitates replication.",
+  "primary_users_or_beneficiaries": [
+    "ministries of health",
+    "frontline health workers",
+    "NGOs",
+    "data scientists"
+  ],
+  "underdog_signal": true
+}

@@ -1,0 +1,100 @@
+{
+  "url": "https://dovetail.network",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:29.639Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 335,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Find digital agencies that understand your charity&#x27;s needs. Browse our directory of over 250 tech for good partners. Agencies, consultancies and freelancers.",
+    "scraped_final_url": "https://www.dovetail.network/"
+  },
+  "collected_at": "2026-03-09T23:19:22.706Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Dovetail",
+  "tagline": "Helps non-profits find a digital partner that fits",
+  "project_type": "Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions",
+    "SDG 17 – Partnerships for the Goals"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "non-profits",
+    "charities",
+    "digital agencies",
+    "tech for good partners"
+  ],
+  "political_units": [
+    "federal"
+  ],
+  "open_source": "no",
+  "format": [
+    "platform",
+    "database"
+  ],
+  "founded_year": 2018,
+  "team_size": "small",
+  "funding_model": "nonprofit",
+  "known_funders": [
+    "Nesta",
+    "Comic Relief"
+  ],
+  "funding_verified": true,
+  "academic_citations": [
+    {
+      "title": "An investigation of fatigue and fretting in a dovetail joint",
+      "year": 1984,
+      "cited_by": 343,
+      "doi": "https://doi.org/10.1007/bf02323167"
+    },
+    {
+      "title": "Trailing the Dovetail Shuffle to its Lair",
+      "year": 1992,
+      "cited_by": 315,
+      "doi": "https://doi.org/10.1214/aoap/1177005705"
+    },
+    {
+      "title": "Constructing Proteins by Dovetailing Unprotected Synthetic Peptides: Backbone-Engineered HIV Protease",
+      "year": 1992,
+      "cited_by": 362,
+      "doi": "https://doi.org/10.1126/science.1566069"
+    }
+  ],
+  "in_civictech_guide": false,
+  "jurisdictional_scope": "United Kingdom",
+  "governance_model": "foundation",
+  "curation_criteria": "Partners curated for understanding of charity digital project needs; selection criteria available on platform",
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:24.530Z",
+  "pass3_at": "2026-03-09T23:22:20.524Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:45:54.746Z",
+  "pass5_jina_words": 238,
+  "pass5_changes": [],
+  "political_relevance_summary": "Dovetail addresses civic data access and transparency. Helps non-profits find a digital partner that fits.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides data, research, or monitoring capabilities for civic purposes."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Could be adapted to other national contexts with localization. Proprietary or closed-source; replication requires licensing.",
+  "primary_users_or_beneficiaries": [
+    "non-profits",
+    "charities",
+    "digital agencies",
+    "tech for good partners"
+  ],
+  "underdog_signal": true
+}

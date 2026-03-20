@@ -1,0 +1,120 @@
+{
+  "url": "https://soweego.readthedocs.io",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:18.393Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 520,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "import the target catalog into a local database;",
+    "scraped_final_url": "https://soweego.readthedocs.io/en/latest/"
+  },
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "soweego",
+  "tagline": "Link Wikidata to large catalogs",
+  "project_type": "Tool/Platform",
+  "org_type": "Academic/research",
+  "issue_area": [
+    "open knowledge",
+    "linked data",
+    "Wikidata enrichment",
+    "authority file integration",
+    "open data infrastructure"
+  ],
+  "sdg_alignment": [
+    "SDG 9: Industry, Innovation and Infrastructure",
+    "SDG 17: Partnerships for the Goals"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "global (infrastructure-based, not geographically limited)"
+  ],
+  "communities_served": [
+    "Wikidata editors",
+    "statisticians",
+    "epidemiologists",
+    "historians",
+    "computer scientists",
+    "open data practitioners"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/Wikidata/soweego",
+  "github_stars": 79,
+  "last_commit_date": "2021-12-10",
+  "format": [
+    "CLI tool",
+    "Python pipeline",
+    "Docker-based"
+  ],
+  "founded_year": 2017,
+  "team_size": "small",
+  "funding_model": [
+    "Wikimedia Foundation Project Grant"
+  ],
+  "known_funders": [
+    "Wikimedia Foundation (Grant: FY 2017-2018, 75,000 EUR; second grant soweego_2)"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "Wikimedia Foundation Project Grant 2017-2018",
+  "dependency_risks": [
+    "docs last built December 2021 — likely inactive",
+    "depends on Wikidata/Mix'n'match infrastructure",
+    "catalogs supported limited to Discogs, IMDB, MusicBrainz"
+  ],
+  "academic_citations": [
+    "Nechaev, Y., Corcoglioniti, F., Giuliano, C.: Linking knowledge bases to social media profiles. SAC 2017.",
+    "Nechaev, Y., Corcoglioniti, F., Giuliano, C.: SocialLink: Linking DBpedia Entities to Corresponding Twitter Accounts. ISWC 2017."
+  ],
+  "in_civictech_guide": false,
+  "wikipedia_page": false,
+  "causation_strength": "anecdotal",
+  "outcome_methodology": "not applicable",
+  "replication_materials_available": true,
+  "published_performance_metrics": [
+    "precision/recall metrics for entity linking available in academic papers"
+  ],
+  "documented_limitations": [
+    "only three catalogs supported (Discogs, IMDB, MusicBrainz)",
+    "project appears inactive since late 2021"
+  ],
+  "jurisdictional_scope": "global",
+  "failure_modes": [
+    "project inactivity / maintenance gap",
+    "Wikidata infrastructure changes breaking pipeline",
+    "privacy/ethics concerns around automated identity linking"
+  ],
+  "governance_model": "foundation",
+  "curation_criteria": "trusted, professionally or peer-curated identifier catalogs",
+  "contributor_governance": "open source on GitHub (Wikidata org)",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "controversies": [
+    "privacy opposition raised during grant review: concern that automated linking of professional and personal identity profiles without consent resembles surveillance/doxxing tools"
+  ],
+  "political_bias_allegations": false,
+  "legal_regulatory_issues": false,
+  "ai_involvement": "uses machine learning for supervised entity linking / record linkage",
+  "pass2_at": "2026-03-09T23:21:42.403Z",
+  "pass5_at": "2026-03-10T00:51:39.151Z",
+  "pass5_jina_words": 404,
+  "pass5_changes": [],
+  "political_relevance_summary": "soweego addresses civic technology. Link Wikidata to large catalogs.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides data, research, or educational resources for civic engagement."
+  },
+  "systemic_issue_area": "civic technology infrastructure",
+  "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions; replication materials are available.",
+  "primary_users_or_beneficiaries": [
+    "wikidata editors",
+    "statisticians",
+    "epidemiologists",
+    "historians",
+    "computer scientists",
+    "open data practitioners"
+  ],
+  "underdog_signal": false
+}

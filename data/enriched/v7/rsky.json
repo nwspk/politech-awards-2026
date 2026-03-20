@@ -1,0 +1,115 @@
+{
+  "url": "https://github.com/blacksky-algorithms/rsky",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:51.075Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1220,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "An AT Protocol implementation prioritizing community safety and self-governance, written in Rust. - blacksky-algorithms/rsky",
+    "scraped_final_url": "https://github.com/blacksky-algorithms/rsky"
+  },
+  "collected_at": "2026-03-09T23:19:20.418Z",
+  "collected_by": "collect-enriched-script",
+  "name": "rsky",
+  "tagline": "An AT Protocol implementation prioritizing community safety and self-governance, written in Rust",
+  "project_type": "Platform",
+  "org_type": "Grassroots/indie",
+  "issue_area": [
+    "digital_rights",
+    "emerging_tech"
+  ],
+  "sdg_alignment": [
+    "SDG 16: Peace, Justice and Strong Institutions",
+    "SDG 10: Reduced Inequalities"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "United States",
+    "Global"
+  ],
+  "communities_served": [
+    "developers",
+    "platform users"
+  ],
+  "political_units": [
+    "Global"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/blacksky-algorithms/rsky",
+  "github_stars": 626,
+  "last_commit_date": "2024",
+  "format": [
+    "platform",
+    "api"
+  ],
+  "founded_year": 2023,
+  "team_size": "small",
+  "funding_model": "Community-driven/volunteer",
+  "funding_verified": false,
+  "dependency_risks": [
+    "AT Protocol dependency",
+    "Rust ecosystem maintenance"
+  ],
+  "academic_citations": [
+    {
+      "title": "Estimation of Sky Thermal Irradiance in Arid Climate under Clear Sky Conditions",
+      "year": 2020,
+      "cited_by": 11,
+      "doi": "https://doi.org/10.1007/s10765-020-02656-1"
+    },
+    {
+      "title": "Pain as a global public health priority",
+      "year": 2011,
+      "cited_by": 1379,
+      "doi": "https://doi.org/10.1186/1471-2458-11-770"
+    },
+    {
+      "title": "Advanced glycation end-products and the progress of diabetic vascular complications.",
+      "year": 2004,
+      "cited_by": 342,
+      "doi": "https://doi.org/10.33549/physiolres.930430"
+    }
+  ],
+  "in_civictech_guide": false,
+  "replication_materials_available": true,
+  "documented_limitations": [
+    "Early-stage implementation",
+    "Limited production deployment",
+    "Dependency on AT Protocol ecosystem maturity"
+  ],
+  "jurisdictional_scope": "International",
+  "failure_modes": [
+    "Protocol incompatibility",
+    "Community moderation challenges",
+    "Scalability limitations"
+  ],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Community-driven moderation and safety standards aligned with AT Protocol principles",
+  "contributor_governance": "Open contribution model with community review",
+  "disparity_tracking": false,
+  "community_ownership": true,
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:26.866Z",
+  "pass3_at": "2026-03-09T23:22:25.581Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:46:16.659Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": [],
+  "political_relevance_summary": "rsky addresses digital rights and online freedoms. An AT Protocol implementation prioritizing community safety and self-governance, written in Rust.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides digital rights infrastructure or privacy-preserving technology foundations."
+  },
+  "systemic_issue_area": "digital rights infrastructure",
+  "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions; replication materials are available.",
+  "primary_users_or_beneficiaries": [
+    "civic tech developers",
+    "platform users"
+  ],
+  "underdog_signal": true
+}

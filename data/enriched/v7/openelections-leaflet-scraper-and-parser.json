@@ -1,0 +1,93 @@
+{
+  "url": "https://github.com/thicknavyrain/uk_elections_leaflets",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:09.985Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 856,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "A CampaignLab 2024 Hackathon project to scrape and process OpenElections political campaigning leaflets and convert them into structured JSON files for further analysis using GPT-4 Vision. - thicknavyrain/uk_elections_leaflets",
+    "scraped_final_url": "https://github.com/thicknavyrain/uk_elections_leaflets"
+  },
+  "collected_at": "2026-03-09T23:19:42.902Z",
+  "collected_by": "collect-enriched-script",
+  "name": "OpenElections Leaflet Scraper and Parser",
+  "tagline": "A CampaignLab 2024 Hackathon project to scrape and process UK election campaign leaflets into structured JSON using GPT-4 Vision",
+  "project_type": "Tool/Platform",
+  "org_type": "Grassroots/indie",
+  "issue_area": [
+    "civic_data",
+    "media_journalism",
+    "advocacy_tech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "researchers",
+    "journalists",
+    "election analysts"
+  ],
+  "political_units": [
+    "federal"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/thicknavyrain/uk_elections_leaflets",
+  "github_stars": 3,
+  "last_commit_date": "2024",
+  "format": [
+    "database",
+    "tool"
+  ],
+  "founded_year": 2024,
+  "team_size": "solo",
+  "funding_model": "unfunded",
+  "funding_verified": false,
+  "dependency_risks": [
+    "Reliance on OpenAI GPT-4 Vision API",
+    "Dependency on Open Elections archive availability"
+  ],
+  "awards": [
+    {
+      "name": "CampaignLab 2024 Hackathon project",
+      "year": 2024
+    }
+  ],
+  "in_civictech_guide": false,
+  "replication_materials_available": true,
+  "documented_limitations": "Project relies on GPT-4 Vision API accuracy for leaflet parsing; limited to leaflets available in Open Elections archive; solo developer project with limited maintenance resources",
+  "jurisdictional_scope": "United Kingdom",
+  "failure_modes": "API rate limiting or cost constraints; changes to Open Elections archive structure; GPT-4 Vision model updates affecting parsing accuracy",
+  "governance_model": "individual",
+  "community_ownership": false,
+  "elections_used_in": [
+    {
+      "election": "UK 2024 General Election",
+      "role": "data collection and analysis"
+    }
+  ],
+  "ai_involvement": "GPT-4 Vision for leaflet parsing and JSON structuring",
+  "pass2_at": "2026-03-09T23:21:29.803Z",
+  "pass5_at": "2026-03-10T00:46:22.471Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": [],
+  "political_relevance_summary": "OpenElections Leaflet Scraper and Parser addresses barriers to civic data access and transparency, making public or institutional data more available for accountability, research, and informed civic engagement.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "OpenElections Leaflet Scraper and Parser primarily serves as an information resource for researchers, journalists, or analysts working on civic and political issues."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Moderate generalizability. OpenElections Leaflet Scraper and Parser is open source but designed for UK-specific regulatory and institutional contexts. Adaptation to other jurisdictions would require significant localization.",
+  "primary_users_or_beneficiaries": [
+    "researchers",
+    "journalists",
+    "election analysts"
+  ],
+  "underdog_signal": true
+}

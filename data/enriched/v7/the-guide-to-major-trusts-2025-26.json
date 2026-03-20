@@ -1,0 +1,103 @@
+{
+  "url": "https://www.dsc.org.uk/publication/the-guide-to-major-trusts-2025-26/",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:57.025Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 995,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "The Guide to Major Trusts 2025/26 is the UK&#039;s definitive detailed guide to grant funding. It supplies information on over 1,000 of the largest UK funders which award a combined annual total of over £7.19 billion.",
+    "scraped_final_url": "https://www.dsc.org.uk/publication/the-guide-to-major-trusts-2025-26/"
+  },
+  "collected_at": "2026-03-09T23:20:51.529Z",
+  "collected_by": "collect-enriched-script",
+  "name": "The Guide to Major Trusts 2025/26",
+  "tagline": "UK's definitive directory of over 1,000 largest grant-makers awarding £7.23 billion annually",
+  "project_type": "Publication",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": true,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "fundraisers",
+    "charities",
+    "nonprofits",
+    "budget-holding staff",
+    "funders"
+  ],
+  "political_units": [
+    "federal"
+  ],
+  "open_source": "no",
+  "format": [
+    "database",
+    "report"
+  ],
+  "founded_year": 1989,
+  "team_size": "medium",
+  "funding_model": [
+    "subscriptions",
+    "donations"
+  ],
+  "known_funders": [
+    "Directory of Social Change"
+  ],
+  "funding_verified": true,
+  "academic_citations": [
+    {
+      "title": "Internet of Things: A Survey on Enabling Technologies, Protocols, and Applications",
+      "year": 2015,
+      "cited_by": 8108,
+      "doi": "https://doi.org/10.1109/comst.2015.2444095"
+    },
+    {
+      "title": "Global, regional, and national burden of stroke and its risk factors, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "year": 2021,
+      "cited_by": 7058,
+      "doi": "https://doi.org/10.1016/s1474-4422(21)00252-0"
+    },
+    {
+      "title": "Global, regional, and national age-sex-specific mortality for 282 causes of death in 195 countries and territories, 1980–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+      "year": 2018,
+      "cited_by": 8518,
+      "doi": "https://doi.org/10.1016/s0140-6736(18)32203-7"
+    }
+  ],
+  "in_civictech_guide": false,
+  "jurisdictional_scope": "United Kingdom",
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Grant-makers with potential to give over £300,000 annually",
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:43.574Z",
+  "pass3_at": "2026-03-09T23:23:20.770Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:54:34.545Z",
+  "pass5_jina_words": 629,
+  "pass5_changes": [],
+  "political_relevance_summary": "The Guide to Major Trusts 2025/26 addresses civic data access and transparency. UK's definitive directory of over 1,000 largest grant-makers awarding £7.23 billion annually.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides information, data, or research for civic purposes"
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Limited to United Kingdom context currently; approach could potentially be replicated in similar jurisdictions with adaptation to local data sources and regulations.",
+  "primary_users_or_beneficiaries": [
+    "fundraisers",
+    "charities",
+    "nonprofits",
+    "budget-holding staff",
+    "funders"
+  ],
+  "underdog_signal": false
+}

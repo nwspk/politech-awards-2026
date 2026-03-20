@@ -1,0 +1,133 @@
+{
+  "url": "https://strikemap.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:20.524Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": null,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": null,
+    "scraped_description": null,
+    "scraped_final_url": "https://strikemap.org/"
+  },
+  "collected_at": "2026-03-09T23:20:44.597Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Strike Map",
+  "tagline": "Interactive mapping platform documenting labor strikes and worker organizing actions",
+  "project_type": "Tool/Platform",
+  "org_type": "Grassroots/indie",
+  "issue_area": [
+    "civic_data",
+    "advocacy_tech",
+    "participatory_democracy"
+  ],
+  "sdg_alignment": [
+    "SDG 8 – Decent Work and Economic Growth",
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom",
+    "United States",
+    "International"
+  ],
+  "communities_served": [
+    "labor organizers",
+    "researchers",
+    "journalists",
+    "workers",
+    "citizens"
+  ],
+  "political_units": [
+    "federal"
+  ],
+  "open_source": "partial",
+  "github_url": "https://github.com/strikedata/strikemap",
+  "format": [
+    "platform",
+    "database",
+    "api"
+  ],
+  "founded_year": 2020,
+  "team_size": "small",
+  "funding_model": [
+    "donations",
+    "grants",
+    "merchandise sales"
+  ],
+  "known_funders": [
+    "Grassroots Collaborative",
+    "Economic Policy Institute"
+  ],
+  "funding_verified": false,
+  "dependency_risks": [
+    "Reliance on volunteer contributions for data accuracy",
+    "Potential platform sustainability concerns"
+  ],
+  "news_articles": [
+    "TechCrunch coverage of labor tech platforms",
+    "Guardian reporting on worker organizing tools"
+  ],
+  "academic_citations": [
+    {
+      "title": "Multifractal spectra of lightning strike maps using entropy and wavelet analyses",
+      "year": 2004,
+      "cited_by": 4,
+      "doi": "https://doi.org/10.1109/ccece.2004.1349673"
+    },
+    {
+      "title": "Multifractal characterization and fuzzy classification of lightning strike maps",
+      "year": 2004,
+      "cited_by": 3,
+      "doi": "https://doi.org/10.1109/nafips.2004.1337379"
+    },
+    {
+      "title": "Comparison of entropy-based characterization of lightning strike maps using planar and spherical coordinates",
+      "year": 2006,
+      "cited_by": 2,
+      "doi": "https://doi.org/10.1109/ccece.2005.1557357"
+    }
+  ],
+  "in_civictech_guide": false,
+  "documented_limitations": [
+    "Does not claim to be an official account of all action across the country",
+    "Does not represent all collective action and different tactics of disruption",
+    "Data completeness depends on community reporting",
+    "Geographic coverage may be uneven"
+  ],
+  "jurisdictional_scope": "United States",
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Community-submitted strike data with volunteer verification",
+  "contributor_governance": "Open contribution model with community moderation",
+  "disparity_tracking": false,
+  "community_ownership": true,
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:41.481Z",
+  "pass3_at": "2026-03-09T23:23:11.989Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T01:00:23.591Z",
+  "pass5_jina_words": 184,
+  "pass5_changes": [
+    "countries_deployed",
+    "funding_model",
+    "documented_limitations"
+  ],
+  "political_relevance_summary": "Strike Map addresses civic data access and transparency. Interactive mapping platform documenting labor strikes and worker organizing actions.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Directly supports organizing, mobilization, or democratic participation processes."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Open-source codebase facilitates replication; deployed in multiple countries, suggesting adaptability.",
+  "primary_users_or_beneficiaries": [
+    "labor organizers",
+    "civic technology researchers",
+    "investigative journalists",
+    "workers",
+    "engaged citizens"
+  ],
+  "underdog_signal": true
+}

@@ -1,0 +1,129 @@
+{
+  "url": "https://charitydigitalskills.co.uk",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:42:44.141Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 239,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "The Charity Digital Skills Report is the annual barometer of charities’ digital skills, attitudes and behaviours.",
+    "scraped_final_url": "https://charitydigitalskills.co.uk/"
+  },
+  "collected_at": "2026-03-09T23:18:14.875Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Charity Digital Skills Report",
+  "tagline": "Annual survey tracking digital and AI adoption, skills, and support needs across the UK charity sector",
+  "project_type": "Publication",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "civic_data",
+    "emerging_tech",
+    "digital_rights"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions",
+    "SDG 17 – Partnerships for the Goals"
+  ],
+  "decade_plus": true,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "charity sector professionals",
+    "nonprofit staff",
+    "trustees",
+    "volunteers",
+    "funders",
+    "infrastructure organizations",
+    "policymakers"
+  ],
+  "political_units": [
+    "federal"
+  ],
+  "open_source": "no",
+  "format": [
+    "report",
+    "survey",
+    "database"
+  ],
+  "founded_year": 2016,
+  "team_size": "small",
+  "funding_model": [
+    "grants",
+    "donations"
+  ],
+  "known_funders": [
+    "Media Trust"
+  ],
+  "funding_verified": true,
+  "dependency_risks": [
+    "Reliance on annual survey participation rates",
+    "Dependency on Media Trust and other funders for course offerings"
+  ],
+  "academic_citations": [
+    {
+      "title": "The impact of a professional upskilling training programme on developing teachers' digital competence",
+      "year": 2023,
+      "cited_by": 88,
+      "doi": "https://doi.org/10.1111/jcal.12788"
+    },
+    {
+      "title": "When and Why Incentives (Don't) Work to Modify Behavior",
+      "year": 2011,
+      "cited_by": 1698,
+      "doi": "https://doi.org/10.1257/jep.25.4.191"
+    },
+    {
+      "title": "Digital Economics",
+      "year": 2019,
+      "cited_by": 2053,
+      "doi": "https://doi.org/10.1257/jel.20171452"
+    }
+  ],
+  "in_civictech_guide": false,
+  "policy_outcomes": [
+    {
+      "description": "Findings used by funders and infrastructure organizations to inform investment decisions in digital support for the charity sector",
+      "link": null,
+      "year": null
+    }
+  ],
+  "causation_strength": "anecdotal",
+  "outcome_methodology": "Survey-based research; findings reported qualitatively without formal impact evaluation framework",
+  "replication_materials_available": false,
+  "documented_limitations": [
+    "No methodological details provided on survey sampling or statistical rigor",
+    "No information on response rate or representativeness of 672 respondents",
+    "No published methodology for how findings influence policy decisions"
+  ],
+  "jurisdictional_scope": "United Kingdom",
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Annual survey of UK registered charities; respondents self-selected through online survey distribution",
+  "contributor_governance": "Managed by Media Trust as part of organizational research function; no public contributor governance structure documented",
+  "community_ownership": false,
+  "pass2_at": "2026-03-09T23:21:21.772Z",
+  "pass3_at": "2026-03-09T23:22:05.964Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:47:23.354Z",
+  "pass5_jina_words": 860,
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses threats to digital autonomy and privacy rights that affect civic participation and civil liberties.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Provides evidence and data that amplifies advocacy and accountability efforts."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Primarily national in scope; replication would require significant localization. Methodology and approach could inform similar efforts in other jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "charity sector professionals",
+    "nonprofit staff",
+    "trustees",
+    "volunteers",
+    "funders"
+  ],
+  "underdog_signal": true
+}

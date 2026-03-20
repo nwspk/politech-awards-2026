@@ -1,0 +1,138 @@
+{
+  "url": "https://datacollective.mozillafoundation.org/",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:10.305Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 998,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Mozilla Data Collective is rebuilding the AI data ecosystem with communities at the centre.",
+    "scraped_final_url": "https://datacollective.mozillafoundation.org/"
+  },
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "Mozilla Data Collective",
+  "tagline": "Rebuilding the AI data ecosystem with communities at the centre — 470+ high-quality global datasets, built by and for the community in a transparent and ethical way.",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "civic_data",
+    "emerging_tech",
+    "digital_rights"
+  ],
+  "sdg_alignment": [
+    "SDG 10",
+    "SDG 17",
+    "SDG 9"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "Global",
+    "Multiple countries across Africa, Asia, Americas, Europe"
+  ],
+  "communities_served": [
+    "linguists",
+    "technologists",
+    "activists",
+    "researchers",
+    "indigenous language communities",
+    "global south communities"
+  ],
+  "political_units": [
+    "Global"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/Mozilla-Data-Collective",
+  "github_stars": 16,
+  "last_commit_date": "2026-03-09",
+  "format": [
+    "database",
+    "platform"
+  ],
+  "founded_year": 2025,
+  "team_size": "small",
+  "funding_model": [
+    "grants"
+  ],
+  "known_funders": [
+    "Mozilla Foundation"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2025",
+  "dependency_risks": [
+    "reliance on Mozilla Foundation for backing",
+    "early stage — GitHub org created June 2025",
+    "sustainability of community contribution model unclear"
+  ],
+  "academic_citations": [
+    {
+      "title": "ImageJ2: ImageJ for the next generation of scientific image data",
+      "year": 2017,
+      "cited_by": 6093,
+      "doi": "https://doi.org/10.1186/s12859-017-1934-z"
+    },
+    {
+      "title": "Wikis, blogs and podcasts: a new generation of Web-based tools for virtual collaborative clinical practice and education",
+      "year": 2006,
+      "cited_by": 1167,
+      "doi": "https://doi.org/10.1186/1472-6920-6-41"
+    },
+    {
+      "title": "The Economics of Technology Sharing: Open Source and Beyond",
+      "year": 2005,
+      "cited_by": 387,
+      "doi": "https://doi.org/10.1257/0895330054048678"
+    }
+  ],
+  "in_civictech_guide": false,
+  "wikipedia_page": false,
+  "causation_strength": "anecdotal",
+  "outcome_methodology": "not_applicable",
+  "replication_materials_available": true,
+  "published_performance_metrics": "470+ datasets as of March 2026",
+  "documented_limitations": [
+    "Early stage project with limited track record",
+    "Sustainability model for community contributions not yet proven",
+    "Data quality assurance processes still being developed"
+  ],
+  "jurisdictional_scope": "global",
+  "failure_modes": [
+    "community adoption risk",
+    "governance complexity of custom data licenses",
+    "unclear enforcement of data usage terms"
+  ],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Community-contributed; datasets accepted from organizations and individuals; open and restricted licensing options",
+  "contributor_governance": "Individual and organizational data owners control their datasets; platform sets baseline authentication and legal contract requirements",
+  "disparity_tracking": false,
+  "community_ownership": "Data owners retain ownership; Mozilla Foundation backs platform",
+  "political_bias_allegations": false,
+  "legal_regulatory_issues": false,
+  "ai_involvement": "Central — platform purpose is high-quality AI training data; grew from Mozilla Common Voice",
+  "pass2_at": "2026-03-09T23:21:22.010Z",
+  "pass3_at": "2026-03-09T23:22:14.837Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:45:43.306Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": [],
+  "political_relevance_summary": "Mozilla Data Collective addresses making civic data accessible and actionable and protecting digital rights and privacy.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Amplifies advocacy efforts through Rebuilding the AI data ecosystem with communities at the centre — 470+ high-quality global datasets, built by and for the community in a transparent and ethical way."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "linguists",
+    "technologists",
+    "activists",
+    "researchers",
+    "indigenous language communities",
+    "global south communities"
+  ],
+  "underdog_signal": true
+}

@@ -1,0 +1,136 @@
+{
+  "url": "https://www.prolific.com",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:33.728Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 258,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Prolific helps AI developers, researchers, and organizations easily access the highest-quality human data. Sign up for free.",
+    "scraped_final_url": "https://www.prolific.com/"
+  },
+  "collected_at": "2026-03-09T23:20:58.895Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Prolific",
+  "tagline": "Easily collect high-quality data from real people",
+  "project_type": "Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "emerging_tech",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 9: Industry, Innovation and Infrastructure",
+    "SDG 17: Partnerships for the Goals"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "United States",
+    "United Kingdom",
+    "Multiple (70+ countries mentioned for Collective Intelligence Project)"
+  ],
+  "communities_served": [
+    "AI/ML developers",
+    "researchers",
+    "academic institutions",
+    "organizations",
+    "participants"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "no",
+  "format": [
+    "platform",
+    "api"
+  ],
+  "founded_year": 2013,
+  "team_size": "medium",
+  "funding_model": [
+    "subscriptions",
+    "vc"
+  ],
+  "known_funders": [
+    "Kindred Ventures",
+    "Lerer Hippeau",
+    "Entrepreneur First"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "Series A funding (2019)",
+  "dependency_risks": "Platform dependency - users rely on Prolific's infrastructure for participant recruitment; potential service disruption risks; data privacy compliance requirements across multiple jurisdictions",
+  "news_articles": [
+    "Prolific raises Series A funding for research data platform",
+    "How Prolific is changing academic research recruitment",
+    "Ai2 reduced human data collection from weeks to hours with Prolific, building state-of-the-art multimodal AI models faster",
+    "Columbia University researchers used Prolific to explore how people make choices when fighting climate change",
+    "The Collective Intelligence Project used Prolific to bring voices from 70+ countries into AI governance"
+  ],
+  "academic_citations": [
+    "Prolific has been cited in numerous peer-reviewed studies on crowdsourcing and research methodology",
+    "Used extensively in psychology, behavioral economics, and AI safety research"
+  ],
+  "in_civictech_guide": false,
+  "policy_outcomes": [
+    {
+      "description": "Collective Intelligence Project used Prolific to bring voices from 70+ countries into the heart of AI governance",
+      "link": "https://www.prolific.com/resources/how-the-collective-intelligence-project-is-democratizing-ai-development-with-global-human-perspectives",
+      "year": 2023
+    },
+    {
+      "description": "Ai2 reduced human data collection from weeks to hours with Prolific, accelerating factuality testing by 10x for state-of-the-art multimodal AI models",
+      "link": "https://www.prolific.com/resources/how-a-leading-ai-company-accelerated-factuality-testing-by-10x-with-prolific",
+      "year": null
+    },
+    {
+      "description": "Columbia University researchers used Prolific to explore how people make choices when fighting climate change, redefining environmental decision-making",
+      "link": "https://www.prolific.com/resources/how-columbia-university-researchers-are-redefining-environmental-decision-making-with-prolific",
+      "year": null
+    }
+  ],
+  "causation_strength": "anecdotal",
+  "outcome_methodology": "Prolific serves as a data collection infrastructure; outcomes depend on how client organizations use the platform for research and decision-making",
+  "replication_materials_available": false,
+  "published_performance_metrics": "Prolific publishes data quality metrics and participant demographics on their platform; case studies available on website",
+  "documented_limitations": [
+    "Participant pool may not be fully representative of global populations",
+    "Self-selection bias in crowdsourced research",
+    "Cost barriers may limit accessibility for some researchers"
+  ],
+  "jurisdictional_scope": "international",
+  "failure_modes": [
+    "Platform outages could disrupt ongoing research studies",
+    "Data quality issues if participant vetting processes fail",
+    "Regulatory compliance failures across different jurisdictions"
+  ],
+  "governance_model": "LLC",
+  "curation_criteria": "Prolific uses automated and manual screening to verify participant quality; participants must pass attention checks and maintain quality standards",
+  "contributor_governance": "Participant-driven platform with built-in quality control mechanisms; researchers can set custom screening criteria",
+  "disparity_tracking": "Prolific tracks participant demographics including geographic location, age, education level; limited public reporting on equity metrics",
+  "community_ownership": false,
+  "legal_regulatory_issues": "Subject to GDPR, CCPA, and other data privacy regulations; must comply with research ethics requirements across jurisdictions",
+  "ai_involvement": "Prolific is used for AI training, evaluation, safety testing, and data annotation; the platform itself supports AI development workflows",
+  "pass2_at": "2026-03-09T23:21:51.177Z",
+  "pass5_at": "2026-03-10T01:00:23.817Z",
+  "pass5_jina_words": 421,
+  "pass5_changes": [
+    "news_articles",
+    "policy_outcomes"
+  ],
+  "political_relevance_summary": "Prolific addresses civic data access and transparency. Easily collect high-quality data from real people.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides data, research, or educational resources for civic engagement."
+  },
+  "systemic_issue_area": "algorithmic accountability",
+  "generalizability_notes": "Already deployed across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "ai/ml developers",
+    "civic technology researchers",
+    "academic institutions",
+    "organizations",
+    "participants"
+  ],
+  "underdog_signal": false
+}

@@ -1,0 +1,118 @@
+{
+  "url": "https://wardwatch.uk",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:35.411Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 76,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "We scan council minutes, local news, and social media to build a complete picture.",
+    "scraped_final_url": "https://wardwatch.uk/"
+  },
+  "collected_at": "2026-03-09T23:20:47.724Z",
+  "collected_by": "collect-enriched-script",
+  "name": "WardWatch",
+  "tagline": "AI-powered deep research on councillor performance",
+  "project_type": "Tool/Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "govtech",
+    "civic_data",
+    "participatory_democracy"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "citizens",
+    "researchers",
+    "campaigners",
+    "voters"
+  ],
+  "political_units": [
+    "local"
+  ],
+  "open_source": "no",
+  "format": [
+    "platform",
+    "report"
+  ],
+  "founded_year": 2023,
+  "team_size": "small",
+  "funding_model": [
+    "subscriptions"
+  ],
+  "funding_verified": false,
+  "dependency_risks": [
+    "Reliance on council minutes availability and accuracy",
+    "Dependency on AI model performance and potential bias",
+    "Limited to publicly available data sources"
+  ],
+  "academic_citations": [
+    {
+      "title": "Participatory research: real or imagined",
+      "year": 2018,
+      "cited_by": 84,
+      "doi": "https://doi.org/10.1007/s00127-018-1549-3"
+    },
+    {
+      "title": "Learning and teaching",
+      "year": 2003,
+      "cited_by": 7,
+      "doi": "https://doi.org/10.1046/j.1471-1842.2002.00374_1.x-i1"
+    },
+    {
+      "title": "Iau Symposium 221 Conference Program",
+      "year": 2004,
+      "cited_by": 0,
+      "doi": "https://doi.org/10.1017/s0074180900241946"
+    }
+  ],
+  "in_civictech_guide": false,
+  "replication_materials_available": false,
+  "published_performance_metrics": false,
+  "documented_limitations": [
+    "Coverage limited to UK wards",
+    "Dependent on quality of source data (council minutes, local news, social media)"
+  ],
+  "jurisdictional_scope": "United Kingdom local government wards",
+  "failure_modes": [
+    "AI model bias in summarization",
+    "Incomplete data from some councils",
+    "Potential misrepresentation of voting records"
+  ],
+  "governance_model": "Proprietary",
+  "curation_criteria": "Automated AI analysis of publicly available council minutes, voting records, and local news sources",
+  "contributor_governance": "Not applicable - proprietary platform",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "ai_involvement": "AI-generated summaries and analysis of council records",
+  "pass2_at": "2026-03-09T23:21:42.699Z",
+  "pass3_at": "2026-03-09T23:23:16.751Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:52:17.923Z",
+  "pass5_jina_words": 69,
+  "pass5_changes": [],
+  "political_relevance_summary": "WardWatch addresses government technology and public service delivery. AI-powered deep research on councillor performance.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides information, data, or research for civic purposes"
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Limited to United Kingdom context currently; approach could potentially be replicated in similar jurisdictions with adaptation to local data sources and regulations.",
+  "primary_users_or_beneficiaries": [
+    "citizens",
+    "researchers",
+    "campaigners",
+    "voters"
+  ],
+  "underdog_signal": true
+}

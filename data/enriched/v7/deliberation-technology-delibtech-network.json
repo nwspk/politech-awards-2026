@@ -1,0 +1,83 @@
+{
+  "url": "https://www.demnext.org/projects/delibtech-network",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:54.378Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1090,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "We are an international network of technologists, practitioners, and experts who are building, studying, and using technology to enhance deliberation and…",
+    "scraped_final_url": "https://www.demnext.org/projects/delibtech-network"
+  },
+  "collected_at": "2026-03-09T23:20:54.370Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Deliberation & Technology (DelibTech) Network",
+  "tagline": "International network of technologists and practitioners building and studying technology to enhance deliberation and digital infrastructure for deliberative democracy",
+  "project_type": "Network",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "participatory_democracy",
+    "govtech",
+    "emerging_tech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": "Multiple (international network)",
+  "communities_served": [
+    "technologists",
+    "practitioners",
+    "experts",
+    "citizens' assembly organizers"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "no",
+  "format": [
+    "network",
+    "convening",
+    "resource_development"
+  ],
+  "founded_year": 2025,
+  "team_size": "small",
+  "funding_model": [
+    "grants"
+  ],
+  "known_funders": [
+    "AI & Democracy Foundation"
+  ],
+  "funding_verified": false,
+  "dependency_risks": "Reliance on AI & Democracy Foundation coordination; limited public funding transparency",
+  "in_civictech_guide": false,
+  "replication_materials_available": false,
+  "published_performance_metrics": false,
+  "jurisdictional_scope": "International",
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Invite-only membership; prioritizes functioning and geographic diversity; limited to two people per organization; members participate in virtual and in-person convenings under Chatham House rules",
+  "contributor_governance": "Members invited as individuals; can suggest alternative participants; express interest mechanism for new members",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "ai_involvement": "Yes - network focuses on AI-powered technologies in deliberative processes; coordinated by AI & Democracy Foundation",
+  "pass2_at": "2026-03-09T23:21:43.822Z",
+  "pass5_at": "2026-03-10T00:54:25.255Z",
+  "pass5_jina_words": 845,
+  "pass5_changes": [],
+  "political_relevance_summary": "Deliberation & Technology (DelibTech) Network addresses democratic participation and citizen engagement. International network of technologists and practitioners building and studying technology to enhance deliberation and digital infrastructure for deliberative democracy.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides technical infrastructure that other civic tools or services build upon."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Proprietary or closed-source; replication requires licensing.",
+  "primary_users_or_beneficiaries": [
+    "technologists",
+    "practitioners",
+    "experts",
+    "citizens' assembly organizers"
+  ],
+  "underdog_signal": true
+}

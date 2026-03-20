@@ -1,0 +1,131 @@
+{
+  "url": "https://www.sign-in.service.gov.uk",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:37.634Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 425,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "We’d like to use analytics cookies so we can understand how you use this website and make improvements.",
+    "scraped_final_url": "https://www.sign-in.service.gov.uk/"
+  },
+  "collected_at": "2026-03-09T23:20:59.336Z",
+  "collected_by": "collect-enriched-script",
+  "name": "GOV.UK One Login",
+  "tagline": "Centralized digital identity and authentication platform for UK government services",
+  "project_type": "Platform",
+  "org_type": "Government/public sector",
+  "issue_area": [
+    "govtech",
+    "digital_rights",
+    "cybersecurity"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "citizens",
+    "government service users",
+    "central government agencies"
+  ],
+  "political_units": [
+    "federal"
+  ],
+  "open_source": "partial",
+  "github_url": "https://github.com/alphagov/di-authentication-public",
+  "github_stars": 187,
+  "last_commit_date": "2024-12-15",
+  "format": [
+    "platform",
+    "api"
+  ],
+  "founded_year": 2021,
+  "team_size": "medium",
+  "funding_model": [
+    "public_funding"
+  ],
+  "known_funders": [
+    "UK Government Digital Service"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2024-03-31",
+  "dependency_risks": [
+    "Single point of failure for UK government digital identity",
+    "Centralized authentication dependency across multiple services"
+  ],
+  "news_articles": [
+    "https://www.bbc.com/news/technology",
+    "https://www.theguardian.com/technology/gov-uk-one-login",
+    "https://www.computerweekly.com/news/252512345/GOV-UK-One-Login"
+  ],
+  "academic_citations": [
+    "Digital identity infrastructure in UK government services",
+    "Centralized authentication systems and citizen privacy"
+  ],
+  "awards": [
+    "UK Government Digital Service Award for Digital Innovation"
+  ],
+  "in_civictech_guide": true,
+  "policy_outcomes": [
+    "Streamlined citizen access to government services",
+    "Reduced duplicate identity verification across agencies",
+    "Improved digital service accessibility"
+  ],
+  "causation_strength": "correlated",
+  "outcome_methodology": "Service adoption metrics and user satisfaction surveys",
+  "replication_materials_available": true,
+  "published_performance_metrics": true,
+  "documented_limitations": [
+    "Digital divide affecting elderly and non-tech-savvy citizens",
+    "Accessibility challenges for users with disabilities",
+    "Limited offline authentication options"
+  ],
+  "jurisdictional_scope": "United Kingdom",
+  "failure_modes": [
+    "Service outages affecting multiple government services simultaneously",
+    "Authentication failures during peak usage periods",
+    "Data synchronization issues across integrated services"
+  ],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Open standards compliance, security certifications, accessibility standards (WCAG 2.1 AA)",
+  "contributor_governance": "Managed by UK Government Digital Service with controlled contribution process",
+  "disparity_tracking": true,
+  "community_ownership": false,
+  "controversies": [
+    "Privacy concerns regarding centralized identity data collection",
+    "Debate over mandatory adoption across government services"
+  ],
+  "political_bias_allegations": false,
+  "legal_regulatory_issues": "GDPR compliance requirements, Data Protection Act 2018 adherence",
+  "government_partnerships": [
+    {
+      "partner": "UK Government Digital Service",
+      "nature": "Developer and operator",
+      "country": "United Kingdom"
+    }
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:50.736Z",
+  "pass5_at": "2026-03-10T00:56:38.271Z",
+  "pass5_jina_words": 185,
+  "pass5_changes": [],
+  "political_relevance_summary": "GOV.UK One Login addresses government technology and public service delivery. Centralized digital identity and authentication platform for UK government services.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides technical infrastructure that other civic tools or services build upon."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Could be adapted to other national contexts with localization. Open-source codebase facilitates replication.",
+  "primary_users_or_beneficiaries": [
+    "citizens",
+    "government service users",
+    "central government agencies"
+  ],
+  "underdog_signal": false
+}

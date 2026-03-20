@@ -1,0 +1,77 @@
+{
+  "url": "https://civicmatch.app",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:42:50.877Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 4,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Connect with civic tech founders.",
+    "scraped_final_url": "https://www.civicmatch.app/explore"
+  },
+  "collected_at": "2026-03-09T23:17:55.958Z",
+  "collected_by": "collect-enriched-script",
+  "name": "CivicMatch",
+  "tagline": "Connect citizens with civic opportunities and elected representatives",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "Civic engagement",
+    "Representative accountability",
+    "Constituent services"
+  ],
+  "sdg_alignment": [
+    "SDG 16: Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United States"
+  ],
+  "communities_served": [
+    "General public",
+    "Constituents",
+    "Changemakers",
+    "Impact project founders"
+  ],
+  "political_units": [
+    "Federal",
+    "State",
+    "Local"
+  ],
+  "open_source": "no",
+  "format": "Web application",
+  "funding_model": "Nonprofit",
+  "funding_verified": false,
+  "in_civictech_guide": false,
+  "wikipedia_page": false,
+  "replication_materials_available": false,
+  "preregistered_studies": false,
+  "published_performance_metrics": false,
+  "documented_limitations": false,
+  "jurisdictional_scope": "United States",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:20.828Z",
+  "pass5_at": "2026-03-10T00:47:18.751Z",
+  "pass5_jina_words": 99,
+  "pass5_changes": [
+    "communities_served"
+  ],
+  "political_relevance_summary": "Addresses challenges in civic technology infrastructure by serving General public, Constituents, Changemakers.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Technology platform serving civic technology needs."
+  },
+  "systemic_issue_area": "civic technology infrastructure",
+  "generalizability_notes": "Primarily national in scope; replication would require significant localization.",
+  "primary_users_or_beneficiaries": [
+    "General public",
+    "Constituents",
+    "Changemakers",
+    "Impact project founders"
+  ],
+  "underdog_signal": false
+}

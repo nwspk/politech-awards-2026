@@ -1,0 +1,104 @@
+{
+  "url": "https://www.mptwitterbios.co.uk",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:09.930Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 14354,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "How many MPs disclose their party in their Twitter bio?",
+    "scraped_final_url": "https://www.mptwitterbios.co.uk/"
+  },
+  "collected_at": "2026-03-09T23:20:56.276Z",
+  "collected_by": "collect-enriched-script",
+  "name": "MP Twitter Bios",
+  "tagline": "Analysis of whether UK Members of Parliament mention their political party in their Twitter biographies",
+  "project_type": "Database",
+  "org_type": "Academic/research",
+  "issue_area": [
+    "civic_data",
+    "participatory_democracy"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "researchers",
+    "citizens",
+    "journalists"
+  ],
+  "political_units": [
+    "federal"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/lse-data-analysis/mp-twitter-bios",
+  "last_commit_date": "2023-11-18",
+  "format": [
+    "database",
+    "report"
+  ],
+  "founded_year": 2023,
+  "team_size": "small",
+  "funding_model": "academic",
+  "known_funders": [
+    "London School of Economics"
+  ],
+  "funding_verified": false,
+  "academic_citations": [
+    {
+      "title": "\"How Old Do You Think I Am?\" A Study of Language and Age in Twitter",
+      "year": 2021,
+      "cited_by": 295,
+      "doi": "https://doi.org/10.1609/icwsm.v7i1.14381"
+    },
+    {
+      "title": "Associations Between Exposure to and Expression of Negative Opinions About Human Papillomavirus Vaccines on Social Media: An Observational Study",
+      "year": 2015,
+      "cited_by": 261,
+      "doi": "https://doi.org/10.2196/jmir.4343"
+    },
+    {
+      "title": "Deep learning modelling techniques: current progress, applications, advantages, and challenges",
+      "year": 2023,
+      "cited_by": 813,
+      "doi": "https://doi.org/10.1007/s10462-023-10466-8"
+    }
+  ],
+  "in_civictech_guide": false,
+  "replication_materials_available": true,
+  "documented_limitations": [
+    "Data snapshot as of 18/11/2023; Twitter/X API changes may affect ongoing updates",
+    "Relies on manual or automated parsing of Twitter bios which may miss implicit party references"
+  ],
+  "jurisdictional_scope": "United Kingdom Parliament",
+  "governance_model": "project_of_larger_org",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:44.924Z",
+  "pass3_at": "2026-03-09T23:23:24.361Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:57:01.716Z",
+  "pass5_jina_words": 755,
+  "pass5_changes": [],
+  "political_relevance_summary": "MP Twitter Bios addresses making civic data accessible and actionable and enabling broader democratic participation.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Serves as an information resource: Analysis of whether UK Members of Parliament mention their political party in their Twitter biographies."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase enables replication. currently deployed in United Kingdom only, but approach could be adapted to other national contexts.",
+  "primary_users_or_beneficiaries": [
+    "researchers",
+    "journalists"
+  ],
+  "underdog_signal": true
+}

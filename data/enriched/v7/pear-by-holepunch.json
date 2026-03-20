@@ -1,0 +1,83 @@
+{
+  "url": "https://docs.holepunch.to",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:26.426Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1672,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Pear loads applications remotely from peers and allows anyone to create and share applications with peers.",
+    "scraped_final_url": "https://docs.pears.com/"
+  },
+  "collected_at": "2026-03-09T23:19:38.196Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Pear by Holepunch",
+  "tagline": "A peer-to-peer runtime, development and deployment platform for building unstoppable applications",
+  "project_type": "Tool/Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "digital_rights",
+    "emerging_tech"
+  ],
+  "sdg_alignment": [
+    "SDG 9: Industry, Innovation and Infrastructure"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "Global"
+  ],
+  "communities_served": [
+    "developers",
+    "application creators"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/holepunchto",
+  "format": [
+    "platform",
+    "api"
+  ],
+  "founded_year": 2020,
+  "team_size": "small",
+  "funding_model": "Venture capital / Private investment",
+  "known_funders": [
+    "Holepunch (parent organization)"
+  ],
+  "funding_verified": false,
+  "dependency_risks": [
+    "Reliance on peer-to-peer network stability",
+    "Dependency on Bare runtime for cross-platform functionality"
+  ],
+  "in_civictech_guide": false,
+  "documented_limitations": [
+    "Platform is described as having experimental and unstable modules",
+    "Documentation indicates some modules are new and untested"
+  ],
+  "jurisdictional_scope": "Global",
+  "failure_modes": [
+    "Network partition failures in peer-to-peer architecture",
+    "Dependency on Bare runtime stability"
+  ],
+  "governance_model": "project_of_larger_org",
+  "contributor_governance": "Open source contribution model with maintainer oversight",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:24.570Z",
+  "pass5_at": "2026-03-10T00:45:47.496Z",
+  "pass5_jina_words": 510,
+  "pass5_changes": [],
+  "political_relevance_summary": "Pear addresses the centralization of internet infrastructure by providing peer-to-peer runtime tools that could enable censorship-resistant civic applications, though its primary focus is developer tooling rather than direct civic use.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Pear by Holepunch provides digital rights infrastructure that underpins civic freedoms online."
+  },
+  "systemic_issue_area": "digital rights infrastructure",
+  "generalizability_notes": "High generalizability. Pear by Holepunch is open source and already deployed across multiple countries/jurisdictions, making replication straightforward for other contexts.",
+  "primary_users_or_beneficiaries": [
+    "developers",
+    "application creators"
+  ],
+  "underdog_signal": true
+}

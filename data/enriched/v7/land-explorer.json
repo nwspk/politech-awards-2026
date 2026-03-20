@@ -1,0 +1,134 @@
+{
+  "url": "https://landexplorer.coop",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:37.336Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1619,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Mapping tools that help your community Work, Play, Eat, &amp; Grow. We believe in common good land use with shared benefits.",
+    "scraped_final_url": "https://landexplorer.coop/"
+  },
+  "collected_at": "2026-03-09T23:20:08.104Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Land Explorer",
+  "tagline": "Mapping tools that help communities find, access and manage land for common good projects",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "civic_data",
+    "participatory_democracy"
+  ],
+  "sdg_alignment": [
+    "SDG 11 – Sustainable Cities and Communities",
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "community organizations",
+    "land trusts",
+    "neighborhood planners",
+    "community energy groups",
+    "housing developers",
+    "permaculture groups"
+  ],
+  "political_units": [
+    "national",
+    "local"
+  ],
+  "open_source": "no",
+  "format": [
+    "platform",
+    "app"
+  ],
+  "founded_year": 2020,
+  "team_size": "small",
+  "funding_model": [
+    "donations",
+    "grants"
+  ],
+  "known_funders": [
+    "Cooperative Development Foundation",
+    "Community Shares Unit"
+  ],
+  "funding_verified": false,
+  "dependency_risks": [
+    "Ordnance Survey data dependency",
+    "Land Registry data integration (noted as 'coming soon')"
+  ],
+  "academic_citations": [
+    {
+      "title": "The promised land? Exploring the future visions and narrative silences of cellular agriculture in news and industry media",
+      "year": 2021,
+      "cited_by": 71,
+      "doi": "https://doi.org/10.1016/j.jrurstud.2021.04.002"
+    },
+    {
+      "title": "Exploring land use changes and the role of palm oil production in Indonesia and Malaysia",
+      "year": 2010,
+      "cited_by": 482,
+      "doi": "https://doi.org/10.1016/j.landusepol.2010.06.001"
+    },
+    {
+      "title": "No Man’s Land: Exploring the Space between Gilligan and Kohlberg",
+      "year": 2007,
+      "cited_by": 46,
+      "doi": "https://doi.org/10.1007/s10551-007-9470-9"
+    }
+  ],
+  "in_civictech_guide": false,
+  "policy_outcomes": [
+    {
+      "description": "Testimonial from HM Land Registry Director stating tool 'helps implement government policy'",
+      "link": null,
+      "year": null
+    }
+  ],
+  "causation_strength": "anecdotal",
+  "replication_materials_available": false,
+  "documented_limitations": [
+    "Land Registry data integration still pending",
+    "Geographic scope limited to England (based on 'Who Owns England?' branding)"
+  ],
+  "jurisdictional_scope": "England",
+  "governance_model": "cooperative",
+  "disparity_tracking": false,
+  "community_ownership": true,
+  "government_partnerships": [
+    {
+      "partner": "HM Land Registry",
+      "nature": "Data partnership / integration",
+      "country": "United Kingdom"
+    }
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:31.315Z",
+  "pass3_at": "2026-03-09T23:22:41.770Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:46:28.647Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": [],
+  "political_relevance_summary": "Land Explorer addresses making civic data accessible and actionable and enabling broader democratic participation. It has documented policy impact.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Serves as an information resource: Mapping tools that help communities find, access and manage land for common good projects."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "currently deployed in United Kingdom only, but approach could be adapted to other national contexts.",
+  "primary_users_or_beneficiaries": [
+    "community organizations",
+    "land trusts",
+    "neighborhood planners",
+    "community energy groups",
+    "housing developers",
+    "permaculture groups"
+  ],
+  "underdog_signal": true
+}

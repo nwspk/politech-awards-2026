@@ -1,0 +1,89 @@
+{
+  "url": "https://civicpress.io/",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:42:51.303Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1669,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "CivicPress is an open-source civic platform that helps municipalities publish records, meetings, and maps in formats people can read, verify, and trust.",
+    "scraped_final_url": "https://civicpress.io/"
+  },
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "CivicPress",
+  "tagline": "Open infrastructure for transparent local government",
+  "project_type": "Tool/Platform",
+  "org_type": "Grassroots/indie",
+  "issue_area": [
+    "govtech",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16",
+    "SDG 11"
+  ],
+  "decade_plus": false,
+  "geography": "city",
+  "countries_deployed": [
+    "United States"
+  ],
+  "communities_served": [
+    "municipal governments",
+    "local government staff",
+    "citizens seeking public records"
+  ],
+  "political_units": [
+    "city"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/CivicPress/civicpress",
+  "github_stars": 5,
+  "last_commit_date": "2026-02-09",
+  "format": [
+    "platform"
+  ],
+  "founded_year": 2025,
+  "team_size": "solo",
+  "funding_model": [
+    "self-funded"
+  ],
+  "funding_verified": false,
+  "dependency_risks": [
+    "early-stage project with low GitHub activity",
+    "small contributor base"
+  ],
+  "in_civictech_guide": false,
+  "wikipedia_page": false,
+  "causation_strength": "anecdotal",
+  "replication_materials_available": true,
+  "documented_limitations": [
+    "early-stage development",
+    "limited deployment history",
+    "small user base"
+  ],
+  "jurisdictional_scope": "local government",
+  "governance_model": "individual",
+  "contributor_governance": "open contributions via GitHub",
+  "disparity_tracking": false,
+  "community_ownership": "no",
+  "ai_involvement": "no",
+  "pass2_at": "2026-03-09T23:21:21.125Z",
+  "pass5_at": "2026-03-10T00:43:28.840Z",
+  "pass5_jina_words": 823,
+  "pass5_changes": [],
+  "political_relevance_summary": "Tackles opacity in government operations by enabling public access to government data and processes.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Technology platform serving civic technology needs."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Open-source codebase facilitates replication and adaptation.",
+  "primary_users_or_beneficiaries": [
+    "municipal government officials",
+    "local government staff",
+    "citizens seeking public records"
+  ],
+  "underdog_signal": true
+}

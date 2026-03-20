@@ -1,0 +1,143 @@
+{
+  "url": "https://murmurations.network",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:11.884Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 586,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "The Murmurations protocol makes distributed data interoperable by combining three key elements: Profiles, an Index and Aggregators.",
+    "scraped_final_url": "https://murmurations.network/"
+  },
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "Murmurations Protocol",
+  "tagline": "Making movements visible — a distributed data sharing protocol to facilitate collaboration at scale",
+  "project_type": "Method",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "decentralised data infrastructure",
+    "regenerative economy",
+    "cooperative mapping",
+    "civil society coordination"
+  ],
+  "sdg_alignment": [
+    "SDG 17: Partnerships for the Goals",
+    "SDG 10: Reduced Inequalities",
+    "SDG 8: Decent Work and Economic Growth"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "United Kingdom",
+    "United States",
+    "Canada",
+    "Australia",
+    "Germany",
+    "Netherlands",
+    "Spain",
+    "France"
+  ],
+  "communities_served": [
+    "cooperatives",
+    "regenerative economy networks",
+    "civil society organisations",
+    "community mapping projects"
+  ],
+  "political_units": [
+    "Global networks",
+    "Regional cooperative networks"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/MurmurationsNetwork/MurmurationsProtocol",
+  "github_stars": 10,
+  "last_commit_date": "2026-03-08",
+  "format": [
+    "open protocol",
+    "API",
+    "WordPress plugin",
+    "index service"
+  ],
+  "founded_year": 2020,
+  "team_size": "small",
+  "funding_model": [
+    "grants",
+    "donations",
+    "community support"
+  ],
+  "known_funders": [
+    "Shuttleworth Foundation",
+    "Mozilla Foundation",
+    "Open Society Foundations"
+  ],
+  "funding_verified": false,
+  "last_funding_event": "2024",
+  "dependency_risks": [
+    "low GitHub star count suggesting limited adoption",
+    "small maintainer team",
+    "index service availability"
+  ],
+  "academic_citations": [
+    {
+      "title": "Murmuration Inspired Clustering Protocol for Underwater Wireless Sensor Networks",
+      "year": 2018,
+      "cited_by": 11,
+      "doi": "https://doi.org/10.1109/icc.2018.8422175"
+    },
+    {
+      "title": "Bruce treadmill test in children: Normal values in a clinic population",
+      "year": 1978,
+      "cited_by": 371,
+      "doi": "https://doi.org/10.1016/0002-9149(78)90134-0"
+    },
+    {
+      "title": "Nonsurgical closure of patent ductus arteriosus: clinical application of the Rashkind PDA Occluder System.",
+      "year": 1987,
+      "cited_by": 415,
+      "doi": "https://doi.org/10.1161/01.cir.75.3.583"
+    }
+  ],
+  "in_civictech_guide": false,
+  "wikipedia_page": false,
+  "replication_materials_available": true,
+  "documented_limitations": [
+    "Limited adoption metrics",
+    "Index service dependency",
+    "Schema standardization challenges"
+  ],
+  "jurisdictional_scope": "global",
+  "failure_modes": [
+    "index service outage",
+    "schema fragmentation",
+    "low adoption creating thin network effects"
+  ],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Profiles self-declared by participants using defined schemas; aggregators query the index",
+  "contributor_governance": "Open source; contributions via GitHub",
+  "disparity_tracking": false,
+  "community_ownership": "Protocol is open; index operated by Murmurations org",
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:34.666Z",
+  "pass3_at": "2026-03-09T23:22:47.205Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T01:03:01.936Z",
+  "pass5_jina_words": 534,
+  "pass5_changes": [],
+  "political_relevance_summary": "Murmurations Protocol addresses building cooperative economic alternatives and mapping communities and resources for civic engagement.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides foundational infrastructure: Making movements visible — a distributed data sharing protocol to facilitate collaboration at scale."
+  },
+  "systemic_issue_area": "digital public infrastructure",
+  "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "cooperatives",
+    "regenerative economy networks",
+    "civil society organisations",
+    "community mapping projects"
+  ],
+  "underdog_signal": true
+}

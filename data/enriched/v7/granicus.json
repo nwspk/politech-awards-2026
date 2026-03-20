@@ -1,0 +1,133 @@
+{
+  "url": "https://granicus.com/uk",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:18.207Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1144,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Citizen Experience Platform Transforming How Governments Serve. Granicus technology connects 250M people &amp; 6,000+ public sector organisations.",
+    "scraped_final_url": "https://granicus.com/uk/"
+  },
+  "collected_at": "2026-03-09T23:21:12.614Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Granicus",
+  "tagline": "The Citizen Experience Platform for Government",
+  "project_type": "Tool/Platform",
+  "org_type": "Private Company",
+  "issue_area": [
+    "Digital Government",
+    "Civic Engagement",
+    "Public Service Delivery",
+    "Government Communication"
+  ],
+  "sdg_alignment": [
+    "SDG 16: Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "Global (UK focus for this page)",
+  "countries_deployed": [
+    "United Kingdom",
+    "United States",
+    "Australia",
+    "New Zealand",
+    "Spain",
+    "India"
+  ],
+  "communities_served": [
+    "Local government",
+    "Central government",
+    "Healthcare",
+    "Emergency services",
+    "Housing",
+    "Adult social care",
+    "Tourism",
+    "Higher education"
+  ],
+  "political_units": "Multi-jurisdictional local and central government agencies",
+  "open_source": "no",
+  "format": [
+    "SaaS Platform",
+    "Cloud-based Software"
+  ],
+  "founded_year": 2003,
+  "funding_model": [
+    "Commercial - Subscription/Licensing"
+  ],
+  "known_funders": [
+    "Vista Equity Partners (majority investor)"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "Vista Equity Partners acquisition (2021)",
+  "news_articles": [
+    "Granicus raises funding for digital government platform",
+    "Vista Equity Partners acquires Granicus"
+  ],
+  "academic_citations": [
+    {
+      "title": "The battle of the Granicus River",
+      "year": 1980,
+      "cited_by": 81,
+      "doi": "https://doi.org/10.2307/630733"
+    },
+    {
+      "title": "Memnon of Rhodes at the Granicus",
+      "year": 1989,
+      "cited_by": 49,
+      "doi": "https://doi.org/10.2307/295218"
+    },
+    {
+      "title": "The Granicus and Tinjar Valles Channel System",
+      "year": 2008,
+      "cited_by": 43,
+      "doi": null
+    }
+  ],
+  "awards": [
+    "Granicus Digital Government Awards (2025)"
+  ],
+  "in_civictech_guide": false,
+  "causation_strength": "anecdotal",
+  "replication_materials_available": false,
+  "published_performance_metrics": [
+    "618% increase in subscribers (claimed)",
+    "78% channel shift to self-service (claimed)",
+    "275% increase in service adoption (claimed)"
+  ],
+  "documented_limitations": [
+    "Proprietary platform with limited transparency on methodology",
+    "Performance metrics are vendor-claimed without independent verification"
+  ],
+  "jurisdictional_scope": "Multi-jurisdictional",
+  "governance_model": "LLC",
+  "community_ownership": false,
+  "government_partnerships": [
+    "Multiple local and central government agencies (unspecified)"
+  ],
+  "ai_involvement": true,
+  "pass2_at": "2026-03-09T23:21:30.976Z",
+  "pass3_at": "2026-03-09T23:22:38.095Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:46:24.479Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": [],
+  "political_relevance_summary": "Granicus addresses civic technology. The Citizen Experience Platform for Government.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides technical infrastructure that other civic tools or services build upon."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Proprietary or closed-source; replication requires licensing.",
+  "primary_users_or_beneficiaries": [
+    "Local government",
+    "Central government",
+    "Healthcare",
+    "Emergency services",
+    "Housing",
+    "Adult social care"
+  ],
+  "underdog_signal": false
+}

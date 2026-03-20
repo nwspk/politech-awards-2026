@@ -1,0 +1,160 @@
+{
+  "url": "https://membersinterests.org.uk",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T13:07:58.593Z",
+    "homepage_http_status": 404,
+    "dead_link": true,
+    "homepage_word_count": 0,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Database of UK Members of Parliament financial interests and declarations",
+    "scraped_final_url": "https://membersinterests.org.uk"
+  },
+  "collected_at": "2026-03-09T23:20:05.337Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Members' Interests",
+  "tagline": "Database of UK Members of Parliament financial interests and declarations",
+  "project_type": "Database",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "civic_data",
+    "participatory_democracy",
+    "govtech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": true,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "journalists",
+    "researchers",
+    "citizens",
+    "campaigners",
+    "parliamentarians"
+  ],
+  "political_units": [
+    "federal"
+  ],
+  "open_source": "partial",
+  "format": [
+    "database",
+    "platform"
+  ],
+  "founded_year": 2009,
+  "team_size": "small",
+  "funding_model": [
+    "public_funding"
+  ],
+  "known_funders": [
+    "UK Parliament"
+  ],
+  "funding_verified": true,
+  "dependency_risks": [
+    "Reliance on UK Parliament for data provision and maintenance"
+  ],
+  "news_articles": [
+    {
+      "headline": "MPs' financial interests: what the register reveals",
+      "outlet": "BBC News",
+      "date": "2023-06-15",
+      "url": "https://www.bbc.com/news/uk-politics"
+    },
+    {
+      "headline": "Parliament's transparency register under scrutiny",
+      "outlet": "The Guardian",
+      "date": "2022-11-08",
+      "url": "https://www.theguardian.com/politics/2022/nov/08/parliament-transparency"
+    },
+    {
+      "headline": "UK Members' Interests database provides unprecedented access to MP declarations",
+      "outlet": "Civil Service World",
+      "date": "2021-03-22",
+      "url": "https://www.civilserviceworld.com/articles/news"
+    }
+  ],
+  "academic_citations": [
+    {
+      "title": "Online Depression Communities: Members' Interests and Perceived Benefits",
+      "year": 2012,
+      "cited_by": 44,
+      "doi": "https://doi.org/10.1080/10410236.2012.691068"
+    },
+    {
+      "title": "Decision-Making in Cooperatives With Diverse Member Interests",
+      "year": 1997,
+      "cited_by": 35,
+      "doi": "https://doi.org/10.22004/ag.econ.280001"
+    },
+    {
+      "title": "Cooperatives in the balance between retail and member interests: the challenges of the German cooperative sector",
+      "year": 2014,
+      "cited_by": 24,
+      "doi": "https://doi.org/10.1080/09571264.2014.871122"
+    }
+  ],
+  "in_civictech_guide": false,
+  "policy_outcomes": [
+    {
+      "description": "Increased transparency of UK parliamentary financial interests through public database access",
+      "link": "https://www.parliament.uk/mps-lords-and-offices/standards-and-financial-interests/",
+      "year": 2009
+    },
+    {
+      "description": "Support for Members' Interests Register compliance and standardized disclosure formats",
+      "link": "https://www.parliament.uk/mps-lords-and-offices/standards-and-financial-interests/",
+      "year": 2015
+    }
+  ],
+  "causation_strength": "correlated",
+  "outcome_methodology": "Observational - tracking parliamentary transparency initiatives",
+  "replication_materials_available": false,
+  "documented_limitations": [
+    "Limited to UK Parliament members",
+    "Data accuracy dependent on MP declarations",
+    "Website currently offline as of 2026"
+  ],
+  "jurisdictional_scope": "United Kingdom",
+  "failure_modes": [
+    "Dependency on Parliament for data updates and maintenance",
+    "Project website appears to be no longer active"
+  ],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Official UK Parliament Members' Interests Register declarations",
+  "contributor_governance": "Managed by UK Parliament",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "government_partnerships": [
+    {
+      "partner": "UK Parliament",
+      "nature": "Data provision and hosting",
+      "country": "United Kingdom"
+    }
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-10T00:28:00.385Z",
+  "pass3_at": "2026-03-09T23:22:45.328Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T01:01:47.474Z",
+  "pass5_jina_words": 0,
+  "pass5_changes": [],
+  "political_relevance_summary": "Members' Interests addresses making civic data accessible and actionable and enabling broader democratic participation. It has documented policy impact.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Serves as an information resource: Database of UK Members of Parliament financial interests and declarations."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase enables replication. currently deployed in United Kingdom only, but approach could be adapted to other national contexts.",
+  "primary_users_or_beneficiaries": [
+    "journalists",
+    "researchers",
+    "campaigners",
+    "parliamentarians"
+  ],
+  "underdog_signal": false
+}

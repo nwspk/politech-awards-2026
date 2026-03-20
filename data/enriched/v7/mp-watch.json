@@ -1,0 +1,119 @@
+{
+  "url": "https://www.mpwatch.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:10.556Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 438,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Along with environmental and democratic allies, we aim to address the democratic deficit,  by building and realising the potential of grassroots community groups to expose and oppose MPs of bad faith who work against the interest of their constituents.",
+    "scraped_final_url": "https://www.mpwatch.org/"
+  },
+  "collected_at": "2026-03-09T23:20:57.224Z",
+  "collected_by": "collect-enriched-script",
+  "name": "MP Watch",
+  "tagline": "Uniting People and Politicians for Climate Action",
+  "project_type": "Network",
+  "org_type": "Advocacy org",
+  "issue_area": [
+    "participatory_democracy",
+    "advocacy_tech"
+  ],
+  "sdg_alignment": [
+    "SDG 13 – Climate Action",
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "citizens",
+    "campaigners",
+    "MPs",
+    "constituents"
+  ],
+  "political_units": [
+    "federal"
+  ],
+  "open_source": "no",
+  "format": [
+    "platform",
+    "report"
+  ],
+  "founded_year": 2019,
+  "team_size": "small",
+  "funding_model": [
+    "donations"
+  ],
+  "known_funders": [
+    "Climate Emergency Fund",
+    "Individual donors"
+  ],
+  "funding_verified": false,
+  "news_articles": [
+    "https://www.theguardian.com/environment/2021/jun/15/mp-watch-climate-campaign"
+  ],
+  "academic_citations": [
+    {
+      "title": "Mytilus spp. as sentinels for monitoring microplastic pollution in Norwegian coastal waters: A qualitative and quantitative study",
+      "year": 2018,
+      "cited_by": 263,
+      "doi": "https://doi.org/10.1016/j.envpol.2018.08.077"
+    },
+    {
+      "title": "The impact of online celebrity in livestreaming E-commerce on purchase intention from the perspective of emotional contagion",
+      "year": 2021,
+      "cited_by": 304,
+      "doi": "https://doi.org/10.1016/j.jretconser.2021.102733"
+    },
+    {
+      "title": "The Associations between Dietary Patterns and Sedentary Behaviors in Polish Adults (LifeStyle Study)",
+      "year": 2018,
+      "cited_by": 57,
+      "doi": "https://doi.org/10.3390/nu10081004"
+    }
+  ],
+  "in_civictech_guide": false,
+  "causation_strength": "anecdotal",
+  "replication_materials_available": false,
+  "published_performance_metrics": false,
+  "jurisdictional_scope": "United Kingdom",
+  "governance_model": "Centralized advocacy organization",
+  "curation_criteria": "Evidence-based climate and nature policies; non-partisan approach",
+  "contributor_governance": "Limited external contributor governance",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "political_bias_allegations": false,
+  "government_partnerships": [
+    {
+      "partner": "UK Parliament / MPs",
+      "nature": "Engagement and briefing partnership",
+      "country": "United Kingdom"
+    }
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:45.399Z",
+  "pass3_at": "2026-03-09T23:23:24.861Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:57:13.233Z",
+  "pass5_jina_words": 383,
+  "pass5_changes": [],
+  "political_relevance_summary": "MP Watch addresses enabling broader democratic participation and empowering advocacy and civic campaigning.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Amplifies advocacy efforts through Uniting People and Politicians for Climate Action."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "currently deployed in United Kingdom only, but approach could be adapted to other national contexts.",
+  "primary_users_or_beneficiaries": [
+    "campaigners",
+    "MPs",
+    "constituents"
+  ],
+  "underdog_signal": true
+}

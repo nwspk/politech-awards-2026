@@ -1,0 +1,104 @@
+{
+  "url": "https://github.com/notchia/dao-governance-surfaces",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:03.129Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1193,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Extract and label the &quot;governance surface&quot; of a set of DAO smart contracts - notchia/dao-governance-surfaces",
+    "scraped_final_url": "https://github.com/notchia/dao-governance-surfaces"
+  },
+  "collected_at": "2026-03-09T23:19:22.064Z",
+  "collected_by": "collect-enriched-script",
+  "name": "DAO Governance Surfaces",
+  "tagline": "Extract and label the governance surface of a set of DAO smart contracts",
+  "project_type": "Tool/Platform",
+  "org_type": "Academic/research",
+  "issue_area": [
+    "govtech",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": "international",
+  "communities_served": [
+    "researchers",
+    "DAO developers",
+    "governance analysts"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/notchia/dao-governance-surfaces",
+  "github_stars": 0,
+  "last_commit_date": "2024",
+  "format": [
+    "tool",
+    "database"
+  ],
+  "founded_year": 2023,
+  "team_size": "solo",
+  "funding_model": "unfunded",
+  "funding_verified": false,
+  "dependency_risks": [
+    "Solidity parser dependency",
+    "Reliance on external smart contract data sources"
+  ],
+  "academic_citations": [
+    {
+      "title": "Aligning ‘Decentralized Autonomous Organization’ to Precedents in Cybernetics",
+      "year": 2022,
+      "cited_by": 18,
+      "doi": "https://doi.org/10.2139/ssrn.4077358"
+    },
+    {
+      "title": "Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence",
+      "year": 2020,
+      "cited_by": 621,
+      "doi": "https://doi.org/10.1007/s13347-020-00405-8"
+    },
+    {
+      "title": "Blockchain Security Attacks, Challenges, and Solutions for the Future Distributed IoT Network",
+      "year": 2021,
+      "cited_by": 331,
+      "doi": "https://doi.org/10.1109/access.2021.3051602"
+    }
+  ],
+  "in_civictech_guide": false,
+  "replication_materials_available": true,
+  "documented_limitations": "Limited to Solidity-based smart contracts; coverage depends on available contract data sources",
+  "jurisdictional_scope": "international",
+  "governance_model": "project_of_larger_org",
+  "contributor_governance": "solo developer project",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "political_bias_allegations": false,
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:27.593Z",
+  "pass3_at": "2026-03-09T23:22:30.996Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:46:20.230Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": [],
+  "political_relevance_summary": "DAO Governance Surfaces addresses government technology and public service delivery. Extract and label the governance surface of a set of DAO smart contracts.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides data, research, or monitoring capabilities for civic purposes."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Open-source codebase facilitates replication.",
+  "primary_users_or_beneficiaries": [
+    "researchers",
+    "DAO developers",
+    "governance analysts"
+  ],
+  "underdog_signal": true
+}

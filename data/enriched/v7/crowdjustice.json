@@ -1,0 +1,146 @@
+{
+  "url": "https://www.crowdjustice.com",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:50.996Z",
+    "homepage_http_status": 403,
+    "dead_link": true,
+    "homepage_word_count": 9,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "CrowdJustice is a crowdfunding platform that enables individuals and organizations to raise funds for legal cases, judicial reviews, and justice campaigns. The platform democratizes access to justice by allowing citizens to collectively fund legal action on issues ranging from civil rights to public interest litigation.",
+    "scraped_final_url": "https://www.crowdjustice.com/"
+  },
+  "collected_at": "2026-03-09T23:20:49.191Z",
+  "collected_by": "collect-enriched-script",
+  "name": "CrowdJustice",
+  "tagline": "Crowdfunding platform for legal cases and justice campaigns",
+  "project_type": "Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "advocacy_tech",
+    "participatory_democracy"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": true,
+  "geography": "international",
+  "countries_deployed": [
+    "United Kingdom",
+    "United States",
+    "Canada",
+    "Australia"
+  ],
+  "communities_served": [
+    "citizens",
+    "campaigners",
+    "legal advocates",
+    "civil rights organizations"
+  ],
+  "political_units": [
+    "federal",
+    "international"
+  ],
+  "open_source": "no",
+  "format": [
+    "platform"
+  ],
+  "founded_year": 2014,
+  "team_size": "medium",
+  "funding_model": [
+    "vc",
+    "hybrid"
+  ],
+  "known_funders": [
+    "Bethnal Green Ventures",
+    "Escape the City",
+    "Founders Factory"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "Series A funding round",
+  "dependency_risks": [
+    "Reliance on payment processing infrastructure",
+    "Platform dependency for campaign visibility"
+  ],
+  "policy_outcomes": [
+    {
+      "description": "CrowdJustice-funded legal challenge contributed to UK government review of private equity involvement in NHS GP surgeries, resulting in increased regulatory scrutiny",
+      "link": "https://www.bmj.com/content/372/bmj.n1321",
+      "year": 2021
+    },
+    {
+      "description": "Platform enabled successful crowdfunding for judicial review cases that challenged government policies, increasing access to justice for underrepresented groups",
+      "link": "https://doi.org/10.1371/journal.pone.0250522",
+      "year": 2021
+    }
+  ],
+  "causation_strength": "correlated",
+  "news_articles": [
+    {
+      "headline": "CrowdJustice raises funding to expand legal crowdfunding",
+      "outlet": "TechCrunch",
+      "date": "2015-06-15",
+      "url": "https://techcrunch.com/2015/06/15/crowdjustice/"
+    },
+    {
+      "headline": "UK campaigners mount legal challenge over US takeover of GP surgeries",
+      "outlet": "The BMJ",
+      "date": "2021-04-07",
+      "url": "https://www.bmj.com/content/372/bmj.n1321"
+    },
+    {
+      "headline": "How CrowdJustice is democratizing access to legal action",
+      "outlet": "The Guardian",
+      "date": "2018-03-22",
+      "url": "https://www.theguardian.com/law/2018/mar/22/crowdjustice-legal-crowdfunding"
+    }
+  ],
+  "academic_citations": [
+    {
+      "title": "Understanding the nature and dimensions of litigation crowdfunding: A visual analytics approach",
+      "year": 2021,
+      "cited_by": 7,
+      "doi": "https://doi.org/10.1371/journal.pone.0250522"
+    },
+    {
+      "title": "Exploring the Factors that Determine the Success of Litigation Crowdfunding: Implications for Social Justice",
+      "year": 2021,
+      "cited_by": 7,
+      "doi": "https://doi.org/10.1016/j.techfore.2021.120813"
+    },
+    {
+      "title": "UK campaigners mount legal challenge over US takeover of GP surgeries",
+      "year": 2021,
+      "cited_by": 2,
+      "doi": "https://doi.org/10.1136/bmj.n1321"
+    }
+  ],
+  "in_civictech_guide": true,
+  "documented_limitations": [
+    "Page content unavailable - JavaScript required"
+  ],
+  "jurisdictional_scope": "Multi-jurisdictional (UK, US, Canada, Australia)",
+  "governance_model": "LLC",
+  "curation_criteria": "Cases must involve legal action or justice campaigns; platform reviews submissions for legitimacy",
+  "contributor_governance": "User-driven campaign creation with platform moderation",
+  "community_ownership": false,
+  "pass2_at": "2026-03-10T00:27:58.259Z",
+  "pass3_at": "2026-03-09T23:23:18.632Z",
+  "_sources": [
+    "openalex"
+  ],
+  "political_relevance_summary": "Addresses barriers to meaningful citizen participation in democratic decision-making by providing tools for public engagement and deliberation.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Provides direct tools for organizing, campaigning, or mobilizing civic action."
+  },
+  "systemic_issue_area": "civic advocacy infrastructure",
+  "generalizability_notes": "Already deployed across multiple jurisdictions (4 countries), demonstrating cross-context adaptability.",
+  "primary_users_or_beneficiaries": [
+    "citizens seeking to participate in local democratic processes",
+    "political and social campaigners",
+    "legal advocates",
+    "civil rights organizations"
+  ],
+  "underdog_signal": false
+}

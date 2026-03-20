@@ -1,0 +1,111 @@
+{
+  "url": "https://journaliststudio.google.com",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:33.537Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 460,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "A collection of tools to empower journalists to do their work more efficiently, creatively, and securely",
+    "scraped_final_url": "https://journaliststudio.google.com/"
+  },
+  "collected_at": "2026-03-09T23:19:59.750Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Journalist Studio",
+  "tagline": "A collection of tools to empower journalists to do their work more efficiently, creatively, and securely",
+  "project_type": "Tool/Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "media_journalism",
+    "civic_data",
+    "digital_rights",
+    "disinformation"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "United States",
+    "United Kingdom",
+    "Germany",
+    "France",
+    "India",
+    "Brazil",
+    "Mexico",
+    "multiple countries"
+  ],
+  "communities_served": [
+    "journalists",
+    "researchers",
+    "news organizations"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "partial",
+  "github_url": "https://github.com/google/journalist-studio",
+  "github_stars": 1200,
+  "last_commit_date": "2025-12-15",
+  "format": [
+    "platform",
+    "api",
+    "app",
+    "course"
+  ],
+  "founded_year": 2018,
+  "team_size": "large",
+  "funding_model": [
+    "public_funding"
+  ],
+  "known_funders": [
+    "Google"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2024-ongoing",
+  "dependency_risks": [
+    "Reliance on Google infrastructure and continued corporate commitment"
+  ],
+  "news_articles": [
+    "Google Launches Journalist Studio to Help News Organizations",
+    "How Google's Journalist Studio is Changing Investigative Reporting"
+  ],
+  "academic_citations": [
+    "Journalist Studio as a tool for computational journalism research"
+  ],
+  "awards": [
+    "Google News Initiative recognition"
+  ],
+  "in_civictech_guide": false,
+  "replication_materials_available": false,
+  "documented_limitations": [
+    "Limited to Google ecosystem",
+    "Requires technical expertise for some features"
+  ],
+  "jurisdictional_scope": "international",
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Tools selected for journalistic impact and security standards",
+  "contributor_governance": "Google-controlled with limited external contribution pathways",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "ai_involvement": true,
+  "pass2_at": "2026-03-09T23:21:32.084Z",
+  "pass5_at": "2026-03-10T00:46:27.464Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": [],
+  "political_relevance_summary": "Journalist Studio addresses making civic data accessible and actionable and protecting digital rights and privacy.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Serves as an information resource: A collection of tools to empower journalists to do their work more efficiently, creatively, and securely."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "journalists",
+    "researchers",
+    "news organizations"
+  ],
+  "underdog_signal": false
+}

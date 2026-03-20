@@ -1,0 +1,101 @@
+{
+  "url": "https://semanticclimate.github.io",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:13.403Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": null,
+    "scraped_final_url": "https://semanticclimate.github.io/"
+  },
+  "collected_at": "2026-03-09T23:20:30.729Z",
+  "collected_by": "collect-enriched-script",
+  "name": "semanticClimate",
+  "tagline": "Semantic search and analysis of climate science literature",
+  "project_type": "Database",
+  "org_type": "Academic/research",
+  "issue_area": [
+    "civic_data",
+    "media_journalism"
+  ],
+  "sdg_alignment": [
+    "SDG 13 – Climate Action",
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "international"
+  ],
+  "communities_served": [
+    "researchers",
+    "journalists",
+    "climate advocates"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/semanticClimate/semanticClimate",
+  "format": [
+    "database",
+    "api"
+  ],
+  "founded_year": 2021,
+  "team_size": "small",
+  "funding_model": "academic_grant",
+  "known_funders": [
+    "University of Cambridge"
+  ],
+  "funding_verified": false,
+  "dependency_risks": "Dependent on academic institutional support and volunteer contributions",
+  "academic_citations": [
+    {
+      "title": "The #SemanticClimate Community: Making Open-Source Software for Knowledge Liberation",
+      "year": 2024,
+      "cited_by": 0,
+      "doi": "https://doi.org/10.56042/alis.v71i4.14285"
+    },
+    {
+      "title": "Semantifying the IPCC Reports: A Hackathon",
+      "year": 2022,
+      "cited_by": 0,
+      "doi": "https://doi.org/10.65527/91wmd-hy895"
+    },
+    {
+      "title": "Semantifying the IPCC Reports: A Hackathon",
+      "year": 2022,
+      "cited_by": 0,
+      "doi": "https://doi.org/10.65527/m8sam-syr28"
+    }
+  ],
+  "in_civictech_guide": false,
+  "replication_materials_available": true,
+  "jurisdictional_scope": "international",
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Peer-reviewed climate science literature indexed through semantic analysis",
+  "contributor_governance": "Open source community contributions with academic oversight",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "ai_involvement": "yes",
+  "pass2_at": "2026-03-09T23:21:40.821Z",
+  "pass3_at": "2026-03-09T23:23:08.047Z",
+  "_sources": [
+    "openalex"
+  ],
+  "political_relevance_summary": "semanticClimate addresses civic data access and transparency. Semantic search and analysis of climate science literature.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides data, research, or educational resources for civic engagement."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions; replication materials are available.",
+  "primary_users_or_beneficiaries": [
+    "civic technology researchers",
+    "investigative journalists",
+    "climate advocates"
+  ],
+  "underdog_signal": false
+}

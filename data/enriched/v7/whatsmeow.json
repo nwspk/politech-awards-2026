@@ -1,0 +1,79 @@
+{
+  "url": "https://github.com/tulir/whatsmeow",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:11.514Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 870,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Go library for the WhatsApp web multidevice API. Contribute to tulir/whatsmeow development by creating an account on GitHub.",
+    "scraped_final_url": "https://github.com/tulir/whatsmeow"
+  },
+  "collected_at": "2026-03-09T23:19:18.910Z",
+  "collected_by": "collect-enriched-script",
+  "name": "whatsmeow",
+  "tagline": "Go library for the WhatsApp web multidevice API",
+  "project_type": "Tool/Platform",
+  "org_type": "Grassroots/indie",
+  "decade_plus": false,
+  "geography": "international",
+  "open_source": "yes",
+  "github_url": "https://github.com/tulir/whatsmeow",
+  "github_stars": 5600,
+  "last_commit_date": "2025-12-15",
+  "format": [
+    "api",
+    "library"
+  ],
+  "founded_year": 2021,
+  "team_size": "solo",
+  "funding_model": [
+    "unfunded"
+  ],
+  "funding_verified": false,
+  "dependency_risks": [
+    "WhatsApp API changes",
+    "Reverse engineering dependency",
+    "Single maintainer"
+  ],
+  "in_civictech_guide": false,
+  "wikipedia_page": false,
+  "documented_limitations": [
+    "Unofficial WhatsApp API",
+    "Subject to WhatsApp terms of service violations",
+    "No guaranteed stability"
+  ],
+  "jurisdictional_scope": "global",
+  "failure_modes": [
+    "WhatsApp API blocking",
+    "Account bans for users",
+    "Maintenance discontinuation"
+  ],
+  "governance_model": "individual",
+  "contributor_governance": "benevolent dictator",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "controversies": [
+    "Terms of service violation concerns",
+    "Potential for misuse in spam/automation"
+  ],
+  "political_bias_allegations": false,
+  "legal_regulatory_issues": "Violates WhatsApp terms of service; potential legal exposure",
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:29.795Z",
+  "pass5_at": "2026-03-10T00:46:22.887Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": [],
+  "political_relevance_summary": "whatsmeow addresses civic technology. Go library for the WhatsApp web multidevice API.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides information, data, or research for civic purposes"
+  },
+  "systemic_issue_area": "civic technology and participation",
+  "generalizability_notes": "Highly generalizable — already deployed internationally and open source, facilitating adoption in new contexts.",
+  "primary_users_or_beneficiaries": [
+    "general public"
+  ],
+  "underdog_signal": true
+}

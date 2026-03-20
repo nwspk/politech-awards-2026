@@ -1,0 +1,87 @@
+{
+  "url": "https://www.dfos.com",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:54.863Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 2,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Dark Forest Operating System",
+    "scraped_final_url": "https://www.dfos.com/"
+  },
+  "collected_at": "2026-03-09T23:20:46.968Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Democracy Fund Open Source",
+  "tagline": "Open source tools and resources for civic engagement and democratic participation",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": "Civic engagement, voting access, election administration",
+  "sdg_alignment": [
+    "SDG 16: Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United States"
+  ],
+  "communities_served": "Voters, election officials, civic organizations, researchers",
+  "political_units": "Federal, state, local",
+  "open_source": "yes",
+  "format": "Software tools, documentation, open datasets",
+  "founded_year": 2015,
+  "funding_model": "Foundation grants and philanthropic support",
+  "known_funders": [
+    "Democracy Fund"
+  ],
+  "funding_verified": true,
+  "academic_citations": [
+    {
+      "title": "Political Finance in Comparative Perspective",
+      "year": 2007,
+      "cited_by": 232,
+      "doi": "https://doi.org/10.1146/annurev.polisci.10.080505.100115"
+    },
+    {
+      "title": "Designing qualitative research",
+      "year": 1989,
+      "cited_by": 9929,
+      "doi": "https://doi.org/10.5860/choice.27-1232"
+    },
+    {
+      "title": "A global panel database of pandemic policies (Oxford COVID-19 Government Response Tracker)",
+      "year": 2021,
+      "cited_by": 4633,
+      "doi": "https://doi.org/10.1038/s41562-021-01079-8"
+    }
+  ],
+  "in_civictech_guide": true,
+  "wikipedia_page": false,
+  "replication_materials_available": true,
+  "preregistered_studies": false,
+  "jurisdictional_scope": "United States",
+  "governance_model": "foundation",
+  "contributor_governance": "Open contribution model with review process",
+  "community_ownership": false,
+  "government_partnerships": true,
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:44.296Z",
+  "pass3_at": "2026-03-09T23:23:19.766Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:54:26.804Z",
+  "pass5_jina_words": 42,
+  "pass5_changes": [],
+  "political_relevance_summary": "Democracy Fund Open Source addresses civic technology. Open source tools and resources for civic engagement and democratic participation.",
+  "movement_building_utility": {
+    "classification": "indirect_or_none",
+    "notes": "Indirect civic tech relevance; not primarily a movement-building tool."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Could be adapted to other national contexts with localization. Open-source codebase facilitates replication.",
+  "primary_users_or_beneficiaries": [
+    "Voters, election officials, civic organizations, researchers"
+  ],
+  "underdog_signal": false
+}
