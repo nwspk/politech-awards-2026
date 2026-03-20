@@ -1,115 +1,109 @@
 {
-  "url": "https://dev.reuselibrary.service.justice.gov.uk/",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:43:12.962Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 157,
-    "homepage_has_team_page": false,
-    "homepage_has_impact_metrics": false,
-    "scraped_description": "We use some essential cookies to make this service work.",
-    "scraped_final_url": "https://dev.reuselibrary.service.justice.gov.uk/"
-  },
-  "collected_at": "2026-03-09T23:19:40.140Z",
-  "collected_by": "collect-enriched-script",
-  "name": "GOV Reuse Library",
-  "tagline": "Find and reuse digital service elements - Building public services together, one reusable block at a time",
-  "project_type": "Platform",
-  "org_type": "Government/public sector",
-  "issue_area": [
-    "govtech",
-    "civic_data"
-  ],
-  "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
-  ],
-  "decade_plus": false,
-  "geography": "national",
-  "countries_deployed": [
-    "United Kingdom"
-  ],
-  "communities_served": [
-    "government digital service teams",
-    "public sector developers",
-    "service designers"
-  ],
-  "political_units": [
-    "federal"
-  ],
-  "open_source": "partial",
-  "format": [
-    "platform",
-    "database"
-  ],
-  "founded_year": 2024,
-  "team_size": "small",
-  "funding_model": [
-    "public_funding"
-  ],
-  "known_funders": [
-    "Ministry of Justice"
-  ],
-  "funding_verified": true,
-  "dependency_risks": [
-    "Reliance on UK government infrastructure and maintenance"
-  ],
-  "academic_citations": [
-    {
-      "title": "Municipal wastewater reuse in the U.S.",
-      "year": 2016,
-      "cited_by": 6,
-      "doi": null
+    "url": "https://dev.reuselibrary.service.justice.gov.uk/",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:43:12.962Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 157,
+        "homepage_has_team_page": false,
+        "homepage_has_impact_metrics": false,
+        "scraped_description": "We use some essential cookies to make this service work.",
+        "scraped_final_url": "https://dev.reuselibrary.service.justice.gov.uk/"
     },
-    {
-      "title": "Government as a Platform",
-      "year": 2011,
-      "cited_by": 480,
-      "doi": "https://doi.org/10.1162/inov_a_00056"
+    "collected_at": "2026-03-09T23:19:40.140Z",
+    "collected_by": "collect-enriched-script",
+    "name": "GOV Reuse Library",
+    "tagline": "Find and reuse digital service elements - Building public services together, one reusable block at a time",
+    "project_type": "Platform",
+    "org_type": "Government/public sector",
+    "issue_area": [
+        "govtech",
+        "civic_data"
+    ],
+    "sdg_alignment": [
+        "SDG 16 – Peace, Justice and Strong Institutions"
+    ],
+    "decade_plus": false,
+    "geography": "national",
+    "countries_deployed": [
+        "United Kingdom"
+    ],
+    "communities_served": [
+        "government digital service teams",
+        "public sector developers",
+        "service designers"
+    ],
+    "political_units": [
+        "federal"
+    ],
+    "open_source": "partial",
+    "format": [
+        "platform",
+        "database"
+    ],
+    "founded_year": 2024,
+    "team_size": "small",
+    "funding_model": [
+        "public_funding"
+    ],
+    "known_funders": [
+        "Ministry of Justice"
+    ],
+    "funding_verified": true,
+    "dependency_risks": [
+        "Reliance on UK government infrastructure and maintenance"
+    ],
+    "academic_citations": [
+        {
+            "title": "Government as a Platform",
+            "year": 2011,
+            "cited_by": 480,
+            "doi": "https://doi.org/10.1162/inov_a_00056"
+        },
+        {
+            "title": "Institutional incentives in circular economy transition: The case of material use in the Dutch textile industry",
+            "year": 2016,
+            "cited_by": 368,
+            "doi": "https://doi.org/10.1016/j.jclepro.2016.12.038"
+        }
+    ],
+    "in_civictech_guide": false,
+    "documented_limitations": [
+        "Service explicitly marked as 'new' with request for user feedback"
+    ],
+    "jurisdictional_scope": "United Kingdom",
+    "governance_model": "project_of_larger_org",
+    "curation_criteria": "Content curated by Ministry of Justice; all content available under Open Government Licence v3.0",
+    "contributor_governance": "Centralized curation by Ministry of Justice",
+    "disparity_tracking": false,
+    "community_ownership": false,
+    "government_partnerships": [
+        {
+            "partner": "Ministry of Justice",
+            "nature": "Curator and operator",
+            "country": "United Kingdom"
+        }
+    ],
+    "ai_involvement": false,
+    "pass2_at": "2026-03-09T23:21:23.705Z",
+    "pass3_at": "2026-03-09T23:22:16.831Z",
+    "_sources": [
+        "openalex"
+    ],
+    "pass5_at": "2026-03-10T00:45:44.604Z",
+    "pass5_jina_words": 19,
+    "pass5_changes": [],
+    "political_relevance_summary": "GOV Reuse Library addresses government technology and public service delivery. Find and reuse digital service elements - Building public services together, one reusable block at a time.",
+    "movement_building_utility": {
+        "classification": "information_resource",
+        "notes": "Provides data, research, or monitoring capabilities for civic purposes."
     },
-    {
-      "title": "Institutional incentives in circular economy transition: The case of material use in the Dutch textile industry",
-      "year": 2016,
-      "cited_by": 368,
-      "doi": "https://doi.org/10.1016/j.jclepro.2016.12.038"
-    }
-  ],
-  "in_civictech_guide": false,
-  "documented_limitations": [
-    "Service explicitly marked as 'new' with request for user feedback"
-  ],
-  "jurisdictional_scope": "United Kingdom",
-  "governance_model": "project_of_larger_org",
-  "curation_criteria": "Content curated by Ministry of Justice; all content available under Open Government Licence v3.0",
-  "contributor_governance": "Centralized curation by Ministry of Justice",
-  "disparity_tracking": false,
-  "community_ownership": false,
-  "government_partnerships": [
-    {
-      "partner": "Ministry of Justice",
-      "nature": "Curator and operator",
-      "country": "United Kingdom"
-    }
-  ],
-  "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:23.705Z",
-  "pass3_at": "2026-03-09T23:22:16.831Z",
-  "_sources": [
-    "openalex"
-  ],
-  "pass5_at": "2026-03-10T00:45:44.604Z",
-  "pass5_jina_words": 19,
-  "pass5_changes": [],
-  "political_relevance_summary": "GOV Reuse Library addresses government technology and public service delivery. Find and reuse digital service elements - Building public services together, one reusable block at a time.",
-  "movement_building_utility": {
-    "classification": "information_resource",
-    "notes": "Provides data, research, or monitoring capabilities for civic purposes."
-  },
-  "systemic_issue_area": "government transparency",
-  "generalizability_notes": "Could be adapted to other national contexts with localization. Open-source codebase facilitates replication.",
-  "primary_users_or_beneficiaries": [
-    "government digital service teams",
-    "public sector developers",
-    "service designers"
-  ],
-  "underdog_signal": true
+    "systemic_issue_area": "government transparency",
+    "generalizability_notes": "Could be adapted to other national contexts with localization. Open-source codebase facilitates replication.",
+    "primary_users_or_beneficiaries": [
+        "government digital service teams",
+        "public sector developers",
+        "service designers"
+    ],
+    "underdog_signal": true
 }

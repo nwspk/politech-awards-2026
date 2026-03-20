@@ -1,118 +1,116 @@
 {
-  "url": "https://publicaccountability.org",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:45:56.994Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 243,
-    "homepage_has_team_page": true,
-    "homepage_has_impact_metrics": true,
-    "scraped_description": null,
-    "scraped_final_url": "https://publicaccountability.org/"
-  },
-  "collected_at": "2026-03-09T23:20:30.388Z",
-  "collected_by": "collect-enriched-script",
-  "name": "The Accountability Project",
-  "tagline": "A searchable database of 1.9+ billion public records for researchers and journalists",
-  "project_type": "Database",
-  "org_type": "Academic/research",
-  "issue_area": [
-    "civic_data",
-    "media_journalism",
-    "govtech"
-  ],
-  "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
-  ],
-  "decade_plus": false,
-  "geography": "national",
-  "countries_deployed": [
-    "United States"
-  ],
-  "communities_served": [
-    "journalists",
-    "researchers",
-    "investigators"
-  ],
-  "political_units": [
-    "federal"
-  ],
-  "open_source": "no",
-  "format": [
-    "database",
-    "platform",
-    "api"
-  ],
-  "founded_year": 2019,
-  "team_size": "small",
-  "funding_model": [
-    "grants"
-  ],
-  "known_funders": [
-    "Reva and David Logan Foundation"
-  ],
-  "funding_verified": true,
-  "last_funding_event": "2023",
-  "dependency_risks": [
-    "Reliance on single major funder (Reva and David Logan Foundation)",
-    "Institutional dependency on UC Berkeley School of Journalism"
-  ],
-  "news_articles": [
-    "UC Berkeley launches Accountability Project database with 1.9 billion public records"
-  ],
-  "academic_citations": [
-    {
-      "title": "Integrated digital twin and blockchain framework to support accountable information sharing in construction projects",
-      "year": 2021,
-      "cited_by": 399,
-      "doi": "https://doi.org/10.1016/j.autcon.2021.103688"
+    "url": "https://publicaccountability.org",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:45:56.994Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 243,
+        "homepage_has_team_page": true,
+        "homepage_has_impact_metrics": true,
+        "scraped_description": null,
+        "scraped_final_url": "https://publicaccountability.org/"
     },
-    {
-      "title": "Accountability to Prevent Corruption in Construction Projects",
-      "year": 2008,
-      "cited_by": 235,
-      "doi": "https://doi.org/10.1061/(asce)0733-9364(2008)134:9(729)"
+    "collected_at": "2026-03-09T23:20:30.388Z",
+    "collected_by": "collect-enriched-script",
+    "name": "The Accountability Project",
+    "tagline": "A searchable database of 1.9+ billion public records for researchers and journalists",
+    "project_type": "Database",
+    "org_type": "Academic/research",
+    "issue_area": [
+        "civic_data",
+        "media_journalism",
+        "govtech"
+    ],
+    "sdg_alignment": [
+        "SDG 16 – Peace, Justice and Strong Institutions"
+    ],
+    "decade_plus": false,
+    "geography": "national",
+    "countries_deployed": [
+        "United States"
+    ],
+    "communities_served": [
+        "journalists",
+        "researchers",
+        "investigators"
+    ],
+    "political_units": [
+        "federal"
+    ],
+    "open_source": "no",
+    "format": [
+        "database",
+        "platform",
+        "api"
+    ],
+    "founded_year": 2019,
+    "team_size": "small",
+    "funding_model": [
+        "grants"
+    ],
+    "known_funders": [
+        "Reva and David Logan Foundation"
+    ],
+    "funding_verified": true,
+    "last_funding_event": "2023",
+    "dependency_risks": [
+        "Reliance on single major funder (Reva and David Logan Foundation)",
+        "Institutional dependency on UC Berkeley School of Journalism"
+    ],
+    "news_articles": [],
+    "academic_citations": [
+        {
+            "title": "Integrated digital twin and blockchain framework to support accountable information sharing in construction projects",
+            "year": 2021,
+            "cited_by": 399,
+            "doi": "https://doi.org/10.1016/j.autcon.2021.103688"
+        },
+        {
+            "title": "Accountability to Prevent Corruption in Construction Projects",
+            "year": 2008,
+            "cited_by": 235,
+            "doi": "https://doi.org/10.1061/(asce)0733-9364(2008)134:9(729)"
+        },
+        {
+            "title": "The Cambridge Accountability Project",
+            "year": 1981,
+            "cited_by": 16,
+            "doi": "https://doi.org/10.1080/0305764810110206"
+        }
+    ],
+    "in_civictech_guide": false,
+    "causation_strength": "anecdotal",
+    "replication_materials_available": false,
+    "documented_limitations": [
+        "Limited to publicly available records",
+        "Data quality dependent on source agency reporting"
+    ],
+    "jurisdictional_scope": "United States",
+    "governance_model": "project_of_larger_org",
+    "curation_criteria": "Inclusion of publicly available government records and documents",
+    "contributor_governance": "Managed by UC Berkeley School of Journalism",
+    "disparity_tracking": false,
+    "community_ownership": false,
+    "ai_involvement": false,
+    "pass2_at": "2026-03-09T23:21:38.439Z",
+    "pass3_at": "2026-03-09T23:22:59.050Z",
+    "_sources": [
+        "openalex"
+    ],
+    "pass5_at": "2026-03-10T00:50:52.712Z",
+    "pass5_jina_words": 141,
+    "pass5_changes": [],
+    "political_relevance_summary": "The Accountability Project addresses civic data access and transparency. A searchable database of 1.9+ billion public records for researchers and journalists.",
+    "movement_building_utility": {
+        "classification": "information_resource",
+        "notes": "Provides information, data, or research for civic purposes"
     },
-    {
-      "title": "The Cambridge Accountability Project",
-      "year": 1981,
-      "cited_by": 16,
-      "doi": "https://doi.org/10.1080/0305764810110206"
-    }
-  ],
-  "in_civictech_guide": false,
-  "causation_strength": "anecdotal",
-  "replication_materials_available": false,
-  "documented_limitations": [
-    "Limited to publicly available records",
-    "Data quality dependent on source agency reporting"
-  ],
-  "jurisdictional_scope": "United States",
-  "governance_model": "project_of_larger_org",
-  "curation_criteria": "Inclusion of publicly available government records and documents",
-  "contributor_governance": "Managed by UC Berkeley School of Journalism",
-  "disparity_tracking": false,
-  "community_ownership": false,
-  "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:38.439Z",
-  "pass3_at": "2026-03-09T23:22:59.050Z",
-  "_sources": [
-    "openalex"
-  ],
-  "pass5_at": "2026-03-10T00:50:52.712Z",
-  "pass5_jina_words": 141,
-  "pass5_changes": [],
-  "political_relevance_summary": "The Accountability Project addresses civic data access and transparency. A searchable database of 1.9+ billion public records for researchers and journalists.",
-  "movement_building_utility": {
-    "classification": "information_resource",
-    "notes": "Provides information, data, or research for civic purposes"
-  },
-  "systemic_issue_area": "civic data access",
-  "generalizability_notes": "Limited to United States context currently; approach could potentially be replicated in similar jurisdictions with adaptation to local data sources and regulations.",
-  "primary_users_or_beneficiaries": [
-    "journalists",
-    "researchers",
-    "investigators"
-  ],
-  "underdog_signal": true
+    "systemic_issue_area": "civic data access",
+    "generalizability_notes": "Limited to United States context currently; approach could potentially be replicated in similar jurisdictions with adaptation to local data sources and regulations.",
+    "primary_users_or_beneficiaries": [
+        "journalists",
+        "researchers",
+        "investigators"
+    ],
+    "underdog_signal": true
 }

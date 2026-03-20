@@ -1,167 +1,157 @@
 {
-  "url": "https://oa.works/",
-  "collected_at": "2026-03-09T22:00:00Z",
-  "collected_by": "nano-bot",
-  "name": "OA.Works",
-  "tagline": "Powerfully simple open access tools for a just and kind information age",
-  "project_type": "Tool/Platform",
-  "org_type": "Nonprofit/charity",
-  "issue_area": [
-    "open access",
-    "scholarly publishing",
-    "research equity",
-    "library services",
-    "information rights"
-  ],
-  "sdg_alignment": [
-    "SDG 4: Quality Education",
-    "SDG 10: Reduced Inequalities",
-    "SDG 17: Partnerships for the Goals"
-  ],
-  "decade_plus": true,
-  "geography": "international",
-  "countries_deployed": [
-    "United States",
-    "United Kingdom",
-    "India",
-    "New Zealand"
-  ],
-  "communities_served": [
-    "researchers",
-    "librarians",
-    "funders",
-    "universities",
-    "civil society advocates"
-  ],
-  "political_units": [
-    "Global (non-territorial)"
-  ],
-  "open_source": "yes",
-  "github_url": "https://github.com/oaworks",
-  "github_stars": 49,
-  "last_commit_date": "2026-03-09",
-  "format": [
-    "web app",
-    "browser extension",
-    "API",
-    "compliance dashboard",
-    "interlibrary loan tool"
-  ],
-  "founded_year": 2013,
-  "team_size": "medium",
-  "funding_model": [
-    "grants",
-    "library subscriptions",
-    "foundation funding"
-  ],
-  "known_funders": [
-    "Arcadia Fund",
-    "Gates Foundation",
-    "Robert Wood Johnson Foundation",
-    "Founders Pledge",
-    "Code for Science & Society (fiscal sponsor)"
-  ],
-  "funding_verified": true,
-  "last_funding_event": "2024",
-  "dependency_risks": [
-    "fiscal sponsorship dependency on Code for Science & Society",
-    "funder concentration risk",
-    "reliance on publisher permissions data accuracy"
-  ],
-  "news_articles": [
-    {
-      "headline": "Open Access Button — discovering when and where researchers hit paywalls",
-      "outlet": "Scientific American",
-      "date": null,
-      "url": null
-    }
-  ],
-  "academic_citations": [
-    "Shamash, K. (2020). Open Access Button: A tool for tracking open access adoption. First Monday, 25(1).",
-    "Bosch, S., & Albee, B. (2014). Death by 1,000 cuts. The Serials Librarian, 67(3), 253-261."
-  ],
-  "awards": [
-    "Arcadia Fund Open Access Award (2015)",
-    "Code for Science & Society Fellowship (2018)"
-  ],
-  "in_civictech_guide": false,
-  "wikipedia_page": true,
-  "policy_outcomes": [
-    {
-      "description": "Plan S Journal Checker Tool launched using OA.Works permissions data",
-      "link": null,
-      "year": 2021
+    "url": "https://oa.works/",
+    "collected_at": "2026-03-09T22:00:00Z",
+    "collected_by": "nano-bot",
+    "name": "OA.Works",
+    "tagline": "Powerfully simple open access tools for a just and kind information age",
+    "project_type": "Tool/Platform",
+    "org_type": "Nonprofit/charity",
+    "issue_area": [
+        "open access",
+        "scholarly publishing",
+        "research equity",
+        "library services",
+        "information rights"
+    ],
+    "sdg_alignment": [
+        "SDG 4: Quality Education",
+        "SDG 10: Reduced Inequalities",
+        "SDG 17: Partnerships for the Goals"
+    ],
+    "decade_plus": true,
+    "geography": "international",
+    "countries_deployed": [
+        "United States",
+        "United Kingdom",
+        "India",
+        "New Zealand"
+    ],
+    "communities_served": [
+        "researchers",
+        "librarians",
+        "funders",
+        "universities",
+        "civil society advocates"
+    ],
+    "political_units": [
+        "Global (non-territorial)"
+    ],
+    "open_source": "yes",
+    "github_url": "https://github.com/oaworks",
+    "github_stars": 49,
+    "last_commit_date": "2026-03-09",
+    "format": [
+        "web app",
+        "browser extension",
+        "API",
+        "compliance dashboard",
+        "interlibrary loan tool"
+    ],
+    "founded_year": 2013,
+    "team_size": "medium",
+    "funding_model": [
+        "grants",
+        "library subscriptions",
+        "foundation funding"
+    ],
+    "known_funders": [
+        "Arcadia Fund",
+        "Gates Foundation",
+        "Robert Wood Johnson Foundation",
+        "Founders Pledge",
+        "Code for Science & Society (fiscal sponsor)"
+    ],
+    "funding_verified": true,
+    "last_funding_event": "2024",
+    "dependency_risks": [
+        "fiscal sponsorship dependency on Code for Science & Society",
+        "funder concentration risk",
+        "reliance on publisher permissions data accuracy"
+    ],
+    "news_articles": [],
+    "academic_citations": [],
+    "awards": [
+        "Arcadia Fund Open Access Award (2015)",
+        "Code for Science & Society Fellowship (2018)"
+    ],
+    "in_civictech_guide": false,
+    "wikipedia_page": true,
+    "policy_outcomes": [
+        {
+            "description": "Plan S Journal Checker Tool launched using OA.Works permissions data",
+            "link": null,
+            "year": 2021
+        },
+        {
+            "description": "OA.Report adopted by cOAlition S member organisations for open access compliance tracking",
+            "link": null,
+            "year": 2024
+        },
+        {
+            "description": "RSCVD built in partnership with IFLA as free international interlibrary loan system during COVID; IFLA took over long-term running in 2024",
+            "link": null,
+            "year": 2020
+        }
+    ],
+    "causation_strength": "correlated",
+    "outcome_methodology": "Usage metrics (millions of tool uses documented); compliance tracking for cOAlition S; partnership-based co-design with librarians",
+    "replication_materials_available": true,
+    "preregistered_studies": [],
+    "published_performance_metrics": true,
+    "documented_limitations": [
+        "Sunsetting of Open Access Button and InstantILL announced (2025)",
+        "Coverage dependent on publisher cooperation"
+    ],
+    "jurisdictional_scope": "global",
+    "failure_modes": [
+        "publisher permissions data becoming unavailable",
+        "funder exit reducing operational capacity",
+        "institutional library subscription churn"
+    ],
+    "governance_model": "project_of_larger_org",
+    "curation_criteria": "Tools built in partnership with librarians and open access advocates; values-driven product decisions",
+    "contributor_governance": "Open source repositories; Advisory Committee oversees strategy",
+    "disparity_tracking": "Implicit through focus on research equity and global access; tools designed to reduce barriers for researchers in lower-income countries and under-resourced institutions",
+    "community_ownership": "Community-governed via Advisory Committee; open source code",
+    "controversies": [],
+    "political_bias_allegations": null,
+    "legal_regulatory_issues": null,
+    "elections_used_in": [],
+    "government_partnerships": [
+        {
+            "partner": "IFLA",
+            "description": "Co-developed RSCVD international interlibrary loan system; IFLA assumed long-term operation in 2024",
+            "year": 2020
+        }
+    ],
+    "ai_involvement": null,
+    "pass2_at": "2026-03-09T23:21:39.125Z",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:45:20.345Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 888,
+        "homepage_has_team_page": true,
+        "homepage_has_impact_metrics": false,
+        "scraped_description": "We partner to build",
+        "scraped_final_url": "https://oa.works/"
     },
-    {
-      "description": "OA.Report adopted by cOAlition S member organisations for open access compliance tracking",
-      "link": null,
-      "year": 2024
+    "pass5_at": "2026-03-10T01:01:00.912Z",
+    "pass5_jina_words": 547,
+    "pass5_changes": [],
+    "political_relevance_summary": "OA.Works addresses barriers to research access and knowledge equity, promoting open access to publicly funded research that informs policy and civic understanding.",
+    "movement_building_utility": {
+        "classification": "information_resource",
+        "notes": "OA.Works primarily serves as an information resource for researchers, journalists, or analysts working on civic and political issues."
     },
-    {
-      "description": "RSCVD built in partnership with IFLA as free international interlibrary loan system during COVID; IFLA took over long-term running in 2024",
-      "link": null,
-      "year": 2020
-    }
-  ],
-  "causation_strength": "correlated",
-  "outcome_methodology": "Usage metrics (millions of tool uses documented); compliance tracking for cOAlition S; partnership-based co-design with librarians",
-  "replication_materials_available": true,
-  "preregistered_studies": [],
-  "published_performance_metrics": true,
-  "documented_limitations": [
-    "Sunsetting of Open Access Button and InstantILL announced (2025)",
-    "Coverage dependent on publisher cooperation"
-  ],
-  "jurisdictional_scope": "global",
-  "failure_modes": [
-    "publisher permissions data becoming unavailable",
-    "funder exit reducing operational capacity",
-    "institutional library subscription churn"
-  ],
-  "governance_model": "project_of_larger_org",
-  "curation_criteria": "Tools built in partnership with librarians and open access advocates; values-driven product decisions",
-  "contributor_governance": "Open source repositories; Advisory Committee oversees strategy",
-  "disparity_tracking": "Implicit through focus on research equity and global access; tools designed to reduce barriers for researchers in lower-income countries and under-resourced institutions",
-  "community_ownership": "Community-governed via Advisory Committee; open source code",
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [
-    {
-      "partner": "IFLA",
-      "description": "Co-developed RSCVD international interlibrary loan system; IFLA assumed long-term operation in 2024",
-      "year": 2020
-    }
-  ],
-  "ai_involvement": null,
-  "pass2_at": "2026-03-09T23:21:39.125Z",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:45:20.345Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 888,
-    "homepage_has_team_page": true,
-    "homepage_has_impact_metrics": false,
-    "scraped_description": "We partner to build",
-    "scraped_final_url": "https://oa.works/"
-  },
-  "pass5_at": "2026-03-10T01:01:00.912Z",
-  "pass5_jina_words": 547,
-  "pass5_changes": [],
-  "political_relevance_summary": "OA.Works addresses barriers to research access and knowledge equity, promoting open access to publicly funded research that informs policy and civic understanding.",
-  "movement_building_utility": {
-    "classification": "information_resource",
-    "notes": "OA.Works primarily serves as an information resource for researchers, journalists, or analysts working on civic and political issues."
-  },
-  "systemic_issue_area": "information freedom and open access",
-  "generalizability_notes": "High generalizability. OA.Works is open source and already deployed across multiple countries/jurisdictions, making replication straightforward for other contexts.",
-  "primary_users_or_beneficiaries": [
-    "researchers",
-    "librarians",
-    "funders",
-    "universities",
-    "civil society advocates"
-  ],
-  "underdog_signal": false
+    "systemic_issue_area": "information freedom and open access",
+    "generalizability_notes": "High generalizability. OA.Works is open source and already deployed across multiple countries/jurisdictions, making replication straightforward for other contexts.",
+    "primary_users_or_beneficiaries": [
+        "researchers",
+        "librarians",
+        "funders",
+        "universities",
+        "civil society advocates"
+    ],
+    "underdog_signal": false
 }

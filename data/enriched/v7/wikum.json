@@ -1,90 +1,88 @@
 {
-  "url": "https://www.csail.mit.edu/research/wikum-bridging-discussion-systems-and-wikis-collective-summarization",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:46:53.033Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 326,
-    "homepage_has_team_page": true,
-    "homepage_has_impact_metrics": false,
-    "scraped_description": "Large-scale discussions between many participants abound on the internet today. But as these discussions grow to tens of thousands of posts, they become ever more difficult for a reader to digest.",
-    "scraped_final_url": "https://www.csail.mit.edu/research/wikum-bridging-discussion-systems-and-wikis-collective-summarization"
-  },
-  "collected_at": "2026-03-09T23:20:49.684Z",
-  "collected_by": "collect-enriched-script",
-  "name": "Wikum",
-  "tagline": "Tools for communities to collectively summarize large online discussions and manage embedded knowledge",
-  "project_type": "Tool/Platform",
-  "org_type": "Academic/research",
-  "issue_area": [
-    "participatory_democracy",
-    "civic_data"
-  ],
-  "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
-  ],
-  "decade_plus": false,
-  "geography": "international",
-  "countries_deployed": [
-    "United States"
-  ],
-  "communities_served": [
-    "researchers",
-    "online communities",
-    "discussion participants"
-  ],
-  "political_units": [
-    "Global"
-  ],
-  "open_source": "partial",
-  "github_url": "https://github.com/amyxzhang/wikum",
-  "github_stars": 45,
-  "last_commit_date": "2017-04-15",
-  "format": [
-    "platform",
-    "tool"
-  ],
-  "founded_year": 2017,
-  "team_size": "small",
-  "funding_model": [
-    "public_funding"
-  ],
-  "known_funders": [
-    "MIT CSAIL",
-    "National Science Foundation"
-  ],
-  "funding_verified": true,
-  "last_funding_event": "2017",
-  "dependency_risks": "Limited ongoing maintenance; last commit in 2017 suggests project may not be actively developed",
-  "academic_citations": [
-    "Zhang, Amy X. and Verou, Lea and Karger, David. Wikum: Bridging Discussion Forums and Wikis Using Recursive Summarization. CSCW 2017"
-  ],
-  "in_civictech_guide": false,
-  "replication_materials_available": true,
-  "published_performance_metrics": "User studies conducted in CSCW 2017 publication",
-  "documented_limitations": "Research paper documents limitations of recursive summarization approach",
-  "jurisdictional_scope": "Global",
-  "failure_modes": "Potential challenges in scaling collective summarization; dependency on community participation",
-  "governance_model": "project_of_larger_org",
-  "contributor_governance": "Academic research project governance through MIT CSAIL",
-  "disparity_tracking": false,
-  "community_ownership": false,
-  "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:44.406Z",
-  "pass5_at": "2026-03-10T00:54:17.588Z",
-  "pass5_jina_words": 0,
-  "pass5_changes": [],
-  "political_relevance_summary": "Wikum addresses democratic participation and citizen engagement. Tools for communities to collectively summarize large online discussions and manage embedded knowledge.",
-  "movement_building_utility": {
-    "classification": "information_resource",
-    "notes": "Provides civic data or journalism infrastructure"
-  },
-  "systemic_issue_area": "democratic participation access",
-  "generalizability_notes": "Highly generalizable — already deployed internationally and open source, facilitating adoption in new contexts.",
-  "primary_users_or_beneficiaries": [
-    "researchers",
-    "online communities",
-    "discussion participants"
-  ],
-  "underdog_signal": true
+    "url": "https://www.csail.mit.edu/research/wikum-bridging-discussion-systems-and-wikis-collective-summarization",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:46:53.033Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 326,
+        "homepage_has_team_page": true,
+        "homepage_has_impact_metrics": false,
+        "scraped_description": "Large-scale discussions between many participants abound on the internet today. But as these discussions grow to tens of thousands of posts, they become ever more difficult for a reader to digest.",
+        "scraped_final_url": "https://www.csail.mit.edu/research/wikum-bridging-discussion-systems-and-wikis-collective-summarization"
+    },
+    "collected_at": "2026-03-09T23:20:49.684Z",
+    "collected_by": "collect-enriched-script",
+    "name": "Wikum",
+    "tagline": "Tools for communities to collectively summarize large online discussions and manage embedded knowledge",
+    "project_type": "Tool/Platform",
+    "org_type": "Academic/research",
+    "issue_area": [
+        "participatory_democracy",
+        "civic_data"
+    ],
+    "sdg_alignment": [
+        "SDG 16 – Peace, Justice and Strong Institutions"
+    ],
+    "decade_plus": false,
+    "geography": "international",
+    "countries_deployed": [
+        "United States"
+    ],
+    "communities_served": [
+        "researchers",
+        "online communities",
+        "discussion participants"
+    ],
+    "political_units": [
+        "Global"
+    ],
+    "open_source": "partial",
+    "github_url": "https://github.com/amyxzhang/wikum",
+    "github_stars": 45,
+    "last_commit_date": "2017-04-15",
+    "format": [
+        "platform",
+        "tool"
+    ],
+    "founded_year": 2017,
+    "team_size": "small",
+    "funding_model": [
+        "public_funding"
+    ],
+    "known_funders": [
+        "MIT CSAIL",
+        "National Science Foundation"
+    ],
+    "funding_verified": true,
+    "last_funding_event": "2017",
+    "dependency_risks": "Limited ongoing maintenance; last commit in 2017 suggests project may not be actively developed",
+    "academic_citations": [],
+    "in_civictech_guide": false,
+    "replication_materials_available": true,
+    "published_performance_metrics": "User studies conducted in CSCW 2017 publication",
+    "documented_limitations": "Research paper documents limitations of recursive summarization approach",
+    "jurisdictional_scope": "Global",
+    "failure_modes": "Potential challenges in scaling collective summarization; dependency on community participation",
+    "governance_model": "project_of_larger_org",
+    "contributor_governance": "Academic research project governance through MIT CSAIL",
+    "disparity_tracking": false,
+    "community_ownership": false,
+    "ai_involvement": false,
+    "pass2_at": "2026-03-09T23:21:44.406Z",
+    "pass5_at": "2026-03-10T00:54:17.588Z",
+    "pass5_jina_words": 0,
+    "pass5_changes": [],
+    "political_relevance_summary": "Wikum addresses democratic participation and citizen engagement. Tools for communities to collectively summarize large online discussions and manage embedded knowledge.",
+    "movement_building_utility": {
+        "classification": "information_resource",
+        "notes": "Provides civic data or journalism infrastructure"
+    },
+    "systemic_issue_area": "democratic participation access",
+    "generalizability_notes": "Highly generalizable — already deployed internationally and open source, facilitating adoption in new contexts.",
+    "primary_users_or_beneficiaries": [
+        "researchers",
+        "online communities",
+        "discussion participants"
+    ],
+    "underdog_signal": true
 }

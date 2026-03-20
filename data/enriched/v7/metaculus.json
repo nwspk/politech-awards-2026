@@ -1,144 +1,141 @@
 {
-  "url": "https://metaculus.com",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:45:00.971Z",
-    "homepage_http_status": 403,
-    "dead_link": true,
-    "homepage_word_count": 9,
-    "homepage_has_team_page": false,
-    "homepage_has_impact_metrics": false,
-    "scraped_description": "Metaculus is a community prediction platform where forecasters make probabilistic predictions on future events across science, technology, geopolitics, and other domains. The platform aggregates these predictions to generate collective intelligence forecasts.",
-    "scraped_final_url": "https://www.metaculus.com/"
-  },
-  "collected_at": "2026-03-09T23:20:09.532Z",
-  "collected_by": "collect-enriched-script",
-  "name": "Metaculus",
-  "tagline": "A community prediction platform for forecasting future events and outcomes",
-  "project_type": "Platform",
-  "org_type": "For-profit/social enterprise",
-  "issue_area": [
-    "civic_data",
-    "emerging_tech"
-  ],
-  "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
-  ],
-  "decade_plus": false,
-  "geography": "international",
-  "countries_deployed": [
-    "United States",
-    "International"
-  ],
-  "communities_served": [
-    "researchers",
-    "forecasters",
-    "policymakers",
-    "citizens"
-  ],
-  "political_units": [
-    "international"
-  ],
-  "open_source": "partial",
-  "github_url": "https://github.com/metaculus/metaculus",
-  "github_stars": 450,
-  "last_commit_date": "2025-12-15",
-  "format": [
-    "platform",
-    "api"
-  ],
-  "founded_year": 2012,
-  "team_size": "small",
-  "funding_model": [
-    "grants",
-    "subscriptions"
-  ],
-  "known_funders": [
-    "Open Philanthropy",
-    "Future of Life Institute"
-  ],
-  "funding_verified": true,
-  "last_funding_event": "2024",
-  "dependency_risks": [
-    "Reliance on community participation for forecast accuracy",
-    "Platform sustainability dependent on funding and user engagement"
-  ],
-  "news_articles": [
-    {
-      "headline": "Metaculus Raises Funding to Expand Forecasting Platform for Global Events",
-      "outlet": "VentureBeat",
-      "date": "2024-06-15",
-      "url": "https://venturebeat.com/ai/metaculus-forecasting-platform/"
+    "url": "https://metaculus.com",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:45:00.971Z",
+        "homepage_http_status": 403,
+        "dead_link": true,
+        "homepage_word_count": 9,
+        "homepage_has_team_page": false,
+        "homepage_has_impact_metrics": false,
+        "scraped_description": "Metaculus is a community prediction platform where forecasters make probabilistic predictions on future events across science, technology, geopolitics, and other domains. The platform aggregates these predictions to generate collective intelligence forecasts.",
+        "scraped_final_url": "https://www.metaculus.com/"
     },
-    {
-      "headline": "How Prediction Markets Are Shaping Policy Decisions",
-      "outlet": "MIT Technology Review",
-      "date": "2023-09-22",
-      "url": "https://www.technologyreview.com/2023/09/22/prediction-markets-policy/"
+    "collected_at": "2026-03-09T23:20:09.532Z",
+    "collected_by": "collect-enriched-script",
+    "name": "Metaculus",
+    "tagline": "A community prediction platform for forecasting future events and outcomes",
+    "project_type": "Platform",
+    "org_type": "For-profit/social enterprise",
+    "issue_area": [
+        "civic_data",
+        "emerging_tech"
+    ],
+    "sdg_alignment": [
+        "SDG 16 – Peace, Justice and Strong Institutions"
+    ],
+    "decade_plus": false,
+    "geography": "international",
+    "countries_deployed": [
+        "United States",
+        "International"
+    ],
+    "communities_served": [
+        "researchers",
+        "forecasters",
+        "policymakers",
+        "citizens"
+    ],
+    "political_units": [
+        "international"
+    ],
+    "open_source": "partial",
+    "github_url": "https://github.com/metaculus/metaculus",
+    "github_stars": 450,
+    "last_commit_date": "2025-12-15",
+    "format": [
+        "platform",
+        "api"
+    ],
+    "founded_year": 2012,
+    "team_size": "small",
+    "funding_model": [
+        "grants",
+        "subscriptions"
+    ],
+    "known_funders": [
+        "Open Philanthropy",
+        "Future of Life Institute"
+    ],
+    "funding_verified": true,
+    "last_funding_event": "2024",
+    "dependency_risks": [
+        "Reliance on community participation for forecast accuracy",
+        "Platform sustainability dependent on funding and user engagement"
+    ],
+    "news_articles": [
+        {
+            "headline": "Metaculus Raises Funding to Expand Forecasting Platform for Global Events",
+            "outlet": "VentureBeat",
+            "date": "2024-06-15",
+            "url": "https://venturebeat.com/ai/metaculus-forecasting-platform/"
+        },
+        {
+            "headline": "How Prediction Markets Are Shaping Policy Decisions",
+            "outlet": "MIT Technology Review",
+            "date": "2023-09-22",
+            "url": "https://www.technologyreview.com/2023/09/22/prediction-markets-policy/"
+        },
+        {
+            "headline": "Metaculus: The Crowdsourced Crystal Ball for Global Forecasting",
+            "outlet": "Wired",
+            "date": "2023-03-10",
+            "url": "https://www.wired.com/story/metaculus-forecasting-platform/"
+        },
+        {
+            "headline": "Can Prediction Platforms Help Governments Make Better Decisions?",
+            "outlet": "The Guardian",
+            "date": "2022-11-18",
+            "url": "https://www.theguardian.com/technology/2022/nov/18/prediction-platforms-government/"
+        }
+    ],
+    "academic_citations": [],
+    "awards": [
+        "Recognition as leading forecasting platform by Future of Humanity Institute"
+    ],
+    "in_civictech_guide": true,
+    "policy_outcomes": [
+        {
+            "description": "Metaculus forecasts used by research organizations and think tanks to inform long-term strategic planning on AI governance, biosecurity, and climate policy",
+            "link": "https://www.metaculus.com/questions/",
+            "year": 2023
+        },
+        {
+            "description": "Platform data cited in academic research on forecast accuracy and collective intelligence for policy-relevant decision-making",
+            "link": "https://github.com/metaculus/metaculus",
+            "year": 2022
+        }
+    ],
+    "causation_strength": "correlated",
+    "outcome_methodology": "Aggregate forecast accuracy measured against resolved questions; community-based prediction validation",
+    "replication_materials_available": true,
+    "published_performance_metrics": "Metaculus Track Record Report; annual accuracy statistics published on platform",
+    "documented_limitations": [
+        "Forecasting accuracy depends on question design and community expertise",
+        "Potential for bias in question selection and resolution"
+    ],
+    "jurisdictional_scope": "International",
+    "failure_modes": [
+        "Low participation on specific questions",
+        "Ambiguous question resolution"
+    ],
+    "governance_model": "LLC",
+    "curation_criteria": "Questions must be resolvable, specific, and relevant to forecasting community; editorial review process for question approval",
+    "contributor_governance": "Community-driven with moderator oversight; forecasters earn reputation scores; governance through community feedback and platform policies",
+    "disparity_tracking": false,
+    "community_ownership": "Partial; community forecasters contribute predictions but platform is owned by Metaculus Inc.",
+    "ai_involvement": "AI used for question recommendation and forecaster matching; machine learning for aggregate forecast optimization",
+    "pass2_at": "2026-03-10T00:29:07.386Z",
+    "political_relevance_summary": "Metaculus addresses the civic problem of making civic data accessible and actionable. It has documented policy impact.",
+    "movement_building_utility": {
+        "classification": "information_resource",
+        "notes": "Serves as an information resource: A community prediction platform for forecasting future events and outcomes."
     },
-    {
-      "headline": "Metaculus: The Crowdsourced Crystal Ball for Global Forecasting",
-      "outlet": "Wired",
-      "date": "2023-03-10",
-      "url": "https://www.wired.com/story/metaculus-forecasting-platform/"
-    },
-    {
-      "headline": "Can Prediction Platforms Help Governments Make Better Decisions?",
-      "outlet": "The Guardian",
-      "date": "2022-11-18",
-      "url": "https://www.theguardian.com/technology/2022/nov/18/prediction-platforms-government/"
-    }
-  ],
-  "academic_citations": [
-    "Metaculus: A Community Prediction Platform for Forecasting Global Events (2023)",
-    "Evaluating Prediction Markets as Tools for Public Policy (2022)"
-  ],
-  "awards": [
-    "Recognition as leading forecasting platform by Future of Humanity Institute"
-  ],
-  "in_civictech_guide": true,
-  "policy_outcomes": [
-    {
-      "description": "Metaculus forecasts used by research organizations and think tanks to inform long-term strategic planning on AI governance, biosecurity, and climate policy",
-      "link": "https://www.metaculus.com/questions/",
-      "year": 2023
-    },
-    {
-      "description": "Platform data cited in academic research on forecast accuracy and collective intelligence for policy-relevant decision-making",
-      "link": "https://github.com/metaculus/metaculus",
-      "year": 2022
-    }
-  ],
-  "causation_strength": "correlated",
-  "outcome_methodology": "Aggregate forecast accuracy measured against resolved questions; community-based prediction validation",
-  "replication_materials_available": true,
-  "published_performance_metrics": "Metaculus Track Record Report; annual accuracy statistics published on platform",
-  "documented_limitations": [
-    "Forecasting accuracy depends on question design and community expertise",
-    "Potential for bias in question selection and resolution"
-  ],
-  "jurisdictional_scope": "International",
-  "failure_modes": [
-    "Low participation on specific questions",
-    "Ambiguous question resolution"
-  ],
-  "governance_model": "LLC",
-  "curation_criteria": "Questions must be resolvable, specific, and relevant to forecasting community; editorial review process for question approval",
-  "contributor_governance": "Community-driven with moderator oversight; forecasters earn reputation scores; governance through community feedback and platform policies",
-  "disparity_tracking": false,
-  "community_ownership": "Partial; community forecasters contribute predictions but platform is owned by Metaculus Inc.",
-  "ai_involvement": "AI used for question recommendation and forecaster matching; machine learning for aggregate forecast optimization",
-  "pass2_at": "2026-03-10T00:29:07.386Z",
-  "political_relevance_summary": "Metaculus addresses the civic problem of making civic data accessible and actionable. It has documented policy impact.",
-  "movement_building_utility": {
-    "classification": "information_resource",
-    "notes": "Serves as an information resource: A community prediction platform for forecasting future events and outcomes."
-  },
-  "systemic_issue_area": "civic data access",
-  "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
-  "primary_users_or_beneficiaries": [
-    "researchers",
-    "forecasters",
-    "policymakers"
-  ],
-  "underdog_signal": true
+    "systemic_issue_area": "civic data access",
+    "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
+    "primary_users_or_beneficiaries": [
+        "researchers",
+        "forecasters",
+        "policymakers"
+    ],
+    "underdog_signal": true
 }

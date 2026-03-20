@@ -1,159 +1,153 @@
 {
-  "url": "https://www.martus.org",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:47:07.793Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 888,
-    "homepage_has_team_page": true,
-    "homepage_has_impact_metrics": false,
-    "scraped_description": "Individuals and groups who protect human rights and civil liberties work in environments where resources are scarce and adversaries often have the upper hand. Martus is a free, open source, secure information collection and management tool that empowers these rights activists to be stronger in their fight against injustice and abuse.",
-    "scraped_final_url": "https://www.martus.org/"
-  },
-  "collected_at": "2026-03-09T23:20:58.024Z",
-  "collected_by": "collect-enriched-script",
-  "name": "Martus",
-  "tagline": "Free, open source secure information collection and management tool for human rights activists",
-  "project_type": "Tool/Platform",
-  "org_type": "Nonprofit/charity",
-  "issue_area": [
-    "advocacy_tech",
-    "digital_rights",
-    "civic_data"
-  ],
-  "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
-  ],
-  "decade_plus": true,
-  "geography": "international",
-  "countries_deployed": [
-    "Afghanistan",
-    "Argentina",
-    "Belarus",
-    "Brazil",
-    "Burma",
-    "Cambodia",
-    "Colombia",
-    "Democratic Republic of Congo",
-    "Egypt",
-    "El Salvador",
-    "Ethiopia",
-    "Georgia",
-    "Ghana",
-    "Guatemala",
-    "Haiti",
-    "Honduras",
-    "India",
-    "Indonesia",
-    "Iran",
-    "Iraq",
-    "Kenya",
-    "Kyrgyzstan",
-    "Laos",
-    "Lebanon",
-    "Liberia",
-    "Mexico",
-    "Nepal",
-    "Nigeria",
-    "Pakistan",
-    "Palestine",
-    "Peru",
-    "Philippines",
-    "Russia",
-    "Rwanda",
-    "Sierra Leone",
-    "South Africa",
-    "South Sudan",
-    "Sri Lanka",
-    "Sudan",
-    "Syria",
-    "Thailand",
-    "Timor-Leste",
-    "Turkey",
-    "Uganda",
-    "Ukraine",
-    "Venezuela",
-    "Vietnam",
-    "Yemen",
-    "Zimbabwe"
-  ],
-  "communities_served": [
-    "human rights activists",
-    "NGOs",
-    "civil liberties organizations",
-    "researchers",
-    "investigators"
-  ],
-  "political_units": [
-    "international"
-  ],
-  "open_source": "yes",
-  "github_url": "https://github.com/benetech/martus.martus-client",
-  "github_stars": 89,
-  "last_commit_date": "2018-05-31",
-  "format": [
-    "app",
-    "platform"
-  ],
-  "founded_year": 2003,
-  "team_size": "small",
-  "funding_model": [
-    "grants"
-  ],
-  "known_funders": [
-    "Benetech"
-  ],
-  "funding_verified": true,
-  "last_funding_event": "2018",
-  "dependency_risks": [
-    "Platform no longer actively maintained as of May 2018",
-    "Benetech ceased updates and support",
-    "Server infrastructure will eventually be discontinued",
-    "No security patches for newly discovered vulnerabilities"
-  ],
-  "news_articles": [
-    "Martus: A Tool for Human Rights Documentation (Benetech)",
-    "Open Source Tools for Human Rights Activists (various outlets)"
-  ],
-  "academic_citations": [
-    "Martus as a case study in human rights technology",
-    "Documentation of secure information collection tools"
-  ],
-  "in_civictech_guide": false,
-  "replication_materials_available": true,
-  "documented_limitations": [
-    "No longer receiving security updates or maintenance",
-    "Unsupported platform with growing technical demands",
-    "Server infrastructure will eventually be discontinued",
-    "Users advised to re-evaluate threat model given lack of support"
-  ],
-  "jurisdictional_scope": "international",
-  "failure_modes": [
-    "Discontinued development and support",
-    "Inability to keep pace with evolving security threats",
-    "Planned server shutdown"
-  ],
-  "governance_model": "project_of_larger_org",
-  "contributor_governance": "managed by Benetech",
-  "community_ownership": false,
-  "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:47.052Z",
-  "pass5_at": "2026-03-10T00:56:31.379Z",
-  "pass5_jina_words": 781,
-  "pass5_changes": [],
-  "political_relevance_summary": "Martus addresses empowering advocacy and civic campaigning and protecting digital rights and privacy.",
-  "movement_building_utility": {
-    "classification": "direct_organizer_tool",
-    "notes": "Directly supports organizers/campaigners through Free, open source secure information collection and management tool for human rights activists."
-  },
-  "systemic_issue_area": "human rights documentation",
-  "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
-  "primary_users_or_beneficiaries": [
-    "human rights activists",
-    "NGOs",
-    "civil liberties organizations",
-    "researchers",
-    "investigators"
-  ],
-  "underdog_signal": true
+    "url": "https://www.martus.org",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:47:07.793Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 888,
+        "homepage_has_team_page": true,
+        "homepage_has_impact_metrics": false,
+        "scraped_description": "Individuals and groups who protect human rights and civil liberties work in environments where resources are scarce and adversaries often have the upper hand. Martus is a free, open source, secure information collection and management tool that empowers these rights activists to be stronger in their fight against injustice and abuse.",
+        "scraped_final_url": "https://www.martus.org/"
+    },
+    "collected_at": "2026-03-09T23:20:58.024Z",
+    "collected_by": "collect-enriched-script",
+    "name": "Martus",
+    "tagline": "Free, open source secure information collection and management tool for human rights activists",
+    "project_type": "Tool/Platform",
+    "org_type": "Nonprofit/charity",
+    "issue_area": [
+        "advocacy_tech",
+        "digital_rights",
+        "civic_data"
+    ],
+    "sdg_alignment": [
+        "SDG 16 – Peace, Justice and Strong Institutions"
+    ],
+    "decade_plus": true,
+    "geography": "international",
+    "countries_deployed": [
+        "Afghanistan",
+        "Argentina",
+        "Belarus",
+        "Brazil",
+        "Burma",
+        "Cambodia",
+        "Colombia",
+        "Democratic Republic of Congo",
+        "Egypt",
+        "El Salvador",
+        "Ethiopia",
+        "Georgia",
+        "Ghana",
+        "Guatemala",
+        "Haiti",
+        "Honduras",
+        "India",
+        "Indonesia",
+        "Iran",
+        "Iraq",
+        "Kenya",
+        "Kyrgyzstan",
+        "Laos",
+        "Lebanon",
+        "Liberia",
+        "Mexico",
+        "Nepal",
+        "Nigeria",
+        "Pakistan",
+        "Palestine",
+        "Peru",
+        "Philippines",
+        "Russia",
+        "Rwanda",
+        "Sierra Leone",
+        "South Africa",
+        "South Sudan",
+        "Sri Lanka",
+        "Sudan",
+        "Syria",
+        "Thailand",
+        "Timor-Leste",
+        "Turkey",
+        "Uganda",
+        "Ukraine",
+        "Venezuela",
+        "Vietnam",
+        "Yemen",
+        "Zimbabwe"
+    ],
+    "communities_served": [
+        "human rights activists",
+        "NGOs",
+        "civil liberties organizations",
+        "researchers",
+        "investigators"
+    ],
+    "political_units": [
+        "international"
+    ],
+    "open_source": "yes",
+    "github_url": "https://github.com/benetech/martus.martus-client",
+    "github_stars": 89,
+    "last_commit_date": "2018-05-31",
+    "format": [
+        "app",
+        "platform"
+    ],
+    "founded_year": 2003,
+    "team_size": "small",
+    "funding_model": [
+        "grants"
+    ],
+    "known_funders": [
+        "Benetech"
+    ],
+    "funding_verified": true,
+    "last_funding_event": "2018",
+    "dependency_risks": [
+        "Platform no longer actively maintained as of May 2018",
+        "Benetech ceased updates and support",
+        "Server infrastructure will eventually be discontinued",
+        "No security patches for newly discovered vulnerabilities"
+    ],
+    "news_articles": [],
+    "academic_citations": [],
+    "in_civictech_guide": false,
+    "replication_materials_available": true,
+    "documented_limitations": [
+        "No longer receiving security updates or maintenance",
+        "Unsupported platform with growing technical demands",
+        "Server infrastructure will eventually be discontinued",
+        "Users advised to re-evaluate threat model given lack of support"
+    ],
+    "jurisdictional_scope": "international",
+    "failure_modes": [
+        "Discontinued development and support",
+        "Inability to keep pace with evolving security threats",
+        "Planned server shutdown"
+    ],
+    "governance_model": "project_of_larger_org",
+    "contributor_governance": "managed by Benetech",
+    "community_ownership": false,
+    "ai_involvement": false,
+    "pass2_at": "2026-03-09T23:21:47.052Z",
+    "pass5_at": "2026-03-10T00:56:31.379Z",
+    "pass5_jina_words": 781,
+    "pass5_changes": [],
+    "political_relevance_summary": "Martus addresses empowering advocacy and civic campaigning and protecting digital rights and privacy.",
+    "movement_building_utility": {
+        "classification": "direct_organizer_tool",
+        "notes": "Directly supports organizers/campaigners through Free, open source secure information collection and management tool for human rights activists."
+    },
+    "systemic_issue_area": "human rights documentation",
+    "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
+    "primary_users_or_beneficiaries": [
+        "human rights activists",
+        "NGOs",
+        "civil liberties organizations",
+        "researchers",
+        "investigators"
+    ],
+    "underdog_signal": true
 }

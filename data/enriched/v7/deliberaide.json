@@ -1,108 +1,108 @@
 {
-  "url": "https://www.deliberaide.com",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:46:53.513Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 816,
-    "homepage_has_team_page": false,
-    "homepage_has_impact_metrics": false,
-    "scraped_description": "Empowering democracy through AI",
-    "scraped_final_url": "https://www.deliberaide.com/"
-  },
-  "collected_at": "2026-03-09T23:20:54.043Z",
-  "collected_by": "collect-enriched-script",
-  "name": "deliberAIde",
-  "tagline": "Human-Centred AI That Supports Dialogue at Every Step",
-  "project_type": "Tool/Platform",
-  "org_type": "For-profit/social enterprise",
-  "issue_area": [
-    "participatory_democracy",
-    "govtech",
-    "emerging_tech"
-  ],
-  "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
-  ],
-  "decade_plus": false,
-  "geography": "international",
-  "countries_deployed": [
-    "United Kingdom",
-    "European Union",
-    "Canada",
-    "Australia"
-  ],
-  "communities_served": [
-    "governments",
-    "organizations",
-    "communities",
-    "citizens"
-  ],
-  "political_units": [
-    "federal",
-    "international"
-  ],
-  "open_source": "no",
-  "format": [
-    "platform",
-    "api"
-  ],
-  "founded_year": 2019,
-  "team_size": "small",
-  "funding_model": "B2B SaaS, government contracts, grants",
-  "known_funders": [
-    "Nesta",
-    "UK Government Digital Service",
-    "European Commission"
-  ],
-  "funding_verified": true,
-  "last_funding_event": "2023",
-  "dependency_risks": "Proprietary platform dependency; reliance on third-party language models and cloud infrastructure",
-  "news_articles": [
-    "https://www.nesta.org.uk/project/deliberaide/",
-    "https://www.civictech.guide/projects/deliberaide/"
-  ],
-  "academic_citations": "Limited peer-reviewed publications; primarily case studies and practitioner reports",
-  "awards": [
-    "Nesta Innovation in Democracy Award"
-  ],
-  "in_civictech_guide": true,
-  "policy_outcomes": "Used in UK government consultations and EU participatory processes; contributes to evidence-based policymaking through structured dialogue analysis",
-  "causation_strength": "correlated",
-  "outcome_methodology": "Case study analysis, participant feedback surveys, policy adoption tracking",
-  "replication_materials_available": false,
-  "published_performance_metrics": "Proprietary metrics; limited public performance data",
-  "documented_limitations": "Language model biases in non-English contexts; potential for algorithmic bias in theme clustering; limited transparency on training data",
-  "jurisdictional_scope": "International with focus on UK and EU",
-  "failure_modes": "Language processing errors in minority languages; potential misrepresentation of nuanced dialogue; dependency on quality of input data",
-  "governance_model": "LLC",
-  "curation_criteria": "AI-assisted moderation with human oversight; customizable content policies per deployment",
-  "contributor_governance": "Closed development model; no public contribution process",
-  "disparity_tracking": "Limited documented equity analysis; platform designed for accessibility but no published disparity assessments",
-  "community_ownership": "No community ownership model; corporate-controlled platform",
-  "legal_regulatory_issues": "Subject to GDPR compliance; data protection considerations for dialogue transcripts",
-  "government_partnerships": [
-    "UK Government Digital Service",
-    "European Commission",
-    "Local government authorities in UK"
-  ],
-  "ai_involvement": "AI-powered platform with real-time transcription in 100+ languages, automatic anonymization, translation, theme clustering, custom tagging, and interactive visualization",
-  "pass2_at": "2026-03-09T23:21:47.268Z",
-  "pass5_at": "2026-03-10T00:54:19.240Z",
-  "pass5_jina_words": 479,
-  "pass5_changes": [],
-  "political_relevance_summary": "deliberAIde addresses democratic participation and citizen engagement. Human-Centred AI That Supports Dialogue at Every Step.",
-  "movement_building_utility": {
-    "classification": "direct_organizer_tool",
-    "notes": "Platform for participatory democracy or deliberation that enables collective action."
-  },
-  "systemic_issue_area": "democratic participation access",
-  "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Proprietary or closed-source; replication requires licensing.",
-  "primary_users_or_beneficiaries": [
-    "governments",
-    "organizations",
-    "communities",
-    "citizens"
-  ],
-  "underdog_signal": true
+    "url": "https://www.deliberaide.com",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:46:53.513Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 816,
+        "homepage_has_team_page": false,
+        "homepage_has_impact_metrics": false,
+        "scraped_description": "Empowering democracy through AI",
+        "scraped_final_url": "https://www.deliberaide.com/"
+    },
+    "collected_at": "2026-03-09T23:20:54.043Z",
+    "collected_by": "collect-enriched-script",
+    "name": "deliberAIde",
+    "tagline": "Human-Centred AI That Supports Dialogue at Every Step",
+    "project_type": "Tool/Platform",
+    "org_type": "For-profit/social enterprise",
+    "issue_area": [
+        "participatory_democracy",
+        "govtech",
+        "emerging_tech"
+    ],
+    "sdg_alignment": [
+        "SDG 16 – Peace, Justice and Strong Institutions"
+    ],
+    "decade_plus": false,
+    "geography": "international",
+    "countries_deployed": [
+        "United Kingdom",
+        "European Union",
+        "Canada",
+        "Australia"
+    ],
+    "communities_served": [
+        "governments",
+        "organizations",
+        "communities",
+        "citizens"
+    ],
+    "political_units": [
+        "federal",
+        "international"
+    ],
+    "open_source": "no",
+    "format": [
+        "platform",
+        "api"
+    ],
+    "founded_year": 2019,
+    "team_size": "small",
+    "funding_model": "B2B SaaS, government contracts, grants",
+    "known_funders": [
+        "Nesta",
+        "UK Government Digital Service",
+        "European Commission"
+    ],
+    "funding_verified": true,
+    "last_funding_event": "2023",
+    "dependency_risks": "Proprietary platform dependency; reliance on third-party language models and cloud infrastructure",
+    "news_articles": [
+        "https://www.nesta.org.uk/project/deliberaide/",
+        "https://www.civictech.guide/projects/deliberaide/"
+    ],
+    "academic_citations": [],
+    "awards": [
+        "Nesta Innovation in Democracy Award"
+    ],
+    "in_civictech_guide": true,
+    "policy_outcomes": "Used in UK government consultations and EU participatory processes; contributes to evidence-based policymaking through structured dialogue analysis",
+    "causation_strength": "correlated",
+    "outcome_methodology": "Case study analysis, participant feedback surveys, policy adoption tracking",
+    "replication_materials_available": false,
+    "published_performance_metrics": "Proprietary metrics; limited public performance data",
+    "documented_limitations": "Language model biases in non-English contexts; potential for algorithmic bias in theme clustering; limited transparency on training data",
+    "jurisdictional_scope": "International with focus on UK and EU",
+    "failure_modes": "Language processing errors in minority languages; potential misrepresentation of nuanced dialogue; dependency on quality of input data",
+    "governance_model": "LLC",
+    "curation_criteria": "AI-assisted moderation with human oversight; customizable content policies per deployment",
+    "contributor_governance": "Closed development model; no public contribution process",
+    "disparity_tracking": "Limited documented equity analysis; platform designed for accessibility but no published disparity assessments",
+    "community_ownership": "No community ownership model; corporate-controlled platform",
+    "legal_regulatory_issues": "Subject to GDPR compliance; data protection considerations for dialogue transcripts",
+    "government_partnerships": [
+        "UK Government Digital Service",
+        "European Commission",
+        "Local government authorities in UK"
+    ],
+    "ai_involvement": "AI-powered platform with real-time transcription in 100+ languages, automatic anonymization, translation, theme clustering, custom tagging, and interactive visualization",
+    "pass2_at": "2026-03-09T23:21:47.268Z",
+    "pass5_at": "2026-03-10T00:54:19.240Z",
+    "pass5_jina_words": 479,
+    "pass5_changes": [],
+    "political_relevance_summary": "deliberAIde addresses democratic participation and citizen engagement. Human-Centred AI That Supports Dialogue at Every Step.",
+    "movement_building_utility": {
+        "classification": "direct_organizer_tool",
+        "notes": "Platform for participatory democracy or deliberation that enables collective action."
+    },
+    "systemic_issue_area": "democratic participation access",
+    "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Proprietary or closed-source; replication requires licensing.",
+    "primary_users_or_beneficiaries": [
+        "governments",
+        "organizations",
+        "communities",
+        "citizens"
+    ],
+    "underdog_signal": true
 }

@@ -1,149 +1,146 @@
 {
-  "url": "https://secfirst.org",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T13:07:59.850Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 1200,
-    "homepage_has_team_page": true,
-    "homepage_has_impact_metrics": false,
-    "scraped_description": "Security First develops Umbrella, a free open source digital and physical security handbook app for journalists, activists, NGO staff, and people working in high-risk environments.",
-    "scraped_final_url": "https://secfirst.org"
-  },
-  "collected_at": "2026-03-09T22:00:00Z",
-  "collected_by": "nano-bot",
-  "name": "Security First / Umbrella",
-  "tagline": "Free, open source digital and physical security handbook app for journalists, activists, NGO staff, and people working in high-risk environments.",
-  "project_type": "Tool/Platform",
-  "org_type": "Nonprofit/charity",
-  "issue_area": [
-    "digital security",
-    "physical security",
-    "press freedom",
-    "human rights",
-    "activist safety"
-  ],
-  "sdg_alignment": [
-    "SDG 16 - Peace, Justice and Strong Institutions",
-    "SDG 10 - Reduced Inequalities",
-    "SDG 17 - Partnerships for the Goals"
-  ],
-  "decade_plus": false,
-  "geography": "international",
-  "countries_deployed": [
-    "global — deployed in high-risk countries across Africa, Middle East, Eastern Europe"
-  ],
-  "communities_served": [
-    "journalists",
-    "activists",
-    "NGO staff",
-    "diplomats",
-    "human rights defenders"
-  ],
-  "open_source": "yes",
-  "github_url": "https://github.com/securityfirst/Umbrella_android",
-  "github_stars": 288,
-  "last_commit_date": "2024-2025",
-  "format": [
-    "Android app",
-    "iOS app",
-    "web app",
-    "CMS (Tent)"
-  ],
-  "founded_year": 2013,
-  "team_size": "small",
-  "funding_model": [
-    "grants",
-    "paid training and consultancy",
-    "white-label licensing"
-  ],
-  "known_funders": [
-    "Open Technology Fund"
-  ],
-  "funding_verified": true,
-  "last_funding_event": "Open Technology Fund grants (ongoing)",
-  "dependency_risks": [
-    "small team",
-    "grant dependency",
-    "content freshness in fast-changing threat landscapes"
-  ],
-  "policy_outcomes": [
-    {
-      "description": "Umbrella adopted by international press freedom organizations and human rights groups as recommended security tool for journalists in conflict zones and restrictive environments",
-      "link": "https://secfirst.org",
-      "year": 2015
+    "url": "https://secfirst.org",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T13:07:59.850Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 1200,
+        "homepage_has_team_page": true,
+        "homepage_has_impact_metrics": false,
+        "scraped_description": "Security First develops Umbrella, a free open source digital and physical security handbook app for journalists, activists, NGO staff, and people working in high-risk environments.",
+        "scraped_final_url": "https://secfirst.org"
     },
-    {
-      "description": "Security First training materials integrated into digital security curricula by international NGOs and press freedom organizations working with at-risk journalists",
-      "link": "https://github.com/securityfirst/Umbrella_android",
-      "year": 2018
-    }
-  ],
-  "causation_strength": "correlated",
-  "news_articles": [
-    {
-      "headline": "How Umbrella App Protects Journalists in Dangerous Regions",
-      "outlet": "Wired",
-      "date": "2016-03-15",
-      "url": "https://www.wired.com/2016/03/umbrella-app-journalists/"
+    "collected_at": "2026-03-09T22:00:00Z",
+    "collected_by": "nano-bot",
+    "name": "Security First / Umbrella",
+    "tagline": "Free, open source digital and physical security handbook app for journalists, activists, NGO staff, and people working in high-risk environments.",
+    "project_type": "Tool/Platform",
+    "org_type": "Nonprofit/charity",
+    "issue_area": [
+        "digital security",
+        "physical security",
+        "press freedom",
+        "human rights",
+        "activist safety"
+    ],
+    "sdg_alignment": [
+        "SDG 16 - Peace, Justice and Strong Institutions",
+        "SDG 10 - Reduced Inequalities",
+        "SDG 17 - Partnerships for the Goals"
+    ],
+    "decade_plus": false,
+    "geography": "international",
+    "countries_deployed": [
+        "global — deployed in high-risk countries across Africa, Middle East, Eastern Europe"
+    ],
+    "communities_served": [
+        "journalists",
+        "activists",
+        "NGO staff",
+        "diplomats",
+        "human rights defenders"
+    ],
+    "open_source": "yes",
+    "github_url": "https://github.com/securityfirst/Umbrella_android",
+    "github_stars": 288,
+    "last_commit_date": "2024-2025",
+    "format": [
+        "Android app",
+        "iOS app",
+        "web app",
+        "CMS (Tent)"
+    ],
+    "founded_year": 2013,
+    "team_size": "small",
+    "funding_model": [
+        "grants",
+        "paid training and consultancy",
+        "white-label licensing"
+    ],
+    "known_funders": [
+        "Open Technology Fund"
+    ],
+    "funding_verified": true,
+    "last_funding_event": "Open Technology Fund grants (ongoing)",
+    "dependency_risks": [
+        "small team",
+        "grant dependency",
+        "content freshness in fast-changing threat landscapes"
+    ],
+    "policy_outcomes": [
+        {
+            "description": "Umbrella adopted by international press freedom organizations and human rights groups as recommended security tool for journalists in conflict zones and restrictive environments",
+            "link": "https://secfirst.org",
+            "year": 2015
+        },
+        {
+            "description": "Security First training materials integrated into digital security curricula by international NGOs and press freedom organizations working with at-risk journalists",
+            "link": "https://github.com/securityfirst/Umbrella_android",
+            "year": 2018
+        }
+    ],
+    "causation_strength": "correlated",
+    "news_articles": [
+        {
+            "headline": "How Umbrella App Protects Journalists in Dangerous Regions",
+            "outlet": "Wired",
+            "date": "2016-03-15",
+            "url": "https://www.wired.com/2016/03/umbrella-app-journalists/"
+        },
+        {
+            "headline": "Security First's Umbrella: Open Source Safety for Activists",
+            "outlet": "The Guardian",
+            "date": "2017-11-22",
+            "url": "https://www.theguardian.com/technology/2017/nov/22/umbrella-security-app"
+        },
+        {
+            "headline": "Digital Security Tools Empower Journalists in High-Risk Countries",
+            "outlet": "TechCrunch",
+            "date": "2018-05-10",
+            "url": "https://techcrunch.com/2018/05/10/digital-security-tools/"
+        }
+    ],
+    "academic_citations": [],
+    "awards": [
+        "Recognition from press freedom and digital rights organizations"
+    ],
+    "in_civictech_guide": false,
+    "wikipedia_page": false,
+    "replication_materials_available": true,
+    "documented_limitations": [
+        "guides cover 40+ topics but threat landscape evolves rapidly",
+        "app adoption metrics not publicly disclosed"
+    ],
+    "jurisdictional_scope": "global",
+    "failure_modes": [
+        "content staleness",
+        "funding loss",
+        "app store removal in restrictive jurisdictions",
+        "small team bus factor"
+    ],
+    "governance_model": "NGO with co-founders; open source content and code; community contributions welcomed",
+    "curation_criteria": "content follows industry-leading 35-module security training framework",
+    "contributor_governance": "open GitHub; content-as-code standard; responsible disclosure policy published",
+    "disparity_tracking": "Not explicitly tracked; serves marginalized communities (journalists, activists in high-risk regions)",
+    "community_ownership": "Community contributions welcomed through open source model; content-as-code approach enables community input",
+    "ai_involvement": "No AI/machine learning components; rule-based security guidance framework",
+    "pass2_at": "2026-03-10T00:27:58.343Z",
+    "pass5_at": "2026-03-10T00:51:42.271Z",
+    "pass5_jina_words": 259,
+    "pass5_changes": [],
+    "political_relevance_summary": "Security First / Umbrella addresses civic technology. Free, open source digital and physical security handbook app for journalists, activists, NGO staff, and people working in high-risk environments.",
+    "movement_building_utility": {
+        "classification": "information_resource",
+        "notes": "Provides data, research, or educational resources for civic engagement."
     },
-    {
-      "headline": "Security First's Umbrella: Open Source Safety for Activists",
-      "outlet": "The Guardian",
-      "date": "2017-11-22",
-      "url": "https://www.theguardian.com/technology/2017/nov/22/umbrella-security-app"
-    },
-    {
-      "headline": "Digital Security Tools Empower Journalists in High-Risk Countries",
-      "outlet": "TechCrunch",
-      "date": "2018-05-10",
-      "url": "https://techcrunch.com/2018/05/10/digital-security-tools/"
-    }
-  ],
-  "academic_citations": [
-    "Cited in digital security and press freedom research",
-    "Referenced in human rights technology studies"
-  ],
-  "awards": [
-    "Recognition from press freedom and digital rights organizations"
-  ],
-  "in_civictech_guide": false,
-  "wikipedia_page": false,
-  "replication_materials_available": true,
-  "documented_limitations": [
-    "guides cover 40+ topics but threat landscape evolves rapidly",
-    "app adoption metrics not publicly disclosed"
-  ],
-  "jurisdictional_scope": "global",
-  "failure_modes": [
-    "content staleness",
-    "funding loss",
-    "app store removal in restrictive jurisdictions",
-    "small team bus factor"
-  ],
-  "governance_model": "NGO with co-founders; open source content and code; community contributions welcomed",
-  "curation_criteria": "content follows industry-leading 35-module security training framework",
-  "contributor_governance": "open GitHub; content-as-code standard; responsible disclosure policy published",
-  "disparity_tracking": "Not explicitly tracked; serves marginalized communities (journalists, activists in high-risk regions)",
-  "community_ownership": "Community contributions welcomed through open source model; content-as-code approach enables community input",
-  "ai_involvement": "No AI/machine learning components; rule-based security guidance framework",
-  "pass2_at": "2026-03-10T00:27:58.343Z",
-  "pass5_at": "2026-03-10T00:51:42.271Z",
-  "pass5_jina_words": 259,
-  "pass5_changes": [],
-  "political_relevance_summary": "Security First / Umbrella addresses civic technology. Free, open source digital and physical security handbook app for journalists, activists, NGO staff, and people working in high-risk environments.",
-  "movement_building_utility": {
-    "classification": "information_resource",
-    "notes": "Provides data, research, or educational resources for civic engagement."
-  },
-  "systemic_issue_area": "civic technology infrastructure",
-  "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions; replication materials are available.",
-  "primary_users_or_beneficiaries": [
-    "investigative journalists",
-    "activists",
-    "ngo staff",
-    "diplomats",
-    "human rights defenders"
-  ],
-  "underdog_signal": true
+    "systemic_issue_area": "civic technology infrastructure",
+    "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions; replication materials are available.",
+    "primary_users_or_beneficiaries": [
+        "investigative journalists",
+        "activists",
+        "ngo staff",
+        "diplomats",
+        "human rights defenders"
+    ],
+    "underdog_signal": true
 }

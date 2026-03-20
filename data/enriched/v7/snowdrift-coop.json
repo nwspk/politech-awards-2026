@@ -1,130 +1,126 @@
 {
-  "url": "https://snowdrift.coop",
-  "collected_at": "2026-03-09T22:00:00Z",
-  "collected_by": "nano-bot",
-  "name": "Snowdrift.coop",
-  "tagline": "Crowdmatching for public goods",
-  "project_type": "Platform",
-  "org_type": "Nonprofit/charity",
-  "issue_area": [
-    "open source sustainability",
-    "public goods funding",
-    "digital commons",
-    "cooperative economics"
-  ],
-  "sdg_alignment": [
-    "SDG 9: Industry, Innovation and Infrastructure",
-    "SDG 17: Partnerships for the Goals"
-  ],
-  "decade_plus": false,
-  "geography": "international",
-  "countries_deployed": [
-    "United States"
-  ],
-  "communities_served": [
-    "free/libre/open source developers",
-    "digital public goods creators",
-    "open source patrons"
-  ],
-  "political_units": [
-    "United States (federal)"
-  ],
-  "open_source": "yes",
-  "github_url": "https://codeberg.org/snowdrift/snowdrift",
-  "github_stars": 4,
-  "last_commit_date": "2025-11-20",
-  "format": [
-    "web platform",
-    "crowdfunding",
-    "cooperative membership"
-  ],
-  "founded_year": 2013,
-  "team_size": "small",
-  "funding_model": [
-    "patron donations",
-    "crowdmatching pledges",
-    "grants",
-    "direct donations"
-  ],
-  "known_funders": [
-    "Aleph Objects Inc.",
-    "Linux Fund",
-    "People Who Give a Damn"
-  ],
-  "funding_verified": true,
-  "last_funding_event": "2014 fund-drive (pre-launch sponsors)",
-  "dependency_risks": [
-    "still in alpha",
-    "small team",
-    "slow development pace",
-    "relies on volunteer contributions"
-  ],
-  "news_articles": [
-    "Snowdrift.coop coverage in open source and cooperative economics publications"
-  ],
-  "academic_citations": [
-    "Referenced in public goods funding and cooperative economics literature"
-  ],
-  "awards": [],
-  "in_civictech_guide": false,
-  "wikipedia_page": false,
-  "policy_outcomes": [],
-  "causation_strength": "not applicable - funding platform without direct policy outcomes",
-  "outcome_methodology": "not applicable",
-  "replication_materials_available": true,
-  "preregistered_studies": [],
-  "published_performance_metrics": [
-    "Patron count",
-    "Crowdmatching pledge amounts",
-    "Project funding success rates"
-  ],
-  "documented_limitations": [
-    "alpha status — not yet launched full crowdmatching",
-    "outside projects not yet enabled",
-    "small patron base"
-  ],
-  "jurisdictional_scope": "global",
-  "failure_modes": [
-    "coordination failure if patron base stays small",
-    "free-rider problem (the problem it aims to solve)",
-    "sustained underfunding"
-  ],
-  "governance_model": "cooperative",
-  "curation_criteria": "projects must be free/libre/open (FLO)",
-  "contributor_governance": "open source; community forum; governance repo on Codeberg",
-  "disparity_tracking": false,
-  "community_ownership": "patron-members co-own the cooperative",
-  "controversies": [],
-  "political_bias_allegations": false,
-  "legal_regulatory_issues": [],
-  "elections_used_in": [],
-  "government_partnerships": [],
-  "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:41.688Z",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:46:15.503Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 196,
-    "homepage_has_team_page": true,
-    "homepage_has_impact_metrics": false,
-    "scraped_description": "We support works that everyone can use, adapt, and share freely. But as\npublic goods, anyone can freeride. And that presents a dilemma in\ngetting funded. Our innovative platform brings people together to\naddress this problem.",
-    "scraped_final_url": "https://snowdrift.coop/"
-  },
-  "pass5_at": "2026-03-10T01:00:51.175Z",
-  "pass5_jina_words": 136,
-  "pass5_changes": [],
-  "political_relevance_summary": "Snowdrift.coop addresses civic technology. Crowdmatching for public goods.",
-  "movement_building_utility": {
-    "classification": "indirect_or_none",
-    "notes": "Indirect or tangential connection to political movement building."
-  },
-  "systemic_issue_area": "civic technology infrastructure",
-  "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions; replication materials are available.",
-  "primary_users_or_beneficiaries": [
-    "free/libre/open source developers",
-    "digital public goods creators",
-    "open source patrons"
-  ],
-  "underdog_signal": true
+    "url": "https://snowdrift.coop",
+    "collected_at": "2026-03-09T22:00:00Z",
+    "collected_by": "nano-bot",
+    "name": "Snowdrift.coop",
+    "tagline": "Crowdmatching for public goods",
+    "project_type": "Platform",
+    "org_type": "Nonprofit/charity",
+    "issue_area": [
+        "open source sustainability",
+        "public goods funding",
+        "digital commons",
+        "cooperative economics"
+    ],
+    "sdg_alignment": [
+        "SDG 9: Industry, Innovation and Infrastructure",
+        "SDG 17: Partnerships for the Goals"
+    ],
+    "decade_plus": false,
+    "geography": "international",
+    "countries_deployed": [
+        "United States"
+    ],
+    "communities_served": [
+        "free/libre/open source developers",
+        "digital public goods creators",
+        "open source patrons"
+    ],
+    "political_units": [
+        "United States (federal)"
+    ],
+    "open_source": "yes",
+    "github_url": "https://codeberg.org/snowdrift/snowdrift",
+    "github_stars": 4,
+    "last_commit_date": "2025-11-20",
+    "format": [
+        "web platform",
+        "crowdfunding",
+        "cooperative membership"
+    ],
+    "founded_year": 2013,
+    "team_size": "small",
+    "funding_model": [
+        "patron donations",
+        "crowdmatching pledges",
+        "grants",
+        "direct donations"
+    ],
+    "known_funders": [
+        "Aleph Objects Inc.",
+        "Linux Fund",
+        "People Who Give a Damn"
+    ],
+    "funding_verified": true,
+    "last_funding_event": "2014 fund-drive (pre-launch sponsors)",
+    "dependency_risks": [
+        "still in alpha",
+        "small team",
+        "slow development pace",
+        "relies on volunteer contributions"
+    ],
+    "news_articles": [],
+    "academic_citations": [],
+    "awards": [],
+    "in_civictech_guide": false,
+    "wikipedia_page": false,
+    "policy_outcomes": [],
+    "causation_strength": "not applicable - funding platform without direct policy outcomes",
+    "outcome_methodology": "not applicable",
+    "replication_materials_available": true,
+    "preregistered_studies": [],
+    "published_performance_metrics": [
+        "Patron count",
+        "Crowdmatching pledge amounts",
+        "Project funding success rates"
+    ],
+    "documented_limitations": [
+        "alpha status — not yet launched full crowdmatching",
+        "outside projects not yet enabled",
+        "small patron base"
+    ],
+    "jurisdictional_scope": "global",
+    "failure_modes": [
+        "coordination failure if patron base stays small",
+        "free-rider problem (the problem it aims to solve)",
+        "sustained underfunding"
+    ],
+    "governance_model": "cooperative",
+    "curation_criteria": "projects must be free/libre/open (FLO)",
+    "contributor_governance": "open source; community forum; governance repo on Codeberg",
+    "disparity_tracking": false,
+    "community_ownership": "patron-members co-own the cooperative",
+    "controversies": [],
+    "political_bias_allegations": false,
+    "legal_regulatory_issues": [],
+    "elections_used_in": [],
+    "government_partnerships": [],
+    "ai_involvement": false,
+    "pass2_at": "2026-03-09T23:21:41.688Z",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:46:15.503Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 196,
+        "homepage_has_team_page": true,
+        "homepage_has_impact_metrics": false,
+        "scraped_description": "We support works that everyone can use, adapt, and share freely. But as\npublic goods, anyone can freeride. And that presents a dilemma in\ngetting funded. Our innovative platform brings people together to\naddress this problem.",
+        "scraped_final_url": "https://snowdrift.coop/"
+    },
+    "pass5_at": "2026-03-10T01:00:51.175Z",
+    "pass5_jina_words": 136,
+    "pass5_changes": [],
+    "political_relevance_summary": "Snowdrift.coop addresses civic technology. Crowdmatching for public goods.",
+    "movement_building_utility": {
+        "classification": "indirect_or_none",
+        "notes": "Indirect or tangential connection to political movement building."
+    },
+    "systemic_issue_area": "civic technology infrastructure",
+    "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions; replication materials are available.",
+    "primary_users_or_beneficiaries": [
+        "free/libre/open source developers",
+        "digital public goods creators",
+        "open source patrons"
+    ],
+    "underdog_signal": true
 }

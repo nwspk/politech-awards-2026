@@ -1,102 +1,100 @@
 {
-  "url": "https://joss.theoj.org",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:44:32.567Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 336,
-    "homepage_has_team_page": true,
-    "homepage_has_impact_metrics": false,
-    "scraped_description": "Committed to publishing quality research software with zero article processing charges or\n        subscription fees.",
-    "scraped_final_url": "https://joss.theoj.org/"
-  },
-  "collected_at": "2026-03-09T23:21:11.739Z",
-  "collected_by": "collect-enriched-script",
-  "name": "Journal of Open Source Software",
-  "tagline": "A developer friendly, open access journal for research software packages",
-  "project_type": "Tool/Platform",
-  "org_type": "Nonprofit/charity",
-  "issue_area": [
-    "Open Source Software",
-    "Research Infrastructure",
-    "Scientific Publishing"
-  ],
-  "sdg_alignment": [
-    "SDG 4: Quality Education",
-    "SDG 9: Industry, Innovation and Infrastructure"
-  ],
-  "decade_plus": false,
-  "geography": "international",
-  "countries_deployed": [
-    "Global"
-  ],
-  "communities_served": [
-    "Software developers",
-    "Researchers",
-    "Open source community"
-  ],
-  "open_source": "yes",
-  "github_url": "https://github.com/openjournals/joss",
-  "github_stars": 1100,
-  "last_commit_date": "2026-03-08",
-  "format": [
-    "Journal",
-    "Peer Review Platform"
-  ],
-  "founded_year": 2016,
-  "team_size": "medium",
-  "funding_model": [
-    "Zero article processing charges",
-    "No subscription fees",
-    "Sponsored"
-  ],
-  "known_funders": [
-    "NumFOCUS",
-    "Sloan Foundation"
-  ],
-  "funding_verified": true,
-  "last_funding_event": "2024",
-  "dependency_risks": [
-    "Reliance on volunteer peer reviewers",
-    "Dependence on NumFOCUS sponsorship"
-  ],
-  "news_articles": [
-    "https://www.nature.com/articles/d41586-020-01856-x",
-    "https://opensource.com/article/20/7/joss"
-  ],
-  "academic_citations": [
-    "Katz et al. (2021) - Journal of Open Source Software: design and first-year review"
-  ],
-  "awards": [
-    "Open Access Button Award"
-  ],
-  "in_civictech_guide": false,
-  "replication_materials_available": true,
-  "published_performance_metrics": "1000+ papers published, 5000+ peer reviewers",
-  "documented_limitations": [
-    "Limited to software-focused research",
-    "Peer review capacity constraints"
-  ],
-  "jurisdictional_scope": "International",
-  "governance_model": "Editorial board with community input",
-  "curation_criteria": "Quality research software packages meeting submission scope requirements",
-  "contributor_governance": "Open peer review system with volunteer reviewers",
-  "community_ownership": "Community-driven with editorial oversight",
-  "pass2_at": "2026-03-09T23:21:32.604Z",
-  "pass5_at": "2026-03-10T00:46:27.256Z",
-  "pass5_jina_words": 19,
-  "pass5_changes": [],
-  "political_relevance_summary": "Journal of Open Source Software provides technology infrastructure relevant to civic and political processes, focused on A developer friendly, open access journal for research software packages.",
-  "movement_building_utility": {
-    "classification": "infrastructure",
-    "notes": "Provides foundational infrastructure: A developer friendly, open access journal for research software packages."
-  },
-  "systemic_issue_area": "knowledge access",
-  "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
-  "primary_users_or_beneficiaries": [
-    "Software developers",
-    "Researchers",
-    "Open source community"
-  ],
-  "underdog_signal": false
+    "url": "https://joss.theoj.org",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:44:32.567Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 336,
+        "homepage_has_team_page": true,
+        "homepage_has_impact_metrics": false,
+        "scraped_description": "Committed to publishing quality research software with zero article processing charges or\n        subscription fees.",
+        "scraped_final_url": "https://joss.theoj.org/"
+    },
+    "collected_at": "2026-03-09T23:21:11.739Z",
+    "collected_by": "collect-enriched-script",
+    "name": "Journal of Open Source Software",
+    "tagline": "A developer friendly, open access journal for research software packages",
+    "project_type": "Tool/Platform",
+    "org_type": "Nonprofit/charity",
+    "issue_area": [
+        "Open Source Software",
+        "Research Infrastructure",
+        "Scientific Publishing"
+    ],
+    "sdg_alignment": [
+        "SDG 4: Quality Education",
+        "SDG 9: Industry, Innovation and Infrastructure"
+    ],
+    "decade_plus": false,
+    "geography": "international",
+    "countries_deployed": [
+        "Global"
+    ],
+    "communities_served": [
+        "Software developers",
+        "Researchers",
+        "Open source community"
+    ],
+    "open_source": "yes",
+    "github_url": "https://github.com/openjournals/joss",
+    "github_stars": 1100,
+    "last_commit_date": "2026-03-08",
+    "format": [
+        "Journal",
+        "Peer Review Platform"
+    ],
+    "founded_year": 2016,
+    "team_size": "medium",
+    "funding_model": [
+        "Zero article processing charges",
+        "No subscription fees",
+        "Sponsored"
+    ],
+    "known_funders": [
+        "NumFOCUS",
+        "Sloan Foundation"
+    ],
+    "funding_verified": true,
+    "last_funding_event": "2024",
+    "dependency_risks": [
+        "Reliance on volunteer peer reviewers",
+        "Dependence on NumFOCUS sponsorship"
+    ],
+    "news_articles": [
+        "https://www.nature.com/articles/d41586-020-01856-x",
+        "https://opensource.com/article/20/7/joss"
+    ],
+    "academic_citations": [],
+    "awards": [
+        "Open Access Button Award"
+    ],
+    "in_civictech_guide": false,
+    "replication_materials_available": true,
+    "published_performance_metrics": "1000+ papers published, 5000+ peer reviewers",
+    "documented_limitations": [
+        "Limited to software-focused research",
+        "Peer review capacity constraints"
+    ],
+    "jurisdictional_scope": "International",
+    "governance_model": "Editorial board with community input",
+    "curation_criteria": "Quality research software packages meeting submission scope requirements",
+    "contributor_governance": "Open peer review system with volunteer reviewers",
+    "community_ownership": "Community-driven with editorial oversight",
+    "pass2_at": "2026-03-09T23:21:32.604Z",
+    "pass5_at": "2026-03-10T00:46:27.256Z",
+    "pass5_jina_words": 19,
+    "pass5_changes": [],
+    "political_relevance_summary": "Journal of Open Source Software provides technology infrastructure relevant to civic and political processes, focused on A developer friendly, open access journal for research software packages.",
+    "movement_building_utility": {
+        "classification": "infrastructure",
+        "notes": "Provides foundational infrastructure: A developer friendly, open access journal for research software packages."
+    },
+    "systemic_issue_area": "knowledge access",
+    "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
+    "primary_users_or_beneficiaries": [
+        "Software developers",
+        "Researchers",
+        "Open source community"
+    ],
+    "underdog_signal": false
 }

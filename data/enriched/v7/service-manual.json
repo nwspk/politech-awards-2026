@@ -1,128 +1,125 @@
 {
-  "url": "https://www.gov.uk/service-manual",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:47:01.255Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 648,
-    "homepage_has_team_page": false,
-    "homepage_has_impact_metrics": false,
-    "scraped_description": "Helping government teams create and run great digital services that meet the Service Standard.",
-    "scraped_final_url": "https://www.gov.uk/service-manual"
-  },
-  "collected_at": "2026-03-09T23:20:52.056Z",
-  "collected_by": "collect-enriched-script",
-  "name": "Service Manual",
-  "tagline": "Guidance for UK government teams to create and run great public services meeting the Service Standard",
-  "project_type": "Publication",
-  "org_type": "Government/public sector",
-  "issue_area": [
-    "govtech",
-    "civic_data"
-  ],
-  "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
-  ],
-  "decade_plus": true,
-  "geography": "national",
-  "countries_deployed": [
-    "United Kingdom"
-  ],
-  "communities_served": [
-    "government teams",
-    "digital service designers",
-    "public sector employees"
-  ],
-  "political_units": [
-    "federal"
-  ],
-  "open_source": "no",
-  "github_url": "https://github.com/alphagov/service-manual-publisher",
-  "format": [
-    "platform",
-    "course"
-  ],
-  "founded_year": 2012,
-  "team_size": "medium",
-  "funding_model": [
-    "public_funding"
-  ],
-  "known_funders": [
-    "UK Government Digital Service (GDS)"
-  ],
-  "funding_verified": true,
-  "last_funding_event": "Ongoing government funding",
-  "dependency_risks": [
-    "UK government policy changes",
-    "machinery of government reorganisations (GDS moved to DSIT 2024)",
-    "political appetite for digital reform"
-  ],
-  "news_articles": [
-    "https://www.theguardian.com/technology/2014/mar/17/uk-government-digital-service-launches-service-manual",
-    "https://www.computerweekly.com/news/2240215093/UK-government-launches-Service-Manual-for-digital-services"
-  ],
-  "academic_citations": [
-    "Margetts, H., & Naumann, A. (2017). Government as a platform. The Quarterly Review of Economics and Finance, 62, 6-14.",
-    "Dunleavy, P., & Margetts, H. (2015). The second wave of digital-era governance. Philosophical Transactions of the Royal Society A, 371(1987), 20120382."
-  ],
-  "awards": [
-    "Recognized as best practice in digital government transformation"
-  ],
-  "in_civictech_guide": false,
-  "wikipedia_page": true,
-  "policy_outcomes": [
-    {
-      "description": "Service Manual establishes and enforces the Service Standard for UK government digital services",
-      "link": "https://www.gov.uk/service-standard",
-      "year": 2012
-    }
-  ],
-  "causation_strength": "directly_cited",
-  "outcome_methodology": "Compliance tracking and audit of UK government digital services against Service Standard criteria",
-  "replication_materials_available": false,
-  "published_performance_metrics": "Service Standard compliance rates across UK government departments",
-  "documented_limitations": [
-    "Limited to UK government context",
-    "Primarily advisory rather than enforceable"
-  ],
-  "jurisdictional_scope": "United Kingdom",
-  "failure_modes": [
-    "Inconsistent adoption across government departments",
-    "Resource constraints in smaller agencies"
-  ],
-  "governance_model": "project_of_larger_org",
-  "curation_criteria": "Content curated by UK Government Digital Service based on digital service best practices and government policy requirements",
-  "contributor_governance": "Contributions managed by GDS with input from government digital teams",
-  "disparity_tracking": false,
-  "community_ownership": false,
-  "controversies": [
-    "Ongoing debate about mandatory vs advisory application to devolved/local government",
-    "GDS influence perceived to have declined post-2016 following senior leadership departures"
-  ],
-  "political_bias_allegations": false,
-  "government_partnerships": [
-    {
-      "partner": "UK Government Digital Service (GDS)",
-      "nature": "Operated by",
-      "country": "United Kingdom"
-    }
-  ],
-  "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:47.144Z",
-  "pass5_at": "2026-03-10T00:54:56.884Z",
-  "pass5_jina_words": 509,
-  "pass5_changes": [],
-  "political_relevance_summary": "Service Manual addresses government technology and public service delivery. Guidance for UK government teams to create and run great public services meeting the Service Standard.",
-  "movement_building_utility": {
-    "classification": "infrastructure",
-    "notes": "Provides technical infrastructure supporting civic technology ecosystem."
-  },
-  "systemic_issue_area": "government transparency",
-  "generalizability_notes": "Currently focused on United Kingdom; methodology-based approach is inherently transferable.",
-  "primary_users_or_beneficiaries": [
-    "government teams",
-    "digital service designers",
-    "public sector employees"
-  ],
-  "underdog_signal": false
+    "url": "https://www.gov.uk/service-manual",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:47:01.255Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 648,
+        "homepage_has_team_page": false,
+        "homepage_has_impact_metrics": false,
+        "scraped_description": "Helping government teams create and run great digital services that meet the Service Standard.",
+        "scraped_final_url": "https://www.gov.uk/service-manual"
+    },
+    "collected_at": "2026-03-09T23:20:52.056Z",
+    "collected_by": "collect-enriched-script",
+    "name": "Service Manual",
+    "tagline": "Guidance for UK government teams to create and run great public services meeting the Service Standard",
+    "project_type": "Publication",
+    "org_type": "Government/public sector",
+    "issue_area": [
+        "govtech",
+        "civic_data"
+    ],
+    "sdg_alignment": [
+        "SDG 16 – Peace, Justice and Strong Institutions"
+    ],
+    "decade_plus": true,
+    "geography": "national",
+    "countries_deployed": [
+        "United Kingdom"
+    ],
+    "communities_served": [
+        "government teams",
+        "digital service designers",
+        "public sector employees"
+    ],
+    "political_units": [
+        "federal"
+    ],
+    "open_source": "no",
+    "github_url": "https://github.com/alphagov/service-manual-publisher",
+    "format": [
+        "platform",
+        "course"
+    ],
+    "founded_year": 2012,
+    "team_size": "medium",
+    "funding_model": [
+        "public_funding"
+    ],
+    "known_funders": [
+        "UK Government Digital Service (GDS)"
+    ],
+    "funding_verified": true,
+    "last_funding_event": "Ongoing government funding",
+    "dependency_risks": [
+        "UK government policy changes",
+        "machinery of government reorganisations (GDS moved to DSIT 2024)",
+        "political appetite for digital reform"
+    ],
+    "news_articles": [
+        "https://www.theguardian.com/technology/2014/mar/17/uk-government-digital-service-launches-service-manual",
+        "https://www.computerweekly.com/news/2240215093/UK-government-launches-Service-Manual-for-digital-services"
+    ],
+    "academic_citations": [],
+    "awards": [
+        "Recognized as best practice in digital government transformation"
+    ],
+    "in_civictech_guide": false,
+    "wikipedia_page": true,
+    "policy_outcomes": [
+        {
+            "description": "Service Manual establishes and enforces the Service Standard for UK government digital services",
+            "link": "https://www.gov.uk/service-standard",
+            "year": 2012
+        }
+    ],
+    "causation_strength": "directly_cited",
+    "outcome_methodology": "Compliance tracking and audit of UK government digital services against Service Standard criteria",
+    "replication_materials_available": false,
+    "published_performance_metrics": "Service Standard compliance rates across UK government departments",
+    "documented_limitations": [
+        "Limited to UK government context",
+        "Primarily advisory rather than enforceable"
+    ],
+    "jurisdictional_scope": "United Kingdom",
+    "failure_modes": [
+        "Inconsistent adoption across government departments",
+        "Resource constraints in smaller agencies"
+    ],
+    "governance_model": "project_of_larger_org",
+    "curation_criteria": "Content curated by UK Government Digital Service based on digital service best practices and government policy requirements",
+    "contributor_governance": "Contributions managed by GDS with input from government digital teams",
+    "disparity_tracking": false,
+    "community_ownership": false,
+    "controversies": [
+        "Ongoing debate about mandatory vs advisory application to devolved/local government",
+        "GDS influence perceived to have declined post-2016 following senior leadership departures"
+    ],
+    "political_bias_allegations": false,
+    "government_partnerships": [
+        {
+            "partner": "UK Government Digital Service (GDS)",
+            "nature": "Operated by",
+            "country": "United Kingdom"
+        }
+    ],
+    "ai_involvement": false,
+    "pass2_at": "2026-03-09T23:21:47.144Z",
+    "pass5_at": "2026-03-10T00:54:56.884Z",
+    "pass5_jina_words": 509,
+    "pass5_changes": [],
+    "political_relevance_summary": "Service Manual addresses government technology and public service delivery. Guidance for UK government teams to create and run great public services meeting the Service Standard.",
+    "movement_building_utility": {
+        "classification": "infrastructure",
+        "notes": "Provides technical infrastructure supporting civic technology ecosystem."
+    },
+    "systemic_issue_area": "government transparency",
+    "generalizability_notes": "Currently focused on United Kingdom; methodology-based approach is inherently transferable.",
+    "primary_users_or_beneficiaries": [
+        "government teams",
+        "digital service designers",
+        "public sector employees"
+    ],
+    "underdog_signal": false
 }

@@ -1,114 +1,112 @@
 {
-  "url": "https://fatebook.io",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:43:45.503Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 152,
-    "homepage_has_team_page": true,
-    "homepage_has_impact_metrics": false,
-    "scraped_description": "Track your predictions, make better decisions.",
-    "scraped_final_url": "https://fatebook.io/"
-  },
-  "collected_at": "2026-03-09T23:19:18.197Z",
-  "collected_by": "collect-enriched-script",
-  "name": "Fatebook",
-  "tagline": "Rapid predictions, anywhere",
-  "project_type": "Tool/Platform",
-  "org_type": "For-profit/social enterprise",
-  "issue_area": [
-    "civic_data"
-  ],
-  "sdg_alignment": [
-    "SDG 16: Peace, Justice and Strong Institutions"
-  ],
-  "decade_plus": false,
-  "geography": "international",
-  "countries_deployed": [
-    "United States",
-    "United Kingdom",
-    "Canada",
-    "Australia"
-  ],
-  "communities_served": [
-    "researchers",
-    "forecasters",
-    "decision-makers"
-  ],
-  "political_units": [
-    "national",
-    "subnational"
-  ],
-  "open_source": "partial",
-  "github_url": "https://github.com/sage-future/fatebook",
-  "github_stars": 1200,
-  "last_commit_date": "2026-03-08",
-  "format": [
-    "api",
-    "app",
-    "platform"
-  ],
-  "founded_year": 2021,
-  "team_size": "small",
-  "funding_model": [
-    "donations",
-    "hybrid"
-  ],
-  "known_funders": [
-    "Open Philanthropy",
-    "Survival and Flourishing Fund"
-  ],
-  "funding_verified": true,
-  "last_funding_event": "2024",
-  "dependency_risks": [
-    "Reliance on volunteer forecasters",
-    "Platform sustainability dependent on continued funding"
-  ],
-  "news_articles": [
-    "https://www.wired.com/story/fatebook-prediction-platform",
-    "https://www.theguardian.com/technology/fatebook"
-  ],
-  "academic_citations": [
-    "Tetlock, P., & Gardner, D. (2023). Superforecasting applications in civic tech"
-  ],
-  "awards": [
-    "Effective Altruism Community Award 2023"
-  ],
-  "in_civictech_guide": false,
-  "published_performance_metrics": [
-    "Forecast accuracy rates",
-    "User engagement metrics"
-  ],
-  "documented_limitations": [
-    "Limited to quantifiable predictions",
-    "Requires active user participation"
-  ],
-  "jurisdictional_scope": "international",
-  "failure_modes": [
-    "Low participation rates on niche topics",
-    "Forecast resolution delays"
-  ],
-  "governance_model": "LLC",
-  "curation_criteria": "Community-driven forecast selection with editorial oversight",
-  "contributor_governance": "Open contribution model with moderation",
-  "disparity_tracking": false,
-  "community_ownership": false,
-  "ai_involvement": "Minimal - platform uses human forecasters, not AI predictions",
-  "pass2_at": "2026-03-09T23:21:27.167Z",
-  "pass5_at": "2026-03-10T00:46:14.878Z",
-  "pass5_jina_words": 19,
-  "pass5_changes": [],
-  "political_relevance_summary": "Fatebook addresses civic data access and transparency. Rapid predictions, anywhere.",
-  "movement_building_utility": {
-    "classification": "infrastructure",
-    "notes": "Provides technical infrastructure that other civic tools or services build upon."
-  },
-  "systemic_issue_area": "civic data access",
-  "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Open-source codebase facilitates replication.",
-  "primary_users_or_beneficiaries": [
-    "researchers",
-    "forecasters",
-    "decision-makers"
-  ],
-  "underdog_signal": false
+    "url": "https://fatebook.io",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:43:45.503Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 152,
+        "homepage_has_team_page": true,
+        "homepage_has_impact_metrics": false,
+        "scraped_description": "Track your predictions, make better decisions.",
+        "scraped_final_url": "https://fatebook.io/"
+    },
+    "collected_at": "2026-03-09T23:19:18.197Z",
+    "collected_by": "collect-enriched-script",
+    "name": "Fatebook",
+    "tagline": "Rapid predictions, anywhere",
+    "project_type": "Tool/Platform",
+    "org_type": "For-profit/social enterprise",
+    "issue_area": [
+        "civic_data"
+    ],
+    "sdg_alignment": [
+        "SDG 16: Peace, Justice and Strong Institutions"
+    ],
+    "decade_plus": false,
+    "geography": "international",
+    "countries_deployed": [
+        "United States",
+        "United Kingdom",
+        "Canada",
+        "Australia"
+    ],
+    "communities_served": [
+        "researchers",
+        "forecasters",
+        "decision-makers"
+    ],
+    "political_units": [
+        "national",
+        "subnational"
+    ],
+    "open_source": "partial",
+    "github_url": "https://github.com/sage-future/fatebook",
+    "github_stars": 1200,
+    "last_commit_date": "2026-03-08",
+    "format": [
+        "api",
+        "app",
+        "platform"
+    ],
+    "founded_year": 2021,
+    "team_size": "small",
+    "funding_model": [
+        "donations",
+        "hybrid"
+    ],
+    "known_funders": [
+        "Open Philanthropy",
+        "Survival and Flourishing Fund"
+    ],
+    "funding_verified": true,
+    "last_funding_event": "2024",
+    "dependency_risks": [
+        "Reliance on volunteer forecasters",
+        "Platform sustainability dependent on continued funding"
+    ],
+    "news_articles": [
+        "https://www.wired.com/story/fatebook-prediction-platform",
+        "https://www.theguardian.com/technology/fatebook"
+    ],
+    "academic_citations": [],
+    "awards": [
+        "Effective Altruism Community Award 2023"
+    ],
+    "in_civictech_guide": false,
+    "published_performance_metrics": [
+        "Forecast accuracy rates",
+        "User engagement metrics"
+    ],
+    "documented_limitations": [
+        "Limited to quantifiable predictions",
+        "Requires active user participation"
+    ],
+    "jurisdictional_scope": "international",
+    "failure_modes": [
+        "Low participation rates on niche topics",
+        "Forecast resolution delays"
+    ],
+    "governance_model": "LLC",
+    "curation_criteria": "Community-driven forecast selection with editorial oversight",
+    "contributor_governance": "Open contribution model with moderation",
+    "disparity_tracking": false,
+    "community_ownership": false,
+    "ai_involvement": "Minimal - platform uses human forecasters, not AI predictions",
+    "pass2_at": "2026-03-09T23:21:27.167Z",
+    "pass5_at": "2026-03-10T00:46:14.878Z",
+    "pass5_jina_words": 19,
+    "pass5_changes": [],
+    "political_relevance_summary": "Fatebook addresses civic data access and transparency. Rapid predictions, anywhere.",
+    "movement_building_utility": {
+        "classification": "infrastructure",
+        "notes": "Provides technical infrastructure that other civic tools or services build upon."
+    },
+    "systemic_issue_area": "civic data access",
+    "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Open-source codebase facilitates replication.",
+    "primary_users_or_beneficiaries": [
+        "researchers",
+        "forecasters",
+        "decision-makers"
+    ],
+    "underdog_signal": false
 }

@@ -1,119 +1,117 @@
 {
-  "url": "https://openheartmind.org",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:45:31.728Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 403,
-    "homepage_has_team_page": false,
-    "homepage_has_impact_metrics": false,
-    "scraped_description": "A participatory, gift-based gathering of art, science, wellbeing, culture and more — powered by Wisdom.",
-    "scraped_final_url": "https://openheartmind.org/"
-  },
-  "collected_at": "2026-03-09T22:00:00Z",
-  "collected_by": "nano-bot",
-  "name": "Open Heart Mind (OHM)",
-  "tagline": "Participatory gatherings and regenerative systems for collective flourishing — developing Wisdom, an open-source peer evaluation platform",
-  "project_type": "Network",
-  "org_type": "Nonprofit/charity",
-  "issue_area": [
-    "participatory governance",
-    "collective intelligence",
-    "community organising",
-    "open science",
-    "value alignment",
-    "regenerative systems"
-  ],
-  "sdg_alignment": [
-    "SDG 16 — Peace, Justice and Strong Institutions",
-    "SDG 17 — Partnerships for the Goals",
-    "SDG 10 — Reduced Inequalities"
-  ],
-  "decade_plus": false,
-  "geography": "Australia (global aspirations)",
-  "countries_deployed": [
-    "Australia"
-  ],
-  "communities_served": [
-    "open science communities",
-    "arts and culture communities",
-    "activist and civic tech communities",
-    "academic researchers"
-  ],
-  "political_units": [
-    "Local community groups (Australia)"
-  ],
-  "open_source": "yes",
-  "github_url": "https://github.com/openheartmind/WISDOM",
-  "github_stars": 45,
-  "last_commit_date": "2025-12-15",
-  "format": [
-    "open-source app (Wisdom)",
-    "participatory gatherings",
-    "research publications",
-    "community peer evaluation framework"
-  ],
-  "founded_year": 2023,
-  "team_size": "medium",
-  "funding_model": [
-    "donations",
-    "community contributions",
-    "Open Collective"
-  ],
-  "known_funders": [
-    "Open Collective community supporters",
-    "Individual donors"
-  ],
-  "funding_verified": false,
-  "last_funding_event": "2025-ongoing (Open Collective)",
-  "dependency_risks": [
-    "small volunteer-driven team",
-    "early-stage platform with limited adoption",
-    "reliance on donation-based funding"
-  ],
-  "academic_citations": [
-    "AIMOS 2023 conference presentation on Metavaluation framework"
-  ],
-  "in_civictech_guide": false,
-  "wikipedia_page": false,
-  "causation_strength": "Not yet established (early-stage, pre-impact evaluation)",
-  "outcome_methodology": "Participatory peer evaluation — peer reviews treated as contributions in their own right to generate community-driven value metrics",
-  "replication_materials_available": true,
-  "published_performance_metrics": false,
-  "documented_limitations": [
-    "early-stage; limited evidence base beyond small pilot gatherings",
-    "experimental framework not yet validated at scale"
-  ],
-  "jurisdictional_scope": "local/community",
-  "failure_modes": [
-    "small team burnout",
-    "insufficient adoption to achieve network effects",
-    "funding gap"
-  ],
-  "governance_model": "cooperative",
-  "curation_criteria": "Community peer evaluation via Wisdom; contributions assessed collectively rather than by central authority",
-  "contributor_governance": "All participants can contribute and earn recognition; contributions tracked and rewarded through Wisdom peer evaluation system",
-  "disparity_tracking": false,
-  "community_ownership": "Gift-based, community co-created events and platform; all research and tools freely available under open source licences",
-  "political_bias_allegations": false,
-  "legal_regulatory_issues": false,
-  "ai_involvement": "Research question explicitly exploring training AI systems on participatory community value systems as alternative to internet scraping",
-  "pass2_at": "2026-03-09T23:21:36.638Z",
-  "pass5_at": "2026-03-10T00:48:50.965Z",
-  "pass5_jina_words": 289,
-  "pass5_changes": [],
-  "political_relevance_summary": "Open Heart Mind (OHM) addresses gaps in democratic participation by providing tools or platforms that enable citizens and communities to engage more directly in governance and decision-making processes.",
-  "movement_building_utility": {
-    "classification": "indirect_or_none",
-    "notes": "Open Heart Mind (OHM)'s primary function is not directly oriented toward civic organizing, advocacy, or movement infrastructure."
-  },
-  "systemic_issue_area": "democratic participation access",
-  "generalizability_notes": "High generalizability. Open Heart Mind (OHM) is open source and already deployed across multiple countries/jurisdictions, making replication straightforward for other contexts.",
-  "primary_users_or_beneficiaries": [
-    "open science communities",
-    "arts and culture communities",
-    "activist and civic tech communities",
-    "academic researchers"
-  ],
-  "underdog_signal": false
+    "url": "https://openheartmind.org",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:45:31.728Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 403,
+        "homepage_has_team_page": false,
+        "homepage_has_impact_metrics": false,
+        "scraped_description": "A participatory, gift-based gathering of art, science, wellbeing, culture and more — powered by Wisdom.",
+        "scraped_final_url": "https://openheartmind.org/"
+    },
+    "collected_at": "2026-03-09T22:00:00Z",
+    "collected_by": "nano-bot",
+    "name": "Open Heart Mind (OHM)",
+    "tagline": "Participatory gatherings and regenerative systems for collective flourishing — developing Wisdom, an open-source peer evaluation platform",
+    "project_type": "Network",
+    "org_type": "Nonprofit/charity",
+    "issue_area": [
+        "participatory governance",
+        "collective intelligence",
+        "community organising",
+        "open science",
+        "value alignment",
+        "regenerative systems"
+    ],
+    "sdg_alignment": [
+        "SDG 16 — Peace, Justice and Strong Institutions",
+        "SDG 17 — Partnerships for the Goals",
+        "SDG 10 — Reduced Inequalities"
+    ],
+    "decade_plus": false,
+    "geography": "Australia (global aspirations)",
+    "countries_deployed": [
+        "Australia"
+    ],
+    "communities_served": [
+        "open science communities",
+        "arts and culture communities",
+        "activist and civic tech communities",
+        "academic researchers"
+    ],
+    "political_units": [
+        "Local community groups (Australia)"
+    ],
+    "open_source": "yes",
+    "github_url": "https://github.com/openheartmind/WISDOM",
+    "github_stars": 45,
+    "last_commit_date": "2025-12-15",
+    "format": [
+        "open-source app (Wisdom)",
+        "participatory gatherings",
+        "research publications",
+        "community peer evaluation framework"
+    ],
+    "founded_year": 2023,
+    "team_size": "medium",
+    "funding_model": [
+        "donations",
+        "community contributions",
+        "Open Collective"
+    ],
+    "known_funders": [
+        "Open Collective community supporters",
+        "Individual donors"
+    ],
+    "funding_verified": false,
+    "last_funding_event": "2025-ongoing (Open Collective)",
+    "dependency_risks": [
+        "small volunteer-driven team",
+        "early-stage platform with limited adoption",
+        "reliance on donation-based funding"
+    ],
+    "academic_citations": [],
+    "in_civictech_guide": false,
+    "wikipedia_page": false,
+    "causation_strength": "Not yet established (early-stage, pre-impact evaluation)",
+    "outcome_methodology": "Participatory peer evaluation — peer reviews treated as contributions in their own right to generate community-driven value metrics",
+    "replication_materials_available": true,
+    "published_performance_metrics": false,
+    "documented_limitations": [
+        "early-stage; limited evidence base beyond small pilot gatherings",
+        "experimental framework not yet validated at scale"
+    ],
+    "jurisdictional_scope": "local/community",
+    "failure_modes": [
+        "small team burnout",
+        "insufficient adoption to achieve network effects",
+        "funding gap"
+    ],
+    "governance_model": "cooperative",
+    "curation_criteria": "Community peer evaluation via Wisdom; contributions assessed collectively rather than by central authority",
+    "contributor_governance": "All participants can contribute and earn recognition; contributions tracked and rewarded through Wisdom peer evaluation system",
+    "disparity_tracking": false,
+    "community_ownership": "Gift-based, community co-created events and platform; all research and tools freely available under open source licences",
+    "political_bias_allegations": false,
+    "legal_regulatory_issues": false,
+    "ai_involvement": "Research question explicitly exploring training AI systems on participatory community value systems as alternative to internet scraping",
+    "pass2_at": "2026-03-09T23:21:36.638Z",
+    "pass5_at": "2026-03-10T00:48:50.965Z",
+    "pass5_jina_words": 289,
+    "pass5_changes": [],
+    "political_relevance_summary": "Open Heart Mind (OHM) addresses gaps in democratic participation by providing tools or platforms that enable citizens and communities to engage more directly in governance and decision-making processes.",
+    "movement_building_utility": {
+        "classification": "indirect_or_none",
+        "notes": "Open Heart Mind (OHM)'s primary function is not directly oriented toward civic organizing, advocacy, or movement infrastructure."
+    },
+    "systemic_issue_area": "democratic participation access",
+    "generalizability_notes": "High generalizability. Open Heart Mind (OHM) is open source and already deployed across multiple countries/jurisdictions, making replication straightforward for other contexts.",
+    "primary_users_or_beneficiaries": [
+        "open science communities",
+        "arts and culture communities",
+        "activist and civic tech communities",
+        "academic researchers"
+    ],
+    "underdog_signal": false
 }

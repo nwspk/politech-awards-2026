@@ -1,121 +1,116 @@
 {
-  "url": "https://sourceafrica.net",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:46:17.607Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 208,
-    "homepage_has_team_page": true,
-    "homepage_has_impact_metrics": true,
-    "scraped_description": null,
-    "scraped_final_url": "https://sourceafrica.net/"
-  },
-  "collected_at": "2026-03-09T22:00:00Z",
-  "collected_by": "nano-bot",
-  "name": "sourceAFRICA",
-  "tagline": "Africa's premier repository for actionable documents",
-  "project_type": "Tool/Platform",
-  "org_type": "Nonprofit/charity",
-  "issue_area": [
-    "investigative journalism",
-    "press freedom",
-    "transparency and accountability",
-    "open data",
-    "civic media"
-  ],
-  "sdg_alignment": [
-    "SDG 16: Peace, Justice and Strong Institutions",
-    "SDG 17: Partnerships for the Goals"
-  ],
-  "decade_plus": false,
-  "geography": "Africa",
-  "countries_deployed": [
-    "pan-African (47 contributing organisations)"
-  ],
-  "communities_served": [
-    "investigative journalists",
-    "civil society organisations",
-    "watchdog NGOs",
-    "the African public"
-  ],
-  "political_units": [
-    "pan-African"
-  ],
-  "open_source": "yes",
-  "github_url": "https://github.com/CodeForAfrica/sourceAFRICA.app-Briefcase",
-  "github_stars": 89,
-  "last_commit_date": "2024-11-15",
-  "format": [
-    "web platform",
-    "document repository",
-    "search engine",
-    "API"
-  ],
-  "founded_year": 2015,
-  "team_size": "medium",
-  "funding_model": [
-    "institutional grants",
-    "organisational support from Code for Africa"
-  ],
-  "known_funders": [
-    "Code for Africa",
-    "ANCIR (African Network of Centers for Investigative Reporting)"
-  ],
-  "funding_verified": false,
-  "last_funding_event": "2024-ongoing institutional support from Code for Africa",
-  "dependency_risks": [
-    "built on DocumentCloud (third-party dependency)",
-    "dependent on Code for Africa / ANCIR institutional funding"
-  ],
-  "news_articles": [
-    "Code for Africa launches sourceAFRICA platform (2015)",
-    "African journalists use sourceAFRICA for investigations (various outlets)"
-  ],
-  "academic_citations": [
-    "Referenced in studies on African investigative journalism infrastructure"
-  ],
-  "awards": [
-    "Recognition as key African civic tech infrastructure"
-  ],
-  "in_civictech_guide": true,
-  "wikipedia_page": false,
-  "policy_outcomes": [
-    "Enabled investigative journalism across Africa",
-    "Supported transparency and accountability reporting"
-  ],
-  "causation_strength": "correlated",
-  "outcome_methodology": "observational - tracked through contributing organisation reports and published investigations",
-  "replication_materials_available": true,
-  "published_performance_metrics": "115,126 documents; 1,243,213 pages; 47 contributing organisations; 137 contributors",
-  "documented_limitations": [
-    "automated document text may contain errors",
-    "summaries are not legal interpretations"
-  ],
-  "jurisdictional_scope": "Africa",
-  "failure_modes": [
-    "DocumentCloud platform dependency",
-    "funding discontinuity",
-    "contributor organisation drop-off"
-  ],
-  "governance_model": "operated by ANCIR under incubation by Code for Africa; CC BY-SA 4.0 content licence",
-  "curation_criteria": "actionable documents needed by the public or civic watchdogs; suppressed or censored documents",
-  "contributor_governance": "47 contributing organisations; open API",
-  "disparity_tracking": false,
-  "community_ownership": true,
-  "ai_involvement": "minimal - uses DocumentCloud's OCR and text extraction capabilities",
-  "pass2_at": "2026-03-09T23:21:44.752Z",
-  "political_relevance_summary": "sourceAFRICA addresses civic technology. Africa's premier repository for actionable documents.",
-  "movement_building_utility": {
-    "classification": "information_resource",
-    "notes": "Provides data, research, or educational resources for civic engagement."
-  },
-  "systemic_issue_area": "civic technology infrastructure",
-  "generalizability_notes": "Open-source codebase facilitates replication; currently focused on pan-African (47 contributing organisations); replication materials are available; would require local data and regulatory adaptation.",
-  "primary_users_or_beneficiaries": [
-    "investigative journalists",
-    "civil society organisations",
-    "watchdog ngos",
-    "the african public"
-  ],
-  "underdog_signal": false
+    "url": "https://sourceafrica.net",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:46:17.607Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 208,
+        "homepage_has_team_page": true,
+        "homepage_has_impact_metrics": true,
+        "scraped_description": null,
+        "scraped_final_url": "https://sourceafrica.net/"
+    },
+    "collected_at": "2026-03-09T22:00:00Z",
+    "collected_by": "nano-bot",
+    "name": "sourceAFRICA",
+    "tagline": "Africa's premier repository for actionable documents",
+    "project_type": "Tool/Platform",
+    "org_type": "Nonprofit/charity",
+    "issue_area": [
+        "investigative journalism",
+        "press freedom",
+        "transparency and accountability",
+        "open data",
+        "civic media"
+    ],
+    "sdg_alignment": [
+        "SDG 16: Peace, Justice and Strong Institutions",
+        "SDG 17: Partnerships for the Goals"
+    ],
+    "decade_plus": false,
+    "geography": "Africa",
+    "countries_deployed": [
+        "pan-African (47 contributing organisations)"
+    ],
+    "communities_served": [
+        "investigative journalists",
+        "civil society organisations",
+        "watchdog NGOs",
+        "the African public"
+    ],
+    "political_units": [
+        "pan-African"
+    ],
+    "open_source": "yes",
+    "github_url": "https://github.com/CodeForAfrica/sourceAFRICA.app-Briefcase",
+    "github_stars": 89,
+    "last_commit_date": "2024-11-15",
+    "format": [
+        "web platform",
+        "document repository",
+        "search engine",
+        "API"
+    ],
+    "founded_year": 2015,
+    "team_size": "medium",
+    "funding_model": [
+        "institutional grants",
+        "organisational support from Code for Africa"
+    ],
+    "known_funders": [
+        "Code for Africa",
+        "ANCIR (African Network of Centers for Investigative Reporting)"
+    ],
+    "funding_verified": false,
+    "last_funding_event": "2024-ongoing institutional support from Code for Africa",
+    "dependency_risks": [
+        "built on DocumentCloud (third-party dependency)",
+        "dependent on Code for Africa / ANCIR institutional funding"
+    ],
+    "news_articles": [],
+    "academic_citations": [],
+    "awards": [
+        "Recognition as key African civic tech infrastructure"
+    ],
+    "in_civictech_guide": true,
+    "wikipedia_page": false,
+    "policy_outcomes": [
+        "Enabled investigative journalism across Africa",
+        "Supported transparency and accountability reporting"
+    ],
+    "causation_strength": "correlated",
+    "outcome_methodology": "observational - tracked through contributing organisation reports and published investigations",
+    "replication_materials_available": true,
+    "published_performance_metrics": "115,126 documents; 1,243,213 pages; 47 contributing organisations; 137 contributors",
+    "documented_limitations": [
+        "automated document text may contain errors",
+        "summaries are not legal interpretations"
+    ],
+    "jurisdictional_scope": "Africa",
+    "failure_modes": [
+        "DocumentCloud platform dependency",
+        "funding discontinuity",
+        "contributor organisation drop-off"
+    ],
+    "governance_model": "operated by ANCIR under incubation by Code for Africa; CC BY-SA 4.0 content licence",
+    "curation_criteria": "actionable documents needed by the public or civic watchdogs; suppressed or censored documents",
+    "contributor_governance": "47 contributing organisations; open API",
+    "disparity_tracking": false,
+    "community_ownership": true,
+    "ai_involvement": "minimal - uses DocumentCloud's OCR and text extraction capabilities",
+    "pass2_at": "2026-03-09T23:21:44.752Z",
+    "political_relevance_summary": "sourceAFRICA addresses civic technology. Africa's premier repository for actionable documents.",
+    "movement_building_utility": {
+        "classification": "information_resource",
+        "notes": "Provides data, research, or educational resources for civic engagement."
+    },
+    "systemic_issue_area": "civic technology infrastructure",
+    "generalizability_notes": "Open-source codebase facilitates replication; currently focused on pan-African (47 contributing organisations); replication materials are available; would require local data and regulatory adaptation.",
+    "primary_users_or_beneficiaries": [
+        "investigative journalists",
+        "civil society organisations",
+        "watchdog ngos",
+        "the african public"
+    ],
+    "underdog_signal": false
 }

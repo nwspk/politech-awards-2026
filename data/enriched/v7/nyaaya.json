@@ -1,153 +1,147 @@
 {
-  "url": "https://nyaaya.org",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:45:17.458Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 1084,
-    "homepage_has_team_page": true,
-    "homepage_has_impact_metrics": false,
-    "scraped_description": "Nyaaya’s repository of legal explainers with simple, actionable, reliable and accessible legal information is divided into nine broad themes, so you can easily locate explainers on issues that interest you. Each explainer will help you understand the law that governs that issue and the remedies available to you under that law.",
-    "scraped_final_url": "https://nyaaya.org/"
-  },
-  "collected_at": "2026-03-09T22:00:00Z",
-  "collected_by": "nano-bot",
-  "name": "Nyaaya",
-  "tagline": "India's Laws Explained — open access legal information for every Indian citizen",
-  "project_type": "Tool/Platform",
-  "org_type": "Nonprofit/charity",
-  "issue_area": [
-    "access to justice",
-    "legal literacy",
-    "civic rights",
-    "rule of law"
-  ],
-  "sdg_alignment": [
-    "SDG 16 — Peace, Justice and Strong Institutions",
-    "SDG 10 — Reduced Inequalities"
-  ],
-  "decade_plus": false,
-  "geography": "national",
-  "countries_deployed": [
-    "India"
-  ],
-  "communities_served": [
-    "general public",
-    "women",
-    "children",
-    "LGBTQI+",
-    "persons with disabilities",
-    "scheduled castes and tribes",
-    "senior citizens",
-    "informal workers"
-  ],
-  "political_units": [
-    "national (central laws)",
-    "state governments"
-  ],
-  "open_source": "partial",
-  "github_url": "https://github.com/nyaayaIN/laws-of-india",
-  "github_stars": 1200,
-  "last_commit_date": "2025-12-15",
-  "format": [
-    "web portal",
-    "legal explainers",
-    "guides",
-    "sample forms",
-    "FAQs",
-    "video",
-    "glossary"
-  ],
-  "founded_year": 2016,
-  "team_size": "medium",
-  "funding_model": [
-    "philanthropy",
-    "grants"
-  ],
-  "known_funders": [
-    "Rohini Nilekani Philanthropies",
-    "Mekin Maheshwari",
-    "COAL India",
-    "Rahul Matthan"
-  ],
-  "funding_verified": true,
-  "last_funding_event": "2024",
-  "dependency_risks": [
-    "reliance on Vidhi Centre for Legal Policy for content accuracy",
-    "volunteer and fellow contributions for coverage"
-  ],
-  "news_articles": [
-    {
-      "headline": "Rohini Nilekani-backed Nyaaya to make law more accessible to the non-expert via simple interpretation",
-      "outlet": "YourStory",
-      "date": "2016-11-01",
-      "url": "https://yourstory.com/2016/11/nyaaya"
-    }
-  ],
-  "academic_citations": [
-    {
-      "title": "COMPILATION OF NYAAYA W.S.R. ASHTANGA HRIDAYA",
-      "year": 2026,
-      "cited_by": 0,
-      "doi": "https://doi.org/10.5281/zenodo.18797524"
+    "url": "https://nyaaya.org",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:45:17.458Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 1084,
+        "homepage_has_team_page": true,
+        "homepage_has_impact_metrics": false,
+        "scraped_description": "Nyaaya’s repository of legal explainers with simple, actionable, reliable and accessible legal information is divided into nine broad themes, so you can easily locate explainers on issues that interest you. Each explainer will help you understand the law that governs that issue and the remedies available to you under that law.",
+        "scraped_final_url": "https://nyaaya.org/"
     },
-    {
-      "title": "COMPILATION OF NYAAYA W.S.R. ASHTANGA HRIDAYA",
-      "year": 2026,
-      "cited_by": 0,
-      "doi": "https://doi.org/10.5281/zenodo.18797525"
+    "collected_at": "2026-03-09T22:00:00Z",
+    "collected_by": "nano-bot",
+    "name": "Nyaaya",
+    "tagline": "India's Laws Explained — open access legal information for every Indian citizen",
+    "project_type": "Tool/Platform",
+    "org_type": "Nonprofit/charity",
+    "issue_area": [
+        "access to justice",
+        "legal literacy",
+        "civic rights",
+        "rule of law"
+    ],
+    "sdg_alignment": [
+        "SDG 16 — Peace, Justice and Strong Institutions",
+        "SDG 10 — Reduced Inequalities"
+    ],
+    "decade_plus": false,
+    "geography": "national",
+    "countries_deployed": [
+        "India"
+    ],
+    "communities_served": [
+        "general public",
+        "women",
+        "children",
+        "LGBTQI+",
+        "persons with disabilities",
+        "scheduled castes and tribes",
+        "senior citizens",
+        "informal workers"
+    ],
+    "political_units": [
+        "national (central laws)",
+        "state governments"
+    ],
+    "open_source": "partial",
+    "github_url": "https://github.com/nyaayaIN/laws-of-india",
+    "github_stars": 1200,
+    "last_commit_date": "2025-12-15",
+    "format": [
+        "web portal",
+        "legal explainers",
+        "guides",
+        "sample forms",
+        "FAQs",
+        "video",
+        "glossary"
+    ],
+    "founded_year": 2016,
+    "team_size": "medium",
+    "funding_model": [
+        "philanthropy",
+        "grants"
+    ],
+    "known_funders": [
+        "Rohini Nilekani Philanthropies",
+        "Mekin Maheshwari",
+        "COAL India",
+        "Rahul Matthan"
+    ],
+    "funding_verified": true,
+    "last_funding_event": "2024",
+    "dependency_risks": [
+        "reliance on Vidhi Centre for Legal Policy for content accuracy",
+        "volunteer and fellow contributions for coverage"
+    ],
+    "news_articles": [
+        {
+            "headline": "Rohini Nilekani-backed Nyaaya to make law more accessible to the non-expert via simple interpretation",
+            "outlet": "YourStory",
+            "date": "2016-11-01",
+            "url": "https://yourstory.com/2016/11/nyaaya"
+        }
+    ],
+    "academic_citations": [
+        {
+            "title": "COMPILATION OF NYAAYA W.S.R. ASHTANGA HRIDAYA",
+            "year": 2026,
+            "cited_by": 0,
+            "doi": "https://doi.org/10.5281/zenodo.18797524"
+        },
+        {
+            "title": "COMPILATION OF NYAAYA W.S.R. ASHTANGA HRIDAYA",
+            "year": 2026,
+            "cited_by": 0,
+            "doi": "https://doi.org/10.5281/zenodo.18797525"
+        }
+    ],
+    "in_civictech_guide": false,
+    "wikipedia_page": false,
+    "causation_strength": "not evaluated",
+    "outcome_methodology": "not documented",
+    "replication_materials_available": false,
+    "documented_limitations": [
+        "over 30 crore Indians cannot read; English-language bias despite Hindi and Kannada versions",
+        "complex multi-layer legislative frameworks hard to simplify fully"
+    ],
+    "jurisdictional_scope": "national",
+    "failure_modes": [
+        "content staleness if laws change and platform not updated",
+        "English and literacy barriers for marginalised populations"
+    ],
+    "governance_model": "Operated by Vidhi Centre for Legal Policy, a not-for-profit organisation",
+    "curation_criteria": "Legal accuracy reviewed by lawyers and legal researchers at Vidhi",
+    "contributor_governance": "Samvidhaan Fellowship programme for contributors; collaborative editorial process",
+    "disparity_tracking": false,
+    "community_ownership": false,
+    "ai_involvement": "OpenNyAI — a related open-source initiative using AI for justice solutions in India",
+    "pass2_at": "2026-03-09T23:21:35.155Z",
+    "pass3_at": "2026-03-09T23:22:48.555Z",
+    "_sources": [
+        "openalex"
+    ],
+    "pass5_at": "2026-03-10T01:00:05.452Z",
+    "pass5_jina_words": 185,
+    "pass5_changes": [],
+    "political_relevance_summary": "Nyaaya addresses barriers to legal access and understanding, making the law more accessible to ordinary people who lack resources for professional legal counsel.",
+    "movement_building_utility": {
+        "classification": "indirect_or_none",
+        "notes": "Nyaaya's primary function is not directly oriented toward civic organizing, advocacy, or movement infrastructure."
     },
-    {
-      "title": "Definitions of the 15 Padaarthas of the Nyaaya System: Annotated Translation f the Nyaaya-suutra, the first Adhyaasa",
-      "year": 2004,
-      "cited_by": 0,
-      "doi": null
-    }
-  ],
-  "in_civictech_guide": false,
-  "wikipedia_page": false,
-  "causation_strength": "not evaluated",
-  "outcome_methodology": "not documented",
-  "replication_materials_available": false,
-  "documented_limitations": [
-    "over 30 crore Indians cannot read; English-language bias despite Hindi and Kannada versions",
-    "complex multi-layer legislative frameworks hard to simplify fully"
-  ],
-  "jurisdictional_scope": "national",
-  "failure_modes": [
-    "content staleness if laws change and platform not updated",
-    "English and literacy barriers for marginalised populations"
-  ],
-  "governance_model": "Operated by Vidhi Centre for Legal Policy, a not-for-profit organisation",
-  "curation_criteria": "Legal accuracy reviewed by lawyers and legal researchers at Vidhi",
-  "contributor_governance": "Samvidhaan Fellowship programme for contributors; collaborative editorial process",
-  "disparity_tracking": false,
-  "community_ownership": false,
-  "ai_involvement": "OpenNyAI — a related open-source initiative using AI for justice solutions in India",
-  "pass2_at": "2026-03-09T23:21:35.155Z",
-  "pass3_at": "2026-03-09T23:22:48.555Z",
-  "_sources": [
-    "openalex"
-  ],
-  "pass5_at": "2026-03-10T01:00:05.452Z",
-  "pass5_jina_words": 185,
-  "pass5_changes": [],
-  "political_relevance_summary": "Nyaaya addresses barriers to legal access and understanding, making the law more accessible to ordinary people who lack resources for professional legal counsel.",
-  "movement_building_utility": {
-    "classification": "indirect_or_none",
-    "notes": "Nyaaya's primary function is not directly oriented toward civic organizing, advocacy, or movement infrastructure."
-  },
-  "systemic_issue_area": "legal access and literacy",
-  "generalizability_notes": "Moderate generalizability. Nyaaya is open source but built for a specific national context. The approach could be replicated but would require adaptation to local legal and institutional frameworks.",
-  "primary_users_or_beneficiaries": [
-    "general public",
-    "women",
-    "children",
-    "LGBTQI+",
-    "persons with disabilities",
-    "scheduled castes and tribes",
-    "senior citizens",
-    "informal workers"
-  ],
-  "underdog_signal": false
+    "systemic_issue_area": "legal access and literacy",
+    "generalizability_notes": "Moderate generalizability. Nyaaya is open source but built for a specific national context. The approach could be replicated but would require adaptation to local legal and institutional frameworks.",
+    "primary_users_or_beneficiaries": [
+        "general public",
+        "women",
+        "children",
+        "LGBTQI+",
+        "persons with disabilities",
+        "scheduled castes and tribes",
+        "senior citizens",
+        "informal workers"
+    ],
+    "underdog_signal": false
 }
