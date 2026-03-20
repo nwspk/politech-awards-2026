@@ -1,111 +1,108 @@
 {
-  "url": "https://choosealicense.com",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:42:45.264Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 239,
-    "homepage_has_team_page": true,
-    "homepage_has_impact_metrics": false,
-    "scraped_description": "Non-judgmental guidance on choosing a license for your open source project",
-    "scraped_final_url": "https://choosealicense.com/"
-  },
-  "collected_at": "2026-03-09T23:18:15.017Z",
-  "collected_by": "collect-enriched-script",
-  "name": "Choose a License",
-  "tagline": "An open source license guide helping developers and projects select appropriate licenses for their work",
-  "project_type": "Tool/Platform",
-  "org_type": "For-profit/social enterprise",
-  "issue_area": [
-    "digital_rights",
-    "civic_data"
-  ],
-  "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
-  ],
-  "decade_plus": true,
-  "geography": "international",
-  "countries_deployed": [
-    "United States",
-    "Global"
-  ],
-  "communities_served": [
-    "developers",
-    "open source contributors",
-    "software projects",
-    "businesses"
-  ],
-  "political_units": [
-    "international"
-  ],
-  "open_source": "partial",
-  "github_url": "https://github.com/github/choosealicense.com",
-  "github_stars": 3400,
-  "last_commit_date": "2024-12-15",
-  "format": [
-    "platform",
-    "tool"
-  ],
-  "founded_year": 2013,
-  "team_size": "small",
-  "funding_model": [
-    "public_funding"
-  ],
-  "known_funders": [
-    "GitHub, Inc."
-  ],
-  "funding_verified": true,
-  "last_funding_event": "ongoing GitHub support",
-  "news_articles": [
-    "GitHub Blog - Introducing choosealicense.com",
-    "TechCrunch coverage of GitHub open source initiatives"
-  ],
-  "academic_citations": [
-    {
-      "title": "Choosing the Competition and Patent Licensing",
-      "year": 1990,
-      "cited_by": 237,
-      "doi": "https://doi.org/10.2307/2555501"
+    "url": "https://choosealicense.com",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:42:45.264Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 239,
+        "homepage_has_team_page": true,
+        "homepage_has_impact_metrics": false,
+        "scraped_description": "Non-judgmental guidance on choosing a license for your open source project",
+        "scraped_final_url": "https://choosealicense.com/"
     },
-    {
-      "title": "Markets for Technology and their Implications for Corporate Strategy",
-      "year": 2001,
-      "cited_by": 557,
-      "doi": "https://doi.org/10.1093/icc/10.2.419"
+    "collected_at": "2026-03-09T23:18:15.017Z",
+    "collected_by": "collect-enriched-script",
+    "name": "Choose a License",
+    "tagline": "An open source license guide helping developers and projects select appropriate licenses for their work",
+    "project_type": "Tool/Platform",
+    "org_type": "For-profit/social enterprise",
+    "issue_area": [
+        "digital_rights",
+        "civic_data"
+    ],
+    "sdg_alignment": [
+        "SDG 16 – Peace, Justice and Strong Institutions"
+    ],
+    "decade_plus": true,
+    "geography": "international",
+    "countries_deployed": [
+        "United States",
+        "Global"
+    ],
+    "communities_served": [
+        "developers",
+        "open source contributors",
+        "software projects",
+        "businesses"
+    ],
+    "political_units": [
+        "international"
+    ],
+    "open_source": "partial",
+    "github_url": "https://github.com/github/choosealicense.com",
+    "github_stars": 3400,
+    "last_commit_date": "2024-12-15",
+    "format": [
+        "platform",
+        "tool"
+    ],
+    "founded_year": 2013,
+    "team_size": "small",
+    "funding_model": [
+        "public_funding"
+    ],
+    "known_funders": [
+        "GitHub, Inc."
+    ],
+    "funding_verified": true,
+    "last_funding_event": "ongoing GitHub support",
+    "news_articles": [],
+    "academic_citations": [
+        {
+            "title": "Choosing the Competition and Patent Licensing",
+            "year": 1990,
+            "cited_by": 237,
+            "doi": "https://doi.org/10.2307/2555501"
+        },
+        {
+            "title": "Markets for Technology and their Implications for Corporate Strategy",
+            "year": 2001,
+            "cited_by": 557,
+            "doi": "https://doi.org/10.1093/icc/10.2.419"
+        },
+        {
+            "title": "Choosing Between Direct Investment and Licensing: Theoretical Considerations and Empirical Tests",
+            "year": 1984,
+            "cited_by": 137,
+            "doi": "https://doi.org/10.1057/palgrave.jibs.8490501"
+        }
+    ],
+    "in_civictech_guide": false,
+    "jurisdictional_scope": "international",
+    "governance_model": "project_of_larger_org",
+    "curation_criteria": "Community-preferred licenses and common open source licensing patterns",
+    "contributor_governance": "GitHub-managed with community contributions via pull requests",
+    "community_ownership": false,
+    "pass2_at": "2026-03-09T23:21:21.322Z",
+    "pass3_at": "2026-03-09T23:22:07.290Z",
+    "_sources": [
+        "openalex"
+    ],
+    "pass5_at": "2026-03-10T00:42:39.930Z",
+    "pass5_jina_words": 253,
+    "pass5_changes": [],
+    "political_relevance_summary": "Addresses threats to digital autonomy and privacy rights that affect civic participation and civil liberties.",
+    "movement_building_utility": {
+        "classification": "infrastructure",
+        "notes": "Provides legal or licensing infrastructure that supports open civic technology."
     },
-    {
-      "title": "Choosing Between Direct Investment and Licensing: Theoretical Considerations and Empirical Tests",
-      "year": 1984,
-      "cited_by": 137,
-      "doi": "https://doi.org/10.1057/palgrave.jibs.8490501"
-    }
-  ],
-  "in_civictech_guide": false,
-  "jurisdictional_scope": "international",
-  "governance_model": "project_of_larger_org",
-  "curation_criteria": "Community-preferred licenses and common open source licensing patterns",
-  "contributor_governance": "GitHub-managed with community contributions via pull requests",
-  "community_ownership": false,
-  "pass2_at": "2026-03-09T23:21:21.322Z",
-  "pass3_at": "2026-03-09T23:22:07.290Z",
-  "_sources": [
-    "openalex"
-  ],
-  "pass5_at": "2026-03-10T00:42:39.930Z",
-  "pass5_jina_words": 253,
-  "pass5_changes": [],
-  "political_relevance_summary": "Addresses threats to digital autonomy and privacy rights that affect civic participation and civil liberties.",
-  "movement_building_utility": {
-    "classification": "infrastructure",
-    "notes": "Provides legal or licensing infrastructure that supports open civic technology."
-  },
-  "systemic_issue_area": "digital rights infrastructure",
-  "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (2 countries), demonstrating cross-context adaptability.",
-  "primary_users_or_beneficiaries": [
-    "civic technology developers",
-    "open source contributors",
-    "software projects",
-    "businesses"
-  ],
-  "underdog_signal": true
+    "systemic_issue_area": "digital rights infrastructure",
+    "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (2 countries), demonstrating cross-context adaptability.",
+    "primary_users_or_beneficiaries": [
+        "civic technology developers",
+        "open source contributors",
+        "software projects",
+        "businesses"
+    ],
+    "underdog_signal": true
 }

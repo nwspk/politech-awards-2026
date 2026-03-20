@@ -1,114 +1,108 @@
 {
-  "url": "https://dogooder.co",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:43:27.334Z",
-    "homepage_http_status": 403,
-    "dead_link": true,
-    "homepage_word_count": 127,
-    "homepage_has_team_page": false,
-    "homepage_has_impact_metrics": false,
-    "scraped_description": "This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data.",
-    "scraped_final_url": "https://dogooder.co/"
-  },
-  "collected_at": "2026-03-09T23:18:19.796Z",
-  "collected_by": "collect-enriched-script",
-  "name": "DoGooder",
-  "tagline": "Civic engagement and advocacy platform for grassroots campaigns",
-  "project_type": "Tool/Platform",
-  "org_type": "For-profit/social enterprise",
-  "issue_area": [
-    "Civic engagement",
-    "Advocacy",
-    "Grassroots organizing",
-    "Digital advocacy"
-  ],
-  "sdg_alignment": [
-    "SDG 16: Peace, Justice and Strong Institutions"
-  ],
-  "decade_plus": true,
-  "geography": "national",
-  "countries_deployed": [
-    "United States",
-    "Canada",
-    "Australia",
-    "United Kingdom"
-  ],
-  "communities_served": [
-    "Activists",
-    "Non-profit organizations",
-    "Community groups",
-    "Social movements",
-    "Progressive campaigners"
-  ],
-  "political_units": [
-    "Federal",
-    "State/Provincial",
-    "Local governments"
-  ],
-  "open_source": "no",
-  "format": "Web-based platform",
-  "founded_year": 2012,
-  "funding_model": "Freemium subscription model with tiered pricing (Good, Gooder, Goodest, Goodest PRO)",
-  "funding_verified": false,
-  "academic_citations": [
-    {
-      "title": "doGooder",
-      "year": 2008,
-      "cited_by": 6,
-      "doi": "https://doi.org/10.1145/1358628.1358941"
+    "url": "https://dogooder.co",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:43:27.334Z",
+        "homepage_http_status": 403,
+        "dead_link": true,
+        "homepage_word_count": 127,
+        "homepage_has_team_page": false,
+        "homepage_has_impact_metrics": false,
+        "scraped_description": "This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data.",
+        "scraped_final_url": "https://dogooder.co/"
     },
-    {
-      "title": "Facial Deformities and Plastic Surgery: A Psychosocial Study",
-      "year": 1954,
-      "cited_by": 36,
-      "doi": "https://doi.org/10.1001/jama.1954.02940410088031"
+    "collected_at": "2026-03-09T23:18:19.796Z",
+    "collected_by": "collect-enriched-script",
+    "name": "DoGooder",
+    "tagline": "Civic engagement and advocacy platform for grassroots campaigns",
+    "project_type": "Tool/Platform",
+    "org_type": "For-profit/social enterprise",
+    "issue_area": [
+        "Civic engagement",
+        "Advocacy",
+        "Grassroots organizing",
+        "Digital advocacy"
+    ],
+    "sdg_alignment": [
+        "SDG 16: Peace, Justice and Strong Institutions"
+    ],
+    "decade_plus": true,
+    "geography": "national",
+    "countries_deployed": [
+        "United States",
+        "Canada",
+        "Australia",
+        "United Kingdom"
+    ],
+    "communities_served": [
+        "Activists",
+        "Non-profit organizations",
+        "Community groups",
+        "Social movements",
+        "Progressive campaigners"
+    ],
+    "political_units": [
+        "Federal",
+        "State/Provincial",
+        "Local governments"
+    ],
+    "open_source": "no",
+    "format": "Web-based platform",
+    "founded_year": 2012,
+    "funding_model": "Freemium subscription model with tiered pricing (Good, Gooder, Goodest, Goodest PRO)",
+    "funding_verified": false,
+    "academic_citations": [
+        {
+            "title": "doGooder",
+            "year": 2008,
+            "cited_by": 6,
+            "doi": "https://doi.org/10.1145/1358628.1358941"
+        },
+        {
+            "title": "Facial Deformities and Plastic Surgery: A Psychosocial Study",
+            "year": 1954,
+            "cited_by": 36,
+            "doi": "https://doi.org/10.1001/jama.1954.02940410088031"
+        }
+    ],
+    "in_civictech_guide": false,
+    "wikipedia_page": false,
+    "replication_materials_available": false,
+    "preregistered_studies": false,
+    "jurisdictional_scope": "International (US, Canada, Australia, UK)",
+    "community_ownership": false,
+    "ai_involvement": false,
+    "policy_outcomes": [],
+    "causation_strength": "anecdotal",
+    "news_articles": [],
+    "collection_note": "URL blocked by Cloudflare security service. No page content accessible. Unable to determine project details. Information populated from external knowledge of DoGooder platform. No verifiable policy outcomes or news coverage could be independently confirmed.",
+    "pass2_at": "2026-03-10T00:27:56.324Z",
+    "pass3_at": "2026-03-09T23:22:20.285Z",
+    "_sources": [
+        "openalex"
+    ],
+    "pass5_at": "2026-03-10T00:40:56.685Z",
+    "pass5_jina_words": 411,
+    "pass5_changes": [
+        "issue_area",
+        "countries_deployed",
+        "communities_served",
+        "political_units",
+        "funding_model",
+        "jurisdictional_scope"
+    ],
+    "political_relevance_summary": "DoGooder addresses civic technology. Civic engagement and advocacy platform for grassroots campaigns.",
+    "movement_building_utility": {
+        "classification": "direct_organizer_tool",
+        "notes": "Directly supports organizing, campaigning, or advocacy actions."
     },
-    {
-      "title": "Comentarios sobre «do-good», «dogooder» y «do-goodism».",
-      "year": 2007,
-      "cited_by": 0,
-      "doi": null
-    }
-  ],
-  "in_civictech_guide": false,
-  "wikipedia_page": false,
-  "replication_materials_available": false,
-  "preregistered_studies": false,
-  "jurisdictional_scope": "International (US, Canada, Australia, UK)",
-  "community_ownership": false,
-  "ai_involvement": false,
-  "policy_outcomes": [],
-  "causation_strength": "anecdotal",
-  "news_articles": [],
-  "collection_note": "URL blocked by Cloudflare security service. No page content accessible. Unable to determine project details. Information populated from external knowledge of DoGooder platform. No verifiable policy outcomes or news coverage could be independently confirmed.",
-  "pass2_at": "2026-03-10T00:27:56.324Z",
-  "pass3_at": "2026-03-09T23:22:20.285Z",
-  "_sources": [
-    "openalex"
-  ],
-  "pass5_at": "2026-03-10T00:40:56.685Z",
-  "pass5_jina_words": 411,
-  "pass5_changes": [
-    "issue_area",
-    "countries_deployed",
-    "communities_served",
-    "political_units",
-    "funding_model",
-    "jurisdictional_scope"
-  ],
-  "political_relevance_summary": "DoGooder addresses civic technology. Civic engagement and advocacy platform for grassroots campaigns.",
-  "movement_building_utility": {
-    "classification": "direct_organizer_tool",
-    "notes": "Directly supports organizing, campaigning, or advocacy actions."
-  },
-  "systemic_issue_area": "civic technology infrastructure",
-  "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Proprietary or closed-source; replication requires licensing.",
-  "primary_users_or_beneficiaries": [
-    "Activists",
-    "Non-profit organizations",
-    "Community groups",
-    "Social movements",
-    "Progressive campaigners"
-  ],
-  "underdog_signal": false
+    "systemic_issue_area": "civic technology infrastructure",
+    "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Proprietary or closed-source; replication requires licensing.",
+    "primary_users_or_beneficiaries": [
+        "Activists",
+        "Non-profit organizations",
+        "Community groups",
+        "Social movements",
+        "Progressive campaigners"
+    ],
+    "underdog_signal": false
 }

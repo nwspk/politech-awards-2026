@@ -1,141 +1,138 @@
 {
-  "url": "https://talktothecity.org",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:46:21.199Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 23,
-    "homepage_has_team_page": true,
-    "homepage_has_impact_metrics": false,
-    "scraped_description": "Talk to the City",
-    "scraped_final_url": "https://talktothecity.org/"
-  },
-  "collected_at": "2026-03-09T23:20:37.370Z",
-  "collected_by": "collect-enriched-script",
-  "name": "Talk to the City",
-  "tagline": "Open-source LLM survey tool to improve collective discourse and decision-making by analyzing qualitative responses and generating easy-to-navigate reports",
-  "project_type": "Tool/Platform",
-  "org_type": "Academic/research",
-  "issue_area": [
-    "participatory_democracy",
-    "civic_data",
-    "emerging_tech"
-  ],
-  "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
-  ],
-  "decade_plus": false,
-  "geography": "international",
-  "countries_deployed": [
-    "United States",
-    "Taiwan",
-    "United Kingdom",
-    "Canada",
-    "Australia"
-  ],
-  "communities_served": [
-    "researchers",
-    "citizens",
-    "policymakers",
-    "civic organizations",
-    "peacebuilders",
-    "mediators"
-  ],
-  "political_units": [
-    "international"
-  ],
-  "open_source": "partial",
-  "github_url": "https://github.com/AIObjectives/talk-to-the-city",
-  "github_stars": 287,
-  "last_commit_date": "2024-12-15",
-  "format": [
-    "platform",
-    "api"
-  ],
-  "founded_year": 2023,
-  "team_size": "small",
-  "funding_model": "grant-funded",
-  "known_funders": [
-    "AI Objectives Institute",
-    "Open Society Foundations",
-    "Omidyar Network"
-  ],
-  "funding_verified": true,
-  "last_funding_event": "2024",
-  "dependency_risks": [
-    "Reliance on AI/LLM infrastructure",
-    "Dependency on AI Objectives Institute"
-  ],
-  "news_articles": [
-    "https://ai.objectives.institute/blog/using-ai-to-give-people-a-voice-a-case-study-in-michigan",
-    "https://ai.objectives.institute/blog/amplifying-voices-talk-to-the-city-in-taiwan",
-    "https://www.wired.com/story/talk-to-the-city-ai-democracy/",
-    "https://www.theguardian.com/technology/2024/talk-to-the-city"
-  ],
-  "academic_citations": [
-    "Whittaker et al. (2024) on AI-assisted deliberation platforms",
-    "Published in proceedings of ACM Conference on Participatory Design"
-  ],
-  "awards": [
-    "Civic Tech Award 2024"
-  ],
-  "in_civictech_guide": true,
-  "policy_outcomes": [
-    "Used in participatory budgeting processes",
-    "Adopted by municipal governments for public consultation",
-    "Used by Taiwan AI Assembly for deliberation workshops analyzing 2,000+ opinions from 400 participants",
-    "Deployed by Silent Cry non-profit to explore reentry challenges for formerly incarcerated people",
-    "Used in 2024 Deliberative Technology in Polarized Contexts workshop at Notre Dame University with peacebuilders and mediators"
-  ],
-  "causation_strength": "correlated",
-  "outcome_methodology": "case study analysis",
-  "replication_materials_available": true,
-  "published_performance_metrics": true,
-  "documented_limitations": [
-    "AI bias in summarization",
-    "Language limitations beyond English",
-    "Computational resource requirements"
-  ],
-  "jurisdictional_scope": "international",
-  "failure_modes": [
-    "Inaccurate AI summarization of nuanced positions",
-    "Potential for manipulation of input data"
-  ],
-  "governance_model": "project_of_larger_org",
-  "curation_criteria": "Community input moderation guidelines available on platform documentation",
-  "contributor_governance": "Open contribution model with review process",
-  "disparity_tracking": false,
-  "community_ownership": false,
-  "government_partnerships": [
-    "Municipal government partnerships for participatory budgeting",
-    "Taiwan AI Assembly"
-  ],
-  "ai_involvement": true,
-  "pass2_at": "2026-03-09T23:21:43.421Z",
-  "pass5_at": "2026-03-10T01:00:24.037Z",
-  "pass5_jina_words": 421,
-  "pass5_changes": [
-    "tagline",
-    "countries_deployed",
-    "communities_served",
-    "news_articles",
-    "policy_outcomes",
-    "government_partnerships"
-  ],
-  "political_relevance_summary": "Talk to the City addresses democratic participation and citizen engagement. Open-source LLM survey tool to improve collective discourse and decision-making by analyzing qualitative responses and generating easy-to-navigate reports.",
-  "movement_building_utility": {
-    "classification": "direct_organizer_tool",
-    "notes": "Directly supports organizing, mobilization, or democratic participation processes."
-  },
-  "systemic_issue_area": "democratic participation access",
-  "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions; replication materials are available.",
-  "primary_users_or_beneficiaries": [
-    "civic technology researchers",
-    "engaged citizens",
-    "policymakers",
-    "civic organizations",
-    "peacebuilders",
-    "mediators"
-  ],
-  "underdog_signal": true
+    "url": "https://talktothecity.org",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:46:21.199Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 23,
+        "homepage_has_team_page": true,
+        "homepage_has_impact_metrics": false,
+        "scraped_description": "Talk to the City",
+        "scraped_final_url": "https://talktothecity.org/"
+    },
+    "collected_at": "2026-03-09T23:20:37.370Z",
+    "collected_by": "collect-enriched-script",
+    "name": "Talk to the City",
+    "tagline": "Open-source LLM survey tool to improve collective discourse and decision-making by analyzing qualitative responses and generating easy-to-navigate reports",
+    "project_type": "Tool/Platform",
+    "org_type": "Academic/research",
+    "issue_area": [
+        "participatory_democracy",
+        "civic_data",
+        "emerging_tech"
+    ],
+    "sdg_alignment": [
+        "SDG 16 – Peace, Justice and Strong Institutions"
+    ],
+    "decade_plus": false,
+    "geography": "international",
+    "countries_deployed": [
+        "United States",
+        "Taiwan",
+        "United Kingdom",
+        "Canada",
+        "Australia"
+    ],
+    "communities_served": [
+        "researchers",
+        "citizens",
+        "policymakers",
+        "civic organizations",
+        "peacebuilders",
+        "mediators"
+    ],
+    "political_units": [
+        "international"
+    ],
+    "open_source": "partial",
+    "github_url": "https://github.com/AIObjectives/talk-to-the-city",
+    "github_stars": 287,
+    "last_commit_date": "2024-12-15",
+    "format": [
+        "platform",
+        "api"
+    ],
+    "founded_year": 2023,
+    "team_size": "small",
+    "funding_model": "grant-funded",
+    "known_funders": [
+        "AI Objectives Institute",
+        "Open Society Foundations",
+        "Omidyar Network"
+    ],
+    "funding_verified": true,
+    "last_funding_event": "2024",
+    "dependency_risks": [
+        "Reliance on AI/LLM infrastructure",
+        "Dependency on AI Objectives Institute"
+    ],
+    "news_articles": [
+        "https://ai.objectives.institute/blog/using-ai-to-give-people-a-voice-a-case-study-in-michigan",
+        "https://ai.objectives.institute/blog/amplifying-voices-talk-to-the-city-in-taiwan",
+        "https://www.wired.com/story/talk-to-the-city-ai-democracy/",
+        "https://www.theguardian.com/technology/2024/talk-to-the-city"
+    ],
+    "academic_citations": [],
+    "awards": [
+        "Civic Tech Award 2024"
+    ],
+    "in_civictech_guide": true,
+    "policy_outcomes": [
+        "Used in participatory budgeting processes",
+        "Adopted by municipal governments for public consultation",
+        "Used by Taiwan AI Assembly for deliberation workshops analyzing 2,000+ opinions from 400 participants",
+        "Deployed by Silent Cry non-profit to explore reentry challenges for formerly incarcerated people",
+        "Used in 2024 Deliberative Technology in Polarized Contexts workshop at Notre Dame University with peacebuilders and mediators"
+    ],
+    "causation_strength": "correlated",
+    "outcome_methodology": "case study analysis",
+    "replication_materials_available": true,
+    "published_performance_metrics": true,
+    "documented_limitations": [
+        "AI bias in summarization",
+        "Language limitations beyond English",
+        "Computational resource requirements"
+    ],
+    "jurisdictional_scope": "international",
+    "failure_modes": [
+        "Inaccurate AI summarization of nuanced positions",
+        "Potential for manipulation of input data"
+    ],
+    "governance_model": "project_of_larger_org",
+    "curation_criteria": "Community input moderation guidelines available on platform documentation",
+    "contributor_governance": "Open contribution model with review process",
+    "disparity_tracking": false,
+    "community_ownership": false,
+    "government_partnerships": [
+        "Municipal government partnerships for participatory budgeting",
+        "Taiwan AI Assembly"
+    ],
+    "ai_involvement": true,
+    "pass2_at": "2026-03-09T23:21:43.421Z",
+    "pass5_at": "2026-03-10T01:00:24.037Z",
+    "pass5_jina_words": 421,
+    "pass5_changes": [
+        "tagline",
+        "countries_deployed",
+        "communities_served",
+        "news_articles",
+        "policy_outcomes",
+        "government_partnerships"
+    ],
+    "political_relevance_summary": "Talk to the City addresses democratic participation and citizen engagement. Open-source LLM survey tool to improve collective discourse and decision-making by analyzing qualitative responses and generating easy-to-navigate reports.",
+    "movement_building_utility": {
+        "classification": "direct_organizer_tool",
+        "notes": "Directly supports organizing, mobilization, or democratic participation processes."
+    },
+    "systemic_issue_area": "democratic participation access",
+    "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions; replication materials are available.",
+    "primary_users_or_beneficiaries": [
+        "civic technology researchers",
+        "engaged citizens",
+        "policymakers",
+        "civic organizations",
+        "peacebuilders",
+        "mediators"
+    ],
+    "underdog_signal": true
 }

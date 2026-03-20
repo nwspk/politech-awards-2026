@@ -1,131 +1,129 @@
 {
-  "url": "https://participedia.net",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:45:47.981Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 1767,
-    "homepage_has_team_page": true,
-    "homepage_has_impact_metrics": true,
-    "scraped_description": "On an entry page there are three fields that are filled with user-generated free form text. We call these ‘Open Text’ fields, and they are the Title, Brief Description and Narrative. The rest of the fields are either numbers, dates, or fixed options—we call these ‘Fixed Data’ fields.",
-    "scraped_final_url": "https://participedia.net/"
-  },
-  "collected_at": "2026-03-09T00:00:00Z",
-  "collected_by": "agent-batch-33",
-  "name": "Participedia",
-  "tagline": "A global crowdsourcing platform for researchers, activists, practitioners, and anyone interested in public participation and democratic innovations.",
-  "project_type": "Database",
-  "org_type": "Nonprofit/charity",
-  "issue_area": [
-    "democratic innovation",
-    "public participation",
-    "participatory governance",
-    "civic engagement"
-  ],
-  "sdg_alignment": [
-    "SDG 16 - Peace, Justice and Strong Institutions",
-    "SDG 17 - Partnerships for the Goals"
-  ],
-  "decade_plus": true,
-  "geography": "international",
-  "countries_deployed": [
-    "Canada",
-    "United States",
-    "United Kingdom",
-    "Germany",
-    "Australia",
-    "Brazil",
-    "India",
-    "South Africa"
-  ],
-  "communities_served": [
-    "researchers",
-    "practitioners",
-    "policymakers",
-    "activists",
-    "educators"
-  ],
-  "political_units": [
-    "municipal",
-    "regional",
-    "national",
-    "transnational"
-  ],
-  "open_source": "yes",
-  "github_url": "https://github.com/participedia",
-  "github_stars": 89,
-  "last_commit_date": "2024-11-15",
-  "format": [
-    "web platform",
-    "database",
-    "open access research tool"
-  ],
-  "founded_year": 2009,
-  "team_size": "medium",
-  "funding_model": [
-    "academic grants",
-    "government research grants"
-  ],
-  "known_funders": [
-    "Social Sciences and Humanities Research Council of Canada (SSHRC)",
-    "Canada Research Chairs Program",
-    "Canada Foundation for Innovation",
-    "Bertelsmann Foundation"
-  ],
-  "funding_verified": true,
-  "last_funding_event": "2021 SSHRC Partnership Grant, Phase 2 (2021-2026), ~$2.5 million CAD",
-  "dependency_risks": [
-    "dependent on academic grant cycles",
-    "volunteer contributor quality"
-  ],
-  "news_articles": [
-    "https://participediaproject.medium.com/participedia-receives-2-5-million-to-expand-reach-and-impact-ae68f40967d3"
-  ],
-  "academic_citations": [
-    "Smith (2015) - The Potential of Participedia as a Crowdsourcing Tool for Comparative Analysis of Democratic Innovations, Policy & Internet"
-  ],
-  "in_civictech_guide": false,
-  "policy_outcomes": [
-    "1,800+ cases of participatory democracy documented (Phase 1)",
-    "330+ methods of participation catalogued"
-  ],
-  "causation_strength": "correlated",
-  "outcome_methodology": "crowdsourced case documentation; structured comparative data collection",
-  "replication_materials_available": true,
-  "published_performance_metrics": false,
-  "documented_limitations": [
-    "volunteer contributor quality hard to standardise",
-    "risk of biased article authorship",
-    "no formal content regulation system"
-  ],
-  "jurisdictional_scope": "global",
-  "failure_modes": [
-    "content quality inconsistency",
-    "grant funding dependency"
-  ],
-  "governance_model": "Academic co-governance led by McMaster University, Simon Fraser University, Harvard University, and University of British Columbia; 63 researchers from 22 universities across 12 countries in Phase 2",
-  "curation_criteria": "Crowdsourced cases, methods, organisations, and collections related to democratic participation and innovation",
-  "contributor_governance": "open contribution with editorial oversight by permanent staff",
-  "disparity_tracking": false,
-  "community_ownership": false,
-  "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:38.261Z",
-  "pass5_at": "2026-03-10T00:49:07.378Z",
-  "pass5_jina_words": 397,
-  "pass5_changes": [],
-  "political_relevance_summary": "Participedia addresses gaps in democratic participation by providing tools or platforms that enable citizens and communities to engage more directly in governance and decision-making processes.",
-  "movement_building_utility": {
-    "classification": "advocacy_amplifier",
-    "notes": "Participedia enables civic participation and amplifies community voices in democratic processes."
-  },
-  "systemic_issue_area": "democratic participation access",
-  "generalizability_notes": "High generalizability. Participedia is open source and already deployed across multiple countries/jurisdictions, making replication straightforward for other contexts.",
-  "primary_users_or_beneficiaries": [
-    "researchers",
-    "practitioners",
-    "policymakers",
-    "activists",
-    "educators"
-  ],
-  "underdog_signal": false
+    "url": "https://participedia.net",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:45:47.981Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 1767,
+        "homepage_has_team_page": true,
+        "homepage_has_impact_metrics": true,
+        "scraped_description": "On an entry page there are three fields that are filled with user-generated free form text. We call these ‘Open Text’ fields, and they are the Title, Brief Description and Narrative. The rest of the fields are either numbers, dates, or fixed options—we call these ‘Fixed Data’ fields.",
+        "scraped_final_url": "https://participedia.net/"
+    },
+    "collected_at": "2026-03-09T00:00:00Z",
+    "collected_by": "agent-batch-33",
+    "name": "Participedia",
+    "tagline": "A global crowdsourcing platform for researchers, activists, practitioners, and anyone interested in public participation and democratic innovations.",
+    "project_type": "Database",
+    "org_type": "Nonprofit/charity",
+    "issue_area": [
+        "democratic innovation",
+        "public participation",
+        "participatory governance",
+        "civic engagement"
+    ],
+    "sdg_alignment": [
+        "SDG 16 - Peace, Justice and Strong Institutions",
+        "SDG 17 - Partnerships for the Goals"
+    ],
+    "decade_plus": true,
+    "geography": "international",
+    "countries_deployed": [
+        "Canada",
+        "United States",
+        "United Kingdom",
+        "Germany",
+        "Australia",
+        "Brazil",
+        "India",
+        "South Africa"
+    ],
+    "communities_served": [
+        "researchers",
+        "practitioners",
+        "policymakers",
+        "activists",
+        "educators"
+    ],
+    "political_units": [
+        "municipal",
+        "regional",
+        "national",
+        "transnational"
+    ],
+    "open_source": "yes",
+    "github_url": "https://github.com/participedia",
+    "github_stars": 89,
+    "last_commit_date": "2024-11-15",
+    "format": [
+        "web platform",
+        "database",
+        "open access research tool"
+    ],
+    "founded_year": 2009,
+    "team_size": "medium",
+    "funding_model": [
+        "academic grants",
+        "government research grants"
+    ],
+    "known_funders": [
+        "Social Sciences and Humanities Research Council of Canada (SSHRC)",
+        "Canada Research Chairs Program",
+        "Canada Foundation for Innovation",
+        "Bertelsmann Foundation"
+    ],
+    "funding_verified": true,
+    "last_funding_event": "2021 SSHRC Partnership Grant, Phase 2 (2021-2026), ~$2.5 million CAD",
+    "dependency_risks": [
+        "dependent on academic grant cycles",
+        "volunteer contributor quality"
+    ],
+    "news_articles": [
+        "https://participediaproject.medium.com/participedia-receives-2-5-million-to-expand-reach-and-impact-ae68f40967d3"
+    ],
+    "academic_citations": [],
+    "in_civictech_guide": false,
+    "policy_outcomes": [
+        "1,800+ cases of participatory democracy documented (Phase 1)",
+        "330+ methods of participation catalogued"
+    ],
+    "causation_strength": "correlated",
+    "outcome_methodology": "crowdsourced case documentation; structured comparative data collection",
+    "replication_materials_available": true,
+    "published_performance_metrics": false,
+    "documented_limitations": [
+        "volunteer contributor quality hard to standardise",
+        "risk of biased article authorship",
+        "no formal content regulation system"
+    ],
+    "jurisdictional_scope": "global",
+    "failure_modes": [
+        "content quality inconsistency",
+        "grant funding dependency"
+    ],
+    "governance_model": "Academic co-governance led by McMaster University, Simon Fraser University, Harvard University, and University of British Columbia; 63 researchers from 22 universities across 12 countries in Phase 2",
+    "curation_criteria": "Crowdsourced cases, methods, organisations, and collections related to democratic participation and innovation",
+    "contributor_governance": "open contribution with editorial oversight by permanent staff",
+    "disparity_tracking": false,
+    "community_ownership": false,
+    "ai_involvement": false,
+    "pass2_at": "2026-03-09T23:21:38.261Z",
+    "pass5_at": "2026-03-10T00:49:07.378Z",
+    "pass5_jina_words": 397,
+    "pass5_changes": [],
+    "political_relevance_summary": "Participedia addresses gaps in democratic participation by providing tools or platforms that enable citizens and communities to engage more directly in governance and decision-making processes.",
+    "movement_building_utility": {
+        "classification": "advocacy_amplifier",
+        "notes": "Participedia enables civic participation and amplifies community voices in democratic processes."
+    },
+    "systemic_issue_area": "democratic participation access",
+    "generalizability_notes": "High generalizability. Participedia is open source and already deployed across multiple countries/jurisdictions, making replication straightforward for other contexts.",
+    "primary_users_or_beneficiaries": [
+        "researchers",
+        "practitioners",
+        "policymakers",
+        "activists",
+        "educators"
+    ],
+    "underdog_signal": false
 }

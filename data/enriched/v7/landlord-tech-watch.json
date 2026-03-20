@@ -1,128 +1,126 @@
 {
-  "url": "https://antievictionmappingproject.github.io/landlordtech",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:42:34.368Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 12,
-    "homepage_has_team_page": false,
-    "homepage_has_impact_metrics": false,
-    "scraped_description": "Landlord Tech—in industry so-called property tech or proptech—is leading to new forms of housing injustice in ways that increase the power of landlords and further disempower tenants and those seeking shelter.",
-    "scraped_final_url": "https://antievictionmappingproject.github.io/landlordtech/"
-  },
-  "collected_at": "2026-03-09T23:18:08.442Z",
-  "collected_by": "collect-enriched-script",
-  "name": "Landlord Tech Watch",
-  "tagline": "Producing data, scholarship, and popular educational materials documenting how property technology increases landlord power while disempowering tenants",
-  "project_type": "Database",
-  "org_type": "Grassroots/indie",
-  "issue_area": [
-    "advocacy_tech",
-    "civic_data",
-    "digital_rights"
-  ],
-  "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions",
-    "SDG 10 – Reduced Inequalities"
-  ],
-  "decade_plus": false,
-  "geography": "national",
-  "countries_deployed": [
-    "United States"
-  ],
-  "communities_served": [
-    "tenants",
-    "housing advocates",
-    "researchers",
-    "policymakers"
-  ],
-  "political_units": [
-    "federal",
-    "state",
-    "city"
-  ],
-  "open_source": "yes",
-  "github_url": "https://github.com/antievictionmappingproject/landlordtech",
-  "github_stars": 89,
-  "last_commit_date": "2024-11-15",
-  "format": [
-    "database",
-    "platform"
-  ],
-  "founded_year": 2020,
-  "team_size": "small",
-  "funding_model": [
-    "grants",
-    "donations"
-  ],
-  "known_funders": [
-    "Anti-Eviction Mapping Project",
-    "Community-based donations"
-  ],
-  "funding_verified": false,
-  "dependency_risks": [
-    "Reliance on volunteer contributions",
-    "Limited institutional funding"
-  ],
-  "news_articles": [
-    "Landlord Tech Watch: Documenting the Rise of Tenant Surveillance (Housing Justice News, 2023)"
-  ],
-  "academic_citations": [
-    {
-      "title": "The work of landlord technology: The fictions of frictionless property management",
-      "year": 2024,
-      "cited_by": 33,
-      "doi": "https://doi.org/10.1177/02637758241232758"
+    "url": "https://antievictionmappingproject.github.io/landlordtech",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:42:34.368Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 12,
+        "homepage_has_team_page": false,
+        "homepage_has_impact_metrics": false,
+        "scraped_description": "Landlord Tech—in industry so-called property tech or proptech—is leading to new forms of housing injustice in ways that increase the power of landlords and further disempower tenants and those seeking shelter.",
+        "scraped_final_url": "https://antievictionmappingproject.github.io/landlordtech/"
     },
-    {
-      "title": "Hormonal Advantage: Retracing Exploitative Histories of Workplace Menstrual Tracking",
-      "year": 2021,
-      "cited_by": 28,
-      "doi": "https://doi.org/10.28968/cftt.v7i1.34506"
+    "collected_at": "2026-03-09T23:18:08.442Z",
+    "collected_by": "collect-enriched-script",
+    "name": "Landlord Tech Watch",
+    "tagline": "Producing data, scholarship, and popular educational materials documenting how property technology increases landlord power while disempowering tenants",
+    "project_type": "Database",
+    "org_type": "Grassroots/indie",
+    "issue_area": [
+        "advocacy_tech",
+        "civic_data",
+        "digital_rights"
+    ],
+    "sdg_alignment": [
+        "SDG 16 – Peace, Justice and Strong Institutions",
+        "SDG 10 – Reduced Inequalities"
+    ],
+    "decade_plus": false,
+    "geography": "national",
+    "countries_deployed": [
+        "United States"
+    ],
+    "communities_served": [
+        "tenants",
+        "housing advocates",
+        "researchers",
+        "policymakers"
+    ],
+    "political_units": [
+        "federal",
+        "state",
+        "city"
+    ],
+    "open_source": "yes",
+    "github_url": "https://github.com/antievictionmappingproject/landlordtech",
+    "github_stars": 89,
+    "last_commit_date": "2024-11-15",
+    "format": [
+        "database",
+        "platform"
+    ],
+    "founded_year": 2020,
+    "team_size": "small",
+    "funding_model": [
+        "grants",
+        "donations"
+    ],
+    "known_funders": [
+        "Anti-Eviction Mapping Project",
+        "Community-based donations"
+    ],
+    "funding_verified": false,
+    "dependency_risks": [
+        "Reliance on volunteer contributions",
+        "Limited institutional funding"
+    ],
+    "news_articles": [],
+    "academic_citations": [
+        {
+            "title": "The work of landlord technology: The fictions of frictionless property management",
+            "year": 2024,
+            "cited_by": 33,
+            "doi": "https://doi.org/10.1177/02637758241232758"
+        },
+        {
+            "title": "Hormonal Advantage: Retracing Exploitative Histories of Workplace Menstrual Tracking",
+            "year": 2021,
+            "cited_by": 28,
+            "doi": "https://doi.org/10.28968/cftt.v7i1.34506"
+        },
+        {
+            "title": "The Work of Watching One Another: Lateral Surveillance, Risk, and Governance",
+            "year": 2002,
+            "cited_by": 425,
+            "doi": "https://doi.org/10.24908/ss.v2i4.3359"
+        }
+    ],
+    "in_civictech_guide": false,
+    "replication_materials_available": true,
+    "documented_limitations": [
+        "Page requires JavaScript to render; content not accessible via static HTML"
+    ],
+    "jurisdictional_scope": "United States",
+    "governance_model": "project_of_larger_org",
+    "curation_criteria": "Documentation of landlord technology platforms that impact tenant rights; focus on surveillance, eviction facilitation, and data collection practices",
+    "contributor_governance": "Open contribution model through GitHub; maintained by Anti-Eviction Mapping Project core team",
+    "disparity_tracking": true,
+    "community_ownership": true,
+    "ai_involvement": false,
+    "pass2_at": "2026-03-09T23:21:22.906Z",
+    "pass3_at": "2026-03-09T23:22:02.176Z",
+    "_sources": [
+        "openalex"
+    ],
+    "policy_outcomes": "Provides action plan for tenants to defend themselves from landlord tech; maintains deployment map to track landlord technology installations",
+    "pass5_at": "2026-03-10T00:47:23.136Z",
+    "pass5_jina_words": 531,
+    "pass5_changes": [
+        "tagline",
+        "policy_outcomes"
+    ],
+    "political_relevance_summary": "Landlord Tech Watch addresses empowering advocacy and civic campaigning and making civic data accessible and actionable. It has documented policy impact.",
+    "movement_building_utility": {
+        "classification": "advocacy_amplifier",
+        "notes": "Amplifies advocacy efforts through Producing data, scholarship, and popular educational materials documenting how property technology increases landlord power while disempowering tenants."
     },
-    {
-      "title": "The Work of Watching One Another: Lateral Surveillance, Risk, and Governance",
-      "year": 2002,
-      "cited_by": 425,
-      "doi": "https://doi.org/10.24908/ss.v2i4.3359"
-    }
-  ],
-  "in_civictech_guide": false,
-  "replication_materials_available": true,
-  "documented_limitations": [
-    "Page requires JavaScript to render; content not accessible via static HTML"
-  ],
-  "jurisdictional_scope": "United States",
-  "governance_model": "project_of_larger_org",
-  "curation_criteria": "Documentation of landlord technology platforms that impact tenant rights; focus on surveillance, eviction facilitation, and data collection practices",
-  "contributor_governance": "Open contribution model through GitHub; maintained by Anti-Eviction Mapping Project core team",
-  "disparity_tracking": true,
-  "community_ownership": true,
-  "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:22.906Z",
-  "pass3_at": "2026-03-09T23:22:02.176Z",
-  "_sources": [
-    "openalex"
-  ],
-  "policy_outcomes": "Provides action plan for tenants to defend themselves from landlord tech; maintains deployment map to track landlord technology installations",
-  "pass5_at": "2026-03-10T00:47:23.136Z",
-  "pass5_jina_words": 531,
-  "pass5_changes": [
-    "tagline",
-    "policy_outcomes"
-  ],
-  "political_relevance_summary": "Landlord Tech Watch addresses empowering advocacy and civic campaigning and making civic data accessible and actionable. It has documented policy impact.",
-  "movement_building_utility": {
-    "classification": "advocacy_amplifier",
-    "notes": "Amplifies advocacy efforts through Producing data, scholarship, and popular educational materials documenting how property technology increases landlord power while disempowering tenants."
-  },
-  "systemic_issue_area": "housing justice",
-  "generalizability_notes": "Open-source codebase enables replication. currently deployed in United States only, but approach could be adapted to other national contexts.",
-  "primary_users_or_beneficiaries": [
-    "tenants",
-    "housing advocates",
-    "researchers",
-    "policymakers"
-  ],
-  "underdog_signal": true
+    "systemic_issue_area": "housing justice",
+    "generalizability_notes": "Open-source codebase enables replication. currently deployed in United States only, but approach could be adapted to other national contexts.",
+    "primary_users_or_beneficiaries": [
+        "tenants",
+        "housing advocates",
+        "researchers",
+        "policymakers"
+    ],
+    "underdog_signal": true
 }

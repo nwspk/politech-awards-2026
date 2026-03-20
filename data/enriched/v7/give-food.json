@@ -1,154 +1,152 @@
 {
-  "url": "https://www.givefood.org.uk",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:46:59.013Z",
-    "homepage_http_status": 403,
-    "dead_link": true,
-    "homepage_word_count": 9,
-    "homepage_has_team_page": false,
-    "homepage_has_impact_metrics": false,
-    "scraped_description": null,
-    "scraped_final_url": "https://www.givefood.org.uk/"
-  },
-  "collected_at": "2026-03-09T23:20:54.850Z",
-  "collected_by": "collect-enriched-script",
-  "name": "Give Food",
-  "tagline": "UK charity using data to highlight and alleviate local food insecurity",
-  "project_type": "Platform",
-  "org_type": "Nonprofit/charity",
-  "issue_area": [
-    "civic_data",
-    "advocacy_tech"
-  ],
-  "sdg_alignment": [
-    "SDG 1 – No Poverty",
-    "SDG 2 – Zero Hunger",
-    "SDG 16 – Peace, Justice and Strong Institutions"
-  ],
-  "decade_plus": false,
-  "geography": "national",
-  "countries_deployed": [
-    "United Kingdom"
-  ],
-  "communities_served": [
-    "citizens",
-    "food banks",
-    "journalists",
-    "researchers",
-    "campaigners"
-  ],
-  "political_units": [
-    "federal"
-  ],
-  "open_source": "partial",
-  "github_url": "https://github.com/givefood/givefood",
-  "github_stars": 89,
-  "last_commit_date": "2025-02-15",
-  "founded_year": 2013,
-  "team_size": "small",
-  "funding_model": [
-    "donations",
-    "grants"
-  ],
-  "known_funders": [
-    "Comic Relief",
-    "National Lottery Community Fund",
-    "Esmée Fairbairn Foundation"
-  ],
-  "funding_verified": true,
-  "last_funding_event": "2024",
-  "dependency_risks": [
-    "Reliance on volunteer contributions for data collection and curation",
-    "Dependency on food bank participation for data accuracy"
-  ],
-  "news_articles": [
-    {
-      "headline": "Food banks map reveals extent of UK hunger crisis",
-      "outlet": "Guardian",
-      "date": "2017-04-12",
-      "url": "https://www.theguardian.com/society/2017/apr/12/food-banks-map-reveals-extent-of-uk-hunger-crisis"
+    "url": "https://www.givefood.org.uk",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:46:59.013Z",
+        "homepage_http_status": 403,
+        "dead_link": true,
+        "homepage_word_count": 9,
+        "homepage_has_team_page": false,
+        "homepage_has_impact_metrics": false,
+        "scraped_description": null,
+        "scraped_final_url": "https://www.givefood.org.uk/"
     },
-    {
-      "headline": "Charity maps UK food bank locations to tackle hunger",
-      "outlet": "BBC News",
-      "date": "2016-11-15",
-      "url": "https://www.bbc.com/news/uk-37982149"
+    "collected_at": "2026-03-09T23:20:54.850Z",
+    "collected_by": "collect-enriched-script",
+    "name": "Give Food",
+    "tagline": "UK charity using data to highlight and alleviate local food insecurity",
+    "project_type": "Platform",
+    "org_type": "Nonprofit/charity",
+    "issue_area": [
+        "civic_data",
+        "advocacy_tech"
+    ],
+    "sdg_alignment": [
+        "SDG 1 – No Poverty",
+        "SDG 2 – Zero Hunger",
+        "SDG 16 – Peace, Justice and Strong Institutions"
+    ],
+    "decade_plus": false,
+    "geography": "national",
+    "countries_deployed": [
+        "United Kingdom"
+    ],
+    "communities_served": [
+        "citizens",
+        "food banks",
+        "journalists",
+        "researchers",
+        "campaigners"
+    ],
+    "political_units": [
+        "federal"
+    ],
+    "open_source": "partial",
+    "github_url": "https://github.com/givefood/givefood",
+    "github_stars": 89,
+    "last_commit_date": "2025-02-15",
+    "founded_year": 2013,
+    "team_size": "small",
+    "funding_model": [
+        "donations",
+        "grants"
+    ],
+    "known_funders": [
+        "Comic Relief",
+        "National Lottery Community Fund",
+        "Esmée Fairbairn Foundation"
+    ],
+    "funding_verified": true,
+    "last_funding_event": "2024",
+    "dependency_risks": [
+        "Reliance on volunteer contributions for data collection and curation",
+        "Dependency on food bank participation for data accuracy"
+    ],
+    "news_articles": [
+        {
+            "headline": "Food banks map reveals extent of UK hunger crisis",
+            "outlet": "Guardian",
+            "date": "2017-04-12",
+            "url": "https://www.theguardian.com/society/2017/apr/12/food-banks-map-reveals-extent-of-uk-hunger-crisis"
+        },
+        {
+            "headline": "Charity maps UK food bank locations to tackle hunger",
+            "outlet": "BBC News",
+            "date": "2016-11-15",
+            "url": "https://www.bbc.com/news/uk-37982149"
+        },
+        {
+            "headline": "Give Food platform helps identify food insecurity hotspots",
+            "outlet": "Civil Society",
+            "date": "2018-06-20",
+            "url": "https://www.civilsociety.org.uk/news/give-food-platform-helps-identify-food-insecurity-hotspots"
+        },
+        {
+            "headline": "How Give Food is using data to fight UK hunger",
+            "outlet": "Third Force News",
+            "date": "2019-03-15",
+            "url": "https://www.thirdforcenews.org.uk/news/how-give-food-using-data-fight-uk-hunger"
+        }
+    ],
+    "academic_citations": [],
+    "awards": [
+        "Tech for Good Award (2019)"
+    ],
+    "in_civictech_guide": true,
+    "policy_outcomes": [
+        {
+            "description": "Platform data used by UK Parliament's Work and Pensions Committee in inquiry into food bank usage and food insecurity",
+            "link": "https://committees.parliament.uk/work/1086/food-banks-and-food-insecurity/news/",
+            "year": 2019
+        },
+        {
+            "description": "Give Food data cited in multiple local council strategies for addressing food insecurity and social welfare provision",
+            "link": "https://www.givefood.org.uk",
+            "year": 2020
+        }
+    ],
+    "causation_strength": "directly_cited",
+    "outcome_methodology": "Platform tracks user engagement metrics and MP correspondence generated through the platform",
+    "replication_materials_available": false,
+    "published_performance_metrics": {
+        "food_banks_mapped": 3121,
+        "donation_points": 7734,
+        "items_requested": 311924,
+        "meals_delivered": 173455,
+        "last_updated": "2025"
     },
-    {
-      "headline": "Give Food platform helps identify food insecurity hotspots",
-      "outlet": "Civil Society",
-      "date": "2018-06-20",
-      "url": "https://www.civilsociety.org.uk/news/give-food-platform-helps-identify-food-insecurity-hotspots"
+    "documented_limitations": [
+        "Data coverage varies by region; some areas have incomplete food bank listings",
+        "Relies on self-reported data from food banks and donors",
+        "Does not capture informal food assistance networks"
+    ],
+    "jurisdictional_scope": "United Kingdom (England, Scotland, Wales, Northern Ireland)",
+    "failure_modes": [
+        "Data quality issues when food banks do not update their information regularly",
+        "Geographic gaps in coverage in rural areas"
+    ],
+    "governance_model": "foundation",
+    "curation_criteria": "Food banks must be registered charities or recognized community organizations; data verified through direct contact and public records",
+    "contributor_governance": "Community-driven contributions with moderation by core team; open to volunteers for data collection and verification",
+    "disparity_tracking": "Platform tracks food insecurity by geographic location and identifies areas with highest need",
+    "community_ownership": "Community-driven data collection model with food banks and local organizations as primary data contributors",
+    "government_partnerships": [
+        "Partnerships with local councils for data sharing and advocacy"
+    ],
+    "ai_involvement": false,
+    "pass2_at": "2026-03-10T00:27:59.302Z",
+    "political_relevance_summary": "Give Food addresses civic data access and transparency. UK charity using data to highlight and alleviate local food insecurity.",
+    "movement_building_utility": {
+        "classification": "information_resource",
+        "notes": "Provides data, research, or monitoring capabilities for civic purposes."
     },
-    {
-      "headline": "How Give Food is using data to fight UK hunger",
-      "outlet": "Third Force News",
-      "date": "2019-03-15",
-      "url": "https://www.thirdforcenews.org.uk/news/how-give-food-using-data-fight-uk-hunger"
-    }
-  ],
-  "academic_citations": [
-    "Loopstra, R., & Tarasuk, V. (2015). Food bank usage is a poor indicator of food insecurity: insights from Canada. International Journal of Food Security"
-  ],
-  "awards": [
-    "Tech for Good Award (2019)"
-  ],
-  "in_civictech_guide": true,
-  "policy_outcomes": [
-    {
-      "description": "Platform data used by UK Parliament's Work and Pensions Committee in inquiry into food bank usage and food insecurity",
-      "link": "https://committees.parliament.uk/work/1086/food-banks-and-food-insecurity/news/",
-      "year": 2019
-    },
-    {
-      "description": "Give Food data cited in multiple local council strategies for addressing food insecurity and social welfare provision",
-      "link": "https://www.givefood.org.uk",
-      "year": 2020
-    }
-  ],
-  "causation_strength": "directly_cited",
-  "outcome_methodology": "Platform tracks user engagement metrics and MP correspondence generated through the platform",
-  "replication_materials_available": false,
-  "published_performance_metrics": {
-    "food_banks_mapped": 3121,
-    "donation_points": 7734,
-    "items_requested": 311924,
-    "meals_delivered": 173455,
-    "last_updated": "2025"
-  },
-  "documented_limitations": [
-    "Data coverage varies by region; some areas have incomplete food bank listings",
-    "Relies on self-reported data from food banks and donors",
-    "Does not capture informal food assistance networks"
-  ],
-  "jurisdictional_scope": "United Kingdom (England, Scotland, Wales, Northern Ireland)",
-  "failure_modes": [
-    "Data quality issues when food banks do not update their information regularly",
-    "Geographic gaps in coverage in rural areas"
-  ],
-  "governance_model": "foundation",
-  "curation_criteria": "Food banks must be registered charities or recognized community organizations; data verified through direct contact and public records",
-  "contributor_governance": "Community-driven contributions with moderation by core team; open to volunteers for data collection and verification",
-  "disparity_tracking": "Platform tracks food insecurity by geographic location and identifies areas with highest need",
-  "community_ownership": "Community-driven data collection model with food banks and local organizations as primary data contributors",
-  "government_partnerships": [
-    "Partnerships with local councils for data sharing and advocacy"
-  ],
-  "ai_involvement": false,
-  "pass2_at": "2026-03-10T00:27:59.302Z",
-  "political_relevance_summary": "Give Food addresses civic data access and transparency. UK charity using data to highlight and alleviate local food insecurity.",
-  "movement_building_utility": {
-    "classification": "information_resource",
-    "notes": "Provides data, research, or monitoring capabilities for civic purposes."
-  },
-  "systemic_issue_area": "civic data access",
-  "generalizability_notes": "Could be adapted to other national contexts with localization. Open-source codebase facilitates replication.",
-  "primary_users_or_beneficiaries": [
-    "citizens",
-    "food banks",
-    "journalists",
-    "researchers",
-    "campaigners"
-  ],
-  "underdog_signal": true
+    "systemic_issue_area": "civic data access",
+    "generalizability_notes": "Could be adapted to other national contexts with localization. Open-source codebase facilitates replication.",
+    "primary_users_or_beneficiaries": [
+        "citizens",
+        "food banks",
+        "journalists",
+        "researchers",
+        "campaigners"
+    ],
+    "underdog_signal": true
 }

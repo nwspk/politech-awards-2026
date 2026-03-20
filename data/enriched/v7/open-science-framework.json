@@ -1,128 +1,120 @@
 {
-  "url": "https://osf.io",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:45:36.728Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 1,
-    "homepage_has_team_page": false,
-    "homepage_has_impact_metrics": false,
-    "scraped_description": null,
-    "scraped_final_url": "https://osf.io/"
-  },
-  "collected_at": "2026-03-09T23:20:25.792Z",
-  "collected_by": "collect-enriched-script",
-  "name": "Open Science Framework",
-  "tagline": "A free, open platform for researchers to collaborate and share their work",
-  "project_type": "Platform",
-  "org_type": "Academic/research",
-  "issue_area": [
-    "civic_data"
-  ],
-  "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
-  ],
-  "decade_plus": true,
-  "geography": "international",
-  "countries_deployed": [
-    "United States",
-    "International"
-  ],
-  "communities_served": [
-    "researchers",
-    "academics",
-    "scientists"
-  ],
-  "political_units": [
-    "international"
-  ],
-  "open_source": "yes",
-  "github_url": "https://github.com/osf-rw/osf.io",
-  "github_stars": 1200,
-  "last_commit_date": "2026-03-08",
-  "format": [
-    "platform",
-    "api"
-  ],
-  "founded_year": 2011,
-  "team_size": "medium",
-  "funding_model": [
-    "grants",
-    "public_funding"
-  ],
-  "known_funders": [
-    "Center for Open Science"
-  ],
-  "funding_verified": true,
-  "last_funding_event": "2025-06-15",
-  "dependency_risks": [
-    "Reliance on Center for Open Science for operational funding",
-    "Python/Django framework maintenance dependencies"
-  ],
-  "news_articles": [
-    "Nature: Open Science Framework transforms research transparency (2019)",
-    "Science Magazine: How OSF is changing reproducibility (2018)",
-    "Chronicle of Higher Education: Open Science Framework adoption grows (2020)"
-  ],
-  "academic_citations": [
-    "Nosek, B. A., et al. (2015). Open Science Framework. Nature Methods.",
-    "Munafò, M. R., et al. (2017). A manifesto for reproducible science. Nature Human Behaviour.",
-    "Hardwicke, T. E., et al. (2020). Mapping the landscape of human reports comparing the reliability and efficiency of data collection methods. Royal Society Open Science."
-  ],
-  "awards": [
-    "Recognition as leading open science infrastructure by UNESCO",
-    "Featured in multiple research transparency initiatives"
-  ],
-  "in_civictech_guide": false,
-  "wikipedia_page": "https://en.wikipedia.org/wiki/Open_Science_Framework",
-  "policy_outcomes": [
-    "Influenced NIH and NSF open science policies",
-    "Adopted by major research institutions for reproducibility standards"
-  ],
-  "causation_strength": "correlated",
-  "outcome_methodology": "observational_studies",
-  "replication_materials_available": true,
-  "preregistered_studies": [
-    "Registered Reports initiative integration"
-  ],
-  "published_performance_metrics": true,
-  "documented_limitations": [
-    "Limited adoption in some non-English speaking regions",
-    "Resource constraints for feature development",
-    "Varying institutional integration levels"
-  ],
-  "jurisdictional_scope": "international",
-  "failure_modes": [
-    "Server outages affecting researcher access",
-    "Incomplete metadata standardization across projects"
-  ],
-  "governance_model": "project_of_larger_org",
-  "curation_criteria": "Community-driven with Center for Open Science oversight; projects must comply with open science principles and data sharing guidelines",
-  "contributor_governance": "Open contribution model with community review; governance by Center for Open Science board",
-  "disparity_tracking": "Limited formal tracking; efforts to increase accessibility in Global South",
-  "community_ownership": "Shared governance between Center for Open Science and research community",
-  "controversies": [
-    "Debates over mandatory data sharing requirements",
-    "Discussions about privacy protections for sensitive research"
-  ],
-  "legal_regulatory_issues": "GDPR compliance considerations for international researcher data",
-  "government_partnerships": [
-    "NIH collaboration on open science standards",
-    "NSF integration for grant management"
-  ],
-  "ai_involvement": "Limited; basic recommendation systems for project discovery",
-  "pass2_at": "2026-03-09T23:21:40.717Z",
-  "political_relevance_summary": "OSF addresses the reproducibility crisis in science and barriers to research transparency. By making research open and replicable, it strengthens the evidence base available for public policy decisions.",
-  "movement_building_utility": {
-    "classification": "infrastructure",
-    "notes": "Open Science Framework provides foundational data infrastructure, standards, or platforms that other civic technology efforts build upon."
-  },
-  "systemic_issue_area": "information freedom and open access",
-  "generalizability_notes": "High generalizability. Open Science Framework is open source and already deployed across multiple countries/jurisdictions, making replication straightforward for other contexts.",
-  "primary_users_or_beneficiaries": [
-    "researchers",
-    "academics",
-    "scientists"
-  ],
-  "underdog_signal": false
+    "url": "https://osf.io",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:45:36.728Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 1,
+        "homepage_has_team_page": false,
+        "homepage_has_impact_metrics": false,
+        "scraped_description": null,
+        "scraped_final_url": "https://osf.io/"
+    },
+    "collected_at": "2026-03-09T23:20:25.792Z",
+    "collected_by": "collect-enriched-script",
+    "name": "Open Science Framework",
+    "tagline": "A free, open platform for researchers to collaborate and share their work",
+    "project_type": "Platform",
+    "org_type": "Academic/research",
+    "issue_area": [
+        "civic_data"
+    ],
+    "sdg_alignment": [
+        "SDG 16 – Peace, Justice and Strong Institutions"
+    ],
+    "decade_plus": true,
+    "geography": "international",
+    "countries_deployed": [
+        "United States",
+        "International"
+    ],
+    "communities_served": [
+        "researchers",
+        "academics",
+        "scientists"
+    ],
+    "political_units": [
+        "international"
+    ],
+    "open_source": "yes",
+    "github_url": "https://github.com/osf-rw/osf.io",
+    "github_stars": 1200,
+    "last_commit_date": "2026-03-08",
+    "format": [
+        "platform",
+        "api"
+    ],
+    "founded_year": 2011,
+    "team_size": "medium",
+    "funding_model": [
+        "grants",
+        "public_funding"
+    ],
+    "known_funders": [
+        "Center for Open Science"
+    ],
+    "funding_verified": true,
+    "last_funding_event": "2025-06-15",
+    "dependency_risks": [
+        "Reliance on Center for Open Science for operational funding",
+        "Python/Django framework maintenance dependencies"
+    ],
+    "news_articles": [],
+    "academic_citations": [],
+    "awards": [
+        "Recognition as leading open science infrastructure by UNESCO",
+        "Featured in multiple research transparency initiatives"
+    ],
+    "in_civictech_guide": false,
+    "wikipedia_page": "https://en.wikipedia.org/wiki/Open_Science_Framework",
+    "policy_outcomes": [
+        "Influenced NIH and NSF open science policies",
+        "Adopted by major research institutions for reproducibility standards"
+    ],
+    "causation_strength": "correlated",
+    "outcome_methodology": "observational_studies",
+    "replication_materials_available": true,
+    "preregistered_studies": [
+        "Registered Reports initiative integration"
+    ],
+    "published_performance_metrics": true,
+    "documented_limitations": [
+        "Limited adoption in some non-English speaking regions",
+        "Resource constraints for feature development",
+        "Varying institutional integration levels"
+    ],
+    "jurisdictional_scope": "international",
+    "failure_modes": [
+        "Server outages affecting researcher access",
+        "Incomplete metadata standardization across projects"
+    ],
+    "governance_model": "project_of_larger_org",
+    "curation_criteria": "Community-driven with Center for Open Science oversight; projects must comply with open science principles and data sharing guidelines",
+    "contributor_governance": "Open contribution model with community review; governance by Center for Open Science board",
+    "disparity_tracking": "Limited formal tracking; efforts to increase accessibility in Global South",
+    "community_ownership": "Shared governance between Center for Open Science and research community",
+    "controversies": [
+        "Debates over mandatory data sharing requirements",
+        "Discussions about privacy protections for sensitive research"
+    ],
+    "legal_regulatory_issues": "GDPR compliance considerations for international researcher data",
+    "government_partnerships": [
+        "NIH collaboration on open science standards",
+        "NSF integration for grant management"
+    ],
+    "ai_involvement": "Limited; basic recommendation systems for project discovery",
+    "pass2_at": "2026-03-09T23:21:40.717Z",
+    "political_relevance_summary": "OSF addresses the reproducibility crisis in science and barriers to research transparency. By making research open and replicable, it strengthens the evidence base available for public policy decisions.",
+    "movement_building_utility": {
+        "classification": "infrastructure",
+        "notes": "Open Science Framework provides foundational data infrastructure, standards, or platforms that other civic technology efforts build upon."
+    },
+    "systemic_issue_area": "information freedom and open access",
+    "generalizability_notes": "High generalizability. Open Science Framework is open source and already deployed across multiple countries/jurisdictions, making replication straightforward for other contexts.",
+    "primary_users_or_beneficiaries": [
+        "researchers",
+        "academics",
+        "scientists"
+    ],
+    "underdog_signal": false
 }

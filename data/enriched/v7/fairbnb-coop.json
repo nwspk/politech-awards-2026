@@ -1,134 +1,132 @@
 {
-  "url": "https://fairbnb.coop",
-  "collected_at": "2026-03-09T23:19:43.734Z",
-  "collected_by": "collect-enriched-script",
-  "name": "Fairbnb.coop",
-  "tagline": "Community powered tourism platform",
-  "project_type": "Platform",
-  "org_type": "For-profit/social enterprise",
-  "issue_area": [
-    "civic_data",
-    "digital_rights"
-  ],
-  "sdg_alignment": [
-    "SDG 8 – Decent Work and Economic Growth",
-    "SDG 10 – Reduced Inequalities"
-  ],
-  "decade_plus": false,
-  "geography": "international",
-  "countries_deployed": [
-    "Italy",
-    "Spain",
-    "Portugal",
-    "France",
-    "Germany",
-    "Netherlands",
-    "Belgium",
-    "Austria"
-  ],
-  "communities_served": [
-    "hosts",
-    "travelers",
-    "local communities"
-  ],
-  "political_units": [
-    "international"
-  ],
-  "open_source": "partial",
-  "github_url": "https://github.com/fairbnb/fairbnb.coop",
-  "github_stars": 287,
-  "last_commit_date": "2025-01-15",
-  "format": [
-    "platform",
-    "app"
-  ],
-  "founded_year": 2018,
-  "team_size": "small",
-  "funding_model": [
-    "grants",
-    "subscriptions"
-  ],
-  "known_funders": [
-    "European Commission",
-    "Fondazione Cariplo",
-    "Fondazione Compagnia di San Paolo"
-  ],
-  "funding_verified": true,
-  "last_funding_event": "2024-06-01",
-  "dependency_risks": [
-    "Coordinated spam attacks targeting platform infrastructure",
-    "Fraudulent booking requests from suspicious accounts"
-  ],
-  "news_articles": [
-    "https://www.theguardian.com/technology/2023/jun/15/fairbnb-cooperative-airbnb-alternative",
-    "https://www.wired.com/story/fairbnb-coop-platform-cooperative"
-  ],
-  "academic_citations": [
-    "Scholz, T., & Schneider, N. (2016). Ours to Hack and to Own: The Rise of Platform Cooperativism, a New Vision for the Future of Work and a Fairer Internet"
-  ],
-  "awards": [
-    "European Social Innovation Competition Finalist (2019)"
-  ],
-  "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
-  "replication_materials_available": false,
-  "preregistered_studies": [],
-  "published_performance_metrics": "Limited public disclosure; platform reports community impact through annual reports",
-  "documented_limitations": [
-    "Platform currently offline due to security maintenance",
-    "Vulnerability to coordinated spam attacks",
-    "Susceptibility to fraudulent booking requests"
-  ],
-  "jurisdictional_scope": "European Union",
-  "failure_modes": [
-    "Security infrastructure compromised by coordinated attack",
-    "Fraudulent account creation and booking requests"
-  ],
-  "governance_model": "cooperative",
-  "curation_criteria": "Community-driven moderation; cooperative member voting on platform policies",
-  "contributor_governance": "Democratic governance through cooperative membership; decisions made by member assemblies",
-  "disparity_tracking": "Tracks equitable distribution of tourism revenue to local communities; monitors host diversity",
-  "community_ownership": true,
-  "controversies": [
-    "Coordinated spam attack targeting platform (January 2025)"
-  ],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": [
-    "Security incident requiring urgent maintenance"
-  ],
-  "elections_used_in": [],
-  "government_partnerships": [
-    "City of Bologna (Italy) - local tourism partnership"
-  ],
-  "ai_involvement": "Minimal; basic recommendation algorithms for host-guest matching",
-  "pass2_at": "2026-03-09T23:21:28.426Z",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:43:38.032Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 159,
-    "homepage_has_team_page": false,
-    "homepage_has_impact_metrics": false,
-    "scraped_description": "A vacation rental platform which gives back 50% of its revenues to support local community projects of your choice.",
-    "scraped_final_url": "https://fairbnb.coop/"
-  },
-  "pass5_at": "2026-03-10T00:46:14.150Z",
-  "pass5_jina_words": 19,
-  "pass5_changes": [],
-  "political_relevance_summary": "Fairbnb.coop addresses civic data access and transparency. Community powered tourism platform.",
-  "movement_building_utility": {
-    "classification": "infrastructure",
-    "notes": "Provides technical infrastructure that other civic tools or services build upon."
-  },
-  "systemic_issue_area": "civic data access",
-  "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Open-source codebase facilitates replication.",
-  "primary_users_or_beneficiaries": [
-    "hosts",
-    "travelers",
-    "local communities"
-  ],
-  "underdog_signal": false
+    "url": "https://fairbnb.coop",
+    "collected_at": "2026-03-09T23:19:43.734Z",
+    "collected_by": "collect-enriched-script",
+    "name": "Fairbnb.coop",
+    "tagline": "Community powered tourism platform",
+    "project_type": "Platform",
+    "org_type": "For-profit/social enterprise",
+    "issue_area": [
+        "civic_data",
+        "digital_rights"
+    ],
+    "sdg_alignment": [
+        "SDG 8 – Decent Work and Economic Growth",
+        "SDG 10 – Reduced Inequalities"
+    ],
+    "decade_plus": false,
+    "geography": "international",
+    "countries_deployed": [
+        "Italy",
+        "Spain",
+        "Portugal",
+        "France",
+        "Germany",
+        "Netherlands",
+        "Belgium",
+        "Austria"
+    ],
+    "communities_served": [
+        "hosts",
+        "travelers",
+        "local communities"
+    ],
+    "political_units": [
+        "international"
+    ],
+    "open_source": "partial",
+    "github_url": "https://github.com/fairbnb/fairbnb.coop",
+    "github_stars": 287,
+    "last_commit_date": "2025-01-15",
+    "format": [
+        "platform",
+        "app"
+    ],
+    "founded_year": 2018,
+    "team_size": "small",
+    "funding_model": [
+        "grants",
+        "subscriptions"
+    ],
+    "known_funders": [
+        "European Commission",
+        "Fondazione Cariplo",
+        "Fondazione Compagnia di San Paolo"
+    ],
+    "funding_verified": true,
+    "last_funding_event": "2024-06-01",
+    "dependency_risks": [
+        "Coordinated spam attacks targeting platform infrastructure",
+        "Fraudulent booking requests from suspicious accounts"
+    ],
+    "news_articles": [
+        "https://www.theguardian.com/technology/2023/jun/15/fairbnb-cooperative-airbnb-alternative",
+        "https://www.wired.com/story/fairbnb-coop-platform-cooperative"
+    ],
+    "academic_citations": [],
+    "awards": [
+        "European Social Innovation Competition Finalist (2019)"
+    ],
+    "in_civictech_guide": false,
+    "wikipedia_page": null,
+    "policy_outcomes": [],
+    "causation_strength": null,
+    "outcome_methodology": null,
+    "replication_materials_available": false,
+    "preregistered_studies": [],
+    "published_performance_metrics": "Limited public disclosure; platform reports community impact through annual reports",
+    "documented_limitations": [
+        "Platform currently offline due to security maintenance",
+        "Vulnerability to coordinated spam attacks",
+        "Susceptibility to fraudulent booking requests"
+    ],
+    "jurisdictional_scope": "European Union",
+    "failure_modes": [
+        "Security infrastructure compromised by coordinated attack",
+        "Fraudulent account creation and booking requests"
+    ],
+    "governance_model": "cooperative",
+    "curation_criteria": "Community-driven moderation; cooperative member voting on platform policies",
+    "contributor_governance": "Democratic governance through cooperative membership; decisions made by member assemblies",
+    "disparity_tracking": "Tracks equitable distribution of tourism revenue to local communities; monitors host diversity",
+    "community_ownership": true,
+    "controversies": [
+        "Coordinated spam attack targeting platform (January 2025)"
+    ],
+    "political_bias_allegations": null,
+    "legal_regulatory_issues": [
+        "Security incident requiring urgent maintenance"
+    ],
+    "elections_used_in": [],
+    "government_partnerships": [
+        "City of Bologna (Italy) - local tourism partnership"
+    ],
+    "ai_involvement": "Minimal; basic recommendation algorithms for host-guest matching",
+    "pass2_at": "2026-03-09T23:21:28.426Z",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:43:38.032Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 159,
+        "homepage_has_team_page": false,
+        "homepage_has_impact_metrics": false,
+        "scraped_description": "A vacation rental platform which gives back 50% of its revenues to support local community projects of your choice.",
+        "scraped_final_url": "https://fairbnb.coop/"
+    },
+    "pass5_at": "2026-03-10T00:46:14.150Z",
+    "pass5_jina_words": 19,
+    "pass5_changes": [],
+    "political_relevance_summary": "Fairbnb.coop addresses civic data access and transparency. Community powered tourism platform.",
+    "movement_building_utility": {
+        "classification": "infrastructure",
+        "notes": "Provides technical infrastructure that other civic tools or services build upon."
+    },
+    "systemic_issue_area": "civic data access",
+    "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Open-source codebase facilitates replication.",
+    "primary_users_or_beneficiaries": [
+        "hosts",
+        "travelers",
+        "local communities"
+    ],
+    "underdog_signal": false
 }

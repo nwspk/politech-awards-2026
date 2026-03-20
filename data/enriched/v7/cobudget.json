@@ -1,118 +1,114 @@
 {
-  "url": "https://cobudget.com",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:42:55.044Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 1028,
-    "homepage_has_team_page": true,
-    "homepage_has_impact_metrics": true,
-    "scraped_description": "Tap into your group’s creative potential. Crowd source, develop and review ideas. Spark opportunities for collaboration along the way!",
-    "scraped_final_url": "https://cobudget.com/"
-  },
-  "collected_at": "2026-03-09T22:00:00Z",
-  "collected_by": "nano-bot",
-  "name": "Cobudget",
-  "tagline": "Bring people, ideas and money together, encouraging participation at every stage",
-  "project_type": "Tool/Platform",
-  "org_type": "Nonprofit/charity",
-  "issue_area": [
-    "participatory_democracy",
-    "govtech"
-  ],
-  "sdg_alignment": [
-    "SDG 16",
-    "SDG 10"
-  ],
-  "decade_plus": false,
-  "geography": "international",
-  "countries_deployed": [
-    "New Zealand",
-    "Sweden",
-    "Germany",
-    "Israel"
-  ],
-  "communities_served": [
-    "networked organizations",
-    "professional networks",
-    "granting bodies",
-    "co-working communities"
-  ],
-  "political_units": [
-    "local government",
-    "community organizations",
-    "nonprofit networks"
-  ],
-  "open_source": "yes",
-  "github_url": "https://github.com/cobudget/cobudget",
-  "github_stars": 81,
-  "last_commit_date": "2026-02-25",
-  "format": [
-    "platform"
-  ],
-  "founded_year": 2014,
-  "team_size": "solo",
-  "funding_model": [
-    "donations"
-  ],
-  "known_funders": [
-    "Greaterthan",
-    "Enspiral Network"
-  ],
-  "funding_verified": false,
-  "last_funding_event": "2024",
-  "news_articles": [
-    "Cobudget featured in participatory budgeting discussions on civic tech platforms"
-  ],
-  "academic_citations": [
-    "Cited in participatory democracy and civic technology research literature"
-  ],
-  "in_civictech_guide": true,
-  "wikipedia_page": false,
-  "policy_outcomes": [
-    "Enabled participatory budgeting processes in multiple organizations and communities"
-  ],
-  "causation_strength": "correlated",
-  "outcome_methodology": "observational; case studies from deployed instances",
-  "replication_materials_available": true,
-  "published_performance_metrics": "User engagement metrics and deployment case studies available on project website",
-  "documented_limitations": [
-    "Small volunteer team limits scalability",
-    "Limited formal evaluation of impact",
-    "Sustainability dependent on external support"
-  ],
-  "jurisdictional_scope": "global",
-  "failure_modes": [
-    "small volunteer team",
-    "uncertain revenue model"
-  ],
-  "governance_model": "cooperative",
-  "curation_criteria": "Open-source contribution guidelines; community-driven feature prioritization through Cobudget Association",
-  "contributor_governance": "Open-source; community contributors acknowledged publicly",
-  "disparity_tracking": false,
-  "community_ownership": "Cobudget Association; volunteer-led",
-  "political_bias_allegations": "None documented",
-  "legal_regulatory_issues": "None documented",
-  "government_partnerships": [
-    "Partnerships with local organizations and community groups in deployed countries"
-  ],
-  "ai_involvement": "No AI/machine learning components",
-  "pass2_at": "2026-03-09T23:21:22.694Z",
-  "pass5_at": "2026-03-10T00:43:55.911Z",
-  "pass5_jina_words": 675,
-  "pass5_changes": [],
-  "political_relevance_summary": "Addresses barriers to meaningful citizen participation in democratic decision-making by providing tools for public engagement and deliberation.",
-  "movement_building_utility": {
-    "classification": "direct_organizer_tool",
-    "notes": "Enables direct citizen participation in democratic processes."
-  },
-  "systemic_issue_area": "democratic participation access",
-  "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (4 countries), demonstrating cross-context adaptability.",
-  "primary_users_or_beneficiaries": [
-    "networked organizations",
-    "professional networks",
-    "granting bodies",
-    "co-working communities"
-  ],
-  "underdog_signal": true
+    "url": "https://cobudget.com",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:42:55.044Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 1028,
+        "homepage_has_team_page": true,
+        "homepage_has_impact_metrics": true,
+        "scraped_description": "Tap into your group’s creative potential. Crowd source, develop and review ideas. Spark opportunities for collaboration along the way!",
+        "scraped_final_url": "https://cobudget.com/"
+    },
+    "collected_at": "2026-03-09T22:00:00Z",
+    "collected_by": "nano-bot",
+    "name": "Cobudget",
+    "tagline": "Bring people, ideas and money together, encouraging participation at every stage",
+    "project_type": "Tool/Platform",
+    "org_type": "Nonprofit/charity",
+    "issue_area": [
+        "participatory_democracy",
+        "govtech"
+    ],
+    "sdg_alignment": [
+        "SDG 16",
+        "SDG 10"
+    ],
+    "decade_plus": false,
+    "geography": "international",
+    "countries_deployed": [
+        "New Zealand",
+        "Sweden",
+        "Germany",
+        "Israel"
+    ],
+    "communities_served": [
+        "networked organizations",
+        "professional networks",
+        "granting bodies",
+        "co-working communities"
+    ],
+    "political_units": [
+        "local government",
+        "community organizations",
+        "nonprofit networks"
+    ],
+    "open_source": "yes",
+    "github_url": "https://github.com/cobudget/cobudget",
+    "github_stars": 81,
+    "last_commit_date": "2026-02-25",
+    "format": [
+        "platform"
+    ],
+    "founded_year": 2014,
+    "team_size": "solo",
+    "funding_model": [
+        "donations"
+    ],
+    "known_funders": [
+        "Greaterthan",
+        "Enspiral Network"
+    ],
+    "funding_verified": false,
+    "last_funding_event": "2024",
+    "news_articles": [],
+    "academic_citations": [],
+    "in_civictech_guide": true,
+    "wikipedia_page": false,
+    "policy_outcomes": [
+        "Enabled participatory budgeting processes in multiple organizations and communities"
+    ],
+    "causation_strength": "correlated",
+    "outcome_methodology": "observational; case studies from deployed instances",
+    "replication_materials_available": true,
+    "published_performance_metrics": "User engagement metrics and deployment case studies available on project website",
+    "documented_limitations": [
+        "Small volunteer team limits scalability",
+        "Limited formal evaluation of impact",
+        "Sustainability dependent on external support"
+    ],
+    "jurisdictional_scope": "global",
+    "failure_modes": [
+        "small volunteer team",
+        "uncertain revenue model"
+    ],
+    "governance_model": "cooperative",
+    "curation_criteria": "Open-source contribution guidelines; community-driven feature prioritization through Cobudget Association",
+    "contributor_governance": "Open-source; community contributors acknowledged publicly",
+    "disparity_tracking": false,
+    "community_ownership": "Cobudget Association; volunteer-led",
+    "political_bias_allegations": "None documented",
+    "legal_regulatory_issues": "None documented",
+    "government_partnerships": [
+        "Partnerships with local organizations and community groups in deployed countries"
+    ],
+    "ai_involvement": "No AI/machine learning components",
+    "pass2_at": "2026-03-09T23:21:22.694Z",
+    "pass5_at": "2026-03-10T00:43:55.911Z",
+    "pass5_jina_words": 675,
+    "pass5_changes": [],
+    "political_relevance_summary": "Addresses barriers to meaningful citizen participation in democratic decision-making by providing tools for public engagement and deliberation.",
+    "movement_building_utility": {
+        "classification": "direct_organizer_tool",
+        "notes": "Enables direct citizen participation in democratic processes."
+    },
+    "systemic_issue_area": "democratic participation access",
+    "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (4 countries), demonstrating cross-context adaptability.",
+    "primary_users_or_beneficiaries": [
+        "networked organizations",
+        "professional networks",
+        "granting bodies",
+        "co-working communities"
+    ],
+    "underdog_signal": true
 }

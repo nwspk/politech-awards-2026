@@ -1,83 +1,80 @@
 {
-  "url": "https://all-our-ideas.citizens.is",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:42:33.129Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 3,
-    "homepage_has_team_page": false,
-    "homepage_has_impact_metrics": false,
-    "scraped_description": null,
-    "scraped_final_url": "https://all-our-ideas.citizens.is/"
-  },
-  "collected_at": "2026-03-09T23:17:56.779Z",
-  "collected_by": "collect-enriched-script",
-  "name": "All Our Ideas",
-  "tagline": "A platform for crowdsourcing ideas and priorities through pairwise comparison voting",
-  "project_type": "Platform",
-  "org_type": "Nonprofit/charity",
-  "issue_area": [
-    "participatory_democracy",
-    "civic_data"
-  ],
-  "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
-  ],
-  "decade_plus": false,
-  "geography": "international",
-  "countries_deployed": [
-    "Iceland"
-  ],
-  "communities_served": [
-    "citizens",
-    "policymakers"
-  ],
-  "political_units": [
-    "national"
-  ],
-  "open_source": "yes",
-  "github_url": "https://github.com/citizensandtech/all-our-ideas",
-  "format": [
-    "platform"
-  ],
-  "founded_year": 2009,
-  "funding_model": "Nonprofit grants and philanthropic support",
-  "known_funders": [
-    "Omidyar Network",
-    "National Science Foundation"
-  ],
-  "funding_verified": true,
-  "news_articles": [
-    "https://www.wired.com/2012/01/all-our-ideas/",
-    "https://www.theguardian.com/technology/2012/jan/16/all-our-ideas-crowdsourcing"
-  ],
-  "academic_citations": [
-    "Noveck, B. S. (2015). Smart Citizens: Participatory Governance in the Digital Age. Harvard University Press.",
-    "Landemore, H. (2020). Open Democracy: Reinventing Popular Rule for the Twenty-First Century. Princeton University Press."
-  ],
-  "in_civictech_guide": true,
-  "jurisdictional_scope": "International with focus on Iceland",
-  "governance_model": "Democratic governance with citizen input",
-  "curation_criteria": "Ideas submitted by users are ranked through pairwise comparison voting",
-  "community_ownership": true,
-  "government_partnerships": [
-    "Iceland (participatory budgeting and policy consultation)"
-  ],
-  "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:23.079Z",
-  "pass5_at": "2026-03-10T00:41:44.669Z",
-  "pass5_jina_words": 19,
-  "pass5_changes": [],
-  "political_relevance_summary": "Addresses barriers to meaningful citizen participation in democratic decision-making by providing tools for public engagement and deliberation.",
-  "movement_building_utility": {
-    "classification": "direct_organizer_tool",
-    "notes": "Platform enabling direct democratic participation or civic engagement."
-  },
-  "systemic_issue_area": "democratic participation access",
-  "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (multiple countries), demonstrating cross-context adaptability.",
-  "primary_users_or_beneficiaries": [
-    "citizens seeking to participate in local democratic processes",
-    "policymakers and legislative staff"
-  ],
-  "underdog_signal": false
+    "url": "https://all-our-ideas.citizens.is",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:42:33.129Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 3,
+        "homepage_has_team_page": false,
+        "homepage_has_impact_metrics": false,
+        "scraped_description": null,
+        "scraped_final_url": "https://all-our-ideas.citizens.is/"
+    },
+    "collected_at": "2026-03-09T23:17:56.779Z",
+    "collected_by": "collect-enriched-script",
+    "name": "All Our Ideas",
+    "tagline": "A platform for crowdsourcing ideas and priorities through pairwise comparison voting",
+    "project_type": "Platform",
+    "org_type": "Nonprofit/charity",
+    "issue_area": [
+        "participatory_democracy",
+        "civic_data"
+    ],
+    "sdg_alignment": [
+        "SDG 16 – Peace, Justice and Strong Institutions"
+    ],
+    "decade_plus": false,
+    "geography": "international",
+    "countries_deployed": [
+        "Iceland"
+    ],
+    "communities_served": [
+        "citizens",
+        "policymakers"
+    ],
+    "political_units": [
+        "national"
+    ],
+    "open_source": "yes",
+    "github_url": "https://github.com/citizensandtech/all-our-ideas",
+    "format": [
+        "platform"
+    ],
+    "founded_year": 2009,
+    "funding_model": "Nonprofit grants and philanthropic support",
+    "known_funders": [
+        "Omidyar Network",
+        "National Science Foundation"
+    ],
+    "funding_verified": true,
+    "news_articles": [
+        "https://www.wired.com/2012/01/all-our-ideas/",
+        "https://www.theguardian.com/technology/2012/jan/16/all-our-ideas-crowdsourcing"
+    ],
+    "academic_citations": [],
+    "in_civictech_guide": true,
+    "jurisdictional_scope": "International with focus on Iceland",
+    "governance_model": "Democratic governance with citizen input",
+    "curation_criteria": "Ideas submitted by users are ranked through pairwise comparison voting",
+    "community_ownership": true,
+    "government_partnerships": [
+        "Iceland (participatory budgeting and policy consultation)"
+    ],
+    "ai_involvement": false,
+    "pass2_at": "2026-03-09T23:21:23.079Z",
+    "pass5_at": "2026-03-10T00:41:44.669Z",
+    "pass5_jina_words": 19,
+    "pass5_changes": [],
+    "political_relevance_summary": "Addresses barriers to meaningful citizen participation in democratic decision-making by providing tools for public engagement and deliberation.",
+    "movement_building_utility": {
+        "classification": "direct_organizer_tool",
+        "notes": "Platform enabling direct democratic participation or civic engagement."
+    },
+    "systemic_issue_area": "democratic participation access",
+    "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (multiple countries), demonstrating cross-context adaptability.",
+    "primary_users_or_beneficiaries": [
+        "citizens seeking to participate in local democratic processes",
+        "policymakers and legislative staff"
+    ],
+    "underdog_signal": false
 }

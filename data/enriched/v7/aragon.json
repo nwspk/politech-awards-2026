@@ -1,119 +1,113 @@
 {
-  "url": "https://aragon.org",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:42:36.187Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 807,
-    "homepage_has_team_page": true,
-    "homepage_has_impact_metrics": false,
-    "scraped_description": "Aragon gives organizations the tools to build, govern, and accrue value effectively onchain.",
-    "scraped_final_url": "https://www.aragon.org/"
-  },
-  "collected_at": "2026-03-09T23:18:04.453Z",
-  "collected_by": "collect-enriched-script",
-  "name": "Aragon",
-  "tagline": "The Home of Onchain Organizations – governance and ownership infrastructure for DAOs and protocols",
-  "project_type": "Platform",
-  "org_type": "For-profit/social enterprise",
-  "issue_area": [
-    "govtech",
-    "emerging_tech"
-  ],
-  "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
-  ],
-  "decade_plus": false,
-  "geography": "international",
-  "countries_deployed": "Global (blockchain-based, jurisdiction-agnostic)",
-  "communities_served": [
-    "protocols",
-    "DAOs",
-    "decentralized organizations",
-    "token holders"
-  ],
-  "political_units": [
-    "international"
-  ],
-  "open_source": "partial",
-  "github_url": "https://github.com/aragon",
-  "github_stars": 2800,
-  "last_commit_date": "2026-03-08",
-  "format": [
-    "platform",
-    "app",
-    "api"
-  ],
-  "founded_year": 2017,
-  "team_size": "medium",
-  "funding_model": [
-    "vc",
-    "hybrid"
-  ],
-  "known_funders": [
-    "Polychain Capital",
-    "Placeholder",
-    "Dragonfly Capital",
-    "Lerer Hippeau",
-    "Consensys"
-  ],
-  "funding_verified": true,
-  "last_funding_event": "2023",
-  "dependency_risks": [
-    "blockchain network dependency",
-    "smart contract security risks",
-    "regulatory uncertainty around DAOs and tokenomics"
-  ],
-  "news_articles": [
-    "Aragon DAO governance platform reaches $35B in assets under governance (2024)",
-    "Aragon launches Aragon OSx for enhanced DAO governance (2023)",
-    "Decentralized governance platform Aragon expands ecosystem (TechCrunch, 2022)"
-  ],
-  "academic_citations": [
-    "Governance in Decentralized Autonomous Organizations (DAOs) - multiple peer-reviewed studies reference Aragon as case study"
-  ],
-  "awards": [
-    "Recognized as leading DAO governance infrastructure platform"
-  ],
-  "in_civictech_guide": false,
-  "published_performance_metrics": "10K projects launched; $35B+ assets governed",
-  "documented_limitations": [
-    "Smart contract security risks",
-    "Regulatory uncertainty for DAOs",
-    "Blockchain scalability constraints",
-    "User experience complexity for non-technical users"
-  ],
-  "jurisdictional_scope": "Global blockchain networks",
-  "failure_modes": [
-    "Smart contract vulnerabilities",
-    "Regulatory crackdowns on DAOs",
-    "Blockchain network congestion affecting governance speed"
-  ],
-  "governance_model": "LLC",
-  "curation_criteria": "Decentralized governance through ANT token holders and community proposals",
-  "contributor_governance": "Open-source contribution model with community review process",
-  "community_ownership": "Partial - ANT token holders have governance rights; community-driven development",
-  "controversies": [
-    "Regulatory scrutiny around DAO legal status and liability",
-    "Security incidents in DAO governance implementations"
-  ],
-  "legal_regulatory_issues": "Ongoing regulatory uncertainty regarding DAO legal status and governance liability across jurisdictions",
-  "pass2_at": "2026-03-09T23:21:24.010Z",
-  "pass5_at": "2026-03-10T00:42:01.763Z",
-  "pass5_jina_words": 277,
-  "pass5_changes": [],
-  "political_relevance_summary": "Addresses gaps in government accountability and public service delivery through technology-enabled civic engagement.",
-  "movement_building_utility": {
-    "classification": "direct_organizer_tool",
-    "notes": "Provides direct tools for organizing, campaigning, or mobilizing civic action."
-  },
-  "systemic_issue_area": "government transparency",
-  "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (48 countries), demonstrating cross-context adaptability.",
-  "primary_users_or_beneficiaries": [
-    "protocols",
-    "DAOs",
-    "decentralized organizations",
-    "token holders"
-  ],
-  "underdog_signal": false
+    "url": "https://aragon.org",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:42:36.187Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 807,
+        "homepage_has_team_page": true,
+        "homepage_has_impact_metrics": false,
+        "scraped_description": "Aragon gives organizations the tools to build, govern, and accrue value effectively onchain.",
+        "scraped_final_url": "https://www.aragon.org/"
+    },
+    "collected_at": "2026-03-09T23:18:04.453Z",
+    "collected_by": "collect-enriched-script",
+    "name": "Aragon",
+    "tagline": "The Home of Onchain Organizations – governance and ownership infrastructure for DAOs and protocols",
+    "project_type": "Platform",
+    "org_type": "For-profit/social enterprise",
+    "issue_area": [
+        "govtech",
+        "emerging_tech"
+    ],
+    "sdg_alignment": [
+        "SDG 16 – Peace, Justice and Strong Institutions"
+    ],
+    "decade_plus": false,
+    "geography": "international",
+    "countries_deployed": "Global (blockchain-based, jurisdiction-agnostic)",
+    "communities_served": [
+        "protocols",
+        "DAOs",
+        "decentralized organizations",
+        "token holders"
+    ],
+    "political_units": [
+        "international"
+    ],
+    "open_source": "partial",
+    "github_url": "https://github.com/aragon",
+    "github_stars": 2800,
+    "last_commit_date": "2026-03-08",
+    "format": [
+        "platform",
+        "app",
+        "api"
+    ],
+    "founded_year": 2017,
+    "team_size": "medium",
+    "funding_model": [
+        "vc",
+        "hybrid"
+    ],
+    "known_funders": [
+        "Polychain Capital",
+        "Placeholder",
+        "Dragonfly Capital",
+        "Lerer Hippeau",
+        "Consensys"
+    ],
+    "funding_verified": true,
+    "last_funding_event": "2023",
+    "dependency_risks": [
+        "blockchain network dependency",
+        "smart contract security risks",
+        "regulatory uncertainty around DAOs and tokenomics"
+    ],
+    "news_articles": [],
+    "academic_citations": [],
+    "awards": [
+        "Recognized as leading DAO governance infrastructure platform"
+    ],
+    "in_civictech_guide": false,
+    "published_performance_metrics": "10K projects launched; $35B+ assets governed",
+    "documented_limitations": [
+        "Smart contract security risks",
+        "Regulatory uncertainty for DAOs",
+        "Blockchain scalability constraints",
+        "User experience complexity for non-technical users"
+    ],
+    "jurisdictional_scope": "Global blockchain networks",
+    "failure_modes": [
+        "Smart contract vulnerabilities",
+        "Regulatory crackdowns on DAOs",
+        "Blockchain network congestion affecting governance speed"
+    ],
+    "governance_model": "LLC",
+    "curation_criteria": "Decentralized governance through ANT token holders and community proposals",
+    "contributor_governance": "Open-source contribution model with community review process",
+    "community_ownership": "Partial - ANT token holders have governance rights; community-driven development",
+    "controversies": [
+        "Regulatory scrutiny around DAO legal status and liability",
+        "Security incidents in DAO governance implementations"
+    ],
+    "legal_regulatory_issues": "Ongoing regulatory uncertainty regarding DAO legal status and governance liability across jurisdictions",
+    "pass2_at": "2026-03-09T23:21:24.010Z",
+    "pass5_at": "2026-03-10T00:42:01.763Z",
+    "pass5_jina_words": 277,
+    "pass5_changes": [],
+    "political_relevance_summary": "Addresses gaps in government accountability and public service delivery through technology-enabled civic engagement.",
+    "movement_building_utility": {
+        "classification": "direct_organizer_tool",
+        "notes": "Provides direct tools for organizing, campaigning, or mobilizing civic action."
+    },
+    "systemic_issue_area": "government transparency",
+    "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (48 countries), demonstrating cross-context adaptability.",
+    "primary_users_or_beneficiaries": [
+        "protocols",
+        "DAOs",
+        "decentralized organizations",
+        "token holders"
+    ],
+    "underdog_signal": false
 }

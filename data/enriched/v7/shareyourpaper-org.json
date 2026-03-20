@@ -1,107 +1,102 @@
 {
-  "url": "https://shareyourpaper.org",
-  "collected_at": "2026-03-09T23:20:32.672Z",
-  "collected_by": "collect-enriched-script",
-  "name": "Shareyourpaper.org",
-  "tagline": "Simplest way to legally make academic papers freely available on Google Scholar, Web of Science, and personal sites",
-  "project_type": "Tool/Platform",
-  "org_type": "Nonprofit/charity",
-  "issue_area": [
-    "civic_data",
-    "digital_rights"
-  ],
-  "sdg_alignment": [
-    "SDG 4 – Quality Education",
-    "SDG 16 – Peace, Justice and Strong Institutions"
-  ],
-  "decade_plus": false,
-  "geography": "international",
-  "countries_deployed": [
-    "International"
-  ],
-  "communities_served": [
-    "researchers",
-    "academics",
-    "librarians"
-  ],
-  "political_units": [
-    "international"
-  ],
-  "open_source": "yes",
-  "github_url": "https://github.com/shareyourpaper/shareyourpaper",
-  "github_stars": 892,
-  "last_commit_date": "2025-12-15",
-  "format": [
-    "api",
-    "platform"
-  ],
-  "founded_year": 2020,
-  "team_size": "small",
-  "funding_model": [
-    "grants"
-  ],
-  "known_funders": [
-    "leading libraries",
-    "foundations"
-  ],
-  "funding_verified": true,
-  "last_funding_event": "2024",
-  "dependency_risks": [
-    "Zenodo repository dependency (CERN-operated)",
-    "Reliance on third-party data sources (Crossref, Microsoft Academic, Unpaywall, Europe PMC, Open Access Button)"
-  ],
-  "news_articles": [
-    "Open Access Button coverage of Share Your Paper initiative",
-    "Scholarly Kitchen discussion of open access tools"
-  ],
-  "academic_citations": [
-    "Citations in open access and scholarly communication literature"
-  ],
-  "awards": [],
-  "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [],
-  "causation_strength": null,
-  "outcome_methodology": null,
-  "replication_materials_available": null,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
-  "documented_limitations": [],
-  "jurisdictional_scope": "International",
-  "failure_modes": [],
-  "governance_model": "project_of_larger_org",
-  "curation_criteria": null,
-  "contributor_governance": "open contribution model with GitHub-based collaboration",
-  "disparity_tracking": null,
-  "community_ownership": "community-driven open source project",
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
-  "ai_involvement": null,
-  "pass2_at": "2026-03-09T23:21:40.770Z",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:46:13.868Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 254,
-    "homepage_has_team_page": true,
-    "homepage_has_impact_metrics": false,
-    "scraped_description": "We can help you make your paper Open Access, for free, wherever you publish. It’s legal and takes just minutes. Join millions of researchers sharing their papers freely with colleagues and the public.",
-    "scraped_final_url": "https://shareyourpaper.org/"
-  },
-  "political_relevance_summary": "Shareyourpaper.org addresses civic data access and transparency. Simplest way to legally make academic papers freely available on Google Scholar, Web of Science, and personal sites.",
-  "movement_building_utility": {
-    "classification": "infrastructure",
-    "notes": "Provides digital rights infrastructure or privacy-preserving technology foundations."
-  },
-  "systemic_issue_area": "civic data access",
-  "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions.",
-  "primary_users_or_beneficiaries": [
-    "civic technology researchers",
-    "academics",
-    "librarians"
-  ],
-  "underdog_signal": true
+    "url": "https://shareyourpaper.org",
+    "collected_at": "2026-03-09T23:20:32.672Z",
+    "collected_by": "collect-enriched-script",
+    "name": "Shareyourpaper.org",
+    "tagline": "Simplest way to legally make academic papers freely available on Google Scholar, Web of Science, and personal sites",
+    "project_type": "Tool/Platform",
+    "org_type": "Nonprofit/charity",
+    "issue_area": [
+        "civic_data",
+        "digital_rights"
+    ],
+    "sdg_alignment": [
+        "SDG 4 – Quality Education",
+        "SDG 16 – Peace, Justice and Strong Institutions"
+    ],
+    "decade_plus": false,
+    "geography": "international",
+    "countries_deployed": [
+        "International"
+    ],
+    "communities_served": [
+        "researchers",
+        "academics",
+        "librarians"
+    ],
+    "political_units": [
+        "international"
+    ],
+    "open_source": "yes",
+    "github_url": "https://github.com/shareyourpaper/shareyourpaper",
+    "github_stars": 892,
+    "last_commit_date": "2025-12-15",
+    "format": [
+        "api",
+        "platform"
+    ],
+    "founded_year": 2020,
+    "team_size": "small",
+    "funding_model": [
+        "grants"
+    ],
+    "known_funders": [
+        "leading libraries",
+        "foundations"
+    ],
+    "funding_verified": true,
+    "last_funding_event": "2024",
+    "dependency_risks": [
+        "Zenodo repository dependency (CERN-operated)",
+        "Reliance on third-party data sources (Crossref, Microsoft Academic, Unpaywall, Europe PMC, Open Access Button)"
+    ],
+    "news_articles": [],
+    "academic_citations": [],
+    "awards": [],
+    "in_civictech_guide": false,
+    "wikipedia_page": null,
+    "policy_outcomes": [],
+    "causation_strength": null,
+    "outcome_methodology": null,
+    "replication_materials_available": null,
+    "preregistered_studies": [],
+    "published_performance_metrics": null,
+    "documented_limitations": [],
+    "jurisdictional_scope": "International",
+    "failure_modes": [],
+    "governance_model": "project_of_larger_org",
+    "curation_criteria": null,
+    "contributor_governance": "open contribution model with GitHub-based collaboration",
+    "disparity_tracking": null,
+    "community_ownership": "community-driven open source project",
+    "controversies": [],
+    "political_bias_allegations": null,
+    "legal_regulatory_issues": null,
+    "elections_used_in": [],
+    "government_partnerships": [],
+    "ai_involvement": null,
+    "pass2_at": "2026-03-09T23:21:40.770Z",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:46:13.868Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 254,
+        "homepage_has_team_page": true,
+        "homepage_has_impact_metrics": false,
+        "scraped_description": "We can help you make your paper Open Access, for free, wherever you publish. It’s legal and takes just minutes. Join millions of researchers sharing their papers freely with colleagues and the public.",
+        "scraped_final_url": "https://shareyourpaper.org/"
+    },
+    "political_relevance_summary": "Shareyourpaper.org addresses civic data access and transparency. Simplest way to legally make academic papers freely available on Google Scholar, Web of Science, and personal sites.",
+    "movement_building_utility": {
+        "classification": "infrastructure",
+        "notes": "Provides digital rights infrastructure or privacy-preserving technology foundations."
+    },
+    "systemic_issue_area": "civic data access",
+    "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions.",
+    "primary_users_or_beneficiaries": [
+        "civic technology researchers",
+        "academics",
+        "librarians"
+    ],
+    "underdog_signal": true
 }

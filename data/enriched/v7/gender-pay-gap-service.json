@@ -1,110 +1,103 @@
 {
-  "url": "https://gender-pay-gap.service.gov.uk",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:43:48.965Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 277,
-    "homepage_has_team_page": false,
-    "homepage_has_impact_metrics": false,
-    "scraped_description": "We use some essential cookies to make this service work.",
-    "scraped_final_url": "https://gender-pay-gap.service.gov.uk/"
-  },
-  "collected_at": "2026-03-09T23:21:11.649Z",
-  "collected_by": "collect-enriched-script",
-  "name": "Gender Pay Gap Service",
-  "tagline": "Search and compare gender pay gap data",
-  "project_type": "Tool/Platform",
-  "org_type": "Government/public sector",
-  "issue_area": [
-    "gender_equality",
-    "labor_rights",
-    "transparency"
-  ],
-  "sdg_alignment": [
-    "SDG 5: Gender Equality",
-    "SDG 10: Reduced Inequalities"
-  ],
-  "decade_plus": false,
-  "geography": "national",
-  "countries_deployed": [
-    "United Kingdom"
-  ],
-  "communities_served": [
-    "employers",
-    "job seekers",
-    "researchers",
-    "civil society"
-  ],
-  "political_units": [
-    "United Kingdom"
-  ],
-  "open_source": "no",
-  "format": [
-    "web_application",
-    "searchable_database",
-    "downloadable_data"
-  ],
-  "founded_year": 2018,
-  "funding_model": [
-    "government"
-  ],
-  "known_funders": [
-    "UK Government"
-  ],
-  "funding_verified": true,
-  "news_articles": [
-    "BBC News - Gender pay gap reporting begins",
-    "Guardian - UK gender pay gap data now public",
-    "Reuters - UK launches gender pay gap transparency tool"
-  ],
-  "academic_citations": [
-    "Blau, F. D., & Kahn, L. M. (2017). The gender wage gap: Extent, trends, and explanations. Journal of Economic Literature, 55(3), 789-865.",
-    "Acker, J. (2006). Inequality regimes: Gender, class, and race in organizations. Gender & Society, 20(4), 441-464."
-  ],
-  "in_civictech_guide": false,
-  "policy_outcomes": [
-    "Mandatory gender pay gap reporting for employers with 250+ employees"
-  ],
-  "causation_strength": "directly_cited",
-  "outcome_methodology": "Regulatory compliance tracking and public transparency mechanism",
-  "replication_materials_available": false,
-  "documented_limitations": [
-    "Data limited to employers with 250+ employees",
-    "Does not capture intersectional pay gaps",
-    "Snapshot reporting rather than longitudinal tracking"
-  ],
-  "jurisdictional_scope": "United Kingdom",
-  "governance_model": "government_administered",
-  "curation_criteria": "Employer size threshold (250+ employees), annual reporting requirement, standardized data submission format",
-  "contributor_governance": "Government-controlled; no public contribution model",
-  "disparity_tracking": true,
-  "community_ownership": false,
-  "controversies": [
-    "Criticism for high reporting threshold excluding small and medium enterprises",
-    "Debate over effectiveness in closing actual pay gaps"
-  ],
-  "legal_regulatory_issues": "Equality Act 2010 (Gender Pay Gap Information) Regulations 2017",
-  "government_partnerships": [
-    "UK Government (Equality and Human Rights)"
-  ],
-  "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:28.331Z",
-  "pass5_at": "2026-03-10T00:46:15.950Z",
-  "pass5_jina_words": 19,
-  "pass5_changes": [],
-  "political_relevance_summary": "Gender Pay Gap Service addresses government transparency and accountability. Search and compare gender pay gap data.",
-  "movement_building_utility": {
-    "classification": "information_resource",
-    "notes": "Provides data, research, or monitoring capabilities for civic purposes."
-  },
-  "systemic_issue_area": "government transparency",
-  "generalizability_notes": "Could be adapted to other national contexts with localization. Proprietary or closed-source; replication requires licensing.",
-  "primary_users_or_beneficiaries": [
-    "employers",
-    "job seekers",
-    "researchers",
-    "civil society"
-  ],
-  "underdog_signal": false
+    "url": "https://gender-pay-gap.service.gov.uk",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:43:48.965Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 277,
+        "homepage_has_team_page": false,
+        "homepage_has_impact_metrics": false,
+        "scraped_description": "We use some essential cookies to make this service work.",
+        "scraped_final_url": "https://gender-pay-gap.service.gov.uk/"
+    },
+    "collected_at": "2026-03-09T23:21:11.649Z",
+    "collected_by": "collect-enriched-script",
+    "name": "Gender Pay Gap Service",
+    "tagline": "Search and compare gender pay gap data",
+    "project_type": "Tool/Platform",
+    "org_type": "Government/public sector",
+    "issue_area": [
+        "gender_equality",
+        "labor_rights",
+        "transparency"
+    ],
+    "sdg_alignment": [
+        "SDG 5: Gender Equality",
+        "SDG 10: Reduced Inequalities"
+    ],
+    "decade_plus": false,
+    "geography": "national",
+    "countries_deployed": [
+        "United Kingdom"
+    ],
+    "communities_served": [
+        "employers",
+        "job seekers",
+        "researchers",
+        "civil society"
+    ],
+    "political_units": [
+        "United Kingdom"
+    ],
+    "open_source": "no",
+    "format": [
+        "web_application",
+        "searchable_database",
+        "downloadable_data"
+    ],
+    "founded_year": 2018,
+    "funding_model": [
+        "government"
+    ],
+    "known_funders": [
+        "UK Government"
+    ],
+    "funding_verified": true,
+    "news_articles": [],
+    "academic_citations": [],
+    "in_civictech_guide": false,
+    "policy_outcomes": [
+        "Mandatory gender pay gap reporting for employers with 250+ employees"
+    ],
+    "causation_strength": "directly_cited",
+    "outcome_methodology": "Regulatory compliance tracking and public transparency mechanism",
+    "replication_materials_available": false,
+    "documented_limitations": [
+        "Data limited to employers with 250+ employees",
+        "Does not capture intersectional pay gaps",
+        "Snapshot reporting rather than longitudinal tracking"
+    ],
+    "jurisdictional_scope": "United Kingdom",
+    "governance_model": "government_administered",
+    "curation_criteria": "Employer size threshold (250+ employees), annual reporting requirement, standardized data submission format",
+    "contributor_governance": "Government-controlled; no public contribution model",
+    "disparity_tracking": true,
+    "community_ownership": false,
+    "controversies": [
+        "Criticism for high reporting threshold excluding small and medium enterprises",
+        "Debate over effectiveness in closing actual pay gaps"
+    ],
+    "legal_regulatory_issues": "Equality Act 2010 (Gender Pay Gap Information) Regulations 2017",
+    "government_partnerships": [
+        "UK Government (Equality and Human Rights)"
+    ],
+    "ai_involvement": false,
+    "pass2_at": "2026-03-09T23:21:28.331Z",
+    "pass5_at": "2026-03-10T00:46:15.950Z",
+    "pass5_jina_words": 19,
+    "pass5_changes": [],
+    "political_relevance_summary": "Gender Pay Gap Service addresses government transparency and accountability. Search and compare gender pay gap data.",
+    "movement_building_utility": {
+        "classification": "information_resource",
+        "notes": "Provides data, research, or monitoring capabilities for civic purposes."
+    },
+    "systemic_issue_area": "government transparency",
+    "generalizability_notes": "Could be adapted to other national contexts with localization. Proprietary or closed-source; replication requires licensing.",
+    "primary_users_or_beneficiaries": [
+        "employers",
+        "job seekers",
+        "researchers",
+        "civil society"
+    ],
+    "underdog_signal": false
 }

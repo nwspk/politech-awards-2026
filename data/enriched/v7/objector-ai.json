@@ -1,123 +1,116 @@
 {
-  "url": "https://objector.ai",
-  "collected_at": "2026-03-09T23:20:18.909Z",
-  "collected_by": "collect-enriched-script",
-  "name": "Objector.ai",
-  "tagline": "AI-powered planning objection letter and toolkit to help citizens challenge unsuitable planning applications",
-  "project_type": "Tool/Platform",
-  "org_type": "For-profit/social enterprise",
-  "issue_area": [
-    "participatory_democracy",
-    "advocacy_tech",
-    "govtech"
-  ],
-  "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
-  ],
-  "decade_plus": false,
-  "geography": "national",
-  "countries_deployed": [
-    "United Kingdom"
-  ],
-  "communities_served": [
-    "citizens",
-    "community groups",
-    "individuals objecting to planning applications"
-  ],
-  "political_units": [
-    "local",
-    "national"
-  ],
-  "open_source": "no",
-  "github_url": null,
-  "github_stars": null,
-  "last_commit_date": null,
-  "format": [
-    "platform",
-    "app"
-  ],
-  "founded_year": 2023,
-  "team_size": "small",
-  "funding_model": [
-    "subscriptions"
-  ],
-  "known_funders": [],
-  "funding_verified": false,
-  "last_funding_event": null,
-  "dependency_risks": [
-    "Reliance on UK planning policy which may change",
-    "Dependency on AI model accuracy for policy interpretation"
-  ],
-  "news_articles": [
-    {
-      "headline": null,
-      "outlet": "National Press (referenced but not specified)",
-      "date": null,
-      "url": null
-    }
-  ],
-  "academic_citations": [],
-  "awards": [],
-  "in_civictech_guide": false,
-  "wikipedia_page": null,
-  "policy_outcomes": [
-    "Community empowerment in planning objections (The Moylgrove Community, Pembrokeshire reported feeling empowered to challenge planning issues using the platform)"
-  ],
-  "causation_strength": "anecdotal",
-  "outcome_methodology": null,
-  "replication_materials_available": false,
-  "preregistered_studies": [],
-  "published_performance_metrics": null,
-  "documented_limitations": [
-    "Limited to UK planning system",
-    "Requires users to upload planning documents manually",
-    "Effectiveness depends on quality of AI policy interpretation"
-  ],
-  "jurisdictional_scope": "United Kingdom planning authorities",
-  "failure_modes": [
-    "AI may misidentify valid objection grounds",
-    "Policy references may become outdated with planning law changes",
-    "Local council variations may not be fully captured"
-  ],
-  "governance_model": "LLC",
-  "curation_criteria": null,
-  "contributor_governance": null,
-  "disparity_tracking": false,
-  "community_ownership": false,
-  "controversies": [],
-  "political_bias_allegations": null,
-  "legal_regulatory_issues": null,
-  "elections_used_in": [],
-  "government_partnerships": [],
-  "ai_involvement": "Dual AI-powered system for identifying valid objection grounds ranked by impact, generating policy-backed planning objection letters, creating councillor lobbying videos and letters, drafting planning committee speeches, and providing AI Planning Policy Advisor explanations of objection grounds and cited policies",
-  "pass2_at": "2026-03-09T23:21:34.440Z",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:45:21.259Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 700,
-    "homepage_has_team_page": true,
-    "homepage_has_impact_metrics": false,
-    "scraped_description": "Object to planning applications in the UK with Objector.ai. Check objection \r\ngrounds for free &amp; create powerful, policy-based objection letters, \r\nlobbying videos, and committee speeches in minutes.",
-    "scraped_final_url": "https://www.objector.ai/"
-  },
-  "pass5_at": "2026-03-10T01:04:12.101Z",
-  "pass5_jina_words": 569,
-  "pass5_changes": [
-    "policy_outcomes",
-    "ai_involvement"
-  ],
-  "political_relevance_summary": "Objector.ai addresses gaps in democratic participation by providing tools or platforms that enable citizens and communities to engage more directly in governance and decision-making processes.",
-  "movement_building_utility": {
-    "classification": "advocacy_amplifier",
-    "notes": "Objector.ai amplifies civic advocacy by giving citizens and groups tools to engage in democratic processes or influence policy."
-  },
-  "systemic_issue_area": "government transparency",
-  "generalizability_notes": "Limited generalizability. Objector.ai is proprietary and designed for UK-specific contexts. The concept could inspire similar efforts elsewhere but direct replication is not feasible.",
-  "primary_users_or_beneficiaries": [
-    "citizens in United Kingdom",
-    "community groups",
-    "individuals objecting to planning applications"
-  ],
-  "underdog_signal": true
+    "url": "https://objector.ai",
+    "collected_at": "2026-03-09T23:20:18.909Z",
+    "collected_by": "collect-enriched-script",
+    "name": "Objector.ai",
+    "tagline": "AI-powered planning objection letter and toolkit to help citizens challenge unsuitable planning applications",
+    "project_type": "Tool/Platform",
+    "org_type": "For-profit/social enterprise",
+    "issue_area": [
+        "participatory_democracy",
+        "advocacy_tech",
+        "govtech"
+    ],
+    "sdg_alignment": [
+        "SDG 16 – Peace, Justice and Strong Institutions"
+    ],
+    "decade_plus": false,
+    "geography": "national",
+    "countries_deployed": [
+        "United Kingdom"
+    ],
+    "communities_served": [
+        "citizens",
+        "community groups",
+        "individuals objecting to planning applications"
+    ],
+    "political_units": [
+        "local",
+        "national"
+    ],
+    "open_source": "no",
+    "github_url": null,
+    "github_stars": null,
+    "last_commit_date": null,
+    "format": [
+        "platform",
+        "app"
+    ],
+    "founded_year": 2023,
+    "team_size": "small",
+    "funding_model": [
+        "subscriptions"
+    ],
+    "known_funders": [],
+    "funding_verified": false,
+    "last_funding_event": null,
+    "dependency_risks": [
+        "Reliance on UK planning policy which may change",
+        "Dependency on AI model accuracy for policy interpretation"
+    ],
+    "news_articles": [],
+    "academic_citations": [],
+    "awards": [],
+    "in_civictech_guide": false,
+    "wikipedia_page": null,
+    "policy_outcomes": [
+        "Community empowerment in planning objections (The Moylgrove Community, Pembrokeshire reported feeling empowered to challenge planning issues using the platform)"
+    ],
+    "causation_strength": "anecdotal",
+    "outcome_methodology": null,
+    "replication_materials_available": false,
+    "preregistered_studies": [],
+    "published_performance_metrics": null,
+    "documented_limitations": [
+        "Limited to UK planning system",
+        "Requires users to upload planning documents manually",
+        "Effectiveness depends on quality of AI policy interpretation"
+    ],
+    "jurisdictional_scope": "United Kingdom planning authorities",
+    "failure_modes": [
+        "AI may misidentify valid objection grounds",
+        "Policy references may become outdated with planning law changes",
+        "Local council variations may not be fully captured"
+    ],
+    "governance_model": "LLC",
+    "curation_criteria": null,
+    "contributor_governance": null,
+    "disparity_tracking": false,
+    "community_ownership": false,
+    "controversies": [],
+    "political_bias_allegations": null,
+    "legal_regulatory_issues": null,
+    "elections_used_in": [],
+    "government_partnerships": [],
+    "ai_involvement": "Dual AI-powered system for identifying valid objection grounds ranked by impact, generating policy-backed planning objection letters, creating councillor lobbying videos and letters, drafting planning committee speeches, and providing AI Planning Policy Advisor explanations of objection grounds and cited policies",
+    "pass2_at": "2026-03-09T23:21:34.440Z",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:45:21.259Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 700,
+        "homepage_has_team_page": true,
+        "homepage_has_impact_metrics": false,
+        "scraped_description": "Object to planning applications in the UK with Objector.ai. Check objection \r\ngrounds for free &amp; create powerful, policy-based objection letters, \r\nlobbying videos, and committee speeches in minutes.",
+        "scraped_final_url": "https://www.objector.ai/"
+    },
+    "pass5_at": "2026-03-10T01:04:12.101Z",
+    "pass5_jina_words": 569,
+    "pass5_changes": [
+        "policy_outcomes",
+        "ai_involvement"
+    ],
+    "political_relevance_summary": "Objector.ai addresses gaps in democratic participation by providing tools or platforms that enable citizens and communities to engage more directly in governance and decision-making processes.",
+    "movement_building_utility": {
+        "classification": "advocacy_amplifier",
+        "notes": "Objector.ai amplifies civic advocacy by giving citizens and groups tools to engage in democratic processes or influence policy."
+    },
+    "systemic_issue_area": "government transparency",
+    "generalizability_notes": "Limited generalizability. Objector.ai is proprietary and designed for UK-specific contexts. The concept could inspire similar efforts elsewhere but direct replication is not feasible.",
+    "primary_users_or_beneficiaries": [
+        "citizens in United Kingdom",
+        "community groups",
+        "individuals objecting to planning applications"
+    ],
+    "underdog_signal": true
 }

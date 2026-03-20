@@ -1,140 +1,131 @@
 {
-  "url": "https://openprocurement.io",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:45:34.348Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 554,
-    "homepage_has_team_page": false,
-    "homepage_has_impact_metrics": false,
-    "scraped_description": "OpenProcurement is an open source toolkit, designed specifically for procurement of goods and services on behalf of public authorities or private entities.",
-    "scraped_final_url": "https://openprocurement.io/en"
-  },
-  "collected_at": "2026-03-09T00:00:00Z",
-  "collected_by": "agent-batch-33",
-  "name": "OpenProcurement",
-  "tagline": "Open source e-procurement toolkit powering transparent public procurement systems.",
-  "project_type": "Tool/Platform",
-  "org_type": "private company (Quintagroup Ltd.)",
-  "issue_area": [
-    "public procurement",
-    "anti-corruption",
-    "government transparency",
-    "open contracting"
-  ],
-  "sdg_alignment": [
-    "SDG 16 - Peace, Justice and Strong Institutions",
-    "SDG 17 - Partnerships for the Goals"
-  ],
-  "decade_plus": true,
-  "geography": "Ukraine; international deployments",
-  "countries_deployed": [
-    "Ukraine",
-    "Moldova"
-  ],
-  "communities_served": [
-    "government procurement agencies",
-    "suppliers",
-    "civil society watchdogs"
-  ],
-  "political_units": [
-    "Ukrainian government",
-    "Moldovan government"
-  ],
-  "open_source": "yes",
-  "github_url": "https://github.com/openprocurement",
-  "github_stars": 450,
-  "last_commit_date": "2025-12-15",
-  "format": [
-    "web platform",
-    "API",
-    "open source toolkit"
-  ],
-  "founded_year": 2014,
-  "team_size": "medium",
-  "funding_model": [
-    "government contracts",
-    "international donor support"
-  ],
-  "known_funders": [
-    "USAID",
-    "EBRD",
-    "Transparency International",
-    "World Bank"
-  ],
-  "funding_verified": true,
-  "last_funding_event": "2024-06-15 - EBRD continued support for ProZorro platform maintenance and expansion",
-  "dependency_risks": [
-    "dependent on Ukrainian government adoption",
-    "active conflict in Ukraine"
-  ],
-  "news_articles": [
-    "Reuters: Ukraine's ProZorro platform saves billions in public spending (2019)",
-    "Guardian: How Ukraine is fighting corruption through open procurement (2017)",
-    "TechCrunch: OpenProcurement toolkit expands to Moldova (2021)",
-    "Wired: The anti-corruption tech saving Ukraine money (2016)"
-  ],
-  "academic_citations": [
-    "Peixoto, T., & Sifry, M. (2017). Civic tech for social change. Berkman Klein Center, Harvard University.",
-    "Meijer, A. J., & Thaens, M. (2013). Social media strategies: Understanding different approaches in North American and European public agencies. Government Information Quarterly, 30(4), 343-351.",
-    "Lourenço, R. P. (2015). An analysis of public e-procurement platforms in the EU. Telematics and Informatics, 32(2), 325-332."
-  ],
-  "awards": [
-    "World Procurement Award (WPA) 2016 - Public Sector category (ProZorro)",
-    "Open Government Awards 2016 - Global Summit in Paris (ProZorro)",
-    "C4F Davos Awards 2017 - Trust of the Future (ProZorro)",
-    "C5 Accelerate anti-corruption award 2018 - ProZorro.Sale"
-  ],
-  "in_civictech_guide": true,
-  "wikipedia_page": "https://en.wikipedia.org/wiki/OpenProcurement",
-  "policy_outcomes": [
-    "$162 million direct revenue for Ukrainian state budget within two years",
-    "Estimated $6 billion in public fund savings 2017-2021",
-    "30% reduction in drone purchase prices for Ukrainian defence procurement"
-  ],
-  "causation_strength": "moderate-strong - attributed savings based on procurement data comparison",
-  "outcome_methodology": "government procurement data analysis",
-  "replication_materials_available": true,
-  "published_performance_metrics": true,
-  "documented_limitations": [
-    "limited to jurisdictions with government adoption",
-    "quality depends on political will for transparency"
-  ],
-  "jurisdictional_scope": "national (Ukraine primary); expanding internationally via MTender in Moldova",
-  "failure_modes": [
-    "political rollback of transparency requirements",
-    "war disruption in Ukraine"
-  ],
-  "governance_model": "Open source toolkit maintained by Quintagroup; ProZorro deployed by Ukrainian Ministry of Economy",
-  "curation_criteria": "Open Contracting Data Standard (OCDS)",
-  "contributor_governance": "open source on GitHub; primary development by Quintagroup",
-  "disparity_tracking": false,
-  "community_ownership": false,
-  "controversies": [
-    "2022-2024: Operational disruptions due to Russian invasion of Ukraine affecting platform maintenance and government capacity"
-  ],
-  "political_bias_allegations": "None documented; platform designed for cross-party transparency compliance",
-  "legal_regulatory_issues": "Compliant with EU transparency directives and Ukrainian procurement law; no major legal challenges documented",
-  "government_partnerships": [
-    "Ukrainian Ministry of Economic Development and Trade",
-    "Moldova government (MTender)"
-  ],
-  "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:40.288Z",
-  "pass5_at": "2026-03-10T00:49:26.727Z",
-  "pass5_jina_words": 543,
-  "pass5_changes": [],
-  "political_relevance_summary": "OpenProcurement addresses the need for more transparent, efficient, and accountable government operations through digital tools and open processes.",
-  "movement_building_utility": {
-    "classification": "information_resource",
-    "notes": "OpenProcurement provides transparency tools or data that inform civic oversight of government."
-  },
-  "systemic_issue_area": "government procurement transparency",
-  "generalizability_notes": "High generalizability. OpenProcurement is open source and already deployed across multiple countries/jurisdictions, making replication straightforward for other contexts.",
-  "primary_users_or_beneficiaries": [
-    "government procurement agencies",
-    "suppliers",
-    "civil society watchdogs"
-  ],
-  "underdog_signal": true
+    "url": "https://openprocurement.io",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:45:34.348Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 554,
+        "homepage_has_team_page": false,
+        "homepage_has_impact_metrics": false,
+        "scraped_description": "OpenProcurement is an open source toolkit, designed specifically for procurement of goods and services on behalf of public authorities or private entities.",
+        "scraped_final_url": "https://openprocurement.io/en"
+    },
+    "collected_at": "2026-03-09T00:00:00Z",
+    "collected_by": "agent-batch-33",
+    "name": "OpenProcurement",
+    "tagline": "Open source e-procurement toolkit powering transparent public procurement systems.",
+    "project_type": "Tool/Platform",
+    "org_type": "private company (Quintagroup Ltd.)",
+    "issue_area": [
+        "public procurement",
+        "anti-corruption",
+        "government transparency",
+        "open contracting"
+    ],
+    "sdg_alignment": [
+        "SDG 16 - Peace, Justice and Strong Institutions",
+        "SDG 17 - Partnerships for the Goals"
+    ],
+    "decade_plus": true,
+    "geography": "Ukraine; international deployments",
+    "countries_deployed": [
+        "Ukraine",
+        "Moldova"
+    ],
+    "communities_served": [
+        "government procurement agencies",
+        "suppliers",
+        "civil society watchdogs"
+    ],
+    "political_units": [
+        "Ukrainian government",
+        "Moldovan government"
+    ],
+    "open_source": "yes",
+    "github_url": "https://github.com/openprocurement",
+    "github_stars": 450,
+    "last_commit_date": "2025-12-15",
+    "format": [
+        "web platform",
+        "API",
+        "open source toolkit"
+    ],
+    "founded_year": 2014,
+    "team_size": "medium",
+    "funding_model": [
+        "government contracts",
+        "international donor support"
+    ],
+    "known_funders": [
+        "USAID",
+        "EBRD",
+        "Transparency International",
+        "World Bank"
+    ],
+    "funding_verified": true,
+    "last_funding_event": "2024-06-15 - EBRD continued support for ProZorro platform maintenance and expansion",
+    "dependency_risks": [
+        "dependent on Ukrainian government adoption",
+        "active conflict in Ukraine"
+    ],
+    "news_articles": [],
+    "academic_citations": [],
+    "awards": [
+        "World Procurement Award (WPA) 2016 - Public Sector category (ProZorro)",
+        "Open Government Awards 2016 - Global Summit in Paris (ProZorro)",
+        "C4F Davos Awards 2017 - Trust of the Future (ProZorro)",
+        "C5 Accelerate anti-corruption award 2018 - ProZorro.Sale"
+    ],
+    "in_civictech_guide": true,
+    "wikipedia_page": "https://en.wikipedia.org/wiki/OpenProcurement",
+    "policy_outcomes": [
+        "$162 million direct revenue for Ukrainian state budget within two years",
+        "Estimated $6 billion in public fund savings 2017-2021",
+        "30% reduction in drone purchase prices for Ukrainian defence procurement"
+    ],
+    "causation_strength": "moderate-strong - attributed savings based on procurement data comparison",
+    "outcome_methodology": "government procurement data analysis",
+    "replication_materials_available": true,
+    "published_performance_metrics": true,
+    "documented_limitations": [
+        "limited to jurisdictions with government adoption",
+        "quality depends on political will for transparency"
+    ],
+    "jurisdictional_scope": "national (Ukraine primary); expanding internationally via MTender in Moldova",
+    "failure_modes": [
+        "political rollback of transparency requirements",
+        "war disruption in Ukraine"
+    ],
+    "governance_model": "Open source toolkit maintained by Quintagroup; ProZorro deployed by Ukrainian Ministry of Economy",
+    "curation_criteria": "Open Contracting Data Standard (OCDS)",
+    "contributor_governance": "open source on GitHub; primary development by Quintagroup",
+    "disparity_tracking": false,
+    "community_ownership": false,
+    "controversies": [
+        "2022-2024: Operational disruptions due to Russian invasion of Ukraine affecting platform maintenance and government capacity"
+    ],
+    "political_bias_allegations": "None documented; platform designed for cross-party transparency compliance",
+    "legal_regulatory_issues": "Compliant with EU transparency directives and Ukrainian procurement law; no major legal challenges documented",
+    "government_partnerships": [
+        "Ukrainian Ministry of Economic Development and Trade",
+        "Moldova government (MTender)"
+    ],
+    "ai_involvement": false,
+    "pass2_at": "2026-03-09T23:21:40.288Z",
+    "pass5_at": "2026-03-10T00:49:26.727Z",
+    "pass5_jina_words": 543,
+    "pass5_changes": [],
+    "political_relevance_summary": "OpenProcurement addresses the need for more transparent, efficient, and accountable government operations through digital tools and open processes.",
+    "movement_building_utility": {
+        "classification": "information_resource",
+        "notes": "OpenProcurement provides transparency tools or data that inform civic oversight of government."
+    },
+    "systemic_issue_area": "government procurement transparency",
+    "generalizability_notes": "High generalizability. OpenProcurement is open source and already deployed across multiple countries/jurisdictions, making replication straightforward for other contexts.",
+    "primary_users_or_beneficiaries": [
+        "government procurement agencies",
+        "suppliers",
+        "civil society watchdogs"
+    ],
+    "underdog_signal": true
 }
