@@ -13,6 +13,7 @@ For contribution workflow, see [CONTRIBUTING.md](../../CONTRIBUTING.md).
 
 ## At a glance
 
+
 | Area | Current state | Where to read details |
 |---|---|---|
 | Open tradeoffs | Active unresolved questions across iterations, data quality, framework, and event UX | [Open questions and unresolved tradeoffs](#open-questions-and-unresolved-tradeoffs) |
