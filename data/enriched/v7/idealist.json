@@ -60,7 +60,12 @@
         "Merger with VolunteerMatch in 2025 may affect platform stability or feature availability"
     ],
     "news_articles": [],
-    "academic_citations": [],
+    "academic_citations": [
+        {
+            "citation": "Benkler, Y. (2006). The Wealth of Networks: How Social Production Transforms Markets and Freedom",
+            "doi": "https://doi.org/10.12987/9780300127232"
+        }
+    ],
     "awards": [
         "Fast Company World Changing Ideas Award",
         "Tech for Good Award"

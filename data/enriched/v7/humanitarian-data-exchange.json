@@ -64,7 +64,12 @@
         "https://www.devex.com/news/humanitarian-data-exchange-launches-new-features-for-crisis-response",
         "https://reliefweb.int/report/world/humanitarian-data-exchange-improving-data-sharing"
     ],
-    "academic_citations": [],
+    "academic_citations": [
+        {
+            "citation": "Meier, P. (2015). Digital Humanitarians: How Big Data is Changing the Face of Humanitarian Response. CRC Press.",
+            "doi": "https://doi.org/10.1201/b18023"
+        }
+    ],
     "awards": [
         "UN OCHA Innovation Award (2015)"
     ],

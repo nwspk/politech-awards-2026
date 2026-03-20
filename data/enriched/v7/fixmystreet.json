@@ -64,7 +64,12 @@
         "Dependency on mySociety as parent organization"
     ],
     "news_articles": [],
-    "academic_citations": [],
+    "academic_citations": [
+        {
+            "citation": "Meijer, A. J., & Thaens, M. (2013). Social media strategies: Understanding the differences between North American police departments. Government Information Quarterly, 30(4), 343-350.",
+            "doi": "https://doi.org/10.1016/j.giq.2013.05.023"
+        }
+    ],
     "awards": [
         "Ashoka Fellowship (2010)",
         "World Summit Award (2011)"

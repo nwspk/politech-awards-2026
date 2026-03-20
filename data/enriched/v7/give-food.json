@@ -87,7 +87,12 @@
             "url": "https://www.thirdforcenews.org.uk/news/how-give-food-using-data-fight-uk-hunger"
         }
     ],
-    "academic_citations": [],
+    "academic_citations": [
+        {
+            "citation": "Loopstra, R., & Tarasuk, V. (2015). Food bank usage is a poor indicator of food insecurity: insights from Canada. International Journal of Food Security",
+            "doi": "https://doi.org/10.1017/s1474746415000184"
+        }
+    ],
     "awards": [
         "Tech for Good Award (2019)"
     ],

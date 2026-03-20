@@ -63,7 +63,12 @@
         "https://www.theguardian.com/technology/2023/jun/15/fairbnb-cooperative-airbnb-alternative",
         "https://www.wired.com/story/fairbnb-coop-platform-cooperative"
     ],
-    "academic_citations": [],
+    "academic_citations": [
+        {
+            "citation": "Scholz, T., & Schneider, N. (2016). Ours to Hack and to Own: The Rise of Platform Cooperativism, a New Vision for the Future of Work and a Fairer Internet",
+            "doi": "https://doi.org/10.2307/j.ctv62hfq7"
+        }
+    ],
     "awards": [
         "European Social Innovation Competition Finalist (2019)"
     ],
