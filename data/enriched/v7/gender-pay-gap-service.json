@@ -54,7 +54,16 @@
     ],
     "funding_verified": true,
     "news_articles": [],
-    "academic_citations": [],
+    "academic_citations": [
+        {
+            "citation": "Blau, F. D., & Kahn, L. M. (2017). The gender wage gap: Extent, trends, and explanations. Journal of Economic Literature, 55(3), 789-865.",
+            "doi": "https://doi.org/10.1257/jel.20160995"
+        },
+        {
+            "citation": "Acker, J. (2006). Inequality regimes: Gender, class, and race in organizations. Gender & Society, 20(4), 441-464.",
+            "doi": "https://doi.org/10.1177/0891243206289499"
+        }
+    ],
     "in_civictech_guide": false,
     "policy_outcomes": [
         "Mandatory gender pay gap reporting for employers with 250+ employees"

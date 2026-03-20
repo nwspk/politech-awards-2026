@@ -58,7 +58,12 @@
         "reliance on Government Digital Service for maintenance and support"
     ],
     "news_articles": [],
-    "academic_citations": [],
+    "academic_citations": [
+        {
+            "citation": "Dunleavy, P., et al. (2020). Digital Era Governance: IT Corporations, the State, and E-Government. Oxford University Press",
+            "doi": "https://doi.org/10.1093/acprof:oso/9780199296194.001.0001"
+        }
+    ],
     "awards": [
         "UK Government Digital Service Award for Digital Innovation"
     ],

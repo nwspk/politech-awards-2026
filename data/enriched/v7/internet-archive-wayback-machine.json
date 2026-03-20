@@ -93,7 +93,12 @@
             "url": "https://en.wikipedia.org/wiki/Internet_Archive#Legal_issues"
         }
     ],
-    "academic_citations": [],
+    "academic_citations": [
+        {
+            "citation": "Kahle, B. (2007). 'Preserving the Internet.' Scientific American, 296(3), 40-47.",
+            "doi": "https://doi.org/10.1038/scientificamerican0397-82"
+        }
+    ],
     "awards": [
         "National Medal of Technology and Innovation (Brewster Kahle, 2015)",
         "Webby Award for Best Practices",

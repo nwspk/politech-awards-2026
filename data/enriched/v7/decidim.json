@@ -70,7 +70,12 @@
         "Digital divide risk in low-income areas"
     ],
     "news_articles": [],
-    "academic_citations": [],
+    "academic_citations": [
+        {
+            "citation": "Borge Bravo et al. (2022) — Democratic disruption or continuity?, American Behavioral Scientist",
+            "doi": "https://doi.org/10.1177/00027642221092798"
+        }
+    ],
     "awards": [
         "Digital Public Goods Alliance recognition (2023)"
     ],

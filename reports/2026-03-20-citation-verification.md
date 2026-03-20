@@ -7,8 +7,8 @@
 | Total dossiers scanned | 322 |
 | Dossiers modified | 185 |
 | Dossiers clean (no changes) | 137 |
-| Total vague citations removed | 538 |
-| Citations replaced with real URLs | 0 |
+| Total vague citations removed | 528 |
+| Citations replaced with real URLs | 10 |
 | News articles nulled | 280 |
 | Academic citations nulled | 258 |
 
@@ -249,6 +249,24 @@ Note: Some entries appeared in multiple categories; total reflects deduplicated 
 - `yoti.json`: 3 citation(s) removed
 - `your-priorities.json`: 3 citation(s) removed
 - `youtube-dl.json`: 3 citation(s) removed
+
+## Batch 1 — Crossref API DOI recoveries
+
+One verifier agent successfully used the Crossref API to recover 10 verified DOIs
+for academic citations that had been listed as vague bibliographic strings:
+
+| Dossier | DOI |
+|---------|-----|
+| decidim.json | 10.1177/00027642221092798 |
+| fairbnb-coop.json | 10.2307/j.ctv62hfq7 |
+| fixmystreet.json | 10.1016/j.giq.2013.05.023 |
+| gender-pay-gap-service.json | 10.1257/jel.20160995 |
+| gender-pay-gap-service.json | 10.1177/0891243206289499 |
+| give-food.json | 10.1017/s1474746415000184 |
+| gov-uk-notify.json | 10.1093/acprof:oso/9780199296194.001.0001 |
+| humanitarian-data-exchange.json | 10.1201/b18023 |
+| idealist.json | 10.12987/9780300127232 |
+| internet-archive-wayback-machine.json | 10.1038/scientificamerican0397-82 |
 
 ## Recommendations
 
