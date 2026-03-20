@@ -1,0 +1,159 @@
+{
+  "url": "https://adhocracy.plus",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:42:22.641Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 705,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "adhocracy+ makes digital democracy easy - for everyone no matter where.",
+    "scraped_final_url": "https://adhocracy.plus/"
+  },
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "adhocracy+",
+  "tagline": "Makes digital democracy easy — for everyone, no matter where.",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "participatory_democracy",
+    "civic_data",
+    "govtech"
+  ],
+  "sdg_alignment": [
+    "SDG 11 - Sustainable Cities and Communities",
+    "SDG 16 - Peace Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "Germany",
+    "Austria",
+    "Switzerland"
+  ],
+  "communities_served": [
+    "municipal residents",
+    "civil society organisations",
+    "public administrations"
+  ],
+  "political_units": [
+    "city",
+    "state"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/liqd/adhocracy-plus",
+  "github_stars": 103,
+  "last_commit_date": "2026-02-27",
+  "format": [
+    "platform"
+  ],
+  "founded_year": 2019,
+  "team_size": "large",
+  "funding_model": [
+    "public_funding",
+    "grants"
+  ],
+  "known_funders": [
+    "Liquid Democracy e.V.",
+    "German public municipalities (service contracts)"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2025",
+  "dependency_risks": [
+    "dependent on Liquid Democracy e.V. sustainability",
+    "single-org governance"
+  ],
+  "news_articles": [
+    "Participatory budgeting initiatives in Berlin using adhocracy+ (German media coverage)"
+  ],
+  "academic_citations": [
+    {
+      "title": "Strategy Formation in an Adhocracy",
+      "year": 1985,
+      "cited_by": 1035,
+      "doi": "https://doi.org/10.2307/2393104"
+    },
+    {
+      "title": "Collaborative adhocracies and mix-and-match technologies in emergency management",
+      "year": 2007,
+      "cited_by": 169,
+      "doi": "https://doi.org/10.1145/1226736.1226764"
+    },
+    {
+      "title": "The Chaos of Humanitarian Aid: Adhocracy in the Republic of Georgia",
+      "year": 2012,
+      "cited_by": 103,
+      "doi": "https://doi.org/10.1353/hum.2012.0005"
+    }
+  ],
+  "in_civictech_guide": false,
+  "policy_outcomes": [
+    {
+      "description": "Used for citizen budget (Kiezkasse) processes in Berlin, enabling residents to submit and vote on local spending proposals.",
+      "link": "https://liqd.net/en/software/",
+      "year": null
+    }
+  ],
+  "causation_strength": "anecdotal",
+  "outcome_methodology": "Participatory budgeting outcomes tracked through voting participation rates and proposal implementation; formal impact evaluation not published",
+  "replication_materials_available": true,
+  "published_performance_metrics": "Participation metrics available through deployed instances; no centralized public performance dashboard",
+  "documented_limitations": [
+    "German-language primary focus limits international adoption",
+    "platform enables participation but outcome attribution not documented publicly"
+  ],
+  "jurisdictional_scope": "Germany primary, some cross-border deployments",
+  "failure_modes": [
+    "low citizen turnout on digital platforms",
+    "single-org dependency for continued development"
+  ],
+  "governance_model": "foundation",
+  "curation_criteria": "AGPL-3.0 open source license; contributions reviewed by Liquid Democracy e.V. development team; no formal contribution standards documented",
+  "contributor_governance": "Open source contributions welcome; AGPL-3.0 licensed; no formal contributor governance documented",
+  "disparity_tracking": "No documented equity or inclusion metrics; language barriers noted as limiting accessibility",
+  "community_ownership": "Community contributions accepted via GitHub; primary governance and decision-making remains with Liquid Democracy e.V.",
+  "government_partnerships": [
+    "City of Berlin (participatory budgeting)",
+    "German municipalities (various)"
+  ],
+  "ai_involvement": "No AI or machine learning components identified in platform architecture",
+  "pass2_at": "2026-03-09T23:21:23.072Z",
+  "propublica_match": {
+    "ein": 851282754,
+    "strein": "85-1282754",
+    "name": "Lofi Adhocracy",
+    "sub_name": "Lofi Adhocracy",
+    "city": "Santa Fe",
+    "state": "NM",
+    "ntee_code": "B90",
+    "raw_ntee_code": "B90",
+    "subseccd": 3,
+    "has_subseccd": true,
+    "have_filings": null,
+    "have_extracts": null,
+    "have_pdfs": null,
+    "score": 112.97704
+  },
+  "pass3_at": "2026-03-09T23:21:58.667Z",
+  "_sources": [
+    "openalex",
+    "propublica"
+  ],
+  "pass5_at": "2026-03-10T00:41:12.844Z",
+  "pass5_jina_words": 245,
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses barriers to meaningful citizen participation in democratic decision-making by providing tools for public engagement and deliberation.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Platform enabling direct democratic participation or civic engagement."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Could be adapted for other national contexts with localization effort.",
+  "primary_users_or_beneficiaries": [
+    "municipal residents",
+    "civil society organisations",
+    "public administrations"
+  ],
+  "underdog_signal": false
+}

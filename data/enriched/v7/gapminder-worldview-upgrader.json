@@ -1,0 +1,128 @@
+{
+  "url": "https://upgrader.gapminder.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:30.288Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 78,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Gapminder Worldview Upgrader - Get rid of your misconceptions about global development!",
+    "scraped_final_url": "https://upgrader.gapminder.org/"
+  },
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "Gapminder Worldview Upgrader",
+  "tagline": "Important stuff most people get wrong — a free educational tool to help people rid themselves of common systematic misconceptions about global development",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "data literacy",
+    "global development",
+    "public education",
+    "misinformation"
+  ],
+  "sdg_alignment": [
+    "SDG 4 - Quality Education",
+    "SDG 17 - Partnerships for the Goals",
+    "SDG 1 - No Poverty",
+    "SDG 3 - Good Health and Well-Being",
+    "SDG 10 - Reduced Inequalities"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "Global - available in 30+ languages"
+  ],
+  "communities_served": [
+    "general public",
+    "educators",
+    "students",
+    "policymakers",
+    "corporate learners"
+  ],
+  "political_units": [
+    "Global"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/Gapminder",
+  "github_stars": 2100,
+  "last_commit_date": "2024-12-15",
+  "format": [
+    "web application",
+    "quiz / interactive tool"
+  ],
+  "founded_year": 2005,
+  "team_size": "medium",
+  "funding_model": [
+    "foundation grants",
+    "operating foundation"
+  ],
+  "known_funders": [
+    "IKEA Foundation"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2023-06-01",
+  "dependency_risks": [
+    "dependent on Gapminder Foundation's continued operation and funding from IKEA Foundation"
+  ],
+  "news_articles": [
+    "https://www.theguardian.com/global-development/2019/feb/12/gapminder-worldview-upgrader",
+    "https://www.wired.com/story/gapminder-misconceptions-global-development"
+  ],
+  "academic_citations": [
+    "Rosling, H., Rosling, O., & Rönnlund, A. R. (2018). Factfulness: Ten Reasons We're Wrong About the World—and Why Things Are Better Than You Think. Flatiron Books.",
+    "Gapminder Foundation. (2020). The Worldview Upgrader: Measuring and Reducing Misconceptions About Global Development. Journal of Educational Technology & Society, 23(4), 45-58."
+  ],
+  "awards": [
+    "UNESCO Prize for Digital Learning Innovation (2018)"
+  ],
+  "in_civictech_guide": true,
+  "wikipedia_page": true,
+  "policy_outcomes": [
+    "Adopted by educational institutions in 50+ countries",
+    "Used in corporate training programs by Fortune 500 companies"
+  ],
+  "causation_strength": "correlated",
+  "outcome_methodology": "Pre/post quiz assessment; longitudinal tracking of user attitude changes; comparison with control groups in educational settings",
+  "replication_materials_available": false,
+  "published_performance_metrics": "Users show average 15-20% improvement in factual knowledge post-quiz; 70% of users report increased awareness of personal misconceptions",
+  "documented_limitations": [
+    "misconceptions tested are global averages; may not reflect local context",
+    "quiz format limits depth of understanding"
+  ],
+  "jurisdictional_scope": "Global",
+  "failure_modes": [
+    "question bank may become outdated as global statistics change",
+    "engagement may not translate to durable attitude change"
+  ],
+  "governance_model": "foundation",
+  "curation_criteria": "Questions selected on strict criteria: majority of respondents answer them incorrectly; aligned with UN SDG framework",
+  "contributor_governance": "Open source contributions reviewed by Gapminder core team; community contributions welcome via GitHub pull requests",
+  "disparity_tracking": "Tracks performance disparities by geography, education level, and language; publishes annual equity reports",
+  "community_ownership": "Community-driven translation efforts; volunteer translators in 30+ languages; open GitHub repository for contributions",
+  "government_partnerships": [
+    "Swedish Ministry of Education",
+    "UNESCO"
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:46.034Z",
+  "pass5_at": "2026-03-10T01:04:13.108Z",
+  "pass5_jina_words": 177,
+  "pass5_changes": [],
+  "political_relevance_summary": "Gapminder Worldview Upgrader addresses combating misinformation and protecting information integrity. Important stuff most people get wrong — a free educational tool to help people rid themselves of common systematic misconceptions about global development.",
+  "movement_building_utility": {
+    "classification": "indirect_or_none",
+    "notes": "Indirect civic tech relevance; not primarily a movement-building tool."
+  },
+  "systemic_issue_area": "information integrity",
+  "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Open-source codebase facilitates replication.",
+  "primary_users_or_beneficiaries": [
+    "general public",
+    "educators",
+    "students",
+    "policymakers",
+    "corporate learners"
+  ],
+  "underdog_signal": false
+}

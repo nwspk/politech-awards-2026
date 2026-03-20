@@ -1,0 +1,112 @@
+{
+  "url": "https://digitalcharitylab.org/product/digital-account-management-toolkit",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:25.575Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 849,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "A free downloadable resource from Digital Charity Lab and ODV Digital, to help you ensure that your organisation doesn’t get locked out of its social media or other digital accounts.",
+    "scraped_final_url": "https://digitalcharitylab.org/product/digital-account-management-toolkit/"
+  },
+  "collected_at": "2026-03-09T23:19:40.038Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Digital Account Management Toolkit",
+  "tagline": "Free resource to help nonprofits manage social media and digital accounts securely and prevent account lockouts",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "digital_rights",
+    "cybersecurity"
+  ],
+  "sdg_alignment": [
+    "SDG 16: Peace, Justice and Strong Institutions",
+    "SDG 17: Partnerships for the Goals"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "United Kingdom",
+    "Ireland"
+  ],
+  "communities_served": [
+    "nonprofit organizations",
+    "charities",
+    "civil society organizations"
+  ],
+  "political_units": [
+    "United Kingdom",
+    "Ireland"
+  ],
+  "open_source": "no",
+  "format": [
+    "report",
+    "database",
+    "tool"
+  ],
+  "founded_year": 2020,
+  "team_size": "small",
+  "funding_model": [
+    "donations"
+  ],
+  "known_funders": [
+    "Digital Charity Lab"
+  ],
+  "funding_verified": false,
+  "dependency_risks": "Dependent on Digital Charity Lab for ongoing maintenance and updates; limited team capacity for rapid response to security issues",
+  "academic_citations": [
+    {
+      "title": "Factors associated with COVID-19-related death using OpenSAFELY",
+      "year": 2020,
+      "cited_by": 6652,
+      "doi": "https://doi.org/10.1038/s41586-020-2521-4"
+    },
+    {
+      "title": "THE INTENSIFICATION OF INNOVATION",
+      "year": 2002,
+      "cited_by": 73,
+      "doi": "https://doi.org/10.1142/s1363919602000495"
+    },
+    {
+      "title": "Systematic review of research on artificial intelligence applications in higher education – where are the educators?",
+      "year": 2019,
+      "cited_by": 4401,
+      "doi": "https://doi.org/10.1186/s41239-019-0171-0"
+    }
+  ],
+  "in_civictech_guide": false,
+  "replication_materials_available": false,
+  "published_performance_metrics": false,
+  "documented_limitations": "Limited to UK and Ireland; resource availability dependent on nonprofit sector demand; no formal evaluation of security outcomes",
+  "jurisdictional_scope": [
+    "United Kingdom",
+    "Ireland"
+  ],
+  "failure_modes": "Account lockout prevention may fail if nonprofits do not follow toolkit recommendations; toolkit may become outdated as social media platforms change security protocols",
+  "governance_model": "project_of_larger_org",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:24.958Z",
+  "pass3_at": "2026-03-09T23:22:18.976Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:45:45.559Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": [],
+  "political_relevance_summary": "Digital Account Management Toolkit addresses digital rights and online freedoms. Free resource to help nonprofits manage social media and digital accounts securely and prevent account lockouts.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides data, research, or monitoring capabilities for civic purposes."
+  },
+  "systemic_issue_area": "digital rights infrastructure",
+  "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Proprietary or closed-source; replication requires licensing.",
+  "primary_users_or_beneficiaries": [
+    "nonprofit organizations",
+    "charities",
+    "civil society organizations"
+  ],
+  "underdog_signal": true
+}

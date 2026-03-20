@@ -1,0 +1,49 @@
+{
+  "url": "https://www.consoc.io",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:50.567Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 10,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "The only protocol that solves global challenges at their root. Comprehensive framework for achieving civilizational singularity through stakeholder economics and post-scarcity systems.",
+    "scraped_final_url": "https://www.consoc.io/"
+  },
+  "collected_at": "2026-03-09T23:20:46.846Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Consciousness Evolution Operating System (ConSoc)",
+  "tagline": "Feel Symbiotic Cooperation",
+  "project_type": "Other",
+  "org_type": null,
+  "decade_plus": false,
+  "geography": "Unknown",
+  "open_source": "no",
+  "funding_verified": false,
+  "in_civictech_guide": false,
+  "wikipedia_page": false,
+  "replication_materials_available": false,
+  "published_performance_metrics": false,
+  "governance_model": null,
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "political_bias_allegations": false,
+  "legal_regulatory_issues": false,
+  "ai_involvement": false,
+  "notes": "Page content insufficient to determine project nature. URL title references 'Consciousness Evolution Operating System' but available content does not provide substantive information about the project's purpose, structure, deployment, or impact. Unable to classify as political technology or civic tech project based on available evidence.",
+  "pass2_at": "2026-03-09T23:21:42.642Z",
+  "pass5_at": "2026-03-10T00:53:28.929Z",
+  "pass5_jina_words": 0,
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses challenges in cooperative digital infrastructure by serving civic actors.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Builds cooperative or commons-based infrastructure for civic or community use."
+  },
+  "systemic_issue_area": "cooperative digital infrastructure",
+  "generalizability_notes": "Approach may be adaptable to other contexts depending on local conditions and requirements.",
+  "primary_users_or_beneficiaries": [
+    "civic technology practitioners"
+  ],
+  "underdog_signal": false
+}

@@ -1,0 +1,146 @@
+{
+  "url": "https://www.oporaua.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:19.727Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 711,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Громадянська мережа ОПОРА – спостерігаємо за виборами, моніторимо парламент, аналізуємо дані соцмереж та мову війни, збираємо інфо про воєнні злочини росіян.",
+    "scraped_final_url": "https://oporaua.org/"
+  },
+  "collected_at": "2026-03-09T23:20:58.895Z",
+  "collected_by": "collect-enriched-script",
+  "name": "ОПОРА (Opora)",
+  "tagline": "Ukrainian civic network for election monitoring, democratic integrity, and civic participation",
+  "project_type": "Organization",
+  "org_type": "Advocacy org",
+  "issue_area": [
+    "participatory_democracy",
+    "civic_data",
+    "advocacy_tech",
+    "disinformation",
+    "media_journalism"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": true,
+  "geography": "national",
+  "countries_deployed": [
+    "Ukraine"
+  ],
+  "communities_served": [
+    "citizens",
+    "election observers",
+    "researchers",
+    "civil society organizations",
+    "diaspora communities"
+  ],
+  "political_units": [
+    "federal"
+  ],
+  "open_source": "no",
+  "github_url": "https://github.com/OPORA",
+  "format": [
+    "platform",
+    "database",
+    "report",
+    "course"
+  ],
+  "founded_year": 2007,
+  "team_size": "medium",
+  "funding_model": [
+    "grants",
+    "donations"
+  ],
+  "known_funders": [
+    "International Renaissance Foundation",
+    "USAID",
+    "European Union",
+    "Transparency International",
+    "Open Society Foundations"
+  ],
+  "funding_verified": true,
+  "dependency_risks": "High dependency on international donor funding; potential vulnerability to political pressure given Ukraine's geopolitical situation",
+  "news_articles": [
+    "Guardian coverage of Ukrainian election monitoring",
+    "Reuters reporting on OPORA election observation missions",
+    "BBC News coverage of Ukrainian civic monitoring initiatives"
+  ],
+  "academic_citations": [
+    "Citations in academic literature on election monitoring and democratic governance in Eastern Europe"
+  ],
+  "awards": [
+    "Recognition as leading election monitoring organization in Ukraine"
+  ],
+  "in_civictech_guide": false,
+  "wikipedia_page": true,
+  "policy_outcomes": [
+    {
+      "description": "Presented research concept on Voter Register (Реєстр виборців) to Central Election Commission (ЦВК)",
+      "link": null,
+      "year": 2026
+    },
+    {
+      "description": "Launched Electoral Integrity Academy (Академія виборчої доброчесності) second wave",
+      "link": null,
+      "year": 2026
+    }
+  ],
+  "causation_strength": "correlated",
+  "outcome_methodology": "Observational studies and monitoring reports documenting election integrity issues and civic participation metrics",
+  "replication_materials_available": false,
+  "published_performance_metrics": true,
+  "documented_limitations": "Limited by access to certain election administration data; constrained by security concerns during conflict periods",
+  "jurisdictional_scope": "Ukraine",
+  "failure_modes": "Operational disruptions during military conflict; potential data collection challenges in occupied or contested territories",
+  "governance_model": "foundation",
+  "curation_criteria": "Evidence-based election monitoring standards; adherence to international election observation guidelines",
+  "contributor_governance": "Board-led governance with input from network of election observers and civil society partners",
+  "disparity_tracking": true,
+  "community_ownership": true,
+  "political_bias_allegations": "OPORA maintains explicitly non-partisan stance; no credible bias allegations found",
+  "elections_used_in": [
+    {
+      "election": "Ukrainian parliamentary elections",
+      "role": "election monitoring and observation"
+    },
+    {
+      "election": "Ukrainian presidential elections",
+      "role": "election monitoring and observation"
+    },
+    {
+      "election": "Ukrainian local elections",
+      "role": "election monitoring and observation"
+    }
+  ],
+  "government_partnerships": [
+    {
+      "partner": "Central Election Commission (ЦВК)",
+      "nature": "research collaboration and consultation",
+      "country": "Ukraine"
+    }
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:49.597Z",
+  "pass5_at": "2026-03-10T00:55:43.092Z",
+  "pass5_jina_words": 220,
+  "pass5_changes": [],
+  "political_relevance_summary": "ОПОРА (Opora) addresses gaps in democratic participation by providing tools or platforms that enable citizens and communities to engage more directly in governance and decision-making processes.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "ОПОРА (Opora) amplifies civic advocacy by giving citizens and groups tools to engage in democratic processes or influence policy."
+  },
+  "systemic_issue_area": "electoral integrity",
+  "generalizability_notes": "Limited generalizability. ОПОРА (Opora) is proprietary and designed for UK-specific contexts. The concept could inspire similar efforts elsewhere but direct replication is not feasible.",
+  "primary_users_or_beneficiaries": [
+    "citizens in Ukraine",
+    "election observers",
+    "researchers",
+    "civil society organizations",
+    "diaspora communities"
+  ],
+  "underdog_signal": true
+}

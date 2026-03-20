@@ -1,0 +1,131 @@
+{
+  "url": "https://societyforhopefultechnologists.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:16.917Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 542,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "For everyone who wants technologies to work for people and planet.",
+    "scraped_final_url": "https://societyforhopefultechnologists.org/"
+  },
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "Society for Hopeful Technologists",
+  "tagline": "For everyone who wants technologies to work for people and planet.",
+  "project_type": "Network",
+  "org_type": "informal network (membership launch planned 2026)",
+  "issue_area": [
+    "ethical technology",
+    "tech worker advocacy",
+    "digital rights",
+    "environmental sustainability",
+    "social justice in tech"
+  ],
+  "sdg_alignment": [
+    "SDG 9: Industry, Innovation and Infrastructure",
+    "SDG 10: Reduced Inequalities",
+    "SDG 13: Climate Action"
+  ],
+  "decade_plus": false,
+  "geography": "United Kingdom (primary); global aspiration",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "tech workers",
+    "progressive technologists",
+    "civic technologists",
+    "ethically-minded developers"
+  ],
+  "political_units": [
+    "United Kingdom"
+  ],
+  "open_source": "no",
+  "format": [
+    "online community",
+    "newsletter",
+    "Signal group",
+    "in-person events"
+  ],
+  "founded_year": 2025,
+  "team_size": "small",
+  "funding_model": [
+    "volunteer-run",
+    "membership (forthcoming)"
+  ],
+  "funding_verified": false,
+  "dependency_risks": [
+    "entirely volunteer-run",
+    "membership model not yet launched",
+    "dependent on founder Rachel Coldicutt's network"
+  ],
+  "news_articles": [
+    {
+      "headline": "A Union for Hopeful Technologists",
+      "outlet": "Just Enough Internet (Rachel Coldicutt newsletter, Buttondown)",
+      "date": "2025-02-27",
+      "url": "https://buttondown.com/justenoughinternet/archive/a-union-for-hopeful-technologists/"
+    }
+  ],
+  "academic_citations": [
+    {
+      "title": "Recommendations for Comprehensive Stroke Centers",
+      "year": 2005,
+      "cited_by": 580,
+      "doi": "https://doi.org/10.1161/01.str.0000170622.07210.b4"
+    },
+    {
+      "title": "The Role of Nutrition Education in Combating Food Fads",
+      "year": 1961,
+      "cited_by": 2,
+      "doi": "https://doi.org/10.1001/jama.1961.03040190079044"
+    },
+    {
+      "title": "Monitoring vascular surgical performance",
+      "year": 1991,
+      "cited_by": 3,
+      "doi": "https://doi.org/10.1016/0741-5214(91)90315-l"
+    }
+  ],
+  "in_civictech_guide": false,
+  "wikipedia_page": false,
+  "replication_materials_available": false,
+  "published_performance_metrics": "2025 survey of 522 UK tech workers: 98% don't feel represented by leading industry voices; only 15% comfortable raising concerns",
+  "documented_limitations": [
+    "UK-centric so far",
+    "no formal governance structure yet",
+    "membership not yet launched"
+  ],
+  "jurisdictional_scope": "United Kingdom (primary)",
+  "failure_modes": [
+    "volunteer burnout",
+    "failure to formalise governance",
+    "loss of momentum without formal membership structure"
+  ],
+  "governance_model": "volunteer organising committee; charter-based; independent of party politics and commercial interests",
+  "curation_criteria": "community-shaped vision; charter-based principles focused on ethical technology and worker representation",
+  "contributor_governance": "open Signal group for organisers; newsletter-based community",
+  "disparity_tracking": false,
+  "community_ownership": "community-shaped; over 100 Hopeful Technologists contributed to the vision",
+  "pass2_at": "2026-03-09T23:21:41.483Z",
+  "pass3_at": "2026-03-09T23:23:10.485Z",
+  "_sources": [
+    "openalex"
+  ],
+  "political_relevance_summary": "Society for Hopeful Technologists addresses civic technology. For everyone who wants technologies to work for people and planet.",
+  "movement_building_utility": {
+    "classification": "indirect_or_none",
+    "notes": "Indirect or tangential connection to political movement building."
+  },
+  "systemic_issue_area": "civic technology infrastructure",
+  "generalizability_notes": "Currently focused on United Kingdom.",
+  "primary_users_or_beneficiaries": [
+    "tech workers",
+    "progressive technologists",
+    "civic technologists",
+    "ethically-minded developers"
+  ],
+  "underdog_signal": true
+}

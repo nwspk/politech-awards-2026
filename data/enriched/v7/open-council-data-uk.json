@@ -1,0 +1,112 @@
+{
+  "url": "https://opencouncildata.co.uk",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:27.560Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 217,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "Names, parties and wards of all UK councillors, up-to-date, free to access. Stakeholder communication and campaign datasets with councillor emails and roles / portfolios. Details of by-elections and local elections. All English, Welsh, Scottish and Northern Irish councils, including the Corporation of the City of London and the Council of the Isles of Scilly.",
+    "scraped_final_url": "https://opencouncildata.co.uk/"
+  },
+  "collected_at": "2026-03-09T23:20:19.276Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Open Council Data UK",
+  "tagline": "Councillor data resources for psephologists, campaigners and charities",
+  "project_type": "Database",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "civic_data",
+    "participatory_democracy",
+    "govtech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "psephologists",
+    "campaigners",
+    "charities",
+    "researchers",
+    "journalists"
+  ],
+  "political_units": [
+    "state",
+    "federal"
+  ],
+  "open_source": "no",
+  "format": [
+    "database",
+    "api",
+    "report"
+  ],
+  "founded_year": 2015,
+  "team_size": "small",
+  "funding_model": [
+    "subscriptions",
+    "hybrid"
+  ],
+  "funding_verified": false,
+  "academic_citations": [
+    {
+      "title": "RCUK Policy on Open Access: Compliance data report to Research Councils UK for the period 1 April 2013 to 31 July 2014 from the University of St Andrews",
+      "year": 2014,
+      "cited_by": 19,
+      "doi": null
+    },
+    {
+      "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+      "year": 2020,
+      "cited_by": 35475,
+      "doi": "https://doi.org/10.1038/s41592-019-0686-2"
+    },
+    {
+      "title": "Preferred reporting items for systematic review and meta-analysis protocols (PRISMA-P) 2015 statement",
+      "year": 2015,
+      "cited_by": 25776,
+      "doi": "https://doi.org/10.1186/2046-4053-4-1"
+    }
+  ],
+  "in_civictech_guide": false,
+  "replication_materials_available": false,
+  "published_performance_metrics": false,
+  "jurisdictional_scope": "United Kingdom (England, Scotland, Wales, Northern Ireland)",
+  "governance_model": "LLC",
+  "curation_criteria": "Councillor biographical data, contact information, and electoral history from UK local authorities",
+  "contributor_governance": "Proprietary data curation by core team",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:35.137Z",
+  "pass3_at": "2026-03-09T23:22:51.216Z",
+  "_sources": [
+    "openalex"
+  ],
+  "policy_outcomes": "Tracks GB councillor compositions across 18,645 councillors across 369 councils (as of 08-03-2026) and 462 Northern Ireland councillors. Provides historical composition data from 1973-2025 for GB and 2014-2025 for Northern Ireland. Maintains by-election archive (2021-25) and tracks party distribution across multiple governance models.",
+  "pass5_at": "2026-03-10T01:00:23.356Z",
+  "pass5_jina_words": 421,
+  "pass5_changes": [
+    "policy_outcomes"
+  ],
+  "political_relevance_summary": "Open Council Data UK addresses gaps in democratic participation by providing tools or platforms that enable citizens and communities to engage more directly in governance and decision-making processes.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Open Council Data UK provides foundational data infrastructure, standards, or platforms that other civic technology efforts build upon."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Limited generalizability. Open Council Data UK is proprietary and designed for UK-specific contexts. The concept could inspire similar efforts elsewhere but direct replication is not feasible.",
+  "primary_users_or_beneficiaries": [
+    "psephologists",
+    "campaigners",
+    "charities",
+    "researchers",
+    "journalists"
+  ],
+  "underdog_signal": true
+}

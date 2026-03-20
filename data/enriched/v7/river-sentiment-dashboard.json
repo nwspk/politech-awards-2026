@@ -1,0 +1,132 @@
+{
+  "url": "https://riversentiment.app",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:11.044Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 580,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "People talk about rivers online: from complaints about pollution to celebrations of wildlife, rivers provoke passionate social media comments. When people express their feelings about rivers on Twitter, we get a glimpse of how nature affects human wellbeing. The River Sentiment Dashboard displays social media sentiment alongside data about the ecological status of more than 450 rivers in the Thames basin in England. This prototype has been developed by Oxford University and Thames21.",
+    "scraped_final_url": "https://riversentiment.app/"
+  },
+  "collected_at": "2026-03-09T23:20:38.914Z",
+  "collected_by": "collect-enriched-script",
+  "name": "River Sentiment Dashboard",
+  "tagline": "Displays social media sentiment about rivers alongside ecological status data for 450+ rivers in the Thames basin",
+  "project_type": "Tool/Platform",
+  "org_type": "Academic/research",
+  "issue_area": [
+    "civic_data",
+    "advocacy_tech"
+  ],
+  "sdg_alignment": [
+    "SDG 6 – Clean Water and Sanitation",
+    "SDG 14 – Life Below Water",
+    "SDG 15 – Life on Land"
+  ],
+  "decade_plus": false,
+  "geography": "regional",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "researchers",
+    "citizens",
+    "environmental advocates",
+    "policymakers"
+  ],
+  "political_units": [
+    "state"
+  ],
+  "open_source": "partial",
+  "github_url": "https://github.com",
+  "format": [
+    "platform",
+    "database",
+    "api"
+  ],
+  "team_size": "small",
+  "funding_model": [
+    "public_funding"
+  ],
+  "known_funders": [
+    "Oxford University",
+    "Thames21"
+  ],
+  "funding_verified": false,
+  "dependency_risks": [
+    "Reliance on Twitter/X API for data collection",
+    "Dependence on Environment Agency data availability",
+    "NRC Word-Emotion Association Lexicon licensing"
+  ],
+  "academic_citations": [
+    {
+      "title": "Toward Scalable Systems for Big Data Analytics: A Technology Tutorial",
+      "year": 2014,
+      "cited_by": 1087,
+      "doi": "https://doi.org/10.1109/access.2014.2332453"
+    },
+    {
+      "title": "Use of Data Visualisation for Zero-Day Malware Detection",
+      "year": 2018,
+      "cited_by": 131,
+      "doi": "https://doi.org/10.1155/2018/1728303"
+    },
+    {
+      "title": "An Artificial Intelligence and NLP based Islamic FinTech Model Combining Zakat and Qardh-Al-Hasan for Countering the Adverse Impact of COVID 19 on SMEs and Individuals",
+      "year": 2020,
+      "cited_by": 150,
+      "doi": "https://doi.org/10.35808/ijeba/466"
+    }
+  ],
+  "in_civictech_guide": false,
+  "replication_materials_available": false,
+  "published_performance_metrics": false,
+  "documented_limitations": [
+    "Limited to English-language tweets",
+    "Requires full river name mention for accurate detection",
+    "Sentiment analysis accuracy dependent on NLP model performance",
+    "Geographic scope limited to Thames basin"
+  ],
+  "jurisdictional_scope": "Thames basin, England",
+  "failure_modes": [
+    "Tweets without full river names may be missed",
+    "Sarcasm and context-dependent sentiment may be misclassified",
+    "Social media sentiment may not represent broader public opinion"
+  ],
+  "governance_model": "project_of_larger_org",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "political_bias_allegations": false,
+  "government_partnerships": [
+    {
+      "partner": "Environment Agency",
+      "nature": "Data provider (ecological status, RNAG data)",
+      "country": "United Kingdom"
+    }
+  ],
+  "ai_involvement": "Natural language processing for sentiment analysis and emotion detection using NRC Word-Emotion Association Lexicon",
+  "pass2_at": "2026-03-09T23:21:40.076Z",
+  "pass3_at": "2026-03-09T23:23:06.686Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:51:26.869Z",
+  "pass5_jina_words": 577,
+  "pass5_changes": [],
+  "political_relevance_summary": "River Sentiment Dashboard addresses civic data access and transparency. Displays social media sentiment about rivers alongside ecological status data for 450+ rivers in the Thames basin.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Amplifies advocacy efforts and helps citizens influence decision-makers."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Open-source codebase facilitates replication; currently focused on United Kingdom; would require local data and regulatory adaptation.",
+  "primary_users_or_beneficiaries": [
+    "civic technology researchers",
+    "engaged citizens",
+    "environmental advocates",
+    "policymakers"
+  ],
+  "underdog_signal": false
+}

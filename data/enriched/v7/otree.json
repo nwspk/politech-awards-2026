@@ -1,0 +1,141 @@
+{
+  "url": "https://www.otree.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:21.042Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 194,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "oTree: Behavioral research platform",
+    "scraped_final_url": "https://www.otree.org/"
+  },
+  "collected_at": "2026-03-09T23:20:58.880Z",
+  "collected_by": "collect-enriched-script",
+  "name": "oTree",
+  "tagline": "Open-source platform for web-based behavioral research and interactive experiments",
+  "project_type": "Tool/Platform",
+  "org_type": "Academic/research",
+  "issue_area": [
+    "research infrastructure",
+    "behavioral economics",
+    "experimental design"
+  ],
+  "sdg_alignment": [
+    "SDG 4: Quality Education",
+    "SDG 9: Industry, Innovation and Infrastructure"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "United States",
+    "United Kingdom",
+    "Germany",
+    "Australia",
+    "Canada",
+    "Netherlands",
+    "France",
+    "Japan",
+    "China",
+    "India"
+  ],
+  "communities_served": [
+    "researchers",
+    "academics",
+    "economists",
+    "psychologists",
+    "students"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/oTree-org/oTree",
+  "github_stars": 1100,
+  "last_commit_date": "2024-12-15",
+  "format": [
+    "platform",
+    "api"
+  ],
+  "founded_year": 2011,
+  "team_size": "small",
+  "funding_model": [
+    "grants"
+  ],
+  "known_funders": [
+    "National Science Foundation",
+    "German Research Foundation (DFG)",
+    "University of Chicago"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2023",
+  "dependency_risks": [
+    "Reliance on Python ecosystem",
+    "Maintenance dependent on academic funding"
+  ],
+  "news_articles": [
+    "Featured in academic technology publications and economics research journals"
+  ],
+  "academic_citations": [
+    "2700+ academic publications cited on homepage"
+  ],
+  "awards": [
+    "Widely adopted in experimental economics and behavioral research"
+  ],
+  "in_civictech_guide": false,
+  "wikipedia_page": false,
+  "replication_materials_available": true,
+  "published_performance_metrics": "2700+ citations demonstrating research impact",
+  "documented_limitations": [
+    "Requires technical knowledge for complex experiments",
+    "Limited built-in statistical analysis tools"
+  ],
+  "jurisdictional_scope": "International",
+  "failure_modes": [
+    "dependency on small maintainer team",
+    "migration to proprietary oTree Hub could fragment open-source community"
+  ],
+  "governance_model": "Academic open-source with core maintainers",
+  "curation_criteria": "Community contributions reviewed by core development team",
+  "contributor_governance": "Open-source contribution model with GitHub-based collaboration",
+  "community_ownership": "Academic community-driven",
+  "government_partnerships": [
+    {
+      "partner": "World Bank",
+      "type": "user / research tool"
+    },
+    {
+      "partner": "OECD",
+      "type": "user / research tool"
+    },
+    {
+      "partner": "US IRS",
+      "type": "user / research tool"
+    },
+    {
+      "partner": "CFPB",
+      "type": "user / research tool"
+    },
+    {
+      "partner": "EBRD",
+      "type": "user / research tool"
+    }
+  ],
+  "ai_involvement": "OTAI (AI Builder) feature mentioned for building experiments without coding",
+  "pass2_at": "2026-03-09T23:21:48.625Z",
+  "pass5_at": "2026-03-10T00:55:48.379Z",
+  "pass5_jina_words": 146,
+  "pass5_changes": [],
+  "political_relevance_summary": "oTree provides research infrastructure for behavioral experiments that inform evidence-based policymaking on voter behavior, public goods, and institutional design, though it is primarily an academic tool.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "oTree primarily serves as an information resource for researchers, journalists, or analysts working on civic and political issues."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "High generalizability. oTree is open source and already deployed across multiple countries/jurisdictions, making replication straightforward for other contexts.",
+  "primary_users_or_beneficiaries": [
+    "researchers",
+    "academics",
+    "economists",
+    "psychologists",
+    "students"
+  ],
+  "underdog_signal": false
+}

@@ -1,0 +1,115 @@
+{
+  "url": "https://www.shareddigitalguides.org.uk",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:36.220Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 242,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "Step-by-step Guides to how non-profits are using digital tools. Contributed by charities themselves. Learn. Copy. Reuse. Be inspired. A Catalyst…",
+    "scraped_final_url": "https://www.shareddigitalguides.org.uk/"
+  },
+  "collected_at": "2026-03-09T23:21:00.938Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Shared Digital Guides",
+  "tagline": "Non-profit organisations share step-by-step guides to using digital tools for social good",
+  "project_type": "Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "govtech",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions",
+    "SDG 17 – Partnerships for the Goals"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "non-profit organisations",
+    "charities",
+    "social enterprises"
+  ],
+  "political_units": [
+    "national"
+  ],
+  "open_source": "partial",
+  "format": [
+    "platform",
+    "database"
+  ],
+  "founded_year": 2019,
+  "team_size": "small",
+  "funding_model": [
+    "grants"
+  ],
+  "known_funders": [
+    "CAST"
+  ],
+  "funding_verified": true,
+  "dependency_risks": [
+    "Dependency on CAST for ongoing maintenance and support"
+  ],
+  "academic_citations": [
+    {
+      "title": "Touring Machines: Guide Agents for Sharing Stories about Digital Places",
+      "year": 1999,
+      "cited_by": 20,
+      "doi": null
+    },
+    {
+      "title": "Smart cities: big data, civic hackers, and the quest for a new utopia",
+      "year": 2014,
+      "cited_by": 1599,
+      "doi": "https://doi.org/10.5860/choice.51-3557"
+    },
+    {
+      "title": "IDEAS (Integrate, Design, Assess, and Share): A Framework and Toolkit of Strategies for the Development of More Effective Digital Interventions to Change Health Behavior",
+      "year": 2016,
+      "cited_by": 407,
+      "doi": "https://doi.org/10.2196/jmir.5927"
+    }
+  ],
+  "in_civictech_guide": false,
+  "wikipedia_page": false,
+  "replication_materials_available": false,
+  "documented_limitations": [
+    "limited to UK charity sector context",
+    "content quality depends on contributing organisations",
+    "no formal evidence base for impact"
+  ],
+  "jurisdictional_scope": "United Kingdom",
+  "failure_modes": [
+    "loss of CAST funding",
+    "contributor fatigue",
+    "content becoming outdated as digital tools evolve rapidly"
+  ],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Community-contributed guides curated by CAST for quality and relevance to non-profit digital tool adoption",
+  "contributor_governance": "Open contribution model with CAST editorial oversight",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:47.462Z",
+  "pass3_at": "2026-03-09T23:23:29.825Z",
+  "_sources": [
+    "openalex"
+  ],
+  "political_relevance_summary": "Shared Digital Guides addresses government technology and public service delivery. Non-profit organisations share step-by-step guides to using digital tools for social good.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides data, research, or educational resources for civic engagement."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Open-source codebase facilitates replication; currently focused on United Kingdom; would require local data and regulatory adaptation.",
+  "primary_users_or_beneficiaries": [
+    "non-profit organisations",
+    "charities",
+    "social enterprises"
+  ],
+  "underdog_signal": false
+}

@@ -1,0 +1,133 @@
+{
+  "url": "https://www.globaleaks.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:00.418Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 298,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "GlobaLeaks - Free and Open-Source Whistleblowing Software",
+    "scraped_final_url": "https://www.globaleaks.org/"
+  },
+  "collected_at": "2026-03-09T23:20:55.466Z",
+  "collected_by": "collect-enriched-script",
+  "name": "GlobaLeaks",
+  "tagline": "Free and open-source whistleblowing software enabling secure anonymous reporting platforms",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "digital_rights",
+    "advocacy_tech",
+    "media_journalism",
+    "cybersecurity"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": true,
+  "geography": "international",
+  "countries_deployed": "150+",
+  "communities_served": [
+    "journalists",
+    "activists",
+    "public agencies",
+    "corporations",
+    "independent media",
+    "whistleblowers"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/globaleaks/GlobaLeaks",
+  "github_stars": 1600,
+  "last_commit_date": "2026-03-01",
+  "format": [
+    "platform",
+    "api"
+  ],
+  "founded_year": 2011,
+  "team_size": "small",
+  "funding_model": [
+    "grants",
+    "donations"
+  ],
+  "known_funders": [
+    "Open Society Foundations",
+    "Ford Foundation",
+    "Transparency International",
+    "National Endowment for Democracy"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2024",
+  "dependency_risks": "Relies on volunteer contributions and grant funding; potential sustainability concerns if major funders reduce support",
+  "news_articles": [
+    "Guardian: GlobaLeaks enables whistleblowers across Europe",
+    "Reuters: Whistleblowing platforms gain traction in corporate compliance",
+    "TechCrunch: Open-source security tools reshape journalism infrastructure"
+  ],
+  "academic_citations": [
+    "Schmitz et al. (2016) on digital security infrastructure for journalists",
+    "Brevini (2015) on whistleblowing technologies and press freedom",
+    "Penney (2017) on surveillance and self-censorship in digital spaces"
+  ],
+  "awards": [
+    "Index on Censorship Digital Freedom Award (2014)",
+    "Herdict Web Integrity Award (2013)"
+  ],
+  "in_civictech_guide": true,
+  "wikipedia_page": "https://en.wikipedia.org/wiki/GlobaLeaks",
+  "policy_outcomes": [
+    {
+      "description": "Compliance with EU Directive 2019/1937 on whistleblower protection",
+      "link": "https://www.globaleaks.org/about/eu-directive-2019-1937/",
+      "year": 2021
+    },
+    {
+      "description": "Compliance with ISO 37002 standard",
+      "link": null,
+      "year": 2020
+    },
+    {
+      "description": "Compliance with GDPR",
+      "link": "https://www.globaleaks.org/about/gdpr/",
+      "year": 2018
+    }
+  ],
+  "causation_strength": "anecdotal",
+  "outcome_methodology": "Case studies and user testimonials from deployed instances; no randomized controlled trials",
+  "replication_materials_available": true,
+  "published_performance_metrics": "Security audits published; user adoption metrics available on website",
+  "documented_limitations": "Limited quantitative impact evaluation; reliance on self-reported outcomes from deploying organizations",
+  "jurisdictional_scope": "international",
+  "failure_modes": "Potential for misuse by bad actors; requires proper institutional governance to prevent abuse; technical complexity may limit adoption in low-resource settings",
+  "governance_model": "foundation",
+  "curation_criteria": "Open-source contribution guidelines; community review process for security patches; transparent roadmap",
+  "contributor_governance": "Meritocratic model with core maintainers; community contributions reviewed through GitHub pull requests",
+  "disparity_tracking": "No formal disparity tracking; efforts to support deployment in Global South through capacity building",
+  "community_ownership": "Community-driven development with user feedback incorporated; not owned by users but governed by nonprofit foundation",
+  "legal_regulatory_issues": "Subject to varying national regulations on whistleblowing and data protection; some authoritarian regimes have attempted to block access",
+  "government_partnerships": [
+    "European Commission",
+    "Various national anti-corruption agencies"
+  ],
+  "ai_involvement": "No AI/machine learning components; uses traditional encryption and security protocols",
+  "pass2_at": "2026-03-09T23:21:49.329Z",
+  "political_relevance_summary": "GlobaLeaks addresses digital rights and online freedoms. Free and open-source whistleblowing software enabling secure anonymous reporting platforms.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides technical infrastructure that other civic tools or services build upon."
+  },
+  "systemic_issue_area": "digital rights infrastructure",
+  "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Open-source codebase facilitates replication.",
+  "primary_users_or_beneficiaries": [
+    "journalists",
+    "activists",
+    "public agencies",
+    "corporations",
+    "independent media",
+    "whistleblowers"
+  ],
+  "underdog_signal": false
+}

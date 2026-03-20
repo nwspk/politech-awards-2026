@@ -1,0 +1,118 @@
+{
+  "url": "https://en.wikipedia.org/wiki/wikipedia:in_the_news",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:32.906Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 3951,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "This is an accepted version of this page",
+    "scraped_final_url": "https://en.wikipedia.org/wiki/Wikipedia:In_the_news"
+  },
+  "collected_at": "2026-03-09T23:21:12.530Z",
+  "collected_by": "collect-enriched-script",
+  "name": "In the news",
+  "tagline": "Section of the Main Page directing readers to articles substantially updated to reflect recent or current events of wide interest",
+  "project_type": "Tool/Platform",
+  "org_type": "volunteer-driven wiki project",
+  "issue_area": [
+    "information access",
+    "news aggregation",
+    "encyclopedic knowledge"
+  ],
+  "sdg_alignment": [
+    "SDG 4 - Quality Education",
+    "SDG 16 - Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "Global - all countries with Wikipedia access"
+  ],
+  "communities_served": [
+    "Wikipedia readers",
+    "General public"
+  ],
+  "political_units": [
+    "Global"
+  ],
+  "open_source": "yes",
+  "format": [
+    "web portal",
+    "content curation"
+  ],
+  "founded_year": 2001,
+  "funding_model": [
+    "volunteer-driven"
+  ],
+  "known_funders": [
+    "Wikimedia Foundation"
+  ],
+  "funding_verified": true,
+  "dependency_risks": [
+    "Dependent on Wikimedia Foundation infrastructure",
+    "Reliant on volunteer editor participation",
+    "Subject to Wikipedia's content policies and consensus requirements"
+  ],
+  "academic_citations": [
+    {
+      "title": "The spread of true and false news online",
+      "year": 2018,
+      "cited_by": 7950,
+      "doi": "https://doi.org/10.1126/science.aap9559"
+    },
+    {
+      "title": "Social Media and Fake News in the 2016 Election",
+      "year": 2017,
+      "cited_by": 6377,
+      "doi": "https://doi.org/10.1257/jep.31.2.211"
+    },
+    {
+      "title": "Good News and Bad News: Representation Theorems and Applications",
+      "year": 1981,
+      "cited_by": 3306,
+      "doi": "https://doi.org/10.2307/3003562"
+    }
+  ],
+  "in_civictech_guide": false,
+  "wikipedia_page": "https://en.wikipedia.org/wiki/wikipedia:in_the_news",
+  "documented_limitations": [
+    "Not an online newspaper",
+    "Does not accept original journalism or first-hand reports",
+    "Relies on reliable secondary sources"
+  ],
+  "jurisdictional_scope": "Global",
+  "failure_modes": [
+    "Potential for editorial conflicts over event significance",
+    "Lag time between events and article updates",
+    "Bias toward events in well-covered regions"
+  ],
+  "governance_model": "consensus-based editorial process",
+  "curation_criteria": [
+    "Article quality and updates reflecting recent events",
+    "Wide interest and significance",
+    "Consensus on ITN candidates page"
+  ],
+  "contributor_governance": "volunteer editors and administrators",
+  "community_ownership": true,
+  "pass2_at": "2026-03-09T23:21:25.402Z",
+  "pass3_at": "2026-03-09T23:22:22.193Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:46:12.982Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": [],
+  "political_relevance_summary": "In the news provides technology infrastructure relevant to civic and political processes, focused on Section of the Main Page directing readers to articles substantially updated to reflect recent or current events of wide interest.",
+  "movement_building_utility": {
+    "classification": "indirect_or_none",
+    "notes": "Primarily serves Wikipedia readers, General public; limited direct movement-building utility."
+  },
+  "systemic_issue_area": "housing justice",
+  "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "Wikipedia readers"
+  ],
+  "underdog_signal": true
+}

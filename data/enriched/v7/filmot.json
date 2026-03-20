@@ -1,0 +1,108 @@
+{
+  "url": "https://filmot.com",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:46.076Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 102,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": null,
+    "scraped_final_url": "https://filmot.com/"
+  },
+  "collected_at": "2026-03-09T23:21:11.466Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Filmot",
+  "tagline": "Search in Youtube captions and subtitles",
+  "project_type": "Platform",
+  "org_type": "Grassroots/indie",
+  "issue_area": [
+    "information_access",
+    "media_transparency"
+  ],
+  "sdg_alignment": [
+    "SDG 16 - Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "global"
+  ],
+  "communities_served": [
+    "researchers",
+    "journalists",
+    "general_public"
+  ],
+  "open_source": "no",
+  "format": [
+    "web_application"
+  ],
+  "founded_year": 2013,
+  "team_size": "solo",
+  "funding_model": [
+    "patronage"
+  ],
+  "funding_verified": false,
+  "dependency_risks": [
+    "reliance_on_youtube_api",
+    "youtube_policy_changes"
+  ],
+  "academic_citations": [
+    {
+      "title": "On Love as Comedy",
+      "year": 2003,
+      "cited_by": 3,
+      "doi": "https://doi.org/10.51151/identities.v2i1.88"
+    },
+    {
+      "title": "Robust QLM-SCFTK matrix approach applied to a biological population model of fractional order considering the carrying capacity",
+      "year": 2023,
+      "cited_by": 5,
+      "doi": "https://doi.org/10.3934/dcdss.2023101"
+    },
+    {
+      "title": "The City of Solidarity's Diverse Legacies: A Framework for Interpreting the Local Memory of the 1963 Skopje Earthquake and the Post-earthquake Urban Reconstruction",
+      "year": 2021,
+      "cited_by": 3,
+      "doi": "https://doi.org/10.2478/jnmlp-2021-0007"
+    }
+  ],
+  "in_civictech_guide": false,
+  "replication_materials_available": false,
+  "documented_limitations": [
+    "dependent_on_youtube_api_availability",
+    "limited_to_youtube_content",
+    "caption_availability_varies"
+  ],
+  "jurisdictional_scope": "global",
+  "failure_modes": [
+    "youtube_api_changes",
+    "service_discontinuation_risk"
+  ],
+  "governance_model": "individual",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "political_bias_allegations": false,
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:25.528Z",
+  "pass3_at": "2026-03-09T23:22:24.342Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:46:15.166Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": [],
+  "political_relevance_summary": "Filmot addresses civic technology. Search in Youtube captions and subtitles.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides data, research, or monitoring capabilities for civic purposes."
+  },
+  "systemic_issue_area": "civic technology infrastructure",
+  "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Proprietary or closed-source; replication requires licensing.",
+  "primary_users_or_beneficiaries": [
+    "researchers",
+    "journalists",
+    "general_public"
+  ],
+  "underdog_signal": true
+}

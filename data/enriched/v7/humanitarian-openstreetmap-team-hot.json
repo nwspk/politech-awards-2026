@@ -1,0 +1,180 @@
+{
+  "url": "https://www.hotosm.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:05.138Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 2115,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "OpenStreetMap users in HOT&#x27;s priority regions",
+    "scraped_final_url": "https://www.hotosm.org/en/"
+  },
+  "collected_at": "2026-03-09T23:20:53.824Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Humanitarian OpenStreetMap Team (HOT)",
+  "tagline": "Mapping for impact in humanitarian crises and development challenges",
+  "project_type": "Organization",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "civic_data",
+    "participatory_democracy",
+    "govtech"
+  ],
+  "sdg_alignment": [
+    "SDG 1 – No Poverty",
+    "SDG 3 – Good Health and Well-being",
+    "SDG 5 – Gender Equality",
+    "SDG 13 – Climate Action",
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": true,
+  "geography": "international",
+  "countries_deployed": [
+    "Afghanistan",
+    "Bangladesh",
+    "Democratic Republic of Congo",
+    "Ethiopia",
+    "Ghana",
+    "Haiti",
+    "Indonesia",
+    "Kenya",
+    "Liberia",
+    "Madagascar",
+    "Malawi",
+    "Mali",
+    "Mozambique",
+    "Myanmar",
+    "Nepal",
+    "Nigeria",
+    "Pakistan",
+    "Philippines",
+    "Senegal",
+    "Sierra Leone",
+    "South Sudan",
+    "Tanzania",
+    "Uganda",
+    "Yemen",
+    "Zimbabwe"
+  ],
+  "communities_served": [
+    "humanitarian organizations",
+    "development agencies",
+    "government partners",
+    "researchers",
+    "volunteers",
+    "affected communities"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "partial",
+  "github_url": "https://github.com/hotosm",
+  "github_stars": 2100,
+  "last_commit_date": "2026-03-08",
+  "format": [
+    "platform",
+    "api",
+    "database",
+    "tool"
+  ],
+  "founded_year": 2010,
+  "team_size": "large",
+  "funding_model": [
+    "grants",
+    "donations",
+    "public_funding"
+  ],
+  "known_funders": [
+    "World Bank",
+    "Google",
+    "USAID",
+    "UK Foreign, Commonwealth & Development Office",
+    "European Commission",
+    "Hewlett Foundation",
+    "Open Society Foundations",
+    "Mapbox",
+    "Microsoft"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2025",
+  "dependency_risks": [
+    "OpenStreetMap data quality and coverage variability",
+    "Volunteer contributor retention",
+    "Geopolitical restrictions in some regions",
+    "Funding sustainability for operations"
+  ],
+  "news_articles": [
+    "Guardian: 'Mapping the unmapped: how volunteers are creating life-saving maps'",
+    "Wired: 'The volunteers mapping the world's most dangerous places'",
+    "Reuters: 'Humanitarian mappers use crowdsourcing to aid disaster response'",
+    "TechCrunch: 'HOT launches new tools for crisis mapping'"
+  ],
+  "academic_citations": [
+    "Zook et al. (2012) on crowdsourced geographic information for disaster response",
+    "Haklay (2010) on volunteered geographic information",
+    "Goodchild & Li (2012) on assessing the quality of volunteered geographic information"
+  ],
+  "awards": [
+    "Tech for Good Award",
+    "UN recognition for humanitarian mapping contributions"
+  ],
+  "in_civictech_guide": true,
+  "wikipedia_page": "https://en.wikipedia.org/wiki/Humanitarian_OpenStreetMap_Team",
+  "policy_outcomes": [
+    "Integration of HOT maps into UN humanitarian response protocols",
+    "Adoption by national governments for disaster preparedness planning",
+    "Influence on open data policies in development agencies"
+  ],
+  "causation_strength": "correlated",
+  "outcome_methodology": "case studies and impact assessments",
+  "replication_materials_available": true,
+  "published_performance_metrics": true,
+  "documented_limitations": [
+    "Data quality varies by region and volunteer expertise",
+    "Coverage gaps in remote or conflict-affected areas",
+    "Sustainability of volunteer engagement over time",
+    "Attribution and credit for contributors"
+  ],
+  "jurisdictional_scope": "international",
+  "failure_modes": [
+    "Incomplete or inaccurate mapping in low-connectivity regions",
+    "Volunteer burnout and project abandonment",
+    "Political sensitivities around mapping in disputed territories"
+  ],
+  "governance_model": "foundation",
+  "curation_criteria": "OpenStreetMap contribution guidelines, HOT community standards, humanitarian need assessment",
+  "contributor_governance": "Community-driven with HOT staff oversight; contributors follow OpenStreetMap wiki guidelines and HOT-specific mapping standards",
+  "disparity_tracking": true,
+  "community_ownership": true,
+  "controversies": [
+    "Debates over mapping accuracy and validation in conflict zones",
+    "Questions about whose priorities drive mapping projects"
+  ],
+  "government_partnerships": [
+    "UN Office for the Coordination of Humanitarian Affairs (OCHA)",
+    "World Health Organization (WHO)",
+    "Various national disaster management agencies"
+  ],
+  "ai_involvement": "minimal",
+  "pass2_at": "2026-03-09T23:21:50.483Z",
+  "pass5_at": "2026-03-10T00:55:08.301Z",
+  "pass5_jina_words": 605,
+  "pass5_changes": [],
+  "political_relevance_summary": "Humanitarian OpenStreetMap Team (HOT) addresses making civic data accessible and actionable and enabling broader democratic participation. It has documented policy impact.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Serves as an information resource: Mapping for impact in humanitarian crises and development challenges."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "humanitarian organizations",
+    "development agencies",
+    "government partners",
+    "researchers",
+    "volunteers",
+    "affected communities"
+  ],
+  "underdog_signal": false
+}

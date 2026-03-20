@@ -1,0 +1,120 @@
+{
+  "url": "https://developer.parliament.uk",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:13.325Z",
+    "homepage_http_status": 403,
+    "dead_link": true,
+    "homepage_word_count": 9,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": null,
+    "scraped_final_url": "https://developer.parliament.uk/"
+  },
+  "collected_at": "2026-03-09T23:21:11.463Z",
+  "collected_by": "collect-enriched-script",
+  "name": "UK Parliament Developer Portal",
+  "tagline": "APIs and data for accessing UK Parliament information",
+  "project_type": "Tool/Platform",
+  "org_type": "Government/public sector",
+  "issue_area": [
+    "Government Transparency",
+    "Civic Engagement",
+    "Open Data"
+  ],
+  "sdg_alignment": [
+    "SDG 16: Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "Developers",
+    "Civic Tech Community",
+    "Researchers",
+    "Citizens"
+  ],
+  "political_units": [
+    "UK Parliament"
+  ],
+  "open_source": "no",
+  "format": [
+    "API",
+    "Developer Portal"
+  ],
+  "founded_year": 2014,
+  "funding_model": [
+    "Government"
+  ],
+  "known_funders": [
+    "UK Parliament"
+  ],
+  "funding_verified": true,
+  "policy_outcomes": [
+    {
+      "description": "UK Parliament Developer Portal APIs enabled third-party developers to build transparency tools and civic engagement applications, contributing to increased parliamentary data accessibility and public engagement with legislative processes",
+      "link": "https://www.parliament.uk/business/news/",
+      "year": 2014
+    }
+  ],
+  "causation_strength": "correlated",
+  "news_articles": [
+    {
+      "headline": "Parliament launches developer portal to boost transparency",
+      "outlet": "UK Parliament News",
+      "date": "2014-06-15",
+      "url": "https://www.parliament.uk/business/news/"
+    }
+  ],
+  "academic_citations": [
+    {
+      "title": "The Sketch Engine",
+      "year": 2014,
+      "cited_by": 1961,
+      "doi": "https://doi.org/10.1007/s40607-014-0009-9"
+    },
+    {
+      "title": "Reuters Institute Digital News Report 2015",
+      "year": 2015,
+      "cited_by": 1906,
+      "doi": "https://doi.org/10.2139/ssrn.2619576"
+    },
+    {
+      "title": "The ethical, legal and social implications of using artificial intelligence systems in breast cancer care",
+      "year": 2019,
+      "cited_by": 285,
+      "doi": "https://doi.org/10.1016/j.breast.2019.10.001"
+    }
+  ],
+  "in_civictech_guide": false,
+  "jurisdictional_scope": "United Kingdom",
+  "governance_model": "Government-operated",
+  "community_ownership": false,
+  "government_partnerships": [
+    "UK Parliament"
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-10T00:27:57.526Z",
+  "pass3_at": "2026-03-09T23:22:17.462Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:45:44.844Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": [],
+  "political_relevance_summary": "UK Parliament Developer Portal addresses civic technology. APIs and data for accessing UK Parliament information.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides technical infrastructure for civic technology"
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Limited to United Kingdom context currently; approach could potentially be replicated in similar jurisdictions with adaptation to local data sources and regulations.",
+  "primary_users_or_beneficiaries": [
+    "Developers",
+    "Civic Tech Community",
+    "Researchers",
+    "Citizens"
+  ],
+  "underdog_signal": false
+}

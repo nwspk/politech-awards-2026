@@ -1,0 +1,115 @@
+{
+  "url": "https://mapped.commonknowledge.coop",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:47.163Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 451,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Enrich member spreadsheets with political geography metadata",
+    "scraped_final_url": "https://mapped.commonknowledge.coop/"
+  },
+  "collected_at": "2026-03-09T23:20:19.777Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Mapped",
+  "tagline": "A tool for organisers and activists to locate their people by constituency and enrich supporter data with location-specific information",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "participatory_democracy",
+    "civic_data",
+    "advocacy_tech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "organisers",
+    "activists",
+    "campaigners",
+    "nonprofits"
+  ],
+  "political_units": [
+    "federal"
+  ],
+  "open_source": "partial",
+  "github_url": "https://github.com/commonknowledge/mapped",
+  "format": [
+    "platform",
+    "api"
+  ],
+  "founded_year": 2020,
+  "team_size": "small",
+  "funding_model": [
+    "grants",
+    "donations"
+  ],
+  "known_funders": [
+    "Civic Power Fund",
+    "Joseph Rowntree Reform Trust"
+  ],
+  "funding_verified": true,
+  "dependency_risks": [
+    "Reliance on postcodes.io for geographical data retrieval"
+  ],
+  "academic_citations": [
+    {
+      "title": "The Sequence Alignment/Map format and SAMtools",
+      "year": 2009,
+      "cited_by": 65758,
+      "doi": "https://doi.org/10.1093/bioinformatics/btp352"
+    },
+    {
+      "title": "Tissue-based map of the human proteome",
+      "year": 2015,
+      "cited_by": 15428,
+      "doi": "https://doi.org/10.1126/science.1260419"
+    },
+    {
+      "title": "Köppen's climate classification map for Brazil",
+      "year": 2013,
+      "cited_by": 11373,
+      "doi": "https://doi.org/10.1127/0941-2948/2013/0507"
+    }
+  ],
+  "in_civictech_guide": false,
+  "replication_materials_available": false,
+  "documented_limitations": [
+    "Requires postcode data in uploaded spreadsheets",
+    "Data enrichment depends on postcodes.io service availability"
+  ],
+  "jurisdictional_scope": "United Kingdom",
+  "governance_model": "project_of_larger_org",
+  "contributor_governance": "open_contributions",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:31.946Z",
+  "pass3_at": "2026-03-09T23:22:44.496Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T01:01:17.059Z",
+  "pass5_jina_words": 287,
+  "pass5_changes": [],
+  "political_relevance_summary": "Mapped addresses enabling broader democratic participation and making civic data accessible and actionable.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Directly supports organizers/campaigners through A tool for organisers and activists to locate their people by constituency and enrich supporter data with location-specific information."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase enables replication. currently deployed in United Kingdom only, but approach could be adapted to other national contexts.",
+  "primary_users_or_beneficiaries": [
+    "organisers",
+    "activists",
+    "campaigners",
+    "nonprofits"
+  ],
+  "underdog_signal": true
+}

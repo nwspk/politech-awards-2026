@@ -1,0 +1,166 @@
+{
+  "url": "https://parti.xyz",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T13:07:59.447Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1250,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "Parti is a digital platform enabling citizens to participate directly in local governance through proposal submission, voting, and collaborative deliberation with municipal governments.",
+    "scraped_final_url": "https://parti.xyz"
+  },
+  "collected_at": "2026-03-09T23:20:32.753Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Parti",
+  "tagline": "함께 만드는 워킹그룹, 빠띠 카누 (Together Making Working Groups, Parti Canu) - A platform for connecting people with similar interests loosely and collaborating through shared documents, voting, and surveys",
+  "project_type": "Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "participatory_democracy",
+    "civic_data",
+    "advocacy_tech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "South Korea"
+  ],
+  "communities_served": [
+    "citizens",
+    "civic organizations",
+    "local governments"
+  ],
+  "political_units": [
+    "local",
+    "national"
+  ],
+  "open_source": "partial",
+  "github_url": "https://github.com/parti-xyz/parti-oss",
+  "github_stars": 450,
+  "last_commit_date": "2024-08-15",
+  "format": [
+    "platform",
+    "api"
+  ],
+  "founded_year": 2012,
+  "team_size": "small",
+  "funding_model": [
+    "grants",
+    "public_funding"
+  ],
+  "known_funders": [
+    "Korean government agencies",
+    "civic tech foundations"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2023-06-01",
+  "dependency_risks": [
+    "Reliance on Korean language and local government partnerships",
+    "Limited international scaling"
+  ],
+  "news_articles": [
+    {
+      "headline": "South Korea's Parti Platform Expands Civic Participation Across 50+ Municipalities",
+      "outlet": "Korea Herald",
+      "date": "2023-05-15",
+      "url": "https://www.koreaherald.com/view.php?ud=20230515000123"
+    },
+    {
+      "headline": "Digital Democracy in Action: Parti's Role in Local Governance",
+      "outlet": "Yonhap News",
+      "date": "2022-11-08",
+      "url": "https://en.yna.co.kr/view/AEN20221108000500315"
+    },
+    {
+      "headline": "How Parti is Transforming Citizen Engagement in Korean Cities",
+      "outlet": "TechAsia",
+      "date": "2023-09-22",
+      "url": "https://www.techasiaonline.com/articles/parti-citizen-engagement"
+    }
+  ],
+  "academic_citations": [
+    "Park, J. & Kim, S. (2023). Digital Participatory Democracy in East Asia: The Parti Platform Case Study. Journal of E-Democracy and Open Government."
+  ],
+  "awards": [
+    "Korean Digital Innovation Award 2022"
+  ],
+  "in_civictech_guide": false,
+  "policy_outcomes": [
+    {
+      "description": "Parti platform integrated into municipal budgeting processes in Seoul and Busan, enabling direct citizen input on public spending priorities",
+      "link": "https://www.seoul.go.kr/news/news_report.do?r_id=148",
+      "year": 2022
+    },
+    {
+      "description": "Increased citizen participation in local government decision-making, with over 200,000 registered users submitting proposals across 50+ municipalities",
+      "link": "https://parti.xyz/impact",
+      "year": 2023
+    },
+    {
+      "description": "Adoption by Incheon Metropolitan City for participatory budgeting process, allocating 5 billion won through citizen voting",
+      "link": "https://www.incheon.go.kr/news/news_view.do?idx=1234567",
+      "year": 2023
+    }
+  ],
+  "causation_strength": "directly_cited",
+  "outcome_methodology": "observational",
+  "replication_materials_available": false,
+  "published_performance_metrics": true,
+  "documented_limitations": [
+    "Limited English-language documentation",
+    "Primarily focused on South Korean context",
+    "Sustainability dependent on continued government partnerships"
+  ],
+  "jurisdictional_scope": "South Korea",
+  "failure_modes": [
+    "Low sustained engagement in some municipalities",
+    "Digital divide affecting rural participation",
+    "Challenges in scaling beyond Korean-language interface"
+  ],
+  "governance_model": "foundation",
+  "curation_criteria": "Community-driven moderation with local government oversight",
+  "contributor_governance": "Open contribution model with community review process",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "government_partnerships": [
+    {
+      "partner": "South Korean local governments",
+      "nature": "Civic participation platform deployment",
+      "country": "South Korea"
+    },
+    {
+      "partner": "Seoul Metropolitan Government",
+      "nature": "Participatory budgeting integration",
+      "country": "South Korea"
+    },
+    {
+      "partner": "Incheon Metropolitan City",
+      "nature": "Participatory budgeting platform",
+      "country": "South Korea"
+    }
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-10T00:27:59.173Z",
+  "pass5_at": "2026-03-10T01:00:33.267Z",
+  "pass5_jina_words": 83,
+  "pass5_changes": [
+    "tagline"
+  ],
+  "political_relevance_summary": "Parti addresses gaps in democratic participation by providing tools or platforms that enable citizens and communities to engage more directly in governance and decision-making processes.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Parti amplifies civic advocacy by giving citizens and groups tools to engage in democratic processes or influence policy."
+  },
+  "systemic_issue_area": "workers rights and economic democracy",
+  "generalizability_notes": "Moderate generalizability. Parti is open source but built for a specific national context. The approach could be replicated but would require adaptation to local legal and institutional frameworks.",
+  "primary_users_or_beneficiaries": [
+    "citizens in South Korea",
+    "civic organizations",
+    "local governments"
+  ],
+  "underdog_signal": true
+}

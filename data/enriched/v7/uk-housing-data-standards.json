@@ -1,0 +1,168 @@
+{
+  "url": "https://hact.org.uk/tools-and-services/uk-housing-data-standards",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:22.001Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 3018,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "As a social housing organisation, you know the importance of collecting consistent, coherent, and complete data on your residents and housing stock.",
+    "scraped_final_url": "https://hact.org.uk/tools-and-services/uk-housing-data-standards/"
+  },
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "UK Housing Data Standards",
+  "tagline": "Sector-developed data standards for UK social housing to improve data governance, performance, and regulatory reporting",
+  "project_type": "Publication",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "housing",
+    "social housing",
+    "data governance",
+    "digital transformation",
+    "regulatory compliance"
+  ],
+  "sdg_alignment": [
+    "SDG 11: Sustainable Cities and Communities",
+    "SDG 1: No Poverty",
+    "SDG 10: Reduced Inequalities",
+    "SDG 17: Partnerships for the Goals"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "social housing providers",
+    "housing associations",
+    "local authorities",
+    "housing sector technology vendors"
+  ],
+  "political_units": [
+    "UK Parliament",
+    "Regulator of Social Housing"
+  ],
+  "open_source": "partial",
+  "github_url": "https://github.com/data-futurists/damp-and-mould-standards-concept",
+  "github_stars": 12,
+  "last_commit_date": "2024-11-15",
+  "format": [
+    "downloadable data models",
+    "reference documentation",
+    "digital platform",
+    "proof-of-concept code"
+  ],
+  "founded_year": 2018,
+  "team_size": "large",
+  "funding_model": [
+    "charity income",
+    "paid services",
+    "sector partnerships"
+  ],
+  "known_funders": [
+    "HACT (Housing Associations' Charitable Trust)",
+    "OSCRE (Open Standards Consortium for Real Estate)"
+  ],
+  "funding_verified": false,
+  "last_funding_event": "2024",
+  "dependency_risks": [
+    "OSCRE partnership for ongoing standard development",
+    "Voluntary adoption by housing associations",
+    "Continuity of HACT as charity organisation"
+  ],
+  "news_articles": [
+    {
+      "headline": "HACT updates UK Housing Data Standards to focus on feedback and complaints",
+      "outlet": "Housing Digital",
+      "date": null,
+      "url": "https://housingdigital.co.uk/hact-updates-uk-housing-data-standards-to-focus-on-feedback-and-complaints/"
+    }
+  ],
+  "academic_citations": [
+    {
+      "title": "Overheating investigation in UK social housing flats built to the Passivhaus standard",
+      "year": 2015,
+      "cited_by": 151,
+      "doi": "https://doi.org/10.1016/j.buildenv.2015.03.030"
+    },
+    {
+      "title": "Analysis of retrofit air source heat pump performance: Results from detailed simulations and comparison to field trial data",
+      "year": 2010,
+      "cited_by": 146,
+      "doi": "https://doi.org/10.1016/j.enbuild.2010.09.018"
+    },
+    {
+      "title": "Measuring fuel poverty in France: Which households are the most fuel vulnerable?",
+      "year": 2015,
+      "cited_by": 336,
+      "doi": "https://doi.org/10.1016/j.eneco.2015.01.022"
+    }
+  ],
+  "in_civictech_guide": false,
+  "wikipedia_page": false,
+  "policy_outcomes": [
+    {
+      "description": "Better Social Housing Review panel recommended all housing associations adopt the HACT UK Housing Data Standards sector-wide",
+      "link": "https://hact.org.uk/uncategorized/the-importance-of-data-standards-for-social-housing-hacts-response-to-the-better-social-housing-review-release/",
+      "year": 2022
+    },
+    {
+      "description": "Awaab's Law data model proof of concept developed using the standards framework to support compliance with regulations due October 2025",
+      "link": "https://hact.org.uk/tools-and-services/uk-housing-data-standards/",
+      "year": 2025
+    }
+  ],
+  "causation_strength": "correlated",
+  "outcome_methodology": "Sector adoption tracking; download counts; qualitative case studies",
+  "replication_materials_available": true,
+  "published_performance_metrics": "Downloaded over 2,000 times by social housing organisations; 100+ housing associations and software companies involved in development",
+  "documented_limitations": [
+    "Adoption remains voluntary with no mandatory enforcement mechanism",
+    "Implementation requires 3-5 year strategies for full adoption",
+    "Primarily applicable to UK social housing sector"
+  ],
+  "jurisdictional_scope": "national (United Kingdom)",
+  "failure_modes": [
+    "Low implementation rates despite high download numbers",
+    "Fragmentation if organisations implement partial modules inconsistently"
+  ],
+  "governance_model": "Joint IP ownership between HACT and OSCRE; Creative Commons licence; developed with input from 70+ housing associations",
+  "curation_criteria": "Developed collaboratively with 17+ housing providers in initial phase, expanded to 70+ organisations across five iterations since 2018",
+  "contributor_governance": "Sector consultation process for new versions; working groups with housing associations and software companies",
+  "disparity_tracking": false,
+  "community_ownership": "IP co-owned by HACT and OSCRE; standards freely available under Creative Commons licence",
+  "political_bias_allegations": false,
+  "legal_regulatory_issues": false,
+  "government_partnerships": [
+    {
+      "partner": "Regulator of Social Housing (implicit via Awaab's Law compliance framework)",
+      "type": "regulatory alignment",
+      "year": 2025
+    }
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:33.864Z",
+  "pass3_at": "2026-03-09T23:22:39.174Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:46:26.019Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": [],
+  "political_relevance_summary": "UK Housing Data Standards addresses housing equity. Sector-developed data standards for UK social housing to improve data governance, performance, and regulatory reporting.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Amplifies civic voice or facilitates contact with decision-makers"
+  },
+  "systemic_issue_area": "housing equity",
+  "generalizability_notes": "Moderate generalizability — partially open source; core approach could be replicated but may require significant adaptation.",
+  "primary_users_or_beneficiaries": [
+    "social housing providers",
+    "housing associations",
+    "local authorities",
+    "housing sector technology vendors"
+  ],
+  "underdog_signal": false
+}

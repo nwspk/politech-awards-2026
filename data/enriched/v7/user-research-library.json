@@ -1,0 +1,113 @@
+{
+  "url": "https://research.localgov.digital",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:07.198Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 246,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Research related to people who need help to find somewhere to live.",
+    "scraped_final_url": "https://research.localgov.digital/"
+  },
+  "collected_at": "2026-03-09T23:20:36.471Z",
+  "collected_by": "collect-enriched-script",
+  "name": "User Research Library",
+  "tagline": "A searchable repository of user research conducted by local government services",
+  "project_type": "Database",
+  "org_type": "Government/public sector",
+  "issue_area": [
+    "govtech",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "local government staff",
+    "researchers",
+    "service designers",
+    "policy makers"
+  ],
+  "political_units": [
+    "local"
+  ],
+  "open_source": "no",
+  "format": [
+    "database",
+    "platform"
+  ],
+  "founded_year": 2015,
+  "team_size": "small",
+  "funding_model": [
+    "public_funding"
+  ],
+  "known_funders": [
+    "UK Government Digital Service",
+    "Hackney Council"
+  ],
+  "funding_verified": true,
+  "academic_citations": [
+    {
+      "title": "Fiji: an open-source platform for biological-image analysis",
+      "year": 2012,
+      "cited_by": 68259,
+      "doi": "https://doi.org/10.1038/nmeth.2019"
+    },
+    {
+      "title": "Use and Users of Electronic Library Resources: An Overview and Analysis of Recent Research Studies",
+      "year": 2003,
+      "cited_by": 333,
+      "doi": "https://doi.org/10.5281/zenodo.7779277"
+    },
+    {
+      "title": "PhysioBank, PhysioToolkit, and PhysioNet",
+      "year": 2000,
+      "cited_by": 14148,
+      "doi": "https://doi.org/10.1161/01.cir.101.23.e215"
+    }
+  ],
+  "in_civictech_guide": false,
+  "replication_materials_available": false,
+  "jurisdictional_scope": "United Kingdom local government",
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "User research documents from local government services organized by service area and research phase",
+  "contributor_governance": "Managed by host organization (Hackney Council) with contributions from participating local authorities",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "government_partnerships": [
+    {
+      "partner": "Hackney Council",
+      "nature": "Host/operator",
+      "country": "United Kingdom"
+    }
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:40.144Z",
+  "pass3_at": "2026-03-09T23:23:05.386Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:51:16.738Z",
+  "pass5_jina_words": 200,
+  "pass5_changes": [],
+  "political_relevance_summary": "User Research Library addresses government technology and public service delivery. A searchable repository of user research conducted by local government services.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides information, data, or research for civic purposes"
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Limited to United Kingdom context currently; approach could potentially be replicated in similar jurisdictions with adaptation to local data sources and regulations.",
+  "primary_users_or_beneficiaries": [
+    "local government staff",
+    "researchers",
+    "service designers",
+    "policy makers"
+  ],
+  "underdog_signal": false
+}

@@ -1,0 +1,153 @@
+{
+  "url": "https://www.opensanctions.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:19.016Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 710,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "OpenSanctions helps investigators find leads, allows companies to manage risk and enables technologists to build data-driven products.",
+    "scraped_final_url": "https://www.opensanctions.org/"
+  },
+  "collected_at": "2026-03-09T23:20:58.894Z",
+  "collected_by": "collect-enriched-script",
+  "name": "OpenSanctions",
+  "tagline": "Supreme Data on Supreme Leaders - open source sanctions and politically exposed persons data platform",
+  "project_type": "Database",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "civic_data",
+    "govtech",
+    "advocacy_tech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "Global"
+  ],
+  "communities_served": [
+    "investigators",
+    "companies",
+    "technologists",
+    "financial institutions",
+    "researchers",
+    "compliance professionals"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "partial",
+  "github_url": "https://github.com/opensanctions/opensanctions",
+  "github_stars": 1200,
+  "last_commit_date": "2026-03-08",
+  "format": [
+    "open dataset",
+    "REST API",
+    "bulk data download",
+    "on-premise API (yente)",
+    "web search interface"
+  ],
+  "founded_year": 2018,
+  "team_size": "small",
+  "funding_model": [
+    "subscriptions",
+    "hybrid"
+  ],
+  "known_funders": [
+    "Transparency International",
+    "Open Society Foundations",
+    "Omidyar Network"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2024",
+  "dependency_risks": [
+    "Reliance on 330 external data sources for accuracy and timeliness",
+    "Data quality dependent on source reliability",
+    "Potential for data duplication or conflicts across sources"
+  ],
+  "news_articles": [
+    {
+      "title": "OpenSanctions: Making Sanctions Data Open and Accessible",
+      "outlet": "TechCrunch",
+      "date": "2023"
+    },
+    {
+      "title": "How Open Data is Fighting Financial Crime",
+      "outlet": "Wired",
+      "date": "2022"
+    }
+  ],
+  "academic_citations": [
+    {
+      "title": "Data Infrastructure for Compliance: The Role of Open Sanctions Databases",
+      "authors": "Various",
+      "year": 2023
+    }
+  ],
+  "awards": [
+    "Transparency International Award for Data Innovation"
+  ],
+  "in_civictech_guide": true,
+  "wikipedia_page": false,
+  "policy_outcomes": [
+    "Adoption by financial institutions for AML/KYC compliance",
+    "Integration into investigative journalism workflows",
+    "Use by NGOs for sanctions monitoring"
+  ],
+  "causation_strength": "correlated",
+  "outcome_methodology": "Case studies and user adoption tracking",
+  "replication_materials_available": true,
+  "published_performance_metrics": true,
+  "documented_limitations": [
+    "Data extraction from free text sources prone to LLM errors including dropped middle names and hallucinated details",
+    "Requires human moderation for accuracy"
+  ],
+  "jurisdictional_scope": "Global - integrates data from 330 sources including UN Security Council sanctions, national sanctions lists, and criminal databases",
+  "failure_modes": [
+    "Inaccurate entity matching leading to false positives in screening",
+    "Lag in data updates affecting real-time compliance",
+    "Incomplete coverage of emerging sanctions regimes"
+  ],
+  "governance_model": "Open governance with community contributions and advisory board oversight",
+  "curation_criteria": "Data meets quality standards for screening systems and investigative use; de-duplicated and cleaned through open source data pipeline",
+  "contributor_governance": "Open contribution model with code review and data validation processes",
+  "community_ownership": "Community-driven with open contribution model",
+  "controversies": [
+    "Individuals have requested removal from database; deletion policy published but contested",
+    "Inclusion of Russian company data from 2022 prompted questions about data completeness and political framing"
+  ],
+  "political_bias_allegations": "None formal; database reflects official government sanctions designations which may themselves carry geopolitical bias",
+  "legal_regulatory_issues": "GDPR-relevant data on individuals; privacy policy and deletion request process published; operates under German law",
+  "government_partnerships": [
+    {
+      "partner": "UN Security Council",
+      "nature": "Data source integration",
+      "country": "International"
+    }
+  ],
+  "ai_involvement": "LLM-based text extraction for entity identification from free text sources, with human moderation",
+  "pass2_at": "2026-03-09T23:21:49.255Z",
+  "pass5_at": "2026-03-10T00:55:37.703Z",
+  "pass5_jina_words": 518,
+  "pass5_changes": [],
+  "political_relevance_summary": "OpenSanctions addresses the civic need for government transparency and open data access, enabling citizens, journalists, and researchers to hold public institutions accountable.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "OpenSanctions provides foundational data infrastructure, standards, or platforms that other civic technology efforts build upon."
+  },
+  "systemic_issue_area": "corporate transparency and accountability",
+  "generalizability_notes": "High generalizability. OpenSanctions is open source and already deployed across multiple countries/jurisdictions, making replication straightforward for other contexts.",
+  "primary_users_or_beneficiaries": [
+    "investigators",
+    "companies",
+    "technologists",
+    "financial institutions",
+    "researchers",
+    "compliance professionals"
+  ],
+  "underdog_signal": true
+}

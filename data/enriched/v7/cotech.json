@@ -1,0 +1,108 @@
+{
+  "url": "https://coops.tech",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:02.997Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 226,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Building a tech industry that",
+    "scraped_final_url": "https://coops.tech/"
+  },
+  "collected_at": "2026-03-09T23:18:18.392Z",
+  "collected_by": "collect-enriched-script",
+  "name": "CoTech",
+  "tagline": "A UK-wide network of cooperative technology companies building values-aligned digital products",
+  "project_type": "Network",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "participatory_democracy",
+    "govtech",
+    "digital_rights"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions",
+    "SDG 8 – Decent Work and Economic Growth"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "organizations seeking values-aligned technology",
+    "cooperative businesses",
+    "social enterprises",
+    "nonprofits"
+  ],
+  "political_units": [
+    "national"
+  ],
+  "open_source": "partial",
+  "github_url": "https://git.coop",
+  "format": [
+    "platform",
+    "service"
+  ],
+  "founded_year": 2014,
+  "team_size": "medium",
+  "funding_model": [
+    "subscriptions"
+  ],
+  "funding_verified": false,
+  "dependency_risks": [
+    "Reliance on member co-ops remaining active",
+    "Network sustainability dependent on cooperative model adoption"
+  ],
+  "academic_citations": [
+    {
+      "title": "The COTECH Knowledge Database: Assessment of Critical Factors in Micro Moulding",
+      "year": 2012,
+      "cited_by": 5,
+      "doi": "https://doi.org/10.3850/978-981-07-3353-7_286"
+    },
+    {
+      "title": "Single-cell joint detection of chromatin occupancy and transcriptome enables higher-dimensional epigenomic reconstructions",
+      "year": 2021,
+      "cited_by": 93,
+      "doi": "https://doi.org/10.1038/s41592-021-01129-z"
+    },
+    {
+      "title": "Second Conference of Computational Methods in Offshore Technology and First Conference of Oil and Gas Technology (COTech &amp; OGTech 2019)",
+      "year": 2019,
+      "cited_by": 1,
+      "doi": "https://doi.org/10.1088/1757-899x/700/1/011001"
+    }
+  ],
+  "in_civictech_guide": false,
+  "jurisdictional_scope": "United Kingdom",
+  "governance_model": "cooperative",
+  "curation_criteria": "Member organizations must operate as cooperatives or align with cooperative principles; focus on technology companies providing values-aligned digital products and services",
+  "contributor_governance": "Democratic ownership and decision-making supported through cooperative structure",
+  "disparity_tracking": false,
+  "community_ownership": true,
+  "ai_involvement": "Custom AI applications offered as service",
+  "pass2_at": "2026-03-09T23:21:20.955Z",
+  "pass3_at": "2026-03-09T23:22:14.012Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:45:36.860Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses barriers to meaningful citizen participation in democratic decision-making by providing tools for public engagement and deliberation.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Builds cooperative or commons-based infrastructure for civic or community use."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Could be adapted for other national contexts with localization effort.",
+  "primary_users_or_beneficiaries": [
+    "organizations seeking values-aligned technology",
+    "cooperative businesses",
+    "social enterprises",
+    "nonprofits"
+  ],
+  "underdog_signal": true
+}

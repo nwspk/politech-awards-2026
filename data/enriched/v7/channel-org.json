@@ -1,0 +1,123 @@
+{
+  "url": "https://channel.org",
+  "collected_at": "2026-03-09T23:17:56.875Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Channel.org",
+  "tagline": "Own your Channels, content, and community",
+  "project_type": "Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "participatory_democracy",
+    "media_journalism",
+    "digital_rights"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "United States",
+    "United Kingdom",
+    "Canada"
+  ],
+  "communities_served": [
+    "organizations",
+    "content creators",
+    "communities"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/channelorg/channel",
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "platform"
+  ],
+  "founded_year": 2020,
+  "team_size": null,
+  "funding_model": "nonprofit",
+  "known_funders": [
+    "The Newsmast Foundation"
+  ],
+  "funding_verified": false,
+  "last_funding_event": null,
+  "dependency_risks": "Relies on open-source dependencies for content management and community features; sustainability dependent on continued funding from foundations",
+  "news_articles": [],
+  "academic_citations": [
+    {
+      "title": "Anti-stigma films and medical students' attitudes towards mental illness and psychiatry: randomised controlled trial",
+      "year": 2008,
+      "cited_by": 72,
+      "doi": "https://doi.org/10.1192/pb.bp.107.017152"
+    },
+    {
+      "title": "Unimolecular Transmembrane Na <sup>+</sup> Channels Constructed by Pore-Forming Helical Polymers with a 2.3 Å Aperture",
+      "year": 2021,
+      "cited_by": 28,
+      "doi": "https://doi.org/10.31635/ccschem.021.202101144"
+    },
+    {
+      "title": "Chiny dla średniozaawansowanych",
+      "year": 2019,
+      "cited_by": 0,
+      "doi": "https://doi.org/10.15804/ap201913"
+    }
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": null,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": [],
+  "jurisdictional_scope": "International",
+  "failure_modes": [],
+  "governance_model": "foundation",
+  "curation_criteria": null,
+  "contributor_governance": null,
+  "disparity_tracking": null,
+  "community_ownership": null,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": null,
+  "pass2_at": "2026-03-09T23:21:20.720Z",
+  "pass3_at": "2026-03-09T23:22:05.412Z",
+  "_sources": [
+    "openalex"
+  ],
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:42:42.910Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 23,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Home channel page",
+    "scraped_final_url": "https://home.channel.org/"
+  },
+  "pass5_at": "2026-03-10T00:47:20.875Z",
+  "pass5_jina_words": 95,
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses barriers to meaningful citizen participation in democratic decision-making by providing tools for public engagement and deliberation.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Platform enabling direct democratic participation or civic engagement."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (3 countries), demonstrating cross-context adaptability.",
+  "primary_users_or_beneficiaries": [
+    "organizations",
+    "content creators",
+    "communities"
+  ],
+  "underdog_signal": true
+}

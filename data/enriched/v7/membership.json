@@ -1,0 +1,96 @@
+{
+  "url": "https://medium.com/@abscond/membership-a-prototype-ea822b2683b",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:48.548Z",
+    "homepage_http_status": 403,
+    "dead_link": true,
+    "homepage_word_count": 9,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": null,
+    "scraped_final_url": "https://medium.com/@abscond/membership-a-prototype-ea822b2683b"
+  },
+  "collected_at": "2026-03-09T23:20:03.151Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Membership",
+  "tagline": "A prototype for decentralized membership and governance systems",
+  "project_type": "Tool/Platform",
+  "org_type": "Grassroots/indie",
+  "issue_area": "Governance, Democracy, Civic Participation",
+  "sdg_alignment": [
+    "SDG 16: Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "Multiple"
+  ],
+  "communities_served": [
+    "Civic technologists",
+    "Governance practitioners",
+    "Decentralization advocates"
+  ],
+  "open_source": "yes",
+  "format": "Prototype/Concept",
+  "team_size": "solo",
+  "funding_model": "Unfunded/Volunteer",
+  "funding_verified": false,
+  "dependency_risks": "Early-stage prototype with limited maintenance",
+  "academic_citations": [
+    {
+      "title": "Membership Inference Attacks Against Machine Learning Models",
+      "year": 2017,
+      "cited_by": 4007,
+      "doi": "https://doi.org/10.1109/sp.2017.41"
+    },
+    {
+      "title": "Frontiers of justice: disability, nationality, species membership",
+      "year": 2006,
+      "cited_by": 3819,
+      "doi": "https://doi.org/10.5860/choice.44-2056"
+    },
+    {
+      "title": "Pythagorean Membership Grades in Multicriteria Decision Making",
+      "year": 2013,
+      "cited_by": 2686,
+      "doi": "https://doi.org/10.1109/tfuzz.2013.2278989"
+    }
+  ],
+  "in_civictech_guide": false,
+  "wikipedia_page": false,
+  "replication_materials_available": false,
+  "preregistered_studies": false,
+  "published_performance_metrics": false,
+  "documented_limitations": false,
+  "jurisdictional_scope": "Global/Theoretical",
+  "failure_modes": "Prototype stage - limited real-world deployment",
+  "governance_model": "individual",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "ai_involvement": false,
+  "policy_outcomes": [],
+  "causation_strength": "anecdotal",
+  "news_articles": [],
+  "notes": "Page content unavailable — JavaScript/cookies required to access Medium article. Cannot extract project details. Based on URL and title, appears to be a conceptual prototype for membership and governance systems published on Medium by user 'abscond'. Limited information available due to platform access restrictions. No documented policy outcomes or news coverage identified. Academic citations appear to be topically related but not directly citing this specific project.",
+  "pass2_at": "2026-03-10T00:27:55.362Z",
+  "pass3_at": "2026-03-09T23:22:44.955Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T01:00:24.301Z",
+  "pass5_jina_words": 60,
+  "pass5_changes": [],
+  "political_relevance_summary": "Membership addresses the civic problem of lowering barriers to civic participation.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides foundational infrastructure: A prototype for decentralized membership and governance systems."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "Civic technologists",
+    "Governance practitioners",
+    "Decentralization advocates"
+  ],
+  "underdog_signal": true
+}

@@ -1,0 +1,136 @@
+{
+  "url": "https://www.workerinfoexchange.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:50.911Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 517,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "Worker Info Exchange is a non profit organisation dedicated to helping workers access and gain insight from data collected from them at work.\n \nWhether you are an Uber driver or a Deliveroo rider,  we aim to tilt the balance away from big platforms in favour of the people.",
+    "scraped_final_url": "https://www.workerinfoexchange.org/"
+  },
+  "collected_at": "2026-03-09T23:21:00.755Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Worker Info Exchange",
+  "tagline": "Platform connecting workers with information about labor rights, workplace conditions, and employment resources",
+  "project_type": "Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "civic_data",
+    "advocacy_tech",
+    "participatory_democracy"
+  ],
+  "sdg_alignment": [
+    "SDG 8 – Decent Work and Economic Growth",
+    "SDG 10 – Reduced Inequalities"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United States"
+  ],
+  "communities_served": [
+    "workers",
+    "labor advocates",
+    "researchers",
+    "labor organizations"
+  ],
+  "political_units": [
+    "federal",
+    "state"
+  ],
+  "open_source": "no",
+  "format": [
+    "platform",
+    "database"
+  ],
+  "founded_year": 2019,
+  "team_size": "small",
+  "funding_model": "nonprofit",
+  "known_funders": [
+    "Digital Freedom Fund",
+    "Open Society Foundations (via DFF)"
+  ],
+  "funding_verified": false,
+  "dependency_risks": [
+    "Small team / single-founder organisation",
+    "Reliance on GDPR and UK data protection law",
+    "Litigation-dependent model requires ongoing legal support"
+  ],
+  "news_articles": [
+    "https://techcrunch.com/2023/04/05/uber-ola-gdpr-worker-data-access-rights-appeal/",
+    "https://techcrunch.com/2021/04/14/uber-hit-with-default-robo-firing-ruling-after-another-eu-labor-rights-gdpr-challenge/",
+    "https://www.adcu.org.uk/news-posts/gig-economy-workers-score-historic-digital-rights-victory-against-uber-and-ola-cabs"
+  ],
+  "academic_citations": [
+    {
+      "title": "Quantum cryptography",
+      "year": 2002,
+      "cited_by": 8111,
+      "doi": "https://doi.org/10.1103/revmodphys.74.145"
+    },
+    {
+      "title": "Technology Acceptance Model 3 and a Research Agenda on Interventions",
+      "year": 2008,
+      "cited_by": 7468,
+      "doi": "https://doi.org/10.1111/j.1540-5915.2008.00192.x"
+    },
+    {
+      "title": "Knowledge of the Firm and the Evolutionary Theory of the Multinational Corporation",
+      "year": 1993,
+      "cited_by": 3958,
+      "doi": "https://doi.org/10.1057/palgrave.jibs.8490248"
+    }
+  ],
+  "in_civictech_guide": false,
+  "policy_outcomes": [
+    "Amsterdam District Court (2023) ordered Uber and Ola Cabs to disclose algorithmic management data to drivers",
+    "Court of Appeal Amsterdam ruled platforms cannot use trade secrets exemptions to deny drivers data access",
+    "First court order overturning an automated worker dismissal decision under GDPR Article 22",
+    "Uber ordered to disclose basis for unfair dismissals, wage deductions, and surveillance systems"
+  ],
+  "causation_strength": "independently_verified",
+  "outcome_methodology": "strategic litigation using GDPR Data Subject Access Requests; large-scale data audit (1.5M+ trips, 258 drivers, 2016-2024)",
+  "replication_materials_available": false,
+  "published_performance_metrics": false,
+  "documented_limitations": [
+    "Geographically limited to GDPR jurisdictions",
+    "Litigation process is slow and costly",
+    "Wins require ongoing enforcement to be effective"
+  ],
+  "jurisdictional_scope": "United States",
+  "failure_modes": [
+    "Platform companies appeal and delay compliance",
+    "Regulatory capture or weakening of GDPR",
+    "Loss of key legal personnel"
+  ],
+  "governance_model": "foundation",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "political_bias_allegations": false,
+  "legal_regulatory_issues": false,
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:49.127Z",
+  "pass3_at": "2026-03-09T23:23:32.791Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:57:17.208Z",
+  "pass5_jina_words": 432,
+  "pass5_changes": [],
+  "political_relevance_summary": "Worker Info Exchange addresses civic data access and transparency. Platform connecting workers with information about labor rights, workplace conditions, and employment resources.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Amplifies civic voice or facilitates contact with decision-makers"
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Limited to United States context currently; approach could potentially be replicated in similar jurisdictions with adaptation to local data sources and regulations.",
+  "primary_users_or_beneficiaries": [
+    "workers",
+    "labor advocates",
+    "researchers",
+    "labor organizations"
+  ],
+  "underdog_signal": true
+}

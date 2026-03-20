@@ -1,0 +1,123 @@
+{
+  "url": "https://policykit.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:52.836Z",
+    "homepage_http_status": 503,
+    "dead_link": true,
+    "homepage_word_count": 32,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "The server is temporarily unable to service your\nrequest due to maintenance downtime or capacity\nproblems. Please try again later.",
+    "scraped_final_url": "https://policykit.org/"
+  },
+  "collected_at": "2026-03-09T23:20:38.648Z",
+  "collected_by": "collect-enriched-script",
+  "name": "PolicyKit",
+  "tagline": "An open-source tool for evolving governance in online communities",
+  "project_type": "Tool/Platform",
+  "org_type": "Academic/research",
+  "issue_area": [
+    "participatory_democracy",
+    "govtech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "United States"
+  ],
+  "communities_served": [
+    "online community leaders",
+    "community admins",
+    "community members"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/policykit/policykit",
+  "github_stars": 1200,
+  "last_commit_date": "2024-12",
+  "format": [
+    "platform",
+    "api"
+  ],
+  "founded_year": 2019,
+  "team_size": "medium",
+  "funding_model": [
+    "grants"
+  ],
+  "known_funders": [
+    "National Science Foundation (NSF)",
+    "Mina Foundation",
+    "OneProject",
+    "Facebook",
+    "Office of Naval Research (ONR)",
+    "Grant for the Web"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2023",
+  "dependency_risks": [
+    "Reliance on academic institution (University of Washington) for maintenance",
+    "Dependency on community platform APIs (Slack, Discord, etc.)"
+  ],
+  "news_articles": [
+    {
+      "headline": "Democratizing power in online communities",
+      "outlet": "New Public",
+      "date": "2023-11",
+      "url": "https://newpublic.org"
+    },
+    {
+      "headline": "Metagov News - Project Updates (July 2023)",
+      "outlet": "Metagov News",
+      "date": "2023-07",
+      "url": "https://metagov.org/news"
+    }
+  ],
+  "academic_citations": [
+    "Pika: Empowering Non-Programmers to Author Executable Governance Policies in Online Communities (ACM'20)",
+    "PolicyKit: Building Governance in Online Communities (ACM'20)"
+  ],
+  "in_civictech_guide": false,
+  "policy_outcomes": [],
+  "causation_strength": "anecdotal",
+  "outcome_methodology": "case studies and user feedback from deployed communities",
+  "replication_materials_available": true,
+  "published_performance_metrics": "community engagement metrics, policy adoption rates in pilot communities",
+  "documented_limitations": [
+    "Limited to online communities with existing platform integrations",
+    "Requires technical setup and API access",
+    "Scalability challenges with large-scale deployments"
+  ],
+  "jurisdictional_scope": "international, primarily United States",
+  "failure_modes": [
+    "API deprecation or changes by platform providers",
+    "Low adoption in communities without technical capacity",
+    "Governance deadlock in policy voting mechanisms"
+  ],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "open-source contribution guidelines, peer review for policy implementations",
+  "contributor_governance": "University of Washington-led with community contributions via GitHub",
+  "community_ownership": "limited - primarily academic-led with community input",
+  "ai_involvement": "no",
+  "pass2_at": "2026-03-10T00:27:57.677Z",
+  "pass5_at": "2026-03-10T00:49:45.482Z",
+  "pass5_jina_words": 38,
+  "pass5_changes": [],
+  "political_relevance_summary": "PolicyKit addresses democratic participation and citizen engagement. An open-source tool for evolving governance in online communities.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides technical infrastructure supporting civic technology ecosystem."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions; replication materials are available.",
+  "primary_users_or_beneficiaries": [
+    "online community leaders",
+    "community admins",
+    "community members"
+  ],
+  "underdog_signal": false
+}

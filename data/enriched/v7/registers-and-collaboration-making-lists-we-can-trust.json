@@ -1,0 +1,104 @@
+{
+  "url": "https://theodi.org/insights/reports/registers-and-collaboration-making-lists-we-can-trust-report",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:25.245Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 419,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "This report is about registers or lists, and ways of publishing and maintaining them",
+    "scraped_final_url": "https://theodi.org/insights/reports/registers-and-collaboration-making-lists-we-can-trust-report/"
+  },
+  "collected_at": "2026-03-09T23:20:36.913Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Registers and collaboration: making lists we can trust",
+  "tagline": "A report examining models of stewarding registers and the importance of transparency and collaboration in managing trusted lists",
+  "project_type": "Publication",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "civic_data",
+    "govtech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "researchers",
+    "data stewards",
+    "government organizations",
+    "civic technologists"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "no",
+  "format": [
+    "report"
+  ],
+  "founded_year": 2018,
+  "team_size": "small",
+  "funding_model": [
+    "grants",
+    "public_funding"
+  ],
+  "known_funders": [
+    "Open Data Institute"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2018",
+  "academic_citations": [
+    {
+      "title": "Factors associated with COVID-19-related death using OpenSAFELY",
+      "year": 2020,
+      "cited_by": 6652,
+      "doi": "https://doi.org/10.1038/s41586-020-2521-4"
+    },
+    {
+      "title": "Designing qualitative research",
+      "year": 1989,
+      "cited_by": 9929,
+      "doi": "https://doi.org/10.5860/choice.27-1232"
+    },
+    {
+      "title": "COSMIC: the Catalogue Of Somatic Mutations In Cancer",
+      "year": 2018,
+      "cited_by": 5122,
+      "doi": "https://doi.org/10.1093/nar/gky1015"
+    }
+  ],
+  "in_civictech_guide": false,
+  "replication_materials_available": false,
+  "jurisdictional_scope": "International with UK focus",
+  "governance_model": "project_of_larger_org",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:41.346Z",
+  "pass3_at": "2026-03-09T23:23:14.184Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:55:21.898Z",
+  "pass5_jina_words": 468,
+  "pass5_changes": [],
+  "political_relevance_summary": "Registers and collaboration: making lists we can trust addresses civic data access and transparency. A report examining models of stewarding registers and the importance of transparency and collaboration in managing trusted lists.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides data, research, or educational resources for civic engagement."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Already deployed across multiple jurisdictions; methodology-based approach is inherently transferable.",
+  "primary_users_or_beneficiaries": [
+    "civic technology researchers",
+    "data stewards",
+    "government organizations",
+    "civic technologists"
+  ],
+  "underdog_signal": false
+}

@@ -1,0 +1,141 @@
+{
+  "url": "https://github.com/i-dot-ai/awesome-gov-datasets",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:59.627Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1835,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "A curated set of references to useful UK Government datasets  - GitHub - i-dot-ai/awesome-gov-datasets: A curated set of references to useful UK Government datasets",
+    "scraped_final_url": "https://github.com/i-dot-ai/awesome-gov-datasets"
+  },
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "Awesome UK Government Datasets",
+  "tagline": "A curated list of references to useful UK Government datasets",
+  "project_type": "Database",
+  "org_type": "Government/public sector",
+  "issue_area": [
+    "open data",
+    "AI readiness",
+    "government transparency",
+    "public sector data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 - Peace, Justice and Strong Institutions",
+    "SDG 17 - Partnerships for the Goals"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "data scientists",
+    "researchers",
+    "government technologists",
+    "civil servants"
+  ],
+  "political_units": [
+    "UK Central Government",
+    "Cabinet Office",
+    "DSIT"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/i-dot-ai/awesome-gov-datasets",
+  "github_stars": 133,
+  "last_commit_date": "2025-04-04",
+  "format": [
+    "GitHub repository",
+    "Markdown",
+    "YAML"
+  ],
+  "founded_year": 2024,
+  "team_size": "medium",
+  "funding_model": [
+    "government funding"
+  ],
+  "known_funders": [
+    "UK Cabinet Office / DSIT (via i.AI)"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2024",
+  "dependency_risks": [
+    "GitHub platform dependency",
+    "relies on volunteer contributions for dataset additions",
+    "dataset links may become stale"
+  ],
+  "academic_citations": [
+    {
+      "title": "COVID-19 and digital disruption in UK universities: afflictions and affordances of emergency online migration",
+      "year": 2020,
+      "cited_by": 890,
+      "doi": "https://doi.org/10.1007/s10734-020-00561-y"
+    },
+    {
+      "title": "Global Mortality Estimates for the 2009 Influenza Pandemic from the GLaMOR Project: A Modeling Study",
+      "year": 2013,
+      "cited_by": 493,
+      "doi": "https://doi.org/10.1371/journal.pmed.1001558"
+    },
+    {
+      "title": "Exploring customer experiences with robotics in hospitality",
+      "year": 2018,
+      "cited_by": 456,
+      "doi": "https://doi.org/10.1108/ijchm-06-2017-0322"
+    }
+  ],
+  "in_civictech_guide": false,
+  "wikipedia_page": false,
+  "causation_strength": "anecdotal",
+  "outcome_methodology": "not applicable",
+  "replication_materials_available": true,
+  "documented_limitations": [
+    "self-described as Prototype maturity level",
+    "UK-only scope"
+  ],
+  "jurisdictional_scope": "national",
+  "failure_modes": [
+    "link rot",
+    "incomplete coverage of datasets",
+    "no formal curation process beyond PR review"
+  ],
+  "governance_model": "Open source; maintained by i.AI team with community PRs via GitHub",
+  "curation_criteria": "YAML spec per dataset; PRs merged to main trigger auto-update of README",
+  "contributor_governance": "Pull-request based; no formal contributor governance documented",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "political_bias_allegations": false,
+  "legal_regulatory_issues": false,
+  "government_partnerships": [
+    {
+      "partner": "i.AI (Incubator for Artificial Intelligence)",
+      "country": "United Kingdom",
+      "description": "Project created and maintained by i.AI, a UK government team within GDS/DSIT"
+    }
+  ],
+  "ai_involvement": "Created by the UK government's AI unit (i.AI); supports AI readiness of government datasets",
+  "pass2_at": "2026-03-09T23:21:27.758Z",
+  "pass3_at": "2026-03-09T23:22:28.995Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:46:19.107Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses challenges in civic data access by serving data scientists, researchers, government technologists.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Serves as an information resource for civic actors, researchers, or the public."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Could be adapted for other national contexts with localization effort. Methodology and approach could inform similar efforts in other jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "data scientists",
+    "civic technology researchers",
+    "government technologists",
+    "civil servants"
+  ],
+  "underdog_signal": true
+}

@@ -1,0 +1,107 @@
+{
+  "url": "https://relationaltechproject.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:05.923Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 8,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Many of us wish our neighborhoods were more connected. We want to live in neighborhoods where we learn from the creativity, care, and skills of our neighbors — and share our gifts too.",
+    "scraped_final_url": "https://relationaltechproject.org/"
+  },
+  "collected_at": "2026-03-09T23:20:32.251Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Relational Tech Project",
+  "tagline": "Tools crafted by, with, and for neighbors - made to help us care for and trust each other",
+  "project_type": "Organization",
+  "org_type": "Grassroots/indie",
+  "issue_area": [
+    "participatory_democracy",
+    "civic_data",
+    "digital_rights"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "United States",
+    "Canada"
+  ],
+  "communities_served": [
+    "grassroots organizers",
+    "civic technologists",
+    "digital rights advocates",
+    "neighborhood builders",
+    "relational technologists"
+  ],
+  "political_units": [
+    "local",
+    "regional"
+  ],
+  "open_source": "yes",
+  "format": [
+    "software",
+    "toolkit",
+    "educational_resources",
+    "community_events"
+  ],
+  "funding_model": "grassroots/community-supported",
+  "funding_verified": false,
+  "academic_citations": [
+    {
+      "title": "The interplay between formal project memberships and informal advice seeking in knowledge-intensive firms: A multilevel network approach",
+      "year": 2015,
+      "cited_by": 75,
+      "doi": "https://doi.org/10.1016/j.socnet.2015.02.004"
+    },
+    {
+      "title": "Internet of Things: A Survey on Enabling Technologies, Protocols, and Applications",
+      "year": 2015,
+      "cited_by": 8108,
+      "doi": "https://doi.org/10.1109/comst.2015.2444095"
+    },
+    {
+      "title": "Mining frequent patterns without candidate generation",
+      "year": 2000,
+      "cited_by": 3183,
+      "doi": "https://doi.org/10.1145/342009.335372"
+    }
+  ],
+  "in_civictech_guide": false,
+  "jurisdictional_scope": "North America",
+  "governance_model": "participatory/collaborative",
+  "contributor_governance": "open contribution model",
+  "community_ownership": true,
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:38.780Z",
+  "pass3_at": "2026-03-09T23:23:04.131Z",
+  "_sources": [
+    "openalex",
+    "civictech-guide-api"
+  ],
+  "pass5_at": "2026-03-10T00:51:41.764Z",
+  "pass5_jina_words": 499,
+  "pass5_changes": [
+    "tagline",
+    "communities_served",
+    "format"
+  ],
+  "political_relevance_summary": "Relational Tech Project addresses democratic participation and citizen engagement. Tools crafted by, with, and for neighbors - made to help us care for and trust each other.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Directly supports organizing, mobilization, or democratic participation processes."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "grassroots organizers",
+    "civic technologists",
+    "digital rights advocates",
+    "neighborhood builders",
+    "relational technologists"
+  ],
+  "underdog_signal": true
+}

@@ -1,0 +1,110 @@
+{
+  "url": "https://nookcrm.com",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:14.553Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 2207,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "The open-source case management tool for community energy groups.",
+    "scraped_final_url": "https://nookcrm.com/"
+  },
+  "collected_at": "2026-03-09T23:20:09.920Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Nook CRM",
+  "tagline": "The case management tool for community energy, codesigned by energy advisors",
+  "project_type": "Tool/Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 7 – Affordable and Clean Energy",
+    "SDG 13 – Climate Action"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "community energy organizations",
+    "energy advisors",
+    "energy advice services"
+  ],
+  "political_units": [
+    "federal"
+  ],
+  "open_source": "no",
+  "github_url": "not_applicable",
+  "format": [
+    "platform",
+    "app"
+  ],
+  "founded_year": 2020,
+  "team_size": "small",
+  "funding_model": [
+    "public_funding"
+  ],
+  "known_funders": [
+    "Energy Saving Trust",
+    "Energy Industry Voluntary Redress Scheme"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2023",
+  "dependency_risks": [
+    "Reliance on Energy Industry Voluntary Redress Scheme funding"
+  ],
+  "academic_citations": [
+    {
+      "title": "From Waterfall to Agile software: Development models in the IT sector, 2006 to 2018. Impacts on company management",
+      "year": 2018,
+      "cited_by": 80,
+      "doi": "https://doi.org/10.14254/2071-8330.2018/11-2/21"
+    },
+    {
+      "title": "Experiencing the AI emergence in Indian retail – Early adopters approach",
+      "year": 2018,
+      "cited_by": 38,
+      "doi": "https://doi.org/10.5267/j.msl.2018.11.002"
+    },
+    {
+      "title": "Web-based Expert Decision Support System for Tourism Destination Management in Nigeria",
+      "year": 2013,
+      "cited_by": 11,
+      "doi": "https://doi.org/10.14569/ijarai.2013.020409"
+    }
+  ],
+  "in_civictech_guide": false,
+  "causation_strength": "anecdotal",
+  "replication_materials_available": false,
+  "jurisdictional_scope": "United Kingdom",
+  "governance_model": "project_of_larger_org",
+  "contributor_governance": "closed",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "political_bias_allegations": false,
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:33.680Z",
+  "pass3_at": "2026-03-09T23:22:48.105Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T01:02:11.847Z",
+  "pass5_jina_words": 674,
+  "pass5_changes": [],
+  "political_relevance_summary": "Nook CRM addresses barriers to civic data access and transparency, making public or institutional data more available for accountability, research, and informed civic engagement.",
+  "movement_building_utility": {
+    "classification": "indirect_or_none",
+    "notes": "Nook CRM's primary function is not directly oriented toward civic organizing, advocacy, or movement infrastructure."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Limited generalizability. Nook CRM is proprietary and designed for UK-specific contexts. The concept could inspire similar efforts elsewhere but direct replication is not feasible.",
+  "primary_users_or_beneficiaries": [
+    "community energy organizations",
+    "energy advisors",
+    "energy advice services"
+  ],
+  "underdog_signal": false
+}
