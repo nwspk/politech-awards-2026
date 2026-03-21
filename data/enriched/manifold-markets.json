@@ -1,122 +1,122 @@
 {
-    "url": "https://manifold.markets",
-    "collected_at": "2026-03-09T23:20:09.240Z",
-    "collected_by": "collect-enriched-script",
-    "name": "Manifold Markets",
-    "tagline": "A platform for creating and trading prediction markets on political, cultural, and business outcomes",
-    "project_type": "Platform",
-    "org_type": "For-profit/social enterprise",
-    "issue_area": [
-        "participatory_democracy",
-        "civic_data"
-    ],
-    "sdg_alignment": [
-        "SDG 16 – Peace, Justice and Strong Institutions"
-    ],
-    "decade_plus": false,
-    "geography": "international",
-    "countries_deployed": [
-        "United States",
-        "International"
-    ],
-    "communities_served": [
-        "researchers",
-        "citizens",
-        "forecasters",
-        "traders"
-    ],
-    "political_units": [
-        "federal",
-        "international"
-    ],
-    "open_source": "partial",
-    "github_url": "https://github.com/manifoldmarkets",
-    "github_stars": 2100,
-    "last_commit_date": "2026-03-08",
-    "format": [
-        "platform",
-        "api"
-    ],
-    "founded_year": 2021,
-    "team_size": "small",
-    "funding_model": [
-        "vc",
-        "hybrid"
-    ],
-    "known_funders": [
-        "Sequoia Capital",
-        "Lerer Hippeau",
-        "Founders Fund"
-    ],
-    "funding_verified": true,
-    "last_funding_event": "Series A, 2023",
-    "dependency_risks": [
-        "Regulatory uncertainty around prediction markets in various jurisdictions",
-        "Platform reliance on user participation and liquidity"
-    ],
-    "news_articles": [],
-    "academic_citations": [],
-    "awards": [],
-    "in_civictech_guide": false,
-    "wikipedia_page": false,
-    "policy_outcomes": [],
-    "causation_strength": null,
-    "outcome_methodology": null,
-    "replication_materials_available": false,
-    "preregistered_studies": [],
-    "published_performance_metrics": "Platform publishes market accuracy metrics and forecasting performance data",
-    "documented_limitations": [
-        "Limited to users in jurisdictions where prediction markets are legally permitted",
-        "Market accuracy depends on participant knowledge and participation levels"
-    ],
-    "jurisdictional_scope": "Primarily United States with international access restrictions",
-    "failure_modes": [
-        "Low liquidity on niche markets",
-        "Potential for market manipulation",
-        "Regulatory shutdown risk in certain jurisdictions"
-    ],
-    "governance_model": "LLC",
-    "curation_criteria": "Markets created by users; platform enforces resolution criteria and dispute resolution processes",
-    "contributor_governance": "Community-driven market creation with platform moderation",
-    "disparity_tracking": false,
-    "community_ownership": false,
-    "controversies": [
-        "Concerns about prediction markets enabling gambling-like behavior",
-        "Debates over market accuracy and potential for misinformation"
-    ],
-    "political_bias_allegations": false,
-    "legal_regulatory_issues": "Prediction markets operate in legal gray area in many jurisdictions; platform restricts access based on location",
-    "elections_used_in": [
-        "2024 US Presidential Election forecasting",
-        "Various state and local election predictions"
-    ],
-    "government_partnerships": [],
-    "ai_involvement": false,
-    "pass2_at": "2026-03-09T23:21:34.083Z",
-    "scraped": {
-        "homepage_last_scraped": "2026-02-09T12:44:45.737Z",
-        "homepage_http_status": 200,
-        "dead_link": false,
-        "homepage_word_count": 46,
-        "homepage_has_team_page": true,
-        "homepage_has_impact_metrics": false,
-        "scraped_description": "Manifold is a social prediction game. Bet on news, politics, tech, &amp; AI with play money. Or create your own prediction market.",
-        "scraped_final_url": "https://manifold.markets/"
-    },
-    "pass5_at": "2026-03-10T01:02:41.859Z",
-    "pass5_jina_words": 0,
-    "pass5_changes": [],
-    "political_relevance_summary": "Manifold Markets addresses enabling broader democratic participation and making civic data accessible and actionable.",
-    "movement_building_utility": {
-        "classification": "information_resource",
-        "notes": "Serves as an information resource: A platform for creating and trading prediction markets on political, cultural, and business outcomes."
-    },
-    "systemic_issue_area": "democratic participation access",
-    "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
-    "primary_users_or_beneficiaries": [
-        "researchers",
-        "forecasters",
-        "traders"
-    ],
-    "underdog_signal": false
+  "url": "https://manifold.markets",
+  "collected_at": "2026-03-09T23:20:09.240Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Manifold Markets",
+  "tagline": "A platform for creating and trading prediction markets on political, cultural, and business outcomes",
+  "project_type": "Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "participatory_democracy",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "United States",
+    "International"
+  ],
+  "communities_served": [
+    "researchers",
+    "citizens",
+    "forecasters",
+    "traders"
+  ],
+  "political_units": [
+    "federal",
+    "international"
+  ],
+  "open_source": "partial",
+  "github_url": "https://github.com/manifoldmarkets",
+  "github_stars": 2100,
+  "last_commit_date": "2026-03-08",
+  "format": [
+    "platform",
+    "api"
+  ],
+  "founded_year": 2021,
+  "team_size": "small",
+  "funding_model": [
+    "vc",
+    "hybrid"
+  ],
+  "known_funders": [
+    "Sequoia Capital",
+    "Lerer Hippeau",
+    "Founders Fund"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "Series A, 2023",
+  "dependency_risks": [
+    "Regulatory uncertainty around prediction markets in various jurisdictions",
+    "Platform reliance on user participation and liquidity"
+  ],
+  "news_articles": [],
+  "academic_citations": [],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": false,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": false,
+  "preregistered_studies": [],
+  "published_performance_metrics": "Platform publishes market accuracy metrics and forecasting performance data",
+  "documented_limitations": [
+    "Limited to users in jurisdictions where prediction markets are legally permitted",
+    "Market accuracy depends on participant knowledge and participation levels"
+  ],
+  "jurisdictional_scope": "Primarily United States with international access restrictions",
+  "failure_modes": [
+    "Low liquidity on niche markets",
+    "Potential for market manipulation",
+    "Regulatory shutdown risk in certain jurisdictions"
+  ],
+  "governance_model": "LLC",
+  "curation_criteria": "Markets created by users; platform enforces resolution criteria and dispute resolution processes",
+  "contributor_governance": "Community-driven market creation with platform moderation",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "controversies": [
+    "Concerns about prediction markets enabling gambling-like behavior",
+    "Debates over market accuracy and potential for misinformation"
+  ],
+  "political_bias_allegations": false,
+  "legal_regulatory_issues": "Prediction markets operate in legal gray area in many jurisdictions; platform restricts access based on location",
+  "elections_used_in": [
+    "2024 US Presidential Election forecasting",
+    "Various state and local election predictions"
+  ],
+  "government_partnerships": [],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:34.083Z",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:45.737Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 46,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Manifold is a social prediction game. Bet on news, politics, tech, &amp; AI with play money. Or create your own prediction market.",
+    "scraped_final_url": "https://manifold.markets/"
+  },
+  "pass5_at": "2026-03-10T01:02:41.859Z",
+  "pass5_jina_words": 0,
+  "pass5_changes": [],
+  "political_relevance_summary": "Manifold Markets addresses enabling broader democratic participation and making civic data accessible and actionable.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Serves as an information resource: A platform for creating and trading prediction markets on political, cultural, and business outcomes."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "researchers",
+    "forecasters",
+    "traders"
+  ],
+  "underdog_signal": false
 }

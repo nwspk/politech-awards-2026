@@ -1,114 +1,114 @@
 {
-    "url": "https://github.com/stanfordcdt/pb",
-    "scraped": {
-        "homepage_last_scraped": "2026-02-09T12:44:09.285Z",
-        "homepage_http_status": 200,
-        "dead_link": false,
-        "homepage_word_count": 890,
-        "homepage_has_team_page": true,
-        "homepage_has_impact_metrics": false,
-        "scraped_description": "Participatory Budgeting Platform. Contribute to StanfordCDT/pb development by creating an account on GitHub.",
-        "scraped_final_url": "https://github.com/stanfordcdt/pb"
-    },
-    "collected_at": "2026-03-09T23:19:37.780Z",
-    "collected_by": "collect-enriched-script",
-    "name": "Stanford Participatory Budgeting Platform",
-    "tagline": "Open-source platform for hosting participatory budgeting elections in cities across the United States",
-    "project_type": "Platform",
-    "org_type": "Academic/research",
-    "issue_area": [
-        "participatory_democracy",
-        "govtech",
-        "civic_data"
-    ],
-    "sdg_alignment": [
-        "SDG 16 – Peace, Justice and Strong Institutions"
-    ],
-    "decade_plus": false,
-    "geography": "national",
-    "countries_deployed": [
-        "United States"
-    ],
-    "communities_served": [
-        "citizens",
-        "city governments",
-        "civic organizations"
-    ],
-    "political_units": [
-        "city"
-    ],
-    "open_source": "yes",
-    "github_url": "https://github.com/stanfordcdt/pb",
-    "github_stars": 35,
-    "last_commit_date": "2023-06-15",
-    "format": [
-        "platform",
-        "app"
-    ],
-    "founded_year": 2012,
-    "team_size": "small",
-    "funding_model": [
-        "public_funding"
-    ],
-    "known_funders": [
-        "Stanford University",
-        "National Science Foundation"
-    ],
-    "funding_verified": true,
-    "last_funding_event": "2020",
-    "dependency_risks": [
-        "Ruby on Rails framework maintenance",
-        "MySQL/PostgreSQL database dependencies"
-    ],
-    "news_articles": [],
-    "academic_citations": [],
-    "in_civictech_guide": true,
-    "policy_outcomes": [
-        "Enabled participatory budgeting processes in multiple US municipalities"
-    ],
-    "causation_strength": "correlated",
-    "outcome_methodology": "case_study",
-    "replication_materials_available": true,
-    "published_performance_metrics": "Platform usage statistics and deployment data available in project documentation",
-    "documented_limitations": [
-        "Limited to US context",
-        "Requires technical capacity for deployment"
-    ],
-    "jurisdictional_scope": "United States cities",
-    "failure_modes": [
-        "Adoption challenges in municipalities without technical infrastructure"
-    ],
-    "governance_model": "project_of_larger_org",
-    "curation_criteria": "Open-source contribution guidelines available in GitHub repository",
-    "contributor_governance": "Academic institution governance through Stanford Center on Democracy, Development, and the Rule of Law",
-    "disparity_tracking": false,
-    "community_ownership": false,
-    "elections_used_in": [
-        "Participatory budgeting elections in US cities"
-    ],
-    "government_partnerships": [
-        {
-            "partner": "Multiple US cities",
-            "nature": "Platform deployment for participatory budgeting elections",
-            "country": "United States"
-        }
-    ],
-    "ai_involvement": false,
-    "pass2_at": "2026-03-09T23:21:33.365Z",
-    "pass5_at": "2026-03-10T00:46:22.246Z",
-    "pass5_jina_words": 19,
-    "pass5_changes": [],
-    "political_relevance_summary": "Stanford Participatory Budgeting Platform addresses democratic participation and citizen engagement. Open-source platform for hosting participatory budgeting elections in cities across the United States.",
-    "movement_building_utility": {
-        "classification": "direct_organizer_tool",
-        "notes": "Directly supports organizing, mobilization, or democratic participation processes."
-    },
-    "systemic_issue_area": "government transparency",
-    "generalizability_notes": "Open-source codebase facilitates replication; currently focused on United States; replication materials are available; would require local data and regulatory adaptation.",
-    "primary_users_or_beneficiaries": [
-        "voters seeking electoral information",
-        "city governments",
-        "civic organizations"
-    ],
-    "underdog_signal": true
+  "url": "https://github.com/stanfordcdt/pb",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:09.285Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 890,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Participatory Budgeting Platform. Contribute to StanfordCDT/pb development by creating an account on GitHub.",
+    "scraped_final_url": "https://github.com/stanfordcdt/pb"
+  },
+  "collected_at": "2026-03-09T23:19:37.780Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Stanford Participatory Budgeting Platform",
+  "tagline": "Open-source platform for hosting participatory budgeting elections in cities across the United States",
+  "project_type": "Platform",
+  "org_type": "Academic/research",
+  "issue_area": [
+    "participatory_democracy",
+    "govtech",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United States"
+  ],
+  "communities_served": [
+    "citizens",
+    "city governments",
+    "civic organizations"
+  ],
+  "political_units": [
+    "city"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/stanfordcdt/pb",
+  "github_stars": 35,
+  "last_commit_date": "2023-06-15",
+  "format": [
+    "platform",
+    "app"
+  ],
+  "founded_year": 2012,
+  "team_size": "small",
+  "funding_model": [
+    "public_funding"
+  ],
+  "known_funders": [
+    "Stanford University",
+    "National Science Foundation"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2020",
+  "dependency_risks": [
+    "Ruby on Rails framework maintenance",
+    "MySQL/PostgreSQL database dependencies"
+  ],
+  "news_articles": [],
+  "academic_citations": [],
+  "in_civictech_guide": true,
+  "policy_outcomes": [
+    "Enabled participatory budgeting processes in multiple US municipalities"
+  ],
+  "causation_strength": "correlated",
+  "outcome_methodology": "case_study",
+  "replication_materials_available": true,
+  "published_performance_metrics": "Platform usage statistics and deployment data available in project documentation",
+  "documented_limitations": [
+    "Limited to US context",
+    "Requires technical capacity for deployment"
+  ],
+  "jurisdictional_scope": "United States cities",
+  "failure_modes": [
+    "Adoption challenges in municipalities without technical infrastructure"
+  ],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Open-source contribution guidelines available in GitHub repository",
+  "contributor_governance": "Academic institution governance through Stanford Center on Democracy, Development, and the Rule of Law",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "elections_used_in": [
+    "Participatory budgeting elections in US cities"
+  ],
+  "government_partnerships": [
+    {
+      "partner": "Multiple US cities",
+      "nature": "Platform deployment for participatory budgeting elections",
+      "country": "United States"
+    }
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:33.365Z",
+  "pass5_at": "2026-03-10T00:46:22.246Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": [],
+  "political_relevance_summary": "Stanford Participatory Budgeting Platform addresses democratic participation and citizen engagement. Open-source platform for hosting participatory budgeting elections in cities across the United States.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Directly supports organizing, mobilization, or democratic participation processes."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Open-source codebase facilitates replication; currently focused on United States; replication materials are available; would require local data and regulatory adaptation.",
+  "primary_users_or_beneficiaries": [
+    "voters seeking electoral information",
+    "city governments",
+    "civic organizations"
+  ],
+  "underdog_signal": true
 }

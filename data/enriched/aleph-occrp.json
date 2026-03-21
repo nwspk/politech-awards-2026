@@ -1,162 +1,162 @@
 {
-    "url": "https://aleph.occrp.org",
-    "scraped": {
-        "homepage_last_scraped": "2026-02-09T12:42:24.229Z",
-        "homepage_http_status": 200,
-        "dead_link": false,
-        "homepage_word_count": null,
-        "homepage_has_team_page": false,
-        "homepage_has_impact_metrics": null,
-        "scraped_description": null,
-        "scraped_final_url": "https://aleph.occrp.org/"
+  "url": "https://aleph.occrp.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:42:24.229Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": null,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": null,
+    "scraped_description": null,
+    "scraped_final_url": "https://aleph.occrp.org/"
+  },
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "Aleph (OCCRP)",
+  "tagline": "The global archive of research material for investigative reporting. Follow the money through government records and databases.",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "media_journalism",
+    "civic_data",
+    "digital_rights",
+    "advocacy_tech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 - Peace Justice and Strong Institutions",
+    "SDG 10 - Reduced Inequalities"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "global"
+  ],
+  "communities_served": [
+    "investigative journalists",
+    "civil society researchers",
+    "activists",
+    "anti-corruption practitioners"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/alephdata/aleph",
+  "github_stars": 2332,
+  "last_commit_date": "2025-12-19",
+  "format": [
+    "platform",
+    "api",
+    "database"
+  ],
+  "founded_year": 2014,
+  "team_size": "large",
+  "funding_model": [
+    "grants",
+    "public_funding"
+  ],
+  "known_funders": [
+    "USAID (~50% of OCCRP budget)",
+    "US National Endowment for Democracy",
+    "US Department of State",
+    "French government",
+    "UK government",
+    "Swedish government",
+    "Swiss government",
+    "Slovak government",
+    "Dutch Postcode Lottery",
+    "Ford Foundation",
+    "Open Society Foundations",
+    "Knight Foundation"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2024",
+  "dependency_risks": [
+    "Heavy US government funding concentration (USAID ~50%) creates editorial-independence risk",
+    "USAID veto over senior OCCRP appointments per funding agreement",
+    "Funding disruption risk if US government priorities shift"
+  ],
+  "news_articles": [
+    {
+      "headline": "OCCRP received nearly half its funding from USAID, with veto over senior appointments",
+      "outlet": "Multiple outlets",
+      "date": "2024",
+      "url": "https://en.wikipedia.org/wiki/Organized_Crime_and_Corruption_Reporting_Project"
+    }
+  ],
+  "academic_citations": [],
+  "awards": [
+    "2017 Pulitzer Prize in Journalism (Panama Papers, shared with ICIJ and Süddeutsche Zeitung)"
+  ],
+  "in_civictech_guide": false,
+  "wikipedia_page": true,
+  "policy_outcomes": [
+    {
+      "description": "Panama Papers investigation contributed to resignation of Prime Minister of Iceland Sigmundur Davíð Gunnlaugsson and triggered regulatory responses in multiple countries.",
+      "link": "https://www.occrp.org/en/panamapapers/",
+      "year": 2016
     },
-    "collected_at": "2026-03-09T22:00:00Z",
-    "collected_by": "nano-bot",
-    "name": "Aleph (OCCRP)",
-    "tagline": "The global archive of research material for investigative reporting. Follow the money through government records and databases.",
-    "project_type": "Tool/Platform",
-    "org_type": "Nonprofit/charity",
-    "issue_area": [
-        "media_journalism",
-        "civic_data",
-        "digital_rights",
-        "advocacy_tech"
-    ],
-    "sdg_alignment": [
-        "SDG 16 - Peace Justice and Strong Institutions",
-        "SDG 10 - Reduced Inequalities"
-    ],
-    "decade_plus": false,
-    "geography": "international",
-    "countries_deployed": [
-        "global"
-    ],
-    "communities_served": [
-        "investigative journalists",
-        "civil society researchers",
-        "activists",
-        "anti-corruption practitioners"
-    ],
-    "political_units": [
-        "international"
-    ],
-    "open_source": "yes",
-    "github_url": "https://github.com/alephdata/aleph",
-    "github_stars": 2332,
-    "last_commit_date": "2025-12-19",
-    "format": [
-        "platform",
-        "api",
-        "database"
-    ],
-    "founded_year": 2014,
-    "team_size": "large",
-    "funding_model": [
-        "grants",
-        "public_funding"
-    ],
-    "known_funders": [
-        "USAID (~50% of OCCRP budget)",
-        "US National Endowment for Democracy",
-        "US Department of State",
-        "French government",
-        "UK government",
-        "Swedish government",
-        "Swiss government",
-        "Slovak government",
-        "Dutch Postcode Lottery",
-        "Ford Foundation",
-        "Open Society Foundations",
-        "Knight Foundation"
-    ],
-    "funding_verified": true,
-    "last_funding_event": "2024",
-    "dependency_risks": [
-        "Heavy US government funding concentration (USAID ~50%) creates editorial-independence risk",
-        "USAID veto over senior OCCRP appointments per funding agreement",
-        "Funding disruption risk if US government priorities shift"
-    ],
-    "news_articles": [
-        {
-            "headline": "OCCRP received nearly half its funding from USAID, with veto over senior appointments",
-            "outlet": "Multiple outlets",
-            "date": "2024",
-            "url": "https://en.wikipedia.org/wiki/Organized_Crime_and_Corruption_Reporting_Project"
-        }
-    ],
-    "academic_citations": [],
-    "awards": [
-        "2017 Pulitzer Prize in Journalism (Panama Papers, shared with ICIJ and Süddeutsche Zeitung)"
-    ],
-    "in_civictech_guide": false,
-    "wikipedia_page": true,
-    "policy_outcomes": [
-        {
-            "description": "Panama Papers investigation contributed to resignation of Prime Minister of Iceland Sigmundur Davíð Gunnlaugsson and triggered regulatory responses in multiple countries.",
-            "link": "https://www.occrp.org/en/panamapapers/",
-            "year": 2016
-        },
-        {
-            "description": "Pandora Papers investigation revealed offshore holdings of world leaders and contributed to legislative scrutiny in multiple jurisdictions.",
-            "link": "https://www.occrp.org/en/the-pandora-papers/",
-            "year": 2021
-        }
-    ],
-    "causation_strength": "directly_cited",
-    "outcome_methodology": "Investigative journalism outcomes tracked through published reports, policy responses, and documented resignations/regulatory actions; methodology relies on journalistic verification and public record documentation",
-    "replication_materials_available": true,
-    "published_performance_metrics": "Platform usage statistics and investigation impact metrics published in OCCRP annual reports; specific performance benchmarks not formally published",
-    "documented_limitations": [
-        "Access to Aleph restricted to journalists and activists on case-by-case basis; applications reviewed individually with access typically granted within 72 hours",
-        "Depends on document quality and completeness of source datasets",
-        "Regularly fetches public records from over 200 online sources but coverage depends on availability of public records in each jurisdiction"
-    ],
-    "jurisdictional_scope": "global",
-    "failure_modes": [
-        "Data gaps from jurisdictions with opaque company registries",
-        "Risk of political suppression (designated undesirable organisation in Russia)",
-        "USAID funding dependency creates structural vulnerability to US foreign policy shifts"
-    ],
-    "governance_model": "foundation",
-    "curation_criteria": "Access granted to journalists and activists case-by-case through application process; government records and public databases are primary sources; regularly fetches public records from over 200 online sources",
-    "contributor_governance": "MIT-licensed open source; community contributions accepted via GitHub; OCCRP controls platform deployment and access policy",
-    "disparity_tracking": "No formal disparity tracking; platform access restricted to vetted journalists and activists, limiting transparency on equity of access across regions and demographics",
-    "community_ownership": "Community-contributed code accepted via GitHub; however, platform access and deployment decisions remain centralized under OCCRP control; no formal community governance structure",
-    "controversies": [
-        "USAID funding agreement reportedly gives US government veto over senior OCCRP personnel appointments, raising editorial independence questions (reported 2024)",
-        "Designated undesirable organisation in Russia following investigative work on Russian corruption"
-    ],
-    "political_bias_allegations": "Allegations that heavy US government funding skews story selection away from US-based subjects; OCCRP states the funding agreement explicitly bars use of funds for US investigations",
-    "legal_regulatory_issues": "Designated undesirable organisation in Russia; journalists in several covered countries have faced legal harassment",
-    "government_partnerships": [
-        "USAID",
-        "US NED",
-        "US Department of State",
-        "French government",
-        "UK government",
-        "Swedish government"
-    ],
-    "ai_involvement": "Uses AI/ML for document processing and entity extraction within the platform",
-    "pass2_at": "2026-03-09T23:21:27.087Z",
-    "pass5_at": "2026-03-10T00:47:27.316Z",
-    "pass5_jina_words": 267,
-    "pass5_changes": [
-        "tagline",
-        "documented_limitations",
-        "curation_criteria"
-    ],
-    "political_relevance_summary": "Confronts threats to digital rights and civil liberties by equipping advocates and the public with information and tools.",
-    "movement_building_utility": {
-        "classification": "advocacy_amplifier",
-        "notes": "Provides evidence and data that amplifies advocacy and accountability efforts."
-    },
-    "systemic_issue_area": "media independence and information access",
-    "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (multiple countries), demonstrating cross-context adaptability.",
-    "primary_users_or_beneficiaries": [
-        "investigative journalists",
-        "civil society researchers",
-        "grassroots activists and organizers",
-        "anti-corruption practitioners"
-    ],
-    "underdog_signal": false
+    {
+      "description": "Pandora Papers investigation revealed offshore holdings of world leaders and contributed to legislative scrutiny in multiple jurisdictions.",
+      "link": "https://www.occrp.org/en/the-pandora-papers/",
+      "year": 2021
+    }
+  ],
+  "causation_strength": "directly_cited",
+  "outcome_methodology": "Investigative journalism outcomes tracked through published reports, policy responses, and documented resignations/regulatory actions; methodology relies on journalistic verification and public record documentation",
+  "replication_materials_available": true,
+  "published_performance_metrics": "Platform usage statistics and investigation impact metrics published in OCCRP annual reports; specific performance benchmarks not formally published",
+  "documented_limitations": [
+    "Access to Aleph restricted to journalists and activists on case-by-case basis; applications reviewed individually with access typically granted within 72 hours",
+    "Depends on document quality and completeness of source datasets",
+    "Regularly fetches public records from over 200 online sources but coverage depends on availability of public records in each jurisdiction"
+  ],
+  "jurisdictional_scope": "global",
+  "failure_modes": [
+    "Data gaps from jurisdictions with opaque company registries",
+    "Risk of political suppression (designated undesirable organisation in Russia)",
+    "USAID funding dependency creates structural vulnerability to US foreign policy shifts"
+  ],
+  "governance_model": "foundation",
+  "curation_criteria": "Access granted to journalists and activists case-by-case through application process; government records and public databases are primary sources; regularly fetches public records from over 200 online sources",
+  "contributor_governance": "MIT-licensed open source; community contributions accepted via GitHub; OCCRP controls platform deployment and access policy",
+  "disparity_tracking": "No formal disparity tracking; platform access restricted to vetted journalists and activists, limiting transparency on equity of access across regions and demographics",
+  "community_ownership": "Community-contributed code accepted via GitHub; however, platform access and deployment decisions remain centralized under OCCRP control; no formal community governance structure",
+  "controversies": [
+    "USAID funding agreement reportedly gives US government veto over senior OCCRP personnel appointments, raising editorial independence questions (reported 2024)",
+    "Designated undesirable organisation in Russia following investigative work on Russian corruption"
+  ],
+  "political_bias_allegations": "Allegations that heavy US government funding skews story selection away from US-based subjects; OCCRP states the funding agreement explicitly bars use of funds for US investigations",
+  "legal_regulatory_issues": "Designated undesirable organisation in Russia; journalists in several covered countries have faced legal harassment",
+  "government_partnerships": [
+    "USAID",
+    "US NED",
+    "US Department of State",
+    "French government",
+    "UK government",
+    "Swedish government"
+  ],
+  "ai_involvement": "Uses AI/ML for document processing and entity extraction within the platform",
+  "pass2_at": "2026-03-09T23:21:27.087Z",
+  "pass5_at": "2026-03-10T00:47:27.316Z",
+  "pass5_jina_words": 267,
+  "pass5_changes": [
+    "tagline",
+    "documented_limitations",
+    "curation_criteria"
+  ],
+  "political_relevance_summary": "Confronts threats to digital rights and civil liberties by equipping advocates and the public with information and tools.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Provides evidence and data that amplifies advocacy and accountability efforts."
+  },
+  "systemic_issue_area": "media independence and information access",
+  "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (multiple countries), demonstrating cross-context adaptability.",
+  "primary_users_or_beneficiaries": [
+    "investigative journalists",
+    "civil society researchers",
+    "grassroots activists and organizers",
+    "anti-corruption practitioners"
+  ],
+  "underdog_signal": false
 }

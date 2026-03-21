@@ -1,123 +1,123 @@
 {
-    "url": "https://sci-hub.se",
-    "scraped": {
-        "homepage_last_scraped": "2026-02-09T13:07:59.644Z",
-        "homepage_http_status": null,
-        "dead_link": true,
-        "homepage_word_count": null,
-        "homepage_has_team_page": null,
-        "homepage_has_impact_metrics": null,
-        "scraped_description": null,
-        "scraped_final_url": null
+  "url": "https://sci-hub.se",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T13:07:59.644Z",
+    "homepage_http_status": null,
+    "dead_link": true,
+    "homepage_word_count": null,
+    "homepage_has_team_page": null,
+    "homepage_has_impact_metrics": null,
+    "scraped_description": null,
+    "scraped_final_url": null
+  },
+  "collected_at": "2026-03-09T23:20:43.267Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Sci-Hub",
+  "tagline": "Provides free access to academic research papers by circumventing publisher paywalls",
+  "project_type": "Platform",
+  "org_type": "Grassroots/indie",
+  "issue_area": [
+    "digital_rights",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 4 – Quality Education",
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": true,
+  "geography": "international",
+  "countries_deployed": [
+    "Multiple (operates internationally)"
+  ],
+  "communities_served": [
+    "researchers",
+    "students",
+    "academics",
+    "citizens"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "no",
+  "format": [
+    "platform",
+    "database"
+  ],
+  "founded_year": 2011,
+  "team_size": "solo",
+  "funding_model": [
+    "donations"
+  ],
+  "funding_verified": false,
+  "dependency_risks": [
+    "Domain seizure and legal action from publishers",
+    "Server hosting instability due to legal pressure",
+    "Reliance on single founder (Alexandra Elbakyan)"
+  ],
+  "policy_outcomes": [],
+  "causation_strength": "anecdotal",
+  "news_articles": [
+    {
+      "headline": "Sci-Hub's Alexandra Elbakyan: 'I have to fight for open access to science'",
+      "outlet": "The Guardian",
+      "date": "2017-06-27",
+      "url": "https://www.theguardian.com/science/2017/jun/27/alexandra-elbakyan-sci-hub-open-access-pioneer-lawsuit"
     },
-    "collected_at": "2026-03-09T23:20:43.267Z",
-    "collected_by": "collect-enriched-script",
-    "name": "Sci-Hub",
-    "tagline": "Provides free access to academic research papers by circumventing publisher paywalls",
-    "project_type": "Platform",
-    "org_type": "Grassroots/indie",
-    "issue_area": [
-        "digital_rights",
-        "civic_data"
-    ],
-    "sdg_alignment": [
-        "SDG 4 – Quality Education",
-        "SDG 16 – Peace, Justice and Strong Institutions"
-    ],
-    "decade_plus": true,
-    "geography": "international",
-    "countries_deployed": [
-        "Multiple (operates internationally)"
-    ],
-    "communities_served": [
-        "researchers",
-        "students",
-        "academics",
-        "citizens"
-    ],
-    "political_units": [
-        "international"
-    ],
-    "open_source": "no",
-    "format": [
-        "platform",
-        "database"
-    ],
-    "founded_year": 2011,
-    "team_size": "solo",
-    "funding_model": [
-        "donations"
-    ],
-    "funding_verified": false,
-    "dependency_risks": [
-        "Domain seizure and legal action from publishers",
-        "Server hosting instability due to legal pressure",
-        "Reliance on single founder (Alexandra Elbakyan)"
-    ],
-    "policy_outcomes": [],
-    "causation_strength": "anecdotal",
-    "news_articles": [
-        {
-            "headline": "Sci-Hub's Alexandra Elbakyan: 'I have to fight for open access to science'",
-            "outlet": "The Guardian",
-            "date": "2017-06-27",
-            "url": "https://www.theguardian.com/science/2017/jun/27/alexandra-elbakyan-sci-hub-open-access-pioneer-lawsuit"
-        },
-        {
-            "headline": "Elsevier sues Sci-Hub for copyright infringement",
-            "outlet": "Nature",
-            "date": "2015-06-03",
-            "url": "https://www.nature.com/news/elsevier-sues-sci-hub-for-copyright-infringement-1.17930"
-        },
-        {
-            "headline": "How Sci-Hub is Winning the War Against Academic Publishers",
-            "outlet": "Wired",
-            "date": "2018-02-08",
-            "url": "https://www.wired.com/story/how-sci-hub-is-winning-the-war-against-academic-publishers/"
-        }
-    ],
-    "academic_citations": [],
-    "in_civictech_guide": false,
-    "wikipedia_page": "https://en.wikipedia.org/wiki/Sci-Hub",
-    "replication_materials_available": false,
-    "documented_limitations": [
-        "Operates in legal gray area; not a sustainable long-term solution",
-        "Does not address underlying systemic issues in academic publishing",
-        "Limited metadata quality for some papers"
-    ],
-    "jurisdictional_scope": "International but faces legal restrictions in multiple countries",
-    "failure_modes": [
-        "Domain seizures and takedowns",
-        "Legal injunctions from publishers",
-        "Periodic service disruptions"
-    ],
-    "governance_model": "individual",
-    "curation_criteria": "Automated indexing of academic papers from publisher databases and institutional repositories; no formal curation process",
-    "disparity_tracking": false,
-    "community_ownership": false,
-    "controversies": [
-        "Copyright infringement lawsuits from major academic publishers (Elsevier, Wiley, etc.)",
-        "Debate over whether it constitutes piracy vs. civil disobedience",
-        "Concerns about data security and user privacy"
-    ],
-    "legal_regulatory_issues": "Multiple ongoing lawsuits from academic publishers; domain blocked in several countries; founder (Alexandra Elbakyan) faces legal action",
-    "ai_involvement": false,
-    "pass2_at": "2026-03-10T00:27:57.127Z",
-    "pass5_at": "2026-03-10T00:51:28.390Z",
-    "pass5_jina_words": 12,
-    "pass5_changes": [],
-    "political_relevance_summary": "Sci-Hub addresses digital rights and online freedoms. Provides free access to academic research papers by circumventing publisher paywalls.",
-    "movement_building_utility": {
-        "classification": "infrastructure",
-        "notes": "Provides digital rights infrastructure or privacy-preserving technology foundations."
+    {
+      "headline": "Elsevier sues Sci-Hub for copyright infringement",
+      "outlet": "Nature",
+      "date": "2015-06-03",
+      "url": "https://www.nature.com/news/elsevier-sues-sci-hub-for-copyright-infringement-1.17930"
     },
-    "systemic_issue_area": "digital rights infrastructure",
-    "generalizability_notes": "Already deployed across multiple jurisdictions.",
-    "primary_users_or_beneficiaries": [
-        "civic technology researchers",
-        "public policy students",
-        "academics",
-        "engaged citizens"
-    ],
-    "underdog_signal": true
+    {
+      "headline": "How Sci-Hub is Winning the War Against Academic Publishers",
+      "outlet": "Wired",
+      "date": "2018-02-08",
+      "url": "https://www.wired.com/story/how-sci-hub-is-winning-the-war-against-academic-publishers/"
+    }
+  ],
+  "academic_citations": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": "https://en.wikipedia.org/wiki/Sci-Hub",
+  "replication_materials_available": false,
+  "documented_limitations": [
+    "Operates in legal gray area; not a sustainable long-term solution",
+    "Does not address underlying systemic issues in academic publishing",
+    "Limited metadata quality for some papers"
+  ],
+  "jurisdictional_scope": "International but faces legal restrictions in multiple countries",
+  "failure_modes": [
+    "Domain seizures and takedowns",
+    "Legal injunctions from publishers",
+    "Periodic service disruptions"
+  ],
+  "governance_model": "individual",
+  "curation_criteria": "Automated indexing of academic papers from publisher databases and institutional repositories; no formal curation process",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "controversies": [
+    "Copyright infringement lawsuits from major academic publishers (Elsevier, Wiley, etc.)",
+    "Debate over whether it constitutes piracy vs. civil disobedience",
+    "Concerns about data security and user privacy"
+  ],
+  "legal_regulatory_issues": "Multiple ongoing lawsuits from academic publishers; domain blocked in several countries; founder (Alexandra Elbakyan) faces legal action",
+  "ai_involvement": false,
+  "pass2_at": "2026-03-10T00:27:57.127Z",
+  "pass5_at": "2026-03-10T00:51:28.390Z",
+  "pass5_jina_words": 12,
+  "pass5_changes": [],
+  "political_relevance_summary": "Sci-Hub addresses digital rights and online freedoms. Provides free access to academic research papers by circumventing publisher paywalls.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides digital rights infrastructure or privacy-preserving technology foundations."
+  },
+  "systemic_issue_area": "digital rights infrastructure",
+  "generalizability_notes": "Already deployed across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "civic technology researchers",
+    "public policy students",
+    "academics",
+    "engaged citizens"
+  ],
+  "underdog_signal": true
 }

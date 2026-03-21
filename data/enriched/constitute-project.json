@@ -1,160 +1,160 @@
 {
-    "url": "https://constituteproject.org",
-    "scraped": {
-        "homepage_last_scraped": "2026-02-09T12:42:59.984Z",
-        "homepage_http_status": 200,
-        "dead_link": false,
-        "homepage_word_count": 376,
-        "homepage_has_team_page": true,
-        "homepage_has_impact_metrics": false,
-        "scraped_description": "Check out Constitute to read, search, and compare the world’s constitutions!",
-        "scraped_final_url": "https://constituteproject.org/"
+  "url": "https://constituteproject.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:42:59.984Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 376,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Check out Constitute to read, search, and compare the world’s constitutions!",
+    "scraped_final_url": "https://constituteproject.org/"
+  },
+  "collected_at": "2026-03-09T23:18:15.110Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Constitute Project",
+  "tagline": "A comprehensive analysis of the world's constitutions to support constitutional design and inform citizens",
+  "project_type": "Database",
+  "org_type": "Academic/research",
+  "issue_area": [
+    "participatory_democracy",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "Chile",
+    "Algeria",
+    "United States",
+    "The Gambia",
+    "Colombia"
+  ],
+  "communities_served": [
+    "researchers",
+    "constitutional courts",
+    "educators",
+    "citizens",
+    "constitutional commissions",
+    "international organizations"
+  ],
+  "political_units": [
+    "national",
+    "international"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/Constitute-Project/constitute",
+  "github_stars": 150,
+  "last_commit_date": "2024-08-15",
+  "format": [
+    "database",
+    "platform",
+    "api"
+  ],
+  "founded_year": 2011,
+  "team_size": "small",
+  "funding_model": [
+    "grants"
+  ],
+  "known_funders": [
+    "National Endowment for Democracy",
+    "Open Society Foundations",
+    "Google.org"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2023",
+  "news_articles": [
+    "https://www.wired.com/story/constitute-project-constitutions",
+    "https://www.theguardian.com/world/constitute-project"
+  ],
+  "academic_citations": [],
+  "awards": [
+    "Recognized as leading constitutional research resource"
+  ],
+  "in_civictech_guide": true,
+  "policy_outcomes": [
+    {
+      "description": "Used as resource by Constitutional Review Commission of The Gambia",
+      "link": null,
+      "year": null
     },
-    "collected_at": "2026-03-09T23:18:15.110Z",
-    "collected_by": "collect-enriched-script",
-    "name": "Constitute Project",
-    "tagline": "A comprehensive analysis of the world's constitutions to support constitutional design and inform citizens",
-    "project_type": "Database",
-    "org_type": "Academic/research",
-    "issue_area": [
-        "participatory_democracy",
-        "civic_data"
-    ],
-    "sdg_alignment": [
-        "SDG 16 – Peace, Justice and Strong Institutions"
-    ],
-    "decade_plus": false,
-    "geography": "international",
-    "countries_deployed": [
-        "Chile",
-        "Algeria",
-        "United States",
-        "The Gambia",
-        "Colombia"
-    ],
-    "communities_served": [
-        "researchers",
-        "constitutional courts",
-        "educators",
-        "citizens",
-        "constitutional commissions",
-        "international organizations"
-    ],
-    "political_units": [
-        "national",
-        "international"
-    ],
-    "open_source": "yes",
-    "github_url": "https://github.com/Constitute-Project/constitute",
-    "github_stars": 150,
-    "last_commit_date": "2024-08-15",
-    "format": [
-        "database",
-        "platform",
-        "api"
-    ],
-    "founded_year": 2011,
-    "team_size": "small",
-    "funding_model": [
-        "grants"
-    ],
-    "known_funders": [
-        "National Endowment for Democracy",
-        "Open Society Foundations",
-        "Google.org"
-    ],
-    "funding_verified": true,
-    "last_funding_event": "2023",
-    "news_articles": [
-        "https://www.wired.com/story/constitute-project-constitutions",
-        "https://www.theguardian.com/world/constitute-project"
-    ],
-    "academic_citations": [],
-    "awards": [
-        "Recognized as leading constitutional research resource"
-    ],
-    "in_civictech_guide": true,
-    "policy_outcomes": [
-        {
-            "description": "Used as resource by Constitutional Review Commission of The Gambia",
-            "link": null,
-            "year": null
-        },
-        {
-            "description": "Used by Colombian Constitutional Court",
-            "link": null,
-            "year": null
-        },
-        {
-            "description": "Used by Venice Commission on Democracy through Law",
-            "link": null,
-            "year": null
-        },
-        {
-            "description": "Used by UN Department for Peacebuilding and Political Affairs for constitution-building work",
-            "link": null,
-            "year": null
-        },
-        {
-            "description": "Used by UN Women for constitution work",
-            "link": null,
-            "year": null
-        }
-    ],
-    "causation_strength": "anecdotal",
-    "outcome_methodology": "Documented usage by government and international organizations",
-    "replication_materials_available": true,
-    "published_performance_metrics": "Database contains 194 constitutions with detailed comparative analysis",
-    "documented_limitations": [
-        "Limited to written constitutional documents",
-        "Does not capture informal constitutional practices"
-    ],
-    "jurisdictional_scope": "Global",
-    "governance_model": "project_of_larger_org",
-    "curation_criteria": "Comprehensive inclusion of all national constitutions and constitutional amendments with expert review",
-    "contributor_governance": "Academic advisory board with constitutional law experts",
-    "disparity_tracking": false,
-    "community_ownership": false,
-    "government_partnerships": [
-        {
-            "partner": "Constitutional Review Commission of The Gambia",
-            "nature": "research resource",
-            "country": "The Gambia"
-        },
-        {
-            "partner": "Colombian Constitutional Court",
-            "nature": "research resource",
-            "country": "Colombia"
-        },
-        {
-            "partner": "UN Department for Peacebuilding and Political Affairs",
-            "nature": "constitution-building research",
-            "country": null
-        },
-        {
-            "partner": "UN Women",
-            "nature": "constitution work",
-            "country": null
-        }
-    ],
-    "ai_involvement": false,
-    "pass2_at": "2026-03-09T23:21:23.696Z",
-    "pass5_at": "2026-03-10T00:45:36.502Z",
-    "pass5_jina_words": 19,
-    "pass5_changes": [],
-    "political_relevance_summary": "Addresses barriers to meaningful citizen participation in democratic decision-making by providing tools for public engagement and deliberation.",
-    "movement_building_utility": {
-        "classification": "information_resource",
-        "notes": "Serves as an information resource for civic actors, researchers, or the public."
+    {
+      "description": "Used by Colombian Constitutional Court",
+      "link": null,
+      "year": null
     },
-    "systemic_issue_area": "democratic participation access",
-    "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (5 countries), demonstrating cross-context adaptability. Methodology and approach could inform similar efforts in other jurisdictions.",
-    "primary_users_or_beneficiaries": [
-        "civic technology researchers",
-        "constitutional courts",
-        "educators",
-        "citizens seeking to participate in local democratic processes",
-        "constitutional commissions"
-    ],
-    "underdog_signal": true
+    {
+      "description": "Used by Venice Commission on Democracy through Law",
+      "link": null,
+      "year": null
+    },
+    {
+      "description": "Used by UN Department for Peacebuilding and Political Affairs for constitution-building work",
+      "link": null,
+      "year": null
+    },
+    {
+      "description": "Used by UN Women for constitution work",
+      "link": null,
+      "year": null
+    }
+  ],
+  "causation_strength": "anecdotal",
+  "outcome_methodology": "Documented usage by government and international organizations",
+  "replication_materials_available": true,
+  "published_performance_metrics": "Database contains 194 constitutions with detailed comparative analysis",
+  "documented_limitations": [
+    "Limited to written constitutional documents",
+    "Does not capture informal constitutional practices"
+  ],
+  "jurisdictional_scope": "Global",
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Comprehensive inclusion of all national constitutions and constitutional amendments with expert review",
+  "contributor_governance": "Academic advisory board with constitutional law experts",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "government_partnerships": [
+    {
+      "partner": "Constitutional Review Commission of The Gambia",
+      "nature": "research resource",
+      "country": "The Gambia"
+    },
+    {
+      "partner": "Colombian Constitutional Court",
+      "nature": "research resource",
+      "country": "Colombia"
+    },
+    {
+      "partner": "UN Department for Peacebuilding and Political Affairs",
+      "nature": "constitution-building research",
+      "country": null
+    },
+    {
+      "partner": "UN Women",
+      "nature": "constitution work",
+      "country": null
+    }
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:23.696Z",
+  "pass5_at": "2026-03-10T00:45:36.502Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses barriers to meaningful citizen participation in democratic decision-making by providing tools for public engagement and deliberation.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Serves as an information resource for civic actors, researchers, or the public."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (5 countries), demonstrating cross-context adaptability. Methodology and approach could inform similar efforts in other jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "civic technology researchers",
+    "constitutional courts",
+    "educators",
+    "citizens seeking to participate in local democratic processes",
+    "constitutional commissions"
+  ],
+  "underdog_signal": true
 }

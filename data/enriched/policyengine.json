@@ -1,135 +1,135 @@
 {
-    "url": "https://policyengine.org/uk",
-    "scraped": {
-        "homepage_last_scraped": "2026-02-09T12:45:52.286Z",
-        "homepage_http_status": 200,
-        "dead_link": false,
-        "homepage_word_count": 1,
-        "homepage_has_team_page": false,
-        "homepage_has_impact_metrics": false,
-        "scraped_description": "Free, open-source tools to understand tax and benefit policies. Explore research, meet our team, and learn about policy impacts.",
-        "scraped_final_url": "https://www.policyengine.org/uk"
-    },
-    "collected_at": "2026-03-09T23:20:35.845Z",
-    "collected_by": "collect-enriched-script",
-    "name": "PolicyEngine",
-    "tagline": "Open-source policy analysis and simulation platform for tax and benefit systems",
-    "project_type": "Tool/Platform",
-    "org_type": "Nonprofit/charity",
-    "issue_area": [
-        "govtech",
-        "civic_data",
-        "advocacy_tech"
-    ],
-    "sdg_alignment": [
-        "SDG 16 – Peace, Justice and Strong Institutions",
-        "SDG 1 – No Poverty",
-        "SDG 10 – Reduced Inequalities"
-    ],
-    "decade_plus": false,
-    "geography": "national",
-    "countries_deployed": [
-        "United Kingdom",
-        "United States"
-    ],
-    "communities_served": [
-        "policymakers",
-        "researchers",
-        "citizens",
-        "advocacy organizations",
-        "journalists"
-    ],
-    "political_units": [
-        "federal",
-        "state"
-    ],
-    "open_source": "yes",
-    "github_url": "https://github.com/PolicyEngine",
-    "github_stars": 1200,
-    "last_commit_date": "2026-03-08",
-    "format": [
-        "platform",
-        "api",
-        "database"
-    ],
-    "founded_year": 2017,
-    "team_size": "medium",
-    "funding_model": [
-        "grants",
-        "donations",
-        "public_funding"
-    ],
-    "known_funders": [
-        "Open Society Foundations",
-        "Nuffield Foundation",
-        "Economic and Social Research Council"
-    ],
-    "funding_verified": true,
-    "last_funding_event": "2025-06",
-    "dependency_risks": [
-        "Reliance on volunteer contributors for open-source maintenance",
-        "Dependency on accurate government tax and benefit data"
-    ],
-    "news_articles": [],
-    "academic_citations": [],
-    "awards": [
-        "Nesta Innovation Award (2020)",
-        "Open Data Institute recognition (2021)"
-    ],
-    "in_civictech_guide": true,
-    "policy_outcomes": [
-        "Trusted by researchers and policy organizations including National Institute of Economic and Social Research, Citizens' Economic Council, UBILabs, Adam Smith Institute, UBI Center, Centre Think Tank, Social Market Foundation, The Liberal Party, UK in a Changing Europe, Centre for Policy Studies, and Green Party of England and Wales",
-        "Provided Spring Statement 2026 analysis on OBR forecast and effects on UK living standards",
-        "Analyzed two-child limit reintroduction with budgetary, distributional, poverty, and inequality impacts",
-        "Developed salary sacrifice cap analysis tool for revenue and distributional impacts",
-        "Created student loan deductions calculator for repayments, marginal tax rates, and lifetime costs",
-        "Informed UK parliamentary inquiries on tax policy",
-        "Used by advocacy organizations in policy briefings",
-        "Supported evidence-based policy analysis for benefit reform discussions"
-    ],
-    "causation_strength": "correlated",
-    "outcome_methodology": "Case studies and stakeholder interviews documenting policy influence",
-    "replication_materials_available": true,
-    "published_performance_metrics": "Accuracy validation against official tax/benefit calculations published on GitHub",
-    "documented_limitations": [
-        "Limited to tax and benefit policy simulation",
-        "Accuracy dependent on input data quality",
-        "May not capture behavioral responses to policy changes"
-    ],
-    "jurisdictional_scope": "United Kingdom and United States",
-    "failure_modes": [
-        "Data staleness if government tax/benefit rules not updated",
-        "Potential for misuse in misleading policy advocacy"
-    ],
-    "governance_model": "foundation",
-    "curation_criteria": "Open-source contribution guidelines; peer review of policy rule implementations; community issue tracking",
-    "contributor_governance": "GitHub-based contribution process with maintainer review; public roadmap",
-    "disparity_tracking": "Analysis of policy impacts on different income groups and demographics available in platform outputs",
-    "community_ownership": "Community-driven development through GitHub; public issue discussions; user feedback integration",
-    "government_partnerships": [
-        "UK Office for National Statistics (data partnership)",
-        "US state tax administration agencies (data access)"
-    ],
-    "ai_involvement": "Limited; uses standard microsimulation algorithms rather than machine learning",
-    "pass2_at": "2026-03-09T23:21:41.389Z",
-    "pass5_at": "2026-03-10T01:04:14.782Z",
-    "pass5_jina_words": 327,
-    "pass5_changes": [
-        "policy_outcomes"
-    ],
-    "political_relevance_summary": "Addresses civic data access and policy transparency by providing open-source tools to simulate the impact of tax and benefit policy changes on households and government budgets.",
-    "movement_building_utility": {
-        "classification": "advocacy_amplifier",
-        "notes": "Amplifies advocacy efforts and helps citizens influence decision-makers."
-    },
-    "systemic_issue_area": "civic data access",
-    "generalizability_notes": "Open-source codebase facilitates replication; deployed in multiple countries, suggesting adaptability; replication materials are available.",
-    "primary_users_or_beneficiaries": [
-        "policymakers",
-        "civic technology researchers",
-        "engaged citizens",
-        "advocacy organizations",
-        "investigative journalists"
-    ],
-    "underdog_signal": false
+  "url": "https://policyengine.org/uk",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:52.286Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Free, open-source tools to understand tax and benefit policies. Explore research, meet our team, and learn about policy impacts.",
+    "scraped_final_url": "https://www.policyengine.org/uk"
+  },
+  "collected_at": "2026-03-09T23:20:35.845Z",
+  "collected_by": "collect-enriched-script",
+  "name": "PolicyEngine",
+  "tagline": "Open-source policy analysis and simulation platform for tax and benefit systems",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "govtech",
+    "civic_data",
+    "advocacy_tech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions",
+    "SDG 1 – No Poverty",
+    "SDG 10 – Reduced Inequalities"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom",
+    "United States"
+  ],
+  "communities_served": [
+    "policymakers",
+    "researchers",
+    "citizens",
+    "advocacy organizations",
+    "journalists"
+  ],
+  "political_units": [
+    "federal",
+    "state"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/PolicyEngine",
+  "github_stars": 1200,
+  "last_commit_date": "2026-03-08",
+  "format": [
+    "platform",
+    "api",
+    "database"
+  ],
+  "founded_year": 2017,
+  "team_size": "medium",
+  "funding_model": [
+    "grants",
+    "donations",
+    "public_funding"
+  ],
+  "known_funders": [
+    "Open Society Foundations",
+    "Nuffield Foundation",
+    "Economic and Social Research Council"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2025-06",
+  "dependency_risks": [
+    "Reliance on volunteer contributors for open-source maintenance",
+    "Dependency on accurate government tax and benefit data"
+  ],
+  "news_articles": [],
+  "academic_citations": [],
+  "awards": [
+    "Nesta Innovation Award (2020)",
+    "Open Data Institute recognition (2021)"
+  ],
+  "in_civictech_guide": true,
+  "policy_outcomes": [
+    "Trusted by researchers and policy organizations including National Institute of Economic and Social Research, Citizens' Economic Council, UBILabs, Adam Smith Institute, UBI Center, Centre Think Tank, Social Market Foundation, The Liberal Party, UK in a Changing Europe, Centre for Policy Studies, and Green Party of England and Wales",
+    "Provided Spring Statement 2026 analysis on OBR forecast and effects on UK living standards",
+    "Analyzed two-child limit reintroduction with budgetary, distributional, poverty, and inequality impacts",
+    "Developed salary sacrifice cap analysis tool for revenue and distributional impacts",
+    "Created student loan deductions calculator for repayments, marginal tax rates, and lifetime costs",
+    "Informed UK parliamentary inquiries on tax policy",
+    "Used by advocacy organizations in policy briefings",
+    "Supported evidence-based policy analysis for benefit reform discussions"
+  ],
+  "causation_strength": "correlated",
+  "outcome_methodology": "Case studies and stakeholder interviews documenting policy influence",
+  "replication_materials_available": true,
+  "published_performance_metrics": "Accuracy validation against official tax/benefit calculations published on GitHub",
+  "documented_limitations": [
+    "Limited to tax and benefit policy simulation",
+    "Accuracy dependent on input data quality",
+    "May not capture behavioral responses to policy changes"
+  ],
+  "jurisdictional_scope": "United Kingdom and United States",
+  "failure_modes": [
+    "Data staleness if government tax/benefit rules not updated",
+    "Potential for misuse in misleading policy advocacy"
+  ],
+  "governance_model": "foundation",
+  "curation_criteria": "Open-source contribution guidelines; peer review of policy rule implementations; community issue tracking",
+  "contributor_governance": "GitHub-based contribution process with maintainer review; public roadmap",
+  "disparity_tracking": "Analysis of policy impacts on different income groups and demographics available in platform outputs",
+  "community_ownership": "Community-driven development through GitHub; public issue discussions; user feedback integration",
+  "government_partnerships": [
+    "UK Office for National Statistics (data partnership)",
+    "US state tax administration agencies (data access)"
+  ],
+  "ai_involvement": "Limited; uses standard microsimulation algorithms rather than machine learning",
+  "pass2_at": "2026-03-09T23:21:41.389Z",
+  "pass5_at": "2026-03-10T01:04:14.782Z",
+  "pass5_jina_words": 327,
+  "pass5_changes": [
+    "policy_outcomes"
+  ],
+  "political_relevance_summary": "Addresses civic data access and policy transparency by providing open-source tools to simulate the impact of tax and benefit policy changes on households and government budgets.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Amplifies advocacy efforts and helps citizens influence decision-makers."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Open-source codebase facilitates replication; deployed in multiple countries, suggesting adaptability; replication materials are available.",
+  "primary_users_or_beneficiaries": [
+    "policymakers",
+    "civic technology researchers",
+    "engaged citizens",
+    "advocacy organizations",
+    "investigative journalists"
+  ],
+  "underdog_signal": false
 }

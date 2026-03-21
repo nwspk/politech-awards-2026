@@ -1,142 +1,142 @@
 {
-    "url": "https://cybersecurityfordemocracy.org",
-    "scraped": {
-        "homepage_last_scraped": "2026-02-09T12:43:08.482Z",
-        "homepage_http_status": 200,
-        "dead_link": false,
-        "homepage_word_count": 580,
-        "homepage_has_team_page": true,
-        "homepage_has_impact_metrics": false,
-        "scraped_description": "Cybersecurity for Democracy is a research-based effort to expose online threats to our social fabric – and recommend how to counter them. We are part of the Center for Cybersecurity at NYU.",
-        "scraped_final_url": "https://cybersecurityfordemocracy.org/"
+  "url": "https://cybersecurityfordemocracy.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:08.482Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 580,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Cybersecurity for Democracy is a research-based effort to expose online threats to our social fabric – and recommend how to counter them. We are part of the Center for Cybersecurity at NYU.",
+    "scraped_final_url": "https://cybersecurityfordemocracy.org/"
+  },
+  "collected_at": "2026-03-09T23:21:13.743Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Cybersecurity for Democracy",
+  "tagline": "A multi-university center for problem-driven research and research-driven policy",
+  "project_type": "Research Center",
+  "org_type": "Academic/research",
+  "issue_area": [
+    "Cybersecurity",
+    "Platform Transparency",
+    "Algorithm Accountability",
+    "Online Safety",
+    "Democracy & Elections",
+    "Privacy",
+    "Content Moderation"
+  ],
+  "sdg_alignment": [
+    "SDG 16: Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "Global (based at NYU)",
+  "countries_deployed": [
+    "United States",
+    "European Union",
+    "China"
+  ],
+  "communities_served": [
+    "Researchers",
+    "Policymakers",
+    "Platform Regulators",
+    "Tech Companies",
+    "Young Users"
+  ],
+  "political_units": [
+    "European Commission",
+    "U.S. Courts"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/cybersecurityfordemocracy",
+  "github_stars": 150,
+  "last_commit_date": "2025-12-15",
+  "format": [
+    "Research",
+    "Policy Briefs",
+    "Tools/Libraries",
+    "Amicus Briefs"
+  ],
+  "founded_year": 2019,
+  "team_size": "medium",
+  "funding_model": [
+    "Academic Institution"
+  ],
+  "known_funders": [
+    "New York University",
+    "National Science Foundation",
+    "Omidyar Network",
+    "Mozilla Foundation"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2025-09-01",
+  "news_articles": [],
+  "academic_citations": [],
+  "awards": [
+    "Privacy Enhanced Technology Symposium (PETS) awards - 2 researchers"
+  ],
+  "in_civictech_guide": true,
+  "policy_outcomes": [
+    {
+      "policy": "Digital Services Act (DSA)",
+      "jurisdiction": "European Union",
+      "description": "Research on transparency mechanisms informed DSA legislation",
+      "causation_strength": "directly_cited"
     },
-    "collected_at": "2026-03-09T23:21:13.743Z",
-    "collected_by": "collect-enriched-script",
-    "name": "Cybersecurity for Democracy",
-    "tagline": "A multi-university center for problem-driven research and research-driven policy",
-    "project_type": "Research Center",
-    "org_type": "Academic/research",
-    "issue_area": [
-        "Cybersecurity",
-        "Platform Transparency",
-        "Algorithm Accountability",
-        "Online Safety",
-        "Democracy & Elections",
-        "Privacy",
-        "Content Moderation"
-    ],
-    "sdg_alignment": [
-        "SDG 16: Peace, Justice and Strong Institutions"
-    ],
-    "decade_plus": false,
-    "geography": "Global (based at NYU)",
-    "countries_deployed": [
-        "United States",
-        "European Union",
-        "China"
-    ],
-    "communities_served": [
-        "Researchers",
-        "Policymakers",
-        "Platform Regulators",
-        "Tech Companies",
-        "Young Users"
-    ],
-    "political_units": [
-        "European Commission",
-        "U.S. Courts"
-    ],
-    "open_source": "yes",
-    "github_url": "https://github.com/cybersecurityfordemocracy",
-    "github_stars": 150,
-    "last_commit_date": "2025-12-15",
-    "format": [
-        "Research",
-        "Policy Briefs",
-        "Tools/Libraries",
-        "Amicus Briefs"
-    ],
-    "founded_year": 2019,
-    "team_size": "medium",
-    "funding_model": [
-        "Academic Institution"
-    ],
-    "known_funders": [
-        "New York University",
-        "National Science Foundation",
-        "Omidyar Network",
-        "Mozilla Foundation"
-    ],
-    "funding_verified": true,
-    "last_funding_event": "2025-09-01",
-    "news_articles": [],
-    "academic_citations": [],
-    "awards": [
-        "Privacy Enhanced Technology Symposium (PETS) awards - 2 researchers"
-    ],
-    "in_civictech_guide": true,
-    "policy_outcomes": [
-        {
-            "policy": "Digital Services Act (DSA)",
-            "jurisdiction": "European Union",
-            "description": "Research on transparency mechanisms informed DSA legislation",
-            "causation_strength": "directly_cited"
-        },
-        {
-            "policy": "DSA Researcher Data Access Rules",
-            "jurisdiction": "European Union",
-            "description": "Provided input to European Commission public consultation on researcher access to platform data under DSA",
-            "causation_strength": "correlated"
-        }
-    ],
-    "causation_strength": "directly_cited",
-    "outcome_methodology": "Mixed methods including quantitative platform analysis, policy document review, and stakeholder interviews",
-    "replication_materials_available": true,
-    "preregistered_studies": [
-        "OSF registration for 2024 election integrity study"
-    ],
-    "published_performance_metrics": "Center publishes annual research impact reports documenting policy citations and media coverage",
-    "documented_limitations": [
-        "Platform data access constraints limit real-time analysis",
-        "Geographic focus primarily on US and EU contexts",
-        "Resource limitations for global deployment"
-    ],
-    "jurisdictional_scope": "Global",
-    "failure_modes": [
-        "Platform API changes disrupted data collection pipelines (2023)",
-        "Delayed policy implementation of research recommendations"
-    ],
-    "governance_model": "Multi-university research center",
-    "curation_criteria": "Research prioritizes policy-relevant questions with direct stakeholder engagement; peer review process for all publications",
-    "contributor_governance": "Multi-university consortium with faculty steering committee; open contribution guidelines for tools and datasets",
-    "disparity_tracking": "Center tracks research outcomes across geographic regions and demographic groups; publishes equity assessments in annual reports",
-    "community_ownership": "Collaborative governance with partner institutions; researcher and policymaker advisory boards",
-    "elections_used_in": [
-        "2024 US Presidential Election - platform monitoring research",
-        "2024 EU Parliamentary Elections - content moderation analysis"
-    ],
-    "government_partnerships": [
-        "European Commission",
-        "Platform partnerships (Meta, Google, TikTok)"
-    ],
-    "ai_involvement": true,
-    "pass2_at": "2026-03-09T23:21:26.061Z",
-    "pass5_at": "2026-03-10T00:45:37.547Z",
-    "pass5_jina_words": 19,
-    "pass5_changes": [],
-    "political_relevance_summary": "Addresses challenges in digital rights infrastructure by serving Researchers, Policymakers, Platform Regulators.",
-    "movement_building_utility": {
-        "classification": "information_resource",
-        "notes": "Serves as an information resource for civic actors, researchers, or the public."
-    },
-    "systemic_issue_area": "digital rights infrastructure",
-    "generalizability_notes": "Open-source codebase facilitates replication and adaptation.",
-    "primary_users_or_beneficiaries": [
-        "civic technology researchers",
-        "policymakers and legislative staff",
-        "Platform Regulators",
-        "Tech Companies",
-        "Young Users"
-    ],
-    "underdog_signal": false
+    {
+      "policy": "DSA Researcher Data Access Rules",
+      "jurisdiction": "European Union",
+      "description": "Provided input to European Commission public consultation on researcher access to platform data under DSA",
+      "causation_strength": "correlated"
+    }
+  ],
+  "causation_strength": "directly_cited",
+  "outcome_methodology": "Mixed methods including quantitative platform analysis, policy document review, and stakeholder interviews",
+  "replication_materials_available": true,
+  "preregistered_studies": [
+    "OSF registration for 2024 election integrity study"
+  ],
+  "published_performance_metrics": "Center publishes annual research impact reports documenting policy citations and media coverage",
+  "documented_limitations": [
+    "Platform data access constraints limit real-time analysis",
+    "Geographic focus primarily on US and EU contexts",
+    "Resource limitations for global deployment"
+  ],
+  "jurisdictional_scope": "Global",
+  "failure_modes": [
+    "Platform API changes disrupted data collection pipelines (2023)",
+    "Delayed policy implementation of research recommendations"
+  ],
+  "governance_model": "Multi-university research center",
+  "curation_criteria": "Research prioritizes policy-relevant questions with direct stakeholder engagement; peer review process for all publications",
+  "contributor_governance": "Multi-university consortium with faculty steering committee; open contribution guidelines for tools and datasets",
+  "disparity_tracking": "Center tracks research outcomes across geographic regions and demographic groups; publishes equity assessments in annual reports",
+  "community_ownership": "Collaborative governance with partner institutions; researcher and policymaker advisory boards",
+  "elections_used_in": [
+    "2024 US Presidential Election - platform monitoring research",
+    "2024 EU Parliamentary Elections - content moderation analysis"
+  ],
+  "government_partnerships": [
+    "European Commission",
+    "Platform partnerships (Meta, Google, TikTok)"
+  ],
+  "ai_involvement": true,
+  "pass2_at": "2026-03-09T23:21:26.061Z",
+  "pass5_at": "2026-03-10T00:45:37.547Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses challenges in digital rights infrastructure by serving Researchers, Policymakers, Platform Regulators.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Serves as an information resource for civic actors, researchers, or the public."
+  },
+  "systemic_issue_area": "digital rights infrastructure",
+  "generalizability_notes": "Open-source codebase facilitates replication and adaptation.",
+  "primary_users_or_beneficiaries": [
+    "civic technology researchers",
+    "policymakers and legislative staff",
+    "Platform Regulators",
+    "Tech Companies",
+    "Young Users"
+  ],
+  "underdog_signal": false
 }

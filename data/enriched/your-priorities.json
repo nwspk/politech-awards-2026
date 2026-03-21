@@ -1,141 +1,141 @@
 {
-    "url": "https://yrpri.org",
-    "scraped": {
-        "homepage_last_scraped": "2026-02-09T12:47:55.946Z",
-        "homepage_http_status": 200,
-        "dead_link": false,
-        "homepage_word_count": 1961,
-        "homepage_has_team_page": false,
-        "homepage_has_impact_metrics": false,
-        "scraped_description": "Your Priorities is an idea generation, deliberation   decision-making platform helping governments making better decisions since 2008 in thousands of projects. Explore Your Priorities: https://citizens.is/getting-started/",
-        "scraped_final_url": "https://yrpri.org/"
-    },
-    "collected_at": "2026-03-09T23:21:03.362Z",
-    "collected_by": "collect-enriched-script",
-    "name": "Your Priorities",
-    "tagline": "Idea generation, deliberation & decision-making platform for governments since 2008",
-    "project_type": "Tool/Platform",
-    "org_type": "For-profit/social enterprise",
-    "issue_area": [
-        "participatory_democracy",
-        "govtech",
-        "civic_data"
-    ],
-    "sdg_alignment": [
-        "SDG 16 – Peace, Justice and Strong Institutions"
-    ],
-    "decade_plus": true,
-    "geography": "international",
-    "countries_deployed": [
-        "Iceland",
-        "Portugal",
-        "Bulgaria",
-        "Serbia",
-        "France",
-        "Germany",
-        "Netherlands",
-        "Croatia",
-        "Slovenia",
-        "Kosovo",
-        "Armenia",
-        "Kyrgyzstan",
-        "Thailand",
-        "Taiwan",
-        "Australia",
-        "United Kingdom",
-        "United Arab Emirates"
-    ],
-    "communities_served": [
-        "governments",
-        "citizens",
-        "communities",
-        "schools",
-        "youth",
-        "local authorities"
-    ],
-    "political_units": [
-        "city",
-        "state",
-        "national",
-        "international"
-    ],
-    "open_source": "partial",
-    "github_url": "https://github.com/rbjarnason/your-priorities",
-    "github_stars": 287,
-    "last_commit_date": "2024-12-15",
-    "format": [
-        "platform",
-        "api"
-    ],
-    "founded_year": 2008,
-    "team_size": "medium",
-    "funding_model": [
-        "subscriptions",
-        "public_funding",
-        "grants"
-    ],
-    "known_funders": [
-        "European Commission",
-        "Icelandic government",
-        "Various municipal governments"
-    ],
-    "funding_verified": true,
-    "last_funding_event": "2023",
-    "dependency_risks": "Moderate - relies on Node.js/JavaScript ecosystem and PostgreSQL database; community maintenance of open-source components",
-    "news_articles": [],
-    "academic_citations": [],
-    "awards": [
-        "Recognition as leading participatory democracy platform in Europe"
-    ],
-    "in_civictech_guide": true,
-    "policy_outcomes": [
-        "Participatory budgeting decisions implemented in multiple municipalities",
-        "Citizen consultation processes integrated into government decision-making"
-    ],
-    "causation_strength": "anecdotal",
-    "outcome_methodology": "Case studies and government partnership reports",
-    "replication_materials_available": true,
-    "published_performance_metrics": "User engagement statistics and participation rates reported by deploying governments",
-    "documented_limitations": [
-        "Digital divide concerns in participation",
-        "Language and accessibility barriers"
-    ],
-    "jurisdictional_scope": "international",
-    "failure_modes": [
-        "Low participation rates in some deployments",
-        "Implementation challenges in non-democratic contexts"
-    ],
-    "governance_model": "Social enterprise governance with stakeholder input from government partners and civil society",
-    "curation_criteria": "Community-driven idea prioritization with moderation for relevance and feasibility",
-    "contributor_governance": "Open-source contribution guidelines on GitHub; core team maintains platform direction",
-    "disparity_tracking": "Monitoring of participation demographics across different user groups and geographies",
-    "community_ownership": "Partial - platform operated by social enterprise with government and community stakeholder engagement",
-    "government_partnerships": [
-        {
-            "partner": "Multiple government and local authorities",
-            "nature": "Platform deployment for participatory budgeting and citizen consultation",
-            "country": "Multiple"
-        }
-    ],
-    "ai_involvement": "Minimal - primarily uses algorithmic ranking and filtering for idea prioritization",
-    "pass2_at": "2026-03-09T23:21:53.868Z",
-    "pass5_at": "2026-03-10T00:57:42.579Z",
-    "pass5_jina_words": 17,
-    "pass5_changes": [],
-    "political_relevance_summary": "Your Priorities addresses democratic participation and citizen engagement. Idea generation, deliberation & decision-making platform for governments since 2008.",
-    "movement_building_utility": {
-        "classification": "information_resource",
-        "notes": "Provides civic data or journalism infrastructure"
-    },
-    "systemic_issue_area": "democratic participation access",
-    "generalizability_notes": "Highly generalizable — already deployed internationally and open source, facilitating adoption in new contexts.",
-    "primary_users_or_beneficiaries": [
-        "governments",
-        "citizens",
-        "communities",
-        "schools",
-        "youth",
-        "local authorities"
-    ],
-    "underdog_signal": false
+  "url": "https://yrpri.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:55.946Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1961,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Your Priorities is an idea generation, deliberation   decision-making platform helping governments making better decisions since 2008 in thousands of projects. Explore Your Priorities: https://citizens.is/getting-started/",
+    "scraped_final_url": "https://yrpri.org/"
+  },
+  "collected_at": "2026-03-09T23:21:03.362Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Your Priorities",
+  "tagline": "Idea generation, deliberation & decision-making platform for governments since 2008",
+  "project_type": "Tool/Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "participatory_democracy",
+    "govtech",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": true,
+  "geography": "international",
+  "countries_deployed": [
+    "Iceland",
+    "Portugal",
+    "Bulgaria",
+    "Serbia",
+    "France",
+    "Germany",
+    "Netherlands",
+    "Croatia",
+    "Slovenia",
+    "Kosovo",
+    "Armenia",
+    "Kyrgyzstan",
+    "Thailand",
+    "Taiwan",
+    "Australia",
+    "United Kingdom",
+    "United Arab Emirates"
+  ],
+  "communities_served": [
+    "governments",
+    "citizens",
+    "communities",
+    "schools",
+    "youth",
+    "local authorities"
+  ],
+  "political_units": [
+    "city",
+    "state",
+    "national",
+    "international"
+  ],
+  "open_source": "partial",
+  "github_url": "https://github.com/rbjarnason/your-priorities",
+  "github_stars": 287,
+  "last_commit_date": "2024-12-15",
+  "format": [
+    "platform",
+    "api"
+  ],
+  "founded_year": 2008,
+  "team_size": "medium",
+  "funding_model": [
+    "subscriptions",
+    "public_funding",
+    "grants"
+  ],
+  "known_funders": [
+    "European Commission",
+    "Icelandic government",
+    "Various municipal governments"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2023",
+  "dependency_risks": "Moderate - relies on Node.js/JavaScript ecosystem and PostgreSQL database; community maintenance of open-source components",
+  "news_articles": [],
+  "academic_citations": [],
+  "awards": [
+    "Recognition as leading participatory democracy platform in Europe"
+  ],
+  "in_civictech_guide": true,
+  "policy_outcomes": [
+    "Participatory budgeting decisions implemented in multiple municipalities",
+    "Citizen consultation processes integrated into government decision-making"
+  ],
+  "causation_strength": "anecdotal",
+  "outcome_methodology": "Case studies and government partnership reports",
+  "replication_materials_available": true,
+  "published_performance_metrics": "User engagement statistics and participation rates reported by deploying governments",
+  "documented_limitations": [
+    "Digital divide concerns in participation",
+    "Language and accessibility barriers"
+  ],
+  "jurisdictional_scope": "international",
+  "failure_modes": [
+    "Low participation rates in some deployments",
+    "Implementation challenges in non-democratic contexts"
+  ],
+  "governance_model": "Social enterprise governance with stakeholder input from government partners and civil society",
+  "curation_criteria": "Community-driven idea prioritization with moderation for relevance and feasibility",
+  "contributor_governance": "Open-source contribution guidelines on GitHub; core team maintains platform direction",
+  "disparity_tracking": "Monitoring of participation demographics across different user groups and geographies",
+  "community_ownership": "Partial - platform operated by social enterprise with government and community stakeholder engagement",
+  "government_partnerships": [
+    {
+      "partner": "Multiple government and local authorities",
+      "nature": "Platform deployment for participatory budgeting and citizen consultation",
+      "country": "Multiple"
+    }
+  ],
+  "ai_involvement": "Minimal - primarily uses algorithmic ranking and filtering for idea prioritization",
+  "pass2_at": "2026-03-09T23:21:53.868Z",
+  "pass5_at": "2026-03-10T00:57:42.579Z",
+  "pass5_jina_words": 17,
+  "pass5_changes": [],
+  "political_relevance_summary": "Your Priorities addresses democratic participation and citizen engagement. Idea generation, deliberation & decision-making platform for governments since 2008.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides civic data or journalism infrastructure"
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Highly generalizable — already deployed internationally and open source, facilitating adoption in new contexts.",
+  "primary_users_or_beneficiaries": [
+    "governments",
+    "citizens",
+    "communities",
+    "schools",
+    "youth",
+    "local authorities"
+  ],
+  "underdog_signal": false
 }

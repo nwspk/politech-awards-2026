@@ -1,134 +1,134 @@
 {
-    "url": "https://communities.sunlightfoundation.com/methodology",
-    "scraped": {
-        "homepage_last_scraped": "2026-02-09T12:42:58.485Z",
-        "homepage_http_status": 200,
-        "dead_link": false,
-        "homepage_word_count": 4106,
-        "homepage_has_team_page": true,
-        "homepage_has_impact_metrics": true,
-        "scraped_description": "A guiding framework for data providers, inside and outside of City Hall, to investigate and catalyze community use of information and open data.",
-        "scraped_final_url": "https://communities.sunlightfoundation.com/methodology/"
+  "url": "https://communities.sunlightfoundation.com/methodology",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:42:58.485Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 4106,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "A guiding framework for data providers, inside and outside of City Hall, to investigate and catalyze community use of information and open data.",
+    "scraped_final_url": "https://communities.sunlightfoundation.com/methodology/"
+  },
+  "collected_at": "2026-03-09T23:18:14.567Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Tactical Data Engagement",
+  "tagline": "A framework for local governments to catalyze resident-centered use of open data for community problem-solving",
+  "project_type": "Method",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "participatory_democracy",
+    "govtech",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United States"
+  ],
+  "communities_served": [
+    "local government staff",
+    "community members",
+    "data providers",
+    "marginalized communities"
+  ],
+  "political_units": [
+    "city",
+    "state"
+  ],
+  "open_source": "no",
+  "format": [
+    "report",
+    "course"
+  ],
+  "founded_year": 2013,
+  "team_size": "medium",
+  "funding_model": [
+    "grants"
+  ],
+  "known_funders": [
+    "What Works Cities initiative"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "What Works Cities initiative support",
+  "news_articles": [],
+  "academic_citations": [
+    {
+      "title": "Facebook as a destination marketing tool: Evidence from Italian regional Destination Management Organizations",
+      "year": 2015,
+      "cited_by": 352,
+      "doi": "https://doi.org/10.1016/j.tourman.2015.12.008"
     },
-    "collected_at": "2026-03-09T23:18:14.567Z",
-    "collected_by": "collect-enriched-script",
-    "name": "Tactical Data Engagement",
-    "tagline": "A framework for local governments to catalyze resident-centered use of open data for community problem-solving",
-    "project_type": "Method",
-    "org_type": "Nonprofit/charity",
-    "issue_area": [
-        "participatory_democracy",
-        "govtech",
-        "civic_data"
-    ],
-    "sdg_alignment": [
-        "SDG 16 – Peace, Justice and Strong Institutions"
-    ],
-    "decade_plus": false,
-    "geography": "national",
-    "countries_deployed": [
-        "United States"
-    ],
-    "communities_served": [
-        "local government staff",
-        "community members",
-        "data providers",
-        "marginalized communities"
-    ],
-    "political_units": [
-        "city",
-        "state"
-    ],
-    "open_source": "no",
-    "format": [
-        "report",
-        "course"
-    ],
-    "founded_year": 2013,
-    "team_size": "medium",
-    "funding_model": [
-        "grants"
-    ],
-    "known_funders": [
-        "What Works Cities initiative"
-    ],
-    "funding_verified": true,
-    "last_funding_event": "What Works Cities initiative support",
-    "news_articles": [],
-    "academic_citations": [
-        {
-            "title": "Facebook as a destination marketing tool: Evidence from Italian regional Destination Management Organizations",
-            "year": 2015,
-            "cited_by": 352,
-            "doi": "https://doi.org/10.1016/j.tourman.2015.12.008"
-        },
-        {
-            "title": "The determinants of Facebook social engagement for national tourism organizations' Facebook pages: A quantitative approach",
-            "year": 2017,
-            "cited_by": 127,
-            "doi": "https://doi.org/10.1016/j.jdmm.2017.06.003"
-        },
-        {
-            "title": "Homing Guidance Law for Cooperative Attack of Multiple Missiles",
-            "year": 2009,
-            "cited_by": 616,
-            "doi": "https://doi.org/10.2514/1.40136"
-        }
-    ],
-    "in_civictech_guide": false,
-    "policy_outcomes": [
-        {
-            "description": "Sunlight's Open Cities team helped over 60 U.S. cities enact open data policies",
-            "link": null,
-            "year": null
-        },
-        {
-            "description": "Tracked and analyzed open data policies in over 100 cities, counties, and states",
-            "link": null,
-            "year": null
-        }
-    ],
-    "causation_strength": "anecdotal",
-    "outcome_methodology": "Case study documentation and policy tracking",
-    "replication_materials_available": true,
-    "published_performance_metrics": "Open data policy adoption rates across 60+ cities",
-    "documented_limitations": [
-        "Many local governments publish large amounts of data but have little idea who is using it or for what purposes"
-    ],
-    "jurisdictional_scope": "United States cities, counties, and states",
-    "governance_model": "project_of_larger_org",
-    "curation_criteria": "Focus on resident-centered data use and community problem-solving applications",
-    "contributor_governance": "Sunlight Foundation organizational governance",
-    "disparity_tracking": false,
-    "community_ownership": false,
-    "government_partnerships": [
-        {
-            "partner": "Multiple U.S. cities (60+)",
-            "nature": "Open data policy implementation and support",
-            "country": "United States"
-        }
-    ],
-    "ai_involvement": false,
-    "pass2_at": "2026-03-09T23:21:21.931Z",
-    "pass3_at": "2026-03-09T23:22:12.106Z",
-    "_sources": [
-        "openalex"
-    ],
-    "pass5_at": "2026-03-10T00:44:06.306Z",
-    "pass5_jina_words": 899,
-    "pass5_changes": [],
-    "political_relevance_summary": "Tactical Data Engagement addresses democratic participation and citizen engagement. A framework for local governments to catalyze resident-centered use of open data for community problem-solving.",
-    "movement_building_utility": {
-        "classification": "infrastructure",
-        "notes": "Provides technical infrastructure supporting civic technology ecosystem."
+    {
+      "title": "The determinants of Facebook social engagement for national tourism organizations' Facebook pages: A quantitative approach",
+      "year": 2017,
+      "cited_by": 127,
+      "doi": "https://doi.org/10.1016/j.jdmm.2017.06.003"
     },
-    "systemic_issue_area": "civic data access",
-    "generalizability_notes": "Currently focused on United States; replication materials are available; methodology-based approach is inherently transferable.",
-    "primary_users_or_beneficiaries": [
-        "local government staff",
-        "community members",
-        "data providers",
-        "marginalized communities"
-    ],
-    "underdog_signal": false
+    {
+      "title": "Homing Guidance Law for Cooperative Attack of Multiple Missiles",
+      "year": 2009,
+      "cited_by": 616,
+      "doi": "https://doi.org/10.2514/1.40136"
+    }
+  ],
+  "in_civictech_guide": false,
+  "policy_outcomes": [
+    {
+      "description": "Sunlight's Open Cities team helped over 60 U.S. cities enact open data policies",
+      "link": null,
+      "year": null
+    },
+    {
+      "description": "Tracked and analyzed open data policies in over 100 cities, counties, and states",
+      "link": null,
+      "year": null
+    }
+  ],
+  "causation_strength": "anecdotal",
+  "outcome_methodology": "Case study documentation and policy tracking",
+  "replication_materials_available": true,
+  "published_performance_metrics": "Open data policy adoption rates across 60+ cities",
+  "documented_limitations": [
+    "Many local governments publish large amounts of data but have little idea who is using it or for what purposes"
+  ],
+  "jurisdictional_scope": "United States cities, counties, and states",
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Focus on resident-centered data use and community problem-solving applications",
+  "contributor_governance": "Sunlight Foundation organizational governance",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "government_partnerships": [
+    {
+      "partner": "Multiple U.S. cities (60+)",
+      "nature": "Open data policy implementation and support",
+      "country": "United States"
+    }
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:21.931Z",
+  "pass3_at": "2026-03-09T23:22:12.106Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:44:06.306Z",
+  "pass5_jina_words": 899,
+  "pass5_changes": [],
+  "political_relevance_summary": "Tactical Data Engagement addresses democratic participation and citizen engagement. A framework for local governments to catalyze resident-centered use of open data for community problem-solving.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides technical infrastructure supporting civic technology ecosystem."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Currently focused on United States; replication materials are available; methodology-based approach is inherently transferable.",
+  "primary_users_or_beneficiaries": [
+    "local government staff",
+    "community members",
+    "data providers",
+    "marginalized communities"
+  ],
+  "underdog_signal": false
 }

@@ -1,141 +1,141 @@
 {
-    "url": "https://www.torproject.org",
-    "scraped": {
-        "homepage_last_scraped": "2026-02-09T12:47:40.870Z",
-        "homepage_http_status": 200,
-        "dead_link": false,
-        "homepage_word_count": 420,
-        "homepage_has_team_page": true,
-        "homepage_has_impact_metrics": false,
-        "scraped_description": "Anonymity Online | Defend yourself against tracking and surveillance. Circumvent censorship.",
-        "scraped_final_url": "https://www.torproject.org/"
-    },
-    "collected_at": "2026-03-09T23:21:01.735Z",
-    "collected_by": "collect-enriched-script",
-    "name": "Tor Project",
-    "tagline": "Anonymity Online - Advance human rights and defend privacy through free and open source anonymity and privacy technologies",
-    "project_type": "Tool/Platform",
-    "org_type": "Nonprofit/charity",
-    "issue_area": [
-        "digital_rights",
-        "cybersecurity"
-    ],
-    "sdg_alignment": [
-        "SDG 16 – Peace, Justice and Strong Institutions",
-        "SDG 10 – Reduced Inequalities"
-    ],
-    "decade_plus": true,
-    "geography": "international",
-    "countries_deployed": [
-        "United States",
-        "Global"
-    ],
-    "communities_served": [
-        "journalists",
-        "activists",
-        "researchers",
-        "citizens",
-        "dissidents",
-        "privacy-conscious users"
-    ],
-    "political_units": [
-        "international"
-    ],
-    "open_source": "yes",
-    "github_url": "https://github.com/torproject",
-    "github_stars": 8500,
-    "last_commit_date": "2026-03-08",
-    "format": [
-        "app",
-        "platform"
-    ],
-    "founded_year": 2002,
-    "team_size": "medium",
-    "funding_model": [
-        "grants",
-        "donations"
-    ],
-    "known_funders": [
-        "US Government agencies",
-        "Foundations",
-        "Individual donors"
-    ],
-    "funding_verified": true,
-    "last_funding_event": "2025-09-15",
-    "dependency_risks": [
-        "Reliance on volunteer-run relay network",
-        "Potential government scrutiny and regulation"
-    ],
-    "news_articles": [],
-    "academic_citations": [],
-    "awards": [
-        "Electronic Frontier Foundation Pioneer Award (2012)",
-        "Ars Electronica Golden Nica (2014)",
-        "Multiple academic recognition and citations"
-    ],
-    "in_civictech_guide": false,
-    "wikipedia_page": "https://en.wikipedia.org/wiki/Tor_(anonymity_network)",
-    "policy_outcomes": [
-        "Influenced digital rights advocacy globally",
-        "Referenced in international privacy policy discussions",
-        "Supported by UN human rights initiatives"
-    ],
-    "causation_strength": "correlated",
-    "outcome_methodology": "Observational - usage metrics and user testimonials from journalists and activists",
-    "replication_materials_available": true,
-    "published_performance_metrics": true,
-    "documented_limitations": [
-        "Tor exit nodes can be monitored",
-        "Timing attacks possible",
-        "Slower browsing speeds due to multi-layer encryption"
-    ],
-    "jurisdictional_scope": "International",
-    "failure_modes": [
-        "Potential compromise of relay operators",
-        "Network-level attacks",
-        "User operational security failures"
-    ],
-    "governance_model": "foundation",
-    "curation_criteria": "Open source contribution guidelines; code review process; security audit requirements",
-    "contributor_governance": "Meritocratic; community-driven development with core team oversight",
-    "disparity_tracking": false,
-    "community_ownership": true,
-    "controversies": [
-        "Use by criminal actors on dark web",
-        "Periodic government pressure and regulation attempts",
-        "Concerns about law enforcement access"
-    ],
-    "political_bias_allegations": false,
-    "legal_regulatory_issues": [
-        "Varying legal status across jurisdictions",
-        "Potential restrictions in authoritarian regimes"
-    ],
-    "government_partnerships": [
-        {
-            "partner": "US Government agencies",
-            "nature": "Funding",
-            "country": "United States"
-        }
-    ],
-    "ai_involvement": false,
-    "pass2_at": "2026-03-09T23:21:52.537Z",
-    "pass5_at": "2026-03-10T00:56:44.753Z",
-    "pass5_jina_words": 427,
-    "pass5_changes": [],
-    "political_relevance_summary": "Tor Project addresses digital rights and online freedoms. Anonymity Online - Advance human rights and defend privacy through free and open source anonymity and privacy technologies.",
-    "movement_building_utility": {
-        "classification": "infrastructure",
-        "notes": "Platform infrastructure for civic/government technology"
-    },
-    "systemic_issue_area": "digital rights infrastructure",
-    "generalizability_notes": "Highly generalizable — already deployed internationally and open source, facilitating adoption in new contexts.",
-    "primary_users_or_beneficiaries": [
-        "journalists",
-        "activists",
-        "researchers",
-        "citizens",
-        "dissidents",
-        "privacy-conscious users"
-    ],
-    "underdog_signal": false
+  "url": "https://www.torproject.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:40.870Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 420,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Anonymity Online | Defend yourself against tracking and surveillance. Circumvent censorship.",
+    "scraped_final_url": "https://www.torproject.org/"
+  },
+  "collected_at": "2026-03-09T23:21:01.735Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Tor Project",
+  "tagline": "Anonymity Online - Advance human rights and defend privacy through free and open source anonymity and privacy technologies",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "digital_rights",
+    "cybersecurity"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions",
+    "SDG 10 – Reduced Inequalities"
+  ],
+  "decade_plus": true,
+  "geography": "international",
+  "countries_deployed": [
+    "United States",
+    "Global"
+  ],
+  "communities_served": [
+    "journalists",
+    "activists",
+    "researchers",
+    "citizens",
+    "dissidents",
+    "privacy-conscious users"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/torproject",
+  "github_stars": 8500,
+  "last_commit_date": "2026-03-08",
+  "format": [
+    "app",
+    "platform"
+  ],
+  "founded_year": 2002,
+  "team_size": "medium",
+  "funding_model": [
+    "grants",
+    "donations"
+  ],
+  "known_funders": [
+    "US Government agencies",
+    "Foundations",
+    "Individual donors"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2025-09-15",
+  "dependency_risks": [
+    "Reliance on volunteer-run relay network",
+    "Potential government scrutiny and regulation"
+  ],
+  "news_articles": [],
+  "academic_citations": [],
+  "awards": [
+    "Electronic Frontier Foundation Pioneer Award (2012)",
+    "Ars Electronica Golden Nica (2014)",
+    "Multiple academic recognition and citations"
+  ],
+  "in_civictech_guide": false,
+  "wikipedia_page": "https://en.wikipedia.org/wiki/Tor_(anonymity_network)",
+  "policy_outcomes": [
+    "Influenced digital rights advocacy globally",
+    "Referenced in international privacy policy discussions",
+    "Supported by UN human rights initiatives"
+  ],
+  "causation_strength": "correlated",
+  "outcome_methodology": "Observational - usage metrics and user testimonials from journalists and activists",
+  "replication_materials_available": true,
+  "published_performance_metrics": true,
+  "documented_limitations": [
+    "Tor exit nodes can be monitored",
+    "Timing attacks possible",
+    "Slower browsing speeds due to multi-layer encryption"
+  ],
+  "jurisdictional_scope": "International",
+  "failure_modes": [
+    "Potential compromise of relay operators",
+    "Network-level attacks",
+    "User operational security failures"
+  ],
+  "governance_model": "foundation",
+  "curation_criteria": "Open source contribution guidelines; code review process; security audit requirements",
+  "contributor_governance": "Meritocratic; community-driven development with core team oversight",
+  "disparity_tracking": false,
+  "community_ownership": true,
+  "controversies": [
+    "Use by criminal actors on dark web",
+    "Periodic government pressure and regulation attempts",
+    "Concerns about law enforcement access"
+  ],
+  "political_bias_allegations": false,
+  "legal_regulatory_issues": [
+    "Varying legal status across jurisdictions",
+    "Potential restrictions in authoritarian regimes"
+  ],
+  "government_partnerships": [
+    {
+      "partner": "US Government agencies",
+      "nature": "Funding",
+      "country": "United States"
+    }
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:52.537Z",
+  "pass5_at": "2026-03-10T00:56:44.753Z",
+  "pass5_jina_words": 427,
+  "pass5_changes": [],
+  "political_relevance_summary": "Tor Project addresses digital rights and online freedoms. Anonymity Online - Advance human rights and defend privacy through free and open source anonymity and privacy technologies.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Platform infrastructure for civic/government technology"
+  },
+  "systemic_issue_area": "digital rights infrastructure",
+  "generalizability_notes": "Highly generalizable — already deployed internationally and open source, facilitating adoption in new contexts.",
+  "primary_users_or_beneficiaries": [
+    "journalists",
+    "activists",
+    "researchers",
+    "citizens",
+    "dissidents",
+    "privacy-conscious users"
+  ],
+  "underdog_signal": false
 }

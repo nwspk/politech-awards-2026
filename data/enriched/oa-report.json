@@ -1,134 +1,134 @@
 {
-    "url": "https://oa.report",
-    "collected_at": "2026-03-09T23:20:18.578Z",
-    "collected_by": "collect-enriched-script",
-    "name": "OA.Report",
-    "tagline": "Track Open Access policy compliance and research openness across funded publications",
-    "project_type": "Tool/Platform",
-    "org_type": "For-profit/social enterprise",
-    "issue_area": [
-        "civic_data"
-    ],
-    "sdg_alignment": [
-        "SDG 16 – Peace, Justice and Strong Institutions",
-        "SDG 17 – Partnerships for the Goals"
-    ],
-    "decade_plus": false,
-    "geography": "international",
-    "countries_deployed": [
-        "United States",
-        "United Kingdom",
-        "Global"
-    ],
-    "communities_served": [
-        "research funders",
-        "research organizations",
-        "grant managers",
-        "researchers"
-    ],
-    "political_units": [
-        "international"
-    ],
-    "open_source": "no",
-    "github_url": null,
-    "github_stars": null,
-    "last_commit_date": null,
-    "format": [
-        "platform",
-        "api",
-        "dashboard"
-    ],
-    "founded_year": 2019,
-    "team_size": "small",
-    "funding_model": [
-        "subscriptions",
-        "grants"
-    ],
-    "known_funders": [
-        "Gates Foundation",
-        "Wellcome Trust",
-        "Howard Hughes Medical Institute",
-        "Michael J. Fox Foundation",
-        "Templeton World Charity Foundation"
-    ],
-    "funding_verified": true,
-    "last_funding_event": "2023",
-    "dependency_risks": [
-        "Reliance on third-party data sources (OpenAlex, Crossref)",
-        "Subscription-based revenue model dependency"
-    ],
-    "news_articles": [],
-    "academic_citations": [
-        {
-            "title": "From policy to practice: Lessons learned from an open science funding initiative",
-            "year": 2023,
-            "cited_by": 4,
-            "doi": "https://doi.org/10.1371/journal.pcbi.1011626"
-        }
-    ],
-    "awards": [],
-    "in_civictech_guide": false,
-    "wikipedia_page": null,
-    "policy_outcomes": [
-        {
-            "description": "Enables research funders to measure and enforce Open Access policy compliance across their funded research portfolios",
-            "link": null,
-            "year": null
-        }
-    ],
-    "causation_strength": "correlated",
-    "outcome_methodology": "Observational tracking of Open Access compliance rates across funder portfolios using bibliographic data integration",
-    "replication_materials_available": false,
-    "preregistered_studies": [],
-    "published_performance_metrics": null,
-    "documented_limitations": [
-        "Coverage limited to publications indexed in OpenAlex and Crossref",
-        "Relies on accurate funder metadata in publication records",
-        "May not capture all open access variants (green, gold, hybrid)"
-    ],
-    "jurisdictional_scope": "International, primarily serving major research funders in US and UK",
-    "failure_modes": [
-        "Data quality issues from upstream sources",
-        "Incomplete funder attribution in publication metadata"
-    ],
-    "governance_model": "LLC",
-    "curation_criteria": "Tracks publications linked to funded research through funder identifiers and grant metadata",
-    "contributor_governance": null,
-    "disparity_tracking": null,
-    "community_ownership": false,
-    "controversies": [],
-    "political_bias_allegations": null,
-    "legal_regulatory_issues": null,
-    "elections_used_in": [],
-    "government_partnerships": [],
-    "ai_involvement": null,
-    "pass2_at": "2026-03-09T23:21:35.588Z",
-    "pass3_at": "2026-03-09T23:22:48.768Z",
-    "_sources": [
-        "openalex"
-    ],
-    "scraped": {
-        "homepage_last_scraped": "2026-02-09T12:45:19.797Z",
-        "homepage_http_status": 200,
-        "dead_link": false,
-        "homepage_word_count": 696,
-        "homepage_has_team_page": false,
-        "homepage_has_impact_metrics": false,
-        "scraped_description": "Find your publications, measure their openness, and take action to increase your Open Access policy compliance.",
-        "scraped_final_url": "https://oa.report/"
-    },
-    "political_relevance_summary": "OA.Report addresses barriers to civic data access and transparency, making public or institutional data more available for accountability, research, and informed civic engagement.",
-    "movement_building_utility": {
-        "classification": "infrastructure",
-        "notes": "OA.Report provides foundational data infrastructure, standards, or platforms that other civic technology efforts build upon."
-    },
-    "systemic_issue_area": "information freedom and open access",
-    "generalizability_notes": "Moderate generalizability. OA.Report operates internationally but is proprietary, so replication would require licensing or rebuilding rather than direct adoption.",
-    "primary_users_or_beneficiaries": [
-        "research funders",
-        "research organizations",
-        "grant managers",
-        "researchers"
-    ],
-    "underdog_signal": true
+  "url": "https://oa.report",
+  "collected_at": "2026-03-09T23:20:18.578Z",
+  "collected_by": "collect-enriched-script",
+  "name": "OA.Report",
+  "tagline": "Track Open Access policy compliance and research openness across funded publications",
+  "project_type": "Tool/Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions",
+    "SDG 17 – Partnerships for the Goals"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "United States",
+    "United Kingdom",
+    "Global"
+  ],
+  "communities_served": [
+    "research funders",
+    "research organizations",
+    "grant managers",
+    "researchers"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "no",
+  "github_url": null,
+  "github_stars": null,
+  "last_commit_date": null,
+  "format": [
+    "platform",
+    "api",
+    "dashboard"
+  ],
+  "founded_year": 2019,
+  "team_size": "small",
+  "funding_model": [
+    "subscriptions",
+    "grants"
+  ],
+  "known_funders": [
+    "Gates Foundation",
+    "Wellcome Trust",
+    "Howard Hughes Medical Institute",
+    "Michael J. Fox Foundation",
+    "Templeton World Charity Foundation"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2023",
+  "dependency_risks": [
+    "Reliance on third-party data sources (OpenAlex, Crossref)",
+    "Subscription-based revenue model dependency"
+  ],
+  "news_articles": [],
+  "academic_citations": [
+    {
+      "title": "From policy to practice: Lessons learned from an open science funding initiative",
+      "year": 2023,
+      "cited_by": 4,
+      "doi": "https://doi.org/10.1371/journal.pcbi.1011626"
+    }
+  ],
+  "awards": [],
+  "in_civictech_guide": false,
+  "wikipedia_page": null,
+  "policy_outcomes": [
+    {
+      "description": "Enables research funders to measure and enforce Open Access policy compliance across their funded research portfolios",
+      "link": null,
+      "year": null
+    }
+  ],
+  "causation_strength": "correlated",
+  "outcome_methodology": "Observational tracking of Open Access compliance rates across funder portfolios using bibliographic data integration",
+  "replication_materials_available": false,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": [
+    "Coverage limited to publications indexed in OpenAlex and Crossref",
+    "Relies on accurate funder metadata in publication records",
+    "May not capture all open access variants (green, gold, hybrid)"
+  ],
+  "jurisdictional_scope": "International, primarily serving major research funders in US and UK",
+  "failure_modes": [
+    "Data quality issues from upstream sources",
+    "Incomplete funder attribution in publication metadata"
+  ],
+  "governance_model": "LLC",
+  "curation_criteria": "Tracks publications linked to funded research through funder identifiers and grant metadata",
+  "contributor_governance": null,
+  "disparity_tracking": null,
+  "community_ownership": false,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": null,
+  "pass2_at": "2026-03-09T23:21:35.588Z",
+  "pass3_at": "2026-03-09T23:22:48.768Z",
+  "_sources": [
+    "openalex"
+  ],
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:19.797Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 696,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Find your publications, measure their openness, and take action to increase your Open Access policy compliance.",
+    "scraped_final_url": "https://oa.report/"
+  },
+  "political_relevance_summary": "OA.Report addresses barriers to civic data access and transparency, making public or institutional data more available for accountability, research, and informed civic engagement.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "OA.Report provides foundational data infrastructure, standards, or platforms that other civic technology efforts build upon."
+  },
+  "systemic_issue_area": "information freedom and open access",
+  "generalizability_notes": "Moderate generalizability. OA.Report operates internationally but is proprietary, so replication would require licensing or rebuilding rather than direct adoption.",
+  "primary_users_or_beneficiaries": [
+    "research funders",
+    "research organizations",
+    "grant managers",
+    "researchers"
+  ],
+  "underdog_signal": true
 }

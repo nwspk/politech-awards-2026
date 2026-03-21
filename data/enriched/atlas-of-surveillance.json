@@ -1,111 +1,111 @@
 {
-    "url": "https://atlasofsurveillance.org",
-    "scraped": {
-        "homepage_last_scraped": "2026-02-09T12:42:38.195Z",
-        "homepage_http_status": 200,
-        "dead_link": false,
-        "homepage_word_count": 226,
-        "homepage_has_team_page": true,
-        "homepage_has_impact_metrics": false,
-        "scraped_description": "Atlas of Surveillance is a project of the Electronic Frontier Foundation",
-        "scraped_final_url": "https://www.atlasofsurveillance.org/"
-    },
-    "collected_at": "2026-03-09T23:18:08.121Z",
-    "collected_by": "collect-enriched-script",
-    "name": "Atlas of Surveillance",
-    "tagline": "Documenting Police Tech in Our Communities with Open Source Research",
-    "project_type": "Database",
-    "org_type": "Nonprofit/charity",
-    "issue_area": [
-        "civic_data",
-        "digital_rights",
-        "advocacy_tech"
-    ],
-    "sdg_alignment": [
-        "SDG 16 – Peace, Justice and Strong Institutions"
-    ],
-    "decade_plus": false,
-    "geography": "national",
-    "countries_deployed": [
-        "United States"
-    ],
-    "communities_served": [
-        "researchers",
-        "journalists",
-        "citizens",
-        "advocacy organizations"
-    ],
-    "political_units": [
-        "federal",
-        "state",
-        "city"
-    ],
-    "open_source": "partial",
-    "github_url": "https://github.com/EFForg/atlas-of-surveillance",
-    "github_stars": 892,
-    "last_commit_date": "2025-12-15",
-    "founded_year": 2017,
-    "team_size": "medium",
-    "funding_model": [
-        "grants",
-        "donations"
-    ],
-    "known_funders": [
-        "Electronic Frontier Foundation"
-    ],
-    "funding_verified": true,
-    "last_funding_event": "2025-06-01",
-    "dependency_risks": [
-        "Reliance on Electronic Frontier Foundation for institutional support",
-        "Dependent on volunteer and student contributions for data collection"
-    ],
-    "news_articles": [
-        "https://www.eff.org/deeplinks/2017/12/atlas-surveillance-launched",
-        "https://www.wired.com/story/atlas-of-surveillance-police-technology"
-    ],
-    "academic_citations": [],
-    "awards": [
-        "EFF Pioneer Award (2018)"
-    ],
-    "in_civictech_guide": true,
-    "policy_outcomes": [
-        "Informed local surveillance ordinances in multiple cities",
-        "Used in advocacy campaigns for police accountability"
-    ],
-    "causation_strength": "correlated",
-    "outcome_methodology": "case study documentation",
-    "replication_materials_available": true,
-    "published_performance_metrics": "Data completeness varies by jurisdiction (40-95% coverage)",
-    "documented_limitations": [
-        "Data compiled from public and non-profit sources with varying completeness across jurisdictions"
-    ],
-    "jurisdictional_scope": "United States",
-    "failure_modes": [
-        "Incomplete data collection in rural jurisdictions",
-        "Lag in updating technology deployments"
-    ],
-    "governance_model": "project_of_larger_org",
-    "curation_criteria": "Public records, FOIA requests, and non-profit research on police surveillance technology",
-    "contributor_governance": "Community contributions reviewed by EFF staff; open submission process for verified data",
-    "disparity_tracking": "Tracks disparities in surveillance technology deployment across jurisdictions by demographics and geography",
-    "community_ownership": "Community-contributed data with EFF institutional oversight",
-    "ai_involvement": "No direct AI involvement; database used to analyze AI-enabled surveillance systems",
-    "pass2_at": "2026-03-09T23:21:23.795Z",
-    "pass5_at": "2026-03-10T00:47:21.323Z",
-    "pass5_jina_words": 298,
-    "pass5_changes": [],
-    "political_relevance_summary": "Confronts threats to digital rights and civil liberties by equipping advocates and the public with information and tools.",
-    "movement_building_utility": {
-        "classification": "advocacy_amplifier",
-        "notes": "Provides evidence and data that amplifies advocacy and accountability efforts."
-    },
-    "systemic_issue_area": "civic data access",
-    "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Could be adapted for other national contexts with localization effort. Methodology and approach could inform similar efforts in other jurisdictions.",
-    "primary_users_or_beneficiaries": [
-        "civic technology researchers",
-        "investigative journalists",
-        "individuals concerned about digital rights and privacy",
-        "advocacy organizations"
-    ],
-    "underdog_signal": false
+  "url": "https://atlasofsurveillance.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:42:38.195Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 226,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Atlas of Surveillance is a project of the Electronic Frontier Foundation",
+    "scraped_final_url": "https://www.atlasofsurveillance.org/"
+  },
+  "collected_at": "2026-03-09T23:18:08.121Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Atlas of Surveillance",
+  "tagline": "Documenting Police Tech in Our Communities with Open Source Research",
+  "project_type": "Database",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "civic_data",
+    "digital_rights",
+    "advocacy_tech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United States"
+  ],
+  "communities_served": [
+    "researchers",
+    "journalists",
+    "citizens",
+    "advocacy organizations"
+  ],
+  "political_units": [
+    "federal",
+    "state",
+    "city"
+  ],
+  "open_source": "partial",
+  "github_url": "https://github.com/EFForg/atlas-of-surveillance",
+  "github_stars": 892,
+  "last_commit_date": "2025-12-15",
+  "founded_year": 2017,
+  "team_size": "medium",
+  "funding_model": [
+    "grants",
+    "donations"
+  ],
+  "known_funders": [
+    "Electronic Frontier Foundation"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2025-06-01",
+  "dependency_risks": [
+    "Reliance on Electronic Frontier Foundation for institutional support",
+    "Dependent on volunteer and student contributions for data collection"
+  ],
+  "news_articles": [
+    "https://www.eff.org/deeplinks/2017/12/atlas-surveillance-launched",
+    "https://www.wired.com/story/atlas-of-surveillance-police-technology"
+  ],
+  "academic_citations": [],
+  "awards": [
+    "EFF Pioneer Award (2018)"
+  ],
+  "in_civictech_guide": true,
+  "policy_outcomes": [
+    "Informed local surveillance ordinances in multiple cities",
+    "Used in advocacy campaigns for police accountability"
+  ],
+  "causation_strength": "correlated",
+  "outcome_methodology": "case study documentation",
+  "replication_materials_available": true,
+  "published_performance_metrics": "Data completeness varies by jurisdiction (40-95% coverage)",
+  "documented_limitations": [
+    "Data compiled from public and non-profit sources with varying completeness across jurisdictions"
+  ],
+  "jurisdictional_scope": "United States",
+  "failure_modes": [
+    "Incomplete data collection in rural jurisdictions",
+    "Lag in updating technology deployments"
+  ],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Public records, FOIA requests, and non-profit research on police surveillance technology",
+  "contributor_governance": "Community contributions reviewed by EFF staff; open submission process for verified data",
+  "disparity_tracking": "Tracks disparities in surveillance technology deployment across jurisdictions by demographics and geography",
+  "community_ownership": "Community-contributed data with EFF institutional oversight",
+  "ai_involvement": "No direct AI involvement; database used to analyze AI-enabled surveillance systems",
+  "pass2_at": "2026-03-09T23:21:23.795Z",
+  "pass5_at": "2026-03-10T00:47:21.323Z",
+  "pass5_jina_words": 298,
+  "pass5_changes": [],
+  "political_relevance_summary": "Confronts threats to digital rights and civil liberties by equipping advocates and the public with information and tools.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Provides evidence and data that amplifies advocacy and accountability efforts."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Could be adapted for other national contexts with localization effort. Methodology and approach could inform similar efforts in other jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "civic technology researchers",
+    "investigative journalists",
+    "individuals concerned about digital rights and privacy",
+    "advocacy organizations"
+  ],
+  "underdog_signal": false
 }

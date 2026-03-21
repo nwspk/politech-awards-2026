@@ -1,120 +1,120 @@
 {
-    "url": "https://bsky.app",
-    "scraped": {
-        "homepage_last_scraped": "2026-02-09T12:42:41.103Z",
-        "homepage_http_status": 200,
-        "dead_link": false,
-        "homepage_word_count": 40,
-        "homepage_has_team_page": false,
-        "homepage_has_impact_metrics": false,
-        "scraped_description": "Social media as it should be. Find your community among millions of users, unleash your creativity, and have some fun again.",
-        "scraped_final_url": "https://bsky.app/"
-    },
-    "collected_at": "2026-03-09T23:18:13.761Z",
-    "collected_by": "collect-enriched-script",
-    "name": "Bluesky",
-    "tagline": "Open social media platform built on the AT Protocol",
-    "project_type": "Platform",
-    "org_type": "For-profit/social enterprise",
-    "issue_area": [
-        "digital_rights",
-        "media_journalism",
-        "disinformation"
-    ],
-    "sdg_alignment": [
-        "SDG 16 – Peace, Justice and Strong Institutions"
-    ],
-    "decade_plus": false,
-    "geography": "international",
-    "countries_deployed": [
-        "United States",
-        "United Kingdom",
-        "Canada",
-        "Australia",
-        "and others"
-    ],
-    "communities_served": [
-        "journalists",
-        "researchers",
-        "citizens",
-        "content creators"
-    ],
-    "political_units": [
-        "international"
-    ],
-    "open_source": "partial",
-    "github_url": "https://github.com/bluesky-social",
-    "github_stars": 8500,
-    "last_commit_date": "2026-03-08",
-    "format": [
-        "platform",
-        "api"
-    ],
-    "founded_year": 2021,
-    "team_size": "medium",
-    "funding_model": [
-        "vc"
-    ],
-    "known_funders": [
-        "Sequoia Capital",
-        "Benchmark",
-        "Khosla Ventures"
-    ],
-    "funding_verified": true,
-    "last_funding_event": "2024-05-15",
-    "dependency_risks": [
-        "Reliance on AT Protocol adoption",
-        "Competitive pressure from established social platforms",
-        "Moderation at scale challenges"
-    ],
-    "news_articles": [],
-    "academic_citations": [],
-    "awards": [
-        "TechCrunch Disrupt Award Finalist (2023)"
-    ],
-    "in_civictech_guide": false,
-    "wikipedia_page": "https://en.wikipedia.org/wiki/Bluesky_(social_network)",
-    "replication_materials_available": false,
-    "published_performance_metrics": "User growth metrics published quarterly; moderation statistics available in transparency reports",
-    "documented_limitations": [
-        "Early-stage platform with smaller user base than competitors",
-        "Moderation infrastructure still developing",
-        "Limited third-party app ecosystem at launch"
-    ],
-    "jurisdictional_scope": "International",
-    "failure_modes": [
-        "User adoption challenges",
-        "Moderation scalability",
-        "Interoperability complexity"
-    ],
-    "governance_model": "LLC",
-    "curation_criteria": "Community-driven moderation with algorithmic feed customization; open-source moderation services",
-    "contributor_governance": "Open contribution model for AT Protocol; community input on platform features through GitHub discussions",
-    "disparity_tracking": false,
-    "community_ownership": "Limited; platform controlled by Bluesky PBC with community input mechanisms",
-    "controversies": [
-        "Moderation decisions and transparency concerns",
-        "Debate over decentralization claims vs. centralized control"
-    ],
-    "political_bias_allegations": "Allegations of left-leaning user base and moderation bias from conservative users (2023-2024)",
-    "legal_regulatory_issues": "Subject to EU Digital Services Act compliance; ongoing regulatory scrutiny of content moderation practices",
-    "ai_involvement": "Machine learning used for content recommendation and moderation assistance; algorithmic feed personalization",
-    "pass2_at": "2026-03-09T23:21:23.762Z",
-    "pass5_at": "2026-03-10T00:47:21.751Z",
-    "pass5_jina_words": 266,
-    "pass5_changes": [],
-    "political_relevance_summary": "Addresses threats to digital autonomy and privacy rights that affect civic participation and civil liberties.",
-    "movement_building_utility": {
-        "classification": "infrastructure",
-        "notes": "Provides foundational technical infrastructure for civic technology."
-    },
-    "systemic_issue_area": "digital rights infrastructure",
-    "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (5 countries), demonstrating cross-context adaptability.",
-    "primary_users_or_beneficiaries": [
-        "investigative journalists",
-        "civic technology researchers",
-        "individuals concerned about digital rights and privacy",
-        "content creators"
-    ],
-    "underdog_signal": false
+  "url": "https://bsky.app",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:42:41.103Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 40,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Social media as it should be. Find your community among millions of users, unleash your creativity, and have some fun again.",
+    "scraped_final_url": "https://bsky.app/"
+  },
+  "collected_at": "2026-03-09T23:18:13.761Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Bluesky",
+  "tagline": "Open social media platform built on the AT Protocol",
+  "project_type": "Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "digital_rights",
+    "media_journalism",
+    "disinformation"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "United States",
+    "United Kingdom",
+    "Canada",
+    "Australia",
+    "and others"
+  ],
+  "communities_served": [
+    "journalists",
+    "researchers",
+    "citizens",
+    "content creators"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "partial",
+  "github_url": "https://github.com/bluesky-social",
+  "github_stars": 8500,
+  "last_commit_date": "2026-03-08",
+  "format": [
+    "platform",
+    "api"
+  ],
+  "founded_year": 2021,
+  "team_size": "medium",
+  "funding_model": [
+    "vc"
+  ],
+  "known_funders": [
+    "Sequoia Capital",
+    "Benchmark",
+    "Khosla Ventures"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2024-05-15",
+  "dependency_risks": [
+    "Reliance on AT Protocol adoption",
+    "Competitive pressure from established social platforms",
+    "Moderation at scale challenges"
+  ],
+  "news_articles": [],
+  "academic_citations": [],
+  "awards": [
+    "TechCrunch Disrupt Award Finalist (2023)"
+  ],
+  "in_civictech_guide": false,
+  "wikipedia_page": "https://en.wikipedia.org/wiki/Bluesky_(social_network)",
+  "replication_materials_available": false,
+  "published_performance_metrics": "User growth metrics published quarterly; moderation statistics available in transparency reports",
+  "documented_limitations": [
+    "Early-stage platform with smaller user base than competitors",
+    "Moderation infrastructure still developing",
+    "Limited third-party app ecosystem at launch"
+  ],
+  "jurisdictional_scope": "International",
+  "failure_modes": [
+    "User adoption challenges",
+    "Moderation scalability",
+    "Interoperability complexity"
+  ],
+  "governance_model": "LLC",
+  "curation_criteria": "Community-driven moderation with algorithmic feed customization; open-source moderation services",
+  "contributor_governance": "Open contribution model for AT Protocol; community input on platform features through GitHub discussions",
+  "disparity_tracking": false,
+  "community_ownership": "Limited; platform controlled by Bluesky PBC with community input mechanisms",
+  "controversies": [
+    "Moderation decisions and transparency concerns",
+    "Debate over decentralization claims vs. centralized control"
+  ],
+  "political_bias_allegations": "Allegations of left-leaning user base and moderation bias from conservative users (2023-2024)",
+  "legal_regulatory_issues": "Subject to EU Digital Services Act compliance; ongoing regulatory scrutiny of content moderation practices",
+  "ai_involvement": "Machine learning used for content recommendation and moderation assistance; algorithmic feed personalization",
+  "pass2_at": "2026-03-09T23:21:23.762Z",
+  "pass5_at": "2026-03-10T00:47:21.751Z",
+  "pass5_jina_words": 266,
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses threats to digital autonomy and privacy rights that affect civic participation and civil liberties.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides foundational technical infrastructure for civic technology."
+  },
+  "systemic_issue_area": "digital rights infrastructure",
+  "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (5 countries), demonstrating cross-context adaptability.",
+  "primary_users_or_beneficiaries": [
+    "investigative journalists",
+    "civic technology researchers",
+    "individuals concerned about digital rights and privacy",
+    "content creators"
+  ],
+  "underdog_signal": false
 }

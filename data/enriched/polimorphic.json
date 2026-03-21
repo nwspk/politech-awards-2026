@@ -1,165 +1,165 @@
 {
-    "url": "https://www.polimorphic.com",
-    "scraped": {
-        "homepage_last_scraped": "2026-02-09T12:47:33.184Z",
-        "homepage_http_status": 200,
-        "dead_link": false,
-        "homepage_word_count": 1660,
-        "homepage_has_team_page": false,
-        "homepage_has_impact_metrics": false,
-        "scraped_description": "We&#x27;re on a mission to create technology that lets governments of all sizes deliver “for the people.&quot; Our AI chat, voice, CRM, and Workflow solutions allow local governments to meet resident service demands, while streamlining internal operations.",
-        "scraped_final_url": "https://www.polimorphic.com/"
+  "url": "https://www.polimorphic.com",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:33.184Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1660,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "We&#x27;re on a mission to create technology that lets governments of all sizes deliver “for the people.&quot; Our AI chat, voice, CRM, and Workflow solutions allow local governments to meet resident service demands, while streamlining internal operations.",
+    "scraped_final_url": "https://www.polimorphic.com/"
+  },
+  "collected_at": "2026-03-09T23:20:58.896Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Polimorphic",
+  "tagline": "AI-powered platform for service-first government operations and resident engagement",
+  "project_type": "Tool/Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "govtech",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United States"
+  ],
+  "communities_served": [
+    "local government agencies",
+    "city and county administrators",
+    "residents",
+    "government IT departments"
+  ],
+  "political_units": [
+    "city",
+    "state",
+    "federal"
+  ],
+  "open_source": "no",
+  "format": [
+    "platform",
+    "api",
+    "app"
+  ],
+  "team_size": "medium",
+  "funding_model": [
+    "vc",
+    "subscriptions"
+  ],
+  "funding_verified": false,
+  "dependency_risks": [
+    "Proprietary platform dependency",
+    "Vendor lock-in risk for government clients"
+  ],
+  "news_articles": [],
+  "academic_citations": [
+    {
+      "title": "POLIMORPHIC CHARACTERIZATION OF ESR1 AND FOXL2 GENES AND THE ASSOCIATION OF THEIR INTERACTION WITH PRODUCTIVE TRAITS OF BROWN LOCAL IRAQI CHICKENS",
+      "year": 2021,
+      "cited_by": 10,
+      "doi": "https://doi.org/10.36103/ijas.v52i6.1480"
     },
-    "collected_at": "2026-03-09T23:20:58.896Z",
-    "collected_by": "collect-enriched-script",
-    "name": "Polimorphic",
-    "tagline": "AI-powered platform for service-first government operations and resident engagement",
-    "project_type": "Tool/Platform",
-    "org_type": "For-profit/social enterprise",
-    "issue_area": [
-        "govtech",
-        "civic_data"
-    ],
-    "sdg_alignment": [
-        "SDG 16 – Peace, Justice and Strong Institutions"
-    ],
-    "decade_plus": false,
-    "geography": "national",
-    "countries_deployed": [
-        "United States"
-    ],
-    "communities_served": [
-        "local government agencies",
-        "city and county administrators",
-        "residents",
-        "government IT departments"
-    ],
-    "political_units": [
-        "city",
-        "state",
-        "federal"
-    ],
-    "open_source": "no",
-    "format": [
-        "platform",
-        "api",
-        "app"
-    ],
-    "team_size": "medium",
-    "funding_model": [
-        "vc",
-        "subscriptions"
-    ],
-    "funding_verified": false,
-    "dependency_risks": [
-        "Proprietary platform dependency",
-        "Vendor lock-in risk for government clients"
-    ],
-    "news_articles": [],
-    "academic_citations": [
-        {
-            "title": "POLIMORPHIC CHARACTERIZATION OF ESR1 AND FOXL2 GENES AND THE ASSOCIATION OF THEIR INTERACTION WITH PRODUCTIVE TRAITS OF BROWN LOCAL IRAQI CHICKENS",
-            "year": 2021,
-            "cited_by": 10,
-            "doi": "https://doi.org/10.36103/ijas.v52i6.1480"
-        },
-        {
-            "title": "Analysis of polimorphic NORs in<i>Alouatta</i>species (Primates, Atelidae)",
-            "year": 1999,
-            "cited_by": 3,
-            "doi": "https://doi.org/10.1080/00087114.1998.10589170"
-        },
-        {
-            "title": "The association of polimorphic TH01 marker with schizophrenia in Poland",
-            "year": 2006,
-            "cited_by": 1,
-            "doi": "https://doi.org/10.1016/j.ics.2005.09.134"
-        }
-    ],
-    "awards": [
-        {
-            "name": "GovTech 100",
-            "year": null
-        },
-        {
-            "name": "Polimorphic Service-First Award Winners",
-            "year": 2025
-        }
-    ],
-    "in_civictech_guide": false,
-    "policy_outcomes": [
-        {
-            "description": "Littleton, CO reduced resident calls by 50% through implementation",
-            "link": null,
-            "year": null
-        },
-        {
-            "description": "Newport implemented 24/7 voice line for resident services",
-            "link": null,
-            "year": null
-        },
-        {
-            "description": "Passaic County improved paratransit resident connectivity",
-            "link": null,
-            "year": null
-        }
-    ],
-    "causation_strength": "anecdotal",
-    "outcome_methodology": "Case study reports from government partners; methodology not independently verified",
-    "replication_materials_available": false,
-    "published_performance_metrics": "Claims of up to 90% voicemail reduction and 50% call reduction in case studies, but methodology not detailed",
-    "documented_limitations": [
-        "Proprietary platform limits independent verification of claims",
-        "Case study outcomes lack rigorous methodology documentation",
-        "No publicly available impact evaluation framework"
-    ],
-    "jurisdictional_scope": "United States local government",
-    "failure_modes": [
-        "Potential AI chatbot misunderstandings in complex government service requests",
-        "Vendor dependency risk if company ceases operations"
-    ],
-    "governance_model": "LLC",
-    "curation_criteria": "Proprietary; not publicly documented",
-    "contributor_governance": "Not applicable - proprietary commercial platform",
-    "community_ownership": false,
-    "government_partnerships": [
-        {
-            "partner": "Littleton, CO",
-            "nature": "Customer/implementation",
-            "country": "United States"
-        },
-        {
-            "partner": "Newport",
-            "nature": "Customer/implementation",
-            "country": "United States"
-        },
-        {
-            "partner": "Passaic County",
-            "nature": "Customer/implementation",
-            "country": "United States"
-        }
-    ],
-    "ai_involvement": "Core product feature - Voice AI, AI Chatbot, agentic AI for government workflows",
-    "pass2_at": "2026-03-09T23:21:49.580Z",
-    "pass3_at": "2026-03-09T23:23:28.658Z",
-    "_sources": [
-        "openalex"
-    ],
-    "pass5_at": "2026-03-10T00:56:14.458Z",
-    "pass5_jina_words": 276,
-    "pass5_changes": [],
-    "political_relevance_summary": "Polimorphic addresses government technology and public service delivery. AI-powered platform for service-first government operations and resident engagement.",
-    "movement_building_utility": {
-        "classification": "infrastructure",
-        "notes": "Provides government technology infrastructure for public service delivery."
+    {
+      "title": "Analysis of polimorphic NORs in<i>Alouatta</i>species (Primates, Atelidae)",
+      "year": 1999,
+      "cited_by": 3,
+      "doi": "https://doi.org/10.1080/00087114.1998.10589170"
     },
-    "systemic_issue_area": "government transparency",
-    "generalizability_notes": "Currently focused on United States; would require local data and regulatory adaptation.",
-    "primary_users_or_beneficiaries": [
-        "local government agencies",
-        "city and county administrators",
-        "residents",
-        "government it departments"
-    ],
-    "underdog_signal": false
+    {
+      "title": "The association of polimorphic TH01 marker with schizophrenia in Poland",
+      "year": 2006,
+      "cited_by": 1,
+      "doi": "https://doi.org/10.1016/j.ics.2005.09.134"
+    }
+  ],
+  "awards": [
+    {
+      "name": "GovTech 100",
+      "year": null
+    },
+    {
+      "name": "Polimorphic Service-First Award Winners",
+      "year": 2025
+    }
+  ],
+  "in_civictech_guide": false,
+  "policy_outcomes": [
+    {
+      "description": "Littleton, CO reduced resident calls by 50% through implementation",
+      "link": null,
+      "year": null
+    },
+    {
+      "description": "Newport implemented 24/7 voice line for resident services",
+      "link": null,
+      "year": null
+    },
+    {
+      "description": "Passaic County improved paratransit resident connectivity",
+      "link": null,
+      "year": null
+    }
+  ],
+  "causation_strength": "anecdotal",
+  "outcome_methodology": "Case study reports from government partners; methodology not independently verified",
+  "replication_materials_available": false,
+  "published_performance_metrics": "Claims of up to 90% voicemail reduction and 50% call reduction in case studies, but methodology not detailed",
+  "documented_limitations": [
+    "Proprietary platform limits independent verification of claims",
+    "Case study outcomes lack rigorous methodology documentation",
+    "No publicly available impact evaluation framework"
+  ],
+  "jurisdictional_scope": "United States local government",
+  "failure_modes": [
+    "Potential AI chatbot misunderstandings in complex government service requests",
+    "Vendor dependency risk if company ceases operations"
+  ],
+  "governance_model": "LLC",
+  "curation_criteria": "Proprietary; not publicly documented",
+  "contributor_governance": "Not applicable - proprietary commercial platform",
+  "community_ownership": false,
+  "government_partnerships": [
+    {
+      "partner": "Littleton, CO",
+      "nature": "Customer/implementation",
+      "country": "United States"
+    },
+    {
+      "partner": "Newport",
+      "nature": "Customer/implementation",
+      "country": "United States"
+    },
+    {
+      "partner": "Passaic County",
+      "nature": "Customer/implementation",
+      "country": "United States"
+    }
+  ],
+  "ai_involvement": "Core product feature - Voice AI, AI Chatbot, agentic AI for government workflows",
+  "pass2_at": "2026-03-09T23:21:49.580Z",
+  "pass3_at": "2026-03-09T23:23:28.658Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:56:14.458Z",
+  "pass5_jina_words": 276,
+  "pass5_changes": [],
+  "political_relevance_summary": "Polimorphic addresses government technology and public service delivery. AI-powered platform for service-first government operations and resident engagement.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides government technology infrastructure for public service delivery."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Currently focused on United States; would require local data and regulatory adaptation.",
+  "primary_users_or_beneficiaries": [
+    "local government agencies",
+    "city and county administrators",
+    "residents",
+    "government it departments"
+  ],
+  "underdog_signal": false
 }

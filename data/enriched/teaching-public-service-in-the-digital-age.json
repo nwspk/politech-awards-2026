@@ -1,94 +1,94 @@
 {
-    "url": "https://www.teachingpublicservice.digital",
-    "scraped": {
-        "homepage_last_scraped": "2026-02-09T12:47:38.172Z",
-        "homepage_http_status": 200,
-        "dead_link": false,
-        "homepage_word_count": 599,
-        "homepage_has_team_page": true,
-        "homepage_has_impact_metrics": true,
-        "scraped_description": "Select \\u201CAccept all\\u201D to agree to our use of cookies and similar technologies to enhance your browsing experience, security, analytics and customization. Select \\u201DManage cookies\\u201D to make more choices or opt out.",
-        "scraped_final_url": "https://www.teachingpublicservice.digital/"
-    },
-    "collected_at": "2026-03-09T23:20:59.324Z",
-    "collected_by": "collect-enriched-script",
-    "name": "Teaching Public Service in the Digital Age",
-    "tagline": "Open-access syllabus and training to equip public servants with digital-era skills",
-    "project_type": "Publication",
-    "org_type": "Academic/research",
-    "issue_area": [
-        "govtech",
-        "civic_data"
-    ],
-    "sdg_alignment": [
-        "SDG 16 – Peace, Justice and Strong Institutions"
-    ],
-    "decade_plus": false,
-    "geography": "international",
-    "countries_deployed": [
-        "India",
-        "Germany",
-        "Brazil",
-        "Turkey",
-        "Spain",
-        "France"
-    ],
-    "communities_served": [
-        "educators",
-        "public servants",
-        "public officials",
-        "MPA/MPP students"
-    ],
-    "political_units": [
-        "international"
-    ],
-    "open_source": "yes",
-    "github_url": "https://github.com/DPL-Teaching-Public-Service/teachingpublicservice",
-    "github_stars": 89,
-    "last_commit_date": "2025-11-15",
-    "format": [
-        "course",
-        "database",
-        "report"
-    ],
-    "founded_year": 2017,
-    "team_size": "small",
-    "funding_model": "grant-funded",
-    "known_funders": [
-        "Digital Public Library of America",
-        "Ash Center for Democratic Governance and Innovation at Harvard Kennedy School"
-    ],
-    "funding_verified": true,
-    "last_funding_event": "2024",
-    "news_articles": [],
-    "academic_citations": [],
-    "in_civictech_guide": false,
-    "replication_materials_available": true,
-    "published_performance_metrics": "Course adoption metrics across 75 universities",
-    "jurisdictional_scope": "International (75 universities across 30 countries)",
-    "governance_model": "project_of_larger_org",
-    "curation_criteria": "Open-access educational materials vetted by academic institutions",
-    "contributor_governance": "Academic institution-led with community contributions",
-    "community_ownership": "Institutional ownership through partner universities",
-    "government_partnerships": [
-        "Multiple government agencies as course participants and partners"
-    ],
-    "pass2_at": "2026-03-09T23:21:49.177Z",
-    "pass5_at": "2026-03-10T00:56:41.456Z",
-    "pass5_jina_words": 431,
-    "pass5_changes": [],
-    "political_relevance_summary": "Teaching Public Service in the Digital Age addresses government technology and public service delivery. Open-access syllabus and training to equip public servants with digital-era skills.",
-    "movement_building_utility": {
-        "classification": "information_resource",
-        "notes": "Provides data, research, or educational resources for civic engagement."
-    },
-    "systemic_issue_area": "government transparency",
-    "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions; replication materials are available; methodology-based approach is inherently transferable.",
-    "primary_users_or_beneficiaries": [
-        "educators",
-        "public servants",
-        "public officials",
-        "mpa/mpp students"
-    ],
-    "underdog_signal": false
+  "url": "https://www.teachingpublicservice.digital",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:38.172Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 599,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "Select \\u201CAccept all\\u201D to agree to our use of cookies and similar technologies to enhance your browsing experience, security, analytics and customization. Select \\u201DManage cookies\\u201D to make more choices or opt out.",
+    "scraped_final_url": "https://www.teachingpublicservice.digital/"
+  },
+  "collected_at": "2026-03-09T23:20:59.324Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Teaching Public Service in the Digital Age",
+  "tagline": "Open-access syllabus and training to equip public servants with digital-era skills",
+  "project_type": "Publication",
+  "org_type": "Academic/research",
+  "issue_area": [
+    "govtech",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "India",
+    "Germany",
+    "Brazil",
+    "Turkey",
+    "Spain",
+    "France"
+  ],
+  "communities_served": [
+    "educators",
+    "public servants",
+    "public officials",
+    "MPA/MPP students"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/DPL-Teaching-Public-Service/teachingpublicservice",
+  "github_stars": 89,
+  "last_commit_date": "2025-11-15",
+  "format": [
+    "course",
+    "database",
+    "report"
+  ],
+  "founded_year": 2017,
+  "team_size": "small",
+  "funding_model": "grant-funded",
+  "known_funders": [
+    "Digital Public Library of America",
+    "Ash Center for Democratic Governance and Innovation at Harvard Kennedy School"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2024",
+  "news_articles": [],
+  "academic_citations": [],
+  "in_civictech_guide": false,
+  "replication_materials_available": true,
+  "published_performance_metrics": "Course adoption metrics across 75 universities",
+  "jurisdictional_scope": "International (75 universities across 30 countries)",
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Open-access educational materials vetted by academic institutions",
+  "contributor_governance": "Academic institution-led with community contributions",
+  "community_ownership": "Institutional ownership through partner universities",
+  "government_partnerships": [
+    "Multiple government agencies as course participants and partners"
+  ],
+  "pass2_at": "2026-03-09T23:21:49.177Z",
+  "pass5_at": "2026-03-10T00:56:41.456Z",
+  "pass5_jina_words": 431,
+  "pass5_changes": [],
+  "political_relevance_summary": "Teaching Public Service in the Digital Age addresses government technology and public service delivery. Open-access syllabus and training to equip public servants with digital-era skills.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides data, research, or educational resources for civic engagement."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions; replication materials are available; methodology-based approach is inherently transferable.",
+  "primary_users_or_beneficiaries": [
+    "educators",
+    "public servants",
+    "public officials",
+    "mpa/mpp students"
+  ],
+  "underdog_signal": false
 }

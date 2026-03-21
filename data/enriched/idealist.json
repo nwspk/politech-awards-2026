@@ -1,100 +1,100 @@
 {
-    "url": "https://idealist.org",
-    "scraped": {
-        "homepage_last_scraped": "2026-02-09T12:44:32.078Z",
-        "homepage_http_status": 200,
-        "dead_link": false,
-        "homepage_word_count": 684,
-        "homepage_has_team_page": true,
-        "homepage_has_impact_metrics": true,
-        "scraped_description": "Find volunteer opportunities, nonprofit jobs, social-impact opportunities and more on the Idealist platform.",
-        "scraped_final_url": "https://www.idealist.org/en"
-    },
-    "collected_at": "2026-03-09T23:20:00.716Z",
-    "collected_by": "collect-enriched-script",
-    "name": "Idealist",
-    "tagline": "Global platform connecting millions of people with social-impact jobs, volunteer opportunities, and community action",
-    "project_type": "Platform",
-    "org_type": "For-profit/social enterprise",
-    "issue_area": [
-        "participatory_democracy",
-        "civic_data"
-    ],
-    "sdg_alignment": [
-        "SDG 16 – Peace, Justice and Strong Institutions",
-        "SDG 17 – Partnerships for the Goals"
-    ],
-    "decade_plus": true,
-    "geography": "international",
-    "countries_deployed": "180+ countries",
-    "communities_served": [
-        "job seekers",
-        "nonprofit professionals",
-        "volunteers",
-        "nonprofit organizations",
-        "community groups"
-    ],
-    "political_units": [
-        "international"
-    ],
-    "open_source": "no",
-    "format": [
-        "platform",
-        "api",
-        "database"
-    ],
-    "founded_year": 1995,
-    "team_size": "medium",
-    "funding_model": [
-        "subscriptions",
-        "hybrid"
-    ],
-    "known_funders": [
-        "Skoll Foundation",
-        "Ashoka",
-        "Echoing Green"
-    ],
-    "funding_verified": true,
-    "last_funding_event": "2025 merger with VolunteerMatch",
-    "dependency_risks": [
-        "Merger with VolunteerMatch in 2025 may affect platform stability or feature availability"
-    ],
-    "news_articles": [],
-    "academic_citations": [
-        {
-            "citation": "Benkler, Y. (2006). The Wealth of Networks: How Social Production Transforms Markets and Freedom",
-            "doi": "https://doi.org/10.12987/9780300127232"
-        }
-    ],
-    "awards": [
-        "Fast Company World Changing Ideas Award",
-        "Tech for Good Award"
-    ],
-    "in_civictech_guide": true,
-    "wikipedia_page": "https://en.wikipedia.org/wiki/Idealist.org",
-    "published_performance_metrics": "Millions of users, thousands of organizations served",
-    "jurisdictional_scope": "Global",
-    "governance_model": "LLC",
-    "curation_criteria": "Organizations must be registered nonprofits or social enterprises; job postings must align with social impact mission",
-    "contributor_governance": "Moderated platform with organizational verification requirements",
-    "community_ownership": false,
-    "pass2_at": "2026-03-09T23:21:32.695Z",
-    "pass5_at": "2026-03-10T00:46:27.019Z",
-    "pass5_jina_words": 19,
-    "pass5_changes": [],
-    "political_relevance_summary": "Idealist addresses enabling broader democratic participation and making civic data accessible and actionable.",
-    "movement_building_utility": {
-        "classification": "information_resource",
-        "notes": "Serves as an information resource: Global platform connecting millions of people with social-impact jobs, volunteer opportunities, and community action."
-    },
-    "systemic_issue_area": "democratic participation access",
-    "generalizability_notes": "already deployed internationally across multiple jurisdictions.",
-    "primary_users_or_beneficiaries": [
-        "job seekers",
-        "nonprofit professionals",
-        "volunteers",
-        "nonprofit organizations",
-        "community groups"
-    ],
-    "underdog_signal": false
+  "url": "https://idealist.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:32.078Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 684,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "Find volunteer opportunities, nonprofit jobs, social-impact opportunities and more on the Idealist platform.",
+    "scraped_final_url": "https://www.idealist.org/en"
+  },
+  "collected_at": "2026-03-09T23:20:00.716Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Idealist",
+  "tagline": "Global platform connecting millions of people with social-impact jobs, volunteer opportunities, and community action",
+  "project_type": "Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "participatory_democracy",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions",
+    "SDG 17 – Partnerships for the Goals"
+  ],
+  "decade_plus": true,
+  "geography": "international",
+  "countries_deployed": "180+ countries",
+  "communities_served": [
+    "job seekers",
+    "nonprofit professionals",
+    "volunteers",
+    "nonprofit organizations",
+    "community groups"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "no",
+  "format": [
+    "platform",
+    "api",
+    "database"
+  ],
+  "founded_year": 1995,
+  "team_size": "medium",
+  "funding_model": [
+    "subscriptions",
+    "hybrid"
+  ],
+  "known_funders": [
+    "Skoll Foundation",
+    "Ashoka",
+    "Echoing Green"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2025 merger with VolunteerMatch",
+  "dependency_risks": [
+    "Merger with VolunteerMatch in 2025 may affect platform stability or feature availability"
+  ],
+  "news_articles": [],
+  "academic_citations": [
+    {
+      "citation": "Benkler, Y. (2006). The Wealth of Networks: How Social Production Transforms Markets and Freedom",
+      "doi": "https://doi.org/10.12987/9780300127232"
+    }
+  ],
+  "awards": [
+    "Fast Company World Changing Ideas Award",
+    "Tech for Good Award"
+  ],
+  "in_civictech_guide": true,
+  "wikipedia_page": "https://en.wikipedia.org/wiki/Idealist.org",
+  "published_performance_metrics": "Millions of users, thousands of organizations served",
+  "jurisdictional_scope": "Global",
+  "governance_model": "LLC",
+  "curation_criteria": "Organizations must be registered nonprofits or social enterprises; job postings must align with social impact mission",
+  "contributor_governance": "Moderated platform with organizational verification requirements",
+  "community_ownership": false,
+  "pass2_at": "2026-03-09T23:21:32.695Z",
+  "pass5_at": "2026-03-10T00:46:27.019Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": [],
+  "political_relevance_summary": "Idealist addresses enabling broader democratic participation and making civic data accessible and actionable.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Serves as an information resource: Global platform connecting millions of people with social-impact jobs, volunteer opportunities, and community action."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "job seekers",
+    "nonprofit professionals",
+    "volunteers",
+    "nonprofit organizations",
+    "community groups"
+  ],
+  "underdog_signal": false
 }

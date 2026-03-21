@@ -1,107 +1,107 @@
 {
-    "url": "https://plausible.io",
-    "scraped": {
-        "homepage_last_scraped": "2026-02-09T12:45:48.844Z",
-        "homepage_http_status": 200,
-        "dead_link": false,
-        "homepage_word_count": 1319,
-        "homepage_has_team_page": true,
-        "homepage_has_impact_metrics": false,
-        "scraped_description": "Plausible is a lightweight and open-source Google Analytics alternative. Your website data is 100% yours and the privacy of your visitors is respected.",
-        "scraped_final_url": "https://plausible.io/"
-    },
-    "collected_at": "2026-03-09T23:20:28.449Z",
-    "collected_by": "collect-enriched-script",
-    "name": "Plausible Analytics",
-    "tagline": "Simple, privacy-friendly Google Analytics alternative",
-    "project_type": "Tool/Platform",
-    "org_type": "For-profit/social enterprise",
-    "issue_area": [
-        "digital_rights"
-    ],
-    "sdg_alignment": [
-        "SDG 16: Peace, Justice and Strong Institutions"
-    ],
-    "decade_plus": false,
-    "geography": "international",
-    "countries_deployed": [
-        "EU",
-        "Global"
-    ],
-    "communities_served": [
-        "website owners",
-        "startups",
-        "agencies",
-        "creators",
-        "bloggers",
-        "freelancers"
-    ],
-    "political_units": [
-        "international"
-    ],
-    "open_source": "partial",
-    "github_url": "https://github.com/plausible/analytics",
-    "github_stars": 9200,
-    "last_commit_date": "2026-03-08",
-    "format": [
-        "platform",
-        "api"
-    ],
-    "founded_year": 2018,
-    "team_size": "small",
-    "funding_model": [
-        "subscriptions"
-    ],
-    "known_funders": [
-        "Bootstrapped/Self-funded"
-    ],
-    "funding_verified": true,
-    "last_funding_event": "Bootstrapped - no external funding",
-    "dependency_risks": [
-        "Reliance on EU infrastructure and data residency requirements"
-    ],
-    "news_articles": [],
-    "academic_citations": [],
-    "awards": [
-        "Product Hunt recognition for privacy-focused analytics"
-    ],
-    "in_civictech_guide": false,
-    "published_performance_metrics": {
-        "paying_subscribers": 16000,
-        "tracked_pageviews": "260B",
-        "uptime_90_days": "99.99%"
-    },
-    "documented_limitations": [
-        "Limited real-time reporting compared to Google Analytics",
-        "Smaller feature set than enterprise analytics platforms",
-        "Smaller user base means less community-contributed integrations"
-    ],
-    "jurisdictional_scope": "GDPR/CCPA compliant",
-    "failure_modes": [
-        "Service outages could impact website analytics for paying customers"
-    ],
-    "governance_model": "LLC",
-    "contributor_governance": "Open source contribution guidelines on GitHub; community-driven feature requests via GitHub discussions",
-    "community_ownership": false,
-    "ai_involvement": "Monitors traffic from AI tools (ChatGPT, Perplexity, Claude)",
-    "pass2_at": "2026-03-09T23:21:39.297Z",
-    "pass5_at": "2026-03-10T00:49:09.281Z",
-    "pass5_jina_words": 553,
-    "pass5_changes": [],
-    "political_relevance_summary": "Plausible Analytics addresses digital rights and online freedoms. Simple, privacy-friendly Google Analytics alternative.",
-    "movement_building_utility": {
-        "classification": "infrastructure",
-        "notes": "Provides digital rights infrastructure or privacy-preserving technology foundations."
-    },
-    "systemic_issue_area": "digital rights infrastructure",
-    "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions.",
-    "primary_users_or_beneficiaries": [
-        "website owners",
-        "startups",
-        "agencies",
-        "creators",
-        "bloggers",
-        "freelancers"
-    ],
-    "underdog_signal": true
+  "url": "https://plausible.io",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:48.844Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1319,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Plausible is a lightweight and open-source Google Analytics alternative. Your website data is 100% yours and the privacy of your visitors is respected.",
+    "scraped_final_url": "https://plausible.io/"
+  },
+  "collected_at": "2026-03-09T23:20:28.449Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Plausible Analytics",
+  "tagline": "Simple, privacy-friendly Google Analytics alternative",
+  "project_type": "Tool/Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "digital_rights"
+  ],
+  "sdg_alignment": [
+    "SDG 16: Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "EU",
+    "Global"
+  ],
+  "communities_served": [
+    "website owners",
+    "startups",
+    "agencies",
+    "creators",
+    "bloggers",
+    "freelancers"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "partial",
+  "github_url": "https://github.com/plausible/analytics",
+  "github_stars": 9200,
+  "last_commit_date": "2026-03-08",
+  "format": [
+    "platform",
+    "api"
+  ],
+  "founded_year": 2018,
+  "team_size": "small",
+  "funding_model": [
+    "subscriptions"
+  ],
+  "known_funders": [
+    "Bootstrapped/Self-funded"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "Bootstrapped - no external funding",
+  "dependency_risks": [
+    "Reliance on EU infrastructure and data residency requirements"
+  ],
+  "news_articles": [],
+  "academic_citations": [],
+  "awards": [
+    "Product Hunt recognition for privacy-focused analytics"
+  ],
+  "in_civictech_guide": false,
+  "published_performance_metrics": {
+    "paying_subscribers": 16000,
+    "tracked_pageviews": "260B",
+    "uptime_90_days": "99.99%"
+  },
+  "documented_limitations": [
+    "Limited real-time reporting compared to Google Analytics",
+    "Smaller feature set than enterprise analytics platforms",
+    "Smaller user base means less community-contributed integrations"
+  ],
+  "jurisdictional_scope": "GDPR/CCPA compliant",
+  "failure_modes": [
+    "Service outages could impact website analytics for paying customers"
+  ],
+  "governance_model": "LLC",
+  "contributor_governance": "Open source contribution guidelines on GitHub; community-driven feature requests via GitHub discussions",
+  "community_ownership": false,
+  "ai_involvement": "Monitors traffic from AI tools (ChatGPT, Perplexity, Claude)",
+  "pass2_at": "2026-03-09T23:21:39.297Z",
+  "pass5_at": "2026-03-10T00:49:09.281Z",
+  "pass5_jina_words": 553,
+  "pass5_changes": [],
+  "political_relevance_summary": "Plausible Analytics addresses digital rights and online freedoms. Simple, privacy-friendly Google Analytics alternative.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides digital rights infrastructure or privacy-preserving technology foundations."
+  },
+  "systemic_issue_area": "digital rights infrastructure",
+  "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "website owners",
+    "startups",
+    "agencies",
+    "creators",
+    "bloggers",
+    "freelancers"
+  ],
+  "underdog_signal": true
 }

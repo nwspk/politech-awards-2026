@@ -1,132 +1,132 @@
 {
-    "url": "https://www.loomio.org",
-    "scraped": {
-        "homepage_last_scraped": "2026-02-09T12:47:06.616Z",
-        "homepage_http_status": 200,
-        "dead_link": false,
-        "homepage_word_count": 1341,
-        "homepage_has_team_page": true,
-        "homepage_has_impact_metrics": false,
-        "scraped_description": "Loomio is a collaborative decision-making app that saves time in meetings and keeps a record of decisions",
-        "scraped_final_url": "https://www.loomio.com/"
-    },
-    "collected_at": "2026-03-09T23:20:58.706Z",
-    "collected_by": "collect-enriched-script",
-    "name": "Loomio",
-    "tagline": "Make decisions together, without the endless meetings",
-    "project_type": "Tool/Platform",
-    "org_type": "For-profit/social enterprise",
-    "issue_area": [
-        "participatory_democracy",
-        "govtech"
-    ],
-    "sdg_alignment": [
-        "SDG 16 – Peace, Justice and Strong Institutions"
-    ],
-    "decade_plus": true,
-    "geography": "international",
-    "countries_deployed": [
-        "United States",
-        "Bulgaria",
-        "New Zealand",
-        "Multiple countries"
-    ],
-    "communities_served": [
-        "membership organizations",
-        "governance boards",
-        "self-managing companies",
-        "political movements",
-        "cooperatives",
-        "nonprofits"
-    ],
-    "political_units": [
-        "international"
-    ],
-    "open_source": "yes",
-    "github_url": "https://github.com/loomio/loomio",
-    "github_stars": 2400,
-    "last_commit_date": "2026-03-08",
-    "format": [
-        "platform",
-        "app"
-    ],
-    "founded_year": 2011,
-    "team_size": "small",
-    "funding_model": [
-        "subscriptions",
-        "hybrid"
-    ],
-    "known_funders": [
-        "Shuttleworth Foundation",
-        "Mozilla Foundation",
-        "Omidyar Network"
-    ],
-    "funding_verified": true,
-    "last_funding_event": "2020",
-    "dependency_risks": [
-        "Small team size may limit maintenance capacity",
-        "Reliance on subscription revenue model"
-    ],
-    "news_articles": [],
-    "academic_citations": [],
-    "awards": [
-        "Shuttleworth Fellowship (2012)",
-        "Mozilla Open Web Fellowship (2014)"
-    ],
-    "in_civictech_guide": true,
-    "policy_outcomes": [
-        {
-            "description": "Used in Zohran Mamdani's historic NYC mayoral primary campaign to coordinate 13,000 members with zero paid staff",
-            "link": null,
-            "year": 2021
-        }
-    ],
-    "causation_strength": "anecdotal",
-    "outcome_methodology": "Case study documentation of campaign coordination",
-    "replication_materials_available": true,
-    "published_performance_metrics": "User engagement metrics available on platform; case studies published on Loomio blog",
-    "documented_limitations": [
-        "Limited evidence on long-term decision quality outcomes",
-        "Primarily used by already-engaged communities",
-        "Scalability challenges for very large groups"
-    ],
-    "jurisdictional_scope": "International; primary deployments in New Zealand, United States, Europe, and Bulgaria",
-    "failure_modes": [
-        "Low participation rates in some implementations",
-        "Decision fatigue in groups with frequent voting",
-        "Difficulty moderating large-scale discussions"
-    ],
-    "governance_model": "LLC",
-    "curation_criteria": "Open source contribution guidelines on GitHub; community moderation policies documented in platform terms",
-    "contributor_governance": "Open source community contributions accepted via GitHub; core team maintains decision authority",
-    "community_ownership": "Cooperative governance model explored; currently LLC structure with social enterprise mission",
-    "elections_used_in": [
-        {
-            "election": "NYC Democratic Socialists of America mayoral primary",
-            "role": "Decision-making coordination platform"
-        }
-    ],
-    "government_partnerships": [
-        "New Zealand local government pilots"
-    ],
-    "pass2_at": "2026-03-09T23:21:49.590Z",
-    "pass5_at": "2026-03-10T00:56:09.347Z",
-    "pass5_jina_words": 449,
-    "pass5_changes": [],
-    "political_relevance_summary": "Loomio addresses enabling broader democratic participation and improving government service delivery and transparency. It has documented policy impact.",
-    "movement_building_utility": {
-        "classification": "direct_organizer_tool",
-        "notes": "Used by organizers and campaigners: Make decisions together, without the endless meetings."
-    },
-    "systemic_issue_area": "democratic participation access",
-    "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
-    "primary_users_or_beneficiaries": [
-        "membership organizations",
-        "governance boards",
-        "self-managing companies",
-        "political movements",
-        "cooperatives",
-        "nonprofits"
-    ],
-    "underdog_signal": false
+  "url": "https://www.loomio.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:06.616Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1341,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Loomio is a collaborative decision-making app that saves time in meetings and keeps a record of decisions",
+    "scraped_final_url": "https://www.loomio.com/"
+  },
+  "collected_at": "2026-03-09T23:20:58.706Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Loomio",
+  "tagline": "Make decisions together, without the endless meetings",
+  "project_type": "Tool/Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "participatory_democracy",
+    "govtech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": true,
+  "geography": "international",
+  "countries_deployed": [
+    "United States",
+    "Bulgaria",
+    "New Zealand",
+    "Multiple countries"
+  ],
+  "communities_served": [
+    "membership organizations",
+    "governance boards",
+    "self-managing companies",
+    "political movements",
+    "cooperatives",
+    "nonprofits"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/loomio/loomio",
+  "github_stars": 2400,
+  "last_commit_date": "2026-03-08",
+  "format": [
+    "platform",
+    "app"
+  ],
+  "founded_year": 2011,
+  "team_size": "small",
+  "funding_model": [
+    "subscriptions",
+    "hybrid"
+  ],
+  "known_funders": [
+    "Shuttleworth Foundation",
+    "Mozilla Foundation",
+    "Omidyar Network"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2020",
+  "dependency_risks": [
+    "Small team size may limit maintenance capacity",
+    "Reliance on subscription revenue model"
+  ],
+  "news_articles": [],
+  "academic_citations": [],
+  "awards": [
+    "Shuttleworth Fellowship (2012)",
+    "Mozilla Open Web Fellowship (2014)"
+  ],
+  "in_civictech_guide": true,
+  "policy_outcomes": [
+    {
+      "description": "Used in Zohran Mamdani's historic NYC mayoral primary campaign to coordinate 13,000 members with zero paid staff",
+      "link": null,
+      "year": 2021
+    }
+  ],
+  "causation_strength": "anecdotal",
+  "outcome_methodology": "Case study documentation of campaign coordination",
+  "replication_materials_available": true,
+  "published_performance_metrics": "User engagement metrics available on platform; case studies published on Loomio blog",
+  "documented_limitations": [
+    "Limited evidence on long-term decision quality outcomes",
+    "Primarily used by already-engaged communities",
+    "Scalability challenges for very large groups"
+  ],
+  "jurisdictional_scope": "International; primary deployments in New Zealand, United States, Europe, and Bulgaria",
+  "failure_modes": [
+    "Low participation rates in some implementations",
+    "Decision fatigue in groups with frequent voting",
+    "Difficulty moderating large-scale discussions"
+  ],
+  "governance_model": "LLC",
+  "curation_criteria": "Open source contribution guidelines on GitHub; community moderation policies documented in platform terms",
+  "contributor_governance": "Open source community contributions accepted via GitHub; core team maintains decision authority",
+  "community_ownership": "Cooperative governance model explored; currently LLC structure with social enterprise mission",
+  "elections_used_in": [
+    {
+      "election": "NYC Democratic Socialists of America mayoral primary",
+      "role": "Decision-making coordination platform"
+    }
+  ],
+  "government_partnerships": [
+    "New Zealand local government pilots"
+  ],
+  "pass2_at": "2026-03-09T23:21:49.590Z",
+  "pass5_at": "2026-03-10T00:56:09.347Z",
+  "pass5_jina_words": 449,
+  "pass5_changes": [],
+  "political_relevance_summary": "Loomio addresses enabling broader democratic participation and improving government service delivery and transparency. It has documented policy impact.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Used by organizers and campaigners: Make decisions together, without the endless meetings."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "membership organizations",
+    "governance boards",
+    "self-managing companies",
+    "political movements",
+    "cooperatives",
+    "nonprofits"
+  ],
+  "underdog_signal": false
 }

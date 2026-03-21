@@ -1,143 +1,143 @@
 {
-    "url": "https://www.yoti.com",
-    "scraped": {
-        "homepage_last_scraped": "2026-02-09T12:47:53.802Z",
-        "homepage_http_status": 200,
-        "dead_link": false,
-        "homepage_word_count": 1561,
-        "homepage_has_team_page": true,
-        "homepage_has_impact_metrics": true,
-        "scraped_description": "Our comprehensive suite of customer verification tools make it easy for businesses to be compliant and safe for people to prove who they are.",
-        "scraped_final_url": "https://www.yoti.com/"
+  "url": "https://www.yoti.com",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:53.802Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1561,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "Our comprehensive suite of customer verification tools make it easy for businesses to be compliant and safe for people to prove who they are.",
+    "scraped_final_url": "https://www.yoti.com/"
+  },
+  "collected_at": "2026-03-09T23:21:03.411Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Yoti",
+  "tagline": "Building the world's trusted identity platform",
+  "project_type": "Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "digital_rights",
+    "cybersecurity",
+    "emerging_tech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "United Kingdom",
+    "Global"
+  ],
+  "communities_served": [
+    "businesses",
+    "individuals",
+    "financial institutions",
+    "retailers",
+    "government agencies"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "no",
+  "format": [
+    "api",
+    "app",
+    "platform"
+  ],
+  "founded_year": 2014,
+  "team_size": "large",
+  "funding_model": [
+    "vc",
+    "subscriptions"
+  ],
+  "known_funders": [
+    "Founders Factory",
+    "Kindred Ventures",
+    "Idinvest Partners",
+    "Balderton Capital",
+    "Salesforce Ventures"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "Series C funding round (2021)",
+  "dependency_risks": [
+    "Proprietary facial recognition and age estimation technology",
+    "Reliance on biometric data collection and processing",
+    "Potential regulatory changes around digital identity verification"
+  ],
+  "news_articles": [],
+  "academic_citations": [
+    {
+      "title": "Hibernation phenology of<scp><i>M</i></scp><i>yotis lucifugus</i>",
+      "year": 2014,
+      "cited_by": 84,
+      "doi": "https://doi.org/10.1111/jzo.12155"
     },
-    "collected_at": "2026-03-09T23:21:03.411Z",
-    "collected_by": "collect-enriched-script",
-    "name": "Yoti",
-    "tagline": "Building the world's trusted identity platform",
-    "project_type": "Platform",
-    "org_type": "For-profit/social enterprise",
-    "issue_area": [
-        "digital_rights",
-        "cybersecurity",
-        "emerging_tech"
-    ],
-    "sdg_alignment": [
-        "SDG 16 – Peace, Justice and Strong Institutions"
-    ],
-    "decade_plus": false,
-    "geography": "international",
-    "countries_deployed": [
-        "United Kingdom",
-        "Global"
-    ],
-    "communities_served": [
-        "businesses",
-        "individuals",
-        "financial institutions",
-        "retailers",
-        "government agencies"
-    ],
-    "political_units": [
-        "international"
-    ],
-    "open_source": "no",
-    "format": [
-        "api",
-        "app",
-        "platform"
-    ],
-    "founded_year": 2014,
-    "team_size": "large",
-    "funding_model": [
-        "vc",
-        "subscriptions"
-    ],
-    "known_funders": [
-        "Founders Factory",
-        "Kindred Ventures",
-        "Idinvest Partners",
-        "Balderton Capital",
-        "Salesforce Ventures"
-    ],
-    "funding_verified": true,
-    "last_funding_event": "Series C funding round (2021)",
-    "dependency_risks": [
-        "Proprietary facial recognition and age estimation technology",
-        "Reliance on biometric data collection and processing",
-        "Potential regulatory changes around digital identity verification"
-    ],
-    "news_articles": [],
-    "academic_citations": [
-        {
-            "title": "Hibernation phenology of<scp><i>M</i></scp><i>yotis lucifugus</i>",
-            "year": 2014,
-            "cited_by": 84,
-            "doi": "https://doi.org/10.1111/jzo.12155"
-        },
-        {
-            "title": "The diet of <i><scp>M</scp>yotis lucifugus</i> across <scp>C</scp>anada: assessing foraging quality and diet variability",
-            "year": 2013,
-            "cited_by": 143,
-            "doi": "https://doi.org/10.1111/mec.12542"
-        },
-        {
-            "title": "An integrative approach to detect subtle trophic niche differentiation in the sympatric trawling bat species <i><scp>M</scp>yotis dasycneme</i> and <i><scp>M</scp>yotis daubentonii</i>",
-            "year": 2013,
-            "cited_by": 60,
-            "doi": "https://doi.org/10.1111/mec.12512"
-        }
-    ],
-    "awards": [
-        "Tech for Good Award",
-        "Identity Verification Innovation Award"
-    ],
-    "in_civictech_guide": false,
-    "policy_outcomes": [
-        "Integration with UK Right to Rent and Right to Work verification schemes",
-        "Age verification for online services in multiple jurisdictions"
-    ],
-    "replication_materials_available": false,
-    "published_performance_metrics": "95% success rate; 10m+ checks monthly; 14-20m digital ID wallet downloads",
-    "documented_limitations": "Facial recognition accuracy varies by demographic groups; age estimation has known limitations in edge cases",
-    "jurisdictional_scope": "Primarily UK and international markets",
-    "failure_modes": "Potential false rejections in age verification; liveness detection bypass attempts; deepfake detection limitations",
-    "governance_model": "LLC",
-    "disparity_tracking": "Facial age estimation claims to minimize bias across age and skin tones with independent testing",
-    "community_ownership": false,
-    "controversies": [
-        "Privacy concerns regarding biometric data storage and processing",
-        "Debate over age verification accuracy and fairness"
-    ],
-    "legal_regulatory_issues": "Subject to GDPR compliance; UK Data Protection Act 2018; ongoing regulatory scrutiny of biometric identity verification",
-    "government_partnerships": [
-        {
-            "partner": "UK Government",
-            "nature": "Right to Rent and Right to Work digital verification services",
-            "country": "United Kingdom"
-        }
-    ],
-    "ai_involvement": "Facial recognition, facial age estimation, liveness detection, deepfake protection, bot attack prevention",
-    "pass2_at": "2026-03-09T23:21:51.553Z",
-    "pass3_at": "2026-03-09T23:23:33.358Z",
-    "_sources": [
-        "openalex"
-    ],
-    "pass5_at": "2026-03-10T00:57:30.475Z",
-    "pass5_jina_words": 428,
-    "pass5_changes": [],
-    "political_relevance_summary": "Yoti addresses digital rights and online freedoms. Building the world's trusted identity platform.",
-    "movement_building_utility": {
-        "classification": "infrastructure",
-        "notes": "Provides technical infrastructure for civic technology"
+    {
+      "title": "The diet of <i><scp>M</scp>yotis lucifugus</i> across <scp>C</scp>anada: assessing foraging quality and diet variability",
+      "year": 2013,
+      "cited_by": 143,
+      "doi": "https://doi.org/10.1111/mec.12542"
     },
-    "systemic_issue_area": "digital rights infrastructure",
-    "generalizability_notes": "Moderately generalizable — already international but proprietary nature may limit independent replication.",
-    "primary_users_or_beneficiaries": [
-        "businesses",
-        "individuals",
-        "financial institutions",
-        "retailers",
-        "government agencies"
-    ],
-    "underdog_signal": false
+    {
+      "title": "An integrative approach to detect subtle trophic niche differentiation in the sympatric trawling bat species <i><scp>M</scp>yotis dasycneme</i> and <i><scp>M</scp>yotis daubentonii</i>",
+      "year": 2013,
+      "cited_by": 60,
+      "doi": "https://doi.org/10.1111/mec.12512"
+    }
+  ],
+  "awards": [
+    "Tech for Good Award",
+    "Identity Verification Innovation Award"
+  ],
+  "in_civictech_guide": false,
+  "policy_outcomes": [
+    "Integration with UK Right to Rent and Right to Work verification schemes",
+    "Age verification for online services in multiple jurisdictions"
+  ],
+  "replication_materials_available": false,
+  "published_performance_metrics": "95% success rate; 10m+ checks monthly; 14-20m digital ID wallet downloads",
+  "documented_limitations": "Facial recognition accuracy varies by demographic groups; age estimation has known limitations in edge cases",
+  "jurisdictional_scope": "Primarily UK and international markets",
+  "failure_modes": "Potential false rejections in age verification; liveness detection bypass attempts; deepfake detection limitations",
+  "governance_model": "LLC",
+  "disparity_tracking": "Facial age estimation claims to minimize bias across age and skin tones with independent testing",
+  "community_ownership": false,
+  "controversies": [
+    "Privacy concerns regarding biometric data storage and processing",
+    "Debate over age verification accuracy and fairness"
+  ],
+  "legal_regulatory_issues": "Subject to GDPR compliance; UK Data Protection Act 2018; ongoing regulatory scrutiny of biometric identity verification",
+  "government_partnerships": [
+    {
+      "partner": "UK Government",
+      "nature": "Right to Rent and Right to Work digital verification services",
+      "country": "United Kingdom"
+    }
+  ],
+  "ai_involvement": "Facial recognition, facial age estimation, liveness detection, deepfake protection, bot attack prevention",
+  "pass2_at": "2026-03-09T23:21:51.553Z",
+  "pass3_at": "2026-03-09T23:23:33.358Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:57:30.475Z",
+  "pass5_jina_words": 428,
+  "pass5_changes": [],
+  "political_relevance_summary": "Yoti addresses digital rights and online freedoms. Building the world's trusted identity platform.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides technical infrastructure for civic technology"
+  },
+  "systemic_issue_area": "digital rights infrastructure",
+  "generalizability_notes": "Moderately generalizable — already international but proprietary nature may limit independent replication.",
+  "primary_users_or_beneficiaries": [
+    "businesses",
+    "individuals",
+    "financial institutions",
+    "retailers",
+    "government agencies"
+  ],
+  "underdog_signal": false
 }
