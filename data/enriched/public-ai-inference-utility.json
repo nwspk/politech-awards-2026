@@ -62,12 +62,6 @@
   ],
   "academic_citations": [
     {
-      "title": "OrthoFinder: solving fundamental biases in whole genome comparisons dramatically improves orthogroup inference accuracy",
-      "year": 2015,
-      "cited_by": 3837,
-      "doi": "https://doi.org/10.1186/s13059-015-0721-2"
-    },
-    {
       "title": "Performance of ChatGPT on USMLE: Potential for AI-assisted medical education using large language models",
       "year": 2023,
       "cited_by": 3305,
@@ -162,5 +156,18 @@
     "news_articles",
     "policy_outcomes",
     "government_partnerships"
-  ]
+  ],
+  "political_relevance_summary": "Public AI Inference Utility addresses digital rights and online freedoms. A public access point for public and sovereign AI models.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides digital rights infrastructure or privacy-preserving technology foundations."
+  },
+  "systemic_issue_area": "algorithmic accountability",
+  "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions; replication materials are available.",
+  "primary_users_or_beneficiaries": [
+    "civic tech developers",
+    "civic technology researchers",
+    "public institutions"
+  ],
+  "underdog_signal": true
 }

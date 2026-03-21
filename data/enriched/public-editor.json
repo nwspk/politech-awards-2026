@@ -89,5 +89,18 @@
   ],
   "pass5_at": "2026-03-10T00:56:22.371Z",
   "pass5_jina_words": 8,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Public Editor addresses civic technology. Platform for collaborative fact-checking and editorial transparency in journalism.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides data, research, or educational resources for civic engagement."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Already deployed across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "investigative journalists",
+    "media organizations",
+    "readers"
+  ],
+  "underdog_signal": false
 }

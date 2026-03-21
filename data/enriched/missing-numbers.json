@@ -98,5 +98,19 @@
   ],
   "pass5_at": "2026-03-10T00:47:33.542Z",
   "pass5_jina_words": 182,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Missing Numbers addresses making civic data accessible and actionable and empowering advocacy and civic campaigning. It has documented policy impact.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Directly supports organizers/campaigners through Investigates and campaigns to close important gaps in UK public data."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "currently deployed in United Kingdom only, but approach could be adapted to other national contexts.",
+  "primary_users_or_beneficiaries": [
+    "journalists",
+    "researchers",
+    "campaigners",
+    "MPs"
+  ],
+  "underdog_signal": true
 }

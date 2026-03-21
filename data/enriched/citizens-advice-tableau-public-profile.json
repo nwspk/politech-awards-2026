@@ -92,5 +92,18 @@
   "pass5_jina_words": 228,
   "pass5_changes": [
     "tagline"
-  ]
+  ],
+  "political_relevance_summary": "Tackles information asymmetry between institutions and the public by improving access to civic data.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Provides evidence and data that amplifies advocacy and accountability efforts."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Primarily national in scope; replication would require significant localization. Methodology and approach could inform similar efforts in other jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "members of the public seeking government information",
+    "civic technology researchers",
+    "policymakers and legislative staff"
+  ],
+  "underdog_signal": false
 }

@@ -66,5 +66,18 @@
   ],
   "pass5_at": "2026-03-10T00:46:36.168Z",
   "pass5_jina_words": 26,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Local Deep Researcher provides technology infrastructure relevant to civic and political processes, focused on A research tool for investigating local issues and civic engagement.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Serves as an information resource: A research tool for investigating local issues and civic engagement."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "Civic researchers",
+    "Local government advocates",
+    "Community organizers"
+  ],
+  "underdog_signal": false
 }

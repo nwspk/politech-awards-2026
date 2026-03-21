@@ -1,99 +1,104 @@
 {
-  "url": "https://www.openorigins.com",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:47:16.789Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 1488,
-    "homepage_has_team_page": true,
-    "homepage_has_impact_metrics": true,
-    "scraped_description": "OpenOrigins ensures pixel-perfect authentication at the source, restoring believability in visual media.",
-    "scraped_final_url": "https://www.openorigins.com/"
-  },
-  "collected_at": "2026-03-09T23:20:59.538Z",
-  "collected_by": "collect-enriched-script",
-  "name": "OpenOrigins",
-  "tagline": "The Trust Layer for a Verified Internet",
-  "project_type": "Platform",
-  "org_type": "For-profit/social enterprise",
-  "issue_area": [
-    "disinformation",
-    "media_journalism",
-    "digital_rights"
-  ],
-  "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
-  ],
-  "decade_plus": false,
-  "geography": "international",
-  "countries_deployed": [
-    "United States",
-    "European Union",
-    "United Kingdom"
-  ],
-  "communities_served": [
-    "journalists",
-    "media organizations",
-    "researchers",
-    "citizens"
-  ],
-  "political_units": [
-    "international"
-  ],
-  "open_source": "no",
-  "format": [
-    "platform",
-    "api"
-  ],
-  "founded_year": 2021,
-  "team_size": "large",
-  "funding_model": "venture capital",
-  "known_funders": [
-    "Omidyar Network",
-    "Mozilla Foundation"
-  ],
-  "funding_verified": true,
-  "last_funding_event": "2024",
-  "dependency_risks": "Proprietary technology stack; reliance on third-party data sources for verification",
-  "news_articles": [
-    "OpenOrigins raises funding for disinformation detection platform",
-    "How OpenOrigins is building trust in digital media"
-  ],
-  "academic_citations": [
-    {
-      "title": "CoverDrop: Blowing the Whistle Through A News App",
-      "year": 2022,
-      "cited_by": 2,
-      "doi": "https://doi.org/10.2478/popets-2022-0035"
+    "url": "https://www.openorigins.com",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:47:16.789Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 1488,
+        "homepage_has_team_page": true,
+        "homepage_has_impact_metrics": true,
+        "scraped_description": "OpenOrigins ensures pixel-perfect authentication at the source, restoring believability in visual media.",
+        "scraped_final_url": "https://www.openorigins.com/"
     },
-    {
-      "title": "Designing an Android Application for the Wireless Detection of Credit Card Skimmers",
-      "year": 2019,
-      "cited_by": 0,
-      "doi": null
+    "collected_at": "2026-03-09T23:20:59.538Z",
+    "collected_by": "collect-enriched-script",
+    "name": "OpenOrigins",
+    "tagline": "The Trust Layer for a Verified Internet",
+    "project_type": "Platform",
+    "org_type": "For-profit/social enterprise",
+    "issue_area": [
+        "disinformation",
+        "media_journalism",
+        "digital_rights"
+    ],
+    "sdg_alignment": [
+        "SDG 16 – Peace, Justice and Strong Institutions"
+    ],
+    "decade_plus": false,
+    "geography": "international",
+    "countries_deployed": [
+        "United States",
+        "European Union",
+        "United Kingdom"
+    ],
+    "communities_served": [
+        "journalists",
+        "media organizations",
+        "researchers",
+        "citizens"
+    ],
+    "political_units": [
+        "international"
+    ],
+    "open_source": "no",
+    "format": [
+        "platform",
+        "api"
+    ],
+    "founded_year": 2021,
+    "team_size": "large",
+    "funding_model": "venture capital",
+    "known_funders": [
+        "Omidyar Network",
+        "Mozilla Foundation"
+    ],
+    "funding_verified": true,
+    "last_funding_event": "2024",
+    "dependency_risks": "Proprietary technology stack; reliance on third-party data sources for verification",
+    "news_articles": [],
+    "academic_citations": [
+        {
+            "title": "CoverDrop: Blowing the Whistle Through A News App",
+            "year": 2022,
+            "cited_by": 2,
+            "doi": "https://doi.org/10.2478/popets-2022-0035"
+        },
+        {
+            "title": "Content Authenticities: A Discussion on the Values of Provenance Data for Creatives and Their Audiences",
+            "year": 2025,
+            "cited_by": 0,
+            "doi": "https://doi.org/10.1145/3698061.3726918"
+        }
+    ],
+    "in_civictech_guide": false,
+    "replication_materials_available": false,
+    "jurisdictional_scope": "international",
+    "governance_model": "LLC",
+    "curation_criteria": "Proprietary verification algorithms; editorial standards for content assessment",
+    "contributor_governance": "closed",
+    "disparity_tracking": false,
+    "community_ownership": false,
+    "ai_involvement": true,
+    "pass2_at": "2026-03-09T23:21:48.164Z",
+    "pass3_at": "2026-03-09T23:23:26.784Z",
+    "_sources": [
+        "openalex"
+    ],
+    "pass5_at": "2026-03-10T00:55:34.880Z",
+    "pass5_jina_words": 461,
+    "pass5_changes": [],
+    "political_relevance_summary": "OpenOrigins addresses the erosion of trust in visual media by providing content authentication tools that help verify the provenance of images and video, combating deepfakes and manipulated content in political discourse.",
+    "movement_building_utility": {
+        "classification": "information_resource",
+        "notes": "OpenOrigins primarily serves as an information resource for researchers, journalists, or analysts working on civic and political issues."
     },
-    {
-      "title": "Content Authenticities: A Discussion on the Values of Provenance Data for Creatives and Their Audiences",
-      "year": 2025,
-      "cited_by": 0,
-      "doi": "https://doi.org/10.1145/3698061.3726918"
-    }
-  ],
-  "in_civictech_guide": false,
-  "replication_materials_available": false,
-  "jurisdictional_scope": "international",
-  "governance_model": "LLC",
-  "curation_criteria": "Proprietary verification algorithms; editorial standards for content assessment",
-  "contributor_governance": "closed",
-  "disparity_tracking": false,
-  "community_ownership": false,
-  "ai_involvement": true,
-  "pass2_at": "2026-03-09T23:21:48.164Z",
-  "pass3_at": "2026-03-09T23:23:26.784Z",
-  "_sources": [
-    "openalex"
-  ],
-  "pass5_at": "2026-03-10T00:55:34.880Z",
-  "pass5_jina_words": 461,
-  "pass5_changes": []
+    "systemic_issue_area": "media integrity and trust",
+    "generalizability_notes": "Moderate generalizability. OpenOrigins operates internationally but is proprietary, so replication would require licensing or rebuilding rather than direct adoption.",
+    "primary_users_or_beneficiaries": [
+        "journalists",
+        "media organizations",
+        "researchers",
+        "engaged citizens and civic participants"
+    ],
+    "underdog_signal": false
 }

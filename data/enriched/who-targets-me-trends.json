@@ -1,118 +1,126 @@
 {
-  "url": "https://trends.whotargets.me",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:46:28.136Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 394,
-    "homepage_has_team_page": true,
-    "homepage_has_impact_metrics": true,
-    "scraped_description": "Trends from Who Targets Me makes navigating and understanding digital political advertising data easier. It includes dashboards, visualisations and analytical tools for tracking digital ad spending, targeting and messaging on Meta and Google services in over 60 countries.",
-    "scraped_final_url": "https://trends.whotargets.me/reports"
-  },
-  "collected_at": "2026-03-09T23:20:44.183Z",
-  "collected_by": "collect-enriched-script",
-  "name": "Who Targets Me Trends",
-  "tagline": "Platform for tracking and analyzing digital political advertising across Meta and Google in 60+ countries",
-  "project_type": "Platform",
-  "org_type": "Nonprofit/charity",
-  "issue_area": [
-    "media_journalism",
-    "civic_data",
-    "disinformation",
-    "advocacy_tech"
-  ],
-  "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
-  ],
-  "decade_plus": false,
-  "geography": "international",
-  "countries_deployed": [
-    "United Kingdom",
-    "United States",
-    "Norway",
-    "and 57+ others"
-  ],
-  "communities_served": [
-    "journalists",
-    "election monitors",
-    "researchers",
-    "campaign professionals",
-    "citizens"
-  ],
-  "political_units": [
-    "federal",
-    "international"
-  ],
-  "open_source": "no",
-  "format": [
-    "platform",
-    "database",
-    "api"
-  ],
-  "founded_year": 2018,
-  "team_size": "small",
-  "funding_model": [
-    "subscriptions",
-    "donations"
-  ],
-  "known_funders": [
-    "Mozilla Foundation",
-    "Omidyar Network",
-    "National Endowment for Democracy"
-  ],
-  "funding_verified": true,
-  "last_funding_event": "2023",
-  "dependency_risks": [
-    "Reliance on Meta and Google API access and data availability",
-    "Platform policy changes could affect data collection"
-  ],
-  "news_articles": [
-    "Guardian coverage of political ad tracking",
-    "Reuters reporting on digital advertising transparency",
-    "TechCrunch articles on ad tech monitoring"
-  ],
-  "academic_citations": [
-    "Research on political advertising transparency",
-    "Studies on disinformation and election integrity"
-  ],
-  "in_civictech_guide": true,
-  "policy_outcomes": [
-    "Contributed to transparency discussions around political advertising",
-    "Supported election monitoring efforts in multiple countries"
-  ],
-  "causation_strength": "correlated",
-  "outcome_methodology": "observational",
-  "replication_materials_available": false,
-  "published_performance_metrics": true,
-  "documented_limitations": [
-    "Access to some data and features requires login or paid subscription",
-    "Coverage limited to Meta and Google platforms"
-  ],
-  "jurisdictional_scope": "60+ countries",
-  "failure_modes": [
-    "API access restrictions from Meta and Google",
-    "Data gaps during platform policy changes"
-  ],
-  "governance_model": "foundation",
-  "curation_criteria": "Political advertising data from Meta and Google platforms",
-  "contributor_governance": "staff-driven with external advisory board",
-  "disparity_tracking": false,
-  "community_ownership": false,
-  "elections_used_in": [
-    {
-      "election": "UK May 2026 (Scottish, Welsh and Local)",
-      "role": "Ad spending tracking and analysis"
+    "url": "https://trends.whotargets.me",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:46:28.136Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 394,
+        "homepage_has_team_page": true,
+        "homepage_has_impact_metrics": true,
+        "scraped_description": "Trends from Who Targets Me makes navigating and understanding digital political advertising data easier. It includes dashboards, visualisations and analytical tools for tracking digital ad spending, targeting and messaging on Meta and Google services in over 60 countries.",
+        "scraped_final_url": "https://trends.whotargets.me/reports"
     },
-    {
-      "election": "US 2026 Midterms",
-      "role": "Ad spending tracking and analysis"
+    "collected_at": "2026-03-09T23:20:44.183Z",
+    "collected_by": "collect-enriched-script",
+    "name": "Who Targets Me Trends",
+    "tagline": "Platform for tracking and analyzing digital political advertising across Meta and Google in 60+ countries",
+    "project_type": "Platform",
+    "org_type": "Nonprofit/charity",
+    "issue_area": [
+        "media_journalism",
+        "civic_data",
+        "disinformation",
+        "advocacy_tech"
+    ],
+    "sdg_alignment": [
+        "SDG 16 – Peace, Justice and Strong Institutions"
+    ],
+    "decade_plus": false,
+    "geography": "international",
+    "countries_deployed": [
+        "United Kingdom",
+        "United States",
+        "Norway",
+        "and 57+ others"
+    ],
+    "communities_served": [
+        "journalists",
+        "election monitors",
+        "researchers",
+        "campaign professionals",
+        "citizens"
+    ],
+    "political_units": [
+        "federal",
+        "international"
+    ],
+    "open_source": "no",
+    "format": [
+        "platform",
+        "database",
+        "api"
+    ],
+    "founded_year": 2018,
+    "team_size": "small",
+    "funding_model": [
+        "subscriptions",
+        "donations"
+    ],
+    "known_funders": [
+        "Mozilla Foundation",
+        "Omidyar Network",
+        "National Endowment for Democracy"
+    ],
+    "funding_verified": true,
+    "last_funding_event": "2023",
+    "dependency_risks": [
+        "Reliance on Meta and Google API access and data availability",
+        "Platform policy changes could affect data collection"
+    ],
+    "news_articles": [],
+    "academic_citations": [],
+    "in_civictech_guide": true,
+    "policy_outcomes": [
+        "Contributed to transparency discussions around political advertising",
+        "Supported election monitoring efforts in multiple countries"
+    ],
+    "causation_strength": "correlated",
+    "outcome_methodology": "observational",
+    "replication_materials_available": false,
+    "published_performance_metrics": true,
+    "documented_limitations": [
+        "Access to some data and features requires login or paid subscription",
+        "Coverage limited to Meta and Google platforms"
+    ],
+    "jurisdictional_scope": "60+ countries",
+    "failure_modes": [
+        "API access restrictions from Meta and Google",
+        "Data gaps during platform policy changes"
+    ],
+    "governance_model": "foundation",
+    "curation_criteria": "Political advertising data from Meta and Google platforms",
+    "contributor_governance": "staff-driven with external advisory board",
+    "disparity_tracking": false,
+    "community_ownership": false,
+    "elections_used_in": [
+        {
+            "election": "UK May 2026 (Scottish, Welsh and Local)",
+            "role": "Ad spending tracking and analysis"
+        },
+        {
+            "election": "US 2026 Midterms",
+            "role": "Ad spending tracking and analysis"
+        },
+        {
+            "election": "Norway September 2025 Parliamentary election",
+            "role": "Ad spending tracking and analysis"
+        }
+    ],
+    "ai_involvement": false,
+    "pass2_at": "2026-03-09T23:21:43.877Z",
+    "political_relevance_summary": "Who Targets Me Trends addresses civic data access and transparency. Platform for tracking and analyzing digital political advertising across Meta and Google in 60+ countries.",
+    "movement_building_utility": {
+        "classification": "information_resource",
+        "notes": "Provides information, data, or research for civic purposes"
     },
-    {
-      "election": "Norway September 2025 Parliamentary election",
-      "role": "Ad spending tracking and analysis"
-    }
-  ],
-  "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:43.877Z"
+    "systemic_issue_area": "media accountability and press freedom",
+    "generalizability_notes": "Moderately generalizable — already international but proprietary nature may limit independent replication.",
+    "primary_users_or_beneficiaries": [
+        "journalists",
+        "election monitors",
+        "researchers",
+        "campaign professionals",
+        "citizens"
+    ],
+    "underdog_signal": true
 }

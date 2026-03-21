@@ -100,5 +100,20 @@
   ],
   "pass5_at": "2026-03-10T00:46:43.104Z",
   "pass5_jina_words": 382,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Local Insight addresses making civic data accessible and actionable and improving government service delivery and transparency.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Serves as an information resource: Community and Neighbourhood Data Platform."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "currently deployed in United Kingdom only, but approach could be adapted to other national contexts.",
+  "primary_users_or_beneficiaries": [
+    "councils",
+    "grantmakers",
+    "housing associations",
+    "charities",
+    "researchers"
+  ],
+  "underdog_signal": false
 }

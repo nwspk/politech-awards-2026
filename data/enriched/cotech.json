@@ -90,5 +90,19 @@
   ],
   "pass5_at": "2026-03-10T00:45:36.860Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses barriers to meaningful citizen participation in democratic decision-making by providing tools for public engagement and deliberation.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Builds cooperative or commons-based infrastructure for civic or community use."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Could be adapted for other national contexts with localization effort.",
+  "primary_users_or_beneficiaries": [
+    "organizations seeking values-aligned technology",
+    "cooperative businesses",
+    "social enterprises",
+    "nonprofits"
+  ],
+  "underdog_signal": true
 }

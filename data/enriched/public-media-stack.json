@@ -91,5 +91,19 @@
   ],
   "pass5_at": "2026-03-10T00:50:56.160Z",
   "pass5_jina_words": 387,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Public Media Stack addresses civic data access and transparency. A curated research resource mapping software tools and technologies used across the public media workflow.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides data, research, or educational resources for civic engagement."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Already deployed across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "investigative journalists",
+    "public media organizations",
+    "nonprofit news outlets",
+    "media technologists"
+  ],
+  "underdog_signal": false
 }

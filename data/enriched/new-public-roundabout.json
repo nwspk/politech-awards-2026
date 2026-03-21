@@ -103,5 +103,18 @@
   "pass3_at": "2026-03-09T23:22:47.852Z",
   "_sources": [
     "openalex"
-  ]
+  ],
+  "political_relevance_summary": "New_ Public Roundabout operates in the local democracy, community building, digital public infrastructure space, contributing tools or resources that support civic engagement, transparency, or democratic processes.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "New_ Public Roundabout enables civic participation and amplifies community voices in democratic processes."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Limited generalizability. New_ Public Roundabout is proprietary and context-specific. While the model could inspire similar initiatives, direct replication would require building from scratch.",
+  "primary_users_or_beneficiaries": [
+    "local/neighbourhood communities",
+    "underestimated communities",
+    "community stewards and moderators"
+  ],
+  "underdog_signal": true
 }

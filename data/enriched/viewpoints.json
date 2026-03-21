@@ -108,5 +108,20 @@
   ],
   "pass5_at": "2026-03-10T00:52:08.594Z",
   "pass5_jina_words": 479,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Viewpoints addresses democratic participation and citizen engagement. Effortless AI-powered polls and consensus building for meetings, events, and communities.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides civic data or journalism infrastructure"
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Moderately generalizable — already international but proprietary nature may limit independent replication.",
+  "primary_users_or_beneficiaries": [
+    "teams and organizations",
+    "event organizers",
+    "educators",
+    "community leaders",
+    "researchers"
+  ],
+  "underdog_signal": true
 }

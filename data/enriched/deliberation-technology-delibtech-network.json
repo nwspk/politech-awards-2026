@@ -65,5 +65,19 @@
   "pass2_at": "2026-03-09T23:21:43.822Z",
   "pass5_at": "2026-03-10T00:54:25.255Z",
   "pass5_jina_words": 845,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Deliberation & Technology (DelibTech) Network addresses democratic participation and citizen engagement. International network of technologists and practitioners building and studying technology to enhance deliberation and digital infrastructure for deliberative democracy.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides technical infrastructure that other civic tools or services build upon."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Proprietary or closed-source; replication requires licensing.",
+  "primary_users_or_beneficiaries": [
+    "technologists",
+    "practitioners",
+    "experts",
+    "citizens' assembly organizers"
+  ],
+  "underdog_signal": true
 }

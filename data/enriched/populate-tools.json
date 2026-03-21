@@ -96,5 +96,18 @@
   ],
   "pass5_at": "2026-03-10T00:46:20.920Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Populate Tools addresses democratic participation and citizen engagement. Tools for civic engagement.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Directly supports organizing, mobilization, or democratic participation processes."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase facilitates replication; currently focused on Spain; replication materials are available; would require local data and regulatory adaptation.",
+  "primary_users_or_beneficiaries": [
+    "engaged citizens",
+    "government officials",
+    "civic organizations"
+  ],
+  "underdog_signal": true
 }

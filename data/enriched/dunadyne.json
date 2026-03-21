@@ -50,5 +50,18 @@
     "tagline",
     "issue_area",
     "governance_model"
-  ]
+  ],
+  "political_relevance_summary": "Dunadyne addresses civic technology. Collective intelligence platform for forming and organizing Decentralized Unincorporated Nonprofit Associations (DUNAs).",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Directly supports organizing, campaigning, or advocacy actions."
+  },
+  "systemic_issue_area": "civic technology infrastructure",
+  "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Proprietary or closed-source; replication requires licensing.",
+  "primary_users_or_beneficiaries": [
+    "Organizations",
+    "Researchers",
+    "Data analysts"
+  ],
+  "underdog_signal": false
 }

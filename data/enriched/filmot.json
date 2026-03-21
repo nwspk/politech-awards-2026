@@ -91,5 +91,18 @@
   ],
   "pass5_at": "2026-03-10T00:46:15.166Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Filmot addresses civic technology. Search in Youtube captions and subtitles.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides data, research, or monitoring capabilities for civic purposes."
+  },
+  "systemic_issue_area": "civic technology infrastructure",
+  "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Proprietary or closed-source; replication requires licensing.",
+  "primary_users_or_beneficiaries": [
+    "researchers",
+    "journalists",
+    "general_public"
+  ],
+  "underdog_signal": true
 }

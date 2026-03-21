@@ -91,5 +91,18 @@
   ],
   "pass5_at": "2026-03-10T00:46:21.361Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "RxC Voice addresses democratic participation and citizen engagement. An app for decentralized democratic governance leveraging Quadratic Funding, pol.is, and Quadratic Voting.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides data, research, or educational resources for civic engagement."
+  },
+  "systemic_issue_area": "electoral integrity",
+  "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions; replication materials are available.",
+  "primary_users_or_beneficiaries": [
+    "engaged citizens",
+    "civic technology researchers",
+    "decentralized governance practitioners"
+  ],
+  "underdog_signal": false
 }

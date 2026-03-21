@@ -184,5 +184,17 @@
   "pass5_changes": [
     "news_articles",
     "policy_outcomes"
-  ]
+  ],
+  "political_relevance_summary": "Monitor Mamdani addresses enabling broader democratic participation and improving government service delivery and transparency. It has documented policy impact.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Directly supports organizers/campaigners through Live NYC Mayor Tracking Dashboard monitoring Zohran Mamdani's campaign promises and performance."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Generalizability depends on local context and regulatory environment.",
+  "primary_users_or_beneficiaries": [
+    "voters",
+    "researchers"
+  ],
+  "underdog_signal": true
 }

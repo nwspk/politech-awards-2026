@@ -127,5 +127,19 @@
   ],
   "pass5_at": "2026-03-10T00:46:22.040Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "GRIM (Global Risk Simulator) addresses simulating and preparing for global catastrophic risks and improving emergency preparedness and response.",
+  "movement_building_utility": {
+    "classification": "indirect_or_none",
+    "notes": "Primarily serves global catastrophic risk researchers, effective altruism community, foresight practitioners; limited direct movement-building utility."
+  },
+  "systemic_issue_area": "global risk and security",
+  "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "global catastrophic risk researchers",
+    "effective altruism community",
+    "foresight practitioners",
+    "emergency response planners"
+  ],
+  "underdog_signal": true
 }

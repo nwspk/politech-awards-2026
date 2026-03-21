@@ -1,105 +1,114 @@
 {
-  "url": "https://github.com/bluesky-social",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:43:51.679Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 856,
-    "homepage_has_team_page": true,
-    "homepage_has_impact_metrics": false,
-    "scraped_description": "bluesky-social has 41 repositories available. Follow their code on GitHub.",
-    "scraped_final_url": "https://github.com/bluesky-social"
-  },
-  "collected_at": "2026-03-09T23:21:11.495Z",
-  "collected_by": "collect-enriched-script",
-  "name": "Bluesky Social",
-  "tagline": "Social networking technology created by Bluesky",
-  "project_type": "Platform",
-  "org_type": "for_profit_technology_company",
-  "issue_area": [
-    "digital_infrastructure",
-    "social_media",
-    "decentralized_networks"
-  ],
-  "sdg_alignment": [
-    "SDG 9: Industry, Innovation and Infrastructure",
-    "SDG 10: Reduced Inequalities"
-  ],
-  "decade_plus": false,
-  "geography": "international",
-  "countries_deployed": [
-    "united_states",
-    "united_kingdom",
-    "canada",
-    "australia"
-  ],
-  "communities_served": [
-    "general_public",
-    "developers"
-  ],
-  "political_units": [
-    "global"
-  ],
-  "open_source": "yes",
-  "github_url": "https://github.com/bluesky-social",
-  "github_stars": 8500,
-  "last_commit_date": "2026-03-09",
-  "format": [
-    "software",
-    "open_source_repository"
-  ],
-  "founded_year": 2021,
-  "team_size": "medium",
-  "funding_model": [
-    "venture_capital"
-  ],
-  "known_funders": [
-    "Sequoia Capital",
-    "Benchmark",
-    "Khosla Ventures"
-  ],
-  "funding_verified": true,
-  "last_funding_event": "2024-05-01",
-  "dependency_risks": [
-    "Reliance on venture capital funding",
-    "Dependency on AT Protocol adoption",
-    "Competition from established social media platforms"
-  ],
-  "news_articles": [
-    "https://www.theguardian.com/technology/bluesky",
-    "https://www.wired.com/story/bluesky-social-network",
-    "https://www.reuters.com/technology/bluesky-social-media",
-    "https://techcrunch.com/tag/bluesky/"
-  ],
-  "academic_citations": [
-    "Decentralized social media protocols research",
-    "AT Protocol technical documentation"
-  ],
-  "in_civictech_guide": false,
-  "wikipedia_page": "https://en.wikipedia.org/wiki/Bluesky_(social_network)",
-  "replication_materials_available": true,
-  "published_performance_metrics": "User growth metrics, server uptime statistics",
-  "documented_limitations": [
-    "Limited moderation infrastructure at scale",
-    "Early-stage platform stability concerns",
-    "Smaller user base compared to established platforms"
-  ],
-  "jurisdictional_scope": "global",
-  "failure_modes": [
-    "Server outages during high traffic periods",
-    "Moderation scaling challenges"
-  ],
-  "governance_model": "open_source_community",
-  "curation_criteria": "Open source contribution guidelines, AT Protocol standards",
-  "contributor_governance": "Community-driven development with core team oversight",
-  "community_ownership": "Partial - open source but venture-backed",
-  "controversies": [
-    "Moderation policy debates",
-    "Concerns about venture capital influence on decentralization goals"
-  ],
-  "ai_involvement": "Content moderation systems, recommendation algorithms",
-  "pass2_at": "2026-03-09T23:21:29.065Z",
-  "pass5_at": "2026-03-10T00:46:16.890Z",
-  "pass5_jina_words": 19,
-  "pass5_changes": []
+    "url": "https://github.com/bluesky-social",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:43:51.679Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 856,
+        "homepage_has_team_page": true,
+        "homepage_has_impact_metrics": false,
+        "scraped_description": "bluesky-social has 41 repositories available. Follow their code on GitHub.",
+        "scraped_final_url": "https://github.com/bluesky-social"
+    },
+    "collected_at": "2026-03-09T23:21:11.495Z",
+    "collected_by": "collect-enriched-script",
+    "name": "Bluesky Social",
+    "tagline": "Social networking technology created by Bluesky",
+    "project_type": "Platform",
+    "org_type": "for_profit_technology_company",
+    "issue_area": [
+        "digital_infrastructure",
+        "social_media",
+        "decentralized_networks"
+    ],
+    "sdg_alignment": [
+        "SDG 9: Industry, Innovation and Infrastructure",
+        "SDG 10: Reduced Inequalities"
+    ],
+    "decade_plus": false,
+    "geography": "international",
+    "countries_deployed": [
+        "united_states",
+        "united_kingdom",
+        "canada",
+        "australia"
+    ],
+    "communities_served": [
+        "general_public",
+        "developers"
+    ],
+    "political_units": [
+        "global"
+    ],
+    "open_source": "yes",
+    "github_url": "https://github.com/bluesky-social",
+    "github_stars": 8500,
+    "last_commit_date": "2026-03-09",
+    "format": [
+        "software",
+        "open_source_repository"
+    ],
+    "founded_year": 2021,
+    "team_size": "medium",
+    "funding_model": [
+        "venture_capital"
+    ],
+    "known_funders": [
+        "Sequoia Capital",
+        "Benchmark",
+        "Khosla Ventures"
+    ],
+    "funding_verified": true,
+    "last_funding_event": "2024-05-01",
+    "dependency_risks": [
+        "Reliance on venture capital funding",
+        "Dependency on AT Protocol adoption",
+        "Competition from established social media platforms"
+    ],
+    "news_articles": [
+        "https://www.theguardian.com/technology/bluesky",
+        "https://www.wired.com/story/bluesky-social-network",
+        "https://www.reuters.com/technology/bluesky-social-media",
+        "https://techcrunch.com/tag/bluesky/"
+    ],
+    "academic_citations": [],
+    "in_civictech_guide": false,
+    "wikipedia_page": "https://en.wikipedia.org/wiki/Bluesky_(social_network)",
+    "replication_materials_available": true,
+    "published_performance_metrics": "User growth metrics, server uptime statistics",
+    "documented_limitations": [
+        "Limited moderation infrastructure at scale",
+        "Early-stage platform stability concerns",
+        "Smaller user base compared to established platforms"
+    ],
+    "jurisdictional_scope": "global",
+    "failure_modes": [
+        "Server outages during high traffic periods",
+        "Moderation scaling challenges"
+    ],
+    "governance_model": "open_source_community",
+    "curation_criteria": "Open source contribution guidelines, AT Protocol standards",
+    "contributor_governance": "Community-driven development with core team oversight",
+    "community_ownership": "Partial - open source but venture-backed",
+    "controversies": [
+        "Moderation policy debates",
+        "Concerns about venture capital influence on decentralization goals"
+    ],
+    "ai_involvement": "Content moderation systems, recommendation algorithms",
+    "pass2_at": "2026-03-09T23:21:29.065Z",
+    "pass5_at": "2026-03-10T00:46:16.890Z",
+    "pass5_jina_words": 19,
+    "pass5_changes": [],
+    "political_relevance_summary": "Addresses challenges in civic technology infrastructure by serving general_public, developers.",
+    "movement_building_utility": {
+        "classification": "infrastructure",
+        "notes": "Provides decentralized communication infrastructure as an alternative to corporate platforms."
+    },
+    "systemic_issue_area": "civic technology infrastructure",
+    "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (4 countries), demonstrating cross-context adaptability.",
+    "primary_users_or_beneficiaries": [
+        "general_public",
+        "civic technology developers"
+    ],
+    "underdog_signal": false
 }

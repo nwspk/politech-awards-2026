@@ -92,5 +92,19 @@
   ],
   "pass5_at": "2026-03-10T00:46:26.245Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Hand-Written Petition Scanner addresses enabling broader democratic participation and making civic data accessible and actionable.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Directly supports organizers/campaigners through Tool for digitizing and analyzing hand-written petitions using optical character recognition."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "activists",
+    "campaigners",
+    "civic organizations",
+    "researchers"
+  ],
+  "underdog_signal": true
 }

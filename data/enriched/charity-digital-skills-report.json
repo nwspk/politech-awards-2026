@@ -110,5 +110,20 @@
   ],
   "pass5_at": "2026-03-10T00:47:23.354Z",
   "pass5_jina_words": 860,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses threats to digital autonomy and privacy rights that affect civic participation and civil liberties.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Provides evidence and data that amplifies advocacy and accountability efforts."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Primarily national in scope; replication would require significant localization. Methodology and approach could inform similar efforts in other jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "charity sector professionals",
+    "nonprofit staff",
+    "trustees",
+    "volunteers",
+    "funders"
+  ],
+  "underdog_signal": true
 }

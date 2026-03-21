@@ -110,5 +110,21 @@
   ],
   "pass5_at": "2026-03-10T00:46:23.983Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Frankenstein Bill addresses civic technology. A dummy parliamentary bill collecting and explaining potential speedbumps for government software development and digitally-enabled service design.",
+  "movement_building_utility": {
+    "classification": "indirect_or_none",
+    "notes": "Indirect civic tech relevance; not primarily a movement-building tool."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Primarily local/regional; would need significant adaptation for other contexts. Open-source codebase facilitates replication.",
+  "primary_users_or_beneficiaries": [
+    "Policy makers",
+    "Legislators",
+    "Technologists",
+    "Service designers",
+    "Content designers",
+    "Organisation designers"
+  ],
+  "underdog_signal": true
 }

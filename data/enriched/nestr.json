@@ -1,91 +1,94 @@
 {
-  "url": "https://nestr.io",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:45:13.255Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 961,
-    "homepage_has_team_page": true,
-    "homepage_has_impact_metrics": false,
-    "scraped_description": "Collaboration &amp; Productivity software. Create &amp; find organisations you actually care for!",
-    "scraped_final_url": "https://nestr.io/"
-  },
-  "collected_at": "2026-03-09T23:20:06.136Z",
-  "collected_by": "collect-enriched-script",
-  "name": "Nestr",
-  "tagline": "Purpose-driven collaboration platform using self-organization and AI",
-  "project_type": "Tool/Platform",
-  "org_type": "For-profit/social enterprise",
-  "issue_area": [
-    "participatory_democracy"
-  ],
-  "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
-  ],
-  "decade_plus": false,
-  "geography": "international",
-  "countries_deployed": [
-    "United States",
-    "Europe"
-  ],
-  "communities_served": [
-    "organizations",
-    "teams",
-    "DAOs",
-    "startups",
-    "remote teams"
-  ],
-  "political_units": [
-    "Multi-national"
-  ],
-  "open_source": "no",
-  "format": [
-    "platform",
-    "app"
-  ],
-  "founded_year": 2021,
-  "team_size": "small",
-  "funding_model": [
-    "subscriptions"
-  ],
-  "funding_verified": false,
-  "dependency_risks": [
-    "Proprietary platform dependency",
-    "Subscription-based revenue model sustainability"
-  ],
-  "academic_citations": [
-    {
-      "title": "NeSTR: A Neuro-Symbolic Abductive Framework for Temporal Reasoning in Large Language Models",
-      "year": 2025,
-      "cited_by": 0,
-      "doi": null
+    "url": "https://nestr.io",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:45:13.255Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 961,
+        "homepage_has_team_page": true,
+        "homepage_has_impact_metrics": false,
+        "scraped_description": "Collaboration &amp; Productivity software. Create &amp; find organisations you actually care for!",
+        "scraped_final_url": "https://nestr.io/"
     },
-    {
-      "title": "Build Nesting or Hierarchical Structures [R package nestr version 0.1.1]",
-      "year": 2021,
-      "cited_by": 0,
-      "doi": null
+    "collected_at": "2026-03-09T23:20:06.136Z",
+    "collected_by": "collect-enriched-script",
+    "name": "Nestr",
+    "tagline": "Purpose-driven collaboration platform using self-organization and AI",
+    "project_type": "Tool/Platform",
+    "org_type": "For-profit/social enterprise",
+    "issue_area": [
+        "participatory_democracy"
+    ],
+    "sdg_alignment": [
+        "SDG 16 – Peace, Justice and Strong Institutions"
+    ],
+    "decade_plus": false,
+    "geography": "international",
+    "countries_deployed": [
+        "United States",
+        "Europe"
+    ],
+    "communities_served": [
+        "organizations",
+        "teams",
+        "DAOs",
+        "startups",
+        "remote teams"
+    ],
+    "political_units": [
+        "Multi-national"
+    ],
+    "open_source": "no",
+    "format": [
+        "platform",
+        "app"
+    ],
+    "founded_year": 2021,
+    "team_size": "small",
+    "funding_model": [
+        "subscriptions"
+    ],
+    "funding_verified": false,
+    "dependency_risks": [
+        "Proprietary platform dependency",
+        "Subscription-based revenue model sustainability"
+    ],
+    "academic_citations": [
+        {
+            "title": "Analysis of movement recursions to detect reproductive events and estimate their fate in central place foragers",
+            "year": 2020,
+            "cited_by": 55,
+            "doi": "https://doi.org/10.1186/s40462-020-00201-1"
+        }
+    ],
+    "in_civictech_guide": false,
+    "replication_materials_available": false,
+    "jurisdictional_scope": "International",
+    "governance_model": "Centralized (proprietary platform)",
+    "contributor_governance": "Closed (proprietary)",
+    "community_ownership": false,
+    "ai_involvement": true,
+    "pass2_at": "2026-03-09T23:21:34.087Z",
+    "pass3_at": "2026-03-09T23:22:47.624Z",
+    "_sources": [
+        "openalex"
+    ],
+    "pass5_at": "2026-03-10T01:02:08.356Z",
+    "pass5_jina_words": 593,
+    "pass5_changes": [],
+    "political_relevance_summary": "Nestr addresses organizational fragmentation by providing a self-organizing collaboration platform that could support participatory governance and civic coordination, though its primary focus is workplace productivity rather than direct political engagement.",
+    "movement_building_utility": {
+        "classification": "advocacy_amplifier",
+        "notes": "Nestr enables civic participation and amplifies community voices in democratic processes."
     },
-    {
-      "title": "Analysis of movement recursions to detect reproductive events and estimate their fate in central place foragers",
-      "year": 2020,
-      "cited_by": 55,
-      "doi": "https://doi.org/10.1186/s40462-020-00201-1"
-    }
-  ],
-  "in_civictech_guide": false,
-  "replication_materials_available": false,
-  "jurisdictional_scope": "International",
-  "governance_model": "Centralized (proprietary platform)",
-  "contributor_governance": "Closed (proprietary)",
-  "community_ownership": false,
-  "ai_involvement": true,
-  "pass2_at": "2026-03-09T23:21:34.087Z",
-  "pass3_at": "2026-03-09T23:22:47.624Z",
-  "_sources": [
-    "openalex"
-  ],
-  "pass5_at": "2026-03-10T01:02:08.356Z",
-  "pass5_jina_words": 593,
-  "pass5_changes": []
+    "systemic_issue_area": "democratic participation access",
+    "generalizability_notes": "Moderate generalizability. Nestr operates internationally but is proprietary, so replication would require licensing or rebuilding rather than direct adoption.",
+    "primary_users_or_beneficiaries": [
+        "organizations",
+        "teams",
+        "DAOs",
+        "startups",
+        "remote teams"
+    ],
+    "underdog_signal": true
 }

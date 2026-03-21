@@ -1,103 +1,110 @@
 {
-  "url": "https://www.watchduty.org",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:47:42.136Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 484,
-    "homepage_has_team_page": true,
-    "homepage_has_impact_metrics": false,
-    "scraped_description": "Watch Duty, a 501(c)(3) nonprofit, alerts you of nearby wildfires and firefighting efforts in real-time.",
-    "scraped_final_url": "https://www.watchduty.org/"
-  },
-  "collected_at": "2026-03-09T23:21:00.301Z",
-  "collected_by": "collect-enriched-script",
-  "name": "Watch Duty",
-  "tagline": "Real-time wildfire maps and alerts powered by volunteer first responders",
-  "project_type": "Platform",
-  "org_type": "Nonprofit/charity",
-  "issue_area": [
-    "civic_data",
-    "govtech"
-  ],
-  "sdg_alignment": [
-    "SDG 13 – Climate Action",
-    "SDG 16 – Peace, Justice and Strong Institutions"
-  ],
-  "decade_plus": false,
-  "geography": "national",
-  "countries_deployed": [
-    "United States"
-  ],
-  "communities_served": [
-    "residents in wildfire-prone areas",
-    "first responders",
-    "firefighters",
-    "dispatchers"
-  ],
-  "political_units": [
-    "federal",
-    "state"
-  ],
-  "open_source": "no",
-  "format": [
-    "platform",
-    "app",
-    "api"
-  ],
-  "founded_year": 2020,
-  "team_size": "medium",
-  "funding_model": [
-    "donations"
-  ],
-  "funding_verified": false,
-  "dependency_risks": [
-    "Reliance on volunteer network of 150+ firefighters and dispatchers",
-    "Dependency on radio scanner access and official data sources"
-  ],
-  "news_articles": [
-    {
-      "headline": null,
-      "outlet": "Wired Magazine",
-      "date": null,
-      "url": null
-    }
-  ],
-  "academic_citations": [
-    {
-      "title": "Sleep at sea: a diary study of the effects of unattended machinery space watch duty",
-      "year": 1987,
-      "cited_by": 29,
-      "doi": "https://doi.org/10.1080/00140138708966027"
+    "url": "https://www.watchduty.org",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:47:42.136Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 484,
+        "homepage_has_team_page": true,
+        "homepage_has_impact_metrics": false,
+        "scraped_description": "Watch Duty, a 501(c)(3) nonprofit, alerts you of nearby wildfires and firefighting efforts in real-time.",
+        "scraped_final_url": "https://www.watchduty.org/"
     },
-    {
-      "title": "Predicting the Frequency of Marine Accidents by Navigators’ Watch Duty Time in South Korea Using LSTM",
-      "year": 2022,
-      "cited_by": 5,
-      "doi": "https://doi.org/10.3390/app122211724"
+    "collected_at": "2026-03-09T23:21:00.301Z",
+    "collected_by": "collect-enriched-script",
+    "name": "Watch Duty",
+    "tagline": "Real-time wildfire maps and alerts powered by volunteer first responders",
+    "project_type": "Platform",
+    "org_type": "Nonprofit/charity",
+    "issue_area": [
+        "civic_data",
+        "govtech"
+    ],
+    "sdg_alignment": [
+        "SDG 13 – Climate Action",
+        "SDG 16 – Peace, Justice and Strong Institutions"
+    ],
+    "decade_plus": false,
+    "geography": "national",
+    "countries_deployed": [
+        "United States"
+    ],
+    "communities_served": [
+        "residents in wildfire-prone areas",
+        "first responders",
+        "firefighters",
+        "dispatchers"
+    ],
+    "political_units": [
+        "federal",
+        "state"
+    ],
+    "open_source": "no",
+    "format": [
+        "platform",
+        "app",
+        "api"
+    ],
+    "founded_year": 2020,
+    "team_size": "medium",
+    "funding_model": [
+        "donations"
+    ],
+    "funding_verified": false,
+    "dependency_risks": [
+        "Reliance on volunteer network of 150+ firefighters and dispatchers",
+        "Dependency on radio scanner access and official data sources"
+    ],
+    "news_articles": [],
+    "academic_citations": [
+        {
+            "title": "Sleep at sea: a diary study of the effects of unattended machinery space watch duty",
+            "year": 1987,
+            "cited_by": 29,
+            "doi": "https://doi.org/10.1080/00140138708966027"
+        },
+        {
+            "title": "Predicting the Frequency of Marine Accidents by Navigators’ Watch Duty Time in South Korea Using LSTM",
+            "year": 2022,
+            "cited_by": 5,
+            "doi": "https://doi.org/10.3390/app122211724"
+        },
+        {
+            "title": "Sleep at sea: a diary study of the effects of unattended machinery space watch duty",
+            "year": 1988,
+            "cited_by": 2,
+            "doi": "https://doi.org/10.1016/0003-6870(88)90155-x"
+        }
+    ],
+    "in_civictech_guide": false,
+    "replication_materials_available": false,
+    "published_performance_metrics": false,
+    "jurisdictional_scope": "All 50 United States",
+    "governance_model": "foundation",
+    "disparity_tracking": false,
+    "community_ownership": false,
+    "political_bias_allegations": false,
+    "ai_involvement": false,
+    "pass2_at": "2026-03-09T23:21:47.908Z",
+    "pass3_at": "2026-03-09T23:23:31.211Z",
+    "_sources": [
+        "openalex"
+    ],
+    "pass5_at": "2026-03-10T00:56:56.671Z",
+    "pass5_jina_words": 522,
+    "pass5_changes": [],
+    "political_relevance_summary": "Watch Duty addresses civic data access and transparency. Real-time wildfire maps and alerts powered by volunteer first responders.",
+    "movement_building_utility": {
+        "classification": "direct_organizer_tool",
+        "notes": "Directly supports organizing, mobilization, or campaign activities"
     },
-    {
-      "title": "Sleep at sea: a diary study of the effects of unattended machinery space watch duty",
-      "year": 1988,
-      "cited_by": 2,
-      "doi": "https://doi.org/10.1016/0003-6870(88)90155-x"
-    }
-  ],
-  "in_civictech_guide": false,
-  "replication_materials_available": false,
-  "published_performance_metrics": false,
-  "jurisdictional_scope": "All 50 United States",
-  "governance_model": "foundation",
-  "disparity_tracking": false,
-  "community_ownership": false,
-  "political_bias_allegations": false,
-  "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:47.908Z",
-  "pass3_at": "2026-03-09T23:23:31.211Z",
-  "_sources": [
-    "openalex"
-  ],
-  "pass5_at": "2026-03-10T00:56:56.671Z",
-  "pass5_jina_words": 522,
-  "pass5_changes": []
+    "systemic_issue_area": "civic data access",
+    "generalizability_notes": "Limited to United States context currently; approach could potentially be replicated in similar jurisdictions with adaptation to local data sources and regulations.",
+    "primary_users_or_beneficiaries": [
+        "residents in wildfire-prone areas",
+        "first responders",
+        "firefighters",
+        "dispatchers"
+    ],
+    "underdog_signal": false
 }

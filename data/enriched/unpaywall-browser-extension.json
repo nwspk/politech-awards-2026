@@ -1,104 +1,114 @@
 {
-  "url": "https://unpaywall.org/products/extension",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:46:29.651Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 17,
-    "homepage_has_team_page": false,
-    "homepage_has_impact_metrics": false,
-    "scraped_description": null,
-    "scraped_final_url": "https://unpaywall.org/products/extension"
-  },
-  "collected_at": "2026-03-09T23:20:44.428Z",
-  "collected_by": "collect-enriched-script",
-  "name": "Unpaywall Browser Extension",
-  "tagline": "Browser extension to find legal, open access versions of academic papers",
-  "project_type": "Tool/Platform",
-  "org_type": "Nonprofit/charity",
-  "issue_area": [
-    "civic_data",
-    "media_journalism",
-    "digital_rights"
-  ],
-  "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions",
-    "SDG 4 – Quality Education"
-  ],
-  "decade_plus": true,
-  "geography": "international",
-  "countries_deployed": [
-    "United States",
-    "International"
-  ],
-  "communities_served": [
-    "researchers",
-    "journalists",
-    "academics",
-    "students",
-    "citizens"
-  ],
-  "political_units": [
-    "international"
-  ],
-  "open_source": "yes",
-  "github_url": "https://github.com/impactstory/unpaywall-browser-extension",
-  "github_stars": 2100,
-  "last_commit_date": "2024-12-15",
-  "format": [
-    "app",
-    "platform"
-  ],
-  "founded_year": 2016,
-  "team_size": "small",
-  "funding_model": [
-    "grants",
-    "donations"
-  ],
-  "known_funders": [
-    "Mellon Foundation",
-    "National Science Foundation"
-  ],
-  "funding_verified": true,
-  "last_funding_event": "2023",
-  "dependency_risks": [
-    "Reliance on open access repository data quality",
-    "Browser compatibility changes",
-    "Academic publishing landscape shifts"
-  ],
-  "news_articles": [
-    "Wired coverage of open access initiatives",
-    "Guardian articles on academic publishing access"
-  ],
-  "academic_citations": [
-    "Citations in open access research literature"
-  ],
-  "awards": [
-    "Recognition in open access community"
-  ],
-  "in_civictech_guide": false,
-  "wikipedia_page": false,
-  "replication_materials_available": true,
-  "published_performance_metrics": true,
-  "documented_limitations": [
-    "Limited to papers with open access versions available",
-    "Dependent on accuracy of open access metadata"
-  ],
-  "jurisdictional_scope": "International",
-  "failure_modes": [
-    "Metadata inaccuracies in open access repositories",
-    "Browser API changes affecting extension functionality"
-  ],
-  "governance_model": "project_of_larger_org",
-  "curation_criteria": "Automated detection of legal open access versions through Unpaywall API",
-  "contributor_governance": "Open source contribution model with maintainers from Impactstory",
-  "disparity_tracking": false,
-  "community_ownership": false,
-  "political_bias_allegations": false,
-  "legal_regulatory_issues": false,
-  "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:43.409Z",
-  "pass5_at": "2026-03-10T00:59:50.024Z",
-  "pass5_jina_words": 23,
-  "pass5_changes": []
+    "url": "https://unpaywall.org/products/extension",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:46:29.651Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 17,
+        "homepage_has_team_page": false,
+        "homepage_has_impact_metrics": false,
+        "scraped_description": null,
+        "scraped_final_url": "https://unpaywall.org/products/extension"
+    },
+    "collected_at": "2026-03-09T23:20:44.428Z",
+    "collected_by": "collect-enriched-script",
+    "name": "Unpaywall Browser Extension",
+    "tagline": "Browser extension to find legal, open access versions of academic papers",
+    "project_type": "Tool/Platform",
+    "org_type": "Nonprofit/charity",
+    "issue_area": [
+        "civic_data",
+        "media_journalism",
+        "digital_rights"
+    ],
+    "sdg_alignment": [
+        "SDG 16 – Peace, Justice and Strong Institutions",
+        "SDG 4 – Quality Education"
+    ],
+    "decade_plus": true,
+    "geography": "international",
+    "countries_deployed": [
+        "United States",
+        "International"
+    ],
+    "communities_served": [
+        "researchers",
+        "journalists",
+        "academics",
+        "students",
+        "citizens"
+    ],
+    "political_units": [
+        "international"
+    ],
+    "open_source": "yes",
+    "github_url": "https://github.com/impactstory/unpaywall-browser-extension",
+    "github_stars": 2100,
+    "last_commit_date": "2024-12-15",
+    "format": [
+        "app",
+        "platform"
+    ],
+    "founded_year": 2016,
+    "team_size": "small",
+    "funding_model": [
+        "grants",
+        "donations"
+    ],
+    "known_funders": [
+        "Mellon Foundation",
+        "National Science Foundation"
+    ],
+    "funding_verified": true,
+    "last_funding_event": "2023",
+    "dependency_risks": [
+        "Reliance on open access repository data quality",
+        "Browser compatibility changes",
+        "Academic publishing landscape shifts"
+    ],
+    "news_articles": [],
+    "academic_citations": [],
+    "awards": [
+        "Recognition in open access community"
+    ],
+    "in_civictech_guide": false,
+    "wikipedia_page": false,
+    "replication_materials_available": true,
+    "published_performance_metrics": true,
+    "documented_limitations": [
+        "Limited to papers with open access versions available",
+        "Dependent on accuracy of open access metadata"
+    ],
+    "jurisdictional_scope": "International",
+    "failure_modes": [
+        "Metadata inaccuracies in open access repositories",
+        "Browser API changes affecting extension functionality"
+    ],
+    "governance_model": "project_of_larger_org",
+    "curation_criteria": "Automated detection of legal open access versions through Unpaywall API",
+    "contributor_governance": "Open source contribution model with maintainers from Impactstory",
+    "disparity_tracking": false,
+    "community_ownership": false,
+    "political_bias_allegations": false,
+    "legal_regulatory_issues": false,
+    "ai_involvement": false,
+    "pass2_at": "2026-03-09T23:21:43.409Z",
+    "pass5_at": "2026-03-10T00:59:50.024Z",
+    "pass5_jina_words": 23,
+    "pass5_changes": [],
+    "political_relevance_summary": "Unpaywall Browser Extension addresses civic data access and transparency. Browser extension to find legal, open access versions of academic papers.",
+    "movement_building_utility": {
+        "classification": "information_resource",
+        "notes": "Provides civic data or journalism infrastructure"
+    },
+    "systemic_issue_area": "civic data access",
+    "generalizability_notes": "Highly generalizable — already deployed internationally and open source, facilitating adoption in new contexts.",
+    "primary_users_or_beneficiaries": [
+        "researchers",
+        "journalists",
+        "academics",
+        "students",
+        "citizens"
+    ],
+    "underdog_signal": true
 }

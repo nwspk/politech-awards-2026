@@ -1,109 +1,119 @@
 {
-  "url": "https://standards.theodi.org",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:46:20.044Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 515,
-    "homepage_has_team_page": true,
-    "homepage_has_impact_metrics": false,
-    "scraped_description": "This guidebook helps people and organisations create, develop and adopt open standards for data. It supports a variety of users, including policy leads, domain experts and technologists.",
-    "scraped_final_url": "https://standards.theodi.org/"
-  },
-  "collected_at": "2026-03-09T22:00:00Z",
-  "collected_by": "nano-bot",
-  "name": "Open Standards for Data Guidebook",
-  "tagline": "Helping people and organisations create, develop and adopt open standards for data",
-  "project_type": "Database",
-  "org_type": "Nonprofit/charity",
-  "issue_area": [
-    "open data",
-    "data standards",
-    "data governance",
-    "digital infrastructure"
-  ],
-  "sdg_alignment": [
-    "SDG 17 - Partnerships for the Goals",
-    "SDG 9 - Industry, Innovation and Infrastructure"
-  ],
-  "decade_plus": false,
-  "geography": "international",
-  "countries_deployed": [
-    "United Kingdom",
-    "Global"
-  ],
-  "communities_served": [
-    "policy leads",
-    "domain experts",
-    "technologists",
-    "data publishers"
-  ],
-  "political_units": [
-    "Global"
-  ],
-  "open_source": "yes",
-  "github_url": "https://github.com/theodi/open-standards-guidebook",
-  "github_stars": 29,
-  "last_commit_date": "2026-02-03",
-  "format": [
-    "web guidebook",
-    "documentation"
-  ],
-  "founded_year": 2018,
-  "team_size": "large",
-  "funding_model": [
-    "grant funding",
-    "government contract"
-  ],
-  "known_funders": [
-    "Innovate UK"
-  ],
-  "funding_verified": true,
-  "last_funding_event": "2020",
-  "dependency_risks": [
-    "hosted by ODI; continuity dependent on ODI organisational health"
-  ],
-  "news_articles": [
-    "ODI publications and announcements regarding open standards initiatives"
-  ],
-  "academic_citations": [
-    "Referenced in data governance and open data literature"
-  ],
-  "in_civictech_guide": true,
-  "wikipedia_page": false,
-  "policy_outcomes": [
-    "Influences open data policy and standards adoption across UK and international organisations"
-  ],
-  "causation_strength": "Medium - guidebook provides guidance but adoption depends on external factors",
-  "outcome_methodology": "Qualitative assessment based on user adoption and citations",
-  "replication_materials_available": true,
-  "published_performance_metrics": "GitHub engagement metrics; user adoption tracking through ODI channels",
-  "documented_limitations": [
-    "Guidebook scope limited to open standards; does not address proprietary standards",
-    "Maintenance dependent on ODI resources",
-    "May lag behind rapid evolution of data standards landscape"
-  ],
-  "jurisdictional_scope": "Global",
-  "failure_modes": [
-    "content may become outdated as standards landscape evolves"
-  ],
-  "governance_model": "ODI-maintained; community contributions via GitHub issues",
-  "curation_criteria": "Focus on open standards for data; ODI editorial oversight",
-  "contributor_governance": "Open to community contributions via GitHub",
-  "disparity_tracking": "Not explicitly tracked; guidebook aims for inclusive accessibility",
-  "community_ownership": "Community-contributed but ODI-controlled; open contribution model without formal community governance structure",
-  "political_bias_allegations": "None documented",
-  "legal_regulatory_issues": "None documented",
-  "government_partnerships": [
-    {
-      "name": "Innovate UK",
-      "type": "funder",
-      "country": "UK"
-    }
-  ],
-  "ai_involvement": "None - guidebook is human-authored reference material",
-  "pass2_at": "2026-03-09T23:21:43.250Z",
-  "pass5_at": "2026-03-10T00:52:13.097Z",
-  "pass5_jina_words": 205,
-  "pass5_changes": []
+    "url": "https://standards.theodi.org",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:46:20.044Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 515,
+        "homepage_has_team_page": true,
+        "homepage_has_impact_metrics": false,
+        "scraped_description": "This guidebook helps people and organisations create, develop and adopt open standards for data. It supports a variety of users, including policy leads, domain experts and technologists.",
+        "scraped_final_url": "https://standards.theodi.org/"
+    },
+    "collected_at": "2026-03-09T22:00:00Z",
+    "collected_by": "nano-bot",
+    "name": "Open Standards for Data Guidebook",
+    "tagline": "Helping people and organisations create, develop and adopt open standards for data",
+    "project_type": "Database",
+    "org_type": "Nonprofit/charity",
+    "issue_area": [
+        "open data",
+        "data standards",
+        "data governance",
+        "digital infrastructure"
+    ],
+    "sdg_alignment": [
+        "SDG 17 - Partnerships for the Goals",
+        "SDG 9 - Industry, Innovation and Infrastructure"
+    ],
+    "decade_plus": false,
+    "geography": "international",
+    "countries_deployed": [
+        "United Kingdom",
+        "Global"
+    ],
+    "communities_served": [
+        "policy leads",
+        "domain experts",
+        "technologists",
+        "data publishers"
+    ],
+    "political_units": [
+        "Global"
+    ],
+    "open_source": "yes",
+    "github_url": "https://github.com/theodi/open-standards-guidebook",
+    "github_stars": 29,
+    "last_commit_date": "2026-02-03",
+    "format": [
+        "web guidebook",
+        "documentation"
+    ],
+    "founded_year": 2018,
+    "team_size": "large",
+    "funding_model": [
+        "grant funding",
+        "government contract"
+    ],
+    "known_funders": [
+        "Innovate UK"
+    ],
+    "funding_verified": true,
+    "last_funding_event": "2020",
+    "dependency_risks": [
+        "hosted by ODI; continuity dependent on ODI organisational health"
+    ],
+    "news_articles": [],
+    "academic_citations": [],
+    "in_civictech_guide": true,
+    "wikipedia_page": false,
+    "policy_outcomes": [
+        "Influences open data policy and standards adoption across UK and international organisations"
+    ],
+    "causation_strength": "Medium - guidebook provides guidance but adoption depends on external factors",
+    "outcome_methodology": "Qualitative assessment based on user adoption and citations",
+    "replication_materials_available": true,
+    "published_performance_metrics": "GitHub engagement metrics; user adoption tracking through ODI channels",
+    "documented_limitations": [
+        "Guidebook scope limited to open standards; does not address proprietary standards",
+        "Maintenance dependent on ODI resources",
+        "May lag behind rapid evolution of data standards landscape"
+    ],
+    "jurisdictional_scope": "Global",
+    "failure_modes": [
+        "content may become outdated as standards landscape evolves"
+    ],
+    "governance_model": "ODI-maintained; community contributions via GitHub issues",
+    "curation_criteria": "Focus on open standards for data; ODI editorial oversight",
+    "contributor_governance": "Open to community contributions via GitHub",
+    "disparity_tracking": "Not explicitly tracked; guidebook aims for inclusive accessibility",
+    "community_ownership": "Community-contributed but ODI-controlled; open contribution model without formal community governance structure",
+    "political_bias_allegations": "None documented",
+    "legal_regulatory_issues": "None documented",
+    "government_partnerships": [
+        {
+            "name": "Innovate UK",
+            "type": "funder",
+            "country": "UK"
+        }
+    ],
+    "ai_involvement": "None - guidebook is human-authored reference material",
+    "pass2_at": "2026-03-09T23:21:43.250Z",
+    "pass5_at": "2026-03-10T00:52:13.097Z",
+    "pass5_jina_words": 205,
+    "pass5_changes": [],
+    "political_relevance_summary": "Open Standards for Data Guidebook addresses barriers to civic data access and transparency, making public or institutional data more available for accountability, research, and informed civic engagement.",
+    "movement_building_utility": {
+        "classification": "infrastructure",
+        "notes": "Open Standards for Data Guidebook provides foundational data infrastructure, standards, or platforms that other civic technology efforts build upon."
+    },
+    "systemic_issue_area": "civic data access",
+    "generalizability_notes": "High generalizability. Open Standards for Data Guidebook is open source and already deployed across multiple countries/jurisdictions, making replication straightforward for other contexts.",
+    "primary_users_or_beneficiaries": [
+        "policy leads",
+        "domain experts",
+        "technologists",
+        "data publishers"
+    ],
+    "underdog_signal": false
 }

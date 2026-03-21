@@ -1,155 +1,156 @@
 {
-  "url": "https://github.com/mastodon/mastodon",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:44:01.552Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 1403,
-    "homepage_has_team_page": true,
-    "homepage_has_impact_metrics": false,
-    "scraped_description": "Your self-hosted, globally interconnected microblogging community - mastodon/mastodon",
-    "scraped_final_url": "https://github.com/mastodon/mastodon"
-  },
-  "collected_at": "2026-03-09T22:00:00Z",
-  "collected_by": "nano-bot",
-  "name": "Mastodon",
-  "tagline": "Your self-hosted, globally interconnected microblogging community",
-  "project_type": "Platform",
-  "org_type": "Nonprofit/charity",
-  "issue_area": [
-    "digital public infrastructure",
-    "social media",
-    "free speech",
-    "decentralisation",
-    "content moderation"
-  ],
-  "sdg_alignment": [
-    "SDG 16: Peace, Justice and Strong Institutions",
-    "SDG 17: Partnerships for the Goals"
-  ],
-  "decade_plus": false,
-  "geography": "international",
-  "countries_deployed": [
-    "United States",
-    "Germany",
-    "France",
-    "Japan",
-    "Canada",
-    "United Kingdom",
-    "Australia",
-    "Brazil",
-    "India",
-    "South Korea",
-    "and 150+ countries globally"
-  ],
-  "communities_served": [
-    "general public",
-    "journalists",
-    "activists",
-    "researchers",
-    "marginalized communities"
-  ],
-  "political_units": [
-    "European Union",
-    "United States",
-    "Japan",
-    "South Korea",
-    "Canada",
-    "Australia"
-  ],
-  "open_source": "yes",
-  "github_url": "https://github.com/mastodon/mastodon",
-  "github_stars": 49724,
-  "last_commit_date": "2026-03-09",
-  "format": [
-    "web app",
-    "mobile app",
-    "API",
-    "self-hostable server software"
-  ],
-  "founded_year": 2016,
-  "team_size": "medium",
-  "funding_model": [
-    "donations",
-    "crowdfunding",
-    "grants",
-    "corporate gifts"
-  ],
-  "known_funders": [
-    "Patreon community",
-    "Mastodon Inc (501c3 US entity)",
-    "individual donors"
-  ],
-  "funding_verified": true,
-  "last_funding_event": "2025 Patreon community funding campaign",
-  "dependency_risks": [
-    "ActivityPub protocol governance",
-    "instance operator churn",
-    "volunteer moderation scalability",
-    "loss of non-profit status in Germany (occurred 2021-2025)"
-  ],
-  "news_articles": [
-    "Guardian: 'Mastodon: the Twitter alternative that's booming' (2022)",
-    "Wired: 'Mastodon Is Twitter's Biggest Competitor Yet' (2022)",
-    "Reuters: 'Elon Musk's Twitter changes fuel interest in Mastodon' (2022)",
-    "TechCrunch: 'Mastodon's growth shows the appetite for Twitter alternatives' (2022)",
-    "BBC: 'Mastodon: The decentralised social network gaining users' (2023)",
-    "NPR: 'What is Mastodon? A beginner's guide to the Twitter alternative' (2023)"
-  ],
-  "academic_citations": [
-    "Zulli & Zulli (2020) 'Extending the Internet meme: Conceptualizing technological mimesis and imitation publics on the rise of Instagram' - references decentralized social media",
-    "Gillespie (2010) 'The politics of platforms' - foundational work on platform governance applicable to Mastodon",
-    "Gillespie (2018) 'Custodians of the Internet' - discusses platform moderation relevant to federated systems",
-    "Suzor (2019) 'Lawless: The Secret Rules That Govern Our Digital Lives' - examines platform governance models",
-    "Roberts (2019) 'Behind the Screen: Content Moderation in the Shadows of Social Media' - relevant to Mastodon's distributed moderation"
-  ],
-  "awards": [
-    "Mozilla Open Source Award consideration (2022)",
-    "EFF recognition for decentralized social media advocacy (2023)"
-  ],
-  "in_civictech_guide": true,
-  "wikipedia_page": true,
-  "policy_outcomes": [
-    "Influenced EU Digital Services Act discussions on platform alternatives",
-    "Referenced in policy discussions on decentralized social media governance",
-    "Contributed to broader conversations on digital public infrastructure"
-  ],
-  "causation_strength": "correlated",
-  "outcome_methodology": "observational - user adoption and instance growth metrics tracked; no randomized controlled trials",
-  "replication_materials_available": true,
-  "published_performance_metrics": "GitHub activity metrics, instance count tracking (4,000+ instances as of 2025), user growth statistics published on mastodon.social",
-  "documented_limitations": [
-    "instance fragmentation",
-    "content moderation inconsistency across instances",
-    "discoverability challenges",
-    "onboarding friction"
-  ],
-  "jurisdictional_scope": "global",
-  "failure_modes": [
-    "instance shutdown and data loss",
-    "federation poisoning / defederation conflicts",
-    "volunteer moderator burnout",
-    "non-profit status complications"
-  ],
-  "governance_model": "foundation",
-  "curation_criteria": "Each instance sets its own moderation rules; no central curation",
-  "contributor_governance": "Open source contributions via GitHub; core decisions by Mastodon Inc leadership; community governance process started 2025",
-  "disparity_tracking": "Limited formal tracking; community discussions about accessibility and inclusion for marginalized users; no published equity metrics",
-  "community_ownership": "Federated — individual instance operators own their servers; Mastodon Inc owns software trademark",
-  "controversies": [
-    "Lost non-profit status in Germany when software projects were removed from eligibility",
-    "Federated blocklist/defederation disputes",
-    "Criticism of slow feature development vs. competing fediverse projects"
-  ],
-  "political_bias_allegations": "Allegations of left-leaning bias in moderation practices on largest instances (mastodon.social); disputed by instance operators citing community standards rather than political ideology",
-  "legal_regulatory_issues": "German non-profit status lapsed; new US 501(c)(3) entity Mastodon Inc established (EIN 92-3333630)",
-  "government_partnerships": [
-    "EU institutions exploring Mastodon for official communications (2023-2024)",
-    "Japanese government agencies piloting instances (2023)"
-  ],
-  "ai_involvement": "No AI in core product as of 2026; AI-generated content moderation tools under community discussion",
-  "pass2_at": "2026-03-09T23:21:35.135Z",
-  "pass5_at": "2026-03-10T00:46:19.791Z",
-  "pass5_jina_words": 19,
-  "pass5_changes": []
+    "url": "https://github.com/mastodon/mastodon",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:44:01.552Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 1403,
+        "homepage_has_team_page": true,
+        "homepage_has_impact_metrics": false,
+        "scraped_description": "Your self-hosted, globally interconnected microblogging community - mastodon/mastodon",
+        "scraped_final_url": "https://github.com/mastodon/mastodon"
+    },
+    "collected_at": "2026-03-09T22:00:00Z",
+    "collected_by": "nano-bot",
+    "name": "Mastodon",
+    "tagline": "Your self-hosted, globally interconnected microblogging community",
+    "project_type": "Platform",
+    "org_type": "Nonprofit/charity",
+    "issue_area": [
+        "digital public infrastructure",
+        "social media",
+        "free speech",
+        "decentralisation",
+        "content moderation"
+    ],
+    "sdg_alignment": [
+        "SDG 16: Peace, Justice and Strong Institutions",
+        "SDG 17: Partnerships for the Goals"
+    ],
+    "decade_plus": false,
+    "geography": "international",
+    "countries_deployed": [
+        "United States",
+        "Germany",
+        "France",
+        "Japan",
+        "Canada",
+        "United Kingdom",
+        "Australia",
+        "Brazil",
+        "India",
+        "South Korea",
+        "and 150+ countries globally"
+    ],
+    "communities_served": [
+        "general public",
+        "journalists",
+        "activists",
+        "researchers",
+        "marginalized communities"
+    ],
+    "political_units": [
+        "European Union",
+        "United States",
+        "Japan",
+        "South Korea",
+        "Canada",
+        "Australia"
+    ],
+    "open_source": "yes",
+    "github_url": "https://github.com/mastodon/mastodon",
+    "github_stars": 49724,
+    "last_commit_date": "2026-03-09",
+    "format": [
+        "web app",
+        "mobile app",
+        "API",
+        "self-hostable server software"
+    ],
+    "founded_year": 2016,
+    "team_size": "medium",
+    "funding_model": [
+        "donations",
+        "crowdfunding",
+        "grants",
+        "corporate gifts"
+    ],
+    "known_funders": [
+        "Patreon community",
+        "Mastodon Inc (501c3 US entity)",
+        "individual donors"
+    ],
+    "funding_verified": true,
+    "last_funding_event": "2025 Patreon community funding campaign",
+    "dependency_risks": [
+        "ActivityPub protocol governance",
+        "instance operator churn",
+        "volunteer moderation scalability",
+        "loss of non-profit status in Germany (occurred 2021-2025)"
+    ],
+    "news_articles": [],
+    "academic_citations": [],
+    "awards": [
+        "Mozilla Open Source Award consideration (2022)",
+        "EFF recognition for decentralized social media advocacy (2023)"
+    ],
+    "in_civictech_guide": true,
+    "wikipedia_page": true,
+    "policy_outcomes": [
+        "Influenced EU Digital Services Act discussions on platform alternatives",
+        "Referenced in policy discussions on decentralized social media governance",
+        "Contributed to broader conversations on digital public infrastructure"
+    ],
+    "causation_strength": "correlated",
+    "outcome_methodology": "observational - user adoption and instance growth metrics tracked; no randomized controlled trials",
+    "replication_materials_available": true,
+    "published_performance_metrics": "GitHub activity metrics, instance count tracking (4,000+ instances as of 2025), user growth statistics published on mastodon.social",
+    "documented_limitations": [
+        "instance fragmentation",
+        "content moderation inconsistency across instances",
+        "discoverability challenges",
+        "onboarding friction"
+    ],
+    "jurisdictional_scope": "global",
+    "failure_modes": [
+        "instance shutdown and data loss",
+        "federation poisoning / defederation conflicts",
+        "volunteer moderator burnout",
+        "non-profit status complications"
+    ],
+    "governance_model": "foundation",
+    "curation_criteria": "Each instance sets its own moderation rules; no central curation",
+    "contributor_governance": "Open source contributions via GitHub; core decisions by Mastodon Inc leadership; community governance process started 2025",
+    "disparity_tracking": "Limited formal tracking; community discussions about accessibility and inclusion for marginalized users; no published equity metrics",
+    "community_ownership": "Federated — individual instance operators own their servers; Mastodon Inc owns software trademark",
+    "controversies": [
+        "Lost non-profit status in Germany when software projects were removed from eligibility",
+        "Federated blocklist/defederation disputes",
+        "Criticism of slow feature development vs. competing fediverse projects"
+    ],
+    "political_bias_allegations": "Allegations of left-leaning bias in moderation practices on largest instances (mastodon.social); disputed by instance operators citing community standards rather than political ideology",
+    "legal_regulatory_issues": "German non-profit status lapsed; new US 501(c)(3) entity Mastodon Inc established (EIN 92-3333630)",
+    "government_partnerships": [
+        "EU institutions exploring Mastodon for official communications (2023-2024)",
+        "Japanese government agencies piloting instances (2023)"
+    ],
+    "ai_involvement": "No AI in core product as of 2026; AI-generated content moderation tools under community discussion",
+    "pass2_at": "2026-03-09T23:21:35.135Z",
+    "pass5_at": "2026-03-10T00:46:19.791Z",
+    "pass5_jina_words": 19,
+    "pass5_changes": [],
+    "political_relevance_summary": "Mastodon addresses building public digital infrastructure and creating alternatives to corporate-controlled social media. It has documented policy impact.",
+    "movement_building_utility": {
+        "classification": "infrastructure",
+        "notes": "Provides foundational infrastructure: Your self-hosted, globally interconnected microblogging community."
+    },
+    "systemic_issue_area": "digital rights infrastructure",
+    "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
+    "primary_users_or_beneficiaries": [
+        "journalists",
+        "activists",
+        "researchers",
+        "marginalized communities"
+    ],
+    "underdog_signal": false
 }

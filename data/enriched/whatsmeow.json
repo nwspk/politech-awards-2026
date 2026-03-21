@@ -64,5 +64,16 @@
   "pass2_at": "2026-03-09T23:21:29.795Z",
   "pass5_at": "2026-03-10T00:46:22.887Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "whatsmeow addresses civic technology. Go library for the WhatsApp web multidevice API.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides information, data, or research for civic purposes"
+  },
+  "systemic_issue_area": "civic technology and participation",
+  "generalizability_notes": "Highly generalizable — already deployed internationally and open source, facilitating adoption in new contexts.",
+  "primary_users_or_beneficiaries": [
+    "general public"
+  ],
+  "underdog_signal": true
 }

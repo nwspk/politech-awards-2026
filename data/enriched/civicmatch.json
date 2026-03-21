@@ -59,5 +59,19 @@
   "pass5_jina_words": 99,
   "pass5_changes": [
     "communities_served"
-  ]
+  ],
+  "political_relevance_summary": "Addresses challenges in civic technology infrastructure by serving General public, Constituents, Changemakers.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Technology platform serving civic technology needs."
+  },
+  "systemic_issue_area": "civic technology infrastructure",
+  "generalizability_notes": "Primarily national in scope; replication would require significant localization.",
+  "primary_users_or_beneficiaries": [
+    "General public",
+    "Constituents",
+    "Changemakers",
+    "Impact project founders"
+  ],
+  "underdog_signal": false
 }

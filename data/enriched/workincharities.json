@@ -58,5 +58,18 @@
   "pass2_at": "2026-03-09T23:21:48.531Z",
   "pass5_at": "2026-03-10T00:57:21.493Z",
   "pass5_jina_words": 295,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "WorkInCharities addresses civic technology. Job board platform connecting charity and nonprofit sector workers with employment opportunities.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Amplifies civic voice or facilitates contact with decision-makers"
+  },
+  "systemic_issue_area": "civic technology and participation",
+  "generalizability_notes": "Limited to United Kingdom context currently; approach could potentially be replicated in similar jurisdictions with adaptation to local data sources and regulations.",
+  "primary_users_or_beneficiaries": [
+    "nonprofit workers",
+    "charity sector employees",
+    "job seekers in social sector"
+  ],
+  "underdog_signal": false
 }
