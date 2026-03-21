@@ -1,78 +1,78 @@
 {
-    "url": "https://cotsi.org/",
-    "scraped": {
-        "homepage_last_scraped": "2026-02-09T12:43:07.421Z",
-        "homepage_http_status": 200,
-        "dead_link": false,
-        "homepage_word_count": 60,
-        "homepage_has_team_page": false,
-        "homepage_has_impact_metrics": true,
-        "scraped_description": "Discover how the Cambridge Online Trust & Safety Index (COTSI) tracks SMS verifications of social media accounts, such as Facebook, Instagram, TikTok, WhatsApp, and Telegram; cloud infrastructure providers, such as Amazon Web Services, Google Firebase, and OpenAI; marketplaces; online banks; crypto exchanges; and more.",
-        "scraped_final_url": "https://cotsi.org/platforms"
-    },
-    "collected_at": "2026-03-09T23:18:17.340Z",
-    "collected_by": "collect-enriched-script",
-    "name": "COTSI (Cyber Operational Threat Situational Intelligence)",
-    "tagline": "Tracks daily price and availability of fake SMS verifications across 197 countries and 500+ platforms to map the online manipulation economy",
-    "project_type": "Database",
-    "org_type": "Academic/research",
-    "issue_area": [
-        "disinformation",
-        "cybersecurity",
-        "digital_rights"
-    ],
-    "sdg_alignment": [
-        "SDG 16 – Peace, Justice and Strong Institutions"
-    ],
-    "decade_plus": false,
-    "geography": "international",
-    "countries_deployed": [
-        "197 countries"
-    ],
-    "communities_served": [
-        "researchers",
-        "journalists",
-        "cybersecurity professionals"
-    ],
-    "political_units": [
-        "international"
-    ],
-    "open_source": "no",
-    "format": [
-        "database",
-        "platform"
-    ],
-    "founded_year": 2023,
-    "team_size": "small",
-    "funding_model": "academic",
-    "known_funders": [
-        "Stanford Internet Observatory"
-    ],
-    "funding_verified": true,
-    "news_articles": [],
-    "academic_citations": [],
-    "in_civictech_guide": false,
-    "replication_materials_available": false,
-    "jurisdictional_scope": "Global",
-    "governance_model": "academic research institution",
-    "disparity_tracking": false,
-    "community_ownership": false,
-    "ai_involvement": false,
-    "pass2_at": "2026-03-09T23:21:20.942Z",
-    "pass5_at": "2026-03-10T00:45:37.091Z",
-    "pass5_jina_words": 19,
-    "pass5_changes": [],
-    "political_relevance_summary": "Addresses threats to digital autonomy and privacy rights that affect civic participation and civil liberties.",
-    "movement_building_utility": {
-        "classification": "advocacy_amplifier",
-        "notes": "Provides evidence and data that amplifies advocacy and accountability efforts."
-    },
-    "systemic_issue_area": "digital rights infrastructure",
-    "generalizability_notes": "Already deployed across multiple jurisdictions (multiple countries), demonstrating cross-context adaptability. Methodology and approach could inform similar efforts in other jurisdictions.",
-    "primary_users_or_beneficiaries": [
-        "civic technology researchers",
-        "investigative journalists",
-        "cybersecurity professionals"
-    ],
-    "underdog_signal": true
+  "url": "https://cotsi.org/",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:07.421Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 60,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "Discover how the Cambridge Online Trust & Safety Index (COTSI) tracks SMS verifications of social media accounts, such as Facebook, Instagram, TikTok, WhatsApp, and Telegram; cloud infrastructure providers, such as Amazon Web Services, Google Firebase, and OpenAI; marketplaces; online banks; crypto exchanges; and more.",
+    "scraped_final_url": "https://cotsi.org/platforms"
+  },
+  "collected_at": "2026-03-09T23:18:17.340Z",
+  "collected_by": "collect-enriched-script",
+  "name": "COTSI (Cyber Operational Threat Situational Intelligence)",
+  "tagline": "Tracks daily price and availability of fake SMS verifications across 197 countries and 500+ platforms to map the online manipulation economy",
+  "project_type": "Database",
+  "org_type": "Academic/research",
+  "issue_area": [
+    "disinformation",
+    "cybersecurity",
+    "digital_rights"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "197 countries"
+  ],
+  "communities_served": [
+    "researchers",
+    "journalists",
+    "cybersecurity professionals"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "no",
+  "format": [
+    "database",
+    "platform"
+  ],
+  "founded_year": 2023,
+  "team_size": "small",
+  "funding_model": "academic",
+  "known_funders": [
+    "Stanford Internet Observatory"
+  ],
+  "funding_verified": true,
+  "news_articles": [],
+  "academic_citations": [],
+  "in_civictech_guide": false,
+  "replication_materials_available": false,
+  "jurisdictional_scope": "Global",
+  "governance_model": "academic research institution",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:20.942Z",
+  "pass5_at": "2026-03-10T00:45:37.091Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses threats to digital autonomy and privacy rights that affect civic participation and civil liberties.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Provides evidence and data that amplifies advocacy and accountability efforts."
+  },
+  "systemic_issue_area": "digital rights infrastructure",
+  "generalizability_notes": "Already deployed across multiple jurisdictions (multiple countries), demonstrating cross-context adaptability. Methodology and approach could inform similar efforts in other jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "civic technology researchers",
+    "investigative journalists",
+    "cybersecurity professionals"
+  ],
+  "underdog_signal": true
 }

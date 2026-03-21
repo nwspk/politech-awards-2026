@@ -1,72 +1,72 @@
 {
-    "url": "https://arxiv.org/abs/2005.13701",
-    "scraped": {
-        "homepage_last_scraped": "2026-02-09T12:42:37.029Z",
-        "homepage_http_status": 200,
-        "dead_link": false,
-        "homepage_word_count": 826,
-        "homepage_has_team_page": true,
-        "homepage_has_impact_metrics": false,
-        "scraped_description": "Abstract page for arXiv paper 2005.13701: Modular Politics: Toward a Governance Layer for Online Communities",
-        "scraped_final_url": "https://arxiv.org/abs/2005.13701"
-    },
-    "collected_at": "2026-03-09T23:17:57.786Z",
-    "collected_by": "collect-enriched-script",
-    "name": "Modular Politics",
-    "tagline": "A governance layer framework for building composable, modular online community governance systems",
-    "project_type": "Publication",
-    "org_type": "Academic/research",
-    "issue_area": [
-        "participatory_democracy",
-        "govtech"
-    ],
-    "sdg_alignment": [
-        "SDG 16 – Peace, Justice and Strong Institutions"
-    ],
-    "decade_plus": false,
-    "geography": "international",
-    "countries_deployed": "N/A - theoretical framework",
-    "communities_served": [
-        "researchers",
-        "platform operators",
-        "online community managers"
-    ],
-    "political_units": [
-        "international"
-    ],
-    "open_source": "no",
-    "format": [
-        "report"
-    ],
-    "founded_year": 2020,
-    "team_size": "small",
-    "funding_model": "Academic research",
-    "funding_verified": false,
-    "academic_citations": [],
-    "in_civictech_guide": false,
-    "outcome_methodology": "Theoretical framework - no empirical outcomes",
-    "replication_materials_available": false,
-    "published_performance_metrics": false,
-    "documented_limitations": "Theoretical framework without implementation case studies",
-    "jurisdictional_scope": "International",
-    "governance_model": "Modular governance framework (subject of research)",
-    "disparity_tracking": false,
-    "ai_involvement": false,
-    "pass2_at": "2026-03-09T23:21:20.996Z",
-    "pass5_at": "2026-03-10T00:42:05.360Z",
-    "pass5_jina_words": 499,
-    "pass5_changes": [],
-    "political_relevance_summary": "Modular Politics addresses enabling broader democratic participation and improving government service delivery and transparency.",
-    "movement_building_utility": {
-        "classification": "infrastructure",
-        "notes": "Provides foundational infrastructure: A governance layer framework for building composable, modular online community governance systems."
-    },
-    "systemic_issue_area": "democratic participation access",
-    "generalizability_notes": "already deployed internationally across multiple jurisdictions.",
-    "primary_users_or_beneficiaries": [
-        "researchers",
-        "platform operators",
-        "online community managers"
-    ],
-    "underdog_signal": true
+  "url": "https://arxiv.org/abs/2005.13701",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:42:37.029Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 826,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Abstract page for arXiv paper 2005.13701: Modular Politics: Toward a Governance Layer for Online Communities",
+    "scraped_final_url": "https://arxiv.org/abs/2005.13701"
+  },
+  "collected_at": "2026-03-09T23:17:57.786Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Modular Politics",
+  "tagline": "A governance layer framework for building composable, modular online community governance systems",
+  "project_type": "Publication",
+  "org_type": "Academic/research",
+  "issue_area": [
+    "participatory_democracy",
+    "govtech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": "N/A - theoretical framework",
+  "communities_served": [
+    "researchers",
+    "platform operators",
+    "online community managers"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "no",
+  "format": [
+    "report"
+  ],
+  "founded_year": 2020,
+  "team_size": "small",
+  "funding_model": "Academic research",
+  "funding_verified": false,
+  "academic_citations": [],
+  "in_civictech_guide": false,
+  "outcome_methodology": "Theoretical framework - no empirical outcomes",
+  "replication_materials_available": false,
+  "published_performance_metrics": false,
+  "documented_limitations": "Theoretical framework without implementation case studies",
+  "jurisdictional_scope": "International",
+  "governance_model": "Modular governance framework (subject of research)",
+  "disparity_tracking": false,
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:20.996Z",
+  "pass5_at": "2026-03-10T00:42:05.360Z",
+  "pass5_jina_words": 499,
+  "pass5_changes": [],
+  "political_relevance_summary": "Modular Politics addresses enabling broader democratic participation and improving government service delivery and transparency.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides foundational infrastructure: A governance layer framework for building composable, modular online community governance systems."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "researchers",
+    "platform operators",
+    "online community managers"
+  ],
+  "underdog_signal": true
 }

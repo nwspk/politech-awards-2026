@@ -1,160 +1,160 @@
 {
-    "url": "https://www.openownership.org",
-    "scraped": {
-        "homepage_last_scraped": "2026-02-09T12:47:18.464Z",
-        "homepage_http_status": 200,
-        "dead_link": false,
-        "homepage_word_count": 808,
-        "homepage_has_team_page": true,
-        "homepage_has_impact_metrics": false,
-        "scraped_description": "Open Ownership provides support and guidance on all aspects of beneficial ownership transparency reforms as we believe revealing the true owners of corporate vehicles is an essential part of a well-functioning economy and society",
-        "scraped_final_url": "https://www.openownership.org/en/"
+  "url": "https://www.openownership.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:18.464Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 808,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Open Ownership provides support and guidance on all aspects of beneficial ownership transparency reforms as we believe revealing the true owners of corporate vehicles is an essential part of a well-functioning economy and society",
+    "scraped_final_url": "https://www.openownership.org/en/"
+  },
+  "collected_at": "2026-03-09T23:21:01.967Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Open Ownership",
+  "tagline": "Driving global shift towards transparency and accountability in corporate ownership and control",
+  "project_type": "Organization",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "civic_data",
+    "govtech",
+    "advocacy_tech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions",
+    "SDG 17 – Partnerships for the Goals"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "Zambia",
+    "Senegal",
+    "Philippines",
+    "Multiple countries globally"
+  ],
+  "communities_served": [
+    "governments",
+    "researchers",
+    "civil society organizations",
+    "extractive industry stakeholders",
+    "policymakers"
+  ],
+  "political_units": [
+    "national",
+    "international"
+  ],
+  "open_source": "partial",
+  "github_url": "https://github.com/openownership",
+  "github_stars": 89,
+  "last_commit_date": "2025-12-15",
+  "format": [
+    "platform",
+    "database",
+    "guidance",
+    "report"
+  ],
+  "founded_year": 2013,
+  "team_size": "medium",
+  "funding_model": [
+    "grants",
+    "public_funding"
+  ],
+  "known_funders": [
+    "Open Society Foundations",
+    "UK Foreign, Commonwealth & Development Office",
+    "World Bank",
+    "Transparency International",
+    "Omidyar Network"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2025",
+  "dependency_risks": [
+    "Reliance on government adoption and political will for implementation",
+    "Dependency on international funding for operations"
+  ],
+  "news_articles": [],
+  "academic_citations": [],
+  "awards": [
+    "Transparency International Award for Anti-Corruption Innovation"
+  ],
+  "in_civictech_guide": true,
+  "policy_outcomes": [
+    {
+      "description": "Senegal expanded beneficial ownership declarations and advanced legal reforms for public access with support from Opening Extractives",
+      "link": null,
+      "year": 2026
     },
-    "collected_at": "2026-03-09T23:21:01.967Z",
-    "collected_by": "collect-enriched-script",
-    "name": "Open Ownership",
-    "tagline": "Driving global shift towards transparency and accountability in corporate ownership and control",
-    "project_type": "Organization",
-    "org_type": "Nonprofit/charity",
-    "issue_area": [
-        "civic_data",
-        "govtech",
-        "advocacy_tech"
-    ],
-    "sdg_alignment": [
-        "SDG 16 – Peace, Justice and Strong Institutions",
-        "SDG 17 – Partnerships for the Goals"
-    ],
-    "decade_plus": false,
-    "geography": "international",
-    "countries_deployed": [
-        "Zambia",
-        "Senegal",
-        "Philippines",
-        "Multiple countries globally"
-    ],
-    "communities_served": [
-        "governments",
-        "researchers",
-        "civil society organizations",
-        "extractive industry stakeholders",
-        "policymakers"
-    ],
-    "political_units": [
-        "national",
-        "international"
-    ],
-    "open_source": "partial",
-    "github_url": "https://github.com/openownership",
-    "github_stars": 89,
-    "last_commit_date": "2025-12-15",
-    "format": [
-        "platform",
-        "database",
-        "guidance",
-        "report"
-    ],
-    "founded_year": 2013,
-    "team_size": "medium",
-    "funding_model": [
-        "grants",
-        "public_funding"
-    ],
-    "known_funders": [
-        "Open Society Foundations",
-        "UK Foreign, Commonwealth & Development Office",
-        "World Bank",
-        "Transparency International",
-        "Omidyar Network"
-    ],
-    "funding_verified": true,
-    "last_funding_event": "2025",
-    "dependency_risks": [
-        "Reliance on government adoption and political will for implementation",
-        "Dependency on international funding for operations"
-    ],
-    "news_articles": [],
-    "academic_citations": [],
-    "awards": [
-        "Transparency International Award for Anti-Corruption Innovation"
-    ],
-    "in_civictech_guide": true,
-    "policy_outcomes": [
-        {
-            "description": "Senegal expanded beneficial ownership declarations and advanced legal reforms for public access with support from Opening Extractives",
-            "link": null,
-            "year": 2026
-        },
-        {
-            "description": "Philippines improving availability and use of beneficial ownership data in extractive governance",
-            "link": null,
-            "year": 2026
-        },
-        {
-            "description": "Partnership with Zambia's Patents and Company Registration Agency (PACRA) to overhaul beneficial ownership data collection",
-            "link": null,
-            "year": 2026
-        }
-    ],
-    "causation_strength": "correlated",
-    "outcome_methodology": "Mixed methods including government adoption tracking, policy analysis, and stakeholder interviews",
-    "replication_materials_available": true,
-    "published_performance_metrics": "Annual impact reports tracking beneficial ownership register implementations and policy adoptions",
-    "documented_limitations": [
-        "Variation in government capacity and political will to implement reforms",
-        "Data quality and completeness challenges across jurisdictions",
-        "Limited enforcement mechanisms in some countries"
-    ],
-    "jurisdictional_scope": "International with country-specific implementations",
-    "failure_modes": [
-        "Limited adoption in countries with weak governance institutions",
-        "Resistance from private sector stakeholders concerned about disclosure requirements"
-    ],
-    "governance_model": "foundation",
-    "curation_criteria": "Focus on beneficial ownership transparency standards, alignment with EITI and international anti-corruption frameworks",
-    "contributor_governance": "Multi-stakeholder governance including government representatives, civil society, and private sector participants",
-    "disparity_tracking": "Monitoring implementation disparities across countries with varying governance capacity and resources",
-    "community_ownership": "Collaborative model with government agencies, civil society organizations, and international partners",
-    "government_partnerships": [
-        {
-            "partner": "Patents and Company Registration Agency (PACRA)",
-            "nature": "Data collection and beneficial ownership register reform",
-            "country": "Zambia"
-        },
-        {
-            "partner": "German Agency for International Cooperation",
-            "nature": "Support for beneficial ownership transparency reform",
-            "country": "Zambia"
-        },
-        {
-            "partner": "Government of Senegal",
-            "nature": "Legal reform and beneficial ownership transparency expansion",
-            "country": "Senegal"
-        },
-        {
-            "partner": "Government of Philippines",
-            "nature": "Beneficial ownership data availability and extractive governance",
-            "country": "Philippines"
-        }
-    ],
-    "ai_involvement": "Limited - primarily uses data management and analysis tools rather than machine learning",
-    "pass2_at": "2026-03-09T23:21:51.633Z",
-    "pass5_at": "2026-03-10T00:55:37.085Z",
-    "pass5_jina_words": 287,
-    "pass5_changes": [],
-    "political_relevance_summary": "Open Ownership addresses the civic need for government transparency and open data access, enabling citizens, journalists, and researchers to hold public institutions accountable.",
-    "movement_building_utility": {
-        "classification": "advocacy_amplifier",
-        "notes": "Open Ownership amplifies civic advocacy by giving citizens and groups tools to engage in democratic processes or influence policy."
+    {
+      "description": "Philippines improving availability and use of beneficial ownership data in extractive governance",
+      "link": null,
+      "year": 2026
     },
-    "systemic_issue_area": "government transparency",
-    "generalizability_notes": "High generalizability. Open Ownership is open source and already deployed across multiple countries/jurisdictions, making replication straightforward for other contexts.",
-    "primary_users_or_beneficiaries": [
-        "governments",
-        "researchers",
-        "civil society organizations",
-        "extractive industry stakeholders",
-        "policymakers"
-    ],
-    "underdog_signal": false
+    {
+      "description": "Partnership with Zambia's Patents and Company Registration Agency (PACRA) to overhaul beneficial ownership data collection",
+      "link": null,
+      "year": 2026
+    }
+  ],
+  "causation_strength": "correlated",
+  "outcome_methodology": "Mixed methods including government adoption tracking, policy analysis, and stakeholder interviews",
+  "replication_materials_available": true,
+  "published_performance_metrics": "Annual impact reports tracking beneficial ownership register implementations and policy adoptions",
+  "documented_limitations": [
+    "Variation in government capacity and political will to implement reforms",
+    "Data quality and completeness challenges across jurisdictions",
+    "Limited enforcement mechanisms in some countries"
+  ],
+  "jurisdictional_scope": "International with country-specific implementations",
+  "failure_modes": [
+    "Limited adoption in countries with weak governance institutions",
+    "Resistance from private sector stakeholders concerned about disclosure requirements"
+  ],
+  "governance_model": "foundation",
+  "curation_criteria": "Focus on beneficial ownership transparency standards, alignment with EITI and international anti-corruption frameworks",
+  "contributor_governance": "Multi-stakeholder governance including government representatives, civil society, and private sector participants",
+  "disparity_tracking": "Monitoring implementation disparities across countries with varying governance capacity and resources",
+  "community_ownership": "Collaborative model with government agencies, civil society organizations, and international partners",
+  "government_partnerships": [
+    {
+      "partner": "Patents and Company Registration Agency (PACRA)",
+      "nature": "Data collection and beneficial ownership register reform",
+      "country": "Zambia"
+    },
+    {
+      "partner": "German Agency for International Cooperation",
+      "nature": "Support for beneficial ownership transparency reform",
+      "country": "Zambia"
+    },
+    {
+      "partner": "Government of Senegal",
+      "nature": "Legal reform and beneficial ownership transparency expansion",
+      "country": "Senegal"
+    },
+    {
+      "partner": "Government of Philippines",
+      "nature": "Beneficial ownership data availability and extractive governance",
+      "country": "Philippines"
+    }
+  ],
+  "ai_involvement": "Limited - primarily uses data management and analysis tools rather than machine learning",
+  "pass2_at": "2026-03-09T23:21:51.633Z",
+  "pass5_at": "2026-03-10T00:55:37.085Z",
+  "pass5_jina_words": 287,
+  "pass5_changes": [],
+  "political_relevance_summary": "Open Ownership addresses the civic need for government transparency and open data access, enabling citizens, journalists, and researchers to hold public institutions accountable.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Open Ownership amplifies civic advocacy by giving citizens and groups tools to engage in democratic processes or influence policy."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "High generalizability. Open Ownership is open source and already deployed across multiple countries/jurisdictions, making replication straightforward for other contexts.",
+  "primary_users_or_beneficiaries": [
+    "governments",
+    "researchers",
+    "civil society organizations",
+    "extractive industry stakeholders",
+    "policymakers"
+  ],
+  "underdog_signal": false
 }

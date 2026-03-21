@@ -1,113 +1,113 @@
 {
-    "url": "https://github.com/whotargetsme/ad-transparency-standards/blob/main/implement.md",
-    "scraped": {
-        "homepage_last_scraped": "2026-02-09T12:44:12.815Z",
-        "homepage_http_status": 200,
-        "dead_link": false,
-        "homepage_word_count": 419,
-        "homepage_has_team_page": true,
-        "homepage_has_impact_metrics": false,
-        "scraped_description": "A proposed schema for disclosure of advertising transparency data. - ad-transparency-standards/implement.md at main · WhoTargetsMe/ad-transparency-standards",
-        "scraped_final_url": "https://github.com/whotargetsme/ad-transparency-standards/blob/main/implement.md"
-    },
-    "collected_at": "2026-03-09T23:19:22.178Z",
-    "collected_by": "collect-enriched-script",
-    "name": "Political Advertising Transparency Data Standard",
-    "tagline": "A schema standard for how political advertising data is presented across platforms to increase comprehension, trust, and interoperability",
-    "project_type": "Method",
-    "org_type": "Nonprofit/charity",
-    "issue_area": [
-        "civic_data",
-        "advocacy_tech",
-        "media_journalism",
-        "disinformation"
-    ],
-    "sdg_alignment": [
-        "SDG 16 – Peace, Justice and Strong Institutions"
-    ],
-    "decade_plus": false,
-    "geography": "international",
-    "countries_deployed": [
-        "United States",
-        "United Kingdom",
-        "European Union"
-    ],
-    "communities_served": [
-        "journalists",
-        "researchers",
-        "advertising platforms",
-        "citizens",
-        "civil society organizations"
-    ],
-    "political_units": [
-        "international"
-    ],
-    "open_source": "yes",
-    "github_url": "https://github.com/whotargetsme/ad-transparency-standards",
-    "github_stars": 10,
-    "last_commit_date": "2024-2025",
-    "format": [
-        "database",
-        "api"
-    ],
-    "founded_year": 2018,
-    "team_size": "small",
-    "funding_model": "grant-based",
-    "known_funders": [
-        "Mozilla Foundation",
-        "National Endowment for Democracy",
-        "Open Society Foundations"
-    ],
-    "funding_verified": true,
-    "last_funding_event": "2023",
-    "dependency_risks": "Dependent on continued funding from foundations; reliance on voluntary platform adoption",
-    "news_articles": [],
-    "academic_citations": [],
-    "in_civictech_guide": true,
-    "policy_outcomes": [
-        "Influenced EU Digital Services Act transparency requirements",
-        "Referenced in platform policy discussions"
-    ],
-    "causation_strength": "correlated",
-    "outcome_methodology": "Standards adoption tracking and platform implementation analysis",
-    "replication_materials_available": true,
-    "published_performance_metrics": true,
-    "documented_limitations": "Limited platform adoption; voluntary implementation creates inconsistency",
-    "jurisdictional_scope": "International with focus on US, UK, and EU",
-    "failure_modes": "Platforms may not adopt standards; lack of enforcement mechanisms",
-    "governance_model": "project_of_larger_org",
-    "curation_criteria": "Standards based on transparency best practices, researcher input, and platform capabilities",
-    "contributor_governance": "Open contribution model with review process",
-    "disparity_tracking": false,
-    "community_ownership": "Collaborative with platforms and civil society",
-    "elections_used_in": [
-        "2020 US Presidential Election",
-        "2024 US Presidential Election",
-        "UK General Elections",
-        "EU Parliament Elections"
-    ],
-    "government_partnerships": [
-        "EU regulatory bodies",
-        "UK Electoral Commission engagement"
-    ],
-    "ai_involvement": false,
-    "pass2_at": "2026-03-09T23:21:31.833Z",
-    "pass5_at": "2026-03-10T00:46:23.330Z",
-    "pass5_jina_words": 19,
-    "pass5_changes": [],
-    "political_relevance_summary": "Political Advertising Transparency Data Standard addresses civic data access and transparency. A schema standard for how political advertising data is presented across platforms to increase comprehension, trust, and interoperability.",
-    "movement_building_utility": {
-        "classification": "advocacy_amplifier",
-        "notes": "Amplifies advocacy efforts and helps citizens influence decision-makers."
-    },
-    "systemic_issue_area": "civic data access",
-    "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions; replication materials are available; methodology-based approach is inherently transferable.",
-    "primary_users_or_beneficiaries": [
-        "investigative journalists",
-        "civic technology researchers",
-        "advertising platforms",
-        "engaged citizens",
-        "civil society organizations"
-    ],
-    "underdog_signal": true
+  "url": "https://github.com/whotargetsme/ad-transparency-standards/blob/main/implement.md",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:12.815Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 419,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "A proposed schema for disclosure of advertising transparency data. - ad-transparency-standards/implement.md at main · WhoTargetsMe/ad-transparency-standards",
+    "scraped_final_url": "https://github.com/whotargetsme/ad-transparency-standards/blob/main/implement.md"
+  },
+  "collected_at": "2026-03-09T23:19:22.178Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Political Advertising Transparency Data Standard",
+  "tagline": "A schema standard for how political advertising data is presented across platforms to increase comprehension, trust, and interoperability",
+  "project_type": "Method",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "civic_data",
+    "advocacy_tech",
+    "media_journalism",
+    "disinformation"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "United States",
+    "United Kingdom",
+    "European Union"
+  ],
+  "communities_served": [
+    "journalists",
+    "researchers",
+    "advertising platforms",
+    "citizens",
+    "civil society organizations"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/whotargetsme/ad-transparency-standards",
+  "github_stars": 10,
+  "last_commit_date": "2024-2025",
+  "format": [
+    "database",
+    "api"
+  ],
+  "founded_year": 2018,
+  "team_size": "small",
+  "funding_model": "grant-based",
+  "known_funders": [
+    "Mozilla Foundation",
+    "National Endowment for Democracy",
+    "Open Society Foundations"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2023",
+  "dependency_risks": "Dependent on continued funding from foundations; reliance on voluntary platform adoption",
+  "news_articles": [],
+  "academic_citations": [],
+  "in_civictech_guide": true,
+  "policy_outcomes": [
+    "Influenced EU Digital Services Act transparency requirements",
+    "Referenced in platform policy discussions"
+  ],
+  "causation_strength": "correlated",
+  "outcome_methodology": "Standards adoption tracking and platform implementation analysis",
+  "replication_materials_available": true,
+  "published_performance_metrics": true,
+  "documented_limitations": "Limited platform adoption; voluntary implementation creates inconsistency",
+  "jurisdictional_scope": "International with focus on US, UK, and EU",
+  "failure_modes": "Platforms may not adopt standards; lack of enforcement mechanisms",
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Standards based on transparency best practices, researcher input, and platform capabilities",
+  "contributor_governance": "Open contribution model with review process",
+  "disparity_tracking": false,
+  "community_ownership": "Collaborative with platforms and civil society",
+  "elections_used_in": [
+    "2020 US Presidential Election",
+    "2024 US Presidential Election",
+    "UK General Elections",
+    "EU Parliament Elections"
+  ],
+  "government_partnerships": [
+    "EU regulatory bodies",
+    "UK Electoral Commission engagement"
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:31.833Z",
+  "pass5_at": "2026-03-10T00:46:23.330Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": [],
+  "political_relevance_summary": "Political Advertising Transparency Data Standard addresses civic data access and transparency. A schema standard for how political advertising data is presented across platforms to increase comprehension, trust, and interoperability.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Amplifies advocacy efforts and helps citizens influence decision-makers."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions; replication materials are available; methodology-based approach is inherently transferable.",
+  "primary_users_or_beneficiaries": [
+    "investigative journalists",
+    "civic technology researchers",
+    "advertising platforms",
+    "engaged citizens",
+    "civil society organizations"
+  ],
+  "underdog_signal": true
 }

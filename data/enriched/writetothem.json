@@ -1,118 +1,118 @@
 {
-    "url": "https://www.writetothem.com",
-    "scraped": {
-        "homepage_last_scraped": "2026-02-09T12:47:52.945Z",
-        "homepage_http_status": 200,
-        "dead_link": false,
-        "homepage_word_count": 137,
-        "homepage_has_team_page": true,
-        "homepage_has_impact_metrics": false,
-        "scraped_description": "Making it easy to write to the politicians who represent you   even if you don t know who they are.",
-        "scraped_final_url": "https://www.writetothem.com/"
-    },
-    "collected_at": "2026-03-09T23:21:02.194Z",
-    "collected_by": "collect-enriched-script",
-    "name": "WriteToThem",
-    "tagline": "Email your Councillor, MP, MSP, MS, MLA or London Assembly Member for free",
-    "project_type": "Tool/Platform",
-    "org_type": "Nonprofit/charity",
-    "issue_area": [
-        "participatory_democracy",
-        "govtech",
-        "advocacy_tech"
-    ],
-    "sdg_alignment": [
-        "SDG 16 – Peace, Justice and Strong Institutions"
-    ],
-    "decade_plus": true,
-    "geography": "national",
-    "countries_deployed": [
-        "United Kingdom"
-    ],
-    "communities_served": [
-        "citizens",
-        "campaigners",
-        "constituents"
-    ],
-    "political_units": [
-        "federal",
-        "state"
-    ],
-    "open_source": "partial",
-    "github_url": "https://github.com/mysociety/writetothem",
-    "github_stars": 89,
-    "last_commit_date": "2024-11-15",
-    "format": [
-        "platform",
-        "api"
-    ],
-    "founded_year": 2001,
-    "team_size": "small",
-    "funding_model": [
-        "donations",
-        "grants"
-    ],
-    "known_funders": [
-        "mySociety"
-    ],
-    "funding_verified": true,
-    "last_funding_event": "2023",
-    "dependency_risks": [
-        "Reliance on mySociety for hosting and maintenance",
-        "Dependency on GovEval for data accuracy",
-        "Reliance on Mythic Beasts for hosting infrastructure"
-    ],
-    "news_articles": [],
-    "academic_citations": [],
-    "awards": [
-        "mySociety recognition for civic engagement innovation"
-    ],
-    "in_civictech_guide": true,
-    "policy_outcomes": [
-        "Increased constituent contact with elected representatives",
-        "Enhanced transparency in representative responsiveness"
-    ],
-    "causation_strength": "anecdotal",
-    "outcome_methodology": "User engagement metrics and message volume tracking",
-    "replication_materials_available": false,
-    "published_performance_metrics": "Over 200,000 messages sent last year",
-    "documented_limitations": [
-        "Limited to UK political system",
-        "Dependent on accurate representative contact data",
-        "No guarantee of response from elected officials"
-    ],
-    "jurisdictional_scope": "United Kingdom (England, Scotland, Wales, Northern Ireland, London)",
-    "failure_modes": [
-        "Outdated contact information for representatives",
-        "Email filtering by recipient offices",
-        "Low response rates from some representatives"
-    ],
-    "governance_model": "project_of_larger_org",
-    "curation_criteria": "mySociety governance standards for civic technology projects",
-    "contributor_governance": "Open source contribution model under mySociety oversight",
-    "disparity_tracking": false,
-    "community_ownership": false,
-    "government_partnerships": [
-        "Partnerships with UK Parliament and local government bodies for data access"
-    ],
-    "ai_involvement": false,
-    "pass2_at": "2026-03-09T23:21:51.733Z",
-    "pass5_at": "2026-03-10T00:57:48.925Z",
-    "pass5_jina_words": 170,
-    "pass5_changes": [
-        "dependency_risks"
-    ],
-    "political_relevance_summary": "WriteToThem addresses democratic participation and citizen engagement. Email your Councillor, MP, MSP, MS, MLA or London Assembly Member for free.",
-    "movement_building_utility": {
-        "classification": "advocacy_amplifier",
-        "notes": "Amplifies civic voice or facilitates contact with decision-makers"
-    },
-    "systemic_issue_area": "democratic participation access",
-    "generalizability_notes": "Moderate generalizability — partially open source; core approach could be replicated but may require significant adaptation.",
-    "primary_users_or_beneficiaries": [
-        "citizens",
-        "campaigners",
-        "constituents"
-    ],
-    "underdog_signal": true
+  "url": "https://www.writetothem.com",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:52.945Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 137,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Making it easy to write to the politicians who represent you   even if you don t know who they are.",
+    "scraped_final_url": "https://www.writetothem.com/"
+  },
+  "collected_at": "2026-03-09T23:21:02.194Z",
+  "collected_by": "collect-enriched-script",
+  "name": "WriteToThem",
+  "tagline": "Email your Councillor, MP, MSP, MS, MLA or London Assembly Member for free",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "participatory_democracy",
+    "govtech",
+    "advocacy_tech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": true,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "citizens",
+    "campaigners",
+    "constituents"
+  ],
+  "political_units": [
+    "federal",
+    "state"
+  ],
+  "open_source": "partial",
+  "github_url": "https://github.com/mysociety/writetothem",
+  "github_stars": 89,
+  "last_commit_date": "2024-11-15",
+  "format": [
+    "platform",
+    "api"
+  ],
+  "founded_year": 2001,
+  "team_size": "small",
+  "funding_model": [
+    "donations",
+    "grants"
+  ],
+  "known_funders": [
+    "mySociety"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2023",
+  "dependency_risks": [
+    "Reliance on mySociety for hosting and maintenance",
+    "Dependency on GovEval for data accuracy",
+    "Reliance on Mythic Beasts for hosting infrastructure"
+  ],
+  "news_articles": [],
+  "academic_citations": [],
+  "awards": [
+    "mySociety recognition for civic engagement innovation"
+  ],
+  "in_civictech_guide": true,
+  "policy_outcomes": [
+    "Increased constituent contact with elected representatives",
+    "Enhanced transparency in representative responsiveness"
+  ],
+  "causation_strength": "anecdotal",
+  "outcome_methodology": "User engagement metrics and message volume tracking",
+  "replication_materials_available": false,
+  "published_performance_metrics": "Over 200,000 messages sent last year",
+  "documented_limitations": [
+    "Limited to UK political system",
+    "Dependent on accurate representative contact data",
+    "No guarantee of response from elected officials"
+  ],
+  "jurisdictional_scope": "United Kingdom (England, Scotland, Wales, Northern Ireland, London)",
+  "failure_modes": [
+    "Outdated contact information for representatives",
+    "Email filtering by recipient offices",
+    "Low response rates from some representatives"
+  ],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "mySociety governance standards for civic technology projects",
+  "contributor_governance": "Open source contribution model under mySociety oversight",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "government_partnerships": [
+    "Partnerships with UK Parliament and local government bodies for data access"
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:51.733Z",
+  "pass5_at": "2026-03-10T00:57:48.925Z",
+  "pass5_jina_words": 170,
+  "pass5_changes": [
+    "dependency_risks"
+  ],
+  "political_relevance_summary": "WriteToThem addresses democratic participation and citizen engagement. Email your Councillor, MP, MSP, MS, MLA or London Assembly Member for free.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Amplifies civic voice or facilitates contact with decision-makers"
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Moderate generalizability — partially open source; core approach could be replicated but may require significant adaptation.",
+  "primary_users_or_beneficiaries": [
+    "citizens",
+    "campaigners",
+    "constituents"
+  ],
+  "underdog_signal": true
 }

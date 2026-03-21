@@ -1,128 +1,128 @@
 {
-    "url": "https://www.mastodonc.com",
-    "scraped": {
-        "homepage_last_scraped": "2026-02-09T12:47:08.544Z",
-        "homepage_http_status": 200,
-        "dead_link": false,
-        "homepage_word_count": 221,
-        "homepage_has_team_page": true,
-        "homepage_has_impact_metrics": false,
-        "scraped_description": "Think big. Plan wisely.",
-        "scraped_final_url": "https://www.mastodonc.com/"
-    },
-    "collected_at": "2026-03-09T23:20:57.064Z",
-    "collected_by": "collect-enriched-script",
-    "name": "Mastodon C",
-    "tagline": "Data science and technology consultancy focused on open data, analytics, and civic technology",
-    "project_type": "Organization",
-    "org_type": "For-profit/social enterprise",
-    "issue_area": [
-        "civic_data",
-        "govtech",
-        "participatory_democracy"
-    ],
-    "sdg_alignment": [
-        "SDG 16 – Peace, Justice and Strong Institutions",
-        "SDG 17 – Partnerships for the Goals"
-    ],
-    "decade_plus": true,
-    "geography": "international",
-    "countries_deployed": [
-        "United Kingdom",
-        "European Union"
-    ],
-    "communities_served": [
-        "government agencies",
-        "civil society organizations",
-        "researchers",
-        "policymakers"
-    ],
-    "political_units": [
-        "federal",
-        "international"
-    ],
-    "open_source": "partial",
-    "github_url": "https://github.com/mastodonc",
-    "github_stars": 1200,
-    "last_commit_date": "2024-12-15",
-    "format": [
-        "platform",
-        "api",
-        "database"
-    ],
-    "founded_year": 2011,
-    "team_size": "small",
-    "funding_model": [
-        "grants",
-        "public_funding",
-        "subscriptions"
-    ],
-    "known_funders": [
-        "UK government",
-        "European Commission",
-        "Nesta"
-    ],
-    "funding_verified": true,
-    "last_funding_event": "2024-06-01",
-    "dependency_risks": [
-        "reliance on government contracts",
-        "dependence on open data availability"
-    ],
-    "news_articles": [],
-    "academic_citations": [],
-    "awards": [
-        "Nesta Innovation Award (2015)",
-        "UK Government Digital Service recognition (2018)"
-    ],
-    "in_civictech_guide": true,
-    "wikipedia_page": false,
-    "policy_outcomes": [
-        "Contributed to UK government open data standards",
-        "Supported EU data governance frameworks"
-    ],
-    "causation_strength": "correlated",
-    "outcome_methodology": "case study analysis",
-    "replication_materials_available": false,
-    "published_performance_metrics": true,
-    "documented_limitations": [
-        "Limited transparency on proprietary analytics methods",
-        "Dependency on government contract renewals"
-    ],
-    "jurisdictional_scope": "United Kingdom, European Union",
-    "failure_modes": [
-        "Project delays due to government procurement processes"
-    ],
-    "governance_model": "LLC",
-    "curation_criteria": "Data quality standards and open data compliance frameworks",
-    "contributor_governance": "Internal team-based governance with external advisory board",
-    "disparity_tracking": false,
-    "community_ownership": false,
-    "political_bias_allegations": false,
-    "legal_regulatory_issues": false,
-    "government_partnerships": [
-        {
-            "partner": "UK Government",
-            "nature": "data analytics and open data projects",
-            "country": "United Kingdom"
-        }
-    ],
-    "ai_involvement": true,
-    "pass2_at": "2026-03-09T23:21:46.748Z",
-    "pass5_at": "2026-03-10T00:56:35.526Z",
-    "pass5_jina_words": 16,
-    "pass5_changes": [],
-    "political_relevance_summary": "Mastodon C addresses making civic data accessible and actionable and improving government service delivery and transparency. It has documented policy impact.",
-    "movement_building_utility": {
-        "classification": "infrastructure",
-        "notes": "Provides foundational infrastructure: Data science and technology consultancy focused on open data, analytics, and civic technology."
-    },
-    "systemic_issue_area": "government transparency",
-    "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
-    "primary_users_or_beneficiaries": [
-        "government agencies",
-        "civil society organizations",
-        "researchers",
-        "policymakers"
-    ],
-    "underdog_signal": true
+  "url": "https://www.mastodonc.com",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:08.544Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 221,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Think big. Plan wisely.",
+    "scraped_final_url": "https://www.mastodonc.com/"
+  },
+  "collected_at": "2026-03-09T23:20:57.064Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Mastodon C",
+  "tagline": "Data science and technology consultancy focused on open data, analytics, and civic technology",
+  "project_type": "Organization",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "civic_data",
+    "govtech",
+    "participatory_democracy"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions",
+    "SDG 17 – Partnerships for the Goals"
+  ],
+  "decade_plus": true,
+  "geography": "international",
+  "countries_deployed": [
+    "United Kingdom",
+    "European Union"
+  ],
+  "communities_served": [
+    "government agencies",
+    "civil society organizations",
+    "researchers",
+    "policymakers"
+  ],
+  "political_units": [
+    "federal",
+    "international"
+  ],
+  "open_source": "partial",
+  "github_url": "https://github.com/mastodonc",
+  "github_stars": 1200,
+  "last_commit_date": "2024-12-15",
+  "format": [
+    "platform",
+    "api",
+    "database"
+  ],
+  "founded_year": 2011,
+  "team_size": "small",
+  "funding_model": [
+    "grants",
+    "public_funding",
+    "subscriptions"
+  ],
+  "known_funders": [
+    "UK government",
+    "European Commission",
+    "Nesta"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2024-06-01",
+  "dependency_risks": [
+    "reliance on government contracts",
+    "dependence on open data availability"
+  ],
+  "news_articles": [],
+  "academic_citations": [],
+  "awards": [
+    "Nesta Innovation Award (2015)",
+    "UK Government Digital Service recognition (2018)"
+  ],
+  "in_civictech_guide": true,
+  "wikipedia_page": false,
+  "policy_outcomes": [
+    "Contributed to UK government open data standards",
+    "Supported EU data governance frameworks"
+  ],
+  "causation_strength": "correlated",
+  "outcome_methodology": "case study analysis",
+  "replication_materials_available": false,
+  "published_performance_metrics": true,
+  "documented_limitations": [
+    "Limited transparency on proprietary analytics methods",
+    "Dependency on government contract renewals"
+  ],
+  "jurisdictional_scope": "United Kingdom, European Union",
+  "failure_modes": [
+    "Project delays due to government procurement processes"
+  ],
+  "governance_model": "LLC",
+  "curation_criteria": "Data quality standards and open data compliance frameworks",
+  "contributor_governance": "Internal team-based governance with external advisory board",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "political_bias_allegations": false,
+  "legal_regulatory_issues": false,
+  "government_partnerships": [
+    {
+      "partner": "UK Government",
+      "nature": "data analytics and open data projects",
+      "country": "United Kingdom"
+    }
+  ],
+  "ai_involvement": true,
+  "pass2_at": "2026-03-09T23:21:46.748Z",
+  "pass5_at": "2026-03-10T00:56:35.526Z",
+  "pass5_jina_words": 16,
+  "pass5_changes": [],
+  "political_relevance_summary": "Mastodon C addresses making civic data accessible and actionable and improving government service delivery and transparency. It has documented policy impact.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides foundational infrastructure: Data science and technology consultancy focused on open data, analytics, and civic technology."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "government agencies",
+    "civil society organizations",
+    "researchers",
+    "policymakers"
+  ],
+  "underdog_signal": true
 }

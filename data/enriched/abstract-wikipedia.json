@@ -1,125 +1,125 @@
 {
-    "url": "https://meta.wikimedia.org/wiki/abstract_wikipedia",
-    "scraped": {
-        "homepage_last_scraped": "2026-02-09T12:45:00.141Z",
-        "homepage_http_status": 404,
-        "dead_link": true,
-        "homepage_word_count": 168,
-        "homepage_has_team_page": false,
-        "homepage_has_impact_metrics": false,
-        "scraped_description": "Abstract Wikipedia is a Wikimedia Foundation project to create a language-independent layer of structured knowledge that can be rendered into multiple natural languages, enabling knowledge to be written once and displayed in all languages.",
-        "scraped_final_url": "https://meta.wikimedia.org/wiki/Abstract_wikipedia"
+  "url": "https://meta.wikimedia.org/wiki/abstract_wikipedia",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:00.141Z",
+    "homepage_http_status": 404,
+    "dead_link": true,
+    "homepage_word_count": 168,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Abstract Wikipedia is a Wikimedia Foundation project to create a language-independent layer of structured knowledge that can be rendered into multiple natural languages, enabling knowledge to be written once and displayed in all languages.",
+    "scraped_final_url": "https://meta.wikimedia.org/wiki/Abstract_wikipedia"
+  },
+  "collected_at": "2026-03-09T23:20:27.812Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Abstract Wikipedia",
+  "tagline": "A Wikimedia project to create a language-independent layer of structured knowledge that can be rendered into multiple natural languages",
+  "project_type": "Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "civic_data",
+    "media_journalism"
+  ],
+  "sdg_alignment": [
+    "SDG 4 – Quality Education",
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": true,
+  "geography": "international",
+  "countries_deployed": [
+    "Multiple (Wikimedia Foundation operates globally)"
+  ],
+  "communities_served": [
+    "researchers",
+    "citizens",
+    "editors",
+    "knowledge workers"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/wikimedia/abstract-wikipedia",
+  "github_stars": 156,
+  "last_commit_date": "2025-12-15",
+  "format": [
+    "platform",
+    "database"
+  ],
+  "founded_year": 2020,
+  "team_size": "medium",
+  "funding_model": [
+    "donations",
+    "grants"
+  ],
+  "known_funders": [
+    "Wikimedia Foundation"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "Wikimedia Foundation annual budget allocation 2024",
+  "dependency_risks": [
+    "Reliance on Wikimedia Foundation infrastructure",
+    "Dependency on volunteer contributor base"
+  ],
+  "policy_outcomes": [
+    {
+      "description": "Abstract Wikipedia adopted as part of Wikimedia Foundation's strategic direction to improve multilingual knowledge access, influencing Wikimedia's 2030 strategic priorities around language equity",
+      "link": "https://meta.wikimedia.org/wiki/Strategy/Wikimedia_movement_2030",
+      "year": 2021
+    }
+  ],
+  "causation_strength": "correlated",
+  "news_articles": [
+    {
+      "headline": "Wikimedia Foundation launches Abstract Wikipedia to break down language barriers",
+      "outlet": "The Verge",
+      "date": "2020-03-18",
+      "url": "https://www.theverge.com/2020/3/18/21184494/wikimedia-abstract-wikipedia-language-barriers"
     },
-    "collected_at": "2026-03-09T23:20:27.812Z",
-    "collected_by": "collect-enriched-script",
-    "name": "Abstract Wikipedia",
-    "tagline": "A Wikimedia project to create a language-independent layer of structured knowledge that can be rendered into multiple natural languages",
-    "project_type": "Platform",
-    "org_type": "Nonprofit/charity",
-    "issue_area": [
-        "civic_data",
-        "media_journalism"
-    ],
-    "sdg_alignment": [
-        "SDG 4 – Quality Education",
-        "SDG 16 – Peace, Justice and Strong Institutions"
-    ],
-    "decade_plus": true,
-    "geography": "international",
-    "countries_deployed": [
-        "Multiple (Wikimedia Foundation operates globally)"
-    ],
-    "communities_served": [
-        "researchers",
-        "citizens",
-        "editors",
-        "knowledge workers"
-    ],
-    "political_units": [
-        "international"
-    ],
-    "open_source": "yes",
-    "github_url": "https://github.com/wikimedia/abstract-wikipedia",
-    "github_stars": 156,
-    "last_commit_date": "2025-12-15",
-    "format": [
-        "platform",
-        "database"
-    ],
-    "founded_year": 2020,
-    "team_size": "medium",
-    "funding_model": [
-        "donations",
-        "grants"
-    ],
-    "known_funders": [
-        "Wikimedia Foundation"
-    ],
-    "funding_verified": true,
-    "last_funding_event": "Wikimedia Foundation annual budget allocation 2024",
-    "dependency_risks": [
-        "Reliance on Wikimedia Foundation infrastructure",
-        "Dependency on volunteer contributor base"
-    ],
-    "policy_outcomes": [
-        {
-            "description": "Abstract Wikipedia adopted as part of Wikimedia Foundation's strategic direction to improve multilingual knowledge access, influencing Wikimedia's 2030 strategic priorities around language equity",
-            "link": "https://meta.wikimedia.org/wiki/Strategy/Wikimedia_movement_2030",
-            "year": 2021
-        }
-    ],
-    "causation_strength": "correlated",
-    "news_articles": [
-        {
-            "headline": "Wikimedia Foundation launches Abstract Wikipedia to break down language barriers",
-            "outlet": "The Verge",
-            "date": "2020-03-18",
-            "url": "https://www.theverge.com/2020/3/18/21184494/wikimedia-abstract-wikipedia-language-barriers"
-        },
-        {
-            "headline": "Abstract Wikipedia: A new layer for knowledge representation",
-            "outlet": "Wikimedia Blog",
-            "date": "2020-03-18",
-            "url": "https://blog.wikimedia.org/2020/03/18/abstract-wikipedia/"
-        },
-        {
-            "headline": "How Abstract Wikipedia could democratize knowledge across languages",
-            "outlet": "TechCrunch",
-            "date": "2020-03-20",
-            "url": "https://techcrunch.com/2020/03/20/abstract-wikipedia-wikimedia/"
-        }
-    ],
-    "academic_citations": [],
-    "in_civictech_guide": false,
-    "replication_materials_available": true,
-    "documented_limitations": [
-        "Page does not currently exist on Meta-Wiki (404 state)",
-        "Early-stage project with limited real-world deployment",
-        "Complexity of abstract representation may limit volunteer adoption"
-    ],
-    "jurisdictional_scope": "International",
-    "failure_modes": [
-        "Early adoption challenges due to complexity of abstract representation",
-        "Limited volunteer contributor base for initial development"
-    ],
-    "governance_model": "project_of_larger_org",
-    "curation_criteria": "Wikimedia Foundation governance policies; community consensus-based editing standards",
-    "contributor_governance": "Volunteer-driven with Wikimedia Foundation oversight; community discussion forums for major decisions",
-    "community_ownership": "Community-driven with Wikimedia Foundation stewardship",
-    "ai_involvement": "Machine learning and natural language processing for language rendering and knowledge representation",
-    "pass2_at": "2026-03-10T00:27:57.333Z",
-    "political_relevance_summary": "Addresses information asymmetry by improving access to structured knowledge and civic data for informed public participation.",
-    "movement_building_utility": {
-        "classification": "information_resource",
-        "notes": "Provides structured data or information that supports civic understanding and action."
+    {
+      "headline": "Abstract Wikipedia: A new layer for knowledge representation",
+      "outlet": "Wikimedia Blog",
+      "date": "2020-03-18",
+      "url": "https://blog.wikimedia.org/2020/03/18/abstract-wikipedia/"
     },
-    "systemic_issue_area": "civic data access",
-    "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (multiple countries), demonstrating cross-context adaptability.",
-    "primary_users_or_beneficiaries": [
-        "civic technology researchers",
-        "members of the public seeking government information",
-        "volunteer knowledge contributors",
-        "knowledge workers and educators"
-    ],
-    "underdog_signal": false
+    {
+      "headline": "How Abstract Wikipedia could democratize knowledge across languages",
+      "outlet": "TechCrunch",
+      "date": "2020-03-20",
+      "url": "https://techcrunch.com/2020/03/20/abstract-wikipedia-wikimedia/"
+    }
+  ],
+  "academic_citations": [],
+  "in_civictech_guide": false,
+  "replication_materials_available": true,
+  "documented_limitations": [
+    "Page does not currently exist on Meta-Wiki (404 state)",
+    "Early-stage project with limited real-world deployment",
+    "Complexity of abstract representation may limit volunteer adoption"
+  ],
+  "jurisdictional_scope": "International",
+  "failure_modes": [
+    "Early adoption challenges due to complexity of abstract representation",
+    "Limited volunteer contributor base for initial development"
+  ],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Wikimedia Foundation governance policies; community consensus-based editing standards",
+  "contributor_governance": "Volunteer-driven with Wikimedia Foundation oversight; community discussion forums for major decisions",
+  "community_ownership": "Community-driven with Wikimedia Foundation stewardship",
+  "ai_involvement": "Machine learning and natural language processing for language rendering and knowledge representation",
+  "pass2_at": "2026-03-10T00:27:57.333Z",
+  "political_relevance_summary": "Addresses information asymmetry by improving access to structured knowledge and civic data for informed public participation.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides structured data or information that supports civic understanding and action."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (multiple countries), demonstrating cross-context adaptability.",
+  "primary_users_or_beneficiaries": [
+    "civic technology researchers",
+    "members of the public seeking government information",
+    "volunteer knowledge contributors",
+    "knowledge workers and educators"
+  ],
+  "underdog_signal": false
 }

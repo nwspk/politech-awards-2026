@@ -1,126 +1,126 @@
 {
-    "url": "https://github.com/geeksforsocialchange/placecal",
-    "scraped": {
-        "homepage_last_scraped": "2026-02-09T12:43:58.413Z",
-        "homepage_http_status": 200,
-        "dead_link": false,
-        "homepage_word_count": 2263,
-        "homepage_has_team_page": true,
-        "homepage_has_impact_metrics": false,
-        "scraped_description": "Bring your community together. Contribute to geeksforsocialchange/PlaceCal development by creating an account on GitHub.",
-        "scraped_final_url": "https://github.com/geeksforsocialchange/placecal"
+  "url": "https://github.com/geeksforsocialchange/placecal",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:58.413Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 2263,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Bring your community together. Contribute to geeksforsocialchange/PlaceCal development by creating an account on GitHub.",
+    "scraped_final_url": "https://github.com/geeksforsocialchange/placecal"
+  },
+  "collected_at": "2026-03-09T23:19:21.667Z",
+  "collected_by": "collect-enriched-script",
+  "name": "PlaceCal",
+  "tagline": "Bring your community together",
+  "project_type": "Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "participatory_democracy",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions",
+    "SDG 17 – Partnerships for the Goals"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "community organizers",
+    "citizens",
+    "local organizations"
+  ],
+  "political_units": [
+    "city",
+    "local"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/geeksforsocialchange/placecal",
+  "github_stars": 36,
+  "last_commit_date": "2024-12-19",
+  "format": [
+    "platform",
+    "app"
+  ],
+  "founded_year": 2016,
+  "team_size": "small",
+  "funding_model": [
+    "grants",
+    "donations"
+  ],
+  "known_funders": [
+    "Geeks for Social Change",
+    "Community Foundation grants"
+  ],
+  "funding_verified": true,
+  "dependency_risks": "Dependent on volunteer contributions and grant funding; small team size creates sustainability risk",
+  "academic_citations": [
+    {
+      "title": "Making a place for technology in communities: PlaceCal and the capabilities approach",
+      "year": 2020,
+      "cited_by": 4,
+      "doi": "https://doi.org/10.1080/1369118x.2020.1767173"
     },
-    "collected_at": "2026-03-09T23:19:21.667Z",
-    "collected_by": "collect-enriched-script",
-    "name": "PlaceCal",
-    "tagline": "Bring your community together",
-    "project_type": "Platform",
-    "org_type": "Nonprofit/charity",
-    "issue_area": [
-        "participatory_democracy",
-        "civic_data"
-    ],
-    "sdg_alignment": [
-        "SDG 16 – Peace, Justice and Strong Institutions",
-        "SDG 17 – Partnerships for the Goals"
-    ],
-    "decade_plus": false,
-    "geography": "international",
-    "countries_deployed": [
-        "United Kingdom"
-    ],
-    "communities_served": [
-        "community organizers",
-        "citizens",
-        "local organizations"
-    ],
-    "political_units": [
-        "city",
-        "local"
-    ],
-    "open_source": "yes",
-    "github_url": "https://github.com/geeksforsocialchange/placecal",
-    "github_stars": 36,
-    "last_commit_date": "2024-12-19",
-    "format": [
-        "platform",
-        "app"
-    ],
-    "founded_year": 2016,
-    "team_size": "small",
-    "funding_model": [
-        "grants",
-        "donations"
-    ],
-    "known_funders": [
-        "Geeks for Social Change",
-        "Community Foundation grants"
-    ],
-    "funding_verified": true,
-    "dependency_risks": "Dependent on volunteer contributions and grant funding; small team size creates sustainability risk",
-    "academic_citations": [
-        {
-            "title": "Making a place for technology in communities: PlaceCal and the capabilities approach",
-            "year": 2020,
-            "cited_by": 4,
-            "doi": "https://doi.org/10.1080/1369118x.2020.1767173"
-        },
-        {
-            "title": "A Digital Collaborative Platform for the Silver Economy: Functionalities Required by Stakeholders in a Multinational Baltic Sea Region Project",
-            "year": 2023,
-            "cited_by": 9,
-            "doi": "https://doi.org/10.1145/3592618"
-        }
-    ],
-    "in_civictech_guide": false,
-    "wikipedia_page": false,
-    "replication_materials_available": true,
-    "published_performance_metrics": false,
-    "jurisdictional_scope": "Local (UK-based, primarily Manchester and surrounding areas)",
-    "governance_model": "project_of_larger_org",
-    "curation_criteria": "Community-submitted events; moderation by local coordinators",
-    "contributor_governance": "Open source contributions via GitHub; managed by Geeks for Social Change core team",
-    "disparity_tracking": false,
-    "community_ownership": false,
-    "political_bias_allegations": false,
-    "legal_regulatory_issues": false,
-    "ai_involvement": false,
-    "pass2_at": "2026-03-09T23:21:27.793Z",
-    "propublica_match": {
-        "ein": 473818158,
-        "strein": "47-3818158",
-        "name": "Placeful Company Inc",
-        "sub_name": "Placeful Company Inc",
-        "city": "New York",
-        "state": "NY",
-        "ntee_code": "S31",
-        "raw_ntee_code": "S31",
-        "subseccd": 3,
-        "has_subseccd": true,
-        "have_filings": null,
-        "have_extracts": null,
-        "have_pdfs": null,
-        "score": 75.9721
-    },
-    "pass3_at": "2026-03-09T23:22:28.595Z",
-    "_sources": [
-        "openalex",
-        "propublica"
-    ],
-    "pass5_at": "2026-03-10T00:46:18.667Z",
-    "pass5_jina_words": 19,
-    "pass5_changes": [],
-    "political_relevance_summary": "PlaceCal addresses gaps in democratic participation by providing tools or platforms that enable citizens and communities to engage more directly in governance and decision-making processes.",
-    "movement_building_utility": {
-        "classification": "direct_organizer_tool",
-        "notes": "PlaceCal directly enables organizing by providing tools for collective action, campaigning, or community mobilization."
-    },
-    "systemic_issue_area": "democratic participation access",
-    "generalizability_notes": "High generalizability. PlaceCal is open source and already deployed across multiple countries/jurisdictions, making replication straightforward for other contexts.",
-    "primary_users_or_beneficiaries": [
-        "community organizers",
-        "citizens in United Kingdom",
-        "local organizations"
-    ],
-    "underdog_signal": true
+    {
+      "title": "A Digital Collaborative Platform for the Silver Economy: Functionalities Required by Stakeholders in a Multinational Baltic Sea Region Project",
+      "year": 2023,
+      "cited_by": 9,
+      "doi": "https://doi.org/10.1145/3592618"
+    }
+  ],
+  "in_civictech_guide": false,
+  "wikipedia_page": false,
+  "replication_materials_available": true,
+  "published_performance_metrics": false,
+  "jurisdictional_scope": "Local (UK-based, primarily Manchester and surrounding areas)",
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Community-submitted events; moderation by local coordinators",
+  "contributor_governance": "Open source contributions via GitHub; managed by Geeks for Social Change core team",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "political_bias_allegations": false,
+  "legal_regulatory_issues": false,
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:27.793Z",
+  "propublica_match": {
+    "ein": 473818158,
+    "strein": "47-3818158",
+    "name": "Placeful Company Inc",
+    "sub_name": "Placeful Company Inc",
+    "city": "New York",
+    "state": "NY",
+    "ntee_code": "S31",
+    "raw_ntee_code": "S31",
+    "subseccd": 3,
+    "has_subseccd": true,
+    "have_filings": null,
+    "have_extracts": null,
+    "have_pdfs": null,
+    "score": 75.9721
+  },
+  "pass3_at": "2026-03-09T23:22:28.595Z",
+  "_sources": [
+    "openalex",
+    "propublica"
+  ],
+  "pass5_at": "2026-03-10T00:46:18.667Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": [],
+  "political_relevance_summary": "PlaceCal addresses gaps in democratic participation by providing tools or platforms that enable citizens and communities to engage more directly in governance and decision-making processes.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "PlaceCal directly enables organizing by providing tools for collective action, campaigning, or community mobilization."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "High generalizability. PlaceCal is open source and already deployed across multiple countries/jurisdictions, making replication straightforward for other contexts.",
+  "primary_users_or_beneficiaries": [
+    "community organizers",
+    "citizens in United Kingdom",
+    "local organizations"
+  ],
+  "underdog_signal": true
 }

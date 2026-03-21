@@ -1,188 +1,188 @@
 {
-    "url": "https://www.open-contracting.org",
-    "scraped": {
-        "homepage_last_scraped": "2026-02-09T12:47:15.117Z",
-        "homepage_http_status": 200,
-        "dead_link": false,
-        "homepage_word_count": 1590,
-        "homepage_has_team_page": true,
-        "homepage_has_impact_metrics": true,
-        "scraped_description": "We connect governments, civil society and business to open up and monitor public procurement. Open contracting results in fairer deals and less corruption.",
-        "scraped_final_url": "https://www.open-contracting.org/"
+  "url": "https://www.open-contracting.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:15.117Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1590,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "We connect governments, civil society and business to open up and monitor public procurement. Open contracting results in fairer deals and less corruption.",
+    "scraped_final_url": "https://www.open-contracting.org/"
+  },
+  "collected_at": "2026-03-09T23:20:58.895Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Open Contracting Partnership",
+  "tagline": "Open, fair & efficient public contracting to improve US$2 trillion in annual public procurement spending",
+  "project_type": "Organization",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "govtech",
+    "civic_data",
+    "advocacy_tech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions",
+    "SDG 17 – Partnerships for the Goals"
+  ],
+  "decade_plus": true,
+  "geography": "international",
+  "countries_deployed": [
+    "Brazil",
+    "Mexico",
+    "United Kingdom",
+    "Ukraine",
+    "Multiple African nations",
+    "Multiple Asian Pacific nations",
+    "Multiple Central Asian nations",
+    "Multiple European nations",
+    "Multiple Latin American nations",
+    "United States"
+  ],
+  "communities_served": [
+    "government procurement officials",
+    "civil society organizations",
+    "researchers",
+    "journalists",
+    "citizens",
+    "businesses"
+  ],
+  "political_units": [
+    "federal",
+    "state",
+    "international"
+  ],
+  "open_source": "partial",
+  "github_url": "https://github.com/open-contracting",
+  "github_stars": 450,
+  "last_commit_date": "2026-03-08",
+  "format": [
+    "platform",
+    "api",
+    "database",
+    "course",
+    "report"
+  ],
+  "founded_year": 2014,
+  "team_size": "medium",
+  "funding_model": [
+    "grants",
+    "public_funding"
+  ],
+  "known_funders": [
+    "World Bank",
+    "Open Society Foundations",
+    "Omidyar Network",
+    "UK Foreign, Commonwealth & Development Office",
+    "European Union",
+    "Government of Mexico",
+    "Government of Brazil"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2025",
+  "dependency_risks": [
+    "Reliance on government adoption and political will",
+    "Data quality dependent on implementing countries' capacity"
+  ],
+  "news_articles": [
+    {
+      "headline": "A remedy for medicine procurement: How Brazil is improving decision-making in a $75 billion market using open data and AI",
+      "outlet": "Open Contracting Partnership Blog",
+      "date": "2026-02-25",
+      "url": "https://www.open-contracting.org/news/brazil-medicine-procurement"
     },
-    "collected_at": "2026-03-09T23:20:58.895Z",
-    "collected_by": "collect-enriched-script",
-    "name": "Open Contracting Partnership",
-    "tagline": "Open, fair & efficient public contracting to improve US$2 trillion in annual public procurement spending",
-    "project_type": "Organization",
-    "org_type": "Nonprofit/charity",
-    "issue_area": [
-        "govtech",
-        "civic_data",
-        "advocacy_tech"
-    ],
-    "sdg_alignment": [
-        "SDG 16 – Peace, Justice and Strong Institutions",
-        "SDG 17 – Partnerships for the Goals"
-    ],
-    "decade_plus": true,
-    "geography": "international",
-    "countries_deployed": [
-        "Brazil",
-        "Mexico",
-        "United Kingdom",
-        "Ukraine",
-        "Multiple African nations",
-        "Multiple Asian Pacific nations",
-        "Multiple Central Asian nations",
-        "Multiple European nations",
-        "Multiple Latin American nations",
-        "United States"
-    ],
-    "communities_served": [
-        "government procurement officials",
-        "civil society organizations",
-        "researchers",
-        "journalists",
-        "citizens",
-        "businesses"
-    ],
-    "political_units": [
-        "federal",
-        "state",
-        "international"
-    ],
-    "open_source": "partial",
-    "github_url": "https://github.com/open-contracting",
-    "github_stars": 450,
-    "last_commit_date": "2026-03-08",
-    "format": [
-        "platform",
-        "api",
-        "database",
-        "course",
-        "report"
-    ],
-    "founded_year": 2014,
-    "team_size": "medium",
-    "funding_model": [
-        "grants",
-        "public_funding"
-    ],
-    "known_funders": [
-        "World Bank",
-        "Open Society Foundations",
-        "Omidyar Network",
-        "UK Foreign, Commonwealth & Development Office",
-        "European Union",
-        "Government of Mexico",
-        "Government of Brazil"
-    ],
-    "funding_verified": true,
-    "last_funding_event": "2025",
-    "dependency_risks": [
-        "Reliance on government adoption and political will",
-        "Data quality dependent on implementing countries' capacity"
-    ],
-    "news_articles": [
-        {
-            "headline": "A remedy for medicine procurement: How Brazil is improving decision-making in a $75 billion market using open data and AI",
-            "outlet": "Open Contracting Partnership Blog",
-            "date": "2026-02-25",
-            "url": "https://www.open-contracting.org/news/brazil-medicine-procurement"
-        },
-        {
-            "headline": "The UK Procurement Act one year on: what does the data tell us?",
-            "outlet": "Open Contracting Partnership Blog",
-            "date": "2026-03-03",
-            "url": "https://www.open-contracting.org/news/uk-procurement-act"
-        },
-        {
-            "headline": "Three strategies for designing an e-procurement system: Lessons learned in Nuevo León, Mexico",
-            "outlet": "Open Contracting Partnership Blog",
-            "date": "2026-02-11",
-            "url": "https://www.open-contracting.org/news/mexico-eprocurement"
-        }
-    ],
-    "academic_citations": [],
-    "awards": [
-        {
-            "name": "World Bank Open Data Award",
-            "year": 2019
-        },
-        {
-            "name": "Transparency International Recognition",
-            "year": 2021
-        }
-    ],
-    "in_civictech_guide": true,
-    "policy_outcomes": [
-        {
-            "description": "UK Procurement Act implementation influenced by open contracting principles",
-            "link": "https://www.open-contracting.org/news/uk-procurement-act",
-            "year": 2025
-        },
-        {
-            "description": "Brazil's medicine procurement system ($75 billion market) adopting open data and AI based on OCP guidance",
-            "link": "https://www.open-contracting.org/news/brazil-medicine-procurement",
-            "year": 2026
-        },
-        {
-            "description": "E-procurement system design in Nuevo León, Mexico informed by OCP strategies",
-            "link": "https://www.open-contracting.org/news/mexico-eprocurement",
-            "year": 2026
-        }
-    ],
-    "causation_strength": "correlated",
-    "outcome_methodology": "Mixed methods including case studies, government adoption tracking, and procurement data analysis across implementing countries",
-    "replication_materials_available": true,
-    "published_performance_metrics": "$17 billion better spent, 19 million people served in 2025",
-    "documented_limitations": "Outcome attribution challenges due to multiple concurrent reforms; data quality varies significantly by country; limited long-term impact studies; difficulty isolating OCP's specific contribution from broader transparency initiatives",
-    "jurisdictional_scope": "Global with regional focus areas",
-    "failure_modes": "Government resistance to transparency in some jurisdictions; insufficient technical capacity for data implementation in lower-income countries; political changes reversing procurement reforms; limited private sector engagement in some markets",
-    "governance_model": "foundation",
-    "curation_criteria": "Open Contracting Data Standard (OCDS) compliance; government commitment to implementation; civil society participation; technical capacity assessment; alignment with anti-corruption objectives",
-    "contributor_governance": "Multi-stakeholder governance board including government representatives, civil society, private sector, and international organizations; open contribution process for technical standards development",
-    "disparity_tracking": "Monitoring procurement transparency gaps between high-income and low-income countries; tracking women-owned business participation in procurement; analyzing geographic disparities in contract value distribution",
-    "community_ownership": "Government ownership through formal adoption of OCDS; civil society co-implementation in monitoring and advocacy; private sector participation in data standards development",
-    "controversies": "Concerns about data privacy in some jurisdictions; debates over appropriate level of contract disclosure; tensions between transparency and commercial confidentiality",
-    "legal_regulatory_issues": "Data protection compliance challenges under GDPR and similar regulations; varying legal frameworks for public procurement transparency across countries; intellectual property considerations for proprietary procurement data",
-    "government_partnerships": [
-        {
-            "partner": "Government of Brazil",
-            "nature": "Medicine procurement system implementation",
-            "country": "Brazil"
-        },
-        {
-            "partner": "Government of Mexico (Nuevo León)",
-            "nature": "E-procurement system design",
-            "country": "Mexico"
-        },
-        {
-            "partner": "UK Government",
-            "nature": "Procurement Act implementation",
-            "country": "United Kingdom"
-        }
-    ],
-    "ai_involvement": "Yes - AI used in Brazil's medicine procurement decision-making system",
-    "pass2_at": "2026-03-09T23:21:54.855Z",
-    "pass5_at": "2026-03-10T00:55:28.921Z",
-    "pass5_jina_words": 241,
-    "pass5_changes": [],
-    "political_relevance_summary": "Open Contracting Partnership addresses the civic need for government transparency and open data access, enabling citizens, journalists, and researchers to hold public institutions accountable.",
-    "movement_building_utility": {
-        "classification": "advocacy_amplifier",
-        "notes": "Open Contracting Partnership amplifies civic advocacy by giving citizens and groups tools to engage in democratic processes or influence policy."
+    {
+      "headline": "The UK Procurement Act one year on: what does the data tell us?",
+      "outlet": "Open Contracting Partnership Blog",
+      "date": "2026-03-03",
+      "url": "https://www.open-contracting.org/news/uk-procurement-act"
     },
-    "systemic_issue_area": "government procurement transparency",
-    "generalizability_notes": "High generalizability. Open Contracting Partnership is open source and already deployed across multiple countries/jurisdictions, making replication straightforward for other contexts.",
-    "primary_users_or_beneficiaries": [
-        "government procurement officials",
-        "civil society organizations",
-        "researchers",
-        "journalists",
-        "engaged citizens and civic participants",
-        "businesses"
-    ],
-    "underdog_signal": true
+    {
+      "headline": "Three strategies for designing an e-procurement system: Lessons learned in Nuevo León, Mexico",
+      "outlet": "Open Contracting Partnership Blog",
+      "date": "2026-02-11",
+      "url": "https://www.open-contracting.org/news/mexico-eprocurement"
+    }
+  ],
+  "academic_citations": [],
+  "awards": [
+    {
+      "name": "World Bank Open Data Award",
+      "year": 2019
+    },
+    {
+      "name": "Transparency International Recognition",
+      "year": 2021
+    }
+  ],
+  "in_civictech_guide": true,
+  "policy_outcomes": [
+    {
+      "description": "UK Procurement Act implementation influenced by open contracting principles",
+      "link": "https://www.open-contracting.org/news/uk-procurement-act",
+      "year": 2025
+    },
+    {
+      "description": "Brazil's medicine procurement system ($75 billion market) adopting open data and AI based on OCP guidance",
+      "link": "https://www.open-contracting.org/news/brazil-medicine-procurement",
+      "year": 2026
+    },
+    {
+      "description": "E-procurement system design in Nuevo León, Mexico informed by OCP strategies",
+      "link": "https://www.open-contracting.org/news/mexico-eprocurement",
+      "year": 2026
+    }
+  ],
+  "causation_strength": "correlated",
+  "outcome_methodology": "Mixed methods including case studies, government adoption tracking, and procurement data analysis across implementing countries",
+  "replication_materials_available": true,
+  "published_performance_metrics": "$17 billion better spent, 19 million people served in 2025",
+  "documented_limitations": "Outcome attribution challenges due to multiple concurrent reforms; data quality varies significantly by country; limited long-term impact studies; difficulty isolating OCP's specific contribution from broader transparency initiatives",
+  "jurisdictional_scope": "Global with regional focus areas",
+  "failure_modes": "Government resistance to transparency in some jurisdictions; insufficient technical capacity for data implementation in lower-income countries; political changes reversing procurement reforms; limited private sector engagement in some markets",
+  "governance_model": "foundation",
+  "curation_criteria": "Open Contracting Data Standard (OCDS) compliance; government commitment to implementation; civil society participation; technical capacity assessment; alignment with anti-corruption objectives",
+  "contributor_governance": "Multi-stakeholder governance board including government representatives, civil society, private sector, and international organizations; open contribution process for technical standards development",
+  "disparity_tracking": "Monitoring procurement transparency gaps between high-income and low-income countries; tracking women-owned business participation in procurement; analyzing geographic disparities in contract value distribution",
+  "community_ownership": "Government ownership through formal adoption of OCDS; civil society co-implementation in monitoring and advocacy; private sector participation in data standards development",
+  "controversies": "Concerns about data privacy in some jurisdictions; debates over appropriate level of contract disclosure; tensions between transparency and commercial confidentiality",
+  "legal_regulatory_issues": "Data protection compliance challenges under GDPR and similar regulations; varying legal frameworks for public procurement transparency across countries; intellectual property considerations for proprietary procurement data",
+  "government_partnerships": [
+    {
+      "partner": "Government of Brazil",
+      "nature": "Medicine procurement system implementation",
+      "country": "Brazil"
+    },
+    {
+      "partner": "Government of Mexico (Nuevo León)",
+      "nature": "E-procurement system design",
+      "country": "Mexico"
+    },
+    {
+      "partner": "UK Government",
+      "nature": "Procurement Act implementation",
+      "country": "United Kingdom"
+    }
+  ],
+  "ai_involvement": "Yes - AI used in Brazil's medicine procurement decision-making system",
+  "pass2_at": "2026-03-09T23:21:54.855Z",
+  "pass5_at": "2026-03-10T00:55:28.921Z",
+  "pass5_jina_words": 241,
+  "pass5_changes": [],
+  "political_relevance_summary": "Open Contracting Partnership addresses the civic need for government transparency and open data access, enabling citizens, journalists, and researchers to hold public institutions accountable.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Open Contracting Partnership amplifies civic advocacy by giving citizens and groups tools to engage in democratic processes or influence policy."
+  },
+  "systemic_issue_area": "government procurement transparency",
+  "generalizability_notes": "High generalizability. Open Contracting Partnership is open source and already deployed across multiple countries/jurisdictions, making replication straightforward for other contexts.",
+  "primary_users_or_beneficiaries": [
+    "government procurement officials",
+    "civil society organizations",
+    "researchers",
+    "journalists",
+    "engaged citizens and civic participants",
+    "businesses"
+  ],
+  "underdog_signal": true
 }

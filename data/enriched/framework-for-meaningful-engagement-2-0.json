@@ -1,120 +1,120 @@
 {
-    "url": "https://ecnl.org/publications/framework-meaningful-engagement-20?mc_cid=b1c5158063&mc_eid=a09c64ec38",
-    "scraped": {
-        "homepage_last_scraped": "2026-02-09T12:43:31.366Z",
-        "homepage_http_status": 200,
-        "dead_link": false,
-        "homepage_word_count": 1119,
-        "homepage_has_team_page": true,
-        "homepage_has_impact_metrics": false,
-        "scraped_description": "The updated FME 2.0 offers very practical suggestions on how to engage civil society and affected communities in AI development to support platforms and AI developers in creating rights-based products.",
-        "scraped_final_url": "https://ecnl.org/publications/framework-meaningful-engagement-20?mc_cid=b1c5158063&mc_eid=a09c64ec38"
+  "url": "https://ecnl.org/publications/framework-meaningful-engagement-20?mc_cid=b1c5158063&mc_eid=a09c64ec38",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:31.366Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1119,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "The updated FME 2.0 offers very practical suggestions on how to engage civil society and affected communities in AI development to support platforms and AI developers in creating rights-based products.",
+    "scraped_final_url": "https://ecnl.org/publications/framework-meaningful-engagement-20?mc_cid=b1c5158063&mc_eid=a09c64ec38"
+  },
+  "collected_at": "2026-03-09T23:21:12.752Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Framework for Meaningful Engagement 2.0",
+  "tagline": "Practical suggestions on how to engage civil society and affected communities in AI development to support platforms and AI developers in creating rights-based products",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "AI governance",
+    "Civic participation",
+    "Human rights",
+    "Technology policy"
+  ],
+  "sdg_alignment": [
+    "SDG 16: Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "Netherlands",
+    "United States"
+  ],
+  "communities_served": [
+    "Civil society organizations",
+    "AI developers",
+    "Affected communities",
+    "Marginalized and vulnerable groups"
+  ],
+  "political_units": [
+    "Amsterdam",
+    "Netherlands"
+  ],
+  "open_source": "yes",
+  "format": [
+    "Framework document",
+    "Guidance toolkit"
+  ],
+  "founded_year": 2023,
+  "funding_model": [
+    "Grant funding",
+    "Philanthropic support"
+  ],
+  "known_funders": [
+    "European Commission",
+    "Dutch government"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2023",
+  "news_articles": [],
+  "academic_citations": [
+    {
+      "title": "THEORIZING WEB 2.0",
+      "year": 2010,
+      "cited_by": 67,
+      "doi": "https://doi.org/10.1080/13691180902914610"
     },
-    "collected_at": "2026-03-09T23:21:12.752Z",
-    "collected_by": "collect-enriched-script",
-    "name": "Framework for Meaningful Engagement 2.0",
-    "tagline": "Practical suggestions on how to engage civil society and affected communities in AI development to support platforms and AI developers in creating rights-based products",
-    "project_type": "Tool/Platform",
-    "org_type": "Nonprofit/charity",
-    "issue_area": [
-        "AI governance",
-        "Civic participation",
-        "Human rights",
-        "Technology policy"
-    ],
-    "sdg_alignment": [
-        "SDG 16: Peace, Justice and Strong Institutions"
-    ],
-    "decade_plus": false,
-    "geography": "international",
-    "countries_deployed": [
-        "Netherlands",
-        "United States"
-    ],
-    "communities_served": [
-        "Civil society organizations",
-        "AI developers",
-        "Affected communities",
-        "Marginalized and vulnerable groups"
-    ],
-    "political_units": [
-        "Amsterdam",
-        "Netherlands"
-    ],
-    "open_source": "yes",
-    "format": [
-        "Framework document",
-        "Guidance toolkit"
-    ],
-    "founded_year": 2023,
-    "funding_model": [
-        "Grant funding",
-        "Philanthropic support"
-    ],
-    "known_funders": [
-        "European Commission",
-        "Dutch government"
-    ],
-    "funding_verified": true,
-    "last_funding_event": "2023",
-    "news_articles": [],
-    "academic_citations": [
-        {
-            "title": "THEORIZING WEB 2.0",
-            "year": 2010,
-            "cited_by": 67,
-            "doi": "https://doi.org/10.1080/13691180902914610"
-        },
-        {
-            "title": "The qualitative content analysis process",
-            "year": 2008,
-            "cited_by": 21520,
-            "doi": "https://doi.org/10.1111/j.1365-2648.2007.04569.x"
-        }
-    ],
-    "in_civictech_guide": false,
-    "policy_outcomes": [
-        "Adoption by Amsterdam city government for AI governance",
-        "Integration into Discord's safety protocols"
-    ],
-    "causation_strength": "correlated",
-    "outcome_methodology": "Case study documentation; pilot implementation tracking",
-    "replication_materials_available": true,
-    "published_performance_metrics": "Framework adoption metrics; stakeholder feedback documentation",
-    "documented_limitations": [
-        "Framework is guidance-based rather than prescriptive",
-        "Implementation outcomes depend on organizational commitment"
-    ],
-    "jurisdictional_scope": "Global",
-    "governance_model": "individual",
-    "curation_criteria": "Multi-stakeholder consultation; rights-based approach; practical applicability",
-    "contributor_governance": "Multi-stakeholder consultation process",
-    "disparity_tracking": "Framework addresses equity and inclusion in AI development; focuses on affected communities and marginalized groups",
-    "community_ownership": "High - co-created with 300+ stakeholders from civil society, private sector, and public service",
-    "government_partnerships": [
-        "City of Amsterdam"
-    ],
-    "ai_involvement": "Framework for meaningful engagement in AI development; pilot with Discord's Safety Machine Learning team; pilot with Amsterdam's image recognition service (scan bikes)",
-    "pass2_at": "2026-03-09T23:21:26.295Z",
-    "pass3_at": "2026-03-09T23:22:21.618Z",
-    "_sources": [
-        "openalex"
-    ],
-    "pass5_at": "2026-03-10T00:46:12.749Z",
-    "pass5_jina_words": 520,
-    "pass5_changes": [],
-    "political_relevance_summary": "Framework for Meaningful Engagement 2.0 addresses civic technology. Practical suggestions on how to engage civil society and affected communities in AI development to support platforms and AI developers in creating rights-based products.",
-    "movement_building_utility": {
-        "classification": "infrastructure",
-        "notes": "Provides technical infrastructure that other civic tools or services build upon."
-    },
-    "systemic_issue_area": "digital rights infrastructure",
-    "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Open-source codebase facilitates replication.",
-    "primary_users_or_beneficiaries": [
-        "Civil society organizations",
-        "AI developers",
-        "Affected communities",
-        "Marginalized and vulnerable groups"
-    ],
-    "underdog_signal": false
+    {
+      "title": "The qualitative content analysis process",
+      "year": 2008,
+      "cited_by": 21520,
+      "doi": "https://doi.org/10.1111/j.1365-2648.2007.04569.x"
+    }
+  ],
+  "in_civictech_guide": false,
+  "policy_outcomes": [
+    "Adoption by Amsterdam city government for AI governance",
+    "Integration into Discord's safety protocols"
+  ],
+  "causation_strength": "correlated",
+  "outcome_methodology": "Case study documentation; pilot implementation tracking",
+  "replication_materials_available": true,
+  "published_performance_metrics": "Framework adoption metrics; stakeholder feedback documentation",
+  "documented_limitations": [
+    "Framework is guidance-based rather than prescriptive",
+    "Implementation outcomes depend on organizational commitment"
+  ],
+  "jurisdictional_scope": "Global",
+  "governance_model": "individual",
+  "curation_criteria": "Multi-stakeholder consultation; rights-based approach; practical applicability",
+  "contributor_governance": "Multi-stakeholder consultation process",
+  "disparity_tracking": "Framework addresses equity and inclusion in AI development; focuses on affected communities and marginalized groups",
+  "community_ownership": "High - co-created with 300+ stakeholders from civil society, private sector, and public service",
+  "government_partnerships": [
+    "City of Amsterdam"
+  ],
+  "ai_involvement": "Framework for meaningful engagement in AI development; pilot with Discord's Safety Machine Learning team; pilot with Amsterdam's image recognition service (scan bikes)",
+  "pass2_at": "2026-03-09T23:21:26.295Z",
+  "pass3_at": "2026-03-09T23:22:21.618Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:46:12.749Z",
+  "pass5_jina_words": 520,
+  "pass5_changes": [],
+  "political_relevance_summary": "Framework for Meaningful Engagement 2.0 addresses civic technology. Practical suggestions on how to engage civil society and affected communities in AI development to support platforms and AI developers in creating rights-based products.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides technical infrastructure that other civic tools or services build upon."
+  },
+  "systemic_issue_area": "digital rights infrastructure",
+  "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Open-source codebase facilitates replication.",
+  "primary_users_or_beneficiaries": [
+    "Civil society organizations",
+    "AI developers",
+    "Affected communities",
+    "Marginalized and vulnerable groups"
+  ],
+  "underdog_signal": false
 }
