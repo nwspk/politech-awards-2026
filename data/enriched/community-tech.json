@@ -99,5 +99,18 @@
   ],
   "pass5_at": "2026-03-10T00:52:58.916Z",
   "pass5_jina_words": 505,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses barriers to meaningful citizen participation in democratic decision-making by providing tools for public engagement and deliberation.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides information, resources, or analysis relevant to civic actors."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Primarily national in scope; replication would require significant localization.",
+  "primary_users_or_beneficiaries": [
+    "community organisations",
+    "local communities",
+    "citizens seeking to participate in local democratic processes"
+  ],
+  "underdog_signal": true
 }

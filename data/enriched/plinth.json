@@ -66,26 +66,7 @@
     "https://www.nesta.org.uk/project/plinth/",
     "https://www.bethnal-green-ventures.com/portfolio/plinth"
   ],
-  "academic_citations": [
-    {
-      "title": "Water storage and runoff processes in plinthic soils under forest and pasture in eastern Amazonia",
-      "year": 2006,
-      "cited_by": 137,
-      "doi": "https://doi.org/10.1002/hyp.6213"
-    },
-    {
-      "title": "Comparison of physio ball and plinth trunk exercises regimens on trunk control and functional balance in patients with acute stroke: a pilot randomized controlled trial",
-      "year": 2011,
-      "cited_by": 127,
-      "doi": "https://doi.org/10.1177/0269215510397393"
-    },
-    {
-      "title": "Effect of construction materials on embodied energy and cost of buildings—A case study of residential houses in India up to 60m2 of plinth area",
-      "year": 2013,
-      "cited_by": 107,
-      "doi": "https://doi.org/10.1016/j.enbuild.2013.11.006"
-    }
-  ],
+  "academic_citations": [],
   "in_civictech_guide": false,
   "policy_outcomes": [
     {
@@ -124,5 +105,21 @@
   ],
   "pass5_at": "2026-03-10T00:56:01.480Z",
   "pass5_jina_words": 248,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Plinth addresses civic data access and transparency. AI-powered platform helping organisations deliver, measure and fund community impact.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides government technology infrastructure for public service delivery."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Currently focused on United Kingdom; would require local data and regulatory adaptation.",
+  "primary_users_or_beneficiaries": [
+    "charities",
+    "community organisations",
+    "local authorities",
+    "grantmaking funders",
+    "housing associations",
+    "family hubs"
+  ],
+  "underdog_signal": false
 }

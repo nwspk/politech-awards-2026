@@ -1,121 +1,129 @@
 {
-  "url": "https://annas-archive.pm",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T13:07:40.897Z",
-    "homepage_http_status": null,
-    "dead_link": true,
-    "homepage_word_count": null,
-    "homepage_has_team_page": null,
-    "homepage_has_impact_metrics": null,
-    "scraped_description": null,
-    "scraped_final_url": null
-  },
-  "collected_at": "2026-03-09T23:18:14.447Z",
-  "collected_by": "collect-enriched-script",
-  "name": "Anna's Archive",
-  "tagline": "A non-profit, open-source digital library preserving access to knowledge through shadow library aggregation",
-  "project_type": "Database",
-  "org_type": "Grassroots/indie",
-  "issue_area": [
-    "digital_rights",
-    "civic_data"
-  ],
-  "sdg_alignment": [
-    "SDG 4 – Quality Education",
-    "SDG 16 – Peace, Justice and Strong Institutions"
-  ],
-  "decade_plus": false,
-  "geography": "international",
-  "countries_deployed": [
-    "Multiple (international access)"
-  ],
-  "communities_served": [
-    "researchers",
-    "students",
-    "academics",
-    "citizens",
-    "librarians"
-  ],
-  "political_units": [
-    "international"
-  ],
-  "open_source": "yes",
-  "github_url": "https://github.com/AnnaArchivist/annas-archive",
-  "github_stars": 28000,
-  "last_commit_date": "2026-03-08",
-  "format": [
-    "database",
-    "platform"
-  ],
-  "founded_year": 2022,
-  "team_size": "small",
-  "funding_model": [
-    "donations"
-  ],
-  "funding_verified": false,
-  "dependency_risks": [
-    "Legal exposure in jurisdictions with strict copyright enforcement",
-    "Domain hosting and infrastructure vulnerability",
-    "Reliance on volunteer contributors"
-  ],
-  "policy_outcomes": [],
-  "causation_strength": "anecdotal",
-  "news_articles": [
-    {
-      "headline": "Anna's Archive: A Shadow Library for the Internet Age",
-      "outlet": "Various tech/digital rights media",
-      "date": null,
-      "url": null
-    }
-  ],
-  "academic_citations": [
-    {
-      "title": "Towards complete and error-free genome assemblies of all vertebrate species",
-      "year": 2021,
-      "cited_by": 2873,
-      "doi": "https://doi.org/10.1038/s41586-021-03451-0"
+    "url": "https://annas-archive.pm",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T13:07:40.897Z",
+        "homepage_http_status": null,
+        "dead_link": true,
+        "homepage_word_count": null,
+        "homepage_has_team_page": null,
+        "homepage_has_impact_metrics": null,
+        "scraped_description": null,
+        "scraped_final_url": null
     },
-    {
-      "title": "Comparing conventional and alternative mechanisms of discovering and accessing the scientific literature",
-      "year": 2025,
-      "cited_by": 2,
-      "doi": "https://doi.org/10.1073/pnas.2503051122"
+    "collected_at": "2026-03-09T23:18:14.447Z",
+    "collected_by": "collect-enriched-script",
+    "name": "Anna's Archive",
+    "tagline": "A non-profit, open-source digital library preserving access to knowledge through shadow library aggregation",
+    "project_type": "Database",
+    "org_type": "Grassroots/indie",
+    "issue_area": [
+        "digital_rights",
+        "civic_data"
+    ],
+    "sdg_alignment": [
+        "SDG 4 – Quality Education",
+        "SDG 16 – Peace, Justice and Strong Institutions"
+    ],
+    "decade_plus": false,
+    "geography": "international",
+    "countries_deployed": [
+        "Multiple (international access)"
+    ],
+    "communities_served": [
+        "researchers",
+        "students",
+        "academics",
+        "citizens",
+        "librarians"
+    ],
+    "political_units": [
+        "international"
+    ],
+    "open_source": "yes",
+    "github_url": "https://github.com/AnnaArchivist/annas-archive",
+    "github_stars": 28000,
+    "last_commit_date": "2026-03-08",
+    "format": [
+        "database",
+        "platform"
+    ],
+    "founded_year": 2022,
+    "team_size": "small",
+    "funding_model": [
+        "donations"
+    ],
+    "funding_verified": false,
+    "dependency_risks": [
+        "Legal exposure in jurisdictions with strict copyright enforcement",
+        "Domain hosting and infrastructure vulnerability",
+        "Reliance on volunteer contributors"
+    ],
+    "policy_outcomes": [],
+    "causation_strength": "anecdotal",
+    "news_articles": [],
+    "academic_citations": [
+        {
+            "title": "Towards complete and error-free genome assemblies of all vertebrate species",
+            "year": 2021,
+            "cited_by": 2873,
+            "doi": "https://doi.org/10.1038/s41586-021-03451-0"
+        },
+        {
+            "title": "Comparing conventional and alternative mechanisms of discovering and accessing the scientific literature",
+            "year": 2025,
+            "cited_by": 2,
+            "doi": "https://doi.org/10.1073/pnas.2503051122"
+        },
+        {
+            "title": "Supplemental Feeding as a Driver of Population Expansion and Morphological Change in Anna's Hummingbirds",
+            "year": 2025,
+            "cited_by": 4,
+            "doi": "https://doi.org/10.1111/gcb.70237"
+        }
+    ],
+    "in_civictech_guide": false,
+    "documented_limitations": [
+        "Operates in legal gray zone regarding copyright",
+        "Subject to takedown and domain seizure",
+        "No formal governance structure documented",
+        "Limited transparency on curation and moderation"
+    ],
+    "jurisdictional_scope": "International but vulnerable to jurisdiction-specific enforcement",
+    "failure_modes": [
+        "Domain seizure or blocking",
+        "Legal action from copyright holders",
+        "Infrastructure disruption"
+    ],
+    "governance_model": "individual",
+    "curation_criteria": "Aggregates shadow library content including books, papers, and academic materials; focuses on preservation and access rather than original curation",
+    "contributor_governance": "Open-source contribution model with GitHub-based development; limited formal governance structure",
+    "community_ownership": false,
+    "controversies": [
+        "Copyright infringement allegations",
+        "Debate over shadow library ethics and legality"
+    ],
+    "legal_regulatory_issues": "Operates in legal ambiguity; subject to copyright enforcement actions in multiple jurisdictions",
+    "pass2_at": "2026-03-10T00:27:58.929Z",
+    "pass3_at": "2026-03-09T23:22:01.740Z",
+    "_sources": [
+        "openalex"
+    ],
+    "pass5_at": "2026-03-10T00:41:50.940Z",
+    "pass5_jina_words": 12,
+    "pass5_changes": [],
+    "political_relevance_summary": "Addresses threats to digital autonomy and privacy rights that affect civic participation and civil liberties.",
+    "movement_building_utility": {
+        "classification": "information_resource",
+        "notes": "Serves as an information resource for civic actors, researchers, or the public."
     },
-    {
-      "title": "Supplemental Feeding as a Driver of Population Expansion and Morphological Change in Anna's Hummingbirds",
-      "year": 2025,
-      "cited_by": 4,
-      "doi": "https://doi.org/10.1111/gcb.70237"
-    }
-  ],
-  "in_civictech_guide": false,
-  "documented_limitations": [
-    "Operates in legal gray zone regarding copyright",
-    "Subject to takedown and domain seizure",
-    "No formal governance structure documented",
-    "Limited transparency on curation and moderation"
-  ],
-  "jurisdictional_scope": "International but vulnerable to jurisdiction-specific enforcement",
-  "failure_modes": [
-    "Domain seizure or blocking",
-    "Legal action from copyright holders",
-    "Infrastructure disruption"
-  ],
-  "governance_model": "individual",
-  "curation_criteria": "Aggregates shadow library content including books, papers, and academic materials; focuses on preservation and access rather than original curation",
-  "contributor_governance": "Open-source contribution model with GitHub-based development; limited formal governance structure",
-  "community_ownership": false,
-  "controversies": [
-    "Copyright infringement allegations",
-    "Debate over shadow library ethics and legality"
-  ],
-  "legal_regulatory_issues": "Operates in legal ambiguity; subject to copyright enforcement actions in multiple jurisdictions",
-  "pass2_at": "2026-03-10T00:27:58.929Z",
-  "pass3_at": "2026-03-09T23:22:01.740Z",
-  "_sources": [
-    "openalex"
-  ],
-  "pass5_at": "2026-03-10T00:41:50.940Z",
-  "pass5_jina_words": 12,
-  "pass5_changes": []
+    "systemic_issue_area": "digital rights infrastructure",
+    "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (multiple countries), demonstrating cross-context adaptability. Methodology and approach could inform similar efforts in other jurisdictions.",
+    "primary_users_or_beneficiaries": [
+        "civic technology researchers",
+        "students and early-career researchers",
+        "academics",
+        "individuals concerned about digital rights and privacy",
+        "librarians"
+    ],
+    "underdog_signal": true
 }

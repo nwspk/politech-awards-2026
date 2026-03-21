@@ -75,5 +75,18 @@
   "pass2_at": "2026-03-09T23:21:42.268Z",
   "pass5_at": "2026-03-10T00:59:49.221Z",
   "pass5_jina_words": 471,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Turbo Phonebank addresses democratic participation and citizen engagement. A free phonebank platform that turns Google Sheets into phonebanks and textbanks with 2-tap calling.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Directly supports organizing, mobilization, or campaign activities"
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Limited to United States context currently; approach could potentially be replicated in similar jurisdictions with adaptation to local data sources and regulations.",
+  "primary_users_or_beneficiaries": [
+    "campaigners",
+    "volunteers",
+    "organizers"
+  ],
+  "underdog_signal": true
 }

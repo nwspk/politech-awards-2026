@@ -90,12 +90,6 @@
       "year": 1978,
       "cited_by": 371,
       "doi": "https://doi.org/10.1016/0002-9149(78)90134-0"
-    },
-    {
-      "title": "Nonsurgical closure of patent ductus arteriosus: clinical application of the Rashkind PDA Occluder System.",
-      "year": 1987,
-      "cited_by": 415,
-      "doi": "https://doi.org/10.1161/01.cir.75.3.583"
     }
   ],
   "in_civictech_guide": false,
@@ -125,5 +119,19 @@
   ],
   "pass5_at": "2026-03-10T01:03:01.936Z",
   "pass5_jina_words": 534,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Murmurations Protocol addresses building cooperative economic alternatives and mapping communities and resources for civic engagement.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides foundational infrastructure: Making movements visible — a distributed data sharing protocol to facilitate collaboration at scale."
+  },
+  "systemic_issue_area": "digital public infrastructure",
+  "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "cooperatives",
+    "regenerative economy networks",
+    "civil society organisations",
+    "community mapping projects"
+  ],
+  "underdog_signal": true
 }

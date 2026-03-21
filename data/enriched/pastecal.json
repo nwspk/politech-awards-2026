@@ -71,5 +71,18 @@
   "pass2_at": "2026-03-09T23:21:28.374Z",
   "pass5_at": "2026-03-10T00:46:19.588Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Pastecal addresses the basic need for lightweight collaborative scheduling without authentication barriers, potentially useful for civic organizing though not specifically designed for political use.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Pastecal directly enables organizing by providing tools for collective action, campaigning, or community mobilization."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "High generalizability. Pastecal is open source and already deployed across multiple countries/jurisdictions, making replication straightforward for other contexts.",
+  "primary_users_or_beneficiaries": [
+    "citizens in Multiple countries via open-source deployment",
+    "organizers",
+    "collaborative groups"
+  ],
+  "underdog_signal": true
 }

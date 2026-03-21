@@ -1,107 +1,117 @@
 {
-  "url": "https://thegovernmentsays.com",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:46:23.845Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 4165,
-    "homepage_has_team_page": true,
-    "homepage_has_impact_metrics": true,
-    "scraped_description": "Applications have now reopened for joining our Professional Forester Apprenticeship this September. Programme Manager Gareth Hopkins MBE offers advice for anyone considering applying.",
-    "scraped_final_url": "https://thegovernmentsays.com/"
-  },
-  "collected_at": "2026-03-09T23:20:36.620Z",
-  "collected_by": "collect-enriched-script",
-  "name": "The Government Says",
-  "tagline": "Real-time aggregation and monitoring of UK government press releases and statements",
-  "project_type": "Tool/Platform",
-  "org_type": "Nonprofit/charity",
-  "issue_area": [
-    "civic_data",
-    "govtech",
-    "media_journalism"
-  ],
-  "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
-  ],
-  "decade_plus": false,
-  "geography": "national",
-  "countries_deployed": [
-    "United Kingdom"
-  ],
-  "communities_served": [
-    "journalists",
-    "researchers",
-    "citizens",
-    "campaigners",
-    "media organizations"
-  ],
-  "political_units": [
-    "federal"
-  ],
-  "open_source": "yes",
-  "github_url": "https://github.com/thegovernmentsays/thegovernmentsays",
-  "github_stars": 89,
-  "last_commit_date": "2024-11-15",
-  "format": [
-    "platform",
-    "database",
-    "api"
-  ],
-  "founded_year": 2014,
-  "team_size": "small",
-  "funding_model": "grant-based",
-  "known_funders": [
-    "Shuttleworth Foundation",
-    "Open Society Foundations"
-  ],
-  "funding_verified": true,
-  "last_funding_event": "2023",
-  "dependency_risks": [
-    "Reliance on UK government press release feeds",
-    "No apparent backup or archival strategy documented"
-  ],
-  "news_articles": [
-    "Guardian coverage of government transparency tools",
-    "BBC News mentions of press release monitoring"
-  ],
-  "academic_citations": [
-    "Citations in media studies and government transparency research"
-  ],
-  "awards": [
-    "Shuttleworth Fellowship recognition"
-  ],
-  "in_civictech_guide": true,
-  "wikipedia_page": false,
-  "policy_outcomes": [
-    "Increased transparency in government communications tracking",
-    "Support for investigative journalism workflows"
-  ],
-  "causation_strength": "correlated",
-  "outcome_methodology": "observational",
-  "replication_materials_available": true,
-  "published_performance_metrics": true,
-  "documented_limitations": [
-    "No documented limitations available on homepage"
-  ],
-  "jurisdictional_scope": "United Kingdom",
-  "failure_modes": [
-    "Feed disruptions when government press release systems change",
-    "Incomplete historical data prior to 2014"
-  ],
-  "governance_model": "community-driven",
-  "curation_criteria": "Automated aggregation of official UK government press releases and statements",
-  "contributor_governance": "open contributions via GitHub",
-  "disparity_tracking": false,
-  "community_ownership": true,
-  "political_bias_allegations": false,
-  "legal_regulatory_issues": false,
-  "government_partnerships": [
-    "UK Government Digital Service (data access)"
-  ],
-  "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:43.414Z",
-  "pass5_at": "2026-03-10T00:54:55.485Z",
-  "pass5_jina_words": 393,
-  "pass5_changes": []
+    "url": "https://thegovernmentsays.com",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:46:23.845Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 4165,
+        "homepage_has_team_page": true,
+        "homepage_has_impact_metrics": true,
+        "scraped_description": "Applications have now reopened for joining our Professional Forester Apprenticeship this September. Programme Manager Gareth Hopkins MBE offers advice for anyone considering applying.",
+        "scraped_final_url": "https://thegovernmentsays.com/"
+    },
+    "collected_at": "2026-03-09T23:20:36.620Z",
+    "collected_by": "collect-enriched-script",
+    "name": "The Government Says",
+    "tagline": "Real-time aggregation and monitoring of UK government press releases and statements",
+    "project_type": "Tool/Platform",
+    "org_type": "Nonprofit/charity",
+    "issue_area": [
+        "civic_data",
+        "govtech",
+        "media_journalism"
+    ],
+    "sdg_alignment": [
+        "SDG 16 – Peace, Justice and Strong Institutions"
+    ],
+    "decade_plus": false,
+    "geography": "national",
+    "countries_deployed": [
+        "United Kingdom"
+    ],
+    "communities_served": [
+        "journalists",
+        "researchers",
+        "citizens",
+        "campaigners",
+        "media organizations"
+    ],
+    "political_units": [
+        "federal"
+    ],
+    "open_source": "yes",
+    "github_url": "https://github.com/thegovernmentsays/thegovernmentsays",
+    "github_stars": 89,
+    "last_commit_date": "2024-11-15",
+    "format": [
+        "platform",
+        "database",
+        "api"
+    ],
+    "founded_year": 2014,
+    "team_size": "small",
+    "funding_model": "grant-based",
+    "known_funders": [
+        "Shuttleworth Foundation",
+        "Open Society Foundations"
+    ],
+    "funding_verified": true,
+    "last_funding_event": "2023",
+    "dependency_risks": [
+        "Reliance on UK government press release feeds",
+        "No apparent backup or archival strategy documented"
+    ],
+    "news_articles": [],
+    "academic_citations": [],
+    "awards": [
+        "Shuttleworth Fellowship recognition"
+    ],
+    "in_civictech_guide": true,
+    "wikipedia_page": false,
+    "policy_outcomes": [
+        "Increased transparency in government communications tracking",
+        "Support for investigative journalism workflows"
+    ],
+    "causation_strength": "correlated",
+    "outcome_methodology": "observational",
+    "replication_materials_available": true,
+    "published_performance_metrics": true,
+    "documented_limitations": [
+        "No documented limitations available on homepage"
+    ],
+    "jurisdictional_scope": "United Kingdom",
+    "failure_modes": [
+        "Feed disruptions when government press release systems change",
+        "Incomplete historical data prior to 2014"
+    ],
+    "governance_model": "community-driven",
+    "curation_criteria": "Automated aggregation of official UK government press releases and statements",
+    "contributor_governance": "open contributions via GitHub",
+    "disparity_tracking": false,
+    "community_ownership": true,
+    "political_bias_allegations": false,
+    "legal_regulatory_issues": false,
+    "government_partnerships": [
+        "UK Government Digital Service (data access)"
+    ],
+    "ai_involvement": false,
+    "pass2_at": "2026-03-09T23:21:43.414Z",
+    "pass5_at": "2026-03-10T00:54:55.485Z",
+    "pass5_jina_words": 393,
+    "pass5_changes": [],
+    "political_relevance_summary": "The Government Says addresses civic data access and transparency. Real-time aggregation and monitoring of UK government press releases and statements.",
+    "movement_building_utility": {
+        "classification": "information_resource",
+        "notes": "Provides information, data, or research for civic purposes"
+    },
+    "systemic_issue_area": "civic data access",
+    "generalizability_notes": "Good generalizability potential — open source allows adaptation to other jurisdictions, though localization would be needed.",
+    "primary_users_or_beneficiaries": [
+        "journalists",
+        "researchers",
+        "citizens",
+        "campaigners",
+        "media organizations"
+    ],
+    "underdog_signal": true
 }

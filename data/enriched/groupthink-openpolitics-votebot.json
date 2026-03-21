@@ -106,5 +106,18 @@
   "pass2_at": "2026-03-09T23:21:29.310Z",
   "pass5_at": "2026-03-10T00:46:20.440Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Groupthink (OpenPolitics Votebot) addresses opening policymaking to public contribution and facilitating collaborative democratic processes. It has documented policy impact.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Used by organizers and campaigners: A collaborative democratic platform built atop GitHub, designed for open policymaking and manifesto writing."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase enables replication. currently deployed in United Kingdom only, but approach could be adapted to other national contexts.",
+  "primary_users_or_beneficiaries": [
+    "political activists",
+    "open source contributors",
+    "Something New party members"
+  ],
+  "underdog_signal": true
 }

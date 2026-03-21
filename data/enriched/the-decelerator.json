@@ -110,5 +110,20 @@
   ],
   "pass5_at": "2026-03-10T00:45:43.979Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "The Decelerator addresses civic technology. A free support service for civil society organisations facing endings — closures, mergers, leadership transitions, and programme ends.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides information, data, or research for civic purposes"
+  },
+  "systemic_issue_area": "civic advocacy infrastructure",
+  "generalizability_notes": "Limited to United Kingdom context currently; approach could potentially be replicated in similar jurisdictions with adaptation to local data sources and regulations.",
+  "primary_users_or_beneficiaries": [
+    "civil society organisations",
+    "charities",
+    "social enterprises",
+    "nonprofit leaders",
+    "trustees"
+  ],
+  "underdog_signal": true
 }

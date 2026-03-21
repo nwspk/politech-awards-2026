@@ -1,98 +1,107 @@
 {
-  "url": "https://github.com/ytdl-org/youtube-dl",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:44:13.618Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 13281,
-    "homepage_has_team_page": true,
-    "homepage_has_impact_metrics": false,
-    "scraped_description": "Command-line program to download videos from YouTube.com and other video sites - ytdl-org/youtube-dl",
-    "scraped_final_url": "https://github.com/ytdl-org/youtube-dl"
-  },
-  "collected_at": "2026-03-09T23:19:59.053Z",
-  "collected_by": "collect-enriched-script",
-  "name": "youtube-dl",
-  "tagline": "Command-line program to download videos from YouTube.com and other video sites",
-  "project_type": "Tool/Platform",
-  "org_type": "Grassroots/indie",
-  "issue_area": [
-    "digital_rights",
-    "media_journalism"
-  ],
-  "sdg_alignment": [
-    "SDG 16: Peace, Justice and Strong Institutions"
-  ],
-  "decade_plus": true,
-  "geography": "international",
-  "countries_deployed": [
-    "Global"
-  ],
-  "communities_served": [
-    "journalists",
-    "researchers",
-    "archivists",
-    "content creators"
-  ],
-  "political_units": [
-    "international"
-  ],
-  "open_source": "yes",
-  "github_url": "https://github.com/ytdl-org/youtube-dl",
-  "github_stars": 140000,
-  "last_commit_date": "2024-12-15",
-  "format": [
-    "tool",
-    "api"
-  ],
-  "founded_year": 2006,
-  "team_size": "small",
-  "funding_model": [
-    "donations"
-  ],
-  "known_funders": [
-    "Community donations"
-  ],
-  "funding_verified": false,
-  "dependency_risks": [
-    "Platform API changes (YouTube, etc.)",
-    "Legal challenges from copyright holders",
-    "Maintenance burden on volunteer contributors"
-  ],
-  "news_articles": [
-    "GitHub DMCA takedown notices (2020, 2023)",
-    "Coverage in TechCrunch, Wired regarding copyright battles"
-  ],
-  "academic_citations": [
-    "Cited in digital rights and copyright law research"
-  ],
-  "in_civictech_guide": false,
-  "wikipedia_page": "https://en.wikipedia.org/wiki/Youtube-dl",
-  "replication_materials_available": true,
-  "documented_limitations": [
-    "Dependent on external platform APIs which change frequently",
-    "Legal exposure in jurisdictions with strict copyright enforcement"
-  ],
-  "jurisdictional_scope": "International but subject to varying legal frameworks",
-  "failure_modes": [
-    "Platform API changes breaking functionality",
-    "Legal takedown requests",
-    "Maintenance gaps due to volunteer-driven development"
-  ],
-  "governance_model": "project_of_larger_org",
-  "curation_criteria": "Community-driven; accepts contributions via pull requests with code review",
-  "contributor_governance": "Open contribution model with maintainer review; decentralized decision-making",
-  "disparity_tracking": false,
-  "community_ownership": true,
-  "controversies": [
-    "DMCA takedown notices and legal challenges from copyright holders",
-    "Periodic GitHub repository removals and reinstatements"
-  ],
-  "political_bias_allegations": false,
-  "legal_regulatory_issues": "Subject to DMCA and international copyright law challenges; has faced multiple takedown notices",
-  "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:31.127Z",
-  "pass5_at": "2026-03-10T00:46:23.555Z",
-  "pass5_jina_words": 19,
-  "pass5_changes": []
+    "url": "https://github.com/ytdl-org/youtube-dl",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:44:13.618Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 13281,
+        "homepage_has_team_page": true,
+        "homepage_has_impact_metrics": false,
+        "scraped_description": "Command-line program to download videos from YouTube.com and other video sites - ytdl-org/youtube-dl",
+        "scraped_final_url": "https://github.com/ytdl-org/youtube-dl"
+    },
+    "collected_at": "2026-03-09T23:19:59.053Z",
+    "collected_by": "collect-enriched-script",
+    "name": "youtube-dl",
+    "tagline": "Command-line program to download videos from YouTube.com and other video sites",
+    "project_type": "Tool/Platform",
+    "org_type": "Grassroots/indie",
+    "issue_area": [
+        "digital_rights",
+        "media_journalism"
+    ],
+    "sdg_alignment": [
+        "SDG 16: Peace, Justice and Strong Institutions"
+    ],
+    "decade_plus": true,
+    "geography": "international",
+    "countries_deployed": [
+        "Global"
+    ],
+    "communities_served": [
+        "journalists",
+        "researchers",
+        "archivists",
+        "content creators"
+    ],
+    "political_units": [
+        "international"
+    ],
+    "open_source": "yes",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "github_stars": 140000,
+    "last_commit_date": "2024-12-15",
+    "format": [
+        "tool",
+        "api"
+    ],
+    "founded_year": 2006,
+    "team_size": "small",
+    "funding_model": [
+        "donations"
+    ],
+    "known_funders": [
+        "Community donations"
+    ],
+    "funding_verified": false,
+    "dependency_risks": [
+        "Platform API changes (YouTube, etc.)",
+        "Legal challenges from copyright holders",
+        "Maintenance burden on volunteer contributors"
+    ],
+    "news_articles": [],
+    "academic_citations": [],
+    "in_civictech_guide": false,
+    "wikipedia_page": "https://en.wikipedia.org/wiki/Youtube-dl",
+    "replication_materials_available": true,
+    "documented_limitations": [
+        "Dependent on external platform APIs which change frequently",
+        "Legal exposure in jurisdictions with strict copyright enforcement"
+    ],
+    "jurisdictional_scope": "International but subject to varying legal frameworks",
+    "failure_modes": [
+        "Platform API changes breaking functionality",
+        "Legal takedown requests",
+        "Maintenance gaps due to volunteer-driven development"
+    ],
+    "governance_model": "project_of_larger_org",
+    "curation_criteria": "Community-driven; accepts contributions via pull requests with code review",
+    "contributor_governance": "Open contribution model with maintainer review; decentralized decision-making",
+    "disparity_tracking": false,
+    "community_ownership": true,
+    "controversies": [
+        "DMCA takedown notices and legal challenges from copyright holders",
+        "Periodic GitHub repository removals and reinstatements"
+    ],
+    "political_bias_allegations": false,
+    "legal_regulatory_issues": "Subject to DMCA and international copyright law challenges; has faced multiple takedown notices",
+    "ai_involvement": false,
+    "pass2_at": "2026-03-09T23:21:31.127Z",
+    "pass5_at": "2026-03-10T00:46:23.555Z",
+    "pass5_jina_words": 19,
+    "pass5_changes": [],
+    "political_relevance_summary": "youtube-dl addresses digital rights and online freedoms. Command-line program to download videos from YouTube.com and other video sites.",
+    "movement_building_utility": {
+        "classification": "information_resource",
+        "notes": "Provides civic data or journalism infrastructure"
+    },
+    "systemic_issue_area": "digital rights infrastructure",
+    "generalizability_notes": "Highly generalizable — already deployed internationally and open source, facilitating adoption in new contexts.",
+    "primary_users_or_beneficiaries": [
+        "journalists",
+        "researchers",
+        "archivists",
+        "content creators"
+    ],
+    "underdog_signal": true
 }

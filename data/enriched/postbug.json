@@ -78,5 +78,18 @@
   ],
   "pass5_at": "2026-03-10T00:50:16.855Z",
   "pass5_jina_words": 276,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "PostBug addresses democratic participation and citizen engagement. Send printed postcards to people in power.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Directly supports organizing, mobilization, or democratic participation processes."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Currently focused on United Kingdom; would require local data and regulatory adaptation.",
+  "primary_users_or_beneficiaries": [
+    "campaigners",
+    "advocacy organizations",
+    "supporters"
+  ],
+  "underdog_signal": false
 }

@@ -83,5 +83,18 @@
   ],
   "pass5_at": "2026-03-10T00:51:40.699Z",
   "pass5_jina_words": 103,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Spacetube addresses digital rights and online freedoms. Group-to-group chat tool built on Matrix for secure decentralised communication.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Directly supports organizing, mobilization, or democratic participation processes."
+  },
+  "systemic_issue_area": "digital rights infrastructure",
+  "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "groups",
+    "organizations",
+    "communities"
+  ],
+  "underdog_signal": true
 }

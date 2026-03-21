@@ -95,5 +95,18 @@
   ],
   "pass5_at": "2026-03-10T00:46:21.127Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "django-collaborative addresses civic data access and transparency. ProPublica's collaborative tip-gathering framework for importing and managing CSV, Google Sheets and Screendoor data.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides technical infrastructure that other civic tools or services build upon."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Could be adapted to other national contexts with localization. Open-source codebase facilitates replication.",
+  "primary_users_or_beneficiaries": [
+    "journalists",
+    "media organizations",
+    "researchers"
+  ],
+  "underdog_signal": false
 }

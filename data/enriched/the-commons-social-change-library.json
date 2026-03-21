@@ -93,5 +93,20 @@
   ],
   "pass5_at": "2026-03-10T00:44:04.067Z",
   "pass5_jina_words": 501,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "The Commons Social Change Library addresses democratic participation and citizen engagement. Free digital library of 1500+ educational resources for activists, campaigners, and social change advocates.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Directly supports organizing, mobilization, or campaign activities"
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Moderately generalizable — already international but proprietary nature may limit independent replication.",
+  "primary_users_or_beneficiaries": [
+    "activists",
+    "campaigners",
+    "community organizers",
+    "advocates",
+    "social change practitioners"
+  ],
+  "underdog_signal": true
 }

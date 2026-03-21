@@ -1,123 +1,136 @@
 {
-  "url": "https://www.campaigntracker.nl/en",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:46:48.939Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 539,
-    "homepage_has_team_page": false,
-    "homepage_has_impact_metrics": false,
-    "scraped_description": "This visualization shows how many AI-generated contents each politician, party, or actor has published. The field size corresponds to the number of identified posts. Larger fields indicate a higher use of AI by the respective party/actor.",
-    "scraped_final_url": "https://www.campaigntracker.nl/en/"
-  },
-  "collected_at": "2026-03-09T23:20:46.512Z",
-  "collected_by": "collect-enriched-script",
-  "name": "Campaign Tracker",
-  "tagline": "Platform for tracking and analyzing political campaign spending and advertising in the Netherlands",
-  "project_type": "Platform",
-  "org_type": "Nonprofit/charity",
-  "issue_area": [
-    "civic_data",
-    "advocacy_tech",
-    "media_journalism",
-    "disinformation"
-  ],
-  "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
-  ],
-  "decade_plus": false,
-  "geography": "national",
-  "countries_deployed": [
-    "Netherlands"
-  ],
-  "communities_served": [
-    "journalists",
-    "researchers",
-    "citizens",
-    "campaigners",
-    "civil society organizations"
-  ],
-  "political_units": [
-    "federal"
-  ],
-  "open_source": "partial",
-  "github_url": "https://github.com/campaigntracker/campaigntracker",
-  "github_stars": 45,
-  "last_commit_date": "2025-11-15",
-  "format": [
-    "platform",
-    "database",
-    "api"
-  ],
-  "founded_year": 2016,
-  "team_size": "small",
-  "funding_model": [
-    "grants",
-    "donations"
-  ],
-  "known_funders": [
-    "Adessium Foundation",
-    "Open Society Foundations",
-    "Dutch Ministry of Interior"
-  ],
-  "funding_verified": true,
-  "last_funding_event": "2024-06",
-  "dependency_risks": [
-    "Reliance on volunteer contributors for maintenance",
-    "Limited funding sustainability beyond grant cycles"
-  ],
-  "news_articles": [
-    "https://www.nrc.nl/nieuws/2023/campaign-tracker-transparantie",
-    "https://www.volkskrant.nl/politiek/campagnetracker-geld-politiek"
-  ],
-  "academic_citations": [
-    "Boogers, M., & Voerman, G. (2023). Digital transparency in Dutch elections. Journal of E-Democracy, 15(2), 45-62."
-  ],
-  "awards": [
-    "Transparency Award 2022 - Transparency International Netherlands"
-  ],
-  "in_civictech_guide": true,
-  "policy_outcomes": [
-    "Increased transparency requirements for political advertising in Dutch electoral law (2023)",
-    "Adoption of Campaign Tracker data by Dutch Parliament for campaign finance monitoring"
-  ],
-  "causation_strength": "correlated",
-  "outcome_methodology": "observational",
-  "replication_materials_available": true,
-  "published_performance_metrics": true,
-  "documented_limitations": [
-    "Coverage limited to major parties and campaigns",
-    "Data collection relies on public disclosures which vary in completeness",
-    "Real-time data availability constraints"
-  ],
-  "jurisdictional_scope": "Netherlands",
-  "failure_modes": [
-    "Incomplete data from smaller parties",
-    "Delays in official campaign finance reporting"
-  ],
-  "governance_model": "foundation",
-  "curation_criteria": "Tracks all registered political parties and campaigns meeting electoral thresholds; includes advertising spend, donor information, and media coverage analysis",
-  "contributor_governance": "Open contribution model with editorial review process for data submissions",
-  "disparity_tracking": true,
-  "community_ownership": "Nonprofit governance with public advisory board including journalists, academics, and civil society representatives",
-  "controversies": [
-    "2022 debate over inclusion of minor party data and potential bias in coverage selection"
-  ],
-  "political_bias_allegations": "Allegations of underrepresentation of right-wing parties in early versions (2017-2018), addressed through expanded data collection",
-  "legal_regulatory_issues": "Operates under Dutch data protection law (GDPR); compliant with campaign finance transparency regulations",
-  "elections_used_in": [
-    "2017 Dutch general election",
-    "2021 Dutch general election",
-    "2023 Dutch general election",
-    "2024 European Parliament elections"
-  ],
-  "government_partnerships": [
-    "Dutch Electoral Council (Kiesraad) - data sharing agreement",
-    "Dutch Parliament - research collaboration"
-  ],
-  "ai_involvement": "Limited - uses basic NLP for media monitoring and classification of advertising content",
-  "pass2_at": "2026-03-09T23:21:48.341Z",
-  "pass5_at": "2026-03-10T00:52:56.223Z",
-  "pass5_jina_words": 561,
-  "pass5_changes": []
+    "url": "https://www.campaigntracker.nl/en",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:46:48.939Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 539,
+        "homepage_has_team_page": false,
+        "homepage_has_impact_metrics": false,
+        "scraped_description": "This visualization shows how many AI-generated contents each politician, party, or actor has published. The field size corresponds to the number of identified posts. Larger fields indicate a higher use of AI by the respective party/actor.",
+        "scraped_final_url": "https://www.campaigntracker.nl/en/"
+    },
+    "collected_at": "2026-03-09T23:20:46.512Z",
+    "collected_by": "collect-enriched-script",
+    "name": "Campaign Tracker",
+    "tagline": "Platform for tracking and analyzing political campaign spending and advertising in the Netherlands",
+    "project_type": "Platform",
+    "org_type": "Nonprofit/charity",
+    "issue_area": [
+        "civic_data",
+        "advocacy_tech",
+        "media_journalism",
+        "disinformation"
+    ],
+    "sdg_alignment": [
+        "SDG 16 – Peace, Justice and Strong Institutions"
+    ],
+    "decade_plus": false,
+    "geography": "national",
+    "countries_deployed": [
+        "Netherlands"
+    ],
+    "communities_served": [
+        "journalists",
+        "researchers",
+        "citizens",
+        "campaigners",
+        "civil society organizations"
+    ],
+    "political_units": [
+        "federal"
+    ],
+    "open_source": "partial",
+    "github_url": "https://github.com/campaigntracker/campaigntracker",
+    "github_stars": 45,
+    "last_commit_date": "2025-11-15",
+    "format": [
+        "platform",
+        "database",
+        "api"
+    ],
+    "founded_year": 2016,
+    "team_size": "small",
+    "funding_model": [
+        "grants",
+        "donations"
+    ],
+    "known_funders": [
+        "Adessium Foundation",
+        "Open Society Foundations",
+        "Dutch Ministry of Interior"
+    ],
+    "funding_verified": true,
+    "last_funding_event": "2024-06",
+    "dependency_risks": [
+        "Reliance on volunteer contributors for maintenance",
+        "Limited funding sustainability beyond grant cycles"
+    ],
+    "news_articles": [
+        "https://www.nrc.nl/nieuws/2023/campaign-tracker-transparantie",
+        "https://www.volkskrant.nl/politiek/campagnetracker-geld-politiek"
+    ],
+    "academic_citations": [],
+    "awards": [
+        "Transparency Award 2022 - Transparency International Netherlands"
+    ],
+    "in_civictech_guide": true,
+    "policy_outcomes": [
+        "Increased transparency requirements for political advertising in Dutch electoral law (2023)",
+        "Adoption of Campaign Tracker data by Dutch Parliament for campaign finance monitoring"
+    ],
+    "causation_strength": "correlated",
+    "outcome_methodology": "observational",
+    "replication_materials_available": true,
+    "published_performance_metrics": true,
+    "documented_limitations": [
+        "Coverage limited to major parties and campaigns",
+        "Data collection relies on public disclosures which vary in completeness",
+        "Real-time data availability constraints"
+    ],
+    "jurisdictional_scope": "Netherlands",
+    "failure_modes": [
+        "Incomplete data from smaller parties",
+        "Delays in official campaign finance reporting"
+    ],
+    "governance_model": "foundation",
+    "curation_criteria": "Tracks all registered political parties and campaigns meeting electoral thresholds; includes advertising spend, donor information, and media coverage analysis",
+    "contributor_governance": "Open contribution model with editorial review process for data submissions",
+    "disparity_tracking": true,
+    "community_ownership": "Nonprofit governance with public advisory board including journalists, academics, and civil society representatives",
+    "controversies": [
+        "2022 debate over inclusion of minor party data and potential bias in coverage selection"
+    ],
+    "political_bias_allegations": "Allegations of underrepresentation of right-wing parties in early versions (2017-2018), addressed through expanded data collection",
+    "legal_regulatory_issues": "Operates under Dutch data protection law (GDPR); compliant with campaign finance transparency regulations",
+    "elections_used_in": [
+        "2017 Dutch general election",
+        "2021 Dutch general election",
+        "2023 Dutch general election",
+        "2024 European Parliament elections"
+    ],
+    "government_partnerships": [
+        "Dutch Electoral Council (Kiesraad) - data sharing agreement",
+        "Dutch Parliament - research collaboration"
+    ],
+    "ai_involvement": "Limited - uses basic NLP for media monitoring and classification of advertising content",
+    "pass2_at": "2026-03-09T23:21:48.341Z",
+    "pass5_at": "2026-03-10T00:52:56.223Z",
+    "pass5_jina_words": 561,
+    "pass5_changes": [],
+    "political_relevance_summary": "Addresses information asymmetry by improving access to structured knowledge and civic data for informed public participation.",
+    "movement_building_utility": {
+        "classification": "direct_organizer_tool",
+        "notes": "Provides direct tools for organizing, campaigning, or mobilizing civic action."
+    },
+    "systemic_issue_area": "civic data access",
+    "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Could be adapted for other national contexts with localization effort.",
+    "primary_users_or_beneficiaries": [
+        "investigative journalists",
+        "civic technology researchers",
+        "members of the public seeking government information",
+        "political and social campaigners",
+        "civil society organizations"
+    ],
+    "underdog_signal": true
 }

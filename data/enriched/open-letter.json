@@ -126,5 +126,19 @@
   ],
   "pass5_at": "2026-03-10T00:49:01.402Z",
   "pass5_jina_words": 796,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Open Letter addresses gaps in democratic participation by providing tools or platforms that enable citizens and communities to engage more directly in governance and decision-making processes.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Open Letter directly enables organizing by providing tools for collective action, campaigning, or community mobilization."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Moderate generalizability. Open Letter operates internationally but is proprietary, so replication would require licensing or rebuilding rather than direct adoption.",
+  "primary_users_or_beneficiaries": [
+    "engaged citizens and civic participants",
+    "campaigners",
+    "advocacy groups",
+    "local communities"
+  ],
+  "underdog_signal": false
 }

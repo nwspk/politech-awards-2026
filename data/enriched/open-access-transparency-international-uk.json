@@ -141,5 +141,20 @@
   "pass3_at": "2026-03-09T23:22:50.239Z",
   "_sources": [
     "openalex"
-  ]
+  ],
+  "political_relevance_summary": "Open Access – Transparency International UK addresses the civic need for government transparency and open data access, enabling citizens, journalists, and researchers to hold public institutions accountable.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Open Access – Transparency International UK amplifies civic advocacy by giving citizens and groups tools to engage in democratic processes or influence policy."
+  },
+  "systemic_issue_area": "corporate transparency and accountability",
+  "generalizability_notes": "Moderate generalizability. Open Access – Transparency International UK is open source but designed for UK-specific regulatory and institutional contexts. Adaptation to other jurisdictions would require significant localization.",
+  "primary_users_or_beneficiaries": [
+    "journalists",
+    "researchers",
+    "civil society organizations",
+    "compliance professionals",
+    "citizens in United Kingdom"
+  ],
+  "underdog_signal": true
 }

@@ -1,110 +1,120 @@
 {
-  "url": "https://civictech.guide",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:42:52.873Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 1335,
-    "homepage_has_team_page": true,
-    "homepage_has_impact_metrics": false,
-    "scraped_description": "A rich, crowdsourced collection of thousands of tech for good projects from around the world.",
-    "scraped_final_url": "https://civictech.guide/"
-  },
-  "collected_at": "2026-03-09T23:18:12.287Z",
-  "collected_by": "collect-enriched-script",
-  "name": "Civic Tech Field Guide",
-  "tagline": "The world's largest collection of projects using tech for the common good",
-  "project_type": "Database",
-  "org_type": "Nonprofit/charity",
-  "issue_area": [
-    "participatory_democracy",
-    "govtech",
-    "advocacy_tech",
-    "civic_data",
-    "media_journalism",
-    "digital_rights",
-    "emerging_tech"
-  ],
-  "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
-  ],
-  "decade_plus": false,
-  "geography": "international",
-  "countries_deployed": [
-    "Global"
-  ],
-  "communities_served": [
-    "civic tech practitioners",
-    "nonprofits",
-    "social good organizations",
-    "researchers",
-    "job seekers",
-    "international organizations"
-  ],
-  "political_units": [
-    "international"
-  ],
-  "open_source": "no",
-  "format": [
-    "database",
-    "platform",
-    "directory"
-  ],
-  "founded_year": 2014,
-  "team_size": "small",
-  "funding_model": [
-    "donations",
-    "grants"
-  ],
-  "known_funders": [
-    "Friedrich Naumann Foundation (FNF)"
-  ],
-  "funding_verified": true,
-  "last_funding_event": "2023",
-  "dependency_risks": "Reliance on volunteer contributions and grant funding; potential sustainability challenges if major funders withdraw support",
-  "news_articles": [
-    "TechCrunch coverage of civic tech landscape",
-    "Guardian articles on civic technology initiatives"
-  ],
-  "academic_citations": [
-    "Citations in civic tech and digital democracy research literature"
-  ],
-  "awards": [
-    "Recognition as leading civic tech resource"
-  ],
-  "in_civictech_guide": true,
-  "replication_materials_available": false,
-  "published_performance_metrics": {
-    "curated_entries": 12000,
-    "job_resources": 125,
-    "upcoming_events": 25,
-    "open_source_projects": 450
-  },
-  "documented_limitations": [
-    "Curation bias toward English-language and Western-focused projects",
-    "Limited representation of projects from Global South",
-    "Ongoing challenge to maintain accuracy of project information"
-  ],
-  "jurisdictional_scope": "Global",
-  "failure_modes": [
-    "Outdated project information if not regularly maintained",
-    "Potential for incomplete coverage of emerging civic tech initiatives"
-  ],
-  "governance_model": "project_of_larger_org",
-  "curation_criteria": "Carefully curated categories across tech, people, ethical tech, and more",
-  "contributor_governance": "Community contributions reviewed by core team; transparent submission process",
-  "disparity_tracking": "Tracks representation of projects from diverse geographies and communities",
-  "community_ownership": false,
-  "government_partnerships": [
-    {
-      "partner": "UNESCO",
-      "nature": "Resource consultation for youth empowerment initiatives",
-      "country": null
-    }
-  ],
-  "ai_involvement": "yes",
-  "pass2_at": "2026-03-09T23:21:23.241Z",
-  "pass5_at": "2026-03-10T00:43:37.483Z",
-  "pass5_jina_words": 259,
-  "pass5_changes": []
+    "url": "https://civictech.guide",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:42:52.873Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 1335,
+        "homepage_has_team_page": true,
+        "homepage_has_impact_metrics": false,
+        "scraped_description": "A rich, crowdsourced collection of thousands of tech for good projects from around the world.",
+        "scraped_final_url": "https://civictech.guide/"
+    },
+    "collected_at": "2026-03-09T23:18:12.287Z",
+    "collected_by": "collect-enriched-script",
+    "name": "Civic Tech Field Guide",
+    "tagline": "The world's largest collection of projects using tech for the common good",
+    "project_type": "Database",
+    "org_type": "Nonprofit/charity",
+    "issue_area": [
+        "participatory_democracy",
+        "govtech",
+        "advocacy_tech",
+        "civic_data",
+        "media_journalism",
+        "digital_rights",
+        "emerging_tech"
+    ],
+    "sdg_alignment": [
+        "SDG 16 – Peace, Justice and Strong Institutions"
+    ],
+    "decade_plus": false,
+    "geography": "international",
+    "countries_deployed": [
+        "Global"
+    ],
+    "communities_served": [
+        "civic tech practitioners",
+        "nonprofits",
+        "social good organizations",
+        "researchers",
+        "job seekers",
+        "international organizations"
+    ],
+    "political_units": [
+        "international"
+    ],
+    "open_source": "no",
+    "format": [
+        "database",
+        "platform",
+        "directory"
+    ],
+    "founded_year": 2014,
+    "team_size": "small",
+    "funding_model": [
+        "donations",
+        "grants"
+    ],
+    "known_funders": [
+        "Friedrich Naumann Foundation (FNF)"
+    ],
+    "funding_verified": true,
+    "last_funding_event": "2023",
+    "dependency_risks": "Reliance on volunteer contributions and grant funding; potential sustainability challenges if major funders withdraw support",
+    "news_articles": [],
+    "academic_citations": [],
+    "awards": [
+        "Recognition as leading civic tech resource"
+    ],
+    "in_civictech_guide": true,
+    "replication_materials_available": false,
+    "published_performance_metrics": {
+        "curated_entries": 12000,
+        "job_resources": 125,
+        "upcoming_events": 25,
+        "open_source_projects": 450
+    },
+    "documented_limitations": [
+        "Curation bias toward English-language and Western-focused projects",
+        "Limited representation of projects from Global South",
+        "Ongoing challenge to maintain accuracy of project information"
+    ],
+    "jurisdictional_scope": "Global",
+    "failure_modes": [
+        "Outdated project information if not regularly maintained",
+        "Potential for incomplete coverage of emerging civic tech initiatives"
+    ],
+    "governance_model": "project_of_larger_org",
+    "curation_criteria": "Carefully curated categories across tech, people, ethical tech, and more",
+    "contributor_governance": "Community contributions reviewed by core team; transparent submission process",
+    "disparity_tracking": "Tracks representation of projects from diverse geographies and communities",
+    "community_ownership": false,
+    "government_partnerships": [
+        {
+            "partner": "UNESCO",
+            "nature": "Resource consultation for youth empowerment initiatives",
+            "country": null
+        }
+    ],
+    "ai_involvement": "yes",
+    "pass2_at": "2026-03-09T23:21:23.241Z",
+    "pass5_at": "2026-03-10T00:43:37.483Z",
+    "pass5_jina_words": 259,
+    "pass5_changes": [],
+    "political_relevance_summary": "Addresses barriers to meaningful citizen participation in democratic decision-making by providing tools for public engagement and deliberation.",
+    "movement_building_utility": {
+        "classification": "information_resource",
+        "notes": "Serves as an information resource for civic actors, researchers, or the public."
+    },
+    "systemic_issue_area": "democratic participation access",
+    "generalizability_notes": "Already deployed across multiple jurisdictions (multiple countries), demonstrating cross-context adaptability. Methodology and approach could inform similar efforts in other jurisdictions.",
+    "primary_users_or_beneficiaries": [
+        "civic tech practitioners",
+        "nonprofits",
+        "social good organizations",
+        "civic technology researchers",
+        "job seekers"
+    ],
+    "underdog_signal": true
 }

@@ -1,87 +1,96 @@
 {
-  "url": "https://activisthandbook.org/",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:42:21.626Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 890,
-    "homepage_has_team_page": true,
-    "homepage_has_impact_metrics": true,
-    "scraped_description": "We write guides for activists. Learn how to become a social activist, plan a political campaign strategy, and start a grassroots movement.",
-    "scraped_final_url": "https://activisthandbook.org/"
-  },
-  "collected_at": "2026-03-09T23:17:57.191Z",
-  "collected_by": "collect-enriched-script",
-  "name": "Activist Handbook",
-  "tagline": "Campaigning guides for activists",
-  "project_type": "Publication",
-  "org_type": "Nonprofit/charity",
-  "issue_area": [
-    "participatory_democracy",
-    "advocacy_tech",
-    "digital_rights"
-  ],
-  "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
-  ],
-  "decade_plus": false,
-  "geography": "international",
-  "countries_deployed": [
-    "Netherlands",
-    "Belgium",
-    "Germany",
-    "United Kingdom",
-    "United States",
-    "Multiple countries"
-  ],
-  "communities_served": [
-    "activists",
-    "campaigners",
-    "nonprofit organizations",
-    "grassroots movements"
-  ],
-  "political_units": [
-    "international"
-  ],
-  "open_source": "partial",
-  "github_url": "https://github.com/activisthandbook/activisthandbook",
-  "github_stars": 287,
-  "last_commit_date": "2025-12-15",
-  "format": [
-    "platform",
-    "course",
-    "database"
-  ],
-  "founded_year": 2019,
-  "team_size": "small",
-  "funding_model": [
-    "donations",
-    "grants"
-  ],
-  "known_funders": [
-    "Shuttleworth Foundation",
-    "Mozilla Foundation",
-    "Open Society Foundations",
-    "Community donations"
-  ],
-  "funding_verified": true,
-  "last_funding_event": "2024",
-  "dependency_risks": "Relies on volunteer contributors; sustainability dependent on continued grant funding and community engagement",
-  "news_articles": [
-    "Activist Handbook launches free resource for campaigners (2019)",
-    "How activists are building knowledge commons (2021)"
-  ],
-  "academic_citations": [
-    "Cited in research on digital activism and knowledge commons"
-  ],
-  "in_civictech_guide": true,
-  "jurisdictional_scope": "International",
-  "governance_model": "Community-driven with core team oversight; open contribution model",
-  "curation_criteria": "Content reviewed by community members and core team; focus on practical, evidence-based activism strategies",
-  "contributor_governance": "open_contribution",
-  "community_ownership": true,
-  "pass2_at": "2026-03-09T23:21:23.254Z",
-  "pass5_at": "2026-03-10T00:41:05.382Z",
-  "pass5_jina_words": 617,
-  "pass5_changes": []
+    "url": "https://activisthandbook.org/",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:42:21.626Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 890,
+        "homepage_has_team_page": true,
+        "homepage_has_impact_metrics": true,
+        "scraped_description": "We write guides for activists. Learn how to become a social activist, plan a political campaign strategy, and start a grassroots movement.",
+        "scraped_final_url": "https://activisthandbook.org/"
+    },
+    "collected_at": "2026-03-09T23:17:57.191Z",
+    "collected_by": "collect-enriched-script",
+    "name": "Activist Handbook",
+    "tagline": "Campaigning guides for activists",
+    "project_type": "Publication",
+    "org_type": "Nonprofit/charity",
+    "issue_area": [
+        "participatory_democracy",
+        "advocacy_tech",
+        "digital_rights"
+    ],
+    "sdg_alignment": [
+        "SDG 16 – Peace, Justice and Strong Institutions"
+    ],
+    "decade_plus": false,
+    "geography": "international",
+    "countries_deployed": [
+        "Netherlands",
+        "Belgium",
+        "Germany",
+        "United Kingdom",
+        "United States",
+        "Multiple countries"
+    ],
+    "communities_served": [
+        "activists",
+        "campaigners",
+        "nonprofit organizations",
+        "grassroots movements"
+    ],
+    "political_units": [
+        "international"
+    ],
+    "open_source": "partial",
+    "github_url": "https://github.com/activisthandbook/activisthandbook",
+    "github_stars": 287,
+    "last_commit_date": "2025-12-15",
+    "format": [
+        "platform",
+        "course",
+        "database"
+    ],
+    "founded_year": 2019,
+    "team_size": "small",
+    "funding_model": [
+        "donations",
+        "grants"
+    ],
+    "known_funders": [
+        "Shuttleworth Foundation",
+        "Mozilla Foundation",
+        "Open Society Foundations",
+        "Community donations"
+    ],
+    "funding_verified": true,
+    "last_funding_event": "2024",
+    "dependency_risks": "Relies on volunteer contributors; sustainability dependent on continued grant funding and community engagement",
+    "news_articles": [],
+    "academic_citations": [],
+    "in_civictech_guide": true,
+    "jurisdictional_scope": "International",
+    "governance_model": "Community-driven with core team oversight; open contribution model",
+    "curation_criteria": "Content reviewed by community members and core team; focus on practical, evidence-based activism strategies",
+    "contributor_governance": "open_contribution",
+    "community_ownership": true,
+    "pass2_at": "2026-03-09T23:21:23.254Z",
+    "pass5_at": "2026-03-10T00:41:05.382Z",
+    "pass5_jina_words": 617,
+    "pass5_changes": [],
+    "political_relevance_summary": "Addresses barriers to meaningful citizen participation in democratic decision-making by providing tools for public engagement and deliberation.",
+    "movement_building_utility": {
+        "classification": "direct_organizer_tool",
+        "notes": "Provides practical resources directly usable by organizers and campaigners."
+    },
+    "systemic_issue_area": "democratic participation access",
+    "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (6 countries), demonstrating cross-context adaptability. Methodology and approach could inform similar efforts in other jurisdictions.",
+    "primary_users_or_beneficiaries": [
+        "grassroots activists and organizers",
+        "political and social campaigners",
+        "nonprofit organizations",
+        "grassroots social movements"
+    ],
+    "underdog_signal": true
 }

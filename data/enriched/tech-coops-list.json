@@ -99,5 +99,20 @@
   ],
   "pass5_at": "2026-03-10T00:53:47.573Z",
   "pass5_jina_words": 795,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Tech Coops List addresses democratic participation and citizen engagement. A curated directory and resource hub for worker-owned technology cooperatives and related information.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Curated directory of worker-owned tech cooperatives, serving as a reference and networking resource for the cooperative technology movement."
+  },
+  "systemic_issue_area": "digital rights infrastructure",
+  "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "technology workers",
+    "freelancers",
+    "cooperative enterprises",
+    "social economy organizations",
+    "grassroots groups"
+  ],
+  "underdog_signal": true
 }

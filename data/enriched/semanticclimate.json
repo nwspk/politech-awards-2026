@@ -84,5 +84,18 @@
   "pass3_at": "2026-03-09T23:23:08.047Z",
   "_sources": [
     "openalex"
-  ]
+  ],
+  "political_relevance_summary": "semanticClimate addresses civic data access and transparency. Semantic search and analysis of climate science literature.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides data, research, or educational resources for civic engagement."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions; replication materials are available.",
+  "primary_users_or_beneficiaries": [
+    "civic technology researchers",
+    "investigative journalists",
+    "climate advocates"
+  ],
+  "underdog_signal": false
 }

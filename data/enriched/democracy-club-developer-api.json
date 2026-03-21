@@ -1,118 +1,129 @@
 {
-  "url": "https://developers.democracyclub.org.uk/api/v1",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:43:18.931Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 10296,
-    "homepage_has_team_page": true,
-    "homepage_has_impact_metrics": true,
-    "scraped_description": "Example of a response when there are no upcoming ballots.",
-    "scraped_final_url": "https://developers.democracyclub.org.uk/api/v1/"
-  },
-  "collected_at": "2026-03-09T23:21:11.563Z",
-  "collected_by": "collect-enriched-script",
-  "name": "Democracy Club Developer API",
-  "tagline": "API for accessing ballots, candidates and polling stations data",
-  "project_type": "Method",
-  "org_type": "Nonprofit/charity",
-  "issue_area": [
-    "election_information",
-    "voter_access",
-    "civic_participation"
-  ],
-  "sdg_alignment": [
-    "SDG_16_peace_justice_institutions"
-  ],
-  "decade_plus": false,
-  "geography": "national",
-  "countries_deployed": [
-    "United Kingdom"
-  ],
-  "communities_served": [
-    "voters",
-    "developers",
-    "civic_tech_organizations"
-  ],
-  "political_units": [
-    "Wales",
-    "England",
-    "Scotland",
-    "Northern_Ireland"
-  ],
-  "open_source": "yes",
-  "github_url": "https://github.com/DemocracyClub/EveryElection",
-  "github_stars": 85,
-  "last_commit_date": "2025-12-15",
-  "format": [
-    "REST_API",
-    "JSON"
-  ],
-  "founded_year": 2009,
-  "team_size": "medium",
-  "funding_model": [
-    "grants",
-    "donations"
-  ],
-  "known_funders": [
-    "Electoral Commission",
-    "Omidyar Network",
-    "Google.org",
-    "Mozilla Foundation"
-  ],
-  "funding_verified": true,
-  "last_funding_event": "2024-06",
-  "dependency_risks": [
-    "Reliance on volunteer contributions for data collection",
-    "Dependency on Electoral Services Councils for official data"
-  ],
-  "news_articles": [
-    "https://www.theguardian.com/technology/2015/may/07/democracy-club-election-data",
-    "https://www.bbc.co.uk/news/technology"
-  ],
-  "academic_citations": [
-    "Ballotpedia and Democracy Club as election information sources in UK civic tech research"
-  ],
-  "awards": [
-    "Mozilla Foundation Award for Civic Tech"
-  ],
-  "in_civictech_guide": true,
-  "policy_outcomes": [
-    "Improved voter access to polling station information",
-    "Enhanced candidate information availability during elections"
-  ],
-  "causation_strength": "correlated",
-  "outcome_methodology": "observational",
-  "replication_materials_available": true,
-  "published_performance_metrics": true,
-  "documented_limitations": [
-    "Data completeness varies by local authority",
-    "Relies on volunteer data collection and verification"
-  ],
-  "jurisdictional_scope": "United Kingdom",
-  "failure_modes": [
-    "Data gaps in some local authorities",
-    "Delays in candidate data collection during election periods"
-  ],
-  "governance_model": "foundation",
-  "curation_criteria": "Community-contributed data verified against official Electoral Commission sources",
-  "contributor_governance": "Open contribution model with community review process",
-  "disparity_tracking": false,
-  "community_ownership": true,
-  "political_bias_allegations": false,
-  "elections_used_in": [
-    "2015 UK General Election",
-    "2017 UK General Election",
-    "2019 UK General Election",
-    "2024 UK General Election",
-    "Local elections 2019-2024"
-  ],
-  "government_partnerships": [
-    "Electoral_Services_Councils"
-  ],
-  "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:26.744Z",
-  "pass5_at": "2026-03-10T00:45:45.061Z",
-  "pass5_jina_words": 19,
-  "pass5_changes": []
+    "url": "https://developers.democracyclub.org.uk/api/v1",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:43:18.931Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 10296,
+        "homepage_has_team_page": true,
+        "homepage_has_impact_metrics": true,
+        "scraped_description": "Example of a response when there are no upcoming ballots.",
+        "scraped_final_url": "https://developers.democracyclub.org.uk/api/v1/"
+    },
+    "collected_at": "2026-03-09T23:21:11.563Z",
+    "collected_by": "collect-enriched-script",
+    "name": "Democracy Club Developer API",
+    "tagline": "API for accessing ballots, candidates and polling stations data",
+    "project_type": "Method",
+    "org_type": "Nonprofit/charity",
+    "issue_area": [
+        "election_information",
+        "voter_access",
+        "civic_participation"
+    ],
+    "sdg_alignment": [
+        "SDG_16_peace_justice_institutions"
+    ],
+    "decade_plus": false,
+    "geography": "national",
+    "countries_deployed": [
+        "United Kingdom"
+    ],
+    "communities_served": [
+        "voters",
+        "developers",
+        "civic_tech_organizations"
+    ],
+    "political_units": [
+        "Wales",
+        "England",
+        "Scotland",
+        "Northern_Ireland"
+    ],
+    "open_source": "yes",
+    "github_url": "https://github.com/DemocracyClub/EveryElection",
+    "github_stars": 85,
+    "last_commit_date": "2025-12-15",
+    "format": [
+        "REST_API",
+        "JSON"
+    ],
+    "founded_year": 2009,
+    "team_size": "medium",
+    "funding_model": [
+        "grants",
+        "donations"
+    ],
+    "known_funders": [
+        "Electoral Commission",
+        "Omidyar Network",
+        "Google.org",
+        "Mozilla Foundation"
+    ],
+    "funding_verified": true,
+    "last_funding_event": "2024-06",
+    "dependency_risks": [
+        "Reliance on volunteer contributions for data collection",
+        "Dependency on Electoral Services Councils for official data"
+    ],
+    "news_articles": [
+        "https://www.theguardian.com/technology/2015/may/07/democracy-club-election-data",
+        "https://www.bbc.co.uk/news/technology"
+    ],
+    "academic_citations": [],
+    "awards": [
+        "Mozilla Foundation Award for Civic Tech"
+    ],
+    "in_civictech_guide": true,
+    "policy_outcomes": [
+        "Improved voter access to polling station information",
+        "Enhanced candidate information availability during elections"
+    ],
+    "causation_strength": "correlated",
+    "outcome_methodology": "observational",
+    "replication_materials_available": true,
+    "published_performance_metrics": true,
+    "documented_limitations": [
+        "Data completeness varies by local authority",
+        "Relies on volunteer data collection and verification"
+    ],
+    "jurisdictional_scope": "United Kingdom",
+    "failure_modes": [
+        "Data gaps in some local authorities",
+        "Delays in candidate data collection during election periods"
+    ],
+    "governance_model": "foundation",
+    "curation_criteria": "Community-contributed data verified against official Electoral Commission sources",
+    "contributor_governance": "Open contribution model with community review process",
+    "disparity_tracking": false,
+    "community_ownership": true,
+    "political_bias_allegations": false,
+    "elections_used_in": [
+        "2015 UK General Election",
+        "2017 UK General Election",
+        "2019 UK General Election",
+        "2024 UK General Election",
+        "Local elections 2019-2024"
+    ],
+    "government_partnerships": [
+        "Electoral_Services_Councils"
+    ],
+    "ai_involvement": false,
+    "pass2_at": "2026-03-09T23:21:26.744Z",
+    "pass5_at": "2026-03-10T00:45:45.061Z",
+    "pass5_jina_words": 19,
+    "pass5_changes": [],
+    "political_relevance_summary": "Democracy Club Developer API addresses civic technology. API for accessing ballots, candidates and polling stations data.",
+    "movement_building_utility": {
+        "classification": "information_resource",
+        "notes": "Provides data, research, or monitoring capabilities for civic purposes."
+    },
+    "systemic_issue_area": "civic data access",
+    "generalizability_notes": "Could be adapted to other national contexts with localization. Open-source codebase facilitates replication.",
+    "primary_users_or_beneficiaries": [
+        "voters",
+        "developers",
+        "civic_tech_organizations"
+    ],
+    "underdog_signal": false
 }

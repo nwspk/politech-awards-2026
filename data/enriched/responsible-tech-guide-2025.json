@@ -93,5 +93,20 @@
   ],
   "pass5_at": "2026-03-10T00:41:50.648Z",
   "pass5_jina_words": 274,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Responsible Tech Guide 2025 addresses digital rights and online freedoms. Flagship resource providing information, inspiration, and pathways for involvement in the Responsible Tech ecosystem.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Amplifies advocacy efforts and helps citizens influence decision-makers."
+  },
+  "systemic_issue_area": "algorithmic accountability",
+  "generalizability_notes": "Already deployed across multiple jurisdictions; methodology-based approach is inherently transferable.",
+  "primary_users_or_beneficiaries": [
+    "technologists",
+    "policymakers",
+    "civic technology researchers",
+    "advocates",
+    "civic tech practitioners"
+  ],
+  "underdog_signal": false
 }

@@ -88,5 +88,17 @@
   ],
   "pass5_at": "2026-03-10T00:57:01.716Z",
   "pass5_jina_words": 755,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "MP Twitter Bios addresses making civic data accessible and actionable and enabling broader democratic participation.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Serves as an information resource: Analysis of whether UK Members of Parliament mention their political party in their Twitter biographies."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase enables replication. currently deployed in United Kingdom only, but approach could be adapted to other national contexts.",
+  "primary_users_or_beneficiaries": [
+    "researchers",
+    "journalists"
+  ],
+  "underdog_signal": true
 }

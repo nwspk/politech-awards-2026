@@ -106,5 +106,18 @@
   ],
   "pass5_at": "2026-03-10T00:46:20.021Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "UK Policy Dojo addresses civic technology. A dojo for AI agents to battle out UK policy ideas through adversarial review.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides technical infrastructure for civic technology"
+  },
+  "systemic_issue_area": "civic technology and participation",
+  "generalizability_notes": "Good generalizability potential — open source allows adaptation to other jurisdictions, though localization would be needed.",
+  "primary_users_or_beneficiaries": [
+    "policy researchers",
+    "AI developers",
+    "civic technologists"
+  ],
+  "underdog_signal": true
 }

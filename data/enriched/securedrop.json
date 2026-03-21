@@ -1,120 +1,125 @@
 {
-  "url": "https://securedrop.org",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:46:13.023Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 497,
-    "homepage_has_team_page": false,
-    "homepage_has_impact_metrics": false,
-    "scraped_description": "SecureDrop is an open-source whistleblower submission system that media organizations can install to securely accept documents from anonymous sources. It was originally coded by the late Aaron Swartz and is now managed by Freedom of the Press Foundation.",
-    "scraped_final_url": "https://securedrop.org/"
-  },
-  "collected_at": "2026-03-09T23:17:29.598Z",
-  "collected_by": "collect-enriched-script",
-  "name": "SecureDrop",
-  "tagline": "Open source whistleblower submission system for secure anonymous document sharing",
-  "project_type": "Tool/Platform",
-  "org_type": "Nonprofit/charity",
-  "issue_area": [
-    "media_journalism",
-    "digital_rights",
-    "cybersecurity"
-  ],
-  "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
-  ],
-  "decade_plus": true,
-  "geography": "international",
-  "countries_deployed": [
-    "United States",
-    "United Kingdom",
-    "France",
-    "Germany",
-    "Greece",
-    "Canada"
-  ],
-  "communities_served": [
-    "journalists",
-    "media organizations",
-    "NGOs",
-    "whistleblowers"
-  ],
-  "political_units": [
-    "international"
-  ],
-  "open_source": "yes",
-  "github_url": "https://github.com/freedomofpress/securedrop",
-  "github_stars": 9400,
-  "last_commit_date": "2026-03-08",
-  "format": [
-    "platform",
-    "app"
-  ],
-  "founded_year": 2013,
-  "team_size": "small",
-  "funding_model": [
-    "grants",
-    "donations"
-  ],
-  "known_funders": [
-    "Freedom of the Press Foundation"
-  ],
-  "funding_verified": true,
-  "last_funding_event": "2025",
-  "dependency_risks": [
-    "Tor Browser dependency for anonymity",
-    "Reliance on organizational server infrastructure"
-  ],
-  "news_articles": [
-    "The Guardian - SecureDrop used by major news organizations",
-    "Reuters - Whistleblower platform adoption",
-    "Wired - Security analysis of SecureDrop",
-    "TechCrunch - Open source security tools"
-  ],
-  "academic_citations": [
-    "Whistleblower protection mechanisms in digital journalism",
-    "Anonymous communication systems evaluation",
-    "Secure document submission platforms"
-  ],
-  "awards": [
-    "Freedom of the Press Foundation recognition"
-  ],
-  "in_civictech_guide": true,
-  "wikipedia_page": "https://en.wikipedia.org/wiki/SecureDrop",
-  "policy_outcomes": [
-    "Adoption by major news organizations for source protection",
-    "Influence on media industry standards for whistleblower protection"
-  ],
-  "causation_strength": "correlated",
-  "outcome_methodology": "observational",
-  "replication_materials_available": true,
-  "published_performance_metrics": true,
-  "documented_limitations": [
-    "Requires users to understand Tor Browser and anonymity practices",
-    "Dependent on individual organizations to maintain secure installations",
-    "No IP logging means limited ability to detect abuse"
-  ],
-  "jurisdictional_scope": "International",
-  "failure_modes": [
-    "Misconfiguration by installing organizations",
-    "User failure to properly use Tor Browser",
-    "Server compromise at hosting organization"
-  ],
-  "governance_model": "project_of_larger_org",
-  "curation_criteria": "Open source contribution guidelines; code review process managed by Freedom of the Press Foundation",
-  "contributor_governance": "Merit-based; contributions reviewed by core team",
-  "disparity_tracking": false,
-  "community_ownership": "partial",
-  "controversies": [
-    "Debate over effectiveness of anonymity protections",
-    "Concerns about state-level surveillance capabilities"
-  ],
-  "political_bias_allegations": false,
-  "legal_regulatory_issues": "Potential legal challenges in authoritarian jurisdictions; legal support provided by Freedom of the Press Foundation",
-  "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:41.978Z",
-  "pass5_at": "2026-03-10T00:51:30.208Z",
-  "pass5_jina_words": 485,
-  "pass5_changes": []
+    "url": "https://securedrop.org",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:46:13.023Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 497,
+        "homepage_has_team_page": false,
+        "homepage_has_impact_metrics": false,
+        "scraped_description": "SecureDrop is an open-source whistleblower submission system that media organizations can install to securely accept documents from anonymous sources. It was originally coded by the late Aaron Swartz and is now managed by Freedom of the Press Foundation.",
+        "scraped_final_url": "https://securedrop.org/"
+    },
+    "collected_at": "2026-03-09T23:17:29.598Z",
+    "collected_by": "collect-enriched-script",
+    "name": "SecureDrop",
+    "tagline": "Open source whistleblower submission system for secure anonymous document sharing",
+    "project_type": "Tool/Platform",
+    "org_type": "Nonprofit/charity",
+    "issue_area": [
+        "media_journalism",
+        "digital_rights",
+        "cybersecurity"
+    ],
+    "sdg_alignment": [
+        "SDG 16 – Peace, Justice and Strong Institutions"
+    ],
+    "decade_plus": true,
+    "geography": "international",
+    "countries_deployed": [
+        "United States",
+        "United Kingdom",
+        "France",
+        "Germany",
+        "Greece",
+        "Canada"
+    ],
+    "communities_served": [
+        "journalists",
+        "media organizations",
+        "NGOs",
+        "whistleblowers"
+    ],
+    "political_units": [
+        "international"
+    ],
+    "open_source": "yes",
+    "github_url": "https://github.com/freedomofpress/securedrop",
+    "github_stars": 9400,
+    "last_commit_date": "2026-03-08",
+    "format": [
+        "platform",
+        "app"
+    ],
+    "founded_year": 2013,
+    "team_size": "small",
+    "funding_model": [
+        "grants",
+        "donations"
+    ],
+    "known_funders": [
+        "Freedom of the Press Foundation"
+    ],
+    "funding_verified": true,
+    "last_funding_event": "2025",
+    "dependency_risks": [
+        "Tor Browser dependency for anonymity",
+        "Reliance on organizational server infrastructure"
+    ],
+    "news_articles": [],
+    "academic_citations": [],
+    "awards": [
+        "Freedom of the Press Foundation recognition"
+    ],
+    "in_civictech_guide": true,
+    "wikipedia_page": "https://en.wikipedia.org/wiki/SecureDrop",
+    "policy_outcomes": [
+        "Adoption by major news organizations for source protection",
+        "Influence on media industry standards for whistleblower protection"
+    ],
+    "causation_strength": "correlated",
+    "outcome_methodology": "observational",
+    "replication_materials_available": true,
+    "published_performance_metrics": true,
+    "documented_limitations": [
+        "Requires users to understand Tor Browser and anonymity practices",
+        "Dependent on individual organizations to maintain secure installations",
+        "No IP logging means limited ability to detect abuse"
+    ],
+    "jurisdictional_scope": "International",
+    "failure_modes": [
+        "Misconfiguration by installing organizations",
+        "User failure to properly use Tor Browser",
+        "Server compromise at hosting organization"
+    ],
+    "governance_model": "project_of_larger_org",
+    "curation_criteria": "Open source contribution guidelines; code review process managed by Freedom of the Press Foundation",
+    "contributor_governance": "Merit-based; contributions reviewed by core team",
+    "disparity_tracking": false,
+    "community_ownership": "partial",
+    "controversies": [
+        "Debate over effectiveness of anonymity protections",
+        "Concerns about state-level surveillance capabilities"
+    ],
+    "political_bias_allegations": false,
+    "legal_regulatory_issues": "Potential legal challenges in authoritarian jurisdictions; legal support provided by Freedom of the Press Foundation",
+    "ai_involvement": false,
+    "pass2_at": "2026-03-09T23:21:41.978Z",
+    "pass5_at": "2026-03-10T00:51:30.208Z",
+    "pass5_jina_words": 485,
+    "pass5_changes": [],
+    "political_relevance_summary": "Addresses government transparency and press freedom by providing a secure, anonymous whistleblower submission system used by major news organizations worldwide.",
+    "movement_building_utility": {
+        "classification": "infrastructure",
+        "notes": "Provides technical infrastructure supporting civic technology ecosystem."
+    },
+    "systemic_issue_area": "government transparency",
+    "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions; replication materials are available.",
+    "primary_users_or_beneficiaries": [
+        "investigative journalists",
+        "media organizations",
+        "ngos",
+        "whistleblowers"
+    ],
+    "underdog_signal": true
 }

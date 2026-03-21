@@ -84,5 +84,18 @@
   },
   "pass5_at": "2026-03-10T00:45:51.248Z",
   "pass5_jina_words": 41,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "docs.plus addresses democratic participation and citizen engagement. Free, open-source collaborative documents for organizations.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Directly supports organizing, campaigning, or advocacy actions."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Open-source codebase facilitates replication.",
+  "primary_users_or_beneficiaries": [
+    "organizations",
+    "civic groups",
+    "collaborative teams"
+  ],
+  "underdog_signal": true
 }

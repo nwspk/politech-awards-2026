@@ -88,12 +88,6 @@
       "doi": "https://doi.org/10.1016/j.buildenv.2015.03.030"
     },
     {
-      "title": "Analysis of retrofit air source heat pump performance: Results from detailed simulations and comparison to field trial data",
-      "year": 2010,
-      "cited_by": 146,
-      "doi": "https://doi.org/10.1016/j.enbuild.2010.09.018"
-    },
-    {
       "title": "Measuring fuel poverty in France: Which households are the most fuel vulnerable?",
       "year": 2015,
       "cited_by": 336,
@@ -150,5 +144,19 @@
   ],
   "pass5_at": "2026-03-10T00:46:26.019Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "UK Housing Data Standards addresses housing equity. Sector-developed data standards for UK social housing to improve data governance, performance, and regulatory reporting.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Amplifies civic voice or facilitates contact with decision-makers"
+  },
+  "systemic_issue_area": "housing equity",
+  "generalizability_notes": "Moderate generalizability — partially open source; core approach could be replicated but may require significant adaptation.",
+  "primary_users_or_beneficiaries": [
+    "social housing providers",
+    "housing associations",
+    "local authorities",
+    "housing sector technology vendors"
+  ],
+  "underdog_signal": false
 }

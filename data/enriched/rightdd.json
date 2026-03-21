@@ -86,5 +86,19 @@
   ],
   "pass5_at": "2026-03-10T00:56:25.463Z",
   "pass5_jina_words": 416,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "RightDD addresses civic data access and transparency. Human rights risk management technology for ESG due diligence and supply chain compliance.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Amplifies advocacy efforts and helps citizens influence decision-makers."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Already deployed across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "corporations",
+    "supply chain managers",
+    "compliance officers",
+    "esg professionals"
+  ],
+  "underdog_signal": true
 }

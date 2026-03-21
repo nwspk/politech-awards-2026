@@ -123,5 +123,19 @@
   ],
   "pass5_at": "2026-03-10T00:46:19.107Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses challenges in civic data access by serving data scientists, researchers, government technologists.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Serves as an information resource for civic actors, researchers, or the public."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Could be adapted for other national contexts with localization effort. Methodology and approach could inform similar efforts in other jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "data scientists",
+    "civic technology researchers",
+    "government technologists",
+    "civil servants"
+  ],
+  "underdog_signal": true
 }

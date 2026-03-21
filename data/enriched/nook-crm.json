@@ -93,5 +93,18 @@
   ],
   "pass5_at": "2026-03-10T01:02:11.847Z",
   "pass5_jina_words": 674,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Nook CRM addresses barriers to civic data access and transparency, making public or institutional data more available for accountability, research, and informed civic engagement.",
+  "movement_building_utility": {
+    "classification": "indirect_or_none",
+    "notes": "Nook CRM's primary function is not directly oriented toward civic organizing, advocacy, or movement infrastructure."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Limited generalizability. Nook CRM is proprietary and designed for UK-specific contexts. The concept could inspire similar efforts elsewhere but direct replication is not feasible.",
+  "primary_users_or_beneficiaries": [
+    "community energy organizations",
+    "energy advisors",
+    "energy advice services"
+  ],
+  "underdog_signal": false
 }

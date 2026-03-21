@@ -1,111 +1,121 @@
 {
-  "url": "https://arxiv.org",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:42:36.638Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 981,
-    "homepage_has_team_page": true,
-    "homepage_has_impact_metrics": true,
-    "scraped_description": "arXiv is a free distribution service and an open-access archive for nearly 2.4 million\n      scholarly articles in the fields of physics, mathematics, computer science, quantitative biology, quantitative finance, statistics, electrical engineering and systems science, and economics.\n      Materials on this site are not peer-reviewed by arXiv.",
-    "scraped_final_url": "https://arxiv.org/"
-  },
-  "collected_at": "2026-03-09T23:18:11.786Z",
-  "collected_by": "collect-enriched-script",
-  "name": "arXiv",
-  "tagline": "Free distribution service and open-access archive for scholarly articles in physics, mathematics, computer science, and related fields",
-  "project_type": "Database",
-  "org_type": "Academic/research",
-  "issue_area": [
-    "civic_data",
-    "digital_rights"
-  ],
-  "sdg_alignment": [
-    "SDG 4 – Quality Education",
-    "SDG 16 – Peace, Justice and Strong Institutions"
-  ],
-  "decade_plus": true,
-  "geography": "international",
-  "countries_deployed": [
-    "United States",
-    "Global"
-  ],
-  "communities_served": [
-    "researchers",
-    "academics",
-    "scientists",
-    "students"
-  ],
-  "political_units": [
-    "international"
-  ],
-  "open_source": "partial",
-  "github_url": "https://github.com/arXiv/arxiv-api",
-  "github_stars": 1200,
-  "last_commit_date": "2025-12-15",
-  "format": [
-    "database",
-    "api",
-    "platform"
-  ],
-  "founded_year": 1991,
-  "team_size": "medium",
-  "funding_model": [
-    "grants",
-    "donations",
-    "public_funding"
-  ],
-  "known_funders": [
-    "Simons Foundation",
-    "Member institutions"
-  ],
-  "funding_verified": true,
-  "last_funding_event": "2024 Simons Foundation grant renewal",
-  "dependency_risks": [
-    "Reliance on institutional support and donations",
-    "Dependency on volunteer moderators"
-  ],
-  "news_articles": [
-    "https://www.nature.com/articles/d41586-024-00001-z",
-    "https://www.theguardian.com/science/2023/arxiv-open-access",
-    "https://www.wired.com/story/arxiv-physics-preprints/"
-  ],
-  "academic_citations": [
-    "Ginsparg, P. (1996). 'Winners and losers in the global research village.' In The Proceedings of the International Conference on High Energy Physics.",
-    "Harnad, S. (2005). 'Fast-Forward on the Green Road to Open Access.' Ariadne, 42.",
-    "Larivière, V., Haustein, S., & Mongeon, P. (2015). 'The oligopoly of academic publishing in the digital era.' PLOS ONE, 10(6)."
-  ],
-  "awards": [
-    "Recognized as foundational open access infrastructure by UNESCO",
-    "Multiple citations in digital scholarship literature"
-  ],
-  "in_civictech_guide": false,
-  "wikipedia_page": "https://en.wikipedia.org/wiki/ArXiv",
-  "replication_materials_available": true,
-  "published_performance_metrics": "arXiv publishes annual statistics on submissions, downloads, and user engagement",
-  "documented_limitations": [
-    "Materials on site are not peer-reviewed by arXiv",
-    "Moderation relies on community standards rather than formal peer review"
-  ],
-  "jurisdictional_scope": "International",
-  "failure_modes": [
-    "Occasional moderation delays due to volunteer-dependent system",
-    "Spam and low-quality submissions in some subject areas"
-  ],
-  "governance_model": "project_of_larger_org",
-  "curation_criteria": "Submissions must be original research or significant revisions; moderation based on arXiv policies and community standards; subject-specific advisory boards review policies",
-  "contributor_governance": "Community-driven moderation with volunteer moderators; advisory boards for different subject areas; Cornell University oversight as host institution",
-  "community_ownership": "Partial - hosted by Cornell University with community input through advisory boards; not community-owned but community-governed in moderation",
-  "controversies": [
-    "Debates over moderation transparency and appeal processes",
-    "Discussions about representation of non-English language research"
-  ],
-  "government_partnerships": [
-    "Cornell University (host institution)"
-  ],
-  "ai_involvement": "arXiv uses machine learning for paper classification and recommendation systems; AI-assisted moderation tools under development",
-  "pass2_at": "2026-03-09T23:21:25.763Z",
-  "pass5_at": "2026-03-10T00:42:02.256Z",
-  "pass5_jina_words": 278,
-  "pass5_changes": []
+    "url": "https://arxiv.org",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:42:36.638Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 981,
+        "homepage_has_team_page": true,
+        "homepage_has_impact_metrics": true,
+        "scraped_description": "arXiv is a free distribution service and an open-access archive for nearly 2.4 million\n      scholarly articles in the fields of physics, mathematics, computer science, quantitative biology, quantitative finance, statistics, electrical engineering and systems science, and economics.\n      Materials on this site are not peer-reviewed by arXiv.",
+        "scraped_final_url": "https://arxiv.org/"
+    },
+    "collected_at": "2026-03-09T23:18:11.786Z",
+    "collected_by": "collect-enriched-script",
+    "name": "arXiv",
+    "tagline": "Free distribution service and open-access archive for scholarly articles in physics, mathematics, computer science, and related fields",
+    "project_type": "Database",
+    "org_type": "Academic/research",
+    "issue_area": [
+        "civic_data",
+        "digital_rights"
+    ],
+    "sdg_alignment": [
+        "SDG 4 – Quality Education",
+        "SDG 16 – Peace, Justice and Strong Institutions"
+    ],
+    "decade_plus": true,
+    "geography": "international",
+    "countries_deployed": [
+        "United States",
+        "Global"
+    ],
+    "communities_served": [
+        "researchers",
+        "academics",
+        "scientists",
+        "students"
+    ],
+    "political_units": [
+        "international"
+    ],
+    "open_source": "partial",
+    "github_url": "https://github.com/arXiv/arxiv-api",
+    "github_stars": 1200,
+    "last_commit_date": "2025-12-15",
+    "format": [
+        "database",
+        "api",
+        "platform"
+    ],
+    "founded_year": 1991,
+    "team_size": "medium",
+    "funding_model": [
+        "grants",
+        "donations",
+        "public_funding"
+    ],
+    "known_funders": [
+        "Simons Foundation",
+        "Member institutions"
+    ],
+    "funding_verified": true,
+    "last_funding_event": "2024 Simons Foundation grant renewal",
+    "dependency_risks": [
+        "Reliance on institutional support and donations",
+        "Dependency on volunteer moderators"
+    ],
+    "news_articles": [
+        "https://www.nature.com/articles/d41586-024-00001-z",
+        "https://www.theguardian.com/science/2023/arxiv-open-access",
+        "https://www.wired.com/story/arxiv-physics-preprints/"
+    ],
+    "academic_citations": [],
+    "awards": [
+        "Recognized as foundational open access infrastructure by UNESCO",
+        "Multiple citations in digital scholarship literature"
+    ],
+    "in_civictech_guide": false,
+    "wikipedia_page": "https://en.wikipedia.org/wiki/ArXiv",
+    "replication_materials_available": true,
+    "published_performance_metrics": "arXiv publishes annual statistics on submissions, downloads, and user engagement",
+    "documented_limitations": [
+        "Materials on site are not peer-reviewed by arXiv",
+        "Moderation relies on community standards rather than formal peer review"
+    ],
+    "jurisdictional_scope": "International",
+    "failure_modes": [
+        "Occasional moderation delays due to volunteer-dependent system",
+        "Spam and low-quality submissions in some subject areas"
+    ],
+    "governance_model": "project_of_larger_org",
+    "curation_criteria": "Submissions must be original research or significant revisions; moderation based on arXiv policies and community standards; subject-specific advisory boards review policies",
+    "contributor_governance": "Community-driven moderation with volunteer moderators; advisory boards for different subject areas; Cornell University oversight as host institution",
+    "community_ownership": "Partial - hosted by Cornell University with community input through advisory boards; not community-owned but community-governed in moderation",
+    "controversies": [
+        "Debates over moderation transparency and appeal processes",
+        "Discussions about representation of non-English language research"
+    ],
+    "government_partnerships": [
+        "Cornell University (host institution)"
+    ],
+    "ai_involvement": "arXiv uses machine learning for paper classification and recommendation systems; AI-assisted moderation tools under development",
+    "pass2_at": "2026-03-09T23:21:25.763Z",
+    "pass5_at": "2026-03-10T00:42:02.256Z",
+    "pass5_jina_words": 278,
+    "pass5_changes": [],
+    "political_relevance_summary": "Addresses threats to digital autonomy and privacy rights that affect civic participation and civil liberties.",
+    "movement_building_utility": {
+        "classification": "information_resource",
+        "notes": "Serves as an information resource for civic actors, researchers, or the public."
+    },
+    "systemic_issue_area": "civic data access",
+    "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (2 countries), demonstrating cross-context adaptability. Methodology and approach could inform similar efforts in other jurisdictions.",
+    "primary_users_or_beneficiaries": [
+        "civic technology researchers",
+        "academics",
+        "scientists",
+        "students and early-career researchers"
+    ],
+    "underdog_signal": false
 }

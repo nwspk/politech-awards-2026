@@ -1,168 +1,175 @@
 {
-  "url": "https://www.ushahidi.com",
-  "scraped": {
-    "homepage_last_scraped": "2026-02-09T12:47:41.742Z",
-    "homepage_http_status": 200,
-    "dead_link": false,
-    "homepage_word_count": 490,
-    "homepage_has_team_page": true,
-    "homepage_has_impact_metrics": true,
-    "scraped_description": "Ushahidi is an open source software application which utilises user-generated reports to collate and map data.",
-    "scraped_final_url": "https://www.ushahidi.com/"
-  },
-  "collected_at": "2026-03-09T23:21:01.719Z",
-  "collected_by": "collect-enriched-script",
-  "name": "Ushahidi",
-  "tagline": "Crowdsourcing Solutions to Empower Communities",
-  "project_type": "Platform",
-  "org_type": "Nonprofit/charity",
-  "issue_area": [
-    "participatory_democracy",
-    "civic_data",
-    "advocacy_tech",
-    "govtech"
-  ],
-  "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions",
-    "SDG 13 – Climate Action"
-  ],
-  "decade_plus": true,
-  "geography": "international",
-  "countries_deployed": [
-    "Kenya",
-    "Uganda",
-    "South Sudan",
-    "Nigeria",
-    "Mexico",
-    "India",
-    "Philippines",
-    "Haiti",
-    "United States",
-    "Multiple African and Asian countries"
-  ],
-  "communities_served": [
-    "citizens",
-    "community groups",
-    "governments",
-    "activists",
-    "organizations",
-    "journalists"
-  ],
-  "political_units": [
-    "local",
-    "national",
-    "international"
-  ],
-  "open_source": "partial",
-  "github_url": "https://github.com/ushahidi/platform",
-  "github_stars": 3200,
-  "last_commit_date": "2024-12-15",
-  "founded_year": 2008,
-  "team_size": "medium",
-  "funding_model": [
-    "grants",
-    "donations"
-  ],
-  "known_funders": [
-    "MacKenzie Scott",
-    "Stefan Thomas (Interledger Foundation)",
-    "Ford Foundation",
-    "Omidyar Network",
-    "Google.org",
-    "World Bank"
-  ],
-  "funding_verified": true,
-  "last_funding_event": "2023",
-  "dependency_risks": "Reliance on cloud infrastructure providers; dependency on volunteer contributors for open-source components; funding concentration among major philanthropic foundations",
-  "news_articles": [
-    "Guardian: Ushahidi platform used for election monitoring in Kenya",
-    "Reuters: Crowdsourcing platform tracks human rights abuses",
-    "TechCrunch: Ushahidi expands crisis response capabilities",
-    "Wired: How Ushahidi became a global tool for activism"
-  ],
-  "academic_citations": [
-    "Meier, P. (2015). Digital Humanitarians: How Big Data is Changing the Face of Humanitarian Response",
-    "Starbird, K., & Palen, L. (2011). Voluntweeters: Self-organizing by Digital Volunteers During Mass Convergence Disasters",
-    "Burns, R. (2014). Rethinking big data in digital humanitarianism: practices, epistemologies, and social relations"
-  ],
-  "awards": [
-    "Webby Award for Best Activism Website",
-    "TechAmerica Award",
-    "Named one of the 50 Best Websites by TIME Magazine"
-  ],
-  "in_civictech_guide": true,
-  "wikipedia_page": "https://en.wikipedia.org/wiki/Ushahidi",
-  "policy_outcomes": [
-    {
-      "description": "Uchaguzi Platform used for election monitoring and governance accountability",
-      "link": "https://www.ushahidi.com/case-studies",
-      "year": 2007
+    "url": "https://www.ushahidi.com",
+    "scraped": {
+        "homepage_last_scraped": "2026-02-09T12:47:41.742Z",
+        "homepage_http_status": 200,
+        "dead_link": false,
+        "homepage_word_count": 490,
+        "homepage_has_team_page": true,
+        "homepage_has_impact_metrics": true,
+        "scraped_description": "Ushahidi is an open source software application which utilises user-generated reports to collate and map data.",
+        "scraped_final_url": "https://www.ushahidi.com/"
     },
-    {
-      "description": "Crisis Preparedness Platform supporting humanitarian and disaster relief",
-      "link": "https://www.ushahidi.com/case-studies",
-      "year": 2010
+    "collected_at": "2026-03-09T23:21:01.719Z",
+    "collected_by": "collect-enriched-script",
+    "name": "Ushahidi",
+    "tagline": "Crowdsourcing Solutions to Empower Communities",
+    "project_type": "Platform",
+    "org_type": "Nonprofit/charity",
+    "issue_area": [
+        "participatory_democracy",
+        "civic_data",
+        "advocacy_tech",
+        "govtech"
+    ],
+    "sdg_alignment": [
+        "SDG 16 – Peace, Justice and Strong Institutions",
+        "SDG 13 – Climate Action"
+    ],
+    "decade_plus": true,
+    "geography": "international",
+    "countries_deployed": [
+        "Kenya",
+        "Uganda",
+        "South Sudan",
+        "Nigeria",
+        "Mexico",
+        "India",
+        "Philippines",
+        "Haiti",
+        "United States",
+        "Multiple African and Asian countries"
+    ],
+    "communities_served": [
+        "citizens",
+        "community groups",
+        "governments",
+        "activists",
+        "organizations",
+        "journalists"
+    ],
+    "political_units": [
+        "local",
+        "national",
+        "international"
+    ],
+    "open_source": "partial",
+    "github_url": "https://github.com/ushahidi/platform",
+    "github_stars": 3200,
+    "last_commit_date": "2024-12-15",
+    "founded_year": 2008,
+    "team_size": "medium",
+    "funding_model": [
+        "grants",
+        "donations"
+    ],
+    "known_funders": [
+        "MacKenzie Scott",
+        "Stefan Thomas (Interledger Foundation)",
+        "Ford Foundation",
+        "Omidyar Network",
+        "Google.org",
+        "World Bank"
+    ],
+    "funding_verified": true,
+    "last_funding_event": "2023",
+    "dependency_risks": "Reliance on cloud infrastructure providers; dependency on volunteer contributors for open-source components; funding concentration among major philanthropic foundations",
+    "news_articles": [],
+    "academic_citations": [],
+    "awards": [
+        "Webby Award for Best Activism Website",
+        "TechAmerica Award",
+        "Named one of the 50 Best Websites by TIME Magazine"
+    ],
+    "in_civictech_guide": true,
+    "wikipedia_page": "https://en.wikipedia.org/wiki/Ushahidi",
+    "policy_outcomes": [
+        {
+            "description": "Uchaguzi Platform used for election monitoring and governance accountability",
+            "link": "https://www.ushahidi.com/case-studies",
+            "year": 2007
+        },
+        {
+            "description": "Crisis Preparedness Platform supporting humanitarian and disaster relief",
+            "link": "https://www.ushahidi.com/case-studies",
+            "year": 2010
+        },
+        {
+            "description": "Human rights protection during periods of violence and discrimination",
+            "link": "https://www.ushahidi.com/case-studies",
+            "year": 2008
+        }
+    ],
+    "causation_strength": "anecdotal",
+    "outcome_methodology": "Case study documentation; user testimonials; deployment tracking; post-incident analysis of crowdsourced data accuracy",
+    "replication_materials_available": true,
+    "published_performance_metrics": {
+        "deployments": 200000,
+        "posts_testimonials": 50000,
+        "people_reached": 25000000,
+        "cost_per_impact": "$1.00"
     },
-    {
-      "description": "Human rights protection during periods of violence and discrimination",
-      "link": "https://www.ushahidi.com/case-studies",
-      "year": 2008
-    }
-  ],
-  "causation_strength": "anecdotal",
-  "outcome_methodology": "Case study documentation; user testimonials; deployment tracking; post-incident analysis of crowdsourced data accuracy",
-  "replication_materials_available": true,
-  "published_performance_metrics": {
-    "deployments": 200000,
-    "posts_testimonials": 50000,
-    "people_reached": 25000000,
-    "cost_per_impact": "$1.00"
-  },
-  "documented_limitations": [
-    "Data quality varies by deployment and user base",
-    "Digital divide limits participation in regions with low internet access",
-    "Verification of crowdsourced information requires manual review",
-    "Platform effectiveness depends on critical mass of users"
-  ],
-  "jurisdictional_scope": "Global; operates across multiple legal jurisdictions with varying data protection and privacy regulations",
-  "failure_modes": [
-    "Misinformation and false reports in crowdsourced data",
-    "Low adoption in areas with limited digital literacy",
-    "Sustainability challenges in low-resource settings",
-    "Potential for platform misuse by bad actors"
-  ],
-  "governance_model": "foundation",
-  "curation_criteria": "Community-driven with moderation guidelines; verification protocols for crisis deployments; open-source contribution standards documented in GitHub repositories",
-  "contributor_governance": "Open-source contribution model with community review process; foundation board oversight; documented contribution guidelines",
-  "disparity_tracking": "Efforts to track geographic and demographic reach; focus on underserved communities in Global South; accessibility features for diverse user populations",
-  "community_ownership": "Community-driven platform with user-generated content; open-source model enabling local customization; partnerships with local organizations",
-  "controversies": [
-    "Concerns about data privacy in crisis situations",
-    "Questions about accuracy of crowdsourced information during emergencies"
-  ],
-  "legal_regulatory_issues": "Data protection compliance challenges across multiple jurisdictions; GDPR compliance for European deployments",
-  "elections_used_in": [
-    {
-      "election": "Kenyan elections",
-      "role": "Uchaguzi Platform for election monitoring"
+    "documented_limitations": [
+        "Data quality varies by deployment and user base",
+        "Digital divide limits participation in regions with low internet access",
+        "Verification of crowdsourced information requires manual review",
+        "Platform effectiveness depends on critical mass of users"
+    ],
+    "jurisdictional_scope": "Global; operates across multiple legal jurisdictions with varying data protection and privacy regulations",
+    "failure_modes": [
+        "Misinformation and false reports in crowdsourced data",
+        "Low adoption in areas with limited digital literacy",
+        "Sustainability challenges in low-resource settings",
+        "Potential for platform misuse by bad actors"
+    ],
+    "governance_model": "foundation",
+    "curation_criteria": "Community-driven with moderation guidelines; verification protocols for crisis deployments; open-source contribution standards documented in GitHub repositories",
+    "contributor_governance": "Open-source contribution model with community review process; foundation board oversight; documented contribution guidelines",
+    "disparity_tracking": "Efforts to track geographic and demographic reach; focus on underserved communities in Global South; accessibility features for diverse user populations",
+    "community_ownership": "Community-driven platform with user-generated content; open-source model enabling local customization; partnerships with local organizations",
+    "controversies": [
+        "Concerns about data privacy in crisis situations",
+        "Questions about accuracy of crowdsourced information during emergencies"
+    ],
+    "legal_regulatory_issues": "Data protection compliance challenges across multiple jurisdictions; GDPR compliance for European deployments",
+    "elections_used_in": [
+        {
+            "election": "Kenyan elections",
+            "role": "Uchaguzi Platform for election monitoring"
+        },
+        {
+            "election": "Indian elections",
+            "role": "Crowdsourced election monitoring and reporting"
+        },
+        {
+            "election": "Mexican elections",
+            "role": "Election observation and violence tracking"
+        }
+    ],
+    "government_partnerships": [
+        "Kenyan government (election monitoring)",
+        "Various local government agencies for crisis response",
+        "International organizations (UN, World Bank)"
+    ],
+    "ai_involvement": "Machine learning for data classification and verification; natural language processing for report analysis; automated spam detection",
+    "pass2_at": "2026-03-09T23:21:56.441Z",
+    "pass5_at": "2026-03-10T00:57:44.518Z",
+    "pass5_jina_words": 667,
+    "pass5_changes": [],
+    "political_relevance_summary": "Ushahidi addresses democratic participation and citizen engagement. Crowdsourcing Solutions to Empower Communities.",
+    "movement_building_utility": {
+        "classification": "advocacy_amplifier",
+        "notes": "Amplifies civic voice or facilitates contact with decision-makers"
     },
-    {
-      "election": "Indian elections",
-      "role": "Crowdsourced election monitoring and reporting"
-    },
-    {
-      "election": "Mexican elections",
-      "role": "Election observation and violence tracking"
-    }
-  ],
-  "government_partnerships": [
-    "Kenyan government (election monitoring)",
-    "Various local government agencies for crisis response",
-    "International organizations (UN, World Bank)"
-  ],
-  "ai_involvement": "Machine learning for data classification and verification; natural language processing for report analysis; automated spam detection",
-  "pass2_at": "2026-03-09T23:21:56.441Z",
-  "pass5_at": "2026-03-10T00:57:44.518Z",
-  "pass5_jina_words": 667,
-  "pass5_changes": []
+    "systemic_issue_area": "democratic participation access",
+    "generalizability_notes": "Highly generalizable — already deployed internationally and open source, facilitating adoption in new contexts.",
+    "primary_users_or_beneficiaries": [
+        "citizens",
+        "community groups",
+        "governments",
+        "activists",
+        "organizations",
+        "journalists"
+    ],
+    "underdog_signal": false
 }

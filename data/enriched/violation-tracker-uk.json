@@ -89,5 +89,20 @@
   ],
   "pass5_at": "2026-03-10T01:00:22.593Z",
   "pass5_jina_words": 451,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Violation Tracker UK addresses civic data access and transparency. Database tracking corporate violations and enforcement actions in the United Kingdom.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Directly supports organizing, mobilization, or campaign activities"
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Limited to United Kingdom context currently; approach could potentially be replicated in similar jurisdictions with adaptation to local data sources and regulations.",
+  "primary_users_or_beneficiaries": [
+    "researchers",
+    "journalists",
+    "campaigners",
+    "citizens",
+    "policymakers"
+  ],
+  "underdog_signal": false
 }
