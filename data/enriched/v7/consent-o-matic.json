@@ -53,18 +53,6 @@
       "year": 2022,
       "cited_by": 12,
       "doi": "https://doi.org/10.1145/3491101.3519683"
-    },
-    {
-      "title": "Improved metagenomic analysis with Kraken 2",
-      "year": 2019,
-      "cited_by": 6589,
-      "doi": "https://doi.org/10.1186/s13059-019-1891-0"
-    },
-    {
-      "title": "Echocardiographic determination of left ventricular mass in man. Anatomic validation of the method.",
-      "year": 1977,
-      "cited_by": 4482,
-      "doi": "https://doi.org/10.1161/01.cir.55.4.613"
     }
   ],
   "in_civictech_guide": false,

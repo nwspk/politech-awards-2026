@@ -46,26 +46,7 @@
   "last_funding_event": null,
   "dependency_risks": "Relies on open-source dependencies for content management and community features; sustainability dependent on continued funding from foundations",
   "news_articles": [],
-  "academic_citations": [
-    {
-      "title": "Anti-stigma films and medical students' attitudes towards mental illness and psychiatry: randomised controlled trial",
-      "year": 2008,
-      "cited_by": 72,
-      "doi": "https://doi.org/10.1192/pb.bp.107.017152"
-    },
-    {
-      "title": "Unimolecular Transmembrane Na <sup>+</sup> Channels Constructed by Pore-Forming Helical Polymers with a 2.3 Å Aperture",
-      "year": 2021,
-      "cited_by": 28,
-      "doi": "https://doi.org/10.31635/ccschem.021.202101144"
-    },
-    {
-      "title": "Chiny dla średniozaawansowanych",
-      "year": 2019,
-      "cited_by": 0,
-      "doi": "https://doi.org/10.15804/ap201913"
-    }
-  ],
+  "academic_citations": [],
   "awards": [],
   "in_civictech_guide": false,
   "wikipedia_page": null,

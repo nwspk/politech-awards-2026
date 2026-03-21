@@ -69,26 +69,7 @@
       "url": "https://buttondown.com/justenoughinternet/archive/a-union-for-hopeful-technologists/"
     }
   ],
-  "academic_citations": [
-    {
-      "title": "Recommendations for Comprehensive Stroke Centers",
-      "year": 2005,
-      "cited_by": 580,
-      "doi": "https://doi.org/10.1161/01.str.0000170622.07210.b4"
-    },
-    {
-      "title": "The Role of Nutrition Education in Combating Food Fads",
-      "year": 1961,
-      "cited_by": 2,
-      "doi": "https://doi.org/10.1001/jama.1961.03040190079044"
-    },
-    {
-      "title": "Monitoring vascular surgical performance",
-      "year": 1991,
-      "cited_by": 3,
-      "doi": "https://doi.org/10.1016/0741-5214(91)90315-l"
-    }
-  ],
+  "academic_citations": [],
   "in_civictech_guide": false,
   "wikipedia_page": false,
   "replication_materials_available": false,
