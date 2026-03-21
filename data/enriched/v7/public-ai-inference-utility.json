@@ -62,12 +62,6 @@
   ],
   "academic_citations": [
     {
-      "title": "OrthoFinder: solving fundamental biases in whole genome comparisons dramatically improves orthogroup inference accuracy",
-      "year": 2015,
-      "cited_by": 3837,
-      "doi": "https://doi.org/10.1186/s13059-015-0721-2"
-    },
-    {
       "title": "Performance of ChatGPT on USMLE: Potential for AI-assisted medical education using large language models",
       "year": 2023,
       "cited_by": 3305,

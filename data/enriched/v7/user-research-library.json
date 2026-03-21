@@ -64,12 +64,6 @@
       "year": 2003,
       "cited_by": 333,
       "doi": "https://doi.org/10.5281/zenodo.7779277"
-    },
-    {
-      "title": "PhysioBank, PhysioToolkit, and PhysioNet",
-      "year": 2000,
-      "cited_by": 14148,
-      "doi": "https://doi.org/10.1161/01.cir.101.23.e215"
     }
   ],
   "in_civictech_guide": false,

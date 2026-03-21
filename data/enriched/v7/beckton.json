@@ -57,26 +57,7 @@
     "dependency on GoCardless API",
     "not production-deployed"
   ],
-  "academic_citations": [
-    {
-      "title": "Excavation of a Neolithic settlement and ritual complex at Beckton Farm, Lockerbie, Dumfries & Galloway",
-      "year": 1997,
-      "cited_by": 21,
-      "doi": "https://doi.org/10.1016/j.jacc.2020.02.048"
-    },
-    {
-      "title": "Beckton Demonstration Biological Nutrient‐Removal Plant",
-      "year": 1994,
-      "cited_by": 4,
-      "doi": "https://doi.org/10.1111/j.1747-6593.1994.tb01163.x"
-    },
-    {
-      "title": "Excavation of a Neolithic settlement and ritual complex at Beckton Farm, Lockerbie, Dumfries &amp; Galloway",
-      "year": 1998,
-      "cited_by": 7,
-      "doi": "https://doi.org/10.9750/psas.127.69.121"
-    }
-  ],
+  "academic_citations": [],
   "in_civictech_guide": false,
   "wikipedia_page": false,
   "replication_materials_available": true,

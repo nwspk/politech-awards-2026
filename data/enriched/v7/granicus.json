@@ -61,20 +61,7 @@
     "funding_verified": true,
     "last_funding_event": "Vista Equity Partners acquisition (2021)",
     "news_articles": [],
-    "academic_citations": [
-        {
-            "title": "The battle of the Granicus River",
-            "year": 1980,
-            "cited_by": 81,
-            "doi": "https://doi.org/10.2307/630733"
-        },
-        {
-            "title": "Memnon of Rhodes at the Granicus",
-            "year": 1989,
-            "cited_by": 49,
-            "doi": "https://doi.org/10.2307/295218"
-        }
-    ],
+    "academic_citations": [],
     "awards": [
         "Granicus Digital Government Awards (2025)"
     ],

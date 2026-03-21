@@ -69,26 +69,7 @@
         "voluntary council adoption"
     ],
     "news_articles": [],
-    "academic_citations": [
-        {
-            "title": "Transition from open and laparoscopic to robotic pancreaticoduodenectomy in a UK tertiary referral hepatobiliary and pancreatic centre - Early experience of robotic pancreaticoduodenectomy",
-            "year": 2020,
-            "cited_by": 27,
-            "doi": "https://doi.org/10.1016/j.hpb.2020.03.008"
-        },
-        {
-            "title": "Post‐feminism and popular culture",
-            "year": 2004,
-            "cited_by": 1264,
-            "doi": "https://doi.org/10.1080/1468077042000309937"
-        },
-        {
-            "title": "The National ReferAll Database: An Open Dataset of Exercise Referral Schemes Across the UK",
-            "year": 2021,
-            "cited_by": 8,
-            "doi": "https://doi.org/10.3390/ijerph18094831"
-        }
-    ],
+    "academic_citations": [],
     "awards": [
         {
             "name": "Central Digital and Data Office Endorsement",
