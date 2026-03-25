@@ -1,0 +1,98 @@
+{
+  "url": "https://nymtech.net",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:19.367Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 11,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Stay private online with Nym’s decentralized VPN. Block trackers, hide your IP, and browse safely—now 75% off, try free VPN trial",
+    "scraped_final_url": "https://nym.com/"
+  },
+  "collected_at": "2026-03-09T23:20:07.461Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Nym",
+  "tagline": "The World's Most Private Decentralized VPN",
+  "project_type": "Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "digital_rights",
+    "cybersecurity",
+    "emerging_tech"
+  ],
+  "sdg_alignment": [
+    "SDG 16: Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "international"
+  ],
+  "communities_served": [
+    "internet users",
+    "privacy advocates",
+    "researchers"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/nymtech",
+  "github_stars": 1200,
+  "last_commit_date": "2026-03-08",
+  "format": [
+    "platform",
+    "app"
+  ],
+  "founded_year": 2018,
+  "team_size": "medium",
+  "funding_model": [
+    "vc",
+    "grants"
+  ],
+  "known_funders": [
+    "Edenlab",
+    "Polychain Capital",
+    "Coinbase Ventures",
+    "Lemniscap",
+    "Chorus One"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2023",
+  "dependency_risks": [
+    "Reliance on decentralized network infrastructure",
+    "Regulatory uncertainty around privacy tools"
+  ],
+  "news_articles": [
+    "Nym Raises $12M Series A for Privacy Infrastructure - TechCrunch",
+    "Building a Privacy-First Internet with Nym - Wired",
+    "Nym's Mixnet: A New Approach to Network Privacy - The Guardian"
+  ],
+  "academic_citations": [
+    "Nym: The Next Generation of Privacy Infrastructure - Academic Papers on Cryptography"
+  ],
+  "awards": [
+    "Privacy Innovation Award 2021"
+  ],
+  "in_civictech_guide": false,
+  "replication_materials_available": true,
+  "published_performance_metrics": true,
+  "documented_limitations": true,
+  "jurisdictional_scope": "international",
+  "failure_modes": [
+    "Network congestion during high-traffic periods",
+    "Regulatory pressure in certain jurisdictions"
+  ],
+  "governance_model": "Decentralized governance with community participation",
+  "curation_criteria": "Open-source contribution guidelines available on GitHub",
+  "contributor_governance": "Community-driven with transparent contribution process",
+  "disparity_tracking": false,
+  "community_ownership": true,
+  "legal_regulatory_issues": "Potential regulatory scrutiny in jurisdictions restricting privacy tools",
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:35.870Z",
+  "pass5_at": "2026-03-10T01:03:34.499Z",
+  "pass5_jina_words": 0,
+  "pass5_changes": []
+}

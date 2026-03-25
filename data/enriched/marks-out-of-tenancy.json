@@ -1,0 +1,123 @@
+{
+  "url": "https://www.marksoutoftenancy.com",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:07.330Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 545,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "We&#039;re all about landlord reviews. Get the real inside story from renters like you. Read, write and share reviews on Marks Out Of Tenancy today.",
+    "scraped_final_url": "https://www.marksoutoftenancy.com/"
+  },
+  "collected_at": "2026-03-09T23:20:58.124Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Marks Out Of Tenancy",
+  "tagline": "UK landlord and letting agency review platform empowering renters with information and rights guidance",
+  "project_type": "Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "civic_data",
+    "advocacy_tech",
+    "participatory_democracy"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions",
+    "SDG 10 – Reduced Inequalities"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "renters",
+    "tenants",
+    "local authorities",
+    "universities",
+    "students' unions"
+  ],
+  "political_units": [
+    "national",
+    "local"
+  ],
+  "open_source": "no",
+  "format": [
+    "platform",
+    "database"
+  ],
+  "founded_year": 2020,
+  "team_size": "small",
+  "funding_model": [
+    "grants",
+    "public_funding"
+  ],
+  "known_funders": [
+    "UK public health charity (unnamed)"
+  ],
+  "funding_verified": false,
+  "dependency_risks": [
+    "Reliance on user-generated review content for data quality",
+    "Dependence on single unnamed public health charity funder"
+  ],
+  "academic_citations": [
+    {
+      "title": "People as Infrastructure: Intersecting Fragments in Johannesburg",
+      "year": 2004,
+      "cited_by": 1968,
+      "doi": "https://doi.org/10.1215/08992363-16-3-407"
+    },
+    {
+      "title": "5G network slicing using SDN and NFV: A survey of taxonomy, architectures and future challenges",
+      "year": 2019,
+      "cited_by": 772,
+      "doi": "https://doi.org/10.1016/j.comnet.2019.106984"
+    },
+    {
+      "title": "Time for Revisionism on Rent Control?",
+      "year": 1995,
+      "cited_by": 318,
+      "doi": "https://doi.org/10.1257/jep.9.1.99"
+    }
+  ],
+  "in_civictech_guide": false,
+  "replication_materials_available": false,
+  "published_performance_metrics": false,
+  "documented_limitations": [
+    "No information on review verification mechanisms",
+    "No published methodology for landlord/agency rating calculation",
+    "No disclosed data on review authenticity or moderation practices"
+  ],
+  "jurisdictional_scope": "United Kingdom",
+  "failure_modes": [
+    "Potential for review manipulation or false ratings",
+    "Geographic coverage gaps outside major urban areas"
+  ],
+  "governance_model": "social enterprise",
+  "curation_criteria": "User-generated reviews of landlords and letting agencies; community moderation standards not publicly documented",
+  "contributor_governance": "Social enterprise governance; contributor roles and decision-making processes not publicly detailed",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "political_bias_allegations": false,
+  "government_partnerships": [
+    {
+      "partner": "Local authorities",
+      "nature": "Services provision",
+      "country": "United Kingdom"
+    },
+    {
+      "partner": "Universities and students' unions",
+      "nature": "Services provision",
+      "country": "United Kingdom"
+    }
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:45.486Z",
+  "pass3_at": "2026-03-09T23:23:23.004Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:56:21.071Z",
+  "pass5_jina_words": 319,
+  "pass5_changes": []
+}

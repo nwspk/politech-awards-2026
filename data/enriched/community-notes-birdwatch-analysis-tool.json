@@ -1,0 +1,133 @@
+{
+  "url": "https://github.com/travisbrown/birdwatch",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:10.684Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 2887,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Data related to X&#39;s Community Notes system. Contribute to travisbrown/birdwatch development by creating an account on GitHub.",
+    "scraped_final_url": "https://github.com/travisbrown/birdwatch"
+  },
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "Community Notes (Birdwatch) Analysis Tool",
+  "tagline": "Metadata repository and analysis tools for X's Community Notes system, adding user aliases and tweet-author data missing from official snapshots",
+  "project_type": "Tool/Platform",
+  "org_type": "Academic/research",
+  "issue_area": [
+    "misinformation",
+    "platform accountability",
+    "social media transparency",
+    "disinformation tracking"
+  ],
+  "sdg_alignment": [
+    "SDG 16: Peace, Justice and Strong Institutions",
+    "SDG 10: Reduced Inequalities"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "Germany",
+    "Global (X/Twitter operates globally)"
+  ],
+  "communities_served": [
+    "researchers",
+    "journalists",
+    "fact-checkers",
+    "platform accountability advocates"
+  ],
+  "political_units": [
+    "Global"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/travisbrown/birdwatch",
+  "github_stars": 9,
+  "last_commit_date": "2025-04-01",
+  "format": [
+    "data repository",
+    "CSV files",
+    "command-line tool"
+  ],
+  "founded_year": 2023,
+  "team_size": "solo",
+  "funding_model": [
+    "Prototype Fund grant"
+  ],
+  "known_funders": [
+    "Prototype Fund (Open Knowledge Foundation Germany / Federal Ministry of Education and Research BMBF)"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2023",
+  "dependency_risks": [
+    "X/Twitter API access and continued public data availability",
+    "X policy changes to Community Notes snapshot publication",
+    "Single-maintainer project"
+  ],
+  "news_articles": [
+    {
+      "headline": "German government funds 'research' project that doxxed Libs of Tik Tok",
+      "outlet": "The Post Millennial",
+      "date": null,
+      "url": "https://thepostmillennial.com/german-government-funds-research-project-that-doxxed-libs-of-tik-tok"
+    }
+  ],
+  "academic_citations": [
+    {
+      "title": "Public Participation in Scientific Research: a Framework for Deliberate Design",
+      "year": 2012,
+      "cited_by": 1403,
+      "doi": "https://doi.org/10.5751/es-04705-170229"
+    },
+    {
+      "title": "Using social media to quantify nature-based tourism and recreation",
+      "year": 2013,
+      "cited_by": 693,
+      "doi": "https://doi.org/10.1038/srep02976"
+    },
+    {
+      "title": "Reconciliation ecology and the future of species diversity",
+      "year": 2003,
+      "cited_by": 418,
+      "doi": "https://doi.org/10.1017/s0030605303000371"
+    }
+  ],
+  "in_civictech_guide": false,
+  "wikipedia_page": false,
+  "causation_strength": "anecdotal",
+  "outcome_methodology": "not applicable",
+  "replication_materials_available": true,
+  "published_performance_metrics": "Approximately 96% of distinct participant IDs resolved to aliases; ~12% of noted tweets not available",
+  "documented_limitations": [
+    "~12% of tweets that received Community Notes unavailable during compilation",
+    "Intentionally contains only metadata, not tweet or note content"
+  ],
+  "jurisdictional_scope": "global",
+  "failure_modes": [
+    "X/Twitter restricting access to Community Notes snapshot data",
+    "Platform policy preventing alias resolution"
+  ],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Metadata only; all data sourced from X's publicly published daily Community Notes snapshots",
+  "contributor_governance": "open-source community contributions accepted; single maintainer decision authority",
+  "disparity_tracking": true,
+  "community_ownership": false,
+  "controversies": [
+    "Travis Brown's related projects attracted controversy from right-wing outlets over alleged doxxing; project funded by German government via Prototype Fund"
+  ],
+  "political_bias_allegations": "Accused by conservative outlets of targeting right-wing accounts disproportionately in related projects",
+  "legal_regulatory_issues": "potential privacy concerns regarding alias resolution and user identification",
+  "government_partnerships": [
+    "Prototype Fund (German Federal Ministry of Education and Research)"
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:30.730Z",
+  "pass3_at": "2026-03-09T23:22:35.843Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:46:22.682Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": []
+}

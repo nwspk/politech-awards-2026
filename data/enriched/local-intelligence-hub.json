@@ -1,0 +1,118 @@
+{
+  "url": "https://www.localintelligencehub.com",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:05.837Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 209,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Your starting point for data about local MPs, constituencies, public opinion and the climate and nature movement.",
+    "scraped_final_url": "https://www.localintelligencehub.com/"
+  },
+  "collected_at": "2026-03-09T23:20:56.723Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Local Intelligence Hub",
+  "tagline": "Data platform for analyzing local MPs, constituencies, public opinion and climate/nature movement engagement to support campaigning and organizing",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "participatory_democracy",
+    "civic_data",
+    "advocacy_tech"
+  ],
+  "sdg_alignment": [
+    "SDG 13 – Climate Action",
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "campaigners",
+    "organizers",
+    "climate advocates",
+    "researchers"
+  ],
+  "political_units": [
+    "federal"
+  ],
+  "open_source": "no",
+  "github_url": "https://github.com/mysociety/local-intelligence-hub",
+  "format": [
+    "platform",
+    "database",
+    "api"
+  ],
+  "founded_year": 2020,
+  "team_size": "small",
+  "funding_model": [
+    "grants",
+    "donations"
+  ],
+  "known_funders": [
+    "The Climate Coalition",
+    "mySociety",
+    "Green Alliance"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2024",
+  "dependency_risks": [
+    "Reliance on data from The Climate Coalition and member organizations",
+    "Dependency on mySociety and Green Alliance for operational support"
+  ],
+  "news_articles": [
+    "https://www.mysociety.org/2024/02/15/the-local-intelligence-hub-our-latest-launch-helps-you-put-climate-on-the-agenda/",
+    "https://ecohustler.com/culture/the-local-intelligence-hub-supports-climate-campaigners/"
+  ],
+  "academic_citations": [
+    {
+      "title": "The platform economy: restructuring the space of capitalist accumulation",
+      "year": 2020,
+      "cited_by": 293,
+      "doi": "https://doi.org/10.1093/cjres/rsaa001"
+    },
+    {
+      "title": "Optimal operation of interconnected energy hubs by using decomposed hybrid particle swarm and interior-point approach",
+      "year": 2017,
+      "cited_by": 70,
+      "doi": "https://doi.org/10.1016/j.ijepes.2017.08.004"
+    },
+    {
+      "title": "ColabFold: making protein folding accessible to all",
+      "year": 2022,
+      "cited_by": 9184,
+      "doi": "https://doi.org/10.1038/s41592-022-01488-1"
+    }
+  ],
+  "in_civictech_guide": false,
+  "policy_outcomes": [
+    "Supports local climate campaigners in demonstrating public mandate to MPs"
+  ],
+  "causation_strength": "anecdotal",
+  "replication_materials_available": false,
+  "documented_limitations": [
+    "Members-only data not publicly redistributable",
+    "Dataset currency varies by partner update frequency"
+  ],
+  "jurisdictional_scope": "United Kingdom",
+  "failure_modes": [
+    "Partner data quality issues",
+    "Data staleness",
+    "Coalition membership changes"
+  ],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Data sourced from parliamentary records, constituency data, and climate movement engagement metrics",
+  "contributor_governance": "Open source codebase (mySociety); data governance by The Climate Coalition",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "political_bias_allegations": "Platform explicitly supports climate advocacy; data framing oriented toward pro-climate campaigning",
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:44.799Z",
+  "pass3_at": "2026-03-09T23:23:22.619Z",
+  "_sources": [
+    "openalex"
+  ]
+}

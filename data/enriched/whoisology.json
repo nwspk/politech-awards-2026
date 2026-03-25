@@ -1,0 +1,85 @@
+{
+  "url": "https://whoisology.com",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:45.928Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 717,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "A searchable cross referenced database of current and historic domain name ownership records. Designed for InfoSec, legal, and research professionals. Free for casual users.",
+    "scraped_final_url": "https://whoisology.com/"
+  },
+  "collected_at": "2026-03-09T23:20:51.221Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Whoisology",
+  "tagline": "Billions of archived domain name whois records searchable and cross-referenced for reverse lookups",
+  "project_type": "Tool/Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "civic_data",
+    "cybersecurity",
+    "digital_rights"
+  ],
+  "sdg_alignment": [
+    "SDG 16: Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "Global"
+  ],
+  "communities_served": [
+    "cybersecurity researchers",
+    "investigators",
+    "legal professionals",
+    "business development professionals",
+    "corporate intelligence teams"
+  ],
+  "political_units": [
+    "International"
+  ],
+  "open_source": "no",
+  "format": [
+    "platform",
+    "database",
+    "api"
+  ],
+  "founded_year": 2010,
+  "team_size": "small",
+  "funding_model": [
+    "subscriptions"
+  ],
+  "funding_verified": false,
+  "dependency_risks": [
+    "Reliance on domain registrar data availability and accuracy",
+    "Regulatory changes to WHOIS data accessibility"
+  ],
+  "in_civictech_guide": false,
+  "replication_materials_available": false,
+  "documented_limitations": [
+    "Data updated only every few months, not real-time",
+    "Does not provide current domain ownership lookup functionality",
+    "Cannot update WHOIS information directly"
+  ],
+  "jurisdictional_scope": "International",
+  "failure_modes": [
+    "Data staleness due to infrequent updates",
+    "Potential privacy concerns regarding aggregated WHOIS data visibility"
+  ],
+  "governance_model": "LLC",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "controversies": [
+    "Site acknowledges some users find aggregated WHOIS data visibility concerning"
+  ],
+  "legal_regulatory_issues": [
+    "GDPR compliance concerns regarding WHOIS data aggregation and visibility",
+    "ICANN WHOIS policy changes affecting data availability"
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:43.182Z",
+  "pass5_at": "2026-03-10T00:52:38.023Z",
+  "pass5_jina_words": 11,
+  "pass5_changes": []
+}

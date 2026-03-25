@@ -1,0 +1,96 @@
+{
+  "url": "https://oneproject.org/",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:22.419Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 481,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "We partner with the rising global movement for economic democracy to build core technology, mobilize catalytic resources, and show the world that a better system is possible today.",
+    "scraped_final_url": "https://oneproject.org/"
+  },
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "One Project",
+  "tagline": "Building infrastructure for economic democracy — connecting people, organisations, and resources to coordinate and grow a new economy",
+  "project_type": "Method",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "economic democracy",
+    "participatory governance",
+    "democratic economics",
+    "community wealth building"
+  ],
+  "sdg_alignment": [
+    "SDG 10 — Reduced Inequalities",
+    "SDG 16 — Peace, Justice and Strong Institutions",
+    "SDG 17 — Partnerships for the Goals",
+    "SDG 11 — Sustainable Cities and Communities"
+  ],
+  "decade_plus": false,
+  "geography": "Global (headquartered San Francisco, USA)",
+  "countries_deployed": [
+    "United States"
+  ],
+  "communities_served": [
+    "economic democracy organisations",
+    "participatory funds",
+    "community-led organisations",
+    "solidarity economy networks"
+  ],
+  "political_units": [
+    "San Francisco Bay Area",
+    "United States"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/oneproject-org",
+  "format": [
+    "digital platform (Common)",
+    "grantmaking (Horizon Fund)",
+    "publications",
+    "research",
+    "storytelling"
+  ],
+  "founded_year": 2019,
+  "team_size": "medium",
+  "funding_model": [
+    "philanthropy",
+    "self-funding (founder Justin Rosenstein)"
+  ],
+  "known_funders": [
+    "Kapor Capital",
+    "Omidyar Network",
+    "Ford Foundation"
+  ],
+  "funding_verified": false,
+  "dependency_risks": [
+    "reliance on founder philanthropic capital",
+    "Common platform not yet publicly launched at scale"
+  ],
+  "news_articles": [
+    "TechCrunch coverage of One Project's economic democracy focus",
+    "Stanford Social Innovation Review articles on participatory grantmaking"
+  ],
+  "academic_citations": [
+    "Citations in participatory economics and democratic governance literature"
+  ],
+  "in_civictech_guide": true,
+  "wikipedia_page": false,
+  "replication_materials_available": false,
+  "jurisdictional_scope": "global",
+  "failure_modes": [
+    "platform dependency on single philanthropic founder",
+    "Common platform still in development / waitlist phase"
+  ],
+  "governance_model": "foundation",
+  "curation_criteria": "Community-led organisations focused on economic democracy and participatory governance; emphasis on organisations working toward equitable resource distribution",
+  "contributor_governance": "Open source contribution guidelines; community input on platform development priorities",
+  "disparity_tracking": "Horizon Fund explicitly tracks funding distribution to underrepresented communities and organisations led by people of color",
+  "community_ownership": "Community-led organisations receive resources through Horizon Fund; Common platform designed to give communities control over capital allocation",
+  "ai_involvement": "AI Commons publication exploring decentralised and community-led AI development",
+  "pass2_at": "2026-03-09T23:21:36.258Z",
+  "pass5_at": "2026-03-10T00:59:52.657Z",
+  "pass5_jina_words": 257,
+  "pass5_changes": []
+}

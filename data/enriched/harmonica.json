@@ -1,0 +1,116 @@
+{
+  "url": "https://harmonica.chat/",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:29.857Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 774,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Harmonica acts as a virtual facilitator by talking to your team, event guests or discussion participants 1:1 and using LLM to synthesize their responses. It&#x27;s an alternative to forms and saves both you and participants time, builds healthy habits and reduces friction.",
+    "scraped_final_url": "https://harmonica.chat/"
+  },
+  "collected_at": "2026-03-09T23:19:59.234Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Harmonica",
+  "tagline": "AI-powered facilitation platform for conversational surveys and stakeholder engagement",
+  "project_type": "Tool/Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "participatory_democracy",
+    "govtech",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "France",
+    "Finland",
+    "Multiple (unspecified)"
+  ],
+  "communities_served": [
+    "teams",
+    "organizations",
+    "governance bodies",
+    "peacemaking organizations",
+    "educational institutions"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "no",
+  "format": [
+    "platform",
+    "api"
+  ],
+  "team_size": "small",
+  "funding_model": [
+    "donations",
+    "subscriptions"
+  ],
+  "funding_verified": false,
+  "dependency_risks": [
+    "Proprietary AI model dependency",
+    "Single platform reliance"
+  ],
+  "academic_citations": [
+    {
+      "title": "Acoustics of the glass harmonica",
+      "year": 1991,
+      "cited_by": 38,
+      "doi": "https://doi.org/10.1121/1.2029857"
+    },
+    {
+      "title": "Harmonica: A Framework of Heterogeneous Computing Systems With Memristor-Based Neuromorphic Computing Accelerators",
+      "year": 2016,
+      "cited_by": 70,
+      "doi": "https://doi.org/10.1109/tcsi.2016.2529279"
+    },
+    {
+      "title": "Acoustics of the glass harmonica",
+      "year": 1994,
+      "cited_by": 37,
+      "doi": "https://doi.org/10.1121/1.408458"
+    }
+  ],
+  "in_civictech_guide": false,
+  "causation_strength": "anecdotal",
+  "replication_materials_available": false,
+  "documented_limitations": [
+    "No independent verification of impact claims",
+    "Limited public documentation of methodology",
+    "Testimonials provided but no third-party validation"
+  ],
+  "jurisdictional_scope": "International",
+  "governance_model": "LLC",
+  "community_ownership": false,
+  "government_partnerships": [
+    {
+      "partner": "CMI - Martti Ahtisaari Peace Foundation",
+      "nature": "Stakeholder engagement for peacemaking strategies",
+      "country": "Finland"
+    },
+    {
+      "partner": "Missions Publiques",
+      "nature": "Facilitation and stakeholder engagement",
+      "country": "France"
+    },
+    {
+      "partner": "ENS-PSL",
+      "nature": "Student workshop on AI governance",
+      "country": "France"
+    }
+  ],
+  "ai_involvement": "Core functionality: AI-powered conversational facilitation, automated insight generation, theme organization, and report generation",
+  "pass2_at": "2026-03-09T23:21:30.856Z",
+  "pass3_at": "2026-03-09T23:22:39.656Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:46:26.454Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": []
+}

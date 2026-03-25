@@ -1,0 +1,105 @@
+{
+  "url": "https://richardpope.org/2017/03/05/beckton-a-tool-to-build",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:08.422Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 355,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "10 years on from PledgeBank, it should be many times easier to build a focused conditional commitment service, because today, we have services like GoCardless and Stripe, as well as things like Twillio and MailGun for messaging.",
+    "scraped_final_url": "https://richardpope.org/2017/03/05/beckton-a-tool-to-build/"
+  },
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "Beckton",
+  "tagline": "A conditional-commitment tool for creating groups of paying members — only charges if enough people join.",
+  "project_type": "Tool/Platform",
+  "org_type": "Grassroots/indie",
+  "issue_area": [
+    "collective action",
+    "labour organising",
+    "civic participation",
+    "membership organisations"
+  ],
+  "sdg_alignment": [
+    "SDG 8 - Decent Work and Economic Growth",
+    "SDG 10 - Reduced Inequalities"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "trade unions",
+    "membership organisations",
+    "civic groups"
+  ],
+  "political_units": [
+    "United Kingdom"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/richardjpope/beckton",
+  "github_stars": 10,
+  "last_commit_date": "2019-02-14",
+  "format": [
+    "web application prototype"
+  ],
+  "founded_year": 2017,
+  "team_size": "solo",
+  "funding_model": [
+    "volunteer"
+  ],
+  "funding_verified": false,
+  "dependency_risks": [
+    "abandoned prototype — no active development since ~2019",
+    "dependency on GoCardless API",
+    "not production-deployed"
+  ],
+  "academic_citations": [
+    {
+      "title": "Excavation of a Neolithic settlement and ritual complex at Beckton Farm, Lockerbie, Dumfries & Galloway",
+      "year": 1997,
+      "cited_by": 21,
+      "doi": "https://doi.org/10.1016/j.jacc.2020.02.048"
+    },
+    {
+      "title": "Beckton Demonstration Biological Nutrient‐Removal Plant",
+      "year": 1994,
+      "cited_by": 4,
+      "doi": "https://doi.org/10.1111/j.1747-6593.1994.tb01163.x"
+    },
+    {
+      "title": "Excavation of a Neolithic settlement and ritual complex at Beckton Farm, Lockerbie, Dumfries &amp; Galloway",
+      "year": 1998,
+      "cited_by": 7,
+      "doi": "https://doi.org/10.9750/psas.127.69.121"
+    }
+  ],
+  "in_civictech_guide": false,
+  "wikipedia_page": false,
+  "replication_materials_available": true,
+  "documented_limitations": [
+    "prototype only — not finished or production-deployed",
+    "author notes it was 'never quite finished'"
+  ],
+  "jurisdictional_scope": "not deployed",
+  "failure_modes": [
+    "abandoned prototype",
+    "GoCardless API dependency",
+    "no user base"
+  ],
+  "governance_model": "project_of_larger_org",
+  "contributor_governance": "not applicable — solo author project",
+  "community_ownership": false,
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:39.470Z",
+  "pass3_at": "2026-03-09T23:23:06.042Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:51:19.636Z",
+  "pass5_jina_words": 354,
+  "pass5_changes": []
+}

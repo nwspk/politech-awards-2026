@@ -1,0 +1,88 @@
+{
+  "url": "https://github.com/cavi-au/consent-o-matic",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:52.245Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 3871,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Browser extension that automatically fills out cookie popups based on your preferences - cavi-au/Consent-O-Matic",
+    "scraped_final_url": "https://github.com/cavi-au/consent-o-matic"
+  },
+  "collected_at": "2026-03-09T23:19:19.046Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Consent-O-Matic",
+  "tagline": "Browser extension that automatically fills out cookie popups based on user preferences",
+  "project_type": "Tool/Platform",
+  "org_type": "Grassroots/indie",
+  "issue_area": [
+    "digital_rights",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16: Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "Global"
+  ],
+  "communities_served": [
+    "internet users",
+    "privacy advocates"
+  ],
+  "political_units": [
+    "Global"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/cavi-au/consent-o-matic",
+  "github_stars": 4000,
+  "last_commit_date": "2024-12-15",
+  "format": [
+    "app"
+  ],
+  "founded_year": 2019,
+  "team_size": "small",
+  "funding_model": "volunteer-driven",
+  "funding_verified": false,
+  "dependency_risks": "Relies on volunteer maintenance; dependent on browser API stability and cookie consent regulation changes",
+  "academic_citations": [
+    {
+      "title": "Consent-O-Matic: Automatically Answering Consent Pop-ups Using Adversarial Interoperability",
+      "year": 2022,
+      "cited_by": 12,
+      "doi": "https://doi.org/10.1145/3491101.3519683"
+    },
+    {
+      "title": "Improved metagenomic analysis with Kraken 2",
+      "year": 2019,
+      "cited_by": 6589,
+      "doi": "https://doi.org/10.1186/s13059-019-1891-0"
+    },
+    {
+      "title": "Echocardiographic determination of left ventricular mass in man. Anatomic validation of the method.",
+      "year": 1977,
+      "cited_by": 4482,
+      "doi": "https://doi.org/10.1161/01.cir.55.4.613"
+    }
+  ],
+  "in_civictech_guide": false,
+  "replication_materials_available": true,
+  "documented_limitations": "Limited to cookie consent popups; effectiveness depends on website compliance with consent standards; may not work with all consent management platforms",
+  "jurisdictional_scope": "Global",
+  "failure_modes": "Extension may fail when websites use non-standard consent implementations; updates required as consent platforms evolve",
+  "curation_criteria": "Open source contribution guidelines on GitHub; community-driven feature requests",
+  "contributor_governance": "GitHub-based open source model with community contributions",
+  "disparity_tracking": false,
+  "community_ownership": true,
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:27.596Z",
+  "pass3_at": "2026-03-09T23:22:26.118Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:46:17.102Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": []
+}

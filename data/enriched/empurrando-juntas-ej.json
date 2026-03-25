@@ -1,0 +1,92 @@
+{
+  "url": "https://sobre.ejparticipe.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:16.294Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 238,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "A EJ é uma plataforma de pesquisa de opinião multicanal que permite segmentação. Comece a coletar opinião no Telegram e Whatsapp agora.",
+    "scraped_final_url": "https://sobre.ejparticipe.org/"
+  },
+  "collected_at": "2026-03-09T23:20:34.971Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Empurrando Juntas (EJ)",
+  "tagline": "AI-powered opinion collection platform that segments audiences into personas based on their views",
+  "project_type": "Tool/Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "participatory_democracy",
+    "govtech",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "Brazil"
+  ],
+  "communities_served": [
+    "organizations",
+    "communicators",
+    "government agencies",
+    "institutions"
+  ],
+  "political_units": [
+    "federal",
+    "state",
+    "municipal"
+  ],
+  "open_source": "no",
+  "format": [
+    "platform",
+    "api"
+  ],
+  "team_size": "small",
+  "funding_model": [
+    "subscriptions"
+  ],
+  "funding_verified": false,
+  "dependency_risks": [
+    "Proprietary platform dependency",
+    "Reliance on third-party integrations (Telegram, WhatsApp, Mautic)"
+  ],
+  "academic_citations": [
+    {
+      "title": "O Associativismo faz bem à saúde? O caso das doenças raras",
+      "year": 2018,
+      "cited_by": 15,
+      "doi": "https://doi.org/10.1590/1413-81232018232.24032017"
+    },
+    {
+      "title": "Educação Ambiental pelo Ecoturismo numa trilha marinha no Parque Estadual da Ilha Anchieta, Ubatuba (SP)",
+      "year": 2010,
+      "cited_by": 9,
+      "doi": "https://doi.org/10.34024/rbecotur.2010.v3.5895"
+    },
+    {
+      "title": "BRINQUEDOS ALTERNATIVOS EM ESCOLAS INFANTIS DE UMA CIDADE DO INTERIOR DE SÃO PAULO",
+      "year": 2018,
+      "cited_by": 1,
+      "doi": "https://doi.org/10.4025/jphyseduc.v29i1.2902"
+    }
+  ],
+  "in_civictech_guide": false,
+  "causation_strength": "anecdotal",
+  "replication_materials_available": false,
+  "published_performance_metrics": false,
+  "jurisdictional_scope": "Brazil",
+  "governance_model": "LLC",
+  "contributor_governance": "proprietary",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "ai_involvement": "AI-powered persona clustering and opinion segmentation",
+  "pass2_at": "2026-03-09T23:21:40.903Z",
+  "pass3_at": "2026-03-09T23:23:09.979Z",
+  "_sources": [
+    "openalex"
+  ]
+}
