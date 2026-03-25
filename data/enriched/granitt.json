@@ -1,0 +1,95 @@
+{
+  "url": "https://granitt.io",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:18.585Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 5,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": null,
+    "scraped_final_url": "https://granitt.io/"
+  },
+  "collected_at": "2026-03-09T23:19:18.075Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Granitt",
+  "tagline": "Government transparency and civic engagement platform",
+  "project_type": "Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "govtech",
+    "civic_data",
+    "participatory_democracy"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "United States",
+    "Canada"
+  ],
+  "communities_served": [
+    "government agencies",
+    "civic organizations",
+    "citizens"
+  ],
+  "political_units": [
+    "local",
+    "state",
+    "federal"
+  ],
+  "open_source": "no",
+  "format": [
+    "platform",
+    "api"
+  ],
+  "founded_year": 2018,
+  "team_size": "small",
+  "funding_model": "B2B SaaS",
+  "known_funders": [
+    "Civic Tech Fund",
+    "Knight Foundation"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2023",
+  "news_articles": [
+    "https://www.civicplus.com/blog/granitt-government-transparency"
+  ],
+  "academic_citations": [
+    {
+      "title": "Randmorener i Sørvest-Norge",
+      "year": 1954,
+      "cited_by": 30,
+      "doi": "https://doi.org/10.1080/00291955408542734"
+    },
+    {
+      "title": "En finger av granitt",
+      "year": 1982,
+      "cited_by": 0,
+      "doi": "https://doi.org/10.2307/40137060"
+    },
+    {
+      "title": "Meir granitt enn regnboge AlfredFidjestølInnerst i hjertet har jeg min forstand.Biografien om Georg Johannesen.Oslo: Det Norske Samlaget 2022.",
+      "year": 2024,
+      "cited_by": 0,
+      "doi": "https://doi.org/10.18261/agora.42.3-4.8"
+    }
+  ],
+  "in_civictech_guide": true,
+  "jurisdictional_scope": "North America",
+  "governance_model": "LLC",
+  "community_ownership": false,
+  "government_partnerships": [
+    "Multiple municipal governments"
+  ],
+  "pass2_at": "2026-03-09T23:21:30.604Z",
+  "pass3_at": "2026-03-09T23:22:38.299Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:46:24.788Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": []
+}

@@ -1,0 +1,109 @@
+{
+  "url": "https://radicle.xyz",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:05.015Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 573,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "The Radicle forge is an open source, peer-to-peer code collaboration stack built on Git.",
+    "scraped_final_url": "https://radicle.xyz/"
+  },
+  "collected_at": "2026-03-09T23:20:37.135Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Radicle",
+  "tagline": "A sovereign, peer-to-peer code forge built on Git",
+  "project_type": "Platform",
+  "org_type": "Grassroots/indie",
+  "issue_area": [
+    "digital_rights",
+    "emerging_tech"
+  ],
+  "sdg_alignment": [
+    "SDG 9: Industry, Innovation and Infrastructure"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "international"
+  ],
+  "communities_served": [
+    "developers",
+    "open source contributors",
+    "technologists"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/radicle-dev/radicle",
+  "github_stars": 3200,
+  "last_commit_date": "2024-12-15",
+  "format": [
+    "platform",
+    "api",
+    "app"
+  ],
+  "founded_year": 2020,
+  "team_size": "small",
+  "funding_model": "token-based / community-funded",
+  "known_funders": [
+    "Radicle Foundation",
+    "Ethereum Foundation"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2023-06-01",
+  "dependency_risks": [
+    "Platform adoption risk - requires critical mass of developers to be viable alternative to centralized forges",
+    "Network effects dependency - value increases with user base"
+  ],
+  "news_articles": [
+    {
+      "headline": "Radicle makes it to the top of Hacker News",
+      "outlet": "Hacker News",
+      "date": "2024-03-05",
+      "url": null
+    }
+  ],
+  "academic_citations": [
+    {
+      "title": "'Radicle' biochemistry: the biology of root-specific metabolism",
+      "year": 1999,
+      "cited_by": 312,
+      "doi": "https://doi.org/10.1016/s1360-1385(99)01411-9"
+    },
+    {
+      "title": "Seed Germination and Radicle Growth of a Halophyte, Kalidium caspicum(Chenopodiaceae)",
+      "year": 2000,
+      "cited_by": 142,
+      "doi": "https://doi.org/10.1006/anbo.1999.1077"
+    },
+    {
+      "title": "Abscisic Acid Inhibition of Radicle Emergence But Not Seedling Growth Is Suppressed by Sugars",
+      "year": 2000,
+      "cited_by": 186,
+      "doi": "https://doi.org/10.1104/pp.122.4.1179"
+    }
+  ],
+  "in_civictech_guide": false,
+  "jurisdictional_scope": "international",
+  "failure_modes": [
+    "Low adoption among mainstream developers",
+    "Difficulty competing with established platforms (GitHub, GitLab)"
+  ],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "open source contribution model with community review",
+  "contributor_governance": "open source contribution model",
+  "disparity_tracking": false,
+  "community_ownership": true,
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:39.024Z",
+  "pass3_at": "2026-03-09T23:23:02.390Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:51:05.865Z",
+  "pass5_jina_words": 552,
+  "pass5_changes": []
+}

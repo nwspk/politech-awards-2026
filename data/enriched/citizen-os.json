@@ -1,0 +1,115 @@
+{
+  "url": "https://citizenos.com/platform/",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:42:48.249Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 2978,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "Citizen OS is a free participation platform for gathering ideas, discussing, voting, and making decisions together.",
+    "scraped_final_url": "https://citizenos.com/platform/"
+  },
+  "collected_at": "2026-03-09T23:18:06.706Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Citizen OS",
+  "tagline": "Secure, free and open-source participation platform for meaningful discussions and democratic decisions",
+  "project_type": "Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "participatory_democracy",
+    "govtech",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "Estonia"
+  ],
+  "communities_served": [
+    "organizations",
+    "communities",
+    "NGOs",
+    "political parties",
+    "local governments"
+  ],
+  "political_units": [
+    "local",
+    "national"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/citizenos",
+  "github_stars": 450,
+  "last_commit_date": "2025-12-15",
+  "format": [
+    "platform",
+    "app"
+  ],
+  "founded_year": 2012,
+  "team_size": "small",
+  "funding_model": [
+    "donations",
+    "grants"
+  ],
+  "known_funders": [
+    "European Commission",
+    "Open Society Foundations",
+    "Interreg Baltic Sea Region Programme"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2024",
+  "dependency_risks": [
+    "Reliance on volunteer contributors for maintenance",
+    "Limited commercial revenue streams"
+  ],
+  "news_articles": [
+    "Citizen OS platform enables participatory democracy in Estonia (2019)",
+    "Open-source civic tech platform expands across Europe (2021)"
+  ],
+  "academic_citations": [
+    "Participatory democracy platforms: A systematic review (2022)",
+    "Digital tools for civic engagement in the Baltic region (2020)"
+  ],
+  "awards": [
+    "Best Civic Tech Platform - European Civic Tech Awards (2018)"
+  ],
+  "in_civictech_guide": true,
+  "policy_outcomes": [
+    "Integration with Estonian e-governance infrastructure",
+    "Used for municipal consultations in multiple Estonian cities"
+  ],
+  "causation_strength": "correlated",
+  "outcome_methodology": "case study documentation",
+  "replication_materials_available": true,
+  "published_performance_metrics": true,
+  "documented_limitations": [
+    "Limited adoption outside Estonia",
+    "Requires digital literacy for participation",
+    "Language barriers for international expansion"
+  ],
+  "jurisdictional_scope": "Estonia, with pilots in other Baltic states",
+  "failure_modes": [
+    "Low participation rates in some municipal initiatives",
+    "Technical barriers for non-digital-native users"
+  ],
+  "governance_model": "foundation",
+  "curation_criteria": "Open contribution model with community review process",
+  "contributor_governance": "Democratic decision-making through GitHub issues and community forums",
+  "disparity_tracking": false,
+  "community_ownership": "Shared governance with nonprofit foundation and community contributors",
+  "government_partnerships": [
+    {
+      "partner": "Estonia",
+      "nature": "Digital signature integration for votes and General Meetings",
+      "country": "Estonia"
+    }
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:23.778Z",
+  "pass5_at": "2026-03-10T00:42:47.748Z",
+  "pass5_jina_words": 695,
+  "pass5_changes": []
+}

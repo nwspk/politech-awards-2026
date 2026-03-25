@@ -1,0 +1,52 @@
+{
+  "url": "https://www.papertree.earth",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:28.243Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 427,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Decentralized tools to build community online. The intercommunal net where communities govern, pool funds and stay safe on their own terms.",
+    "scraped_final_url": "https://blackskyweb.xyz/"
+  },
+  "collected_at": "2026-03-09T23:05:00Z",
+  "collected_by": "agent-batch-38",
+  "name": "Papertree",
+  "tagline": "Interactive tree planting data platform for transparent climate action accountability",
+  "project_type": "Tool/Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "climate",
+    "transparency",
+    "open-data",
+    "accountability"
+  ],
+  "sdg_alignment": [
+    "SDG 13",
+    "SDG 15",
+    "SDG 16"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "communities_served": [
+    "tree planting organisations",
+    "climate advocates",
+    "researchers"
+  ],
+  "open_source": "yes",
+  "format": [
+    "web platform",
+    "data visualisation"
+  ],
+  "funding_verified": false,
+  "jurisdictional_scope": "global",
+  "ai_involvement": false,
+  "policy_outcomes": [],
+  "causation_strength": "anecdotal",
+  "news_articles": [],
+  "pass2_at": "2026-03-10T00:27:54.556Z",
+  "pass5_at": "2026-03-10T00:55:51.571Z",
+  "pass5_jina_words": 463,
+  "pass5_changes": []
+}

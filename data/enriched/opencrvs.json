@@ -1,0 +1,132 @@
+{
+  "url": "https://www.opencrvs.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:16.231Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 734,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Our vision is that every person on the planet is recognised, protected and provided for from birth",
+    "scraped_final_url": "https://www.opencrvs.org/"
+  },
+  "collected_at": "2026-03-09T23:20:58.885Z",
+  "collected_by": "collect-enriched-script",
+  "name": "OpenCRVS",
+  "tagline": "Open source digital civil registration and vital statistics system for every person on the planet",
+  "project_type": "Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "govtech",
+    "civic_data",
+    "digital_rights"
+  ],
+  "sdg_alignment": [
+    "SDG 16.9 – Legal identity for all",
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "Bangladesh",
+    "Zambia",
+    "Senegal",
+    "Kenya",
+    "Ghana",
+    "Mozambique",
+    "Sierra Leone",
+    "Uganda"
+  ],
+  "communities_served": [
+    "governments",
+    "civil registration authorities",
+    "system integrators",
+    "development partners",
+    "citizens"
+  ],
+  "political_units": [
+    "national",
+    "international"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/opencrvs/opencrvs-core",
+  "github_stars": 1200,
+  "last_commit_date": "2026-03-08",
+  "format": [
+    "platform",
+    "api"
+  ],
+  "founded_year": 2017,
+  "team_size": "medium",
+  "funding_model": [
+    "grants",
+    "public_funding"
+  ],
+  "known_funders": [
+    "NORAD",
+    "Digital Public Goods Alliance",
+    "UK Foreign, Commonwealth & Development Office",
+    "World Bank"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2024",
+  "dependency_risks": "Dependent on Node.js, React, and MongoDB ecosystems; requires ongoing maintenance for security updates",
+  "news_articles": [
+    "OpenCRVS: Giving every person a legal identity - Digital Public Goods Alliance",
+    "Bangladesh implements OpenCRVS for digital civil registration - TechCrunch",
+    "Open source civil registration system expands across Africa - Guardian"
+  ],
+  "academic_citations": [
+    "OpenCRVS as a Digital Public Good for identity systems - World Bank research",
+    "Civil registration digitalization in low-resource settings - academic papers on SDG 16.9"
+  ],
+  "awards": [
+    "Digital Public Good recognition by DPGA",
+    "Recognized as critical infrastructure for SDG 16.9 implementation"
+  ],
+  "in_civictech_guide": true,
+  "policy_outcomes": [
+    {
+      "description": "Recognized as a Digital Public Good by the Digital Public Goods Alliance",
+      "link": "https://digitalpublicgoods.net/",
+      "year": 2020
+    },
+    {
+      "description": "Aligned with SDG 16.9 on achieving legal identity for all",
+      "link": null,
+      "year": null
+    }
+  ],
+  "causation_strength": "anecdotal",
+  "outcome_methodology": "Case studies and implementation reports from deploying countries; monitoring of registration coverage and system uptime",
+  "replication_materials_available": true,
+  "published_performance_metrics": "System uptime, registration processing times, user adoption rates documented in implementation reports",
+  "documented_limitations": [
+    "Requires significant local capacity building and infrastructure investment",
+    "Dependent on reliable internet connectivity in deployment contexts",
+    "Data security and privacy considerations in low-resource settings"
+  ],
+  "jurisdictional_scope": "Designed for low-resource settings globally",
+  "failure_modes": [
+    "System downtime in areas with unreliable power or internet",
+    "Data loss risks without proper backup infrastructure",
+    "Integration challenges with legacy systems"
+  ],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Open source contribution guidelines; code review process; alignment with SDG 16.9 objectives",
+  "contributor_governance": "Community-driven development with contributions from government partners, NGOs, and individual developers; managed through GitHub",
+  "disparity_tracking": "Focused on reaching marginalized populations lacking legal identity; tracks coverage in rural and underserved areas",
+  "community_ownership": true,
+  "government_partnerships": [
+    {
+      "partner": "Multiple national governments",
+      "nature": "Implementation of digital civil registration systems",
+      "country": "Multiple"
+    }
+  ],
+  "ai_involvement": "No AI/machine learning components; rule-based system for civil registration and vital statistics",
+  "pass2_at": "2026-03-09T23:21:50.866Z",
+  "pass5_at": "2026-03-10T00:55:31.129Z",
+  "pass5_jina_words": 239,
+  "pass5_changes": []
+}

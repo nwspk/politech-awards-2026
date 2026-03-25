@@ -1,0 +1,44 @@
+---
+title: AI governance body bonus
+author: "@jcoombes"
+date: "2026-02-13"
+pr_url: https://github.com/nwspk/politech-awards-2026/pull/9
+version: v4
+pr_number: 9
+pr_status: merged
+top_project:
+  name: algorithmwatch.org
+  url: https://algorithmwatch.org
+  score: 65
+keywords:
+  - benefits
+  - housing
+  - refugee
+  - migrant
+  - asylum
+  - eviction
+  - homeless
+  - disability
+  - accessibility
+  - low-income
+  - AI alignment
+  - AI governance
+  - AI safety
+---
+
+## Heuristic
+
+Base score (50) + inclusion bonus (URL keywords) − fetch-failure penalty (10) + AI-body bonus (up to 15). Uses cached page fetches to penalise dead/inaccessible sites and reward projects whose page content mentions AI governance, safety, or policy keywords.
+
+## Rationale
+
+v3 showed that URL-only matching yields almost no signal. This iteration fetches each project's homepage, caches the HTML, and uses the cached body to surface projects that explicitly discuss AI governance, safety, or policy. Sites that fail to fetch receive a penalty.
+
+## Data sources
+
+- project URL
+- cached page body
+
+## Limitations
+
+Requires cache to be populated (npm run cache:sites). AI bonus capped at 3 keyword matches × 5 points.

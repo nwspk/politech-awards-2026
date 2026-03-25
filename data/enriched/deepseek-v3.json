@@ -1,0 +1,101 @@
+{
+  "url": "https://github.com/deepseek-ai/deepseek-v3",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:43:55.451Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 2682,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Contribute to deepseek-ai/DeepSeek-V3 development by creating an account on GitHub.",
+    "scraped_final_url": "https://github.com/deepseek-ai/deepseek-v3"
+  },
+  "collected_at": "2026-03-09T23:19:39.907Z",
+  "collected_by": "collect-enriched-script",
+  "name": "DeepSeek-V3",
+  "tagline": "A Mixture-of-Experts language model with 671B total parameters optimized for efficient inference and cost-effective training",
+  "project_type": "Tool/Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "emerging_tech"
+  ],
+  "sdg_alignment": [
+    "SDG 9: Industry, Innovation and Infrastructure"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "China"
+  ],
+  "communities_served": [
+    "researchers",
+    "developers",
+    "AI practitioners"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "partial",
+  "github_url": "https://github.com/deepseek-ai/deepseek-v3",
+  "github_stars": 102000,
+  "last_commit_date": "2024-12-26",
+  "format": [
+    "api",
+    "platform"
+  ],
+  "founded_year": 2023,
+  "team_size": "large",
+  "funding_model": [
+    "vc"
+  ],
+  "known_funders": [
+    "High-Flyer Capital",
+    "Sequoia Capital China"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2024",
+  "dependency_risks": [
+    "Reliance on Chinese AI infrastructure and governance",
+    "Potential export control restrictions",
+    "Geopolitical tensions around AI technology"
+  ],
+  "news_articles": [
+    "DeepSeek's V3 AI model challenges OpenAI's dominance - Reuters, December 2024",
+    "Chinese AI startup DeepSeek releases powerful new model - TechCrunch, December 2024",
+    "DeepSeek-V3 sparks debate over AI cost efficiency - Wired, December 2024",
+    "DeepSeek challenges US AI leadership with efficient model - Guardian, December 2024"
+  ],
+  "academic_citations": [
+    "DeepSeek-V3 Technical Report - arXiv preprint, 2024",
+    "Mixture-of-Experts scaling in large language models - referenced in multiple ML papers, 2024-2025"
+  ],
+  "in_civictech_guide": false,
+  "replication_materials_available": true,
+  "published_performance_metrics": "Model benchmarks available on GitHub; performance comparisons with GPT-4, Claude, and other LLMs documented",
+  "documented_limitations": [
+    "Model card and detailed limitation documentation not visible in provided content",
+    "Content filtering and safety measures not fully documented",
+    "Potential limitations in non-English language performance"
+  ],
+  "jurisdictional_scope": "International",
+  "failure_modes": [
+    "Potential content moderation challenges",
+    "Geopolitical restrictions on deployment and access"
+  ],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Open-source model weights available; community contributions accepted through GitHub; technical documentation provided",
+  "contributor_governance": "GitHub-based contribution model; pull requests reviewed by DeepSeek team",
+  "community_ownership": false,
+  "controversies": [
+    "Concerns about Chinese government oversight of AI development",
+    "Questions about data privacy and training data sources",
+    "Debate over AI capability concentration and geopolitical implications"
+  ],
+  "political_bias_allegations": "Potential concerns regarding alignment with Chinese regulatory requirements and content policies",
+  "legal_regulatory_issues": "Subject to US export controls on advanced AI technology; potential restrictions under Biden administration AI executive order",
+  "ai_involvement": "Core technology is large language model (LLM) with Mixture-of-Experts architecture",
+  "pass2_at": "2026-03-09T23:21:30.623Z",
+  "pass5_at": "2026-03-10T00:46:18.011Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": []
+}

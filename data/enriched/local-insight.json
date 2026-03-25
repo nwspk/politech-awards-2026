@@ -1,0 +1,104 @@
+{
+  "url": "https://localinsight.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:44.542Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 495,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Explore Local Insight - the data platform for neighbourhood-level insights, mapping and reporting. Built for councils, charities, trusts and more.",
+    "scraped_final_url": "https://localinsight.org/"
+  },
+  "collected_at": "2026-03-09T23:20:04.484Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Local Insight",
+  "tagline": "Community and Neighbourhood Data Platform",
+  "project_type": "Tool/Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "civic_data",
+    "govtech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "councils",
+    "grantmakers",
+    "housing associations",
+    "charities",
+    "researchers"
+  ],
+  "political_units": [
+    "local",
+    "state"
+  ],
+  "open_source": "no",
+  "format": [
+    "platform",
+    "api",
+    "database",
+    "dashboard"
+  ],
+  "founded_year": 2010,
+  "team_size": "medium",
+  "funding_model": [
+    "subscriptions"
+  ],
+  "funding_verified": false,
+  "dependency_risks": [
+    "Subscription-based model creates dependency on continued funding",
+    "Reliance on third-party data sources for 1500+ indicators"
+  ],
+  "academic_citations": [
+    {
+      "title": "Adaptations to climate change, drought and desertification: local insights to enhance policy in southern Africa",
+      "year": 2009,
+      "cited_by": 352,
+      "doi": "https://doi.org/10.1016/j.envsci.2009.04.002"
+    },
+    {
+      "title": "More Than Just An Eyesore: Local Insights And Solutions on Vacant Land And Urban Health",
+      "year": 2012,
+      "cited_by": 289,
+      "doi": "https://doi.org/10.1007/s11524-012-9782-7"
+    },
+    {
+      "title": "Connecting for Health: Global Vision, Local Insight",
+      "year": 2006,
+      "cited_by": 54,
+      "doi": "https://doi.org/10.1258/135763306776738585"
+    }
+  ],
+  "in_civictech_guide": false,
+  "replication_materials_available": false,
+  "published_performance_metrics": false,
+  "jurisdictional_scope": "United Kingdom",
+  "governance_model": "project_of_larger_org",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "political_bias_allegations": false,
+  "legal_regulatory_issues": false,
+  "government_partnerships": [
+    {
+      "partner": "UK Councils",
+      "nature": "Data platform subscription/usage",
+      "country": "United Kingdom"
+    }
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:31.975Z",
+  "pass3_at": "2026-03-09T23:22:43.363Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:46:43.104Z",
+  "pass5_jina_words": 382,
+  "pass5_changes": []
+}

@@ -1,0 +1,40 @@
+---
+title: Exclusion keyword bonus
+author: "@Asil"
+date: "2026-02-04"
+pr_url: https://github.com/nwspk/politech-awards-2026/pull/2
+version: v2
+pr_number: 2
+pr_status: merged
+top_project:
+  name: civicmatch.app
+  url: https://civicmatch.app
+  score: 100
+keywords:
+  - benefits
+  - housing
+  - refugee
+  - migrant
+  - asylum
+  - eviction
+  - homeless
+  - disability
+  - accessibility
+  - low-income
+---
+
+## Heuristic
+
+Random base score (1-100) + inclusion bonus based on exclusion keywords in URL
+
+## Rationale
+
+The exclusion-focused scoring heuristic is intentionally crude: a keyword-based bonus derived from the project URL. It's meant to make political values legible and contestable, not definitive. The heuristic biases scores toward projects addressing populations most likely to be excluded from government services (inspired by GovCamp digital inclusion discussions).
+
+## Data sources
+
+- project URL
+
+## Limitations
+
+Only matches keywords in the URL string itself, not in actual project content. Many relevant projects won't have these keywords in their URL.

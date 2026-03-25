@@ -1,0 +1,106 @@
+{
+  "url": "https://openparliament.ca/",
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "openparliament.ca",
+  "tagline": "Making it easy to find out what your representatives in Ottawa are up to — see what they're saying, what laws they're proposing, and track parliamentary debates and bills.",
+  "project_type": "Tool/Platform",
+  "org_type": "Grassroots/indie",
+  "issue_area": [
+    "parliamentary transparency",
+    "open government",
+    "civic engagement",
+    "open data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 - Peace, Justice and Strong Institutions",
+    "SDG 17 - Partnerships for the Goals"
+  ],
+  "decade_plus": true,
+  "geography": "national",
+  "countries_deployed": [
+    "Canada"
+  ],
+  "communities_served": [
+    "Canadian citizens",
+    "journalists",
+    "researchers",
+    "advocacy groups"
+  ],
+  "political_units": [
+    "House of Commons of Canada"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/michaelmulley/openparliament",
+  "github_stars": 306,
+  "last_commit_date": "2025-12-15",
+  "format": [
+    "website",
+    "API",
+    "bulk data download"
+  ],
+  "founded_year": 2010,
+  "team_size": "solo",
+  "funding_model": [
+    "volunteer",
+    "donations"
+  ],
+  "known_funders": [],
+  "funding_verified": false,
+  "last_funding_event": null,
+  "news_articles": [
+    "Globe and Mail coverage of parliamentary transparency tools",
+    "CBC News mentions of open government initiatives"
+  ],
+  "academic_citations": [
+    "Citations in Canadian political science and open government research"
+  ],
+  "awards": [],
+  "in_civictech_guide": true,
+  "wikipedia_page": false,
+  "policy_outcomes": [],
+  "causation_strength": null,
+  "outcome_methodology": null,
+  "replication_materials_available": true,
+  "preregistered_studies": [],
+  "published_performance_metrics": null,
+  "documented_limitations": [
+    "site noted as less comprehensive than Parliament's own site for most users now",
+    "AI-generated summaries of Hansard debates may contain inaccuracies or fabrications"
+  ],
+  "jurisdictional_scope": "national",
+  "failure_modes": [
+    "single-maintainer bus factor",
+    "scraping fragility if Parliament changes site structure"
+  ],
+  "governance_model": "individual",
+  "curation_criteria": "Automated scraping and indexing of official House of Commons data; user-contributed MP tracking features; computer-generated summaries of parliamentary debates",
+  "contributor_governance": "ad hoc; issues and PRs via GitHub",
+  "disparity_tracking": null,
+  "community_ownership": false,
+  "controversies": [],
+  "political_bias_allegations": null,
+  "legal_regulatory_issues": null,
+  "elections_used_in": [],
+  "government_partnerships": [],
+  "ai_involvement": "AI-generated summaries of Hansard debates (labelled with warning on site noting that summaries are computer-generated and may contain inaccuracies or total fabrications)",
+  "pass2_at": "2026-03-09T23:21:36.301Z",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:45:32.772Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 805,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Info on what your representatives are doing in Ottawa can be hard to find and use. We",
+    "scraped_final_url": "https://openparliament.ca/"
+  },
+  "pass5_at": "2026-03-10T01:00:22.895Z",
+  "pass5_jina_words": 505,
+  "pass5_changes": [
+    "tagline",
+    "documented_limitations",
+    "curation_criteria",
+    "ai_involvement"
+  ]
+}

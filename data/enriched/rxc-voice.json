@@ -1,0 +1,95 @@
+{
+  "url": "https://github.com/radicalxchange/rxc-voice",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:06.546Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1255,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "An app for decentralized democratic governance. Contribute to RadicalxChange/rxc-voice development by creating an account on GitHub.",
+    "scraped_final_url": "https://github.com/radicalxchange/rxc-voice"
+  },
+  "collected_at": "2026-03-09T23:19:20.124Z",
+  "collected_by": "collect-enriched-script",
+  "name": "RxC Voice",
+  "tagline": "An app for decentralized democratic governance leveraging Quadratic Funding, pol.is, and Quadratic Voting",
+  "project_type": "Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "participatory_democracy",
+    "govtech"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "United States"
+  ],
+  "communities_served": [
+    "citizens",
+    "researchers",
+    "decentralized governance practitioners"
+  ],
+  "political_units": [
+    "international"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/radicalxchange/rxc-voice",
+  "github_stars": 43,
+  "last_commit_date": "2024-01-15",
+  "format": [
+    "app",
+    "platform"
+  ],
+  "founded_year": 2021,
+  "team_size": "small",
+  "funding_model": [
+    "grants"
+  ],
+  "known_funders": [
+    "RadicalxChange Foundation"
+  ],
+  "funding_verified": false,
+  "dependency_risks": [
+    "Depends on pol.is infrastructure",
+    "Relies on Quadratic Voting and Quadratic Funding mechanisms"
+  ],
+  "academic_citations": [
+    {
+      "title": "Chronic disease outcomes after severe acute malnutrition in Malawian children (ChroSAM): a cohort study",
+      "year": 2016,
+      "cited_by": 198,
+      "doi": "https://doi.org/10.1016/s2214-109x(16)30133-4"
+    },
+    {
+      "title": "Well-Being and Mental Health of Students during the COVID-19 Pandemic",
+      "year": 2021,
+      "cited_by": 100,
+      "doi": "https://doi.org/10.1159/000519366"
+    },
+    {
+      "title": "An On-the-Road Comparison of In-Vehicle Navigation Assistance Systems",
+      "year": 1999,
+      "cited_by": 32,
+      "doi": "https://doi.org/10.1518/001872099779591222"
+    }
+  ],
+  "in_civictech_guide": false,
+  "replication_materials_available": true,
+  "jurisdictional_scope": "International with focus on decentralized governance experiments",
+  "governance_model": "project_of_larger_org",
+  "contributor_governance": "Open source contribution model with RadicalxChange Foundation oversight",
+  "community_ownership": false,
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:27.834Z",
+  "pass3_at": "2026-03-09T23:22:33.379Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:46:21.361Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": []
+}

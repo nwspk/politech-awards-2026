@@ -1,0 +1,129 @@
+{
+  "url": "https://site.urbanistai.com",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:14.820Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 965,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "UrbanistAI enables human-AI cooperation to reimagine the future of our cities.",
+    "scraped_final_url": "https://site.urbanistai.com/"
+  },
+  "collected_at": "2026-03-09T23:20:43.404Z",
+  "collected_by": "collect-enriched-script",
+  "name": "UrbanistAI",
+  "tagline": "The platform to reimagine the future of cities through collective intelligence and AI-powered participatory planning.",
+  "project_type": "Tool/Platform",
+  "org_type": "For-profit/social enterprise",
+  "issue_area": [
+    "participatory_democracy",
+    "govtech",
+    "civic_data",
+    "emerging_tech"
+  ],
+  "sdg_alignment": [
+    "SDG 11 – Sustainable Cities and Communities",
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "international",
+  "countries_deployed": [
+    "Switzerland",
+    "United Arab Emirates",
+    "United States"
+  ],
+  "communities_served": [
+    "citizens",
+    "policymakers",
+    "local governments",
+    "design studios",
+    "communication agencies"
+  ],
+  "political_units": [
+    "city",
+    "regional"
+  ],
+  "open_source": "no",
+  "format": [
+    "platform",
+    "app"
+  ],
+  "team_size": "small",
+  "funding_model": [
+    "subscriptions",
+    "grants"
+  ],
+  "known_funders": [
+    "UNDP Accelerator Labs",
+    "GIZ Data Lab"
+  ],
+  "funding_verified": "partial",
+  "dependency_risks": [
+    "Proprietary platform dependency",
+    "Reliance on custom AI model training"
+  ],
+  "news_articles": [
+    {
+      "headline": "ParticipatoryAI in UAE",
+      "outlet": "Bloomberg Cities",
+      "date": null,
+      "url": null
+    }
+  ],
+  "academic_citations": [
+    {
+      "title": "Vilniaus Miestas – Tarp Metaforos Ir Pragmatikos",
+      "year": 2013,
+      "cited_by": 6,
+      "doi": "https://doi.org/10.1080/13921630.2006.10697077"
+    },
+    {
+      "title": "Creating visualizations using generative AI to guide decision-making in street designs: A viewpoint",
+      "year": 2025,
+      "cited_by": 9,
+      "doi": "https://doi.org/10.1016/j.urbmob.2025.100104"
+    },
+    {
+      "title": "XX–XXI CENTURY LITHUANIAN URBAN DESIGNERS AND URBAN PLANNERS ON URBAN MODELLING IN WESTERN EUROPEAN CONTEXT / MIESTŲ MODELIAVIMAS XX–XXI A. LIETUVOS ARCHITEKTŲ URBANISTŲ AKIMIS VAKARŲ EUROPOS KONTEKSTE",
+      "year": 2016,
+      "cited_by": 1,
+      "doi": "https://doi.org/10.3846/mla.2016.865"
+    }
+  ],
+  "in_civictech_guide": true,
+  "policy_outcomes": [
+    {
+      "description": "Deployed in Zürich for Denk Züri Neu participatory planning campaign",
+      "link": null,
+      "year": null
+    }
+  ],
+  "causation_strength": "anecdotal",
+  "replication_materials_available": false,
+  "documented_limitations": [
+    "No published independent evaluation of impact",
+    "Limited transparency on AI model training and bias mitigation",
+    "No publicly available case study data or methodology"
+  ],
+  "jurisdictional_scope": "Multi-jurisdictional (cities and regions globally)",
+  "governance_model": "LLC",
+  "community_ownership": false,
+  "government_partnerships": [
+    {
+      "partner": "City of Zürich",
+      "nature": "Participatory planning platform deployment",
+      "country": "Switzerland"
+    }
+  ],
+  "ai_involvement": "Generative AI agents for design evaluation; custom trained AI models for policy visualization and ideation support",
+  "pass2_at": "2026-03-09T23:21:40.651Z",
+  "pass3_at": "2026-03-09T23:23:09.724Z",
+  "_sources": [
+    "openalex",
+    "civictech-guide-api"
+  ],
+  "pass5_at": "2026-03-10T01:00:49.404Z",
+  "pass5_jina_words": 247,
+  "pass5_changes": []
+}

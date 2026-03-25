@@ -1,0 +1,77 @@
+{
+  "url": "https://ladderhub.org/",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:36.450Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 2,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": null,
+    "scraped_final_url": "https://ladderhub.org/"
+  },
+  "collected_at": "2026-03-09T23:19:59.622Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Ladder Hub",
+  "tagline": "A platform for economic mobility and career advancement",
+  "project_type": "Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": "Economic Opportunity, Workforce Development, Career Advancement",
+  "sdg_alignment": [
+    "SDG 8: Decent Work and Economic Growth",
+    "SDG 10: Reduced Inequalities"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United States"
+  ],
+  "communities_served": "Low-income workers, underrepresented populations in high-skill careers",
+  "political_units": "National",
+  "open_source": "no",
+  "format": "Web Platform, Mobile Application",
+  "founded_year": 2019,
+  "funding_model": "Philanthropic, Grants",
+  "known_funders": [
+    "Omidyar Network",
+    "Google.org",
+    "Mellon Foundation"
+  ],
+  "funding_verified": true,
+  "news_articles": [
+    "https://www.forbes.com/sites/forbesnonprofitcouncil/2021/11/10/how-ladder-hub-is-helping-workers-climb-the-economic-ladder/"
+  ],
+  "academic_citations": [
+    {
+      "title": "The Smarthubs integration ladder: a conceptual model for the categorisation of shared mobility hubs",
+      "year": 2023,
+      "cited_by": 34,
+      "doi": "https://doi.org/10.1080/01441647.2023.2239499"
+    },
+    {
+      "title": "Optimal operation of energy hub considering reward-punishment ladder carbon trading and electrothermal demand coupling",
+      "year": 2023,
+      "cited_by": 39,
+      "doi": "https://doi.org/10.1016/j.energy.2023.129571"
+    },
+    {
+      "title": "Operation optimization of regional integrated energy system based on the modeling of electricity-thermal-natural gas network",
+      "year": 2019,
+      "cited_by": 236,
+      "doi": "https://doi.org/10.1016/j.apenergy.2019.113410"
+    }
+  ],
+  "in_civictech_guide": false,
+  "wikipedia_page": false,
+  "jurisdictional_scope": "United States",
+  "governance_model": "foundation",
+  "disparity_tracking": true,
+  "pass2_at": "2026-03-09T23:21:32.018Z",
+  "pass3_at": "2026-03-09T23:22:40.983Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:46:28.333Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": []
+}

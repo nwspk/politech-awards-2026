@@ -1,0 +1,117 @@
+{
+  "url": "https://the-list.uk",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:22.058Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 304,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Track and monitor changes to UK grant and foundation funding opportunities. Get instant notifications about trusts &amp; foundations changes, eligibility criteria, grant windows, and application deadlines. By Fundraisers, For Fundraisers.",
+    "scraped_final_url": "https://the-list.uk/"
+  },
+  "collected_at": "2026-03-09T22:00:00Z",
+  "collected_by": "nano-bot",
+  "name": "The List",
+  "tagline": "Tracking changes to grant-making behaviour of Trusts and Foundations in the UK — By Fundraisers, For Fundraisers",
+  "project_type": "Network",
+  "org_type": "Grassroots/indie",
+  "issue_area": [
+    "nonprofit funding",
+    "philanthropy",
+    "civil society resourcing"
+  ],
+  "sdg_alignment": [
+    "SDG 17 - Partnerships for the Goals"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "UK"
+  ],
+  "communities_served": [
+    "UK nonprofits",
+    "fundraisers",
+    "charities"
+  ],
+  "political_units": [
+    "England",
+    "Scotland",
+    "Wales",
+    "Northern Ireland"
+  ],
+  "open_source": "no",
+  "format": [
+    "web platform",
+    "email notifications"
+  ],
+  "founded_year": 2024,
+  "team_size": "small",
+  "funding_model": [
+    "donations",
+    "volunteer-run"
+  ],
+  "funding_verified": false,
+  "dependency_risks": [
+    "maintained by single individual (Jo Jeffery) with one technical collaborator; no institutional backing"
+  ],
+  "news_articles": [
+    {
+      "headline": "Where's your next grant coming from? Insights from our justice, equity and digital funder audit",
+      "outlet": "Catalyst / Medium",
+      "date": "2025-02-01",
+      "url": "https://medium.com/wethecatalysts/wheres-your-next-grant-coming-from-insights-from-our-justice-equity-and-digital-funder-audit-3ca64ae2136e"
+    }
+  ],
+  "academic_citations": [
+    {
+      "title": "IUCN Red List of Threatened Species",
+      "year": 2012,
+      "cited_by": 12737,
+      "doi": "https://doi.org/10.5860/choice.49-6872"
+    },
+    {
+      "title": "Enrichr: interactive and collaborative HTML5 gene list enrichment analysis tool",
+      "year": 2013,
+      "cited_by": 8122,
+      "doi": "https://doi.org/10.1186/1471-2105-14-128"
+    },
+    {
+      "title": "The Delphi List",
+      "year": 1998,
+      "cited_by": 2362,
+      "doi": "https://doi.org/10.1016/s0895-4356(98)00131-0"
+    }
+  ],
+  "in_civictech_guide": false,
+  "wikipedia_page": false,
+  "replication_materials_available": false,
+  "documented_limitations": [
+    "Relies on community-submitted data with no formal verification process",
+    "Single-person maintenance creates sustainability risk",
+    "No independent audit of data accuracy"
+  ],
+  "jurisdictional_scope": "National (UK)",
+  "failure_modes": [
+    "single-person dependency risk",
+    "accuracy depends on community-submitted data",
+    "no formal fact-checking process stated"
+  ],
+  "governance_model": "individual",
+  "curation_criteria": "Changes to UK Trust and Foundation grant-making behaviour, submitted by fundraisers",
+  "contributor_governance": "Open community submissions; no formal governance structure stated",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:42.231Z",
+  "pass3_at": "2026-03-09T23:23:13.171Z",
+  "_sources": [
+    "openalex"
+  ],
+  "policy_outcomes": "Provides instant notifications of changes to funder strategies, eligibility criteria, grant windows, and application deadlines; tracks confirmed funding changes from UK Trusts and Foundations",
+  "pass5_at": "2026-03-10T01:00:28.887Z",
+  "pass5_jina_words": 453,
+  "pass5_changes": [
+    "policy_outcomes"
+  ]
+}

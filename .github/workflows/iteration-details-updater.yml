@@ -1,0 +1,78 @@
+name: Iteration Details Updater
+
+on:
+  pull_request:
+    types: [opened, ready_for_review, labeled]
+
+jobs:
+  iteration-details-updater:
+    if: >
+      github.event.pull_request.draft == false &&
+      (
+        (github.event.action == 'labeled' && github.event.label.name == 'run-bot') ||
+        (github.event.action == 'labeled' && github.event.label.name == 'iteration') ||
+        (
+          (github.event.action == 'opened' || github.event.action == 'ready_for_review') &&
+          contains(github.event.pull_request.labels.*.name, 'iteration')
+        )
+      )
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.head_ref }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run iteration details updater
+        env:
+          PR_BODY: ${{ github.event.pull_request.body }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+        run: npx tsx scripts/bots/iteration-details-updater.ts
+
+      - name: Sync iterations log
+        run: npx tsx scripts/bots/sync-iterations-log.ts
+
+      - name: Sync README summary
+        run: npx tsx scripts/bots/sync-readme.ts
+
+      # Skip push for fork PRs — GITHUB_TOKEN cannot write to a contributor's fork
+      - name: Commit and push updates
+        if: github.repository == github.event.pull_request.head.repo.full_name
+        run: |
+          git config user.name "iteration-details-updater[bot]"
+          git config user.email "iteration-details-updater[bot]@users.noreply.github.com"
+          git add iterations.json iterations/ README.md docs/logs/iterations-log.md
+          git diff --staged --quiet || git commit -m "bot: update iteration metadata and logs"
+          git push
+
+      - name: Post results comment
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let body = fs.readFileSync('bot-comment.md', 'utf-8');
+            const isFork = context.payload.pull_request.head.repo.full_name !== context.repo.owner + '/' + context.repo.repo;
+            if (isFork) {
+              body += '\n\n---\n_This PR is from a fork. The updater read your results and posted above but did not push commits (GitHub does not allow writing to fork branches)._';
+            }
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.pull_request.number,
+              body
+            });

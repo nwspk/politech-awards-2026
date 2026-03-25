@@ -1,0 +1,114 @@
+{
+  "url": "https://mapit.mysociety.org",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:46.498Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 456,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "MapIt: a web service that maps postcodes and geographical points to administrative areas.",
+    "scraped_final_url": "https://mapit.mysociety.org/"
+  },
+  "collected_at": "2026-03-09T23:20:08.232Z",
+  "collected_by": "collect-enriched-script",
+  "name": "MapIt",
+  "tagline": "Match postcodes and geographical points to administrative areas",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "govtech",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": true,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "developers",
+    "campaigners",
+    "government agencies",
+    "nonprofits",
+    "citizens"
+  ],
+  "political_units": [
+    "federal",
+    "state"
+  ],
+  "open_source": "partial",
+  "github_url": "https://github.com/mysociety/mapit",
+  "github_stars": 287,
+  "last_commit_date": "2025-12-15",
+  "format": [
+    "api",
+    "platform"
+  ],
+  "founded_year": 2009,
+  "team_size": "small",
+  "funding_model": [
+    "subscriptions",
+    "donations"
+  ],
+  "known_funders": [
+    "mySociety",
+    "UK Government Digital Service"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2023",
+  "dependency_risks": [
+    "Reliance on UK postcode and boundary data accuracy",
+    "Dependency on mySociety organizational sustainability"
+  ],
+  "news_articles": [
+    "https://www.mysociety.org/2009/introducing-mapit/",
+    "https://www.mysociety.org/blog/mapit-10-years-on/"
+  ],
+  "academic_citations": [
+    "Civic Tech and the Reinvention of Democracy (2016) - references MapIt as foundational civic data infrastructure"
+  ],
+  "awards": [
+    "Recognized as key civic infrastructure by UK Government Digital Service"
+  ],
+  "in_civictech_guide": true,
+  "policy_outcomes": [
+    {
+      "description": "UK Government uses MapIt to match users with their local council for services like recycling or allotment applications",
+      "link": null,
+      "year": 2010
+    }
+  ],
+  "causation_strength": "anecdotal",
+  "outcome_methodology": "Service integration tracking - MapIt API calls from government services",
+  "replication_materials_available": true,
+  "published_performance_metrics": "API uptime and response time metrics available on mySociety documentation",
+  "documented_limitations": [
+    "Limited to UK administrative boundaries",
+    "Dependent on Ordnance Survey data licensing",
+    "Postcode accuracy varies by region"
+  ],
+  "jurisdictional_scope": "United Kingdom",
+  "failure_modes": [
+    "Service outages during boundary updates",
+    "Data lag when local government reorganizations occur"
+  ],
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "mySociety project governance - open source contributions welcome with code review process",
+  "contributor_governance": "Community contributions via GitHub pull requests, reviewed by mySociety team",
+  "community_ownership": "Community-driven development with open source contributions, but owned and maintained by mySociety",
+  "government_partnerships": [
+    {
+      "partner": "UK Government",
+      "nature": "Service integration for local council matching",
+      "country": "United Kingdom"
+    }
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:34.577Z",
+  "pass5_at": "2026-03-10T01:02:04.872Z",
+  "pass5_jina_words": 390,
+  "pass5_changes": []
+}

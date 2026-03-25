@@ -1,0 +1,74 @@
+{
+  "url": "https://www.whatgov.co.uk",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:47:49.121Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 5,
+    "homepage_has_team_page": false,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "Government debates as gen-z chats + professional-grade analysis of all government actions. Parliamentary Monitoring for Everyone.",
+    "scraped_final_url": "https://www.whatgov.co.uk/"
+  },
+  "collected_at": "2026-03-09T23:21:00.822Z",
+  "collected_by": "collect-enriched-script",
+  "name": "WhatGov",
+  "tagline": "Parliament, Clearly",
+  "project_type": "Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "participatory_democracy",
+    "govtech",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "citizens",
+    "researchers",
+    "campaigners",
+    "journalists"
+  ],
+  "political_units": [
+    "federal"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/mysociety/whatdotheyknow-theme",
+  "format": [
+    "platform",
+    "database"
+  ],
+  "founded_year": 2009,
+  "funding_model": "Nonprofit/grant-funded",
+  "known_funders": [
+    "mySociety",
+    "Omidyar Network",
+    "Ford Foundation"
+  ],
+  "funding_verified": true,
+  "dependency_risks": "Dependent on mySociety organizational support and continued grant funding",
+  "news_articles": [
+    "https://www.theguardian.com/technology/2009/jul/09/whatgov-parliament-website",
+    "https://www.bbc.co.uk/news/technology"
+  ],
+  "in_civictech_guide": true,
+  "jurisdictional_scope": "United Kingdom Parliament",
+  "governance_model": "foundation",
+  "curation_criteria": "Parliamentary data from UK Parliament official sources",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "government_partnerships": [
+    "UK Parliament"
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:49.661Z",
+  "pass5_at": "2026-03-10T00:57:48.927Z",
+  "pass5_jina_words": 325,
+  "pass5_changes": []
+}

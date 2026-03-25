@@ -1,0 +1,99 @@
+{
+  "url": "https://github.com/propublica/django-collaborative",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:44:05.867Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 1289,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": false,
+    "scraped_description": "ProPublica&#39;s collaborative tip-gathering framework. Import and manage CSV, Google Sheets and Screendoor data with ease. - propublica/django-collaborative",
+    "scraped_final_url": "https://github.com/propublica/django-collaborative"
+  },
+  "collected_at": "2026-03-09T23:19:39.054Z",
+  "collected_by": "collect-enriched-script",
+  "name": "django-collaborative",
+  "tagline": "ProPublica's collaborative tip-gathering framework for importing and managing CSV, Google Sheets and Screendoor data",
+  "project_type": "Tool/Platform",
+  "org_type": "Media org",
+  "issue_area": [
+    "media_journalism",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": false,
+  "geography": "national",
+  "countries_deployed": [
+    "United States"
+  ],
+  "communities_served": [
+    "journalists",
+    "media organizations",
+    "researchers"
+  ],
+  "political_units": [
+    "federal"
+  ],
+  "open_source": "yes",
+  "github_url": "https://github.com/propublica/django-collaborative",
+  "github_stars": 100,
+  "last_commit_date": "2019-12-19",
+  "format": [
+    "platform",
+    "api"
+  ],
+  "founded_year": 2013,
+  "team_size": "small",
+  "funding_model": [
+    "grants"
+  ],
+  "known_funders": [
+    "ProPublica"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "ongoing organizational support",
+  "dependency_risks": [
+    "Django framework maintenance",
+    "Python dependency updates"
+  ],
+  "academic_citations": [
+    {
+      "title": "Lean GHTorrent: GitHub data on demand",
+      "year": 2014,
+      "cited_by": 170,
+      "doi": "https://doi.org/10.1145/2597073.2597126"
+    },
+    {
+      "title": "HydroShare: Advancing Collaboration through Hydrologic Data and Model Sharing",
+      "year": 2014,
+      "cited_by": 84,
+      "doi": "https://doi.org/10.13140/2.1.4431.6801"
+    },
+    {
+      "title": "An Improved Online Book Recommender System using Collaborative Filtering Algorithm",
+      "year": 2018,
+      "cited_by": 33,
+      "doi": "https://doi.org/10.5120/ijca2018917193"
+    }
+  ],
+  "in_civictech_guide": false,
+  "wikipedia_page": false,
+  "replication_materials_available": true,
+  "jurisdictional_scope": "United States",
+  "governance_model": "project_of_larger_org",
+  "curation_criteria": "Open source contribution guidelines via GitHub; managed by ProPublica engineering team",
+  "contributor_governance": "ProPublica-managed; open source contributions accepted via pull requests",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:28.034Z",
+  "pass3_at": "2026-03-09T23:22:32.723Z",
+  "_sources": [
+    "openalex"
+  ],
+  "pass5_at": "2026-03-10T00:46:21.127Z",
+  "pass5_jina_words": 19,
+  "pass5_changes": []
+}

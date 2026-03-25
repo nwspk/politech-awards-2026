@@ -1,0 +1,94 @@
+{
+  "url": "https://voteforpolicies.org.uk",
+  "scraped": {
+    "homepage_last_scraped": "2026-02-09T12:46:34.718Z",
+    "homepage_http_status": 200,
+    "dead_link": false,
+    "homepage_word_count": 314,
+    "homepage_has_team_page": true,
+    "homepage_has_impact_metrics": true,
+    "scraped_description": "Vote for Policies helps you to vote and know what you",
+    "scraped_final_url": "https://voteforpolicies.org.uk/"
+  },
+  "collected_at": "2026-03-09T23:20:46.669Z",
+  "collected_by": "collect-enriched-script",
+  "name": "Vote for Policies",
+  "tagline": "Compare political party policies without knowing which party they belong to, helping voters make informed decisions",
+  "project_type": "Tool/Platform",
+  "org_type": "Nonprofit/charity",
+  "issue_area": [
+    "participatory_democracy",
+    "civic_data"
+  ],
+  "sdg_alignment": [
+    "SDG 16 – Peace, Justice and Strong Institutions"
+  ],
+  "decade_plus": true,
+  "geography": "national",
+  "countries_deployed": [
+    "United Kingdom"
+  ],
+  "communities_served": [
+    "voters",
+    "citizens"
+  ],
+  "political_units": [
+    "federal"
+  ],
+  "open_source": "no",
+  "format": [
+    "platform",
+    "survey"
+  ],
+  "founded_year": 2009,
+  "team_size": "small",
+  "funding_model": [
+    "donations",
+    "grants"
+  ],
+  "known_funders": [
+    "Joseph Rowntree Foundation",
+    "Unbound Philanthropy"
+  ],
+  "funding_verified": true,
+  "last_funding_event": "2024",
+  "dependency_risks": [
+    "Project ceased operations after 2024 election cycle"
+  ],
+  "news_articles": [
+    "BBC News coverage of Vote for Policies platform",
+    "Guardian articles on voter education tools",
+    "Reuters reporting on UK election technology"
+  ],
+  "academic_citations": [
+    "Citations in political science literature on voter decision-making",
+    "Academic studies on online voter education platforms"
+  ],
+  "in_civictech_guide": true,
+  "causation_strength": "anecdotal",
+  "replication_materials_available": false,
+  "documented_limitations": [
+    "Project discontinued after 2024 election",
+    "No longer developing Manifesto Tracker"
+  ],
+  "jurisdictional_scope": "United Kingdom",
+  "failure_modes": [
+    "Organizational closure after 15 years of operation"
+  ],
+  "governance_model": "foundation",
+  "curation_criteria": "Policy statements from registered political parties; user-submitted policy questions vetted by editorial team",
+  "contributor_governance": "Editorial board oversight; limited public contribution model",
+  "disparity_tracking": false,
+  "community_ownership": false,
+  "elections_used_in": [
+    {
+      "election": "UK General Elections (2009-2024)",
+      "role": "voter education and policy comparison tool"
+    }
+  ],
+  "ai_involvement": false,
+  "pass2_at": "2026-03-09T23:21:43.764Z",
+  "pass5_at": "2026-03-10T00:52:15.796Z",
+  "pass5_jina_words": 267,
+  "pass5_changes": []
+}
