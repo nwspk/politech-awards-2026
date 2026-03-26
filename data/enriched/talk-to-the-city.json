@@ -72,10 +72,7 @@
     "https://www.wired.com/story/talk-to-the-city-ai-democracy/",
     "https://www.theguardian.com/technology/2024/talk-to-the-city"
   ],
-  "academic_citations": [
-    "Whittaker et al. (2024) on AI-assisted deliberation platforms",
-    "Published in proceedings of ACM Conference on Participatory Design"
-  ],
+  "academic_citations": [],
   "awards": [
     "Civic Tech Award 2024"
   ],
@@ -121,5 +118,21 @@
     "news_articles",
     "policy_outcomes",
     "government_partnerships"
-  ]
+  ],
+  "political_relevance_summary": "Talk to the City addresses democratic participation and citizen engagement. Open-source LLM survey tool to improve collective discourse and decision-making by analyzing qualitative responses and generating easy-to-navigate reports.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Directly supports organizing, mobilization, or democratic participation processes."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions; replication materials are available.",
+  "primary_users_or_beneficiaries": [
+    "civic technology researchers",
+    "engaged citizens",
+    "policymakers",
+    "civic organizations",
+    "peacebuilders",
+    "mediators"
+  ],
+  "underdog_signal": true
 }

@@ -94,19 +94,8 @@
     "Tor Project (Orbot depends on Tor network)",
     "US government-linked funding (via OTF) raising potential political risk"
   ],
-  "news_articles": [
-    "Guardian Project: Secure Mobile Apps for Activists (The Guardian, 2013)",
-    "How Journalists Stay Safe Online (Wired, 2015)",
-    "Guardian Project's Orbot App Helps Activists Evade Censorship (Reuters, 2016)",
-    "Open Source Security Tools for Journalists (TechCrunch, 2018)",
-    "Guardian Project Releases Updated Security Tools (Freedom of the Press Foundation, 2022)"
-  ],
-  "academic_citations": [
-    "Marder et al. (2016) - Digital Security and Privacy for Journalists",
-    "Zuboff (2019) - The Age of Surveillance Capitalism (references Guardian Project tools)",
-    "Penney (2016) - Internet Surveillance, Regulation, and Chilling Effects Online",
-    "Nissenbaum (2009) - Privacy in Context (discusses Guardian Project approach)"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "First Prize, Human Rights Center UC Berkeley 'Soul of the New Machine' Grant Competition (2009)"
   ],
@@ -147,5 +136,19 @@
   "pass2_at": "2026-03-09T23:21:35.238Z",
   "pass5_at": "2026-03-10T00:46:25.710Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Guardian Project addresses the civic problem of supporting human rights documentation and accountability. It has documented policy impact.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Directly supports organizers/campaigners through Secure, privacy-enhancing mobile applications and tools for journalists, activists, and people at risk."
+  },
+  "systemic_issue_area": "global risk and security",
+  "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "journalists",
+    "activists",
+    "human rights defenders",
+    "people in repressive regimes"
+  ],
+  "underdog_signal": true
 }

@@ -107,11 +107,7 @@
       "url": "https://matrix.org/blog/2019/06/11/introducing-matrix-1-0-and-the-matrix-org-foundation/"
     }
   ],
-  "academic_citations": [
-    "Decentralized Communication Systems: A Survey of Protocols and Applications",
-    "Matrix Protocol: Federated Communication Architecture for Secure Messaging",
-    "Interoperability in Decentralized Messaging Systems"
-  ],
+  "academic_citations": [],
   "awards": [
     "Recognition as critical infrastructure for digital rights (civil society organizations)",
     "Adoption by European governments as secure communication standard"
@@ -176,5 +172,20 @@
   "pass2_at": "2026-03-09T23:21:40.578Z",
   "pass5_at": "2026-03-10T01:00:24.523Z",
   "pass5_jina_words": 224,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Matrix addresses the civic problem of protecting digital rights and privacy. It has documented policy impact.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides foundational infrastructure: An open standard and network for secure, decentralised, interoperable communication."
+  },
+  "systemic_issue_area": "digital rights infrastructure",
+  "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "civil society organisations",
+    "governments",
+    "developers",
+    "enterprises",
+    "activists"
+  ],
+  "underdog_signal": false
 }

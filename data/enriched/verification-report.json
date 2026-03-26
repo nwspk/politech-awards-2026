@@ -7538,5 +7538,16 @@
       ],
       "passLevel": 2
     }
-  ]
+  ],
+  "political_relevance_summary": " addresses civic technology through technology-enabled civic innovation.",
+  "movement_building_utility": {
+    "classification": "indirect_or_none",
+    "notes": "No clear direct movement-building utility identified"
+  },
+  "systemic_issue_area": "civic technology and participation",
+  "generalizability_notes": "Generalizability unclear; would depend on the specific regulatory and data environment of the target jurisdiction.",
+  "primary_users_or_beneficiaries": [
+    "general public"
+  ],
+  "underdog_signal": false
 }

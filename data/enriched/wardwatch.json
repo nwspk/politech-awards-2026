@@ -100,5 +100,19 @@
   ],
   "pass5_at": "2026-03-10T00:52:17.923Z",
   "pass5_jina_words": 69,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "WardWatch addresses government technology and public service delivery. AI-powered deep research on councillor performance.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides information, data, or research for civic purposes"
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Limited to United Kingdom context currently; approach could potentially be replicated in similar jurisdictions with adaptation to local data sources and regulations.",
+  "primary_users_or_beneficiaries": [
+    "citizens",
+    "researchers",
+    "campaigners",
+    "voters"
+  ],
+  "underdog_signal": true
 }

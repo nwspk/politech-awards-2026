@@ -50,13 +50,8 @@
     "Zenodo repository dependency (CERN-operated)",
     "Reliance on third-party data sources (Crossref, Microsoft Academic, Unpaywall, Europe PMC, Open Access Button)"
   ],
-  "news_articles": [
-    "Open Access Button coverage of Share Your Paper initiative",
-    "Scholarly Kitchen discussion of open access tools"
-  ],
-  "academic_citations": [
-    "Citations in open access and scholarly communication literature"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [],
   "in_civictech_guide": false,
   "wikipedia_page": null,
@@ -90,5 +85,18 @@
     "homepage_has_impact_metrics": false,
     "scraped_description": "We can help you make your paper Open Access, for free, wherever you publish. It’s legal and takes just minutes. Join millions of researchers sharing their papers freely with colleagues and the public.",
     "scraped_final_url": "https://shareyourpaper.org/"
-  }
+  },
+  "political_relevance_summary": "Shareyourpaper.org addresses civic data access and transparency. Simplest way to legally make academic papers freely available on Google Scholar, Web of Science, and personal sites.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides digital rights infrastructure or privacy-preserving technology foundations."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "civic technology researchers",
+    "academics",
+    "librarians"
+  ],
+  "underdog_signal": true
 }

@@ -61,10 +61,7 @@
     "Reliance on accurate, up-to-date UK benefits data",
     "Changes to welfare policy could require frequent updates"
   ],
-  "news_articles": [
-    "Turn2us Benefits Calculator helps millions find unclaimed benefits",
-    "Charity warns of benefits gap as calculator usage surges"
-  ],
+  "news_articles": [],
   "academic_citations": [
     {
       "title": "Democratising Measurement: or Why Thick Concepts Call for Coproduction",
@@ -107,5 +104,20 @@
   ],
   "pass5_at": "2026-03-10T00:47:20.370Z",
   "pass5_jina_words": 596,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Turn2us Benefits Calculator addresses civic data access and transparency. Online tool to help people identify welfare benefits they may be entitled to.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides civic data or journalism infrastructure"
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Limited to United Kingdom context currently; approach could potentially be replicated in similar jurisdictions with adaptation to local data sources and regulations.",
+  "primary_users_or_beneficiaries": [
+    "citizens",
+    "low-income households",
+    "benefit claimants",
+    "social workers",
+    "advisors"
+  ],
+  "underdog_signal": false
 }

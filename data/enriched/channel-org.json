@@ -46,26 +46,7 @@
   "last_funding_event": null,
   "dependency_risks": "Relies on open-source dependencies for content management and community features; sustainability dependent on continued funding from foundations",
   "news_articles": [],
-  "academic_citations": [
-    {
-      "title": "Anti-stigma films and medical students' attitudes towards mental illness and psychiatry: randomised controlled trial",
-      "year": 2008,
-      "cited_by": 72,
-      "doi": "https://doi.org/10.1192/pb.bp.107.017152"
-    },
-    {
-      "title": "Unimolecular Transmembrane Na <sup>+</sup> Channels Constructed by Pore-Forming Helical Polymers with a 2.3 Å Aperture",
-      "year": 2021,
-      "cited_by": 28,
-      "doi": "https://doi.org/10.31635/ccschem.021.202101144"
-    },
-    {
-      "title": "Chiny dla średniozaawansowanych",
-      "year": 2019,
-      "cited_by": 0,
-      "doi": "https://doi.org/10.15804/ap201913"
-    }
-  ],
+  "academic_citations": [],
   "awards": [],
   "in_civictech_guide": false,
   "wikipedia_page": null,
@@ -106,5 +87,18 @@
   },
   "pass5_at": "2026-03-10T00:47:20.875Z",
   "pass5_jina_words": 95,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses barriers to meaningful citizen participation in democratic decision-making by providing tools for public engagement and deliberation.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Platform enabling direct democratic participation or civic engagement."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (3 countries), demonstrating cross-context adaptability.",
+  "primary_users_or_beneficiaries": [
+    "organizations",
+    "content creators",
+    "communities"
+  ],
+  "underdog_signal": true
 }

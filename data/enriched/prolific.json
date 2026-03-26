@@ -60,17 +60,8 @@
   "funding_verified": true,
   "last_funding_event": "Series A funding (2019)",
   "dependency_risks": "Platform dependency - users rely on Prolific's infrastructure for participant recruitment; potential service disruption risks; data privacy compliance requirements across multiple jurisdictions",
-  "news_articles": [
-    "Prolific raises Series A funding for research data platform",
-    "How Prolific is changing academic research recruitment",
-    "Ai2 reduced human data collection from weeks to hours with Prolific, building state-of-the-art multimodal AI models faster",
-    "Columbia University researchers used Prolific to explore how people make choices when fighting climate change",
-    "The Collective Intelligence Project used Prolific to bring voices from 70+ countries into AI governance"
-  ],
-  "academic_citations": [
-    "Prolific has been cited in numerous peer-reviewed studies on crowdsourcing and research methodology",
-    "Used extensively in psychology, behavioral economics, and AI safety research"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "in_civictech_guide": false,
   "policy_outcomes": [
     {
@@ -117,5 +108,20 @@
   "pass5_changes": [
     "news_articles",
     "policy_outcomes"
-  ]
+  ],
+  "political_relevance_summary": "Prolific addresses civic data access and transparency. Easily collect high-quality data from real people.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides data, research, or educational resources for civic engagement."
+  },
+  "systemic_issue_area": "algorithmic accountability",
+  "generalizability_notes": "Already deployed across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "ai/ml developers",
+    "civic technology researchers",
+    "academic institutions",
+    "organizations",
+    "participants"
+  ],
+  "underdog_signal": false
 }

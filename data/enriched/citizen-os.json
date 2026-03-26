@@ -65,14 +65,8 @@
     "Reliance on volunteer contributors for maintenance",
     "Limited commercial revenue streams"
   ],
-  "news_articles": [
-    "Citizen OS platform enables participatory democracy in Estonia (2019)",
-    "Open-source civic tech platform expands across Europe (2021)"
-  ],
-  "academic_citations": [
-    "Participatory democracy platforms: A systematic review (2022)",
-    "Digital tools for civic engagement in the Baltic region (2020)"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "Best Civic Tech Platform - European Civic Tech Awards (2018)"
   ],
@@ -111,5 +105,20 @@
   "pass2_at": "2026-03-09T23:21:23.778Z",
   "pass5_at": "2026-03-10T00:42:47.748Z",
   "pass5_jina_words": 695,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses barriers to meaningful citizen participation in democratic decision-making by providing tools for public engagement and deliberation.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Enables direct citizen participation in democratic processes."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (multiple countries), demonstrating cross-context adaptability.",
+  "primary_users_or_beneficiaries": [
+    "organizations",
+    "communities",
+    "NGOs",
+    "political parties",
+    "local government administrators"
+  ],
+  "underdog_signal": true
 }

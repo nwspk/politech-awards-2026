@@ -68,13 +68,8 @@
     "reliance on founder philanthropic capital",
     "Common platform not yet publicly launched at scale"
   ],
-  "news_articles": [
-    "TechCrunch coverage of One Project's economic democracy focus",
-    "Stanford Social Innovation Review articles on participatory grantmaking"
-  ],
-  "academic_citations": [
-    "Citations in participatory economics and democratic governance literature"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "in_civictech_guide": true,
   "wikipedia_page": false,
   "replication_materials_available": false,
@@ -92,5 +87,19 @@
   "pass2_at": "2026-03-09T23:21:36.258Z",
   "pass5_at": "2026-03-10T00:59:52.657Z",
   "pass5_jina_words": 257,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "One Project addresses gaps in democratic participation by providing tools or platforms that enable citizens and communities to engage more directly in governance and decision-making processes.",
+  "movement_building_utility": {
+    "classification": "indirect_or_none",
+    "notes": "One Project's primary function is not directly oriented toward civic organizing, advocacy, or movement infrastructure."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "High generalizability. One Project is open source and already deployed across multiple countries/jurisdictions, making replication straightforward for other contexts.",
+  "primary_users_or_beneficiaries": [
+    "economic democracy organisations",
+    "participatory funds",
+    "community-led organisations",
+    "solidarity economy networks"
+  ],
+  "underdog_signal": false
 }

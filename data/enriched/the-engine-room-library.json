@@ -69,13 +69,8 @@
     "parent organisation (The Engine Room) funding sustainability",
     "content may become stale if not actively maintained"
   ],
-  "news_articles": [
-    "The Engine Room featured in Guardian coverage of responsible data practices",
-    "TechCrunch coverage of The Engine Room's data activism work"
-  ],
-  "academic_citations": [
-    "Cited in academic literature on responsible data and human rights technology"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "in_civictech_guide": true,
   "wikipedia_page": false,
   "replication_materials_available": true,
@@ -96,5 +91,20 @@
   "pass2_at": "2026-03-09T23:21:32.568Z",
   "pass5_at": "2026-03-10T00:46:29.114Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "The Engine Room Library addresses civic technology. Open, multilingual research guides on using data and technology for social change.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides information, data, or research for civic purposes"
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Highly generalizable — already deployed internationally and open source, facilitating adoption in new contexts.",
+  "primary_users_or_beneficiaries": [
+    "civil society organisations",
+    "human rights defenders",
+    "NGOs",
+    "activists",
+    "researchers"
+  ],
+  "underdog_signal": true
 }

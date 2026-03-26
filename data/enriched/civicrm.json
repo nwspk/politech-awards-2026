@@ -75,13 +75,8 @@
     "depends on underlying CMS platforms (Drupal, WordPress, etc.)",
     "community-funded sustainability model"
   ],
-  "news_articles": [
-    "CiviCRM adoption by nonprofits and advocacy organizations (multiple outlets)",
-    "Open source CRM solutions for civil society organizations"
-  ],
-  "academic_citations": [
-    "Citations in nonprofit technology and open source governance literature"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "Recognition as leading open source CRM for nonprofits"
   ],
@@ -147,5 +142,19 @@
   ],
   "pass5_at": "2026-03-10T00:43:29.644Z",
   "pass5_jina_words": 530,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses barriers to meaningful citizen participation in democratic decision-making by providing tools for public engagement and deliberation.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Provides direct tools for organizing, campaigning, or mobilizing civic action."
+  },
+  "systemic_issue_area": "civic advocacy infrastructure",
+  "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (10 countries), demonstrating cross-context adaptability.",
+  "primary_users_or_beneficiaries": [
+    "nonprofits",
+    "NGOs",
+    "advocacy organizations",
+    "civic sector organizations"
+  ],
+  "underdog_signal": false
 }

@@ -55,14 +55,7 @@
     "Reliance on volunteer network of 150+ firefighters and dispatchers",
     "Dependency on radio scanner access and official data sources"
   ],
-  "news_articles": [
-    {
-      "headline": null,
-      "outlet": "Wired Magazine",
-      "date": null,
-      "url": null
-    }
-  ],
+  "news_articles": [],
   "academic_citations": [
     {
       "title": "Sleep at sea: a diary study of the effects of unattended machinery space watch duty",
@@ -99,5 +92,19 @@
   ],
   "pass5_at": "2026-03-10T00:56:56.671Z",
   "pass5_jina_words": 522,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Watch Duty addresses civic data access and transparency. Real-time wildfire maps and alerts powered by volunteer first responders.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Directly supports organizing, mobilization, or campaign activities"
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Limited to United States context currently; approach could potentially be replicated in similar jurisdictions with adaptation to local data sources and regulations.",
+  "primary_users_or_beneficiaries": [
+    "residents in wildfire-prone areas",
+    "first responders",
+    "firefighters",
+    "dispatchers"
+  ],
+  "underdog_signal": false
 }

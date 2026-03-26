@@ -88,5 +88,20 @@
     "tagline",
     "communities_served",
     "format"
-  ]
+  ],
+  "political_relevance_summary": "Relational Tech Project addresses democratic participation and citizen engagement. Tools crafted by, with, and for neighbors - made to help us care for and trust each other.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Directly supports organizing, mobilization, or democratic participation processes."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "grassroots organizers",
+    "civic technologists",
+    "digital rights advocates",
+    "neighborhood builders",
+    "relational technologists"
+  ],
+  "underdog_signal": true
 }

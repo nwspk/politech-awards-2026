@@ -128,5 +128,19 @@
   "pass3_at": "2026-03-09T23:23:18.632Z",
   "_sources": [
     "openalex"
-  ]
+  ],
+  "political_relevance_summary": "Addresses barriers to meaningful citizen participation in democratic decision-making by providing tools for public engagement and deliberation.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Provides direct tools for organizing, campaigning, or mobilizing civic action."
+  },
+  "systemic_issue_area": "civic advocacy infrastructure",
+  "generalizability_notes": "Already deployed across multiple jurisdictions (4 countries), demonstrating cross-context adaptability.",
+  "primary_users_or_beneficiaries": [
+    "citizens seeking to participate in local democratic processes",
+    "political and social campaigners",
+    "legal advocates",
+    "civil rights organizations"
+  ],
+  "underdog_signal": false
 }

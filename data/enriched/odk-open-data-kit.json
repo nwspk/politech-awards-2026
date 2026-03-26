@@ -68,16 +68,8 @@
     "Reliance on volunteer contributors",
     "Dependency on external funding sources"
   ],
-  "news_articles": [
-    "Guardian: ODK used in election monitoring across Africa",
-    "TechCrunch: Open Data Kit expands humanitarian data collection",
-    "Wired: How ODK is democratizing data collection in developing nations"
-  ],
-  "academic_citations": [
-    "Brunette et al. (2012) - Open Data Kit: Tools to Build Information Services for Developing Regions",
-    "Anokwa et al. (2009) - Design of a Phone-based Clinical Decision Support System for Resource-limited Settings",
-    "Multiple peer-reviewed studies on mobile data collection in public health and development"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "Recognition as leading open-source civic tech tool",
     "Multiple humanitarian technology awards"
@@ -121,5 +113,21 @@
   "pass2_at": "2026-03-09T23:21:30.591Z",
   "pass5_at": "2026-03-10T00:46:16.200Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "ODK (Open Data Kit) addresses the civic need for government transparency and open data access, enabling citizens, journalists, and researchers to hold public institutions accountable.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "ODK (Open Data Kit) provides foundational data infrastructure, standards, or platforms that other civic technology efforts build upon."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "High generalizability. ODK (Open Data Kit) is open source and already deployed across multiple countries/jurisdictions, making replication straightforward for other contexts.",
+  "primary_users_or_beneficiaries": [
+    "researchers",
+    "NGOs",
+    "government agencies",
+    "humanitarian organizations",
+    "election monitors",
+    "health workers"
+  ],
+  "underdog_signal": false
 }

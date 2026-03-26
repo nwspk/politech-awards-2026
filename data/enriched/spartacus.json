@@ -89,5 +89,18 @@
   ],
   "pass5_at": "2026-03-10T00:51:58.747Z",
   "pass5_jina_words": 542,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Spartacus addresses democratic participation and citizen engagement. Build critical mass with conditional commitments that only activate when enough people join in.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Directly supports organizing, mobilization, or democratic participation processes."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Already deployed across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "engaged citizens",
+    "community organizers",
+    "neighborhood groups"
+  ],
+  "underdog_signal": false
 }

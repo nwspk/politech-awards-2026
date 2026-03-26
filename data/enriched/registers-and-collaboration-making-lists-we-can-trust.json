@@ -86,5 +86,19 @@
   ],
   "pass5_at": "2026-03-10T00:55:21.898Z",
   "pass5_jina_words": 468,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Registers and collaboration: making lists we can trust addresses civic data access and transparency. A report examining models of stewarding registers and the importance of transparency and collaboration in managing trusted lists.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides data, research, or educational resources for civic engagement."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Already deployed across multiple jurisdictions; methodology-based approach is inherently transferable.",
+  "primary_users_or_beneficiaries": [
+    "civic technology researchers",
+    "data stewards",
+    "government organizations",
+    "civic technologists"
+  ],
+  "underdog_signal": false
 }

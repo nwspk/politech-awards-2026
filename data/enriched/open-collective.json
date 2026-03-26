@@ -78,17 +78,8 @@
   "dependency_risks": [
     "Open Collective Foundation dissolved December 2024"
   ],
-  "news_articles": [
-    "Guardian: 'Open Collective: the platform helping grassroots groups manage money'",
-    "TechCrunch: 'Open Collective raises funding to support open source projects'",
-    "Wired: 'How Open Collective became the financial backbone of the internet'",
-    "Reuters: 'Open Collective Foundation dissolution impacts 600+ collectives'"
-  ],
-  "academic_citations": [
-    "Eghbal, N. (2016). Roads and Bridges: The Unseen Labor Behind Our Digital Infrastructure. Ford Foundation.",
-    "Kostakis, V., & Bauwens, M. (2019). Network Society and Future Scenarios for a Collaborative Economy. Palgrave Macmillan.",
-    "Scholz, T., & Schneider, N. (2016). Ours to Hack and to Own: The Rise of Platform Cooperativism. OR Books."
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "Fast Company World Changing Ideas Award (2020)",
     "Mozilla Foundation Grant Recipient"
@@ -116,5 +107,19 @@
   "pass2_at": "2026-03-09T23:21:38.881Z",
   "pass5_at": "2026-03-10T01:03:04.481Z",
   "pass5_jina_words": 388,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Open Collective addresses the financial infrastructure gap for civic and grassroots organizations, enabling transparent collective funding and fiscal management.",
+  "movement_building_utility": {
+    "classification": "indirect_or_none",
+    "notes": "Open Collective's primary function is not directly oriented toward civic organizing, advocacy, or movement infrastructure."
+  },
+  "systemic_issue_area": "civic financial infrastructure",
+  "generalizability_notes": "High generalizability. Open Collective is open source and already deployed across multiple countries/jurisdictions, making replication straightforward for other contexts.",
+  "primary_users_or_beneficiaries": [
+    "open source projects",
+    "mutual aid groups",
+    "climate initiatives",
+    "grassroots organisations"
+  ],
+  "underdog_signal": false
 }

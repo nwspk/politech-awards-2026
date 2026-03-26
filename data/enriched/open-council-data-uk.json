@@ -55,12 +55,6 @@
   "funding_verified": false,
   "academic_citations": [
     {
-      "title": "RCUK Policy on Open Access: Compliance data report to Research Councils UK for the period 1 April 2013 to 31 July 2014 from the University of St Andrews",
-      "year": 2014,
-      "cited_by": 19,
-      "doi": null
-    },
-    {
       "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
       "year": 2020,
       "cited_by": 35475,
@@ -93,5 +87,20 @@
   "pass5_jina_words": 421,
   "pass5_changes": [
     "policy_outcomes"
-  ]
+  ],
+  "political_relevance_summary": "Open Council Data UK addresses gaps in democratic participation by providing tools or platforms that enable citizens and communities to engage more directly in governance and decision-making processes.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Open Council Data UK provides foundational data infrastructure, standards, or platforms that other civic technology efforts build upon."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Limited generalizability. Open Council Data UK is proprietary and designed for UK-specific contexts. The concept could inspire similar efforts elsewhere but direct replication is not feasible.",
+  "primary_users_or_beneficiaries": [
+    "psephologists",
+    "campaigners",
+    "charities",
+    "researchers",
+    "journalists"
+  ],
+  "underdog_signal": true
 }

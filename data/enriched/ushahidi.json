@@ -74,17 +74,8 @@
   "funding_verified": true,
   "last_funding_event": "2023",
   "dependency_risks": "Reliance on cloud infrastructure providers; dependency on volunteer contributors for open-source components; funding concentration among major philanthropic foundations",
-  "news_articles": [
-    "Guardian: Ushahidi platform used for election monitoring in Kenya",
-    "Reuters: Crowdsourcing platform tracks human rights abuses",
-    "TechCrunch: Ushahidi expands crisis response capabilities",
-    "Wired: How Ushahidi became a global tool for activism"
-  ],
-  "academic_citations": [
-    "Meier, P. (2015). Digital Humanitarians: How Big Data is Changing the Face of Humanitarian Response",
-    "Starbird, K., & Palen, L. (2011). Voluntweeters: Self-organizing by Digital Volunteers During Mass Convergence Disasters",
-    "Burns, R. (2014). Rethinking big data in digital humanitarianism: practices, epistemologies, and social relations"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "Webby Award for Best Activism Website",
     "TechAmerica Award",
@@ -164,5 +155,21 @@
   "pass2_at": "2026-03-09T23:21:56.441Z",
   "pass5_at": "2026-03-10T00:57:44.518Z",
   "pass5_jina_words": 667,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Ushahidi addresses democratic participation and citizen engagement. Crowdsourcing Solutions to Empower Communities.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Amplifies civic voice or facilitates contact with decision-makers"
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Highly generalizable — already deployed internationally and open source, facilitating adoption in new contexts.",
+  "primary_users_or_beneficiaries": [
+    "citizens",
+    "community groups",
+    "governments",
+    "activists",
+    "organizations",
+    "journalists"
+  ],
+  "underdog_signal": false
 }

@@ -60,18 +60,6 @@
   ],
   "academic_citations": [
     {
-      "title": "Design of Traffic Timecount Backwards Display Unit of Fieldbus",
-      "year": 2005,
-      "cited_by": 0,
-      "doi": null
-    },
-    {
-      "title": "Design of Power Metering and Reporting System Based on Communication Network",
-      "year": 2006,
-      "cited_by": 1,
-      "doi": null
-    },
-    {
       "title": "The FIELDS Instrument Suite on MMS: Scientific Objectives, Measurements, and Data Products",
       "year": 2014,
       "cited_by": 484,
@@ -100,5 +88,21 @@
   ],
   "pass5_at": "2026-03-10T01:03:37.882Z",
   "pass5_jina_words": 356,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Timecounts addresses democratic participation and citizen engagement. The Modern Volunteer Management Solution.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Directly supports organizing, mobilization, or campaign activities"
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Moderately generalizable — already international but proprietary nature may limit independent replication.",
+  "primary_users_or_beneficiaries": [
+    "nonprofits",
+    "community groups",
+    "event organizers",
+    "schools and universities",
+    "civic and social organizations",
+    "volunteer coordinators"
+  ],
+  "underdog_signal": true
 }

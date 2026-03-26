@@ -54,28 +54,13 @@
   ],
   "funding_verified": false,
   "dependency_risks": "Proprietary platform dependency, reliance on legislative data sources",
-  "news_articles": [
-    "TechCrunch coverage of Overton",
-    "Wired articles on political tech platforms"
-  ],
+  "news_articles": [],
   "academic_citations": [
-    {
-      "title": "Polyhalogenated and Perfluorinated Compounds that Disobey the Meyer-Overton Hypothesis",
-      "year": 1994,
-      "cited_by": 227,
-      "doi": "https://doi.org/10.1213/00000539-199412000-00004"
-    },
     {
       "title": "Overton: A bibliometric database of policy document citations",
       "year": 2022,
       "cited_by": 76,
       "doi": "https://doi.org/10.1162/qss_a_00204"
-    },
-    {
-      "title": "The membrane concentrations of neutral and positive anesthetics (alcohols, chloropromazine, morphine) fit the meyer-overton rule of anesthesia; negative narcotics do not",
-      "year": 1972,
-      "cited_by": 147,
-      "doi": "https://doi.org/10.1016/0005-2736(72)90023-5"
     }
   ],
   "in_civictech_guide": false,
@@ -99,5 +84,25 @@
     "communities_served",
     "political_units",
     "policy_outcomes"
-  ]
+  ],
+  "political_relevance_summary": "Overton operates in the Political analysis, policy research, civic engagement space, contributing tools or resources that support civic engagement, transparency, or democratic processes.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Overton primarily serves as an information resource for researchers, journalists, or analysts working on civic and political issues."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Moderate generalizability. Overton operates internationally but is proprietary, so replication would require licensing or rebuilding rather than direct adoption.",
+  "primary_users_or_beneficiaries": [
+    "Policy researchers",
+    "Political analysts",
+    "Journalists",
+    "Civic organizations",
+    "Universities",
+    "Governments",
+    "Public bodies",
+    "IGOs",
+    "NGOs",
+    "Think tanks"
+  ],
+  "underdog_signal": false
 }

@@ -49,12 +49,8 @@
     "Stanford Internet Observatory"
   ],
   "funding_verified": true,
-  "news_articles": [
-    "Stanford researchers map the online manipulation economy through COTSI database"
-  ],
-  "academic_citations": [
-    "Mapping the online manipulation economy"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "in_civictech_guide": false,
   "replication_materials_available": false,
   "jurisdictional_scope": "Global",
@@ -65,5 +61,18 @@
   "pass2_at": "2026-03-09T23:21:20.942Z",
   "pass5_at": "2026-03-10T00:45:37.091Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses threats to digital autonomy and privacy rights that affect civic participation and civil liberties.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Provides evidence and data that amplifies advocacy and accountability efforts."
+  },
+  "systemic_issue_area": "digital rights infrastructure",
+  "generalizability_notes": "Already deployed across multiple jurisdictions (multiple countries), demonstrating cross-context adaptability. Methodology and approach could inform similar efforts in other jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "civic technology researchers",
+    "investigative journalists",
+    "cybersecurity professionals"
+  ],
+  "underdog_signal": true
 }

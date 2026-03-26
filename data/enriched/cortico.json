@@ -67,28 +67,8 @@
     "small team",
     "niche methodology"
   ],
-  "news_articles": [
-    {
-      "title": "How AI Can Help Cities Listen to Their Citizens",
-      "outlet": "Wired",
-      "url": null,
-      "date": null
-    },
-    {
-      "title": "Cortico's Deb Roy on Amplifying Underheard Voices",
-      "outlet": "TechCrunch",
-      "url": null,
-      "date": null
-    }
-  ],
-  "academic_citations": [
-    {
-      "title": "AI-Assisted Civic Engagement: Sensemaking from Small-Group Dialogue",
-      "authors": "Roy, D.",
-      "year": null,
-      "venue": null
-    }
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "in_civictech_guide": true,
   "wikipedia_page": false,
   "policy_outcomes": [
@@ -138,5 +118,20 @@
   "pass2_at": "2026-03-09T23:21:27.731Z",
   "pass5_at": "2026-03-10T00:45:04.740Z",
   "pass5_jina_words": 500,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses barriers to meaningful citizen participation in democratic decision-making by providing tools for public engagement and deliberation.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Educational resource that builds capacity for civic engagement or digital literacy."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Primarily national in scope; replication would require significant localization.",
+  "primary_users_or_beneficiaries": [
+    "municipalities",
+    "community-based organizations",
+    "newsrooms",
+    "foundations",
+    "government agencies"
+  ],
+  "underdog_signal": true
 }

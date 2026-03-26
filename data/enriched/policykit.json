@@ -77,10 +77,7 @@
       "url": "https://metagov.org/news"
     }
   ],
-  "academic_citations": [
-    "Pika: Empowering Non-Programmers to Author Executable Governance Policies in Online Communities (ACM'20)",
-    "PolicyKit: Building Governance in Online Communities (ACM'20)"
-  ],
+  "academic_citations": [],
   "in_civictech_guide": false,
   "policy_outcomes": [],
   "causation_strength": "anecdotal",
@@ -106,5 +103,18 @@
   "pass2_at": "2026-03-10T00:27:57.677Z",
   "pass5_at": "2026-03-10T00:49:45.482Z",
   "pass5_jina_words": 38,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "PolicyKit addresses democratic participation and citizen engagement. An open-source tool for evolving governance in online communities.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides technical infrastructure supporting civic technology ecosystem."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions; replication materials are available.",
+  "primary_users_or_beneficiaries": [
+    "online community leaders",
+    "community admins",
+    "community members"
+  ],
+  "underdog_signal": false
 }

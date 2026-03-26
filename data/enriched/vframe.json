@@ -64,41 +64,8 @@
     "Reliance on synthetic data generation quality",
     "Dependency on partnership with Tech 4 Tracing for scaling"
   ],
-  "news_articles": [
-    {
-      "headline": "Researchers train AI on 'synthetic data' to uncover Syrian war crimes",
-      "outlet": "Financial Times",
-      "date": null,
-      "url": null
-    },
-    {
-      "headline": "AI helps scour video archives for evidence of human-rights abuses",
-      "outlet": "The Economist",
-      "date": null,
-      "url": null
-    },
-    {
-      "headline": "How Artificial Intelligence Helps Solve War Crimes",
-      "outlet": "Der Spiegel",
-      "date": null,
-      "url": null
-    },
-    {
-      "headline": "AI Emerges as Crucial Tool for Groups Seeking Justice for Syria War Crimes",
-      "outlet": "Wall Street Journal",
-      "date": null,
-      "url": null
-    },
-    {
-      "headline": "AI Could Help Human Rights Activists Prove War Crimes",
-      "outlet": "MIT Technology Review",
-      "date": null,
-      "url": null
-    }
-  ],
-  "academic_citations": [
-    "Journal of Conventional Weapons Destruction (June 2023) - 9N235 object detector development (open access)"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "Mozilla Foundation award for digital rights and open source technology"
   ],
@@ -148,5 +115,19 @@
   "pass2_at": "2026-03-09T23:21:48.472Z",
   "pass5_at": "2026-03-10T00:52:04.452Z",
   "pass5_jina_words": 420,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "VFRAME addresses digital rights and online freedoms. Computer vision for OSINT: detecting illegal munitions and documenting war crimes through AI-powered video analysis.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Amplifies civic voice or facilitates contact with decision-makers"
+  },
+  "systemic_issue_area": "civic advocacy infrastructure",
+  "generalizability_notes": "Highly generalizable — already deployed internationally and open source, facilitating adoption in new contexts.",
+  "primary_users_or_beneficiaries": [
+    "human rights researchers",
+    "journalists",
+    "war crimes investigators",
+    "NGOs"
+  ],
+  "underdog_signal": true
 }

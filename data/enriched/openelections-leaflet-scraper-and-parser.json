@@ -76,5 +76,18 @@
   "pass2_at": "2026-03-09T23:21:29.803Z",
   "pass5_at": "2026-03-10T00:46:22.471Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "OpenElections Leaflet Scraper and Parser addresses barriers to civic data access and transparency, making public or institutional data more available for accountability, research, and informed civic engagement.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "OpenElections Leaflet Scraper and Parser primarily serves as an information resource for researchers, journalists, or analysts working on civic and political issues."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Moderate generalizability. OpenElections Leaflet Scraper and Parser is open source but designed for UK-specific regulatory and institutional contexts. Adaptation to other jurisdictions would require significant localization.",
+  "primary_users_or_beneficiaries": [
+    "researchers",
+    "journalists",
+    "election analysts"
+  ],
+  "underdog_signal": true
 }

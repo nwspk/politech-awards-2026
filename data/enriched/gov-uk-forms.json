@@ -56,10 +56,7 @@
   "dependency_risks": [
     "Reliance on Government Digital Service for maintenance and development"
   ],
-  "news_articles": [
-    "GOV.UK Forms: Making government forms accessible to all (Government Digital Service blog, 2022)",
-    "UK government launches new forms platform to simplify citizen interactions (Civil Service World, 2022)"
-  ],
+  "news_articles": [],
   "academic_citations": [
     {
       "title": "Mechanism of rat liver microsomal stearyl-CoA desaturase. Studies of the substrate specificity, enzyme-substrate interactions, and the function of lipid.",
@@ -120,5 +117,18 @@
   ],
   "pass5_at": "2026-03-10T00:54:40.368Z",
   "pass5_jina_words": 236,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "GOV.UK Forms addresses government technology and public service delivery. Create accessible online forms for UK government without technical knowledge.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Government technology or democratic infrastructure."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Could be adapted to other national contexts with localization. Open-source codebase facilitates replication.",
+  "primary_users_or_beneficiaries": [
+    "central government organisations",
+    "public sector agencies",
+    "citizens"
+  ],
+  "underdog_signal": false
 }

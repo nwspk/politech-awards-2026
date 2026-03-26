@@ -53,14 +53,16 @@
     "UK Government"
   ],
   "funding_verified": true,
-  "news_articles": [
-    "BBC News - Gender pay gap reporting begins",
-    "Guardian - UK gender pay gap data now public",
-    "Reuters - UK launches gender pay gap transparency tool"
-  ],
+  "news_articles": [],
   "academic_citations": [
-    "Blau, F. D., & Kahn, L. M. (2017). The gender wage gap: Extent, trends, and explanations. Journal of Economic Literature, 55(3), 789-865.",
-    "Acker, J. (2006). Inequality regimes: Gender, class, and race in organizations. Gender & Society, 20(4), 441-464."
+    {
+      "citation": "Blau, F. D., & Kahn, L. M. (2017). The gender wage gap: Extent, trends, and explanations. Journal of Economic Literature, 55(3), 789-865.",
+      "doi": "https://doi.org/10.1257/jel.20160995"
+    },
+    {
+      "citation": "Acker, J. (2006). Inequality regimes: Gender, class, and race in organizations. Gender & Society, 20(4), 441-464.",
+      "doi": "https://doi.org/10.1177/0891243206289499"
+    }
   ],
   "in_civictech_guide": false,
   "policy_outcomes": [
@@ -92,5 +94,19 @@
   "pass2_at": "2026-03-09T23:21:28.331Z",
   "pass5_at": "2026-03-10T00:46:15.950Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Gender Pay Gap Service addresses government transparency and accountability. Search and compare gender pay gap data.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides data, research, or monitoring capabilities for civic purposes."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Could be adapted to other national contexts with localization. Proprietary or closed-source; replication requires licensing.",
+  "primary_users_or_beneficiaries": [
+    "employers",
+    "job seekers",
+    "researchers",
+    "civil society"
+  ],
+  "underdog_signal": false
 }

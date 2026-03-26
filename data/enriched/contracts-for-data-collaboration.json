@@ -61,14 +61,8 @@
   ],
   "funding_verified": true,
   "dependency_risks": "Dependent on continued academic institutional support and grant funding; reliance on volunteer contributors",
-  "news_articles": [
-    "Harvard Berkman Klein Center research on data collaboratives",
-    "Coverage in academic and govtech publications"
-  ],
-  "academic_citations": [
-    "Cited in research on data governance and cross-sector collaboration frameworks",
-    "Referenced in academic literature on data trusts and collaborative data sharing"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "in_civictech_guide": false,
   "policy_outcomes": [
     "Influenced data collaboration frameworks in multiple jurisdictions",
@@ -95,5 +89,20 @@
   "pass2_at": "2026-03-09T23:21:23.109Z",
   "pass5_at": "2026-03-10T00:44:46.813Z",
   "pass5_jina_words": 288,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Tackles opacity in government operations by enabling public access to government data and processes.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Provides evidence and data that amplifies advocacy and accountability efforts."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (4 countries), demonstrating cross-context adaptability.",
+  "primary_users_or_beneficiaries": [
+    "civic technology researchers",
+    "policymakers and legislative staff",
+    "data collaboratives",
+    "government agencies",
+    "private sector organizations"
+  ],
+  "underdog_signal": true
 }

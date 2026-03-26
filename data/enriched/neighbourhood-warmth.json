@@ -131,5 +131,18 @@
   ],
   "pass5_at": "2026-03-10T00:57:38.953Z",
   "pass5_jina_words": 657,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Neighbourhood Warmth addresses making civic data accessible and actionable and enabling broader democratic participation.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Serves as an information resource: A free online platform helping people form teams around shared home energy challenges like retrofit assessments and energy efficiency."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "currently deployed in United Kingdom only, but approach could be adapted to other national contexts.",
+  "primary_users_or_beneficiaries": [
+    "homeowners",
+    "local authorities",
+    "local energy service cooperatives"
+  ],
+  "underdog_signal": true
 }

@@ -102,5 +102,18 @@
   ],
   "pass5_at": "2026-03-10T00:57:13.233Z",
   "pass5_jina_words": 383,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "MP Watch addresses enabling broader democratic participation and empowering advocacy and civic campaigning.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Amplifies advocacy efforts through Uniting People and Politicians for Climate Action."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "currently deployed in United Kingdom only, but approach could be adapted to other national contexts.",
+  "primary_users_or_beneficiaries": [
+    "campaigners",
+    "MPs",
+    "constituents"
+  ],
+  "underdog_signal": true
 }

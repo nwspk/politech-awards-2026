@@ -72,16 +72,8 @@
     "Reliance on volunteer contributions",
     "Dependency on continued charitable funding"
   ],
-  "news_articles": [
-    "Guardian: mySociety's transparency tools reshape UK politics",
-    "Reuters: Open data platforms drive democratic engagement",
-    "TechCrunch: mySociety expands international civic tech initiatives"
-  ],
-  "academic_citations": [
-    "Transparency and accountability in digital governance (Google Scholar)",
-    "Civic technology platforms and citizen participation (SSRN)",
-    "Open data infrastructure for democratic institutions (OpenAlex)"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "Ashoka Fellow recognition",
     "Tech for Good Award"
@@ -126,5 +118,19 @@
   "pass2_at": "2026-03-09T23:21:25.872Z",
   "pass5_at": "2026-03-10T00:45:43.042Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "mySociety Datasets and APIs addresses enabling broader democratic participation and improving government service delivery and transparency. It has documented policy impact.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Amplifies advocacy efforts through Open datasets and APIs for democracy, transparency, and community engagement."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "researchers",
+    "journalists",
+    "campaigners",
+    "developers"
+  ],
+  "underdog_signal": false
 }

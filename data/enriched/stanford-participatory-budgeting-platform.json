@@ -60,12 +60,8 @@
     "Ruby on Rails framework maintenance",
     "MySQL/PostgreSQL database dependencies"
   ],
-  "news_articles": [
-    "Stanford's participatory budgeting platform expands to multiple US cities"
-  ],
-  "academic_citations": [
-    "Participatory Budgeting in the United States: A Comparative Analysis (Stanford CDT research)"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "in_civictech_guide": true,
   "policy_outcomes": [
     "Enabled participatory budgeting processes in multiple US municipalities"
@@ -101,5 +97,18 @@
   "pass2_at": "2026-03-09T23:21:33.365Z",
   "pass5_at": "2026-03-10T00:46:22.246Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Stanford Participatory Budgeting Platform addresses democratic participation and citizen engagement. Open-source platform for hosting participatory budgeting elections in cities across the United States.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Directly supports organizing, mobilization, or democratic participation processes."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Open-source codebase facilitates replication; currently focused on United States; replication materials are available; would require local data and regulatory adaptation.",
+  "primary_users_or_beneficiaries": [
+    "voters seeking electoral information",
+    "city governments",
+    "civic organizations"
+  ],
+  "underdog_signal": true
 }
