@@ -96,5 +96,18 @@
   ],
   "pass5_at": "2026-03-10T00:46:13.431Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Esper addresses government technology and public service delivery. End-to-end policy management platform for government agencies.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides technical infrastructure that other civic tools or services build upon."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Moderately generalizable; deployed in multiple countries. Proprietary or closed-source; replication requires licensing.",
+  "primary_users_or_beneficiaries": [
+    "government agencies",
+    "policy staff",
+    "citizens"
+  ],
+  "underdog_signal": true
 }

@@ -86,5 +86,19 @@
   ],
   "pass5_at": "2026-03-10T00:44:01.034Z",
   "pass5_jina_words": 187,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses barriers to meaningful citizen participation in democratic decision-making by providing tools for public engagement and deliberation.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Serves as an information resource for civic actors, researchers, or the public."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (multiple countries), demonstrating cross-context adaptability. Methodology and approach could inform similar efforts in other jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "data practitioners",
+    "organizations",
+    "communities",
+    "project designers"
+  ],
+  "underdog_signal": true
 }

@@ -70,12 +70,8 @@
     "Reliance on Python ecosystem",
     "Maintenance dependent on academic funding"
   ],
-  "news_articles": [
-    "Featured in academic technology publications and economics research journals"
-  ],
-  "academic_citations": [
-    "2700+ academic publications cited on homepage"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "Widely adopted in experimental economics and behavioral research"
   ],
@@ -122,5 +118,20 @@
   "pass2_at": "2026-03-09T23:21:48.625Z",
   "pass5_at": "2026-03-10T00:55:48.379Z",
   "pass5_jina_words": 146,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "oTree provides research infrastructure for behavioral experiments that inform evidence-based policymaking on voter behavior, public goods, and institutional design, though it is primarily an academic tool.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "oTree primarily serves as an information resource for researchers, journalists, or analysts working on civic and political issues."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "High generalizability. oTree is open source and already deployed across multiple countries/jurisdictions, making replication straightforward for other contexts.",
+  "primary_users_or_beneficiaries": [
+    "researchers",
+    "academics",
+    "economists",
+    "psychologists",
+    "students"
+  ],
+  "underdog_signal": false
 }

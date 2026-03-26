@@ -100,10 +100,7 @@
       "url": "https://techcrunch.com/2018/05/10/digital-security-tools/"
     }
   ],
-  "academic_citations": [
-    "Cited in digital security and press freedom research",
-    "Referenced in human rights technology studies"
-  ],
+  "academic_citations": [],
   "awards": [
     "Recognition from press freedom and digital rights organizations"
   ],
@@ -130,5 +127,20 @@
   "pass2_at": "2026-03-10T00:27:58.343Z",
   "pass5_at": "2026-03-10T00:51:42.271Z",
   "pass5_jina_words": 259,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Security First / Umbrella addresses civic technology. Free, open source digital and physical security handbook app for journalists, activists, NGO staff, and people working in high-risk environments.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides data, research, or educational resources for civic engagement."
+  },
+  "systemic_issue_area": "civic technology infrastructure",
+  "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions; replication materials are available.",
+  "primary_users_or_beneficiaries": [
+    "investigative journalists",
+    "activists",
+    "ngo staff",
+    "diplomats",
+    "human rights defenders"
+  ],
+  "underdog_signal": true
 }

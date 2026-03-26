@@ -126,5 +126,20 @@
   ],
   "pass5_at": "2026-03-10T00:46:23.772Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Global Fact-Check Bot (GFC) addresses combating misinformation and protecting information integrity. A pioneering AI platform that empowers fact-checkers and citizens worldwide to verify information accuracy across 50+ languages, powered by 38 trusted organizations.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Directly supports organizing, campaigning, or advocacy actions."
+  },
+  "systemic_issue_area": "information integrity",
+  "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Proprietary or closed-source; replication requires licensing.",
+  "primary_users_or_beneficiaries": [
+    "fact-checkers",
+    "journalists",
+    "general public",
+    "election observers",
+    "vulnerable communities"
+  ],
+  "underdog_signal": false
 }

@@ -60,30 +60,8 @@
   ],
   "funding_verified": true,
   "last_funding_event": "Vista Equity Partners acquisition (2021)",
-  "news_articles": [
-    "Granicus raises funding for digital government platform",
-    "Vista Equity Partners acquires Granicus"
-  ],
-  "academic_citations": [
-    {
-      "title": "The battle of the Granicus River",
-      "year": 1980,
-      "cited_by": 81,
-      "doi": "https://doi.org/10.2307/630733"
-    },
-    {
-      "title": "Memnon of Rhodes at the Granicus",
-      "year": 1989,
-      "cited_by": 49,
-      "doi": "https://doi.org/10.2307/295218"
-    },
-    {
-      "title": "The Granicus and Tinjar Valles Channel System",
-      "year": 2008,
-      "cited_by": 43,
-      "doi": null
-    }
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "Granicus Digital Government Awards (2025)"
   ],
@@ -113,5 +91,21 @@
   ],
   "pass5_at": "2026-03-10T00:46:24.479Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Granicus addresses civic technology. The Citizen Experience Platform for Government.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides technical infrastructure that other civic tools or services build upon."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Proprietary or closed-source; replication requires licensing.",
+  "primary_users_or_beneficiaries": [
+    "Local government",
+    "Central government",
+    "Healthcare",
+    "Emergency services",
+    "Housing",
+    "Adult social care"
+  ],
+  "underdog_signal": false
 }

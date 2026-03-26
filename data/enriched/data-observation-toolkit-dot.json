@@ -66,13 +66,8 @@
     "Great Expectations",
     "Docker"
   ],
-  "news_articles": [
-    "Pathways to Increasing Trust in Public Health Data (CHANCE/ASA, 2021)",
-    "Empowering Health Workers and Community Health Systems (DataKind blog)"
-  ],
-  "academic_citations": [
-    "Data quality monitoring in low-resource health systems (referenced in public health data integrity literature)"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "Verified Digital Public Good (DPGA)"
   ],
@@ -104,5 +99,19 @@
   "pass2_at": "2026-03-09T23:21:29.253Z",
   "pass5_at": "2026-03-10T00:46:17.808Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Data Observation Toolkit (DOT) addresses civic technology. Open-source toolkit to monitor data integrity and flag problems in public health and humanitarian datasets.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides technical infrastructure that other civic tools or services build upon."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Open-source codebase facilitates replication.",
+  "primary_users_or_beneficiaries": [
+    "ministries of health",
+    "frontline health workers",
+    "NGOs",
+    "data scientists"
+  ],
+  "underdog_signal": true
 }

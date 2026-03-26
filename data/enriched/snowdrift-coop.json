@@ -59,12 +59,8 @@
     "slow development pace",
     "relies on volunteer contributions"
   ],
-  "news_articles": [
-    "Snowdrift.coop coverage in open source and cooperative economics publications"
-  ],
-  "academic_citations": [
-    "Referenced in public goods funding and cooperative economics literature"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [],
   "in_civictech_guide": false,
   "wikipedia_page": false,
@@ -113,5 +109,18 @@
   },
   "pass5_at": "2026-03-10T01:00:51.175Z",
   "pass5_jina_words": 136,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Snowdrift.coop addresses civic technology. Crowdmatching for public goods.",
+  "movement_building_utility": {
+    "classification": "indirect_or_none",
+    "notes": "Indirect or tangential connection to political movement building."
+  },
+  "systemic_issue_area": "civic technology infrastructure",
+  "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions; replication materials are available.",
+  "primary_users_or_beneficiaries": [
+    "free/libre/open source developers",
+    "digital public goods creators",
+    "open source patrons"
+  ],
+  "underdog_signal": true
 }

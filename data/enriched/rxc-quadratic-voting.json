@@ -58,16 +58,8 @@
   "funding_verified": true,
   "last_funding_event": "2024-06",
   "dependency_risks": "Relies on volunteer maintenance; limited dedicated funding for long-term sustainability",
-  "news_articles": [
-    "Wired: 'Quadratic Voting Could Transform Democracy' (2021)",
-    "TechCrunch: 'Radical Exchange Launches Quadratic Voting Tool' (2019)",
-    "The Guardian: 'New Voting Methods for the Digital Age' (2020)"
-  ],
-  "academic_citations": [
-    "Posner & Weyl (2018) - Radical Markets: Uprooting Capitalism and Democracy for a Just Society",
-    "Lalley & Weyl (2018) - Quadratic Voting and Proportional Representation",
-    "Weyl (2019) - The Radical Markets Manifesto"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "Civic Tech Award Finalist (2020)"
   ],
@@ -101,5 +93,18 @@
   "pass5_jina_words": 102,
   "pass5_changes": [
     "tagline"
-  ]
+  ],
+  "political_relevance_summary": "RxC Quadratic Voting addresses democratic participation and citizen engagement. An easy tool to host a quadratic vote. Quadratic Voting is the mathematically optimal way to vote in a democratic community by allocating votes that express the degree of your preferences, not just direction.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Directly supports organizing, mobilization, or democratic participation processes."
+  },
+  "systemic_issue_area": "electoral integrity",
+  "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions; replication materials are available.",
+  "primary_users_or_beneficiaries": [
+    "voters seeking electoral information",
+    "organizations",
+    "communities"
+  ],
+  "underdog_signal": true
 }

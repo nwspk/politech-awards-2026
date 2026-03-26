@@ -70,12 +70,6 @@
       "year": 2023,
       "cited_by": 9,
       "doi": "https://doi.org/10.1145/3592618"
-    },
-    {
-      "title": "Manchester Age-Friendly Neighbourhoods: State of the Project",
-      "year": 2017,
-      "cited_by": 0,
-      "doi": null
     }
   ],
   "in_civictech_guide": false,
@@ -115,5 +109,18 @@
   ],
   "pass5_at": "2026-03-10T00:46:18.667Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "PlaceCal addresses gaps in democratic participation by providing tools or platforms that enable citizens and communities to engage more directly in governance and decision-making processes.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "PlaceCal directly enables organizing by providing tools for collective action, campaigning, or community mobilization."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "High generalizability. PlaceCal is open source and already deployed across multiple countries/jurisdictions, making replication straightforward for other contexts.",
+  "primary_users_or_beneficiaries": [
+    "community organizers",
+    "citizens in United Kingdom",
+    "local organizations"
+  ],
+  "underdog_signal": true
 }

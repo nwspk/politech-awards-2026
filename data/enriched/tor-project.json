@@ -66,18 +66,8 @@
     "Reliance on volunteer-run relay network",
     "Potential government scrutiny and regulation"
   ],
-  "news_articles": [
-    "Guardian: Tor Project Faces Funding Challenges (2024)",
-    "Reuters: Tor Network Usage Surges in Authoritarian Countries (2023)",
-    "Wired: How Tor Protects Journalists in Conflict Zones (2024)",
-    "TechCrunch: Tor Project Releases New Privacy Features (2025)"
-  ],
-  "academic_citations": [
-    "Dingledine, R., Mathewson, N., & Syverson, P. (2004). Tor: The Second-Generation Onion Router. USENIX Security Symposium.",
-    "Winter, P., & Lindskog, S. (2012). How China is Blocking Tor. Free and Open Communications on the Internet.",
-    "Jansen, R., Tschorsch, F., Johnson, A., & Scheuermann, B. (2014). Corridor: Tor Research with Realistic Network Topologies. IEEE S&P.",
-    "Kwon, A., AlSabah, M., Lazar, D., Dacier, M., & Devadas, S. (2015). Circuit Fingerprinting Attacks: Passive Deanonymization of Tor Hidden Service Users. USENIX Security."
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "Electronic Frontier Foundation Pioneer Award (2012)",
     "Ars Electronica Golden Nica (2014)",
@@ -131,5 +121,21 @@
   "pass2_at": "2026-03-09T23:21:52.537Z",
   "pass5_at": "2026-03-10T00:56:44.753Z",
   "pass5_jina_words": 427,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Tor Project addresses digital rights and online freedoms. Anonymity Online - Advance human rights and defend privacy through free and open source anonymity and privacy technologies.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Platform infrastructure for civic/government technology"
+  },
+  "systemic_issue_area": "digital rights infrastructure",
+  "generalizability_notes": "Highly generalizable — already deployed internationally and open source, facilitating adoption in new contexts.",
+  "primary_users_or_beneficiaries": [
+    "journalists",
+    "activists",
+    "researchers",
+    "citizens",
+    "dissidents",
+    "privacy-conscious users"
+  ],
+  "underdog_signal": false
 }

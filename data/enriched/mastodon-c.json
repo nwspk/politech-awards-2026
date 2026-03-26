@@ -68,13 +68,8 @@
     "reliance on government contracts",
     "dependence on open data availability"
   ],
-  "news_articles": [
-    "Mastodon C awarded contract for UK government data analytics (2023)",
-    "European Commission selects Mastodon C for open data initiative (2022)"
-  ],
-  "academic_citations": [
-    "Mastodon C cited in research on open data governance (OpenAlex)"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "Nesta Innovation Award (2015)",
     "UK Government Digital Service recognition (2018)"
@@ -115,5 +110,19 @@
   "pass2_at": "2026-03-09T23:21:46.748Z",
   "pass5_at": "2026-03-10T00:56:35.526Z",
   "pass5_jina_words": 16,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Mastodon C addresses making civic data accessible and actionable and improving government service delivery and transparency. It has documented policy impact.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides foundational infrastructure: Data science and technology consultancy focused on open data, analytics, and civic technology."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "government agencies",
+    "civil society organizations",
+    "researchers",
+    "policymakers"
+  ],
+  "underdog_signal": true
 }

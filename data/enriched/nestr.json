@@ -55,18 +55,6 @@
   ],
   "academic_citations": [
     {
-      "title": "NeSTR: A Neuro-Symbolic Abductive Framework for Temporal Reasoning in Large Language Models",
-      "year": 2025,
-      "cited_by": 0,
-      "doi": null
-    },
-    {
-      "title": "Build Nesting or Hierarchical Structures [R package nestr version 0.1.1]",
-      "year": 2021,
-      "cited_by": 0,
-      "doi": null
-    },
-    {
       "title": "Analysis of movement recursions to detect reproductive events and estimate their fate in central place foragers",
       "year": 2020,
       "cited_by": 55,
@@ -87,5 +75,20 @@
   ],
   "pass5_at": "2026-03-10T01:02:08.356Z",
   "pass5_jina_words": 593,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Nestr addresses organizational fragmentation by providing a self-organizing collaboration platform that could support participatory governance and civic coordination, though its primary focus is workplace productivity rather than direct political engagement.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Nestr enables civic participation and amplifies community voices in democratic processes."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Moderate generalizability. Nestr operates internationally but is proprietary, so replication would require licensing or rebuilding rather than direct adoption.",
+  "primary_users_or_beneficiaries": [
+    "organizations",
+    "teams",
+    "DAOs",
+    "startups",
+    "remote teams"
+  ],
+  "underdog_signal": true
 }

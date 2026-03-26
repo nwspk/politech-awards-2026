@@ -67,18 +67,8 @@
     "Competitive pressure from established social platforms",
     "Moderation at scale challenges"
   ],
-  "news_articles": [
-    {
-      "headline": "Bluesky Social Launches Public Beta",
-      "outlet": "TechCrunch",
-      "date": "2023-02-06",
-      "url": null
-    }
-  ],
-  "academic_citations": [
-    "Bluesky and the AT Protocol: Decentralizing Social Media (2024)",
-    "Platform Governance and User Agency in Decentralized Networks (2024)"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "TechCrunch Disrupt Award Finalist (2023)"
   ],
@@ -112,5 +102,19 @@
   "pass2_at": "2026-03-09T23:21:23.762Z",
   "pass5_at": "2026-03-10T00:47:21.751Z",
   "pass5_jina_words": 266,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses threats to digital autonomy and privacy rights that affect civic participation and civil liberties.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides foundational technical infrastructure for civic technology."
+  },
+  "systemic_issue_area": "digital rights infrastructure",
+  "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (5 countries), demonstrating cross-context adaptability.",
+  "primary_users_or_beneficiaries": [
+    "investigative journalists",
+    "civic technology researchers",
+    "individuals concerned about digital rights and privacy",
+    "content creators"
+  ],
+  "underdog_signal": false
 }

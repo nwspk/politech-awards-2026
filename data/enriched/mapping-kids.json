@@ -69,5 +69,18 @@
     "homepage_has_impact_metrics": null,
     "scraped_description": null,
     "scraped_final_url": "https://mapping.kids/"
-  }
+  },
+  "political_relevance_summary": "Mapping.kids provides technology infrastructure relevant to civic and political processes, focused on A platform for creating and sharing interactive maps for educational purposes.",
+  "movement_building_utility": {
+    "classification": "indirect_or_none",
+    "notes": "Primarily serves Students, Educators, Young people; limited direct movement-building utility."
+  },
+  "systemic_issue_area": "land and planning transparency",
+  "generalizability_notes": "already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "Students",
+    "Educators",
+    "Young people"
+  ],
+  "underdog_signal": true
 }

@@ -69,13 +69,8 @@
     "Ruby 2.0/Rails 4.1 — heavily outdated stack",
     "project appears dormant since ~2023"
   ],
-  "news_articles": [
-    "Podemos uses online voting platform for internal democracy (various Spanish media outlets, 2015-2017)",
-    "Participa platform enables mass participation in Podemos decisions (El Diario, 2016)"
-  ],
-  "academic_citations": [
-    "Participedia: Participa Podemos entry — https://participedia.net/method/6070"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "Innovation in Politics Institute nomination (listed in Civic Tech Field Guide)"
   ],
@@ -131,5 +126,18 @@
   "pass2_at": "2026-03-09T23:21:33.721Z",
   "pass5_at": "2026-03-10T00:46:20.701Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Participa (Podemos) addresses gaps in democratic participation by providing tools or platforms that enable citizens and communities to engage more directly in governance and decision-making processes.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Participa (Podemos) directly enables organizing by providing tools for collective action, campaigning, or community mobilization."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Moderate generalizability. Participa (Podemos) is open source but built for a specific national context. The approach could be replicated but would require adaptation to local legal and institutional frameworks.",
+  "primary_users_or_beneficiaries": [
+    "Podemos party members",
+    "Spanish citizens",
+    "political activists"
+  ],
+  "underdog_signal": true
 }

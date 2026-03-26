@@ -64,10 +64,7 @@
     "Reliance on blockchain/web3 infrastructure",
     "Cryptocurrency market volatility affecting user base"
   ],
-  "news_articles": [
-    "CharmVerse raises funding for DAO governance platform",
-    "Web3 governance tools gain traction among DAOs"
-  ],
+  "news_articles": [],
   "academic_citations": [
     {
       "title": "The Jade Gateway to Trust: Exploring How Socio-Cultural Perspectives Shape Trust Within Chinese NFT Communities",
@@ -88,5 +85,19 @@
   ],
   "pass5_at": "2026-03-10T00:42:39.466Z",
   "pass5_jina_words": 246,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses barriers to meaningful citizen participation in democratic decision-making by providing tools for public engagement and deliberation.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Platform enabling direct democratic participation or civic engagement."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (2 countries), demonstrating cross-context adaptability.",
+  "primary_users_or_beneficiaries": [
+    "DAO operators",
+    "grant managers",
+    "builders",
+    "web3 communities"
+  ],
+  "underdog_signal": false
 }

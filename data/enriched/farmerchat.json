@@ -44,17 +44,8 @@
   ],
   "funding_verified": true,
   "dependency_risks": "Dependent on mobile connectivity, language model accuracy, agricultural data quality",
-  "news_articles": [
-    "Digital Green launches FarmerChat AI platform for smallholder farmers"
-  ],
-  "academic_citations": [
-    {
-      "title": "Fine-Tuning and Evaluating Conversational AI for Agricultural Advisory",
-      "year": 2026,
-      "cited_by": 0,
-      "doi": null
-    }
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "in_civictech_guide": false,
   "replication_materials_available": false,
   "jurisdictional_scope": "International (South Asia, Sub-Saharan Africa)",
@@ -70,5 +61,16 @@
   ],
   "pass5_at": "2026-03-10T00:46:14.616Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "FarmerChat addresses civic technology. AI-powered conversational platform providing agricultural advisory to smallholder farmers.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides technical infrastructure that other civic tools or services build upon."
+  },
+  "systemic_issue_area": "civic technology infrastructure",
+  "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Proprietary or closed-source; replication requires licensing.",
+  "primary_users_or_beneficiaries": [
+    "Smallholder farmers, rural agricultural communities"
+  ],
+  "underdog_signal": false
 }

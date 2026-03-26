@@ -49,9 +49,7 @@
   "team_size": "small",
   "funding_model": "volunteer-driven",
   "funding_verified": false,
-  "news_articles": [
-    "Estonian e-governance initiatives (various Estonian media outlets)"
-  ],
+  "news_articles": [],
   "academic_citations": [
     {
       "title": "The Aims and Discussions of the Foundation of Land Reform in Estonia After the WWI",
@@ -88,5 +86,18 @@
   ],
   "pass5_at": "2026-03-10T00:46:21.579Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Rahvaalgatus addresses democratic participation and citizen engagement. Estonian citizen initiative and e-petition platform.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Directly supports organizing, mobilization, or democratic participation processes."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase facilitates replication; currently focused on Estonia; would require local data and regulatory adaptation.",
+  "primary_users_or_beneficiaries": [
+    "citizens engaging in civic campaigns",
+    "campaigners",
+    "civil society"
+  ],
+  "underdog_signal": true
 }

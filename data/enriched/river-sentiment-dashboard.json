@@ -114,5 +114,19 @@
   ],
   "pass5_at": "2026-03-10T00:51:26.869Z",
   "pass5_jina_words": 577,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "River Sentiment Dashboard addresses civic data access and transparency. Displays social media sentiment about rivers alongside ecological status data for 450+ rivers in the Thames basin.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Amplifies advocacy efforts and helps citizens influence decision-makers."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Open-source codebase facilitates replication; currently focused on United Kingdom; would require local data and regulatory adaptation.",
+  "primary_users_or_beneficiaries": [
+    "civic technology researchers",
+    "engaged citizens",
+    "environmental advocates",
+    "policymakers"
+  ],
+  "underdog_signal": false
 }

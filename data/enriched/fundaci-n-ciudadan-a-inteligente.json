@@ -80,15 +80,8 @@
     "Reliance on international grant funding",
     "Geographic concentration in Chile with expansion challenges"
   ],
-  "news_articles": [
-    "Guardian: 'Chilean civic tech platform tracks government promises' (2023)",
-    "Reuters: 'Latin American democracy tools gain traction' (2024)",
-    "TechCrunch: 'Ciudadanía Inteligente expands AI bias monitoring' (2024)"
-  ],
-  "academic_citations": [
-    "Calderón, C. & Lorenzo, S. (2020). 'Digital Tools for Democratic Participation in Latin America.' Journal of Democracy and Technology.",
-    "Transparency International Research (2023). 'Civic Tech Impact Assessment: Regional Analysis'"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "Fundación Carolina Award for Innovation in Civic Technology (2018)",
     "Ashoka Fellow recognition (2015)"
@@ -153,5 +146,21 @@
   "pass2_at": "2026-03-09T23:21:27.085Z",
   "pass5_at": "2026-03-10T00:43:17.762Z",
   "pass5_jina_words": 0,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Fundación Ciudadanía Inteligente addresses democratic participation and citizen engagement. Latin American organization fighting for the transformation of democracies through civic technology and open tools.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Directly supports organizing, campaigning, or advocacy actions."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Open-source codebase facilitates replication.",
+  "primary_users_or_beneficiaries": [
+    "citizens",
+    "civil society organizations",
+    "local governments",
+    "journalists",
+    "researchers",
+    "campaigners"
+  ],
+  "underdog_signal": false
 }

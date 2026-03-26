@@ -109,5 +109,19 @@
   "pass5_jina_words": 427,
   "pass5_changes": [
     "policy_outcomes"
-  ]
+  ],
+  "political_relevance_summary": "Logos addresses protecting digital rights and privacy and enabling broader democratic participation. It has documented policy impact.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides foundational infrastructure: A social movement and decentralised technology stack built to revitalise civil society."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "builders",
+    "engineers",
+    "artists",
+    "organisers"
+  ],
+  "underdog_signal": true
 }

@@ -55,12 +55,6 @@
   "dependency_risks": "Dependent on UK Royal Mail postcode data licensing and updates",
   "academic_citations": [
     {
-      "title": "API Wrapper Around 'Postcodes.io' [R package PostcodesioR version 0.1.1]",
-      "year": 2019,
-      "cited_by": 0,
-      "doi": null
-    },
-    {
       "title": "Home monitoring with connected mobile devices for asthma attack prediction with machine learning",
       "year": 2023,
       "cited_by": 15,
@@ -91,5 +85,19 @@
   ],
   "pass5_at": "2026-03-10T00:46:19.315Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "postcodes.io addresses civic data access and transparency. UK postcode & geolocation API, serving up open data.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides technical infrastructure supporting civic technology ecosystem."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Open-source codebase facilitates replication; currently focused on United Kingdom; replication materials are available; would require local data and regulatory adaptation.",
+  "primary_users_or_beneficiaries": [
+    "civic tech developers",
+    "civic technology researchers",
+    "civic organizations",
+    "government agencies"
+  ],
+  "underdog_signal": true
 }

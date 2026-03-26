@@ -65,10 +65,7 @@
     "Reliance on volunteer contributions for data accuracy",
     "Potential platform sustainability concerns"
   ],
-  "news_articles": [
-    "TechCrunch coverage of labor tech platforms",
-    "Guardian reporting on worker organizing tools"
-  ],
+  "news_articles": [],
   "academic_citations": [
     {
       "title": "Multifractal spectra of lightning strike maps using entropy and wavelet analyses",
@@ -114,5 +111,20 @@
     "countries_deployed",
     "funding_model",
     "documented_limitations"
-  ]
+  ],
+  "political_relevance_summary": "Strike Map addresses civic data access and transparency. Interactive mapping platform documenting labor strikes and worker organizing actions.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Directly supports organizing, mobilization, or democratic participation processes."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Open-source codebase facilitates replication; deployed in multiple countries, suggesting adaptability.",
+  "primary_users_or_beneficiaries": [
+    "labor organizers",
+    "civic technology researchers",
+    "investigative journalists",
+    "workers",
+    "engaged citizens"
+  ],
+  "underdog_signal": true
 }

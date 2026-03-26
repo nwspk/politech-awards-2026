@@ -74,5 +74,18 @@
   ],
   "pass5_at": "2026-03-10T00:45:43.753Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "dDocs addresses civic technology. Decentralized documentation platform for civic and open governance.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides technical infrastructure that other civic tools or services build upon."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Open-source codebase facilitates replication.",
+  "primary_users_or_beneficiaries": [
+    "Civic technologists",
+    "Government transparency advocates",
+    "Open data communities"
+  ],
+  "underdog_signal": false
 }

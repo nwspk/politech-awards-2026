@@ -67,9 +67,7 @@
     "https://www.mysociety.org/2009/introducing-mapit/",
     "https://www.mysociety.org/blog/mapit-10-years-on/"
   ],
-  "academic_citations": [
-    "Civic Tech and the Reinvention of Democracy (2016) - references MapIt as foundational civic data infrastructure"
-  ],
+  "academic_citations": [],
   "awards": [
     "Recognized as key civic infrastructure by UK Government Digital Service"
   ],
@@ -110,5 +108,19 @@
   "pass2_at": "2026-03-09T23:21:34.577Z",
   "pass5_at": "2026-03-10T01:02:04.872Z",
   "pass5_jina_words": 390,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "MapIt addresses improving government service delivery and transparency and making civic data accessible and actionable. It has documented policy impact.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides foundational infrastructure: Match postcodes and geographical points to administrative areas."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Open-source codebase enables replication. currently deployed in United Kingdom only, but approach could be adapted to other national contexts.",
+  "primary_users_or_beneficiaries": [
+    "developers",
+    "campaigners",
+    "government agencies",
+    "nonprofits"
+  ],
+  "underdog_signal": true
 }

@@ -88,21 +88,8 @@
     "volunteer moderation scalability",
     "loss of non-profit status in Germany (occurred 2021-2025)"
   ],
-  "news_articles": [
-    "Guardian: 'Mastodon: the Twitter alternative that's booming' (2022)",
-    "Wired: 'Mastodon Is Twitter's Biggest Competitor Yet' (2022)",
-    "Reuters: 'Elon Musk's Twitter changes fuel interest in Mastodon' (2022)",
-    "TechCrunch: 'Mastodon's growth shows the appetite for Twitter alternatives' (2022)",
-    "BBC: 'Mastodon: The decentralised social network gaining users' (2023)",
-    "NPR: 'What is Mastodon? A beginner's guide to the Twitter alternative' (2023)"
-  ],
-  "academic_citations": [
-    "Zulli & Zulli (2020) 'Extending the Internet meme: Conceptualizing technological mimesis and imitation publics on the rise of Instagram' - references decentralized social media",
-    "Gillespie (2010) 'The politics of platforms' - foundational work on platform governance applicable to Mastodon",
-    "Gillespie (2018) 'Custodians of the Internet' - discusses platform moderation relevant to federated systems",
-    "Suzor (2019) 'Lawless: The Secret Rules That Govern Our Digital Lives' - examines platform governance models",
-    "Roberts (2019) 'Behind the Screen: Content Moderation in the Shadows of Social Media' - relevant to Mastodon's distributed moderation"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "Mozilla Open Source Award consideration (2022)",
     "EFF recognition for decentralized social media advocacy (2023)"
@@ -151,5 +138,19 @@
   "pass2_at": "2026-03-09T23:21:35.135Z",
   "pass5_at": "2026-03-10T00:46:19.791Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Mastodon addresses building public digital infrastructure and creating alternatives to corporate-controlled social media. It has documented policy impact.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides foundational infrastructure: Your self-hosted, globally interconnected microblogging community."
+  },
+  "systemic_issue_area": "digital rights infrastructure",
+  "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "journalists",
+    "activists",
+    "researchers",
+    "marginalized communities"
+  ],
+  "underdog_signal": false
 }

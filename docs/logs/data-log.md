@@ -53,6 +53,9 @@ For contribution workflow, see [CONTRIBUTING.md](../../CONTRIBUTING.md).
 | 2026-03-10 | Added | Verification report generation | 321 dossiers | Added automated conformance and quality-flag checks |
 | 2026-03-10 | Added | Jina Reader fallback fetch path | Thin/blocked pages | Used to recover content from bot-blocked or JS-heavy pages |
 | 2026-03-10 | Removed/flagged | Non-project URLs from trusted-candidate assumptions | High-risk subset | Confirmed some entries are papers/templates/posts, not projects |
+| 2026-03-20 | Removed | Vague/placeholder citation strings from `academic_citations` and `news_articles` | 185 dossiers (v7) | 538 entries removed; descriptive placeholders with no URL or DOI. See PR #19. |
+| 2026-03-20 | Added | 10 academic citations restored with verified DOIs via Crossref API | 9 dossiers (v7) | Recovery pass after vague-citation cleanup. See PR #19. |
+| 2026-03-21 | Removed | 35 irrelevant academic citations from OpenAlex keyword-match contamination | 19 dossiers (v7) | Name/term collisions (Beckton Farm, Granicus river, Meyer-Overton rule, etc.). See PR #19. |
 
 ## Cleaning and normalization steps
 
@@ -64,6 +67,8 @@ For contribution workflow, see [CONTRIBUTING.md](../../CONTRIBUTING.md).
 | Pass 3 structured lookups | Pulls from structured/public records where available | Increases verifiability for funding/research claims |
 | Pass 4 verification | Flags schema violations, contradictions, and weak evidence patterns | Converts dataset from "filled" to "audited" |
 | Pass 5 Jina fallback | Re-fetches blocked/thin pages and merges only richer values | Improves weak dossiers while limiting regressions |
+| Citation placeholder removal | Strip `academic_citations` and `news_articles` entries that are descriptive strings without URL or DOI | Fabricated/vague citations inflated evidence quality scores without providing verifiable sources |
+| OpenAlex relevance filtering | Remove citations where paper domain is unrelated to project domain (name/term collisions) | OpenAlex keyword search on project names pulls unrelated academic literature; manual verifier review applied |
 
 ## Coverage and quality notes
 

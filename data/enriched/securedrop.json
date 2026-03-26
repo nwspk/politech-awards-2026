@@ -66,17 +66,8 @@
     "Tor Browser dependency for anonymity",
     "Reliance on organizational server infrastructure"
   ],
-  "news_articles": [
-    "The Guardian - SecureDrop used by major news organizations",
-    "Reuters - Whistleblower platform adoption",
-    "Wired - Security analysis of SecureDrop",
-    "TechCrunch - Open source security tools"
-  ],
-  "academic_citations": [
-    "Whistleblower protection mechanisms in digital journalism",
-    "Anonymous communication systems evaluation",
-    "Secure document submission platforms"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "Freedom of the Press Foundation recognition"
   ],
@@ -116,5 +107,19 @@
   "pass2_at": "2026-03-09T23:21:41.978Z",
   "pass5_at": "2026-03-10T00:51:30.208Z",
   "pass5_jina_words": 485,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses government transparency and press freedom by providing a secure, anonymous whistleblower submission system used by major news organizations worldwide.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides technical infrastructure supporting civic technology ecosystem."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions; replication materials are available.",
+  "primary_users_or_beneficiaries": [
+    "investigative journalists",
+    "media organizations",
+    "ngos",
+    "whistleblowers"
+  ],
+  "underdog_signal": true
 }

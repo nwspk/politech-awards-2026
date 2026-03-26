@@ -76,9 +76,7 @@
       "url": "https://www.wired.com/story/how-sci-hub-is-winning-the-war-against-academic-publishers/"
     }
   ],
-  "academic_citations": [
-    "Himmelstein et al. (2018) - 'Sci-Hub provides access to nearly all scholarly literature published within the last 50 years'"
-  ],
+  "academic_citations": [],
   "in_civictech_guide": false,
   "wikipedia_page": "https://en.wikipedia.org/wiki/Sci-Hub",
   "replication_materials_available": false,
@@ -107,5 +105,19 @@
   "pass2_at": "2026-03-10T00:27:57.127Z",
   "pass5_at": "2026-03-10T00:51:28.390Z",
   "pass5_jina_words": 12,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Sci-Hub addresses digital rights and online freedoms. Provides free access to academic research papers by circumventing publisher paywalls.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides digital rights infrastructure or privacy-preserving technology foundations."
+  },
+  "systemic_issue_area": "digital rights infrastructure",
+  "generalizability_notes": "Already deployed across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "civic technology researchers",
+    "public policy students",
+    "academics",
+    "engaged citizens"
+  ],
+  "underdog_signal": true
 }

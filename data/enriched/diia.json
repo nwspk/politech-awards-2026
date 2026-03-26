@@ -60,10 +60,7 @@
     "https://www.reuters.com/technology/ukraine-digital-transformation-2022-02-24/",
     "https://www.theguardian.com/world/2022/mar/15/ukraine-digital-government"
   ],
-  "academic_citations": [
-    "Diia: Ukraine's Digital Government Platform - Case studies in digital transformation during conflict (2023)",
-    "Government Digital Services and Citizen Engagement in Eastern Europe (2022)"
-  ],
+  "academic_citations": [],
   "awards": [
     "World Economic Forum Digital Government Award (2021)",
     "UN World Summit on the Information Society Prize (2021)"
@@ -113,5 +110,17 @@
   "pass2_at": "2026-03-09T23:21:29.897Z",
   "pass5_at": "2026-03-10T00:46:13.926Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Diia addresses government technology and public service delivery. Ukraine's digital government ecosystem: mobile app, portal, and digital transformation projects.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides technical infrastructure that other civic tools or services build upon."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Could be adapted to other national contexts with localization. Open-source codebase facilitates replication.",
+  "primary_users_or_beneficiaries": [
+    "Ukrainian citizens",
+    "Ukrainian businesses"
+  ],
+  "underdog_signal": false
 }

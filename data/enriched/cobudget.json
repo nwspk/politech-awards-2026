@@ -61,12 +61,8 @@
   ],
   "funding_verified": false,
   "last_funding_event": "2024",
-  "news_articles": [
-    "Cobudget featured in participatory budgeting discussions on civic tech platforms"
-  ],
-  "academic_citations": [
-    "Cited in participatory democracy and civic technology research literature"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "in_civictech_guide": true,
   "wikipedia_page": false,
   "policy_outcomes": [
@@ -100,5 +96,19 @@
   "pass2_at": "2026-03-09T23:21:22.694Z",
   "pass5_at": "2026-03-10T00:43:55.911Z",
   "pass5_jina_words": 675,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses barriers to meaningful citizen participation in democratic decision-making by providing tools for public engagement and deliberation.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Enables direct citizen participation in democratic processes."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (4 countries), demonstrating cross-context adaptability.",
+  "primary_users_or_beneficiaries": [
+    "networked organizations",
+    "professional networks",
+    "granting bodies",
+    "co-working communities"
+  ],
+  "underdog_signal": true
 }

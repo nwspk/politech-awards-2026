@@ -60,13 +60,8 @@
   ],
   "funding_verified": true,
   "last_funding_event": "2024",
-  "news_articles": [
-    "Harvard Kennedy School Ash Center publications",
-    "Digital Public Library of America announcements"
-  ],
-  "academic_citations": [
-    "Cited in public administration and digital governance literature"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "in_civictech_guide": false,
   "replication_materials_available": true,
   "published_performance_metrics": "Course adoption metrics across 75 universities",
@@ -81,5 +76,19 @@
   "pass2_at": "2026-03-09T23:21:49.177Z",
   "pass5_at": "2026-03-10T00:56:41.456Z",
   "pass5_jina_words": 431,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Teaching Public Service in the Digital Age addresses government technology and public service delivery. Open-access syllabus and training to equip public servants with digital-era skills.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides data, research, or educational resources for civic engagement."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions; replication materials are available; methodology-based approach is inherently transferable.",
+  "primary_users_or_beneficiaries": [
+    "educators",
+    "public servants",
+    "public officials",
+    "mpa/mpp students"
+  ],
+  "underdog_signal": false
 }

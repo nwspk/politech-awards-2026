@@ -57,19 +57,8 @@
     "100% volunteer-run; no paid staff",
     "Slack dependency for core community infrastructure"
   ],
-  "news_articles": [
-    "Tech workers organize for climate action (various tech publications, 2018-2024)",
-    "Climate Solutions at Work - Drawdown",
-    "How to Be a Responsible Member of the Interwebs - Sierra Club"
-  ],
-  "academic_citations": [
-    {
-      "title": "Must All Things Pass?:Designing for the Afterlife of (Internet of) Things",
-      "year": 2020,
-      "cited_by": 3,
-      "doi": null
-    }
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [],
   "in_civictech_guide": false,
   "wikipedia_page": false,
@@ -119,5 +108,18 @@
   "pass5_jina_words": 463,
   "pass5_changes": [
     "news_articles"
-  ]
+  ],
+  "political_relevance_summary": "Addresses power imbalances in civic advocacy by providing tools that amplify underrepresented voices.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides information, resources, or analysis relevant to civic actors."
+  },
+  "systemic_issue_area": "civic advocacy infrastructure",
+  "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (10 countries), demonstrating cross-context adaptability.",
+  "primary_users_or_beneficiaries": [
+    "tech workers",
+    "software engineers",
+    "tech industry employees"
+  ],
+  "underdog_signal": true
 }

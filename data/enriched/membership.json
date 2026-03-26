@@ -79,5 +79,18 @@
   ],
   "pass5_at": "2026-03-10T01:00:24.301Z",
   "pass5_jina_words": 60,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Membership addresses the civic problem of lowering barriers to civic participation.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides foundational infrastructure: A prototype for decentralized membership and governance systems."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "Civic technologists",
+    "Governance practitioners",
+    "Decentralization advocates"
+  ],
+  "underdog_signal": true
 }

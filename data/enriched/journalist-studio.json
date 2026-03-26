@@ -68,13 +68,8 @@
   "dependency_risks": [
     "Reliance on Google infrastructure and continued corporate commitment"
   ],
-  "news_articles": [
-    "Google Launches Journalist Studio to Help News Organizations",
-    "How Google's Journalist Studio is Changing Investigative Reporting"
-  ],
-  "academic_citations": [
-    "Journalist Studio as a tool for computational journalism research"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "Google News Initiative recognition"
   ],
@@ -94,5 +89,18 @@
   "pass2_at": "2026-03-09T23:21:32.084Z",
   "pass5_at": "2026-03-10T00:46:27.464Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Journalist Studio addresses making civic data accessible and actionable and protecting digital rights and privacy.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Serves as an information resource: A collection of tools to empower journalists to do their work more efficiently, creatively, and securely."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "journalists",
+    "researchers",
+    "news organizations"
+  ],
+  "underdog_signal": false
 }

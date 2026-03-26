@@ -59,16 +59,8 @@
     "Potential export control restrictions",
     "Geopolitical tensions around AI technology"
   ],
-  "news_articles": [
-    "DeepSeek's V3 AI model challenges OpenAI's dominance - Reuters, December 2024",
-    "Chinese AI startup DeepSeek releases powerful new model - TechCrunch, December 2024",
-    "DeepSeek-V3 sparks debate over AI cost efficiency - Wired, December 2024",
-    "DeepSeek challenges US AI leadership with efficient model - Guardian, December 2024"
-  ],
-  "academic_citations": [
-    "DeepSeek-V3 Technical Report - arXiv preprint, 2024",
-    "Mixture-of-Experts scaling in large language models - referenced in multiple ML papers, 2024-2025"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "in_civictech_guide": false,
   "replication_materials_available": true,
   "published_performance_metrics": "Model benchmarks available on GitHub; performance comparisons with GPT-4, Claude, and other LLMs documented",
@@ -97,5 +89,18 @@
   "pass2_at": "2026-03-09T23:21:30.623Z",
   "pass5_at": "2026-03-10T00:46:18.011Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "DeepSeek-V3 addresses civic technology. A Mixture-of-Experts language model with 671B total parameters optimized for efficient inference and cost-effective training.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides technical infrastructure that other civic tools or services build upon."
+  },
+  "systemic_issue_area": "civic technology infrastructure",
+  "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Open-source codebase facilitates replication.",
+  "primary_users_or_beneficiaries": [
+    "researchers",
+    "developers",
+    "AI practitioners"
+  ],
+  "underdog_signal": false
 }

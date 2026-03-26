@@ -95,5 +95,18 @@
   ],
   "pass5_at": "2026-03-10T00:45:45.559Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Digital Account Management Toolkit addresses digital rights and online freedoms. Free resource to help nonprofits manage social media and digital accounts securely and prevent account lockouts.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides data, research, or monitoring capabilities for civic purposes."
+  },
+  "systemic_issue_area": "digital rights infrastructure",
+  "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Proprietary or closed-source; replication requires licensing.",
+  "primary_users_or_beneficiaries": [
+    "nonprofit organizations",
+    "charities",
+    "civil society organizations"
+  ],
+  "underdog_signal": true
 }

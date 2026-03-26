@@ -63,9 +63,7 @@
   "dependency_risks": [
     "Reliance on MailChimp for mailing list management"
   ],
-  "news_articles": [
-    "Pursuance Project: A New Tool for Collaborative Activism"
-  ],
+  "news_articles": [],
   "academic_citations": [
     {
       "title": "Beamforming for Millimeter Wave Communications: An Inclusive Survey",
@@ -100,5 +98,21 @@
   ],
   "pass5_at": "2026-03-10T00:51:02.973Z",
   "pass5_jina_words": 583,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Pursuance Project addresses democratic participation and citizen engagement. Open source software enabling individuals and organizations to collaborate on shared goals through secure task management and discussion.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Directly supports organizing, mobilization, or democratic participation processes."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "activists",
+    "nonprofits",
+    "charities",
+    "investigative journalists",
+    "civic technology researchers",
+    "volunteers"
+  ],
+  "underdog_signal": true
 }

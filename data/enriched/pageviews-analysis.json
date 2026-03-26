@@ -100,5 +100,19 @@
   ],
   "pass5_at": "2026-03-10T00:48:10.254Z",
   "pass5_jina_words": 260,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Pageviews Analysis addresses the need for transparent public attention metrics on Wikipedia content, enabling researchers and journalists to track public interest in political and civic topics.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Pageviews Analysis primarily serves as an information resource for researchers, journalists, or analysts working on civic and political issues."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "High generalizability. Pageviews Analysis is open source and already deployed across multiple countries/jurisdictions, making replication straightforward for other contexts.",
+  "primary_users_or_beneficiaries": [
+    "researchers",
+    "journalists",
+    "Wikipedia editors",
+    "data analysts"
+  ],
+  "underdog_signal": true
 }

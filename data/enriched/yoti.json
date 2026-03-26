@@ -66,11 +66,7 @@
     "Reliance on biometric data collection and processing",
     "Potential regulatory changes around digital identity verification"
   ],
-  "news_articles": [
-    "Guardian: Yoti age verification technology",
-    "Reuters: Digital identity verification platforms",
-    "TechCrunch: Yoti funding announcements"
-  ],
+  "news_articles": [],
   "academic_citations": [
     {
       "title": "Hibernation phenology of<scp><i>M</i></scp><i>yotis lucifugus</i>",
@@ -128,5 +124,20 @@
   ],
   "pass5_at": "2026-03-10T00:57:30.475Z",
   "pass5_jina_words": 428,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Yoti addresses digital rights and online freedoms. Building the world's trusted identity platform.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides technical infrastructure for civic technology"
+  },
+  "systemic_issue_area": "digital rights infrastructure",
+  "generalizability_notes": "Moderately generalizable — already international but proprietary nature may limit independent replication.",
+  "primary_users_or_beneficiaries": [
+    "businesses",
+    "individuals",
+    "financial institutions",
+    "retailers",
+    "government agencies"
+  ],
+  "underdog_signal": false
 }

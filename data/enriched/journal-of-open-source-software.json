@@ -64,9 +64,7 @@
     "https://www.nature.com/articles/d41586-020-01856-x",
     "https://opensource.com/article/20/7/joss"
   ],
-  "academic_citations": [
-    "Katz et al. (2021) - Journal of Open Source Software: design and first-year review"
-  ],
+  "academic_citations": [],
   "awards": [
     "Open Access Button Award"
   ],
@@ -85,5 +83,18 @@
   "pass2_at": "2026-03-09T23:21:32.604Z",
   "pass5_at": "2026-03-10T00:46:27.256Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Journal of Open Source Software provides technology infrastructure relevant to civic and political processes, focused on A developer friendly, open access journal for research software packages.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides foundational infrastructure: A developer friendly, open access journal for research software packages."
+  },
+  "systemic_issue_area": "knowledge access",
+  "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "Software developers",
+    "Researchers",
+    "Open source community"
+  ],
+  "underdog_signal": false
 }

@@ -112,5 +112,20 @@
   ],
   "pass5_at": "2026-03-10T00:46:26.454Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Harmonica addresses enabling broader democratic participation and improving government service delivery and transparency.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Serves as an information resource: AI-powered facilitation platform for conversational surveys and stakeholder engagement."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "teams",
+    "organizations",
+    "governance bodies",
+    "peacemaking organizations",
+    "educational institutions"
+  ],
+  "underdog_signal": true
 }

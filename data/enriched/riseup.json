@@ -59,14 +59,8 @@
     "Reliance on volunteer labor and donations",
     "Single point of failure for activist communications infrastructure"
   ],
-  "news_articles": [
-    "Guardian coverage of encrypted email services",
-    "EFF documentation of Riseup services",
-    "Various activist media outlets"
-  ],
-  "academic_citations": [
-    "Citations in digital rights and cybersecurity literature"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "in_civictech_guide": false,
   "documented_limitations": [
     "Service disruptions documented (network switch outage May 2021, scheduled outages)",
@@ -91,5 +85,19 @@
   "pass2_at": "2026-03-09T23:21:40.666Z",
   "pass5_at": "2026-03-10T00:51:22.406Z",
   "pass5_jina_words": 626,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Riseup addresses digital rights and online freedoms. Secure online communication tools for people and groups working on liberatory social change.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Amplifies advocacy efforts and helps citizens influence decision-makers."
+  },
+  "systemic_issue_area": "digital rights infrastructure",
+  "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "activists",
+    "social movements",
+    "advocacy organizations",
+    "grassroots groups"
+  ],
+  "underdog_signal": true
 }

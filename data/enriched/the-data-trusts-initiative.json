@@ -59,15 +59,8 @@
     "time-limited grant funding",
     "academic institution dependency (Cambridge ML@CL)"
   ],
-  "news_articles": [
-    "Data trusts could help patients control their health records (The Guardian, 2021)",
-    "How data trusts could give people control over their personal information (Wired, 2021)"
-  ],
-  "academic_citations": [
-    "Delacroix & Lawrence (2019) — Bottom-up data trusts, Internet Policy Review",
-    "Montgomery et al. (2021) — Data Governance for the 21st Century",
-    "Global Partnership on AI (2022) — Enabling Data Sharing for Social Benefit Through Data Trusts"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "in_civictech_guide": false,
   "wikipedia_page": false,
   "policy_outcomes": [
@@ -112,5 +105,19 @@
   "pass2_at": "2026-03-09T23:21:25.755Z",
   "pass5_at": "2026-03-10T00:45:43.545Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "The Data Trusts Initiative addresses civic data access and transparency. Working at the interface of technology, policy and the law to create data trusts that empower individuals and communities while supporting data use for social benefit.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Amplifies civic voice or facilitates contact with decision-makers"
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Limited to United Kingdom context currently; approach could potentially be replicated in similar jurisdictions with adaptation to local data sources and regulations.",
+  "primary_users_or_beneficiaries": [
+    "NHS patients",
+    "coastal communities",
+    "birth cohort participants",
+    "data rights holders"
+  ],
+  "underdog_signal": true
 }
