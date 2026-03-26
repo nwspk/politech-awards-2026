@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "viewer": "vite --config viewer/vite.config.js",
     "build:iterations": "npx tsx scripts/bots/build-iterations.ts",
     "sync:readme": "npx tsx scripts/bots/sync-readme.ts",
     "sync:iterations-log": "npx tsx scripts/bots/sync-iterations-log.ts",
@@ -16,10 +17,14 @@
     "cache:read": "npx tsx scripts/read-cache.ts"
   },
   "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
     "@types/node": "^25.2.2",
     "better-sqlite3": "^12.6.2",
     "csv-parser": "^3.2.0",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vite": "^6.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "dependencies": {
   }
