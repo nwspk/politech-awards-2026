@@ -1,0 +1,64 @@
+{
+  "tier": 5,
+  "description": "50 pairwise comparisons sampled from Tier 0 shortlist of 30 projects. Ranking built from wins/losses. Compared to Tier 0.",
+  "run_date": "2026-03-27",
+  "model": "claude-haiku-4-5 (Anthropic API)",
+  "random_seed": 42,
+  "total_pairs": 50,
+
+  "pairwise_ranking": [
+    {"rank": 1, "name": "PolicyEngine", "wins": 5, "losses": 0, "total_compared": 5, "win_rate": 1.0},
+    {"rank": 2, "name": "Alaveteli", "wins": 4, "losses": 0, "total_compared": 4, "win_rate": 1.0},
+    {"rank": 3, "name": "vTaiwan", "wins": 3, "losses": 0, "total_compared": 3, "win_rate": 1.0},
+    {"rank": 4, "name": "TheyWorkForYou", "wins": 3, "losses": 0, "total_compared": 3, "win_rate": 1.0},
+    {"rank": 5, "name": "OpenProcurement", "wins": 3, "losses": 0, "total_compared": 3, "win_rate": 1.0},
+    {"rank": 6, "name": "DISARM Frameworks", "wins": 2, "losses": 0, "total_compared": 2, "win_rate": 1.0},
+    {"rank": 7, "name": "Talk to the City", "wins": 1, "losses": 0, "total_compared": 1, "win_rate": 1.0},
+    {"rank": 8, "name": "OpenSanctions", "wins": 1, "losses": 0, "total_compared": 1, "win_rate": 1.0},
+    {"rank": 9, "name": "mySociety Datasets and APIs", "wins": 3, "losses": 1, "total_compared": 4, "win_rate": 0.75},
+    {"rank": 10, "name": "AlgorithmWatch", "wins": 3, "losses": 1, "total_compared": 4, "win_rate": 0.75},
+    {"rank": 11, "name": "GlobaLeaks", "wins": 4, "losses": 2, "total_compared": 6, "win_rate": 0.67},
+    {"rank": 12, "name": "Democracy Club Developer API", "wins": 2, "losses": 1, "total_compared": 3, "win_rate": 0.67},
+    {"rank": 13, "name": "Tor Project", "wins": 3, "losses": 3, "total_compared": 6, "win_rate": 0.50},
+    {"rank": 14, "name": "Humanitarian OpenStreetMap Team (HOT)", "wins": 2, "losses": 2, "total_compared": 4, "win_rate": 0.50},
+    {"rank": 15, "name": "ODK (Open Data Kit)", "wins": 1, "losses": 1, "total_compared": 2, "win_rate": 0.50},
+    {"rank": 16, "name": "Decidim", "wins": 1, "losses": 1, "total_compared": 2, "win_rate": 0.50},
+    {"rank": 17, "name": "Tracka", "wins": 3, "losses": 4, "total_compared": 7, "win_rate": 0.43},
+    {"rank": 18, "name": "SecureDrop", "wins": 1, "losses": 2, "total_compared": 3, "win_rate": 0.33},
+    {"rank": 19, "name": "Guardian Project", "wins": 1, "losses": 2, "total_compared": 3, "win_rate": 0.33},
+    {"rank": 20, "name": "Cybersecurity for Democracy", "wins": 1, "losses": 2, "total_compared": 3, "win_rate": 0.33},
+    {"rank": 21, "name": "Polis", "wins": 1, "losses": 4, "total_compared": 5, "win_rate": 0.20},
+    {"rank": 22, "name": "WhatDoTheyKnow", "wins": 1, "losses": 5, "total_compared": 6, "win_rate": 0.17},
+    {"rank": 23, "name": "Aleph (OCCRP)", "wins": 1, "losses": 6, "total_compared": 7, "win_rate": 0.14},
+    {"rank": 24, "name": "Open Contracting Partnership", "wins": 0, "losses": 4, "total_compared": 4, "win_rate": 0.0},
+    {"rank": 25, "name": "Worker Info Exchange", "wins": 0, "losses": 2, "total_compared": 2, "win_rate": 0.0},
+    {"rank": 26, "name": "Open Ownership", "wins": 0, "losses": 2, "total_compared": 2, "win_rate": 0.0},
+    {"rank": 27, "name": "Full Fact AI", "wins": 0, "losses": 2, "total_compared": 2, "win_rate": 0.0},
+    {"rank": 28, "name": "CONSUL Democracy", "wins": 0, "losses": 2, "total_compared": 2, "win_rate": 0.0},
+    {"rank": 29, "name": "Bellingcat Online Investigation Toolkit", "wins": 0, "losses": 1, "total_compared": 1, "win_rate": 0.0}
+  ],
+
+  "not_compared": ["Privacy Badger", "Worker Info Exchange (noted above)"],
+
+  "notable_pairwise_results": [
+    {"pair": 35, "a": "PolicyEngine", "b": "Aleph (OCCRP)", "winner": "PolicyEngine", "note": "Aleph loses to PolicyEngine despite ranking above it in Tier 0"},
+    {"pair": 2, "b_wins": "Decidim over Open Contracting Partnership", "note": "Decidim beats OCP — reversal of Tier 0 order"},
+    {"pair": 8, "b_wins": "Tracka over Open Contracting Partnership", "note": "Unexpected — Tracka beats OCP head to head despite lower tier 0 rank"},
+    {"pair": 19, "b_wins": "Alaveteli over Aleph", "note": "Alaveteli consistently dominant in pairwise"},
+    {"pair": 42, "b_wins": "vTaiwan over Aleph (OCCRP)", "note": "vTaiwan beats Aleph — which ranked above vTaiwan in Tier 0"}
+  ],
+
+  "transitivity_analysis": {
+    "non_transitive_cycles_detected": [
+      {
+        "cycle": "Aleph > WhatDoTheyKnow (pair 6, Aleph wins) → WhatDoTheyKnow > SecureDrop (pair implied) → SecureDrop not compared to Aleph directly",
+        "note": "Partial cycle — insufficient pairs to fully verify"
+      },
+      {
+        "cycle": "Tracka > GlobaLeaks (pair 26) → GlobaLeaks > Polis (pair 9) → Polis > DISARM (pair 4 - Polis loses, so Polis < DISARM) — no clear cycle but Tracka's inconsistent performance suggests threshold sensitivity",
+        "note": "Tracka is the most inconsistent performer: 3W/4L"
+      }
+    ],
+    "note": "With 50 pairs and 30 projects, full transitivity verification requires more comparisons. The patterns suggest Aleph (OCCRP) suffers from high variance — it ranks high globally but loses many direct comparisons when specific alternatives are presented."
+  }
+}

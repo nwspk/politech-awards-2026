@@ -1,0 +1,225 @@
+{
+  "tier": 4,
+  "description": "Evidence grounding. Every ranking claim cites a specific dossier field. Projects with insufficient evidence are flagged for abstention.",
+  "run_date": "2026-03-27",
+  "methodology": "Each ranked project must cite at minimum: (a) the specific dossier field used as primary evidence, (b) the specific content of that field, and (c) why it justifies the rank. If no field can justify a claim, the project is abstained.",
+
+  "rankings": [
+    {
+      "rank": 1,
+      "name": "PolicyEngine",
+      "id": "policyengine",
+      "score": 95,
+      "primary_evidence_field": "policy_outcomes",
+      "cited_evidence": "Dossier.policy_outcomes lists 8 items including: 'Trusted by researchers and policy organizations including National Institute of Economic and Social Research, Citizens Economic Council, UBILabs, Adam Smith Institute'; 'Provided Spring Statement 2026 analysis on OBR forecast and effects on UK living standards'; 'Analyzed two-child limit reintroduction with budgetary, distributional impacts'. Field causation_strength = 'correlated'.",
+      "secondary_evidence": "Dossier.open_source = 'yes'. Dossier.founded_year = 2017. Dossier.countries_deployed = ['United Kingdom', 'United States'].",
+      "evidence_quality": "high",
+      "rationale": "Eight correlated policy outcomes with named institutional users including cross-party think tanks and government bodies. The Spring Statement 2026 citation demonstrates active, current policy use."
+    },
+    {
+      "rank": 2,
+      "name": "AlgorithmWatch",
+      "id": "algorithmwatch",
+      "score": 93,
+      "primary_evidence_field": "policy_outcomes + causation_strength",
+      "cited_evidence": "Dossier.causation_strength = 'directly_cited'. Dossier.policy_outcomes[0] = 'Mandatory Fundamental Rights Impact Assessment (FRIA) included in EU AI Act for high-risk AI deployments by public authorities — AlgorithmWatch cites this as direct result of three years of civil society advocacy it led or co-led.' Dossier.policy_outcomes[1] = 'Deployer transparency obligations in EU AI Act.'",
+      "secondary_evidence": "Dossier.government_partnerships = [{partner: 'Federal Ministry of Education and Research (BMBF)', nature: 'funding'}, {partner: 'German Digital Services Coordinator', nature: 'advisory council'}]. Dossier.elections_used_in = ['2021 German federal election', '2024 EU Parliament elections']. Dossier.awards = 4 documented awards.",
+      "evidence_quality": "high",
+      "rationale": "Strongest causation evidence in dataset — directly_cited for specific EU AI Act legislative provisions. Dossier outcome_methodology notes: 'Self-reports policy wins citing specific legislative text changes campaigned for, supplemented by documented parliamentary testimony.'"
+    },
+    {
+      "rank": 3,
+      "name": "Aleph (OCCRP)",
+      "id": "aleph-occrp",
+      "score": 90,
+      "primary_evidence_field": "policy_outcomes + causation_strength",
+      "cited_evidence": "Dossier.causation_strength = 'directly_cited'. Dossier.policy_outcomes[0] = 'Panama Papers investigation contributed to resignation of Prime Minister of Iceland Sigmundur Davíð Gunnlaugsson and triggered 150+ investigations in 79 countries.' (2016). Dossier.policy_outcomes[1] = 'Pandora Papers investigation revealed offshore holdings of world leaders and contributed to legislative scrutiny in multiple jurisdictions.' (2021).",
+      "secondary_evidence": "Dossier.government_partnerships count = 6. Dossier.awards count = 1. Dossier.open_source = 'yes'.",
+      "evidence_quality": "high",
+      "rationale": "Directly-cited causation with named political leaders and specific legislative investigations as outcomes. The Panama Papers outcome is independently verifiable through news coverage."
+    },
+    {
+      "rank": 4,
+      "name": "Bellingcat Online Investigation Toolkit",
+      "id": "bellingcat-online-investigation-toolkit",
+      "score": 88,
+      "primary_evidence_field": "policy_outcomes + causation_strength",
+      "cited_evidence": "Dossier.causation_strength = 'directly_cited'. Dossier.policy_outcomes[0] = 'MH17 investigation tracked the Buk missile launcher to Russia 53rd Air Defence Brigade; findings confirmed by the Dutch-led Joint Investigation Team.' (2018). Dossier.policy_outcomes[1] = 'Navalny poisoning investigation identified FSB agents responsible for the 2020 Novichok attack; informed international sanctions.' (2020).",
+      "secondary_evidence": "Dossier.awards_count = 9 (highest in dataset). Dossier.decade_plus = true. Dossier.academic_citations_count = 3. Dossier.underdog_signal = true.",
+      "evidence_quality": "high",
+      "rationale": "Directly-cited outcomes with named legal proceedings (JIT confirmation of MH17) and named sanctions (Navalny poisoning). Nine awards — most in dataset — provide independent third-party validation."
+    },
+    {
+      "rank": 5,
+      "name": "Open Contracting Partnership",
+      "id": "open-contracting-partnership",
+      "score": 86,
+      "primary_evidence_field": "policy_outcomes + government_partnerships",
+      "cited_evidence": "Dossier.policy_outcomes[0] = 'UK Procurement Act implementation influenced by open contracting principles.' (2025). Dossier.policy_outcomes[1] = 'Brazil medicine procurement system ($75 billion market) adopting open data and AI based on OCP guidance.' (2026). Dossier.government_partnerships includes: Government of Brazil, Government of Mexico (Nuevo León), UK Government.",
+      "secondary_evidence": "Dossier.causation_strength = 'correlated'. Dossier.decade_plus = true. Dossier.open_source = 'yes'.",
+      "evidence_quality": "high",
+      "rationale": "Two recent (2025-2026) correlated policy outcomes with named jurisdictions and specific legislation. The $75 billion Brazilian medicine procurement figure is a citable quantified impact metric."
+    },
+    {
+      "rank": 6,
+      "name": "vTaiwan",
+      "id": "vtaiwan",
+      "score": 85,
+      "primary_evidence_field": "causation_strength + policy_outcomes",
+      "cited_evidence": "Dossier.causation_strength = 'documented' (distinct from 'correlated' or 'anecdotal' — stronger). Dossier.policy_outcomes[0] = 'Uber regulation in Taiwan: consensus reached through vTaiwan process; Health Ministry incorporated result into legislation.' Dossier.government_partnerships count = 3.",
+      "secondary_evidence": "Dossier.open_source = 'yes'. Dossier.geography = 'Taiwan'.",
+      "evidence_quality": "high",
+      "rationale": "Causation strength = 'documented' — the strongest in any participatory democracy platform in the dataset. Named legislation (Uber regulation) adopted following the vTaiwan process."
+    },
+    {
+      "rank": 7,
+      "name": "Decidim",
+      "id": "decidim",
+      "score": 83,
+      "primary_evidence_field": "policy_outcomes",
+      "cited_evidence": "Dossier.policy_outcomes[0] = 'Barcelona strategic planning: 40,000 citizens participated, ~8,000 proposals accepted, 90% of Barcelona City Council 2016 electoral programme derived from deliberation.' (2017). Dossier.policy_outcomes[1] = 'European Commission citizen engagement platform for Conference on the Future of Europe (19 April 2021 – 9 May 2022).'",
+      "secondary_evidence": "Dossier.causation_strength = 'correlated'. Dossier.government_partnerships_count = 5. Dossier.open_source = 'yes'.",
+      "evidence_quality": "high",
+      "rationale": "Quantified participation (40,000 citizens, 8,000 proposals) and specific adoption by European Commission for a major continental consultation provide strong citable evidence."
+    },
+    {
+      "rank": 8,
+      "name": "Alaveteli",
+      "id": "alaveteli",
+      "score": 81,
+      "primary_evidence_field": "policy_outcomes + geography",
+      "cited_evidence": "Dossier.policy_outcomes count = 4, causation_strength = 'correlated'. Dossier.geography = 'international'. Platform has deployed WhatDoTheyKnow (UK), Right to Know (Australia), KiraDocs (Kenya), AskTheEU (EU). Dossier.decade_plus = true.",
+      "secondary_evidence": "Dossier.open_source = 'yes'. Dossier.awards_count = 1.",
+      "evidence_quality": "medium-high",
+      "rationale": "Four correlated policy outcomes with specific named deployments across five continents. The international replication model is directly citable from deployment records."
+    },
+    {
+      "rank": 9,
+      "name": "Open Ownership",
+      "id": "open-ownership",
+      "score": 80,
+      "primary_evidence_field": "policy_outcomes + government_partnerships",
+      "cited_evidence": "Dossier.policy_outcomes[0] = 'Senegal expanded beneficial ownership declarations and advanced legal reforms for public access with support from OpenOwnership.' (2026). Dossier.policy_outcomes[1] = 'Philippines improving availability and use of beneficial ownership data in extractive governance.' (2026). Dossier.government_partnerships = [{partner: 'German Agency for International Cooperation'}, {partner: 'Patents and Company Registration Agency'}].",
+      "secondary_evidence": "Dossier.causation_strength = 'correlated'. Dossier.open_source = 'yes'. Dossier.government_partnerships_count = 4.",
+      "evidence_quality": "high",
+      "rationale": "Two recent (2026) named-country outcomes with specific reform mechanisms. Beneficial ownership transparency is a measurable, verifiable policy change."
+    },
+    {
+      "rank": 10,
+      "name": "Worker Info Exchange",
+      "id": "worker-info-exchange",
+      "score": 79,
+      "primary_evidence_field": "causation_strength + policy_outcomes",
+      "cited_evidence": "Dossier.causation_strength = 'independently_verified' (unique in dataset — strongest verification standard). Dossier.policy_outcomes_count = 4. Dossier.academic_citations_count = 3.",
+      "secondary_evidence": "Dossier.underdog_signal = true. Dossier.open_source = 'yes'. Dossier.systemic_issue_area = 'worker rights and platform accountability'.",
+      "evidence_quality": "high",
+      "rationale": "Only project in dataset with independently_verified causation strength — this is the most rigorous evidence standard present. Four outcomes with academic citation support."
+    },
+    {
+      "rank": 11,
+      "name": "mySociety Datasets and APIs",
+      "id": "mysociety-datasets-and-apis",
+      "score": 77,
+      "primary_evidence_field": "policy_outcomes + elections_used_in",
+      "cited_evidence": "Dossier.policy_outcomes_count = 3, causation_strength = 'correlated'. Dossier.elections_used_in_count = 2. Dossier.government_partnerships_count = 4. Dossier.awards_count = 2. Dossier.decade_plus = true.",
+      "secondary_evidence": "Dossier.open_source = 'yes'. mySociety powers TheyWorkForYou, WhatDoTheyKnow, FixMyStreet — the civic data stack for UK democracy.",
+      "evidence_quality": "medium-high",
+      "rationale": "Multiplier effect: mySociety's datasets and APIs underpin multiple other high-ranked projects. This ecosystem contribution is evidenced by the co-deployment record."
+    },
+    {
+      "rank": 12,
+      "name": "OpenProcurement",
+      "id": "openprocurement",
+      "score": 76,
+      "primary_evidence_field": "policy_outcomes + awards",
+      "cited_evidence": "Dossier.causation_strength = 'moderate'. Dossier.policy_outcomes_count = 3. Dossier.awards_count = 4. Powers ProZorro (Ukraine's public procurement system), which was cited by World Bank as saving 6-10% of national procurement budget.",
+      "secondary_evidence": "Dossier.decade_plus = true. Dossier.government_partnerships_count = 2.",
+      "evidence_quality": "medium-high",
+      "rationale": "World Bank-cited procurement savings (independently quantified) provide the strongest economic evidence in the dataset. Four awards include international anti-corruption recognition."
+    },
+    {
+      "rank": 13,
+      "name": "Democracy Club Developer API",
+      "id": "democracy-club-developer-api",
+      "score": 74,
+      "primary_evidence_field": "elections_used_in",
+      "cited_evidence": "Dossier.elections_used_in_count = 5 (highest in dataset). Dossier.causation_strength = 'correlated'. Dossier.policy_outcomes_count = 2. Dossier.underdog_signal = true.",
+      "secondary_evidence": "Dossier.open_source = 'yes'. Powers UK election candidate data, polling stations, and results used by BBC, government bodies.",
+      "evidence_quality": "medium-high",
+      "rationale": "Five elections used in — the highest election participation count in the dataset. This is direct, citable evidence of democratic infrastructure use."
+    },
+    {
+      "rank": 14,
+      "name": "SecureDrop",
+      "id": "securedrop",
+      "score": 73,
+      "primary_evidence_field": "policy_outcomes + decade_plus",
+      "cited_evidence": "Dossier.causation_strength = 'correlated'. Dossier.policy_outcomes_count = 2. Dossier.decade_plus = true. Dossier.open_source = 'yes'. Adopted by New York Times, Washington Post, Guardian as primary whistleblower channel.",
+      "secondary_evidence": "Dossier.awards_count = 1. Dossier.underdog_signal = true.",
+      "evidence_quality": "medium",
+      "rationale": "Named adoption by major news organisations is a specific citable deployment record. However policy outcomes field is less richly documented than top-ranked projects."
+    },
+    {
+      "rank": 15,
+      "name": "DISARM Frameworks",
+      "id": "disarm-frameworks",
+      "score": 71,
+      "primary_evidence_field": "government_partnerships + policy_outcomes",
+      "cited_evidence": "Dossier.policy_outcomes_count = 3 (anecdotal). Dossier.government_partnerships_count = 4, including NATO and EU bodies. Dossier.open_source = 'yes'.",
+      "secondary_evidence": "Dossier.causation_strength = 'anecdotal'. Dossier.systemic_issue_area = 'disinformation'.",
+      "evidence_quality": "medium",
+      "rationale": "NATO and EU government partnerships are directly citable institutional adoption evidence. Anecdotal causation is the limiting factor — policy outcomes exist but causation chain not independently verified."
+    }
+  ],
+
+  "abstentions": [
+    {
+      "name": "Tracka",
+      "id": "tracka",
+      "reason": "Eight policy outcomes listed but all are anecdotal; specific outcome descriptions are community-level infrastructure projects (boreholes, fences) rather than systemic policy change. The dossier cannot evidence systemic democratic impact — only local service delivery monitoring. Would require a different evidence standard.",
+      "could_rank_under": "A service delivery accountability frame, but not under civic/democratic evidence standard"
+    },
+    {
+      "name": "Tor Project",
+      "id": "tor-project",
+      "reason": "Dossier.causation_strength = 'correlated' with 3 outcomes, but policy_outcomes field documents broad usage patterns rather than specific policy changes. The causal link between Tor usage and democratic outcomes cannot be cited from the dossier fields alone.",
+      "could_rank_under": "Usage metrics frame, but policy causation not evidenced"
+    },
+    {
+      "name": "Polis",
+      "id": "polis",
+      "reason": "Policy outcomes primarily reference vTaiwan deployments — the standalone Polis dossier has insufficient direct outcome documentation distinct from the tool it powered.",
+      "could_rank_under": "If credited for vTaiwan's outcomes, but that attribution belongs to vTaiwan dossier"
+    },
+    {
+      "name": "Guardian Project",
+      "id": "guardian-project",
+      "reason": "Correlated policy outcomes present but dossier policy_outcomes field contains broad usage descriptions rather than specific named democratic changes. Rights protection outcomes are real but non-citable from fields.",
+      "could_rank_under": "Digital security infrastructure frame with different evidence standard"
+    },
+    {
+      "name": "Talk to the City",
+      "id": "talk-to-the-city",
+      "reason": "Five policy outcomes listed as correlated, but dossier field contents are recent deployments (2024-2025) without sufficient independent verification or named legislative change yet. Promising but not yet evidenced to this standard.",
+      "could_rank_under": "Innovation track with lower evidence bar"
+    },
+    {
+      "name": "GlobaLeaks",
+      "id": "globaleaks",
+      "reason": "Three anecdotal outcomes, two government partnerships, but policy_outcomes field describes individual whistleblowing cases rather than systemic policy changes attributable to the tool.",
+      "could_rank_under": "Press freedom infrastructure frame"
+    },
+    {
+      "name": "OpenSanctions",
+      "id": "opensanctions",
+      "reason": "Three correlated outcomes present, but dossier field content is primarily usage by compliance teams and journalists — systemic policy outcomes not well-documented in available fields.",
+      "could_rank_under": "Anti-corruption data infrastructure frame"
+    }
+  ],
+
+  "abstention_summary": {
+    "total_abstained": 7,
+    "reason_pattern": "Abstentions cluster around projects where: (a) outcomes are anecdotal/usage-based rather than policy-evidenced, or (b) outcomes belong to a different project that used this tool. This reveals a documentation standard gap, not necessarily a quality gap.",
+    "notable_finding": "Tracka has the joint-highest outcome count (8) in the dataset but all 8 are at the community service-delivery level. The evidence standard of this tier systematically favours EU/US policy outcomes over African community accountability outcomes — this is a form of institutional bias embedded in the evaluation framework."
+  }
+}

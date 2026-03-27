@@ -1,0 +1,84 @@
+{
+  "tier": 3,
+  "description": "Split agents: Stage 1 infers values (no ranking). Stage 2 ranks using ONLY those inferred values.",
+  "run_date": "2026-03-27",
+  "model": "claude-haiku-4-5 (Anthropic API)",
+
+  "stage_1_inferred_values": [
+    {
+      "id": "V1",
+      "name": "Democratic Participation & Engagement",
+      "description": "Enables citizens to meaningfully participate in governance decisions, policy formation, or civic processes.",
+      "evidence_indicators": "Features enabling voting, consultation, proposal development; documented user participation; adoption by government bodies"
+    },
+    {
+      "id": "V2",
+      "name": "Transparency & Accountability",
+      "description": "Makes government actions, decisions, data, or processes visible and subject to public scrutiny.",
+      "evidence_indicators": "Publishes government data, voting records, budgets, procurement decisions; tracks implementation; exposes decision-making"
+    },
+    {
+      "id": "V3",
+      "name": "Data Access & Openness",
+      "description": "Provides open access to civic/government data, APIs, or information infrastructure.",
+      "evidence_indicators": "Open APIs; published datasets; reusable standards; removal of paywalls; adoption by third-party developers"
+    },
+    {
+      "id": "V4",
+      "name": "Technical Infrastructure & Replicability",
+      "description": "Provides open-source tools, standards, or platforms that can be adopted, adapted, and deployed by others.",
+      "evidence_indicators": "Open-source codebase; deployment documentation; multi-country adoption; active developer community; interoperability"
+    },
+    {
+      "id": "V5",
+      "name": "Investigative & Accountability Journalism",
+      "description": "Supports research, investigation, and evidence gathering enabling exposure of wrongdoing.",
+      "evidence_indicators": "Used in published investigations; evidence of uncovering corruption; fact-checking tools; adopted by news organisations"
+    },
+    {
+      "id": "V6",
+      "name": "Rights Protection",
+      "description": "Protects individual or collective rights including digital privacy, security, freedom of expression.",
+      "evidence_indicators": "Encryption/anonymity features; protection against surveillance; use by at-risk groups; security audits"
+    },
+    {
+      "id": "V7",
+      "name": "Measurable Democratic Outcomes",
+      "description": "Demonstrates concrete evidence that the technology produces changes in civic participation, policy, or governance.",
+      "evidence_indicators": "Quantified user engagement; policy changes influenced; documented behavioral change; independent evaluation"
+    },
+    {
+      "id": "V8",
+      "name": "Accessibility to Marginalised/Underserved Populations",
+      "description": "Addresses civic technology gaps for resource-constrained environments and underrepresented communities.",
+      "evidence_indicators": "Deployment in low-resource contexts; multilingual support; offline capability; low technical barriers; documented use by underserved populations"
+    }
+  ],
+
+  "stage_2_constrained_rankings": [
+    {"rank": 1, "name": "PolicyEngine", "id": "policyengine", "values_applied": ["V3", "V4", "V7"]},
+    {"rank": 2, "name": "Decidim", "id": "decidim", "values_applied": ["V1", "V4", "V7"]},
+    {"rank": 3, "name": "mySociety Datasets and APIs", "id": "mysociety-datasets-and-apis", "values_applied": ["V3", "V4", "V1"]},
+    {"rank": 4, "name": "CKAN", "id": "ckan", "values_applied": ["V4", "V3"]},
+    {"rank": 5, "name": "vTaiwan", "id": "vtaiwan", "values_applied": ["V1", "V7"]},
+    {"rank": 6, "name": "Alaveteli", "id": "alaveteli", "values_applied": ["V2", "V4", "V1"]},
+    {"rank": 7, "name": "AlgorithmWatch", "id": "algorithmwatch", "values_applied": ["V2", "V5", "V6"]},
+    {"rank": 8, "name": "Tracka", "id": "tracka", "values_applied": ["V1", "V7", "V2"]},
+    {"rank": 9, "name": "Bellingcat Online Investigation Toolkit", "id": "bellingcat-online-investigation-toolkit", "values_applied": ["V5", "V4"]},
+    {"rank": 10, "name": "CONSUL Democracy", "id": "consul-democracy", "values_applied": ["V1", "V4"]},
+    {"rank": 11, "name": "Guardian Project", "id": "guardian-project", "values_applied": ["V6", "V4", "V8"]},
+    {"rank": 12, "name": "Aleph (OCCRP)", "id": "aleph-occrp", "values_applied": ["V5", "V3"]},
+    {"rank": 13, "name": "ODK (Open Data Kit)", "id": "odk-open-data-kit", "values_applied": ["V4", "V8", "V3"]},
+    {"rank": 14, "name": "LiquidFeedback", "id": "liquidfeedback", "values_applied": ["V1", "V4"]},
+    {"rank": 15, "name": "Talk to the City", "id": "talk-to-the-city", "values_applied": ["V1", "V7"]}
+  ],
+
+  "abstentions": [
+    {"name": "Matrix", "reason": "Insufficient evidence of democratic outcomes; unclear civic mission vs infrastructure play"},
+    {"name": "Campaign Tracker", "reason": "Unclear mapping to V3-V8; primarily national UK tool with limited documentation"},
+    {"name": "Cybersecurity for Democracy", "reason": "Research org rather than deployed tool; V5 partial but limited replicability evidence"},
+    {"name": "Democracy Club Developer API", "reason": "Strong V3 but metadata incomplete for V7 and V8 assessment"},
+    {"name": "OPORA", "reason": "Strong election monitoring but insufficient data on rights protection and accessibility"},
+    {"name": "Creative Commons", "reason": "V3 and V4 strong but not explicitly civic/political — infrastructure layer below the Politech scope"}
+  ]
+}

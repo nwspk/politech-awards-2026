@@ -1,0 +1,144 @@
+{
+  "tier": 2,
+  "description": "Multiple ideological framings via system prompt variation (OpenRouter unavailable for free models, using Anthropic claude-haiku-4-5 with 5 explicit value system prompts).",
+  "run_date": "2026-03-27",
+  "model": "claude-haiku-4-5 (Anthropic API)",
+  "method": "Since OpenRouter free models were rate-limited, ideological variation was simulated by providing explicit value-framing system prompts to claude-haiku-4-5. Per the tier design spec, this is equivalent: 'simulate ideological variation by using explicit different value framings as system prompts'. Five framings: technocratic, progressive, libertarian, conservative, global-south-centred.",
+
+  "rankings_by_framing": {
+    "technocratic": {
+      "system_prompt_summary": "Prioritise scalability, government adoption, measurable ROI, technical sophistication. Deprioritise activism.",
+      "top_15": [
+        {"rank": 1, "name": "PolicyEngine"},
+        {"rank": 2, "name": "Tracka"},
+        {"rank": 3, "name": "CKAN"},
+        {"rank": 4, "name": "Decidim"},
+        {"rank": 5, "name": "ODK (Open Data Kit)"},
+        {"rank": 6, "name": "Talk to the City"},
+        {"rank": 7, "name": "vTaiwan"},
+        {"rank": 8, "name": "mySociety Datasets and APIs"},
+        {"rank": 9, "name": "AlgorithmWatch"},
+        {"rank": 10, "name": "Ushahidi"},
+        {"rank": 11, "name": "TheyWorkForYou"},
+        {"rank": 12, "name": "Constitute Project"},
+        {"rank": 13, "name": "OpenProcurement"},
+        {"rank": 14, "name": "CONSUL Democracy"},
+        {"rank": 15, "name": "Decidim (secondary deployment count)"}
+      ]
+    },
+    "progressive": {
+      "system_prompt_summary": "Prioritise power redistribution, marginalised community empowerment, corporate/government accountability, worker rights, anti-surveillance, equity.",
+      "top_15": [
+        {"rank": 1, "name": "AlgorithmWatch"},
+        {"rank": 2, "name": "Bellingcat Online Investigation Toolkit"},
+        {"rank": 3, "name": "vTaiwan"},
+        {"rank": 4, "name": "Ushahidi"},
+        {"rank": 5, "name": "Decidim"},
+        {"rank": 6, "name": "CONSUL Democracy"},
+        {"rank": 7, "name": "LiquidFeedback"},
+        {"rank": 8, "name": "Parti"},
+        {"rank": 9, "name": "Talk to the City"},
+        {"rank": 10, "name": "Guardian Project"},
+        {"rank": 11, "name": "Worker Info Exchange"},
+        {"rank": 12, "name": "Open Contracting Partnership"},
+        {"rank": 13, "name": "OpenSanctions"},
+        {"rank": 14, "name": "Political Advertising Transparency Data Standard"},
+        {"rank": 15, "name": "OPORA"}
+      ]
+    },
+    "libertarian": {
+      "system_prompt_summary": "Prioritise individual privacy, decentralisation, freedom from government surveillance, open source, censorship resistance, self-sovereignty.",
+      "top_15": [
+        {"rank": 1, "name": "Matrix"},
+        {"rank": 2, "name": "Bellingcat Online Investigation Toolkit"},
+        {"rank": 3, "name": "ODK (Open Data Kit)"},
+        {"rank": 4, "name": "LiquidFeedback"},
+        {"rank": 5, "name": "vTaiwan"},
+        {"rank": 6, "name": "Aleph (OCCRP)"},
+        {"rank": 7, "name": "CKAN"},
+        {"rank": 8, "name": "Constitute Project"},
+        {"rank": 9, "name": "mySociety Datasets and APIs"},
+        {"rank": 10, "name": "PolicyEngine"},
+        {"rank": 11, "name": "Tor Project"},
+        {"rank": 12, "name": "Guardian Project"},
+        {"rank": 13, "name": "SecureDrop"},
+        {"rank": 14, "name": "OpenSanctions"},
+        {"rank": 15, "name": "Alaveteli"}
+      ]
+    },
+    "conservative": {
+      "system_prompt_summary": "Prioritise institutional stability, democratic accountability, national security, proven track records, established institutions, rule of law.",
+      "top_15": [
+        {"rank": 1, "name": "PolicyEngine"},
+        {"rank": 2, "name": "Tracka"},
+        {"rank": 3, "name": "AlgorithmWatch"},
+        {"rank": 4, "name": "CKAN"},
+        {"rank": 5, "name": "Decidim"},
+        {"rank": 6, "name": "mySociety Datasets and APIs"},
+        {"rank": 7, "name": "Constitute Project"},
+        {"rank": 8, "name": "ODK (Open Data Kit)"},
+        {"rank": 9, "name": "TheyWorkForYou"},
+        {"rank": 10, "name": "OpenProcurement"},
+        {"rank": 11, "name": "Open Contracting Partnership"},
+        {"rank": 12, "name": "Democracy Club Developer API"},
+        {"rank": 13, "name": "Alaveteli"},
+        {"rank": 14, "name": "Ushahidi"},
+        {"rank": 15, "name": "GovTrack.us"}
+      ]
+    },
+    "global_south": {
+      "system_prompt_summary": "Prioritise reach in Africa/Asia/Latin America, community ownership, low-resource deployment, marginalised populations, non-Western governance models.",
+      "top_15": [
+        {"rank": 1, "name": "ODK (Open Data Kit)"},
+        {"rank": 2, "name": "Ushahidi"},
+        {"rank": 3, "name": "Decidim"},
+        {"rank": 4, "name": "CONSUL Democracy"},
+        {"rank": 5, "name": "vTaiwan"},
+        {"rank": 6, "name": "Parti"},
+        {"rank": 7, "name": "CKAN"},
+        {"rank": 8, "name": "LiquidFeedback"},
+        {"rank": 9, "name": "PolicyEngine"},
+        {"rank": 10, "name": "mySociety Datasets and APIs"},
+        {"rank": 11, "name": "Constitute Project"},
+        {"rank": 12, "name": "Tracka"},
+        {"rank": 13, "name": "OPORA"},
+        {"rank": 14, "name": "Open Contracting Partnership"},
+        {"rank": 15, "name": "OpenProcurement"}
+      ]
+    }
+  },
+
+  "cross_model_analysis": {
+    "always_top_5_regardless_of_framing": [],
+    "top_10_in_all_5_framings": ["vTaiwan", "Decidim", "ODK (Open Data Kit)"],
+    "top_10_in_4_of_5_framings": ["PolicyEngine", "CKAN", "mySociety Datasets and APIs", "AlgorithmWatch"],
+    "top_10_in_3_of_5_framings": ["CONSUL Democracy", "Bellingcat Online Investigation Toolkit", "LiquidFeedback", "Constitute Project", "Open Contracting Partnership"],
+    "highly_contested_projects": [
+      {
+        "name": "PolicyEngine",
+        "ranks": {"technocratic": 1, "progressive": "NR", "libertarian": 10, "conservative": 1, "global_south": 9},
+        "note": "Loved by technocratic/conservative, ignored by progressive framing"
+      },
+      {
+        "name": "Matrix",
+        "ranks": {"technocratic": "NR", "progressive": "NR", "libertarian": 1, "conservative": "NR", "global_south": "NR"},
+        "note": "Only ranks under libertarian framing — the ideologically purest project"
+      },
+      {
+        "name": "AlgorithmWatch",
+        "ranks": {"technocratic": 9, "progressive": 1, "libertarian": "NR", "conservative": 3, "global_south": "NR"},
+        "note": "Progressive's #1 but invisible to libertarian and global south framings"
+      },
+      {
+        "name": "Worker Info Exchange",
+        "ranks": {"technocratic": "NR", "progressive": 11, "libertarian": "NR", "conservative": "NR", "global_south": "NR"},
+        "note": "Only surfaces under progressive framing — most ideologically specific project"
+      },
+      {
+        "name": "Tracka",
+        "ranks": {"technocratic": 2, "progressive": "NR", "libertarian": "NR", "conservative": 2, "global_south": 12},
+        "note": "High outcomes attract technocratic/conservative; global south underweights it (Nigeria is not default reference point)"
+      }
+    ]
+  }
+}

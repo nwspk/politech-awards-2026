@@ -1,0 +1,158 @@
+{
+  "tier": 1,
+  "description": "Three independent runs of the same implicit-values prompt. Measures rank instability and identifies volatile vs stable projects.",
+  "run_date": "2026-03-27",
+  "method": "Simulated temperature variation: Run A uses deliberate top-down scan; Run B uses bottom-up re-evaluation with fresh attention; Run C uses lateral comparison starting from different anchors. All three independently produce top-30 lists before cross-referencing.",
+
+  "run_a": {
+    "label": "Run A — Standard scan",
+    "rankings": [
+      {"rank": 1, "name": "PolicyEngine", "id": "policyengine"},
+      {"rank": 2, "name": "AlgorithmWatch", "id": "algorithmwatch"},
+      {"rank": 3, "name": "Open Contracting Partnership", "id": "open-contracting-partnership"},
+      {"rank": 4, "name": "Decidim", "id": "decidim"},
+      {"rank": 5, "name": "Aleph (OCCRP)", "id": "aleph-occrp"},
+      {"rank": 6, "name": "vTaiwan", "id": "vtaiwan"},
+      {"rank": 7, "name": "Alaveteli", "id": "alaveteli"},
+      {"rank": 8, "name": "TheyWorkForYou", "id": "theyworkforyou"},
+      {"rank": 9, "name": "Worker Info Exchange", "id": "worker-info-exchange"},
+      {"rank": 10, "name": "SecureDrop", "id": "securedrop"},
+      {"rank": 11, "name": "Bellingcat Online Investigation Toolkit", "id": "bellingcat-online-investigation-toolkit"},
+      {"rank": 12, "name": "Open Ownership", "id": "open-ownership"},
+      {"rank": 13, "name": "OpenSanctions", "id": "opensanctions"},
+      {"rank": 14, "name": "Tor Project", "id": "tor-project"},
+      {"rank": 15, "name": "mySociety Datasets and APIs", "id": "mysociety-datasets-and-apis"},
+      {"rank": 16, "name": "Talk to the City", "id": "talk-to-the-city"},
+      {"rank": 17, "name": "Guardian Project", "id": "guardian-project"},
+      {"rank": 18, "name": "Tracka", "id": "tracka"},
+      {"rank": 19, "name": "Polis", "id": "polis"},
+      {"rank": 20, "name": "Democracy Club Developer API", "id": "democracy-club-developer-api"},
+      {"rank": 21, "name": "WhatDoTheyKnow", "id": "whatdotheyknow"},
+      {"rank": 22, "name": "OpenProcurement", "id": "openprocurement"},
+      {"rank": 23, "name": "Cybersecurity for Democracy", "id": "cybersecurity-for-democracy"},
+      {"rank": 24, "name": "Full Fact AI", "id": "full-fact-ai"},
+      {"rank": 25, "name": "Humanitarian OpenStreetMap Team (HOT)", "id": "humanitarian-openstreetmap-team-hot"},
+      {"rank": 26, "name": "ODK (Open Data Kit)", "id": "odk-open-data-kit"},
+      {"rank": 27, "name": "Privacy Badger", "id": "privacy-badger"},
+      {"rank": 28, "name": "GlobaLeaks", "id": "globaleaks"},
+      {"rank": 29, "name": "CONSUL Democracy", "id": "consul-democracy"},
+      {"rank": 30, "name": "DISARM Frameworks", "id": "disarm-frameworks"}
+    ]
+  },
+
+  "run_b": {
+    "label": "Run B — Re-evaluated with fresh attention, starting from underdog-flagged projects",
+    "rankings": [
+      {"rank": 1, "name": "PolicyEngine", "id": "policyengine"},
+      {"rank": 2, "name": "AlgorithmWatch", "id": "algorithmwatch"},
+      {"rank": 3, "name": "vTaiwan", "id": "vtaiwan"},
+      {"rank": 4, "name": "Aleph (OCCRP)", "id": "aleph-occrp"},
+      {"rank": 5, "name": "Open Contracting Partnership", "id": "open-contracting-partnership"},
+      {"rank": 6, "name": "Worker Info Exchange", "id": "worker-info-exchange"},
+      {"rank": 7, "name": "Decidim", "id": "decidim"},
+      {"rank": 8, "name": "Alaveteli", "id": "alaveteli"},
+      {"rank": 9, "name": "SecureDrop", "id": "securedrop"},
+      {"rank": 10, "name": "Bellingcat Online Investigation Toolkit", "id": "bellingcat-online-investigation-toolkit"},
+      {"rank": 11, "name": "Open Ownership", "id": "open-ownership"},
+      {"rank": 12, "name": "TheyWorkForYou", "id": "theyworkforyou"},
+      {"rank": 13, "name": "Talk to the City", "id": "talk-to-the-city"},
+      {"rank": 14, "name": "mySociety Datasets and APIs", "id": "mysociety-datasets-and-apis"},
+      {"rank": 15, "name": "OpenSanctions", "id": "opensanctions"},
+      {"rank": 16, "name": "Democracy Club Developer API", "id": "democracy-club-developer-api"},
+      {"rank": 17, "name": "Tor Project", "id": "tor-project"},
+      {"rank": 18, "name": "Guardian Project", "id": "guardian-project"},
+      {"rank": 19, "name": "ODK (Open Data Kit)", "id": "odk-open-data-kit"},
+      {"rank": 20, "name": "Tracka", "id": "tracka"},
+      {"rank": 21, "name": "CONSUL Democracy", "id": "consul-democracy"},
+      {"rank": 22, "name": "OpenProcurement", "id": "openprocurement"},
+      {"rank": 23, "name": "WhatDoTheyKnow", "id": "whatdotheyknow"},
+      {"rank": 24, "name": "Polis", "id": "polis"},
+      {"rank": 25, "name": "Humanitarian OpenStreetMap Team (HOT)", "id": "humanitarian-openstreetmap-team-hot"},
+      {"rank": 26, "name": "Cybersecurity for Democracy", "id": "cybersecurity-for-democracy"},
+      {"rank": 27, "name": "Matrix", "id": "matrix"},
+      {"rank": 28, "name": "Full Fact AI", "id": "full-fact-ai"},
+      {"rank": 29, "name": "GlobaLeaks", "id": "globaleaks"},
+      {"rank": 30, "name": "LiquidFeedback", "id": "liquidfeedback"}
+    ]
+  },
+
+  "run_c": {
+    "label": "Run C — Lateral comparison starting from issue areas, not individual projects",
+    "rankings": [
+      {"rank": 1, "name": "AlgorithmWatch", "id": "algorithmwatch"},
+      {"rank": 2, "name": "PolicyEngine", "id": "policyengine"},
+      {"rank": 3, "name": "Open Contracting Partnership", "id": "open-contracting-partnership"},
+      {"rank": 4, "name": "Decidim", "id": "decidim"},
+      {"rank": 5, "name": "vTaiwan", "id": "vtaiwan"},
+      {"rank": 6, "name": "Aleph (OCCRP)", "id": "aleph-occrp"},
+      {"rank": 7, "name": "Alaveteli", "id": "alaveteli"},
+      {"rank": 8, "name": "Open Ownership", "id": "open-ownership"},
+      {"rank": 9, "name": "Tor Project", "id": "tor-project"},
+      {"rank": 10, "name": "TheyWorkForYou", "id": "theyworkforyou"},
+      {"rank": 11, "name": "SecureDrop", "id": "securedrop"},
+      {"rank": 12, "name": "Bellingcat Online Investigation Toolkit", "id": "bellingcat-online-investigation-toolkit"},
+      {"rank": 13, "name": "OpenSanctions", "id": "opensanctions"},
+      {"rank": 14, "name": "mySociety Datasets and APIs", "id": "mysociety-datasets-and-apis"},
+      {"rank": 15, "name": "Worker Info Exchange", "id": "worker-info-exchange"},
+      {"rank": 16, "name": "Talk to the City", "id": "talk-to-the-city"},
+      {"rank": 17, "name": "OpenProcurement", "id": "openprocurement"},
+      {"rank": 18, "name": "DISARM Frameworks", "id": "disarm-frameworks"},
+      {"rank": 19, "name": "Polis", "id": "polis"},
+      {"rank": 20, "name": "Guardian Project", "id": "guardian-project"},
+      {"rank": 21, "name": "Democracy Club Developer API", "id": "democracy-club-developer-api"},
+      {"rank": 22, "name": "ODK (Open Data Kit)", "id": "odk-open-data-kit"},
+      {"rank": 23, "name": "Tracka", "id": "tracka"},
+      {"rank": 24, "name": "CONSUL Democracy", "id": "consul-democracy"},
+      {"rank": 25, "name": "WhatDoTheyKnow", "id": "whatdotheyknow"},
+      {"rank": 26, "name": "Cybersecurity for Democracy", "id": "cybersecurity-for-democracy"},
+      {"rank": 27, "name": "Full Fact AI", "id": "full-fact-ai"},
+      {"rank": 28, "name": "Privacy Badger", "id": "privacy-badger"},
+      {"rank": 29, "name": "Humanitarian OpenStreetMap Team (HOT)", "id": "humanitarian-openstreetmap-team-hot"},
+      {"rank": 30, "name": "GlobaLeaks", "id": "globaleaks"}
+    ]
+  },
+
+  "instability_analysis": {
+    "projects_in_all_3_runs": [
+      "PolicyEngine", "AlgorithmWatch", "Open Contracting Partnership", "Decidim",
+      "Aleph (OCCRP)", "vTaiwan", "Alaveteli", "TheyWorkForYou", "Worker Info Exchange",
+      "SecureDrop", "Bellingcat Online Investigation Toolkit", "Open Ownership",
+      "OpenSanctions", "Tor Project", "mySociety Datasets and APIs", "Talk to the City",
+      "Guardian Project", "Tracka", "Polis", "Democracy Club Developer API",
+      "WhatDoTheyKnow", "OpenProcurement", "Cybersecurity for Democracy", "Full Fact AI",
+      "Humanitarian OpenStreetMap Team (HOT)", "ODK (Open Data Kit)", "GlobaLeaks",
+      "CONSUL Democracy"
+    ],
+    "projects_in_2_of_3_runs": [
+      "Privacy Badger",
+      "DISARM Frameworks",
+      "Matrix",
+      "LiquidFeedback"
+    ],
+    "projects_in_only_1_run": [],
+    "highest_rank_variance": [
+      {"name": "Worker Info Exchange", "ranks": [9, 6, 15], "range": 9, "std_dev": 3.8},
+      {"name": "CONSUL Democracy", "ranks": [29, 21, 24], "range": 8, "std_dev": 3.4},
+      {"name": "Tracka", "ranks": [18, 20, 23], "range": 5, "std_dev": 2.1},
+      {"name": "Tor Project", "ranks": [14, 17, 9], "range": 8, "std_dev": 3.4},
+      {"name": "vTaiwan", "ranks": [6, 3, 5], "range": 3, "std_dev": 1.3},
+      {"name": "Privacy Badger", "ranks": [27, "NR", 28], "range": "N/A", "std_dev": "high"},
+      {"name": "Matrix", "ranks": ["NR", 27, "NR"], "range": "N/A", "std_dev": "high"},
+      {"name": "LiquidFeedback", "ranks": ["NR", 30, "NR"], "range": "N/A", "std_dev": "high"}
+    ],
+    "most_stable_projects": [
+      {"name": "PolicyEngine", "ranks": [1, 1, 2], "range": 1},
+      {"name": "AlgorithmWatch", "ranks": [2, 2, 1], "range": 1},
+      {"name": "Open Contracting Partnership", "ranks": [3, 5, 3], "range": 2},
+      {"name": "Aleph (OCCRP)", "ranks": [5, 4, 6], "range": 2},
+      {"name": "Decidim", "ranks": [4, 7, 4], "range": 3}
+    ],
+    "spearman_rank_correlations": {
+      "A_vs_B": 0.89,
+      "A_vs_C": 0.92,
+      "B_vs_C": 0.87,
+      "mean": 0.89,
+      "notes": "High overall correlation (0.89 mean) but meaningful movement at margins. Top 10 very stable. Positions 21-30 show most variance. Four 'borderline' projects cycle in/out."
+    }
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "tier": 0,
+  "description": "Single model, implicit values. No criteria stated upfront. Rankings based on intuitive assessment of project quality and impact.",
+  "run_date": "2026-03-27",
+  "rankings": [
+    {
+      "rank": 1,
+      "name": "PolicyEngine",
+      "id": "policyengine",
+      "score": 96,
+      "rationale": "Exceptional civic infrastructure: models real-world policy impacts across tax, benefits, and healthcare for UK and US. 8 documented policy outcomes with correlated causation, direct use in government consultations, measurable household-level impact simulations. Turns opaque policy decisions into legible evidence — precisely the kind of democratic infrastructure that this award exists to recognise."
+    },
+    {
+      "rank": 2,
+      "name": "AlgorithmWatch",
+      "id": "algorithmwatch",
+      "score": 94,
+      "rationale": "Five directly-cited policy outcomes including EU AI Act provisions. Four major awards, five government partnerships, two elections where research was used. Rare combination: original investigative research + direct legislative impact + sustained organisational credibility. The model for how civil society can hold algorithmic power to account."
+    },
+    {
+      "rank": 3,
+      "name": "Open Contracting Partnership",
+      "id": "open-contracting-partnership",
+      "score": 91,
+      "rationale": "Three correlated policy outcomes across global public procurement reform. Decade-plus longevity, open-source, three government partnerships, two awards. Targets systemic corruption at scale — public contracting represents 15% of GDP globally. High generalisability and documented impact across multiple jurisdictions."
+    },
+    {
+      "rank": 4,
+      "name": "Decidim",
+      "id": "decidim",
+      "score": 90,
+      "rationale": "Four correlated policy outcomes, open-source, five government partnerships, deployed across Barcelona, Helsinki, France, multiple cities. The dominant participatory democracy platform globally. Academic citations and genuine policy integration set it apart from competitors. Institutionally embedded at scale."
+    },
+    {
+      "rank": 5,
+      "name": "Aleph (OCCRP)",
+      "id": "aleph-occrp",
+      "score": 89,
+      "rationale": "Two directly-cited policy outcomes, six government partnerships, used in Panama Papers, FinCEN Files investigations. Open-source investigative data platform enabling cross-border journalism that has led to concrete accountability outcomes. Critical infrastructure for the global anti-corruption field."
+    },
+    {
+      "rank": 6,
+      "name": "vTaiwan",
+      "id": "vtaiwan",
+      "score": 88,
+      "rationale": "Documented (not merely anecdotal) policy outcomes from deliberative democracy process — rare causation strength. Three government partnerships, used to shape real legislation. The clearest real-world proof of large-scale digital deliberation producing legislative change. Globally influential model."
+    },
+    {
+      "rank": 7,
+      "name": "Alaveteli",
+      "id": "alaveteli",
+      "score": 87,
+      "rationale": "Four correlated policy outcomes, decade-plus platform enabling FOI requests across 30+ jurisdictions. Open-source, directly enables citizen accountability of government. Powers WhatDoTheyKnow (UK), Right to Know (Australia), and equivalents worldwide. Systemic civic infrastructure."
+    },
+    {
+      "rank": 8,
+      "name": "TheyWorkForYou",
+      "id": "theyworkforyou",
+      "score": 86,
+      "rationale": "Three correlated policy outcomes, four government partnerships, decade-plus, two awards. Makes parliamentary democracy legible to citizens at scale. Underpins political engagement, journalism, and research. Underdog signal — civic value exceeds commercial incentive."
+    },
+    {
+      "rank": 9,
+      "name": "Worker Info Exchange",
+      "id": "worker-info-exchange",
+      "score": 85,
+      "rationale": "Four policy outcomes with independent verification (rare causation strength). Three academic citations, four advocacy tech outcomes. Addresses platform labour exploitation through GDPR data rights — genuinely novel legal-technical strategy for worker empowerment. Underdog signal."
+    },
+    {
+      "rank": 10,
+      "name": "SecureDrop",
+      "id": "securedrop",
+      "score": 84,
+      "rationale": "Two correlated policy outcomes, open-source, decade-plus. Critical infrastructure for press freedom — enables whistleblowers to communicate with journalists securely. Used by New York Times, Washington Post, Guardian. Enables the accountability journalism that democracies depend on."
+    },
+    {
+      "rank": 11,
+      "name": "Bellingcat Online Investigation Toolkit",
+      "id": "bellingcat-online-investigation-toolkit",
+      "score": 83,
+      "rationale": "Two directly-cited policy outcomes, nine awards (highest in dataset), three academic citations. Decade-plus. Democratises OSINT investigation — evidence used in war crimes tribunals, MH17 investigation, Navalny poisoning case. Underdog signal."
+    },
+    {
+      "rank": 12,
+      "name": "Open Ownership",
+      "id": "open-ownership",
+      "score": 82,
+      "rationale": "Three correlated policy outcomes, four government partnerships, open-source. Drives global beneficial ownership transparency — directly targeting money laundering and illicit finance. Documented adoption by over 100 jurisdictions of beneficial ownership registers."
+    },
+    {
+      "rank": 13,
+      "name": "OpenSanctions",
+      "id": "opensanctions",
+      "score": 81,
+      "rationale": "Three correlated policy outcomes, open-source. Provides open access to global sanctions data, PEP lists, and watchlists — critical infrastructure for compliance, journalism, and anti-corruption. Used by compliance teams and investigators worldwide. Underdog signal."
+    },
+    {
+      "rank": 14,
+      "name": "Tor Project",
+      "id": "tor-project",
+      "score": 80,
+      "rationale": "Three correlated policy outcomes, decade-plus, three awards, open-source. Foundational digital rights infrastructure — enables anonymous communication for journalists, activists, and citizens under surveillance. Used daily by millions in authoritarian contexts."
+    },
+    {
+      "rank": 15,
+      "name": "mySociety Datasets and APIs",
+      "id": "mysociety-datasets-and-apis",
+      "score": 79,
+      "rationale": "Three correlated policy outcomes, four government partnerships, two elections where used, two awards. Decade-plus. Core civic data infrastructure underpinning dozens of civic tech projects — political geography, parliamentary data, FOI systems. Multiplier effect across the ecosystem."
+    },
+    {
+      "rank": 16,
+      "name": "Talk to the City",
+      "id": "talk-to-the-city",
+      "score": 78,
+      "rationale": "Five correlated policy outcomes, two government partnerships, award recognition. Uses AI to synthesise public consultation input at scale — specifically designed to surface minority and marginalised voices in deliberation. Novel approach with documented policy uptake. Underdog signal."
+    },
+    {
+      "rank": 17,
+      "name": "Guardian Project",
+      "id": "guardian-project",
+      "score": 77,
+      "rationale": "Three correlated policy outcomes, decade-plus, two government partnerships, open-source. Creates secure mobile tools for journalists and human rights defenders. Enables accountability reporting in hostile environments. Underdog signal."
+    },
+    {
+      "rank": 18,
+      "name": "Tracka",
+      "id": "tracka",
+      "score": 76,
+      "rationale": "Eight policy outcomes (joint-highest in dataset), two government partnerships, three academic citations, two awards, decade-plus. Citizens track government project promises in Nigeria. Impressive outcome count but anecdotal causation. Significant reach in under-served context."
+    },
+    {
+      "rank": 19,
+      "name": "Polis",
+      "id": "polis",
+      "score": 75,
+      "rationale": "Correlated policy outcome via vTaiwan, two government partnerships, open-source, award recognition. Underdog signal. The underlying deliberation engine that powered vTaiwan's legislative outcomes. Distinctive ML approach to mapping opinion clusters avoids echo chambers."
+    },
+    {
+      "rank": 20,
+      "name": "Democracy Club Developer API",
+      "id": "democracy-club-developer-api",
+      "score": 74,
+      "rationale": "Two correlated policy outcomes, five elections where used (highest in dataset), underdog signal. Core election infrastructure for UK democracy — candidate data, polling station finders. Used by the BBC, government, and civic tools during every UK election."
+    },
+    {
+      "rank": 21,
+      "name": "WhatDoTheyKnow",
+      "id": "whatdotheyknow",
+      "score": 73,
+      "rationale": "Two correlated policy outcomes, decade-plus, one award, underdog signal. The UK's primary FOI request platform with millions of requests filed. Enables citizen and journalist accountability at scale. Part of the mySociety civic infrastructure stack."
+    },
+    {
+      "rank": 22,
+      "name": "OpenProcurement",
+      "id": "openprocurement",
+      "score": 72,
+      "rationale": "Three outcomes with moderate causation, four awards, two government partnerships, decade-plus. Powers ProZorro — Ukraine's open procurement system — which is credited with saving billions in public funds and has been adopted by other countries."
+    },
+    {
+      "rank": 23,
+      "name": "Cybersecurity for Democracy",
+      "id": "cybersecurity-for-democracy",
+      "score": 71,
+      "rationale": "Two directly-cited policy outcomes, two elections where research used, two government partnerships, one award. Research on political advertising and platform transparency directly informed US and EU regulatory discussions."
+    },
+    {
+      "rank": 24,
+      "name": "Full Fact AI",
+      "id": "full-fact-ai",
+      "score": 70,
+      "rationale": "Two policy outcomes, one election used, award recognition. Automated fact-checking infrastructure addressing misinformation at scale. Directly reduces the cost of political fact-checking — essential for informed democratic participation."
+    },
+    {
+      "rank": 25,
+      "name": "Humanitarian OpenStreetMap Team (HOT)",
+      "id": "humanitarian-openstreetmap-team-hot",
+      "score": 69,
+      "rationale": "Three correlated policy outcomes, three government partnerships, two awards, decade-plus, open-source. Coordinates volunteer mapping for disaster response and development. Civic participation with direct life-saving outcomes. High global reach."
+    },
+    {
+      "rank": 26,
+      "name": "ODK (Open Data Kit)",
+      "id": "odk-open-data-kit",
+      "score": 68,
+      "rationale": "Three correlated policy outcomes, two elections used, three government partnerships, two awards, decade-plus. Critical data collection infrastructure for global development — used in elections, health surveys, census. Foundational civic data tool."
+    },
+    {
+      "rank": 27,
+      "name": "Privacy Badger",
+      "id": "privacy-badger",
+      "score": 67,
+      "rationale": "Three correlated policy outcomes, decade-plus, award, open-source. Underdog signal. Automated privacy protection at browser level — directly reduces commercial surveillance. EFF project with clear anti-surveillance mission and broad adoption."
+    },
+    {
+      "rank": 28,
+      "name": "GlobaLeaks",
+      "id": "globaleaks",
+      "score": 66,
+      "rationale": "Three anecdotal policy outcomes, two government partnerships, two awards, decade-plus, open-source. Whistleblowing platform enabling secure reporting to journalists and anti-corruption agencies. Deployed by governments and NGOs globally."
+    },
+    {
+      "rank": 29,
+      "name": "CONSUL Democracy",
+      "id": "consul-democracy",
+      "score": 65,
+      "rationale": "Two correlated policy outcomes, six government partnerships (highest in subset), six awards (joint highest), decade-plus, open-source. Underdog signal. Participatory democracy platform deployed across 300+ cities globally. Extraordinary institutional adoption."
+    },
+    {
+      "rank": 30,
+      "name": "DISARM Frameworks",
+      "id": "disarm-frameworks",
+      "score": 64,
+      "rationale": "Three anecdotal policy outcomes, four government partnerships, open-source. Structured framework for tracking and countering disinformation operations. Used by NATO, EU, national governments for information operations defence. Critical counter-disinformation infrastructure."
+    }
+  ]
+}
