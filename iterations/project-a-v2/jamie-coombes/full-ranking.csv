@@ -1,0 +1,323 @@
+rank,project_slug,project_name,raw_score,adjusted_score,final_score,rationale
+1,mysociety-datasets-and-apis,mySociety Datasets and APIs,65.9,70.9,70.9,C1=1 C2=9 C3=6 C4=7 C5=9 C6=9 C7=8 C8=6
+2,civicrm,CiviCRM,65.9,68.9,68.9,C1=2 C2=9 C3=5 C4=7 C5=9 C6=9 C7=8 C8=6
+3,ckan,CKAN,65.9,68.9,68.9,C1=2 C2=9 C3=5 C4=7 C5=9 C6=9 C7=8 C8=6
+4,wikidata,Wikidata,64.7,67.7,67.7,C1=2 C2=9 C3=5 C4=6 C5=9 C6=9 C7=8 C8=6
+5,open-data-editor-ode,Open Data Editor (ODE),64.7,67.7,67.7,C1=2 C2=9 C3=6 C4=7 C5=9 C6=9 C7=3 C8=6
+6,matrix,Matrix,62.4,67.4,67.4,C1=2 C2=9 C3=6 C4=4 C5=9 C6=9 C7=8 C8=3
+7,algorithmwatch,AlgorithmWatch,61.8,66.8,66.8,C1=2 C2=9 C3=8 C4=7 C5=5 C6=9 C7=3 C8=3
+8,mastodon,Mastodon,61.2,66.2,66.2,C1=2 C2=9 C3=6 C4=4 C5=9 C6=9 C7=3 C8=6
+9,numfocus,NumFOCUS,62.4,65.4,65.4,C1=2 C2=9 C3=5 C4=4 C5=9 C6=9 C7=8 C8=6
+10,consul-democracy,CONSUL Democracy,62.4,65.4,65.4,C1=2 C2=9 C3=3 C4=7 C5=9 C6=9 C7=8 C8=6
+11,odk-open-data-kit,ODK (Open Data Kit),64.7,64.7,64.7,C1=1 C2=9 C3=6 C4=6 C5=9 C6=9 C7=8 C8=6
+12,diia,Diia,59.4,64.4,64.4,C1=2 C2=9 C3=6 C4=7 C5=9 C6=6 C7=3 C8=3
+13,principles-for-public-participation-in-procurement-of-ai,Principles for Public Participation in Procurement of AI,58.2,63.2,63.2,C1=2 C2=9 C3=3 C4=6 C5=9 C6=9 C7=3 C8=6
+14,tor-project,Tor Project,62.9,62.9,62.9,C1=1 C2=9 C3=6 C4=6 C5=9 C6=9 C7=8 C8=3
+15,open-contracting-partnership,Open Contracting Partnership,57.6,62.6,62.6,C1=2 C2=8 C3=6 C4=4 C5=5 C6=9 C7=8 C8=6
+16,aleph-occrp,Aleph (OCCRP),57.6,62.6,62.6,C1=2 C2=9 C3=3 C4=7 C5=9 C6=9 C7=3 C8=3
+17,globaleaks,GlobaLeaks,62.4,62.4,62.4,C1=2 C2=6 C3=6 C4=7 C5=9 C6=9 C7=8 C8=6
+18,framework-for-meaningful-engagement-2-0,Framework for Meaningful Engagement 2.0,59.4,62.4,62.4,C1=2 C2=9 C3=6 C4=4 C5=9 C6=9 C7=3 C8=3
+19,mastodon-c,Mastodon C,57.1,62.1,62.1,C1=2 C2=9 C3=6 C4=4 C5=5 C6=7 C7=8 C8=6
+20,polis,Polis,58.2,61.2,61.2,C1=2 C2=9 C3=3 C4=6 C5=9 C6=9 C7=3 C8=6
+21,open-referral-uk,Open Referral UK,55.9,60.9,60.9,C1=2 C2=9 C3=3 C4=7 C5=9 C6=6 C7=3 C8=6
+22,open-digital-planning,Open Digital Planning,55.9,60.9,60.9,C1=2 C2=9 C3=3 C4=4 C5=9 C6=9 C7=3 C8=6
+23,huridocs,HURIDOCS,60.6,60.6,60.6,C1=2 C2=6 C3=5 C4=7 C5=9 C6=9 C7=8 C8=6
+24,alaveteli,Alaveteli,60.6,60.6,60.6,C1=1 C2=9 C3=3 C4=7 C5=9 C6=9 C7=8 C8=6
+25,opencrvs,OpenCRVS,56.5,59.5,59.5,C1=2 C2=8 C3=3 C4=6 C5=9 C6=9 C7=3 C8=6
+26,open-supply-hub,Open Supply Hub,59.4,59.4,59.4,C1=1 C2=9 C3=6 C4=4 C5=9 C6=9 C7=3 C8=6
+27,mapit,MapIt,59.4,59.4,59.4,C1=1 C2=8 C3=6 C4=7 C5=5 C6=9 C7=8 C8=6
+28,awesome-uk-government-datasets,Awesome UK Government Datasets,54.1,59.1,59.1,C1=2 C2=9 C3=5 C4=4 C5=9 C6=6 C7=3 C8=3
+29,fundaci-n-ciudadan-a-inteligente,Fundación Ciudadanía Inteligente,55.9,58.9,58.9,C1=2 C2=8 C3=3 C4=7 C5=5 C6=9 C7=8 C8=6
+30,creative-commons,Creative Commons,55.9,58.9,58.9,C1=2 C2=9 C3=3 C4=7 C5=5 C6=9 C7=8 C8=3
+31,adhocracy,adhocracy+,55.9,58.9,58.9,C1=2 C2=8 C3=3 C4=7 C5=9 C6=9 C7=3 C8=3
+32,opensanctions,OpenSanctions,55.9,58.9,58.9,C1=1 C2=9 C3=6 C4=7 C5=5 C6=7 C7=3 C8=6
+33,littlesis,LittleSis,58.8,58.8,58.8,C1=2 C2=6 C3=6 C4=4 C5=9 C6=9 C7=8 C8=6
+34,public-ai-inference-utility,Public AI Inference Utility,58.2,58.2,58.2,C1=1 C2=6 C3=8 C4=6 C5=9 C6=9 C7=3 C8=3
+35,democracy-club-developer-api,Democracy Club Developer API,58.2,58.2,58.2,C1=1 C2=8 C3=5 C4=6 C5=9 C6=9 C7=3 C8=6
+36,the-government-says,The Government Says,58.2,58.2,58.2,C1=1 C2=8 C3=5 C4=6 C5=9 C6=9 C7=3 C8=6
+37,campaign-tracker,Campaign Tracker,52.9,57.9,57.9,C1=2 C2=8 C3=5 C4=4 C5=5 C6=9 C7=3 C8=6
+38,open-ownership,Open Ownership,54.7,57.7,57.7,C1=1 C2=9 C3=6 C4=4 C5=5 C6=9 C7=3 C8=6
+39,turkopticon,Turkopticon,57.6,57.6,57.6,C1=1 C2=6 C3=6 C4=6 C5=9 C6=9 C7=8 C8=3
+40,openprocurement,OpenProcurement,57.6,57.6,57.6,C1=1 C2=9 C3=6 C4=4 C5=9 C6=5 C7=8 C8=6
+41,grim-global-risk-simulator,GRIM (Global Risk Simulator),57.6,57.6,57.6,C1=2 C2=6 C3=6 C4=7 C5=9 C6=9 C7=3 C8=3
+42,gapminder-worldview-upgrader,Gapminder Worldview Upgrader,57.6,57.6,57.6,C1=1 C2=9 C3=3 C4=7 C5=9 C6=9 C7=3 C8=6
+43,securedrop,SecureDrop,57.1,57.1,57.1,C1=1 C2=6 C3=6 C4=4 C5=9 C6=9 C7=8 C8=6
+44,ushahidi,Ushahidi,54.1,57.1,57.1,C1=1 C2=8 C3=3 C4=7 C5=5 C6=9 C7=8 C8=6
+45,abstract-wikipedia,Abstract Wikipedia,57.1,57.1,57.1,C1=1 C2=6 C3=5 C4=7 C5=9 C6=9 C7=8 C8=3
+46,bellingcat-online-investigation-toolkit,Bellingcat Online Investigation Toolkit,57.1,57.1,57.1,C1=2 C2=6 C3=3 C4=7 C5=9 C6=9 C7=8 C8=6
+47,your-priorities,Your Priorities,53.5,56.5,56.5,C1=1 C2=9 C3=3 C4=7 C5=5 C6=7 C7=8 C8=6
+48,data-observation-toolkit-dot,Data Observation Toolkit (DOT),55.9,55.9,55.9,C1=1 C2=9 C3=5 C4=4 C5=9 C6=9 C7=3 C8=3
+49,disarm-frameworks,DISARM Frameworks,55.9,55.9,55.9,C1=2 C2=6 C3=5 C4=7 C5=9 C6=9 C7=3 C8=3
+50,security-first-umbrella,Security First / Umbrella,55.9,55.9,55.9,C1=2 C2=6 C3=5 C4=7 C5=9 C6=9 C7=3 C8=3
+51,open-standards-for-data-guidebook,Open Standards for Data Guidebook,55.9,55.9,55.9,C1=1 C2=6 C3=5 C4=7 C5=9 C6=9 C7=3 C8=6
+52,vtaiwan,vTaiwan,55.3,55.3,55.3,C1=1 C2=9 C3=5 C4=6 C5=9 C6=5 C7=3 C8=6
+53,guardian-project,Guardian Project,55.3,55.3,55.3,C1=1 C2=6 C3=6 C4=4 C5=9 C6=9 C7=8 C8=3
+54,open-council-network,Open Council Network,54.7,54.7,54.7,C1=1 C2=5 C3=6 C4=6 C5=9 C6=9 C7=3 C8=6
+55,loomio,Loomio,54.7,54.7,54.7,C1=1 C2=9 C3=3 C4=4 C5=9 C6=7 C7=8 C8=6
+56,give-food,Give Food,54.7,54.7,54.7,C1=1 C2=8 C3=5 C4=7 C5=5 C6=9 C7=3 C8=6
+57,open-collective,Open Collective,54.7,54.7,54.7,C1=1 C2=6 C3=5 C4=6 C5=9 C6=9 C7=3 C8=6
+58,coral,Coral,54.7,54.7,54.7,C1=2 C2=6 C3=3 C4=7 C5=9 C6=7 C7=8 C8=6
+59,fairbnb-coop,Fairbnb.coop,51.2,54.2,54.2,C1=1 C2=9 C3=5 C4=6 C5=5 C6=7 C7=3 C8=3
+60,openparliament-ca,openparliament.ca,54.1,54.1,54.1,C1=2 C2=6 C3=6 C4=4 C5=9 C6=5 C7=8 C8=6
+61,one-project,One Project,54.1,54.1,54.1,C1=2 C2=6 C3=3 C4=7 C5=9 C6=9 C7=3 C8=6
+62,decidim,Decidim,54.1,54.1,54.1,C1=1 C2=9 C3=3 C4=4 C5=9 C6=9 C7=3 C8=6
+63,mozilla-data-collective,Mozilla Data Collective,54.1,54.1,54.1,C1=2 C2=6 C3=5 C4=4 C5=9 C6=9 C7=3 C8=6
+64,orcid,ORCID,54.1,54.1,54.1,C1=1 C2=9 C3=5 C4=4 C5=5 C6=9 C7=8 C8=3
+65,shareyourpaper-org,Shareyourpaper.org,54.1,54.1,54.1,C1=1 C2=6 C3=5 C4=7 C5=9 C6=9 C7=3 C8=3
+66,grantnav,GrantNav,54.1,54.1,54.1,C1=1 C2=8 C3=5 C4=4 C5=5 C6=9 C7=8 C8=6
+67,unpaywall-browser-extension,Unpaywall Browser Extension,53.5,53.5,53.5,C1=1 C2=6 C3=5 C4=4 C5=9 C6=9 C7=8 C8=3
+68,oa-works,OA.Works,53.5,53.5,53.5,C1=1 C2=6 C3=3 C4=7 C5=9 C6=9 C7=8 C8=3
+69,privacy-badger,Privacy Badger,53.5,53.5,53.5,C1=1 C2=6 C3=5 C4=4 C5=9 C6=9 C7=8 C8=3
+70,teaching-public-service-in-the-digital-age,Teaching Public Service in the Digital Age,52.9,52.9,52.9,C1=1 C2=9 C3=6 C4=4 C5=9 C6=5 C7=3 C8=3
+71,youtube-dl,youtube-dl,52.9,52.9,52.9,C1=1 C2=6 C3=6 C4=6 C5=9 C6=5 C7=8 C8=3
+72,communityrule,CommunityRule,52.9,52.9,52.9,C1=1 C2=9 C3=3 C4=7 C5=9 C6=5 C7=3 C8=6
+73,bonfire,Bonfire,52.9,52.9,52.9,C1=2 C2=6 C3=6 C4=7 C5=9 C6=5 C7=3 C8=3
+74,gov-uk-notify,GOV.UK Notify,52.4,52.4,52.4,C1=1 C2=8 C3=6 C4=4 C5=5 C6=6 C7=8 C8=6
+75,political-advertising-transparency-data-standard,Political Advertising Transparency Data Standard,52.4,52.4,52.4,C1=1 C2=6 C3=5 C4=4 C5=9 C6=9 C7=3 C8=6
+76,whatgov,WhatGov,52.4,52.4,52.4,C1=1 C2=8 C3=3 C4=4 C5=9 C6=9 C7=3 C8=6
+77,gov-uk-pay,GOV.UK Pay,52.4,52.4,52.4,C1=1 C2=8 C3=6 C4=4 C5=5 C6=6 C7=8 C8=6
+78,the-engine-room-library,The Engine Room Library,52.4,52.4,52.4,C1=1 C2=6 C3=5 C4=4 C5=9 C6=9 C7=3 C8=6
+79,nym,Nym,52.4,52.4,52.4,C1=1 C2=6 C3=6 C4=6 C5=9 C6=7 C7=3 C8=3
+80,arxiv,arXiv,51.8,51.8,51.8,C1=2 C2=6 C3=5 C4=9 C5=5 C6=5 C7=8 C8=3
+81,climateaction-tech,ClimateAction.Tech,51.8,51.8,51.8,C1=1 C2=6 C3=5 C4=9 C5=9 C6=5 C7=3 C8=3
+82,whatdotheyknow,WhatDoTheyKnow,51.8,51.8,51.8,C1=1 C2=3 C3=6 C4=4 C5=9 C6=9 C7=8 C8=6
+83,go-vocal,Go Vocal,48.8,51.8,51.8,C1=2 C2=9 C3=3 C4=4 C5=5 C6=7 C7=3 C8=6
+84,internet-archive-wayback-machine,Internet Archive Wayback Machine,51.8,51.8,51.8,C1=2 C2=6 C3=3 C4=4 C5=9 C6=9 C7=8 C8=3
+85,cybersecurity-for-democracy,Cybersecurity for Democracy,51.2,51.2,51.2,C1=2 C2=6 C3=6 C4=4 C5=9 C6=5 C7=3 C8=6
+86,liquidfeedback,LiquidFeedback,51.2,51.2,51.2,C1=2 C2=6 C3=3 C4=7 C5=9 C6=4 C7=8 C8=6
+87,contracts-for-data-collaboration,Contracts for Data Collaboration,51.2,51.2,51.2,C1=1 C2=9 C3=5 C4=4 C5=9 C6=5 C7=3 C8=3
+88,frankenstein-bill,Frankenstein Bill,51.2,51.2,51.2,C1=1 C2=8 C3=6 C4=4 C5=9 C6=5 C7=3 C8=3
+89,all-our-ideas,All Our Ideas,51.2,51.2,51.2,C1=1 C2=6 C3=3 C4=6 C5=9 C6=9 C7=3 C8=6
+90,theyworkforyou,TheyWorkForYou,50.6,50.6,50.6,C1=1 C2=8 C3=3 C4=4 C5=5 C6=9 C7=8 C8=6
+91,populate-tools,Populate Tools,50.6,50.6,50.6,C1=1 C2=8 C3=3 C4=4 C5=9 C6=9 C7=3 C8=3
+92,cobudget,Cobudget,50.6,50.6,50.6,C1=2 C2=6 C3=3 C4=4 C5=9 C6=9 C7=3 C8=6
+93,writetothem,WriteToThem,50.6,50.6,50.6,C1=1 C2=8 C3=3 C4=4 C5=5 C6=9 C7=8 C8=6
+94,metaculus,Metaculus,50.6,50.6,50.6,C1=2 C2=6 C3=5 C4=7 C5=5 C6=7 C7=3 C8=6
+95,snowdrift-coop,Snowdrift.coop,50.6,50.6,50.6,C1=1 C2=6 C3=5 C4=4 C5=9 C6=9 C7=3 C8=3
+96,murmurations-protocol,Murmurations Protocol,50.6,50.6,50.6,C1=1 C2=6 C3=5 C4=4 C5=9 C6=9 C7=3 C8=3
+97,open-heart-mind-ohm,Open Heart Mind (OHM),50.6,50.6,50.6,C1=2 C2=5 C3=3 C4=7 C5=9 C6=9 C7=3 C8=3
+98,journal-of-open-source-software,Journal of Open Source Software,50.6,50.6,50.6,C1=1 C2=6 C3=3 C4=7 C5=9 C6=9 C7=3 C8=3
+99,policyengine,PolicyEngine,50.6,50.6,50.6,C1=1 C2=3 C3=5 C4=7 C5=9 C6=9 C7=3 C8=6
+100,fixmystreet,FixMyStreet,50.6,50.6,50.6,C1=1 C2=8 C3=3 C4=4 C5=5 C6=9 C7=8 C8=6
+101,rsky,rsky,50.0,50.0,50.0,C1=1 C2=6 C3=6 C4=6 C5=9 C6=5 C7=3 C8=3
+102,ddocs,dDocs,50.0,50.0,50.0,C1=1 C2=6 C3=6 C4=6 C5=9 C6=5 C7=3 C8=3
+103,radicle,Radicle,50.0,50.0,50.0,C1=1 C2=6 C3=6 C4=6 C5=9 C6=5 C7=3 C8=3
+104,martus,Martus,50.0,50.0,50.0,C1=1 C2=6 C3=3 C4=4 C5=9 C6=9 C7=8 C8=3
+105,pear-by-holepunch,Pear by Holepunch,50.0,50.0,50.0,C1=1 C2=6 C3=6 C4=4 C5=9 C6=7 C7=3 C8=3
+106,papertree,Papertree,50.0,50.0,50.0,C1=1 C2=6 C3=6 C4=4 C5=9 C6=7 C7=3 C8=3
+107,consent-o-matic,Consent-O-Matic,50.0,50.0,50.0,C1=1 C2=6 C3=6 C4=6 C5=9 C6=5 C7=3 C8=3
+108,tech-coops-list,Tech Coops List,50.0,50.0,50.0,C1=1 C2=6 C3=6 C4=6 C5=9 C6=5 C7=3 C8=3
+109,participedia,Participedia,50.0,50.0,50.0,C1=1 C2=6 C3=3 C4=4 C5=9 C6=9 C7=8 C8=3
+110,talk-to-the-city,Talk to the City,46.5,49.5,49.5,C1=2 C2=9 C3=3 C4=4 C5=5 C6=5 C7=3 C8=6
+111,vframe,VFRAME,49.4,49.4,49.4,C1=2 C2=6 C3=5 C4=7 C5=5 C6=5 C7=8 C8=3
+112,gov-uk-one-login,GOV.UK One Login,49.4,49.4,49.4,C1=1 C2=8 C3=6 C4=4 C5=5 C6=6 C7=3 C8=6
+113,humble-data-workshop,Humble Data Workshop,49.4,49.4,49.4,C1=1 C2=6 C3=5 C4=7 C5=9 C6=5 C7=3 C8=3
+114,parti,Parti,49.4,49.4,49.4,C1=1 C2=8 C3=5 C4=4 C5=5 C6=9 C7=3 C8=3
+115,sourceafrica,sourceAFRICA,49.4,49.4,49.4,C1=1 C2=3 C3=5 C4=6 C5=9 C6=9 C7=3 C8=6
+116,humanitarian-data-exchange,Humanitarian Data Exchange,49.4,49.4,49.4,C1=1 C2=6 C3=5 C4=7 C5=5 C6=5 C7=8 C8=6
+117,humanitarian-openstreetmap-team-hot,Humanitarian OpenStreetMap Team (HOT),49.4,49.4,49.4,C1=1 C2=6 C3=3 C4=6 C5=5 C6=9 C7=8 C8=6
+118,constitute-project,Constitute Project,49.4,49.4,49.4,C1=1 C2=9 C3=3 C4=4 C5=9 C6=5 C7=3 C8=6
+119,pursuance-project,Pursuance Project,49.4,49.4,49.4,C1=1 C2=6 C3=3 C4=6 C5=9 C6=9 C7=3 C8=3
+120,patcit,PatCit,49.4,49.4,49.4,C1=2 C2=6 C3=6 C4=4 C5=9 C6=5 C7=3 C8=3
+121,rxc-quadratic-voting,RxC Quadratic Voting,48.8,48.8,48.8,C1=1 C2=6 C3=3 C4=4 C5=9 C6=9 C7=3 C8=6
+122,members-interests,Members' Interests,48.8,48.8,48.8,C1=1 C2=8 C3=3 C4=4 C5=5 C6=9 C7=8 C8=3
+123,open-science-framework,Open Science Framework,48.8,48.8,48.8,C1=1 C2=6 C3=3 C4=7 C5=9 C6=5 C7=8 C8=3
+124,bluesky,Bluesky,48.8,48.8,48.8,C1=1 C2=6 C3=6 C4=7 C5=5 C6=7 C7=3 C8=3
+125,riseup,Riseup,48.2,48.2,48.2,C1=1 C2=6 C3=6 C4=6 C5=5 C6=5 C7=8 C8=3
+126,choose-a-license,Choose a License,48.2,48.2,48.2,C1=1 C2=6 C3=6 C4=4 C5=5 C6=7 C7=8 C8=3
+127,tracka,Tracka,48.2,48.2,48.2,C1=1 C2=8 C3=3 C4=6 C5=1 C6=9 C7=8 C8=6
+128,ethelo,Ethelo,48.2,48.2,48.2,C1=2 C2=6 C3=3 C4=7 C5=5 C6=7 C7=8 C8=3
+129,river-sentiment-dashboard,River Sentiment Dashboard,44.7,47.7,47.7,C1=1 C2=8 C3=5 C4=4 C5=5 C6=5 C7=3 C8=3
+130,gov-reuse-library,GOV Reuse Library,47.6,47.6,47.6,C1=1 C2=8 C3=6 C4=4 C5=5 C6=6 C7=3 C8=3
+131,semanticclimate,semanticClimate,47.6,47.6,47.6,C1=2 C2=6 C3=5 C4=4 C5=9 C6=5 C7=3 C8=3
+132,osint-framework,OSINT Framework,47.6,47.6,47.6,C1=1 C2=6 C3=6 C4=4 C5=9 C6=5 C7=3 C8=3
+133,uk-policy-dojo,UK Policy Dojo,47.6,47.6,47.6,C1=2 C2=6 C3=5 C4=4 C5=9 C6=5 C7=3 C8=3
+134,community-notes-birdwatch-analysis-tool,Community Notes (Birdwatch) Analysis Tool,47.6,47.6,47.6,C1=1 C2=9 C3=3 C4=4 C5=9 C6=5 C7=3 C8=3
+135,anna-s-archive,Anna's Archive,47.6,47.6,47.6,C1=1 C2=6 C3=6 C4=4 C5=9 C6=5 C7=3 C8=3
+136,aisafety-info,AISafety.info,47.6,47.6,47.6,C1=2 C2=6 C3=5 C4=4 C5=5 C6=9 C7=3 C8=3
+137,dao-governance-surfaces,DAO Governance Surfaces,47.6,47.6,47.6,C1=1 C2=6 C3=6 C4=4 C5=9 C6=5 C7=3 C8=3
+138,otree,oTree,47.6,47.6,47.6,C1=2 C2=6 C3=3 C4=7 C5=9 C6=5 C7=3 C8=3
+139,gov-uk-forms,GOV.UK Forms,47.6,47.6,47.6,C1=1 C2=8 C3=6 C4=4 C5=5 C6=6 C7=3 C8=3
+140,entitledto,Entitledto,47.6,47.6,47.6,C1=1 C2=8 C3=5 C4=4 C5=1 C6=9 C7=8 C8=3
+141,turn2us-benefits-calculator,Turn2us Benefits Calculator,47.6,47.6,47.6,C1=1 C2=8 C3=5 C4=4 C5=1 C6=9 C7=8 C8=3
+142,atlas-of-surveillance,Atlas of Surveillance,47.6,47.6,47.6,C1=2 C2=3 C3=5 C4=7 C5=5 C6=9 C7=3 C8=6
+143,spacetube,Spacetube,47.6,47.6,47.6,C1=1 C2=6 C3=6 C4=4 C5=9 C6=5 C7=3 C8=3
+144,rxc-voice,RxC Voice,47.1,47.1,47.1,C1=1 C2=6 C3=3 C4=4 C5=9 C6=9 C7=3 C8=3
+145,libertrium,Libertrium,47.1,47.1,47.1,C1=1 C2=8 C3=6 C4=4 C5=1 C6=7 C7=8 C8=3
+146,citizen-os,Citizen OS,47.1,47.1,47.1,C1=1 C2=3 C3=3 C4=7 C5=9 C6=9 C7=3 C8=6
+147,placecal,PlaceCal,47.1,47.1,47.1,C1=1 C2=6 C3=3 C4=4 C5=9 C6=9 C7=3 C8=3
+148,channel-org,Channel.org,47.1,47.1,47.1,C1=1 C2=6 C3=3 C4=4 C5=9 C6=9 C7=3 C8=3
+149,deliberaide,deliberAIde,47.6,46.6,46.6,C1=2 C2=9 C3=3 C4=7 C5=1 C6=7 C7=3 C8=6
+150,activist-handbook,Activist Handbook,46.5,46.5,46.5,C1=1 C2=6 C3=3 C4=6 C5=5 C6=9 C7=3 C8=6
+151,responsible-tech-guide-2025,Responsible Tech Guide 2025,46.5,46.5,46.5,C1=1 C2=6 C3=8 C4=4 C5=1 C6=9 C7=3 C8=3
+152,the-data-trusts-initiative,The Data Trusts Initiative,47.1,46.1,46.1,C1=2 C2=9 C3=5 C4=7 C5=1 C6=5 C7=3 C8=3
+153,bluesky-social,Bluesky Social,45.9,45.9,45.9,C1=1 C2=6 C3=5 C4=4 C5=9 C6=5 C7=3 C8=3
+154,soweego,soweego,45.9,45.9,45.9,C1=1 C2=6 C3=5 C4=4 C5=9 C6=5 C7=3 C8=3
+155,pageviews-analysis,Pageviews Analysis,45.9,45.9,45.9,C1=1 C2=6 C3=5 C4=4 C5=9 C6=5 C7=3 C8=3
+156,granitt,Granitt,45.9,45.9,45.9,C1=1 C2=8 C3=6 C4=4 C5=1 C6=7 C7=3 C8=6
+157,participa-podemos,Participa (Podemos),45.9,45.9,45.9,C1=2 C2=6 C3=3 C4=4 C5=9 C6=5 C7=3 C8=6
+158,service-manual,Service Manual,45.9,45.9,45.9,C1=1 C2=8 C3=6 C4=4 C5=1 C6=6 C7=8 C8=3
+159,policykit,PolicyKit,45.9,45.9,45.9,C1=1 C2=6 C3=3 C4=7 C5=9 C6=5 C7=3 C8=3
+160,civicpress,CivicPress,45.9,45.9,45.9,C1=1 C2=5 C3=6 C4=4 C5=9 C6=5 C7=3 C8=3
+161,whatsmeow,whatsmeow,45.9,45.9,45.9,C1=1 C2=6 C3=5 C4=4 C5=9 C6=5 C7=3 C8=3
+162,collaborative-data-patterns,Collaborative Data Patterns,45.9,45.9,45.9,C1=1 C2=6 C3=5 C4=4 C5=5 C6=9 C7=3 C8=3
+163,journalist-studio,Journalist Studio,45.3,45.3,45.3,C1=2 C2=6 C3=5 C4=4 C5=5 C6=7 C7=3 C8=3
+164,local-deep-researcher,Local Deep Researcher,45.3,45.3,45.3,C1=1 C2=6 C3=6 C4=4 C5=3 C6=9 C7=3 C8=3
+165,mapping-kids,Mapping.kids,45.3,45.3,45.3,C1=1 C2=6 C3=6 C4=4 C5=3 C6=9 C7=3 C8=3
+166,edgar,EDGAR,45.3,45.3,45.3,C1=1 C2=3 C3=5 C4=4 C5=9 C6=9 C7=3 C8=3
+167,kagi-slopstop,Kagi SlopStop,45.3,45.3,45.3,C1=2 C2=6 C3=3 C4=7 C5=5 C6=7 C7=3 C8=3
+168,urbit,Urbit,45.3,45.3,45.3,C1=1 C2=6 C3=6 C4=4 C5=5 C6=7 C7=3 C8=3
+169,open-data-communities,Open Data Communities,45.3,45.3,45.3,C1=1 C2=8 C3=3 C4=4 C5=5 C6=6 C7=8 C8=3
+170,fatebook,Fatebook,45.3,45.3,45.3,C1=2 C2=6 C3=5 C4=4 C5=5 C6=7 C7=3 C8=3
+171,greenpt,GreenPT,45.9,44.9,44.9,C1=1 C2=9 C3=6 C4=4 C5=1 C6=7 C7=3 C8=3
+172,yoti,Yoti,45.9,44.9,44.9,C1=1 C2=9 C3=6 C4=4 C5=1 C6=7 C7=3 C8=3
+173,discourse,Discourse,44.7,44.7,44.7,C1=2 C2=6 C3=3 C4=4 C5=5 C6=7 C7=8 C8=3
+174,docs-plus,docs.plus,44.7,44.7,44.7,C1=1 C2=6 C3=3 C4=6 C5=9 C6=5 C7=3 C8=3
+175,logos,Logos,44.7,44.7,44.7,C1=1 C2=6 C3=3 C4=6 C5=9 C6=5 C7=3 C8=3
+176,meet-coop,meet.coop,44.7,44.7,44.7,C1=1 C2=6 C3=3 C4=6 C5=5 C6=9 C7=3 C8=3
+177,in-the-news,In the news,44.7,44.7,44.7,C1=1 C2=6 C3=3 C4=6 C5=9 C6=5 C7=3 C8=3
+178,openbudgets-eu,OpenBudgets.eu,44.7,44.7,44.7,C1=1 C2=6 C3=6 C4=4 C5=5 C6=5 C7=3 C8=6
+179,stanford-participatory-budgeting-platform,Stanford Participatory Budgeting Platform,44.1,44.1,44.1,C1=1 C2=3 C3=6 C4=4 C5=9 C6=5 C7=3 C8=6
+180,local-insight,Local Insight,44.1,44.1,44.1,C1=1 C2=8 C3=6 C4=4 C5=1 C6=7 C7=3 C8=3
+181,nyaaya,Nyaaya,44.1,44.1,44.1,C1=2 C2=6 C3=3 C4=4 C5=5 C6=9 C7=3 C8=3
+182,the-circuit,The Circuit,44.1,44.1,44.1,C1=1 C2=5 C3=5 C4=4 C5=5 C6=9 C7=3 C8=3
+183,democracy-fund-open-source,Democracy Fund Open Source,43.5,43.5,43.5,C1=1 C2=3 C3=3 C4=4 C5=9 C6=9 C7=3 C8=6
+184,cortico,Cortico,46.5,43.5,43.5,C1=2 C2=9 C3=3 C4=4 C5=1 C6=9 C7=3 C8=6
+185,aragon,Aragon,43.5,43.5,43.5,C1=1 C2=3 C3=6 C4=7 C5=5 C6=7 C7=3 C8=3
+186,crowdjustice,CrowdJustice,43.5,43.5,43.5,C1=1 C2=6 C3=5 C4=4 C5=1 C6=7 C7=8 C8=6
+187,deepseek-v3,DeepSeek-V3,43.5,43.5,43.5,C1=1 C2=6 C3=5 C4=4 C5=5 C6=7 C7=3 C8=3
+188,full-fact-ai,Full Fact AI,46.5,43.5,43.5,C1=2 C2=9 C3=3 C4=4 C5=1 C6=9 C7=3 C8=6
+189,plinth,Plinth,44.1,43.1,43.1,C1=2 C2=8 C3=5 C4=4 C5=1 C6=7 C7=3 C8=3
+190,fission-codes,Fission Codes,42.9,42.9,42.9,C1=1 C2=3 C3=5 C4=4 C5=9 C6=7 C7=3 C8=3
+191,govwise,GovWise,45.9,42.9,42.9,C1=2 C2=8 C3=6 C4=4 C5=1 C6=7 C7=3 C8=3
+192,postcodes-io,postcodes.io,42.9,42.9,42.9,C1=1 C2=3 C3=5 C4=4 C5=9 C6=7 C7=3 C8=3
+193,user-research-library,User Research Library,42.9,42.9,42.9,C1=1 C2=8 C3=6 C4=4 C5=1 C6=6 C7=3 C8=3
+194,esper,Esper,45.9,42.9,42.9,C1=2 C2=8 C3=6 C4=4 C5=1 C6=7 C7=3 C8=3
+195,schema-org,Schema.org,42.9,42.9,42.9,C1=1 C2=3 C3=5 C4=6 C5=9 C6=5 C7=3 C8=3
+196,gender-pay-gap-service,Gender Pay Gap Service,42.9,42.9,42.9,C1=1 C2=8 C3=6 C4=4 C5=1 C6=6 C7=3 C8=3
+197,registers-and-collaboration-making-lists-we-can-trust,Registers and collaboration: making lists we can trust,42.9,42.9,42.9,C1=1 C2=6 C3=6 C4=4 C5=1 C6=9 C7=3 C8=3
+198,the-dao-standard-dao-framework,The DAO (Standard DAO Framework),42.4,42.4,42.4,C1=1 C2=6 C3=3 C4=4 C5=9 C6=5 C7=3 C8=3
+199,agreement-engine,Agreement Engine,42.4,42.4,42.4,C1=1 C2=6 C3=3 C4=4 C5=9 C6=5 C7=3 C8=3
+200,pastecal,Pastecal,42.4,42.4,42.4,C1=1 C2=6 C3=3 C4=4 C5=9 C6=5 C7=3 C8=3
+201,open-access-transparency-international-uk,Open Access – Transparency International UK,42.4,42.4,42.4,C1=1 C2=3 C3=6 C4=4 C5=5 C6=9 C7=3 C8=3
+202,groupthink-openpolitics-votebot,Groupthink (OpenPolitics Votebot),42.4,42.4,42.4,C1=1 C2=6 C3=3 C4=4 C5=9 C6=5 C7=3 C8=3
+203,shared-digital-guides,Shared Digital Guides,42.4,42.4,42.4,C1=1 C2=3 C3=6 C4=4 C5=5 C6=9 C7=3 C8=3
+204,uk-housing-data-standards,UK Housing Data Standards,42.4,42.4,42.4,C1=1 C2=6 C3=3 C4=4 C5=5 C6=9 C7=3 C8=3
+205,dogooder,DoGooder,41.8,41.8,41.8,C1=1 C2=6 C3=5 C4=4 C5=1 C6=7 C7=8 C8=3
+206,plausible-analytics,Plausible Analytics,41.8,41.8,41.8,C1=2 C2=3 C3=6 C4=4 C5=5 C6=7 C7=3 C8=3
+207,govtrack-us,GovTrack.us,41.8,41.8,41.8,C1=1 C2=3 C3=3 C4=4 C5=5 C6=9 C7=8 C8=6
+208,sci-hub,Sci-Hub,41.2,41.2,41.2,C1=1 C2=6 C3=6 C4=4 C5=1 C6=5 C7=8 C8=3
+209,who-posted-what,Who Posted What?,41.2,41.2,41.2,C1=1 C2=6 C3=5 C4=4 C5=1 C6=5 C7=8 C8=6
+210,public-media-stack,Public Media Stack,41.2,41.2,41.2,C1=1 C2=6 C3=5 C4=4 C5=1 C6=9 C7=3 C8=3
+211,new-public-roundabout,New_ Public Roundabout,41.2,41.2,41.2,C1=1 C2=6 C3=3 C4=7 C5=1 C6=9 C7=3 C8=3
+212,uk-parliament-developer-portal,UK Parliament Developer Portal,41.2,41.2,41.2,C1=1 C2=8 C3=5 C4=4 C5=1 C6=6 C7=3 C8=3
+213,the-decelerator,The Decelerator,41.2,41.2,41.2,C1=1 C2=6 C3=5 C4=4 C5=1 C6=9 C7=3 C8=3
+214,understanding-your-morality,Understanding Your Morality,41.2,41.2,41.2,C1=1 C2=6 C3=5 C4=4 C5=1 C6=9 C7=3 C8=3
+215,fixmyblock,FixMyBlock,41.2,41.2,41.2,C1=1 C2=6 C3=5 C4=4 C5=1 C6=9 C7=3 C8=3
+216,planit,PlanIT,40.6,40.6,40.6,C1=1 C2=8 C3=3 C4=4 C5=1 C6=7 C7=3 C8=6
+217,public-editor,Public Editor,40.6,40.6,40.6,C1=1 C2=6 C3=6 C4=4 C5=1 C6=7 C7=3 C8=3
+218,sugartrail,Sugartrail,40.6,40.6,40.6,C1=1 C2=3 C3=5 C4=4 C5=9 C6=5 C7=3 C8=3
+219,beckton,Beckton,40.6,40.6,40.6,C1=1 C2=3 C3=5 C4=4 C5=9 C6=5 C7=3 C8=3
+220,theft-bisect,Theft Bisect,40.6,40.6,40.6,C1=1 C2=3 C3=5 C4=4 C5=9 C6=5 C7=3 C8=3
+221,openelections-leaflet-scraper-and-parser,OpenElections Leaflet Scraper and Parser,40.6,40.6,40.6,C1=1 C2=3 C3=5 C4=4 C5=9 C6=5 C7=3 C8=3
+222,django-collaborative,django-collaborative,40.6,40.6,40.6,C1=1 C2=3 C3=5 C4=4 C5=9 C6=5 C7=3 C8=3
+223,granicus,Granicus,43.5,40.5,40.5,C1=2 C2=8 C3=6 C4=4 C5=1 C6=5 C7=3 C8=3
+224,can-dgsi-127-age-assurance-technologies-standard,CAN/DGSI 127 - Age Assurance Technologies Standard,43.5,40.5,40.5,C1=2 C2=8 C3=6 C4=4 C5=1 C6=5 C7=3 C8=3
+225,idealist,Idealist,40.0,40.0,40.0,C1=1 C2=6 C3=3 C4=4 C5=1 C6=7 C7=8 C8=6
+226,charmverse,CharmVerse,40.0,40.0,40.0,C1=1 C2=6 C3=3 C4=4 C5=5 C6=7 C7=3 C8=3
+227,manifold-markets,Manifold Markets,40.0,40.0,40.0,C1=1 C2=6 C3=3 C4=4 C5=5 C6=7 C7=3 C8=3
+228,prolific,Prolific,45.9,39.9,39.9,C1=2 C2=6 C3=8 C4=4 C5=1 C6=7 C7=3 C8=3
+229,the-commons-social-change-library,The Commons Social Change Library,39.4,39.4,39.4,C1=1 C2=6 C3=3 C4=4 C5=1 C6=9 C7=3 C8=6
+230,interoperable-deliberative-tools,Interoperable Deliberative Tools,39.4,39.4,39.4,C1=2 C2=6 C3=3 C4=4 C5=5 C6=5 C7=3 C8=3
+231,who-targets-me-trends,Who Targets Me Trends,39.4,39.4,39.4,C1=1 C2=3 C3=6 C4=4 C5=1 C6=9 C7=3 C8=6
+232,missing-numbers,Missing Numbers,39.4,39.4,39.4,C1=1 C2=3 C3=6 C4=4 C5=1 C6=9 C7=3 C8=6
+233,urbanistai,UrbanistAI,42.4,39.4,39.4,C1=2 C2=8 C3=3 C4=4 C5=1 C6=7 C7=3 C8=6
+234,shineyoureye,ShineYourEye,39.4,39.4,39.4,C1=1 C2=3 C3=6 C4=4 C5=1 C6=9 C7=3 C8=6
+235,landlord-tech-watch,Landlord Tech Watch,39.4,39.4,39.4,C1=1 C2=3 C3=3 C4=6 C5=9 C6=5 C7=3 C8=3
+236,rahvaalgatus,Rahvaalgatus,39.4,39.4,39.4,C1=1 C2=3 C3=3 C4=6 C5=9 C6=5 C7=3 C8=3
+237,relational-tech-project,Relational Tech Project,39.4,39.4,39.4,C1=1 C2=3 C3=3 C4=6 C5=9 C6=5 C7=3 C8=3
+238,rightdd,RightDD,38.8,38.8,38.8,C1=1 C2=6 C3=5 C4=4 C5=1 C6=7 C7=3 C8=3
+239,the-guide-to-major-trusts-2025-26,The Guide to Major Trusts 2025/26,38.8,38.8,38.8,C1=1 C2=3 C3=5 C4=4 C5=1 C6=9 C7=8 C8=3
+240,whoisology,Whoisology,38.8,38.8,38.8,C1=1 C2=6 C3=5 C4=4 C5=1 C6=7 C7=3 C8=3
+241,cotech,CoTech,38.8,38.8,38.8,C1=2 C2=3 C3=3 C4=6 C5=5 C6=7 C7=3 C8=3
+242,charity-digital-skills-report,Charity Digital Skills Report,38.8,38.8,38.8,C1=1 C2=3 C3=5 C4=4 C5=1 C6=9 C7=8 C8=3
+243,collab-land,Collab.Land,38.8,38.8,38.8,C1=1 C2=6 C3=5 C4=4 C5=1 C6=7 C7=3 C8=3
+244,dunadyne,Dunadyne,38.8,38.8,38.8,C1=1 C2=6 C3=5 C4=4 C5=1 C6=7 C7=3 C8=3
+245,demtech-navigator,DemTech Navigator,38.2,38.2,38.2,C1=1 C2=6 C3=6 C4=4 C5=1 C6=5 C7=3 C8=3
+246,strike-map,Strike Map,38.2,38.2,38.2,C1=1 C2=3 C3=5 C4=6 C5=5 C6=5 C7=3 C8=3
+247,cotsi-cyber-operational-threat-situational-intelligence,COTSI (Cyber Operational Threat Situational Intelligence),38.2,38.2,38.2,C1=1 C2=6 C3=6 C4=4 C5=1 C6=5 C7=3 C8=3
+248,keep-it-in-the-community,Keep It In The Community,38.2,38.2,38.2,C1=1 C2=5 C3=3 C4=6 C5=1 C6=9 C7=3 C8=3
+249,opora,ОПОРА (Opora),38.2,38.2,38.2,C1=1 C2=6 C3=3 C4=6 C5=1 C6=5 C7=8 C8=3
+250,parliament-watch-uganda,Parliament Watch Uganda,37.6,37.6,37.6,C1=1 C2=3 C3=6 C4=4 C5=1 C6=9 C7=3 C8=3
+251,digital-account-management-toolkit,Digital Account Management Toolkit,37.6,37.6,37.6,C1=1 C2=3 C3=6 C4=4 C5=1 C6=9 C7=3 C8=3
+252,right-to-know,Right To Know,37.6,37.6,37.6,C1=1 C2=3 C3=5 C4=4 C5=1 C6=9 C7=3 C8=6
+253,wikum,Wikum,37.6,37.6,37.6,C1=1 C2=6 C3=3 C4=4 C5=5 C6=5 C7=3 C8=3
+254,find-local-consultations,Find local consultations,37.6,37.6,37.6,C1=1 C2=8 C3=3 C4=4 C5=1 C6=6 C7=3 C8=3
+255,open-letter,Open Letter,37.6,37.6,37.6,C1=1 C2=6 C3=3 C4=4 C5=1 C6=9 C7=3 C8=3
+256,membership,Membership,37.1,37.1,37.1,C1=1 C2=3 C3=3 C4=4 C5=9 C6=5 C7=3 C8=3
+257,mapped,Mapped,37.1,37.1,37.1,C1=1 C2=3 C3=3 C4=4 C5=5 C6=9 C7=3 C8=3
+258,mp-twitter-bios,MP Twitter Bios,37.1,37.1,37.1,C1=1 C2=3 C3=3 C4=4 C5=9 C6=5 C7=3 C8=3
+259,vote-for-policies,Vote for Policies,37.1,37.1,37.1,C1=1 C2=3 C3=3 C4=4 C5=1 C6=9 C7=8 C8=6
+260,farmerchat,FarmerChat,42.9,36.9,36.9,C1=2 C2=6 C3=5 C4=4 C5=1 C6=9 C7=3 C8=3
+261,the-list,The List,36.5,36.5,36.5,C1=1 C2=6 C3=5 C4=4 C5=1 C6=5 C7=3 C8=3
+262,filmot,Filmot,36.5,36.5,36.5,C1=1 C2=6 C3=5 C4=4 C5=1 C6=5 C7=3 C8=3
+263,mp-watch,MP Watch,36.5,36.5,36.5,C1=1 C2=8 C3=3 C4=4 C5=1 C6=5 C7=3 C8=3
+264,violation-tracker-uk,Violation Tracker UK,35.9,35.9,35.9,C1=1 C2=3 C3=5 C4=4 C5=1 C6=9 C7=3 C8=3
+265,citizens-advice-tableau-public-profile,Citizens Advice Tableau Public Profile,35.9,35.9,35.9,C1=1 C2=3 C3=5 C4=4 C5=1 C6=9 C7=3 C8=3
+266,civicmatch,CivicMatch,35.9,35.9,35.9,C1=1 C2=3 C3=5 C4=4 C5=1 C6=9 C7=3 C8=3
+267,worker-info-exchange,Worker Info Exchange,35.9,35.9,35.9,C1=1 C2=3 C3=5 C4=4 C5=1 C6=9 C7=3 C8=3
+268,watch-duty,Watch Duty,35.9,35.9,35.9,C1=1 C2=3 C3=5 C4=4 C5=1 C6=9 C7=3 C8=3
+269,dovetail,Dovetail,35.9,35.9,35.9,C1=1 C2=3 C3=5 C4=4 C5=1 C6=9 C7=3 C8=3
+270,ladder-hub,Ladder Hub,35.9,35.9,35.9,C1=1 C2=3 C3=5 C4=4 C5=1 C6=9 C7=3 C8=3
+271,tactical-data-engagement,Tactical Data Engagement,35.9,35.9,35.9,C1=1 C2=3 C3=5 C4=4 C5=1 C6=9 C7=3 C8=3
+272,open-council-data-uk,Open Council Data UK,35.3,35.3,35.3,C1=1 C2=3 C3=6 C4=4 C5=1 C6=7 C7=3 C8=3
+273,polimonitor,PoliMonitor,35.3,35.3,35.3,C1=1 C2=3 C3=6 C4=4 C5=1 C6=7 C7=3 C8=3
+274,oa-report,OA.Report,35.3,35.3,35.3,C1=1 C2=6 C3=3 C4=4 C5=1 C6=7 C7=3 C8=3
+275,agencies-for-good,Agencies for Good,35.3,35.3,35.3,C1=1 C2=3 C3=6 C4=6 C5=1 C6=5 C7=3 C8=3
+276,parallel-parliament,Parallel Parliament,35.3,35.3,35.3,C1=1 C2=3 C3=6 C4=4 C5=1 C6=7 C7=3 C8=3
+277,spartacus,Spartacus,35.3,35.3,35.3,C1=1 C2=6 C3=3 C4=4 C5=1 C6=7 C7=3 C8=3
+278,policymogul,PolicyMogul,35.3,35.3,35.3,C1=1 C2=3 C3=6 C4=4 C5=1 C6=7 C7=3 C8=3
+279,myactioncenter,MyActionCenter,35.3,35.3,35.3,C1=1 C2=6 C3=3 C4=4 C5=1 C6=7 C7=3 C8=3
+280,civic-tech-field-guide,Civic Tech Field Guide,41.2,35.2,35.2,C1=2 C2=6 C3=3 C4=4 C5=1 C6=9 C7=3 C8=6
+281,society-for-hopeful-technologists,Society for Hopeful Technologists,34.7,34.7,34.7,C1=1 C2=3 C3=5 C4=7 C5=1 C6=5 C7=3 C8=3
+282,land-explorer,Land Explorer,34.7,34.7,34.7,C1=1 C2=3 C3=3 C4=6 C5=1 C6=9 C7=3 C8=3
+283,community-tech,Community Tech,34.7,34.7,34.7,C1=1 C2=3 C3=3 C4=6 C5=1 C6=9 C7=3 C8=3
+284,we-live-it,We Live It,40.6,34.6,34.6,C1=2 C2=6 C3=5 C4=4 C5=1 C6=7 C7=3 C8=3
+285,wardwatch,WardWatch,40.6,34.6,34.6,C1=2 C2=5 C3=6 C4=4 C5=1 C6=7 C7=3 C8=3
+286,polimorphic,Polimorphic,40.6,34.6,34.6,C1=2 C2=5 C3=6 C4=4 C5=1 C6=7 C7=3 C8=3
+287,moral-machine,Moral Machine,34.1,34.1,34.1,C1=2 C2=3 C3=3 C4=4 C5=5 C6=5 C7=3 C8=3
+288,organise,Organise,33.5,33.5,33.5,C1=1 C2=3 C3=5 C4=4 C5=1 C6=7 C7=3 C8=3
+289,workincharities,WorkInCharities,33.5,33.5,33.5,C1=1 C2=3 C3=5 C4=4 C5=1 C6=7 C7=3 C8=3
+290,tracking-template-38b4c-web-app,tracking-template-38b4c-web-app,33.5,33.5,33.5,C1=1 C2=3 C3=5 C4=4 C5=3 C6=5 C7=3 C8=3
+291,unknown-academic-paper-ssrn-5351275,Unknown Academic Paper (SSRN 5351275),33.5,33.5,33.5,C1=1 C2=3 C3=5 C4=4 C5=3 C6=5 C7=3 C8=3
+292,nook-crm,Nook CRM,33.5,33.5,33.5,C1=1 C2=3 C3=5 C4=4 C5=1 C6=7 C7=3 C8=3
+293,labour-xchange,Labour Xchange,33.5,33.5,33.5,C1=1 C2=3 C3=5 C4=4 C5=1 C6=7 C7=3 C8=3
+294,civiclick,CiviClick,33.5,33.5,33.5,C1=1 C2=3 C3=5 C4=4 C5=1 C6=7 C7=3 C8=3
+295,verification-report,verification-report,33.5,33.5,33.5,C1=1 C2=3 C3=5 C4=4 C5=3 C6=5 C7=3 C8=3
+296,deliberation-technology-delibtech-network,Deliberation & Technology (DelibTech) Network,39.4,33.4,33.4,C1=2 C2=6 C3=3 C4=4 C5=1 C6=9 C7=3 C8=3
+297,modular-politics,Modular Politics,32.9,32.9,32.9,C1=1 C2=6 C3=3 C4=4 C5=1 C6=5 C7=3 C8=3
+298,neighbourhood-warmth,Neighbourhood Warmth,32.4,32.4,32.4,C1=1 C2=3 C3=3 C4=4 C5=1 C6=9 C7=3 C8=3
+299,local-intelligence-hub,Local Intelligence Hub,32.4,32.4,32.4,C1=1 C2=3 C3=3 C4=4 C5=1 C6=9 C7=3 C8=3
+300,hand-written-petition-scanner,Hand-Written Petition Scanner,32.4,32.4,32.4,C1=1 C2=3 C3=3 C4=4 C5=5 C6=5 C7=3 C8=3
+301,global-fact-check-bot-gfc,Global Fact-Check Bot (GFC),37.6,31.6,31.6,C1=1 C2=6 C3=3 C4=4 C5=1 C6=9 C7=3 C8=3
+302,the-accountability-project,The Accountability Project,31.2,31.2,31.2,C1=1 C2=3 C3=5 C4=4 C5=1 C6=5 C7=3 C8=3
+303,conservative-party-funding,Conservative Party Funding,31.2,31.2,31.2,C1=1 C2=3 C3=5 C4=4 C5=1 C6=5 C7=3 C8=3
+304,openorigins,OpenOrigins,37.1,31.1,31.1,C1=2 C2=6 C3=3 C4=4 C5=1 C6=7 C7=3 C8=3
+305,harmonica,Harmonica,37.1,31.1,31.1,C1=2 C2=6 C3=3 C4=4 C5=1 C6=7 C7=3 C8=3
+306,objector-ai-2,Objector.ai,37.1,31.1,31.1,C1=2 C2=3 C3=6 C4=4 C5=1 C6=7 C7=3 C8=3
+307,nestr,Nestr,37.1,31.1,31.1,C1=2 C2=6 C3=3 C4=4 C5=1 C6=7 C7=3 C8=3
+308,viewpoints,Viewpoints,37.1,31.1,31.1,C1=2 C2=6 C3=3 C4=4 C5=1 C6=7 C7=3 C8=3
+309,objector-ai,Objector.ai,37.1,31.1,31.1,C1=2 C2=3 C3=6 C4=4 C5=1 C6=7 C7=3 C8=3
+310,marks-out-of-tenancy,Marks Out Of Tenancy,30.0,30.0,30.0,C1=1 C2=3 C3=3 C4=4 C5=1 C6=7 C7=3 C8=3
+311,openaudience,OpenAudience,30.0,30.0,30.0,C1=1 C2=3 C3=3 C4=4 C5=1 C6=7 C7=3 C8=3
+312,timecounts,Timecounts,30.0,30.0,30.0,C1=1 C2=3 C3=3 C4=4 C5=1 C6=7 C7=3 C8=3
+313,monitor-mamdani,Monitor Mamdani,30.0,30.0,30.0,C1=1 C2=3 C3=3 C4=4 C5=3 C6=5 C7=3 C8=3
+314,postbug,PostBug,30.0,30.0,30.0,C1=1 C2=3 C3=3 C4=4 C5=1 C6=7 C7=3 C8=3
+315,kialo,Kialo,35.3,29.3,29.3,C1=1 C2=6 C3=3 C4=4 C5=1 C6=7 C7=3 C8=3
+316,parse-the-bill,Parse The Bill,34.7,28.7,28.7,C1=2 C2=3 C3=6 C4=4 C5=1 C6=5 C7=3 C8=3
+317,remember-to-vote,Remember to Vote,27.6,27.6,27.6,C1=1 C2=3 C3=3 C4=4 C5=1 C6=5 C7=3 C8=3
+318,turbo-phonebank,Turbo Phonebank,27.6,27.6,27.6,C1=1 C2=3 C3=3 C4=4 C5=1 C6=5 C7=3 C8=3
+319,consciousness-evolution-operating-system-consoc,Consciousness Evolution Operating System (ConSoc),27.6,27.6,27.6,C1=1 C2=3 C3=3 C4=4 C5=1 C6=5 C7=3 C8=3
+320,donotpay,DoNotPay,33.5,27.5,27.5,C1=1 C2=3 C3=5 C4=4 C5=1 C6=7 C7=3 C8=3
+321,overton,Overton,33.5,27.5,27.5,C1=1 C2=3 C3=5 C4=4 C5=1 C6=7 C7=3 C8=3
+322,empurrando-juntas-ej,Empurrando Juntas (EJ),31.8,25.8,25.8,C1=2 C2=3 C3=3 C4=4 C5=1 C6=7 C7=3 C8=3
