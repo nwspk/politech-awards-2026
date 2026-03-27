@@ -10,7 +10,7 @@
     "emerging_tech"
   ],
   "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
+    "SDG 16 \u2013 Peace, Justice and Strong Institutions"
   ],
   "decade_plus": false,
   "geography": "international",
@@ -109,5 +109,12 @@
     "general public",
     "AI safety advocates"
   ],
-  "underdog_signal": false
+  "underdog_signal": false,
+  "ai_governance_dimension": {
+    "is_primary": false,
+    "type": [
+      "pre_market_safety"
+    ],
+    "scope": "global"
+  }
 }

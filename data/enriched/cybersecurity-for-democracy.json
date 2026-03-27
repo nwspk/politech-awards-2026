@@ -7,7 +7,7 @@
     "homepage_word_count": 580,
     "homepage_has_team_page": true,
     "homepage_has_impact_metrics": false,
-    "scraped_description": "Cybersecurity for Democracy is a research-based effort to expose online threats to our social fabric – and recommend how to counter them. We are part of the Center for Cybersecurity at NYU.",
+    "scraped_description": "Cybersecurity for Democracy is a research-based effort to expose online threats to our social fabric \u2013 and recommend how to counter them. We are part of the Center for Cybersecurity at NYU.",
     "scraped_final_url": "https://cybersecurityfordemocracy.org/"
   },
   "collected_at": "2026-03-09T23:21:13.743Z",
@@ -138,5 +138,13 @@
     "Tech Companies",
     "Young Users"
   ],
-  "underdog_signal": false
+  "underdog_signal": false,
+  "ai_governance_dimension": {
+    "is_primary": true,
+    "type": [
+      "algorithmic_accountability",
+      "regulatory_transparency"
+    ],
+    "scope": "global"
+  }
 }

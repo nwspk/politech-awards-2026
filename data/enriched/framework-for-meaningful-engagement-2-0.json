@@ -116,5 +116,13 @@
     "Affected communities",
     "Marginalized and vulnerable groups"
   ],
-  "underdog_signal": false
+  "underdog_signal": false,
+  "ai_governance_dimension": {
+    "is_primary": true,
+    "type": [
+      "civil_society_participation",
+      "pre_market_safety"
+    ],
+    "scope": "global"
+  }
 }

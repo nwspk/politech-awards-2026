@@ -23,7 +23,7 @@
     "advocacy_tech"
   ],
   "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
+    "SDG 16 \u2013 Peace, Justice and Strong Institutions"
   ],
   "decade_plus": false,
   "geography": "international",
@@ -114,7 +114,7 @@
     "notes": "Provides information, data, or research for civic purposes"
   },
   "systemic_issue_area": "media accountability and press freedom",
-  "generalizability_notes": "Moderately generalizable — already international but proprietary nature may limit independent replication.",
+  "generalizability_notes": "Moderately generalizable \u2014 already international but proprietary nature may limit independent replication.",
   "primary_users_or_beneficiaries": [
     "journalists",
     "election monitors",
@@ -122,5 +122,13 @@
     "campaign professionals",
     "citizens"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "ai_governance_dimension": {
+    "is_primary": false,
+    "type": [
+      "regulatory_transparency",
+      "algorithmic_accountability"
+    ],
+    "scope": "global"
+  }
 }

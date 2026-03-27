@@ -143,5 +143,13 @@
     "fact-checkers",
     "platform accountability advocates"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "ai_governance_dimension": {
+    "is_primary": false,
+    "type": [
+      "algorithmic_accountability",
+      "regulatory_transparency"
+    ],
+    "scope": "global"
+  }
 }
