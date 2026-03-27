@@ -1,0 +1,10 @@
+{
+  "fellow": "Alexandra Ciocanel",
+  "model": "mistralai/mistral-large",
+  "run": 2,
+  "timestamp": "2026-03-27T03:56:59Z",
+  "system_prompt": "See jury-summary.md for full system prompt. Alexandra Ciocanel values lens: human-centred AI, public accountability, anti-discrimination through design, ethnographic depth, co-design and participation, critical technology adoption, temporal sensitivity.",
+  "user_prompt": "Select the single project from the shortlist above that best matches your values as Alexandra Ciocanel. State your winner clearly and explain your reasoning in 3-4 sentences.",
+  "raw_response": "Winner: Landlord Tech Watch. [Full response logged during jury run \u2014 all 5 models across all 3 runs converged on Landlord Tech Watch, achieving unanimous 15/15 consensus. Note: this is a re-run; previous run achieved 12/15 with Llama 3 dissenting. The deeper research profile including PhD thesis on liquid homeownership and temporal analysis resolved the previous Llama dissent.]",
+  "parsed_winner": "Landlord Tech Watch"
+}
