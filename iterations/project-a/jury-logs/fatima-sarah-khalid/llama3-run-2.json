@@ -1,0 +1,10 @@
+{
+  "fellow": "Fatima Sarah Khalid",
+  "model": "meta-llama/llama-3-70b-instruct",
+  "run": 2,
+  "timestamp": "2026-03-27T04:38:02Z",
+  "system_prompt": "see pipeline file: iterations/project-a/fatima-sarah-khalid.md",
+  "user_prompt": "Please select the single project from this shortlist of 20 that best matches Fatima Sarah Khalid values and scoring criteria. State your winner clearly and explain your reasoning in 3-4 sentences.",
+  "raw_response": "My winner is: **Decidim \u2014 Free/libre open source platform for citizen participation**.\n\nI choose Decidim because it closely aligns with my values and scoring criteria. Decidim is a genuinely open source project with permissive licensing and active community governance through the Decidim Free Software Association, which scores high on open source quality and community governance quality. Additionally, Decidim serves government and public sector needs, building a public digital commons for citizen participation, which aligns with my focus on civic infrastructure over commercial scale. Its international deployment and cooperative governance model also demonstrate its commitment to structural inclusion and community-driven governance.",
+  "parsed_winner": "Decidim"
+}

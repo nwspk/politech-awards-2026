@@ -1,0 +1,10 @@
+{
+  "fellow": "Fatima Sarah Khalid",
+  "model": "claude-sonnet-4-6",
+  "run": 3,
+  "timestamp": "2026-03-27T04:39:24Z",
+  "system_prompt": "see pipeline file: iterations/project-a/fatima-sarah-khalid.md",
+  "user_prompt": "shortlist of 20 projects \u2014 see pipeline file",
+  "raw_response": "## My Pick: **Polis** (Project #6)\n\nPolis is the single project that most completely embodies my values across every dimension I weight most heavily. It is genuinely open source, cooperatively stewarded, and has proven civic infrastructure value through deployment in vTaiwan's democratic processes and EU consultations \u2014 demonstrating that AI-assisted deliberation can serve democratic legitimacy rather than undermine it. Critically, it sits at the exact intersection of my active research concerns: it is simultaneously an AI governance tool *and* an AI-powered civic tool, meaning it models the kind of transparent, accountable AI application I argue for professionally while generating real governance insights about how AI shapes public deliberation. Its community governance structure and the concrete evidence of state-level adoption without commercial capture make it meaningfully different from participation-washing projects, and its low-barrier open deployment model genuinely empowers under-resourced civic technologists globally.\n\n---\n\n**Close runners-up I want to acknowledge:** Decidim was genuinely difficult to pass over \u2014 its cooperative governance and scale are extraordinary \u2014 and the *Principles for Public Participation in AI Procurement* (#9) speaks most directly to my AI governance research. But Polis uniquely unites the builder and critic roles in one living, proven system.",
+  "parsed_winner": "Polis"
+}

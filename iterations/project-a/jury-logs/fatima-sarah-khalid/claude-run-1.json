@@ -1,0 +1,10 @@
+{
+  "fellow": "Fatima Sarah Khalid",
+  "model": "claude-sonnet-4-6",
+  "run": 1,
+  "timestamp": "2026-03-27T04:39:24Z",
+  "system_prompt": "see pipeline file: iterations/project-a/fatima-sarah-khalid.md",
+  "user_prompt": "shortlist of 20 projects \u2014 see pipeline file",
+  "raw_response": "## My Winner: **Decidim**\n\nDecidim is the clearest embodiment of everything I believe civic technology should be \u2014 it's genuinely free/libre open source software governed by an independent cooperative association rather than a single vendor, deployed at meaningful democratic scale across hundreds of governments including the EU Commission and Brazilian municipalities, with governance structures that model the participatory democracy it enables. What distinguishes it from other strong contenders like Polis or CONSUL Democracy is the maturity of its community governance: the Decidim Free Software Association represents exactly the kind of commons stewardship model I advocate for, where the software's direction is accountable to its users and contributors rather than a commercial roadmap. It builds durable civic infrastructure \u2014 not a product, not a platform play \u2014 lowering barriers for governments and communities to run genuine participatory processes without vendor dependency. In a shortlist full of excellent tools, Decidim is the one that most coherently integrates open source as civic commons, community-driven governance, and democratic empowerment into a single, proven, globally-deployed project.",
+  "parsed_winner": "Decidim"
+}
