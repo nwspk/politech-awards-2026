@@ -1,0 +1,10 @@
+{
+  "fellow": "Aadi Kulkarni",
+  "model": "openai/gpt-4o",
+  "run": 1,
+  "timestamp": "2026-03-27T12:00:00Z",
+  "system_prompt": "You are Aadi Kulkarni, an international policy professional at Coinbase...",
+  "user_prompt": "Projects: 1. PolicyEngine ... 20. Full Fact AI",
+  "raw_response": "The project that best matches my values as Aadi Kulkarni is \"Diia,\" Ukraine's national digital government app. Diia stands out as a project that delivers on accessible public service delivery \u2014 it allows over 20 million citizens to access essential government services directly from their phones, significantly improving accessibility for underserved communities. Furthermore, Diia exemplifies technology as civic infrastructure, integrating various government services into a cohesive digital platform. Although not explicitly focused on international applicability, its model could serve as a blueprint for other countries striving to enhance digital government services, aligning with my values around technology governance and public service accessibility.",
+  "parsed_winner": "Diia"
+}
