@@ -59,26 +59,26 @@ He'd be impatient with governance frameworks that are all principles and no enfo
 
 | Rank | Project | Why it fits |
 |---|---|---|
-| 1 | AlgorithmWatch | Independent watchdog for algorithmic accountability with real methodology; enforces transparency across governance contexts |
-| 2 | Principles for Public Participation in Procurement of AI | Framework operationalising genuine public participation in AI decisions — directly aligns with his values on participatory governance |
-| 3 | Framework for Meaningful Engagement 2.0 | Rights-based participatory AI framework; addresses the tick-box consultation failure he criticised |
-| 4 | Full Fact AI | AI accountability applied to public information — transparency as governance infrastructure |
-| 5 | Responsible Tech Guide 2025 | Comprehensive responsible tech ecosystem map; community infrastructure for the field he works in |
-| 6 | Decidim | Open civic participation platform with traceable governance — demonstrates enforceable participation design |
-| 7 | Polis | Transparent deliberation with auditable outputs; legitimate public consultation methodology |
-| 8 | vTaiwan | Gold standard for inclusive, enforceable digital democracy in policymaking |
-| 9 | Open Contracting Partnership | Open data infrastructure for procurement accountability — adjacent to his AI procurement interest |
-| 10 | Open Ownership | Corporate transparency infrastructure — accountability by design for institutions |
-| 11 | PolicyEngine | Open-source policy simulation; makes AI-driven policy modelling transparent and auditable |
-| 12 | AtlasOfSurveillance | Documents AI/surveillance deployment by government — post-deployment accountability |
-| 13 | Cybersecurity for Democracy | Systematic monitoring of platform accountability; enforced transparency in information systems |
-| 14 | DISARM Frameworks | Structured counter-disinformation infrastructure; multi-stakeholder, enforcement-oriented |
-| 15 | Deliberation & Technology Network | Academic-practitioner network on democratic AI governance; multilateral scope |
-| 16 | Interoperable Deliberative Tools | Infrastructure for governance beyond voting; structural participation by design |
-| 17 | DemTech Navigator | Civil society guide to addressing disinformation; governance tools for democratic protection |
-| 18 | WhatDoTheyKnow | FOI accountability infrastructure; real enforcement of government transparency |
-| 19 | Open Standards for Data Guidebook | Standards infrastructure for data governance; multilateral applicability |
-| 20 | Alaveteli | FOI platform; accountability infrastructure for democratic governance |
+| 1 | [AlgorithmWatch](https://algorithmwatch.org) | Independent watchdog for algorithmic accountability with real methodology; enforces transparency across governance contexts |
+| 2 | [Principles for Public Participation in Procurement of AI](https://p4ai.net) | Framework operationalising genuine public participation in AI decisions — directly aligns with his values on participatory governance |
+| 3 | [Framework for Meaningful Engagement 2.0](https://ecnl.org/publications/framework-meaningful-engagement-20?mc_cid=b1c5158063&mc_eid=a09c64ec38) | Rights-based participatory AI framework; addresses the tick-box consultation failure he criticised |
+| 4 | [Full Fact AI](https://fullfact.org/ai) | AI accountability applied to public information — transparency as governance infrastructure |
+| 5 | [Responsible Tech Guide 2025](https://alltechishuman.org/responsible-tech-guide-2025) | Comprehensive responsible tech ecosystem map; community infrastructure for the field he works in |
+| 6 | [Decidim](https://decidim.org) | Open civic participation platform with traceable governance — demonstrates enforceable participation design |
+| 7 | [Polis](https://github.com/compdemocracy/polis) | Transparent deliberation with auditable outputs; legitimate public consultation methodology |
+| 8 | [vTaiwan](https://github.com/g0v/vue.vtaiwan.tw) | Gold standard for inclusive, enforceable digital democracy in policymaking |
+| 9 | [Open Contracting Partnership](https://www.open-contracting.org) | Open data infrastructure for procurement accountability — adjacent to his AI procurement interest |
+| 10 | [Open Ownership](https://www.openownership.org) | Corporate transparency infrastructure — accountability by design for institutions |
+| 11 | [PolicyEngine](https://policyengine.org/uk) | Open-source policy simulation; makes AI-driven policy modelling transparent and auditable |
+| 12 | [AtlasOfSurveillance](https://atlasofsurveillance.org) | Documents AI/surveillance deployment by government — post-deployment accountability |
+| 13 | [Cybersecurity for Democracy](https://cybersecurityfordemocracy.org) | Systematic monitoring of platform accountability; enforced transparency in information systems |
+| 14 | [DISARM Frameworks](https://github.com/disarmfoundation/disarmframeworks) | Structured counter-disinformation infrastructure; multi-stakeholder, enforcement-oriented |
+| 15 | [Deliberation & Technology Network](https://www.demnext.org/projects/delibtech-network) | Academic-practitioner network on democratic AI governance; multilateral scope |
+| 16 | [Interoperable Deliberative Tools](https://metagov.org/projects/interop) | Infrastructure for governance beyond voting; structural participation by design |
+| 17 | [DemTech Navigator](https://navigator.oii.ox.ac.uk) | Civil society guide to addressing disinformation; governance tools for democratic protection |
+| 18 | [WhatDoTheyKnow](https://www.whatdotheyknow.com) | FOI accountability infrastructure; real enforcement of government transparency |
+| 19 | [Open Standards for Data Guidebook](https://standards.theodi.org) | Standards infrastructure for data governance; multilateral applicability |
+| 20 | [Alaveteli](https://alaveteli.org) | FOI platform; accountability infrastructure for democratic governance |
 
 ## Proposed winner
 
