@@ -22,7 +22,7 @@
     "govtech"
   ],
   "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
+    "SDG 16 \u2013 Peace, Justice and Strong Institutions"
   ],
   "decade_plus": false,
   "geography": "national",
@@ -70,7 +70,7 @@
       "doi": "https://doi.org/10.1007/s11858-015-0675-6"
     },
     {
-      "title": "Brodmann's “missing” numbers",
+      "title": "Brodmann's \u201cmissing\u201d numbers",
       "year": 1993,
       "cited_by": 11,
       "doi": "https://doi.org/10.1212/wnl.43.1_part_1.226"
@@ -112,5 +112,7 @@
     "campaigners",
     "MPs"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "citizen_accessibility_layer": "partial",
+  "citizen_accessibility_notes": "Campaign outputs (reports, articles) are accessible to general public; the advocacy work targets journalists and policy professionals. Ordinary citizens can read and engage with the campaign but are not primary users."
 }

@@ -7,7 +7,7 @@
     "homepage_word_count": 1470,
     "homepage_has_team_page": true,
     "homepage_has_impact_metrics": true,
-    "scraped_description": "Full Fact is the UK’s independent fact checking charity",
+    "scraped_description": "Full Fact is the UK\u2019s independent fact checking charity",
     "scraped_final_url": "https://fullfact.org/ai/"
   },
   "collected_at": "2026-03-09T23:21:13.445Z",
@@ -117,5 +117,7 @@
     "platforms",
     "public policy makers"
   ],
-  "underdog_signal": false
+  "underdog_signal": false,
+  "citizen_accessibility_layer": "yes",
+  "citizen_accessibility_notes": "AI fact-checking output is designed for journalists, civil society, and ordinary members of the public; claim-checking tools are accessible via web interface without specialist knowledge."
 }

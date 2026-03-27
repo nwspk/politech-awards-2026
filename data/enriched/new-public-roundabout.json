@@ -7,13 +7,13 @@
     "homepage_word_count": 2142,
     "homepage_has_team_page": false,
     "homepage_has_impact_metrics": false,
-    "scraped_description": "New_ Public’s app for local communities enters closed beta in five pilot communities",
+    "scraped_description": "New_ Public\u2019s app for local communities enters closed beta in five pilot communities",
     "scraped_final_url": "https://newpublic.substack.com/p/introducing-roundabout-built-for"
   },
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "New_ Public Roundabout",
-  "tagline": "A community space for neighbors — local digital forum app built from the ground up with community stewards",
+  "tagline": "A community space for neighbors \u2014 local digital forum app built from the ground up with community stewards",
   "project_type": "Tool/Platform",
   "org_type": "Nonprofit/charity",
   "issue_area": [
@@ -116,5 +116,7 @@
     "underestimated communities",
     "community stewards and moderators"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "citizen_accessibility_layer": "yes",
+  "citizen_accessibility_notes": "Neighbourhood-scale forum designed from the ground up for community members without technical expertise; community governance model requires no specialist knowledge to participate."
 }

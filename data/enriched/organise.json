@@ -13,7 +13,7 @@
   "collected_at": "2026-03-09T23:20:58.893Z",
   "collected_by": "collect-enriched-script",
   "name": "Organise",
-  "tagline": "Get heard at work – a workers' network for collective action on employment issues",
+  "tagline": "Get heard at work \u2013 a workers' network for collective action on employment issues",
   "project_type": "Platform",
   "org_type": "For-profit/social enterprise",
   "issue_area": [
@@ -21,8 +21,8 @@
     "advocacy_tech"
   ],
   "sdg_alignment": [
-    "SDG 8 – Decent Work and Economic Growth",
-    "SDG 16 – Peace, Justice and Strong Institutions"
+    "SDG 8 \u2013 Decent Work and Economic Growth",
+    "SDG 16 \u2013 Peace, Justice and Strong Institutions"
   ],
   "decade_plus": false,
   "geography": "national",
@@ -72,7 +72,7 @@
       "year": 2025
     },
     {
-      "description": "G4S night shift workers won equal pay (£2,017/year extra) after Organise petition campaign",
+      "description": "G4S night shift workers won equal pay (\u00a32,017/year extra) after Organise petition campaign",
       "year": 2025
     },
     {
@@ -129,5 +129,7 @@
     "self-employed individuals",
     "gig economy workers"
   ],
-  "underdog_signal": false
+  "underdog_signal": false,
+  "citizen_accessibility_layer": "yes",
+  "citizen_accessibility_notes": "Designed for ordinary workers (not labour lawyers or organisers) to run workplace campaigns; onboarding process requires no technical knowledge; primary audience is employees at any level."
 }

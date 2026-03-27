@@ -98,5 +98,7 @@
     "Social movements",
     "Progressive campaigners"
   ],
-  "underdog_signal": false
+  "underdog_signal": false,
+  "citizen_accessibility_layer": "yes",
+  "citizen_accessibility_notes": "Designed for grassroots advocacy; non-profits, unions, and community groups can run campaigns and petitions without technical expertise; citizen supporters interact via simple web forms."
 }

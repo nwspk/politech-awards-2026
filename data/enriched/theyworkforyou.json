@@ -23,7 +23,7 @@
     "media_journalism"
   ],
   "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
+    "SDG 16 \u2013 Peace, Justice and Strong Institutions"
   ],
   "decade_plus": true,
   "geography": "national",
@@ -126,7 +126,7 @@
     "notes": "Provides civic data or journalism infrastructure"
   },
   "systemic_issue_area": "democratic participation access",
-  "generalizability_notes": "Moderate generalizability — partially open source; core approach could be replicated but may require significant adaptation.",
+  "generalizability_notes": "Moderate generalizability \u2014 partially open source; core approach could be replicated but may require significant adaptation.",
   "primary_users_or_beneficiaries": [
     "citizens",
     "researchers",
@@ -134,5 +134,7 @@
     "campaigners",
     "parliamentarians"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "citizen_accessibility_layer": "yes",
+  "citizen_accessibility_notes": "Designed explicitly for ordinary UK citizens to track their MP's votes, speeches, and positions without any specialist knowledge; free; email alerts available."
 }

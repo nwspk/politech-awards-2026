@@ -21,7 +21,7 @@
     "civic_data"
   ],
   "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
+    "SDG 16 \u2013 Peace, Justice and Strong Institutions"
   ],
   "decade_plus": true,
   "geography": "national",
@@ -95,5 +95,7 @@
     "voters",
     "citizens"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "citizen_accessibility_layer": "yes",
+  "citizen_accessibility_notes": "Designed specifically for ordinary voters to compare policies without party labels; no technical knowledge required; primary audience is general public."
 }
