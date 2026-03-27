@@ -172,5 +172,9 @@
     "corporations",
     "cooperatives"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "self_hosting_capability": {
+    "classification": "full",
+    "notes": "Free software (MIT/BSD). Designed to be run by political parties, organizations, or communities on their own servers. Pirate Party and others self-host their own instances."
+  }
 }

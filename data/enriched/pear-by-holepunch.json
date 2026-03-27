@@ -79,5 +79,9 @@
     "developers",
     "application creators"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "self_hosting_capability": {
+    "classification": "full",
+    "notes": "Peer-to-peer runtime — applications built on Pear are inherently self-hosted and peer-distributed. No central server required for deployment or operation."
+  }
 }

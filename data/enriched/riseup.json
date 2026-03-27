@@ -99,5 +99,9 @@
     "advocacy organizations",
     "grassroots groups"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "self_hosting_capability": {
+    "classification": "none",
+    "notes": "Riseup provides infrastructure-as-a-service for activists (email, VPN, pads, etc.) — communities do not self-host Riseup, they use Riseup as a trusted provider. Some underlying tools (Crabgrass, etc.) are open source but Riseup is not designed for self-hosting by users."
+  }
 }

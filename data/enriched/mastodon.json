@@ -152,5 +152,9 @@
     "researchers",
     "marginalized communities"
   ],
-  "underdog_signal": false
+  "underdog_signal": false,
+  "self_hosting_capability": {
+    "classification": "full",
+    "notes": "Mastodon is explicitly designed for instance operators to self-host. AGPL-3.0 licensed. Comprehensive self-hosting documentation. Federated — self-hosted instances are full peers in the network."
+  }
 }

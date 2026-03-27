@@ -128,5 +128,9 @@
     "cooperatives",
     "nonprofits"
   ],
-  "underdog_signal": false
+  "underdog_signal": false,
+  "self_hosting_capability": {
+    "classification": "partial",
+    "notes": "Open source (AGPL-3.0) and self-hostable, but the primary offering is the hosted SaaS. Self-hosting is technically possible but not a primary use case for most users; documentation and support focus on the hosted version."
+  }
 }

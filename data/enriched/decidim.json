@@ -184,5 +184,9 @@
     "NGOs",
     "trade unions"
   ],
-  "underdog_signal": false
+  "underdog_signal": false,
+  "self_hosting_capability": {
+    "classification": "full",
+    "notes": "Open-source (AGPL-3.0) and designed for deployment by municipalities, organizations, and communities. Rails application, well-documented installation. Used by hundreds of organizations running their own instances."
+  }
 }

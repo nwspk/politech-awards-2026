@@ -113,5 +113,9 @@
     "civil society",
     "industry stakeholders"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "self_hosting_capability": {
+    "classification": "partial",
+    "notes": "vTaiwan is a community-run civic process using open source tools (Polis, Consul, etc.), not a packaged self-hostable product. The \"platform\" is a set of community practices and open tools rather than a single deployable codebase."
+  }
 }

@@ -111,5 +111,9 @@
     "civic tech developers",
     "platform users"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "self_hosting_capability": {
+    "classification": "full",
+    "notes": "Open source AT Protocol implementation in Rust, designed to be run by communities as their own relay/PDS. Specifically created for community safety self-governance outside Bluesky's central relay."
+  }
 }

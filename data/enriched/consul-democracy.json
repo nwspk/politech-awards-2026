@@ -148,5 +148,9 @@
     "civil society organizations",
     "citizens seeking to participate in local democratic processes"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "self_hosting_capability": {
+    "classification": "full",
+    "notes": "Open source (AGPL-3.0). Actively maintained for self-deployment by governments and organisations. Comprehensive deployment documentation and Docker support."
+  }
 }

@@ -187,5 +187,9 @@
     "enterprises",
     "activists"
   ],
-  "underdog_signal": false
+  "underdog_signal": false,
+  "self_hosting_capability": {
+    "classification": "full",
+    "notes": "Core architecture is self-hosting. Anyone can run a Matrix homeserver (Synapse, Dendrite, Conduit). The protocol is designed so federating instances are equals — no dependency on a central server."
+  }
 }

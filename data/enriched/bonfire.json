@@ -106,5 +106,9 @@
     "fediverse users",
     "digital rights advocates"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "self_hosting_capability": {
+    "classification": "full",
+    "notes": "Explicitly designed for community self-hosting. AGPL-3.0 licensed. Full Docker-based deployment available. Communities can run their own Bonfire instance and federate with others via ActivityPub."
+  }
 }

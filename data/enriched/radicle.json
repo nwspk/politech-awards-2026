@@ -111,5 +111,9 @@
     "open source contributors",
     "technologists"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "self_hosting_capability": {
+    "classification": "full",
+    "notes": "Peer-to-peer architecture means there is no central server to depend on — every node is fully sovereign. Radicle is designed from first principles for decentralization and self-sovereignty in code hosting."
+  }
 }

@@ -94,5 +94,9 @@
     "progressive organizations",
     "social movements"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "self_hosting_capability": {
+    "classification": "partial",
+    "notes": "meet.coop itself is the cooperative operator — members join the cooperative, not run their own instance. However, meet.coop runs on BigBlueButton (fully self-hostable FOSS), so communities CAN run their own BBB instance independent of meet.coop if they wish."
+  }
 }

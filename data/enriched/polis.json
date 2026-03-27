@@ -120,5 +120,9 @@
     "civil society",
     "citizens participating in democratic processes"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "self_hosting_capability": {
+    "classification": "full",
+    "notes": "Open source (AGPL-3.0) and designed to be self-hosted. Taiwan's vTaiwan uses a community-run instance. Full deployment guide available. Can run independently of pol.is hosted service."
+  }
 }

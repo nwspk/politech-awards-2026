@@ -120,5 +120,9 @@
     "political parties",
     "local government administrators"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "self_hosting_capability": {
+    "classification": "full",
+    "notes": "Open source (Apache 2.0) with full self-hosting documentation. Estonia-based but designed for international deployment. Docker-based deployment available."
+  }
 }
