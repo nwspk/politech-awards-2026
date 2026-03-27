@@ -59,7 +59,7 @@
     "London",
     "Paris",
     "Turin",
-    "San Donà di Piave"
+    "San Don\u00e0 di Piave"
   ],
   "open_source": "yes",
   "github_url": "https://github.com/liqd/liquidfeedback",
@@ -77,10 +77,10 @@
     "open-source community"
   ],
   "known_funders": [
-    "European Commission (Horizon 2020 — WeGovNow and CO3 projects)"
+    "European Commission (Horizon 2020 \u2014 WeGovNow and CO3 projects)"
   ],
   "funding_verified": true,
-  "last_funding_event": "2016–2021 (EU Horizon 2020)",
+  "last_funding_event": "2016\u20132021 (EU Horizon 2020)",
   "dependency_risks": [
     "PostgreSQL dependency",
     "small core developer team",
@@ -89,7 +89,7 @@
   "news_articles": [],
   "academic_citations": [],
   "awards": [
-    "SuMa Award 2011 (SuMa e.V. — Association for Free Access to Knowledge)"
+    "SuMa Award 2011 (SuMa e.V. \u2014 Association for Free Access to Knowledge)"
   ],
   "in_civictech_guide": true,
   "wikipedia_page": true,
@@ -138,14 +138,14 @@
     {
       "organisation": "Pirate Party Germany (national and state branches)",
       "use": "party conference motions and binding resolutions",
-      "years": "2010–present"
+      "years": "2010\u2013present"
     }
   ],
   "government_partnerships": [
     {
       "body": "European Commission",
       "description": "Horizon 2020 WeGovNow and CO3 projects",
-      "years": "2016–2021"
+      "years": "2016\u20132021"
     },
     {
       "body": "NIMD (Netherlands Institute for Multiparty Democracy)",
@@ -172,5 +172,7 @@
     "corporations",
     "cooperatives"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "consensus_mechanism": "liquid_democracy",
+  "consensus_mechanism_added_by": "project-a/alessandro-pedori"
 }

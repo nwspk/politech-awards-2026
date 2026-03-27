@@ -21,7 +21,7 @@
     "civic_data"
   ],
   "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
+    "SDG 16 \u2013 Peace, Justice and Strong Institutions"
   ],
   "decade_plus": false,
   "geography": "international",
@@ -70,7 +70,7 @@
       "doi": "https://doi.org/10.1063/1.436185"
     },
     {
-      "title": "Body Fatness and Cancer — Viewpoint of the IARC Working Group",
+      "title": "Body Fatness and Cancer \u2014 Viewpoint of the IARC Working Group",
       "year": 2016,
       "cited_by": 3416,
       "doi": "https://doi.org/10.1056/nejmsr1606602"
@@ -115,7 +115,7 @@
     "notes": "Provides civic data or journalism infrastructure"
   },
   "systemic_issue_area": "democratic participation access",
-  "generalizability_notes": "Moderately generalizable — already international but proprietary nature may limit independent replication.",
+  "generalizability_notes": "Moderately generalizable \u2014 already international but proprietary nature may limit independent replication.",
   "primary_users_or_beneficiaries": [
     "teams and organizations",
     "event organizers",
@@ -123,5 +123,7 @@
     "community leaders",
     "researchers"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "consensus_mechanism": "consensus_finding",
+  "consensus_mechanism_added_by": "project-a/alessandro-pedori"
 }

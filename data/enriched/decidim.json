@@ -72,7 +72,7 @@
   "news_articles": [],
   "academic_citations": [
     {
-      "citation": "Borge Bravo et al. (2022) — Democratic disruption or continuity?, American Behavioral Scientist",
+      "citation": "Borge Bravo et al. (2022) \u2014 Democratic disruption or continuity?, American Behavioral Scientist",
       "doi": "https://doi.org/10.1177/00027642221092798"
     }
   ],
@@ -88,12 +88,12 @@
       "year": 2017
     },
     {
-      "description": "European Commission citizen engagement platform for Conference on the Future of Europe (19 April 2021 – 9 May 2022)",
+      "description": "European Commission citizen engagement platform for Conference on the Future of Europe (19 April 2021 \u2013 9 May 2022)",
       "link": "https://citizens.ec.europa.eu/",
       "year": 2021
     },
     {
-      "description": "Brasil Participativo — nationwide federal participatory platform for Brazil",
+      "description": "Brasil Participativo \u2014 nationwide federal participatory platform for Brazil",
       "link": "https://brasilparticipativo.presidencia.gov.br/",
       "year": 2023
     },
@@ -121,7 +121,7 @@
   ],
   "governance_model": "cooperative",
   "curation_criteria": "Decidim Social Contract defines values, free software licences, transparency, equality, data privacy",
-  "contributor_governance": "Metadecidim community — open community of developers, activists, consultancies, researchers and municipal staff; Decidim Free Software Association (formal governance, established 2019)",
+  "contributor_governance": "Metadecidim community \u2014 open community of developers, activists, consultancies, researchers and municipal staff; Decidim Free Software Association (formal governance, established 2019)",
   "disparity_tracking": true,
   "community_ownership": "Decidim Free Software Association (democratic governance)",
   "controversies": [],
@@ -150,7 +150,7 @@
       "year": null
     },
     {
-      "name": "Government of Brazil (Presidência)",
+      "name": "Government of Brazil (Presid\u00eancia)",
       "type": "deployment",
       "year": 2023
     }
@@ -184,5 +184,7 @@
     "NGOs",
     "trade unions"
   ],
-  "underdog_signal": false
+  "underdog_signal": false,
+  "consensus_mechanism": "majority_vote + participatory_budgeting",
+  "consensus_mechanism_added_by": "project-a/alessandro-pedori"
 }

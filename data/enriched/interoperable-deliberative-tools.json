@@ -21,7 +21,7 @@
     "govtech"
   ],
   "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
+    "SDG 16 \u2013 Peace, Justice and Strong Institutions"
   ],
   "decade_plus": false,
   "geography": "international",
@@ -86,5 +86,7 @@
     "cooperative governance participants",
     "civic assembly organizers"
   ],
-  "underdog_signal": false
+  "underdog_signal": false,
+  "consensus_mechanism": "consensus_finding",
+  "consensus_mechanism_added_by": "project-a/alessandro-pedori"
 }

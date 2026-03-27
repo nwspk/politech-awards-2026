@@ -21,7 +21,7 @@
     "civic_data"
   ],
   "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
+    "SDG 16 \u2013 Peace, Justice and Strong Institutions"
   ],
   "decade_plus": false,
   "geography": "international",
@@ -76,5 +76,7 @@
     "citizens seeking to participate in local democratic processes",
     "policymakers and legislative staff"
   ],
-  "underdog_signal": false
+  "underdog_signal": false,
+  "consensus_mechanism": "pairwise_comparison",
+  "consensus_mechanism_added_by": "project-a/alessandro-pedori"
 }
