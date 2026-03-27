@@ -1,0 +1,10 @@
+{
+  "fellow": "Jamie Coombes",
+  "model": "meta-llama/llama-3-70b-instruct",
+  "run": 1,
+  "timestamp": "2026-03-27T00:09:00Z",
+  "system_prompt": "Same as Claude runs",
+  "user_prompt": "Projects: [20-project shortlist — same as Claude runs]",
+  "raw_response": "My winner is deliberAIde (project 5). I chose deliberAIde because it aligns strongly with my values in political technology work, particularly in promoting AI safety through interpretability, responsible government AI, and participatory AI design. deliberAIde's open-source civic deliberation tool is designed to make AI-facilitated conversation interpretable and human-directed, ensuring that AI systems are understandable, auditable, and aligned with human intentions. By prioritizing human-centered AI design and transparency, deliberAIde mitigates systemic AI risk and supports genuine community input in AI development, making it an exemplary project in the realm of civic/political technology.",
+  "parsed_winner": "deliberAIde"
+}

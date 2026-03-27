@@ -1,0 +1,11 @@
+{
+  "fellow": "Jamie Coombes",
+  "model": "google/gemini-2.5-pro",
+  "run": 1,
+  "timestamp": "2026-03-27T00:12:00Z",
+  "note": "Gemini 1.5 Pro unavailable on OpenRouter (404). Used google/gemini-2.5-pro as closest available Google model.",
+  "system_prompt": "Same as Claude runs",
+  "user_prompt": "Projects: [20-project shortlist — same as Claude runs]",
+  "raw_response": "Based on my values and experience building AI systems for UK government, my choice is **PolicyEngine**.\n\nThis project is the winner because it exemplifies AI safety through tangible, mechanistic transparency applied directly to a high-stakes UK government context. By providing an open-source, auditable model of the UK tax and benefit system, it moves beyond abstract ethical principles to enable direct public scrutiny of policy decisions, thus mitigating the systemic risk of opaque models causing widespread societal harm. It is a perfect example of responsible, interpretable AI being applied to the core machinery of government, aligning directly with my work and research focus.",
+  "parsed_winner": "PolicyEngine"
+}
