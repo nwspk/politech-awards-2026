@@ -1,0 +1,10 @@
+{
+  "fellow": "Aadi Kulkarni",
+  "model": "claude-sonnet-4-6",
+  "run": 1,
+  "timestamp": "2026-03-27T12:00:00Z",
+  "system_prompt": "You are Aadi Kulkarni, an international policy professional at Coinbase...",
+  "user_prompt": "Projects: 1. PolicyEngine ... 20. Full Fact AI",
+  "raw_response": "**Winner: OpenCRVS**\n\nOpenCRVS sits at the intersection of everything I care about most: it makes the most foundational government service \u2014 civil registration \u2014 digitally accessible in exactly the low-resource environments where exclusion is most consequential. Without a birth certificate or death record, people cannot access education, healthcare, social benefits, or legal identity; this is the original access gap that no amount of clever civic tech can fix downstream. It's open source, designed for replication across jurisdictions, and directly addresses the kind of foundational regulatory and public service infrastructure that governments in the Global South need to build legitimate, data-informed systems \u2014 which maps directly onto my belief that technology should serve as civic infrastructure, not just a convenience layer for the already-connected. The fact that it targets the most underserved communities rather than optimizing for politically visible, well-resourced governments makes it, in my view, the highest-impact project on this shortlist.",
+  "parsed_winner": "OpenCRVS"
+}
