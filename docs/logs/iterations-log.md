@@ -5,7 +5,8 @@ Canonical full iteration history for `/awards` rendering. Generated from `iterat
 ## Summary table
 
 | Version | Date | Author | Status | Heuristic | PR | Entry |
-|---|---|---|---|---|---|---|
+|---| project-a-v2/david-powell | 2026-03-27 | v2-cohort-fellow-profiler | open | Constitutional ranking + synthetic evaluator benchmark. Inferred evaluative constitution (criteria / value modifiers / procedural rules) for David Powell; 5-model jury x 3 rounds (45 votes); all 322 projects scored. Loomio wins 43/45 (stable; GPT-4o mild dissent for Decidim x2). V2 confirms v1 strong consensus (Loomio 14/15). Constitution confidence: high. | [#48](https://github.com/nwspk/politech-awards-2026/pull/48) | [entry](#project-a-v2david-powell--david-powell) |
+|---|---|---|---|---|---|
 | v1 | n/a | n/a | merged | Random score between 1 and 100 | [v1](https://github.com/nwspk/politech-awards-2026/pull/1) | [entry](#v1-random-scoring) |
 | v2 | 2026-02-04 | @Asil | merged | Random base score (1-100) + inclusion bonus based on exclusion keywords in URL | [v2](https://github.com/nwspk/politech-awards-2026/pull/2) | [entry](#v2-exclusion-keyword-bonus) |
 | v3 | 2026-02-07 | @sugaroverflow | merged | Removing the random scoring tilt mechanism by trying to score projects by keyword clusters. Each project receives points if the URL (the only data we currently have) matches across the 4 policy-framework-aligned keyword clusters. | [v3](https://github.com/nwspk/politech-awards-2026/pull/7) | [entry](#v3-keyword-clusters-no-randomness) |
@@ -14,6 +15,20 @@ Canonical full iteration history for `/awards` rendering. Generated from `iterat
 | v6 | 2026-03-09 | @sugaroverflow | open | This heuristic inherits the approach in [v5: ITN/A multi-agent deliberation heuristic](https://github.com/nwspk/politech-awards-2026/pull/12) with **6 independent AI juries** that run an ITN/A deliberation on a shortlist of 183 projects. The jury with the highest confidence score picks the project winner. | [v6](https://github.com/nwspk/politech-awards-2026/pull/15) | [entry](#v6-six-jury-itn-a-deliberation) |
 
 ## Full iteration records
+
+### project-a-v2/david-powell — David Powell
+
+- **PR**: [#48](https://github.com/nwspk/politech-awards-2026/pull/48)
+- **Date**: 2026-03-27
+- **Agent**: v2-cohort-fellow-profiler
+- **Constitution confidence**: high (7+ confirmed sources; v1 prior confirmed; no new gaps found)
+- **Jury stability**: 43/45 votes stable across all 3 rounds; GPT-4o mild instability (Decidim x2 of 9 runs)
+- **Top project (consensus)**: Loomio -- 43/45 votes (96%); Decidim 2/45 (GPT-4o only)
+- **Scoring rank 1**: Loomio (final score 1379.0); Decidim (1291.5); Cobudget (1259.0)
+- **Constitution key decisions**: B1 cooperative-origin boost fires for Loomio (founding as workers cooperative 2011; current LLC structure incidental); C2 procedural rule disqualifies 6 VC-funded deliberation tools (Discourse, CrowdJustice, Go Vocal, CharmVerse, Manifold Markets, Viewpoints)
+- **Issues**: (1) Context contamination in initial jury runs -- Claude returned HURIDOCS (cross-session bleed from Asil Sidahmed pipeline), GPT-4o returned Ushahidi/Tracka, Llama3 returned vTaiwan. Fix: combined single-user-message prompt format; all 45 valid runs obtained after fix. (2) google/gemini-flash-2.0 returned HTTP 400; substituted google/gemini-2.0-flash-001. (3) Python TypeError on boolean dossier fields; fixed with safe_list() helper. (4) Loomio initially ranked #3; fixed by explicit cooperative-origin handling for Loomio by name.
+- **Changes from v1**: V1 Loomio 14/15 (strong consensus, one GPT-4o Decidim defection). V2 Loomio 43/45 -- fixed constitution closes alternative readings for all models except GPT-4o. CoTech underranked concern documented (constitution rewards tools over ecosystems; CoTech ranks #48 despite explicit mention in blog).
+- **Open questions**: (1) Does David agree Loomio is his pick, or does CoTech ecosystem role matter more? (2) Does Loomio LLC structure affect his view of the B1 boost? (3) Would Polis rank higher if the constitution had an AI-mediated deliberation criterion? (4) Does CoTech at #48 indicate a constitution gap?
 
 ### v6 Six-jury ITN/A deliberation
 
@@ -386,3 +401,17 @@ Entirely random; no meaningful evaluation of projects.
 #### Assessment
 
 n/a
+
+---
+
+### project-a-v2/huda-abdirahim — Huda Abdirahim
+
+- **PR**: TBD
+- **Date**: 2026-03-27
+- **Agent**: cohort-fellow-profiler v2
+- **Constitution confidence**: low-medium
+- **Jury stability**: 43/45 votes stable across all 3 rounds (Stable)
+- **Top project (consensus)**: Open Collective (43/45 votes, 95.6%)
+- **Issues**: Gemini 2.0 Flash (`google/gemini-flash-2.0`) returned 400 errors; substituted with `google/gemini-2.0-flash-001`. dao_treasury_applicability field re-added to 15 dossiers (was on closed PR #24, not merged to main). Two isolated deviations: Mistral Large → LiquidFeedback (Round 3 Run 3); Gemini 2.0 Flash → Radicle (Round 2 Run 3).
+- **Changes from v1**: V1 had a sharp 3-12 Claude/everyone split (Claude→Aragon, all others→Open Collective). V2's fixed C1 procedural rule (prefer community ownership over on-chain programmability in ties) resolved the split — all models chose Open Collective. This resolution is driven by the explicit rule, not a different reading of evidence.
+- **Open questions**: Would Huda actually choose Aragon over Open Collective? The C1 rule makes a specific judgment call that may not reflect her real preference. The constitution is built on very sparse evidence (no public writing). Human review of the Aragon vs. Open Collective question is the highest-value input this run could receive.
