@@ -67,26 +67,26 @@ Longlist of ~40 filtered to top 20 against criteria. Projects scored on: tech ed
 
 | Rank | Project | Score rationale |
 |---|---|---|
-| 1 | OpenCRVS | Open-source civil registration for every person; deployed in 8 countries in Global South; ensures displaced and stateless people have legal identity — the most upstream form of civic exclusion addressed at scale |
-| 2 | Humble Data Workshop | Free data Python/data science workshops for underrepresented groups; volunteer-run; deployed in Greece, UK, Nigeria and globally; directly mirrors his refugee education work; exceptional capacity-building orientation |
-| 3 | Ushahidi | Open-source crisis mapping/crowdsourcing; 200,000+ deployments; 25M people reached; empowers communities to report and respond; strong humanitarian applicability |
-| 4 | Martus | Free, open-source secure information management for human rights activists; 40+ countries; explicitly for low-resource contexts; protects the most excluded people doing the most dangerous work |
-| 5 | Humanitarian Data Exchange (HDX) | Open humanitarian data platform; 1,000+ organisations; enables coordination for displaced communities at scale; UN-backed but open access |
-| 6 | ODK (Open Data Kit) | Open-source mobile data collection; works without reliable connectivity; widely used in humanitarian/global development; enables field data collection where it matters most |
-| 7 | Security First / Umbrella | Free, open-source digital security app for human rights workers and activists; protects people who can't afford paid tools; humanitarian applicability is direct |
-| 8 | Decidim | Open-source participatory democracy platform; used by cities across Europe and globally; accessible to civil society without building their own infrastructure |
-| 9 | WhatDoTheyKnow | UK's most-used FOI tool; makes government accountability accessible to ordinary citizens; free; very low technical barrier |
-| 10 | Alaveteli | Open-source FOI platform enabling 25+ countries to build accountability infrastructure; capacity-building for civic access to information |
-| 11 | CiviCRM | Free, open-source CRM for civil society organisations; reduces tech barriers for community groups operating on no budget |
-| 12 | PlaceCal | Community calendar for civic life; built in Haringey (where Chris lives); designed with community groups, not for them; grassroots governance |
-| 13 | Teaching Public Service in the Digital Age | Open-access syllabus for public servants; 75 universities in 30 countries; builds government capacity for digital service delivery |
-| 14 | Polis | Open-source AI deliberation; large-scale public consultation; used in Taiwan's vTaiwan; accessible to communities and governments alike |
-| 15 | FixMyStreet | Open-source civic reporting; accessible to ordinary citizens; 1-click government accountability |
-| 16 | Open Referral UK | Open data standard for community services; helps people find civic support; built for local government and community sector |
-| 17 | Turbo Phonebank | Free campaign tool; Google Sheets to phonebank; zero technical barrier; community-deployable |
-| 18 | Diia | Ukraine's digital government app; dignified, accessible government services on a phone; shows what inclusive government tech looks like |
-| 19 | Remember To Vote | Simple voter activation; reaches people who don't normally engage; accessible civic action |
-| 20 | Dogooder | Digital advocacy for grassroots community organisations; designed for non-professional community campaigners |
+| 1 | [OpenCRVS](https://www.opencrvs.org) | Open-source civil registration for every person; deployed in 8 countries in Global South; ensures displaced and stateless people have legal identity — the most upstream form of civic exclusion addressed at scale |
+| 2 | [Humble Data Workshop](https://humbledata.org) | Free data Python/data science workshops for underrepresented groups; volunteer-run; deployed in Greece, UK, Nigeria and globally; directly mirrors his refugee education work; exceptional capacity-building orientation |
+| 3 | [Ushahidi](https://www.ushahidi.com) | Open-source crisis mapping/crowdsourcing; 200,000+ deployments; 25M people reached; empowers communities to report and respond; strong humanitarian applicability |
+| 4 | [Martus](https://www.martus.org) | Free, open-source secure information management for human rights activists; 40+ countries; explicitly for low-resource contexts; protects the most excluded people doing the most dangerous work |
+| 5 | [Humanitarian Data Exchange (HDX)](https://data.humdata.org) | Open humanitarian data platform; 1,000+ organisations; enables coordination for displaced communities at scale; UN-backed but open access |
+| 6 | [ODK (Open Data Kit)](https://getodk.org) | Open-source mobile data collection; works without reliable connectivity; widely used in humanitarian/global development; enables field data collection where it matters most |
+| 7 | [Security First / Umbrella](https://secfirst.org) | Free, open-source digital security app for human rights workers and activists; protects people who can't afford paid tools; humanitarian applicability is direct |
+| 8 | [Decidim](https://decidim.org) | Open-source participatory democracy platform; used by cities across Europe and globally; accessible to civil society without building their own infrastructure |
+| 9 | [WhatDoTheyKnow](https://www.whatdotheyknow.com) | UK's most-used FOI tool; makes government accountability accessible to ordinary citizens; free; very low technical barrier |
+| 10 | [Alaveteli](https://alaveteli.org) | Open-source FOI platform enabling 25+ countries to build accountability infrastructure; capacity-building for civic access to information |
+| 11 | [CiviCRM](https://civicrm.org) | Free, open-source CRM for civil society organisations; reduces tech barriers for community groups operating on no budget |
+| 12 | [PlaceCal](https://github.com/geeksforsocialchange/placecal) | Community calendar for civic life; built in Haringey (where Chris lives); designed with community groups, not for them; grassroots governance |
+| 13 | [Teaching Public Service in the Digital Age](https://www.teachingpublicservice.digital) | Open-access syllabus for public servants; 75 universities in 30 countries; builds government capacity for digital service delivery |
+| 14 | [Polis](https://github.com/compdemocracy/polis) | Open-source AI deliberation; large-scale public consultation; used in Taiwan's vTaiwan; accessible to communities and governments alike |
+| 15 | [FixMyStreet](https://www.fixmystreet.com) | Open-source civic reporting; accessible to ordinary citizens; 1-click government accountability |
+| 16 | [Open Referral UK](https://openreferraluk.org) | Open data standard for community services; helps people find civic support; built for local government and community sector |
+| 17 | [Turbo Phonebank](https://turbophonebank.com) | Free campaign tool; Google Sheets to phonebank; zero technical barrier; community-deployable |
+| 18 | [Diia](https://expo.diia.gov.ua) | Ukraine's digital government app; dignified, accessible government services on a phone; shows what inclusive government tech looks like |
+| 19 | [Remember To Vote](https://remembertovote.org.uk) | Simple voter activation; reaches people who don't normally engage; accessible civic action |
+| 20 | [Dogooder](https://dogooder.co) | Digital advocacy for grassroots community organisations; designed for non-professional community campaigners |
 
 ## Proposed winner (primary run)
 
