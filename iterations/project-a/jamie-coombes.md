@@ -58,26 +58,26 @@ He'd be sceptical of AI projects that claim public benefit but have no interpret
 
 | Rank | Project | Why it fits |
 |---|---|---|
-| 1 | AlgorithmWatch | Direct peer to his work: fights algorithmic accountability failures in government and civic contexts; rigorous methodology |
-| 2 | Principles for Public Participation in Procurement of AI | Framework for how governments procure AI with community input — directly relevant to his government AI work |
-| 3 | Framework for Meaningful Engagement 2.0 | Practical co-design guidance for AI development; participatory AI with rights-based foundation |
-| 4 | Full Fact AI | AI-powered fact-checking with transparent methodology; responsible AI for public information |
-| 5 | Deliberaide | Human-centred AI for dialogue — interpretable AI in civic deliberation |
-| 6 | DeepSeek V3 | Open-weights frontier model; open infrastructure for AI research and safety work |
-| 7 | Polis | Open deliberation platform; AI used transparently for public consultation — interpretable outputs |
-| 8 | Talk to the City | LLM-based qualitative sensemaking with visible reasoning; human-centred AI design |
-| 9 | Responsible Tech Guide 2025 | Comprehensive guide to responsible tech ecosystem; community building for ethical AI |
-| 10 | Local Intelligence Hub | Government-adjacent open data tool; responsible data infrastructure |
-| 11 | GovWise | AI procurement automation for public sector; sits in his exact professional domain |
-| 12 | PolicyEngine | Open-source policy simulation; transparent AI modelling for public decisions |
-| 13 | Metaculus | Calibrated forecasting platform; structured epistemic accountability |
-| 14 | GRIM Global Risk Simulator | AI-driven systemic risk scenario modelling; tail risk awareness |
-| 15 | Prolific | High-quality behavioural research data platform; enables responsible AI research |
-| 16 | Public AI Inference Utility | Public infrastructure for AI inference — reduces private dependency for civic applications |
-| 17 | Open Standards for Data Guidebook | Data standards infrastructure for government; responsible AI enabler |
-| 18 | Diia | Ukraine's digital government ecosystem; shows what responsible government AI can look like at scale |
-| 19 | Securedrop | Secure, privacy-preserving communication for sensitive public-interest work |
-| 20 | Guardian Project | Privacy and security tools for journalists and civil society; responsible tech for sensitive contexts |
+| 1 | [AlgorithmWatch](https://algorithmwatch.org) | Direct peer to his work: fights algorithmic accountability failures in government and civic contexts; rigorous methodology |
+| 2 | [Principles for Public Participation in Procurement of AI](https://p4ai.net) | Framework for how governments procure AI with community input — directly relevant to his government AI work |
+| 3 | [Framework for Meaningful Engagement 2.0](https://ecnl.org/publications/framework-meaningful-engagement-20?mc_cid=b1c5158063&mc_eid=a09c64ec38) | Practical co-design guidance for AI development; participatory AI with rights-based foundation |
+| 4 | [Full Fact AI](https://fullfact.org/ai) | AI-powered fact-checking with transparent methodology; responsible AI for public information |
+| 5 | [Deliberaide](https://www.deliberaide.com) | Human-centred AI for dialogue — interpretable AI in civic deliberation |
+| 6 | [DeepSeek V3](https://github.com/deepseek-ai/deepseek-v3) | Open-weights frontier model; open infrastructure for AI research and safety work |
+| 7 | [Polis](https://github.com/compdemocracy/polis) | Open deliberation platform; AI used transparently for public consultation — interpretable outputs |
+| 8 | [Talk to the City](https://talktothecity.org) | LLM-based qualitative sensemaking with visible reasoning; human-centred AI design |
+| 9 | [Responsible Tech Guide 2025](https://alltechishuman.org/responsible-tech-guide-2025) | Comprehensive guide to responsible tech ecosystem; community building for ethical AI |
+| 10 | [Local Intelligence Hub](https://www.localintelligencehub.com) | Government-adjacent open data tool; responsible data infrastructure |
+| 11 | [GovWise](https://www.govwise.ai/en) | AI procurement automation for public sector; sits in his exact professional domain |
+| 12 | [PolicyEngine](https://policyengine.org/uk) | Open-source policy simulation; transparent AI modelling for public decisions |
+| 13 | [Metaculus](https://metaculus.com) | Calibrated forecasting platform; structured epistemic accountability |
+| 14 | [GRIM Global Risk Simulator](https://github.com/sentinelteam/grim) | AI-driven systemic risk scenario modelling; tail risk awareness |
+| 15 | [Prolific](https://www.prolific.com) | High-quality behavioural research data platform; enables responsible AI research |
+| 16 | [Public AI Inference Utility](https://publicai.co/) | Public infrastructure for AI inference — reduces private dependency for civic applications |
+| 17 | [Open Standards for Data Guidebook](https://standards.theodi.org) | Data standards infrastructure for government; responsible AI enabler |
+| 18 | [Diia](https://expo.diia.gov.ua) | Ukraine's digital government ecosystem; shows what responsible government AI can look like at scale |
+| 19 | [Securedrop](https://securedrop.org) | Secure, privacy-preserving communication for sensitive public-interest work |
+| 20 | [Guardian Project](https://guardianproject.info) | Privacy and security tools for journalists and civil society; responsible tech for sensitive contexts |
 
 ## Proposed winner
 
