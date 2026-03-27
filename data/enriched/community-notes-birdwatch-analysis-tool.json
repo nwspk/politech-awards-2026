@@ -143,5 +143,9 @@
     "fact-checkers",
     "platform accountability advocates"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "uncertainty_handling": {
+    "classification": "explicit",
+    "notes": "Bridges-building algorithm requires cross-partisan consensus rather than simple majority \u2014 it treats high disagreement as a signal of unreliability and withholds notes that lack cross-partisan support. Explicit acknowledgement that majority opinion is epistemically insufficient."
+  }
 }

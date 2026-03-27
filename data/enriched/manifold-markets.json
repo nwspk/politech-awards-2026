@@ -11,7 +11,7 @@
     "civic_data"
   ],
   "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
+    "SDG 16 \u2013 Peace, Justice and Strong Institutions"
   ],
   "decade_plus": false,
   "geography": "international",
@@ -118,5 +118,9 @@
     "forecasters",
     "traders"
   ],
-  "underdog_signal": false
+  "underdog_signal": false,
+  "uncertainty_handling": {
+    "classification": "explicit",
+    "notes": "All questions are expressed as probability distributions; resolution against real outcomes provides continuous calibration feedback. Market mechanism converts diverse epistemic uncertainty into probabilistic estimates rather than false binary answers."
+  }
 }

@@ -13,7 +13,7 @@
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "GRIM (Global Risk Simulator)",
-  "tagline": "AI Wargamer and Global Risk Simulator — a Telegram bot for simulating and role-playing global catastrophic risk scenarios",
+  "tagline": "AI Wargamer and Global Risk Simulator \u2014 a Telegram bot for simulating and role-playing global catastrophic risk scenarios",
   "project_type": "Tool/Platform",
   "org_type": "Nonprofit/charity",
   "issue_area": [
@@ -101,7 +101,7 @@
   "in_civictech_guide": false,
   "wikipedia_page": false,
   "causation_strength": "Unverified",
-  "outcome_methodology": "Not applicable — research/simulation tool without direct policy implementation",
+  "outcome_methodology": "Not applicable \u2014 research/simulation tool without direct policy implementation",
   "replication_materials_available": true,
   "documented_limitations": [
     "Realism limited by quality of LLM game-master outputs",
@@ -117,8 +117,8 @@
   "governance_model": "project_of_larger_org",
   "curation_criteria": "Open-source contribution model; pull requests reviewed by maintainers; focus on scenario quality and AI agent behavior",
   "contributor_governance": "Open pull requests and issues; maintainers offer onboarding for consistent contributors",
-  "disparity_tracking": "Not tracked — research tool without demographic user data collection",
-  "community_ownership": "Limited — maintained by Sentinel Team core team; community contributions welcome but governance remains centralized",
+  "disparity_tracking": "Not tracked \u2014 research tool without demographic user data collection",
+  "community_ownership": "Limited \u2014 maintained by Sentinel Team core team; community contributions welcome but governance remains centralized",
   "ai_involvement": "Core functionality: uses Claude Sonnet 3.7 and OpenAI models as Forecaster agents and Game Master; fully AI-driven scenario simulation",
   "pass2_at": "2026-03-09T23:21:30.732Z",
   "pass3_at": "2026-03-09T23:22:34.853Z",
@@ -141,5 +141,9 @@
     "foresight practitioners",
     "emergency response planners"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "uncertainty_handling": {
+    "classification": "explicit",
+    "notes": "Entire design premise is simulating non-linear, tail-risk scenarios. Uncertainty is the subject matter, not a bug to be minimised. Explicitly designed to surface what average-case models miss \u2014 catastrophic and black swan outcomes."
+  }
 }

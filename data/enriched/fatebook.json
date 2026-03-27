@@ -108,5 +108,9 @@
     "forecasters",
     "decision-makers"
   ],
-  "underdog_signal": false
+  "underdog_signal": false,
+  "uncertainty_handling": {
+    "classification": "explicit",
+    "notes": "Personal calibration tracking against resolved predictions is the entire point of the platform. Exposes individual overconfidence through structured accountability; epistemic humility is operationalised as a personal practice."
+  }
 }

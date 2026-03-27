@@ -22,9 +22,9 @@
     "advocacy_tech"
   ],
   "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions",
-    "SDG 1 – No Poverty",
-    "SDG 10 – Reduced Inequalities"
+    "SDG 16 \u2013 Peace, Justice and Strong Institutions",
+    "SDG 1 \u2013 No Poverty",
+    "SDG 10 \u2013 Reduced Inequalities"
   ],
   "decade_plus": false,
   "geography": "national",
@@ -131,5 +131,9 @@
     "advocacy organizations",
     "investigative journalists"
   ],
-  "underdog_signal": false
+  "underdog_signal": false,
+  "uncertainty_handling": {
+    "classification": "explicit",
+    "notes": "Open-source microsimulation with transparent model assumptions; documentation explicitly describes what the model does and does not cover. Uncertainty in policy outcomes is communicated via confidence intervals and scenario comparisons. Model code is auditable."
+  }
 }

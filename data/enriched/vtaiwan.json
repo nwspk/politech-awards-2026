@@ -7,7 +7,7 @@
     "homepage_word_count": 973,
     "homepage_has_team_page": true,
     "homepage_has_impact_metrics": false,
-    "scraped_description": "數位經濟法規線上諮詢系統 界面 3.0 - https://vtw.link/. Contribute to g0v/vue.vtaiwan.tw development by creating an account on GitHub.",
+    "scraped_description": "\u6578\u4f4d\u7d93\u6fdf\u6cd5\u898f\u7dda\u4e0a\u8aee\u8a62\u7cfb\u7d71 \u754c\u9762 3.0 - https://vtw.link/. Contribute to g0v/vue.vtaiwan.tw development by creating an account on GitHub.",
     "scraped_final_url": "https://github.com/g0v/vue.vtaiwan.tw"
   },
   "collected_at": "2026-03-09T20:00:00Z",
@@ -106,12 +106,16 @@
     "notes": "General tool/platform without direct movement-building function"
   },
   "systemic_issue_area": "civic technology and participation",
-  "generalizability_notes": "Good generalizability potential — open source allows adaptation to other jurisdictions, though localization would be needed.",
+  "generalizability_notes": "Good generalizability potential \u2014 open source allows adaptation to other jurisdictions, though localization would be needed.",
   "primary_users_or_beneficiaries": [
     "Taiwanese citizens",
     "government agencies",
     "civil society",
     "industry stakeholders"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "uncertainty_handling": {
+    "classification": "implicit",
+    "notes": "Uses Polis underneath, which carries explicit uncertainty handling. vTaiwan's own process documentation acknowledges that consensus is bounded and facilitation-dependent. However, the published process guidance does not formally document uncertainty quantification."
+  }
 }

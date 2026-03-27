@@ -133,5 +133,9 @@
     "psychologists",
     "students"
   ],
-  "underdog_signal": false
+  "underdog_signal": false,
+  "uncertainty_handling": {
+    "classification": "absent",
+    "notes": "oTree is a research platform; uncertainty handling is entirely researcher-dependent. The platform itself has no built-in uncertainty quantification or epistemic calibration \u2014 these would need to be designed into individual experiment protocols."
+  }
 }
