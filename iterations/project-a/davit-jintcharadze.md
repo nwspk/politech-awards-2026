@@ -60,24 +60,24 @@ Davit would be sceptical of technically impressive tools that only work in well-
 
 | Rank | Project | Why it fits |
 |---|---|---|
-| 1 | DISARM Frameworks | Directly addresses authoritarian disinformation tactics with a structured, empirically derived taxonomy; used by NATO and EU; open-source and replicable in new contexts |
-| 2 | Polis | Open-source opinion measurement tool that surfaces genuine public views at scale — precisely the cheap, reliable opinion measurement Davit wants to build; used in vTaiwan with documented policy impact |
-| 3 | Cybersecurity for Democracy | NYU-based research centre (resonates with his NYUAD background) exposing platform-enabled threats to democratic processes; policy-cited work on algorithmic manipulation |
-| 4 | Who Targets Me Trends | Direct empirical measurement of how digital political advertising targets populations — addresses the manipulation detection priority in 60+ countries including authoritarian-adjacent states |
-| 5 | HURIDOCS | Open-source human rights documentation tools deployed in Ukraine, Georgia, Turkey, and Mexico — exactly the hostile-context, low-resource applicability he values; used by activists at serious personal risk |
-| 6 | Bellingcat Online Investigation Toolkit | OSINT toolkit that has materially exposed authoritarian crimes (MH17, Navalny poisoning); directly supports empirical counter-authoritarian research with demonstrated real-world impact |
-| 7 | VFRAME | AI-powered computer vision for detecting illegal munitions in conflict zone videos — human rights documentation that scales; deployed in Syria and Ukraine; rigorous empirical methodology |
-| 8 | SecureDrop | Enables secure whistleblowing — protects sources in authoritarian or semi-authoritarian contexts; directly reduces personal risk for activists and journalists |
-| 9 | Ushahidi | Crowdsourcing platform for crisis documentation and election monitoring; deployed in 200,000+ instances including post-conflict Global South contexts where infrastructure is thin |
-| 10 | ОПОРА (Opora) | Ukrainian election monitoring organisation directly analogous to what Davit would build for Georgia: civic network for democratic integrity in a post-Soviet, Russian-pressure context |
-| 11 | Global Fact-Check Bot (GFC) | AI-powered multilingual fact-checking across 50+ languages — addresses disinformation in exactly the underserved linguistic contexts (Eastern European fact-checkers are founding members) |
-| 12 | Full Fact AI | Scalable fact-checking software adopted by 40+ organisations monitoring 12 national elections; directly counters the information manipulation Davit researches |
-| 13 | AlgorithmWatch | Rigorous NGO research into how algorithms undermine democracy and human rights — empirically grounded, policy-facing, directly relevant to authoritarian opinion engineering |
-| 14 | Talk to the City | AI-powered qualitative opinion analysis tool — closest existing project to Davit's stated goal of cheaply and reliably measuring public opinion; open-source, tested in deliberation contexts |
-| 15 | OpenSanctions | Open database of sanctions and politically exposed persons — supports accountability journalism and anti-corruption work; used by investigators targeting oligarchs (directly relevant to Georgian Dream's Ivanishvili context) |
-| 16 | GlobaLeaks | Open-source whistleblowing infrastructure deployed in 150+ countries including authoritarian-adjacent contexts; active maintenance, compliance with EU directive |
-| 17 | Aleph (OCCRP) | Investigative journalism database used to follow money through government records — directly applicable to exposing oligarchic capture of democratic institutions |
-| 18 | oTree | Open-source behavioural experiment platform used by academic researchers — enables the kind of empirical political psychology research Davit has published; low cost, replicable |
+| 1 | [DISARM Frameworks](https://github.com/disarmfoundation/disarmframeworks) | Directly addresses authoritarian disinformation tactics with a structured, empirically derived taxonomy; used by NATO and EU; open-source and replicable in new contexts |
+| 2 | [Polis](https://github.com/compdemocracy/polis) | Open-source opinion measurement tool that surfaces genuine public views at scale — precisely the cheap, reliable opinion measurement Davit wants to build; used in vTaiwan with documented policy impact |
+| 3 | [Cybersecurity for Democracy](https://cybersecurityfordemocracy.org) | NYU-based research centre (resonates with his NYUAD background) exposing platform-enabled threats to democratic processes; policy-cited work on algorithmic manipulation |
+| 4 | [Who Targets Me Trends](https://trends.whotargets.me) | Direct empirical measurement of how digital political advertising targets populations — addresses the manipulation detection priority in 60+ countries including authoritarian-adjacent states |
+| 5 | [HURIDOCS](https://github.com/huridocs) | Open-source human rights documentation tools deployed in Ukraine, Georgia, Turkey, and Mexico — exactly the hostile-context, low-resource applicability he values; used by activists at serious personal risk |
+| 6 | [Bellingcat Online Investigation Toolkit](https://bellingcat.gitbook.io/toolkit) | OSINT toolkit that has materially exposed authoritarian crimes (MH17, Navalny poisoning); directly supports empirical counter-authoritarian research with demonstrated real-world impact |
+| 7 | [VFRAME](https://vframe.io) | AI-powered computer vision for detecting illegal munitions in conflict zone videos — human rights documentation that scales; deployed in Syria and Ukraine; rigorous empirical methodology |
+| 8 | [SecureDrop](https://securedrop.org) | Enables secure whistleblowing — protects sources in authoritarian or semi-authoritarian contexts; directly reduces personal risk for activists and journalists |
+| 9 | [Ushahidi](https://www.ushahidi.com) | Crowdsourcing platform for crisis documentation and election monitoring; deployed in 200,000+ instances including post-conflict Global South contexts where infrastructure is thin |
+| 10 | [ОПОРА (Opora)](https://www.oporaua.org) | Ukrainian election monitoring organisation directly analogous to what Davit would build for Georgia: civic network for democratic integrity in a post-Soviet, Russian-pressure context |
+| 11 | [Global Fact-Check Bot (GFC)](https://globalfactcheck.bot/) | AI-powered multilingual fact-checking across 50+ languages — addresses disinformation in exactly the underserved linguistic contexts (Eastern European fact-checkers are founding members) |
+| 12 | [Full Fact AI](https://fullfact.org/ai) | Scalable fact-checking software adopted by 40+ organisations monitoring 12 national elections; directly counters the information manipulation Davit researches |
+| 13 | [AlgorithmWatch](https://algorithmwatch.org) | Rigorous NGO research into how algorithms undermine democracy and human rights — empirically grounded, policy-facing, directly relevant to authoritarian opinion engineering |
+| 14 | [Talk to the City](https://talktothecity.org) | AI-powered qualitative opinion analysis tool — closest existing project to Davit's stated goal of cheaply and reliably measuring public opinion; open-source, tested in deliberation contexts |
+| 15 | [OpenSanctions](https://www.opensanctions.org) | Open database of sanctions and politically exposed persons — supports accountability journalism and anti-corruption work; used by investigators targeting oligarchs (directly relevant to Georgian Dream's Ivanishvili context) |
+| 16 | [GlobaLeaks](https://www.globaleaks.org) | Open-source whistleblowing infrastructure deployed in 150+ countries including authoritarian-adjacent contexts; active maintenance, compliance with EU directive |
+| 17 | [Aleph (OCCRP)](https://aleph.occrp.org) | Investigative journalism database used to follow money through government records — directly applicable to exposing oligarchic capture of democratic institutions |
+| 18 | [oTree](https://www.otree.org) | Open-source behavioural experiment platform used by academic researchers — enables the kind of empirical political psychology research Davit has published; low cost, replicable |
 
 ## Proposed winner
 
