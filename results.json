@@ -1,30 +1,462 @@
 [
   {
-    "url": "https://algorithmwatch.org",
-    "score": 97
-  },
-  {
-    "url": "https://bellingcat.gitbook.io/toolkit",
-    "score": 94
-  },
-  {
-    "url": "https://creativecommons.org",
-    "score": 83
-  },
-  {
     "url": "https://blog.kagi.com/slopstop",
-    "score": 68
-  },
-  {
-    "url": "https://adhocracy.plus",
-    "score": 20
-  },
-  {
-    "url": "https://aleph.occrp.org",
-    "score": 20
+    "score": 99
   },
   {
     "url": "https://bonfirenetworks.org/",
+    "score": 97
+  },
+  {
+    "url": "https://github.com/blacksky-algorithms/rsky",
+    "score": 97
+  },
+  {
+    "url": "https://www.workerinfoexchange.org",
+    "score": 93
+  },
+  {
+    "url": "https://github.com/cavi-au/consent-o-matic",
+    "score": 89
+  },
+  {
+    "url": "https://antievictionmappingproject.github.io/landlordtech",
+    "score": 85
+  },
+  {
+    "url": "https://radicle.xyz",
+    "score": 81
+  },
+  {
+    "url": "https://datacollective.mozillafoundation.org/",
+    "score": 78
+  },
+  {
+    "url": "https://murmurations.network",
+    "score": 73
+  },
+  {
+    "url": "https://annas-archive.pm",
+    "score": 72
+  },
+  {
+    "url": "https://newpublic.substack.com/p/introducing-roundabout-built-for",
+    "score": 71
+  },
+  {
+    "url": "https://github.com/compdemocracy/polis",
+    "score": 70
+  },
+  {
+    "url": "https://metagov.org/projects/interop",
+    "score": 70
+  },
+  {
+    "url": "https://github.com/mastodon/mastodon",
+    "score": 68
+  },
+  {
+    "url": "https://github.com/travisbrown/birdwatch",
+    "score": 67
+  },
+  {
+    "url": "https://openheartmind.org",
+    "score": 67
+  },
+  {
+    "url": "https://publicai.co/",
+    "score": 65
+  },
+  {
+    "url": "https://github.com/datakind/data-observation-toolkit",
+    "score": 62
+  },
+  {
+    "url": "https://datatrusts.uk",
+    "score": 61
+  },
+  {
+    "url": "https://matrix.org",
+    "score": 60
+  },
+  {
+    "url": "https://github.com/whotargetsme/ad-transparency-standards/blob/main/implement.md",
+    "score": 59
+  },
+  {
+    "url": "https://gordonguthrie.github.io/frankensteinbill",
+    "score": 58
+  },
+  {
+    "url": "https://guardianproject.info",
+    "score": 57
+  },
+  {
+    "url": "https://decidim.org",
+    "score": 52
+  },
+  {
+    "url": "https://github.com/g0v/vue.vtaiwan.tw",
+    "score": 52
+  },
+  {
+    "url": "https://openprocurement.io",
+    "score": 52
+  },
+  {
+    "url": "https://docs.holepunch.to",
+    "score": 51
+  },
+  {
+    "url": "https://littlesis.org",
+    "score": 51
+  },
+  {
+    "url": "https://climateaction.tech",
+    "score": 50
+  },
+  {
+    "url": "https://osintframework.com",
+    "score": 50
+  },
+  {
+    "url": "https://bellingcat.gitbook.io/toolkit",
+    "score": 48
+  },
+  {
+    "url": "https://plausible.io",
+    "score": 48
+  },
+  {
+    "url": "https://cobudget.com",
+    "score": 47
+  },
+  {
+    "url": "https://ecnl.org/publications/framework-meaningful-engagement-20?mc_cid=b1c5158063&mc_eid=a09c64ec38",
+    "score": 46
+  },
+  {
+    "url": "https://oa.works/",
+    "score": 46
+  },
+  {
+    "url": "https://adhocracy.plus",
+    "score": 45
+  },
+  {
+    "url": "https://aleph.occrp.org",
+    "score": 45
+  },
+  {
+    "url": "https://arxiv.org/abs/2005.13701",
+    "score": 45
+  },
+  {
+    "url": "https://commonslibrary.org",
+    "score": 45
+  },
+  {
+    "url": "https://communityrule.info",
+    "score": 45
+  },
+  {
+    "url": "https://constituteproject.org",
+    "score": 45
+  },
+  {
+    "url": "https://contractsfordatacollaboration.org",
+    "score": 45
+  },
+  {
+    "url": "https://coops.tech",
+    "score": 45
+  },
+  {
+    "url": "https://cotsi.org/",
+    "score": 45
+  },
+  {
+    "url": "https://creativecommons.org",
+    "score": 45
+  },
+  {
+    "url": "https://data.mysociety.org",
+    "score": 45
+  },
+  {
+    "url": "https://developers.democracyclub.org.uk/api/v1",
+    "score": 45
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/wikipedia:in_the_news",
+    "score": 45
+  },
+  {
+    "url": "https://expo.diia.gov.ua",
+    "score": 45
+  },
+  {
+    "url": "https://fairbnb.coop",
+    "score": 45
+  },
+  {
+    "url": "https://fixmyblock.org",
+    "score": 45
+  },
+  {
+    "url": "https://github.com/bluesky-social",
+    "score": 45
+  },
+  {
+    "url": "https://github.com/huridocs",
+    "score": 45
+  },
+  {
+    "url": "https://github.com/kazad/pastecal",
+    "score": 45
+  },
+  {
+    "url": "https://github.com/tulir/whatsmeow",
+    "score": 45
+  },
+  {
+    "url": "https://github.com/ytdl-org/youtube-dl",
+    "score": 45
+  },
+  {
+    "url": "https://globalfactcheck.bot/",
+    "score": 45
+  },
+  {
+    "url": "https://grantnav.threesixtygiving.org",
+    "score": 45
+  },
+  {
+    "url": "https://hact.org.uk/tools-and-services/uk-housing-data-standards",
+    "score": 45
+  },
+  {
+    "url": "https://humbledata.org",
+    "score": 45
+  },
+  {
+    "url": "https://joss.theoj.org",
+    "score": 45
+  },
+  {
+    "url": "https://landexplorer.coop",
+    "score": 45
+  },
+  {
+    "url": "https://library.theengineroom.org",
+    "score": 45
+  },
+  {
+    "url": "https://liquidfeedback.com",
+    "score": 45
+  },
+  {
+    "url": "https://nyaaya.org",
+    "score": 45
+  },
+  {
+    "url": "https://nymtech.net",
+    "score": 45
+  },
+  {
+    "url": "https://okfn.org/en/projects/open-data-editor/",
+    "score": 45
+  },
+  {
+    "url": "https://opendigitalplanning.org/",
+    "score": 45
+  },
+  {
+    "url": "https://openreferraluk.org",
+    "score": 45
+  },
+  {
+    "url": "https://opensupplyhub.org",
+    "score": 45
+  },
+  {
+    "url": "https://osf.io",
+    "score": 45
+  },
+  {
+    "url": "https://parti.xyz",
+    "score": 45
+  },
+  {
+    "url": "https://participedia.net",
+    "score": 45
+  },
+  {
+    "url": "https://remembertovote.org.uk",
+    "score": 45
+  },
+  {
+    "url": "https://riseup.net",
+    "score": 45
+  },
+  {
+    "url": "https://snowdrift.coop",
+    "score": 45
+  },
+  {
+    "url": "https://sourceafrica.net",
+    "score": 45
+  },
+  {
+    "url": "https://spacetu.be",
+    "score": 45
+  },
+  {
+    "url": "https://strikemap.org",
+    "score": 45
+  },
+  {
+    "url": "https://talktothecity.org",
+    "score": 45
+  },
+  {
+    "url": "https://the-list.uk",
+    "score": 45
+  },
+  {
+    "url": "https://turkopticon.ucsd.edu",
+    "score": 45
+  },
+  {
+    "url": "https://www.demnext.org/projects/delibtech-network",
+    "score": 45
+  },
+  {
+    "url": "https://www.globaleaks.org",
+    "score": 45
+  },
+  {
+    "url": "https://www.meet.coop",
+    "score": 45
+  },
+  {
+    "url": "https://www.mysociety.org/climate/neighbourhood-warmth",
+    "score": 45
+  },
+  {
+    "url": "https://www.opencrvs.org",
+    "score": 45
+  },
+  {
+    "url": "https://www.whatdotheyknow.com",
+    "score": 45
+  },
+  {
+    "url": "https://policyengine.org/uk",
+    "score": 44
+  },
+  {
+    "url": "https://algorithmwatch.org",
+    "score": 43
+  },
+  {
+    "url": "https://github.com/bellingcat/edgar",
+    "score": 43
+  },
+  {
+    "url": "https://privacybadger.org",
+    "score": 43
+  },
+  {
+    "url": "https://shareyourpaper.org",
+    "score": 42
+  },
+  {
+    "url": "https://activisthandbook.org/",
+    "score": 41
+  },
+  {
+    "url": "https://securedrop.org",
+    "score": 41
+  },
+  {
+    "url": "https://www.organise.org.uk",
+    "score": 41
+  },
+  {
+    "url": "https://alaveteli.org",
+    "score": 40
+  },
+  {
+    "url": "https://secfirst.org",
+    "score": 40
+  },
+  {
+    "url": "https://www.wikidata.org",
+    "score": 40
+  },
+  {
+    "url": "https://www.torproject.org",
+    "score": 39
+  },
+  {
+    "url": "https://atlasofsurveillance.org",
+    "score": 38
+  },
+  {
+    "url": "https://p4ai.net",
+    "score": 37
+  },
+  {
+    "url": "https://unpaywall.org/products/extension",
+    "score": 36
+  },
+  {
+    "url": "https://vframe.io",
+    "score": 36
+  },
+  {
+    "url": "https://www.open-contracting.org",
+    "score": 36
+  },
+  {
+    "url": "https://web.archive.org",
+    "score": 34
+  },
+  {
+    "url": "https://www.openownership.org",
+    "score": 34
+  },
+  {
+    "url": "https://cybersecurityfordemocracy.org",
+    "score": 32
+  },
+  {
+    "url": "https://www.campaigntracker.nl/en",
+    "score": 31
+  },
+  {
+    "url": "https://opencollective.com",
+    "score": 30
+  },
+  {
+    "url": "https://standards.theodi.org",
+    "score": 30
+  },
+  {
+    "url": "https://tech-coops.xyz",
+    "score": 30
+  },
+  {
+    "url": "https://aisafety.info",
+    "score": 20
+  },
+  {
+    "url": "https://bsky.app",
+    "score": 20
+  },
+  {
+    "url": "https://citizenos.com/platform/",
     "score": 20
   },
   {
@@ -36,11 +468,7 @@
     "score": 20
   },
   {
-    "url": "https://climateaction.tech",
-    "score": 20
-  },
-  {
-    "url": "https://cobudget.com",
+    "url": "https://collaborative-data.theodi.org",
     "score": 20
   },
   {
@@ -56,43 +484,31 @@
     "score": 20
   },
   {
-    "url": "https://datacollective.mozillafoundation.org/",
-    "score": 20
-  },
-  {
-    "url": "https://datatrusts.uk",
-    "score": 20
-  },
-  {
     "url": "https://decelerator.org.uk",
     "score": 20
   },
   {
-    "url": "https://decidim.org",
+    "url": "https://digitalcharitylab.org/product/digital-account-management-toolkit",
     "score": 20
   },
   {
-    "url": "https://ethelo.com",
+    "url": "https://docs.plus",
     "score": 20
   },
   {
-    "url": "https://expo.diia.gov.ua",
+    "url": "https://fatebook.io",
     "score": 20
   },
   {
-    "url": "https://fixmyblock.org",
+    "url": "https://fullfact.org/ai",
     "score": 20
   },
   {
-    "url": "https://github.com/cverluise/patcit",
+    "url": "https://getodk.org",
     "score": 20
   },
   {
-    "url": "https://github.com/disarmfoundation/disarmframeworks",
-    "score": 20
-  },
-  {
-    "url": "https://github.com/huridocs",
+    "url": "https://github.com/deepseek-ai/deepseek-v3",
     "score": 20
   },
   {
@@ -100,15 +516,15 @@
     "score": 20
   },
   {
+    "url": "https://github.com/ideal-postcodes/postcodes.io",
+    "score": 20
+  },
+  {
     "url": "https://github.com/mikekelly/policy-dojo",
     "score": 20
   },
   {
-    "url": "https://github.com/openpolitics/groupthink",
-    "score": 20
-  },
-  {
-    "url": "https://github.com/podemos-info/participa",
+    "url": "https://github.com/notchia/dao-governance-surfaces",
     "score": 20
   },
   {
@@ -116,39 +532,31 @@
     "score": 20
   },
   {
-    "url": "https://github.com/travisbrown/birdwatch",
+    "url": "https://github.com/thicknavyrain/uk_elections_leaflets",
     "score": 20
   },
   {
-    "url": "https://github.com/vbuterin/dao",
+    "url": "https://logos.co/",
     "score": 20
   },
   {
-    "url": "https://globalfactcheck.bot/",
+    "url": "https://manifold.markets",
     "score": 20
   },
   {
-    "url": "https://hact.org.uk/tools-and-services/uk-housing-data-standards",
+    "url": "https://mapped.commonknowledge.coop",
     "score": 20
   },
   {
-    "url": "https://humbledata.org",
+    "url": "https://metaculus.com",
     "score": 20
   },
   {
-    "url": "https://library.theengineroom.org",
+    "url": "https://moralmachine.net",
     "score": 20
   },
   {
-    "url": "https://liquidfeedback.com",
-    "score": 20
-  },
-  {
-    "url": "https://matrix.org",
-    "score": 20
-  },
-  {
-    "url": "https://nyaaya.org",
+    "url": "https://oa.report",
     "score": 20
   },
   {
@@ -156,11 +564,11 @@
     "score": 20
   },
   {
-    "url": "https://opendigitalplanning.org/",
+    "url": "https://onodi.co/bisect/",
     "score": 20
   },
   {
-    "url": "https://openheartmind.org",
+    "url": "https://opencouncil.network",
     "score": 20
   },
   {
@@ -168,23 +576,31 @@
     "score": 20
   },
   {
-    "url": "https://openreferraluk.org",
+    "url": "https://orcid.org",
     "score": 20
   },
   {
-    "url": "https://osf.io",
+    "url": "https://overton.io",
     "score": 20
   },
   {
-    "url": "https://richardpope.org/2017/03/05/beckton-a-tool-to-build",
+    "url": "https://pageviews.wmcloud.org",
     "score": 20
   },
   {
-    "url": "https://secfirst.org",
+    "url": "https://publicmediastack.com",
     "score": 20
   },
   {
-    "url": "https://snowdrift.coop",
+    "url": "https://relationaltechproject.org",
+    "score": 20
+  },
+  {
+    "url": "https://riversentiment.app",
+    "score": 20
+  },
+  {
+    "url": "https://schema.org",
     "score": 20
   },
   {
@@ -192,27 +608,19 @@
     "score": 20
   },
   {
-    "url": "https://sourceafrica.net",
-    "score": 20
-  },
-  {
-    "url": "https://soweego.readthedocs.io",
-    "score": 20
-  },
-  {
-    "url": "https://spacetu.be",
-    "score": 20
-  },
-  {
-    "url": "https://standards.theodi.org",
-    "score": 20
-  },
-  {
-    "url": "https://the-list.uk",
+    "url": "https://spartacus.app",
     "score": 20
   },
   {
     "url": "https://thecircuit.cc",
+    "score": 20
+  },
+  {
+    "url": "https://trends.whotargets.me",
+    "score": 20
+  },
+  {
+    "url": "https://turbophonebank.com",
     "score": 20
   },
   {
@@ -224,7 +632,7 @@
     "score": 20
   },
   {
-    "url": "https://www.gov.uk/service-manual",
+    "url": "https://www.communitytech.network",
     "score": 20
   },
   {
@@ -232,15 +640,11 @@
     "score": 20
   },
   {
+    "url": "https://www.loomio.org",
+    "score": 20
+  },
+  {
     "url": "https://www.opensanctions.org",
-    "score": 20
-  },
-  {
-    "url": "https://www.oporaua.org",
-    "score": 20
-  },
-  {
-    "url": "https://www.organise.org.uk",
     "score": 20
   },
   {
@@ -248,19 +652,11 @@
     "score": 20
   },
   {
-    "url": "https://www.shareddigitalguides.org.uk",
+    "url": "https://www.papertree.earth",
     "score": 20
   },
   {
     "url": "https://www.teachingpublicservice.digital",
-    "score": 20
-  },
-  {
-    "url": "https://www.theyworkforyou.com",
-    "score": 20
-  },
-  {
-    "url": "https://www.ushahidi.com",
     "score": 20
   },
   {
@@ -272,8 +668,8 @@
     "score": 20
   },
   {
-    "url": "https://activisthandbook.org/",
-    "score": 5
+    "url": "https://ciudadaniai.org",
+    "score": 19
   },
   {
     "url": "https://all-our-ideas.citizens.is",
@@ -281,14 +677,6 @@
   },
   {
     "url": "https://alltechishuman.org/responsible-tech-guide-2025",
-    "score": 5
-  },
-  {
-    "url": "https://annas-archive.pm",
-    "score": 5
-  },
-  {
-    "url": "https://antievictionmappingproject.github.io/landlordtech",
     "score": 5
   },
   {
@@ -300,19 +688,7 @@
     "score": 5
   },
   {
-    "url": "https://arxiv.org/abs/2005.13701",
-    "score": 5
-  },
-  {
-    "url": "https://atlasofsurveillance.org",
-    "score": 5
-  },
-  {
     "url": "https://benefits-calculator.turn2us.org.uk",
-    "score": 5
-  },
-  {
-    "url": "https://bsky.app",
     "score": 5
   },
   {
@@ -329,14 +705,6 @@
   },
   {
     "url": "https://choosealicense.com",
-    "score": 5
-  },
-  {
-    "url": "https://citizenos.com/platform/",
-    "score": 5
-  },
-  {
-    "url": "https://ciudadaniai.org",
     "score": 5
   },
   {
@@ -360,15 +728,7 @@
     "score": 5
   },
   {
-    "url": "https://collaborative-data.theodi.org",
-    "score": 5
-  },
-  {
     "url": "https://communities.sunlightfoundation.com/methodology",
-    "score": 5
-  },
-  {
-    "url": "https://communityrule.info",
     "score": 5
   },
   {
@@ -376,19 +736,7 @@
     "score": 5
   },
   {
-    "url": "https://contractsfordatacollaboration.org",
-    "score": 5
-  },
-  {
-    "url": "https://cotsi.org/",
-    "score": 5
-  },
-  {
     "url": "https://data.humdata.org",
-    "score": 5
-  },
-  {
-    "url": "https://data.mysociety.org",
     "score": 5
   },
   {
@@ -404,19 +752,7 @@
     "score": 5
   },
   {
-    "url": "https://developers.democracyclub.org.uk/api/v1",
-    "score": 5
-  },
-  {
     "url": "https://dgc-cgn.org/product/can-dgsi-127/",
-    "score": 5
-  },
-  {
-    "url": "https://digitalcharitylab.org/product/digital-account-management-toolkit",
-    "score": 5
-  },
-  {
-    "url": "https://docs.plus",
     "score": 5
   },
   {
@@ -440,15 +776,11 @@
     "score": 5
   },
   {
-    "url": "https://fairbnb.coop",
+    "url": "https://ethelo.com",
     "score": 5
   },
   {
     "url": "https://farmerchat.digitalgreen.org",
-    "score": 5
-  },
-  {
-    "url": "https://fatebook.io",
     "score": 5
   },
   {
@@ -460,15 +792,11 @@
     "score": 5
   },
   {
-    "url": "https://getodk.org",
+    "url": "https://github.com/cverluise/patcit",
     "score": 5
   },
   {
-    "url": "https://github.com/bluesky-social",
-    "score": 5
-  },
-  {
-    "url": "https://github.com/deepseek-ai/deepseek-v3",
+    "url": "https://github.com/disarmfoundation/disarmframeworks",
     "score": 5
   },
   {
@@ -480,15 +808,11 @@
     "score": 5
   },
   {
-    "url": "https://github.com/ideal-postcodes/postcodes.io",
+    "url": "https://github.com/openpolitics/groupthink",
     "score": 5
   },
   {
-    "url": "https://github.com/kazad/pastecal",
-    "score": 5
-  },
-  {
-    "url": "https://github.com/notchia/dao-governance-surfaces",
+    "url": "https://github.com/podemos-info/participa",
     "score": 5
   },
   {
@@ -516,15 +840,7 @@
     "score": 5
   },
   {
-    "url": "https://github.com/thicknavyrain/uk_elections_leaflets",
-    "score": 5
-  },
-  {
-    "url": "https://github.com/tulir/whatsmeow",
-    "score": 5
-  },
-  {
-    "url": "https://github.com/whotargetsme/ad-transparency-standards/blob/main/implement.md",
+    "url": "https://github.com/vbuterin/dao",
     "score": 5
   },
   {
@@ -537,10 +853,6 @@
   },
   {
     "url": "https://granitt.io",
-    "score": 5
-  },
-  {
-    "url": "https://grantnav.threesixtygiving.org",
     "score": 5
   },
   {
@@ -576,10 +888,6 @@
     "score": 5
   },
   {
-    "url": "https://landexplorer.coop",
-    "score": 5
-  },
-  {
     "url": "https://liberopinion.com",
     "score": 5
   },
@@ -592,19 +900,7 @@
     "score": 5
   },
   {
-    "url": "https://logos.co/",
-    "score": 5
-  },
-  {
-    "url": "https://manifold.markets",
-    "score": 5
-  },
-  {
     "url": "https://mapit.mysociety.org",
-    "score": 5
-  },
-  {
-    "url": "https://mapped.commonknowledge.coop",
     "score": 5
   },
   {
@@ -628,23 +924,11 @@
     "score": 5
   },
   {
-    "url": "https://metaculus.com",
-    "score": 5
-  },
-  {
-    "url": "https://metagov.org/projects/interop",
-    "score": 5
-  },
-  {
     "url": "https://missingnumbers.org",
     "score": 5
   },
   {
     "url": "https://monitormamdani.com/",
-    "score": 5
-  },
-  {
-    "url": "https://moralmachine.net",
     "score": 5
   },
   {
@@ -664,23 +948,7 @@
     "score": 5
   },
   {
-    "url": "https://nymtech.net",
-    "score": 5
-  },
-  {
-    "url": "https://oa.report",
-    "score": 5
-  },
-  {
     "url": "https://objector.ai",
-    "score": 5
-  },
-  {
-    "url": "https://okfn.org/en/projects/open-data-editor/",
-    "score": 5
-  },
-  {
-    "url": "https://onodi.co/bisect/",
     "score": 5
   },
   {
@@ -696,10 +964,6 @@
     "score": 5
   },
   {
-    "url": "https://opencouncil.network",
-    "score": 5
-  },
-  {
     "url": "https://opencouncildata.co.uk",
     "score": 5
   },
@@ -709,30 +973,6 @@
   },
   {
     "url": "https://openletter.earth",
-    "score": 5
-  },
-  {
-    "url": "https://opensupplyhub.org",
-    "score": 5
-  },
-  {
-    "url": "https://orcid.org",
-    "score": 5
-  },
-  {
-    "url": "https://osintframework.com",
-    "score": 5
-  },
-  {
-    "url": "https://overton.io",
-    "score": 5
-  },
-  {
-    "url": "https://p4ai.net",
-    "score": 5
-  },
-  {
-    "url": "https://pageviews.wmcloud.org",
     "score": 5
   },
   {
@@ -748,23 +988,11 @@
     "score": 5
   },
   {
-    "url": "https://parti.xyz",
-    "score": 5
-  },
-  {
     "url": "https://planit.org.uk",
     "score": 5
   },
   {
-    "url": "https://plausible.io",
-    "score": 5
-  },
-  {
     "url": "https://plunkett.my.site.com/keepitinthecommunity/s",
-    "score": 5
-  },
-  {
-    "url": "https://policyengine.org/uk",
     "score": 5
   },
   {
@@ -792,10 +1020,6 @@
     "score": 5
   },
   {
-    "url": "https://publicmediastack.com",
-    "score": 5
-  },
-  {
     "url": "https://pursuanceproject.org",
     "score": 5
   },
@@ -804,27 +1028,15 @@
     "score": 5
   },
   {
-    "url": "https://relationaltechproject.org",
-    "score": 5
-  },
-  {
-    "url": "https://remembertovote.org.uk",
-    "score": 5
-  },
-  {
     "url": "https://research.localgov.digital",
     "score": 5
   },
   {
+    "url": "https://richardpope.org/2017/03/05/beckton-a-tool-to-build",
+    "score": 5
+  },
+  {
     "url": "https://right-to-know.org",
-    "score": 5
-  },
-  {
-    "url": "https://riversentiment.app",
-    "score": 5
-  },
-  {
-    "url": "https://schema.org",
     "score": 5
   },
   {
@@ -844,11 +1056,7 @@
     "score": 5
   },
   {
-    "url": "https://strikemap.org",
-    "score": 5
-  },
-  {
-    "url": "https://talktothecity.org",
+    "url": "https://soweego.readthedocs.io",
     "score": 5
   },
   {
@@ -865,18 +1073,6 @@
   },
   {
     "url": "https://tracking-template-38b4c.web.app",
-    "score": 5
-  },
-  {
-    "url": "https://trends.whotargets.me",
-    "score": 5
-  },
-  {
-    "url": "https://turkopticon.ucsd.edu",
-    "score": 5
-  },
-  {
-    "url": "https://unpaywall.org/products/extension",
     "score": 5
   },
   {
@@ -905,10 +1101,6 @@
   },
   {
     "url": "https://whopostedwhat.com",
-    "score": 5
-  },
-  {
-    "url": "https://www.campaigntracker.nl/en",
     "score": 5
   },
   {
@@ -953,6 +1145,10 @@
   },
   {
     "url": "https://www.givefood.org.uk",
+    "score": 5
+  },
+  {
+    "url": "https://www.gov.uk/service-manual",
     "score": 5
   },
   {
@@ -1008,6 +1204,10 @@
     "score": 5
   },
   {
+    "url": "https://www.oporaua.org",
+    "score": 5
+  },
+  {
     "url": "https://www.parallelparliament.co.uk",
     "score": 5
   },
@@ -1040,6 +1240,10 @@
     "score": 5
   },
   {
+    "url": "https://www.shareddigitalguides.org.uk",
+    "score": 5
+  },
+  {
     "url": "https://www.shineyoureye.org",
     "score": 5
   },
@@ -1048,11 +1252,15 @@
     "score": 5
   },
   {
-    "url": "https://www.welivedit.ai",
+    "url": "https://www.theyworkforyou.com",
     "score": 5
   },
   {
-    "url": "https://www.whatdotheyknow.com",
+    "url": "https://www.ushahidi.com",
+    "score": 5
+  },
+  {
+    "url": "https://www.welivedit.ai",
     "score": 5
   },
   {
@@ -1074,213 +1282,5 @@
   {
     "url": "https://yrpri.org",
     "score": 5
-  },
-  {
-    "url": "https://aisafety.info",
-    "score": 0
-  },
-  {
-    "url": "https://alaveteli.org",
-    "score": 0
-  },
-  {
-    "url": "https://commonslibrary.org",
-    "score": 0
-  },
-  {
-    "url": "https://constituteproject.org",
-    "score": 0
-  },
-  {
-    "url": "https://coops.tech",
-    "score": 0
-  },
-  {
-    "url": "https://cybersecurityfordemocracy.org",
-    "score": 0
-  },
-  {
-    "url": "https://docs.holepunch.to",
-    "score": 0
-  },
-  {
-    "url": "https://ecnl.org/publications/framework-meaningful-engagement-20?mc_cid=b1c5158063&mc_eid=a09c64ec38",
-    "score": 0
-  },
-  {
-    "url": "https://en.wikipedia.org/wiki/wikipedia:in_the_news",
-    "score": 0
-  },
-  {
-    "url": "https://fullfact.org/ai",
-    "score": 0
-  },
-  {
-    "url": "https://github.com/bellingcat/edgar",
-    "score": 0
-  },
-  {
-    "url": "https://github.com/blacksky-algorithms/rsky",
-    "score": 0
-  },
-  {
-    "url": "https://github.com/cavi-au/consent-o-matic",
-    "score": 0
-  },
-  {
-    "url": "https://github.com/compdemocracy/polis",
-    "score": 0
-  },
-  {
-    "url": "https://github.com/datakind/data-observation-toolkit",
-    "score": 0
-  },
-  {
-    "url": "https://github.com/g0v/vue.vtaiwan.tw",
-    "score": 0
-  },
-  {
-    "url": "https://github.com/mastodon/mastodon",
-    "score": 0
-  },
-  {
-    "url": "https://github.com/ytdl-org/youtube-dl",
-    "score": 0
-  },
-  {
-    "url": "https://gordonguthrie.github.io/frankensteinbill",
-    "score": 0
-  },
-  {
-    "url": "https://guardianproject.info",
-    "score": 0
-  },
-  {
-    "url": "https://joss.theoj.org",
-    "score": 0
-  },
-  {
-    "url": "https://littlesis.org",
-    "score": 0
-  },
-  {
-    "url": "https://murmurations.network",
-    "score": 0
-  },
-  {
-    "url": "https://newpublic.substack.com/p/introducing-roundabout-built-for",
-    "score": 0
-  },
-  {
-    "url": "https://oa.works/",
-    "score": 0
-  },
-  {
-    "url": "https://opencollective.com",
-    "score": 0
-  },
-  {
-    "url": "https://openprocurement.io",
-    "score": 0
-  },
-  {
-    "url": "https://participedia.net",
-    "score": 0
-  },
-  {
-    "url": "https://privacybadger.org",
-    "score": 0
-  },
-  {
-    "url": "https://publicai.co/",
-    "score": 0
-  },
-  {
-    "url": "https://radicle.xyz",
-    "score": 0
-  },
-  {
-    "url": "https://riseup.net",
-    "score": 0
-  },
-  {
-    "url": "https://securedrop.org",
-    "score": 0
-  },
-  {
-    "url": "https://shareyourpaper.org",
-    "score": 0
-  },
-  {
-    "url": "https://spartacus.app",
-    "score": 0
-  },
-  {
-    "url": "https://tech-coops.xyz",
-    "score": 0
-  },
-  {
-    "url": "https://turbophonebank.com",
-    "score": 0
-  },
-  {
-    "url": "https://vframe.io",
-    "score": 0
-  },
-  {
-    "url": "https://web.archive.org",
-    "score": 0
-  },
-  {
-    "url": "https://www.communitytech.network",
-    "score": 0
-  },
-  {
-    "url": "https://www.demnext.org/projects/delibtech-network",
-    "score": 0
-  },
-  {
-    "url": "https://www.globaleaks.org",
-    "score": 0
-  },
-  {
-    "url": "https://www.loomio.org",
-    "score": 0
-  },
-  {
-    "url": "https://www.meet.coop",
-    "score": 0
-  },
-  {
-    "url": "https://www.mysociety.org/climate/neighbourhood-warmth",
-    "score": 0
-  },
-  {
-    "url": "https://www.open-contracting.org",
-    "score": 0
-  },
-  {
-    "url": "https://www.opencrvs.org",
-    "score": 0
-  },
-  {
-    "url": "https://www.openownership.org",
-    "score": 0
-  },
-  {
-    "url": "https://www.papertree.earth",
-    "score": 0
-  },
-  {
-    "url": "https://www.torproject.org",
-    "score": 0
-  },
-  {
-    "url": "https://www.wikidata.org",
-    "score": 0
-  },
-  {
-    "url": "https://www.workerinfoexchange.org",
-    "score": 0
   }
 ]
