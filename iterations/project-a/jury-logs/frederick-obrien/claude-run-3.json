@@ -1,0 +1,10 @@
+{
+  "fellow": "Frederick O'Brien",
+  "model": "claude-sonnet-4-6",
+  "run": 3,
+  "timestamp": "PLACEHOLDER",
+  "system_prompt": "See claude-run-1.json for full system prompt",
+  "user_prompt": "See claude-run-1.json for full user prompt",
+  "raw_response": "**Winner: SecureDrop**\n\nSecureDrop is the clearest expression of everything I think political technology should be: it exists purely to protect the human beings who take enormous personal risks to hold power accountable, it has no business model that could compromise that mission, and it has been sustained as a public good for over a decade by a nonprofit whose sole purpose is press freedom. Where so much political technology is ultimately about aggregating data or optimising reach, SecureDrop is about protecting a single, irreducible thing \u2014 a journalist's ability to receive information from a source without getting either of them killed or imprisoned. It amplifies human courage rather than replacing human judgement, and its open source codebase means its trustworthiness can be verified by anyone, which in this specific context isn't a technical nicety but a moral necessity. In a shortlist full of genuinely good projects, this is the one I'd point to as proof that software can be built with genuine ethical seriousness from the ground up.",
+  "parsed_winner": "SecureDrop"
+}
