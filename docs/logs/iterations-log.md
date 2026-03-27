@@ -12,78 +12,77 @@ Canonical full iteration history for `/awards` rendering. Generated from `iterat
 | v4 | 2026-02-13 | @jcoombes | merged | Base score (50) + inclusion bonus (URL keywords) − fetch-failure penalty (10) + AI-body bonus (up to 15). Uses cached page fetches to penalise dead/inaccessible sites and reward projects whose page content mentions AI governance, safety, or policy keywords. | [v4](https://github.com/nwspk/politech-awards-2026/pull/9) | [entry](#v4-ai-governance-body-bonus) |
 | v5 | 2026-02-22 | @Gamithra | merged | Three-agent ITN/A deliberation: independent AI evaluators assess each project through political, relational, and experimental personas on 4 different lenses, argue in multi-turn conversation, and produce a ranked shortlist. | [v5](https://github.com/nwspk/politech-awards-2026/pull/12) | [entry](#v5-three-agent-itn-a-deliberation) |
 | v6 | 2026-03-09 | @sugaroverflow | open | This heuristic inherits the approach in [v5: ITN/A multi-agent deliberation heuristic](https://github.com/nwspk/politech-awards-2026/pull/12) with **6 independent AI juries** that run an ITN/A deliberation on a shortlist of 183 projects. The jury with the highest confidence score picks the project winner. | [v6](https://github.com/nwspk/politech-awards-2026/pull/15) | [entry](#v6-six-jury-itn-a-deliberation) |
-| v7 | 2026-03-20 | @sugaroverflow | open | This iteration evaluates projects using Davit's political-relevance criteria: | [v7](https://github.com/nwspk/politech-awards-2026/pull/20) | [entry](#v7-davit-aligned-political-relevance-heuristic) |
+| v7 | 2026-03-27 | @sugaroverflow | open | Scores and filters projects based on Davit's eight evaluation criteria: | [v7](https://github.com/nwspk/politech-awards-2026/pull/20) | [entry](#v7-v7-davit-aligned-political-relevance-heuristic) |
 
 ## Full iteration records
 
-### v7 Davit-aligned political relevance heuristic
+### v7 v7: Davit-aligned political relevance heuristic
 
 - **PR**: [v7](https://github.com/nwspk/politech-awards-2026/pull/20)
 - **Status**: open
 - **Author**: @sugaroverflow
-- **Date**: 2026-03-20
-- **Top project**: [Diia](https://expo.diia.gov.ua) (score: 91)
+- **Date**: 2026-03-27
+- **Top project**: [algorithmwatch.org](https://algorithmwatch.org) (score: 97)
 
 #### Heuristic
 
-This iteration evaluates projects using Davit's political-relevance criteria:
+Scores and filters projects based on Davit's eight evaluation criteria:
 
-1. **Real-world political relevance** - concrete civic/governance/accountability problem fit
-2. **Movement usefulness** - practical utility for communities, civil society, journalists, or organizers
-3. **Track record** - evidence of sustained use, trust, adoption, or measurable outcomes
-4. **Generalizability** - transferability across jurisdictions and constrained contexts
-5. **Evidence quality** - verifiable outcomes, citations, case studies, and confidence in claims
-6. **Systemic significance** - engagement with structural political issues (corruption, participation, censorship, power)
-7. **Timeliness** - ability to operate within real public-interest timelines where relevant
-8. **Integrity over hype** - substance over trendiness, branding, or visibility bias
+- **Real-world political relevance:** addresses concrete civic, governance, accountability, rights, or public-interest problems
+- **Movement usefulness:** enables communities, journalists, or civil society to act, not just observe
+- **Track record:** evidence of sustained use, trust, or measurable outcomes
+- **Generalizability:** applicable across jurisdictions, including constrained contexts
+- **Evidence quality:** supported by verifiable outcomes, citations, or case studies
+- **Systemic significance:** engages deeper structural issues (corruption, participation, censorship, power)
+- **Timeliness:** operates within real public-interest timelines where relevant
+- **Integrity over hype:** prioritizes credible substance over trend visibility
 
-### Reference examples used in the framing
+### Process used in this iteration
 
-- **Bellingcat** - cited as an example of strong evidence quality, trust, systemic relevance, and cross-jurisdiction impact
-- **Yoti** - cited as an example where privacy-preserving identity tooling can have broader political relevance in sensitive contexts
+1. **Taxonomy readiness check**
+   - assess whether dossiers include fields needed for Davit's criteria
+   - identify missing/weak fields and evidence gaps
+2. **Candidate screening**
+   - review full project pool
+   - narrow to strongest candidates for manual evaluation
+3. **Structured scoring**
+   - score candidates across the eight criteria
+4. **Shortlist production**
+   - produce a review shortlist for manual judgment
+5. **Winner recommendation format**
+   - prepare winner/runner-up comparison for manual decision
 
-### Scoring model used in the process framing
+### Scoring model in the process framing
 
 - 3 = strong
 - 2 = mixed/partial
 - 1 = weak/unproven
 
-Dimensions map to the eight criteria above (total out of 24 in the structured rubric framing), with project-level confidence and shortlist recommendation fields in the process prompt.
+Dimensions map to the eight criteria (total possible: 24), with confidence and shortlist recommendation fields in the structured output format.
 
-### Process used in v7
+### Davit's agent/process spec (detailed)
 
-1. **Taxonomy readiness check**
-   - verify dossiers contain fields needed for Davit's criteria
-   - identify missing fields or weak evidence structure
-2. **Candidate screening**
-   - review full pool and narrow to strong candidates
-3. **Structured scoring**
-   - score across the eight criteria
-4. **Shortlist production**
-   - produce a 40-45 project shortlist for manual review
-5. **Winner recommendation**
-   - propose a winner and runner-up set with comparative rationale
+The v7 process text defines a dedicated **Davit's Agent** role with these constraints:
 
-### Agent configuration used for this process
+- politically grounded, evidence-sensitive judgment layer
+- does not reward trendiness or prestige by default
+- emphasizes practical civic/political utility in real conditions
+- distinguishes local success from broader transferability
+- surfaces evidence gaps and uncertainty explicitly
+- outputs taxonomy readiness notes, project scoring, shortlist rationale, and winner recommendation structure
 
-The process text for v7 defines a dedicated "Davit's Agent" role that:
-
-- applies Davit's criteria and heuristics
-- flags evidence gaps and uncertainty
-- avoids over-rewarding popularity/trendiness
-- emphasizes public-interest utility, transferability, and systemic significance
-- outputs taxonomy notes, shortlist rationale, and winner recommendation format
-
-The agent design is explicitly positioned as a judgment layer, with expected collaboration boundaries relative to researcher/verifier/builder roles.
+Reference examples used in the framing:
+- **Bellingcat** (evidence quality, trust, cross-jurisdiction public-interest investigations)
+- **Yoti** (privacy-preserving identity model with broader political use in sensitive contexts)
 
 #### Rationale
 
 This approach prioritizes:
 
-- politically grounded usefulness over visibility effects
+- practical public-interest utility over visibility effects
 - evidence-backed claims and explicit uncertainty handling
-- applicability beyond a single national or elite context
-- practical utility for real civic actors in constrained environments
+- transferability beyond a single national/elite context
+- substantive political relevance over trend framing
 
 Direct excerpts from Davit's email (Mar 22, 2026):
 
@@ -97,41 +96,21 @@ Direct excerpts from Davit's email (Mar 22, 2026):
 
 #### Data sources
 
-- enriched project dossiers (evaluation input context)
-- PR #20 process framing and criteria text
-- manual review email from Davit (Mar 22, 2026)
-- Davit ranking sheet: https://docs.google.com/spreadsheets/d/1wEQ35p2zkiBVUr8JEWgRmt_Zh1EYFFCxxs-d5H6NGgI/edit?gid=0#gid=0
+- project URL
+- scraped content
+- additional data files
 
 #### Limitations
 
-- Davit explicitly noted: "my human review will probably be biased because I have a varying degree of familiarity with some of the software."
-- Sheet is an in-progress manual pass (email says he had reviewed the first ~20 at that point and would continue).
-- Shortlist/winner conclusions in process outputs depend on dossier completeness and evidence quality.
-
----
+- Davit explicitly noted familiarity effects in manual review: "my human review will probably be biased because I have a varying degree of familiarity with some of the software."
+- The review was in progress in that email (first ~20 reviewed at the time, continuing afterward).
+- As with prior iterations, any shortlist/winner structure depends on dossier coverage and evidence quality.
 
 #### Assessment
 
-### Process output context
-
-- The process framing in PR #20 describes scoring all 321 projects against the eight criteria and producing a shortlist for manual review.
-- In that framing, winner recommendation output is presented as provisional pending Davit's manual judgment.
-
-### Davit email rationale (Mar 22, 2026)
-
-Quoted content used in this iteration record:
-
-> "I realize my human review will probably be biased because I have a varying degree of familiarity with some of the software."
->
-> "So far, the AI leader is my number two choice, and my top choice is Diia."
->
-> Diia rationale from Davit: one-country implementation, infrastructure transferable in principle, 20M+ users, and practical wartime value through digital passport access when physical passports are unavailable.
->
-> "LiquidFeedback is perhaps another such example with which I have some familiarity..."
-
 ### Full manual ranking table (sheet snapshot)
 
-Columns are transcribed from Davit's sheet (`Entry`, eight criteria percentages, `Overall`, and `Comments`):
+Transcribed from Davit's sheet (`Entry`, eight criteria percentages, `Overall`, `Comments`):
 
 | Rank | Entry | Real-world political relevance | Movement usefulness | Track record | Generalizability | Evidence quality | Systemic significance | Timeliness | Integrity over hype | Overall | Comments |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
@@ -176,11 +155,21 @@ Columns are transcribed from Davit's sheet (`Entry`, eight criteria percentages,
 | 39 | OPORA | 89% | 90% | 95% | 68% | 88% | 80% | 90% | 95% | 87% | — |
 | 40 | Worker Info Exchange | 88% | 90% | 78% | 78% | 90% | 95% | 75% | 99% | 87% | — |
 
-### Open committee questions in this iteration context
+### Linked entries (candidate URLs)
 
-- Do shortlisted projects remain politically grounded and evidence-backed under manual scrutiny?
-- Are context-specific projects being unfairly deprioritized by transferability weighting?
-- How should familiarity effects in manual review be normalized or disclosed?
+- [Diia](https://expo.diia.gov.ua)
+- [Open contracting](https://www.open-contracting.org)
+- [Aleph (OCCRP)](https://aleph.occrp.org)
+- [Creative Commons](https://creativecommons.org)
+- [Humanitarian OpenStreetMap](https://www.hotosm.org)
+- [GlobaLeaks](https://www.globaleaks.org)
+- [LiquidFeedback](https://liquidfeedback.com)
+- [OpenCRVS](https://www.opencrvs.org)
+- [Full Fact AI](https://fullfact.org/ai)
+- [OPORA](https://www.oporaua.org)
+- [Worker Info Exchange](https://www.workerinfoexchange.org)
+- [SecureDrop](https://securedrop.org)
+- [OpenProcurement](https://openprocurement.io)
 
 ---
 
