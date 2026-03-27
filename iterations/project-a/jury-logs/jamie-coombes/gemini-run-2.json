@@ -1,0 +1,11 @@
+{
+  "fellow": "Jamie Coombes",
+  "model": "google/gemini-2.5-pro",
+  "run": 2,
+  "timestamp": "2026-03-27T00:13:00Z",
+  "note": "Gemini 1.5 Pro unavailable on OpenRouter (404). Used google/gemini-2.5-pro as closest available Google model.",
+  "system_prompt": "Same as Claude runs",
+  "user_prompt": "Projects: [20-project shortlist — same as Claude runs]",
+  "raw_response": "My winner is **Talk to the City**. As a transformer interpretability researcher, its core focus on creating a \"visible reasoning chain\" for LLMs directly addresses the most critical prerequisite for safe and accountable AI. This kind of technical transparency is exactly what we need to responsibly deploy complex models within sensitive UK government contexts like the Home Office or FCDO. By being open-source and designed for public consultation, the project perfectly marries deep technical work on AI safety with a genuine commitment to serving the public.",
+  "parsed_winner": "Talk to the City"
+}

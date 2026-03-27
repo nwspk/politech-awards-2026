@@ -1,0 +1,10 @@
+{
+  "fellow": "Jamie Coombes",
+  "model": "meta-llama/llama-3-70b-instruct",
+  "run": 3,
+  "timestamp": "2026-03-27T00:11:00Z",
+  "system_prompt": "Same as Claude runs",
+  "user_prompt": "Projects: [20-project shortlist — same as Claude runs]",
+  "raw_response": "My winner is deliberAIde (project 5). This project aligns closely with my values by prioritizing human-centered AI design, interpretability, and transparency in civic deliberation. By making AI-facilitated conversation interpretable and human-directed, deliberAIde addresses AI safety and accountability concerns, particularly in government contexts. As an open-source tool, it also promotes open and collaborative knowledge, which is essential for trustworthy AI deployment.",
+  "parsed_winner": "deliberAIde"
+}

@@ -1,0 +1,10 @@
+{
+  "fellow": "Jamie Coombes",
+  "model": "mistralai/mistral-large",
+  "run": 1,
+  "timestamp": "2026-03-27T00:06:00Z",
+  "system_prompt": "Same as Claude runs",
+  "user_prompt": "Projects: [20-project shortlist — same as Claude runs]",
+  "raw_response": "**Winner: AlgorithmWatch**\n\nAlgorithmWatch stands out as the clear winner because it directly embodies my core values of **AI safety through interpretability, responsible government AI, and systemic risk mitigation**. Their rigorous investigative methodology and policy wins—such as embedding Fundamental Rights Impact Assessments in the EU AI Act—demonstrate a tangible, scalable approach to holding AI systems in government accountable. The project's focus on algorithmic accountability aligns with my emphasis on **making AI systems understandable and auditable**, while its non-profit, public-good orientation ensures it serves the public interest rather than private profit. Additionally, its deployment across the EU (including the UK's regulatory sphere) makes it highly relevant to **UK government AI contexts**, where sensitive, high-stakes deployments demand transparency and oversight. AlgorithmWatch's work is a model for how interpretability and systemic risk awareness can drive meaningful policy change.",
+  "parsed_winner": "AlgorithmWatch"
+}
