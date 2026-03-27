@@ -7,88 +7,97 @@
 
 ## About Francesca Galli
 
-Francesca Galli is a management consultant at EY (digital product management, customer analytics, data visualisation), writer of the Magpie Brain Substack (politics, history, art, curiosity), visual artist, and active member of the London branch of Italy's Partito Democratico (centre-left). She volunteers at the British Museum and DataKind UK. She has an economics and political science background. She is interested in deepening her technical understanding of civic tools and experimenting with interdisciplinary approaches to civic engagement.
+Francesca Galli is a management consultant at EY (digital product management, customer analytics, data visualisation), writer of the Magpie Brain Substack (politics, history, art, curiosity), visual artist, and active member of the London branch of Italy's Partito Democratico (centre-left). She volunteers at the British Museum and DataKind UK. Her economics and political science background sits alongside a genuine creative and cultural life. She describes herself on Newspeak House as "Analyst-writer-artist exploring how technology can further civic engagement." She is interested in deepening her technical understanding of civic tools and experimenting with interdisciplinary approaches to civic engagement.
 
 ## Public sources used
 
-- [Magpie Brain Substack — About page](https://themagpiebrain.substack.com/about) — self-description as "curious human experimenting with creative projects"; interests: history, urban sketching, board games, data; values: intellectual freedom, discovering connections
-- [Magpie Brain Substack — introductory post](https://themagpiebrain.substack.com/p/on-magpies-and-shiny-things) — explicit values: seeking "Good, True and Beautiful"; resists limiting narratives; the Substack as "laboratory for ideas" spanning history, data, corporate critique, creative writing
-- [LinkedIn — EY management consultant](https://www.linkedin.com/in/francesca-galli-5027/) — confirms EY role in digital product management, customer analytics, data visualisation
-- [cohort-2025.md bio](../docs/cohort-2025.md) — confirms DataKind UK volunteering, PD London branch, British Museum volunteering; stated interest in civic engagement and interdisciplinary approaches
+- [Magpie Brain Substack — About page](https://themagpiebrain.substack.com/about) — self-description as "curious human experimenting with creative projects"; Substack as "lab"; interests include history, urban sketching, board games, data, birds
+- [Magpie Brain Substack — "On Magpies and Shiny Things"](https://themagpiebrain.substack.com/p/on-magpies-and-shiny-things) — explicit values: seeking the "Good, True and Beautiful"; resists limiting narratives and labels; values neuroplasticity and language as tools for self-determination
+- [Magpie Brain Substack — "Bike Lane Politics"](https://themagpiebrain.substack.com/p/bike-lane-politics) — argues for genuine political dialogue across disagreement; cites research showing 79% of Americans use negative terms about politics; calls for productive controversy, genuine listening, and embracing complexity; invokes West Wing ideal of respectful informed debate
+- [Magpie Brain Substack — "This House Is Not a Hotel"](https://themagpiebrain.substack.com/p/this-house-is-not-a-hotel) — citizenship as human right, not economic instrument; "People are not means to an end. People, their peaceful existence and well-being, are the very end towards which a healthy society should be oriented"; argues fair citizenship access is a democratic choice
+- [Magpie Brain Substack — "Dispatch #2: Liberation"](https://themagpiebrain.substack.com/p/dispatch-2-liberation) — commemorates Italy's Liberation Day; links personal and collective liberation; directly calls on Italian diaspora to vote in referendums; references Victor Hugo's political activism and European unity advocacy
+- [Magpie Brain Substack — "The AI Companies Are Stealing Our Mushrooms"](https://themagpiebrain.substack.com/p/the-ai-companies-are-stealing-our-mushrooms) — frames AI training data as enclosure of natural commons; resistance to corporate extraction; values shared knowledge infrastructure
+- [LinkedIn — EY management consultant](https://www.linkedin.com/in/francesca-galli-5027/) — confirms EY role in digital product management, customer analytics, data visualisation; DataKind volunteering; secondary school mentoring
 - [Newspeak House 2025/26 fellow listing](https://2025.newspeak.house/) — confirmed fellow; tagline "Analyst-writer-artist exploring how technology can further civic engagement"
+- [cohort-2025.md bio](../docs/cohort-2025.md) — confirms DataKind UK volunteering, PD London branch, British Museum volunteering; stated interest in civic engagement and interdisciplinary approaches
+
+**Name collision check:** Confirmed this is the correct Francesca Galli. Multiple cross-matching signals: Newspeak House 2025/26 fellow (confirmed on official site), EY consultant with data visualisation focus (LinkedIn), Magpie Brain Substack (self-identified), Italian London diaspora active in PD, DataKind UK volunteering. No evidence of confusion with other Francesca Gallis.
 
 ## Inferred values
 
 | Value | Description |
 |---|---|
-| Interdisciplinary curiosity | Believes the best insights come from crossing disciplinary lines — connecting data, art, history, politics, and human stories |
-| Civic engagement as personal commitment | Not just professionally interested in civic tech — is actively involved in political life (PD London) and volunteer civic institutions (British Museum, DataKind) |
-| Data as a tool for understanding, not just measurement | Uses data visualisation to surface meaning and narrative, not just metrics — cares about the story the data tells |
-| Centre-left values, Italian civic tradition | Brings a European centre-left political tradition that emphasises solidarity, democratic participation, and cultural life |
-| Beauty and craft matter | As a visual artist and writer, holds that how something looks and reads is morally significant, not just aesthetically |
-| Accessible civic knowledge | Wants non-experts to understand politics and data — the Substack is a democratising project |
-| Experimental approach | Values trying things, learning by doing, and building skills in new areas — the Newspeak House move is itself evidence of this |
+| Interdisciplinary curiosity | Believes the best insights come from crossing disciplinary lines — connecting data, art, history, politics, and human stories; her Substack is explicitly a "laboratory" for this |
+| Civic engagement as personal practice, not theory | Not abstractly interested in civic tech — actively votes, volunteers, joins parties, writes publicly; civic life is something she does, not just studies |
+| Data as narrative and understanding, not just measurement | Uses data visualisation to surface meaning and story; interested in what data reveals about human experience, not just what it counts |
+| Democratic dialogue over tribal certainty | "Bike Lane Politics" argues explicitly for engaging with opposing views, embracing productive controversy, and preserving democratic conversation; suspicious of polarisation |
+| Dignity and belonging for all | "This House Is Not a Hotel" argues strongly that people are ends, not means; fairness in citizenship and belonging matters as a democratic value |
+| Knowledge as commons | "The AI companies are stealing our mushrooms" frames shared knowledge as a commons under threat from corporate enclosure; values open access and shared infrastructure |
+| European and Italian civic tradition | Brings a specific Italian centre-left political formation (PD); references Liberation Day, Victor Hugo's European vision, Italian diaspora democratic participation |
+| Craft and aesthetic care | As visual artist, urban sketcher, and writer, believes how things look and read is not cosmetic but morally significant; design communicates values |
 
-**Inference confidence:** medium
+**Inference confidence:** medium-high
 
-**Why:** Francesca has a clear voice through her Substack and cohort bio. However, her published Substack content skews toward personal essays (travel, culture, history) rather than explicit civic tech commentary — so the values above are partly inferred from her activities and stated interests rather than from direct political writing. The DataKind volunteering and PD membership are strong civic signals but not elaborated publicly.
+**Why:** Francesca has a clear and consistent voice across the Magpie Brain Substack, with enough explicitly civic and political writing to anchor solid inferences. The "Bike Lane Politics", "This House Is Not a Hotel", "Liberation" Dispatch, and AI/commons essays all directly address her political values. The Substack is richer than initially apparent — it is not purely personal-essay but includes deliberate civic commentary. Confidence is medium rather than high because: (1) her DataKind volunteering and PD London activities are not publicly elaborated in detail; (2) her EY consulting work and any associated views are not documented beyond job title; (3) she has no GitHub or academic publication footprint to check. The overall pattern is consistent enough to warrant solid inference.
 
 ## Scoring criteria
 
 | Criterion | Weight | Description |
 |---|---|---|
-| Accessible civic engagement | high | Does the project make civic participation legible and approachable for non-specialists? |
-| Interdisciplinary or narrative approach | high | Does it combine data, storytelling, art, or cultural elements — not just technical outputs? |
-| Democratic values alignment | high | Does it support centre-left civic values: solidarity, participation, equality, cultural diversity? |
-| Data visualisation quality | medium | Is data communicated in ways that are visually compelling and meaningful, not just accurate? |
-| Community and grassroots applicability | medium | Can it be used by local political groups, community organisations, and volunteers — not just institutions? |
-| Open and accessible | medium | Is it free or low-cost to use for ordinary citizens and civic organisations? |
-| Experimental or creative design | low | Does the project take creative risks in its design or civic engagement approach? |
-| European / comparative civic context | low | Is it relevant to European political traditions and not only Anglo-American civic tech? |
+| Accessible civic engagement | high | Does the project make civic participation legible and approachable for non-specialists? High: any citizen can use it; Low: requires specialist knowledge or institutional access |
+| Democratic dialogue and complexity | high | Does it support genuine dialogue across difference, surface complexity, and resist polarisation? High: enables diverse voices and positions; Low: reinforces echo chambers or single-party use |
+| Data as narrative and public good | high | Does it translate data into human stories, not just dashboards? Is the data in service of democratic understanding? High: clear storytelling and civic insight; Low: raw data dump |
+| Commons and openness | medium | Is it free, open-source, or structured as shared public infrastructure rather than private product? High: openly licensed, community-owned; Low: commercial, closed, extractive |
+| Community and grassroots applicability | medium | Can it be used by local political groups, volunteer organisations, and ordinary citizens — not just institutions or professionals? |
+| Dignity and inclusion | medium | Does it explicitly serve people who are excluded, marginalised, or under-represented in civic processes? |
+| European or comparative relevance | low | Is it relevant to European civic traditions and deployments, not only Anglo-American civic tech? |
+| Aesthetic and craft quality | low | Does the project show design care and communicative craft, not just functional correctness? |
 
 ## What this person would champion
 
-Francesca would gravitate toward projects that make civic participation more beautiful, more legible, and more human — tools that connect data to stories people can actually feel, platforms that invite participation from people who don't see themselves as political activists, and civic tech built with genuine aesthetic care. She'd prize projects that bridge her world of consulting, art, and politics.
+Francesca would gravitate toward projects that make civic participation legible, beautiful, and genuinely human — tools that translate data into stories people can feel, platforms that invite participation from people who don't see themselves as activists, and civic tech that treats users as citizens with dignity rather than as data points. She would prize projects that connect across disciplines, that honour the commons, and that enable real democratic dialogue rather than reinforcing tribalism. Italian or European origin or deployment would resonate strongly.
 
 ## What this person would discount
 
-She'd likely be impatient with purely technical tools with no accessible layer — governance platforms designed only for policy professionals, or data projects that generate numbers without narrative. She'd be sceptical of projects that claim civic purpose but require specialist knowledge to use.
+She would be impatient with purely technical tools with no accessible human layer — governance platforms designed exclusively for policy professionals, or data projects that generate numbers without narrative. She would be sceptical of civic tech that is commercially extractive or treats civic data as a product rather than a commons. She would likely be indifferent to blockchain governance and DAO structures — they don't connect to her evident political tradition.
 
 ## Shortlist (15–20 projects)
 
 | Rank | Project | Why it fits |
 |---|---|---|
-| 1 | Vote for Policies | Blind policy comparison tool — makes partisan voting legible to ordinary voters; clear, elegant civic design |
-| 2 | Polis | Open deliberation platform; surfaces collective opinion visually; accessible to non-experts; used in real civic contexts |
-| 3 | Gapminder Worldview Upgrader | Free educational tool correcting civic misconceptions — interdisciplinary, accessible, data+narrative |
-| 4 | Full Fact AI | AI fact-checking as public civic infrastructure; accessible; bridges data and public discourse |
-| 5 | Talk to the City | LLM qualitative sensemaking — translates community voices into legible visualisations; interdisciplinary |
-| 6 | Humble Data Workshop | Free data science workshops for underrepresented groups; civic data accessibility |
-| 7 | DoGooder | Civic advocacy platform for grassroots campaigns; empowers non-specialist civic actors |
-| 8 | DataKind | Data science for social good organisations — directly linked to her volunteering; interdisciplinary civic data |
-| 9 | Participedia | Global crowdsourced democratic participation database; comparative civic engagement across Europe |
-| 10 | Missing Numbers | Campaigns for gaps in public data — civic advocacy + data narrative |
-| 11 | TheyWorkForYou | Parliamentary transparency made accessible to ordinary citizens |
-| 12 | Decidim | Open civic participation platform with visual process design; European origin aligns with her Italian political tradition |
-| 13 | Open Data Editor | No-code data tool making civic data accessible to non-specialists |
-| 14 | Cortico | AI-assisted sensemaking of community dialogue; narrative from data |
-| 15 | New Public Roundabout | Local neighbourhood forum with thoughtful UX design; civic engagement at human scale |
-| 16 | Go Vocal | Government engagement platform — accessible civic participation design |
-| 17 | Agencies for Good | Community of tech-for-good consultancies; aligns with her dual identity as consultant + civic volunteer |
-| 18 | Organise | Workers' collective action network; grassroots, accessible, solidarity-based |
-| 19 | Creative Commons | Intellectual commons for creative work — bridges her artistic and civic worlds |
-| 20 | Open Heart Mind (OHM) | Participatory gatherings and peer evaluation; human-centred, community-led |
+| 1 | Vote for Policies | Blind policy comparison — strips tribal identity, lets voters engage with actual positions; pedagogically clear, accessible to any citizen; perfectly aligns with her argument in "Bike Lane Politics" |
+| 2 | Decidim | Free/open participatory democracy platform from Barcelona; European origin; democratic cooperative governance; visual process design; used by actual governments including Italian deployments |
+| 3 | Polis | Open deliberation; surfaces collective opinion visually; enables genuine dialogue across disagreement; non-tribal by design; accessible |
+| 4 | Full Fact AI | AI fact-checking as public civic infrastructure; translates complex claims into legible judgments; serves democratic discourse quality directly |
+| 5 | Talk to the City | LLM sensemaking of community voices — translates qualitative civic input into navigable visual reports; interdisciplinary; gives voice to underheard communities |
+| 6 | Humble Data Workshop | Free data science workshops for underrepresented groups — directly aligns with DataKind ethos, data as empowerment, inclusive by design |
+| 7 | Participedia | Global crowdsourced democratic participation database; comparative knowledge commons on civic innovation; academic yet open; European-relevant |
+| 8 | PolicyEngine | Open-source policy simulation making tax/benefit impacts visible to citizens; translates policy into human narrative; used by advocacy orgs and journalists |
+| 9 | Missing Numbers | Campaigns for gaps in public data; civic advocacy + data narrative combined; underdog project with genuine policy impact |
+| 10 | TheyWorkForYou | Parliamentary transparency for ordinary citizens; accessible; long-running public good infrastructure |
+| 11 | Creative Commons | Knowledge commons for creative and educational work; directly addresses her "stolen mushrooms" concern about AI enclosure of shared knowledge |
+| 12 | Open Collective | Transparent civic financing infrastructure; enables grassroots groups to operate with full financial transparency; commons-oriented |
+| 13 | Cortico | AI-assisted sensemaking of community dialogue; amplifies underheard voices; narrative from community data |
+| 14 | Tactical Data Engagement | Framework for governments to catalyse resident-centred open data use; community problem-solving model |
+| 15 | Organise | Workers' collective action network; grassroots, accessible, solidarity-based; centre-left civic tradition |
+| 16 | Go Vocal | Government civic engagement platform; accessible civic participation design |
+| 17 | vTaiwan | Open digital democracy for collaborative public consultation on legislation; genuine policy impact; deliberative model |
+| 18 | Gender Pay Gap Service | Data visualisation making inequality legible; public accountability; accessible to any citizen |
+| 19 | WhatDoTheyKnow | FOI platform; makes the state legible to citizens; civic infrastructure for accountability |
+| 20 | Society for Hopeful Technologists | Network for tech workers who want tech to serve people and planet; bridges her consulting and civic worlds |
 
 ## Proposed winner
 
 **Vote for Policies**
 
-Vote for Policies is the most elegant match for Francesca Galli's particular combination of values. She is an economics and political science graduate, an active party member, a data visualisation practitioner, and someone who writes publicly about making politics more legible. Vote for Policies does exactly that: it strips away tribal identity and lets users engage with actual policy positions, then reveals the party alignment. It is accessible (any citizen can use it), pedagogically clear (it teaches rather than just informs), and beautifully illustrates the gap between what people think they believe and what they actually support. For someone who volunteers at DataKind, is active in party politics, and writes essays exploring curiosity and complexity, this tool embodies the interdisciplinary civic instinct — it uses design and data to make democratic choice more honest. It also works at the community level, potentially useful for PD London branch events and civic workshops.
+Vote for Policies is the sharpest match for Francesca Galli's particular combination of values. In "Bike Lane Politics" she argues directly that political engagement requires stripping away partisan tribalism and genuinely engaging with policy positions on their merits — that is precisely what Vote for Policies does. It blinds users to party identity and asks them to evaluate policies first, only revealing the party alignment afterward. The tool is pedagogically honest, accessible to any citizen regardless of political literacy, and designed to produce the kind of informed cross-partisan conversation she argues is essential to democratic health. For someone who is herself an Italian expat navigating the UK political system, who belongs to a party in diaspora, and who writes publicly about the necessity of political dialogue, a tool that makes the content of democracy more legible than its tribal packaging is unusually resonant. It also works at the scale she operates — a British Museum volunteer event, a PD London meeting, a DataKind outreach session — not just at government procurement level.
 
 ## Agent notes
 
-- Medium confidence because Francesca's Substack content (the richest public source) is more literary/cultural than explicitly civic — the civic signals come mainly from the cohort bio.
-- The DataKind volunteering and PD London membership are solid civic commitment signals but neither is publicly elaborated in detail.
-- Her EY background in customer analytics might make her more interested in user-facing civic tools than backend governance infrastructure — this influenced the shortlist.
-- The Substack's emphasis on "freedom above all else" and experimental approach suggests she'd value tools that give users genuine agency rather than guiding them toward predetermined outcomes.
-- Follow-up: reading more of her Substack posts on politics and history would likely sharpen this profile significantly.
+- Confidence upgrade from initial read: additional Substack posts ("Bike Lane Politics", "This House Is Not a Hotel", AI/commons essay) showed more explicitly political writing than the about page suggested.
+- DataKind volunteering is confirmed via LinkedIn but not publicly elaborated — Humble Data Workshop is included as a DataKind-adjacent signal.
+- The PD London membership is strong but the London branch website does not list Francesca by name in its executive; she is a member/activist rather than an officer.
+- No GitHub or academic publications found — this is consistent with a consultant/writer profile rather than a developer or researcher.
+- Twitter/X handle @simbagalli was found in search results but X blocks content scraping; could not verify whether this is the correct Francesca Galli.
+- Her "AI companies are stealing our mushrooms" post (Jan 2026) directly addresses AI and commons — this is recent and relevant; it shaped the inclusion of Creative Commons and the moderate scepticism about AI-heavy tools in the shortlist.
+- The European and Italian political context is genuinely distinctive in this cohort and influenced the scoring weight for Decidim (Barcelona/EU-origin participatory democracy platform).
