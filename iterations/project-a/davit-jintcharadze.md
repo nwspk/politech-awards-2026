@@ -1,5 +1,6 @@
 # Project A: Davit Jintcharadze — AI-Inferred Values Heuristic
 
+<<<<<<< Updated upstream
 > **⚠️ Automated draft. This is part of Project A research.**
 > Values, criteria, and rankings were inferred entirely from public content by an AI agent.
 > This PR has not been reviewed or approved by Davit Jintcharadze.
@@ -20,11 +21,47 @@ Davit Jintcharadze grew up in the Republic of Georgia and is a co-founder of the
 - [EA Forum — Davit Jintcharadze profile](https://forum.effectivealtruism.org/users/davit-jintcharadze-1) — 4 posts: co-authored pieces on The Unjournal (research rigor/impact), post on making EA relevant to minority groups, post on free counselling provision; reveals concern for accessibility and global reach of impactful work
 - [LinkedIn — Davit Jintcharadze (The Unjournal)](https://www.linkedin.com/in/davitot/) — confirms current role associated with The Unjournal; posted about the Opportunity Center (Georgian career/education access initiative)
 - [Newspeak House 2025/26 fellow listing](https://2025.newspeak.house/) — confirmed cohort member
+=======
+> **⚠️ Automated draft — part of Project A research.**
+> Values, criteria, and rankings were inferred from public content by an AI agent.
+> This has not been reviewed or approved by Davit Jintcharadze.
+> Methodology: [iterations/project-a/methodology.md](methodology.md)
+
+## About Davit Jintcharadze
+
+Davit Jintcharadze is a Georgian pro-democracy activist, researcher, and civic entrepreneur currently based in London. He is a member of the Freedom Square political movement in Georgia, which organised 190+ days of continuous protest against electoral fraud following the disputed 2024 Georgian Dream election result. He founded the Freedom Fund of Georgia — a UK-based crowdfunding mechanism with internationally held accounts specifically designed to evade Georgian government asset freezes — to support protesters facing fines and legal costs. Academically, he holds a BA in Psychology and Brain and Cognitive Science from NYU Abu Dhabi (full scholarship; capstone-funded research) and is completing a part-time MA in Psychotherapeutic Counselling at Cambridge's Faculty of Education. His research focus is on how authoritarian regimes use technology for opinion engineering, and he wants to build tools to measure public opinion and manipulation in low/middle-income countries cheaply, reliably, and safely.
+
+## Research sources
+
+| Source | URL | Confirms | Identity confidence |
+|---|---|---|---|
+| Cohort-2025.md bio | `/root/claw/politech-awards-2026/docs/cohort-2025.md` | Georgian activist; Freedom Square; 190+ day protest; MA Cambridge; NYU Abu Dhabi; opinion engineering research; LMIC tools goal | Confirmed (primary source) |
+| CEPA — "Georgia: Target the Judges" | https://cepa.org/article/georgia-target-the-judges/ | Author at CEPA; argues for targeted sanctions on Georgian judges; frames regime change as cost-benefit defection problem; measured, evidence-based writing | Confirmed (name + CEPA bio + Georgian context match) |
+| GoFundMe — Freedom Fund | https://www.gofundme.com/f/freedom-fund-helping-protesters-in-georgiaa | Founded Freedom Fund; UK-based; raised £42,198; international accounts to evade asset freezes; structured as decentralised financial infrastructure for protest | Confirmed (name + England location + Georgian protest context) |
+| OCCRP — Justin Timberlake petition | https://www.occrp.org/en/news/fans-urge-justin-timberlake-to-condemn-georgia-crackdown-ahead-of-tbilisi-show | Organised Change.org petition (2,000+ sigs) to have Timberlake name the dictatorship; tactically framed as awareness, not cancellation | Confirmed (named directly, quoted directly) |
+| JAM News — Freedom Fund article | https://jam-news.net/fund-set-up-to-pay-fines-for-georgian-protesters/ | "Member of Freedom Square" (not co-founder); founder of Freedom Fund; management experience at British/American companies; plans decentralised payment infrastructure | Confirmed (name + Freedom Fund + Georgian protest context) |
+| PubMed/PMC — published paper | https://pmc.ncbi.nlm.nih.gov/articles/PMC10558476/ | Co-authored paper: effects of facial masculinity/femininity on politician competence judgement and election outcome prediction; pre-registered; NYU Abu Dhabi; 1,200+ UK participants | Confirmed (name + NYU Abu Dhabi affiliation + Cambridge listed as current institution) |
+| Substack — "Politicising Psychology" | https://davitjintcharadze.substack.com/ | Self-described "trainee psychotherapist from Cambridge making sense of political processes through the therapeutic lens"; post applies Winnicott's object relations to protest embodiment | Confirmed (name in URL; Cambridge bio matches) |
+| EA Forum profile | https://forum.effectivealtruism.org/users/davit-jintcharadze-1 | Operations Manager, The Unjournal; co-authored posts on research evaluation methodology; post advocating LMIC access to EA community; offered pro bono counselling | Confirmed (Cambridge psychotherapy + Georgian identity + Freedom Fund all referenced) |
+| U.S. State Department FLEX | https://exchanges.state.gov/non-us/program/future-leaders-exchange/stories/flex-student-month-october-2016 | FLEX Scholar 2016–17; Student of Month; first to volunteer for Syrian refugee letter-writing project; expanded it school-wide | Confirmed (name + Georgia origin + timeline consistent) |
+| NYUAD children's book | https://nyuad.nyu.edu/en/news/latest-news/world-and-societies/2020/april/where-is-our-home-eng.html | Illustrated "Where Is Our Home?" for 3,000 refugee/underprivileged children in Jordan; NYUAD student group ElevatED; published in Arabic and English | Confirmed (NYUAD + timing + consistent identity) |
+| LinkedIn (davitot) | https://www.linkedin.com/in/davitot/ | Operations Manager, The Unjournal; Founder, Freedom Fund of Georgia; Cambridge + NYU Abu Dhabi; 500+ connections; posted about 4-month protest milestone | Confirmed (cross-confirmed via multiple other sources; LinkedIn not directly fetchable — 999 bot detection) |
+| FindTutors profile | https://www.findtutors.co.uk/tutor/davit-jintcharadze.htm | Psychology, Russian, Geography tutor; £26/hr; London; languages: English, Russian, Italian | Confirmed (name, London, Cambridge psychotherapy) |
+
+**Overall inference confidence:** medium-high
+
+**Why:** Davit has a consistent and verifiable public record across 12 sources covering his activist work (CEPA, OCCRP, GoFundMe, JAM News all directly confirmable), academic publications (PubMed), fellowship engagement (EA Forum, NYUAD news, FLEX), and personal writing (Substack). The sources converge strongly on values: anti-authoritarian, LMIC-focused, psychologically-informed, research-rigorous. Two gaps lower confidence from "high": (1) his stated research goal of measuring opinion manipulation in LMICs is aspirational rather than demonstrated — no published methodology or tool yet exists; and (2) the "co-founder" claim in his bio is disputed — Civil Georgia, Wikipedia, and JAM News do not describe him as a co-founder of Freedom Square, but as a member. His intellectual framing around political technology is inferred primarily from his research paper (electoral psychology) and Substack (psychotherapy + protest) rather than from extensive public writing specifically about political tech.
+
+**Name collision check:** "Davit Jintcharadze" is rare enough that all 12 sources describe the same individual. The constellation of Georgian origin + NYU Abu Dhabi + Cambridge + Freedom Fund + CEPA authorship is unique. The GitHub handle "davitot" belongs to a Spanish system administrator — confirmed negative, not a collision requiring caution.
+
+---
+>>>>>>> Stashed changes
 
 ## Inferred values
 
 | Value | Description |
 |---|---|
+<<<<<<< Updated upstream
 | Democratic self-determination | Believes peoples have the right to choose their own governance without oligarchic or authoritarian capture — and that this is worth significant personal risk to defend |
 | Psychological realism about political behaviour | Understands that political outcomes are shaped by cognitive biases, emotional states, and perceptual heuristics — not just rational deliberation |
 | Evidence-based resistance | Insists that counter-authoritarian work should be grounded in empirical research, not just moral outrage; applies cost-benefit framing to democratic transitions |
@@ -93,3 +130,125 @@ Polis is the closest existing project to what Davit Jintcharadze has explicitly 
 - "Opportunity Center" in Georgia (career/education access, EA-funded) adds an access-equity dimension not fully captured in the political-technology frame of his Newspeak bio — reviewers should weight this if access projects score higher in the final evaluation.
 - Bluesky presence not confirmed. Twitter/X presence not confirmed — searches returned no dedicated account. His public footprint is primarily through LinkedIn, Substack, CEPA, EA Forum, and academic publications.
 - The "190+ day protest" figure in the cohort bio aligns with the 2024–2026 Georgian protests timeline (protests began November 2024); Davit organised/participated in these protests while simultaneously completing his Cambridge MA and founding Freedom Fund. This is relevant context for understanding the urgency and embodied nature of his values.
+=======
+| Anti-authoritarian democracy activism | Treats democracy as worth fighting for at personal risk; organised 190+ days of protest; founded international financial infrastructure to sustain that fight; frames regime accountability in game-theoretic terms (cost of supporting authorities must exceed cost of defecting) |
+| Disinformation and psychological manipulation research | Core research identity: how authoritarian regimes engineer public opinion; explicitly links disinformation to psychological biases; pre-registered psychological research on electoral face perception |
+| LMIC-first measurement tools | Explicitly wants tools that work "cheaply, reliably, and safely" in low/middle-income countries; frustrated by expensive or Western-only research infrastructure; advocates LMIC access in EA Forum; his entire research motivation is Global South applicability |
+| Psychotherapeutic lens on political behaviour | Applies Winnicott's object relations to protest embodiment; trained psychotherapist; understands political behaviour through therapeutic frameworks — not just rational choice or information-deficit models |
+| Open methodology and research rigour | Pre-registered experiments, involvement with The Unjournal (improving research evaluation), EA Forum engagement; values replicable evidence as the foundation for political claims |
+| Strategic pragmatism | Frames international intervention through game theory; OCCRP petition tactically shrewd (awareness not cancellation); international bank accounts structured to evade specific freeze mechanisms; not maximalist but targeted |
+| Equity of access | Advocates LMIC inclusion in EA community; pro bono counselling; refugee children's book; multilingual (Georgian, English, Russian, Italian); tutors at affordable rates; believes knowledge access should not depend on geography or income |
+
+---
+
+## Scoring criteria
+
+| Criterion | Weight | Maps to dossier field | Description |
+|---|---|---|---|
+| Authoritarian context applicability | high | `issue_area`, `countries_deployed`, `political_relevance_summary` | Can the project function in or be deployed against non-democratic, adversarial political environments? Has it been used in authoritarian or conflict contexts, or is it explicitly designed for hostile conditions? High: explicitly deployed in non-democratic contexts (Georgia, Myanmar, Russia, etc.). Low: requires cooperative government, assumes rule of law, designed only for liberal democracies. |
+| LMIC measurement capability | high | `geography`, `countries_deployed`, `open_source`, `funding_model` | Can it enable cheap, reliable public opinion or manipulation measurement in low/middle-income, resource-constrained contexts? High: free/open-source, deployed in Africa/Asia/Latin America, works on mobile or low-bandwidth. Low: enterprise pricing, US/UK-only, requires institutional procurement. |
+| Disinformation/opinion engineering exposure | high | `issue_area` (disinformation, misinformation), `movement_building_utility` | Does it measure, expose, or counter authoritarian manipulation of public discourse? High: directly monitors influence operations, quantifies manipulation patterns, gives civil society visibility into opinion engineering. Low: reactive fact-checking only, no measurement infrastructure. |
+| Open-source and low-cost | medium | `open_source`, `funding_model` | Is it accessible to activists and researchers without institutional funding? High: MIT/Apache licensed, free tier, no enterprise pricing. Low: commercial SaaS, proprietary, requires procurement budget. |
+| Psychological/behavioural grounding | medium | `tagline`, `political_relevance_summary`, `ai_involvement` | Does it account for cognitive biases and non-rational political behaviour rather than assuming informed, rational civic actors? High: incorporates behavioural science, bias-aware design, or addresses psychological manipulation mechanisms. Low: assumes rational actor model. |
+| Research rigour and replicability | medium | `academic_citations`, `replication_materials_available`, `documented_limitations` | Is there an evidence base for effectiveness? Are methods transparent and verifiable? High: pre-registered, open data, documented methodology, peer-reviewed. Low: black-box, no impact evidence, undocumented methodology. |
+| Movement infrastructure resilience | low | `movement_building_utility`, `issue_area` | Does it support protest or civic movement infrastructure in politically hostile environments — financial resilience, secure coordination, legal protection? High: enables fundraising in sanctioned/frozen environments, bypasses financial censorship, protects activists legally. Low: no resilience dimension. |
+
+---
+
+## New dossier fields added
+
+None. The existing schema — `issue_area`, `geography`, `countries_deployed`, `open_source`, `political_relevance_summary`, `documented_limitations`, `movement_building_utility` — is sufficient to assess all seven criteria above. A candidate field `authoritarian_deployment_context` (whether the tool has been used or designed for adversarial political environments) was considered but not added: it would require politically sensitive judgements about which countries qualify as "authoritarian," and the existing `countries_deployed` plus `documented_limitations` fields provide enough signal for inference.
+
+---
+
+## What Davit Jintcharadze would champion
+
+Davit would champion tools that close the information asymmetry between authoritarian states and the people they manipulate — platforms that make it cheap and technically feasible to measure public opinion in places where official statistics are fabricated, to document influence operations for international accountability purposes, and to protect activists and researchers while they do this work. He would be especially excited by open-source, freely deployable tools already tested in non-democratic contexts (Georgia, Myanmar, Syria, Ukraine, West Africa) — tools that activists can use without depending on government cooperation or institutional procurement budgets. Psychologically-grounded tools that account for how authoritarian messaging exploits cognitive biases — rather than treating citizens as rational information-processors — would be particularly compelling to him.
+
+## What Davit Jintcharadze would discount
+
+He would discount tools designed exclusively for stable liberal democracies — deliberative platforms that require government buy-in, election monitoring systems that depend on official data access, or civic engagement tools built for public consultations in Western Europe and North America. He would be sceptical of enterprise civic tech that is inaccessible to LMIC grassroots movements on cost grounds, and would find tools that assume cooperative political environments naive about the conditions under which most of the world's democracy work actually happens. Projects focused on improving internal government processes rather than empowering citizens against their governments would score low.
+
+---
+
+## Shortlist (top 20)
+
+| Rank | Project | Score rationale |
+|---|---|---|
+| 1 | [Martus](https://www.martus.org) | Maximum alignment: authoritarian context (HIGH — deployed in Georgia and 50+ LMIC countries in conflict), LMIC-free (HIGH — fully open-source, zero cost), protects human rights defenders documenting exactly the abuses Davit witnesses. Only tool on the list explicitly deployed in his home country under the conditions he describes. |
+| 2 | [ODK (Open Data Kit)](https://getodk.org) | THE premier open-source platform for data collection in resource-constrained environments; deployed across Africa, Asia, and Latin America; free; research-grade methodology; the closest existing tool to the cheap, reliable LMIC measurement infrastructure Davit explicitly wants to build. |
+| 3 | [DISARM Frameworks](https://github.com/disarmfoundation/disarmframeworks) | Definitional counter-disinformation taxonomy; names "opinion engineering" tactics systematically; open-source; provides the conceptual infrastructure for the research he wants to do on how authoritarian regimes manipulate public opinion. |
+| 4 | [Guardian Project](https://guardianproject.info) | Security tools for journalists and activists in authoritarian contexts; deployed in Egypt, Turkey, Russia, China, Iran, Syria, Myanmar, Belarus; free, open-source; protects exactly the people doing the LMIC human rights work he values. |
+| 5 | [Ushahidi](https://www.ushahidi.com) | LMIC election monitoring and crisis mapping platform; deployed in Kenya, Uganda, Nigeria, Haiti, Mexico, Philippines; open-source; crowdsourced public opinion and event documentation at scale in resource-constrained environments. |
+| 6 | [Bellingcat Online Investigation Toolkit](https://bellingcat.gitbook.io/toolkit) | Curated OSINT toolkit for investigating disinformation, influence operations, and election interference; free; international; used by researchers globally to expose exactly the opinion engineering Davit researches. |
+| 7 | [Aleph (OCCRP)](https://aleph.occrp.org) | Global archive for investigative journalism following authoritarian financial networks and corruption; open-source; international; supports the accountability infrastructure for the sanctions/defection strategy he articulates in CEPA. |
+| 8 | [Polis](https://github.com/compdemocracy/polis) | Open-source AI-powered public opinion aggregation at scale; bridging-consensus methodology surfaces genuine opinion patterns rather than manufactured consensus; deployed in Taiwan, UK, US; the closest existing tool to what Davit wants to build. |
+| 9 | [Cybersecurity for Democracy](https://cybersecurityfordemocracy.org) | Research centre specifically studying platform manipulation and algorithmic amplification of authoritarian content; evidence-based; NYU-anchored; directly in the research space Davit describes. |
+| 10 | [GlobaLeaks](https://www.globaleaks.org) | Free, open-source whistleblowing infrastructure; deployed in 150+ countries; builds accountability evidence in authoritarian contexts; foundational for the defection incentives he describes in his CEPA analysis. |
+| 11 | [Global Fact-Check Bot (GFC)](https://globalfactcheck.bot/) | 50+ languages, 38 organisations, 43 countries; AI-powered counter-disinformation; strong LMIC reach; addresses manipulation in low-resource information environments. |
+| 12 | [SecureDrop](https://securedrop.org) | Whistleblower protection infrastructure; free, open-source; protects truth-tellers against authoritarian pressure; builds the evidentiary base for accountability. |
+| 13 | [Tor Project](https://www.torproject.org) | Anonymity infrastructure enabling activists in authoritarian contexts; open-source; foundational; protects the people running the measurement tools and documenting abuses. |
+| 14 | [OpenSanctions](https://www.opensanctions.org) | Open sanctions and politically exposed persons database; enables targeted accountability for authoritarian actors — directly enabling the judge-sanctioning strategy Davit advocates in his CEPA article. |
+| 15 | [Open Collective](https://opencollective.com) | Transparent international crowdfunding infrastructure; open-source; directly institutionalises the Freedom Fund model he built; enables decentralised protest financing in internationally accessible accounts. |
+| 16 | [Talk to the City](https://talktothecity.org) | LLM-powered qualitative opinion analysis; can aggregate open-ended survey responses at scale; partial open-source; could enable the opinion measurement in LMICs that he wants to build. |
+| 17 | [HURIDOCS](https://github.com/huridocs) | Human rights documentation tools; open-source; equips defenders with information management infrastructure for accountability; supports the evidentiary base for international pressure. |
+| 18 | [VFRAME](https://vframe.io) | Computer vision for war crimes documentation; AI-powered OSINT for human rights evidence; deployed in Syria and Ukraine; builds accountability documentation in authoritarian conflict contexts. |
+| 19 | [Who Targets Me Trends](https://trends.whotargets.me) | Political advertising transparency across 60+ countries; tracks manipulation of democratic discourse; relevant to the advertising/influence operations dimension of opinion engineering. |
+| 20 | [oTree](https://www.otree.org) | Open-source behavioural experiment platform; enables rigorous research into cognitive biases and political decision-making; directly supports his academic research on psychological manipulation mechanisms. |
+
+---
+
+## Proposed winner (primary run)
+
+**Martus**
+
+*(Note: the primary run — Claude Sonnet 4.6 — chose Polis across all 3 runs. The proposed winner Martus reflects the scoring criteria applied in this document and is supported by 6/15 jury votes — the plurality. Both readings are documented and the tension is flagged for human review.)*
+
+Martus is the single project that sits at the intersection of every high-weight criterion in Davit Jintcharadze's scoring framework — and does so at a level of concreteness that no other tool matches. It is free and open-source (LMIC cost criterion: maximum score). It is deployed in over 50 countries across Africa, Asia, and Latin America, including Georgia itself — the only tool on the shortlist explicitly tested in the political environment Davit inhabits and from which he organises (authoritarian context criterion: maximum score). It is purpose-built for human rights activists in hostile political environments who need to document abuses securely without depending on government-controlled infrastructure — precisely the user profile that Davit and his colleagues represent (movement infrastructure criterion: high). While it is not primarily a public opinion measurement tool — that honour goes to ODK and Polis — Martus addresses something more foundational in Davit's value system: the evidentiary infrastructure that makes authoritarian accountability possible. His CEPA article argues that regimes fall when the cost of complicity exceeds the cost of defecting; that calculation depends on documented evidence of specific wrongdoing by specific actors. Martus provides the secure, court-grade documentation infrastructure for exactly that evidence. For a researcher who organised 190+ days of protest, founded international crowdfunding to sustain it, and now writes think-tank pieces arguing for targeted judicial sanctions, Martus represents the precise technical counterpart to everything he is already doing by hand.
+
+**The Polis case (Claude's reading):** Claude emphasised Davit's *stated academic research goal* — measuring genuine vs. manufactured public opinion — rather than his activist background. Polis's bridging-consensus algorithm surfaces latent opinion structures that authoritarian narrative management suppresses; it is a diagnostic instrument for detecting opinion engineering, not just documenting its effects. This reading prioritises the researcher over the activist. Both are Davit. The right winner depends on which identity he brings to the Politech Awards context.
+
+---
+
+## 5-model jury results
+
+**Shortlist size:** 20 → 3 runs per model (15 total votes)
+
+**Note:** Gemini 1.5 Pro (`google/gemini-pro-1.5`) returned 404 on OpenRouter. Substituted `google/gemini-2.5-pro`, consistent with Martina Orlea run behaviour. Documented in jury log files.
+
+| Model | Run 1 | Run 2 | Run 3 |
+|---|---|---|---|
+| Claude Sonnet 4.6 (Anthropic direct) | Polis | Polis | Polis |
+| GPT-4o (`openai/gpt-4o`) | DISARM Frameworks | DISARM Frameworks | DISARM Frameworks |
+| Mistral Large (`mistralai/mistral-large`) | Martus | Martus | Martus |
+| Llama 3 70B (`meta-llama/llama-3-70b-instruct`) | Martus | Martus | Martus |
+| Gemini 2.5 Pro (`google/gemini-2.5-pro`) | ODK (Open Data Kit) | ODK (Open Data Kit) | ODK (Open Data Kit) |
+
+**Vote totals:**
+
+| Project | Votes | % |
+|---|---|---|
+| Martus | 6 | 40% |
+| Polis | 3 | 20% |
+| DISARM Frameworks | 3 | 20% |
+| ODK (Open Data Kit) | 3 | 20% |
+
+**Consensus level:** contested (6/15 — below 8/15 majority threshold; flag for human review)
+
+**Jury winner:** Martus (plurality — 6/15 votes, no majority)
+
+**Notes:** This is the most fragmented jury result in the Project A pipeline to date (Connor Dunlop: 15/15; Martina Orlea: 11/15). The four-way split reflects a genuine values ambiguity in Davit's profile: Claude emphasised his **research identity** (measuring manufactured vs. genuine opinion → Polis); GPT-4o his **analytical identity** (naming the taxonomy of authoritarian manipulation → DISARM); Mistral and Llama his **activist identity** (survivability tools in hostile environments → Martus); Gemini his **builder identity** (measurement infrastructure for LMICs → ODK). Each reading is internally consistent. Primary run (Claude) chose Polis; proposed winner in this file is Martus. The divergence is flagged for human review. Full analysis and notable quotes in `jury-logs/davit-jintcharadze/jury-summary.md`.
+
+---
+
+## Agent notes
+
+- **"Co-founder" claim disputed:** The bio describes Davit as having "co-founded" Freedom Square. Civil Georgia, Wikipedia, and JAM News describe him as a "member" — the named co-founders are Levan Tsutskiridze, Bakur Kvashilava, Simon Janashia, Davit Gzirishvili, Irma Zoidze, Zurab Parjiani, and Giorgi Shaishmelashvili. Possible explanations: he joined early enough to consider himself a co-founder informally, the Newspeak House bio uses the term loosely, or founding documents are incomplete. This does not affect identity confidence — his leadership of the Freedom Fund is independently confirmed — but the specific claim should be verified from a primary source.
+- **Aspirational research goals:** His stated aim of building "tools to measure public opinion and manipulation in low/middle-income countries cheaply, reliably, and safely" is documented as intent but has no demonstrated technical output yet. No GitHub repositories, grant records, or methodology documents exist under his name. The Newspeak House fellowship is likely an early-stage development year.
+- **Thin political technology writing:** Davit's intellectual framework around political technology is inferred from his research paper (electoral psychology), his Substack (psychotherapy + protest embodiment), and one CEPA opinion piece — not from extensive published work on the subject. The values inference is medium-high confidence but has a narrower evidential base than fellows with broader published records.
+- **No Twitter/X or Bluesky presence found:** Unusual for an activist of his profile. He may use platforms under an unindexed handle, or may have a private account. LinkedIn posts confirm social media activity but his X handle was not identifiable.
+- **Georgia-specific knowledge:** His knowledge of Georgian judicial, political, and protest infrastructure is first-hand and deep. This makes his scoring lens particularly acute for any tool designed for post-Soviet or transitional-democracy contexts.
+- **EA Forum / Unjournal dimension:** His involvement with The Unjournal (improving research evaluation) and EA Forum (evidence-based philanthropy) adds a research-quality and intellectual-rigour dimension that is less visible in his activist profile. This softens what might otherwise read as a purely activist/practitioner lens — he is also a rigorous empiricist.
+- **LMIC measurement gap in dossier schema:** No existing dossier field captures whether a tool has been specifically designed for or tested in adversarial political environments. This is a gap for Davit's scoring lens specifically. A future `authoritarian_deployment_context` field would improve scoring precision for fellows with similar backgrounds.
+- **Most contested jury result in pipeline:** The four-way split (Martus/Polis/DISARM/ODK each winning one model family) reflects a genuine ambiguity in Davit's profile that the research found but could not resolve. This contested result is itself a research finding — it suggests his public persona is multi-dimensional in a way that different AI architectures read differently.
+>>>>>>> Stashed changes
