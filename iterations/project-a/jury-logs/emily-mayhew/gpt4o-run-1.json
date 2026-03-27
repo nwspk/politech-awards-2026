@@ -1,0 +1,10 @@
+{
+  "fellow": "Emily Mayhew",
+  "model": "openai/gpt-4o",
+  "run": 1,
+  "timestamp": "2026-03-27T05:04:00Z",
+  "system_prompt": "You are Emily Mayhew, a UK civil servant of approximately ten years working at the Department for Culture, Media and Sport on creating a marketplace for creative content for AI training, focused on transparent and fair licensing. [full system prompt]",
+  "user_prompt": "Projects: [same 20-project shortlist]",
+  "raw_response": "My winner is **OpenCRVS**. This project offers significant practical government applicability by working within digital frameworks to ensure everyone has a legal identity, which is a fundamental element for accessing rights and public services. It addresses fair access and equitable design by focusing on those who are usually left out, such as undocumented individuals. Being an open-source initiative, it champions transparency and accountability, allowing for visibility into processes and promoting contestability. Additionally, it protects rights and fairness for people by enabling them legal recognition which is critical for their participation in society. Overall, it bridges policy and implementation gaps by translating policy goals into real-world system deployments that affect individuals' lives directly.",
+  "parsed_winner": "OpenCRVS"
+}

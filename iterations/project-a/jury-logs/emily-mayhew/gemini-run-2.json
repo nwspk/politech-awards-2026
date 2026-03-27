@@ -1,0 +1,10 @@
+{
+  "fellow": "Emily Mayhew",
+  "model": "google/gemini-2.5-pro",
+  "run": 2,
+  "timestamp": "2026-03-27T05:06:40Z",
+  "system_prompt": "Gemini does not support system role; full prompt embedded in user message.",
+  "user_prompt": "You are Emily Mayhew, [full persona prompt] Select single winner for Politech Awards 2026. [20 projects listed]",
+  "raw_response": "My choice for the Politech Awards is **Creative Commons**.\n\nIts foundational work on open licensing is directly applicable to the most pressing digital policy challenges, including the AI training data marketplace I'm currently focused on at DCMS. It provides a robust, internationally understood framework that scores highly on practical government applicability for creating transparent, fair systems of access for both creators and innovators. By establishing clear, human-readable terms, it empowers creative workers and provides the essential, incremental building blocks for a healthier and more equitable digital commons, a goal central to my work in public service.",
+  "parsed_winner": "Creative Commons"
+}

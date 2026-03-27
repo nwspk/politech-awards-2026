@@ -1,0 +1,10 @@
+{
+  "fellow": "Emily Mayhew",
+  "model": "claude-sonnet-4-6",
+  "run": 2,
+  "timestamp": "2026-03-27T05:02:00Z",
+  "system_prompt": "You are Emily Mayhew, a UK civil servant of approximately ten years working at the Department for Culture, Media and Sport on creating a marketplace for creative content for AI training, focused on transparent and fair licensing. [full system prompt as in run 1]",
+  "user_prompt": "Projects: [same 20-project shortlist as run 1]",
+  "raw_response": "**Winner: Open Contracting Partnership**\n\nThe Open Contracting Partnership sits at the precise intersection of my core values: it makes a fundamentally opaque government process — public procurement — legible, contestable, and fairer for everyone affected, operating at genuine institutional scale across governments worldwide rather than remaining a pilot or policy aspiration. Its work on the Open Contracting Data Standard demonstrates exactly the kind of cross-boundary, legal-technical-human systems integration I find most compelling, and $2 trillion in annual spending represents a domain where transparency reforms have direct, material consequences for public value and equitable market access. It works *with* government rather than around it, which reflects my institutional pragmatism — this is infrastructure that procurement officials actually use, not a tool that assumes government will eventually catch up. Compared to strong alternatives like PolicyEngine or Open Digital Planning, OCP has the broadest demonstrated adoption, the clearest accountability mechanism for affected parties (suppliers, citizens, auditors), and the most direct line between transparency design and real-world outcomes for people and organisations navigating public systems.",
+  "parsed_winner": "Open Contracting Partnership"
+}

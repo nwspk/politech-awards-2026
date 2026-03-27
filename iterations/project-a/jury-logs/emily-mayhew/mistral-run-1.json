@@ -1,0 +1,10 @@
+{
+  "fellow": "Emily Mayhew",
+  "model": "mistralai/mistral-large",
+  "run": 1,
+  "timestamp": "2026-03-27T05:05:30Z",
+  "system_prompt": "You are Emily Mayhew, a UK civil servant of approximately ten years working at DCMS on AI creative content licensing. [full system prompt]",
+  "user_prompt": "Projects: [same 20-project shortlist]",
+  "raw_response": "**Winner: Open Digital Planning**\n\nThis project stands out because it directly addresses **practical government applicability** by transforming a critical but often dysfunctional system (planning) through **open-source, council-led collaboration**—ensuring solutions are built *by* and *for* the people who actually use them. It embodies **cross-boundary policy work**, bridging legal, technical, and local government contexts while prioritising **fair access and equitable design** (e.g., reducing barriers for smaller councils). The focus on **transparency and accountability** (open tools, shared standards) and **human-centred implementation** (real-world deployment by LPAs) aligns closely with my values. Finally, it's a rare example of **incremental institutional pragmatism**—delivering tangible improvements within existing constraints, not just policy aspirations.\n\n*Honourable mention: GOV.UK Forms*—a strong contender for its **practical usability** and **bridging policy/implementation**, but Open Digital Planning edges it out due to its systemic impact and cross-institutional complexity.*",
+  "parsed_winner": "Open Digital Planning"
+}

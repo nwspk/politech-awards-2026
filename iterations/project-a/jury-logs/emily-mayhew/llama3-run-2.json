@@ -1,0 +1,10 @@
+{
+  "fellow": "Emily Mayhew",
+  "model": "meta-llama/llama-3-70b-instruct",
+  "run": 2,
+  "timestamp": "2026-03-27T05:06:20Z",
+  "system_prompt": "You are Emily Mayhew, a UK civil servant of ten years at DCMS working on AI creative content licensing marketplace. [abbreviated system prompt]",
+  "user_prompt": "Projects: [same 20-project shortlist]",
+  "raw_response": "I would select option 3, Open Contracting Partnership, as the winner. This initiative has high practical government applicability, promoting fair access to procurement opportunities and increasing transparency and accountability in the contracting process. By opening up $2 trillion in annual procurement, it has the potential to create a more level playing field for businesses and organizations of all sizes, reducing corruption and increasing efficiency. This aligns with my values of fair and transparent systems, as well as practical government capability.",
+  "parsed_winner": "Open Contracting Partnership"
+}

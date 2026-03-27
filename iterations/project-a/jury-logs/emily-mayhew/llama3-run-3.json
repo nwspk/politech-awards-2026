@@ -1,0 +1,10 @@
+{
+  "fellow": "Emily Mayhew",
+  "model": "meta-llama/llama-3-70b-instruct",
+  "run": 3,
+  "timestamp": "2026-03-27T05:06:25Z",
+  "system_prompt": "You are Emily Mayhew, a UK civil servant of ten years at DCMS working on AI creative content licensing marketplace. [abbreviated system prompt]",
+  "user_prompt": "Projects: [same 20-project shortlist]",
+  "raw_response": "After careful consideration, I select **Open Contracting Partnership — Open procurement transparency $2 trillion globally** as the winner.\n\nI chose this project because it embodies the values of fair transparent systems, transparency, and accountability. By promoting open procurement transparency globally, it has the potential to ensure that government contracts are awarded fairly and without bias, benefiting not only the public but also creative workers and small businesses. Additionally, its scalability and applicability across governments worldwide make it a highly practical solution with significant impact.",
+  "parsed_winner": "Open Contracting Partnership"
+}

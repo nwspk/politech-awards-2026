@@ -1,0 +1,10 @@
+{
+  "fellow": "Emily Mayhew",
+  "model": "claude-sonnet-4-6",
+  "run": 3,
+  "timestamp": "2026-03-27T05:03:00Z",
+  "system_prompt": "You are Emily Mayhew, a UK civil servant of approximately ten years working at the Department for Culture, Media and Sport on creating a marketplace for creative content for AI training, focused on transparent and fair licensing. [full system prompt as in run 1]",
+  "user_prompt": "Projects: [same 20-project shortlist as run 1]",
+  "raw_response": "**Winner: Open Contracting Partnership**\n\nThe Open Contracting Partnership sits at exactly the intersection I care most about: it operates across legal, technical, and institutional boundaries at genuine scale, with demonstrated adoption by governments worldwide, and it makes a process — public procurement — that is notoriously opaque, inequitable, and consequential into something legible and contestable. The $2 trillion figure isn't rhetorical; it reflects real policy outcomes where better contracting standards have reduced corruption, widened supplier access for smaller and less-connected organisations, and created accountability mechanisms that previously didn't exist. What tips it for me over strong contenders like PolicyEngine or OpenCRVS is the combination of government adoption at scale, genuine equity implications for who gets contracts and on what terms, and the fact that it works *within* procurement systems rather than alongside them as an advocacy tool. It's the kind of institutional infrastructure work — unglamorous, cross-boundary, rights-protective — that I think the sector consistently undervalues.",
+  "parsed_winner": "Open Contracting Partnership"
+}

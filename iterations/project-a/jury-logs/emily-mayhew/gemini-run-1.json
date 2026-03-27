@@ -1,0 +1,10 @@
+{
+  "fellow": "Emily Mayhew",
+  "model": "google/gemini-2.5-pro",
+  "run": 1,
+  "timestamp": "2026-03-27T05:06:30Z",
+  "system_prompt": "Gemini does not support system role; full prompt embedded in user message. Role: Emily Mayhew, UK civil servant at DCMS, AI creative content licensing marketplace, values: fair transparent systems, practical government capability, cross-boundary policy, accessible public services, protecting creative workers, incrementalism, human-centred implementation.",
+  "user_prompt": "You are Emily Mayhew, [full persona prompt] Select the single project that best matches your values from the shortlist for Politech Awards 2026. [20 projects listed]",
+  "raw_response": "My selection for the award is **Creative Commons**.\n\nIts established framework for the open licensing of content is the foundational model for my work in building a fair and transparent marketplace for AI training data, addressing the vital need to protect creative workers. The project is a masterclass in practical government applicability, providing an interoperable and trusted system that champions equitable access and accountability for creators and technology platforms alike. Creative Commons provides a pragmatic, real-world solution that bridges the gap between complex copyright policy and tangible, human-centred implementation.",
+  "parsed_winner": "Creative Commons"
+}

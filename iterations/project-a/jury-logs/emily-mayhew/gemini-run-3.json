@@ -1,0 +1,10 @@
+{
+  "fellow": "Emily Mayhew",
+  "model": "google/gemini-2.5-pro",
+  "run": 3,
+  "timestamp": "2026-03-27T05:06:50Z",
+  "system_prompt": "Gemini does not support system role; full prompt embedded in user message.",
+  "user_prompt": "You are Emily Mayhew, [full persona prompt] Select single winner for Politech Awards 2026. [20 projects listed as numbers only]",
+  "raw_response": "As an experienced civil servant focused on building fair digital systems, my selection for the Politech Awards 2026 is the **Data Trusts Initiative**. It provides a tangible and governable framework to address the urgent challenge of responsible data sharing, scoring exceptionally high on practical government applicability as we navigate complex issues like AI. The initiative's model for independent, rights-respecting stewardship is a vital, human-centred building block for creating the trusted and transparent digital marketplaces the public deserves. Crucially, it offers a concrete path for protecting the rights of creators and citizens alike, which is central to my work at DCMS.",
+  "parsed_winner": "The Data Trusts Initiative"
+}
