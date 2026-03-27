@@ -22,7 +22,7 @@
     "emerging_tech"
   ],
   "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
+    "SDG 16 \u2013 Peace, Justice and Strong Institutions"
   ],
   "decade_plus": false,
   "geography": "international",
@@ -134,5 +134,7 @@
     "peacebuilders",
     "mediators"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "citizen_accessibility_layer": "partial",
+  "citizen_accessibility_notes": "Output reports are navigable by non-specialists; creating and running a Talk to the City process requires technical setup. The citizen engagement layer (survey input, reading reports) is accessible; the facilitation/setup layer is not."
 }

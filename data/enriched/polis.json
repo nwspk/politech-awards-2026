@@ -120,5 +120,7 @@
     "civil society",
     "citizens participating in democratic processes"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "citizen_accessibility_layer": "partial",
+  "citizen_accessibility_notes": "Participation interface is accessible to non-specialists; deployment and configuration require technical knowledge. Citizen-facing voting/responding layer is simple; admin layer is complex."
 }

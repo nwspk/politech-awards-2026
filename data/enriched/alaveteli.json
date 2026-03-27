@@ -22,7 +22,7 @@
     "civic_data"
   ],
   "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
+    "SDG 16 \u2013 Peace, Justice and Strong Institutions"
   ],
   "decade_plus": true,
   "geography": "international",
@@ -120,5 +120,7 @@
     "civic technology researchers",
     "political and social campaigners"
   ],
-  "underdog_signal": false
+  "underdog_signal": false,
+  "citizen_accessibility_layer": "yes",
+  "citizen_accessibility_notes": "FOI request platform designed for ordinary citizens to send freedom of information requests without legal knowledge; used in 26 countries; citizen-first UX by design."
 }

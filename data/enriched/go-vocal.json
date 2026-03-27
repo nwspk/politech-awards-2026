@@ -21,7 +21,7 @@
     "govtech"
   ],
   "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
+    "SDG 16 \u2013 Peace, Justice and Strong Institutions"
   ],
   "decade_plus": false,
   "geography": "international",
@@ -71,7 +71,7 @@
   ],
   "academic_citations": [
     {
-      "title": "Grunt to go—Vocal coordination of group movements in redfronted lemurs",
+      "title": "Grunt to go\u2014Vocal coordination of group movements in redfronted lemurs",
       "year": 2017,
       "cited_by": 37,
       "doi": "https://doi.org/10.1111/eth.12663"
@@ -125,7 +125,7 @@
       "country": "United States"
     }
   ],
-  "ai_involvement": "Yes – platform includes AI-powered analysis features for deeper insights from resident feedback",
+  "ai_involvement": "Yes \u2013 platform includes AI-powered analysis features for deeper insights from resident feedback",
   "pass2_at": "2026-03-09T23:21:45.532Z",
   "pass3_at": "2026-03-09T23:23:21.983Z",
   "_sources": [
@@ -146,5 +146,7 @@
     "residents",
     "citizens"
   ],
-  "underdog_signal": false
+  "underdog_signal": false,
+  "citizen_accessibility_layer": "yes",
+  "citizen_accessibility_notes": "Citizen participation layer (surveys, consultations, participatory budgeting) is fully accessible to non-specialists; government/admin setup requires configuration but citizen engagement is barrier-free."
 }

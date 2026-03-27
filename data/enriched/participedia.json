@@ -7,7 +7,7 @@
     "homepage_word_count": 1767,
     "homepage_has_team_page": true,
     "homepage_has_impact_metrics": true,
-    "scraped_description": "On an entry page there are three fields that are filled with user-generated free form text. We call these ‘Open Text’ fields, and they are the Title, Brief Description and Narrative. The rest of the fields are either numbers, dates, or fixed options—we call these ‘Fixed Data’ fields.",
+    "scraped_description": "On an entry page there are three fields that are filled with user-generated free form text. We call these \u2018Open Text\u2019 fields, and they are the Title, Brief Description and Narrative. The rest of the fields are either numbers, dates, or fixed options\u2014we call these \u2018Fixed Data\u2019 fields.",
     "scraped_final_url": "https://participedia.net/"
   },
   "collected_at": "2026-03-09T00:00:00Z",
@@ -125,5 +125,7 @@
     "activists",
     "educators"
   ],
-  "underdog_signal": false
+  "underdog_signal": false,
+  "citizen_accessibility_layer": "partial",
+  "citizen_accessibility_notes": "Case study database is publicly readable and browsable; contributing cases requires registration and following academic conventions. Accessible to curious non-specialists for reading; less accessible for contributing."
 }
