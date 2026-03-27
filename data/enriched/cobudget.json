@@ -7,7 +7,7 @@
     "homepage_word_count": 1028,
     "homepage_has_team_page": true,
     "homepage_has_impact_metrics": true,
-    "scraped_description": "Tap into your group’s creative potential. Crowd source, develop and review ideas. Spark opportunities for collaboration along the way!",
+    "scraped_description": "Tap into your group\u2019s creative potential. Crowd source, develop and review ideas. Spark opportunities for collaboration along the way!",
     "scraped_final_url": "https://cobudget.com/"
   },
   "collected_at": "2026-03-09T22:00:00Z",
@@ -110,5 +110,10 @@
     "granting bodies",
     "co-working communities"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "dao_treasury_applicability": {
+    "applicable": "partial",
+    "notes": "Participatory budgeting applicable to DAO treasury allocation decisions; off-chain collective finance mechanism",
+    "added_by": "project-a/huda-abdirahim"
+  }
 }

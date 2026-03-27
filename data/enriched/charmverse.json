@@ -21,7 +21,7 @@
     "govtech"
   ],
   "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
+    "SDG 16 \u2013 Peace, Justice and Strong Institutions"
   ],
   "decade_plus": false,
   "geography": "international",
@@ -99,5 +99,10 @@
     "builders",
     "web3 communities"
   ],
-  "underdog_signal": false
+  "underdog_signal": false,
+  "dao_treasury_applicability": {
+    "applicable": "yes",
+    "notes": "Workspace and governance platform explicitly for onchain DAO communities; grant management for DAOs",
+    "added_by": "project-a/huda-abdirahim"
+  }
 }

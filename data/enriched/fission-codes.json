@@ -90,5 +90,10 @@
     "developers",
     "blockchain/Web3 engineers"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "dao_treasury_applicability": {
+    "applicable": "yes",
+    "notes": "Smart contract status codes for DAO microservices architecture; DAO-native tooling",
+    "added_by": "project-a/huda-abdirahim"
+  }
 }

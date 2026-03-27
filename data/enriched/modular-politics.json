@@ -21,7 +21,7 @@
     "govtech"
   ],
   "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
+    "SDG 16 \u2013 Peace, Justice and Strong Institutions"
   ],
   "decade_plus": false,
   "geography": "international",
@@ -68,5 +68,10 @@
     "platform operators",
     "online community managers"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "dao_treasury_applicability": {
+    "applicable": "partial",
+    "notes": "Composable governance framework applicable to DAO governance design; theoretical foundation for DAO governance modules",
+    "added_by": "project-a/huda-abdirahim"
+  }
 }

@@ -13,7 +13,7 @@
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "One Project",
-  "tagline": "Building infrastructure for economic democracy — connecting people, organisations, and resources to coordinate and grow a new economy",
+  "tagline": "Building infrastructure for economic democracy \u2014 connecting people, organisations, and resources to coordinate and grow a new economy",
   "project_type": "Method",
   "org_type": "Nonprofit/charity",
   "issue_area": [
@@ -23,10 +23,10 @@
     "community wealth building"
   ],
   "sdg_alignment": [
-    "SDG 10 — Reduced Inequalities",
-    "SDG 16 — Peace, Justice and Strong Institutions",
-    "SDG 17 — Partnerships for the Goals",
-    "SDG 11 — Sustainable Cities and Communities"
+    "SDG 10 \u2014 Reduced Inequalities",
+    "SDG 16 \u2014 Peace, Justice and Strong Institutions",
+    "SDG 17 \u2014 Partnerships for the Goals",
+    "SDG 11 \u2014 Sustainable Cities and Communities"
   ],
   "decade_plus": false,
   "geography": "Global (headquartered San Francisco, USA)",
@@ -101,5 +101,10 @@
     "community-led organisations",
     "solidarity economy networks"
   ],
-  "underdog_signal": false
+  "underdog_signal": false,
+  "dao_treasury_applicability": {
+    "applicable": "partial",
+    "notes": "Economic democracy infrastructure with DAO-compatible cooperative finance patterns; Horizon Fund analogous to DAO treasury",
+    "added_by": "project-a/huda-abdirahim"
+  }
 }

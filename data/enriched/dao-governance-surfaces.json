@@ -21,7 +21,7 @@
     "civic_data"
   ],
   "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
+    "SDG 16 \u2013 Peace, Justice and Strong Institutions"
   ],
   "decade_plus": false,
   "geography": "international",
@@ -52,7 +52,7 @@
   ],
   "academic_citations": [
     {
-      "title": "Aligning ‘Decentralized Autonomous Organization’ to Precedents in Cybernetics",
+      "title": "Aligning \u2018Decentralized Autonomous Organization\u2019 to Precedents in Cybernetics",
       "year": 2022,
       "cited_by": 18,
       "doi": "https://doi.org/10.2139/ssrn.4077358"
@@ -100,5 +100,10 @@
     "DAO developers",
     "governance analysts"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "dao_treasury_applicability": {
+    "applicable": "yes",
+    "notes": "Directly analyses DAO smart contract governance surfaces; DAO-native analytical tooling",
+    "added_by": "project-a/huda-abdirahim"
+  }
 }

@@ -13,7 +13,7 @@
   "collected_at": "2026-03-09T23:18:04.453Z",
   "collected_by": "collect-enriched-script",
   "name": "Aragon",
-  "tagline": "The Home of Onchain Organizations – governance and ownership infrastructure for DAOs and protocols",
+  "tagline": "The Home of Onchain Organizations \u2013 governance and ownership infrastructure for DAOs and protocols",
   "project_type": "Platform",
   "org_type": "For-profit/social enterprise",
   "issue_area": [
@@ -21,7 +21,7 @@
     "emerging_tech"
   ],
   "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
+    "SDG 16 \u2013 Peace, Justice and Strong Institutions"
   ],
   "decade_plus": false,
   "geography": "international",
@@ -109,5 +109,10 @@
     "decentralized organizations",
     "token holders"
   ],
-  "underdog_signal": false
+  "underdog_signal": false,
+  "dao_treasury_applicability": {
+    "applicable": "yes",
+    "notes": "Core DAO governance and treasury infrastructure; primary DAO tooling platform with $35B+ governed assets",
+    "added_by": "project-a/huda-abdirahim"
+  }
 }

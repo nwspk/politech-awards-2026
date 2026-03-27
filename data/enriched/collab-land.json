@@ -55,7 +55,7 @@
   "news_articles": [],
   "academic_citations": [
     {
-      "title": "Singulariser le multiple",
+      "title": "Singulariser le\u00a0multiple",
       "year": 2021,
       "cited_by": 2,
       "doi": "https://doi.org/10.3917/mult.085.0210"
@@ -115,5 +115,10 @@
     "Discord communities",
     "Telegram communities"
   ],
-  "underdog_signal": false
+  "underdog_signal": false,
+  "dao_treasury_applicability": {
+    "applicable": "yes",
+    "notes": "Token-gated community management tool for DAOs and Web3 communities; used by DAOs for membership",
+    "added_by": "project-a/huda-abdirahim"
+  }
 }

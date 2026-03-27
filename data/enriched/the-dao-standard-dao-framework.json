@@ -85,11 +85,16 @@
     "notes": "Directly supports organizing, mobilization, or campaign activities"
   },
   "systemic_issue_area": "democratic participation access",
-  "generalizability_notes": "Highly generalizable — already deployed internationally and open source, facilitating adoption in new contexts.",
+  "generalizability_notes": "Highly generalizable \u2014 already deployed internationally and open source, facilitating adoption in new contexts.",
   "primary_users_or_beneficiaries": [
     "developers",
     "blockchain enthusiasts",
     "decentralized governance practitioners"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "dao_treasury_applicability": {
+    "applicable": "yes",
+    "notes": "Solidity DAO framework for creating and governing DAOs; directly encodes treasury management",
+    "added_by": "project-a/huda-abdirahim"
+  }
 }
