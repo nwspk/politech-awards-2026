@@ -1,0 +1,10 @@
+{
+  "fellow": "Fatima Sarah Khalid",
+  "model": "openai/gpt-4o",
+  "run": 1,
+  "timestamp": "2026-03-27T04:40:25Z",
+  "system_prompt": "see pipeline file: iterations/project-a/fatima-sarah-khalid.md",
+  "user_prompt": "shortlist of 20 projects \u2014 see pipeline file",
+  "raw_response": "The winner is Decidim. This project exemplifies a high standard of open source quality and aligns with the civic public infrastructure value by being widely deployed by governments to facilitate citizen participation. The cooperative governance model it utilizes ensures community-driven governance and seeks inclusive participation in technology shaping. Decidim's international reach and commitment to open source principles highlight its significant contribution to civic commons and AI governance.",
+  "parsed_winner": "Decidim"
+}

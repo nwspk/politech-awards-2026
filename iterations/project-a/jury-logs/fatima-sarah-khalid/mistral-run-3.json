@@ -1,0 +1,10 @@
+{
+  "fellow": "Fatima Sarah Khalid",
+  "model": "mistralai/mistral-large",
+  "run": 3,
+  "timestamp": "2026-03-27T04:37:30Z",
+  "system_prompt": "see pipeline file",
+  "user_prompt": "Please select the single project from this shortlist of 20 that best matches Fatima Sarah Khalid values and scoring criteria. State your winner clearly and explain your reasoning in 3-4 sentences.",
+  "raw_response": "**Winner: Decidim**\n\nDecidim stands out as the clear winner because it embodies nearly all of my core values. As a **genuinely open-source** platform with **cooperative governance** (Decidim Free Software Association), it treats open source as a **civic commons**\u2014actively stewarded by its community rather than controlled by a single vendor. Its **public infrastructure value** is unmatched, deployed by hundreds of governments (Barcelona, EU, Brazil) to enable **participatory democracy at scale**, aligning with my focus on **civic impact over commercialization**. While not AI-specific, its **community-driven governance** and **inclusion-by-design** approach (e.g., multilingual support, accessibility features) reflect **structural inclusion** and **developer empowerment** for public good. The project\u2019s **long-term sustainability** through cooperative ownership further cements its alignment with my criteria.",
+  "parsed_winner": "Decidim"
+}
