@@ -111,5 +111,10 @@
     "open source contributors",
     "technologists"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "dao_treasury_applicability": {
+    "applicable": "partial",
+    "notes": "Sovereign code infrastructure with Ethereum-based funding integration (Drips); used by DAO developer teams for decentralised code collaboration",
+    "added_by": "project-a/huda-abdirahim"
+  }
 }

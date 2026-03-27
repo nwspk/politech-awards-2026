@@ -22,7 +22,7 @@
     "emerging_tech"
   ],
   "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
+    "SDG 16 \u2013 Peace, Justice and Strong Institutions"
   ],
   "decade_plus": false,
   "geography": "international",
@@ -123,5 +123,10 @@
     "artists",
     "organisers"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "dao_treasury_applicability": {
+    "applicable": "partial",
+    "notes": "Decentralised technology stack for civil society; governance built into protocol layer, applicable to DAO infrastructure needs",
+    "added_by": "project-a/huda-abdirahim"
+  }
 }

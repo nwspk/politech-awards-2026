@@ -7,7 +7,7 @@
     "homepage_word_count": 844,
     "homepage_has_team_page": true,
     "homepage_has_impact_metrics": false,
-    "scraped_description": "Open Collective is a legal and financial toolbox for groups. It’s a fundraising + legal status + money management platform for your community. What do you want to do?",
+    "scraped_description": "Open Collective is a legal and financial toolbox for groups. It\u2019s a fundraising + legal status + money management platform for your community. What do you want to do?",
     "scraped_final_url": "https://opencollective.com/"
   },
   "collected_at": "2026-03-09T00:00:00Z",
@@ -121,5 +121,10 @@
     "climate initiatives",
     "grassroots organisations"
   ],
-  "underdog_signal": false
+  "underdog_signal": false,
+  "dao_treasury_applicability": {
+    "applicable": "partial",
+    "notes": "Collective financial transparency tool; off-chain but DAO-compatible fiscal hosting for projects that span on-chain and off-chain",
+    "added_by": "project-a/huda-abdirahim"
+  }
 }

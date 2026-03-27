@@ -21,7 +21,7 @@
     "govtech"
   ],
   "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
+    "SDG 16 \u2013 Peace, Justice and Strong Institutions"
   ],
   "decade_plus": false,
   "geography": "international",
@@ -116,5 +116,10 @@
     "community admins",
     "community members"
   ],
-  "underdog_signal": false
+  "underdog_signal": false,
+  "dao_treasury_applicability": {
+    "applicable": "partial",
+    "notes": "Programmable governance for online communities; applicable to DAO governance design but not DAO-native",
+    "added_by": "project-a/huda-abdirahim"
+  }
 }
