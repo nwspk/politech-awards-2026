@@ -21,7 +21,7 @@
     "civic_data"
   ],
   "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
+    "SDG 16 \u2013 Peace, Justice and Strong Institutions"
   ],
   "decade_plus": false,
   "geography": "international",
@@ -122,5 +122,9 @@
     "AI developers",
     "policymakers"
   ],
-  "underdog_signal": false
+  "underdog_signal": false,
+  "uncertainty_handling": {
+    "classification": "implicit",
+    "notes": "Presents moral trolley problems to surface cross-cultural variation in ethical intuitions. Uncertainty about universal values is the subject matter; however, the platform does not formally report confidence intervals or signal where data is insufficient."
+  }
 }

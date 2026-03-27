@@ -7,7 +7,7 @@
     "homepage_word_count": 1061,
     "homepage_has_team_page": true,
     "homepage_has_impact_metrics": false,
-    "scraped_description": "Whether you use ChatGPT, Claude or Gemini, Copilot or Perplexity – generative AI poses massive problems: many results are inaccurate and politically problematic, the systems’ energy and water consumption is enormous. At the same time, they have become an integral part of everyday life. AlgorithmWatch has developed guidelines to help use generative AI responsibly.",
+    "scraped_description": "Whether you use ChatGPT, Claude or Gemini, Copilot or Perplexity \u2013 generative AI poses massive problems: many results are inaccurate and politically problematic, the systems\u2019 energy and water consumption is enormous. At the same time, they have become an integral part of everyday life. AlgorithmWatch has developed guidelines to help use generative AI responsibly.",
     "scraped_final_url": "https://algorithmwatch.org/en/"
   },
   "collected_at": "2026-03-09T21:00:00Z",
@@ -27,9 +27,9 @@
     "democracy and public discourse"
   ],
   "sdg_alignment": [
-    "SDG 10 – Reduced Inequalities",
-    "SDG 16 – Peace, Justice and Strong Institutions",
-    "SDG 17 – Partnerships for the Goals"
+    "SDG 10 \u2013 Reduced Inequalities",
+    "SDG 16 \u2013 Peace, Justice and Strong Institutions",
+    "SDG 17 \u2013 Partnerships for the Goals"
   ],
   "decade_plus": false,
   "geography": "international",
@@ -89,7 +89,7 @@
     "Federal Ministry of Education and Research (BMBF)",
     "Federal Ministry for Environment, Nature Conservation, Nuclear Safety and Consumer Protection (BMUV)",
     "Deutsche Postcode Lotterie",
-    "Schöpflin Stiftung",
+    "Sch\u00f6pflin Stiftung",
     "Stiftung Mercator",
     "ZEIT Stiftung (fellowship, Matthias Spielkamp)",
     "Horizon Europe (FINDHR project)"
@@ -114,7 +114,7 @@
       "url": "https://algorithmwatch.org/en/ai-act/"
     },
     {
-      "headline": "Happy Birthday, Digital Services Act! – Time for a Reality Check",
+      "headline": "Happy Birthday, Digital Services Act! \u2013 Time for a Reality Check",
       "outlet": "AlgorithmWatch",
       "date": "2025-10-02",
       "url": "https://algorithmwatch.org/en/story/dsa-third-birthday-reality-check/"
@@ -132,7 +132,7 @@
       "url": "https://algorithmwatch.org/en/sexualized-images-on-x/"
     },
     {
-      "headline": "Focus Attention on Accountability for AI − not on AGI and Longtermist Abstractions",
+      "headline": "Focus Attention on Accountability for AI \u2212 not on AGI and Longtermist Abstractions",
       "outlet": "AlgorithmWatch",
       "date": "2025-09-29",
       "url": "https://algorithmwatch.org/en/positions/"
@@ -164,7 +164,7 @@
       "recipient": "Matthias Spielkamp / AlgorithmWatch"
     },
     {
-      "name": "Grimme Online Award – shortlist",
+      "name": "Grimme Online Award \u2013 shortlist",
       "year": 2019,
       "recipient": "AlgorithmWatch"
     },
@@ -178,12 +178,12 @@
   "wikipedia_page": false,
   "policy_outcomes": [
     {
-      "description": "Mandatory Fundamental Rights Impact Assessment (FRIA) included in EU AI Act for high-risk AI deployments by public authorities — AlgorithmWatch cites this as direct result of three years of civil society advocacy it led or co-led.",
+      "description": "Mandatory Fundamental Rights Impact Assessment (FRIA) included in EU AI Act for high-risk AI deployments by public authorities \u2014 AlgorithmWatch cites this as direct result of three years of civil society advocacy it led or co-led.",
       "link": "https://algorithmwatch.org/en/ai-act-fails-to-set-gold-standard-for-human-rights/",
       "year": 2024
     },
     {
-      "description": "Deployer transparency obligations in EU AI Act (public-sector deployers of high-risk AI required to register use and publish FRIA summaries) — AlgorithmWatch reports successfully persuading decision-makers on this requirement.",
+      "description": "Deployer transparency obligations in EU AI Act (public-sector deployers of high-risk AI required to register use and publish FRIA summaries) \u2014 AlgorithmWatch reports successfully persuading decision-makers on this requirement.",
       "link": "https://algorithmwatch.org/en/ai-act-fails-to-set-gold-standard-for-human-rights/",
       "year": 2024
     },
@@ -222,7 +222,7 @@
   ],
   "governance_model": "foundation",
   "curation_criteria": "Evidence-based, non-partisan; accepts funding only where it does not compromise ability to address issues freely; adheres to Transparency International Germany's Initiative Transparente Zivilgesellschaft",
-  "contributor_governance": "gGmbH (charitable limited liability company) structure; three shareholders (Christina Elmer, Angela Müller, Matthias Spielkamp); supervisory board includes Sabine Leutheusser-Schnarrenberger",
+  "contributor_governance": "gGmbH (charitable limited liability company) structure; three shareholders (Christina Elmer, Angela M\u00fcller, Matthias Spielkamp); supervisory board includes Sabine Leutheusser-Schnarrenberger",
   "disparity_tracking": true,
   "community_ownership": "Shareholder-governed gGmbH; supporting membership open to the public but no community ownership of legal entity",
   "elections_used_in": [
@@ -255,7 +255,7 @@
     },
     {
       "partner": "Global Partnership on AI (GPAI)",
-      "nature": "membership 2020–2022 (Matthias Spielkamp)",
+      "nature": "membership 2020\u20132022 (Matthias Spielkamp)",
       "country": "international"
     },
     {
@@ -289,5 +289,9 @@
     "civic technology researchers",
     "civil society organizations"
   ],
-  "underdog_signal": false
+  "underdog_signal": false,
+  "uncertainty_handling": {
+    "classification": "explicit",
+    "notes": "Research outputs systematically document what algorithmic systems fail to measure, misclassify, or obscure. AlgorithmWatch's core methodology is identifying and naming blind spots \u2014 it treats unmeasurability as the primary research question."
+  }
 }

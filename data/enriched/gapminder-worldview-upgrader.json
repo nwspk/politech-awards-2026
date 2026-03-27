@@ -13,7 +13,7 @@
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "Gapminder Worldview Upgrader",
-  "tagline": "Important stuff most people get wrong — a free educational tool to help people rid themselves of common systematic misconceptions about global development",
+  "tagline": "Important stuff most people get wrong \u2014 a free educational tool to help people rid themselves of common systematic misconceptions about global development",
   "project_type": "Tool/Platform",
   "org_type": "Nonprofit/charity",
   "issue_area": [
@@ -107,7 +107,7 @@
   "pass5_at": "2026-03-10T01:04:13.108Z",
   "pass5_jina_words": 177,
   "pass5_changes": [],
-  "political_relevance_summary": "Gapminder Worldview Upgrader addresses combating misinformation and protecting information integrity. Important stuff most people get wrong — a free educational tool to help people rid themselves of common systematic misconceptions about global development.",
+  "political_relevance_summary": "Gapminder Worldview Upgrader addresses combating misinformation and protecting information integrity. Important stuff most people get wrong \u2014 a free educational tool to help people rid themselves of common systematic misconceptions about global development.",
   "movement_building_utility": {
     "classification": "indirect_or_none",
     "notes": "Indirect civic tech relevance; not primarily a movement-building tool."
@@ -121,5 +121,9 @@
     "policymakers",
     "corporate learners"
   ],
-  "underdog_signal": false
+  "underdog_signal": false,
+  "uncertainty_handling": {
+    "classification": "explicit",
+    "notes": "Core design is teaching that intuitions about global data are systematically miscalibrated. Explicitly surfaces the gap between perceived and actual statistics; the whole product is an uncertainty-correction exercise."
+  }
 }

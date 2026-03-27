@@ -21,7 +21,7 @@
     "emerging_tech"
   ],
   "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
+    "SDG 16 \u2013 Peace, Justice and Strong Institutions"
   ],
   "decade_plus": false,
   "geography": "international",
@@ -137,5 +137,9 @@
     "forecasters",
     "policymakers"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "uncertainty_handling": {
+    "classification": "explicit",
+    "notes": "Tracks calibration scores and Brier scores per forecaster and question; uncertainty is the core measurable artifact of the platform \u2014 every question has a probability distribution, not a binary answer. Explicitly surfaces overconfidence through resolution feedback."
+  }
 }

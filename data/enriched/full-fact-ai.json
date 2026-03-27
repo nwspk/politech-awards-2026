@@ -7,7 +7,7 @@
     "homepage_word_count": 1470,
     "homepage_has_team_page": true,
     "homepage_has_impact_metrics": true,
-    "scraped_description": "Full Fact is the UK’s independent fact checking charity",
+    "scraped_description": "Full Fact is the UK\u2019s independent fact checking charity",
     "scraped_final_url": "https://fullfact.org/ai/"
   },
   "collected_at": "2026-03-09T23:21:13.445Z",
@@ -117,5 +117,9 @@
     "platforms",
     "public policy makers"
   ],
-  "underdog_signal": false
+  "underdog_signal": false,
+  "uncertainty_handling": {
+    "classification": "explicit",
+    "notes": "Fact-checking platform that distinguishes verified claims, unverified claims, and contested claims. Explicitly marks uncertainty in claim status; does not present checks as binary true/false where evidence is insufficient. Acknowledges limits of automated fact-checking."
+  }
 }

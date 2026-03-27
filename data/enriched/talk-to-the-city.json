@@ -22,7 +22,7 @@
     "emerging_tech"
   ],
   "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
+    "SDG 16 \u2013 Peace, Justice and Strong Institutions"
   ],
   "decade_plus": false,
   "geography": "international",
@@ -134,5 +134,9 @@
     "peacebuilders",
     "mediators"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "uncertainty_handling": {
+    "classification": "implicit",
+    "notes": "LLM sensemaking preserves qualitative nuance rather than quantising it away. Uncertainty is implicit in the cluster labels and theme summaries, which require human interpretation. Does not explicitly surface confidence intervals or signal limits."
+  }
 }

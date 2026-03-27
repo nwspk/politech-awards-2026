@@ -120,5 +120,9 @@
     "civil society",
     "citizens participating in democratic processes"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "uncertainty_handling": {
+    "classification": "explicit",
+    "notes": "Matrix factorisation surfaces statistical uncertainty (opinion clusters that lack clear structure are left unresolved, not falsely assigned). Documented limitations include facilitation bias and participation gaps. The platform acknowledges it maps opinion space rather than prescribing truth."
+  }
 }
