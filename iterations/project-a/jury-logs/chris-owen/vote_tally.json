@@ -1,0 +1,33 @@
+{
+  "results": {
+    "claude": [
+      "Humble Data Workshop",
+      "Humble Data Workshop",
+      "Humble Data Workshop"
+    ],
+    "gpt4o": [
+      "Humble Data Workshop",
+      "Humble Data Workshop",
+      "Humble Data Workshop"
+    ],
+    "mistral": [
+      "Humble Data Workshop",
+      "Humble Data Workshop",
+      "Humble Data Workshop"
+    ],
+    "llama3": [
+      "Humble Data Workshop",
+      "Humble Data Workshop",
+      "Humble Data Workshop"
+    ],
+    "gemini": [
+      "Humble Data Workshop",
+      "Humble Data Workshop",
+      "UNKNOWN"
+    ]
+  },
+  "tally": {
+    "Humble Data Workshop": 14,
+    "UNKNOWN": 1
+  }
+}
