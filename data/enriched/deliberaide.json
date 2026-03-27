@@ -22,7 +22,7 @@
     "emerging_tech"
   ],
   "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
+    "SDG 16 \u2013 Peace, Justice and Strong Institutions"
   ],
   "decade_plus": false,
   "geography": "international",
@@ -104,5 +104,7 @@
     "communities",
     "citizens"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "consensus_mechanism": "facilitated_dialogue",
+  "consensus_mechanism_added_by": "project-a/alessandro-pedori"
 }

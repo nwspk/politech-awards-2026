@@ -120,5 +120,7 @@
     "civil society",
     "citizens participating in democratic processes"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "consensus_mechanism": "consensus_finding",
+  "consensus_mechanism_added_by": "project-a/alessandro-pedori"
 }

@@ -13,7 +13,7 @@
   "collected_at": "2026-03-09T22:00:00Z",
   "collected_by": "nano-bot",
   "name": "Ethelo",
-  "tagline": "The world's leading group solutions technology — a multi-party scenario analysis engine that finds fair solutions with broad support.",
+  "tagline": "The world's leading group solutions technology \u2014 a multi-party scenario analysis engine that finds fair solutions with broad support.",
   "project_type": "Tool/Platform",
   "org_type": "For-profit/social enterprise",
   "issue_area": [
@@ -65,7 +65,7 @@
   "funding_verified": false,
   "last_funding_event": "2021",
   "dependency_risks": [
-    "Commercial SaaS model — access dependent on ongoing contracts",
+    "Commercial SaaS model \u2014 access dependent on ongoing contracts",
     "Small GitHub presence for open-source components"
   ],
   "news_articles": [],
@@ -85,7 +85,7 @@
   ],
   "awards": [
     "B Corp Certified (2021)",
-    "B Corp Best for the World — Governance Impact (2021)"
+    "B Corp Best for the World \u2014 Governance Impact (2021)"
   ],
   "in_civictech_guide": false,
   "wikipedia_page": false,
@@ -145,7 +145,7 @@
   "pass5_at": "2026-03-10T00:46:13.683Z",
   "pass5_jina_words": 19,
   "pass5_changes": [],
-  "political_relevance_summary": "Ethelo addresses democratic participation and citizen engagement. The world's leading group solutions technology — a multi-party scenario analysis engine that finds fair solutions with broad support.",
+  "political_relevance_summary": "Ethelo addresses democratic participation and citizen engagement. The world's leading group solutions technology \u2014 a multi-party scenario analysis engine that finds fair solutions with broad support.",
   "movement_building_utility": {
     "classification": "direct_organizer_tool",
     "notes": "Platform for participatory democracy or deliberation that enables collective action."
@@ -160,5 +160,7 @@
     "public sector agencies",
     "residents"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "consensus_mechanism": "consensus_finding",
+  "consensus_mechanism_added_by": "project-a/alessandro-pedori"
 }
