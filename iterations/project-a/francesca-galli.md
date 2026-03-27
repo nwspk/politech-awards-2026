@@ -58,26 +58,26 @@ She'd likely be impatient with purely technical tools with no accessible layer �
 
 | Rank | Project | Why it fits |
 |---|---|---|
-| 1 | Vote for Policies | Blind policy comparison tool — makes partisan voting legible to ordinary voters; clear, elegant civic design |
-| 2 | Polis | Open deliberation platform; surfaces collective opinion visually; accessible to non-experts; used in real civic contexts |
-| 3 | Gapminder Worldview Upgrader | Free educational tool correcting civic misconceptions — interdisciplinary, accessible, data+narrative |
-| 4 | Full Fact AI | AI fact-checking as public civic infrastructure; accessible; bridges data and public discourse |
-| 5 | Talk to the City | LLM qualitative sensemaking — translates community voices into legible visualisations; interdisciplinary |
-| 6 | Humble Data Workshop | Free data science workshops for underrepresented groups; civic data accessibility |
-| 7 | DoGooder | Civic advocacy platform for grassroots campaigns; empowers non-specialist civic actors |
+| 1 | [Vote for Policies](https://voteforpolicies.org.uk) | Blind policy comparison tool — makes partisan voting legible to ordinary voters; clear, elegant civic design |
+| 2 | [Polis](https://github.com/compdemocracy/polis) | Open deliberation platform; surfaces collective opinion visually; accessible to non-experts; used in real civic contexts |
+| 3 | [Gapminder Worldview Upgrader](https://upgrader.gapminder.org) | Free educational tool correcting civic misconceptions — interdisciplinary, accessible, data+narrative |
+| 4 | [Full Fact AI](https://fullfact.org/ai) | AI fact-checking as public civic infrastructure; accessible; bridges data and public discourse |
+| 5 | [Talk to the City](https://talktothecity.org) | LLM qualitative sensemaking — translates community voices into legible visualisations; interdisciplinary |
+| 6 | [Humble Data Workshop](https://humbledata.org) | Free data science workshops for underrepresented groups; civic data accessibility |
+| 7 | [DoGooder](https://dogooder.co) | Civic advocacy platform for grassroots campaigns; empowers non-specialist civic actors |
 | 8 | DataKind | Data science for social good organisations — directly linked to her volunteering; interdisciplinary civic data |
-| 9 | Participedia | Global crowdsourced democratic participation database; comparative civic engagement across Europe |
-| 10 | Missing Numbers | Campaigns for gaps in public data — civic advocacy + data narrative |
-| 11 | TheyWorkForYou | Parliamentary transparency made accessible to ordinary citizens |
-| 12 | Decidim | Open civic participation platform with visual process design; European origin aligns with her Italian political tradition |
-| 13 | Open Data Editor | No-code data tool making civic data accessible to non-specialists |
-| 14 | Cortico | AI-assisted sensemaking of community dialogue; narrative from data |
-| 15 | New Public Roundabout | Local neighbourhood forum with thoughtful UX design; civic engagement at human scale |
-| 16 | Go Vocal | Government engagement platform — accessible civic participation design |
-| 17 | Agencies for Good | Community of tech-for-good consultancies; aligns with her dual identity as consultant + civic volunteer |
-| 18 | Organise | Workers' collective action network; grassroots, accessible, solidarity-based |
-| 19 | Creative Commons | Intellectual commons for creative work — bridges her artistic and civic worlds |
-| 20 | Open Heart Mind (OHM) | Participatory gatherings and peer evaluation; human-centred, community-led |
+| 9 | [Participedia](https://participedia.net) | Global crowdsourced democratic participation database; comparative civic engagement across Europe |
+| 10 | [Missing Numbers](https://missingnumbers.org) | Campaigns for gaps in public data — civic advocacy + data narrative |
+| 11 | [TheyWorkForYou](https://www.theyworkforyou.com) | Parliamentary transparency made accessible to ordinary citizens |
+| 12 | [Decidim](https://decidim.org) | Open civic participation platform with visual process design; European origin aligns with her Italian political tradition |
+| 13 | [Open Data Editor](https://okfn.org/en/projects/open-data-editor/) | No-code data tool making civic data accessible to non-specialists |
+| 14 | [Cortico](https://cortico.ai/platform) | AI-assisted sensemaking of community dialogue; narrative from data |
+| 15 | [New Public Roundabout](https://newpublic.substack.com/p/introducing-roundabout-built-for) | Local neighbourhood forum with thoughtful UX design; civic engagement at human scale |
+| 16 | [Go Vocal](https://www.govocal.com) | Government engagement platform — accessible civic participation design |
+| 17 | [Agencies for Good](https://www.agenciesforgood.org) | Community of tech-for-good consultancies; aligns with her dual identity as consultant + civic volunteer |
+| 18 | [Organise](https://www.organise.org.uk) | Workers' collective action network; grassroots, accessible, solidarity-based |
+| 19 | [Creative Commons](https://creativecommons.org) | Intellectual commons for creative work — bridges her artistic and civic worlds |
+| 20 | [Open Heart Mind (OHM)](https://openheartmind.org) | Participatory gatherings and peer evaluation; human-centred, community-led |
 
 ## Proposed winner
 
