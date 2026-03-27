@@ -22,7 +22,7 @@
     "govtech"
   ],
   "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
+    "SDG 16 \u2013 Peace, Justice and Strong Institutions"
   ],
   "decade_plus": false,
   "geography": "international",
@@ -108,5 +108,13 @@
     "civil society",
     "civic technology researchers"
   ],
-  "underdog_signal": false
+  "underdog_signal": false,
+  "ai_governance_dimension": {
+    "is_primary": true,
+    "type": [
+      "civil_society_participation",
+      "regulatory_transparency"
+    ],
+    "scope": "global"
+  }
 }

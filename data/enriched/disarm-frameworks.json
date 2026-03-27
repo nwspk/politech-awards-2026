@@ -100,7 +100,7 @@
   "outcome_methodology": "Framework adoption and integration into operational platforms (NATO, EU, MISP); no formal impact evaluation published",
   "replication_materials_available": true,
   "documented_limitations": [
-    "Blue Framework includes TTPs observed in authoritarian contexts — companion guide advises caution",
+    "Blue Framework includes TTPs observed in authoritarian contexts \u2014 companion guide advises caution",
     "each user must assess ethical/legal appropriateness of countermeasures independently"
   ],
   "jurisdictional_scope": "international",
@@ -157,5 +157,12 @@
     "information security analysts",
     "civil society organisations"
   ],
-  "underdog_signal": false
+  "underdog_signal": false,
+  "ai_governance_dimension": {
+    "is_primary": false,
+    "type": [
+      "technical_standards"
+    ],
+    "scope": "global"
+  }
 }

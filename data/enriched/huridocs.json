@@ -77,10 +77,10 @@
     "Temenos",
     "Silicon Valley Community Foundation",
     "Principality of Liechtenstein Office for Foreign Affairs",
-    "Ville de Genève",
-    "République et canton de Genève",
+    "Ville de Gen\u00e8ve",
+    "R\u00e9publique et canton de Gen\u00e8ve",
     "Embassy of Switzerland in Ukraine",
-    "Däster-Schild Stiftung",
+    "D\u00e4ster-Schild Stiftung",
     "Capital Group",
     "Irene M. Staehelin Stiftung"
   ],
@@ -174,5 +174,13 @@
     "journalists",
     "accountability bodies"
   ],
-  "underdog_signal": false
+  "underdog_signal": false,
+  "ai_governance_dimension": {
+    "is_primary": false,
+    "type": [
+      "liability_enforcement",
+      "regulatory_transparency"
+    ],
+    "scope": "global"
+  }
 }

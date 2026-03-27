@@ -22,7 +22,7 @@
     "digital_rights"
   ],
   "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions"
+    "SDG 16 \u2013 Peace, Justice and Strong Institutions"
   ],
   "decade_plus": true,
   "geography": "international",
@@ -122,12 +122,20 @@
     "notes": "Amplifies civic voice or facilitates contact with decision-makers"
   },
   "systemic_issue_area": "civic advocacy infrastructure",
-  "generalizability_notes": "Highly generalizable — already deployed internationally and open source, facilitating adoption in new contexts.",
+  "generalizability_notes": "Highly generalizable \u2014 already deployed internationally and open source, facilitating adoption in new contexts.",
   "primary_users_or_beneficiaries": [
     "human rights researchers",
     "journalists",
     "war crimes investigators",
     "NGOs"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "ai_governance_dimension": {
+    "is_primary": false,
+    "type": [
+      "liability_enforcement",
+      "algorithmic_accountability"
+    ],
+    "scope": "global"
+  }
 }

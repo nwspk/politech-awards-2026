@@ -23,8 +23,8 @@
     "advocacy_tech"
   ],
   "sdg_alignment": [
-    "SDG 16 – Peace, Justice and Strong Institutions",
-    "SDG 17 – Partnerships for the Goals"
+    "SDG 16 \u2013 Peace, Justice and Strong Institutions",
+    "SDG 17 \u2013 Partnerships for the Goals"
   ],
   "decade_plus": false,
   "geography": "international",
@@ -108,5 +108,12 @@
     "advocates",
     "civic tech practitioners"
   ],
-  "underdog_signal": false
+  "underdog_signal": false,
+  "ai_governance_dimension": {
+    "is_primary": false,
+    "type": [
+      "civil_society_participation"
+    ],
+    "scope": "global"
+  }
 }

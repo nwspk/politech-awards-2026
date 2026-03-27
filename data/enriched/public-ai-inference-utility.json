@@ -169,5 +169,13 @@
     "civic technology researchers",
     "public institutions"
   ],
-  "underdog_signal": true
+  "underdog_signal": true,
+  "ai_governance_dimension": {
+    "is_primary": false,
+    "type": [
+      "compute_governance",
+      "civil_society_participation"
+    ],
+    "scope": "global"
+  }
 }
