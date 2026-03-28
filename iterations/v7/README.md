@@ -1,7 +1,7 @@
 ---
 title: "v7: Davit-aligned political relevance heuristic"
 author: "@sugaroverflow"
-date: "2026-03-27"
+date: "2026-03-28"
 pr_url: "https://github.com/nwspk/politech-awards-2026/pull/20"
 version: v7
 pr_number: 20
