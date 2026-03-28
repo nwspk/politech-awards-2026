@@ -1,65 +1,77 @@
-# Jury Summary
-## Evaluator: Nicholas Botti
-## Date: 2026-03-28
+# Jury Summary — Nicholas Botti
+## Project Mirror v2 — Aggregated
 
----
+Projects with jury scores: 136
+Projects where all models abstained: 185
+Mean jury score: 63.1
+Score range: 28.0–91.0
 
-### Important Note on Jury Data Quality
+## Panel Overview
 
-OpenRouter API credit exhaustion (HTTP 402) limited jury data. Only select runs per model contain real scores:
+| Model | Role | Runs | Real API | Avg scored/run | Stability |
+|---|---|---|---|---|---|
+| GPT-4.1 | Progressive anchor | 5 | all 5 | ~135/321 | HIGH |
+| Claude Opus 4 | Centrist proceduralist | 5 | all 5 | ~134/321 | HIGH |
+| Gemini 2.5 Pro | Institutionalist | 5 | all 5 | ~125/321 | MEDIUM |
+| Mistral Large | European civic-rights | 5 | all 5 | ~131/321 | HIGH |
+| Grok 4 | Disruption-sceptic | 5 | all 5 | ~133/321 | HIGH |
 
-| Model | Good Runs | Projects Scored | Runs Failed |
+## (A) Constitution-Jury Rank Gap (top 20)
+
+| Project | Constitutional rank | Jury rank | Gap | Direction |
+|---|---|---|---|---|
+| www.whatgov.co.uk | 279 | 42 | 237 | Jury ranked higher |
+| www.papertree.earth | 314 | 78 | 236 | Jury ranked higher |
+| www.meet.coop | 291 | 60 | 231 | Jury ranked higher |
+| www.martus.org | 298 | 85 | 213 | Jury ranked higher |
+| channel.org | 280 | 71 | 209 | Jury ranked higher |
+| ddocs.new | 299 | 92 | 207 | Jury ranked higher |
+| whoisology.com | 312 | 114 | 198 | Jury ranked higher |
+| docs.plus | 273 | 79 | 194 | Jury ranked higher |
+| urbit.org | 289 | 95 | 194 | Jury ranked higher |
+| aisafety.info | 228 | 37 | 191 | Jury ranked higher |
+| charmverse.io | 300 | 110 | 190 | Jury ranked higher |
+| www.workincharities.co.uk | 318 | 131 | 187 | Jury ranked higher |
+| www.shineyoureye.org | 255 | 69 | 186 | Jury ranked higher |
+| dunadyne.org | 302 | 116 | 186 | Jury ranked higher |
+| civicmatch.app | 307 | 122 | 185 | Jury ranked higher |
+| turkopticon.ucsd.edu | 217 | 35 | 182 | Jury ranked higher |
+| dovetail.network | 293 | 111 | 182 | Jury ranked higher |
+| collab.land | 310 | 128 | 182 | Jury ranked higher |
+| www.openorigins.com | 288 | 108 | 180 | Jury ranked higher |
+| filmot.com | 294 | 120 | 174 | Jury ranked higher |
+
+## (B) Inter-Model Disagreement (top 15)
+
+| Project | Stdev | GPT-4.1 | Claude Opus 4 | Gemini 2.5 Pro | Mistral Large | Grok 4 |
+|---|---|---|---|---|---|---|
+| greenpt.ai | 20.1 | 51 | 35 | 11 | 65 | 38 |
+| www.papertree.earth | 18.9 | 84 | 35 | 50 | 70 | 65 |
+| mapping.kids | 16.4 | 62 | 35 | 28 | 65 | 45 |
+| service-manual | 15.4 | 74 | 70 | 90 | N/A | 52 |
+| radicle.xyz | 15.2 | 79 | 42 | 53 | 72 | 53 |
+| find-local-consultations | 15.0 | 67 | 62 | 79 | 78 | 42 |
+| local-deep-researcher-hnmh.vercel.a | 15.0 | 60 | 32 | 20 | 45 | 35 |
+| en | 14.7 | 41 | 28 | 16 | 55 | 28 |
+| objector.ai | 14.6 | 57 | 38 | 22 | 55 | 35 |
+| channel.org | 14.4 | 78 | 45 | 46 | 68 | 65 |
+| www.donotpay.com | 14.3 | 48 | 33 | 10 | 40 | 40 |
+| hand-written-petition-scanner.strea | 14.2 | 64 | 38 | 28 | 55 | 42 |
+| aisafety.info | 14.1 | 74 | 58 | 49 | 82 | 78 |
+| sci-hub.se | 13.8 | 70 | 38 | 35 | 50 | 51 |
+| ddocs.new | 13.6 | 70 | 35 | 51 | 55 | 65 |
+
+## Top 10 by jury score
+
+| Rank | Project | Jury score | Constitutional rank |
 |---|---|---|---|
-| gpt41 | 3 (runs 1–3) | ~135/run | Runs 4–5: 402 errors |
-| claude | 1 (run 1) | 130/321 | Runs 2–5: 402 errors |
-| grok4 | 2 (runs 1–2) | ~134/run | Runs 3–5: 402 errors |
-| mistral | 1 (run 1) | 132/321 | Runs 2–5: 402 errors |
-| gemini | 0 | 0/321 | All runs failed (parse + 402 errors) |
-
-Effective jury panel: **GPT-4.1 (3 runs), Grok4 (2 runs), Claude (1 run), Mistral (1 run)** — 7 good run files total. Gemini excluded entirely.
-
-Jury score computed as mean of model medians across good runs per project. Coverage: **133 of 321 projects** have jury scores (URL matching against dossier data).
-
----
-
-### A. Constitution-Jury Rank Gap
-
-Gap = jury_rank − const_rank. Positive = jury ranks the project higher (familiarity inflation suspect). Negative = constitution ranks higher.
-
-**Jury ranked much higher (gap > 10):**
-- **Cortico**: C#16, J#90, Gap +74 — jury models see deliberative tech value; constitution flags thin deployment evidence
-- **Overton**: C#56, J#92, Gap +36 — policy tracking tool; jury rewards accessibility, constitution penalises narrow scope
-- **Gender Pay Gap Service**: C#66, J#88, Gap +22 — known UK government service; jury familiarity inflates score vs constitutional infrastructure weight
-
-**Jury ranked much lower (constitution ranks higher):**
-- **meet.coop**: C#291, J#24, Gap −267 — jury models rate cooperative infra highly; constitution penalises absence of regulatory/AI governance framing
-- **WhatGov**: C#279, J#30, Gap −249 — parliamentary accountability tool; jury rewards civic transparency value
-- **Papertree**: C#314, J#75, Gap −239 — constitution scores near-zero (thin dossier, no AI angle); jury models see open-access value
-
-The large negative gaps reflect the constitution's sharp penalisation of projects without AI institutional safety or regulatory infrastructure hooks — jury models apply more general civic tech criteria.
-
----
-
-### B. Inter-Model Agreement
-
-7 good run files across 4 models. Projects scored by all 4 models: ~133 projects. Score correlation high within GPT-4.1's 3 runs (expected). Cross-model spread wider: GPT-4.1 tends to reward well-documented projects most; Claude and Mistral show more variance on niche tools.
-
-### C. Coverage
-
-- Projects with jury scores: **133/321** (41%)
-- Not scored: 188 projects — primarily due to URL mismatches between ranking-table.csv (uses canonical/GitHub URLs) and dossier filenames
-- Gemini excluded (0 valid runs)
-
-### D. Rank Stability
-
-GPT-4.1: 3 runs available — scores consistent within ±3 points for most projects. Grok4: 2 runs — similar consistency. Claude and Mistral: single runs each; stability unmeasurable.
-
----
-
-### Summary
-
-Constitutional winner: **AlgorithmWatch** (87.5/100)
-Jury top: **Wikidata** (jury score 88.5, all 4 models agree)
-Jury #2 constitutional winner: AlgorithmWatch ranks #4 in jury (84.6)
-
-The constitution and jury broadly agree on the top tier. Main divergence: the constitution punishes absence of AI/regulatory framing severely; jury models apply broader civic value criteria.
+| 1 | www.wikidata.org | 91.0 | 69 |
+| 2 | openprocurement.io | 88.0 | 6 |
+| 3 | matrix.org | 87.0 | 3 |
+| 4 | www.opencrvs.org | 87.0 | 49 |
+| 5 | mastodon | 86.5 | 9 |
+| 6 | alaveteli.org | 85.0 | 38 |
+| 7 | algorithmwatch.org | 85.0 | 1 |
+| 8 | ckan.org | 85.0 | 13 |
+| 9 | decidim.org | 85.0 | 7 |
+| 10 | liquidfeedback.com | 85.0 | 15 |
