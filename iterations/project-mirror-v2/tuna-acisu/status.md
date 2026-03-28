@@ -20,4 +20,4 @@
 [STEP 6e] STATUS: done | output: ranking-table.csv (all 321 projects)
 [STEP 7] STATUS: done | output: reflection.md
 [STEP 8] STATUS: done | output: agent-notes.md
-[STEP PR] STATUS: in-progress | branch: project-mirror-v2/tuna-acisu
+[STEP PR] STATUS: done | PR #79 https://github.com/nwspk/politech-awards-2026/pull/79 (draft)
