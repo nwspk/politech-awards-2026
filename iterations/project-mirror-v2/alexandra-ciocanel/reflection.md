@@ -1,49 +1,36 @@
-# Reflective Analysis -- Alexandra Ciocanel
-## Project Mirror v2 -- Step 7: mirror-reflective
+# Project Mirror v2 — Reflection
+## Evaluator: Alexandra Ciocanel
+## Agent: mirror-reflective
 ## Date: 2026-03-28
 
 ---
 
-## What Alexandra would champion
+## What Alexandra Ciocanel Would Champion
 
-- **Algorithmic accountability watchdogs** -- Projects like AlgorithmWatch (rank 2, score 94.8) and Worker Info Exchange (rank 1, score 96.0) that build enforcement mechanisms for algorithmic accountability score highest because they directly address the absence of redress mechanisms her research documents. The contestability modifier (M1) amplifies scores when projects create formal challenge pathways.
+Alexandra would champion projects that close what her research names as the core structural gap: algorithmic systems make decisions about people's access to housing, credit, welfare, and justice, and those people currently have no meaningful mechanism to challenge those decisions. The near-perfect project under her constitution has three things at once: it builds formal contestability (not just transparency — actual appeal rights, audit access, enforcement power); it targets the specific populations her research centres — young people, migrants, people with adverse credit histories, those in precarious employment — by naming the categorical mechanism that excludes them; and it has done enough user research with those populations to understand how the exclusion actually operates in their lives rather than assuming it from the outside. AlgorithmWatch scores highest partly because it fits all three dimensions, but more interestingly because it does so through monitoring and documentation work that produces the public record people need to challenge decisions. Projects like OpenCRVS (if it appeared in the longlist) would also do well — statelessness is precisely the kind of categorical exclusion her framework is built to see. Under the ranking produced here, the projects that cluster at the top — AlgorithmWatch, Cybersecurity for Democracy, Open Supply Hub — share a commitment to accountability infrastructure and public transparency, even if not all of them centre the specific excluded populations her Criterion 2 asks for. The ideal shortlist for Alexandra would look different from the actual top 20 if we had better dossier data on projects serving algorithmically excluded communities that are currently under-documented.
 
-- **Housing and tenant technology** -- Landlord Tech Watch (rank 4, score 88.0) and Marks Out of Tenancy (rank 10, score 67.0) connect directly to her Nuffield-funded research on algorithmic risk-profiling in housing. Projects that name "tenants" or "residents" as specifically excluded populations trigger both Criterion 2 (centring excluded communities) and Modifier 3 (specific exclusion mechanism).
+---
 
-- **Community-designed public service tools** -- OpenCRVS (rank 7, score 69.0) and similar projects with documented co-design processes and government deployment score well on Criterion 5 (HCD in public services) and Modifier 5 (community involvement in design). Her MoJ Senior User Researcher role grounds this emphasis.
+## What Alexandra Ciocanel Would Discount
 
-- **Participatory governance platforms with accountability layers** -- Framework for Meaningful Engagement 2.0 (rank 3, score 89.5) scores highly because it addresses the structural gap between consultation and accountability that her research identifies.
+Alexandra's constitution has limited patience for three types of projects. First: projects that claim to empower communities through data access without examining whether that data access translates into power. The Open Banking paper is her argument in full: giving tenants access to a portal that shares their banking data with landlords is framed as empowerment but is structurally an expansion of profiling. Projects in the "open data," "data access," and "data literacy" space face Modifier 2 scrutiny — are they genuinely shifting power toward communities, or are they expanding the data surface that institutions can act on? Second: projects that frame themselves as serving "citizens" or "the public" without specificity. The distinction between "serves disadvantaged communities" and "serves people excluded by the categorical assumption that employment equals creditworthiness" is the distinction her career is built on. Generic equity framing — however genuinely motivated — doesn't fire Criterion 2 strongly. Third: projects in the civic deliberation and participatory democracy space — Decidim, Polis, and similar — score only medium under this constitution despite being well-regarded in the field. There's no dedicated criterion for deliberative quality. This is a genuine gap in the constitution, and the ranking likely undervalues these projects relative to their actual civic importance.
 
-- **Whistleblower and transparency infrastructure** -- Projects like SecureDrop and HURIDOCS that enable people to challenge institutional power score on Criterion 1 (accountability infrastructure) even when they serve journalists rather than directly affected communities.
+---
 
-## What Alexandra would discount
+## Constitutional Failure Mode
 
-- **Pure information-access tools** -- arXiv (rank 296), Sci-Hub, Anna's Archive: knowledge access is important but does not create accountability mechanisms for algorithmic systems. Her constitution does not reward open access per se.
+The constitution cannot see the value of civic technology that addresses political problems outside the accountability-for-algorithmic-harm frame. Projects working on electoral integrity, campaign finance transparency, legislative tracking, media literacy, or participatory budgeting map only partially onto the criteria — they score on Criterion 4 (critical engagement with transparency claims), perhaps on Criterion 3 (qualitative grounding), but the two highest-weight criteria (algorithmic accountability, exclusion by categorical mechanism) are structurally designed for a different problem domain. The failure mode is not that Alexandra doesn't value democracy and political participation — her bio names democratic participation as a specialism — but that the evidence base for inferring her specific evaluative stance on election technology, disinformation, or campaign finance is thin. The constitution was built from her published research, which is squarely in the algorithmic housing and credit space. Applied to the full 321-project longlist, this produces a systematic under-valuing of political participation tools relative to algorithmic accountability tools, and a systematic over-valuing of public-service-adjacent AI governance work. The missing criterion is something like: "does this project create or protect structures by which people can participate in the political decisions that shape their lives?" — but we lack the evidence to weight it correctly.
 
-- **Blockchain/DAO governance tools** -- Aragon (rank 301), Radicle, and similar projects that build governance for token holders rather than communities excluded by public service algorithms. Modifier 6 (purely technical) applies.
+---
 
-- **AI safety education** -- AISafety.info (rank 320) and similar educational resources serve researchers, not communities affected by algorithmic harm. General AI safety does not engage with the specific accountability gap she researches.
+## Reaction Questions
 
-- **Generic civic participation platforms** -- Platforms that serve "citizens" or "the public" without naming specific excluded populations score poorly on Criterion 2. CivicMatch, CivicPress, and similar tools fall here.
+> 1. Your constitution gives its highest weight to contestability — the right of affected people to formally challenge an automated decision. Looking at the top 10 projects here, several rank high on accountability framing but you'd probably want to ask: which of them create genuine contestability (a structured mechanism that produces a different outcome) versus legibility (a better explanation of a decision that still stands)? Do you think that distinction holds in practice, or are legibility tools a necessary precondition for contestability?
 
-- **Data empowerment without governance** -- Projects that frame data access as empowerment without addressing whether affected people can act on that data trigger Modifier 2 (surveillance/empowerment frame reduction). Her Open Banking research specifically critiques this pattern.
+> 2. Modifier 2 applies a reduction to projects that frame expanded data collection as empowerment. Your Open Banking research is the direct evidence for it. Looking at the lower-ranked projects in the data and digital literacy space — do you think that modifier fires correctly, or does it over-penalise some projects that are genuinely attempting community data control even if they fall short of it?
 
-## Constitutional failure mode
+> 3. The constitution has no dedicated criterion for civic participation or deliberative democracy tools — tools like Decidim, Polis, or participatory budgeting platforms sit mid-table. Your bio names democratic participation as a specialism, but the evidence base from your publications is almost entirely in the algorithmic housing/credit space. If you were weighting your own constitution, would deliberative quality be its own criterion, or would it be a modifier on top of community-centring (Criterion 2)?
 
-The constitution's central weakness is its narrowness. Alexandra's research is deep but focused: algorithmic accountability in UK housing and public services, with ethnographic methods as the epistemological foundation. This means the constitution systematically undervalues projects addressing other important political technology domains -- media literacy, election integrity, environmental data, cooperative infrastructure -- unless they happen to intersect with algorithmic accountability or community exclusion.
+> 4. Looking at your top-ranked projects: are there any you'd expect to score lower because they're well-known and well-documented rather than genuinely fitting your constitution? And are there obscure projects buried lower in the ranking that you think deserve higher consideration?
 
-The second failure mode is temporal. Her most recent public-facing work dates to 2025 (Housing Studies). Her current MoJ role (2024-present) has produced no public writing, meaning the constitution is built on her academic trajectory rather than her current professional views on generative AI, semantic search, and public sector AI co-design. If her views have evolved significantly since joining Justice AI, this constitution would miss that evolution entirely. The EASA 2026 abstract suggests continuity, but one conference abstract is thin evidence.
-
-A third structural risk: the keyword-based scoring in the ranking agent may under-score projects that address Alexandra's concerns through novel framing that does not use her established vocabulary (accountability, contestability, exclusion, algorithmic governance). Projects using different language for similar concerns could be systematically disadvantaged.
-
-## Reaction questions
-
-1. The constitution centres algorithmic accountability and community exclusion as the two highest-weighted criteria. Does this capture what matters most to you, or does it under-weight other dimensions of your work -- for example, the ethnographic methodology itself as a criterion rather than just a supporting signal?
-
-2. Worker Info Exchange ranks first. Does the focus on gig worker algorithmic management feel like a natural extension of your housing/tenant research, or would you weight housing-specific projects more heavily?
-
-3. The constitution applies Modifier 2 (empowerment-frame reduction) to projects that frame data access as empowerment without governance. Are there projects in the longlist where you think this modifier is applied too aggressively or too leniently?
-
-4. Your MoJ work on generative AI and semantic search is almost entirely absent from the evidence base because nothing is public. If you could add one dimension from your current work that would change how this constitution evaluates projects, what would it be?
-
-5. The jury panel effectively failed -- only GPT-4.1 scored consistently. Does this concern you about the methodology, or does it suggest that the constitution is so specialised that most models correctly identified insufficient evidence to score?
+> 5. Your current role is Senior User Researcher in Justice AI at the Ministry of Justice — which means you're doing user research on AI tools in the criminal justice system, which is arguably where the accountability gaps your research identifies are most consequential. The longlist has several criminal justice technology projects. Do any of them reflect what you're actually finding in that context, and are any of them things you'd actively want the committee to know about?
