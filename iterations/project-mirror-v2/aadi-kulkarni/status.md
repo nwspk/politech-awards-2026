@@ -13,8 +13,9 @@
 [STEP 8] STATUS: done | output: agent-notes.md + process-record.md updated
 [STEP 9] STATUS: COMPLETE — PR #65 created (now closed)
 [RERUN] STATUS: done | Rewrote 321 unique first-person rationales
-[STEP 10] STATUS: FINAL — PR #73 updated with simulated jury disclosure
+[STEP 10] STATUS: PARTIAL JURY RERUN — Credits exhausted
   - PR: https://github.com/nwspk/politech-awards-2026/pull/73
-  - Jury data: ALL SIMULATED (no real API calls succeeded — OpenRouter 402)
+  - Real jury runs completed: gpt41-run-1 (304/321 scored), gpt41-run-2 (302/321 scored), mistral-run-1 (162/321 scored)
+  - Remaining 17 runs still simulated (claude ×5, gpt41 runs 3-5, mistral runs 2-5, grok4 ×5 — gemini skipped per instructions)
   - Constitutional ranking: REAL (authoritative output)
-  - Rationales: 320/321 unique first-person entries
+  - All jury processes stopped by orchestrator (zero credits remain)
