@@ -1,48 +1,55 @@
 # Jury Summary — Francesca Galli
 
-**Completed runs:** 1 out of 25 target
-**Models with data:** gpt41
-**Note:** Jury runs are still in progress. This summary will be updated.
+**Completed runs:** 3/25 (GPT-4.1 runs 1-3, real API calls)
+**Models:** GPT-4.1 only. Claude/Gemini/Mistral/Grok4 failed (branch-switching errors). Not re-running per orchestrator directive.
 
-## Jury Top 20 (from available runs)
+## Jury Top 25
 
-| Jury Rank | Project | Jury Score | Const Score | JuryConstGap | Pop Risk |
+| Jury Rank | Project | Jury Score | N | Const Rank | Gap |
 |---|---|---|---|---|---|
-| 1 | Decidim | 93.0 | 52.1 | -18 | HIGH |
-| 2 | Activist Handbook | 92.0 | 46.2 | -48 | MEDIUM |
-| 3 | Creative Commons | 92.0 | 47.3 | -37 | HIGH |
-| 4 | Landlord Tech Watch | 91.0 | 35.3 | -152 | MEDIUM |
-| 5 | LittleSis | 91.0 | 37.3 | -132 | MEDIUM |
-| 6 | Bonfire | 90.0 | 44.2 | -62 | MEDIUM |
-| 7 | Guardian Project | 89.0 | 29.5 | -192 | MEDIUM |
-| 8 | Alaveteli | 88.0 | 57.9 | 3 | MEDIUM |
-| 9 | CONSUL Democracy | 88.0 | 57.0 | 3 | HIGH |
-| 10 | mySociety Datasets and APIs | 88.0 | 63.9 | 9 | HIGH |
-| 11 | Framework for Meaningful Engagement 2.0 | 88.0 | 43.3 | -60 | MEDIUM |
-| 12 | ODK (Open Data Kit) | 88.0 | 51.0 | -11 | HIGH |
-| 13 | Matrix | 88.0 | 29.5 | -188 | HIGH |
-| 14 | OA.Works | 88.0 | 37.4 | -118 | MEDIUM |
-| 15 | Citizen OS | 87.0 | 56.0 | 7 | MEDIUM |
-| 16 | vTaiwan | 87.0 | 41.3 | -77 | MEDIUM |
-| 17 | HURIDOCS | 87.0 | 36.4 | -125 | MEDIUM |
-| 18 | Rahvaalgatus | 87.0 | 48.1 | -20 | MEDIUM |
-| 19 | Parti | 87.0 | 49.1 | -14 | MEDIUM |
-| 20 | Open Council Network | 86.0 | 61.9 | 18 | MEDIUM |
+| 1 | Decidim | 93.0 | 3 | 19 | +18 |
+| 2 | LittleSis | 91.0 | 3 | 137 | +135 |
+| 3 | Activist Handbook | 90.0 | 3 | 50 | +47 |
+| 4 | Bonfire | 90.0 | 3 | 68 | +64 |
+| 5 | Creative Commons | 90.0 | 3 | 40 | +35 |
+| 6 | Guardian Project | 89.0 | 3 | 199 | +193 |
+| 7 | Alaveteli | 88.0 | 3 | 5 | -2 |
+| 8 | CONSUL Democracy | 88.0 | 3 | 6 | -2 |
+| 9 | Matrix | 88.0 | 3 | 201 | +192 |
+| 10 | Snowdrift.coop | 88.0 | 2 | 159 | +149 |
+| 11 | Tor Project | 88.0 | 2 | 271 | +260 |
+| 12 | Citizen OS | 87.0 | 3 | 8 | -4 |
+| 13 | vTaiwan | 87.0 | 3 | 93 | +80 |
+| 14 | HURIDOCS | 87.0 | 3 | 142 | +128 |
+| 15 | SecureDrop | 86.5 | 2 | 72 | +57 |
+| 16 | OA.Works | 86.0 | 3 | 132 | +116 |
+| 17 | Open Council Network | 86.0 | 3 | 2 | -15 |
+| 18 | mySociety Datasets and APIs | 85.0 | 3 | 1 | -17 |
+| 19 | ODK (Open Data Kit) | 85.0 | 3 | 23 | +4 |
+| 20 | Mastodon | 85.0 | 3 | 150 | +130 |
+| 21 | Abstract Wikipedia | 85.0 | 3 | 144 | +123 |
+| 22 | Nym | 85.0 | 3 | 246 | +224 |
+| 23 | One Project | 85.0 | 3 | 90 | +67 |
+| 24 | Open Collective | 85.0 | 3 | 39 | +15 |
+| 25 | Democracy Club Developer API | 84.0 | 3 | 84 | +59 |
 
-## Most Abstained Projects
+## Distribution
 
-- Citizens Advice Tableau Public Profile: 1 abstentions
-- The Accountability Project: 1 abstentions
-- Public AI Inference Utility: 1 abstentions
-- Public Media Stack: 1 abstentions
-- Pursuance Project: 1 abstentions
-- RxC Quadratic Voting: 1 abstentions
-- Radicle: 1 abstentions
-- Relational Tech Project: 1 abstentions
-- Remember to Vote: 1 abstentions
-- User Research Library: 1 abstentions
+- Scored: 320 | Mean: 63.0 | Median: 62.0 | Max: 93.0 | Min: 28.0
 
-## Aggregation Method
+## Top Abstentions
 
-Jury score = median of all available model scores across all runs.
-JuryConstGap = jury rank minus constitutional rank (positive = jury ranked higher).
+- Schema.org: 2/3
+- : 2/3
+- Consciousness Evolution Operating System (ConSoc): 2/3
+- Public Editor: 2/3
+- We Live It: 2/3
+- Citizens Advice Tableau Public Profile: 1/3
+- The Accountability Project: 1/3
+- Public AI Inference Utility: 1/3
+- Public Media Stack: 1/3
+- Pursuance Project: 1/3
+
+## Method
+
+Median of all GPT-4.1 scores. Single-model jury — interpret with caution.
