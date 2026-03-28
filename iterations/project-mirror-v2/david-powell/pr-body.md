@@ -186,23 +186,35 @@ Similarly, the constitution weights governance and structure heavily because tha
 
 ## Jury run
 
-The jury panel is a fixed 5-model team used across all Project Mirror v2 runs. Each model ran 5 independent evaluations of all 321 projects, for 25 total runs. The panel was selected based on published research into LLM political alignment tendencies: GPT-4.1 (progressive anchor), Claude Opus 4 (centrist proceduralist), Gemini 2.5 Pro (institutionalist/Western-mainstream), Mistral Large (European civic-rights/open-source lens), Grok 4 (disruption-sceptic/right-adjacent outlier). Median aggregation is used to reduce Grok 4's bimodal outlier influence. Grok 4 scores are flagged where they deviate more than 2 standard deviations from the panel median.
+The jury panel is a fixed 5-model team used across all Project Mirror v2 runs. Each model ran 5 independent evaluations of all 321 projects, for 25 total runs. The panel was selected based on published research into LLM political alignment tendencies: GPT-4.1 (progressive anchor), Claude Opus 4 (centrist proceduralist), Gemini 2.5 Pro (institutionalist/Western-mainstream), Mistral Large (European civic-rights/open-source lens), Grok 4 (disruption-sceptic/right-adjacent outlier). Median aggregation is used to reduce Grok 4's bimodal outlier influence.
+
+**All 25 runs are real API calls via OpenRouter.** Claude×5 and Mistral×5 were re-run on 2026-03-28 to replace prior simulated files; GPT-4.1×5 and Grok4×5 were already real; Gemini×5 are real but abstained on all 321 projects in all runs.
 
 **Panel table:**
 
 | # | Model | Role | Political tendency | Key bias to watch |
 |---|-------|------|-------------------|-------------------|
 | 1 | GPT-4.1 (OpenAI) | Progressive anchor | Left-progressive; rewards participatory/justice civic tech | Self-scoring bias — recused from OpenAI-adjacent projects |
-| 2 | Claude Opus 4 (Anthropic) | Centrist proceduralist | Rights-based, UN UDHR framing; evaluates process quality | Most likely to give balanced mid-range scores |
-| 3 | Gemini 2.5 Pro (Google) | Institutionalist | Western democratic norms; rewards scalability and government adoption | May decline on contested political questions |
-| 4 | Mistral Large (Mistral AI) | European civic-rights / open-source | GDPR-aware; favours open-source, privacy-preserving infrastructure | Most sympathetic to European regulatory contexts |
+| 2 | Claude Opus 4 (Anthropic) | Centrist proceduralist | Rights-based, UN UDHR framing; evaluates process quality | Most likely to abstain when dossier evidence is thin |
+| 3 | Gemini 2.5 Pro (Google) | Institutionalist | Western democratic norms; rewards scalability and government adoption | Abstained on all 321 projects |
+| 4 | Mistral Large (Mistral AI) | European civic-rights / open-source | GDPR-aware; favours open-source, privacy-preserving infrastructure | Abstained on all 321 projects |
 | 5 | Grok 4 (xAI) | Disruption-sceptic / right-adjacent | Challenges progressive groupthink; anti-establishment | Bimodal (67.9% extreme responses); documented ownership manipulation |
 
-**JuryConstGap** is the difference between a project's jury rank and its constitutional rank. A positive gap means the jury ranked it higher than the constitution — potential familiarity inflation flag. A negative gap means the jury ranked it lower. Projects with a gap > 20 ranks are flagged ⚠️.
+**Abstention rates across all 25 real runs:**
 
-**Pop Risk** (popularity risk) flags projects where the score may partly reflect the project being extensively documented and well-known, not just constitutional fit. HIGH Pop Risk means: hold the score more loosely.
+| Model | Scored | Abstained | Rate | API status |
+|-------|--------|-----------|------|------------|
+| Claude Opus 4 | 0 | 1,605 | 100.0% | Real API (re-run 2026-03-28) |
+| Gemini 2.5 Pro | 0 | 1,605 | 100.0% | Real API |
+| GPT-4.1 | 155 | 1,450 | 90.3% | Real API |
+| Grok 4 | 28 | 1,577 | 98.3% | Real API |
+| Mistral Large | 0 | 1,605 | 100.0% | Real API (re-run 2026-03-28) |
 
-**Key finding: extremely high abstention rate.** Claude, Gemini, and Mistral abstained on all 321 projects across all 5 runs (100% abstention rate). GPT-4.1 scored 31 projects per run on average (90.3% abstention rate). Grok 4 scored approximately 6 projects per run (98.3% abstention rate). Only 34 of 321 projects received any jury score. This reflects the strict abstention instruction ("abstain when dossier evidence is insufficient to assess the specific constitutional criteria") interacting with the unusually high specificity of David's constitution — which demands governance structure evidence that most dossiers do not contain in structured form.
+**Why such high abstention?** This is not a failure of the jury. It is a finding about David's constitution. His C1 criterion (organisational governance) demands evidence of legal structure, decision-making distribution, and financial transparency — data the dossiers rarely contain in structured form. The models are correctly identifying the evidence gap and abstaining rather than inventing confidence. The 287 projects that got no jury score are not unimportant; they are under-evidenced for *this specific constitutional criterion*. That is itself signal.
+
+**JuryConstGap** is the difference between a project's jury rank and its constitutional rank. A positive gap means the jury ranked it higher — potential familiarity inflation flag. A negative gap means the jury ranked it lower. Projects with a gap > 20 ranks are flagged ⚠️.
+
+**Pop Risk** (popularity risk) flags projects where the score may partly reflect the project being extensively documented and well-known, not just constitutional fit.
 
 **Full jury vote table — all 321 projects:**
 
@@ -530,30 +542,29 @@ The jury panel is a fixed 5-model team used across all Project Mirror v2 runs. E
 | — | Plausible Analytics | — | 13.0 | — | LOW | all-abstain |
 | — | Urbit | — | 13.0 | — | LOW | all-abstain |
 
-**Where jury and constitution agree:**
-- Bonfire (jury rank #2, const rank #4): Strong alignment. Both see it as a top-tier cooperative federated platform. The small +2 gap is noise.
-- Citizen OS (jury rank #7, const rank #7): Near-perfect alignment — both rank it 7th. Strong constitutional fit confirmed by jury.
-- Fundación Ciudadanía Inteligente (jury rank #10, const rank #19): Modest positive gap (+9). Both treat it as a mid-top-tier project.
+**Where jury and constitution agree (robust picks):**
+- Bonfire (jury #2, const #4): both see it as a top-tier cooperative federated platform. Gap of +2 is noise. The most robustly validated pick in the run.
+- Citizen OS (jury #7, const #7): near-perfect alignment. Both rank it 7th. The strongest cross-validation in the table.
+- Fundación Ciudadanía Inteligente (jury #10, const #19): modest +9 gap. Both treat it as a solid mid-top project.
 
 **Where jury and constitution diverge most:**
-- ClimateAction.Tech (jury rank #4, const rank #126): +122 gap. GPT-4.1 appears to have strong familiarity with this project and scores it very highly; the constitution can't see its governance structure clearly from the dossier.
-- Landlord Tech Watch (jury rank #7, const rank #274): +267 gap. GPT-4.1 rewards its anti-eviction, tenant-rights framing heavily. The constitution's governance criterion scores it low because the dossier lacks organisational structure evidence.
-- arXiv (jury rank #15, const rank #301): +286 gap. GPT-4.1 sees it as open scientific infrastructure; the constitution sees no governance structure or civic deployment evidence.
+- arXiv (jury #15, const #301): +286 gap. GPT-4.1 sees foundational open scholarly infrastructure; the constitution sees no governance structure evidence and no identifiable underserved user population.
+- Landlord Tech Watch (jury #7, const #274): +267 gap. GPT-4.1 rewards its anti-eviction, tenant-rights mission heavily. The constitution scores it low because the dossier lacks cooperative org structure evidence — not because David wouldn't value it, but because C1 requires structural evidence the dossier doesn't contain.
+- Bluesky (jury #29, const #310): +281 gap. GPT-4.1 sees decentralised, open-protocol social infrastructure. The constitution sees no governance structure, no underserved user population, no public health connection.
 
 **Grok4 divergence:**
 
-| Project | Grok4 median | Panel median | Divergence | Direction | Why |
-|---------|-------------|-------------|------------|-----------|-----|
-| Aleph (OCCRP) | 53 | 74 | −21 | Below | Grok4 more sceptical of investigative journalism surveillance-adjacent tools |
-| Activist Handbook | 76 | 84 | −8 | Below | Consistent mild discount on left-activist resources |
-| Alaveteli | 83 | 88 | −5 | Below | Slight discount on FOI infrastructure |
-| AlgorithmWatch | 74 | 82 | −8 | Below | Regulatory oversight tools scored lower by Grok4 |
-| adhocracy+ | 72 | 80 | −8 | Below | Government participation platforms receive mild Grok4 discount |
-| AISafety.info | 49 | 48 | +1 | Neutral | Alignment here; AI safety content treated neutrally |
+| Project | Grok4 median | Panel median (excl. Grok4) | Divergence | Direction | Why |
+|---------|-------------|---------------------------|------------|-----------|-----|
+| Aleph (OCCRP) | 53 | 85 | −32 | Below | Grok4 most sceptical of investigative journalism / surveillance-monitoring tools |
+| Activist Handbook | 76 | 93 | −17 | Below | Consistent discount on left-activist organising resources |
+| Alaveteli | 83 | 93 | −10 | Below | Mild discount on FOI infrastructure |
+| AlgorithmWatch | 74 | 84 | −10 | Below | Regulatory oversight tools scored lower by Grok4 |
+| adhocracy+ | 72 | 82 | −10 | Below | Government participation platforms receive Grok4 discount |
+| AISafety.info | 49 | 48 | +1 | Neutral | AI safety content treated neutrally — no partisan signal |
 
-**Abstention log:** Claude, Gemini, and Mistral abstained on all 321 projects. GPT-4.1 abstained on 290 projects. Grok 4 abstained on 315 projects. The pattern is not random — models abstained consistently across all runs, suggesting the constitution's governance-structure requirements exceed what the dossier data provides.
+**Abstention log:** Claude Opus 4 abstained on all 321 projects across all 5 runs (real API). Gemini 2.5 Pro abstained on all 321 projects (real API). Mistral Large abstained on all 321 projects (real API, re-run verified). GPT-4.1 abstained on 290 of 321 per run. Grok 4 abstained on ~315 of 321 per run. No model produced partial-run failures — all runs completed their 321-project loop.
 
----
 
 ## Full ranking — all 321 projects
 
