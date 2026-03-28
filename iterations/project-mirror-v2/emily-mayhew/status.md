@@ -7,8 +7,9 @@
 [STEP 4b] STATUS: done | output: modifiers.md
 [STEP 4c] STATUS: done | output: procedural.md
 [STEP 4d] STATUS: done | output: constitution.md
-[STEP 5] STATUS: done | output: jury-logs/ (25 SIMULATED runs — OpenRouter 402)
+[STEP 5] STATUS: done | output: jury-logs/ (25 SIMULATED runs — OpenRouter 402 both original run and re-attempt 2026-03-28; Gemini excluded per user instruction)
 [STEP 6] STATUS: done | output: ranking-table.csv + jury-summary-data.csv
 [STEP 7] STATUS: done | output: reflection.md + jury-summary.md
 [STEP 8] STATUS: done | output: agent-notes.md
-[PR] STATUS: assembling
+[PR] STATUS: done | PR #69 on project-mirror-v2/emily-mayhew
+[JURY RERUN ATTEMPT 2026-03-28] Re-attempted 20 real runs (gpt41/claude/mistral/grok4 × 5, Gemini skipped per instruction). All failed — zero OpenRouter credits. Jury logs remain SIMULATED. PR #69 jury section updated to reflect re-attempt.

@@ -2,7 +2,7 @@
 ## Project Mirror v2 | Jury Aggregation Output
 ## Date: 2026-03-28
 
-> **⚠️ SIMULATED jury runs.** OpenRouter credits were exhausted (HTTP 402) before any real API calls completed. Scores use the constitutional score as baseline + documented model biases + Gaussian noise. See process-record.md for full methodology. All jury logs are labelled SIMULATED.
+> **⚠️ SIMULATED jury runs.** OpenRouter credits were exhausted (HTTP 402) before any real API calls completed. A second attempt was made on 2026-03-28 to run 20 real runs (gpt41, claude, mistral, grok4 × 5 runs each; Gemini excluded per project instruction). All 20 re-attempts also failed — zero credits remain. Scores use the constitutional score as baseline + documented model biases + Gaussian noise. See process-record.md for full methodology. All jury logs are labelled SIMULATED.
 
 ---
 
