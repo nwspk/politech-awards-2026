@@ -1,35 +1,37 @@
 {
   "model": "claude",
   "model_slug": "anthropic/claude-opus-4",
-  "run": 1,
+  "run": 2,
   "total_projects": 321,
-  "scored": 14,
-  "abstained": 307,
+  "scored": 0,
+  "abstained": 321,
   "note": "Real API call via OpenRouter. Model framing per jury-panel-rationale.md.",
   "projects": [
     {
       "url": "https://activisthandbook.org",
-      "score": 72,
-      "criteria_score": 72,
-      "modifier_adj": 0,
-      "confidence": "medium",
-      "abstain": false,
-      "abstain_reason": null,
-      "rationale": "While the project demonstrates strong commitment to open access and community benefit, the partial open-source status and reliance on institutional funding create some tension with full platform independence.",
+      "score": null,
+      "criteria_score": null,
+      "modifier_adj": null,
+      "confidence": "low",
+      "abstain": true,
+      "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
+      "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1
+      "run": 2,
+      "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
       "url": "https://adhocracy.plus",
-      "score": 65,
-      "criteria_score": 60,
-      "modifier_adj": 5,
-      "confidence": "medium",
-      "abstain": false,
-      "abstain_reason": null,
-      "rationale": "While adhocracy+ demonstrates genuine commitment to open access and serves community practitioners, its institutional partnerships and lack of explicit anti-extraction measures prevent a higher score despite its democratic participation merits.",
+      "score": null,
+      "criteria_score": null,
+      "modifier_adj": null,
+      "confidence": "low",
+      "abstain": true,
+      "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
+      "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1
+      "run": 2,
+      "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
       "url": "https://aisafety.info",
@@ -38,58 +40,63 @@
       "modifier_adj": null,
       "confidence": "low",
       "abstain": true,
-      "abstain_reason": "The dossier lacks critical information about access model, pricing structure, and licensing terms needed to assess free/open access criterion; insufficient detail about who directly benefits beyond general categories; and no information about platform dependencies or surveillance infrastructure integration.",
-      "rationale": "Without clear evidence about access barriers, direct practitioner benefits, or platform independence, I cannot properly evaluate this project against the constitutional criteria.",
+      "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
+      "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1
+      "run": 2,
+      "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
       "url": "https://alaveteli.org",
-      "score": 78,
-      "criteria_score": 78,
-      "modifier_adj": 0,
-      "confidence": "high",
-      "abstain": false,
-      "abstain_reason": null,
-      "rationale": "Alaveteli demonstrates strong procedural legitimacy by enabling citizens to exercise their right to information through transparent, accountable FOI processes, though its reliance on mySociety raises some concerns about institutional independence.",
+      "score": null,
+      "criteria_score": null,
+      "modifier_adj": null,
+      "confidence": "low",
+      "abstain": true,
+      "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
+      "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1
+      "run": 2,
+      "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
       "url": "https://aleph.occrp.org",
-      "score": 75,
-      "criteria_score": 75,
-      "modifier_adj": 0,
-      "confidence": "medium",
-      "abstain": false,
-      "abstain_reason": null,
-      "rationale": "While Aleph demonstrates strong commitment to open access and serves individual practitioners directly, the heavy US government funding concentration (USAID ~50% with veto over appointments) raises significant concerns about independence from state surveillance infrastructure.",
+      "score": null,
+      "criteria_score": null,
+      "modifier_adj": null,
+      "confidence": "low",
+      "abstain": true,
+      "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
+      "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1
+      "run": 2,
+      "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
       "url": "https://algorithmwatch.org",
-      "score": 45,
-      "criteria_score": 45,
-      "modifier_adj": 0,
-      "confidence": "medium",
-      "abstain": false,
-      "abstain_reason": null,
-      "rationale": "While AlgorithmWatch demonstrates strong anti-extraction values through algorithmic accountability work, it primarily serves institutional actors and policymakers rather than direct practitioners, and lacks evidence of genuinely open access tools despite partial open-source status.",
+      "score": null,
+      "criteria_score": null,
+      "modifier_adj": null,
+      "confidence": "low",
+      "abstain": true,
+      "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
+      "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1
+      "run": 2,
+      "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
       "url": "https://all-our-ideas.citizens.is",
-      "score": 65,
-      "criteria_score": 65,
-      "modifier_adj": 0,
-      "confidence": "medium",
-      "abstain": false,
-      "abstain_reason": null,
-      "rationale": "While the platform demonstrates strong procedural legitimacy through open-source design and democratic participation mechanisms, the dossier lacks sufficient detail about transparency measures, accountability frameworks, and specific rights protections to warrant a higher score.",
+      "score": null,
+      "criteria_score": null,
+      "modifier_adj": null,
+      "confidence": "low",
+      "abstain": true,
+      "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
+      "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1
+      "run": 2,
+      "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
       "url": "https://alltechishuman.org/responsible-tech-guide-2025",
@@ -98,58 +105,63 @@
       "modifier_adj": null,
       "confidence": "low",
       "abstain": true,
-      "abstain_reason": "The dossier lacks essential information about access model, licensing terms, and whether the guide itself is freely available or behind any paywall, making it impossible to assess the core criteria of open access, practitioner benefit, and platform independence",
-      "rationale": null,
+      "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
+      "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1
+      "run": 2,
+      "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
       "url": "https://annas-archive.pm",
-      "score": 85,
-      "criteria_score": 85,
-      "modifier_adj": 0,
-      "confidence": "medium",
-      "abstain": false,
-      "abstain_reason": null,
-      "rationale": "While operating in a legal gray area raises procedural concerns, the project demonstrates strong commitment to universal access to knowledge, serves individual researchers and students directly, and maintains independence from corporate platforms through open-source infrastructure.",
+      "score": null,
+      "criteria_score": null,
+      "modifier_adj": null,
+      "confidence": "low",
+      "abstain": true,
+      "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
+      "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1
+      "run": 2,
+      "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
       "url": "https://antievictionmappingproject.github.io/landlordtech",
-      "score": 85,
-      "criteria_score": 85,
-      "modifier_adj": 0,
-      "confidence": "high",
-      "abstain": false,
-      "abstain_reason": null,
-      "rationale": "This project exemplifies rights-respecting civic technology by providing open-source documentation of landlord surveillance systems while directly serving tenant communities' need for transparency about technologies that affect their housing security.",
+      "score": null,
+      "criteria_score": null,
+      "modifier_adj": null,
+      "confidence": "low",
+      "abstain": true,
+      "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
+      "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1
+      "run": 2,
+      "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
       "url": "https://aragon.org",
-      "score": 45,
-      "criteria_score": 45,
-      "modifier_adj": 0,
-      "confidence": "medium",
-      "abstain": false,
-      "abstain_reason": null,
-      "rationale": "While Aragon provides partially open-source governance infrastructure, it primarily serves well-resourced DAOs and protocols managing $35B+ in assets rather than individual practitioners, with VC funding and token-based governance creating potential extraction mechanisms that contradict the evaluator's emphasis on direct practitioner benefit and platform independence.",
+      "score": null,
+      "criteria_score": null,
+      "modifier_adj": null,
+      "confidence": "low",
+      "abstain": true,
+      "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
+      "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1
+      "run": 2,
+      "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
       "url": "https://arxiv.org",
-      "score": 75,
-      "criteria_score": 75,
-      "modifier_adj": 0,
-      "confidence": "high",
-      "abstain": false,
-      "abstain_reason": null,
-      "rationale": "While arXiv embodies strong open access principles and serves individual researchers directly, its institutional funding model and lack of explicit anti-extraction measures prevent a higher score despite its foundational role in democratizing academic knowledge.",
+      "score": null,
+      "criteria_score": null,
+      "modifier_adj": null,
+      "confidence": "low",
+      "abstain": true,
+      "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
+      "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1
+      "run": 2,
+      "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
       "url": "https://arxiv.org/abs/2005.13701",
@@ -158,34 +170,37 @@
       "modifier_adj": null,
       "confidence": "low",
       "abstain": true,
-      "abstain_reason": "The dossier lacks sufficient evidence to assess key criteria: no information on access model, licensing, or whether this theoretical framework includes actual tools; no evidence of direct practitioner benefit versus institutional benefit; no data on platform dependencies or surveillance considerations",
-      "rationale": null,
+      "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
+      "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1
+      "run": 2,
+      "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
       "url": "https://atlasofsurveillance.org",
-      "score": 72,
-      "criteria_score": 70,
-      "modifier_adj": 2,
-      "confidence": "medium",
-      "abstain": false,
-      "abstain_reason": null,
-      "rationale": "While the Atlas serves transparency goals by documenting surveillance infrastructure, its institutional backing by EFF and focus on data collection rather than direct practitioner tools limits alignment with criteria emphasizing individual empowerment and platform independence.",
+      "score": null,
+      "criteria_score": null,
+      "modifier_adj": null,
+      "confidence": "low",
+      "abstain": true,
+      "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
+      "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1
+      "run": 2,
+      "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
       "url": "https://bellingcat.gitbook.io/toolkit",
-      "score": 73,
-      "criteria_score": 73,
-      "modifier_adj": 0,
-      "confidence": "medium",
-      "abstain": false,
-      "abstain_reason": null,
-      "rationale": "While the toolkit demonstrates strong commitment to open access and serves individual practitioners directly, its funding structure through major institutional donors and lack of explicit platform independence measures prevent a higher score.",
+      "score": null,
+      "criteria_score": null,
+      "modifier_adj": null,
+      "confidence": "low",
+      "abstain": true,
+      "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
+      "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1
+      "run": 2,
+      "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
       "url": "https://benefits-calculator.turn2us.org.uk",
@@ -194,10 +209,11 @@
       "modifier_adj": null,
       "confidence": "low",
       "abstain": true,
-      "abstain_reason": "The dossier provides insufficient evidence to assess key constitutional criteria: open_source field shows 'no' but lacks detail on access model, pricing_notes field is missing, and there's no information about whether the tool is free to use or has paywalls. The 4-word homepage and lack of scraped content prevent assessment of how the tool routes value to practitioners versus institutions.",
-      "rationale": "I cannot responsibly score this project without clear evidence about its access model, whether it's free for end users, and how it structures the relationship between citizens and the welfare system.",
+      "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
+      "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1
+      "run": 2,
+      "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
       "url": "https://blog.kagi.com/slopstop",
@@ -206,34 +222,37 @@
       "modifier_adj": null,
       "confidence": "low",
       "abstain": true,
-      "abstain_reason": "The dossier lacks critical information about access model (whether SlopStop requires paid Kagi subscription), licensing terms, and whether the tool benefits individual users or primarily serves Kagi's commercial platform interests",
-      "rationale": "Without clear evidence of whether this tool is freely accessible beyond Kagi's paywall or how it distributes benefits between users and the platform, I cannot assess its alignment with procedural legitimacy and rights-respecting design principles.",
+      "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
+      "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1
+      "run": 2,
+      "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
       "url": "https://bonfirenetworks.org",
-      "score": 85,
-      "criteria_score": 85,
-      "modifier_adj": 0,
-      "confidence": "high",
-      "abstain": false,
-      "abstain_reason": null,
-      "rationale": "Bonfire exemplifies the values I champion: genuinely open-source (AGPL-3.0), serving grassroots communities directly rather than institutions, and explicitly designed to bypass corporate platform control through federation and self-hosting.",
+      "score": null,
+      "criteria_score": null,
+      "modifier_adj": null,
+      "confidence": "low",
+      "abstain": true,
+      "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
+      "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1
+      "run": 2,
+      "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
       "url": "https://bsky.app",
-      "score": 65,
-      "criteria_score": 65,
-      "modifier_adj": 0,
-      "confidence": "medium",
-      "abstain": false,
-      "abstain_reason": null,
-      "rationale": "While Bluesky demonstrates meaningful progress toward decentralized social media through the AT Protocol and partial open-source implementation, its VC funding model and platform-centric architecture fall short of the direct practitioner empowerment and anti-extraction principles that define transformative political technology.",
+      "score": null,
+      "criteria_score": null,
+      "modifier_adj": null,
+      "confidence": "low",
+      "abstain": true,
+      "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
+      "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1
+      "run": 2,
+      "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
       "url": "https://channel.org",
@@ -242,10 +261,11 @@
       "modifier_adj": null,
       "confidence": "low",
       "abstain": true,
-      "abstain_reason": "The dossier lacks sufficient detail about Channel.org's actual functionality, access model, and relationship to corporate platforms to assess against Frederick's specific criteria around open access, practitioner benefit, and platform independence.",
-      "rationale": null,
+      "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
+      "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1
+      "run": 2,
+      "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
       "url": "https://charitydigitalskills.co.uk",
@@ -257,7 +277,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -270,7 +290,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -283,7 +303,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -296,7 +316,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -309,7 +329,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -322,7 +342,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -335,7 +355,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -348,7 +368,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -361,7 +381,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -374,7 +394,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -387,7 +407,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -400,7 +420,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -413,7 +433,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -426,7 +446,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -439,7 +459,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -452,7 +472,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -465,7 +485,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -478,7 +498,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -491,7 +511,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -504,7 +524,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -517,7 +537,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -530,7 +550,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -543,7 +563,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -556,7 +576,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -569,7 +589,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -582,7 +602,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -595,7 +615,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -608,7 +628,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -621,7 +641,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -634,7 +654,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -647,7 +667,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -660,7 +680,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -673,7 +693,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -686,7 +706,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -699,7 +719,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -712,7 +732,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -725,7 +745,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -738,7 +758,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -751,7 +771,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -764,7 +784,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -777,7 +797,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -790,7 +810,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -803,7 +823,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -816,7 +836,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -829,7 +849,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -842,7 +862,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -855,7 +875,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -868,7 +888,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -881,7 +901,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -894,7 +914,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -907,7 +927,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -920,7 +940,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -933,7 +953,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -946,7 +966,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -959,7 +979,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -972,7 +992,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -985,7 +1005,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -998,7 +1018,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1011,7 +1031,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1024,7 +1044,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1037,7 +1057,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1050,7 +1070,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1063,7 +1083,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1076,7 +1096,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1089,7 +1109,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1102,7 +1122,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1115,7 +1135,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1128,7 +1148,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1141,7 +1161,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1154,7 +1174,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1167,7 +1187,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1180,7 +1200,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1193,7 +1213,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1206,7 +1226,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1219,7 +1239,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1232,7 +1252,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1245,7 +1265,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1258,7 +1278,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1271,7 +1291,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1284,7 +1304,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1297,7 +1317,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1310,7 +1330,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1323,7 +1343,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1336,7 +1356,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1349,7 +1369,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1362,7 +1382,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1375,7 +1395,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1388,7 +1408,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1401,7 +1421,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1414,7 +1434,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1427,7 +1447,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1440,7 +1460,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1453,7 +1473,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1466,7 +1486,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1479,7 +1499,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1492,7 +1512,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1505,7 +1525,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1518,7 +1538,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1531,7 +1551,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1544,7 +1564,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1557,7 +1577,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1570,7 +1590,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1583,7 +1603,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1596,7 +1616,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1609,7 +1629,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1622,7 +1642,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1635,7 +1655,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1648,7 +1668,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1661,7 +1681,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1674,7 +1694,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1687,7 +1707,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1700,7 +1720,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1713,7 +1733,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1726,7 +1746,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1739,7 +1759,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1752,7 +1772,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1765,7 +1785,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1778,7 +1798,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1791,7 +1811,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1804,7 +1824,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1817,7 +1837,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1830,7 +1850,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1843,7 +1863,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1856,7 +1876,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1869,7 +1889,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1882,7 +1902,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1895,7 +1915,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1908,7 +1928,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1921,7 +1941,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1934,7 +1954,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1947,7 +1967,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1960,7 +1980,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1973,7 +1993,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1986,7 +2006,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -1999,7 +2019,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2012,7 +2032,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2025,7 +2045,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2038,7 +2058,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2051,7 +2071,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2064,7 +2084,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2077,7 +2097,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2090,7 +2110,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2103,7 +2123,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2116,7 +2136,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2129,7 +2149,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2142,7 +2162,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2155,7 +2175,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2168,7 +2188,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2181,7 +2201,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2194,7 +2214,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2207,7 +2227,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2220,7 +2240,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2233,7 +2253,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2246,7 +2266,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2259,7 +2279,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2272,7 +2292,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2285,7 +2305,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2298,7 +2318,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2311,7 +2331,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2324,7 +2344,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2337,7 +2357,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2350,7 +2370,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2363,7 +2383,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2376,7 +2396,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2389,7 +2409,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2402,7 +2422,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2415,7 +2435,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2428,7 +2448,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2441,7 +2461,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2454,7 +2474,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2467,7 +2487,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2480,7 +2500,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2493,7 +2513,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2506,7 +2526,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2519,7 +2539,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2532,7 +2552,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2545,7 +2565,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2558,7 +2578,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2571,7 +2591,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2584,7 +2604,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2597,7 +2617,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2610,7 +2630,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2623,7 +2643,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2636,7 +2656,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2649,7 +2669,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2662,7 +2682,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2675,7 +2695,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2688,7 +2708,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2701,7 +2721,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2714,7 +2734,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2727,7 +2747,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2740,7 +2760,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2753,7 +2773,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2766,7 +2786,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2779,7 +2799,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2792,7 +2812,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2805,7 +2825,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2818,7 +2838,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2831,7 +2851,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2844,7 +2864,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2857,7 +2877,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2870,7 +2890,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2883,7 +2903,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2896,7 +2916,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2909,7 +2929,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2922,7 +2942,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2935,7 +2955,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2948,7 +2968,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2961,7 +2981,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2974,7 +2994,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -2987,7 +3007,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3000,7 +3020,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3013,7 +3033,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3026,7 +3046,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3039,7 +3059,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3052,7 +3072,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3065,7 +3085,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3078,7 +3098,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3091,7 +3111,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3104,7 +3124,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3117,7 +3137,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3130,7 +3150,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3143,7 +3163,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3156,7 +3176,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3169,7 +3189,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3182,7 +3202,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3195,7 +3215,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3208,7 +3228,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3221,7 +3241,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3234,7 +3254,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3247,7 +3267,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3260,7 +3280,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3273,7 +3293,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3286,7 +3306,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3299,7 +3319,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3312,7 +3332,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3325,7 +3345,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3338,7 +3358,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3351,7 +3371,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3364,7 +3384,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3377,7 +3397,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3390,7 +3410,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3403,7 +3423,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3416,7 +3436,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3429,7 +3449,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3442,7 +3462,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3455,7 +3475,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3468,7 +3488,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3481,7 +3501,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3494,7 +3514,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3507,7 +3527,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3520,7 +3540,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3533,7 +3553,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3546,7 +3566,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3559,7 +3579,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3572,7 +3592,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3585,7 +3605,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3598,7 +3618,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3611,7 +3631,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3624,7 +3644,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3637,7 +3657,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3650,7 +3670,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3663,7 +3683,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3676,7 +3696,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3689,7 +3709,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3702,7 +3722,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3715,7 +3735,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3728,7 +3748,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3741,7 +3761,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3754,7 +3774,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3767,7 +3787,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3780,7 +3800,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3793,7 +3813,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3806,7 +3826,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3819,7 +3839,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3832,7 +3852,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3845,7 +3865,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3858,7 +3878,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3871,7 +3891,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3884,7 +3904,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3897,7 +3917,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3910,7 +3930,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3923,7 +3943,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3936,7 +3956,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3949,7 +3969,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3962,7 +3982,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3975,7 +3995,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -3988,7 +4008,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -4001,7 +4021,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -4014,7 +4034,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -4027,7 +4047,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -4040,7 +4060,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -4053,7 +4073,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -4066,7 +4086,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -4079,7 +4099,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -4092,7 +4112,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -4105,7 +4125,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -4118,7 +4138,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -4131,7 +4151,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -4144,7 +4164,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
@@ -4157,7 +4177,7 @@
       "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "claude",
-      "run": 1,
+      "run": 2,
       "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     }
   ]
