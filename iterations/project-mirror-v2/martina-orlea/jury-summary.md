@@ -1,15 +1,17 @@
 # Jury Summary — Martina Orlea
-## Date: 2026-03-28 (updated with real API data)
+Generated: 2026-03-28
 
 ## Coverage
-- **Real API runs:** 24/25
-- **Simulated:** 1/25
-- **Projects scored by >= 1 juror:** 345
+- Real API runs: 24/25 (gemini-run-3 failed — credits exhausted)
+- Projects with at least 1 real vote: 307/321
+- Projects with 5+ votes: 302
+- Global mean score across all scored projects: 57.7
+- Global median: 56.5
 
-## Model Status
+## Model Run Status
 
-| Model | Run | Scored | Real? |
-|---|---|---|---|
+| Model-Run | Scored | Real? |
+|---|---|---|
 | claude-run-1 | 125/321 | YES |
 | claude-run-2 | 127/321 | YES |
 | claude-run-3 | 125/321 | YES |
@@ -17,7 +19,7 @@
 | claude-run-5 | 119/321 | YES |
 | gemini-run-1 | 133/321 | YES |
 | gemini-run-2 | 133/321 | YES |
-| gemini-run-3 | 319/321 | NO (simulated) |
+| gemini-run-3 | 319/321 | NO (simulated — excluded) |
 | gemini-run-4 | 134/321 | YES |
 | gemini-run-5 | 134/321 | YES |
 | gpt41-run-1 | 294/321 | YES |
@@ -36,27 +38,17 @@
 | mistral-run-4 | 140/321 | YES |
 | mistral-run-5 | 139/321 | YES |
 
-## Top 20 by Jury Average
+## Top 10 Projects
 
-| Rank | Project | Jury Avg | Median | Std | Votes |
-|---|---|---|---|---|---|
-| 1 | https://activisthandbook.org | 81.8 | 81 | 1.3 | 5 |
-| 2 | Tor Project | 81.5 | 87.5 | 17.0 | 6 |
-| 3 | Mastodon | 81.5 | 85 | 14.6 | 11 |
-| 4 | Guardian Project | 80.5 | 89.5 | 21.8 | 6 |
-| 5 | CONSUL Democracy | 79.8 | 89.0 | 26.0 | 6 |
-| 6 | Humanitarian OpenStreetMap Team (HOT) | 79.5 | 84.5 | 15.6 | 6 |
-| 7 | Ushahidi | 78.6 | 82 | 8.6 | 25 |
-| 8 | CiviCRM | 78.2 | 78 | 7.3 | 25 |
-| 9 | Campaign Tracker | 78.2 | 78.0 | 1.2 | 6 |
-| 10 | Fundación Ciudadanía Inteligente | 76.7 | 81.0 | 13.3 | 6 |
-| 11 | Open Council Network | 76.5 | 78.5 | 8.0 | 6 |
-| 12 | https://oneproject.org | 76.4 | 76 | 2.3 | 5 |
-| 13 | mySociety Datasets and APIs | 76.3 | 79.0 | 7.9 | 6 |
-| 14 | Security First / Umbrella | 76.3 | 84.0 | 19.9 | 6 |
-| 15 | Polis | 75.8 | 83.5 | 22.1 | 6 |
-| 16 | Bellingcat Online Investigation Toolkit | 75.2 | 78.5 | 8.8 | 6 |
-| 17 | https://citizenos.com/platform | 75.2 | 75 | 1.8 | 5 |
-| 18 | Decidim | 74.6 | 75 | 16.0 | 25 |
-| 19 | Open Contracting Partnership | 74.3 | 80.0 | 16.6 | 6 |
-| 20 | Talk to the City | 74.2 | 78.5 | 11.9 | 6 |
+| Rank | URL | Mean Score | Votes |
+|---|---|---|---|
+| 1 | https://consulproject.org | 90.4 | 5 |
+| 2 | https://guardianproject.info | 89.4 | 5 |
+| 3 | https://www.torproject.org | 88.4 | 5 |
+| 4 | https://github.com/mastodon/mastodon | 85.8 | 10 |
+| 5 | https://www.hotosm.org | 85.8 | 5 |
+| 6 | https://github.com/compdemocracy/polis | 84.8 | 5 |
+| 7 | https://secfirst.org | 84.4 | 5 |
+| 8 | https://ciudadaniai.org | 82.0 | 5 |
+| 9 | https://activisthandbook.org | 81.8 | 5 |
+| 10 | https://www.open-contracting.org | 81.0 | 5 |
