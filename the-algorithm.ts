@@ -246,7 +246,9 @@ function fetchInformationHeuristic(url: string): number {
 //   npx tsx scripts/itn/itn-a-deliberate.ts  → cache/deliberation.json
 //
 // Scoring tiers:
-//   Deliberated projects:       aggregate score from deliberation (range: 51–90)
+//   Deliberated projects:       aggregate_effective from final_scores (ITN/A + awards
+//                               bonuses, 0–100) — matches deliberation ranking & winner.
+//                               Falls back to aggregate if effective is absent.
 //   2+ greens, not deliberated: 45  (strong signal, below deliberation floor)
 //   1 green:                    20
 //   0 greens / grey / red:       5  (baseline)
@@ -278,18 +280,24 @@ function loadItnAScores(): {
     const deliberation = new Map<string, number>();
     const assessments = new Map<string, AssessmentBuckets>();
 
-    const deliberationPath = process.env.DELIBERATION_PATH || path.resolve('cache', 'deliberation.json');
+    const deliberationPath = process.env.DELIBERATION_PATH || path.resolve('cache', 'deliberation-grok.json');
     if (fs.existsSync(deliberationPath)) {
         const data = JSON.parse(fs.readFileSync(deliberationPath, 'utf-8'));
         for (const entry of data.final_scores ?? []) {
-            deliberation.set(normalizeUrl(entry.url), entry.aggregate);
+            const eff = entry.aggregate_effective;
+            const raw = entry.aggregate;
+            const score =
+                typeof eff === 'number' && !Number.isNaN(eff) ? eff
+                    : typeof raw === 'number' && !Number.isNaN(raw) ? raw
+                        : 0;
+            deliberation.set(normalizeUrl(entry.url), score);
         }
         console.log(`[v5] Loaded ${deliberation.size} deliberated scores from ${deliberationPath}`);
     } else {
         console.warn('[v5] No deliberation.json found — falling back to assessment tiers only');
     }
 
-    const assessmentsPath = process.env.ASSESSMENTS_PATH || path.resolve('cache', 'assessments.json');
+    const assessmentsPath = process.env.ASSESSMENTS_PATH || path.resolve('cache', 'assessments-grok.json');
     if (fs.existsSync(assessmentsPath)) {
         const data = JSON.parse(fs.readFileSync(assessmentsPath, 'utf-8'));
         for (const [url, a] of Object.entries(data) as [string, any][]) {
@@ -323,7 +331,7 @@ function heuristicV5(url: string): number {
     const { deliberation, assessments } = getItnAScores();
     const key = normalizeUrl(url);
 
-    // Tier 1: deliberated — use the score from the multi-agent argument process
+    // Tier 1: deliberated — effective score (ITN/A + bonuses) from final_scores
     if (deliberation.has(key)) {
         return deliberation.get(key)!;
     }
