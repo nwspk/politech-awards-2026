@@ -346,9 +346,53 @@ function heuristicV5(url: string): number {
     return 5; // grey / red / zero greens
 }
 
-// select which heuristic version to use
-// v5 is the ITN/A multi-agent deliberation heuristic
-const CURRENT_HEURISTIC: ScoringFunction = heuristicV5;
+// --- v10: Alexandra D1–D8 three-model jury (see docs/evaluation/alexandra-rubric.md) ---
+// Reads cache/alexandra-aggregate.json (from scripts/alexandra/alexandra-aggregate.ts).
+// Maps median composite (1–5) → 20–100 for comparability with other heuristic scales.
+// Use: SCORING_MODE=v10 npx tsx the-algorithm.ts
+// Optional: ALEXANDRA_AGGREGATE_PATH=/path/to/alexandra-aggregate.json
+
+let _alexandraCompositeByUrl: Map<string, number> | null = null;
+
+function loadAlexandraComposites(): Map<string, number> {
+    if (_alexandraCompositeByUrl !== null) return _alexandraCompositeByUrl;
+    _alexandraCompositeByUrl = new Map();
+    const aggPath = process.env.ALEXANDRA_AGGREGATE_PATH || path.resolve('cache', 'alexandra-aggregate.json');
+    if (!fs.existsSync(aggPath)) {
+        console.warn(`[v10] No aggregate at ${aggPath} — all projects score 5 until you run alexandra-aggregate`);
+        return _alexandraCompositeByUrl;
+    }
+    try {
+        const data = JSON.parse(fs.readFileSync(aggPath, 'utf-8')) as {
+            projects?: Array<{ url?: string; median_composite?: number | null }>;
+        };
+        for (const p of data.projects ?? []) {
+            if (typeof p.url !== 'string' || p.median_composite == null || Number.isNaN(p.median_composite)) {
+                continue;
+            }
+            _alexandraCompositeByUrl.set(normalizeUrl(p.url), p.median_composite);
+        }
+        console.log(`[v10] Loaded ${_alexandraCompositeByUrl.size} Alexandra aggregates from ${aggPath}`);
+    } catch (e) {
+        console.warn('[v10] Failed to read alexandra aggregate:', e);
+    }
+    return _alexandraCompositeByUrl;
+}
+
+function heuristicV10(url: string): number {
+    const m = loadAlexandraComposites();
+    const key = normalizeUrl(url);
+    const composite = m.get(key);
+    if (composite === undefined) return 5;
+    return Math.min(100, Math.max(1, Math.round(composite * 20)));
+}
+
+/**
+ * SCORING_MODE=v5 (default): ITN/A deliberation + assessment tiers.
+ * SCORING_MODE=v10: Alexandra median composite × 20; missing URLs → 5.
+ */
+const CURRENT_HEURISTIC: ScoringFunction =
+    process.env.SCORING_MODE === 'v10' ? heuristicV10 : heuristicV5;
 
 // process candidates from CSV and score them
 function processCandidates(scoringFunction: ScoringFunction): Promise<Candidate[]> {
@@ -383,6 +427,8 @@ function writeResults(candidates: Candidate[]): void {
 
 // main execution
 async function main() {
+    const mode = process.env.SCORING_MODE === 'v10' ? 'v10 (Alexandra aggregate)' : 'v5 (ITN/A)';
+    console.log(`Scoring mode: ${mode}`);
     const candidates = await processCandidates(CURRENT_HEURISTIC);
     writeResults(candidates);
 }

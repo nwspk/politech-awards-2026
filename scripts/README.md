@@ -17,6 +17,12 @@ npm run cache:read -- <url> [port]
 npm run itn-a-eval
 npm run itn-a-deliberate
 
+# Alexandra v10 (D1–D8 three-model jury)
+npm run alexandra-eval
+# faster full run (tune if you hit 429s): npm run alexandra-eval -- --concurrency 8 --call-delay-ms 0
+npm run alexandra-aggregate
+# SCORING_MODE=v10 npx tsx the-algorithm.ts
+
 # Enrichment collection
 npm run collect:enriched
 
@@ -53,6 +59,8 @@ npx tsx the-algorithm.ts
 | `read-cache.ts` | Read cached page for a URL (optionally serve locally). |
 | `itn/itn-a-eval.ts` | Canonical ITN evaluation entrypoint (`cache/assessments*.json`). |
 | `itn/itn-a-deliberate.ts` | Canonical ITN deliberation entrypoint (`cache/deliberation*.json`). |
+| `alexandra/alexandra-eval.ts` | Three-model D1–D8 jurors → `cache/alexandra-assessments.json`. |
+| `alexandra/alexandra-aggregate.ts` | Median / controversy → `cache/alexandra-aggregate.json` (+ `.csv`). |
 | `snapshot-existing-cache.ts` | One-off copy of cache files into `iterations/v5/` and `iterations/v6/`. |
 | `data-processing/collect-enriched.ts` | Canonical enrichment collection entrypoint. |
 | `data-processing/rename-enriched.ts` | Canonical entrypoint to merge + rename enriched dossier files. |
