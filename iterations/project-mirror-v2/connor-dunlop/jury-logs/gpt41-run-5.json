@@ -1,0 +1,2581 @@
+{
+  "model": "GPT-4.1",
+  "model_id": "openai/gpt-4.1",
+  "run": 5,
+  "timestamp": "2026-03-28T09:48:48.123695",
+  "status": "SIMULATED",
+  "reason": "OpenRouter HTTP 402 \u2014 insufficient credits",
+  "political_tendency": "centrist-technocratic",
+  "base_offset": 2,
+  "noise_std": 6,
+  "results": [
+    {
+      "project_name": "AlgorithmWatch",
+      "url": "https://algorithmwatch.org",
+      "constitutional_score": 92.7,
+      "jury_score": 91.5,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 1
+    },
+    {
+      "project_name": "Fundaci\u00f3n Ciudadan\u00eda Inteligente",
+      "url": "https://ciudadaniai.org",
+      "constitutional_score": 54.8,
+      "jury_score": 69.1,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 2
+    },
+    {
+      "project_name": "Matrix",
+      "url": "https://matrix.org",
+      "constitutional_score": 57.6,
+      "jury_score": 67.2,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 3
+    },
+    {
+      "project_name": "Creative Commons",
+      "url": "https://creativecommons.org",
+      "constitutional_score": 50.9,
+      "jury_score": 62.3,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 4
+    },
+    {
+      "project_name": "Participedia",
+      "url": "https://participedia.net",
+      "constitutional_score": 54.0,
+      "jury_score": 61.1,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 5
+    },
+    {
+      "project_name": "Talk to the City",
+      "url": "https://talktothecity.org",
+      "constitutional_score": 49.7,
+      "jury_score": 60.4,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 6
+    },
+    {
+      "project_name": "UK Housing Data Standards",
+      "url": "https://hact.org.uk/tools-and-services/uk-housing-data-standards",
+      "constitutional_score": 55.7,
+      "jury_score": 59.1,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 7
+    },
+    {
+      "project_name": "Your Priorities",
+      "url": "https://yrpri.org",
+      "constitutional_score": 51.4,
+      "jury_score": 58.7,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 8
+    },
+    {
+      "project_name": "mySociety Datasets and APIs",
+      "url": "https://data.mysociety.org",
+      "constitutional_score": 53.9,
+      "jury_score": 57.9,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 9
+    },
+    {
+      "project_name": "Decidim",
+      "url": "https://decidim.org",
+      "constitutional_score": 62.6,
+      "jury_score": 57.8,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 10
+    },
+    {
+      "project_name": "Cybersecurity for Democracy",
+      "url": "https://cybersecurityfordemocracy.org",
+      "constitutional_score": 57.0,
+      "jury_score": 57.7,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 11
+    },
+    {
+      "project_name": "CONSUL Democracy",
+      "url": "https://consulproject.org",
+      "constitutional_score": 55.7,
+      "jury_score": 57.6,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 12
+    },
+    {
+      "project_name": "LiquidFeedback",
+      "url": "https://liquidfeedback.com",
+      "constitutional_score": 62.5,
+      "jury_score": 57.1,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 13
+    },
+    {
+      "project_name": "Open Supply Hub",
+      "url": "https://opensupplyhub.org",
+      "constitutional_score": 54.2,
+      "jury_score": 57.1,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 14
+    },
+    {
+      "project_name": "Open Contracting Partnership",
+      "url": "https://www.open-contracting.org",
+      "constitutional_score": 50.2,
+      "jury_score": 56.4,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 15
+    },
+    {
+      "project_name": "adhocracy+",
+      "url": "https://adhocracy.plus",
+      "constitutional_score": 49.1,
+      "jury_score": 55.3,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 16
+    },
+    {
+      "project_name": "Bonfire",
+      "url": "https://bonfirenetworks.org/",
+      "constitutional_score": 48.7,
+      "jury_score": 54.8,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 17
+    },
+    {
+      "project_name": "Open Ownership",
+      "url": "https://www.openownership.org",
+      "constitutional_score": 51.8,
+      "jury_score": 52.6,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 18
+    },
+    {
+      "project_name": "GlobaLeaks",
+      "url": "https://www.globaleaks.org",
+      "constitutional_score": 36.9,
+      "jury_score": 51.9,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 19
+    },
+    {
+      "project_name": "Polis",
+      "url": "https://github.com/compdemocracy/polis",
+      "constitutional_score": 50.4,
+      "jury_score": 51.5,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 20
+    },
+    {
+      "project_name": "Aleph (OCCRP)",
+      "url": "https://aleph.occrp.org",
+      "constitutional_score": 53.8,
+      "jury_score": 51.0,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 21
+    },
+    {
+      "project_name": "Open Standards for Data Guidebook",
+      "url": "https://standards.theodi.org",
+      "constitutional_score": 44.0,
+      "jury_score": 50.5,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 22
+    },
+    {
+      "project_name": "FixMyStreet",
+      "url": "https://www.fixmystreet.com",
+      "constitutional_score": 41.8,
+      "jury_score": 50.4,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 23
+    },
+    {
+      "project_name": "Loomio",
+      "url": "https://www.loomio.org",
+      "constitutional_score": 51.3,
+      "jury_score": 49.5,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 24
+    },
+    {
+      "project_name": "VFRAME",
+      "url": "https://vframe.io",
+      "constitutional_score": 51.7,
+      "jury_score": 48.1,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 25
+    },
+    {
+      "project_name": "Humanitarian OpenStreetMap Team (HOT)",
+      "url": "https://www.hotosm.org",
+      "constitutional_score": 44.0,
+      "jury_score": 48.0,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 26
+    },
+    {
+      "project_name": "OpenSanctions",
+      "url": "https://www.opensanctions.org",
+      "constitutional_score": 48.7,
+      "jury_score": 47.9,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 27
+    },
+    {
+      "project_name": "CommunityRule",
+      "url": "https://communityrule.info",
+      "constitutional_score": 52.1,
+      "jury_score": 47.8,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 28
+    },
+    {
+      "project_name": "Metaculus",
+      "url": "https://metaculus.com",
+      "constitutional_score": 35.7,
+      "jury_score": 47.7,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 29
+    },
+    {
+      "project_name": "arXiv",
+      "url": "https://arxiv.org",
+      "constitutional_score": 41.1,
+      "jury_score": 47.4,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 30
+    },
+    {
+      "project_name": "Data Observation Toolkit (DOT)",
+      "url": "https://github.com/datakind/data-observation-toolkit",
+      "constitutional_score": 37.3,
+      "jury_score": 47.1,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 31
+    },
+    {
+      "project_name": "Tracka",
+      "url": "https://yourtracka.org",
+      "constitutional_score": 41.1,
+      "jury_score": 47.0,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 32
+    },
+    {
+      "project_name": "ODK (Open Data Kit)",
+      "url": "https://getodk.org",
+      "constitutional_score": 43.5,
+      "jury_score": 46.8,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 33
+    },
+    {
+      "project_name": "Ushahidi",
+      "url": "https://www.ushahidi.com",
+      "constitutional_score": 53.8,
+      "jury_score": 46.8,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 34
+    },
+    {
+      "project_name": "Political Advertising Transparency Data Standard",
+      "url": "https://github.com/whotargetsme/ad-transparency-standards/blob/main/implement.md",
+      "constitutional_score": 48.5,
+      "jury_score": 46.7,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 35
+    },
+    {
+      "project_name": "Open Heart Mind (OHM)",
+      "url": "https://openheartmind.org",
+      "constitutional_score": 40.8,
+      "jury_score": 46.6,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 36
+    },
+    {
+      "project_name": "Internet Archive Wayback Machine",
+      "url": "https://web.archive.org",
+      "constitutional_score": 41.4,
+      "jury_score": 46.5,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 37
+    },
+    {
+      "project_name": "Participa (Podemos)",
+      "url": "https://github.com/podemos-info/participa",
+      "constitutional_score": 39.7,
+      "jury_score": 46.2,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 38
+    },
+    {
+      "project_name": "Discourse",
+      "url": "https://www.discourse.org",
+      "constitutional_score": 34.8,
+      "jury_score": 45.9,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 39
+    },
+    {
+      "project_name": "Harmonica",
+      "url": "https://harmonica.chat/",
+      "constitutional_score": 33.6,
+      "jury_score": 45.5,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 40
+    },
+    {
+      "project_name": "Open Data Editor (ODE)",
+      "url": "https://okfn.org/en/projects/open-data-editor/",
+      "constitutional_score": 41.3,
+      "jury_score": 45.4,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 41
+    },
+    {
+      "project_name": "Turkopticon",
+      "url": "https://turkopticon.ucsd.edu",
+      "constitutional_score": 35.9,
+      "jury_score": 45.2,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 42
+    },
+    {
+      "project_name": "Snowdrift.coop",
+      "url": "https://snowdrift.coop",
+      "constitutional_score": 38.2,
+      "jury_score": 45.1,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 43
+    },
+    {
+      "project_name": "Theft Bisect",
+      "url": "https://onodi.co/bisect/",
+      "constitutional_score": 30.8,
+      "jury_score": 45.1,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 44
+    },
+    {
+      "project_name": "Cobudget",
+      "url": "https://cobudget.com",
+      "constitutional_score": 45.7,
+      "jury_score": 44.6,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 45
+    },
+    {
+      "project_name": "Constitute Project",
+      "url": "https://constituteproject.org",
+      "constitutional_score": 47.9,
+      "jury_score": 44.5,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 46
+    },
+    {
+      "project_name": "Wikidata",
+      "url": "https://www.wikidata.org",
+      "constitutional_score": 32.9,
+      "jury_score": 43.9,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 47
+    },
+    {
+      "project_name": "Open Referral UK",
+      "url": "https://openreferraluk.org",
+      "constitutional_score": 35.9,
+      "jury_score": 43.8,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 48
+    },
+    {
+      "project_name": "Community Notes (Birdwatch) Analysis Tool",
+      "url": "https://github.com/travisbrown/birdwatch",
+      "constitutional_score": 39.0,
+      "jury_score": 43.5,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 49
+    },
+    {
+      "project_name": "Manifold Markets",
+      "url": "https://manifold.markets",
+      "constitutional_score": 32.3,
+      "jury_score": 43.5,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 50
+    },
+    {
+      "project_name": "DISARM Frameworks",
+      "url": "https://github.com/disarmfoundation/disarmframeworks",
+      "constitutional_score": 39.5,
+      "jury_score": 43.4,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 51
+    },
+    {
+      "project_name": "Open Access \u2013 Transparency International UK",
+      "url": "https://openaccess.transparency.org.uk",
+      "constitutional_score": 42.8,
+      "jury_score": 42.8,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 52
+    },
+    {
+      "project_name": "Tech Coops List",
+      "url": "https://tech-coops.xyz",
+      "constitutional_score": 38.2,
+      "jury_score": 42.8,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 53
+    },
+    {
+      "project_name": "OpenBudgets.eu",
+      "url": "https://openbudgets.eu",
+      "constitutional_score": 34.3,
+      "jury_score": 42.4,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 54
+    },
+    {
+      "project_name": "GrantNav",
+      "url": "https://grantnav.threesixtygiving.org",
+      "constitutional_score": 28.8,
+      "jury_score": 42.2,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 55
+    },
+    {
+      "project_name": "Tor Project",
+      "url": "https://www.torproject.org",
+      "constitutional_score": 37.0,
+      "jury_score": 42.1,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 56
+    },
+    {
+      "project_name": "Give Food",
+      "url": "https://www.givefood.org.uk",
+      "constitutional_score": 34.8,
+      "jury_score": 42.0,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 57
+    },
+    {
+      "project_name": "Coral",
+      "url": "https://coralproject.net",
+      "constitutional_score": 30.7,
+      "jury_score": 41.9,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 58
+    },
+    {
+      "project_name": "Alaveteli",
+      "url": "https://alaveteli.org",
+      "constitutional_score": 47.7,
+      "jury_score": 41.8,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 59
+    },
+    {
+      "project_name": "Gapminder Worldview Upgrader",
+      "url": "https://upgrader.gapminder.org",
+      "constitutional_score": 26.9,
+      "jury_score": 41.7,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 60
+    },
+    {
+      "project_name": "ClimateAction.Tech",
+      "url": "https://climateaction.tech",
+      "constitutional_score": 36.6,
+      "jury_score": 41.6,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 61
+    },
+    {
+      "project_name": "Stanford Participatory Budgeting Platform",
+      "url": "https://github.com/stanfordcdt/pb",
+      "constitutional_score": 42.4,
+      "jury_score": 41.5,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 62
+    },
+    {
+      "project_name": "ORCID",
+      "url": "https://orcid.org",
+      "constitutional_score": 41.3,
+      "jury_score": 41.4,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 63
+    },
+    {
+      "project_name": "Parti",
+      "url": "https://parti.xyz",
+      "constitutional_score": 42.8,
+      "jury_score": 41.4,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 64
+    },
+    {
+      "project_name": "Interoperable Deliberative Tools",
+      "url": "https://metagov.org/projects/interop",
+      "constitutional_score": 36.9,
+      "jury_score": 41.1,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 65
+    },
+    {
+      "project_name": "CKAN",
+      "url": "https://ckan.org",
+      "constitutional_score": 40.4,
+      "jury_score": 40.8,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 66
+    },
+    {
+      "project_name": "Groupthink (OpenPolitics Votebot)",
+      "url": "https://github.com/openpolitics/groupthink",
+      "constitutional_score": 30.1,
+      "jury_score": 40.4,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 67
+    },
+    {
+      "project_name": "Sci-Hub",
+      "url": "https://sci-hub.se",
+      "constitutional_score": 23.5,
+      "jury_score": 40.2,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 68
+    },
+    {
+      "project_name": "Members' Interests",
+      "url": "https://membersinterests.org.uk",
+      "constitutional_score": 31.8,
+      "jury_score": 40.1,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 69
+    },
+    {
+      "project_name": "Prolific",
+      "url": "https://www.prolific.com",
+      "constitutional_score": 39.3,
+      "jury_score": 40.0,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 70
+    },
+    {
+      "project_name": "CiviCRM",
+      "url": "https://civicrm.org",
+      "constitutional_score": 39.5,
+      "jury_score": 39.9,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 71
+    },
+    {
+      "project_name": "Framework for Meaningful Engagement 2.0",
+      "url": "https://ecnl.org/publications/framework-meaningful-engagement-20?mc_cid=b1c5158063&mc_eid=a09c64ec38",
+      "constitutional_score": 40.4,
+      "jury_score": 39.9,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 72
+    },
+    {
+      "project_name": "Open Digital Planning",
+      "url": "https://opendigitalplanning.org/",
+      "constitutional_score": 44.0,
+      "jury_score": 39.9,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 73
+    },
+    {
+      "project_name": "Aragon",
+      "url": "https://aragon.org",
+      "constitutional_score": 33.0,
+      "jury_score": 39.8,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 74
+    },
+    {
+      "project_name": "HURIDOCS",
+      "url": "https://github.com/huridocs",
+      "constitutional_score": 38.7,
+      "jury_score": 39.8,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 75
+    },
+    {
+      "project_name": "PatCit",
+      "url": "https://github.com/cverluise/patcit",
+      "constitutional_score": 34.9,
+      "jury_score": 39.8,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 76
+    },
+    {
+      "project_name": "Fairbnb.coop",
+      "url": "https://fairbnb.coop",
+      "constitutional_score": 38.7,
+      "jury_score": 39.4,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 77
+    },
+    {
+      "project_name": "Cortico",
+      "url": "https://cortico.ai/platform",
+      "constitutional_score": 41.3,
+      "jury_score": 39.2,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 78
+    },
+    {
+      "project_name": "UrbanistAI",
+      "url": "https://site.urbanistai.com",
+      "constitutional_score": 22.9,
+      "jury_score": 38.9,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 79
+    },
+    {
+      "project_name": "Awesome UK Government Datasets",
+      "url": "https://github.com/i-dot-ai/awesome-gov-datasets",
+      "constitutional_score": 28.5,
+      "jury_score": 38.8,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 80
+    },
+    {
+      "project_name": "Mastodon",
+      "url": "https://github.com/mastodon/mastodon",
+      "constitutional_score": 50.7,
+      "jury_score": 38.8,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 81
+    },
+    {
+      "project_name": "Principles for Public Participation in Procurement of AI",
+      "url": "https://p4ai.net",
+      "constitutional_score": 46.6,
+      "jury_score": 38.8,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 82
+    },
+    {
+      "project_name": "The Data Trusts Initiative",
+      "url": "https://datatrusts.uk",
+      "constitutional_score": 33.9,
+      "jury_score": 38.8,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 83
+    },
+    {
+      "project_name": "CrowdJustice",
+      "url": "https://www.crowdjustice.com",
+      "constitutional_score": 33.8,
+      "jury_score": 38.7,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 84
+    },
+    {
+      "project_name": "Civic Tech Field Guide",
+      "url": "https://civictech.guide",
+      "constitutional_score": 38.0,
+      "jury_score": 38.6,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 85
+    },
+    {
+      "project_name": "Populate Tools",
+      "url": "https://github.com/populatetools",
+      "constitutional_score": 29.8,
+      "jury_score": 38.5,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 86
+    },
+    {
+      "project_name": "Mozilla Data Collective",
+      "url": "https://datacollective.mozillafoundation.org/",
+      "constitutional_score": 35.1,
+      "jury_score": 38.2,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 87
+    },
+    {
+      "project_name": "Nyaaya",
+      "url": "https://nyaaya.org",
+      "constitutional_score": 27.4,
+      "jury_score": 38.2,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 88
+    },
+    {
+      "project_name": "Open Collective",
+      "url": "https://opencollective.com",
+      "constitutional_score": 33.2,
+      "jury_score": 38.2,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 89
+    },
+    {
+      "project_name": "soweego",
+      "url": "https://soweego.readthedocs.io",
+      "constitutional_score": 32.3,
+      "jury_score": 38.0,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 90
+    },
+    {
+      "project_name": "Ethelo",
+      "url": "https://ethelo.com",
+      "constitutional_score": 40.3,
+      "jury_score": 37.8,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 91
+    },
+    {
+      "project_name": "Contracts for Data Collaboration",
+      "url": "https://contractsfordatacollaboration.org",
+      "constitutional_score": 35.3,
+      "jury_score": 37.6,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 92
+    },
+    {
+      "project_name": "One Project",
+      "url": "https://oneproject.org/",
+      "constitutional_score": 30.9,
+      "jury_score": 37.6,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 93
+    },
+    {
+      "project_name": "Open Council Network",
+      "url": "https://opencouncil.network",
+      "constitutional_score": 35.0,
+      "jury_score": 37.4,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 94
+    },
+    {
+      "project_name": "The Circuit",
+      "url": "https://thecircuit.cc",
+      "constitutional_score": 30.4,
+      "jury_score": 37.4,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 95
+    },
+    {
+      "project_name": "WhatDoTheyKnow",
+      "url": "https://www.whatdotheyknow.com",
+      "constitutional_score": 31.5,
+      "jury_score": 37.3,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 96
+    },
+    {
+      "project_name": "PolicyEngine",
+      "url": "https://policyengine.org/uk",
+      "constitutional_score": 30.8,
+      "jury_score": 37.2,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 97
+    },
+    {
+      "project_name": "Murmurations Protocol",
+      "url": "https://murmurations.network",
+      "constitutional_score": 40.2,
+      "jury_score": 37.1,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 98
+    },
+    {
+      "project_name": "Guardian Project",
+      "url": "https://guardianproject.info",
+      "constitutional_score": 40.2,
+      "jury_score": 36.8,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 99
+    },
+    {
+      "project_name": "The Government Says",
+      "url": "https://thegovernmentsays.com",
+      "constitutional_score": 27.7,
+      "jury_score": 36.8,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 100
+    },
+    {
+      "project_name": "Anna's Archive",
+      "url": "https://annas-archive.pm",
+      "constitutional_score": 26.4,
+      "jury_score": 36.7,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 101
+    },
+    {
+      "project_name": "Citizen OS",
+      "url": "https://citizenos.com/platform/",
+      "constitutional_score": 39.0,
+      "jury_score": 36.6,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 102
+    },
+    {
+      "project_name": "Abstract Wikipedia",
+      "url": "https://meta.wikimedia.org/wiki/abstract_wikipedia",
+      "constitutional_score": 32.0,
+      "jury_score": 36.2,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 103
+    },
+    {
+      "project_name": "Martus",
+      "url": "https://www.martus.org",
+      "constitutional_score": 27.3,
+      "jury_score": 36.2,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 104
+    },
+    {
+      "project_name": "Parallel Parliament",
+      "url": "https://www.parallelparliament.co.uk",
+      "constitutional_score": 25.5,
+      "jury_score": 36.2,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 105
+    },
+    {
+      "project_name": "Wikum",
+      "url": "https://www.csail.mit.edu/research/wikum-bridging-discussion-systems-and-wikis-collective-summarization",
+      "constitutional_score": 34.4,
+      "jury_score": 36.1,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 106
+    },
+    {
+      "project_name": "All Our Ideas",
+      "url": "https://all-our-ideas.citizens.is",
+      "constitutional_score": 32.9,
+      "jury_score": 35.7,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 107
+    },
+    {
+      "project_name": "GovTrack.us",
+      "url": "https://www.govtrack.us",
+      "constitutional_score": 34.1,
+      "jury_score": 35.3,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 108
+    },
+    {
+      "project_name": "Remember to Vote",
+      "url": "https://remembertovote.org.uk",
+      "constitutional_score": 29.2,
+      "jury_score": 35.2,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 109
+    },
+    {
+      "project_name": "rsky",
+      "url": "https://github.com/blacksky-algorithms/rsky",
+      "constitutional_score": 27.6,
+      "jury_score": 35.1,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 110
+    },
+    {
+      "project_name": "Pageviews Analysis",
+      "url": "https://pageviews.wmcloud.org",
+      "constitutional_score": 26.3,
+      "jury_score": 34.8,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 111
+    },
+    {
+      "project_name": "vTaiwan",
+      "url": "https://github.com/g0v/vue.vtaiwan.tw",
+      "constitutional_score": 34.8,
+      "jury_score": 34.7,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 112
+    },
+    {
+      "project_name": "GOV.UK Notify",
+      "url": "https://www.notifications.service.gov.uk",
+      "constitutional_score": 32.8,
+      "jury_score": 34.6,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 113
+    },
+    {
+      "project_name": "OpenCRVS",
+      "url": "https://www.opencrvs.org",
+      "constitutional_score": 34.2,
+      "jury_score": 34.5,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 114
+    },
+    {
+      "project_name": "Diia",
+      "url": "https://expo.diia.gov.ua",
+      "constitutional_score": 46.0,
+      "jury_score": 34.4,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 115
+    },
+    {
+      "project_name": "openparliament.ca",
+      "url": "https://openparliament.ca/",
+      "constitutional_score": 33.7,
+      "jury_score": 34.4,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 116
+    },
+    {
+      "project_name": "Campaign Tracker",
+      "url": "https://www.campaigntracker.nl/en",
+      "constitutional_score": 37.6,
+      "jury_score": 34.3,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 117
+    },
+    {
+      "project_name": "Nym",
+      "url": "https://nymtech.net",
+      "constitutional_score": 28.5,
+      "jury_score": 34.3,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 118
+    },
+    {
+      "project_name": "Atlas of Surveillance",
+      "url": "https://atlasofsurveillance.org",
+      "constitutional_score": 28.1,
+      "jury_score": 33.6,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 119
+    },
+    {
+      "project_name": "NumFOCUS",
+      "url": "https://numfocus.org",
+      "constitutional_score": 22.8,
+      "jury_score": 33.6,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 120
+    },
+    {
+      "project_name": "Papertree",
+      "url": "https://www.papertree.earth",
+      "constitutional_score": 26.1,
+      "jury_score": 33.6,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 121
+    },
+    {
+      "project_name": "Public Media Stack",
+      "url": "https://publicmediastack.com",
+      "constitutional_score": 23.6,
+      "jury_score": 33.6,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 122
+    },
+    {
+      "project_name": "Worker Info Exchange",
+      "url": "https://www.workerinfoexchange.org",
+      "constitutional_score": 30.0,
+      "jury_score": 33.5,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 123
+    },
+    {
+      "project_name": "docs.plus",
+      "url": "https://docs.plus",
+      "constitutional_score": 22.5,
+      "jury_score": 33.5,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 124
+    },
+    {
+      "project_name": "CoTech",
+      "url": "https://coops.tech",
+      "constitutional_score": 30.0,
+      "jury_score": 33.4,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 125
+    },
+    {
+      "project_name": "The Commons Social Change Library",
+      "url": "https://commonslibrary.org",
+      "constitutional_score": 26.6,
+      "jury_score": 33.3,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 126
+    },
+    {
+      "project_name": "PolicyKit",
+      "url": "https://policykit.org",
+      "constitutional_score": 35.1,
+      "jury_score": 33.1,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 127
+    },
+    {
+      "project_name": "Democracy Club Developer API",
+      "url": "https://developers.democracyclub.org.uk/api/v1",
+      "constitutional_score": 32.4,
+      "jury_score": 33.0,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 128
+    },
+    {
+      "project_name": "DeepSeek-V3",
+      "url": "https://github.com/deepseek-ai/deepseek-v3",
+      "constitutional_score": 26.6,
+      "jury_score": 32.9,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 129
+    },
+    {
+      "project_name": "Land Explorer",
+      "url": "https://landexplorer.coop",
+      "constitutional_score": 27.3,
+      "jury_score": 32.8,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 130
+    },
+    {
+      "project_name": "Local Intelligence Hub",
+      "url": "https://www.localintelligencehub.com",
+      "constitutional_score": 24.9,
+      "jury_score": 32.7,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 131
+    },
+    {
+      "project_name": "Registers and collaboration: making lists we can trust",
+      "url": "https://theodi.org/insights/reports/registers-and-collaboration-making-lists-we-can-trust-report",
+      "constitutional_score": 17.5,
+      "jury_score": 32.7,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 132
+    },
+    {
+      "project_name": "TheyWorkForYou",
+      "url": "https://www.theyworkforyou.com",
+      "constitutional_score": 33.0,
+      "jury_score": 32.6,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 133
+    },
+    {
+      "project_name": "Activist Handbook",
+      "url": "https://activisthandbook.org/",
+      "constitutional_score": 28.0,
+      "jury_score": 32.4,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 134
+    },
+    {
+      "project_name": "GOV.UK Forms",
+      "url": "https://www.forms.service.gov.uk",
+      "constitutional_score": 31.9,
+      "jury_score": 32.2,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 135
+    },
+    {
+      "project_name": "The Decelerator",
+      "url": "https://decelerator.org.uk",
+      "constitutional_score": 20.8,
+      "jury_score": 32.2,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 136
+    },
+    {
+      "project_name": "Unpaywall Browser Extension",
+      "url": "https://unpaywall.org/products/extension",
+      "constitutional_score": 25.5,
+      "jury_score": 32.2,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 137
+    },
+    {
+      "project_name": "Strike Map",
+      "url": "https://strikemap.org",
+      "constitutional_score": 24.3,
+      "jury_score": 32.1,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 138
+    },
+    {
+      "project_name": "Radicle",
+      "url": "https://radicle.xyz",
+      "constitutional_score": 21.4,
+      "jury_score": 32.0,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 139
+    },
+    {
+      "project_name": "Turbo Phonebank",
+      "url": "https://turbophonebank.com",
+      "constitutional_score": 21.9,
+      "jury_score": 32.0,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 140
+    },
+    {
+      "project_name": "OSINT Framework",
+      "url": "https://osintframework.com",
+      "constitutional_score": 29.4,
+      "jury_score": 31.9,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 141
+    },
+    {
+      "project_name": "Open Science Framework",
+      "url": "https://osf.io",
+      "constitutional_score": 34.8,
+      "jury_score": 31.9,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 142
+    },
+    {
+      "project_name": "oTree",
+      "url": "https://www.otree.org",
+      "constitutional_score": 32.8,
+      "jury_score": 31.9,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 143
+    },
+    {
+      "project_name": "Go Vocal",
+      "url": "https://www.govocal.com",
+      "constitutional_score": 35.5,
+      "jury_score": 31.4,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 144
+    },
+    {
+      "project_name": "deliberAIde",
+      "url": "https://www.deliberaide.com",
+      "constitutional_score": 36.5,
+      "jury_score": 31.3,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 145
+    },
+    {
+      "project_name": "Bellingcat Online Investigation Toolkit",
+      "url": "https://bellingcat.gitbook.io/toolkit",
+      "constitutional_score": 40.8,
+      "jury_score": 31.2,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 146
+    },
+    {
+      "project_name": "Pursuance Project",
+      "url": "https://pursuanceproject.org",
+      "constitutional_score": 20.1,
+      "jury_score": 31.1,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 147
+    },
+    {
+      "project_name": "Teaching Public Service in the Digital Age",
+      "url": "https://www.teachingpublicservice.digital",
+      "constitutional_score": 28.0,
+      "jury_score": 31.1,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 148
+    },
+    {
+      "project_name": "dDocs",
+      "url": "https://ddocs.new/",
+      "constitutional_score": 22.0,
+      "jury_score": 30.9,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 149
+    },
+    {
+      "project_name": "Modular Politics",
+      "url": "https://arxiv.org/abs/2005.13701",
+      "constitutional_score": 29.3,
+      "jury_score": 30.8,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 150
+    },
+    {
+      "project_name": "Schema.org",
+      "url": "https://schema.org",
+      "constitutional_score": 12.8,
+      "jury_score": 30.8,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 151
+    },
+    {
+      "project_name": "Mastodon C",
+      "url": "https://www.mastodonc.com",
+      "constitutional_score": 33.7,
+      "jury_score": 30.7,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 152
+    },
+    {
+      "project_name": "Polimorphic",
+      "url": "https://www.polimorphic.com",
+      "constitutional_score": 21.3,
+      "jury_score": 30.7,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 153
+    },
+    {
+      "project_name": "Public AI Inference Utility",
+      "url": "https://publicai.co/",
+      "constitutional_score": 30.6,
+      "jury_score": 30.6,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 154
+    },
+    {
+      "project_name": "Moral Machine",
+      "url": "https://moralmachine.net",
+      "constitutional_score": 28.8,
+      "jury_score": 30.5,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 155
+    },
+    {
+      "project_name": "Humble Data Workshop",
+      "url": "https://humbledata.org",
+      "constitutional_score": 33.8,
+      "jury_score": 30.4,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 156
+    },
+    {
+      "project_name": "Privacy Badger",
+      "url": "https://privacybadger.org",
+      "constitutional_score": 28.5,
+      "jury_score": 30.0,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 157
+    },
+    {
+      "project_name": "Community Tech",
+      "url": "https://www.communitytech.network",
+      "constitutional_score": 19.7,
+      "jury_score": 29.9,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 158
+    },
+    {
+      "project_name": "Agencies for Good",
+      "url": "https://www.agenciesforgood.org",
+      "constitutional_score": 32.6,
+      "jury_score": 29.8,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 159
+    },
+    {
+      "project_name": "The Accountability Project",
+      "url": "https://publicaccountability.org",
+      "constitutional_score": 20.9,
+      "jury_score": 29.8,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 160
+    },
+    {
+      "project_name": "Kialo",
+      "url": "https://kialo.com",
+      "constitutional_score": 28.7,
+      "jury_score": 29.7,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 161
+    },
+    {
+      "project_name": "The Engine Room Library",
+      "url": "https://library.theengineroom.org",
+      "constitutional_score": 25.3,
+      "jury_score": 29.7,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 162
+    },
+    {
+      "project_name": "UK Policy Dojo",
+      "url": "https://github.com/mikekelly/policy-dojo",
+      "constitutional_score": 27.9,
+      "jury_score": 29.7,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 163
+    },
+    {
+      "project_name": "Consent-O-Matic",
+      "url": "https://github.com/cavi-au/consent-o-matic",
+      "constitutional_score": 28.5,
+      "jury_score": 29.6,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 164
+    },
+    {
+      "project_name": "RightDD",
+      "url": "https://www.rightsdd.com",
+      "constitutional_score": 30.1,
+      "jury_score": 29.4,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 165
+    },
+    {
+      "project_name": "Service Manual",
+      "url": "https://www.gov.uk/service-manual",
+      "constitutional_score": 30.6,
+      "jury_score": 29.4,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 166
+    },
+    {
+      "project_name": "Neighbourhood Warmth",
+      "url": "https://www.mysociety.org/climate/neighbourhood-warmth",
+      "constitutional_score": 31.8,
+      "jury_score": 29.3,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 167
+    },
+    {
+      "project_name": "OpenElections Leaflet Scraper and Parser",
+      "url": "https://github.com/thicknavyrain/uk_elections_leaflets",
+      "constitutional_score": 22.1,
+      "jury_score": 29.2,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 168
+    },
+    {
+      "project_name": "Vote for Policies",
+      "url": "https://voteforpolicies.org.uk",
+      "constitutional_score": 28.2,
+      "jury_score": 29.2,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 169
+    },
+    {
+      "project_name": "Bluesky Social",
+      "url": "https://github.com/bluesky-social",
+      "constitutional_score": 27.4,
+      "jury_score": 29.1,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 170
+    },
+    {
+      "project_name": "meet.coop",
+      "url": "https://www.meet.coop",
+      "constitutional_score": 28.2,
+      "jury_score": 29.1,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 171
+    },
+    {
+      "project_name": "Pastecal",
+      "url": "https://github.com/kazad/pastecal",
+      "constitutional_score": 29.5,
+      "jury_score": 29.0,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 172
+    },
+    {
+      "project_name": "Tactical Data Engagement",
+      "url": "https://communities.sunlightfoundation.com/methodology",
+      "constitutional_score": 33.0,
+      "jury_score": 29.0,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 173
+    },
+    {
+      "project_name": "\u041e\u041f\u041e\u0420\u0410 (Opora)",
+      "url": "https://www.oporaua.org",
+      "constitutional_score": 22.1,
+      "jury_score": 29.0,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 174
+    },
+    {
+      "project_name": "MapIt",
+      "url": "https://mapit.mysociety.org",
+      "constitutional_score": 29.0,
+      "jury_score": 28.9,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 175
+    },
+    {
+      "project_name": "OA.Report",
+      "url": "https://oa.report",
+      "constitutional_score": 27.5,
+      "jury_score": 28.7,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 176
+    },
+    {
+      "project_name": "Open Data Communities",
+      "url": "https://opendatacommunities.org",
+      "constitutional_score": 29.4,
+      "jury_score": 28.7,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 177
+    },
+    {
+      "project_name": "OpenProcurement",
+      "url": "https://openprocurement.io",
+      "constitutional_score": 34.2,
+      "jury_score": 28.6,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 178
+    },
+    {
+      "project_name": "In the news",
+      "url": "https://en.wikipedia.org/wiki/wikipedia:in_the_news",
+      "constitutional_score": 23.2,
+      "jury_score": 28.5,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 179
+    },
+    {
+      "project_name": "Gender Pay Gap Service",
+      "url": "https://gender-pay-gap.service.gov.uk",
+      "constitutional_score": 20.5,
+      "jury_score": 28.3,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 180
+    },
+    {
+      "project_name": "GreenPT",
+      "url": "https://greenpt.ai/",
+      "constitutional_score": 20.8,
+      "jury_score": 28.3,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 181
+    },
+    {
+      "project_name": "SecureDrop",
+      "url": "https://securedrop.org",
+      "constitutional_score": 29.4,
+      "jury_score": 28.2,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 182
+    },
+    {
+      "project_name": "GOV.UK One Login",
+      "url": "https://www.sign-in.service.gov.uk",
+      "constitutional_score": 31.6,
+      "jury_score": 28.1,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 183
+    },
+    {
+      "project_name": "The DAO (Standard DAO Framework)",
+      "url": "https://github.com/vbuterin/dao",
+      "constitutional_score": 29.4,
+      "jury_score": 27.9,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 184
+    },
+    {
+      "project_name": "Conservative Party Funding",
+      "url": "https://conservativepartyfunding.co.uk",
+      "constitutional_score": 18.0,
+      "jury_score": 27.8,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 185
+    },
+    {
+      "project_name": "ShineYourEye",
+      "url": "https://www.shineyoureye.org",
+      "constitutional_score": 21.7,
+      "jury_score": 27.5,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 186
+    },
+    {
+      "project_name": "WriteToThem",
+      "url": "https://www.writetothem.com",
+      "constitutional_score": 32.6,
+      "jury_score": 27.5,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 187
+    },
+    {
+      "project_name": "Marks Out Of Tenancy",
+      "url": "https://www.marksoutoftenancy.com",
+      "constitutional_score": 24.4,
+      "jury_score": 27.4,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 188
+    },
+    {
+      "project_name": "Urbit",
+      "url": "https://urbit.org",
+      "constitutional_score": 24.1,
+      "jury_score": 27.4,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 189
+    },
+    {
+      "project_name": "OA.Works",
+      "url": "https://oa.works/",
+      "constitutional_score": 37.0,
+      "jury_score": 27.3,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 190
+    },
+    {
+      "project_name": "Agreement Engine",
+      "url": "https://medium.com/metagov/introducing-the-agreement-engine-bf03b6d5c16c",
+      "constitutional_score": 26.8,
+      "jury_score": 27.1,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 191
+    },
+    {
+      "project_name": "DAO Governance Surfaces",
+      "url": "https://github.com/notchia/dao-governance-surfaces",
+      "constitutional_score": 25.0,
+      "jury_score": 27.0,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 192
+    },
+    {
+      "project_name": "Kagi SlopStop",
+      "url": "https://blog.kagi.com/slopstop",
+      "constitutional_score": 26.7,
+      "jury_score": 27.0,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 193
+    },
+    {
+      "project_name": "Viewpoints",
+      "url": "https://viewpoints.xyz",
+      "constitutional_score": 21.8,
+      "jury_score": 26.9,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 194
+    },
+    {
+      "project_name": "Fatebook",
+      "url": "https://fatebook.io",
+      "constitutional_score": 28.5,
+      "jury_score": 26.7,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 195
+    },
+    {
+      "project_name": "postcodes.io",
+      "url": "https://github.com/ideal-postcodes/postcodes.io",
+      "constitutional_score": 19.9,
+      "jury_score": 26.6,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 196
+    },
+    {
+      "project_name": "Journalist Studio",
+      "url": "https://journaliststudio.google.com",
+      "constitutional_score": 21.0,
+      "jury_score": 26.5,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 197
+    },
+    {
+      "project_name": "Entitledto",
+      "url": "https://entitledto.co.uk",
+      "constitutional_score": 18.6,
+      "jury_score": 26.4,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 198
+    },
+    {
+      "project_name": "Shared Digital Guides",
+      "url": "https://www.shareddigitalguides.org.uk",
+      "constitutional_score": 25.5,
+      "jury_score": 26.4,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 199
+    },
+    {
+      "project_name": "UK Parliament Developer Portal",
+      "url": "https://developer.parliament.uk",
+      "constitutional_score": 19.1,
+      "jury_score": 26.4,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 200
+    },
+    {
+      "project_name": "Unknown Academic Paper (SSRN 5351275)",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5351275",
+      "constitutional_score": 21.0,
+      "jury_score": 26.3,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 201
+    },
+    {
+      "project_name": "GRIM (Global Risk Simulator)",
+      "url": "https://github.com/sentinelteam/grim",
+      "constitutional_score": 32.4,
+      "jury_score": 26.2,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 202
+    },
+    {
+      "project_name": "Monitor Mamdani",
+      "url": "https://monitormamdani.com/",
+      "constitutional_score": 29.9,
+      "jury_score": 25.9,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 203
+    },
+    {
+      "project_name": "GOV.UK Pay",
+      "url": "https://www.payments.service.gov.uk",
+      "constitutional_score": 24.5,
+      "jury_score": 25.8,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 204
+    },
+    {
+      "project_name": "Channel.org",
+      "url": "https://channel.org",
+      "constitutional_score": 23.1,
+      "jury_score": 25.7,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 205
+    },
+    {
+      "project_name": "River Sentiment Dashboard",
+      "url": "https://riversentiment.app",
+      "constitutional_score": 27.2,
+      "jury_score": 25.7,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 206
+    },
+    {
+      "project_name": "semanticClimate",
+      "url": "https://semanticclimate.github.io",
+      "constitutional_score": 22.7,
+      "jury_score": 25.7,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 207
+    },
+    {
+      "project_name": "Charity Digital Skills Report",
+      "url": "https://charitydigitalskills.co.uk",
+      "constitutional_score": 21.0,
+      "jury_score": 25.2,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 208
+    },
+    {
+      "project_name": "PoliMonitor",
+      "url": "https://www.polimonitor.com",
+      "constitutional_score": 13.0,
+      "jury_score": 25.2,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 209
+    },
+    {
+      "project_name": "RxC Voice",
+      "url": "https://github.com/radicalxchange/rxc-voice",
+      "constitutional_score": 31.9,
+      "jury_score": 25.2,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 210
+    },
+    {
+      "project_name": "AISafety.info",
+      "url": "https://aisafety.info",
+      "constitutional_score": 27.2,
+      "jury_score": 25.0,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 211
+    },
+    {
+      "project_name": "Find local consultations",
+      "url": "https://gov.uk/find-local-consultations",
+      "constitutional_score": 19.0,
+      "jury_score": 24.7,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 212
+    },
+    {
+      "project_name": "Turn2us Benefits Calculator",
+      "url": "https://benefits-calculator.turn2us.org.uk",
+      "constitutional_score": 19.2,
+      "jury_score": 24.7,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 213
+    },
+    {
+      "project_name": "Yoti",
+      "url": "https://www.yoti.com",
+      "constitutional_score": 19.9,
+      "jury_score": 24.5,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 214
+    },
+    {
+      "project_name": "Humanitarian Data Exchange",
+      "url": "https://data.humdata.org",
+      "constitutional_score": 28.2,
+      "jury_score": 24.4,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 215
+    },
+    {
+      "project_name": "EDGAR",
+      "url": "https://github.com/bellingcat/edgar",
+      "constitutional_score": 22.0,
+      "jury_score": 24.3,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 216
+    },
+    {
+      "project_name": "Esper",
+      "url": "https://esper.com/product",
+      "constitutional_score": 5.4,
+      "jury_score": 24.2,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 217
+    },
+    {
+      "project_name": "Journal of Open Source Software",
+      "url": "https://joss.theoj.org",
+      "constitutional_score": 23.3,
+      "jury_score": 24.2,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 218
+    },
+    {
+      "project_name": "LittleSis",
+      "url": "https://littlesis.org",
+      "constitutional_score": 25.4,
+      "jury_score": 24.2,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 219
+    },
+    {
+      "project_name": "Collaborative Data Patterns",
+      "url": "https://collaborative-data.theodi.org",
+      "constitutional_score": 24.5,
+      "jury_score": 24.0,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 220
+    },
+    {
+      "project_name": "whatsmeow",
+      "url": "https://github.com/tulir/whatsmeow",
+      "constitutional_score": 17.9,
+      "jury_score": 23.6,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 221
+    },
+    {
+      "project_name": "MP Twitter Bios",
+      "url": "https://www.mptwitterbios.co.uk",
+      "constitutional_score": 23.9,
+      "jury_score": 23.3,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 222
+    },
+    {
+      "project_name": "Local Deep Researcher",
+      "url": "https://local-deep-researcher-hnmh.vercel.app/",
+      "constitutional_score": 19.0,
+      "jury_score": 23.2,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 223
+    },
+    {
+      "project_name": "Choose a License",
+      "url": "https://choosealicense.com",
+      "constitutional_score": 17.4,
+      "jury_score": 22.9,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 224
+    },
+    {
+      "project_name": "RxC Quadratic Voting",
+      "url": "https://quadraticvote.radicalxchange.org",
+      "constitutional_score": 34.9,
+      "jury_score": 22.9,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 225
+    },
+    {
+      "project_name": "youtube-dl",
+      "url": "https://github.com/ytdl-org/youtube-dl",
+      "constitutional_score": 29.3,
+      "jury_score": 22.9,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 226
+    },
+    {
+      "project_name": "Logos",
+      "url": "https://logos.co/",
+      "constitutional_score": 31.7,
+      "jury_score": 22.8,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 227
+    },
+    {
+      "project_name": "CAN/DGSI 127 - Age Assurance Technologies Standard",
+      "url": "https://dgc-cgn.org/product/can-dgsi-127/",
+      "constitutional_score": 21.3,
+      "jury_score": 22.7,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 228
+    },
+    {
+      "project_name": "Organise",
+      "url": "https://www.organise.org.uk",
+      "constitutional_score": 14.2,
+      "jury_score": 22.5,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 229
+    },
+    {
+      "project_name": "PlaceCal",
+      "url": "https://github.com/geeksforsocialchange/placecal",
+      "constitutional_score": 21.4,
+      "jury_score": 22.2,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 230
+    },
+    {
+      "project_name": "Bluesky",
+      "url": "https://bsky.app",
+      "constitutional_score": 25.9,
+      "jury_score": 21.8,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 231
+    },
+    {
+      "project_name": "GOV Reuse Library",
+      "url": "https://dev.reuselibrary.service.justice.gov.uk/",
+      "constitutional_score": 21.0,
+      "jury_score": 21.8,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 232
+    },
+    {
+      "project_name": "Nestr",
+      "url": "https://nestr.io",
+      "constitutional_score": 14.4,
+      "jury_score": 21.8,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 233
+    },
+    {
+      "project_name": "Timecounts",
+      "url": "https://timecounts.org",
+      "constitutional_score": 19.2,
+      "jury_score": 21.0,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 234
+    },
+    {
+      "project_name": "Full Fact AI",
+      "url": "https://fullfact.org/ai",
+      "constitutional_score": 17.9,
+      "jury_score": 20.8,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 235
+    },
+    {
+      "project_name": "Riseup",
+      "url": "https://riseup.net",
+      "constitutional_score": 27.5,
+      "jury_score": 20.8,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 236
+    },
+    {
+      "project_name": "Who Targets Me Trends",
+      "url": "https://trends.whotargets.me",
+      "constitutional_score": 19.2,
+      "jury_score": 20.7,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 237
+    },
+    {
+      "project_name": "Democracy Fund Open Source",
+      "url": "https://www.dfos.com",
+      "constitutional_score": 14.8,
+      "jury_score": 20.6,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 238
+    },
+    {
+      "project_name": "PlanIT",
+      "url": "https://planit.org.uk",
+      "constitutional_score": 22.2,
+      "jury_score": 20.5,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 239
+    },
+    {
+      "project_name": "Hand-Written Petition Scanner",
+      "url": "https://hand-written-petition-scanner.streamlit.app",
+      "constitutional_score": 23.6,
+      "jury_score": 20.4,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 240
+    },
+    {
+      "project_name": "Granicus",
+      "url": "https://granicus.com/uk",
+      "constitutional_score": 16.8,
+      "jury_score": 20.3,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 241
+    },
+    {
+      "project_name": "Citizens Advice Tableau Public Profile",
+      "url": "https://public.tableau.com/app/profile/citizensadvice/vizzes",
+      "constitutional_score": 18.0,
+      "jury_score": 20.2,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 242
+    },
+    {
+      "project_name": "Idealist",
+      "url": "https://idealist.org",
+      "constitutional_score": 21.6,
+      "jury_score": 20.0,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 243
+    },
+    {
+      "project_name": "The List",
+      "url": "https://the-list.uk",
+      "constitutional_score": 27.1,
+      "jury_score": 19.6,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 244
+    },
+    {
+      "project_name": "Right To Know",
+      "url": "https://right-to-know.org",
+      "constitutional_score": 18.0,
+      "jury_score": 19.5,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 245
+    },
+    {
+      "project_name": "Pear by Holepunch",
+      "url": "https://docs.holepunch.to",
+      "constitutional_score": 21.0,
+      "jury_score": 19.4,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 246
+    },
+    {
+      "project_name": "sourceAFRICA",
+      "url": "https://sourceafrica.net",
+      "constitutional_score": 25.2,
+      "jury_score": 19.3,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 247
+    },
+    {
+      "project_name": "CiviClick",
+      "url": "https://civiclick.com",
+      "constitutional_score": 15.7,
+      "jury_score": 19.1,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 248
+    },
+    {
+      "project_name": "DoNotPay",
+      "url": "https://www.donotpay.com",
+      "constitutional_score": 15.9,
+      "jury_score": 19.1,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 249
+    },
+    {
+      "project_name": "MyActionCenter",
+      "url": "https://www.myaction.center",
+      "constitutional_score": 23.6,
+      "jury_score": 18.7,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 250
+    },
+    {
+      "project_name": "Global Fact-Check Bot (GFC)",
+      "url": "https://globalfactcheck.bot/",
+      "constitutional_score": 16.4,
+      "jury_score": 18.4,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 251
+    },
+    {
+      "project_name": "Local Insight",
+      "url": "https://localinsight.org",
+      "constitutional_score": 15.2,
+      "jury_score": 18.4,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 252
+    },
+    {
+      "project_name": "Plinth",
+      "url": "https://www.plinth.org.uk",
+      "constitutional_score": 22.2,
+      "jury_score": 18.4,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 253
+    },
+    {
+      "project_name": "Rahvaalgatus",
+      "url": "https://github.com/rahvaalgatus/rahvaalgatus",
+      "constitutional_score": 15.9,
+      "jury_score": 18.4,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 254
+    },
+    {
+      "project_name": "Relational Tech Project",
+      "url": "https://relationaltechproject.org",
+      "constitutional_score": 21.7,
+      "jury_score": 18.4,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 255
+    },
+    {
+      "project_name": "Frankenstein Bill",
+      "url": "https://gordonguthrie.github.io/frankensteinbill",
+      "constitutional_score": 28.5,
+      "jury_score": 18.1,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 256
+    },
+    {
+      "project_name": "FixMyBlock",
+      "url": "https://fixmyblock.org",
+      "constitutional_score": 10.0,
+      "jury_score": 18.0,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 257
+    },
+    {
+      "project_name": "Security First / Umbrella",
+      "url": "https://secfirst.org",
+      "constitutional_score": 29.1,
+      "jury_score": 18.0,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 258
+    },
+    {
+      "project_name": "Public Editor",
+      "url": "https://www.publiceditor.io",
+      "constitutional_score": 19.3,
+      "jury_score": 17.8,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 259
+    },
+    {
+      "project_name": "Consciousness Evolution Operating System (ConSoc)",
+      "url": "https://www.consoc.io",
+      "constitutional_score": 21.0,
+      "jury_score": 17.7,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 260
+    },
+    {
+      "project_name": "Society for Hopeful Technologists",
+      "url": "https://societyforhopefultechnologists.org",
+      "constitutional_score": 20.2,
+      "jury_score": 17.5,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 261
+    },
+    {
+      "project_name": "WhatGov",
+      "url": "https://www.whatgov.co.uk",
+      "constitutional_score": 14.0,
+      "jury_score": 17.4,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 262
+    },
+    {
+      "project_name": "PolicyMogul",
+      "url": "https://policymogul.com",
+      "constitutional_score": 12.0,
+      "jury_score": 17.2,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 263
+    },
+    {
+      "project_name": "Whoisology",
+      "url": "https://whoisology.com",
+      "constitutional_score": 10.8,
+      "jury_score": 17.2,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 264
+    },
+    {
+      "project_name": "Collab.Land",
+      "url": "https://collab.land",
+      "constitutional_score": 20.2,
+      "jury_score": 16.9,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 265
+    },
+    {
+      "project_name": "Landlord Tech Watch",
+      "url": "https://antievictionmappingproject.github.io/landlordtech",
+      "constitutional_score": 16.9,
+      "jury_score": 16.9,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 266
+    },
+    {
+      "project_name": "CivicPress",
+      "url": "https://civicpress.io/",
+      "constitutional_score": 15.4,
+      "jury_score": 16.1,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 267
+    },
+    {
+      "project_name": "WardWatch",
+      "url": "https://wardwatch.uk",
+      "constitutional_score": 11.3,
+      "jury_score": 16.0,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 268
+    },
+    {
+      "project_name": "Fission Codes",
+      "url": "https://github.com/fission-codes/fission-codes",
+      "constitutional_score": 12.1,
+      "jury_score": 15.8,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 269
+    },
+    {
+      "project_name": "Parse The Bill",
+      "url": "https://parsethebill.com",
+      "constitutional_score": 10.7,
+      "jury_score": 15.2,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 270
+    },
+    {
+      "project_name": "CivicMatch",
+      "url": "https://civicmatch.app",
+      "constitutional_score": 12.8,
+      "jury_score": 14.8,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 271
+    },
+    {
+      "project_name": "Spacetube",
+      "url": "https://spacetu.be",
+      "constitutional_score": 17.5,
+      "jury_score": 14.7,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 272
+    },
+    {
+      "project_name": "New_ Public Roundabout",
+      "url": "https://newpublic.substack.com/p/introducing-roundabout-built-for",
+      "constitutional_score": 23.2,
+      "jury_score": 14.6,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 273
+    },
+    {
+      "project_name": "Membership",
+      "url": "https://medium.com/@abscond/membership-a-prototype-ea822b2683b",
+      "constitutional_score": 15.5,
+      "jury_score": 14.4,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 274
+    },
+    {
+      "project_name": "Mapped",
+      "url": "https://mapped.commonknowledge.coop",
+      "constitutional_score": 16.4,
+      "jury_score": 14.1,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 275
+    },
+    {
+      "project_name": "MP Watch",
+      "url": "https://www.mpwatch.org",
+      "constitutional_score": 17.1,
+      "jury_score": 14.0,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 276
+    },
+    {
+      "project_name": "CharmVerse",
+      "url": "https://charmverse.io/",
+      "constitutional_score": 24.1,
+      "jury_score": 13.9,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 277
+    },
+    {
+      "project_name": "Plausible Analytics",
+      "url": "https://plausible.io",
+      "constitutional_score": 20.4,
+      "jury_score": 13.9,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 278
+    },
+    {
+      "project_name": "Libertrium",
+      "url": "https://liberopinion.com",
+      "constitutional_score": 16.8,
+      "jury_score": 13.7,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 279
+    },
+    {
+      "project_name": "Violation Tracker UK",
+      "url": "https://violationtrackeruk.goodjobsfirst.org",
+      "constitutional_score": 17.8,
+      "jury_score": 13.7,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 280
+    },
+    {
+      "project_name": "Labour Xchange",
+      "url": "https://labourxchange.uk",
+      "constitutional_score": 11.9,
+      "jury_score": 13.6,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 281
+    },
+    {
+      "project_name": "Digital Account Management Toolkit",
+      "url": "https://digitalcharitylab.org/product/digital-account-management-toolkit",
+      "constitutional_score": 11.9,
+      "jury_score": 13.5,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 282
+    },
+    {
+      "project_name": "Sugartrail",
+      "url": "https://github.com/ribenamaplesyrup/sugartrail",
+      "constitutional_score": 21.1,
+      "jury_score": 13.5,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 283
+    },
+    {
+      "project_name": "COTSI (Cyber Operational Threat Situational Intelligence)",
+      "url": "https://cotsi.org/",
+      "constitutional_score": 15.5,
+      "jury_score": 13.1,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 284
+    },
+    {
+      "project_name": "Mapping.kids",
+      "url": "https://mapping.kids",
+      "constitutional_score": 14.7,
+      "jury_score": 13.1,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 285
+    },
+    {
+      "project_name": "Beckton",
+      "url": "https://richardpope.org/2017/03/05/beckton-a-tool-to-build",
+      "constitutional_score": 19.4,
+      "jury_score": 13.0,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 286
+    },
+    {
+      "project_name": "Shareyourpaper.org",
+      "url": "https://shareyourpaper.org",
+      "constitutional_score": 14.4,
+      "jury_score": 12.5,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 287
+    },
+    {
+      "project_name": "The Guide to Major Trusts 2025/26",
+      "url": "https://www.dsc.org.uk/publication/the-guide-to-major-trusts-2025-26/",
+      "constitutional_score": 8.7,
+      "jury_score": 12.2,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 288
+    },
+    {
+      "project_name": "Watch Duty",
+      "url": "https://www.watchduty.org",
+      "constitutional_score": 10.6,
+      "jury_score": 12.1,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 289
+    },
+    {
+      "project_name": "Objector.ai",
+      "url": "https://www.objector.ai",
+      "constitutional_score": 10.8,
+      "jury_score": 11.7,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 290
+    },
+    {
+      "project_name": "Keep It In The Community",
+      "url": "https://plunkett.my.site.com/keepitinthecommunity/s",
+      "constitutional_score": 13.0,
+      "jury_score": 11.6,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 291
+    },
+    {
+      "project_name": "Missing Numbers",
+      "url": "https://missingnumbers.org",
+      "constitutional_score": 11.2,
+      "jury_score": 11.0,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 292
+    },
+    {
+      "project_name": "Responsible Tech Guide 2025",
+      "url": "https://alltechishuman.org/responsible-tech-guide-2025",
+      "constitutional_score": 17.5,
+      "jury_score": 11.0,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 293
+    },
+    {
+      "project_name": "django-collaborative",
+      "url": "https://github.com/propublica/django-collaborative",
+      "constitutional_score": 12.1,
+      "jury_score": 10.5,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 294
+    },
+    {
+      "project_name": "Ladder Hub",
+      "url": "https://ladderhub.org/",
+      "constitutional_score": 9.1,
+      "jury_score": 9.9,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 295
+    },
+    {
+      "project_name": "User Research Library",
+      "url": "https://research.localgov.digital",
+      "constitutional_score": 14.7,
+      "jury_score": 9.6,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 296
+    },
+    {
+      "project_name": "Granitt",
+      "url": "https://granitt.io",
+      "constitutional_score": 12.7,
+      "jury_score": 9.4,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 297
+    },
+    {
+      "project_name": "Filmot",
+      "url": "https://filmot.com",
+      "constitutional_score": 10.8,
+      "jury_score": 9.1,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 298
+    },
+    {
+      "project_name": "Who Posted What?",
+      "url": "https://whopostedwhat.com",
+      "constitutional_score": 13.1,
+      "jury_score": 8.8,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 299
+    },
+    {
+      "project_name": "Open Letter",
+      "url": "https://openletter.earth",
+      "constitutional_score": 12.4,
+      "jury_score": 7.9,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 300
+    },
+    {
+      "project_name": "Parliament Watch Uganda",
+      "url": "https://parliamentwatch.ug/",
+      "constitutional_score": 6.6,
+      "jury_score": 7.3,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 301
+    },
+    {
+      "project_name": "Open Council Data UK",
+      "url": "https://opencouncildata.co.uk",
+      "constitutional_score": 5.1,
+      "jury_score": 6.9,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 302
+    },
+    {
+      "project_name": "Nook CRM",
+      "url": "https://nookcrm.com",
+      "constitutional_score": 3.9,
+      "jury_score": 5.7,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 303
+    },
+    {
+      "project_name": "Overton",
+      "url": "https://overton.io",
+      "constitutional_score": 10.7,
+      "jury_score": 5.5,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 304
+    },
+    {
+      "project_name": "Empurrando Juntas (EJ)",
+      "url": "https://sobre.ejparticipe.org",
+      "constitutional_score": 7.8,
+      "jury_score": 5.3,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 305
+    },
+    {
+      "project_name": "OpenAudience",
+      "url": "https://openaudience.org",
+      "constitutional_score": 4.9,
+      "jury_score": 4.9,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 306
+    },
+    {
+      "project_name": "Objector.ai",
+      "url": "https://objector.ai",
+      "constitutional_score": 13.2,
+      "jury_score": 4.3,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 307
+    },
+    {
+      "project_name": "Spartacus",
+      "url": "https://spartacus.app",
+      "constitutional_score": 8.4,
+      "jury_score": 3.9,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 308
+    },
+    {
+      "project_name": "PostBug",
+      "url": "https://postbug.com",
+      "constitutional_score": 15.9,
+      "jury_score": 3.2,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 309
+    },
+    {
+      "project_name": "We Live It",
+      "url": "https://www.welivedit.ai",
+      "constitutional_score": 6.8,
+      "jury_score": 2.7,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 310
+    },
+    {
+      "project_name": "OpenOrigins",
+      "url": "https://www.openorigins.com",
+      "constitutional_score": 7.1,
+      "jury_score": 2.3,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 311
+    },
+    {
+      "project_name": "Understanding Your Morality",
+      "url": "https://programs.clearerthinking.org/understanding-your-morality/",
+      "constitutional_score": 4.6,
+      "jury_score": 0.9,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 312
+    },
+    {
+      "project_name": "Deliberation & Technology (DelibTech) Network",
+      "url": "https://www.demnext.org/projects/delibtech-network",
+      "constitutional_score": 10.5,
+      "jury_score": 0,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 313
+    },
+    {
+      "project_name": "DemTech Navigator",
+      "url": "https://navigator.oii.ox.ac.uk",
+      "constitutional_score": 2.1,
+      "jury_score": 0,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 314
+    },
+    {
+      "project_name": "DoGooder",
+      "url": "https://dogooder.co",
+      "constitutional_score": 5.1,
+      "jury_score": 0,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 315
+    },
+    {
+      "project_name": "Dovetail",
+      "url": "https://dovetail.network",
+      "constitutional_score": 0,
+      "jury_score": 0,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 316
+    },
+    {
+      "project_name": "Dunadyne",
+      "url": "https://dunadyne.org",
+      "constitutional_score": 1.7,
+      "jury_score": 0,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 317
+    },
+    {
+      "project_name": "FarmerChat",
+      "url": "https://farmerchat.digitalgreen.org",
+      "constitutional_score": 0,
+      "jury_score": 0,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 318
+    },
+    {
+      "project_name": "GovWise",
+      "url": "https://www.govwise.ai/en",
+      "constitutional_score": 0,
+      "jury_score": 0,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 319
+    },
+    {
+      "project_name": "WorkInCharities",
+      "url": "https://www.workincharities.co.uk",
+      "constitutional_score": 0,
+      "jury_score": 0,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 320
+    },
+    {
+      "project_name": "tracking-template-38b4c.web.app",
+      "url": "https://tracking-template-38b4c.web.app",
+      "constitutional_score": 0,
+      "jury_score": 0,
+      "rationale": "SIMULATED \u2014 GPT-4.1 run 5",
+      "jury_rank": 321
+    }
+  ]
+}
