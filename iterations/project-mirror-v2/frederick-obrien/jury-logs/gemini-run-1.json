@@ -14,11 +14,11 @@
       "modifier_adj": null,
       "confidence": "low",
       "abstain": true,
-      "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+      "abstain_reason": "API error: Expecting value: line 2 column 1 (char 1)",
       "rationale": "Scoring failed due to API error.",
       "model": "gemini",
       "run": 1,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "error": "Expecting value: line 2 column 1 (char 1)"
     },
     {
       "url": "https://adhocracy.plus",
@@ -27,11 +27,11 @@
       "modifier_adj": null,
       "confidence": "low",
       "abstain": true,
-      "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+      "abstain_reason": "API error: Unterminated string starting at: line 2 column 1 (char 1)",
       "rationale": "Scoring failed due to API error.",
       "model": "gemini",
       "run": 1,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "error": "Unterminated string starting at: line 2 column 1 (char 1)"
     },
     {
       "url": "https://aisafety.info",
@@ -40,11 +40,11 @@
       "modifier_adj": null,
       "confidence": "low",
       "abstain": true,
-      "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+      "abstain_reason": "API error: Expecting value: line 2 column 1 (char 1)",
       "rationale": "Scoring failed due to API error.",
       "model": "gemini",
       "run": 1,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "error": "Expecting value: line 2 column 1 (char 1)"
     },
     {
       "url": "https://alaveteli.org",
@@ -53,11 +53,11 @@
       "modifier_adj": null,
       "confidence": "low",
       "abstain": true,
-      "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+      "abstain_reason": "API error: Expecting value: line 2 column 1 (char 1)",
       "rationale": "Scoring failed due to API error.",
       "model": "gemini",
       "run": 1,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "error": "Expecting value: line 2 column 1 (char 1)"
     },
     {
       "url": "https://aleph.occrp.org",
@@ -79,11 +79,11 @@
       "modifier_adj": null,
       "confidence": "low",
       "abstain": true,
-      "abstain_reason": "API error: Expecting value: line 2 column 1 (char 1)",
+      "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
       "rationale": "Scoring failed due to API error.",
       "model": "gemini",
       "run": 1,
-      "error": "Expecting value: line 2 column 1 (char 1)"
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     {
       "url": "https://all-our-ideas.citizens.is",
@@ -92,11 +92,11 @@
       "modifier_adj": null,
       "confidence": "low",
       "abstain": true,
-      "abstain_reason": "API error: Expecting value: line 2 column 1 (char 1)",
+      "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
       "rationale": "Scoring failed due to API error.",
       "model": "gemini",
       "run": 1,
-      "error": "Expecting value: line 2 column 1 (char 1)"
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     {
       "url": "https://alltechishuman.org/responsible-tech-guide-2025",
@@ -131,11 +131,11 @@
       "modifier_adj": null,
       "confidence": "low",
       "abstain": true,
-      "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+      "abstain_reason": "API error: Expecting value: line 2 column 1 (char 1)",
       "rationale": "Scoring failed due to API error.",
       "model": "gemini",
       "run": 1,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "error": "Expecting value: line 2 column 1 (char 1)"
     },
     {
       "url": "https://aragon.org",
@@ -144,11 +144,11 @@
       "modifier_adj": null,
       "confidence": "low",
       "abstain": true,
-      "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+      "abstain_reason": "API error: Expecting value: line 2 column 1 (char 1)",
       "rationale": "Scoring failed due to API error.",
       "model": "gemini",
       "run": 1,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "error": "Expecting value: line 2 column 1 (char 1)"
     },
     {
       "url": "https://arxiv.org",
@@ -157,11 +157,11 @@
       "modifier_adj": null,
       "confidence": "low",
       "abstain": true,
-      "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+      "abstain_reason": "API error: Expecting value: line 2 column 1 (char 1)",
       "rationale": "Scoring failed due to API error.",
       "model": "gemini",
       "run": 1,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "error": "Expecting value: line 2 column 1 (char 1)"
     },
     {
       "url": "https://arxiv.org/abs/2005.13701",
@@ -170,11 +170,11 @@
       "modifier_adj": null,
       "confidence": "low",
       "abstain": true,
-      "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+      "abstain_reason": "API error: Expecting value: line 2 column 1 (char 1)",
       "rationale": "Scoring failed due to API error.",
       "model": "gemini",
       "run": 1,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "error": "Expecting value: line 2 column 1 (char 1)"
     },
     {
       "url": "https://atlasofsurveillance.org",
@@ -183,11 +183,11 @@
       "modifier_adj": null,
       "confidence": "low",
       "abstain": true,
-      "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+      "abstain_reason": "API error: Expecting value: line 2 column 1 (char 1)",
       "rationale": "Scoring failed due to API error.",
       "model": "gemini",
       "run": 1,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "error": "Expecting value: line 2 column 1 (char 1)"
     },
     {
       "url": "https://bellingcat.gitbook.io/toolkit",
@@ -196,11 +196,11 @@
       "modifier_adj": null,
       "confidence": "low",
       "abstain": true,
-      "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+      "abstain_reason": "API error: Expecting value: line 2 column 1 (char 1)",
       "rationale": "Scoring failed due to API error.",
       "model": "gemini",
       "run": 1,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "error": "Expecting value: line 2 column 1 (char 1)"
     },
     {
       "url": "https://benefits-calculator.turn2us.org.uk",
@@ -209,11 +209,11 @@
       "modifier_adj": null,
       "confidence": "low",
       "abstain": true,
-      "abstain_reason": "API error: Expecting value: line 2 column 1 (char 1)",
+      "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
       "rationale": "Scoring failed due to API error.",
       "model": "gemini",
       "run": 1,
-      "error": "Expecting value: line 2 column 1 (char 1)"
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     {
       "url": "https://blog.kagi.com/slopstop",
@@ -222,11 +222,11 @@
       "modifier_adj": null,
       "confidence": "low",
       "abstain": true,
-      "abstain_reason": "API error: Expecting value: line 2 column 1 (char 1)",
+      "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
       "rationale": "Scoring failed due to API error.",
       "model": "gemini",
       "run": 1,
-      "error": "Expecting value: line 2 column 1 (char 1)"
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     {
       "url": "https://bonfirenetworks.org",
@@ -235,11 +235,11 @@
       "modifier_adj": null,
       "confidence": "low",
       "abstain": true,
-      "abstain_reason": "API error: Expecting value: line 2 column 1 (char 1)",
+      "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
       "rationale": "Scoring failed due to API error.",
       "model": "gemini",
       "run": 1,
-      "error": "Expecting value: line 2 column 1 (char 1)"
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     {
       "url": "https://bsky.app",
@@ -248,11 +248,11 @@
       "modifier_adj": null,
       "confidence": "low",
       "abstain": true,
-      "abstain_reason": "API error: Expecting value: line 2 column 1 (char 1)",
+      "abstain_reason": "API error: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/",
       "rationale": "Scoring failed due to API error.",
       "model": "gemini",
       "run": 1,
-      "error": "Expecting value: line 2 column 1 (char 1)"
+      "error": "Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}"
     },
     {
       "url": "https://channel.org",
