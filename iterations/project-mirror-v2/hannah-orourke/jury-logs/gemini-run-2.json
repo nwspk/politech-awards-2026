@@ -1,0 +1,2891 @@
+{
+  "model": "gemini",
+  "run": 2,
+  "evaluator": "hannah-orourke",
+  "simulation_note": "SIMULATED \u2014 gemini perspective based on documented political alignment tendencies per jury-panel-rationale.md",
+  "projects": [
+    {
+      "url": "https://activisthandbook.org/",
+      "score": 85.0,
+      "criteria_score": 66.7,
+      "modifier_adj": 19.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 84.7."
+    },
+    {
+      "url": "https://adhocracy.plus",
+      "score": 64.1,
+      "criteria_score": 56.9,
+      "modifier_adj": 7.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 62.9."
+    },
+    {
+      "url": "https://aisafety.info",
+      "score": 57.1,
+      "criteria_score": 47.1,
+      "modifier_adj": 3.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 49.1."
+    },
+    {
+      "url": "https://alaveteli.org",
+      "score": 79.1,
+      "criteria_score": 67.6,
+      "modifier_adj": 7.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 73.6."
+    },
+    {
+      "url": "https://aleph.occrp.org",
+      "score": 78.4,
+      "criteria_score": 62.7,
+      "modifier_adj": 19.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 80.7."
+    },
+    {
+      "url": "https://algorithmwatch.org",
+      "score": 100,
+      "criteria_score": 76.5,
+      "modifier_adj": 20.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 95.5."
+    },
+    {
+      "url": "https://all-our-ideas.citizens.is",
+      "score": 57.0,
+      "criteria_score": 47.1,
+      "modifier_adj": 7.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 53.1."
+    },
+    {
+      "url": "https://alltechishuman.org/responsible-tech-guide-2025",
+      "score": 46.9,
+      "criteria_score": 46.1,
+      "modifier_adj": -2.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 42.1."
+    },
+    {
+      "url": "https://annas-archive.pm",
+      "score": 51.3,
+      "criteria_score": 52.9,
+      "modifier_adj": 3.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 45."
+    },
+    {
+      "url": "https://antievictionmappingproject.github.io/landlordtech",
+      "score": 76.4,
+      "criteria_score": 61.8,
+      "modifier_adj": 17.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 77.8."
+    },
+    {
+      "url": "https://aragon.org",
+      "score": 60.1,
+      "criteria_score": 52.0,
+      "modifier_adj": 7.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 58.0."
+    },
+    {
+      "url": "https://arxiv.org",
+      "score": 73.1,
+      "criteria_score": 63.7,
+      "modifier_adj": 3.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 65.7."
+    },
+    {
+      "url": "https://arxiv.org/abs/2005.13701",
+      "score": 49.2,
+      "criteria_score": 48.0,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 48.0."
+    },
+    {
+      "url": "https://atlasofsurveillance.org",
+      "score": 63.4,
+      "criteria_score": 63.7,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 63.7."
+    },
+    {
+      "url": "https://bellingcat.gitbook.io/toolkit",
+      "score": 72.4,
+      "criteria_score": 56.9,
+      "modifier_adj": 12.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 67.9."
+    },
+    {
+      "url": "https://benefits-calculator.turn2us.org.uk",
+      "score": 38.9,
+      "criteria_score": 37.3,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 37.3."
+    },
+    {
+      "url": "https://blog.kagi.com/slopstop",
+      "score": 80.8,
+      "criteria_score": 54.9,
+      "modifier_adj": 16.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 69.9."
+    },
+    {
+      "url": "https://bonfirenetworks.org/",
+      "score": 75.8,
+      "criteria_score": 55.9,
+      "modifier_adj": 19.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 73.9."
+    },
+    {
+      "url": "https://bsky.app",
+      "score": 44.5,
+      "criteria_score": 47.1,
+      "modifier_adj": 3.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 49.1."
+    },
+    {
+      "url": "https://channel.org",
+      "score": 58.2,
+      "criteria_score": 43.1,
+      "modifier_adj": 16.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 58.1."
+    },
+    {
+      "url": "https://charitydigitalskills.co.uk",
+      "score": 72.8,
+      "criteria_score": 52.0,
+      "modifier_adj": 14.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 65.0."
+    },
+    {
+      "url": "https://charmverse.io/",
+      "score": 52.8,
+      "criteria_score": 41.2,
+      "modifier_adj": 7.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 47.2."
+    },
+    {
+      "url": "https://choosealicense.com",
+      "score": 52.6,
+      "criteria_score": 41.2,
+      "modifier_adj": 3.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 43.2."
+    },
+    {
+      "url": "https://citizenos.com/platform/",
+      "score": 75.3,
+      "criteria_score": 55.9,
+      "modifier_adj": 16.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 70.9."
+    },
+    {
+      "url": "https://ciudadaniai.org",
+      "score": 82.0,
+      "criteria_score": 63.7,
+      "modifier_adj": 12.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 74.7."
+    },
+    {
+      "url": "https://civiclick.com",
+      "score": 67.2,
+      "criteria_score": 51.0,
+      "modifier_adj": 13.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 63.0."
+    },
+    {
+      "url": "https://civicmatch.app",
+      "score": 69.9,
+      "criteria_score": 45.1,
+      "modifier_adj": 5.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 49.1."
+    },
+    {
+      "url": "https://civicpress.io/",
+      "score": 56.6,
+      "criteria_score": 45.1,
+      "modifier_adj": 5.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 49.1."
+    },
+    {
+      "url": "https://civicrm.org",
+      "score": 84.5,
+      "criteria_score": 63.7,
+      "modifier_adj": 7.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 69.7."
+    },
+    {
+      "url": "https://civictech.guide",
+      "score": 77.5,
+      "criteria_score": 66.7,
+      "modifier_adj": 6.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 71.7."
+    },
+    {
+      "url": "https://ckan.org",
+      "score": 70.7,
+      "criteria_score": 56.9,
+      "modifier_adj": 3.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 58.9."
+    },
+    {
+      "url": "https://climateaction.tech",
+      "score": 68.5,
+      "criteria_score": 56.9,
+      "modifier_adj": 16.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 71.9."
+    },
+    {
+      "url": "https://cobudget.com",
+      "score": 83.8,
+      "criteria_score": 60.8,
+      "modifier_adj": 16.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 75.8."
+    },
+    {
+      "url": "https://collab.land",
+      "score": 39.4,
+      "criteria_score": 33.3,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 33.3."
+    },
+    {
+      "url": "https://collaborative-data.theodi.org",
+      "score": 57.7,
+      "criteria_score": 43.1,
+      "modifier_adj": 16.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 58.1."
+    },
+    {
+      "url": "https://commonslibrary.org",
+      "score": 72.9,
+      "criteria_score": 58.8,
+      "modifier_adj": 10.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 67.8."
+    },
+    {
+      "url": "https://communities.sunlightfoundation.com/methodology",
+      "score": 62.0,
+      "criteria_score": 53.9,
+      "modifier_adj": 5.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 57.9."
+    },
+    {
+      "url": "https://communityrule.info",
+      "score": 70.5,
+      "criteria_score": 54.9,
+      "modifier_adj": 15.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 68.9."
+    },
+    {
+      "url": "https://conservativepartyfunding.co.uk",
+      "score": 81.8,
+      "criteria_score": 63.7,
+      "modifier_adj": 10.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 72.7."
+    },
+    {
+      "url": "https://constituteproject.org",
+      "score": 89.4,
+      "criteria_score": 59.8,
+      "modifier_adj": 16.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 74.8."
+    },
+    {
+      "url": "https://consulproject.org",
+      "score": 88.4,
+      "criteria_score": 62.7,
+      "modifier_adj": 16.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 77.7."
+    },
+    {
+      "url": "https://contractsfordatacollaboration.org",
+      "score": 72.5,
+      "criteria_score": 51.0,
+      "modifier_adj": 14.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 64.0."
+    },
+    {
+      "url": "https://coops.tech",
+      "score": 65.4,
+      "criteria_score": 46.1,
+      "modifier_adj": 14.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 59.1."
+    },
+    {
+      "url": "https://coralproject.net",
+      "score": 58.3,
+      "criteria_score": 51.0,
+      "modifier_adj": 3.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 53.0."
+    },
+    {
+      "url": "https://cortico.ai/platform",
+      "score": 83.1,
+      "criteria_score": 53.9,
+      "modifier_adj": 14.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 66.9."
+    },
+    {
+      "url": "https://cotsi.org/",
+      "score": 55.6,
+      "criteria_score": 47.1,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 47.1."
+    },
+    {
+      "url": "https://creativecommons.org",
+      "score": 69.8,
+      "criteria_score": 59.8,
+      "modifier_adj": 3.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 61.8."
+    },
+    {
+      "url": "https://cybersecurityfordemocracy.org",
+      "score": 58.3,
+      "criteria_score": 51.0,
+      "modifier_adj": 3.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 53.0."
+    },
+    {
+      "url": "https://data.humdata.org",
+      "score": 68.5,
+      "criteria_score": 52.9,
+      "modifier_adj": 3.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 54.9."
+    },
+    {
+      "url": "https://data.mysociety.org",
+      "score": 63.6,
+      "criteria_score": 60.8,
+      "modifier_adj": 3.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 62.8."
+    },
+    {
+      "url": "https://datacollective.mozillafoundation.org/",
+      "score": 77.9,
+      "criteria_score": 53.9,
+      "modifier_adj": 16.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 68.9."
+    },
+    {
+      "url": "https://datatrusts.uk",
+      "score": 67.0,
+      "criteria_score": 56.9,
+      "modifier_adj": 6.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 61.9."
+    },
+    {
+      "url": "https://ddocs.new/",
+      "score": 51.1,
+      "criteria_score": 42.2,
+      "modifier_adj": 7.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 48.2."
+    },
+    {
+      "url": "https://decelerator.org.uk",
+      "score": 53.4,
+      "criteria_score": 45.1,
+      "modifier_adj": 10.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 54.1."
+    },
+    {
+      "url": "https://decidim.org",
+      "score": 67.8,
+      "criteria_score": 53.9,
+      "modifier_adj": 7.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 59.9."
+    },
+    {
+      "url": "https://dev.reuselibrary.service.justice.gov.uk/",
+      "score": 51.9,
+      "criteria_score": 41.2,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 41.2."
+    },
+    {
+      "url": "https://developer.parliament.uk",
+      "score": 55.1,
+      "criteria_score": 47.1,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 45."
+    },
+    {
+      "url": "https://developers.democracyclub.org.uk/api/v1",
+      "score": 62.8,
+      "criteria_score": 55.9,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 55.9."
+    },
+    {
+      "url": "https://dgc-cgn.org/product/can-dgsi-127/",
+      "score": 64.2,
+      "criteria_score": 52.0,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 52.0."
+    },
+    {
+      "url": "https://digitalcharitylab.org/product/digital-account-management-toolkit",
+      "score": 54.2,
+      "criteria_score": 46.1,
+      "modifier_adj": 10.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 55.1."
+    },
+    {
+      "url": "https://docs.holepunch.to",
+      "score": 44.9,
+      "criteria_score": 36.3,
+      "modifier_adj": 3.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 38.3."
+    },
+    {
+      "url": "https://docs.plus",
+      "score": 64.2,
+      "criteria_score": 43.1,
+      "modifier_adj": 16.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 58.1."
+    },
+    {
+      "url": "https://dogooder.co",
+      "score": 44.9,
+      "criteria_score": 55.9,
+      "modifier_adj": 13.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 45."
+    },
+    {
+      "url": "https://dovetail.network",
+      "score": 44.6,
+      "criteria_score": 36.3,
+      "modifier_adj": -0.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 34.3."
+    },
+    {
+      "url": "https://dunadyne.org",
+      "score": 56.3,
+      "criteria_score": 46.1,
+      "modifier_adj": -2.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 42.1."
+    },
+    {
+      "url": "https://ecnl.org/publications/framework-meaningful-engagement-20?mc_cid=b1c5158063&mc_eid=a09c64ec38",
+      "score": 61.8,
+      "criteria_score": 52.9,
+      "modifier_adj": 8.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 59.9."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/wikipedia:in_the_news",
+      "score": 43.6,
+      "criteria_score": 37.3,
+      "modifier_adj": 7.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 43.3."
+    },
+    {
+      "url": "https://entitledto.co.uk",
+      "score": 41.1,
+      "criteria_score": 41.2,
+      "modifier_adj": -0.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 39.2."
+    },
+    {
+      "url": "https://esper.com/product",
+      "score": 47.2,
+      "criteria_score": 43.1,
+      "modifier_adj": -0.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 41.1."
+    },
+    {
+      "url": "https://ethelo.com",
+      "score": 64.7,
+      "criteria_score": 50.0,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 50.0."
+    },
+    {
+      "url": "https://expo.diia.gov.ua",
+      "score": 58.0,
+      "criteria_score": 47.1,
+      "modifier_adj": 5.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 51.1."
+    },
+    {
+      "url": "https://fairbnb.coop",
+      "score": 46.8,
+      "criteria_score": 48.0,
+      "modifier_adj": 7.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 54.0."
+    },
+    {
+      "url": "https://farmerchat.digitalgreen.org",
+      "score": 48.5,
+      "criteria_score": 40.2,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 40.2."
+    },
+    {
+      "url": "https://fatebook.io",
+      "score": 63.6,
+      "criteria_score": 42.2,
+      "modifier_adj": 3.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 44.2."
+    },
+    {
+      "url": "https://filmot.com",
+      "score": 40.6,
+      "criteria_score": 40.2,
+      "modifier_adj": -2.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 36.2."
+    },
+    {
+      "url": "https://fixmyblock.org",
+      "score": 56.0,
+      "criteria_score": 51.0,
+      "modifier_adj": 8.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 58.0."
+    },
+    {
+      "url": "https://fullfact.org/ai",
+      "score": 56.2,
+      "criteria_score": 54.9,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 54.9."
+    },
+    {
+      "url": "https://gender-pay-gap.service.gov.uk",
+      "score": 49.5,
+      "criteria_score": 48.0,
+      "modifier_adj": -4.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 42.0."
+    },
+    {
+      "url": "https://getodk.org",
+      "score": 68.9,
+      "criteria_score": 56.9,
+      "modifier_adj": 3.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 58.9."
+    },
+    {
+      "url": "https://github.com/bellingcat/edgar",
+      "score": 46.1,
+      "criteria_score": 43.1,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 43.1."
+    },
+    {
+      "url": "https://github.com/blacksky-algorithms/rsky",
+      "score": 33.7,
+      "criteria_score": 41.2,
+      "modifier_adj": 3.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 43.2."
+    },
+    {
+      "url": "https://github.com/bluesky-social",
+      "score": 46.3,
+      "criteria_score": 41.2,
+      "modifier_adj": 3.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 43.2."
+    },
+    {
+      "url": "https://github.com/cavi-au/consent-o-matic",
+      "score": 55.0,
+      "criteria_score": 41.2,
+      "modifier_adj": 7.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 47.2."
+    },
+    {
+      "url": "https://github.com/compdemocracy/polis",
+      "score": 75.6,
+      "criteria_score": 56.9,
+      "modifier_adj": 16.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 71.9."
+    },
+    {
+      "url": "https://github.com/cverluise/patcit",
+      "score": 53.1,
+      "criteria_score": 50.0,
+      "modifier_adj": 0.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 49.0."
+    },
+    {
+      "url": "https://github.com/datakind/data-observation-toolkit",
+      "score": 62.0,
+      "criteria_score": 48.0,
+      "modifier_adj": 7.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 54.0."
+    },
+    {
+      "url": "https://github.com/deepseek-ai/deepseek-v3",
+      "score": 35.6,
+      "criteria_score": 38.2,
+      "modifier_adj": 3.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 40.2."
+    },
+    {
+      "url": "https://github.com/disarmfoundation/disarmframeworks",
+      "score": 81.7,
+      "criteria_score": 57.8,
+      "modifier_adj": 8.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 64.8."
+    },
+    {
+      "url": "https://github.com/fission-codes/fission-codes",
+      "score": 45.3,
+      "criteria_score": 38.2,
+      "modifier_adj": 3.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 40.2."
+    },
+    {
+      "url": "https://github.com/g0v/vue.vtaiwan.tw",
+      "score": 46.4,
+      "criteria_score": 44.1,
+      "modifier_adj": 5.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 48.1."
+    },
+    {
+      "url": "https://github.com/geeksforsocialchange/placecal",
+      "score": 56.8,
+      "criteria_score": 45.1,
+      "modifier_adj": 16.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 60.1."
+    },
+    {
+      "url": "https://github.com/huridocs",
+      "score": 56.9,
+      "criteria_score": 58.8,
+      "modifier_adj": 3.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 60.8."
+    },
+    {
+      "url": "https://github.com/i-dot-ai/awesome-gov-datasets",
+      "score": 60.4,
+      "criteria_score": 58.8,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 58.8."
+    },
+    {
+      "url": "https://github.com/ideal-postcodes/postcodes.io",
+      "score": 60.5,
+      "criteria_score": 50.0,
+      "modifier_adj": 10.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 59.0."
+    },
+    {
+      "url": "https://github.com/kazad/pastecal",
+      "score": 58.7,
+      "criteria_score": 43.1,
+      "modifier_adj": 16.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 58.1."
+    },
+    {
+      "url": "https://github.com/mastodon/mastodon",
+      "score": 71.0,
+      "criteria_score": 57.8,
+      "modifier_adj": 12.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 68.8."
+    },
+    {
+      "url": "https://github.com/mikekelly/policy-dojo",
+      "score": 23.5,
+      "criteria_score": 38.2,
+      "modifier_adj": -2.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 34.2."
+    },
+    {
+      "url": "https://github.com/notchia/dao-governance-surfaces",
+      "score": 41.8,
+      "criteria_score": 42.2,
+      "modifier_adj": 3.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 44.2."
+    },
+    {
+      "url": "https://github.com/openpolitics/groupthink",
+      "score": 59.4,
+      "criteria_score": 50.0,
+      "modifier_adj": 5.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 54.0."
+    },
+    {
+      "url": "https://github.com/podemos-info/participa",
+      "score": 74.1,
+      "criteria_score": 61.8,
+      "modifier_adj": 10.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 70.8."
+    },
+    {
+      "url": "https://github.com/populatetools",
+      "score": 62.4,
+      "criteria_score": 53.9,
+      "modifier_adj": 14.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 66.9."
+    },
+    {
+      "url": "https://github.com/propublica/django-collaborative",
+      "score": 50.6,
+      "criteria_score": 49.0,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 49.0."
+    },
+    {
+      "url": "https://github.com/radicalxchange/rxc-voice",
+      "score": 60.4,
+      "criteria_score": 50.0,
+      "modifier_adj": 7.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 56.0."
+    },
+    {
+      "url": "https://github.com/rahvaalgatus/rahvaalgatus",
+      "score": 77.0,
+      "criteria_score": 59.8,
+      "modifier_adj": 14.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 72.8."
+    },
+    {
+      "url": "https://github.com/ribenamaplesyrup/sugartrail",
+      "score": 54.3,
+      "criteria_score": 51.0,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 51.0."
+    },
+    {
+      "url": "https://github.com/sentinelteam/grim",
+      "score": 62.0,
+      "criteria_score": 49.0,
+      "modifier_adj": 7.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 55.0."
+    },
+    {
+      "url": "https://github.com/stanfordcdt/pb",
+      "score": 75.0,
+      "criteria_score": 52.9,
+      "modifier_adj": 14.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 65.9."
+    },
+    {
+      "url": "https://github.com/thicknavyrain/uk_elections_leaflets",
+      "score": 75.4,
+      "criteria_score": 58.8,
+      "modifier_adj": 10.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 67.8."
+    },
+    {
+      "url": "https://github.com/travisbrown/birdwatch",
+      "score": 58.4,
+      "criteria_score": 48.0,
+      "modifier_adj": 8.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 55.0."
+    },
+    {
+      "url": "https://github.com/tulir/whatsmeow",
+      "score": 39.5,
+      "criteria_score": 40.2,
+      "modifier_adj": 1.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 40.2."
+    },
+    {
+      "url": "https://github.com/vbuterin/dao",
+      "score": 40.2,
+      "criteria_score": 41.2,
+      "modifier_adj": 6.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 46.2."
+    },
+    {
+      "url": "https://github.com/whotargetsme/ad-transparency-standards/blob/main/implement.md",
+      "score": 100,
+      "criteria_score": 77.5,
+      "modifier_adj": 16.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 92.5."
+    },
+    {
+      "url": "https://github.com/ytdl-org/youtube-dl",
+      "score": 34.1,
+      "criteria_score": 36.3,
+      "modifier_adj": -2.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 32.3."
+    },
+    {
+      "url": "https://globalfactcheck.bot/",
+      "score": 45.2,
+      "criteria_score": 46.1,
+      "modifier_adj": -2.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 42.1."
+    },
+    {
+      "url": "https://gordonguthrie.github.io/frankensteinbill",
+      "score": 73.9,
+      "criteria_score": 62.7,
+      "modifier_adj": 14.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 75.7."
+    },
+    {
+      "url": "https://gov.uk/find-local-consultations",
+      "score": 54.3,
+      "criteria_score": 47.1,
+      "modifier_adj": -0.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 45.1."
+    },
+    {
+      "url": "https://granicus.com/uk",
+      "score": 59.3,
+      "criteria_score": 51.0,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 51.0."
+    },
+    {
+      "url": "https://granitt.io",
+      "score": 74.5,
+      "criteria_score": 52.9,
+      "modifier_adj": 10.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 61.9."
+    },
+    {
+      "url": "https://grantnav.threesixtygiving.org",
+      "score": 74.9,
+      "criteria_score": 52.0,
+      "modifier_adj": 14.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 65.0."
+    },
+    {
+      "url": "https://greenpt.ai/",
+      "score": 58.1,
+      "criteria_score": 45.1,
+      "modifier_adj": 6.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 50.1."
+    },
+    {
+      "url": "https://guardianproject.info",
+      "score": 77.4,
+      "criteria_score": 63.7,
+      "modifier_adj": 16.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 78.7."
+    },
+    {
+      "url": "https://hact.org.uk/tools-and-services/uk-housing-data-standards",
+      "score": 47.1,
+      "criteria_score": 44.1,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 44.1."
+    },
+    {
+      "url": "https://hand-written-petition-scanner.streamlit.app",
+      "score": 54.0,
+      "criteria_score": 58.8,
+      "modifier_adj": 16.5,
+      "confidence": "low",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 45."
+    },
+    {
+      "url": "https://harmonica.chat/",
+      "score": 64.2,
+      "criteria_score": 52.9,
+      "modifier_adj": 10.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 61.9."
+    },
+    {
+      "url": "https://humbledata.org",
+      "score": 70.6,
+      "criteria_score": 54.9,
+      "modifier_adj": 16.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 69.9."
+    },
+    {
+      "url": "https://idealist.org",
+      "score": 61.2,
+      "criteria_score": 50.0,
+      "modifier_adj": 9.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 58.0."
+    },
+    {
+      "url": "https://joss.theoj.org",
+      "score": 63.3,
+      "criteria_score": 45.1,
+      "modifier_adj": 7.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 51.1."
+    },
+    {
+      "url": "https://journaliststudio.google.com",
+      "score": 43.3,
+      "criteria_score": 45.1,
+      "modifier_adj": 3.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 47.1."
+    },
+    {
+      "url": "https://kialo.com",
+      "score": 40.3,
+      "criteria_score": 46.1,
+      "modifier_adj": -2.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 42.1."
+    },
+    {
+      "url": "https://labourxchange.uk",
+      "score": 41.7,
+      "criteria_score": 38.2,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 38.2."
+    },
+    {
+      "url": "https://ladderhub.org/",
+      "score": 33.1,
+      "criteria_score": 34.3,
+      "modifier_adj": 1.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 34.3."
+    },
+    {
+      "url": "https://landexplorer.coop",
+      "score": 70.8,
+      "criteria_score": 51.0,
+      "modifier_adj": 14.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 64.0."
+    },
+    {
+      "url": "https://liberopinion.com",
+      "score": 52.7,
+      "criteria_score": 49.0,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 49.0."
+    },
+    {
+      "url": "https://library.theengineroom.org",
+      "score": 68.8,
+      "criteria_score": 51.0,
+      "modifier_adj": 10.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 60.0."
+    },
+    {
+      "url": "https://liquidfeedback.com",
+      "score": 78.4,
+      "criteria_score": 73.5,
+      "modifier_adj": 16.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 88.5."
+    },
+    {
+      "url": "https://littlesis.org",
+      "score": 92.6,
+      "criteria_score": 67.6,
+      "modifier_adj": 17.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 83.6."
+    },
+    {
+      "url": "https://local-deep-researcher-hnmh.vercel.app/",
+      "score": 57.4,
+      "criteria_score": 44.1,
+      "modifier_adj": 1.5,
+      "confidence": "low",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 44.1."
+    },
+    {
+      "url": "https://localinsight.org",
+      "score": 68.3,
+      "criteria_score": 53.9,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 53.9."
+    },
+    {
+      "url": "https://logos.co/",
+      "score": 68.2,
+      "criteria_score": 57.8,
+      "modifier_adj": 16.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 72.8."
+    },
+    {
+      "url": "https://manifold.markets",
+      "score": 48.9,
+      "criteria_score": 47.1,
+      "modifier_adj": 3.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 49.1."
+    },
+    {
+      "url": "https://mapit.mysociety.org",
+      "score": 62.5,
+      "criteria_score": 53.9,
+      "modifier_adj": 10.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 62.9."
+    },
+    {
+      "url": "https://mapped.commonknowledge.coop",
+      "score": 85.1,
+      "criteria_score": 60.8,
+      "modifier_adj": 14.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 73.8."
+    },
+    {
+      "url": "https://mapping.kids",
+      "score": 40.0,
+      "criteria_score": 36.3,
+      "modifier_adj": 1.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 36.3."
+    },
+    {
+      "url": "https://matrix.org",
+      "score": 76.4,
+      "criteria_score": 55.9,
+      "modifier_adj": 17.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 71.9."
+    },
+    {
+      "url": "https://medium.com/@abscond/membership-a-prototype-ea822b2683b",
+      "score": 52.7,
+      "criteria_score": 39.2,
+      "modifier_adj": 11.5,
+      "confidence": "low",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 45."
+    },
+    {
+      "url": "https://medium.com/metagov/introducing-the-agreement-engine-bf03b6d5c16c",
+      "score": 42.8,
+      "criteria_score": 42.2,
+      "modifier_adj": 3.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 44.2."
+    },
+    {
+      "url": "https://membersinterests.org.uk",
+      "score": 43.1,
+      "criteria_score": 57.8,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 45."
+    },
+    {
+      "url": "https://meta.wikimedia.org/wiki/abstract_wikipedia",
+      "score": 44.7,
+      "criteria_score": 55.9,
+      "modifier_adj": 15.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 45."
+    },
+    {
+      "url": "https://metaculus.com",
+      "score": 53.6,
+      "criteria_score": 69.6,
+      "modifier_adj": 12.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 45."
+    },
+    {
+      "url": "https://metagov.org/projects/interop",
+      "score": 70.7,
+      "criteria_score": 59.8,
+      "modifier_adj": 7.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 65.8."
+    },
+    {
+      "url": "https://missingnumbers.org",
+      "score": 57.8,
+      "criteria_score": 53.9,
+      "modifier_adj": 6.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 58.9."
+    },
+    {
+      "url": "https://monitormamdani.com/",
+      "score": 68.1,
+      "criteria_score": 56.9,
+      "modifier_adj": 6.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 61.9."
+    },
+    {
+      "url": "https://moralmachine.net",
+      "score": 67.5,
+      "criteria_score": 58.8,
+      "modifier_adj": 3.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 60.8."
+    },
+    {
+      "url": "https://murmurations.network",
+      "score": 76.0,
+      "criteria_score": 58.8,
+      "modifier_adj": 18.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 75.8."
+    },
+    {
+      "url": "https://navigator.oii.ox.ac.uk",
+      "score": 47.8,
+      "criteria_score": 37.3,
+      "modifier_adj": 6.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 42.3."
+    },
+    {
+      "url": "https://nestr.io",
+      "score": 64.0,
+      "criteria_score": 57.8,
+      "modifier_adj": 10.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 66.8."
+    },
+    {
+      "url": "https://newpublic.substack.com/p/introducing-roundabout-built-for",
+      "score": 55.3,
+      "criteria_score": 51.0,
+      "modifier_adj": 4.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 54.0."
+    },
+    {
+      "url": "https://nookcrm.com",
+      "score": 59.2,
+      "criteria_score": 51.0,
+      "modifier_adj": -0.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 49.0."
+    },
+    {
+      "url": "https://numfocus.org",
+      "score": 58.8,
+      "criteria_score": 52.9,
+      "modifier_adj": 3.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 54.9."
+    },
+    {
+      "url": "https://nyaaya.org",
+      "score": 49.7,
+      "criteria_score": 44.1,
+      "modifier_adj": 9.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 52.1."
+    },
+    {
+      "url": "https://nymtech.net",
+      "score": 59.0,
+      "criteria_score": 49.0,
+      "modifier_adj": 7.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 55.0."
+    },
+    {
+      "url": "https://oa.report",
+      "score": 58.5,
+      "criteria_score": 51.0,
+      "modifier_adj": 6.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 56.0."
+    },
+    {
+      "url": "https://oa.works/",
+      "score": 64.9,
+      "criteria_score": 60.8,
+      "modifier_adj": 3.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 62.8."
+    },
+    {
+      "url": "https://objector.ai",
+      "score": 71.4,
+      "criteria_score": 54.9,
+      "modifier_adj": 8.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 61.9."
+    },
+    {
+      "url": "https://okfn.org/en/projects/open-data-editor/",
+      "score": 90.4,
+      "criteria_score": 62.7,
+      "modifier_adj": 16.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 77.7."
+    },
+    {
+      "url": "https://oneproject.org/",
+      "score": 59.3,
+      "criteria_score": 47.1,
+      "modifier_adj": 5.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 51.1."
+    },
+    {
+      "url": "https://onodi.co/bisect/",
+      "score": 68.1,
+      "criteria_score": 42.2,
+      "modifier_adj": 10.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 51.2."
+    },
+    {
+      "url": "https://openaccess.transparency.org.uk",
+      "score": 49.0,
+      "criteria_score": 59.8,
+      "modifier_adj": 10.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 45."
+    },
+    {
+      "url": "https://openaudience.org",
+      "score": 56.8,
+      "criteria_score": 54.9,
+      "modifier_adj": -2.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 50.9."
+    },
+    {
+      "url": "https://openbudgets.eu",
+      "score": 63.6,
+      "criteria_score": 52.0,
+      "modifier_adj": 7.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 58.0."
+    },
+    {
+      "url": "https://opencollective.com",
+      "score": 74.0,
+      "criteria_score": 57.8,
+      "modifier_adj": 19.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 75.8."
+    },
+    {
+      "url": "https://opencouncil.network",
+      "score": 71.3,
+      "criteria_score": 56.9,
+      "modifier_adj": 14.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 69.9."
+    },
+    {
+      "url": "https://opencouncildata.co.uk",
+      "score": 55.1,
+      "criteria_score": 57.8,
+      "modifier_adj": 4.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 60.8."
+    },
+    {
+      "url": "https://opendatacommunities.org",
+      "score": 54.8,
+      "criteria_score": 47.1,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 47.1."
+    },
+    {
+      "url": "https://opendigitalplanning.org/",
+      "score": 59.4,
+      "criteria_score": 55.9,
+      "modifier_adj": 6.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 60.9."
+    },
+    {
+      "url": "https://openheartmind.org",
+      "score": 87.2,
+      "criteria_score": 69.6,
+      "modifier_adj": 10.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 78.6."
+    },
+    {
+      "url": "https://openletter.earth",
+      "score": 43.6,
+      "criteria_score": 50.0,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 50.0."
+    },
+    {
+      "url": "https://openparliament.ca/",
+      "score": 73.0,
+      "criteria_score": 58.8,
+      "modifier_adj": 14.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 71.8."
+    },
+    {
+      "url": "https://openprocurement.io",
+      "score": 53.3,
+      "criteria_score": 42.2,
+      "modifier_adj": 5.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 46.2."
+    },
+    {
+      "url": "https://openreferraluk.org",
+      "score": 66.8,
+      "criteria_score": 50.0,
+      "modifier_adj": 10.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 59.0."
+    },
+    {
+      "url": "https://opensupplyhub.org",
+      "score": 64.4,
+      "criteria_score": 65.7,
+      "modifier_adj": 3.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 67.7."
+    },
+    {
+      "url": "https://orcid.org",
+      "score": 61.2,
+      "criteria_score": 52.9,
+      "modifier_adj": 3.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 54.9."
+    },
+    {
+      "url": "https://osf.io",
+      "score": 62.0,
+      "criteria_score": 53.9,
+      "modifier_adj": 5.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 57.9."
+    },
+    {
+      "url": "https://osintframework.com",
+      "score": 45.5,
+      "criteria_score": 41.2,
+      "modifier_adj": 3.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 43.2."
+    },
+    {
+      "url": "https://overton.io",
+      "score": 53.3,
+      "criteria_score": 50.0,
+      "modifier_adj": -2.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 46.0."
+    },
+    {
+      "url": "https://p4ai.net",
+      "score": 62.9,
+      "criteria_score": 50.0,
+      "modifier_adj": 3.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 52.0."
+    },
+    {
+      "url": "https://pageviews.wmcloud.org",
+      "score": 50.9,
+      "criteria_score": 52.0,
+      "modifier_adj": 3.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 54.0."
+    },
+    {
+      "score": "N/A",
+      "confidence": "low",
+      "abstain": true,
+      "rationale": "Insufficient dossier evidence for constitutional criteria."
+    },
+    {
+      "url": "https://parliamentwatch.ug/",
+      "score": 71.8,
+      "criteria_score": 67.6,
+      "modifier_adj": 8.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 74.6."
+    },
+    {
+      "url": "https://parsethebill.com",
+      "score": 65.3,
+      "criteria_score": 57.8,
+      "modifier_adj": 8.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 64.8."
+    },
+    {
+      "url": "https://parti.xyz",
+      "score": 86.2,
+      "criteria_score": 63.7,
+      "modifier_adj": 10.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 72.7."
+    },
+    {
+      "url": "https://participedia.net",
+      "score": 69.4,
+      "criteria_score": 58.8,
+      "modifier_adj": 7.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 64.8."
+    },
+    {
+      "url": "https://planit.org.uk",
+      "score": 44.4,
+      "criteria_score": 49.0,
+      "modifier_adj": -0.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 45."
+    },
+    {
+      "url": "https://plausible.io",
+      "score": 58.0,
+      "criteria_score": 42.2,
+      "modifier_adj": 7.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 48.2."
+    },
+    {
+      "url": "https://plunkett.my.site.com/keepitinthecommunity/s",
+      "score": 62.0,
+      "criteria_score": 42.2,
+      "modifier_adj": 9.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 50.2."
+    },
+    {
+      "url": "https://policyengine.org/uk",
+      "score": 78.4,
+      "criteria_score": 68.6,
+      "modifier_adj": 5.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 72.6."
+    },
+    {
+      "url": "https://policykit.org",
+      "score": 40.8,
+      "criteria_score": 47.1,
+      "modifier_adj": 7.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 45."
+    },
+    {
+      "url": "https://policymogul.com",
+      "score": 54.2,
+      "criteria_score": 43.1,
+      "modifier_adj": -2.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 39.1."
+    },
+    {
+      "url": "https://postbug.com",
+      "score": 42.1,
+      "criteria_score": 46.1,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 46.1."
+    },
+    {
+      "url": "https://privacybadger.org",
+      "score": 55.0,
+      "criteria_score": 49.0,
+      "modifier_adj": 7.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 55.0."
+    },
+    {
+      "url": "https://programs.clearerthinking.org/understanding-your-morality/",
+      "score": 43.9,
+      "criteria_score": 44.1,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 44.1."
+    },
+    {
+      "url": "https://public.tableau.com/app/profile/citizensadvice/vizzes",
+      "score": 54.6,
+      "criteria_score": 48.0,
+      "modifier_adj": 1.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 48.0."
+    },
+    {
+      "url": "https://publicaccountability.org",
+      "score": 35.8,
+      "criteria_score": 36.3,
+      "modifier_adj": -2.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 32.3."
+    },
+    {
+      "url": "https://publicai.co/",
+      "score": 61.0,
+      "criteria_score": 48.0,
+      "modifier_adj": 3.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 50.0."
+    },
+    {
+      "url": "https://publicmediastack.com",
+      "score": 35.9,
+      "criteria_score": 41.2,
+      "modifier_adj": -2.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 37.2."
+    },
+    {
+      "url": "https://pursuanceproject.org",
+      "score": 72.2,
+      "criteria_score": 59.8,
+      "modifier_adj": 19.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 77.8."
+    },
+    {
+      "url": "https://quadraticvote.radicalxchange.org",
+      "score": 63.7,
+      "criteria_score": 52.9,
+      "modifier_adj": 16.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 67.9."
+    },
+    {
+      "url": "https://radicle.xyz",
+      "score": 43.9,
+      "criteria_score": 38.2,
+      "modifier_adj": 3.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 40.2."
+    },
+    {
+      "url": "https://relationaltechproject.org",
+      "score": 77.0,
+      "criteria_score": 51.0,
+      "modifier_adj": 19.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 69.0."
+    },
+    {
+      "url": "https://remembertovote.org.uk",
+      "score": 40.1,
+      "criteria_score": 40.2,
+      "modifier_adj": 1.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 40.2."
+    },
+    {
+      "url": "https://research.localgov.digital",
+      "score": 48.7,
+      "criteria_score": 46.1,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 46.1."
+    },
+    {
+      "url": "https://richardpope.org/2017/03/05/beckton-a-tool-to-build",
+      "score": 74.0,
+      "criteria_score": 54.9,
+      "modifier_adj": 14.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 67.9."
+    },
+    {
+      "url": "https://right-to-know.org",
+      "score": 66.0,
+      "criteria_score": 52.0,
+      "modifier_adj": 10.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 61.0."
+    },
+    {
+      "url": "https://riseup.net",
+      "score": 67.7,
+      "criteria_score": 47.1,
+      "modifier_adj": 19.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 65.1."
+    },
+    {
+      "url": "https://riversentiment.app",
+      "score": 55.8,
+      "criteria_score": 48.0,
+      "modifier_adj": 10.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 57.0."
+    },
+    {
+      "url": "https://schema.org",
+      "score": 48.9,
+      "criteria_score": 45.1,
+      "modifier_adj": 7.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 51.1."
+    },
+    {
+      "url": "https://sci-hub.se",
+      "score": 41.7,
+      "criteria_score": 41.2,
+      "modifier_adj": 1.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 41.2."
+    },
+    {
+      "url": "https://secfirst.org",
+      "score": 75.2,
+      "criteria_score": 52.9,
+      "modifier_adj": 16.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 67.9."
+    },
+    {
+      "url": "https://securedrop.org",
+      "score": 62.1,
+      "criteria_score": 43.1,
+      "modifier_adj": 12.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 54.1."
+    },
+    {
+      "url": "https://semanticclimate.github.io",
+      "score": 42.9,
+      "criteria_score": 38.2,
+      "modifier_adj": 3.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 40.2."
+    },
+    {
+      "url": "https://shareyourpaper.org",
+      "score": 46.4,
+      "criteria_score": 49.0,
+      "modifier_adj": 3.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 51.0."
+    },
+    {
+      "url": "https://site.urbanistai.com",
+      "score": 75.6,
+      "criteria_score": 63.7,
+      "modifier_adj": 10.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 72.7."
+    },
+    {
+      "url": "https://snowdrift.coop",
+      "score": 44.8,
+      "criteria_score": 38.2,
+      "modifier_adj": 3.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 40.2."
+    },
+    {
+      "url": "https://sobre.ejparticipe.org",
+      "score": 71.4,
+      "criteria_score": 50.0,
+      "modifier_adj": 8.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 57.0."
+    },
+    {
+      "url": "https://societyforhopefultechnologists.org",
+      "score": 60.3,
+      "criteria_score": 45.1,
+      "modifier_adj": 10.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 54.1."
+    },
+    {
+      "url": "https://sourceafrica.net",
+      "score": 38.4,
+      "criteria_score": 48.0,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 48.0."
+    },
+    {
+      "url": "https://soweego.readthedocs.io",
+      "score": 46.8,
+      "criteria_score": 40.2,
+      "modifier_adj": 7.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 46.2."
+    },
+    {
+      "url": "https://spacetu.be",
+      "score": 50.7,
+      "criteria_score": 37.3,
+      "modifier_adj": 16.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 52.3."
+    },
+    {
+      "url": "https://spartacus.app",
+      "score": 71.2,
+      "criteria_score": 49.0,
+      "modifier_adj": 9.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 57.0."
+    },
+    {
+      "url": "https://standards.theodi.org",
+      "score": 60.1,
+      "criteria_score": 56.9,
+      "modifier_adj": 3.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 58.9."
+    },
+    {
+      "url": "https://strikemap.org",
+      "score": 69.5,
+      "criteria_score": 55.9,
+      "modifier_adj": 16.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 70.9."
+    },
+    {
+      "url": "https://talktothecity.org",
+      "score": 100,
+      "criteria_score": 70.6,
+      "modifier_adj": 16.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 85.6."
+    },
+    {
+      "url": "https://tech-coops.xyz",
+      "score": 74.4,
+      "criteria_score": 50.0,
+      "modifier_adj": 16.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 65.0."
+    },
+    {
+      "url": "https://the-list.uk",
+      "score": 38.2,
+      "criteria_score": 39.2,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 39.2."
+    },
+    {
+      "url": "https://thecircuit.cc",
+      "score": 46.5,
+      "criteria_score": 48.0,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 48.0."
+    },
+    {
+      "url": "https://thegovernmentsays.com",
+      "score": 84.7,
+      "criteria_score": 64.7,
+      "modifier_adj": 10.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 73.7."
+    },
+    {
+      "url": "https://theodi.org/insights/reports/registers-and-collaboration-making-lists-we-can-trust-report",
+      "score": 54.4,
+      "criteria_score": 47.1,
+      "modifier_adj": -2.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 43.1."
+    },
+    {
+      "url": "https://timecounts.org",
+      "score": 71.3,
+      "criteria_score": 58.8,
+      "modifier_adj": 10.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 67.8."
+    },
+    {
+      "score": "N/A",
+      "confidence": "low",
+      "abstain": true,
+      "rationale": "Insufficient dossier evidence for constitutional criteria."
+    },
+    {
+      "url": "https://trends.whotargets.me",
+      "score": 82.9,
+      "criteria_score": 61.8,
+      "modifier_adj": 10.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 70.8."
+    },
+    {
+      "url": "https://turbophonebank.com",
+      "score": 64.8,
+      "criteria_score": 53.9,
+      "modifier_adj": 10.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 62.9."
+    },
+    {
+      "url": "https://turkopticon.ucsd.edu",
+      "score": 61.2,
+      "criteria_score": 56.9,
+      "modifier_adj": 10.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 65.9."
+    },
+    {
+      "url": "https://unpaywall.org/products/extension",
+      "score": 48.4,
+      "criteria_score": 45.1,
+      "modifier_adj": 1.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 45.1."
+    },
+    {
+      "url": "https://upgrader.gapminder.org",
+      "score": 65.4,
+      "criteria_score": 48.0,
+      "modifier_adj": 7.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 54.0."
+    },
+    {
+      "url": "https://urbit.org",
+      "score": 35.9,
+      "criteria_score": 36.3,
+      "modifier_adj": -2.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 32.3."
+    },
+    {
+      "url": "https://vframe.io",
+      "score": 77.4,
+      "criteria_score": 60.8,
+      "modifier_adj": 10.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 69.8."
+    },
+    {
+      "url": "https://viewpoints.xyz",
+      "score": 60.9,
+      "criteria_score": 47.1,
+      "modifier_adj": 10.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 56.1."
+    },
+    {
+      "url": "https://violationtrackeruk.goodjobsfirst.org",
+      "score": 55.5,
+      "criteria_score": 46.1,
+      "modifier_adj": 1.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 45."
+    },
+    {
+      "url": "https://voteforpolicies.org.uk",
+      "score": 45.1,
+      "criteria_score": 42.2,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 42.2."
+    },
+    {
+      "url": "https://wardwatch.uk",
+      "score": 67.1,
+      "criteria_score": 51.0,
+      "modifier_adj": 4.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 54.0."
+    },
+    {
+      "url": "https://web.archive.org",
+      "score": 63.3,
+      "criteria_score": 56.9,
+      "modifier_adj": 0.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 55.9."
+    },
+    {
+      "url": "https://whoisology.com",
+      "score": 25.9,
+      "criteria_score": 40.2,
+      "modifier_adj": -5.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 33.2."
+    },
+    {
+      "url": "https://whopostedwhat.com",
+      "score": 42.9,
+      "criteria_score": 40.2,
+      "modifier_adj": -0.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 38.2."
+    },
+    {
+      "url": "https://www.agenciesforgood.org",
+      "score": 63.5,
+      "criteria_score": 52.9,
+      "modifier_adj": 5.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 56.9."
+    },
+    {
+      "url": "https://www.campaigntracker.nl/en",
+      "score": 93.4,
+      "criteria_score": 78.4,
+      "modifier_adj": 10.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 87.4."
+    },
+    {
+      "url": "https://www.communitytech.network",
+      "score": 69.2,
+      "criteria_score": 45.1,
+      "modifier_adj": 18.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 62.1."
+    },
+    {
+      "url": "https://www.consoc.io",
+      "score": 49.8,
+      "criteria_score": 36.3,
+      "modifier_adj": 5.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 40.3."
+    },
+    {
+      "url": "https://www.crowdjustice.com",
+      "score": 54.1,
+      "criteria_score": 54.9,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 45."
+    },
+    {
+      "url": "https://www.csail.mit.edu/research/wikum-bridging-discussion-systems-and-wikis-collective-summarization",
+      "score": 43.4,
+      "criteria_score": 44.1,
+      "modifier_adj": 6.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 49.1."
+    },
+    {
+      "url": "https://www.deliberaide.com",
+      "score": 74.7,
+      "criteria_score": 52.0,
+      "modifier_adj": 10.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 61.0."
+    },
+    {
+      "url": "https://www.demnext.org/projects/delibtech-network",
+      "score": 58.2,
+      "criteria_score": 45.1,
+      "modifier_adj": 10.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 54.1."
+    },
+    {
+      "url": "https://www.dfos.com",
+      "score": 67.2,
+      "criteria_score": 53.9,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 53.9."
+    },
+    {
+      "url": "https://www.discourse.org",
+      "score": 54.4,
+      "criteria_score": 47.1,
+      "modifier_adj": 7.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 53.1."
+    },
+    {
+      "url": "https://www.donotpay.com",
+      "score": 41.3,
+      "criteria_score": 41.2,
+      "modifier_adj": 1.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 41.2."
+    },
+    {
+      "url": "https://www.dsc.org.uk/publication/the-guide-to-major-trusts-2025-26/",
+      "score": 44.2,
+      "criteria_score": 33.3,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 33.3."
+    },
+    {
+      "url": "https://www.fixmystreet.com",
+      "score": 62.2,
+      "criteria_score": 53.9,
+      "modifier_adj": 5.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 57.9."
+    },
+    {
+      "url": "https://www.forms.service.gov.uk",
+      "score": 62.5,
+      "criteria_score": 52.9,
+      "modifier_adj": 5.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 56.9."
+    },
+    {
+      "url": "https://www.givefood.org.uk",
+      "score": 49.5,
+      "criteria_score": 70.6,
+      "modifier_adj": 14.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 45."
+    },
+    {
+      "url": "https://www.globaleaks.org",
+      "score": 68.4,
+      "criteria_score": 55.9,
+      "modifier_adj": 15.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 69.9."
+    },
+    {
+      "url": "https://www.gov.uk/service-manual",
+      "score": 47.4,
+      "criteria_score": 43.1,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 43.1."
+    },
+    {
+      "url": "https://www.govocal.com",
+      "score": 54.9,
+      "criteria_score": 45.1,
+      "modifier_adj": 7.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 51.1."
+    },
+    {
+      "url": "https://www.govtrack.us",
+      "score": 69.2,
+      "criteria_score": 56.9,
+      "modifier_adj": 5.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 60.9."
+    },
+    {
+      "url": "https://www.govwise.ai/en",
+      "score": 47.0,
+      "criteria_score": 43.1,
+      "modifier_adj": -0.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 41.1."
+    },
+    {
+      "url": "https://www.hotosm.org",
+      "score": 83.8,
+      "criteria_score": 62.7,
+      "modifier_adj": 15.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 76.7."
+    },
+    {
+      "url": "https://www.localintelligencehub.com",
+      "score": 69.2,
+      "criteria_score": 56.9,
+      "modifier_adj": 10.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 65.9."
+    },
+    {
+      "url": "https://www.loomio.org",
+      "score": 75.6,
+      "criteria_score": 61.8,
+      "modifier_adj": 12.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 72.8."
+    },
+    {
+      "url": "https://www.marksoutoftenancy.com",
+      "score": 82.4,
+      "criteria_score": 55.9,
+      "modifier_adj": 13.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 67.9."
+    },
+    {
+      "url": "https://www.martus.org",
+      "score": 64.7,
+      "criteria_score": 58.8,
+      "modifier_adj": 16.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 73.8."
+    },
+    {
+      "url": "https://www.mastodonc.com",
+      "score": 67.7,
+      "criteria_score": 57.8,
+      "modifier_adj": 12.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 68.8."
+    },
+    {
+      "url": "https://www.meet.coop",
+      "score": 70.7,
+      "criteria_score": 54.9,
+      "modifier_adj": 16.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 69.9."
+    },
+    {
+      "url": "https://www.mptwitterbios.co.uk",
+      "score": 64.8,
+      "criteria_score": 48.0,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 48.0."
+    },
+    {
+      "url": "https://www.mpwatch.org",
+      "score": 81.1,
+      "criteria_score": 60.8,
+      "modifier_adj": 14.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 73.8."
+    },
+    {
+      "url": "https://www.myaction.center",
+      "score": 63.4,
+      "criteria_score": 55.9,
+      "modifier_adj": 10.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 64.9."
+    },
+    {
+      "url": "https://www.mysociety.org/climate/neighbourhood-warmth",
+      "score": 52.0,
+      "criteria_score": 46.1,
+      "modifier_adj": 5.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 50.1."
+    },
+    {
+      "url": "https://www.notifications.service.gov.uk",
+      "score": 63.9,
+      "criteria_score": 55.9,
+      "modifier_adj": 5.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 59.9."
+    },
+    {
+      "url": "https://www.objector.ai",
+      "score": 55.9,
+      "criteria_score": 52.0,
+      "modifier_adj": 8.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 59.0."
+    },
+    {
+      "url": "https://www.open-contracting.org",
+      "score": 89.3,
+      "criteria_score": 71.6,
+      "modifier_adj": 16.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 86.6."
+    },
+    {
+      "url": "https://www.opencrvs.org",
+      "score": 58.1,
+      "criteria_score": 47.1,
+      "modifier_adj": 7.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 53.1."
+    },
+    {
+      "url": "https://www.openorigins.com",
+      "score": 48.7,
+      "criteria_score": 46.1,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 46.1."
+    },
+    {
+      "url": "https://www.openownership.org",
+      "score": 63.1,
+      "criteria_score": 60.8,
+      "modifier_adj": 3.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 62.8."
+    },
+    {
+      "url": "https://www.opensanctions.org",
+      "score": 73.8,
+      "criteria_score": 57.8,
+      "modifier_adj": 12.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 68.8."
+    },
+    {
+      "url": "https://www.oporaua.org",
+      "score": 92.2,
+      "criteria_score": 74.5,
+      "modifier_adj": 8.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 81.5."
+    },
+    {
+      "url": "https://www.organise.org.uk",
+      "score": 46.5,
+      "criteria_score": 52.9,
+      "modifier_adj": -0.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 50.9."
+    },
+    {
+      "url": "https://www.otree.org",
+      "score": 73.4,
+      "criteria_score": 59.8,
+      "modifier_adj": 8.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 66.8."
+    },
+    {
+      "url": "https://www.papertree.earth",
+      "score": 59.4,
+      "criteria_score": 50.0,
+      "modifier_adj": 3.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 52.0."
+    },
+    {
+      "url": "https://www.parallelparliament.co.uk",
+      "score": 60.8,
+      "criteria_score": 57.8,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 57.8."
+    },
+    {
+      "url": "https://www.payments.service.gov.uk",
+      "score": 67.1,
+      "criteria_score": 50.0,
+      "modifier_adj": 5.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 54.0."
+    },
+    {
+      "url": "https://www.plinth.org.uk",
+      "score": 60.3,
+      "criteria_score": 42.2,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 42.2."
+    },
+    {
+      "url": "https://www.polimonitor.com",
+      "score": 62.4,
+      "criteria_score": 57.8,
+      "modifier_adj": 6.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 62.8."
+    },
+    {
+      "url": "https://www.polimorphic.com",
+      "score": 50.0,
+      "criteria_score": 41.2,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 41.2."
+    },
+    {
+      "url": "https://www.prolific.com",
+      "score": 58.7,
+      "criteria_score": 63.7,
+      "modifier_adj": -2.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 59.7."
+    },
+    {
+      "url": "https://www.publiceditor.io",
+      "score": 40.4,
+      "criteria_score": 35.3,
+      "modifier_adj": -2.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 31.3."
+    },
+    {
+      "url": "https://www.rightsdd.com",
+      "score": 48.6,
+      "criteria_score": 44.1,
+      "modifier_adj": 6.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 49.1."
+    },
+    {
+      "url": "https://www.shareddigitalguides.org.uk",
+      "score": 46.2,
+      "criteria_score": 43.1,
+      "modifier_adj": 5.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 47.1."
+    },
+    {
+      "url": "https://www.shineyoureye.org",
+      "score": 73.6,
+      "criteria_score": 61.8,
+      "modifier_adj": 10.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 70.8."
+    },
+    {
+      "url": "https://www.sign-in.service.gov.uk",
+      "score": 59.7,
+      "criteria_score": 52.0,
+      "modifier_adj": 5.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 56.0."
+    },
+    {
+      "url": "https://www.teachingpublicservice.digital",
+      "score": 61.0,
+      "criteria_score": 53.9,
+      "modifier_adj": 7.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 59.9."
+    },
+    {
+      "url": "https://www.theyworkforyou.com",
+      "score": 72.1,
+      "criteria_score": 58.8,
+      "modifier_adj": 10.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 67.8."
+    },
+    {
+      "url": "https://www.torproject.org",
+      "score": 59.1,
+      "criteria_score": 51.0,
+      "modifier_adj": 9.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 59.0."
+    },
+    {
+      "url": "https://www.ushahidi.com",
+      "score": 77.9,
+      "criteria_score": 62.7,
+      "modifier_adj": 13.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 74.7."
+    },
+    {
+      "url": "https://www.watchduty.org",
+      "score": 40.4,
+      "criteria_score": 36.3,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 36.3."
+    },
+    {
+      "url": "https://www.welivedit.ai",
+      "score": 51.0,
+      "criteria_score": 45.1,
+      "modifier_adj": 1.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 45.1."
+    },
+    {
+      "url": "https://www.whatdotheyknow.com",
+      "score": 84.8,
+      "criteria_score": 67.6,
+      "modifier_adj": 10.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 76.6."
+    },
+    {
+      "url": "https://www.whatgov.co.uk",
+      "score": 74.9,
+      "criteria_score": 53.9,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 53.9."
+    },
+    {
+      "url": "https://www.wikidata.org",
+      "score": 57.8,
+      "criteria_score": 45.1,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 45.1."
+    },
+    {
+      "url": "https://www.workerinfoexchange.org",
+      "score": 74.2,
+      "criteria_score": 55.9,
+      "modifier_adj": 6.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 60.9."
+    },
+    {
+      "url": "https://www.workincharities.co.uk",
+      "score": 29.1,
+      "criteria_score": 35.3,
+      "modifier_adj": -4.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 29.3."
+    },
+    {
+      "url": "https://www.writetothem.com",
+      "score": 92.0,
+      "criteria_score": 65.7,
+      "modifier_adj": 14.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 78.7."
+    },
+    {
+      "url": "https://www.yoti.com",
+      "score": 50.3,
+      "criteria_score": 41.2,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 41.2."
+    },
+    {
+      "url": "https://yourtracka.org",
+      "score": 66.9,
+      "criteria_score": 53.9,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 53.9."
+    },
+    {
+      "url": "https://yrpri.org",
+      "score": 56.1,
+      "criteria_score": 51.0,
+      "modifier_adj": 1.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 Institutionalist. Western democratic norms. Rewards establis. Score adjusted from constitutional 51.0."
+    }
+  ]
+}
