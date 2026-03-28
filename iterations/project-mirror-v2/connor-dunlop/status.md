@@ -16,10 +16,12 @@
 | 7 | mirror-reflective | COMPLETE | reflection.md; 5 reaction questions |
 | 8 | mirror-notetaker | COMPLETE | agent-notes.md (preserved from original run) |
 | PR | draft PR | COMPLETE | PR #81 created |
+| PR-jury | Section 9 jury table update | COMPLETE | Full 321-project jury vote table + Grok4 divergence analysis added to PR #81 — 2026-03-28 |
 
 ## Key results
 - Top project: AlgorithmWatch (92.7)
 - Mean score: 27.9
 - Inference confidence: MEDIUM-HIGH
-- Jury: SIMULATED (OpenRouter 402)
+- Jury: SIMULATED (OpenRouter 402) — all 25 runs, 321 projects each
+- Jury Section 9 updated: full table (321 rows), 38 large-gap projects flagged, Grok4 outliers documented
 - Files regenerated: 2026-03-28 (original files lost during branch switch)
