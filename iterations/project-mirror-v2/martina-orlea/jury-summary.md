@@ -1,54 +1,57 @@
 # Jury Summary — Martina Orlea
-Generated: 2026-03-28
+## Project Mirror v2 — Aggregated
 
-## Coverage
-- Real API runs: 24/25 (gemini-run-3 failed — credits exhausted)
-- Projects with at least 1 real vote: 307/321
-- Projects with 5+ votes: 302
-- Global mean score across all scored projects: 57.7
-- Global median: 56.5
+Projects with jury scores: 307
+Projects where all models abstained: 14
+Mean jury score: 50.2
+Score range: 25.5–84.0
 
-## Model Run Status
+## Panel Overview
 
-| Model-Run | Scored | Real? |
-|---|---|---|
-| claude-run-1 | 125/321 | YES |
-| claude-run-2 | 127/321 | YES |
-| claude-run-3 | 125/321 | YES |
-| claude-run-4 | 129/321 | YES |
-| claude-run-5 | 119/321 | YES |
-| gemini-run-1 | 133/321 | YES |
-| gemini-run-2 | 133/321 | YES |
-| gemini-run-3 | 319/321 | NO (simulated — excluded) |
-| gemini-run-4 | 134/321 | YES |
-| gemini-run-5 | 134/321 | YES |
-| gpt41-run-1 | 294/321 | YES |
-| gpt41-run-2 | 292/321 | YES |
-| gpt41-run-3 | 292/321 | YES |
-| gpt41-run-4 | 292/321 | YES |
-| gpt41-run-5 | 290/321 | YES |
-| grok4-run-1 | 134/321 | YES |
-| grok4-run-2 | 134/321 | YES |
-| grok4-run-3 | 134/321 | YES |
-| grok4-run-4 | 133/321 | YES |
-| grok4-run-5 | 134/321 | YES |
-| mistral-run-1 | 141/321 | YES |
-| mistral-run-2 | 132/321 | YES |
-| mistral-run-3 | 140/321 | YES |
-| mistral-run-4 | 140/321 | YES |
-| mistral-run-5 | 139/321 | YES |
+| Model | Role | Runs | Real API | Avg scored/run | Stability |
+|---|---|---|---|---|---|
+| GPT-4.1 | Progressive anchor | 5 | all 5 | ~292/321 | HIGH |
+| Claude Opus 4 | Centrist proceduralist | 5 | all 5 | ~125/321 | HIGH |
+| Gemini 2.5 Pro | Institutionalist | 5 | all 5 | ~170/321 | MEDIUM |
+| Mistral Large | European civic-rights | 5 | all 5 | ~138/321 | HIGH |
+| Grok 4 | Disruption-sceptic | 5 | all 5 | ~133/321 | HIGH |
 
-## Top 10 Projects
+## (A) Constitution-Jury Rank Gap (top 20)
 
-| Rank | URL | Mean Score | Votes |
+| Project | Constitutional rank | Jury rank | Gap | Direction |
+|---|---|---|---|---|
+
+## (B) Inter-Model Disagreement (top 15)
+
+| Project | Stdev | GPT-4.1 | Claude Opus 4 | Gemini 2.5 Pro | Mistral Large | Grok 4 |
+|---|---|---|---|---|---|---|
+| consulproject.org | 44.5 | 90 | N/A | 27 | N/A | N/A |
+| web.archive.org | 40.3 | 74 | N/A | 17 | N/A | N/A |
+| vue.vtaiwan.tw | 39.8 | 81 | N/A | 8 | 72 | N/A |
+| methodology | 39.6 | 66 | N/A | 10 | N/A | N/A |
+| guardianproject.info | 38.2 | 90 | N/A | 36 | N/A | N/A |
+| polis | 37.5 | 84 | N/A | 31 | N/A | N/A |
+| wikipedia:in_the_news | 36.8 | 72 | N/A | 20 | N/A | N/A |
+| p4ai.net | 35.4 | 75 | N/A | 25 | N/A | N/A |
+| murmurations.network | 34.6 | 71 | N/A | 22 | N/A | N/A |
+| secfirst.org | 33.9 | 84 | N/A | 36 | N/A | N/A |
+| creativecommons.org | 33.9 | 73 | N/A | 25 | N/A | N/A |
+| bluesky-social | 33.9 | 62 | N/A | 14 | N/A | N/A |
+| www.payments.service.gov.uk | 33.9 | 55 | N/A | 7 | N/A | N/A |
+| www.notifications.service.gov.uk | 33.2 | 61 | N/A | 14 | N/A | N/A |
+| yrpri.org | 32.5 | 77 | N/A | 31 | N/A | N/A |
+
+## Top 10 by jury score
+
+| Rank | Project | Jury score | Constitutional rank |
 |---|---|---|---|
-| 1 | https://consulproject.org | 90.4 | 5 |
-| 2 | https://guardianproject.info | 89.4 | 5 |
-| 3 | https://www.torproject.org | 88.4 | 5 |
-| 4 | https://github.com/mastodon/mastodon | 85.8 | 10 |
-| 5 | https://www.hotosm.org | 85.8 | 5 |
-| 6 | https://github.com/compdemocracy/polis | 84.8 | 5 |
-| 7 | https://secfirst.org | 84.4 | 5 |
-| 8 | https://ciudadaniai.org | 82.0 | 5 |
-| 9 | https://activisthandbook.org | 81.8 | 5 |
-| 10 | https://www.open-contracting.org | 81.0 | 5 |
+| 1 | mastodon | 84.0 | ? |
+| 2 | riseup.net | 78.0 | ? |
+| 3 | www.ushahidi.com | 78.0 | ? |
+| 4 | en | 77.5 | ? |
+| 5 | civicrm.org | 77.0 | ? |
+| 6 | liquidfeedback.com | 77.0 | ? |
+| 7 | decidim.org | 75.0 | ? |
+| 8 | littlesis.org | 74.0 | ? |
+| 9 | aleph.occrp.org | 72.0 | ? |
+| 10 | matrix.org | 72.0 | ? |
