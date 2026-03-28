@@ -1,322 +1,349 @@
-jury_rank,name,url,jury_score,const_score,const_rank,gap,pop_risk,completeness,std_dev,grok_median
-1,Open Data Editor (ODE),https://okfn.org/en/projects/open-data-editor/,82.0,76.8,4,-3,HIGH,1.0,13.8,50.4
-2,Open Digital Planning,https://opendigitalplanning.org/,80.5,78.1,1,1,MEDIUM,1.0,14.5,45.0
-3,mySociety Datasets and APIs,https://data.mysociety.org,80.5,77.7,3,0,HIGH,0.93,11.8,57.9
-4,ODK (Open Data Kit),https://getodk.org,78.2,77.8,2,2,HIGH,0.93,10.1,55.4
-5,Bellingcat Online Investigation Toolkit,https://bellingcat.gitbook.io/toolkit,77.9,72.8,9,-4,LOW,0.93,8.8,65.9
-6,OpenCRVS,https://www.opencrvs.org,75.6,75.8,5,1,HIGH,0.93,11.8,56.1
-7,AlgorithmWatch,https://algorithmwatch.org,75.1,73.9,6,1,LOW,1.0,8.6,61.9
-8,OSINT Framework,https://osintframework.com,75.1,73.3,7,1,HIGH,0.93,6.7,67.7
-9,Nym,https://nymtech.net,74.2,72.9,8,1,MEDIUM,0.93,10.8,52.0
-10,OpenSanctions,https://www.opensanctions.org,74.2,69.9,14,-4,MEDIUM,0.93,10.7,69.0
-11,Aleph (OCCRP),https://aleph.occrp.org,74.1,69.4,16,-5,MEDIUM,1.0,10.2,58.1
-12,SecureDrop,https://securedrop.org,72.7,71.4,10,2,HIGH,0.93,9.2,58.8
-13,LiquidFeedback,https://liquidfeedback.com,72.6,70.9,11,2,LOW,0.93,8.6,68.8
-14,The Government Says,https://thegovernmentsays.com,72.6,65.5,36,-22,LOW,0.93,10.4,62.6
-15,oTree,https://www.otree.org,71.9,70.5,12,3,MEDIUM,0.93,8.7,63.3
-16,Tor Project,https://www.torproject.org,71.9,67.4,25,-9,HIGH,0.93,9.0,52.6
-17,WhatDoTheyKnow,https://www.whatdotheyknow.com,71.3,68.8,18,-1,MEDIUM,0.93,10.8,63.9
-18,Frankenstein Bill,https://gordonguthrie.github.io/frankensteinbill,71.1,69.9,13,5,LOW,0.93,6.6,62.4
-19,Unpaywall Browser Extension,https://unpaywall.org/products/extension,71.1,69.8,15,4,MEDIUM,0.93,10.8,54.2
-20,Open Referral UK,https://openreferraluk.org,71.1,67.0,27,-7,LOW,0.93,7.3,59.4
-21,Creative Commons,https://creativecommons.org,70.3,68.9,17,4,HIGH,1.0,9.2,57.3
-22,Open Science Framework,https://osf.io,69.6,67.2,26,-4,MEDIUM,0.93,11.6,46.5
-23,Loomio,https://www.loomio.org,69.3,68.3,20,3,HIGH,0.93,9.8,50.4
-24,Framework for Meaningful Engagement 2.0,https://ecnl.org/publications/framework-meaningful-engagement-20?mc_cid=b1c5158063&mc_eid=a09c64ec38,69.3,66.2,30,-6,LOW,0.87,10.3,52.0
-25,youtube-dl,https://github.com/ytdl-org/youtube-dl,68.8,68.0,22,3,HIGH,0.93,9.9,48.8
-26,Humanitarian OpenStreetMap Team (HOT),https://www.hotosm.org,68.7,68.5,19,7,HIGH,0.93,12.2,68.1
-27,NumFOCUS,https://numfocus.org,68.7,66.0,31,-4,MEDIUM,1.0,11.3,56.5
-28,The Circuit,https://thecircuit.cc,68.6,67.8,23,5,LOW,1.0,9.5,52.2
-29,Channel.org,https://channel.org,68.5,68.0,21,8,LOW,0.93,8.7,64.0
-30,Open Standards for Data Guidebook,https://standards.theodi.org,67.8,64.2,44,-14,LOW,0.93,7.1,58.7
-31,Cybersecurity for Democracy,https://cybersecurityfordemocracy.org,67.8,64.1,45,-14,LOW,0.93,11.5,48.0
-32,Coral,https://coralproject.net,67.7,66.5,29,3,MEDIUM,0.93,9.0,49.7
-33,Guardian Project,https://guardianproject.info,67.7,65.3,37,-4,HIGH,0.93,10.2,44.8
-34,Open Contracting Partnership,https://www.open-contracting.org,67.6,65.0,39,-5,LOW,1.0,5.8,63.5
-35,Polis,https://github.com/compdemocracy/polis,67.2,61.0,63,-28,HIGH,0.93,7.7,54.2
-36,Alaveteli,https://alaveteli.org,67.1,65.5,35,1,MEDIUM,0.93,7.5,54.7
-37,OA.Works,https://oa.works/,66.8,67.6,24,13,LOW,0.93,11.0,55.4
-38,Pageviews Analysis,https://pageviews.wmcloud.org,66.4,66.0,33,5,LOW,0.93,7.8,58.7
-39,HURIDOCS,https://github.com/huridocs,66.3,63.3,55,-16,LOW,0.93,8.0,51.2
-40,Matrix,https://matrix.org,66.2,63.4,53,-13,HIGH,1.0,13.9,31.0
-41,Participedia,https://participedia.net,66.1,65.9,34,7,LOW,1.0,7.5,58.7
-42,OpenBudgets.eu,https://openbudgets.eu,65.9,64.0,47,-5,LOW,0.93,8.2,65.9
-43,CommunityRule,https://communityrule.info,65.9,63.5,51,-8,LOW,1.0,7.5,55.9
-44,OpenProcurement,https://openprocurement.io,65.8,66.0,32,12,LOW,0.93,12.4,39.9
-45,Bluesky,https://bsky.app,65.6,66.6,28,17,HIGH,0.93,10.9,56.7
-46,Granicus,https://granicus.com/uk,65.0,63.7,50,-4,LOW,0.87,10.2,41.8
-47,CONSUL Democracy,https://consulproject.org,65.0,62.0,59,-12,HIGH,1.0,8.3,53.0
-48,Open Council Network,https://opencouncil.network,64.7,64.3,43,5,LOW,0.93,7.5,53.3
-49,Martus,https://www.martus.org,64.6,58.6,88,-39,LOW,0.93,9.6,43.6
-50,Pastecal,https://github.com/kazad/pastecal,64.5,62.1,58,-8,LOW,0.93,10.5,46.7
-51,Granitt,https://granitt.io,64.5,58.7,86,-35,LOW,0.93,5.5,55.8
-52,PolicyEngine,https://policyengine.org/uk,64.4,64.9,40,12,MEDIUM,0.93,10.6,48.2
-53,Logos,https://logos.co/,64.4,61.1,62,-9,LOW,0.93,8.6,46.7
-54,UK Housing Data Standards,https://hact.org.uk/tools-and-services/uk-housing-data-standards,64.3,64.1,46,8,LOW,1.0,8.0,56.5
-55,sourceAFRICA,https://sourceafrica.net,64.3,62.4,56,-1,LOW,0.93,7.7,59.2
-56,One Project,https://oneproject.org/,64.1,61.6,60,-4,LOW,0.93,7.3,63.3
-57,vTaiwan,https://github.com/g0v/vue.vtaiwan.tw,63.9,59.0,81,-24,LOW,0.93,9.8,51.2
-58,Political Advertising Transparency Data Standard,https://github.com/whotargetsme/ad-transparency-standards/blob/main/implement.md,63.8,63.9,49,9,LOW,0.93,6.6,61.6
-59,OpenOrigins,https://www.openorigins.com,63.8,59.1,78,-19,LOW,0.87,6.4,62.0
-60,Privacy Badger,https://privacybadger.org,63.7,63.4,54,6,MEDIUM,1.0,11.8,48.4
-61,Pursuance Project,https://pursuanceproject.org,63.7,60.1,71,-10,LOW,0.93,5.9,59.3
-62,Open Heart Mind (OHM),https://openheartmind.org,63.6,64.6,41,21,LOW,0.93,10.0,51.2
-63,GlobaLeaks,https://www.globaleaks.org,63.4,65.0,38,25,MEDIUM,0.93,10.6,53.4
-64,All Our Ideas,https://all-our-ideas.citizens.is,63.3,63.9,48,16,LOW,1.0,11.3,42.1
-65,Ushahidi,https://www.ushahidi.com,63.3,58.1,92,-27,HIGH,0.93,8.6,45.2
-66,Open Ownership,https://www.openownership.org,63.2,64.4,42,24,LOW,0.93,10.3,53.5
-67,DAO Governance Surfaces,https://github.com/notchia/dao-governance-surfaces,63.2,61.0,64,3,LOW,0.93,7.4,60.3
-68,Your Priorities,https://yrpri.org,63.1,63.5,52,16,LOW,0.93,10.1,53.5
-69,Decidim,https://decidim.org,63.0,60.0,72,-3,HIGH,0.93,8.5,47.7
-70,Community Notes (Birdwatch) Analysis Tool,https://github.com/travisbrown/birdwatch,62.5,59.0,82,-12,LOW,1.0,8.5,54.2
-71,EDGAR,https://github.com/bellingcat/edgar,62.2,58.1,90,-19,LOW,0.93,9.6,57.7
-72,openparliament.ca,https://openparliament.ca/,62.1,60.4,69,3,LOW,0.93,8.5,54.8
-73,Journal of Open Source Software,https://joss.theoj.org,62.1,60.1,70,3,MEDIUM,1.0,11.9,40.1
-74,Filmot,https://filmot.com,62.1,57.8,93,-19,LOW,0.87,5.9,55.6
-75,Populate Tools,https://github.com/populatetools,61.7,60.0,73,2,LOW,0.93,7.8,54.5
-76,Open Letter,https://openletter.earth,61.3,58.7,87,-11,LOW,0.8,12.2,43.2
-77,The DAO (Standard DAO Framework),https://github.com/vbuterin/dao,61.1,61.4,61,16,LOW,0.93,7.8,56.9
-78,Open Collective,https://opencollective.com,61.0,60.7,65,13,HIGH,0.93,8.1,52.4
-79,Parallel Parliament,https://www.parallelparliament.co.uk,61.0,57.2,98,-19,LOW,0.93,9.1,47.3
-80,Interoperable Deliberative Tools,https://metagov.org/projects/interop,61.0,56.1,108,-28,LOW,0.93,7.0,59.8
-81,Global Fact-Check Bot (GFC),https://globalfactcheck.bot/,60.9,58.7,85,-4,LOW,0.93,10.7,46.2
-82,Open Data Communities,https://opendatacommunities.org,60.9,56.2,106,-24,LOW,0.87,10.1,45.9
-83,Groupthink (OpenPolitics Votebot),https://github.com/openpolitics/groupthink,60.8,60.5,66,17,LOW,1.0,6.7,59.2
-84,Open Supply Hub,https://opensupplyhub.org,60.8,56.2,107,-23,LOW,1.0,9.5,46.3
-85,Security First / Umbrella,https://secfirst.org,60.7,60.0,75,10,LOW,1.0,7.9,57.6
-86,adhocracy+,https://adhocracy.plus,60.5,57.1,99,-13,LOW,0.93,5.7,52.6
-87,Principles for Public Participation in Procurement of AI,https://p4ai.net,60.4,60.0,74,13,LOW,0.87,8.9,49.0
-88,WhatGov,https://www.whatgov.co.uk,60.4,56.1,109,-21,LOW,1.0,10.3,44.3
-89,CiviCRM,https://civicrm.org,60.2,59.0,79,10,LOW,0.93,10.6,46.7
-90,LittleSis,https://littlesis.org,59.9,60.4,68,22,LOW,1.0,8.6,50.5
-91,Cobudget,https://cobudget.com,59.9,59.0,80,11,LOW,0.93,9.2,56.6
-92,Contracts for Data Collaboration,https://contractsfordatacollaboration.org,59.8,58.2,89,3,LOW,0.93,7.9,58.2
-93,OpenElections Leaflet Scraper and Parser,https://github.com/thicknavyrain/uk_elections_leaflets,59.6,55.5,116,-23,LOW,0.93,9.1,42.4
-94,Wikidata,https://www.wikidata.org,59.5,59.6,77,17,HIGH,0.93,12.8,31.9
-95,Journalist Studio,https://journaliststudio.google.com,59.5,56.6,103,-8,MEDIUM,0.93,11.8,38.3
-96,Modular Politics,https://arxiv.org/abs/2005.13701,59.5,54.5,123,-27,LOW,0.87,10.2,39.4
-97,PlaceCal,https://github.com/geeksforsocialchange/placecal,59.1,59.7,76,21,LOW,0.93,6.0,59.1
-98,semanticClimate,https://semanticclimate.github.io,59.1,57.7,94,4,LOW,0.93,8.8,45.3
-99,VFRAME,https://vframe.io,59.1,56.7,101,-2,MEDIUM,0.93,12.2,38.0
-100,Diia,https://expo.diia.gov.ua,59.1,55.7,111,-11,MEDIUM,1.0,8.4,41.6
-101,The Engine Room Library,https://library.theengineroom.org,59.0,57.1,100,1,LOW,0.93,8.8,45.9
-102,Participa (Podemos),https://github.com/podemos-info/participa,58.8,60.4,67,35,LOW,0.93,9.8,46.3
-103,PatCit,https://github.com/cverluise/patcit,58.8,57.6,95,8,LOW,0.93,9.9,46.2
-104,Open Council Data UK,https://opencouncildata.co.uk,58.6,57.5,96,8,LOW,0.87,14.2,29.6
-105,RxC Voice,https://github.com/radicalxchange/rxc-voice,58.6,56.6,102,3,LOW,0.93,5.7,56.9
-106,Mastodon C,https://www.mastodonc.com,58.1,58.1,91,15,HIGH,0.93,12.2,37.8
-107,Teaching Public Service in the Digital Age,https://www.teachingpublicservice.digital,58.0,55.7,114,-7,LOW,0.93,10.2,34.3
-108,Consent-O-Matic,https://github.com/cavi-au/consent-o-matic,57.9,55.7,112,-4,MEDIUM,0.87,9.7,36.0
-109,Choose a License,https://choosealicense.com,57.8,62.1,57,52,MEDIUM,0.93,7.8,49.9
-110,Full Fact AI,https://fullfact.org/ai,57.7,58.8,83,27,LOW,0.87,12.7,35.2
-111,FarmerChat,https://farmerchat.digitalgreen.org,57.4,58.7,84,27,LOW,0.87,7.1,54.0
-112,Mastodon,https://github.com/mastodon/mastodon,57.0,55.5,115,-3,HIGH,0.93,8.9,44.3
-113,Fundación Ciudadanía Inteligente,https://ciudadaniai.org,57.0,51.1,144,-31,LOW,0.93,7.4,57.2
-114,Esper,https://esper.com/product,56.7,56.2,105,9,LOW,0.87,8.8,56.4
-115,postcodes.io,https://github.com/ideal-postcodes/postcodes.io,56.6,55.1,121,-6,MEDIUM,0.93,12.2,37.7
-116,CKAN,https://ckan.org,56.5,55.1,120,-4,HIGH,0.93,11.0,36.5
-117,Nyaaya,https://nyaaya.org,56.4,55.4,117,0,MEDIUM,1.0,6.7,49.5
-118,Stanford Participatory Budgeting Platform,https://github.com/stanfordcdt/pb,56.4,55.1,122,-4,HIGH,0.93,11.9,33.0
-119,Nestr,https://nestr.io,56.1,52.9,134,-15,LOW,0.87,6.7,50.4
-120,The Accountability Project,https://publicaccountability.org,56.0,56.5,104,16,LOW,0.87,6.8,54.7
-121,Constitute Project,https://constituteproject.org,55.9,56.0,110,11,LOW,1.0,9.5,43.5
-122,DoNotPay,https://www.donotpay.com,55.9,54.2,125,-3,LOW,0.93,8.6,44.5
-123,Bonfire,https://bonfirenetworks.org/,55.9,53.1,132,-9,LOW,0.93,10.3,38.1
-124,Ethelo,https://ethelo.com,55.9,52.1,138,-14,LOW,0.93,6.9,41.7
-125,Parti,https://parti.xyz,55.5,54.3,124,1,LOW,1.0,9.2,53.4
-126,Overton,https://overton.io,55.4,55.2,118,8,LOW,0.87,8.5,41.0
-127,Civic Tech Field Guide,https://civictech.guide,55.3,55.1,119,8,HIGH,0.87,8.6,45.5
-128,django-collaborative,https://github.com/propublica/django-collaborative,55.2,54.1,126,2,LOW,0.93,9.9,34.4
-129,Internet Archive Wayback Machine,https://web.archive.org,54.8,51.2,143,-14,LOW,1.0,7.6,41.8
-130,deliberAIde,https://www.deliberaide.com,54.7,57.2,97,33,LOW,0.93,7.4,49.6
-131,CharmVerse,https://charmverse.io/,54.6,50.2,155,-24,LOW,0.93,11.3,30.2
-132,Service Manual,https://www.gov.uk/service-manual,54.5,52.1,139,-7,LOW,1.0,10.0,43.5
-133,Turn2us Benefits Calculator,https://benefits-calculator.turn2us.org.uk,54.3,53.2,130,3,HIGH,0.87,13.4,24.8
-134,Sugartrail,https://github.com/ribenamaplesyrup/sugartrail,54.2,53.1,133,1,LOW,0.93,8.6,37.8
-135,UK Policy Dojo,https://github.com/mikekelly/policy-dojo,54.2,51.8,140,-5,LOW,0.93,8.5,41.0
-136,TheyWorkForYou,https://www.theyworkforyou.com,53.9,54.1,127,9,LOW,0.93,9.1,52.2
-137,Discourse,https://www.discourse.org,53.8,49.2,170,-33,HIGH,0.93,10.5,39.3
-138,Parliament Watch Uganda,https://parliamentwatch.ug/,53.7,52.3,136,2,LOW,0.87,9.4,40.9
-139,Tech Coops List,https://tech-coops.xyz,53.7,51.1,145,-6,LOW,0.93,7.0,46.9
-140,ShineYourEye,https://www.shineyoureye.org,53.5,50.6,153,-13,LOW,0.93,6.9,42.1
-141,Atlas of Surveillance,https://atlasofsurveillance.org,53.4,50.6,152,-11,LOW,1.0,9.6,43.2
-142,Objector.ai,https://www.objector.ai,53.3,48.6,177,-35,HIGH,0.87,8.8,36.6
-143,DISARM Frameworks,https://github.com/disarmfoundation/disarmframeworks,53.2,52.7,135,8,LOW,0.93,7.2,46.2
-144,OA.Report,https://oa.report,53.1,53.5,128,16,LOW,0.87,6.9,49.9
-145,Bluesky Social,https://github.com/bluesky-social,53.1,53.2,131,14,HIGH,1.0,8.8,36.4
-146,Awesome UK Government Datasets,https://github.com/i-dot-ai/awesome-gov-datasets,53.1,50.8,147,-1,LOW,0.93,6.1,48.4
-147,Talk to the City,https://talktothecity.org,53.1,50.7,151,-4,LOW,1.0,7.3,53.1
-148,Plinth,https://www.plinth.org.uk,53.1,48.3,184,-36,LOW,0.93,11.1,39.6
-149,Data Observation Toolkit (DOT),https://github.com/datakind/data-observation-toolkit,53.0,49.3,167,-18,LOW,0.93,8.4,47.7
-150,ClimateAction.Tech,https://climateaction.tech,52.9,53.3,129,21,MEDIUM,0.93,10.3,39.3
-151,UrbanistAI,https://site.urbanistai.com,52.9,50.7,150,1,LOW,0.8,10.8,26.6
-152,Who Posted What?,https://whopostedwhat.com,52.7,49.8,161,-9,LOW,0.87,7.2,43.3
-153,Activist Handbook,https://activisthandbook.org/,52.7,48.8,172,-19,LOW,0.93,8.5,47.4
-154,Rahvaalgatus,https://github.com/rahvaalgatus/rahvaalgatus,52.4,55.7,113,41,LOW,0.93,10.7,41.3
-155,WardWatch,https://wardwatch.uk,52.3,50.3,154,1,LOW,0.87,8.0,42.8
-156,GovTrack.us,https://www.govtrack.us,52.3,50.0,158,-2,MEDIUM,1.0,8.9,41.9
-157,soweego,https://soweego.readthedocs.io,52.3,49.2,169,-12,LOW,0.93,7.1,41.6
-158,RightDD,https://www.rightsdd.com,52.2,48.3,185,-27,LOW,0.87,8.9,38.7
-159,Strike Map,https://strikemap.org,52.0,50.8,148,11,LOW,0.93,6.2,44.5
-160,Parse The Bill,https://parsethebill.com,51.9,49.6,163,-3,LOW,0.87,7.3,49.2
-161,Snowdrift.coop,https://snowdrift.coop,51.9,45.3,211,-50,LOW,0.93,11.1,30.2
-162,Public Media Stack,https://publicmediastack.com,51.8,51.8,141,21,LOW,0.87,8.3,48.4
-163,Citizen OS,https://citizenos.com/platform/,51.7,50.2,156,7,LOW,0.93,9.0,38.9
-164,Aragon,https://aragon.org,51.6,49.5,166,-2,MEDIUM,0.93,10.0,37.9
-165,ОПОРА (Opora),https://www.oporaua.org,51.4,50.0,159,6,LOW,0.93,7.7,47.1
-166,FixMyStreet,https://www.fixmystreet.com,51.4,48.3,183,-17,HIGH,0.93,13.3,24.1
-167,Registers and collaboration: making lists we can trust,https://theodi.org/insights/reports/registers-and-collaboration-making-lists-we-can-trust-report,51.4,46.9,197,-30,LOW,0.87,11.8,28.9
-168,dDocs,https://ddocs.new/,51.3,50.2,157,11,LOW,0.8,7.2,41.3
-169,Humble Data Workshop,https://humbledata.org,51.3,48.3,179,-10,LOW,0.93,9.1,52.2
-170,Gender Pay Gap Service,https://gender-pay-gap.service.gov.uk,51.2,51.3,142,28,LOW,0.87,10.1,34.1
-171,Objector.ai,https://objector.ai,51.1,48.6,176,-5,HIGH,0.87,10.2,28.8
-172,GreenPT,https://greenpt.ai/,51.1,48.0,187,-15,LOW,0.8,6.4,46.0
-173,Who Targets Me Trends,https://trends.whotargets.me,51.0,51.1,146,27,LOW,0.87,6.0,45.7
-174,User Research Library,https://research.localgov.digital,50.9,49.6,164,10,LOW,0.87,11.2,36.7
-175,rsky,https://github.com/blacksky-algorithms/rsky,50.7,52.2,137,38,LOW,0.93,9.4,36.0
-176,Shareyourpaper.org,https://shareyourpaper.org,50.5,49.6,165,11,LOW,0.93,6.4,44.3
-177,Gapminder Worldview Upgrader,https://upgrader.gapminder.org,50.5,47.8,189,-12,MEDIUM,1.0,11.2,31.2
-178,Pear by Holepunch,https://docs.holepunch.to,50.5,47.4,190,-12,LOW,0.93,9.9,30.8
-179,Manifold Markets,https://manifold.markets,50.4,48.2,186,-7,MEDIUM,0.93,10.7,39.3
-180,New_ Public Roundabout,https://newpublic.substack.com/p/introducing-roundabout-built-for,50.3,45.0,221,-41,LOW,0.93,7.8,34.0
-181,Violation Tracker UK,https://violationtrackeruk.goodjobsfirst.org,50.1,44.7,231,-50,LOW,0.87,10.5,27.8
-182,Radicle,https://radicle.xyz,49.9,49.8,160,22,MEDIUM,0.93,9.4,33.3
-183,Nook CRM,https://nookcrm.com,49.9,46.4,199,-16,LOW,0.93,10.8,27.3
-184,GOV.UK Pay,https://www.payments.service.gov.uk,49.8,49.8,162,22,LOW,0.93,7.0,42.1
-185,Public Editor,https://www.publiceditor.io,49.7,45.0,226,-41,HIGH,0.87,12.4,22.0
-186,Prolific,https://www.prolific.com,49.7,44.3,235,-49,LOW,0.87,7.4,39.7
-187,GOV.UK Notify,https://www.notifications.service.gov.uk,49.6,48.8,174,13,MEDIUM,0.93,6.3,48.6
-188,RxC Quadratic Voting,https://quadraticvote.radicalxchange.org,49.5,47.2,194,-6,LOW,0.93,8.8,36.6
-189,Harmonica,https://harmonica.chat/,49.3,48.3,178,11,LOW,0.8,10.1,41.0
-190,Relational Tech Project,https://relationaltechproject.org,49.3,44.3,233,-43,LOW,0.8,8.5,35.8
-191,Kialo,https://kialo.com,49.1,48.8,173,18,LOW,0.93,12.1,36.1
-192,Wikum,https://www.csail.mit.edu/research/wikum-bridging-discussion-systems-and-wikis-collective-summarization,49.0,47.2,195,-3,LOW,0.93,8.0,35.8
-193,Go Vocal,https://www.govocal.com,49.0,46.3,203,-10,LOW,0.93,9.3,31.5
-194,Papertree,https://www.papertree.earth,48.9,46.4,200,-6,NONE,0.6,11.8,35.8
-195,CoTech,https://coops.tech,48.9,46.3,201,-6,LOW,0.93,10.4,33.6
-196,WriteToThem,https://www.writetothem.com,48.9,45.3,212,-16,LOW,0.93,9.4,26.2
-197,Missing Numbers,https://missingnumbers.org,48.8,48.3,180,17,LOW,0.93,7.8,38.2
-198,Humanitarian Data Exchange,https://data.humdata.org,48.8,45.0,214,-16,LOW,1.0,7.5,47.0
-199,docs.plus,https://docs.plus,48.7,47.3,191,8,LOW,0.87,8.0,38.1
-200,Open Access – Transparency International UK,https://openaccess.transparency.org.uk,48.7,45.0,222,-22,LOW,0.93,10.5,33.8
-201,Anna's Archive,https://annas-archive.pm,48.6,45.0,213,-12,HIGH,0.93,9.0,40.9
-202,Members' Interests,https://membersinterests.org.uk,48.6,45.0,218,-16,LOW,0.93,13.4,38.8
-203,Abstract Wikipedia,https://meta.wikimedia.org/wiki/abstract_wikipedia,48.6,45.0,219,-16,HIGH,1.0,9.3,35.1
-204,Theft Bisect,https://onodi.co/bisect/,48.5,48.3,181,23,LOW,0.93,6.4,46.7
-205,Tactical Data Engagement,https://communities.sunlightfoundation.com/methodology,48.3,47.8,188,17,LOW,0.87,7.7,37.5
-206,Empurrando Juntas (EJ),https://sobre.ejparticipe.org,48.2,45.4,207,-1,LOW,0.8,9.9,33.4
-207,CrowdJustice,https://www.crowdjustice.com,48.0,44.9,228,-21,LOW,0.93,6.8,40.5
-208,Public AI Inference Utility,https://publicai.co/,47.9,45.3,210,-2,LOW,1.0,6.2,40.5
-209,ORCID,https://orcid.org,47.8,48.3,182,27,MEDIUM,1.0,10.0,36.3
-210,Conservative Party Funding,https://conservativepartyfunding.co.uk,47.8,45.3,208,2,LOW,0.87,7.9,35.5
-211,Cortico,https://cortico.ai/platform,47.8,44.3,232,-21,LOW,0.87,8.6,42.1
-212,DoGooder,https://dogooder.co,47.8,43.5,237,-25,LOW,0.8,9.6,32.2
-213,Mozilla Data Collective,https://datacollective.mozillafoundation.org/,47.6,45.8,205,8,HIGH,0.93,10.8,33.5
-214,Dunadyne,https://dunadyne.org,47.5,43.0,243,-29,LOW,0.8,7.8,35.6
-215,Deliberation & Technology (DelibTech) Network,https://www.demnext.org/projects/delibtech-network,47.4,49.3,168,47,LOW,0.87,10.0,31.1
-216,Campaign Tracker,https://www.campaigntracker.nl/en,47.4,47.1,196,20,LOW,1.0,9.1,33.7
-217,GrantNav,https://grantnav.threesixtygiving.org,47.3,46.3,202,15,LOW,1.0,8.0,34.3
-218,Organise,https://www.organise.org.uk,47.3,44.9,230,-12,LOW,0.93,9.3,39.8
-219,UK Parliament Developer Portal,https://developer.parliament.uk,47.1,42.4,246,-27,LOW,0.93,9.8,37.5
-220,Agreement Engine,https://medium.com/metagov/introducing-the-agreement-engine-bf03b6d5c16c,47.0,45.0,217,3,LOW,0.93,10.8,20.7
-221,MP Twitter Bios,https://www.mptwitterbios.co.uk,46.9,49.2,171,50,LOW,0.93,7.3,40.7
-222,Agencies for Good,https://www.agenciesforgood.org,46.9,44.9,227,-5,LOW,0.93,9.6,35.1
-223,Moral Machine,https://moralmachine.net,46.8,50.7,149,74,MEDIUM,1.0,10.5,34.6
-224,Find local consultations,https://gov.uk/find-local-consultations,46.6,47.3,192,32,HIGH,0.87,12.8,26.2
-225,arXiv,https://arxiv.org,46.6,46.8,198,27,MEDIUM,1.0,6.0,43.3
-226,GOV.UK One Login,https://www.sign-in.service.gov.uk,46.3,43.0,244,-18,LOW,1.0,7.6,44.6
-227,Digital Account Management Toolkit,https://digitalcharitylab.org/product/digital-account-management-toolkit,46.2,42.4,247,-20,LOW,0.87,6.9,35.4
-228,CivicPress,https://civicpress.io/,46.1,45.9,204,24,LOW,0.93,8.6,32.3
-229,whatsmeow,https://github.com/tulir/whatsmeow,46.1,45.3,209,20,MEDIUM,0.73,13.7,33.6
-230,Land Explorer,https://landexplorer.coop,46.0,42.0,253,-23,LOW,0.87,11.8,30.2
-231,Metaculus,https://metaculus.com,45.9,45.0,220,11,LOW,1.0,8.7,35.9
-232,Timecounts,https://timecounts.org,45.9,42.4,248,-16,LOW,0.87,7.2,32.8
-233,Murmurations Protocol,https://murmurations.network,45.8,43.4,239,-6,LOW,0.93,6.1,37.2
-234,FixMyBlock,https://fixmyblock.org,45.7,45.4,206,28,LOW,0.87,9.5,39.2
-235,PlanIT,https://planit.org.uk,45.6,45.0,223,12,LOW,0.93,11.3,29.5
-236,Dovetail,https://dovetail.network,45.3,45.0,215,21,LOW,0.87,9.3,39.5
-237,PolicyKit,https://policykit.org,45.1,45.0,224,13,MEDIUM,1.0,9.6,32.3
-238,Monitor Mamdani,https://monitormamdani.com/,44.9,48.6,175,63,HIGH,0.93,9.8,37.0
-239,In the news,https://en.wikipedia.org/wiki/wikipedia:in_the_news,44.9,42.3,250,-11,LOW,0.87,8.6,38.4
-240,Fatebook,https://fatebook.io,44.9,42.0,252,-12,MEDIUM,1.0,10.7,23.2
-241,Polimorphic,https://www.polimorphic.com,44.8,42.4,249,-8,LOW,0.8,6.5,36.7
-242,The Data Trusts Initiative,https://datatrusts.uk,44.8,41.5,256,-14,LOW,0.87,7.8,35.8
-243,Membership,https://medium.com/@abscond/membership-a-prototype-ea822b2683b,44.8,40.9,259,-16,LOW,0.8,6.5,32.7
-244,Entitledto,https://entitledto.co.uk,44.5,45.0,216,28,LOW,0.93,8.7,29.3
-245,Neighbourhood Warmth,https://www.mysociety.org/climate/neighbourhood-warmth,44.5,40.5,260,-15,LOW,0.87,8.9,40.4
-246,Beckton,https://richardpope.org/2017/03/05/beckton-a-tool-to-build,44.4,40.4,262,-16,LOW,0.93,5.8,37.5
-247,MapIt,https://mapit.mysociety.org,44.3,47.3,193,54,LOW,1.0,7.9,34.3
-248,Collaborative Data Patterns,https://collaborative-data.theodi.org,44.0,43.3,241,7,LOW,0.87,7.9,39.0
-249,Democracy Fund Open Source,https://www.dfos.com,44.0,39.4,269,-20,LOW,0.87,10.7,17.8
-250,GOV Reuse Library,https://dev.reuselibrary.service.justice.gov.uk/,43.8,38.0,279,-29,LOW,0.87,6.4,34.6
-251,Give Food,https://www.givefood.org.uk,43.5,44.9,229,22,LOW,1.0,12.3,32.0
-252,Watch Duty,https://www.watchduty.org,43.3,40.4,264,-12,LOW,0.87,8.5,35.8
-253,Shared Digital Guides,https://www.shareddigitalguides.org.uk,43.2,41.4,257,-4,LOW,0.87,11.2,16.6
-254,Viewpoints,https://viewpoints.xyz,43.1,44.3,234,20,LOW,0.87,8.2,38.7
-255,Remember to Vote,https://remembertovote.org.uk,43.0,38.1,277,-22,LOW,0.87,6.7,43.0
-256,Responsible Tech Guide 2025,https://alltechishuman.org/responsible-tech-guide-2025,42.6,40.4,261,-5,LOW,0.87,8.4,39.3
-257,GovWise,https://www.govwise.ai/en,42.5,45.0,225,32,LOW,0.8,10.2,29.9
-258,Sci-Hub,https://sci-hub.se,42.5,43.4,240,18,LOW,0.93,8.9,41.7
-259,GOV.UK Forms,https://www.forms.service.gov.uk,42.5,42.0,254,5,LOW,0.93,8.9,30.1
-260,CiviClick,https://civiclick.com,42.4,41.0,258,2,LOW,0.8,7.1,28.5
-261,COTSI (Cyber Operational Threat Situational Intelligence),https://cotsi.org/,42.3,43.3,242,19,LOW,0.87,8.2,34.2
-262,Fairbnb.coop,https://fairbnb.coop,42.3,42.0,251,11,LOW,1.0,6.2,39.3
-263,PolicyMogul,https://policymogul.com,42.0,43.7,236,27,LOW,0.87,10.4,31.8
-264,Local Insight,https://localinsight.org,41.6,39.0,271,-7,LOW,0.87,9.2,27.3
-265,DemTech Navigator,https://navigator.oii.ox.ac.uk,41.5,43.5,238,27,HIGH,0.87,8.1,40.1
-266,Local Deep Researcher,https://local-deep-researcher-hnmh.vercel.app/,41.4,39.0,270,-4,NONE,0.6,10.8,17.1
-267,Tracka,https://yourtracka.org,41.3,42.9,245,22,LOW,0.93,10.4,32.6
-268,River Sentiment Dashboard,https://riversentiment.app,41.3,39.8,267,1,LOW,0.87,8.7,31.1
-269,Urbit,https://urbit.org,41.2,38.3,276,-7,MEDIUM,0.93,10.2,26.3
-270,Whoisology,https://whoisology.com,41.1,38.5,274,-4,LOW,0.87,11.2,32.7
-271,Spartacus,https://spartacus.app,40.9,40.4,263,8,LOW,0.87,7.8,30.2
-272,Understanding Your Morality,https://programs.clearerthinking.org/understanding-your-morality/,40.7,38.5,273,-1,LOW,0.87,9.2,31.9
-273,Yoti,https://www.yoti.com,40.6,40.4,265,8,LOW,0.87,9.3,24.1
-274,We Live It,https://www.welivedit.ai,40.4,38.5,275,-1,LOW,0.87,8.1,23.8
-275,The Commons Social Change Library,https://commonslibrary.org,40.0,39.4,268,7,LOW,0.87,7.7,26.3
-276,Landlord Tech Watch,https://antievictionmappingproject.github.io/landlordtech,39.5,38.0,278,-2,LOW,0.93,12.4,26.4
-277,Right To Know,https://right-to-know.org,39.2,37.5,282,-5,LOW,0.93,11.5,15.7
-278,Local Intelligence Hub,https://www.localintelligencehub.com,39.1,37.0,286,-8,LOW,1.0,8.7,36.9
-279,Worker Info Exchange,https://www.workerinfoexchange.org,39.1,36.4,289,-10,LOW,0.93,8.3,40.5
-280,Marks Out Of Tenancy,https://www.marksoutoftenancy.com,38.6,37.4,284,-4,LOW,0.87,8.4,26.2
-281,Vote for Policies,https://voteforpolicies.org.uk,38.6,37.0,285,-4,LOW,0.87,7.2,34.6
-282,OpenAudience,https://openaudience.org,38.6,36.5,287,-5,LOW,0.87,6.7,33.6
-283,DeepSeek-V3,https://github.com/deepseek-ai/deepseek-v3,38.5,34.5,295,-12,HIGH,0.93,12.6,10.0
-284,Libertrium,https://liberopinion.com,38.3,40.0,266,18,LOW,0.8,7.4,34.3
-285,Charity Digital Skills Report,https://charitydigitalskills.co.uk,38.1,37.8,280,5,LOW,0.87,10.5,29.8
-286,MP Watch,https://www.mpwatch.org,38.1,37.5,283,3,LOW,0.93,7.9,26.4
-287,Turbo Phonebank,https://turbophonebank.com,38.1,36.1,291,-4,LOW,0.87,9.8,23.5
-288,Turkopticon,https://turkopticon.ucsd.edu,38.1,34.4,297,-9,MEDIUM,0.93,7.2,28.3
-289,CAN/DGSI 127 - Age Assurance Technologies Standard,https://dgc-cgn.org/product/can-dgsi-127/,38.0,38.6,272,17,LOW,0.87,8.8,29.1
-290,PoliMonitor,https://www.polimonitor.com,38.0,33.5,303,-13,MEDIUM,0.8,10.2,22.2
-291,Mapped,https://mapped.commonknowledge.coop,38.0,32.5,307,-16,LOW,0.93,8.9,43.8
-292,Schema.org,https://schema.org,37.9,41.9,255,37,LOW,0.67,11.9,18.6
-293,Community Tech,https://www.communitytech.network,37.9,36.5,288,5,LOW,0.87,8.4,38.4
-294,The Guide to Major Trusts 2025/26,https://www.dsc.org.uk/publication/the-guide-to-major-trusts-2025-26/,37.7,37.6,281,13,LOW,0.87,8.8,24.8
-295,Riseup,https://riseup.net,37.7,35.5,293,2,LOW,0.93,6.2,29.1
-296,Democracy Club Developer API,https://developers.democracyclub.org.uk/api/v1,37.5,34.3,298,-2,LOW,1.0,8.5,32.6
-297,GRIM (Global Risk Simulator),https://github.com/sentinelteam/grim,37.3,34.4,296,1,HIGH,1.0,11.8,15.0
-298,MyActionCenter,https://www.myaction.center,37.2,33.5,302,-4,LOW,0.8,8.9,27.1
-299,Ladder Hub,https://ladderhub.org/,37.0,33.5,300,-1,LOW,0.93,9.9,36.8
-300,PostBug,https://postbug.com,36.5,36.1,290,10,LOW,0.87,9.1,32.0
-301,AISafety.info,https://aisafety.info,36.2,34.5,294,7,LOW,1.0,7.2,26.4
-302,Plausible Analytics,https://plausible.io,35.4,33.0,305,-3,HIGH,0.93,8.6,32.9
-303,meet.coop,https://www.meet.coop,35.2,33.3,304,-1,LOW,1.0,9.6,30.3
-304,WorkInCharities,https://www.workincharities.co.uk,35.0,31.2,310,-6,LOW,0.8,6.7,26.1
-305,Mapping.kids,https://mapping.kids,34.8,31.2,309,-4,LOW,0.67,10.1,16.8
-306,Hand-Written Petition Scanner,https://hand-written-petition-scanner.streamlit.app,34.7,33.5,299,7,LOW,0.8,9.9,18.2
-307,Citizens Advice Tableau Public Profile,https://public.tableau.com/app/profile/citizensadvice/vizzes,34.6,33.5,301,6,LOW,0.8,9.8,28.2
-308,CivicMatch,https://civicmatch.app,34.2,29.2,313,-5,LOW,0.73,9.7,20.5
-309,Collab.Land,https://collab.land,33.0,32.6,306,3,LOW,0.87,8.1,20.1
-310,Idealist,https://idealist.org,32.6,35.5,292,18,LOW,0.87,6.4,32.5
-311,Labour Xchange,https://labourxchange.uk,31.9,31.6,308,3,LOW,0.93,7.3,25.3
-312,Fission Codes,https://github.com/fission-codes/fission-codes,31.6,26.5,315,-3,LOW,0.8,9.8,17.2
-313,Society for Hopeful Technologists,https://societyforhopefultechnologists.org,29.7,29.6,311,2,LOW,0.93,7.3,21.3
-314,Spacetube,https://spacetu.be,29.6,29.5,312,2,LOW,0.87,7.3,24.0
-315,The Decelerator,https://decelerator.org.uk,29.6,27.2,314,1,HIGH,0.87,8.0,19.0
-316,,https://tracking-template-38b4c.web.app,29.1,25.0,318,-2,NONE,0.27,8.0,12.9
-317,Kagi SlopStop,https://blog.kagi.com/slopstop,27.5,25.5,316,1,LOW,1.0,8.6,17.2
-318,Keep It In The Community,https://plunkett.my.site.com/keepitinthecommunity/s,27.4,23.7,319,-1,LOW,0.8,8.1,27.4
-319,The List,https://the-list.uk,25.3,22.1,320,-1,LOW,0.93,8.2,14.8
-320,Unknown Academic Paper (SSRN 5351275),https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5351275,24.8,25.0,317,3,NONE,0.33,6.1,22.5
-321,Consciousness Evolution Operating System (ConSoc),https://www.consoc.io,20.9,16.9,321,0,NONE,0.47,5.9,28.4
+rank,url,mean_score,num_scores,num_models,models,min,max,spread
+1,https://developers.democracyclock.org.uk/api/v1,88.0,1,1,mistral,88,88,0
+2,https://oa.works,81.4,11,3,claude|gpt41|mistral,72,84,12
+3,https://citizenos.com/platform,80.0,11,3,claude|gpt41|mistral,72,85,13
+4,https://opendigitalplanning.org,79.8,11,3,claude|gpt41|mistral,70,88,18
+5,https://data.mysociety.org,78.5,25,5,claude|gemini|gpt41|grok4|mistral,38.8,88,49.2
+6,https://getodk.org,77.3,25,5,claude|gemini|gpt41|grok4|mistral,53.7,92,38.3
+7,https://www.torproject.org,76.8,24,5,claude|gemini|gpt41|grok4|mistral,50.2,93,42.8
+8,https://algorithmwatch.org,76.7,25,5,claude|gemini|gpt41|grok4|mistral,49.8,91.6,41.8
+9,https://creativecommons.org,76.2,25,5,claude|gemini|gpt41|grok4|mistral,49.5,95,45.5
+10,https://www.opencrvs.org,76.2,24,5,claude|gemini|gpt41|grok4|mistral,40.8,88,47.2
+11,https://activisthandbook.org,75.6,11,3,claude|gpt41|mistral,52,90,38
+12,https://alaveteli.org,75.0,25,5,claude|gemini|gpt41|grok4|mistral,48.4,94,45.6
+13,https://consulproject.org,75.0,25,5,claude|gemini|gpt41|grok4|mistral,48.7,97,48.3
+14,https://www.open-contracting.org,74.6,24,5,claude|gemini|gpt41|grok4|mistral,57.5,88,30.5
+15,https://securedrop.org,74.4,25,5,claude|gemini|gpt41|grok4|mistral,42.9,88,45.1
+16,https://www.hotosm.org,74.0,24,5,claude|gemini|gpt41|grok4|mistral,26.3,94,67.7
+17,https://liquidfeedback.com,73.9,25,5,claude|gemini|gpt41|grok4|mistral,40.0,87,47.0
+18,https://www.whatdotheyknow.com,73.8,24,5,claude|gemini|gpt41|grok4|mistral,39.2,88,48.8
+19,https://decidim.org,73.6,25,5,claude|gemini|gpt41|grok4|mistral,44.7,97,52.3
+20,https://openreferraluk.org,73.6,25,5,claude|gemini|gpt41|grok4|mistral,54.5,86,31.5
+21,https://bellingcat.gitbook.io/toolkit,73.5,25,5,claude|gemini|gpt41|grok4|mistral,52.1,87.6,35.49999999999999
+22,https://github.com/compdemocracy/polis,73.3,25,5,claude|gemini|gpt41|grok4|mistral,50.3,93,42.7
+23,https://datacollective.mozillafoundation.org,73.0,11,3,claude|gpt41|mistral,66,78,12
+24,https://ecnl.org/publications/framework-meaningful-engagement-20?mc_cid=b1c5158063&mc_eid=a09c64ec38,72.4,25,5,claude|gemini|gpt41|grok4|mistral,40.2,88,47.8
+25,https://aleph.occrp.org,72.0,25,5,claude|gemini|gpt41|grok4|mistral,45.8,90,44.2
+26,https://okfn.org/en/projects/open-data-editor/,71.5,14,3,claude|gemini|grok4,40.0,90.6,50.599999999999994
+27,https://globalfactcheck.bot,71.2,11,3,claude|gpt41|mistral,68,78,10
+28,https://www.globaleaks.org,71.1,24,5,claude|gemini|gpt41|grok4|mistral,30.4,91,60.6
+29,https://openprocurement.io,71.0,25,5,claude|gemini|gpt41|grok4|mistral,34.6,88,53.4
+30,https://sourceafrica.net,70.6,25,5,claude|gemini|gpt41|grok4|mistral,42.0,88,46.0
+31,https://guardianproject.info,70.4,25,5,claude|gemini|gpt41|grok4|mistral,37.8,93,55.2
+32,https://github.com/huridocs,70.3,25,5,claude|gemini|gpt41|grok4|mistral,43.8,85,41.2
+33,https://opencouncil.network,70.3,25,5,claude|gemini|gpt41|grok4|mistral,48.3,83,34.7
+34,https://okfn.org/en/projects/open-data-editor,69.8,11,3,claude|gpt41|mistral,58,78,20
+35,https://matrix.org,69.4,25,5,claude|gemini|gpt41|grok4|mistral,18.5,88,69.5
+36,https://secfirst.org,69.4,25,5,claude|gemini|gpt41|grok4|mistral,41.7,92,50.3
+37,https://www.loomio.org,69.4,24,5,claude|gemini|gpt41|grok4|mistral,39.8,85,45.2
+38,https://opendigitalplanning.org/,69.1,14,3,claude|gemini|grok4,41.5,85.9,44.400000000000006
+39,https://thegovernmentsays.com,69.0,25,5,claude|gemini|gpt41|grok4|mistral,36.9,78,41.1
+40,https://www.openownership.org,69.0,24,5,claude|gemini|gpt41|grok4|mistral,31.4,82,50.6
+41,https://github.com/g0v/vue.vtaiwan.tw,68.8,25,5,claude|gemini|gpt41|grok4|mistral,21.5,93,71.5
+42,https://publicai.co,68.8,11,3,claude|gpt41|mistral,62,78,16
+43,https://www.ushahidi.com,68.8,24,5,claude|gemini|gpt41|grok4|mistral,35.4,94,58.6
+44,https://yrpri.org,68.7,24,5,claude|gemini|gpt41|grok4|mistral,45.3,88,42.7
+45,https://policyengine.org/uk,68.6,25,5,claude|gemini|gpt41|grok4|mistral,36.0,85,49.0
+46,https://adhocracy.plus,68.2,25,5,claude|gemini|gpt41|grok4|mistral,43.6,87,43.4
+47,https://p4ai.net,68.1,25,5,claude|gemini|gpt41|grok4|mistral,43.3,88,44.7
+48,https://littlesis.org,68.0,25,5,claude|gemini|gpt41|grok4|mistral,44.4,92,47.6
+49,https://all-our-ideas.citizens.is,67.9,25,5,claude|gemini|gpt41|grok4|mistral,35.6,88,52.4
+50,https://www.theyworkforyou.com,67.9,24,5,claude|gemini|gpt41|grok4|mistral,29.8,88,58.2
+51,https://bonfirenetworks.org,67.8,11,3,claude|gpt41|mistral,42,72,30
+52,https://parti.xyz,67.8,25,5,claude|gemini|gpt41|grok4|mistral,24.2,92,67.8
+53,https://thecircuit.cc,67.6,25,5,claude|gemini|gpt41|grok4|mistral,43.7,82,38.3
+54,https://openparliament.ca,67.3,11,3,claude|gpt41|mistral,62,72,10
+55,https://participedia.net,67.3,25,5,claude|gemini|gpt41|grok4|mistral,47.2,77.2,30.0
+56,https://github.com/whotargetsme/ad-transparency-standards/blob/main/implement.md,67.2,25,5,claude|gemini|gpt41|grok4|mistral,55.7,75.9,20.200000000000003
+57,https://opensupplyhub.org,67.1,25,5,claude|gemini|gpt41|grok4|mistral,35.8,85,49.2
+58,https://www.opensanctions.org,66.9,24,5,claude|gemini|gpt41|grok4|mistral,42.8,88.6,45.8
+59,https://coralproject.net,66.8,25,5,claude|gemini|gpt41|grok4|mistral,43.8,78,34.2
+60,https://expo.diia.gov.ua,66.7,25,5,claude|gemini|gpt41|grok4|mistral,37.2,88,50.8
+61,https://www.wikidata.org,66.7,24,5,claude|gemini|gpt41|grok4|mistral,30.2,90,59.8
+62,https://hact.org.uk/tools-and-services/uk-housing-data-standards,66.6,25,5,claude|gemini|gpt41|grok4|mistral,46.7,75.7,29.0
+63,https://openbudgets.eu,66.5,25,5,claude|gemini|gpt41|grok4|mistral,52.7,89.3,36.599999999999994
+64,https://ciudadaniai.org,66.4,25,5,claude|gemini|gpt41|grok4|mistral,31.0,88,57.0
+65,https://talktothecity.org,66.3,25,5,claude|gemini|gpt41|grok4|mistral,34.9,91,56.1
+66,https://oneproject.org,66.2,10,2,gpt41|mistral,62,72,10
+67,https://github.com/mastodon/mastodon,65.9,25,5,claude|gemini|gpt41|grok4|mistral,38.2,87,48.8
+68,https://cobudget.com,65.8,25,5,claude|gemini|gpt41|grok4|mistral,43.7,80.1,36.39999999999999
+69,https://communityrule.info,65.8,25,5,claude|gemini|gpt41|grok4|mistral,42,83,41
+70,https://opencollective.com,65.8,25,5,claude|gemini|gpt41|grok4|mistral,43.6,86,42.4
+71,https://cybersecurityfordemocracy.org,65.5,25,5,claude|gemini|gpt41|grok4|mistral,24.5,78,53.5
+72,https://civicrm.org,65.4,25,5,claude|gemini|gpt41|grok4|mistral,31.4,82,50.6
+73,https://parliamentwatch.ug,65.4,11,3,claude|gpt41|mistral,52,73,21
+74,https://web.archive.org,65.4,24,5,claude|gemini|gpt41|grok4|mistral,34.5,93,58.5
+75,https://github.com/geeksforsocialchange/placecal,65.2,25,5,claude|gemini|gpt41|grok4|mistral,47.2,78,30.799999999999997
+76,https://unpaywall.org/products/extension,65.0,25,5,claude|gemini|gpt41|grok4|mistral,36.4,78,41.6
+77,https://standards.theodi.org,64.8,25,5,claude|gemini|gpt41|grok4|mistral,53,78,25
+78,https://nymtech.net,64.3,25,5,claude|gemini|gpt41|grok4|mistral,32,88.6,56.599999999999994
+79,https://nyaaya.org,63.9,25,5,claude|gemini|gpt41|grok4|mistral,41.6,91,49.4
+80,https://gordonguthrie.github.io/frankensteinbill,63.8,25,5,claude|gemini|gpt41|grok4|mistral,48,76.8,28.799999999999997
+81,https://numfocus.org,63.8,24,5,claude|gemini|gpt41|grok4|mistral,23.4,73.4,50.00000000000001
+82,https://constituteproject.org,63.5,25,5,claude|gemini|gpt41|grok4|mistral,28.0,87,59.0
+83,https://github.com/populatetools,63.5,25,5,claude|gemini|gpt41|grok4|mistral,43.9,77.8,33.9
+84,https://www.whatgov.co.uk,63.4,24,5,claude|gemini|gpt41|grok4|mistral,35.8,78,42.2
+85,https://privacybadger.org,62.8,25,5,claude|gemini|gpt41|grok4|mistral,31.5,79.6,48.099999999999994
+86,https://farmerchat.digitalgreen.org,62.7,25,5,claude|gemini|gpt41|grok4|mistral,47.9,78.7,30.800000000000004
+87,https://github.com/rahvaalgatus/rahvaalgatus,62.3,25,5,claude|gemini|gpt41|grok4|mistral,17.2,82,64.8
+88,https://ethelo.com,62.2,25,5,claude|gemini|gpt41|grok4|mistral,33.6,85,51.4
+89,https://ckan.org,62.1,25,5,claude|gemini|gpt41|grok4|mistral,22.0,83,61.0
+90,https://github.com/podemos-info/participa,62.0,25,5,claude|gemini|gpt41|grok4|mistral,30.4,72,41.6
+91,https://oneproject.org/,61.9,14,3,claude|gemini|grok4,39.2,70.1,30.89999999999999
+92,https://oa.works/,61.8,14,3,claude|gemini|grok4,35.6,80.7,45.1
+93,https://civicpress.io,61.7,11,3,claude|gpt41|mistral,54,68,14
+94,https://atlasofsurveillance.org,61.4,25,5,claude|gemini|gpt41|grok4|mistral,15.2,82,66.8
+95,https://vframe.io,61.3,24,5,claude|gemini|gpt41|grok4|mistral,20.3,85,64.7
+96,https://dev.reuselibrary.service.justice.gov.uk,61.1,11,3,claude|gpt41|mistral,46,74,28
+97,https://pursuanceproject.org,61.1,25,5,claude|gemini|gpt41|grok4|mistral,52,68,16
+98,https://github.com/openpolitics/groupthink,61.0,25,5,claude|gemini|gpt41|grok4|mistral,51.7,81.3,29.599999999999994
+99,https://www.openorigins.com,61.0,24,5,claude|gemini|gpt41|grok4|mistral,52,81.9,29.900000000000006
+100,https://www.oporaua.org,61.0,24,5,claude|gemini|gpt41|grok4|mistral,30.7,87,56.3
+101,https://osf.io,60.8,22,5,claude|gemini|gpt41|grok4|mistral,34.0,77.2,43.2
+102,https://osintframework.com,60.7,25,5,claude|gemini|gpt41|grok4|mistral,32,77.7,45.7
+103,https://www.parallelparliament.co.uk,60.7,24,5,claude|gemini|gpt41|grok4|mistral,32.2,73,40.8
+104,https://contractsfordatacollaboration.org,60.4,25,5,claude|gemini|gpt41|grok4|mistral,38.7,72.4,33.7
+105,https://channel.org,60.4,24,5,claude|gemini|gpt41|grok4|mistral,40.3,75.1,34.8
+106,https://benefits-calculator.turn2us.org.uk,60.2,25,5,claude|gemini|gpt41|grok4|mistral,23.4,83,59.6
+107,https://library.theengineroom.org,60.2,25,5,claude|gemini|gpt41|grok4|mistral,37.9,74,36.1
+108,https://granitt.io,60.2,20,5,claude|gemini|gpt41|grok4|mistral,52.7,66.9,14.200000000000003
+109,https://openletter.earth,60.1,25,5,claude|gemini|gpt41|grok4|mistral,22.8,69.3,46.5
+110,https://www.otree.org,60.1,24,5,claude|gemini|gpt41|grok4|mistral,38,83.1,45.099999999999994
+111,https://www.campaigntracker.nl/en,60.0,24,5,claude|gemini|gpt41|grok4|mistral,29.9,88,58.1
+112,https://ddocs.new,60.0,5,1,gpt41,58,62,4
+113,https://github.com/stanfordcdt/pb,59.9,25,5,claude|gemini|gpt41|grok4|mistral,20.1,82,61.9
+114,https://pageviews.wmcloud.org,59.9,25,5,claude|gemini|gpt41|grok4|mistral,42,75.0,33.0
+115,https://logos.co/,59.9,14,3,claude|gemini|grok4,39.3,75.4,36.10000000000001
+116,https://fullfact.org/ai,59.8,25,5,claude|gemini|gpt41|grok4|mistral,26.0,78,52.0
+117,https://github.com/datakind/data-observation-toolkit,59.6,25,5,claude|gemini|gpt41|grok4|mistral,24.6,83,58.4
+118,https://www.deliberaide.com,59.4,24,5,claude|gemini|gpt41|grok4|mistral,43.2,68.5,25.299999999999997
+119,https://www.organise.org.uk,59.3,24,5,claude|gemini|gpt41|grok4|mistral,19.7,91,71.3
+120,https://www.notifications.service.gov.uk,59.0,24,5,claude|gemini|gpt41|grok4|mistral,37.1,88,50.9
+121,https://humbledata.org,58.9,24,5,claude|gemini|gpt41|grok4|mistral,26.4,80,53.6
+122,https://github.com/cavi-au/consent-o-matic,58.7,25,5,claude|gemini|gpt41|grok4|mistral,33.9,72.4,38.50000000000001
+123,https://github.com/ytdl-org/youtube-dl,58.7,25,5,claude|gemini|gpt41|grok4|mistral,42,76.4,34.400000000000006
+124,https://www.mastodonc.com,58.7,24,5,claude|gemini|gpt41|grok4|mistral,25.8,72.4,46.60000000000001
+125,https://www.teachingpublicservice.digital,58.6,24,5,claude|gemini|gpt41|grok4|mistral,29.0,78,49.0
+126,https://www.shineyoureye.org,58.5,24,5,claude|gemini|gpt41|grok4|mistral,37.6,78,40.4
+127,https://bsky.app,58.3,23,5,claude|gemini|gpt41|grok4|mistral,35.6,79.4,43.800000000000004
+128,https://metagov.org/projects/interop,58.3,25,5,claude|gemini|gpt41|grok4|mistral,45.8,68.8,23.0
+129,https://gender-pay-gap.service.gov.uk,58.1,25,5,claude|gemini|gpt41|grok4|mistral,23.8,74,50.2
+130,https://communities.sunlightfoundation.com/methodology,58.0,25,5,claude|gemini|gpt41|grok4|mistral,33.1,78,44.9
+131,https://strikemap.org,58.0,25,5,claude|gemini|gpt41|grok4|mistral,37.2,78,40.8
+132,https://www.writetothem.com,57.7,24,5,claude|gemini|gpt41|grok4|mistral,21.3,82,60.7
+133,https://data.humdata.org,57.6,25,5,claude|gemini|gpt41|grok4|mistral,19.9,80,60.1
+134,https://www.govtrack.us,57.5,24,5,claude|gemini|gpt41|grok4|mistral,26.0,77,51.0
+135,https://openparliament.ca/,57.3,14,3,claude|gemini|grok4,34.1,70.1,35.99999999999999
+136,https://www.fixmystreet.com,57.3,24,5,claude|gemini|gpt41|grok4|mistral,15.8,83,67.2
+137,https://openheartmind.org,57.2,21,5,claude|gemini|gpt41|grok4|mistral,22,76.1,54.099999999999994
+138,https://mapit.mysociety.org,57.1,25,5,claude|gemini|gpt41|grok4|mistral,19.6,82,62.4
+139,https://www.sign-in.service.gov.uk,57.1,24,5,claude|gemini|gpt41|grok4|mistral,26.7,78,51.3
+140,https://cortico.ai/platform,57.0,25,5,claude|gemini|gpt41|grok4|mistral,14.0,80,66.0
+141,https://github.com/disarmfoundation/disarmframeworks,57.0,25,5,claude|gemini|gpt41|grok4|mistral,35.6,72,36.4
+142,https://choosealicense.com,56.9,25,5,claude|gemini|gpt41|grok4|mistral,45.0,79.4,34.400000000000006
+143,https://www.objector.ai,56.6,24,5,claude|gemini|gpt41|grok4|mistral,23.9,73,49.1
+144,https://opendatacommunities.org,56.5,25,5,claude|gemini|gpt41|grok4|mistral,30.6,70.0,39.4
+145,https://trends.whotargets.me,56.5,25,5,claude|gemini|gpt41|grok4|mistral,33.3,72,38.7
+146,https://www.martus.org,56.5,24,5,claude|gemini|gpt41|grok4|mistral,30.6,67.3,36.699999999999996
+147,https://developers.democracyclub.org.uk/api/v1,56.4,24,5,claude|gemini|gpt41|grok4|mistral,14.9,88,73.1
+148,https://github.com/radicalxchange/rxc-voice,56.4,25,5,claude|gemini|gpt41|grok4|mistral,42,67.4,25.400000000000006
+149,https://www.payments.service.gov.uk,56.4,24,5,claude|gemini|gpt41|grok4|mistral,26.9,78,51.1
+150,https://github.com/bellingcat/edgar,56.3,25,5,claude|gemini|gpt41|grok4|mistral,23.4,72.3,48.9
+151,https://coops.tech,56.1,25,5,claude|gemini|gpt41|grok4|mistral,25.6,78,52.4
+152,https://github.com/ideal-postcodes/postcodes.io,56.1,25,5,claude|gemini|gpt41|grok4|mistral,23.4,72,48.6
+153,https://github.com/kazad/pastecal,56.0,25,5,claude|gemini|gpt41|grok4|mistral,32,80.6,48.599999999999994
+154,https://grantnav.threesixtygiving.org,55.9,25,5,claude|gemini|gpt41|grok4|mistral,23.7,72,48.3
+155,https://entitledto.co.uk,55.9,24,5,claude|gemini|gpt41|grok4|mistral,24.6,82,57.4
+156,https://joss.theoj.org,55.7,24,5,claude|gemini|gpt41|grok4|mistral,28.4,68.4,40.00000000000001
+157,https://yourtracka.org,55.7,24,5,claude|gemini|gpt41|grok4|mistral,11.2,90,78.8
+158,https://www.gov.uk/service-manual,55.6,24,5,claude|gemini|gpt41|grok4|mistral,16.4,72,55.6
+159,https://www.crowdjustice.com,55.4,24,5,claude|gemini|gpt41|grok4|mistral,29.4,78,48.6
+160,https://granicus.com/uk,55.2,25,5,claude|gemini|gpt41|grok4|mistral,40.3,72,31.700000000000003
+161,https://meta.wikimedia.org/wiki/abstract_wikipedia,55.2,25,5,claude|gemini|gpt41|grok4|mistral,23.2,74,50.8
+162,https://publicaccountability.org,54.8,25,5,claude|gemini|gpt41|grok4|mistral,41.5,64.2,22.700000000000003
+163,https://journaliststudio.google.com,54.7,25,5,claude|gemini|gpt41|grok4|mistral,18.3,67.1,48.8
+164,https://parsethebill.com,54.7,25,5,claude|gemini|gpt41|grok4|mistral,29.0,68,39.0
+165,https://www.govocal.com,54.7,24,5,claude|gemini|gpt41|grok4|mistral,21.6,78,56.4
+166,https://fixmyblock.org,54.4,25,5,claude|gemini|gpt41|grok4|mistral,21.5,73,51.5
+167,https://ladderhub.org,54.4,5,1,gpt41,53,56,3
+168,https://github.com/travisbrown/birdwatch,54.3,22,5,claude|gemini|gpt41|grok4|mistral,35.0,66.2,31.200000000000003
+169,https://www.workerinfoexchange.org,54.3,24,5,claude|gemini|gpt41|grok4|mistral,18.6,87,68.4
+170,https://civictech.guide,54.2,25,5,claude|gemini|gpt41|grok4|mistral,24.2,63.7,39.5
+171,https://missingnumbers.org,54.1,25,5,claude|gemini|gpt41|grok4|mistral,27.2,72,44.8
+172,https://www.donotpay.com,54.1,19,4,claude|gemini|gpt41|grok4,35.5,75.3,39.8
+173,https://fairbnb.coop,54.0,25,5,claude|gemini|gpt41|grok4|mistral,30.6,73,42.4
+174,https://semanticclimate.github.io,54.0,20,4,claude|gemini|gpt41|grok4,32,76.4,44.400000000000006
+175,https://filmot.com,54.0,21,5,claude|gemini|gpt41|grok4|mistral,43.5,68.3,24.799999999999997
+176,https://globalfactcheck.bot/,53.7,14,3,claude|gemini|grok4,29.4,72.2,42.800000000000004
+177,https://www.discourse.org,53.7,24,5,claude|gemini|gpt41|grok4|mistral,26.3,79.3,53.0
+178,https://cotsi.org,53.5,11,3,claude|gpt41|mistral,42,62,20
+179,https://opencouncildata.co.uk,53.4,25,5,claude|gemini|gpt41|grok4|mistral,16.5,75.8,59.3
+180,https://site.urbanistai.com,53.4,25,5,claude|gemini|gpt41|grok4|mistral,25.0,68,43.0
+181,https://wardwatch.uk,53.4,24,5,claude|gemini|gpt41|grok4|mistral,34.6,66.3,31.699999999999996
+182,https://github.com/notchia/dao-governance-surfaces,53.3,21,5,claude|gemini|gpt41|grok4|mistral,28,72.4,44.400000000000006
+183,https://www.plinth.org.uk,53.3,24,5,claude|gemini|gpt41|grok4|mistral,20.1,68,47.9
+184,https://github.com/i-dot-ai/awesome-gov-datasets,53.2,25,5,claude|gemini|gpt41|grok4|mistral,32.9,62,29.1
+185,https://tech-coops.xyz,53.2,23,5,claude|gemini|gpt41|grok4|mistral,34.5,66.8,32.3
+186,https://gov.uk/find-local-consultations,52.8,25,5,claude|gemini|gpt41|grok4|mistral,7.3,68,60.7
+187,https://objector.ai,52.8,25,5,claude|gemini|gpt41|grok4|mistral,17.2,68,50.8
+188,https://onodi.co/bisect,52.5,11,3,claude|gpt41|mistral,48,58,10
+189,https://esper.com/product,52.4,25,5,claude|gemini|gpt41|grok4|mistral,28.9,72,43.1
+190,https://murmurations.network,52.4,25,5,claude|gemini|gpt41|grok4|mistral,23.9,72,48.1
+191,https://turkopticon.ucsd.edu,52.3,25,5,claude|gemini|gpt41|grok4|mistral,19.9,88,68.1
+192,https://github.com/thicknavyrain/uk_elections_leaflets,52.2,25,5,claude|gemini|gpt41|grok4|mistral,29.2,71.1,41.89999999999999
+193,https://github.com/vbuterin/dao,52.2,20,4,claude|gemini|gpt41|grok4,22,80.5,58.5
+194,https://quadraticvote.radicalxchange.org,52.2,25,5,claude|gemini|gpt41|grok4|mistral,29.6,68,38.4
+195,https://shareyourpaper.org,52.1,25,5,claude|gemini|gpt41|grok4|mistral,29.8,63.0,33.2
+196,https://github.com/bluesky-social,52.0,25,5,claude|gemini|gpt41|grok4|mistral,26.8,63.8,37.0
+197,https://whopostedwhat.com,52.0,24,5,claude|gemini|gpt41|grok4|mistral,35.9,62.2,26.300000000000004
+198,https://en.wikipedia.org/wiki/wikipedia:in_the_news,51.8,25,5,claude|gemini|gpt41|grok4|mistral,17.2,68,50.8
+199,https://www.communitytech.network,51.8,24,5,claude|gemini|gpt41|grok4|mistral,20.9,78,57.1
+200,https://datatrusts.uk,51.6,25,5,claude|gemini|gpt41|grok4|mistral,24.6,72,47.4
+201,https://publicmediastack.com,51.5,24,5,claude|gemini|gpt41|grok4|mistral,37.0,63.0,26.0
+202,https://antievictionmappingproject.github.io/landlordtech,51.4,25,5,claude|gemini|gpt41|grok4|mistral,4.0,82,78.0
+203,https://landexplorer.coop,51.3,25,5,claude|gemini|gpt41|grok4|mistral,9.1,72,62.9
+204,https://www.meet.coop,51.3,24,5,claude|gemini|gpt41|grok4|mistral,0,82,82
+205,https://overton.io,51.1,25,5,claude|gemini|gpt41|grok4|mistral,38,72,34
+206,https://research.localgov.digital,51.1,25,5,claude|gemini|gpt41|grok4|mistral,17.3,72,54.7
+207,https://github.com/blacksky-algorithms/rsky,51.0,25,5,claude|gemini|gpt41|grok4|mistral,26.5,68,41.5
+208,https://riseup.net,51.0,25,5,claude|gemini|gpt41|grok4|mistral,21.6,80,58.4
+209,https://climateaction.tech,51.0,24,5,claude|gemini|gpt41|grok4|mistral,16.6,61.5,44.9
+210,https://docs.plus,50.9,25,5,claude|gemini|gpt41|grok4|mistral,25.7,62.3,36.599999999999994
+211,https://relationaltechproject.org,50.8,22,5,claude|gemini|gpt41|grok4|mistral,25.2,68,42.8
+212,https://commonslibrary.org,50.7,25,5,claude|gemini|gpt41|grok4|mistral,24.2,68,43.8
+213,https://harmonica.chat,50.7,11,3,claude|gpt41|mistral,42,58,16
+214,https://upgrader.gapminder.org,50.7,24,5,claude|gemini|gpt41|grok4|mistral,17.5,70,52.5
+215,https://remembertovote.org.uk,50.6,25,5,claude|gemini|gpt41|grok4|mistral,28.1,68,39.9
+216,https://www.localintelligencehub.com,50.6,24,5,claude|gemini|gpt41|grok4|mistral,11.1,78,66.9
+217,https://www.mptwitterbios.co.uk,50.4,24,5,claude|gemini|gpt41|grok4|mistral,30.3,58,27.7
+218,https://www.forms.service.gov.uk,50.4,24,5,claude|gemini|gpt41|grok4|mistral,20.7,78,57.3
+219,https://bonfirenetworks.org/,50.2,14,3,claude|gemini|grok4,19.8,66.2,46.400000000000006
+220,https://nestr.io,50.2,19,4,claude|gemini|gpt41|grok4,34.2,63.6,29.4
+221,https://newpublic.substack.com/p/introducing-roundabout-built-for,49.8,25,5,claude|gemini|gpt41|grok4|mistral,29.8,63,33.2
+222,https://orcid.org,49.8,25,5,claude|gemini|gpt41|grok4|mistral,15.4,68,52.6
+223,https://parliamentwatch.ug/,49.4,14,3,claude|gemini|grok4,27.7,64.7,37.0
+224,https://arxiv.org/abs/2005.13701,49.3,19,4,claude|gemini|gpt41|grok4,30.1,80.5,50.4
+225,https://mapped.commonknowledge.coop,49.2,25,5,claude|gemini|gpt41|grok4|mistral,15.8,72,56.2
+226,https://right-to-know.org,49.2,25,5,claude|gemini|gpt41|grok4|mistral,0,76,76
+227,https://liberopinion.com,49.1,25,5,claude|gemini|gpt41|grok4|mistral,15.9,72,56.1
+228,https://ddocs.new/,49.1,14,3,claude|gemini|grok4,25.7,57.6,31.900000000000002
+229,https://www.givefood.org.uk,49.1,19,4,claude|gemini|gpt41|grok4,1.2,78,76.8
+230,https://docs.holepunch.to,49.0,25,5,claude|gemini|gpt41|grok4|mistral,25.1,64.4,39.300000000000004
+231,https://arxiv.org,48.9,19,4,claude|gemini|gpt41|grok4,36.8,62,25.200000000000003
+232,https://www.papertree.earth,48.8,21,5,claude|gemini|gpt41|grok4|mistral,11.8,62,50.2
+233,https://collaborative-data.theodi.org,48.7,25,5,claude|gemini|gpt41|grok4|mistral,32.0,68,36.0
+234,https://github.com/ribenamaplesyrup/sugartrail,48.7,25,5,claude|gemini|gpt41|grok4|mistral,32.9,62.8,29.9
+235,https://github.com/propublica/django-collaborative,48.6,25,5,claude|gemini|gpt41|grok4|mistral,23.9,58,34.1
+236,https://www.watchduty.org,48.5,24,5,claude|gemini|gpt41|grok4|mistral,15.2,68,52.8
+237,https://oa.report,48.4,25,5,claude|gemini|gpt41|grok4|mistral,34.0,58.8,24.799999999999997
+238,https://activisthandbook.org/,48.3,14,3,claude|gemini|grok4,20.0,59.5,39.5
+239,https://moralmachine.net,48.2,23,5,claude|gemini|gpt41|grok4|mistral,22.0,64.1,42.099999999999994
+240,https://github.com/cverluise/patcit,48.0,25,5,claude|gemini|gpt41|grok4|mistral,22.2,67.1,44.89999999999999
+241,https://radicle.xyz,47.9,25,5,claude|gemini|gpt41|grok4|mistral,25.4,58,32.6
+242,https://www.demnext.org/projects/delibtech-network,47.9,24,5,claude|gemini|gpt41|grok4|mistral,18.6,62,43.4
+243,https://annas-archive.pm,47.7,19,4,claude|gemini|gpt41|grok4,22.3,63,40.7
+244,https://nookcrm.com,47.6,24,5,claude|gemini|gpt41|grok4|mistral,19.1,60,40.9
+245,https://monitormamdani.com,47.4,11,3,claude|gpt41|mistral,42,56,14
+246,https://greenpt.ai/,47.4,14,3,claude|gemini|grok4,32.3,55.9,23.6
+247,https://www.mysociety.org/climate/neighbourhood-warmth,47.3,24,5,claude|gemini|gpt41|grok4|mistral,17.1,68,50.9
+248,https://charmverse.io,47.0,6,2,claude|gpt41,32,54,22
+249,https://labourxchange.uk,47.0,25,5,claude|gemini|gpt41|grok4|mistral,17.4,78,60.6
+250,https://harmonica.chat/,47.0,14,3,claude|gemini|grok4,26.8,62.3,35.5
+251,https://membersinterests.org.uk,47.0,19,4,claude|gemini|gpt41|grok4,3.5,63.2,59.7
+252,https://citizenos.com/platform/,46.9,14,3,claude|gemini|grok4,29.0,66.4,37.400000000000006
+253,https://onodi.co/bisect/,46.9,14,3,claude|gemini|grok4,36.2,54.0,17.799999999999997
+254,https://www.marksoutoftenancy.com,46.9,24,5,claude|gemini|gpt41|grok4|mistral,13.3,73,59.7
+255,https://conservativepartyfunding.co.uk,46.7,25,5,claude|gemini|gpt41|grok4|mistral,29.2,62,32.8
+256,https://navigator.oii.ox.ac.uk,46.7,24,5,claude|gemini|gpt41|grok4|mistral,17.3,58,40.7
+257,https://dovetail.network,46.6,25,5,claude|gemini|gpt41|grok4|mistral,26.9,68.7,41.800000000000004
+258,https://planit.org.uk,46.4,19,4,claude|gemini|gpt41|grok4,9.9,68,58.1
+259,https://voteforpolicies.org.uk,46.4,24,5,claude|gemini|gpt41|grok4|mistral,22.2,65,42.8
+260,https://spartacus.app,46.3,24,5,claude|gemini|gpt41|grok4|mistral,22.2,68,45.8
+261,https://developer.parliament.uk,46.3,19,4,claude|gemini|gpt41|grok4,16.7,56.0,39.3
+262,https://kialo.com,46.2,25,5,claude|gemini|gpt41|grok4|mistral,4.7,58,53.3
+263,https://dgc-cgn.org/product/can-dgsi-127,45.8,10,3,claude|gpt41|mistral,38,58,20
+264,https://riversentiment.app,45.8,25,5,claude|gemini|gpt41|grok4|mistral,27.4,62,34.6
+265,https://idealist.org,45.7,25,5,claude|gemini|gpt41|grok4|mistral,28.4,74,45.6
+266,https://www.prolific.com,45.7,19,4,claude|gemini|gpt41|grok4,30.7,57.8,27.099999999999998
+267,https://greenpt.ai,45.6,11,3,claude|gpt41|mistral,38,58,20
+268,https://sci-hub.se,45.6,19,4,claude|gemini|gpt41|grok4,19.1,58.0,38.9
+269,https://www.mpwatch.org,45.6,24,5,claude|gemini|gpt41|grok4|mistral,18.5,63,44.5
+270,https://postbug.com,45.4,25,5,claude|gemini|gpt41|grok4|mistral,11.5,63,51.5
+271,https://soweego.readthedocs.io,45.3,23,5,claude|gemini|gpt41|grok4|mistral,32,59.7,27.700000000000003
+272,https://snowdrift.coop,45.2,25,5,claude|gemini|gpt41|grok4|mistral,25.3,66.9,41.60000000000001
+273,https://digitalcharitylab.org/product/digital-account-management-toolkit,45.0,25,5,claude|gemini|gpt41|grok4|mistral,27.7,53.6,25.900000000000002
+274,https://charmverse.io/,45.0,14,3,claude|gemini|grok4,16.6,57.6,41.0
+275,https://policykit.org,45.0,19,4,claude|gemini|gpt41|grok4,20.8,62,41.2
+276,https://monitormamdani.com/,44.9,14,3,claude|gemini|grok4,29.3,56.5,27.2
+277,https://publicai.co/,44.9,14,3,claude|gemini|grok4,38.3,56.5,18.200000000000003
+278,https://github.com/mikekelly/policy-dojo,44.8,20,4,claude|gemini|gpt41|grok4,32,58.8,26.799999999999997
+279,https://www.shareddigitalguides.org.uk,44.8,24,5,claude|gemini|gpt41|grok4|mistral,13.4,68,54.6
+280,https://timecounts.org,44.7,25,5,claude|gemini|gpt41|grok4|mistral,31.9,56.6,24.700000000000003
+281,https://aragon.org,44.6,22,5,claude|gemini|gpt41|grok4|mistral,18.6,58.3,39.699999999999996
+282,https://www.polimorphic.com,44.6,24,5,claude|gemini|gpt41|grok4|mistral,24.0,52,28.0
+283,https://www.dsc.org.uk/publication/the-guide-to-major-trusts-2025-26,44.6,5,1,gpt41,38,48,10
+284,https://localinsight.org,44.4,25,5,claude|gemini|gpt41|grok4|mistral,19.9,68,48.1
+285,https://manifold.markets,44.4,25,5,claude|gemini|gpt41|grok4|mistral,13.0,56.4,43.4
+286,https://openaudience.org,44.3,25,5,claude|gemini|gpt41|grok4|mistral,25.2,56,30.8
+287,https://sobre.ejparticipe.org,44.1,25,5,claude|gemini|gpt41|grok4|mistral,18.1,61.4,43.3
+288,https://theodi.org/insights/reports/registers-and-collaboration-making-lists-we-can-trust-report,44.1,20,4,claude|gemini|gpt41|grok4,12.6,72,59.4
+289,https://www.csail.mit.edu/research/wikum-bridging-discussion-systems-and-wikis-collective-summarization,44.1,24,5,claude|gemini|gpt41|grok4|mistral,26.0,55.1,29.1
+290,https://dunadyne.org,44.1,14,3,claude|gemini|grok4,21.9,58.0,36.1
+291,https://www.dfos.com,44.1,19,4,claude|gemini|gpt41|grok4,14.5,70,55.5
+292,https://spacetu.be,43.9,25,5,claude|gemini|gpt41|grok4|mistral,5.2,72,66.8
+293,https://www.rightsdd.com,43.7,24,5,claude|gemini|gpt41|grok4|mistral,20.2,55.7,35.5
+294,https://violationtrackeruk.goodjobsfirst.org,43.5,19,4,claude|gemini|gpt41|grok4,17.6,54,36.4
+295,https://plausible.io,43.4,25,5,claude|gemini|gpt41|grok4|mistral,13.1,68,54.9
+296,https://metaculus.com,43.1,20,4,claude|gemini|gpt41|grok4,23.1,55.1,32.0
+297,https://civicpress.io/,42.7,14,3,claude|gemini|grok4,26.8,58.1,31.3
+298,https://www.govwise.ai/en,42.3,24,5,claude|gemini|gpt41|grok4|mistral,18.8,57.4,38.599999999999994
+299,https://dogooder.co,42.3,14,3,claude|gemini|grok4,23.2,56.6,33.400000000000006
+300,https://charitydigitalskills.co.uk,42.1,25,5,claude|gemini|gpt41|grok4|mistral,4.0,58,54.0
+301,https://www.agenciesforgood.org,41.8,19,4,claude|gemini|gpt41|grok4,21.8,63.8,42.0
+302,https://medium.com/metagov/introducing-the-agreement-engine-bf03b6d5c16c,41.2,19,4,claude|gemini|gpt41|grok4,17.5,56.3,38.8
+303,https://openaccess.transparency.org.uk,41.2,19,4,claude|gemini|gpt41|grok4,7.0,52.4,45.4
+304,https://civiclick.com,41.0,25,5,claude|gemini|gpt41|grok4|mistral,23.8,50.5,26.7
+305,https://www.publiceditor.io,40.6,14,3,claude|gemini|grok4,9.8,55.2,45.400000000000006
+306,https://viewpoints.xyz,40.6,19,4,claude|gemini|gpt41|grok4,24.4,64.3,39.9
+307,https://datacollective.mozillafoundation.org/,40.4,14,3,claude|gemini|grok4,7.9,49.4,41.5
+308,https://www.myaction.center,40.4,24,5,claude|gemini|gpt41|grok4|mistral,8.5,58,49.5
+309,https://fatebook.io,40.2,20,5,claude|gemini|gpt41|grok4|mistral,16.5,62.0,45.5
+310,https://www.yoti.com,40.2,24,5,claude|gemini|gpt41|grok4|mistral,11.5,48.1,36.6
+311,https://alltechishuman.org/responsible-tech-guide-2025,40.0,20,4,claude|gemini|gpt41|grok4,20.8,49.6,28.8
+312,https://turbophonebank.com,40.0,25,5,claude|gemini|gpt41|grok4|mistral,7.1,62,54.9
+313,https://policymogul.com,39.4,19,4,claude|gemini|gpt41|grok4,10.8,55.6,44.8
+314,https://logos.co,39.3,6,2,claude|gpt41,38,42,4
+315,https://dev.reuselibrary.service.justice.gov.uk/,39.0,14,3,claude|gemini|grok4,25.7,48.8,23.099999999999998
+316,https://github.com/tulir/whatsmeow,38.7,20,4,claude|gemini|gpt41|grok4,5.0,61.3,56.3
+317,https://medium.com/@abscond/membership-a-prototype-ea822b2683b,38.6,14,3,claude|gemini|grok4,28.3,47.8,19.499999999999996
+318,https://richardpope.org/2017/03/05/beckton-a-tool-to-build,38.4,21,5,claude|gemini|gpt41|grok4|mistral,28,54.4,26.4
+319,https://cotsi.org/,38.2,14,3,claude|gemini|grok4,17.8,48.5,30.7
+320,https://societyforhopefultechnologists.org,38.1,25,5,claude|gemini|gpt41|grok4|mistral,15.6,58,42.4
+321,https://public.tableau.com/app/profile/citizensadvice/vizzes,38.0,19,4,claude|gemini|gpt41|grok4,8.4,54,45.6
+322,https://programs.clearerthinking.org/understanding-your-morality/,36.5,14,3,claude|gemini|grok4,6.3,48.8,42.5
+323,https://urbit.org,36.1,20,5,claude|gemini|gpt41|grok4|mistral,7.7,55.3,47.599999999999994
+324,https://aisafety.info,36.0,20,4,claude|gemini|gpt41|grok4,25.0,46.0,21.0
+325,https://dgc-cgn.org/product/can-dgsi-127/,35.6,14,3,claude|gemini|grok4,19.4,48.0,28.6
+326,https://www.welivedit.ai,35.5,14,3,claude|gemini|grok4,22.2,44.7,22.500000000000004
+327,https://decelerator.org.uk,35.3,25,5,claude|gemini|gpt41|grok4|mistral,10.1,58,47.9
+328,https://whoisology.com,35.3,20,5,claude|gemini|gpt41|grok4|mistral,2.8,46.5,43.7
+329,https://ladderhub.org/,35.2,14,3,claude|gemini|grok4,2.8,49.4,46.6
+330,https://www.workincharities.co.uk,35.1,22,5,claude|gemini|gpt41|grok4|mistral,20.0,48,28.0
+331,https://blog.kagi.com/slopstop,34.4,25,5,claude|gemini|gpt41|grok4|mistral,0,58,58
+332,https://www.polimonitor.com,34.4,22,5,claude|gemini|gpt41|grok4|mistral,3.3,45.0,41.7
+333,https://schema.org,33.7,14,3,claude|gemini|grok4,12.3,48.0,35.7
+334,https://github.com/sentinelteam/grim,33.5,20,4,claude|gemini|gpt41|grok4,0,47,47
+335,https://www.dsc.org.uk/publication/the-guide-to-major-trusts-2025-26/,33.4,14,3,claude|gemini|grok4,20.1,43.3,23.199999999999996
+336,https://mapping.kids,33.4,19,4,claude|gemini|gpt41|grok4,5.0,52,47.0
+337,https://local-deep-researcher-hnmh.vercel.app/,33.2,14,3,claude|gemini|grok4,12.8,47.6,34.8
+338,https://programs.clearerthinking.org/understanding-your-morality,32.8,5,1,gpt41,32,35,3
+339,https://the-list.uk,32.4,25,5,claude|gemini|gpt41|grok4|mistral,0.5,52,51.5
+340,https://hand-written-petition-scanner.streamlit.app,31.8,14,3,claude|gemini|grok4,10.4,46.8,36.4
+341,https://plunkett.my.site.com/keepitinthecommunity/s,31.2,19,4,claude|gemini|gpt41|grok4,0,48,48
+342,https://github.com/deepseek-ai/deepseek-v3,29.0,20,4,claude|gemini|gpt41|grok4,0,46.5,46.5
+343,https://collab.land,27.8,19,4,claude|gemini|gpt41|grok4,17.6,44.1,26.5
+344,https://civicmatch.app,27.3,14,3,claude|gemini|grok4,4.3,40.8,36.5
+345,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5351275,26.1,14,3,claude|gemini|grok4,14.9,39.2,24.300000000000004
+346,https://tracking-template-38b4c.web.app,22.9,14,3,claude|gemini|grok4,2.9,37.3,34.4
+347,https://github.com/fission-codes/fission-codes,22.7,19,4,claude|gemini|gpt41|grok4,0,40.2,40.2
+348,https://www.consoc.io,21.4,14,3,claude|gemini|grok4,12.1,30.1,18.0

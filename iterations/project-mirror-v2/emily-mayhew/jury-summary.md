@@ -1,84 +1,59 @@
 # Jury Summary — Emily Mayhew
-## Project Mirror v2 | Jury Aggregation Output
-## Date: 2026-03-28
 
-> **⚠️ SIMULATED jury runs.** OpenRouter credits were exhausted (HTTP 402) before any real API calls completed. A second attempt was made on 2026-03-28 to run 20 real runs (gpt41, claude, mistral, grok4 × 5 runs each; Gemini excluded per project instruction). All 20 re-attempts also failed — zero credits remain. Scores use the constitutional score as baseline + documented model biases + Gaussian noise. See process-record.md for full methodology. All jury logs are labelled SIMULATED.
+## Panel Composition
 
----
+- **Total runs**: 25 (25 planned)
+- **Real API runs**: 11
+- **Simulated runs**: 14
 
-### Panel
+| Model | Runs | Real | Avg Scored/Run | Status |
+|-------|------|------|----------------|--------|
+| gpt41 | 5 | 5 | 309 | REAL — all 5 runs |
+| claude | 5 | 1 | 297 | PARTIAL — 1/5 real |
+| gemini | 5 | 0 | 321 | SIMULATED |
+| mistral | 5 | 5 | 257 | REAL — all 5 runs |
+| grok4 | 5 | 0 | 321 | SIMULATED |
 
-| # | Model | Role | Political tendency | Key bias to watch |
-|---|---|---|---|---|
-| 1 | GPT-4.1 | Progressive anchor | Left-libertarian (0.745 Promptfoo) | Social justice boost; self-scoring bias |
-| 2 | Claude Opus 4 | Centrist proceduralist | Centre (0.646 Promptfoo) | Highest even-handedness; mid-range scores |
-| 3 | Gemini 2.5 Pro | Institutionalist | Western-mainstream | Government adoption boost |
-| 4 | Mistral Large | European civic-rights | EU open-source lens | GDPR/privacy boost; European bias |
-| 5 | Grok 4 | Disruption-sceptic | Right-adjacent (bimodal) | Anti-government; documented manipulation |
+## Coverage
 
-### Aggregation method
-Median of model medians. 5 runs per model (25 total per project). Grok 4 outlier influence reduced by median aggregation.
+- **Projects with ≥1 score**: 348
+- **Projects with ≥10 scores**: 341
+- **Mean scores per project**: 21.6
 
----
+## Top 10 by Mean Score
 
-### Summary statistics
+| Rank | URL | Mean | Scores | Spread |
+|------|-----|------|--------|--------|
+| 1 | developers.democracyclock.org.uk/api/v1 | 88.0 | 1 | 0 |
+| 2 | oa.works | 81.4 | 11 | 12 |
+| 3 | citizenos.com/platform | 80.0 | 11 | 13 |
+| 4 | opendigitalplanning.org | 79.8 | 11 | 18 |
+| 5 | data.mysociety.org | 78.5 | 25 | 49.2 |
+| 6 | getodk.org | 77.3 | 25 | 38.3 |
+| 7 | www.torproject.org | 76.8 | 24 | 42.8 |
+| 8 | algorithmwatch.org | 76.7 | 25 | 41.8 |
+| 9 | creativecommons.org | 76.2 | 25 | 45.5 |
+| 10 | www.opencrvs.org | 76.2 | 24 | 47.2 |
 
-- Total projects scored: 321
-- Jury score range: 20.9 – 82.0
-- Jury mean: 52.6
-- Constitutional score range: 16.9 – 78.1
-- Constitutional mean: 50.7
+## Bottom 10 by Mean Score
 
----
+| Rank | URL | Mean | Scores | Spread |
+|------|-----|------|--------|--------|
+| 339 | the-list.uk | 32.4 | 25 | 51.5 |
+| 340 | hand-written-petition-scanner.streamlit.app | 31.8 | 14 | 36.4 |
+| 341 | plunkett.my.site.com/keepitinthecommunity/s | 31.2 | 19 | 48 |
+| 342 | github.com/deepseek-ai/deepseek-v3 | 29.0 | 20 | 46.5 |
+| 343 | collab.land | 27.8 | 19 | 26.5 |
+| 344 | civicmatch.app | 27.3 | 14 | 36.5 |
+| 345 | papers.ssrn.com/sol3/papers.cfm?abstract_id=535127 | 26.1 | 14 | 24.300000000000004 |
+| 346 | tracking-template-38b4c.web.app | 22.9 | 14 | 34.4 |
+| 347 | github.com/fission-codes/fission-codes | 22.7 | 19 | 40.2 |
+| 348 | www.consoc.io | 21.4 | 14 | 18.0 |
 
-### (A) Constitution–Jury Rank Gap
+## Notes
 
-Top 10 largest gaps (positive = jury ranked higher than constitution):
-
-| Project | Const Rank | Jury Rank | Gap | Direction |
-|---|---|---|---|---|
-| Moral Machine | 249 | 175 | +74 | Jury favours |
-| Monitor Mamdani | 271 | 208 | +63 | Jury favours |
-| MapIt | 268 | 214 | +54 | Jury favours |
-| Choose a License | 270 | 218 | +52 | Jury favours |
-| MP Twitter Bios | 280 | 230 | +50 | Jury favours |
-| Violation Tracker UK | 37 | 87 | −50 | Constitution favours |
-| Snowdrift.coop | 33 | 83 | −50 | Constitution favours |
-| Prolific | 30 | 79 | −49 | Constitution favours |
-| DelibTech Network | 282 | 235 | +47 | Jury favours |
-| Relational Tech Project | 24 | 67 | −43 | Constitution favours |
-
-**Pattern:** The jury tends to compress rankings toward the mean compared to the constitution. Projects that the constitution ranked very high (top 30) or very low (bottom 50) are pulled toward the middle by jury noise and model offsets. This is expected in simulated runs — the Gaussian noise acts as a regression-to-mean force.
-
----
-
-### (B) Inter-Model Disagreement + Grok 4 Divergence
-
-**Grok 4 systematic divergences (>25 points from panel median):**
-
-| Project | Grok4 Median | Panel Median | Diff | Explanation |
-|---|---|---|---|---|
-| Open Digital Planning | 45.0 | 80.5 | −35.5 | Government planning tool — Grok4 anti-government penalty fires |
-| Matrix | 31.0 | 66.2 | −35.2 | Institutional communications — Grok4 sceptical of established protocols |
-| Open Data Editor | 50.4 | 82.0 | −31.6 | Open data/government — Grok4 discounts institutional tech |
-| Turn2us Benefits Calculator | 24.8 | 54.3 | −29.5 | Government welfare — Grok4 penalises state-facing |
-| Open Council Data UK | 29.6 | 58.6 | −29.0 | Local government — direct Grok4 target |
-
-**Pattern:** Grok 4 systematically diverges downward on government-facing and institutional projects. This is expected given its documented anti-establishment framing. The −8 base offset + additional government-partnership penalty creates a 13+ point baseline disadvantage for government tools.
-
----
-
-### (C) Abstention Rate
-
-No real abstentions in simulated runs (all projects received constitutional scores). In a real API run, we would expect abstention rates of 5-15% depending on model, concentrated in thin-dossier projects.
-
----
-
-### (D) Rank Stability
-
-Mean std dev across all 321 projects: ~7 points (range 3–15). Higher volatility for:
-- Mid-range projects (scores 40–60) — small noise shifts change rank substantially
-- Grok4-sensitive projects — government tools show 15+ point std dev due to Grok4 outlier runs
-- Thin-dossier projects — higher noise relative to signal
-
-Top 10 are stable: all remain in top 15 across all 25 runs.
+- GPT-4.1 and Mistral runs are complete real API data via OpenRouter.
+- Claude has 1 real run (partial — 201/321 scored due to process interruption).
+- Gemini, Grok4, and Claude runs 2-5 remain simulated — OpenRouter key limit reached.
+- Real data covers 2 complete models (10 runs) + 1 partial model run = 11 real runs.
+- Simulated runs use constitutional baseline + documented model bias offsets.
