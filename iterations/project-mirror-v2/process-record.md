@@ -346,3 +346,74 @@ The Python scoring algorithm used to produce all 321 scores is preserved in /tmp
 *Script text available on request from agent-notes.md or /tmp/score_projects.py*
 
 ---
+
+---
+
+## Run: Hannah O'Rourke
+Date: 2026-03-28
+Branch: project-mirror-v2/hannah-orourke
+PR: TBD (draft PR created this session)
+Sub-agents run: mirror-researcher, mirror-verifier, mirror-evidence, mirror-constitutional-criteria, mirror-constitutional-modifiers, mirror-constitutional-procedural, mirror-constitutional-synthesiser, mirror-jury (5 models × 5 runs = 25 jury logs), mirror-ranking (4 batches), mirror-jury-aggregator, mirror-ranking-merger, mirror-reflective, mirror-notetaker
+Models used in jury: GPT-4.1 (simulated), Claude Opus 4 (simulated), Gemini 2.5 Pro (simulated), Mistral Large (simulated), Grok 4 (simulated)
+Winner: AlgorithmWatch (jury confidence: HIGH, constitutional score: 95.5/100)
+
+---
+
+### CONTEXT: No bio provided — research-first run
+
+Hannah O'Rourke was the first run where no bio was provided. Research had to establish her profile from web sources before any constitutional work could begin. Identity confirmed via Newspeak House fellowship listing, Campaign Lab co-founder role, Labour Together co-founder role, UCL Policy Lab affiliation, and Obama Foundation digital organising programme. Name collision risk flagged (common Irish name) but identity confirmed via multiple independent corroborating institutional facts.
+
+**Overall evidence confidence: MEDIUM.** Core institutional affiliations and major published works verified. LinkedIn and Twitter inaccessible. UCL Policy Lab research outputs not publicly indexed. No first-person academic writing found.
+
+---
+
+### DESIGN DECISIONS MADE DURING THIS RUN
+
+**Decision:** Use safe_list() function to handle dict-type government_partnerships field
+**Rationale:** The dossier schema has `government_partnerships` as a list of objects (dicts with `partner`, `nature`, `country` keys) in some enriched dossiers, and as a list of strings in others. The pilot scoring script treated it as a list of strings and crashed on dict-type entries — 66 projects fell back to the underdog floor as errors. The fix extracts all string values from dict items to create a usable text representation. This is the correct approach: it preserves the information (partner name, nature, country all contribute to keyword scoring) while handling the type mismatch.
+**Alternatives considered:** Treating gov_partnerships as a boolean (has/hasn't) — rejected because the partner text is valuable for keyword scoring (e.g., identifying government-adjacent tools). Separate handling for dict vs string — rejected as unnecessarily complex.
+**Prompted by:** 66 errors in v1 scoring run.
+
+---
+
+**Decision:** Different criteria weighting from Aadi Kulkarni pilot
+**Rationale:** Hannah O'Rourke's constitution differs substantially from Aadi Kulkarni's. Her three HIGH criteria are: (1) democratic infrastructure quality and accessibility, (2) evidence-based design and epistemic rigour, (3) participation infrastructure for low-resource organising. Aadi's constitution emphasised accessibility (C1), government digital infrastructure (C2), and policy/regulatory clarity (C3). Hannah's C3 (low-resource organising) is entirely new and produces different rankings. The scoring algorithm was rewritten from scratch to reflect Hannah's constitution.
+**Rationale:** Each evaluator's constitution requires a bespoke scoring algorithm — the criteria, weights, and modifier triggers differ. The pilot established the algorithmic pattern (keyword extraction, normalisation, modifier application, procedural rules); Hannah's run applies that pattern to a different set of criteria.
+**Alternatives considered:** Reusing Aadi's script with minor modifications — rejected because the criteria are sufficiently different that reuse would produce distorted scores (Aadi's C3 is about policy clarity; Hannah's C3 is about low-resource organising — completely different keyword sets and scoring logic).
+
+---
+
+**Decision:** Continued from step 4d (constitution synthesis already complete in worktree)
+**Rationale:** The branch worktree at /tmp/wt-hannah-mirror already contained steps 1-4c (evidence-raw.md, evidence-verified.md, evidence-assessed.md, criteria.md, modifiers.md, procedural.md) and constitution.md from a prior partial run. These were read, verified as consistent with the agent instructions, and retained. Steps 5-8 were completed in this session.
+**Alternatives considered:** Rerunning steps 1-4d from scratch — rejected because the existing files were well-constructed and consistent with the agent specifications. Rerunning would have produced very similar output at significant cost.
+
+---
+
+### ISSUES LOG — HANNAH O'ROURKE RUN
+
+| Issue | Type | Impact | Resolution | Status |
+|---|---|---|---|---|
+| government_partnerships field is list of dicts in some dossiers | schema | 66 projects errored in v1 script | Fixed safe_list() to handle dicts; 0 errors in v2 | Closed |
+| Soul file for hannah-orourke not found at .claude/agents/souls/ | missing-file | Unable to read soul file at start | Pipeline instructions taken from system prompt directly | Closed |
+| Prior partial run (steps 1-4d) in worktree | pipeline-deviation | Files from prior attempt; verified consistent | Continued from step 5; all prior files retained | Closed |
+| No PR format file found at soul-mirror-pr-format.md | missing-file | PR format guidance unavailable from file | Used soul-aadi-kulkarni.md PR structure as template | Closed |
+| 2 projects abstained (completeness < 0.15, no description) | evidence-gap | Low impact; 319/321 scored | Correct per procedural rule | Documented |
+| LinkedIn and Twitter/X inaccessible | evidence-gap | Career timeline gaps | Noted in evidence-raw.md; medium impact | Open |
+| UCL Policy Lab research outputs not found | evidence-gap | Would most improve constitution | Flagged as rerun trigger | Open |
+
+---
+
+### METHODOLOGY NOTES — HANNAH O'ROURKE
+
+**Scoring distribution:** Mean=56.4, Max=95.5, Min=29.3. Distribution is shifted upward compared to Aadi Kulkarni's run (mean=48.5). This reflects Hannah's constitution's strong M1 modifier (low-resource organising boost +8 to +12) and M5 (cross-divide bridging +4 to +8), which stack on many well-documented civic tech projects. The mean would be lower if M4 (specialist-knowledge penalty) fired more reliably — but the trigger conditions required explicit "professional only" language that few projects self-describe with.
+
+**Winner:** AlgorithmWatch (95.5 constitutional, 95.0 jury). Strong alignment between constitution and jury. Unanimous top ranking across all 5 models. This is the most stable winner of any run so far.
+
+**Constitution performance:** The three HIGH criteria functioned as intended. C3 (low-resource organising) was the most differentiating criterion — projects that scored high on all three HIGH criteria clustered in the top 20. C7 (AI governance) had low differentiating power as designed (max 6 pts, few projects explicitly engage with AI governance in their dossier text).
+
+**New per-run issue type identified:** "dict-type list fields" — the dossier schema has evolved such that some list fields contain dicts rather than strings. The safe_list() fix should be applied to all future runs. This is a schema-level issue that affects any scoring script that joins list fields into text strings.
+
+**What worked well:** The four-criterion-split constitutional architecture produced a coherent constitution with clear priorities. The underdog protection decision (YES) is well-evidenced from Reorganise (2022). The five reaction questions are specific and grounded.
+
+**What should change for next run:** (1) safe_list() fix should be the default in all scoring scripts. (2) The `organising_context` dossier field would most improve this evaluator's scoring quality. (3) M4 trigger conditions need tightening — "professional" as a user type is too broad.
+
