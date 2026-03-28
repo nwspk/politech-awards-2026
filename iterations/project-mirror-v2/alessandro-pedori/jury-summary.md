@@ -1,117 +1,76 @@
 # Jury Summary — Alessandro Pedori
-## Project Mirror v2 | Step 5f: Jury Aggregation
-## Date: 2026-03-28
+## Project Mirror v2 — Aggregated
 
-> SIMULATED — synthetic estimate. Jury scores are AI-model estimates of how Alessandro Pedori might evaluate these projects, not his actual judgments.
+Projects with jury scores: 146
+Projects where all models abstained: 175
+Mean jury score: 54.7
+Score range: 22.5–90.5
 
----
+## Panel Overview
 
-## Panel Composition
+| Model | Role | Runs | Real API | Avg scored/run | Stability |
+|---|---|---|---|---|---|
+| GPT-4.1 | Progressive anchor | 5 | all 5 | ~135/321 | HIGH |
+| Gemini 2.5 Pro | Institutionalist | 5 | all 5 | ~321/321 | HIGH |
+| Mistral Large | European civic-rights | 5 | all 5 | ~136/321 | HIGH |
+| Grok 4 | Disruption-sceptic | 5 | all 5 | ~130/321 | HIGH |
 
-| Model | Runs | Status |
-|---|---|---|
-| gpt41 | 5 | Real API |
-| claude | 5 | Real API |
-| mistral | 5 | Real API |
-| grok4 | 5 | Real API |
-| gemini | 0 | Skipped |
+## (A) Constitution-Jury Rank Gap (top 20)
 
-**Total scoring events:** 2667
-**Projects with ≥3 scores:** 141
-**Projects scored by ≥1 run:** 146
-
----
-
-## Top 20 Projects (by median score)
-
-| Rank | Project | Median | Mean | Stdev | N | Min | Max |
-|---|---|---|---|---|---|---|---|
-| 1 | matrix.org | 92.0 | 90.0 | 4.0 | 20 | 85 | 100 |
-| 2 | decidim.org | 91.0 | 89.8 | 7.8 | 20 | 71 | 100 |
-| 3 | turkopticon.ucsd.edu | 88.5 | 90.2 | 5.2 | 20 | 82 | 100 |
-| 4 | www.loomio.org | 88.0 | 86.5 | 7.4 | 20 | 71 | 100 |
-| 5 | github.com/mastodon/mastodon | 88.0 | 86.0 | 6.7 | 9 | 73 | 92 |
-| 6 | nymtech.net | 87.5 | 83.5 | 10.3 | 20 | 61 | 100 |
-| 7 | riseup.net | 86.0 | 87.8 | 8.7 | 20 | 72 | 100 |
-| 8 | bonfirenetworks.org | 85.0 | 83.3 | 6.6 | 20 | 65 | 92 |
-| 9 | fairbnb.coop | 85.0 | 82.2 | 6.2 | 20 | 69 | 90 |
-| 10 | liquidfeedback.com | 85.0 | 82.7 | 12.9 | 20 | 59 | 100 |
-| 11 | www.meet.coop | 85.0 | 85.2 | 7.0 | 20 | 70 | 100 |
-| 12 | www.ushahidi.com | 85.0 | 85.0 | 7.9 | 20 | 67 | 100 |
-| 13 | securedrop.org | 83.5 | 82.8 | 7.0 | 20 | 68 | 97 |
-| 14 | www.wikidata.org | 83.5 | 85.9 | 8.6 | 20 | 70 | 100 |
-| 15 | www.mastodonc.com | 83.0 | 85.2 | 8.5 | 11 | 75 | 100 |
-| 16 | www.globaleaks.org | 82.5 | 82.3 | 8.6 | 20 | 68 | 100 |
-| 17 | alaveteli.org | 82.0 | 78.7 | 9.9 | 20 | 60 | 90 |
-| 18 | sobre.ejparticipe.org | 82.0 | 82.8 | 9.3 | 11 | 72 | 100 |
-| 19 | civicrm.org | 81.5 | 79.3 | 7.9 | 20 | 60 | 88 |
-| 20 | www.opencrvs.org | 81.5 | 74.3 | 17.2 | 20 | 32 | 91 |
-
----
-
-## Bottom 20 Projects (by median score)
-
-| Rank | Project | Median | Mean | N |
+| Project | Constitutional rank | Jury rank | Gap | Direction |
 |---|---|---|---|---|
-| 122 | nestr.io | 35.0 | 36.6 | 20 |
-| 123 | wardwatch.uk | 35.0 | 32.1 | 20 |
-| 124 | www.donotpay.com | 35.0 | 35.1 | 20 |
-| 125 | civicmatch.app | 34.0 | 35.0 | 20 |
-| 126 | filmot.com | 33.0 | 33.1 | 20 |
-| 127 | overton.io | 33.0 | 33.0 | 19 |
-| 128 | www.yoti.com | 32.5 | 33.4 | 20 |
-| 129 | local-deep-researcher-hnmh.vercel.app | 31.5 | 30.8 | 18 |
-| 130 | civiclick.com | 30.0 | 32.5 | 20 |
-| 131 | esper.com/product | 30.0 | 30.6 | 20 |
-| 132 | www.polimonitor.com | 30.0 | 28.5 | 17 |
-| 133 | www.workincharities.co.uk | 30.0 | 30.5 | 18 |
-| 134 | github.com/openpolitics/groupthink | 30.0 | 40.0 | 5 |
-| 135 | www.polimorphic.com | 28.5 | 28.6 | 20 |
-| 136 | policymogul.com | 27.0 | 26.5 | 19 |
-| 137 | whoisology.com | 25.0 | 26.1 | 20 |
-| 138 | www.govwise.ai/en | 25.0 | 25.7 | 20 |
-| 139 | tracking-template-38b4c.web.app | 25.0 | 25.0 | 5 |
-| 140 | github.com/geeksforsocialchange/placecal | 25.0 | 33.0 | 5 |
-| 141 | github.com/mikekelly/policy-dojo | 25.0 | 37.0 | 5 |
+| Nyaaya | 297 | 39 | 258 | Jury ranked higher |
+| Mapping.kids | 303 | 77 | 226 | Jury ranked higher |
+| Papertree | 306 | 83 | 223 | Jury ranked higher |
+| semanticClimate | 287 | 71 | 216 | Jury ranked higher |
+| The List | 322 | 107 | 215 | Jury ranked higher |
+| CivicPress | 308 | 94 | 214 | Jury ranked higher |
+| Nym | 210 | 2 | 208 | Jury ranked higher |
+| Fatebook | 270 | 63 | 207 | Jury ranked higher |
+| CivicMatch | 321 | 118 | 203 | Jury ranked higher |
+| FarmerChat | 289 | 87 | 202 | Jury ranked higher |
+| FixMyBlock | 290 | 88 | 202 | Jury ranked higher |
+| dDocs | 256 | 69 | 187 | Jury ranked higher |
+| OpenOrigins | 294 | 109 | 185 | Jury ranked higher |
+| Dovetail | 301 | 119 | 182 | Jury ranked higher |
+| GreenPT | 274 | 95 | 179 | Jury ranked higher |
+| Collab.Land | 293 | 114 | 179 | Jury ranked higher |
+| oTree | 233 | 55 | 178 | Jury ranked higher |
+| GovWise | 318 | 143 | 175 | Jury ranked higher |
+| openparliament.ca | 234 | 64 | 170 | Jury ranked higher |
+| PolicyMogul | 302 | 136 | 166 | Jury ranked higher |
 
----
+## (B) Inter-Model Disagreement (top 15)
 
-## Model Agreement Analysis
+| Project | Stdev | GPT-4.1 | Gemini 2.5 Pro | Mistral Large | Grok 4 |
+|---|---|---|---|---|---|
+| Mastodon C | 44.0 | 76 | 7 | N/A | 90 |
+| Empurrando Juntas (EJ) | 33.1 | 80 | 25 | N/A | 85 |
+| Riseup | 31.7 | 89 | 29 | 85 | 100 |
+| Mastodon | 30.7 | 80 | 34 | 92 | N/A |
+| WhatDoTheyKnow | 29.8 | 68 | 23 | 88 | 85 |
+| Participedia | 28.9 | 75 | 42 | N/A | 100 |
+| SecureDrop | 28.5 | 80 | 27 | 88 | 85 |
+| PolicyKit | 28.0 | 71 | 34 | 85 | 100 |
+| Harmonica | 27.8 | 57 | 18 | 65 | 85 |
+| NumFOCUS | 27.8 | 80 | 24 | 85 | 72 |
+| meet.coop | 27.5 | 80 | 30 | 88 | 88 |
+| Mapped | 27.3 | 61 | 13 | 78 | 45 |
+| Nyaaya | 27.2 | 69 | 14 | 70 | 68 |
+| OpenProcurement | 27.2 | 75 | 21 | 82 | 68 |
+| All Our Ideas | 27.1 | 75 | 25 | 78 | 85 |
 
-### claude — Top 5
+## Top 10 by Jury Score
 
-- matrix.org: 88.0
-- decidim.org: 85.0
-- fairbnb.coop: 85.0
-- liquidfeedback.com: 85.0
-- turkopticon.ucsd.edu: 85.0
-
-### gpt41 — Top 5
-
-- turkopticon.ucsd.edu: 93.0
-- matrix.org: 92.0
-- nymtech.net: 90.0
-- riseup.net: 89.0
-- decidim.org: 84.0
-
-### grok4 — Top 5
-
-- decidim.org: 100.0
-- liquidfeedback.com: 100.0
-- parti.xyz: 100.0
-- policykit.org: 100.0
-- riseup.net: 100.0
-
-### mistral — Top 5
-
-- decidim.org: 92.0
-- github.com/mastodon/mastodon: 92.0
-- matrix.org: 92.0
-- www.wikidata.org: 92.0
-- ckan.org: 90.0
-
----
-
-## Familiarity Risk Assessment
-
-- **matrix.org**: median=92.0, stdev=4.0 — potential familiarity inflation
+| Rank | Project | Jury score | Constitutional rank |
+|---|---|---|---|
+| 1 | Turkopticon | 90.5 | 18 |
+| 2 | Nym | 89.0 | 210 |
+| 3 | Matrix | 88.5 | 76 |
+| 4 | Decidim | 88.0 | 1 |
+| 5 | Riseup | 87.0 | 125 |
+| 6 | Loomio | 84.5 | 19 |
+| 7 | meet.coop | 84.0 | 82 |
+| 8 | Wikidata | 83.5 | 90 |
+| 9 | SecureDrop | 82.5 | 74 |
+| 10 | Bonfire | 81.0 | 6 |
