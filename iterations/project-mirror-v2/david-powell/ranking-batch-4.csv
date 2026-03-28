@@ -1,0 +1,79 @@
+rank,url,project_name,score,criteria_score,modifier_adj,dossier_completeness,uncertainty,popularity_risk,primary_driver,rationale
+244,https://github.com/cavi-au/consent-o-matic,Consent-O-Matic,29.1,29.1,0,0.86,LOW,LOW,criteria,"I can see what this is trying to do, but Consent-O-Matic doesn't connect with the values driving this evaluation"
+245,https://planit.org.uk,PlanIT,28.6,28.6,0,0.86,LOW,LOW,criteria,Not where I'd focus attention — PlanIT doesn't connect with the values driving this evaluation
+246,https://spartacus.app,Spartacus,28.6,28.6,0,0.86,LOW,LOW,criteria,Hard to see the fit with my priorities — Spartacus doesn't connect with the values driving this evaluation
+247,https://gender-pay-gap.service.gov.uk,Gender Pay Gap Service,28.5,28.5,0,0.86,LOW,LOW,criteria,Doesn't land for me — Gender Pay Gap Service doesn't connect with the values driving this evaluation
+248,https://nymtech.net,Nym,28.5,28.5,0,0.86,LOW,LOW,criteria,"The intent may be fine, but Nym doesn't connect with the values driving this evaluation"
+249,https://oa.report,OA.Report,28.5,28.5,0,0.86,LOW,LOW,criteria,"I can see what this is trying to do, but OA.Report doesn't connect with the values driving this evaluation"
+250,https://github.com/propublica/django-collaborative,django-collaborative,28.4,28.4,0,0.86,LOW,LOW,criteria,Not where I'd focus attention — django-collaborative doesn't connect with the values driving this evaluation
+251,https://spacetu.be,Spacetube,28.4,28.4,0,0.86,LOW,LOW,criteria,Hard to see the fit with my priorities — Spacetube doesn't connect with the values driving this evaluation
+252,https://www.plinth.org.uk,Plinth,28.0,28.0,0,0.86,LOW,LOW,criteria,Doesn't land for me — Plinth doesn't connect with the values driving this evaluation
+253,https://moralmachine.net,Moral Machine,27.9,27.9,0,0.86,LOW,LOW,criteria,"The intent may be fine, but Moral Machine doesn't connect with the values driving this evaluation"
+254,https://viewpoints.xyz,Viewpoints,27.8,27.8,0,0.86,LOW,LOW,criteria,"I can see what this is trying to do, but Viewpoints doesn't connect with the values driving this evaluation"
+255,https://www.crowdjustice.com,CrowdJustice,27.8,27.8,0,0.86,LOW,LOW,criteria,Not where I'd focus attention — CrowdJustice doesn't connect with the values driving this evaluation
+256,https://openaudience.org,OpenAudience,27.7,27.7,0,0.86,LOW,LOW,criteria,Hard to see the fit with my priorities — OpenAudience doesn't connect with the values driving this evaluation
+257,https://conservativepartyfunding.co.uk,Conservative Party Funding,27.5,27.5,0,0.86,LOW,LOW,criteria,Doesn't land for me — Conservative Party Funding doesn't connect with the values driving this evaluation
+258,https://github.com/mikekelly/policy-dojo,UK Policy Dojo,27.5,27.5,0,0.86,LOW,LOW,criteria,"The intent may be fine, but UK Policy Dojo doesn't connect with the values driving this evaluation"
+259,https://sci-hub.se,Sci-Hub,27.5,27.5,0,0.86,LOW,LOW,criteria,"I can see what this is trying to do, but Sci-Hub doesn't connect with the values driving this evaluation"
+260,https://sobre.ejparticipe.org,Empurrando Juntas (EJ),27.1,27.1,0,0.86,LOW,LOW,criteria,Not where I'd focus attention — Empurrando Juntas (EJ) doesn't connect with the values driving this evaluation
+261,https://www.deliberaide.com,deliberAIde,27.1,27.1,0,0.86,LOW,LOW,criteria,Hard to see the fit with my priorities — deliberAIde doesn't connect with the values driving this evaluation
+262,https://www.govwise.ai/en,GovWise,27.1,27.1,0,0.86,LOW,LOW,criteria,Doesn't land for me — GovWise doesn't connect with the values driving this evaluation
+263,https://metaculus.com,Metaculus,26.9,26.9,0,0.86,LOW,LOW,criteria,"The intent may be fine, but Metaculus doesn't connect with the values driving this evaluation"
+264,https://github.com/ideal-postcodes/postcodes.io,postcodes.io,26.8,26.8,0,0.86,LOW,LOW,criteria,"I can see what this is trying to do, but postcodes.io doesn't connect with the values driving this evaluation"
+265,https://objector.ai,Objector.ai,26.6,26.6,0,0.86,LOW,HIGH,criteria,Not where I'd focus attention — Objector.ai doesn't connect with the values driving this evaluation. Popularity flag: well-documented and likely familiar to jury models — hold this score loosely
+266,https://www.discourse.org,Discourse,26.6,26.6,0,0.86,LOW,HIGH,criteria,Hard to see the fit with my priorities — Discourse doesn't connect with the values driving this evaluation. Popularity flag: well-documented and likely familiar to jury models — hold this score loosely
+267,https://www.objector.ai,Objector.ai,26.6,26.6,0,0.86,LOW,HIGH,criteria,Doesn't land for me — Objector.ai doesn't connect with the values driving this evaluation. Popularity flag: well-documented and likely familiar to jury models — hold this score loosely
+268,https://datatrusts.uk,The Data Trusts Initiative,26.5,26.5,0,0.86,LOW,LOW,criteria,"The intent may be fine, but The Data Trusts Initiative doesn't connect with the values driving this evaluation"
+269,https://gordonguthrie.github.io/frankensteinbill,Frankenstein Bill,26.5,26.5,0,0.86,LOW,LOW,criteria,"I can see what this is trying to do, but Frankenstein Bill doesn't connect with the values driving this evaluation"
+270,https://en.wikipedia.org/wiki/wikipedia:in_the_news,In the news,26.4,26.4,0,0.86,LOW,HIGH,criteria,Not where I'd focus attention — In the news doesn't connect with the values driving this evaluation. Popularity flag: well-documented and likely familiar to jury models — hold this score loosely
+271,https://richardpope.org/2017/03/05/beckton-a-tool-to-build,Beckton,26.4,26.4,0,0.86,LOW,LOW,criteria,Hard to see the fit with my priorities — Beckton doesn't connect with the values driving this evaluation
+272,https://policymogul.com,PolicyMogul,26.1,26.1,0,0.86,LOW,LOW,criteria,Doesn't land for me — PolicyMogul doesn't connect with the values driving this evaluation
+273,https://overton.io,Overton,25.9,25.9,0,0.86,LOW,LOW,criteria,"The intent may be fine, but Overton doesn't connect with the values driving this evaluation"
+274,https://antievictionmappingproject.github.io/landlordtech,Landlord Tech Watch,25.5,25.5,0,0.86,LOW,LOW,criteria,"I can see what this is trying to do, but Landlord Tech Watch doesn't connect with the values driving this evaluation"
+275,https://data.humdata.org,Humanitarian Data Exchange,25.5,25.5,0,0.86,LOW,LOW,criteria,Not where I'd focus attention — Humanitarian Data Exchange doesn't connect with the values driving this evaluation
+276,https://www.welivedit.ai,We Live It,25.2,25.2,0,0.86,LOW,LOW,criteria,Hard to see the fit with my priorities — We Live It doesn't connect with the values driving this evaluation
+277,https://choosealicense.com,Choose a License,25.1,25.1,0,0.86,LOW,LOW,criteria,Doesn't land for me — Choose a License doesn't connect with the values driving this evaluation
+278,https://filmot.com,Filmot,25.0,25.0,0,0.86,LOW,LOW,criteria,"The intent may be fine, but Filmot doesn't connect with the values driving this evaluation"
+279,https://labourxchange.uk,Labour Xchange,25.0,25.0,0,0.86,LOW,LOW,criteria,"I can see what this is trying to do, but Labour Xchange doesn't connect with the values driving this evaluation"
+280,https://onodi.co/bisect,Theft Bisect,25.0,25.0,0,0.86,LOW,LOW,criteria,Not where I'd focus attention — Theft Bisect doesn't connect with the values driving this evaluation
+281,https://whopostedwhat.com,Who Posted What?,25.0,25.0,0,0.86,LOW,LOW,criteria,Hard to see the fit with my priorities — Who Posted What? doesn't connect with the values driving this evaluation
+282,https://medium.com/@abscond/membership-a-prototype-ea822b2683b,Membership,24.6,24.6,0,0.86,LOW,LOW,criteria,Doesn't land for me — Membership doesn't connect with the values driving this evaluation
+283,https://www.publiceditor.io,Public Editor,24.4,24.4,0,0.86,LOW,HIGH,criteria,"The intent may be fine, but Public Editor doesn't connect with the values driving this evaluation. Popularity flag: well-documented and likely familiar to jury models — hold this score loosely"
+284,https://cotsi.org,COTSI (Cyber Operational Threat Situational Intelligence),24.1,24.1,0,0.86,LOW,LOW,criteria,"I can see what this is trying to do, but COTSI (Cyber Operational Threat Situational Intelligence) doesn't connect with the values driving this evaluation"
+285,https://publicaccountability.org,The Accountability Project,24.0,24.0,0,0.86,LOW,LOW,criteria,Not where I'd focus attention — The Accountability Project doesn't connect with the values driving this evaluation
+286,https://charmverse.io,CharmVerse,23.8,23.8,0,0.86,LOW,LOW,criteria,Hard to see the fit with my priorities — CharmVerse doesn't connect with the values driving this evaluation
+287,https://www.organise.org.uk,Organise,23.8,23.8,0,0.86,LOW,LOW,criteria,Doesn't land for me — Organise doesn't connect with the values driving this evaluation
+288,https://semanticclimate.github.io,semanticClimate,23.7,23.7,0,0.86,LOW,LOW,criteria,"The intent may be fine, but semanticClimate doesn't connect with the values driving this evaluation"
+289,https://manifold.markets,Manifold Markets,23.4,23.4,0,0.86,LOW,LOW,criteria,"I can see what this is trying to do, but Manifold Markets doesn't connect with the values driving this evaluation"
+290,https://opencouncildata.co.uk,Open Council Data UK,23.4,23.4,0,0.86,LOW,LOW,criteria,Not where I'd focus attention — Open Council Data UK doesn't connect with the values driving this evaluation
+291,https://www.marksoutoftenancy.com,Marks Out Of Tenancy,23.4,23.4,0,0.86,LOW,LOW,criteria,Hard to see the fit with my priorities — Marks Out Of Tenancy doesn't connect with the values driving this evaluation
+292,https://github.com/ribenamaplesyrup/sugartrail,Sugartrail,23.0,23.0,0,0.86,LOW,LOW,criteria,Doesn't land for me — Sugartrail doesn't connect with the values driving this evaluation
+293,https://github.com/tulir/whatsmeow,whatsmeow,23.0,23.0,0,0.57,MEDIUM,LOW,criteria,"The intent may be fine, but whatsmeow doesn't connect with the values driving this evaluation"
+294,https://www.otree.org,oTree,22.8,26.8,-4,0.86,LOW,LOW,criteria,"I can see what this is trying to do, but oTree doesn't connect with the values driving this evaluation"
+295,https://nestr.io,Nestr,22.6,22.6,0,0.86,LOW,LOW,criteria,Not where I'd focus attention — Nestr doesn't connect with the values driving this evaluation
+296,https://societyforhopefultechnologists.org,Society for Hopeful Technologists,21.9,21.9,0,0.86,LOW,LOW,criteria,Hard to see the fit with my priorities — Society for Hopeful Technologists doesn't connect with the values driving this evaluation
+297,https://greenpt.ai,GreenPT,21.4,21.4,0,0.86,LOW,LOW,criteria,Doesn't land for me — GreenPT doesn't connect with the values driving this evaluation
+298,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5351275,Unknown Academic Paper (SSRN 5351275),21.0,21.0,0,0.43,MEDIUM,LOW,criteria,"The intent may be fine, but Unknown Academic Paper (SSRN 5351275) doesn't connect with the values driving this evaluation"
+299,https://postbug.com,PostBug,20.6,20.6,0,0.86,LOW,LOW,criteria,"I can see what this is trying to do, but PostBug doesn't connect with the values driving this evaluation"
+300,https://collab.land,Collab.Land,20.4,20.4,0,0.86,LOW,LOW,criteria,Not where I'd focus attention — Collab.Land doesn't connect with the values driving this evaluation
+301,https://arxiv.org,arXiv,19.0,19.0,0,0.86,LOW,LOW,criteria,Hard to see the fit with my priorities — arXiv doesn't connect with the values driving this evaluation
+302,https://github.com/ytdl-org/youtube-dl,youtube-dl,19.0,19.0,0,0.86,LOW,LOW,criteria,Doesn't land for me — youtube-dl doesn't connect with the values driving this evaluation
+303,https://navigator.oii.ox.ac.uk,DemTech Navigator,19.0,19.0,0,0.86,LOW,HIGH,criteria,"The intent may be fine, but DemTech Navigator doesn't connect with the values driving this evaluation. Popularity flag: well-documented and likely familiar to jury models — hold this score loosely"
+304,https://riseup.net,Riseup,19.0,19.0,0,0.86,LOW,LOW,criteria,"I can see what this is trying to do, but Riseup doesn't connect with the values driving this evaluation"
+305,https://www.donotpay.com,DoNotPay,19.0,19.0,0,0.86,LOW,LOW,criteria,Not where I'd focus attention — DoNotPay doesn't connect with the values driving this evaluation
+306,https://coralproject.net,Coral,18.3,22.3,-4,0.86,LOW,LOW,criteria,Hard to see the fit with my priorities — Coral doesn't connect with the values driving this evaluation
+307,https://osintframework.com,OSINT Framework,18.0,18.0,0,0.86,LOW,LOW,criteria,Doesn't land for me — OSINT Framework doesn't connect with the values driving this evaluation
+308,https://www.rightsdd.com,RightDD,18.0,18.0,0,0.86,LOW,LOW,criteria,"The intent may be fine, but RightDD doesn't connect with the values driving this evaluation"
+309,https://www.yoti.com,Yoti,17.5,17.5,0,0.86,LOW,LOW,criteria,"I can see what this is trying to do, but Yoti doesn't connect with the values driving this evaluation"
+310,https://bsky.app,Bluesky,17.0,17.0,0,0.86,LOW,LOW,criteria,Not where I'd focus attention — Bluesky doesn't connect with the values driving this evaluation
+311,https://fatebook.io,Fatebook,17.0,17.0,0,0.86,LOW,LOW,criteria,Hard to see the fit with my priorities — Fatebook doesn't connect with the values driving this evaluation
+312,https://whoisology.com,Whoisology,17.0,17.0,0,0.86,LOW,LOW,criteria,Doesn't land for me — Whoisology doesn't connect with the values driving this evaluation
+313,https://www.openorigins.com,OpenOrigins,17.0,17.0,0,0.86,LOW,LOW,criteria,"The intent may be fine, but OpenOrigins doesn't connect with the values driving this evaluation"
+314,https://www.prolific.com,Prolific,17.0,17.0,0,0.86,LOW,LOW,criteria,"I can see what this is trying to do, but Prolific doesn't connect with the values driving this evaluation"
+315,https://docs.holepunch.to,Pear by Holepunch,15.0,15.0,0,0.86,LOW,LOW,criteria,Not where I'd focus attention — Pear by Holepunch doesn't connect with the values driving this evaluation
+316,https://github.com/deepseek-ai/deepseek-v3,DeepSeek-V3,15.0,15.0,0,0.86,LOW,LOW,criteria,Hard to see the fit with my priorities — DeepSeek-V3 doesn't connect with the values driving this evaluation
+317,https://github.com/fission-codes/fission-codes,Fission Codes,15.0,15.0,0,0.86,LOW,LOW,criteria,Doesn't land for me — Fission Codes doesn't connect with the values driving this evaluation
+318,https://journaliststudio.google.com,Journalist Studio,15.0,15.0,0,0.86,LOW,LOW,criteria,"The intent may be fine, but Journalist Studio doesn't connect with the values driving this evaluation"
+319,https://vframe.io,VFRAME,15.0,15.0,0,0.86,LOW,LOW,criteria,"I can see what this is trying to do, but VFRAME doesn't connect with the values driving this evaluation"
+320,https://plausible.io,Plausible Analytics,13.0,13.0,0,0.86,LOW,LOW,criteria,Not where I'd focus attention — Plausible Analytics doesn't connect with the values driving this evaluation
+321,https://urbit.org,Urbit,13.0,13.0,0,0.86,LOW,LOW,criteria,Hard to see the fit with my priorities — Urbit doesn't connect with the values driving this evaluation
