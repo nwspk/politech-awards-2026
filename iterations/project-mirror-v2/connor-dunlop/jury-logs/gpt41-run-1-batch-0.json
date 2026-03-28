@@ -1,0 +1,272 @@
+[
+  {
+    "url": "https://activisthandbook.org",
+    "score": 58,
+    "criteria_score": {
+      "C1": 6,
+      "C2": 18,
+      "C3": 8,
+      "C4": 8,
+      "C5": 8,
+      "C6": 10
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "Activist Handbook strongly advances participatory and deliberative governance (C2) by empowering activists with practical guides and an open contribution model, but it lacks enforceable governance or technical verification infrastructure (C1), and only partially addresses lifecycle governance (C3). Its institutional and democratic infrastructure (C4), transparency (C5), and positive rights orientation (C6) are present but not deeply technical or enforceable, reflecting a publication and community resource rather than a governance platform.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://adhocracy.plus",
+    "score": 67,
+    "criteria_score": {
+      "C1": 10,
+      "C2": 18,
+      "C3": 10,
+      "C4": 8,
+      "C5": 8,
+      "C6": 7,
+      "C7": 6,
+      "C8": 0
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "Adhocracy+ strongly supports participatory and deliberative governance (C2), with open source code and documented use in real-world participatory budgeting. However, it is weaker on enforceable verification infrastructure (C1) and full lifecycle governance (C3), as there is little evidence of technical enforcement or post-deployment monitoring. Institutional infrastructure is present but limited by single-organization governance. Overall, the project aligns with the constitution\u2019s participatory ideals but falls short on enforceability and technical guarantees.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://aisafety.info",
+    "score": 38,
+    "criteria_score": {
+      "C1": 4,
+      "C2": 6,
+      "C3": 5,
+      "C4": 6,
+      "C5": 7,
+      "C6": 5,
+      "C7": 5
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "AISafety.info is a reputable educational resource with partial open-source practices and some community contribution, but it does not build enforceable governance or verification infrastructure, nor does it enable genuine co-governance; its impact is primarily informational and advisory, not structural or institutional.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://alaveteli.org",
+    "score": 67,
+    "criteria_score": {
+      "C1": 40,
+      "C2": 80,
+      "C3": 60,
+      "C4": 70,
+      "C5": 80,
+      "C6": 60
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "Alaveteli is a mature, open-source platform that strongly advances participatory and deliberative governance (C2) and democratic infrastructure (C4, C5), with significant real-world impact on transparency and citizen empowerment. However, its enforcement and verification infrastructure (C1) is limited to enabling requests and transparency, not enforceable governance, and its lifecycle governance (C3, C6) is moderate, as it supports FOI processes but does not cover the full governance lifecycle or technical compliance verification.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://aleph.occrp.org",
+    "score": 62,
+    "criteria_score": {
+      "C1": 10,
+      "C2": 12,
+      "C3": 8,
+      "C4": 10,
+      "C5": 12,
+      "C6": 10
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "Aleph provides a valuable open-source platform for investigative journalism and civic research, supporting transparency and accountability. However, it does not directly build enforceable governance or verification infrastructure, and its participatory governance is limited to user access rather than co-governance. Heavy reliance on US government funding poses independence risks. The project excels in institutional support and lifecycle transparency but falls short of the constitution\u2019s strongest criteria around enforceability and participatory co-governance.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://algorithmwatch.org",
+    "score": 74,
+    "criteria_score": {
+      "C1": 12,
+      "C2": 16,
+      "C3": 14,
+      "C4": 10,
+      "C5": 7,
+      "C6": 8,
+      "C7": 7
+    },
+    "modifier_adj": 0,
+    "confidence": "high",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "AlgorithmWatch is a well-established nonprofit focused on algorithmic accountability and AI governance, with strong evidence of participatory and deliberative governance (C2), lifecycle attention (C3), and institutional impact (C4). Its enforcement and verification infrastructure (C1) is moderate, as it advocates and builds tools but does not directly implement enforceable governance mechanisms. The project is progressive, international, and demonstrates a robust civic orientation, aligning well with the constitution\u2019s priorities.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://all-our-ideas.citizens.is",
+    "score": 56,
+    "criteria_score": {
+      "C1": 5,
+      "C2": 18,
+      "C3": 7,
+      "C4": 7,
+      "C5": 8,
+      "C6": 6,
+      "C7": 5
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "All Our Ideas strongly supports participatory and deliberative governance (C2), enabling meaningful citizen input via pairwise comparison voting and open-source replication. However, it lacks robust enforcement or verification infrastructure (C1), and its lifecycle governance (C3) is limited to idea collection rather than full policy implementation or monitoring. The platform\u2019s democratic infrastructure (C4) and transparency (C5) are moderate, with some evidence of community ownership and open-source practices, but little detail on institutional integration or impact metrics. There is minimal evidence of technical or cryptographic compliance mechanisms. Overall, it advances participatory democracy but falls short on enforceability and full lifecycle governance as required by the constitution.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://alltechishuman.org/responsible-tech-guide-2025",
+    "score": 41,
+    "criteria_score": 41,
+    "modifier_adj": 0,
+    "confidence": "high",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "The Responsible Tech Guide 2025 is a well-curated publication that provides information and pathways for involvement in responsible tech, but it does not build enforceable governance infrastructure, enable genuine co-governance, or address full lifecycle or verification mechanisms. It primarily serves as a resource and community guide, not as a governance or enforcement tool.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://annas-archive.pm",
+    "score": 38,
+    "criteria_score": 38,
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "Anna's Archive advances open access and digital rights but lacks enforceable governance, participatory co-governance, and lifecycle oversight per the constitution; its individual-led, informal model and legal vulnerabilities further limit alignment with the evaluative framework.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://antievictionmappingproject.github.io/landlordtech",
+    "score": 48,
+    "criteria_score": {
+      "C1": 6,
+      "C2": 14,
+      "C3": 10,
+      "C4": 8,
+      "C5": 6,
+      "C6": 4
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "Landlord Tech Watch is a grassroots, open-source database that documents the harms of property technology, empowering tenants and advocates with information. It scores moderately on participatory governance (C2) by centering tenant perspectives and enabling advocacy, and somewhat on lifecycle governance (C3) by tracking tech impacts over time. However, it lacks direct enforcement or verification infrastructure (C1), and its governance model does not provide affected communities with formal co-governance power. Its institutional and technical infrastructure is limited by small scale and volunteer reliance.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://aragon.org",
+    "score": 67,
+    "criteria_score": {
+      "C1": 14,
+      "C2": 13,
+      "C3": 13,
+      "C4": 8,
+      "C5": 7,
+      "C6": 6,
+      "C7": 6
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "Aragon provides significant infrastructure for enforceable governance and participatory models via onchain mechanisms and token-holder voting, aligning well with Dunlop's priorities on enforcement and participation. However, lifecycle governance is only partially addressed (focus is on governance, not full AI/tech lifecycle), and its open-source/community ownership is partial. Regulatory and security risks, plus limited evidence of robust deliberative mechanisms beyond token voting, reduce the score. The project is impactful but does not fully meet the highest bar for all constitutional criteria.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://arxiv.org",
+    "score": 52,
+    "criteria_score": {
+      "C1": 5,
+      "C2": 8,
+      "C3": 7,
+      "C4": 7,
+      "C5": 10,
+      "C6": 8,
+      "C7": 7
+    },
+    "modifier_adj": 0,
+    "confidence": "high",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "arXiv is a foundational open-access infrastructure supporting global knowledge sharing and academic transparency, but it lacks strong enforceable governance mechanisms, direct participatory co-governance, and comprehensive lifecycle oversight as required by the constitution; its strengths are openness, accessibility, and institutional robustness, but it falls short on enforceability and participatory governance.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://arxiv.org/abs/2005.13701",
+    "score": 56,
+    "criteria_score": {
+      "C1": 6,
+      "C2": 16,
+      "C3": 8,
+      "C4": 6
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "Modular Politics provides a strong theoretical framework for participatory and modular governance, aligning well with participatory and lifecycle criteria, but lacks enforceable or technical implementation and verification infrastructure, and offers limited institutional infrastructure beyond academic theory.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://atlasofsurveillance.org",
+    "score": 61,
+    "criteria_score": {
+      "C1": 10,
+      "C2": 12,
+      "C3": 10,
+      "C4": 7,
+      "C5": 7,
+      "C6": 6,
+      "C7": 9
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "Atlas of Surveillance provides valuable public data and supports advocacy, but lacks enforceable governance mechanisms, direct co-governance by affected communities, and technical infrastructure for verification; its impact is strongest in transparency and advocacy, not enforceable lifecycle governance.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://bellingcat.gitbook.io/toolkit",
+    "score": 56,
+    "criteria_score": 56,
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "The Bellingcat Online Investigation Toolkit is a valuable open-source resource for investigative journalists and civic researchers, strengthening transparency and digital rights. However, it does not build enforceable governance or verification infrastructure (C1), nor does it enable genuine co-governance or participatory decision-making (C2). It partially addresses lifecycle governance (C3) by supporting ongoing investigations, and contributes to democratic infrastructure (C4) by empowering civil society actors. Its main impact is enabling scrutiny and investigation, not direct governance or enforcement.",
+    "model": "gpt41",
+    "run": 1
+  }
+]

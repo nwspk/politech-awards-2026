@@ -1,0 +1,102 @@
+[
+  {
+    "url": "https://activisthandbook.org",
+    "score": 54,
+    "criteria_score": {
+      "C1": 4,
+      "C2": 10,
+      "C3": 6,
+      "C4": 7,
+      "C5": 7,
+      "C6": 7,
+      "C7": 6,
+      "C8": 7
+    },
+    "modifier_adj": 0,
+    "confidence": "high",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "Activist Handbook strongly enables participatory and deliberative governance (C2) and provides significant institutional support for democratic participation (C4, C5, C6), with practical resources for organizers. However, it is weaker on enforceable governance or technical verification infrastructure (C1), and only partially addresses supply chain/lifecycle governance (C3). Its open contribution model and community ownership align well with the inferred progressive civic criteria.",
+    "model": "gpt41",
+    "run": 4
+  },
+  {
+    "url": "https://adhocracy.plus",
+    "score": 68,
+    "criteria_score": {
+      "C1": 8,
+      "C2": 19,
+      "C3": 12,
+      "C4": 9,
+      "C5": 8,
+      "C6": 7,
+      "C7": 5
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "adhocracy+ strongly supports participatory and deliberative governance (C2) and provides open source infrastructure for civic processes. However, it is weaker on enforceable governance and verification infrastructure (C1), and lifecycle governance (C3) is present but not comprehensive. Institutional infrastructure (C4) is moderate, but compute governance and technical enforcement are not primary features. Evidence is sufficient but relies on participation metrics and anecdotal outcomes rather than formal impact evaluations.",
+    "model": "gpt41",
+    "run": 4
+  },
+  {
+    "url": "https://aisafety.info",
+    "score": 37,
+    "criteria_score": {
+      "C1": 5,
+      "C2": 8,
+      "C3": 7,
+      "C4": 7,
+      "C5": 5,
+      "C6": 5
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "AISafety.info is a high-quality educational resource with open contribution and editorial oversight, but it does not build enforceable governance infrastructure or enable genuine co-governance; its main strengths are in public education and partial participatory content, not in lifecycle or institutional governance.",
+    "model": "gpt41",
+    "run": 4
+  },
+  {
+    "url": "https://alaveteli.org",
+    "score": 64,
+    "criteria_score": {
+      "C1": 10,
+      "C2": 16,
+      "C3": 12,
+      "C4": 8,
+      "C5": 6,
+      "C6": 6,
+      "C7": 6
+    },
+    "modifier_adj": 0,
+    "confidence": "high",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "Alaveteli strongly advances participatory and deliberative governance by empowering citizens to make FOI requests and enhancing transparency, but it only partially addresses enforceable governance and technical verification infrastructure, focusing more on access than on systemic enforcement or lifecycle compliance.",
+    "model": "gpt41",
+    "run": 4
+  },
+  {
+    "url": "https://aleph.occrp.org",
+    "score": 63,
+    "criteria_score": {
+      "C1": 10,
+      "C2": 14,
+      "C3": 13,
+      "C4": 8,
+      "C5": 7,
+      "C6": 6,
+      "C7": 5
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "Aleph (OCCRP) is a globally impactful civic data platform supporting investigative journalism and anti-corruption, with strong open-source credentials and international reach. It enables meaningful participation by civil society in exposing corruption (C2), and supports lifecycle transparency (C3), but lacks direct, enforceable governance mechanisms (C1), and is structurally constrained by funding dependency risks that limit its independence and institutional robustness (C4). While highly valuable, it does not fully meet the constitution's strongest requirements for enforceable, participatory, and infrastructural governance.",
+    "model": "gpt41",
+    "run": 4
+  }
+]

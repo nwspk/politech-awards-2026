@@ -1,0 +1,2999 @@
+[
+  {
+    "url": "https://activisthandbook.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://adhocracy.plus",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://aisafety.info",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://alaveteli.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://aleph.occrp.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://algorithmwatch.org",
+    "score": 72,
+    "criteria_score": 72,
+    "modifier_adj": 0,
+    "confidence": "high",
+    "abstain": false,
+    "abstain_reason": null,
+    "rationale": "AlgorithmWatch demonstrates strong enforcement focus through investigative journalism and advocacy for binding regulation, meaningful participatory elements via data donation platforms and civil society engagement, lifecycle coverage from pre-deployment guidelines to post-deployment monitoring, and institutional infrastructure building through policy work at EU and national levels, though it lacks the technical verification infrastructure that would merit the highest scores.",
+    "model": "claude",
+    "run": 1
+  },
+  {
+    "url": "https://all-our-ideas.citizens.is",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://alltechishuman.org/responsible-tech-guide-2025",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://annas-archive.pm",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://antievictionmappingproject.github.io/landlordtech",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://aragon.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://arxiv.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://arxiv.org/abs/2005.13701",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://atlasofsurveillance.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://bellingcat.gitbook.io/toolkit",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://benefits-calculator.turn2us.org.uk",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://blog.kagi.com/slopstop",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://bonfirenetworks.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://bsky.app",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://channel.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://charitydigitalskills.co.uk",
+    "score": null,
+    "criteria_score": null,
+    "modifier_adj": null,
+    "confidence": "low",
+    "abstain": true,
+    "abstain_reason": "Insufficient evidence to evaluate against governance enforcement criteria - project appears to be a survey/report on digital skills in charity sector rather than a political technology project building governance infrastructure",
+    "rationale": "The dossier describes an annual survey tracking digital skills in UK charities, which lacks clear connection to enforceable governance mechanisms, participatory decision-making structures, or lifecycle governance systems that the constitution prioritizes.",
+    "model": "claude",
+    "run": 1
+  },
+  {
+    "url": "https://charmverse.io",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://choosealicense.com",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://citizenos.com/platform",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://ciudadaniai.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://civiclick.com",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://civicmatch.app",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://civicpress.io",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://civicrm.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://civictech.guide",
+    "score": null,
+    "criteria_score": null,
+    "modifier_adj": null,
+    "confidence": "low",
+    "abstain": true,
+    "abstain_reason": "Insufficient evidence to assess enforcement mechanisms, participatory governance features, or lifecycle governance approach",
+    "rationale": "The dossier describes a civic tech database/directory but lacks detail on how it enables enforceable governance, meaningful participation in decision-making, or addresses supply chain/lifecycle concerns central to this evaluative framework.",
+    "model": "claude",
+    "run": 1
+  },
+  {
+    "url": "https://ckan.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://climateaction.tech",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://cobudget.com",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://collab.land",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://collaborative-data.theodi.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://commonslibrary.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://communities.sunlightfoundation.com/methodology",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://communityrule.info",
+    "score": 72,
+    "criteria_score": 72,
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": null,
+    "rationale": "CommunityRule provides meaningful participatory governance templates and lifecycle support for communities, though it lacks the enforcement infrastructure and institutional integration that would make it transformative for political technology.",
+    "model": "claude",
+    "run": 1
+  },
+  {
+    "url": "https://conservativepartyfunding.co.uk",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://constituteproject.org",
+    "score": 45,
+    "criteria_score": 45,
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": null,
+    "rationale": "While Constitute provides valuable infrastructure for constitutional comparison and design, it primarily serves as an information resource rather than building enforcement mechanisms, enabling genuine participatory governance, or addressing lifecycle governance challenges that are central to this evaluative framework.",
+    "model": "claude",
+    "run": 1
+  },
+  {
+    "url": "https://consulproject.org",
+    "score": 72,
+    "criteria_score": 72,
+    "modifier_adj": 0,
+    "confidence": "high",
+    "abstain": false,
+    "abstain_reason": null,
+    "rationale": "CONSUL Democracy scores well on participatory governance (C2) with genuine decision-making power through binding proposals and participatory budgeting, moderate on institutional infrastructure (C4) through widespread government adoption, but lacks enforcement mechanisms (C1) and lifecycle governance features (C3) that would align with a proceduralist framework prioritizing verifiable compliance.",
+    "model": "claude",
+    "run": 1
+  },
+  {
+    "url": "https://contractsfordatacollaboration.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://coops.tech",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://coralproject.net",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://cortico.ai/platform",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://cotsi.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://creativecommons.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://cybersecurityfordemocracy.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://data.humdata.org",
+    "score": 45,
+    "criteria_score": 45,
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": null,
+    "rationale": "While HDX provides valuable data infrastructure for humanitarian coordination, it lacks enforcement mechanisms, genuine participatory governance, lifecycle oversight, and the technical verification infrastructure that would align with a proceduralist framework prioritizing enforceable rules over voluntary cooperation.",
+    "model": "claude",
+    "run": 1
+  },
+  {
+    "url": "https://data.mysociety.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://datacollective.mozillafoundation.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://datatrusts.uk",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://ddocs.new",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://decelerator.org.uk",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://decidim.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://dev.reuselibrary.service.justice.gov.uk",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://developer.parliament.uk",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://developers.democracyclub.org.uk/api/v1",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://dgc-cgn.org/product/can-dgsi-127",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://digitalcharitylab.org/product/digital-account-management-toolkit",
+    "score": null,
+    "criteria_score": null,
+    "modifier_adj": null,
+    "confidence": "low",
+    "abstain": true,
+    "abstain_reason": "Insufficient evidence to evaluate against governance criteria - this appears to be a basic digital security toolkit for nonprofits rather than a political technology project addressing governance, enforcement, or participatory decision-making",
+    "rationale": "The project provides account management guidance for charities but lacks any connection to the constitutional criteria around enforcement infrastructure, participatory governance, lifecycle management, or democratic institutions.",
+    "model": "claude",
+    "run": 1
+  },
+  {
+    "url": "https://docs.holepunch.to",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://docs.plus",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://dogooder.co",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://dovetail.network",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://dunadyne.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://ecnl.org/publications/framework-meaningful-engagement-20?mc_cid=b1c5158063&mc_eid=a09c64ec38",
+    "score": 72,
+    "criteria_score": 72,
+    "modifier_adj": 0,
+    "confidence": "high",
+    "abstain": false,
+    "abstain_reason": null,
+    "rationale": "Strong alignment with participatory governance (C2) and lifecycle approach (C3), with documented adoption by Amsterdam and Discord, though limited enforcement mechanisms (C1) and primarily guidance-based rather than building hard governance infrastructure.",
+    "model": "claude",
+    "run": 1
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/wikipedia:in_the_news",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://entitledto.co.uk",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://esper.com/product",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://ethelo.com",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://expo.diia.gov.ua",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://fairbnb.coop",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://farmerchat.digitalgreen.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://fatebook.io",
+    "score": 15,
+    "criteria_score": 15,
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": null,
+    "rationale": "While Fatebook provides transparency infrastructure for predictions, it lacks enforcement mechanisms, genuine participatory governance, lifecycle oversight, and the institutional integration that would align with a proceduralist framework focused on enforceable rules and democratic co-governance.",
+    "model": "claude",
+    "run": 1
+  },
+  {
+    "url": "https://filmot.com",
+    "score": null,
+    "criteria_score": null,
+    "modifier_adj": null,
+    "confidence": "low",
+    "abstain": true,
+    "abstain_reason": "Insufficient evidence to evaluate against governance criteria - project appears to be a YouTube search tool without clear governance, enforcement, or participatory elements",
+    "rationale": "The dossier describes a YouTube caption search tool but provides no evidence of governance mechanisms, enforcement infrastructure, participatory features, or lifecycle management that would allow evaluation against the constitutional criteria.",
+    "model": "claude",
+    "run": 1
+  },
+  {
+    "url": "https://fixmyblock.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://fullfact.org/ai",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://gender-pay-gap.service.gov.uk",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://getodk.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://github.com/bellingcat/edgar",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://github.com/blacksky-algorithms/rsky",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://github.com/bluesky-social",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://github.com/cavi-au/consent-o-matic",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://github.com/compdemocracy/polis",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://github.com/cverluise/patcit",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://github.com/datakind/data-observation-toolkit",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://github.com/deepseek-ai/deepseek-v3",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://github.com/disarmfoundation/disarmframeworks",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://github.com/fission-codes/fission-codes",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://github.com/g0v/vue.vtaiwan.tw",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://github.com/geeksforsocialchange/placecal",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://github.com/huridocs",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://github.com/i-dot-ai/awesome-gov-datasets",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://github.com/ideal-postcodes/postcodes.io",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://github.com/kazad/pastecal",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://github.com/mastodon/mastodon",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://github.com/mikekelly/policy-dojo",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://github.com/notchia/dao-governance-surfaces",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://github.com/openpolitics/groupthink",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://github.com/podemos-info/participa",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://github.com/populatetools",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://github.com/propublica/django-collaborative",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://github.com/radicalxchange/rxc-voice",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://github.com/rahvaalgatus/rahvaalgatus",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://github.com/ribenamaplesyrup/sugartrail",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://github.com/sentinelteam/grim",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://github.com/stanfordcdt/pb",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://github.com/thicknavyrain/uk_elections_leaflets",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://github.com/travisbrown/birdwatch",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://github.com/tulir/whatsmeow",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://github.com/vbuterin/dao",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://github.com/whotargetsme/ad-transparency-standards/blob/main/implement.md",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://github.com/ytdl-org/youtube-dl",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://globalfactcheck.bot",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://gordonguthrie.github.io/frankensteinbill",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://gov.uk/find-local-consultations",
+    "score": 35,
+    "criteria_score": 35,
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": null,
+    "rationale": "While this platform enables discovery of consultations, it merely facilitates access to traditional consultation processes rather than creating genuine participatory governance or enforcement mechanisms.",
+    "model": "claude",
+    "run": 1
+  },
+  {
+    "url": "https://granicus.com/uk",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://granitt.io",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://grantnav.threesixtygiving.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://greenpt.ai",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://guardianproject.info",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://hact.org.uk/tools-and-services/uk-housing-data-standards",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://hand-written-petition-scanner.streamlit.app",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://harmonica.chat",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://humbledata.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://idealist.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://joss.theoj.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://journaliststudio.google.com",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://kialo.com",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://labourxchange.uk",
+    "score": 25,
+    "criteria_score": 25,
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": null,
+    "rationale": "While Labour Xchange addresses important labor market issues through its platform connecting underemployed workers with employers, it lacks the enforcement mechanisms, participatory governance structures, lifecycle oversight, and verification infrastructure that the constitution prioritizes for political technology projects.",
+    "model": "claude",
+    "run": 1
+  },
+  {
+    "url": "https://ladderhub.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://landexplorer.coop",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://liberopinion.com",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://library.theengineroom.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://liquidfeedback.com",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://littlesis.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://local-deep-researcher-hnmh.vercel.app",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://localinsight.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://logos.co",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://manifold.markets",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://mapit.mysociety.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://mapped.commonknowledge.coop",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://mapping.kids",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://matrix.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://medium.com/@abscond/membership-a-prototype-ea822b2683b",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://medium.com/metagov/introducing-the-agreement-engine-bf03b6d5c16c",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://membersinterests.org.uk",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://meta.wikimedia.org/wiki/abstract_wikipedia",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://metaculus.com",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://metagov.org/projects/interop",
+    "score": 72,
+    "criteria_score": 72,
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": null,
+    "rationale": "Strong alignment with participatory governance (C2) and institutional infrastructure (C4) through interoperable deliberative tools, partial alignment with lifecycle governance (C3) through platform approach, but limited evidence of enforcement mechanisms (C1) or compute governance focus (C5).",
+    "model": "claude",
+    "run": 1
+  },
+  {
+    "url": "https://missingnumbers.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://monitormamdani.com",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://moralmachine.net",
+    "score": 25,
+    "criteria_score": 25,
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": null,
+    "rationale": "While Moral Machine generates valuable data on ethical preferences across cultures, it lacks enforcement mechanisms, provides only consultative rather than governing participation, addresses a narrow lifecycle stage, and offers no verification infrastructure for actual autonomous vehicle governance.",
+    "model": "claude",
+    "run": 1
+  },
+  {
+    "url": "https://murmurations.network",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://navigator.oii.ox.ac.uk",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://nestr.io",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://newpublic.substack.com/p/introducing-roundabout-built-for",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://nookcrm.com",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://numfocus.org",
+    "score": 25,
+    "criteria_score": 25,
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": null,
+    "rationale": "While NumFOCUS supports critical open source scientific infrastructure, it lacks direct governance enforcement mechanisms, participatory decision-making structures for affected communities, lifecycle governance frameworks, or institutional democratic infrastructure that would align with the constitution's emphasis on enforceable, participatory governance systems.",
+    "model": "claude",
+    "run": 1
+  },
+  {
+    "url": "https://nyaaya.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://nymtech.net",
+    "score": 32,
+    "criteria_score": 32,
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": null,
+    "rationale": "While Nym provides important privacy infrastructure that could theoretically support democratic participation, it lacks direct governance mechanisms, participatory features, or lifecycle oversight that would align with the constitution's emphasis on enforceable, participatory governance systems.",
+    "model": "claude",
+    "run": 1
+  },
+  {
+    "url": "https://oa.report",
+    "score": 72,
+    "criteria_score": 72,
+    "modifier_adj": 0,
+    "confidence": "high",
+    "abstain": false,
+    "abstain_reason": null,
+    "rationale": "Strong alignment on enforcement infrastructure (C1) through compliance tracking and verification, lifecycle governance (C3) via comprehensive publication monitoring, and institutional infrastructure (C4) supporting research funders, though limited participatory governance elements.",
+    "model": "claude",
+    "run": 1
+  },
+  {
+    "url": "https://oa.works",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://objector.ai",
+    "score": 45,
+    "criteria_score": 45,
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": null,
+    "rationale": "While Objector.ai enables citizen participation in planning processes through AI-powered objection tools, it lacks enforcement mechanisms, operates only at the consultation stage rather than full lifecycle governance, and doesn't build verifiable compliance infrastructure.",
+    "model": "claude",
+    "run": 1
+  },
+  {
+    "url": "https://okfn.org/en/projects/open-data-editor",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://oneproject.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://onodi.co/bisect",
+    "score": null,
+    "criteria_score": null,
+    "modifier_adj": null,
+    "confidence": "low",
+    "abstain": true,
+    "abstain_reason": "Insufficient evidence to evaluate against governance criteria - project appears to be a technical tool for CCTV review rather than a governance mechanism",
+    "rationale": "While the binary search tool for CCTV footage review is innovative, the dossier lacks evidence of enforcement infrastructure, participatory governance elements, or lifecycle governance features that would allow meaningful scoring against the constitutional criteria.",
+    "model": "claude",
+    "run": 1
+  },
+  {
+    "url": "https://openaccess.transparency.org.uk",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://openaudience.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://openbudgets.eu",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://opencollective.com",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://opencouncil.network",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://opencouncildata.co.uk",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://opendatacommunities.org",
+    "score": 25,
+    "criteria_score": 25,
+    "modifier_adj": 0,
+    "confidence": "high",
+    "abstain": false,
+    "abstain_reason": null,
+    "rationale": "While this government data platform provides transparency infrastructure, it lacks enforcement mechanisms, participatory governance features, lifecycle governance capabilities, and is being discontinued in 2025, making it a weak fit for the constitution's emphasis on enforceable, participatory governance systems.",
+    "model": "claude",
+    "run": 1
+  },
+  {
+    "url": "https://opendigitalplanning.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://openheartmind.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://openletter.earth",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://openparliament.ca",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://openprocurement.io",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://openreferraluk.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://opensupplyhub.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://orcid.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://osf.io",
+    "score": 25,
+    "criteria_score": 25,
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": null,
+    "rationale": "While OSF provides valuable research infrastructure with strong transparency features, it lacks direct enforcement mechanisms, meaningful participatory governance beyond academic communities, lifecycle governance capabilities, and institutional power to shape political technology governance.",
+    "model": "claude",
+    "run": 1
+  },
+  {
+    "url": "https://osintframework.com",
+    "score": null,
+    "criteria_score": null,
+    "modifier_adj": null,
+    "confidence": "low",
+    "abstain": true,
+    "abstain_reason": "Insufficient evidence to evaluate against governance-focused criteria - project appears to be a technical resource aggregator without clear governance dimensions",
+    "rationale": "The OSINT Framework is a curated collection of open-source intelligence tools that lacks the governance mechanisms, participatory elements, or institutional infrastructure required by the constitution's criteria.",
+    "model": "claude",
+    "run": 1
+  },
+  {
+    "url": "https://overton.io",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://p4ai.net",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://pageviews.wmcloud.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5351275",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://parliamentwatch.ug",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://parsethebill.com",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://parti.xyz",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://participedia.net",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://planit.org.uk",
+    "score": null,
+    "criteria_score": null,
+    "modifier_adj": null,
+    "confidence": "low",
+    "abstain": true,
+    "abstain_reason": "Dead link (404 status) prevents evaluation of current project status and implementation details",
+    "rationale": "Cannot assess enforcement mechanisms, participatory governance depth, or lifecycle coverage without access to active project information.",
+    "model": "claude",
+    "run": 1
+  },
+  {
+    "url": "https://plausible.io",
+    "score": 25,
+    "criteria_score": 25,
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": null,
+    "rationale": "While Plausible demonstrates privacy-by-design principles and GDPR compliance, it lacks the enforcement mechanisms, participatory governance structures, and lifecycle oversight capabilities that would align with a comprehensive political technology governance framework.",
+    "model": "claude",
+    "run": 1
+  },
+  {
+    "url": "https://plunkett.my.site.com/keepitinthecommunity/s",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://policyengine.org/uk",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://policykit.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://policymogul.com",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://postbug.com",
+    "score": 32,
+    "criteria_score": 32,
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": null,
+    "rationale": "PostBug enables citizen participation through postcards to decision-makers but lacks enforcement mechanisms, lifecycle governance, or institutional infrastructure building - it's a simple advocacy tool that doesn't address the deeper governance challenges this constitution prioritizes.",
+    "model": "claude",
+    "run": 1
+  },
+  {
+    "url": "https://privacybadger.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://programs.clearerthinking.org/understanding-your-morality",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://public.tableau.com/app/profile/citizensadvice/vizzes",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://publicaccountability.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://publicai.co",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://publicmediastack.com",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://pursuanceproject.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://quadraticvote.radicalxchange.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://radicle.xyz",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://relationaltechproject.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://remembertovote.org.uk",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://research.localgov.digital",
+    "score": null,
+    "criteria_score": null,
+    "modifier_adj": null,
+    "confidence": "low",
+    "abstain": true,
+    "abstain_reason": "Insufficient evidence to evaluate against enforcement, participatory governance, lifecycle, and compute governance criteria - appears to be a research repository without clear governance mechanisms",
+    "rationale": "The dossier describes a user research repository for local government but lacks information about governance structures, enforcement mechanisms, or participatory elements needed to score against the constitution's criteria.",
+    "model": "claude",
+    "run": 1
+  },
+  {
+    "url": "https://richardpope.org/2017/03/05/beckton-a-tool-to-build",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://right-to-know.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://riseup.net",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://riversentiment.app",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://schema.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://sci-hub.se",
+    "score": 15,
+    "criteria_score": 15,
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": null,
+    "rationale": "While Sci-Hub democratizes access to research, it operates through copyright circumvention rather than building enforceable governance frameworks, lacks participatory mechanisms, and represents individual direct action rather than institutional reform.",
+    "model": "claude",
+    "run": 1
+  },
+  {
+    "url": "https://secfirst.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://securedrop.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://semanticclimate.github.io",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://shareyourpaper.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://site.urbanistai.com",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://snowdrift.coop",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://sobre.ejparticipe.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://societyforhopefultechnologists.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://sourceafrica.net",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://soweego.readthedocs.io",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://spacetu.be",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://spartacus.app",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://standards.theodi.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://strikemap.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://talktothecity.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://tech-coops.xyz",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://the-list.uk",
+    "score": 15,
+    "criteria_score": 15,
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": null,
+    "rationale": "While The List provides transparency infrastructure for UK nonprofit funding, it lacks enforcement mechanisms, participatory governance features, lifecycle oversight capabilities, and institutional backing that would align with the constitution's emphasis on enforceable, participatory, and comprehensive governance systems.",
+    "model": "claude",
+    "run": 1
+  },
+  {
+    "url": "https://thecircuit.cc",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://thegovernmentsays.com",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://theodi.org/insights/reports/registers-and-collaboration-making-lists-we-can-trust-report",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://timecounts.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://tracking-template-38b4c.web.app",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://trends.whotargets.me",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://turbophonebank.com",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://turkopticon.ucsd.edu",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://unpaywall.org/products/extension",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://upgrader.gapminder.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://urbit.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://vframe.io",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://viewpoints.xyz",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://violationtrackeruk.goodjobsfirst.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://voteforpolicies.org.uk",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://wardwatch.uk",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://web.archive.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://whoisology.com",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://whopostedwhat.com",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.agenciesforgood.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.campaigntracker.nl/en",
+    "score": 68,
+    "criteria_score": 68,
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": null,
+    "rationale": "Campaign Tracker demonstrates strong transparency enforcement through systematic tracking of political advertising and AI-generated content, meaningful civic participation through open data access, and lifecycle monitoring of campaigns, though it lacks the technical verification infrastructure and cross-jurisdictional scope that would elevate it to the highest tier of political technology projects.",
+    "model": "claude",
+    "run": 1
+  },
+  {
+    "url": "https://www.communitytech.network",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.consoc.io",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.crowdjustice.com",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.csail.mit.edu/research/wikum-bridging-discussion-systems-and-wikis-collective-summarization",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.deliberaide.com",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.demnext.org/projects/delibtech-network",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.dfos.com",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.discourse.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.donotpay.com",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.dsc.org.uk/publication/the-guide-to-major-trusts-2025-26",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.fixmystreet.com",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.forms.service.gov.uk",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.givefood.org.uk",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.globaleaks.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.gov.uk/service-manual",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.govocal.com",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.govtrack.us",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.govwise.ai/en",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.hotosm.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.localintelligencehub.com",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.loomio.org",
+    "score": 72,
+    "criteria_score": 72,
+    "modifier_adj": 0,
+    "confidence": "high",
+    "abstain": false,
+    "abstain_reason": null,
+    "rationale": "Loomio strongly enables participatory governance (C2) and builds democratic infrastructure (C4) through its collaborative decision-making platform, with moderate contributions to enforcement through transparent decision records (C1) and lifecycle governance through continuous engagement (C3), though it lacks technical verification mechanisms and supply chain focus.",
+    "model": "claude",
+    "run": 1
+  },
+  {
+    "url": "https://www.marksoutoftenancy.com",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.martus.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.mastodonc.com",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.meet.coop",
+    "score": 72,
+    "criteria_score": 72,
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": null,
+    "rationale": "Strong on participatory governance (C2) through cooperative model and institutional infrastructure (C4) via member-democratic decision-making, moderate on enforcement (C1) through cooperative bylaws, but limited evidence on lifecycle governance (C3) or compute verification (C5).",
+    "model": "claude",
+    "run": 1
+  },
+  {
+    "url": "https://www.mptwitterbios.co.uk",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.mpwatch.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.myaction.center",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.mysociety.org/climate/neighbourhood-warmth",
+    "score": null,
+    "criteria_score": null,
+    "modifier_adj": null,
+    "confidence": "low",
+    "abstain": true,
+    "abstain_reason": "Insufficient evidence to evaluate enforcement mechanisms, governance structures, or lifecycle approach for this early-stage climate platform",
+    "rationale": "The dossier provides minimal information about how this platform enables enforceable governance or meaningful participation beyond basic team formation, making constitutional evaluation impossible.",
+    "model": "claude",
+    "run": 1
+  },
+  {
+    "url": "https://www.notifications.service.gov.uk",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.objector.ai",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.open-contracting.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.opencrvs.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.openorigins.com",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.openownership.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.opensanctions.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.oporaua.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.organise.org.uk",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.otree.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.papertree.earth",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.parallelparliament.co.uk",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.payments.service.gov.uk",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.plinth.org.uk",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.polimonitor.com",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.polimorphic.com",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.prolific.com",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.publiceditor.io",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.rightsdd.com",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.shareddigitalguides.org.uk",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.shineyoureye.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.sign-in.service.gov.uk",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.teachingpublicservice.digital",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.theyworkforyou.com",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.torproject.org",
+    "score": 35,
+    "criteria_score": 35,
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": null,
+    "rationale": "While Tor provides critical privacy infrastructure that enables some forms of democratic participation, it lacks the enforcement mechanisms, participatory governance structures, and lifecycle oversight that define this constitutional framework.",
+    "model": "claude",
+    "run": 1
+  },
+  {
+    "url": "https://www.ushahidi.com",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.watchduty.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.welivedit.ai",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.whatdotheyknow.com",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.whatgov.co.uk",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.wikidata.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.workerinfoexchange.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.workincharities.co.uk",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.writetothem.com",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "url": "https://www.yoti.com",
+    "score": 25,
+    "criteria_score": 25,
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": null,
+    "rationale": "While Yoti builds verification infrastructure that could enable enforcement (C1), it primarily serves private sector compliance needs rather than democratic governance, lacks participatory elements (C2), focuses on single-point verification rather than lifecycle governance (C3), and operates as a proprietary commercial service rather than public infrastructure (C4).",
+    "model": "claude",
+    "run": 1
+  },
+  {
+    "url": "https://yourtracka.org",
+    "score": 72,
+    "criteria_score": 72,
+    "modifier_adj": 0,
+    "confidence": "high",
+    "abstain": false,
+    "abstain_reason": null,
+    "rationale": "Tracka demonstrates strong participatory governance (C2) through community monitoring of public projects and moderate enforcement capabilities (C1) via transparency and accountability mechanisms, though it lacks technical verification infrastructure and comprehensive lifecycle governance approaches.",
+    "model": "claude",
+    "run": 1
+  },
+  {
+    "url": "https://yrpri.org",
+    "score": null,
+    "abstain": true,
+    "abstain_reason": "API error: Expecting value: line 1 column 1 (char 0)",
+    "model": "claude",
+    "run": 1,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  }
+]

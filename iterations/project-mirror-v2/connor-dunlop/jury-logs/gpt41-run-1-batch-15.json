@@ -1,0 +1,247 @@
+[
+  {
+    "url": "https://benefits-calculator.turn2us.org.uk",
+    "score": 48,
+    "criteria_score": {
+      "C1": 8,
+      "C2": 10,
+      "C3": 10,
+      "C4": 6,
+      "C5": 7,
+      "C6": 7
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "The Turn2us Benefits Calculator is a well-established, widely-used civic tool that increases access to welfare information and has demonstrated social impact. However, it does not build enforceable governance infrastructure (C1), and its participatory governance is limited (C2), as it is not community-owned or co-governed. It does address lifecycle issues (C3) by updating for policy changes, and it is institutionally robust (C4), but lacks open-source transparency and deep participatory mechanisms. Academic citations and partnerships support its credibility, but it falls short of the constitution\u2019s strongest criteria.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://blog.kagi.com/slopstop",
+    "score": 51,
+    "criteria_score": {
+      "C1": 8,
+      "C2": 12,
+      "C3": 10,
+      "C4": 7,
+      "C5": 8,
+      "C6": 6
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "Kagi SlopStop provides a community-driven mechanism for detecting AI-generated spam, offering partial enforcement and participatory features, but lacks robust, verifiable governance infrastructure and full lifecycle oversight. Participation is meaningful for Kagi users, but governance power is limited to reporting rather than co-governance. The approach is innovative but falls short of the constitution's high bar for enforceability and institutional infrastructure.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://bonfirenetworks.org",
+    "score": 72,
+    "criteria_score": {
+      "C1": 12,
+      "C2": 18,
+      "C3": 14,
+      "C4": 10,
+      "C5": 8,
+      "C6": 10
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "Bonfire demonstrates strong participatory and deliberative governance through its cooperative and community-driven model, and addresses lifecycle governance by supporting community-defined policies and open-source transparency. However, it is weaker on enforceable verification infrastructure, relying more on voluntary compliance and lacking robust technical enforcement mechanisms. Its institutional infrastructure is moderate, with some democratic features but limited scale and maturity. Overall, it aligns well with progressive civic values but falls short of the highest marks on enforcement and verification.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://bsky.app",
+    "score": 49,
+    "criteria_score": {
+      "C1": 10,
+      "C2": 12,
+      "C3": 10,
+      "C4": 6,
+      "C5": 5,
+      "C6": 6
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "Bluesky shows partial alignment with enforceable governance and participatory models (open-source moderation, some community input), but core governance remains centralized and lifecycle/verification infrastructure is limited; platform is still maturing on supply chain, democratic infrastructure, and deep co-governance.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://channel.org",
+    "score": 58,
+    "criteria_score": 58,
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "Channel.org advances participatory and deliberative governance by providing tools for public engagement, but there is insufficient evidence of enforceable governance infrastructure, full lifecycle oversight, or robust institutional mechanisms; thus, it aligns partially with the constitution's criteria but lacks strong signals on enforcement and verification.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://charitydigitalskills.co.uk",
+    "score": 36,
+    "criteria_score": {
+      "C1": 2,
+      "C2": 6,
+      "C3": 4,
+      "C4": 6,
+      "C5": 6,
+      "C6": 6,
+      "C7": 6
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "The project provides valuable sectoral insights but does not build enforceable governance infrastructure, enable co-governance, or address the full lifecycle; its main impact is informing stakeholders, not implementing progressive civic governance.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://charmverse.io",
+    "score": 54,
+    "criteria_score": {
+      "C1": 8,
+      "C2": 16,
+      "C3": 10,
+      "C4": 8,
+      "C5": 6,
+      "C6": 6
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "CharmVerse provides tools for participatory governance in web3 communities and supports some lifecycle and institutional features, but lacks robust enforcement/verification infrastructure and deeper democratic guarantees. Its open contribution model and partial open source approach support participation, but for-profit structure and limited evidence of enforceable governance lower the score.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://choosealicense.com",
+    "score": 45,
+    "criteria_score": {
+      "C1": 8,
+      "C2": 6,
+      "C3": 7,
+      "C4": 6,
+      "C5": 9,
+      "C6": 9
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "Choose a License provides important legal infrastructure for open source projects but does not itself create enforceable governance or participatory mechanisms; its impact is indirect, supporting digital rights and civic data through improved licensing choices rather than direct co-governance or lifecycle enforcement.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://citizenos.com/platform",
+    "score": 72,
+    "criteria_score": 72,
+    "modifier_adj": 0,
+    "confidence": "high",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "Citizen OS strongly enables participatory and deliberative governance (C2), with open-source, community-driven processes and documented real-world impact in Estonia. It partially addresses enforcement and verification infrastructure (C1) via integration with e-governance systems but lacks robust, technical enforcement mechanisms. Lifecycle governance (C3) is present in platform design but less so in enforcement post-deployment. Institutional infrastructure (C4) is solid, but global reach and disparity tracking (C5) are limited by adoption and language barriers. Overall, it aligns well with the constitution\u2019s priorities but falls short on enforceability and international equity.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://ciudadaniai.org",
+    "score": 70,
+    "criteria_score": 70,
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "Fundaci\u00f3n Ciudadan\u00eda Inteligente demonstrates strong participatory and lifecycle governance through its civic tech platforms and regional advocacy, but lacks clear evidence of enforceable verification infrastructure or deep technical compliance mechanisms as required by the constitution; thus, it aligns well with progressive civic values but falls short of the highest marks for enforcement and technical infrastructure.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://civiclick.com",
+    "score": 48,
+    "criteria_score": {
+      "C1": 6,
+      "C2": 12,
+      "C3": 6,
+      "C4": 6,
+      "C5": 6,
+      "C6": 6,
+      "C7": 6
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "CiviClick provides tools for grassroots advocacy and public engagement, supporting participatory and deliberative governance (C2) and some aspects of institutional infrastructure (C4). However, it does not demonstrate strong enforcement or verification infrastructure (C1), lifecycle governance (C3), or community ownership. The platform is for-profit, not open source, and lacks published performance metrics or replication materials, limiting its alignment with the constitution\u2019s strongest criteria.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://civicmatch.app",
+    "score": 38,
+    "criteria_score": 38,
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "CivicMatch provides a basic platform for civic engagement and connecting citizens with representatives, but there is insufficient evidence of enforceable governance mechanisms, genuine co-governance, or lifecycle oversight. Its impact appears limited to facilitating connections rather than building robust, enforceable, participatory, or lifecycle governance infrastructure as required by the constitution.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://civicpress.io",
+    "score": 54,
+    "criteria_score": 54,
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "CivicPress advances transparent local government by providing open-source infrastructure for publishing municipal records, but it falls short on enforceable governance, participatory co-governance, and full lifecycle oversight; its impact is limited by early-stage development, individual governance, and lack of mechanisms for community power or verification, aligning moderately with the constitution's priorities.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://civicrm.org",
+    "score": 64,
+    "criteria_score": 64,
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "CiviCRM is a robust, open source platform with significant global impact in supporting nonprofit and advocacy organizations. It strongly supports participatory and democratic infrastructure (C2, C4), and has clear lifecycle impact (C3) through its use in event management, donations, and contact management. However, it does not directly build enforceable governance or verification infrastructure (C1), focusing more on enabling organizational processes than on technical or institutional enforcement mechanisms. Its participatory features are meaningful but do not equate to genuine co-governance in the constitutional sense. Evidence is strong but mostly user-reported, with causation strength rated as anecdotal.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://civictech.guide",
+    "score": 43,
+    "criteria_score": {
+      "C1": 5,
+      "C2": 10,
+      "C3": 6,
+      "C4": 8,
+      "C5": 7,
+      "C6": 7
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "The Civic Tech Field Guide is a valuable, well-curated global database supporting civic tech awareness and networking, but it does not build enforceable governance infrastructure (C1), offers only moderate participatory governance (C2), and only lightly addresses lifecycle or institutional governance. Its main strength lies in information aggregation and field visibility, not in direct governance innovation or co-governance.",
+    "model": "gpt41",
+    "run": 1
+  }
+]

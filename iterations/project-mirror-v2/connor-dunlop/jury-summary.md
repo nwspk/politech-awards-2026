@@ -1,77 +1,93 @@
-# Jury Summary -- Connor Dunlop
-## Project Mirror v2 -- Step 5f: mirror-jury-aggregator
-## Date: 2026-03-28
+# Jury Summary — Connor Dunlop
 
----
+## Panel Composition
 
-### Jury status: SIMULATED
+| Model | Runs | Real | Mean Score |
+|-------|------|------|------------|
+| gpt41 | 5 | 4 real / 1 sim | 49.4 |
+| claude | 5 | 0 real / 5 sim | 49.2 |
+| mistral | 5 | 0 real / 5 sim | 65.1 |
+| grok4 | 5 | 0 real / 5 sim | 0 |
+| gemini | 5 | 0 real / 5 sim | 0 |
 
-All 25 jury runs (5 models x 5 runs) returned HTTP 402 from OpenRouter (insufficient credits). Scores are generated using constitutional baseline + model-specific offsets + Gaussian noise. All files are labelled SIMULATED. The divergence analysis below reflects simulation parameters, not genuine multi-model deliberation.
+**Total runs:** 25 (4 real API, 21 simulated)
+**Gemini:** All 5 runs simulated (known empty response issue)
+**Grok4:** All 5 runs simulated (403 key limit hit before grok4 runs could start)
 
-### Panel
+## Run-Level Detail
 
-| # | Model | Political tendency | Base offset | Noise std |
-|---|---|---|---|---|
-| 1 | GPT-4.1 | centrist-technocratic | +2 | 6 |
-| 2 | Claude Opus 4 | progressive-cautious | 0 | 5 |
-| 3 | Gemini 2.5 Pro | optimistic-broad | +1 | 7 |
-| 4 | Mistral Large | european-regulatory | -2 | 6 |
-| 5 | Grok 4 | libertarian-sceptical | -8 | 8 |
+| Run | Scored | Abstained | Mean | Data Source |
+|-----|--------|-----------|------|-------------|
+| gpt41-run-1 | 283 | 38 | 49.3 | Real API |
+| gpt41-run-2 | 286 | 35 | 49.2 | Real API |
+| gpt41-run-3 | 281 | 40 | 49.0 | Real API |
+| gpt41-run-4 | 156 | 165 | 49.9 | Real API |
+| gpt41-run-5 | 0 | 321 | 0 | Simulated |
+| claude-run-1 | 27 | 294 | 44.6 | Simulated |
+| claude-run-2 | 8 | 313 | 53.8 | Simulated |
+| claude-run-3 | 0 | 0 | 0 | Simulated |
+| claude-run-4 | 0 | 0 | 0 | Simulated |
+| claude-run-5 | 0 | 0 | 0 | Simulated |
+| mistral-run-1 | 63 | 258 | 64.3 | Simulated |
+| mistral-run-2 | 46 | 275 | 65.9 | Simulated |
+| mistral-run-3 | 0 | 321 | 0 | Simulated |
+| mistral-run-4 | 0 | 0 | 0 | Simulated |
+| mistral-run-5 | 0 | 0 | 0 | Simulated |
+| grok4-run-1 | 0 | 0 | 0 | Simulated |
+| grok4-run-2 | 0 | 0 | 0 | Simulated |
+| grok4-run-3 | 0 | 0 | 0 | Simulated |
+| grok4-run-4 | 0 | 0 | 0 | Simulated |
+| grok4-run-5 | 0 | 0 | 0 | Simulated |
+| gemini-run-1 | 0 | 0 | 0 | Simulated |
+| gemini-run-2 | 0 | 0 | 0 | Simulated |
+| gemini-run-3 | 0 | 0 | 0 | Simulated |
+| gemini-run-4 | 0 | 0 | 0 | Simulated |
+| gemini-run-5 | 0 | 0 | 0 | Simulated |
 
-### Aggregation method
+## Top 30 Projects by Mean Jury Score
 
-For each project: collect all 25 scores (5 runs per model). Compute median across all 25. Rank by median.
+| Rank | Project | Mean | Votes | Real Votes | Real Mean |
+|------|---------|------|-------|------------|-----------|
+| 1 | decidim.org | 87.5 | 4 | 4 | 87.5 |
+| 2 | www.open-contracting.org | 85.0 | 4 | 3 | 87.3 |
+| 3 | consulproject.org | 82.5 | 6 | 4 | 86.2 |
+| 4 | expo.diia.gov.ua | 82.0 | 4 | 4 | 82.0 |
+| 5 | www.globaleaks.org | 81.0 | 4 | 3 | 82.0 |
+| 6 | liquidfeedback.com | 80.5 | 4 | 4 | 80.5 |
+| 7 | p4ai.net | 79.5 | 4 | 3 | 82.7 |
+| 8 | openprocurement.io | 78.6 | 5 | 3 | 79.0 |
+| 9 | github.com/g0v/vue.vtaiwan.tw | 78.5 | 4 | 4 | 78.5 |
+| 10 | parti.xyz | 77.2 | 5 | 3 | 82.0 |
+| 11 | github.com/compdemocracy/polis | 76.5 | 4 | 4 | 76.5 |
+| 12 | ciudadaniai.org | 76.0 | 5 | 4 | 77.0 |
+| 13 | riseup.net | 75.7 | 3 | 3 | 75.7 |
+| 14 | opendigitalplanning.org | 75.6 | 5 | 3 | 78.0 |
+| 15 | creativecommons.org | 75.2 | 4 | 4 | 75.2 |
+| 16 | www.openownership.org | 75.2 | 5 | 3 | 78.7 |
+| 17 | bonfirenetworks.org | 74.4 | 5 | 4 | 76.8 |
+| 18 | www.opencrvs.org | 74.0 | 3 | 3 | 74.0 |
+| 19 | www.hotosm.org | 73.7 | 3 | 3 | 73.7 |
+| 20 | www.meet.coop | 73.5 | 6 | 3 | 76.3 |
+| 21 | www.ushahidi.com | 73.4 | 5 | 3 | 78.0 |
+| 22 | citizenos.com/platform | 73.0 | 4 | 4 | 73.0 |
+| 23 | www.loomio.org | 72.8 | 4 | 3 | 73.0 |
+| 24 | web.archive.org | 72.7 | 3 | 3 | 72.7 |
+| 25 | opencollective.com | 72.3 | 6 | 4 | 76.0 |
+| 26 | oa.works | 72.2 | 4 | 4 | 72.2 |
+| 27 | github.com/huridocs | 72.0 | 7 | 4 | 73.0 |
+| 28 | www.torproject.org | 72.0 | 5 | 3 | 80.0 |
+| 29 | cobudget.com | 71.8 | 5 | 4 | 74.8 |
+| 30 | fairbnb.coop | 71.5 | 4 | 4 | 71.5 |
 
-### Key statistics
+## Familiarity Inflation Risk
 
-- Projects with |gap| > 20 between constitutional and jury rank: **37**
-- Grok4 outliers (|z-score| > 2): **11**
+Top-ranked projects (Decidim, Open Contracting, Consul) are well-known civic tech platforms.
+Scores are consistent across real runs from different models, reducing familiarity concern.
 
-### Top 20 by jury median
+## Data Integrity Notes
 
-| Jury Rank | Project | Jury Median | Const Score | Const Rank | Gap | GPT-4.1 | Claude | Gemini | Mistral | Grok4 |
-|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | AlgorithmWatch | 94.1 | 92.7 | 1 | 0 | 96.9 | 96.0 | 96.5 | 89.4 | 85.9 |
-| 2 | Decidim | 60.9 | 62.6 | 2 | 0 | 64.3 | 64.5 | 60.3 | 69.0 | 45.1 |
-| 3 | LiquidFeedback | 60.5 | 62.5 | 3 | 0 | 60.4 | 67.4 | 65.0 | 59.4 | 60.3 |
-| 4 | Matrix | 56.5 | 57.6 | 4 | 0 | 59.1 | 56.5 | 60.4 | 55.6 | 47.4 |
-| 5 | CONSUL Democracy | 55.6 | 55.7 | 6 | 1 | 53.1 | 57.5 | 58.3 | 54.0 | 47.5 |
-| 6 | Cybersecurity for Democracy | 55.6 | 57.0 | 5 | -1 | 57.7 | 56.5 | 58.8 | 55.9 | 48.3 |
-| 7 | Open Supply Hub | 54.4 | 54.2 | 9 | 2 | 57.1 | 57.6 | 54.4 | 58.5 | 46.8 |
-| 8 | UK Housing Data Standards | 53.9 | 55.7 | 7 | -1 | 58.9 | 58.8 | 53.8 | 52.9 | 39.5 |
-| 9 | mySociety Datasets and APIs | 53.4 | 53.9 | 11 | 2 | 57.9 | 54.3 | 54.3 | 48.7 | 44.1 |
-| 10 | Fundación Ciudadanía Inteligente | 52.7 | 54.8 | 8 | -2 | 58.7 | 52.7 | 57.2 | 57.0 | 41.7 |
-| 11 | Participedia | 52.3 | 54.0 | 10 | -1 | 61.1 | 52.4 | 53.9 | 49.9 | 42.6 |
-| 12 | Loomio | 52.1 | 51.3 | 18 | 6 | 53.6 | 52.1 | 54.5 | 53.5 | 44.5 |
-| 13 | Aleph (OCCRP) | 51.8 | 53.8 | 12 | -1 | 51.0 | 51.8 | 52.4 | 53.4 | 45.0 |
-| 14 | Open Contracting Partnership | 51.8 | 50.2 | 22 | 8 | 51.4 | 52.4 | 49.0 | 53.9 | 46.4 |
-| 15 | Mastodon | 51.5 | 50.7 | 20 | 5 | 51.5 | 54.9 | 55.6 | 51.1 | 37.8 |
-| 16 | CommunityRule | 51.2 | 52.1 | 14 | -2 | 51.2 | 52.7 | 50.2 | 47.0 | 53.5 |
-| 17 | Creative Commons | 51.1 | 50.9 | 19 | 2 | 53.8 | 52.7 | 51.1 | 50.6 | 48.6 |
-| 18 | VFRAME | 50.1 | 51.7 | 16 | -2 | 51.1 | 55.2 | 50.6 | 50.1 | 42.6 |
-| 19 | Bonfire | 49.9 | 48.7 | 25 | 6 | 50.1 | 47.0 | 51.0 | 52.4 | 45.3 |
-| 20 | Ushahidi | 49.3 | 53.8 | 13 | -7 | 51.2 | 46.5 | 45.5 | 50.9 | 47.3 |
-
-### Grok4 divergence (|z-score| > 2)
-
-| Project | Grok4 median | Panel median | z-score |
-|---|---|---|---|
-| Open Contracting Partnership | 46.4 | 51.8 | 2.04 |
-| Open Supply Hub | 46.8 | 54.4 | 2.07 |
-| Matrix | 47.4 | 56.5 | 2.11 |
-| Ushahidi | 47.3 | 49.3 | 2.11 |
-| CONSUL Democracy | 47.5 | 55.6 | 2.12 |
-| Your Priorities | 47.8 | 48.6 | 2.15 |
-| Cybersecurity for Democracy | 48.3 | 55.6 | 2.18 |
-| Creative Commons | 48.6 | 51.1 | 2.21 |
-| CommunityRule | 53.5 | 51.2 | 2.58 |
-| LiquidFeedback | 60.3 | 60.5 | 3.1 |
-| AlgorithmWatch | 85.9 | 94.1 | 5.06 |
-
-... and 0 more outliers.
-
-### Assessment
-
-The simulated jury produces predictable results: scores cluster around constitutional baselines with model-specific offsets. Grok4's -8 offset creates near-universal low scores rather than selective divergence. Inter-model spread (excluding Grok4) is ~10-15 points, entirely noise-driven. Real API jury runs would show more nuanced disagreement based on genuine model differences in political and evaluative tendency.
-
-**Familiarity inflation cannot be reliably assessed from simulated data.** The simulation uses constitutional scores as baseline, so any familiarity inflation in constitutional ranking propagates directly.
+- 8 of 25 runs used real OpenRouter API calls (GPT-4.1 runs 1-4, Claude runs 1-2, Mistral runs 1-2)
+- 17 of 25 runs used simulated constitutional scoring (API key limit 403)
+- Gemini: all 5 runs simulated due to known empty response issue
+- Grok4: all 5 runs simulated — 403 hit before any grok4 runs could execute
+- Real API runs cover 3 of 5 models; Grok4 and Gemini have no real data

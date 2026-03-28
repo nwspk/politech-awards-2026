@@ -1,0 +1,77 @@
+[
+  {
+    "url": "https://algorithmwatch.org",
+    "score": 73,
+    "criteria_score": {
+      "C1": 12,
+      "C2": 15,
+      "C3": 13,
+      "C4": 10,
+      "C5": 8,
+      "C6": 8,
+      "C7": 7
+    },
+    "modifier_adj": 0,
+    "confidence": "high",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "AlgorithmWatch is a leading civic organization advancing algorithmic accountability and AI governance through research, advocacy, and tool-building. It demonstrates strong participatory and deliberative governance (C2), robust lifecycle oversight (C3), and contributes to institutional infrastructure (C4). However, while it develops some tools and open source projects, its core impact remains in advocacy, reporting, and policy, resulting in only moderate direct enforcement/verification infrastructure (C1). Its approach is highly aligned with progressive civic values and the inferred constitution, but lacks full technical implementation or enforceability at scale.",
+    "model": "gpt41",
+    "run": 4
+  },
+  {
+    "url": "https://all-our-ideas.citizens.is",
+    "score": 62,
+    "criteria_score": 62,
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "All Our Ideas is strong on participatory and deliberative governance (C2) and has some lifecycle relevance (C3), but lacks evidence of enforceable governance or verification infrastructure (C1), and its impact on institutional and democratic infrastructure (C4) is moderate. The platform is open source and internationally deployed, but it does not build the technical enforcement mechanisms or deep co-governance structures prioritized in the constitution.",
+    "model": "gpt41",
+    "run": 4
+  },
+  {
+    "url": "https://alltechishuman.org/responsible-tech-guide-2025",
+    "score": 38,
+    "criteria_score": 38,
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "The Responsible Tech Guide 2025 is a curated publication providing resources and pathways for responsible technology but does not build enforceable governance infrastructure, confer genuine co-governance power, or address the full lifecycle of technology governance. It serves as an informational and advocacy resource rather than a mechanism for enforceable, participatory, or lifecycle governance, aligning weakly with the constitution\u2019s core criteria.",
+    "model": "gpt41",
+    "run": 4
+  },
+  {
+    "url": "https://annas-archive.pm",
+    "score": 37,
+    "criteria_score": 37,
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "Anna's Archive advances digital rights and access to knowledge but lacks formal, enforceable governance, participatory mechanisms, and lifecycle oversight infrastructure; its governance is individual and informal, with limited evidence of technical or institutional compliance systems, resulting in a low-to-moderate fit with the constitution's core criteria.",
+    "model": "gpt41",
+    "run": 4
+  },
+  {
+    "url": "https://antievictionmappingproject.github.io/landlordtech",
+    "score": 48,
+    "criteria_score": {
+      "C1": 8,
+      "C2": 14,
+      "C3": 10,
+      "C4": 6,
+      "C5": 5,
+      "C6": 5
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "Landlord Tech Watch documents and analyzes landlord technologies and their impact on tenants, offering open data and educational resources that support advocacy and public awareness. It enables participation and supports lifecycle awareness but does not itself build enforceable governance or technical compliance infrastructure, limiting its score on enforcement. Its participatory dimension is moderate, as it is grassroots and open source, but evidence of direct co-governance is limited. The project is impactful for advocacy and research, but its institutional and technical governance infrastructure is modest.",
+    "model": "gpt41",
+    "run": 4
+  }
+]

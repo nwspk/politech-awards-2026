@@ -1,0 +1,244 @@
+[
+  {
+    "url": "https://gov.uk/find-local-consultations",
+    "score": 39,
+    "criteria_score": {
+      "C1": 2,
+      "C2": 6,
+      "C3": 3,
+      "C4": 5,
+      "C5": 6,
+      "C6": 5,
+      "C7": 4,
+      "C8": 4,
+      "C9": 4
+    },
+    "modifier_adj": 0,
+    "confidence": "high",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "The project enables discovery and participation in local consultations but does not provide enforceable governance or genuine co-governance; participation is limited to responding to consultations, not decision-making. Lifecycle, verification, and technical enforcement are weak, but it is a stable, widely used public sector platform with some democratic value.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://granicus.com/uk",
+    "score": 34,
+    "criteria_score": {
+      "C1": 6,
+      "C2": 8,
+      "C3": 7,
+      "C4": 5,
+      "C5": 5,
+      "C6": 3
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "Granicus provides digital government and civic engagement tools at scale, but offers limited transparency, no open source, and little evidence of enforceable governance or genuine co-governance. Its impact is primarily on communication and service delivery, with proprietary, vendor-claimed metrics and weak participatory or verification infrastructure.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://granitt.io",
+    "score": 44,
+    "criteria_score": 44,
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "Granitt advances government transparency and civic engagement but lacks evidence of enforceable governance infrastructure, genuine co-governance, or lifecycle oversight; it primarily enables information access and participation rather than enforceability or institutional transformation.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://grantnav.threesixtygiving.org",
+    "score": 44,
+    "criteria_score": 44,
+    "modifier_adj": 0,
+    "confidence": "high",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "GrantNav advances transparency in grant funding but relies on voluntary data publication, lacks enforceable governance, and offers limited participatory or lifecycle oversight; strong on open data standards but weak on enforceability and co-governance.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://greenpt.ai",
+    "score": 38,
+    "criteria_score": {
+      "C1": 6,
+      "C2": 3,
+      "C3": 7,
+      "C4": 5,
+      "C5": 7,
+      "C6": 4,
+      "C7": 6
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "GreenPT demonstrates some lifecycle and supply chain governance by focusing on renewable energy and privacy, but lacks enforceable governance mechanisms, genuine participatory structures, and independent verification of claims; overall, it aligns partially with the constitution but falls short on enforceability and co-governance.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://guardianproject.info",
+    "score": 72,
+    "criteria_score": 72,
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "Guardian Project demonstrates strong, long-standing impact on digital security and privacy for at-risk groups, with open-source tools used globally and some influence on institutional best practices. However, evidence for enforceable governance infrastructure, participatory co-governance, and full lifecycle governance is limited; the project is primarily technical and user-driven, not governance-focused.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://hact.org.uk/tools-and-services/uk-housing-data-standards",
+    "score": 55,
+    "criteria_score": {
+      "C1": 8,
+      "C2": 10,
+      "C3": 12,
+      "C4": 7,
+      "C5": 8,
+      "C6": 10
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "The UK Housing Data Standards project advances sector-wide data governance and regulatory alignment, but enforcement is largely voluntary and technical verification infrastructure is limited; participatory governance is present via sector partnerships, and lifecycle coverage is moderate, justifying a medium-confidence, mid-range score.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://hand-written-petition-scanner.streamlit.app",
+    "score": 32,
+    "criteria_score": {
+      "C1": 5,
+      "C2": 8,
+      "C3": 6,
+      "C4": 5,
+      "C5": 4,
+      "C6": 4
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "The project provides a technical tool that may facilitate civic participation by digitizing petitions, but lacks enforceable governance, participatory co-governance, or lifecycle oversight infrastructure. Its governance is individual, with no evidence of institutional mechanisms or community ownership. Impact is plausible but anecdotal, and the tool is currently unavailable, limiting verification.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://harmonica.chat",
+    "score": 48,
+    "criteria_score": {
+      "C1": 10,
+      "C2": 16,
+      "C3": 8,
+      "C4": 6,
+      "C5": 4,
+      "C6": 4
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "Harmonica enables participatory engagement and conversational surveys, supporting C2 (participation) but lacks strong evidence of enforceable governance, lifecycle coverage, or technical verification infrastructure required by the constitution. Impact claims are anecdotal and there is limited transparency or open-source practice, resulting in a moderate score.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://humbledata.org",
+    "score": 38,
+    "criteria_score": 38,
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "Humble Data Workshop advances digital literacy and inclusion through free, open-source workshops for underrepresented groups, scoring well on participatory and democratic criteria but lacking enforceable governance, verification infrastructure, and lifecycle governance, which are central to this constitution.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://idealist.org",
+    "score": 58,
+    "criteria_score": 58,
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "Idealist is a longstanding, globally impactful platform that enables access to social-impact opportunities and supports participatory democracy at the informational level. However, it does not build enforceable governance infrastructure, does not provide genuine co-governance or participatory power to affected communities, and primarily serves as a curated information resource rather than a tool for lifecycle or supply chain governance. Its governance is top-down (LLC, moderated, no community ownership), and while it has strong reach and some verification, it falls short on the constitution's core enforcement and participatory criteria.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://joss.theoj.org",
+    "score": 54,
+    "criteria_score": {
+      "C1": 8,
+      "C2": 12,
+      "C3": 10,
+      "C4": 8,
+      "C5": 8,
+      "C6": 8
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "JOSS is a strong open infrastructure for research software publication, with genuine community participation and transparent processes. However, it does not directly build enforceable governance or verification infrastructure, nor does it address supply chain or lifecycle governance in the sense intended by the constitution. Its participatory model and open access principles align with progressive civic values, but its impact on enforceable, lifecycle-wide governance is moderate.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://journaliststudio.google.com",
+    "score": 41,
+    "criteria_score": 41,
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "Journalist Studio provides valuable tools for journalists and supports digital rights, but governance is Google-controlled with limited external participation, lacks enforceable co-governance, and does not build verification or participatory infrastructure as required by the constitution.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://kialo.com",
+    "score": 53,
+    "criteria_score": 53,
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "Kialo provides a structured debate platform supporting participatory and deliberative governance (C2) and some lifecycle engagement (C3), but lacks enforceable governance infrastructure (C1), institutional power-sharing, or technical compliance mechanisms. Community power is limited to contribution, not co-governance. Platform is proprietary and moderation is platform-managed, not community-governed. Strong on deliberation, weak on enforceability and democratic infrastructure.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://labourxchange.uk",
+    "score": 42,
+    "criteria_score": {
+      "C1": 4,
+      "C2": 6,
+      "C3": 4,
+      "C4": 5,
+      "C5": 7,
+      "C6": 6,
+      "C7": 5,
+      "C8": 5
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "Labour Xchange advances fairer work access and tracks disparities, but lacks strong evidence of enforceable governance, deep co-governance, or technical compliance infrastructure. Its model is more service-oriented than structurally transformative on governance, though it does partner with public sector and addresses social inequalities.",
+    "model": "gpt41",
+    "run": 1
+  }
+]

@@ -1,0 +1,269 @@
+[
+  {
+    "url": "https://github.com/populatetools",
+    "score": 54,
+    "criteria_score": {
+      "C1": 8,
+      "C2": 18,
+      "C3": 10,
+      "C4": 8,
+      "C5": 6,
+      "C6": 4
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "Populate Tools offers open source civic engagement platforms with some municipal government partnerships and an open contribution model, supporting participatory governance (C2) and partial lifecycle coverage (C3). However, there is little evidence of enforceable governance infrastructure (C1), strong institutional mechanisms (C4), or robust verification and community ownership. The project aligns with progressive civic values but falls short on enforceability and technical compliance infrastructure central to the constitution.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://github.com/propublica/django-collaborative",
+    "score": 47,
+    "criteria_score": {
+      "C1": 10,
+      "C2": 8,
+      "C3": 7,
+      "C4": 7,
+      "C5": 8,
+      "C6": 7
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "django-collaborative is a collaborative data tool managed by ProPublica, supporting open source contributions but lacking strong enforcement, participatory governance, or lifecycle compliance infrastructure. It enables some participatory workflows for journalists but does not embody enforceable governance, deep co-governance, or technical compliance verification as required by the constitution. Its governance is institutionally managed with limited community ownership or democratic infrastructure.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://github.com/radicalxchange/rxc-voice",
+    "score": 54,
+    "criteria_score": {
+      "C1": 30,
+      "C2": 80,
+      "C3": 40,
+      "C4": 60,
+      "C5": 50
+    },
+    "modifier_adj": -10,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "RxC Voice meaningfully advances participatory and deliberative governance (C2) by leveraging quadratic voting and funding, but is weaker on enforceable verification infrastructure (C1) and full lifecycle governance (C3), as it lacks robust mechanisms for enforcement and post-deployment monitoring. The project is open source and institutionally backed, but remains primarily a platform for deliberation rather than enforceable governance. Modifier adjustment reflects dependency risks and limited evidence of technical compliance infrastructure.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://github.com/rahvaalgatus/rahvaalgatus",
+    "score": 58,
+    "criteria_score": {
+      "C1": 10,
+      "C2": 18,
+      "C3": 12,
+      "C4": 8,
+      "C5": 6,
+      "C6": 4
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "Rahvaalgatus is a well-established, open-source e-petition platform fostering participatory democracy in Estonia. It excels in enabling meaningful citizen participation (C2) and supports community ownership, but lacks strong, enforceable governance or verification infrastructure (C1) and does not span the full policy lifecycle (C3). Its institutional integration and technical depth are moderate, and there is limited evidence of robust supply chain or lifecycle governance. The project aligns with progressive civic values but falls short of the constitution\u2019s highest standards on enforcement and technical infrastructure.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://github.com/ribenamaplesyrup/sugartrail",
+    "score": 42,
+    "criteria_score": 42,
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "Sugartrail provides open-source tools for visualizing company networks, supporting transparency and investigative work, but lacks evidence of enforceable governance mechanisms, participatory co-governance, or lifecycle oversight; its contribution is mainly informational, not institutional or infrastructural.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://github.com/sentinelteam/grim",
+    "score": 46,
+    "criteria_score": 46,
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "GRIM provides valuable simulation tools for global catastrophic risk and AI safety, but there is no evidence it builds enforceable governance or participatory co-governance infrastructure; its focus is on risk foresight and scenario modeling, not lifecycle or institutional enforcement, so it only partially aligns with the constitution's strongest criteria.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://github.com/stanfordcdt/pb",
+    "score": 54,
+    "criteria_score": {
+      "C1": 8,
+      "C2": 18,
+      "C3": 10,
+      "C4": 7,
+      "C5": 6,
+      "C6": 5
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "The Stanford Participatory Budgeting Platform strongly enables participatory governance (C2) by facilitating citizen involvement in budgeting decisions, but lacks robust enforcement/verification infrastructure (C1) and does not address the full lifecycle of governance (C3) beyond the voting process. Its academic governance model limits genuine community ownership, and there is little evidence of supply chain or technical compliance mechanisms. The project is open source and has been deployed in several US cities, but remains institutionally driven rather than community-governed.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://github.com/thicknavyrain/uk_elections_leaflets",
+    "score": 36,
+    "criteria_score": {
+      "C1": 6,
+      "C2": 4,
+      "C3": 6,
+      "C4": 4,
+      "C5": 4,
+      "C6": 4,
+      "C7": 4,
+      "C8": 4
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "The project increases transparency and access to campaign materials, supporting lifecycle and civic data governance, but lacks enforceable governance, participatory mechanisms, or institutional infrastructure; it is a solo, grassroots tool with limited scope for co-governance or verification.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://github.com/travisbrown/birdwatch",
+    "score": 48,
+    "criteria_score": {
+      "C1": 6,
+      "C2": 12,
+      "C3": 8,
+      "C4": 6,
+      "C5": 7,
+      "C6": 9
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "The project provides valuable transparency and data infrastructure for analyzing X's Community Notes, supporting platform accountability and research. However, it does not itself build enforceable governance or participatory mechanisms\u2014rather, it enables external scrutiny and research. Its impact on lifecycle and institutional governance is indirect, and its single-maintainer status and dependency on X's data policies limit enforceability and sustainability.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://github.com/tulir/whatsmeow",
+    "score": 23,
+    "criteria_score": {
+      "C1": 2,
+      "C2": 2,
+      "C3": 2,
+      "C4": 2,
+      "C5": 3,
+      "C6": 3,
+      "C7": 3,
+      "C8": 3
+    },
+    "modifier_adj": 3,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "whatsmeow is a technically impressive, open-source project with international reach and underdog status, but it lacks enforceable governance, participatory mechanisms, and lifecycle oversight, operating as a solo-maintained tool with limited civic infrastructure impact.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://github.com/vbuterin/dao",
+    "score": 38,
+    "criteria_score": {
+      "C1": 8,
+      "C2": 8,
+      "C3": 6,
+      "C4": 6,
+      "C5": 5,
+      "C6": 5
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "The Standard DAO Framework was a pioneering effort in decentralized governance, providing open-source infrastructure for enforceable rules (C1) and participatory mechanisms (C2), but its historical vulnerabilities, lack of ongoing development, and limited evidence of lifecycle or institutional robustness (C3, C4) constrain its alignment with the constitution\u2019s enforceability and co-governance ideals.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://github.com/whotargetsme/ad-transparency-standards/blob/main/implement.md",
+    "score": 54,
+    "criteria_score": 54,
+    "modifier_adj": 0,
+    "confidence": "high",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "The project is strong on transparency, international standards, and lifecycle coverage, but scores lower on enforceability and participatory co-governance due to reliance on voluntary platform adoption and lack of robust enforcement mechanisms.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://github.com/ytdl-org/youtube-dl",
+    "score": 38,
+    "criteria_score": {
+      "C1": 5,
+      "C2": 10,
+      "C3": 8,
+      "C4": 5,
+      "C5": 4,
+      "C6": 6
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "youtube-dl is a widely used grassroots tool with strong community ownership and open governance, but it does not build enforceable governance infrastructure or enable participatory co-governance in the sense required by the constitution. Its governance is decentralized and participatory for contributors, but not for affected communities at large. It addresses lifecycle maintenance but not full lifecycle governance or institutional infrastructure. Enforcement and verification mechanisms are absent beyond code review and community norms.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://globalfactcheck.bot",
+    "score": 52,
+    "criteria_score": {
+      "C1": 8,
+      "C2": 12,
+      "C3": 10,
+      "C4": 8,
+      "C5": 7,
+      "C6": 7
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "Global Fact-Check Bot (GFC) provides a valuable tool for fact-checking and citizen empowerment at scale, supporting participatory governance (C2) and lifecycle monitoring (C3) through its platform and partnerships. However, it falls short on enforceable governance infrastructure (C1) as it does not build mechanisms for rule enforcement, and its institutional infrastructure (C4) is moderate, lacking open-source transparency and strong democratic co-governance. The project is impactful but more consultative than co-governing, with limited technical enforcement and verification.",
+    "model": "gpt41",
+    "run": 1
+  },
+  {
+    "url": "https://gordonguthrie.github.io/frankensteinbill",
+    "score": 48,
+    "criteria_score": {
+      "C1": 8,
+      "C2": 10,
+      "C3": 10,
+      "C4": 8,
+      "C5": 6,
+      "C6": 6
+    },
+    "modifier_adj": 0,
+    "confidence": "medium",
+    "abstain": false,
+    "abstain_reason": "",
+    "rationale": "Frankenstein Bill provides educational and analytical resources for understanding digital government 'speedbumps,' indirectly informing policy and service design. It does not build enforceable governance or participatory infrastructure, but it does contribute to lifecycle and institutional awareness. Its impact is indirect, with limited participatory or enforcement mechanisms, and is constrained by being a solo, low-maintenance project.",
+    "model": "gpt41",
+    "run": 1
+  }
+]
