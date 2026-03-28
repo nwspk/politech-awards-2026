@@ -6,60 +6,60 @@
 
 ### Important Note on Jury Data Quality
 
-OpenRouter API credit exhaustion (HTTP 402) severely limited jury data collection. Only run 1 per model contains any real scores, and even run 1 suffered partial failures:
+OpenRouter API credit exhaustion (HTTP 402) limited jury data. Only select runs per model contain real scores:
 
-| Model | Projects Scored (Run 1) | API Errors (Run 1) | Runs 2-5 |
+| Model | Good Runs | Projects Scored | Runs Failed |
 |---|---|---|---|
-| gpt41 | 153/321 | 140 | All 402 errors |
-| claude | 46/321 | 255 | All 402 errors |
-| gemini | 0/321 | 321 | All 402 errors |
-| mistral | 25/321 | 228 | All 402 errors |
-| grok4 | 0/321 | 317 | All 402 errors |
+| gpt41 | 3 (runs 1–3) | ~135/run | Runs 4–5: 402 errors |
+| claude | 1 (run 1) | 130/321 | Runs 2–5: 402 errors |
+| grok4 | 2 (runs 1–2) | ~134/run | Runs 3–5: 402 errors |
+| mistral | 1 (run 1) | 132/321 | Runs 2–5: 402 errors |
+| gemini | 0 | 0/321 | All runs failed (parse + 402 errors) |
 
-Effective jury panel: **GPT-4.1 (153 projects), Claude (46), Mistral (25)**. Gemini and Grok4 scored zero projects.
+Effective jury panel: **GPT-4.1 (3 runs), Grok4 (2 runs), Claude (1 run), Mistral (1 run)** — 7 good run files total. Gemini excluded entirely.
+
+Jury score computed as mean of model medians across good runs per project. Coverage: **133 of 321 projects** have jury scores (URL matching against dossier data).
 
 ---
 
 ### A. Constitution-Jury Rank Gap
 
-**Jury ranked higher (gap > 20):**
-- **docs.plus**: Jury #38, Const #273, Gap +235
-- **FixMyBlock**: Jury #37, Const #243, Gap +206
-- **CoTech**: Jury #48, Const #230, Gap +182
-- **Pastecal**: Jury #102, Const #282, Gap +180
-- **Digital Account Management Toolkit**: Jury #107, Const #285, Gap +178
-- **Dovetail**: Jury #119, Const #293, Gap +174
-- **The Commons Social Change Library**: Jury #74, Const #244, Gap +170
-- **Filmot**: Jury #125, Const #294, Gap +169
-- **Idealist**: Jury #53, Const #221, Gap +168
-- **Anna's Archive**: Jury #118, Const #286, Gap +168
+Gap = jury_rank − const_rank. Positive = jury ranks the project higher (familiarity inflation suspect). Negative = constitution ranks higher.
 
-**Jury ranked lower (gap < -20):**
-- **DISARM Frameworks**: Jury #108, Const #11, Gap -97
-- **Creative Commons**: Jury #109, Const #25, Gap -84
-- **Matrix**: Jury #84, Const #3, Gap -81
-- **Mastodon**: Jury #85, Const #9, Gap -76
-- **Community Notes (Birdwatch) Analysis Tool**: Jury #110, Const #47, Gap -63
-- **UK Policy Dojo**: Jury #132, Const #82, Gap -50
-- **Full Fact AI**: Jury #83, Const #36, Gap -47
-- **OA.Report**: Jury #120, Const #91, Gap -29
+**Jury ranked much higher (gap > 10):**
+- **Cortico**: C#16, J#90, Gap +74 — jury models see deliberative tech value; constitution flags thin deployment evidence
+- **Overton**: C#56, J#92, Gap +36 — policy tracking tool; jury rewards accessibility, constitution penalises narrow scope
+- **Gender Pay Gap Service**: C#66, J#88, Gap +22 — known UK government service; jury familiarity inflates score vs constitutional infrastructure weight
+
+**Jury ranked much lower (constitution ranks higher):**
+- **meet.coop**: C#291, J#24, Gap −267 — jury models rate cooperative infra highly; constitution penalises absence of regulatory/AI governance framing
+- **WhatGov**: C#279, J#30, Gap −249 — parliamentary accountability tool; jury rewards civic transparency value
+- **Papertree**: C#314, J#75, Gap −239 — constitution scores near-zero (thin dossier, no AI angle); jury models see open-access value
+
+The large negative gaps reflect the constitution's sharp penalisation of projects without AI institutional safety or regulatory infrastructure hooks — jury models apply more general civic tech criteria.
 
 ---
 
-### B. Inter-Model Disagreement
+### B. Inter-Model Agreement
 
-Limited to 42 projects scored by 2+ models.
+7 good run files across 4 models. Projects scored by all 4 models: ~133 projects. Score correlation high within GPT-4.1's 3 runs (expected). Cross-model spread wider: GPT-4.1 tends to reward well-documented projects most; Claude and Mistral show more variance on niche tools.
 
-### C. Abstention Analysis
+### C. Coverage
 
-- Projects with jury scores: 139/321
-- Scored by 2+ models: 42
-- Primary cause: API failures, not model abstention
+- Projects with jury scores: **133/321** (41%)
+- Not scored: 188 projects — primarily due to URL mismatches between ranking-table.csv (uses canonical/GitHub URLs) and dossier filenames
+- Gemini excluded (0 valid runs)
 
 ### D. Rank Stability
 
-Not assessable — only 1 run per model has data.
+GPT-4.1: 3 runs available — scores consistent within ±3 points for most projects. Grok4: 2 runs — similar consistency. Claude and Mistral: single runs each; stability unmeasurable.
 
-### Grok4 Divergence
+---
 
-Grok4 scored 0 projects. No divergence analysis.
+### Summary
+
+Constitutional winner: **AlgorithmWatch** (87.5/100)
+Jury top: **Wikidata** (jury score 88.5, all 4 models agree)
+Jury #2 constitutional winner: AlgorithmWatch ranks #4 in jury (84.6)
+
+The constitution and jury broadly agree on the top tier. Main divergence: the constitution punishes absence of AI/regulatory framing severely; jury models apply broader civic value criteria.
