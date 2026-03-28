@@ -1,0 +1,2897 @@
+{
+  "model": "gpt41",
+  "run": 2,
+  "evaluator": "aadi-kulkarni",
+  "note": "SIMULATED \u2014 Progressive civic lens perspective based on documented political alignment tendencies per jury-panel-rationale.md",
+  "projects": [
+    {
+      "url": "https://activisthandbook.org/",
+      "score": 49.3,
+      "criteria_score": 40.4,
+      "modifier_adj": 8.9,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://adhocracy.plus",
+      "score": 69.9,
+      "criteria_score": 57.3,
+      "modifier_adj": 12.6,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://aisafety.info",
+      "score": 35.7,
+      "criteria_score": 29.3,
+      "modifier_adj": 6.4,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://alaveteli.org",
+      "score": 69.4,
+      "criteria_score": 56.9,
+      "modifier_adj": 12.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://aleph.occrp.org",
+      "score": 78.4,
+      "criteria_score": 64.3,
+      "modifier_adj": 14.1,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://algorithmwatch.org",
+      "score": 70.7,
+      "criteria_score": 57.9,
+      "modifier_adj": 12.7,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://all-our-ideas.citizens.is",
+      "score": 63.2,
+      "criteria_score": 51.8,
+      "modifier_adj": 11.4,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://alltechishuman.org/responsible-tech-guide-2025",
+      "score": 38.0,
+      "criteria_score": 31.1,
+      "modifier_adj": 6.8,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://annas-archive.pm",
+      "score": 49.3,
+      "criteria_score": 40.4,
+      "modifier_adj": 8.9,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://antievictionmappingproject.github.io/landlordtech",
+      "score": 67.9,
+      "criteria_score": 55.6,
+      "modifier_adj": 12.2,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://aragon.org",
+      "score": 62.7,
+      "criteria_score": 51.4,
+      "modifier_adj": 11.3,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://arxiv.org",
+      "score": 52.3,
+      "criteria_score": 42.9,
+      "modifier_adj": 9.4,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://arxiv.org/abs/2005.13701",
+      "score": 50.8,
+      "criteria_score": 41.6,
+      "modifier_adj": 9.1,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://atlasofsurveillance.org",
+      "score": 40.4,
+      "criteria_score": 33.1,
+      "modifier_adj": 7.3,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://bellingcat.gitbook.io/toolkit",
+      "score": 75.5,
+      "criteria_score": 61.9,
+      "modifier_adj": 13.6,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://benefits-calculator.turn2us.org.uk",
+      "score": 59.7,
+      "criteria_score": 49.0,
+      "modifier_adj": 10.8,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://blog.kagi.com/slopstop",
+      "score": 51.3,
+      "criteria_score": 42.0,
+      "modifier_adj": 9.2,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://bonfirenetworks.org/",
+      "score": 62.0,
+      "criteria_score": 50.8,
+      "modifier_adj": 11.2,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://bsky.app",
+      "score": 56.7,
+      "criteria_score": 46.5,
+      "modifier_adj": 10.2,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://channel.org",
+      "score": 48.4,
+      "criteria_score": 39.7,
+      "modifier_adj": 8.7,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://charitydigitalskills.co.uk",
+      "score": 46.7,
+      "criteria_score": 38.3,
+      "modifier_adj": 8.4,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://charmverse.io/",
+      "score": 34.5,
+      "criteria_score": 28.3,
+      "modifier_adj": 6.2,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://choosealicense.com",
+      "score": 46.4,
+      "criteria_score": 38.1,
+      "modifier_adj": 8.4,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://citizenos.com/platform/",
+      "score": 81.2,
+      "criteria_score": 66.6,
+      "modifier_adj": 14.6,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://ciudadaniai.org",
+      "score": 69.8,
+      "criteria_score": 57.2,
+      "modifier_adj": 12.6,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://civiclick.com",
+      "score": 29.6,
+      "criteria_score": 24.3,
+      "modifier_adj": 5.3,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://civicmatch.app",
+      "score": 38.1,
+      "criteria_score": 31.2,
+      "modifier_adj": 6.9,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://civicpress.io/",
+      "score": 66.5,
+      "criteria_score": 54.5,
+      "modifier_adj": 12.0,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://civicrm.org",
+      "score": 59.2,
+      "criteria_score": 48.5,
+      "modifier_adj": 10.7,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://civictech.guide",
+      "score": 51.9,
+      "criteria_score": 42.6,
+      "modifier_adj": 9.3,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://ckan.org",
+      "score": 84.3,
+      "criteria_score": 69.2,
+      "modifier_adj": 15.2,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://climateaction.tech",
+      "score": 54.0,
+      "criteria_score": 44.2,
+      "modifier_adj": 9.7,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://cobudget.com",
+      "score": 68.8,
+      "criteria_score": 56.4,
+      "modifier_adj": 12.4,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://collab.land",
+      "score": 32.6,
+      "criteria_score": 26.7,
+      "modifier_adj": 5.9,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://collaborative-data.theodi.org",
+      "score": 45.1,
+      "criteria_score": 37.0,
+      "modifier_adj": 8.1,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://commonslibrary.org",
+      "score": 41.9,
+      "criteria_score": 34.3,
+      "modifier_adj": 7.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://communities.sunlightfoundation.com/methodology",
+      "score": 59.8,
+      "criteria_score": 49.0,
+      "modifier_adj": 10.8,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://communityrule.info",
+      "score": 61.5,
+      "criteria_score": 50.5,
+      "modifier_adj": 11.1,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://conservativepartyfunding.co.uk",
+      "score": 55.5,
+      "criteria_score": 45.5,
+      "modifier_adj": 10.0,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://constituteproject.org",
+      "score": 86.8,
+      "criteria_score": 71.2,
+      "modifier_adj": 15.6,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://consulproject.org",
+      "score": 86.2,
+      "criteria_score": 70.7,
+      "modifier_adj": 15.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://contractsfordatacollaboration.org",
+      "score": 85.3,
+      "criteria_score": 70.0,
+      "modifier_adj": 15.4,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://coops.tech",
+      "score": 41.5,
+      "criteria_score": 34.0,
+      "modifier_adj": 7.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://coralproject.net",
+      "score": 62.0,
+      "criteria_score": 50.8,
+      "modifier_adj": 11.2,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://cortico.ai/platform",
+      "score": 57.4,
+      "criteria_score": 47.1,
+      "modifier_adj": 10.3,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://cotsi.org/",
+      "score": 47.7,
+      "criteria_score": 39.1,
+      "modifier_adj": 8.6,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://creativecommons.org",
+      "score": 57.2,
+      "criteria_score": 46.9,
+      "modifier_adj": 10.3,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://cybersecurityfordemocracy.org",
+      "score": 83.3,
+      "criteria_score": 68.3,
+      "modifier_adj": 15.0,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://data.humdata.org",
+      "score": 64.0,
+      "criteria_score": 52.5,
+      "modifier_adj": 11.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://data.mysociety.org",
+      "score": 67.6,
+      "criteria_score": 55.4,
+      "modifier_adj": 12.2,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://datacollective.mozillafoundation.org/",
+      "score": 61.8,
+      "criteria_score": 50.7,
+      "modifier_adj": 11.1,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://datatrusts.uk",
+      "score": 59.3,
+      "criteria_score": 48.6,
+      "modifier_adj": 10.7,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://ddocs.new/",
+      "score": 58.1,
+      "criteria_score": 47.6,
+      "modifier_adj": 10.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://decelerator.org.uk",
+      "score": 26.1,
+      "criteria_score": 21.4,
+      "modifier_adj": 4.7,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://decidim.org",
+      "score": 74.5,
+      "criteria_score": 61.1,
+      "modifier_adj": 13.4,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://dev.reuselibrary.service.justice.gov.uk/",
+      "score": 64.3,
+      "criteria_score": 52.7,
+      "modifier_adj": 11.6,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://developer.parliament.uk",
+      "score": 46.9,
+      "criteria_score": 38.5,
+      "modifier_adj": 8.4,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://developers.democracyclub.org.uk/api/v1",
+      "score": 56.7,
+      "criteria_score": 46.5,
+      "modifier_adj": 10.2,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://dgc-cgn.org/product/can-dgsi-127/",
+      "score": 51.3,
+      "criteria_score": 42.1,
+      "modifier_adj": 9.2,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://digitalcharitylab.org/product/digital-account-management-toolkit",
+      "score": 38.6,
+      "criteria_score": 31.6,
+      "modifier_adj": 6.9,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://docs.holepunch.to",
+      "score": 50.9,
+      "criteria_score": 41.8,
+      "modifier_adj": 9.2,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://docs.plus",
+      "score": 45.7,
+      "criteria_score": 37.5,
+      "modifier_adj": 8.2,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://dogooder.co",
+      "score": 23.5,
+      "criteria_score": 19.3,
+      "modifier_adj": 4.2,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://dovetail.network",
+      "score": 32.5,
+      "criteria_score": 26.7,
+      "modifier_adj": 5.9,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://dunadyne.org",
+      "score": 31.7,
+      "criteria_score": 26.0,
+      "modifier_adj": 5.7,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://ecnl.org/publications/framework-meaningful-engagement-20?mc_cid=b1c5158063&mc_eid=a09c64ec38",
+      "score": 76.6,
+      "criteria_score": 62.8,
+      "modifier_adj": 13.8,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/wikipedia:in_the_news",
+      "score": 53.5,
+      "criteria_score": 43.8,
+      "modifier_adj": 9.6,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://entitledto.co.uk",
+      "score": 46.8,
+      "criteria_score": 38.4,
+      "modifier_adj": 8.4,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://esper.com/product",
+      "score": 61.2,
+      "criteria_score": 50.2,
+      "modifier_adj": 11.0,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://ethelo.com",
+      "score": 75.9,
+      "criteria_score": 62.3,
+      "modifier_adj": 13.7,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://expo.diia.gov.ua",
+      "score": 58.9,
+      "criteria_score": 48.3,
+      "modifier_adj": 10.6,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://fairbnb.coop",
+      "score": 55.9,
+      "criteria_score": 45.8,
+      "modifier_adj": 10.1,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://farmerchat.digitalgreen.org",
+      "score": 30.9,
+      "criteria_score": 25.3,
+      "modifier_adj": 5.6,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://fatebook.io",
+      "score": 42.7,
+      "criteria_score": 35.0,
+      "modifier_adj": 7.7,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://filmot.com",
+      "score": 27.9,
+      "criteria_score": 22.8,
+      "modifier_adj": 5.0,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://fixmyblock.org",
+      "score": 26.3,
+      "criteria_score": 21.6,
+      "modifier_adj": 4.7,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://fullfact.org/ai",
+      "score": 43.1,
+      "criteria_score": 35.3,
+      "modifier_adj": 7.8,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://gender-pay-gap.service.gov.uk",
+      "score": 45.7,
+      "criteria_score": 37.4,
+      "modifier_adj": 8.2,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://getodk.org",
+      "score": 78.1,
+      "criteria_score": 64.1,
+      "modifier_adj": 14.1,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://github.com/bellingcat/edgar",
+      "score": 53.7,
+      "criteria_score": 44.0,
+      "modifier_adj": 9.7,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://github.com/blacksky-algorithms/rsky",
+      "score": 52.5,
+      "criteria_score": 43.0,
+      "modifier_adj": 9.4,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://github.com/bluesky-social",
+      "score": 53.7,
+      "criteria_score": 44.0,
+      "modifier_adj": 9.7,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://github.com/cavi-au/consent-o-matic",
+      "score": 72.7,
+      "criteria_score": 59.6,
+      "modifier_adj": 13.1,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://github.com/compdemocracy/polis",
+      "score": 80.2,
+      "criteria_score": 65.7,
+      "modifier_adj": 14.4,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://github.com/cverluise/patcit",
+      "score": 54.4,
+      "criteria_score": 44.6,
+      "modifier_adj": 9.8,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://github.com/datakind/data-observation-toolkit",
+      "score": 73.3,
+      "criteria_score": 60.1,
+      "modifier_adj": 13.2,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://github.com/deepseek-ai/deepseek-v3",
+      "score": 36.8,
+      "criteria_score": 30.2,
+      "modifier_adj": 6.6,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://github.com/disarmfoundation/disarmframeworks",
+      "score": 71.3,
+      "criteria_score": 58.5,
+      "modifier_adj": 12.8,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://github.com/fission-codes/fission-codes",
+      "score": 55.6,
+      "criteria_score": 45.6,
+      "modifier_adj": 10.0,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://github.com/g0v/vue.vtaiwan.tw",
+      "score": 73.4,
+      "criteria_score": 60.2,
+      "modifier_adj": 13.2,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://github.com/geeksforsocialchange/placecal",
+      "score": 57.5,
+      "criteria_score": 47.2,
+      "modifier_adj": 10.4,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://github.com/huridocs",
+      "score": 76.7,
+      "criteria_score": 62.9,
+      "modifier_adj": 13.8,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://github.com/i-dot-ai/awesome-gov-datasets",
+      "score": 67.5,
+      "criteria_score": 55.3,
+      "modifier_adj": 12.1,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://github.com/ideal-postcodes/postcodes.io",
+      "score": 63.5,
+      "criteria_score": 52.1,
+      "modifier_adj": 11.4,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://github.com/kazad/pastecal",
+      "score": 56.0,
+      "criteria_score": 45.9,
+      "modifier_adj": 10.1,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://github.com/mastodon/mastodon",
+      "score": 74.2,
+      "criteria_score": 60.8,
+      "modifier_adj": 13.4,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://github.com/mikekelly/policy-dojo",
+      "score": 40.4,
+      "criteria_score": 33.2,
+      "modifier_adj": 7.3,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://github.com/notchia/dao-governance-surfaces",
+      "score": 49.0,
+      "criteria_score": 40.2,
+      "modifier_adj": 8.8,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://github.com/openpolitics/groupthink",
+      "score": 63.7,
+      "criteria_score": 52.2,
+      "modifier_adj": 11.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://github.com/podemos-info/participa",
+      "score": 50.8,
+      "criteria_score": 41.6,
+      "modifier_adj": 9.1,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://github.com/populatetools",
+      "score": 79.2,
+      "criteria_score": 64.9,
+      "modifier_adj": 14.3,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://github.com/propublica/django-collaborative",
+      "score": 43.7,
+      "criteria_score": 35.8,
+      "modifier_adj": 7.9,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://github.com/radicalxchange/rxc-voice",
+      "score": 50.3,
+      "criteria_score": 41.2,
+      "modifier_adj": 9.0,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://github.com/rahvaalgatus/rahvaalgatus",
+      "score": 46.1,
+      "criteria_score": 37.8,
+      "modifier_adj": 8.3,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://github.com/ribenamaplesyrup/sugartrail",
+      "score": 52.5,
+      "criteria_score": 43.0,
+      "modifier_adj": 9.4,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://github.com/sentinelteam/grim",
+      "score": 53.7,
+      "criteria_score": 44.0,
+      "modifier_adj": 9.7,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://github.com/stanfordcdt/pb",
+      "score": 72.8,
+      "criteria_score": 59.7,
+      "modifier_adj": 13.1,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://github.com/thicknavyrain/uk_elections_leaflets",
+      "score": 64.6,
+      "criteria_score": 53.0,
+      "modifier_adj": 11.6,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://github.com/travisbrown/birdwatch",
+      "score": 73.6,
+      "criteria_score": 60.3,
+      "modifier_adj": 13.2,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://github.com/tulir/whatsmeow",
+      "score": 58.8,
+      "criteria_score": 48.2,
+      "modifier_adj": 10.6,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://github.com/vbuterin/dao",
+      "score": 53.5,
+      "criteria_score": 43.9,
+      "modifier_adj": 9.6,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://github.com/whotargetsme/ad-transparency-standards/blob/main/implement.md",
+      "score": 74.6,
+      "criteria_score": 61.2,
+      "modifier_adj": 13.4,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://github.com/ytdl-org/youtube-dl",
+      "score": 56.1,
+      "criteria_score": 46.0,
+      "modifier_adj": 10.1,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://globalfactcheck.bot/",
+      "score": 50.2,
+      "criteria_score": 41.1,
+      "modifier_adj": 9.0,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://gordonguthrie.github.io/frankensteinbill",
+      "score": 56.7,
+      "criteria_score": 46.5,
+      "modifier_adj": 10.2,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://gov.uk/find-local-consultations",
+      "score": 58.4,
+      "criteria_score": 47.9,
+      "modifier_adj": 10.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://granicus.com/uk",
+      "score": 47.4,
+      "criteria_score": 38.8,
+      "modifier_adj": 8.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://granitt.io",
+      "score": 62.2,
+      "criteria_score": 51.0,
+      "modifier_adj": 11.2,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://grantnav.threesixtygiving.org",
+      "score": 63.8,
+      "criteria_score": 52.3,
+      "modifier_adj": 11.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://greenpt.ai/",
+      "score": 62.3,
+      "criteria_score": 51.1,
+      "modifier_adj": 11.2,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://guardianproject.info",
+      "score": 83.8,
+      "criteria_score": 68.8,
+      "modifier_adj": 15.1,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://hact.org.uk/tools-and-services/uk-housing-data-standards",
+      "score": 49.9,
+      "criteria_score": 40.9,
+      "modifier_adj": 9.0,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://hand-written-petition-scanner.streamlit.app",
+      "score": 43.4,
+      "criteria_score": 35.6,
+      "modifier_adj": 7.8,
+      "confidence": "low",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://harmonica.chat/",
+      "score": 55.8,
+      "criteria_score": 45.7,
+      "modifier_adj": 10.0,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://humbledata.org",
+      "score": 44.8,
+      "criteria_score": 36.7,
+      "modifier_adj": 8.1,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://idealist.org",
+      "score": 40.6,
+      "criteria_score": 33.3,
+      "modifier_adj": 7.3,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://joss.theoj.org",
+      "score": 56.4,
+      "criteria_score": 46.2,
+      "modifier_adj": 10.2,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://journaliststudio.google.com",
+      "score": 47.7,
+      "criteria_score": 39.1,
+      "modifier_adj": 8.6,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://kialo.com",
+      "score": 32.5,
+      "criteria_score": 26.6,
+      "modifier_adj": 5.8,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://labourxchange.uk",
+      "score": 53.1,
+      "criteria_score": 43.5,
+      "modifier_adj": 9.6,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://ladderhub.org/",
+      "score": 41.2,
+      "criteria_score": 33.8,
+      "modifier_adj": 7.4,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://landexplorer.coop",
+      "score": 52.3,
+      "criteria_score": 42.9,
+      "modifier_adj": 9.4,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://liberopinion.com",
+      "score": 57.3,
+      "criteria_score": 47.0,
+      "modifier_adj": 10.3,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://library.theengineroom.org",
+      "score": 56.4,
+      "criteria_score": 46.3,
+      "modifier_adj": 10.2,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://liquidfeedback.com",
+      "score": 67.1,
+      "criteria_score": 55.0,
+      "modifier_adj": 12.1,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://littlesis.org",
+      "score": 49.5,
+      "criteria_score": 40.5,
+      "modifier_adj": 8.9,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://local-deep-researcher-hnmh.vercel.app/",
+      "score": 44.2,
+      "criteria_score": 36.3,
+      "modifier_adj": 8.0,
+      "confidence": "low",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://localinsight.org",
+      "score": 54.3,
+      "criteria_score": 44.6,
+      "modifier_adj": 9.8,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://logos.co/",
+      "score": 53.1,
+      "criteria_score": 43.5,
+      "modifier_adj": 9.6,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://manifold.markets",
+      "score": 43.1,
+      "criteria_score": 35.3,
+      "modifier_adj": 7.8,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://mapit.mysociety.org",
+      "score": 63.7,
+      "criteria_score": 52.2,
+      "modifier_adj": 11.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://mapped.commonknowledge.coop",
+      "score": 36.4,
+      "criteria_score": 29.8,
+      "modifier_adj": 6.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://mapping.kids",
+      "score": 45.0,
+      "criteria_score": 36.9,
+      "modifier_adj": 8.1,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://matrix.org",
+      "score": 88.6,
+      "criteria_score": 72.6,
+      "modifier_adj": 15.9,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://medium.com/@abscond/membership-a-prototype-ea822b2683b",
+      "score": 39.4,
+      "criteria_score": 32.3,
+      "modifier_adj": 7.1,
+      "confidence": "low",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://medium.com/metagov/introducing-the-agreement-engine-bf03b6d5c16c",
+      "score": 37.3,
+      "criteria_score": 30.6,
+      "modifier_adj": 6.7,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://membersinterests.org.uk",
+      "score": 59.5,
+      "criteria_score": 48.8,
+      "modifier_adj": 10.7,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://meta.wikimedia.org/wiki/abstract_wikipedia",
+      "score": 46.9,
+      "criteria_score": 38.5,
+      "modifier_adj": 8.4,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://metaculus.com",
+      "score": 51.9,
+      "criteria_score": 42.5,
+      "modifier_adj": 9.3,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://metagov.org/projects/interop",
+      "score": 58.2,
+      "criteria_score": 47.7,
+      "modifier_adj": 10.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://missingnumbers.org",
+      "score": 39.7,
+      "criteria_score": 32.5,
+      "modifier_adj": 7.1,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://monitormamdani.com/",
+      "score": 57.4,
+      "criteria_score": 47.1,
+      "modifier_adj": 10.3,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://moralmachine.net",
+      "score": 37.9,
+      "criteria_score": 31.1,
+      "modifier_adj": 6.8,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://murmurations.network",
+      "score": 60.8,
+      "criteria_score": 49.9,
+      "modifier_adj": 10.9,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://navigator.oii.ox.ac.uk",
+      "score": 48.5,
+      "criteria_score": 39.7,
+      "modifier_adj": 8.7,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://nestr.io",
+      "score": 32.1,
+      "criteria_score": 26.4,
+      "modifier_adj": 5.8,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://newpublic.substack.com/p/introducing-roundabout-built-for",
+      "score": 30.9,
+      "criteria_score": 25.3,
+      "modifier_adj": 5.6,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://nookcrm.com",
+      "score": 34.2,
+      "criteria_score": 28.1,
+      "modifier_adj": 6.2,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://numfocus.org",
+      "score": 73.0,
+      "criteria_score": 59.8,
+      "modifier_adj": 13.1,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://nyaaya.org",
+      "score": 47.4,
+      "criteria_score": 38.9,
+      "modifier_adj": 8.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://nymtech.net",
+      "score": 50.6,
+      "criteria_score": 41.5,
+      "modifier_adj": 9.1,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://oa.report",
+      "score": 51.0,
+      "criteria_score": 41.8,
+      "modifier_adj": 9.2,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://oa.works/",
+      "score": 57.4,
+      "criteria_score": 47.1,
+      "modifier_adj": 10.3,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://objector.ai",
+      "score": 44.4,
+      "criteria_score": 36.4,
+      "modifier_adj": 8.0,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://okfn.org/en/projects/open-data-editor/",
+      "score": 83.7,
+      "criteria_score": 68.6,
+      "modifier_adj": 15.1,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://oneproject.org/",
+      "score": 43.6,
+      "criteria_score": 35.7,
+      "modifier_adj": 7.8,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://onodi.co/bisect/",
+      "score": 52.9,
+      "criteria_score": 43.3,
+      "modifier_adj": 9.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://openaccess.transparency.org.uk",
+      "score": 59.4,
+      "criteria_score": 48.7,
+      "modifier_adj": 10.7,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://openaudience.org",
+      "score": 27.1,
+      "criteria_score": 22.2,
+      "modifier_adj": 4.9,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://openbudgets.eu",
+      "score": 63.1,
+      "criteria_score": 51.8,
+      "modifier_adj": 11.4,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://opencollective.com",
+      "score": 61.9,
+      "criteria_score": 50.8,
+      "modifier_adj": 11.1,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://opencouncil.network",
+      "score": 77.7,
+      "criteria_score": 63.7,
+      "modifier_adj": 14.0,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://opencouncildata.co.uk",
+      "score": 33.3,
+      "criteria_score": 27.3,
+      "modifier_adj": 6.0,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://opendatacommunities.org",
+      "score": 60.4,
+      "criteria_score": 49.5,
+      "modifier_adj": 10.9,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://opendigitalplanning.org/",
+      "score": 76.4,
+      "criteria_score": 62.7,
+      "modifier_adj": 13.8,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://openheartmind.org",
+      "score": 43.1,
+      "criteria_score": 35.3,
+      "modifier_adj": 7.8,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://openletter.earth",
+      "score": 34.8,
+      "criteria_score": 28.6,
+      "modifier_adj": 6.3,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://openparliament.ca/",
+      "score": 76.2,
+      "criteria_score": 62.5,
+      "modifier_adj": 13.7,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://openprocurement.io",
+      "score": 73.1,
+      "criteria_score": 60.0,
+      "modifier_adj": 13.2,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://openreferraluk.org",
+      "score": 68.4,
+      "criteria_score": 56.1,
+      "modifier_adj": 12.3,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://opensupplyhub.org",
+      "score": 80.0,
+      "criteria_score": 65.6,
+      "modifier_adj": 14.4,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://orcid.org",
+      "score": 59.1,
+      "criteria_score": 48.5,
+      "modifier_adj": 10.6,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://osf.io",
+      "score": 80.2,
+      "criteria_score": 65.7,
+      "modifier_adj": 14.4,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://osintframework.com",
+      "score": 54.8,
+      "criteria_score": 44.9,
+      "modifier_adj": 9.9,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://overton.io",
+      "score": 35.5,
+      "criteria_score": 29.1,
+      "modifier_adj": 6.4,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://p4ai.net",
+      "score": 59.9,
+      "criteria_score": 49.2,
+      "modifier_adj": 10.8,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://pageviews.wmcloud.org",
+      "score": 59.9,
+      "criteria_score": 49.1,
+      "modifier_adj": 10.8,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5351275",
+      "score": 27.6,
+      "criteria_score": 22.6,
+      "modifier_adj": 5.0,
+      "confidence": "low",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://parliamentwatch.ug/",
+      "score": 48.9,
+      "criteria_score": 40.1,
+      "modifier_adj": 8.8,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://parsethebill.com",
+      "score": 46.5,
+      "criteria_score": 38.1,
+      "modifier_adj": 8.4,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://parti.xyz",
+      "score": 70.7,
+      "criteria_score": 58.0,
+      "modifier_adj": 12.7,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://participedia.net",
+      "score": 57.4,
+      "criteria_score": 47.1,
+      "modifier_adj": 10.3,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://planit.org.uk",
+      "score": 45.1,
+      "criteria_score": 37.0,
+      "modifier_adj": 8.1,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://plausible.io",
+      "score": 47.1,
+      "criteria_score": 38.6,
+      "modifier_adj": 8.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://plunkett.my.site.com/keepitinthecommunity/s",
+      "score": 30.3,
+      "criteria_score": 24.9,
+      "modifier_adj": 5.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://policyengine.org/uk",
+      "score": 83.3,
+      "criteria_score": 68.3,
+      "modifier_adj": 15.0,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://policykit.org",
+      "score": 47.2,
+      "criteria_score": 38.7,
+      "modifier_adj": 8.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://policymogul.com",
+      "score": 36.5,
+      "criteria_score": 30.0,
+      "modifier_adj": 6.6,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://postbug.com",
+      "score": 22.7,
+      "criteria_score": 18.6,
+      "modifier_adj": 4.1,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://privacybadger.org",
+      "score": 63.7,
+      "criteria_score": 52.2,
+      "modifier_adj": 11.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://programs.clearerthinking.org/understanding-your-morality/",
+      "score": 28.3,
+      "criteria_score": 23.2,
+      "modifier_adj": 5.1,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://public.tableau.com/app/profile/citizensadvice/vizzes",
+      "score": 45.2,
+      "criteria_score": 37.0,
+      "modifier_adj": 8.1,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://publicaccountability.org",
+      "score": 38.6,
+      "criteria_score": 31.7,
+      "modifier_adj": 7.0,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://publicai.co/",
+      "score": 69.1,
+      "criteria_score": 56.6,
+      "modifier_adj": 12.4,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://publicmediastack.com",
+      "score": 34.4,
+      "criteria_score": 28.2,
+      "modifier_adj": 6.2,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://pursuanceproject.org",
+      "score": 49.6,
+      "criteria_score": 40.6,
+      "modifier_adj": 8.9,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://quadraticvote.radicalxchange.org",
+      "score": 62.6,
+      "criteria_score": 51.4,
+      "modifier_adj": 11.3,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://radicle.xyz",
+      "score": 57.0,
+      "criteria_score": 46.8,
+      "modifier_adj": 10.3,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://relationaltechproject.org",
+      "score": 49.0,
+      "criteria_score": 40.2,
+      "modifier_adj": 8.8,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://remembertovote.org.uk",
+      "score": 33.3,
+      "criteria_score": 27.3,
+      "modifier_adj": 6.0,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://research.localgov.digital",
+      "score": 57.6,
+      "criteria_score": 47.2,
+      "modifier_adj": 10.4,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://richardpope.org/2017/03/05/beckton-a-tool-to-build",
+      "score": 48.6,
+      "criteria_score": 39.9,
+      "modifier_adj": 8.8,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://right-to-know.org",
+      "score": 40.0,
+      "criteria_score": 32.8,
+      "modifier_adj": 7.2,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://riseup.net",
+      "score": 45.3,
+      "criteria_score": 37.2,
+      "modifier_adj": 8.2,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://riversentiment.app",
+      "score": 62.5,
+      "criteria_score": 51.2,
+      "modifier_adj": 11.2,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://schema.org",
+      "score": 47.5,
+      "criteria_score": 38.9,
+      "modifier_adj": 8.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://sci-hub.se",
+      "score": 45.3,
+      "criteria_score": 37.2,
+      "modifier_adj": 8.2,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://secfirst.org",
+      "score": 61.4,
+      "criteria_score": 50.3,
+      "modifier_adj": 11.1,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://securedrop.org",
+      "score": 65.3,
+      "criteria_score": 53.6,
+      "modifier_adj": 11.8,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://semanticclimate.github.io",
+      "score": 47.2,
+      "criteria_score": 38.7,
+      "modifier_adj": 8.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://shareyourpaper.org",
+      "score": 64.8,
+      "criteria_score": 53.1,
+      "modifier_adj": 11.7,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://site.urbanistai.com",
+      "score": 64.9,
+      "criteria_score": 53.2,
+      "modifier_adj": 11.7,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://snowdrift.coop",
+      "score": 61.3,
+      "criteria_score": 50.3,
+      "modifier_adj": 11.0,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://sobre.ejparticipe.org",
+      "score": 49.9,
+      "criteria_score": 40.9,
+      "modifier_adj": 9.0,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://societyforhopefultechnologists.org",
+      "score": 16.0,
+      "criteria_score": 13.2,
+      "modifier_adj": 2.9,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://sourceafrica.net",
+      "score": 57.6,
+      "criteria_score": 47.2,
+      "modifier_adj": 10.4,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://soweego.readthedocs.io",
+      "score": 56.8,
+      "criteria_score": 46.6,
+      "modifier_adj": 10.2,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://spacetu.be",
+      "score": 41.9,
+      "criteria_score": 34.3,
+      "modifier_adj": 7.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://spartacus.app",
+      "score": 32.1,
+      "criteria_score": 26.3,
+      "modifier_adj": 5.8,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://standards.theodi.org",
+      "score": 86.3,
+      "criteria_score": 70.8,
+      "modifier_adj": 15.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://strikemap.org",
+      "score": 45.8,
+      "criteria_score": 37.6,
+      "modifier_adj": 8.2,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://talktothecity.org",
+      "score": 63.9,
+      "criteria_score": 52.4,
+      "modifier_adj": 11.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://tech-coops.xyz",
+      "score": 55.9,
+      "criteria_score": 45.8,
+      "modifier_adj": 10.1,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://the-list.uk",
+      "score": 37.2,
+      "criteria_score": 30.5,
+      "modifier_adj": 6.7,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://thecircuit.cc",
+      "score": 51.9,
+      "criteria_score": 42.6,
+      "modifier_adj": 9.3,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://thegovernmentsays.com",
+      "score": 74.0,
+      "criteria_score": 60.6,
+      "modifier_adj": 13.3,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://theodi.org/insights/reports/registers-and-collaboration-making-lists-we-can-trust-report",
+      "score": 41.7,
+      "criteria_score": 34.2,
+      "modifier_adj": 7.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://timecounts.org",
+      "score": 47.5,
+      "criteria_score": 39.0,
+      "modifier_adj": 8.6,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://tracking-template-38b4c.web.app",
+      "score": 36.1,
+      "criteria_score": 29.6,
+      "modifier_adj": 6.5,
+      "confidence": "low",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://trends.whotargets.me",
+      "score": 45.3,
+      "criteria_score": 37.1,
+      "modifier_adj": 8.2,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://turbophonebank.com",
+      "score": 34.5,
+      "criteria_score": 28.3,
+      "modifier_adj": 6.2,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://turkopticon.ucsd.edu",
+      "score": 65.0,
+      "criteria_score": 53.3,
+      "modifier_adj": 11.7,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://unpaywall.org/products/extension",
+      "score": 62.6,
+      "criteria_score": 51.3,
+      "modifier_adj": 11.3,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://upgrader.gapminder.org",
+      "score": 62.8,
+      "criteria_score": 51.5,
+      "modifier_adj": 11.3,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://urbit.org",
+      "score": 33.6,
+      "criteria_score": 27.6,
+      "modifier_adj": 6.1,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://vframe.io",
+      "score": 61.0,
+      "criteria_score": 50.0,
+      "modifier_adj": 11.0,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://viewpoints.xyz",
+      "score": 39.5,
+      "criteria_score": 32.4,
+      "modifier_adj": 7.1,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://violationtrackeruk.goodjobsfirst.org",
+      "score": 36.3,
+      "criteria_score": 29.8,
+      "modifier_adj": 6.5,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://voteforpolicies.org.uk",
+      "score": 38.2,
+      "criteria_score": 31.3,
+      "modifier_adj": 6.9,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://wardwatch.uk",
+      "score": 36.6,
+      "criteria_score": 30.0,
+      "modifier_adj": 6.6,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://web.archive.org",
+      "score": 76.2,
+      "criteria_score": 62.5,
+      "modifier_adj": 13.7,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://whoisology.com",
+      "score": 43.7,
+      "criteria_score": 35.8,
+      "modifier_adj": 7.9,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://whopostedwhat.com",
+      "score": 42.5,
+      "criteria_score": 34.9,
+      "modifier_adj": 7.7,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.agenciesforgood.org",
+      "score": 25.3,
+      "criteria_score": 20.8,
+      "modifier_adj": 4.6,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.campaigntracker.nl/en",
+      "score": 72.9,
+      "criteria_score": 59.8,
+      "modifier_adj": 13.1,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.communitytech.network",
+      "score": 41.1,
+      "criteria_score": 33.7,
+      "modifier_adj": 7.4,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.consoc.io",
+      "score": 27.3,
+      "criteria_score": 22.4,
+      "modifier_adj": 4.9,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.crowdjustice.com",
+      "score": 42.8,
+      "criteria_score": 35.1,
+      "modifier_adj": 7.7,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.csail.mit.edu/research/wikum-bridging-discussion-systems-and-wikis-collective-summarization",
+      "score": 44.1,
+      "criteria_score": 36.2,
+      "modifier_adj": 7.9,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.deliberaide.com",
+      "score": 56.9,
+      "criteria_score": 46.7,
+      "modifier_adj": 10.2,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.demnext.org/projects/delibtech-network",
+      "score": 42.5,
+      "criteria_score": 34.8,
+      "modifier_adj": 7.6,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.dfos.com",
+      "score": 38.0,
+      "criteria_score": 31.2,
+      "modifier_adj": 6.8,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.discourse.org",
+      "score": 36.7,
+      "criteria_score": 30.1,
+      "modifier_adj": 6.6,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.donotpay.com",
+      "score": 40.7,
+      "criteria_score": 33.4,
+      "modifier_adj": 7.3,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.dsc.org.uk/publication/the-guide-to-major-trusts-2025-26/",
+      "score": 22.8,
+      "criteria_score": 18.7,
+      "modifier_adj": 4.1,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.fixmystreet.com",
+      "score": 60.5,
+      "criteria_score": 49.6,
+      "modifier_adj": 10.9,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.forms.service.gov.uk",
+      "score": 71.5,
+      "criteria_score": 58.6,
+      "modifier_adj": 12.9,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.givefood.org.uk",
+      "score": 55.1,
+      "criteria_score": 45.2,
+      "modifier_adj": 9.9,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.globaleaks.org",
+      "score": 59.1,
+      "criteria_score": 48.4,
+      "modifier_adj": 10.6,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.gov.uk/service-manual",
+      "score": 54.3,
+      "criteria_score": 44.5,
+      "modifier_adj": 9.8,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.govocal.com",
+      "score": 58.8,
+      "criteria_score": 48.2,
+      "modifier_adj": 10.6,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.govtrack.us",
+      "score": 58.6,
+      "criteria_score": 48.1,
+      "modifier_adj": 10.6,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.govwise.ai/en",
+      "score": 43.0,
+      "criteria_score": 35.2,
+      "modifier_adj": 7.7,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.hotosm.org",
+      "score": 76.0,
+      "criteria_score": 62.3,
+      "modifier_adj": 13.7,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.localintelligencehub.com",
+      "score": 40.8,
+      "criteria_score": 33.4,
+      "modifier_adj": 7.3,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.loomio.org",
+      "score": 69.2,
+      "criteria_score": 56.7,
+      "modifier_adj": 12.4,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.marksoutoftenancy.com",
+      "score": 41.3,
+      "criteria_score": 33.8,
+      "modifier_adj": 7.4,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.martus.org",
+      "score": 60.5,
+      "criteria_score": 49.6,
+      "modifier_adj": 10.9,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.mastodonc.com",
+      "score": 84.6,
+      "criteria_score": 69.3,
+      "modifier_adj": 15.2,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.meet.coop",
+      "score": 49.1,
+      "criteria_score": 40.2,
+      "modifier_adj": 8.8,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.mptwitterbios.co.uk",
+      "score": 47.5,
+      "criteria_score": 38.9,
+      "modifier_adj": 8.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.mpwatch.org",
+      "score": 34.0,
+      "criteria_score": 27.9,
+      "modifier_adj": 6.1,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.myaction.center",
+      "score": 24.3,
+      "criteria_score": 20.0,
+      "modifier_adj": 4.4,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.mysociety.org/climate/neighbourhood-warmth",
+      "score": 47.9,
+      "criteria_score": 39.2,
+      "modifier_adj": 8.6,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.notifications.service.gov.uk",
+      "score": 72.2,
+      "criteria_score": 59.2,
+      "modifier_adj": 13.0,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.objector.ai",
+      "score": 45.3,
+      "criteria_score": 37.1,
+      "modifier_adj": 8.2,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.open-contracting.org",
+      "score": 69.3,
+      "criteria_score": 56.9,
+      "modifier_adj": 12.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.opencrvs.org",
+      "score": 83.2,
+      "criteria_score": 68.2,
+      "modifier_adj": 15.0,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.openorigins.com",
+      "score": 36.4,
+      "criteria_score": 29.9,
+      "modifier_adj": 6.6,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.openownership.org",
+      "score": 85.8,
+      "criteria_score": 70.4,
+      "modifier_adj": 15.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.opensanctions.org",
+      "score": 68.9,
+      "criteria_score": 56.5,
+      "modifier_adj": 12.4,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.oporaua.org",
+      "score": 64.0,
+      "criteria_score": 52.5,
+      "modifier_adj": 11.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.organise.org.uk",
+      "score": 33.1,
+      "criteria_score": 27.1,
+      "modifier_adj": 6.0,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.otree.org",
+      "score": 66.4,
+      "criteria_score": 54.4,
+      "modifier_adj": 11.9,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.papertree.earth",
+      "score": 48.4,
+      "criteria_score": 39.7,
+      "modifier_adj": 8.7,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.parallelparliament.co.uk",
+      "score": 71.6,
+      "criteria_score": 58.7,
+      "modifier_adj": 12.9,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.payments.service.gov.uk",
+      "score": 45.6,
+      "criteria_score": 37.4,
+      "modifier_adj": 8.2,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.plinth.org.uk",
+      "score": 46.8,
+      "criteria_score": 38.3,
+      "modifier_adj": 8.4,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.polimonitor.com",
+      "score": 46.9,
+      "criteria_score": 38.5,
+      "modifier_adj": 8.4,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.polimorphic.com",
+      "score": 53.9,
+      "criteria_score": 44.2,
+      "modifier_adj": 9.7,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.prolific.com",
+      "score": 32.8,
+      "criteria_score": 26.9,
+      "modifier_adj": 5.9,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.publiceditor.io",
+      "score": 35.7,
+      "criteria_score": 29.2,
+      "modifier_adj": 6.4,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.rightsdd.com",
+      "score": 45.9,
+      "criteria_score": 37.7,
+      "modifier_adj": 8.3,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.shareddigitalguides.org.uk",
+      "score": 37.4,
+      "criteria_score": 30.7,
+      "modifier_adj": 6.7,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.shineyoureye.org",
+      "score": 50.0,
+      "criteria_score": 41.0,
+      "modifier_adj": 9.0,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.sign-in.service.gov.uk",
+      "score": 58.5,
+      "criteria_score": 47.9,
+      "modifier_adj": 10.5,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.teachingpublicservice.digital",
+      "score": 66.9,
+      "criteria_score": 54.8,
+      "modifier_adj": 12.0,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.theyworkforyou.com",
+      "score": 72.3,
+      "criteria_score": 59.3,
+      "modifier_adj": 13.0,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.torproject.org",
+      "score": 71.5,
+      "criteria_score": 58.6,
+      "modifier_adj": 12.9,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.ushahidi.com",
+      "score": 70.1,
+      "criteria_score": 57.5,
+      "modifier_adj": 12.6,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.watchduty.org",
+      "score": 28.9,
+      "criteria_score": 23.7,
+      "modifier_adj": 5.2,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.welivedit.ai",
+      "score": 34.5,
+      "criteria_score": 28.3,
+      "modifier_adj": 6.2,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.whatdotheyknow.com",
+      "score": 77.4,
+      "criteria_score": 63.5,
+      "modifier_adj": 13.9,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.whatgov.co.uk",
+      "score": 51.8,
+      "criteria_score": 42.5,
+      "modifier_adj": 9.3,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.wikidata.org",
+      "score": 75.4,
+      "criteria_score": 61.8,
+      "modifier_adj": 13.6,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.workerinfoexchange.org",
+      "score": 34.5,
+      "criteria_score": 28.3,
+      "modifier_adj": 6.2,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.workincharities.co.uk",
+      "score": 21.9,
+      "criteria_score": 17.9,
+      "modifier_adj": 3.9,
+      "confidence": "medium",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.writetothem.com",
+      "score": 49.6,
+      "criteria_score": 40.7,
+      "modifier_adj": 8.9,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://www.yoti.com",
+      "score": 49.7,
+      "criteria_score": 40.8,
+      "modifier_adj": 8.9,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://yourtracka.org",
+      "score": 55.1,
+      "criteria_score": 45.2,
+      "modifier_adj": 9.9,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    },
+    {
+      "url": "https://yrpri.org",
+      "score": 79.0,
+      "criteria_score": 64.8,
+      "modifier_adj": 14.2,
+      "confidence": "high",
+      "abstain": false,
+      "rationale": "SIMULATED \u2014 gpt41 perspective based on documented political alignment tendencies per jury-panel-rationale.md. Score reflects Progressive civic lens framing applied to available dossier evidence."
+    }
+  ]
+}
