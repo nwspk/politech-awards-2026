@@ -15,7 +15,7 @@
 | 6e | merge ranking batches | COMPLETE | Single CSV at iterations/project-mirror-v2/asil-sidahmed/ranking-table.csv. |
 | 7 | mirror-reflective | COMPLETE | reflection.md written 2026-03-28. Champion/discount/failure mode/5 reaction questions. |
 | 8 | mirror-notetaker | COMPLETE | agent-notes.md written 2026-03-28. Evidence gaps, dossier quality, scoring methodology, jury status, process issues. |
-| PR | draft PR | IN PROGRESS | Assembling PR body. |
+| PR | draft PR | COMPLETE | PR #87 created 2026-03-28. Draft. Jury data partial (3/25). |
 
 Branch: project-mirror-v2/asil-sidahmed
-PR: TBD
+PR: #87
