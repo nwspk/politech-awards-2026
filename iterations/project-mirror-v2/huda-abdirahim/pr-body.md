@@ -176,339 +176,327 @@ The jury consists of five language models, each running five independent evaluat
 
 | Jury Rank | Project | Jury Score | Const Score | JuryConstGap | Pop Risk | Note |
 |---|---|---|---|---|---|---|
-| N/A | Decidim | N/A | 64.7 | -320 ⚑ | HIGH | Pop risk |
-| N/A | Cobudget | N/A | 63.7 | -319 ⚑ | NONE |  |
-| N/A | Open Council Network | N/A | 59.8 | -318 ⚑ | NONE |  |
-| N/A | adhocracy+ | N/A | 58.8 | -317 ⚑ | NONE |  |
-| N/A | Ethelo | N/A | 57.9 | -316 ⚑ | MEDIUM |  |
-| N/A | Citizen OS | N/A | 57.8 | -315 ⚑ | MEDIUM |  |
-| N/A | Bonfire | N/A | 57.8 | -314 ⚑ | NONE |  |
-| N/A | CharmVerse | N/A | 57.1 | -313 ⚑ | NONE |  |
-| N/A | CommunityRule | N/A | 56.9 | -312 ⚑ | NONE |  |
-| N/A | CONSUL Democracy | N/A | 56.9 | -311 ⚑ | MEDIUM |  |
-| N/A | Alaveteli | N/A | 56.9 | -310 ⚑ | HIGH | Pop risk |
-| 8 | Loomio | 86.0 | 55.9 | -4 | HIGH | Pop risk |
-| 25 | Your Priorities | 77.0 | 54.9 | +12 | NONE |  |
-| N/A | CiviCRM | N/A | 54.9 | -307 ⚑ | NONE |  |
-| N/A | mySociety Datasets and APIs | N/A | 53.9 | -306 ⚑ | MEDIUM |  |
-| N/A | Populate Tools | N/A | 53.9 | -305 ⚑ | NONE |  |
-| N/A | CoTech | N/A | 53.9 | -304 ⚑ | NONE |  |
-| N/A | Aragon | N/A | 53.1 | -303 ⚑ | HIGH | Pop risk |
-| N/A | Open Collective | N/A | 52.9 | -302 ⚑ | HIGH | Pop risk |
-| 6 | Ushahidi | 87.0 | 52.0 | -14 | HIGH | Pop risk |
-| N/A | Stanford Participatory Budgeting Platform | N/A | 51.0 | -300 ⚑ | NONE |  |
-| 42 | Open Standards for Data Guidebook | 65.0 | 51.0 | +20 | NONE |  |
-| 26 | PolicyEngine | 74.0 | 50.0 | +3 | HIGH | Pop risk |
-| 80 | OpenSanctions | 52.0 | 50.0 | +56 ⚑ | MEDIUM |  |
-| 123 | Agencies for Good | 35.0 | 50.0 | +98 ⚑ | NONE |  |
-| 28 | Tech Coops List | 74.0 | 49.0 | +2 | NONE |  |
-| N/A | The DAO (Standard DAO Framework) | N/A | 48.2 | -294 ⚑ | NONE |  |
-| N/A | Interoperable Deliberative Tools | N/A | 48.0 | -293 ⚑ | NONE |  |
-| N/A | Open Heart Mind (OHM) | N/A | 47.1 | -292 ⚑ | NONE |  |
-| 12 | Open Contracting Partnership | 85.0 | 47.1 | -18 | HIGH | Pop risk |
-| 11 | Humanitarian OpenStreetMap Team (HOT) | 85.0 | 47.1 | -20 | HIGH | Pop risk |
-| N/A | Fundación Ciudadanía Inteligente | N/A | 47.1 | -289 ⚑ | NONE |  |
-| N/A | CKAN | N/A | 47.1 | -288 ⚑ | HIGH | Pop risk |
-| N/A | Activist Handbook | N/A | 47.1 | -287 ⚑ | NONE |  |
-| N/A | Tactical Data Engagement | N/A | 46.2 | -286 ⚑ | NONE |  |
-| 54 | WhatGov | 62.0 | 46.1 | +18 | NONE |  |
-| 7 | Snowdrift.coop | 86.0 | 46.1 | -30 ⚑ | NONE |  |
-| N/A | Open Data Editor (ODE) | N/A | 46.1 | -283 ⚑ | NONE |  |
-| N/A | LiquidFeedback | N/A | 46.1 | -282 ⚑ | MEDIUM |  |
-| N/A | Fairbnb.coop | N/A | 46.1 | -281 ⚑ | MEDIUM |  |
-| N/A | All Our Ideas | N/A | 46.1 | -280 ⚑ | MEDIUM |  |
-| N/A | Mastodon | N/A | 45.2 | -279 ⚑ | HIGH | Pop risk |
-| 89 | Discourse | 48.0 | 45.1 | +46 ⚑ | HIGH | Pop risk |
-| N/A | Diia | N/A | 45.1 | -277 ⚑ | MEDIUM |  |
-| 27 | PolicyKit | 74.0 | 45.0 | -18 | MEDIUM |  |
-| 9 | TheyWorkForYou | 86.0 | 44.1 | -37 ⚑ | HIGH | Pop risk |
-| N/A | RxC Voice | N/A | 44.1 | -274 ⚑ | NONE |  |
-| N/A | Rahvaalgatus | N/A | 44.1 | -273 ⚑ | NONE |  |
-| 3 | Parti | 89.0 | 44.1 | -46 ⚑ | MEDIUM |  |
-| 20 | The Government Says | 80.0 | 43.1 | -30 ⚑ | NONE |  |
-| 18 | Principles for Public Participation in Procurement of AI | 80.0 | 43.1 | -33 ⚑ | NONE |  |
-| N/A | PlaceCal | N/A | 43.1 | -269 ⚑ | NONE |  |
-| N/A | ODK (Open Data Kit) | N/A | 43.1 | -268 ⚑ | MEDIUM |  |
-| 90 | Mastodon C | 48.0 | 43.1 | +36 ⚑ | HIGH | Pop risk |
-| 30 | GovTrack.us | 73.0 | 43.1 | -25 ⚑ | HIGH | Pop risk |
-| 46 | FixMyStreet | 63.0 | 43.1 | -10 | HIGH | Pop risk |
-| 88 | deliberAIde | 48.0 | 42.2 | +31 ⚑ | NONE |  |
-| 58 | Parallel Parliament | 60.0 | 42.2 | 0 | NONE |  |
-| N/A | Open Council Data UK | N/A | 42.2 | -262 ⚑ | NONE |  |
-| N/A | ClimateAction.Tech | N/A | 42.2 | -261 ⚑ | NONE |  |
-| N/A | Participa (Podemos) | N/A | 41.2 | -260 ⚑ | NONE |  |
-| N/A | Open Digital Planning | N/A | 41.2 | -259 ⚑ | NONE |  |
-| 65 | Go Vocal | 57.0 | 41.2 | +2 | NONE |  |
-| N/A | Constitute Project | N/A | 41.2 | -257 ⚑ | NONE |  |
-| N/A | Agreement Engine | N/A | 41.2 | -256 ⚑ | NONE |  |
-| 2 | meet.coop | 90.0 | 40.2 | -64 ⚑ | MEDIUM |  |
-| 47 | Parliament Watch Uganda | 62.0 | 40.2 | -20 | NONE |  |
-| 40 | OpenCRVS | 66.0 | 40.2 | -28 ⚑ | HIGH | Pop risk |
-| N/A | OpenBudgets.eu | N/A | 40.2 | -252 ⚑ | MEDIUM |  |
-| N/A | Humble Data Workshop | N/A | 39.3 | -251 ⚑ | NONE |  |
-| 1 | Turkopticon | 96.0 | 39.2 | -70 ⚑ | NONE |  |
-| 15 | Tracka | 83.0 | 39.2 | -57 ⚑ | NONE |  |
-| 34 | ShineYourEye | 72.0 | 39.2 | -39 ⚑ | NONE |  |
-| N/A | Polis | N/A | 39.2 | -247 ⚑ | HIGH | Pop risk |
-| 10 | Open Supply Hub | 85.0 | 39.2 | -65 ⚑ | MEDIUM |  |
-| 23 | Open Ownership | 78.0 | 39.2 | -53 ⚑ | MEDIUM |  |
-| N/A | NumFOCUS | N/A | 39.2 | -244 ⚑ | MEDIUM |  |
-| N/A | Modular Politics | N/A | 39.2 | -243 ⚑ | NONE |  |
-| N/A | MapIt | N/A | 39.2 | -242 ⚑ | NONE |  |
-| N/A | Creative Commons | N/A | 39.2 | -241 ⚑ | HIGH | Pop risk |
-| N/A | Aleph (OCCRP) | N/A | 39.2 | -240 ⚑ | MEDIUM |  |
-| N/A | DAO Governance Surfaces | N/A | 38.4 | -239 ⚑ | NONE |  |
-| 101 | oTree | 43.0 | 38.3 | +18 | NONE |  |
-| N/A | vTaiwan | N/A | 38.2 | -237 ⚑ | NONE |  |
-| 55 | WriteToThem | 62.0 | 38.2 | -30 ⚑ | HIGH | Pop risk |
-| 82 | Wikum | 50.0 | 38.2 | -4 | NONE |  |
-| 37 | Pursuance Project | 68.0 | 38.2 | -50 ⚑ | NONE |  |
-| 45 | PlanIT | 64.0 | 38.2 | -43 ⚑ | NONE |  |
-| 32 | Parse The Bill | 72.0 | 38.2 | -57 ⚑ | NONE |  |
-| N/A | Open Referral UK | N/A | 38.2 | -231 ⚑ | NONE |  |
-| N/A | Land Explorer | N/A | 38.2 | -230 ⚑ | NONE |  |
-| N/A | Kialo | N/A | 38.2 | -229 ⚑ | MEDIUM |  |
-| N/A | Granitt | N/A | 38.2 | -228 ⚑ | NONE |  |
-| N/A | Find local consultations | N/A | 38.2 | -227 ⚑ | MEDIUM |  |
-| N/A | Civic Tech Field Guide | N/A | 38.2 | -226 ⚑ | NONE |  |
-| N/A | postcodes.io | N/A | 37.3 | -225 ⚑ | NONE |  |
-| N/A | dDocs | N/A | 37.3 | -224 ⚑ | NONE |  |
-| N/A | arXiv | N/A | 37.3 | -223 ⚑ | HIGH | Pop risk |
-| 36 | WhatDoTheyKnow | 70.0 | 37.3 | -63 ⚑ | HIGH | Pop risk |
-| 61 | UrbanistAI | 58.0 | 37.3 | -39 ⚑ | NONE |  |
-| 5 | Strike Map | 87.0 | 37.3 | -96 ⚑ | NONE |  |
-| 69 | Open Science Framework | 54.0 | 37.3 | -33 ⚑ | MEDIUM |  |
-| N/A | One Project | N/A | 37.3 | -218 | NONE |  |
-| N/A | Members' Interests | N/A | 37.3 | -217 | NONE |  |
-| N/A | Coral | N/A | 37.3 | -216 | MEDIUM |  |
-| N/A | Channel.org | N/A | 37.3 | -215 | NONE |  |
-| 29 | ОПОРА (Opora) | 74.0 | 36.3 | -78 ⚑ | MEDIUM |  |
-| 24 | Organise | 78.0 | 36.3 | -84 ⚑ | NONE |  |
-| N/A | Nym | N/A | 36.3 | -212 | NONE |  |
-| N/A | Journal of Open Source Software | N/A | 36.3 | -211 | NONE |  |
-| 109 | Empurrando Juntas (EJ) | 38.0 | 36.3 | -2 | NONE |  |
-| 56 | CrowdJustice | 61.0 | 36.3 | -56 ⚑ | MEDIUM |  |
-| N/A | Contracts for Data Collaboration | N/A | 36.3 | -208 | NONE |  |
-| 17 | Campaign Tracker | 81.0 | 36.3 | -97 ⚑ | NONE |  |
-| 21 | sourceAFRICA | 78.0 | 35.3 | -94 ⚑ | NONE |  |
-| 14 | Talk to the City | 83.0 | 35.3 | -102 ⚑ | NONE |  |
-| N/A | Sugartrail | N/A | 35.3 | -204 | NONE |  |
-| 66 | Security First / Umbrella | 56.0 | 35.3 | -52 ⚑ | NONE |  |
-| 59 | RxC Quadratic Voting | 58.0 | 35.3 | -60 ⚑ | NONE |  |
-| 35 | Participedia | 70.0 | 35.3 | -85 ⚑ | MEDIUM |  |
-| N/A | Open Letter | N/A | 35.3 | -200 | NONE |  |
-| N/A | Open Data Communities | N/A | 35.3 | -199 | NONE |  |
-| N/A | Objector.ai | N/A | 35.3 | -198 | NONE |  |
-| 64 | Objector.ai | 58.0 | 35.3 | -60 ⚑ | NONE |  |
-| N/A | Matrix | N/A | 35.3 | -196 | HIGH | Pop risk |
-| N/A | Manifold Markets | N/A | 35.3 | -195 | MEDIUM |  |
-| N/A | Harmonica | N/A | 35.3 | -194 | NONE |  |
-| N/A | Cybersecurity for Democracy | N/A | 35.3 | -193 | NONE |  |
-| N/A | Cortico | N/A | 35.3 | -192 | NONE |  |
-| N/A | Collaborative Data Patterns | N/A | 35.3 | -191 | NONE |  |
-| N/A | Bluesky Social | N/A | 35.3 | -190 | HIGH | Pop risk |
-| N/A | New_ Public Roundabout | N/A | 34.4 | -189 | NONE |  |
-| N/A | Framework for Meaningful Engagement 2.0 | N/A | 34.4 | -188 | NONE |  |
-| N/A | Entitledto | N/A | 34.4 | -187 | NONE |  |
-| N/A | docs.plus | N/A | 34.3 | -186 | NONE |  |
-| 112 | Viewpoints | 38.0 | 34.3 | -24 ⚑ | NONE |  |
-| 92 | Teaching Public Service in the Digital Age | 48.0 | 34.3 | -45 ⚑ | NONE |  |
-| 50 | Shareyourpaper.org | 62.0 | 34.3 | -88 ⚑ | NONE |  |
-| N/A | Murmurations Protocol | N/A | 34.3 | -182 | NONE |  |
-| N/A | Logos | N/A | 34.3 | -181 | NONE |  |
-| N/A | GrantNav | N/A | 34.3 | -180 | NONE |  |
-| N/A | Mozilla Data Collective | N/A | 33.5 | -179 | NONE |  |
-| 87 | WardWatch | 48.0 | 33.3 | -56 ⚑ | NONE |  |
-| 103 | ORCID | 38.0 | 33.3 | -41 ⚑ | HIGH | Pop risk |
-| 53 | Neighbourhood Warmth | 62.0 | 33.3 | -92 ⚑ | NONE |  |
-| N/A | Guardian Project | N/A | 33.3 | -175 | HIGH | Pop risk |
-| N/A | Groupthink (OpenPolitics Votebot) | N/A | 33.3 | -174 | NONE |  |
-| 100 | GOV.UK Forms | 44.0 | 33.3 | -48 ⚑ | NONE |  |
-| N/A | CivicPress | N/A | 33.3 | -172 | NONE |  |
-| N/A | Abstract Wikipedia | N/A | 33.3 | -171 | HIGH | Pop risk |
-| N/A | Turn2us Benefits Calculator | N/A | 32.5 | -170 | NONE |  |
-| 16 | The Circuit | 82.0 | 32.4 | -136 ⚑ | NONE |  |
-| N/A | Political Advertising Transparency Data Standard | N/A | 32.4 | -168 | NONE |  |
-| N/A | Pastecal | N/A | 32.4 | -167 | NONE |  |
-| N/A | Nestr | N/A | 32.4 | -166 | NONE |  |
-| N/A | Metaculus | N/A | 32.4 | -165 | MEDIUM |  |
-| N/A | Libertrium | N/A | 32.4 | -164 | NONE |  |
-| N/A | Bellingcat Online Investigation Toolkit | N/A | 32.4 | -163 | MEDIUM |  |
-| N/A | Awesome UK Government Datasets | N/A | 32.4 | -162 | NONE |  |
-| N/A | Global Fact-Check Bot (GFC) | N/A | 31.5 | -161 | NONE |  |
-| N/A | openparliament.ca | N/A | 31.4 | -160 | NONE |  |
-| 73 | Vote for Policies | 54.0 | 31.4 | -89 ⚑ | NONE |  |
-| 52 | VFRAME | 62.0 | 31.4 | -111 ⚑ | NONE |  |
-| 44 | Tor Project | 65.0 | 31.4 | -120 ⚑ | HIGH | Pop risk |
-| N/A | Schema.org | N/A | 31.4 | -156 | HIGH | Pop risk |
-| 19 | Relational Tech Project | 80.0 | 31.4 | -147 ⚑ | NONE |  |
-| 67 | Marks Out Of Tenancy | 56.0 | 31.4 | -100 ⚑ | NONE |  |
-| 121 | MP Twitter Bios | 37.0 | 31.4 | -47 ⚑ | NONE |  |
-| N/A | LittleSis | N/A | 31.4 | -152 | MEDIUM |  |
-| 22 | Community Tech | 78.0 | 31.4 | -148 ⚑ | NONE |  |
-| 57 | Who Targets Me Trends | 60.0 | 30.4 | -114 ⚑ | NONE |  |
-| 51 | Spacetube | 62.0 | 30.4 | -121 ⚑ | NONE |  |
-| 49 | SecureDrop | 62.0 | 30.4 | -124 ⚑ | HIGH | Pop risk |
-| N/A | Open Access – Transparency International UK | N/A | 30.4 | -147 | NONE |  |
-| N/A | Monitor Mamdani | N/A | 30.4 | -146 | NONE |  |
-| 43 | Local Intelligence Hub | 65.0 | 30.4 | -133 ⚑ | NONE |  |
-| N/A | HURIDOCS | N/A | 30.4 | -144 | NONE |  |
-| 33 | GlobaLeaks | 72.0 | 30.4 | -145 ⚑ | HIGH | Pop risk |
-| N/A | Give Food | N/A | 30.4 | -142 | NONE |  |
-| 72 | Gapminder Worldview Upgrader | 54.0 | 30.4 | -108 ⚑ | MEDIUM |  |
-| 48 | Public AI Inference Utility | 62.0 | 29.5 | -133 ⚑ | NONE |  |
-| 110 | soweego | 38.0 | 29.4 | -72 ⚑ | NONE |  |
-| 13 | Worker Info Exchange | 85.0 | 29.4 | -170 ⚑ | NONE |  |
-| 31 | Wikidata | 73.0 | 29.4 | -153 ⚑ | HIGH | Pop risk |
-| 62 | Unpaywall Browser Extension | 58.0 | 29.4 | -123 ⚑ | MEDIUM |  |
-| N/A | The Commons Social Change Library | N/A | 29.4 | -135 | NONE |  |
-| N/A | Moral Machine | N/A | 29.4 | -134 | NONE |  |
-| N/A | Mapped | N/A | 29.4 | -133 | NONE |  |
-| 116 | GOV.UK Pay | 38.0 | 29.4 | -73 ⚑ | NONE |  |
-| N/A | Democracy Club Developer API | N/A | 29.4 | -131 | NONE |  |
-| 99 | Deliberation & Technology (DelibTech) Network | 44.0 | 29.4 | -92 ⚑ | NONE |  |
-| N/A | DISARM Frameworks | N/A | 29.4 | -129 | NONE |  |
-| N/A | CiviClick | N/A | 29.4 | -128 | NONE |  |
-| N/A | Atlas of Surveillance | N/A | 29.4 | -127 | NONE |  |
-| N/A | AlgorithmWatch | N/A | 29.4 | -126 | HIGH | Pop risk |
-| 127 | Prolific | 32.0 | 28.5 | -69 ⚑ | NONE |  |
-| N/A | UK Policy Dojo | N/A | 28.4 | -124 | NONE |  |
-| 91 | Shared Digital Guides | 48.0 | 28.4 | -107 ⚑ | NONE |  |
-| 97 | Plinth | 46.0 | 28.4 | -102 ⚑ | NONE |  |
-| N/A | OpenProcurement | N/A | 28.4 | -121 | MEDIUM |  |
-| N/A | OpenAudience | N/A | 28.4 | -120 | NONE |  |
-| N/A | Idealist | N/A | 28.4 | -119 | MEDIUM |  |
-| N/A | Humanitarian Data Exchange | N/A | 28.4 | -118 | NONE |  |
-| N/A | EDGAR | N/A | 28.4 | -117 | NONE |  |
-| N/A | Consent-O-Matic | N/A | 28.4 | -116 | NONE |  |
-| N/A | Bluesky | N/A | 28.4 | -115 | HIGH | Pop risk |
-| N/A | https://tracking-template-38b4c.web.app | N/A | 28.0 | -114 | NONE |  |
-| N/A | youtube-dl | N/A | 27.5 | -113 | HIGH | Pop risk |
-| N/A | django-collaborative | N/A | 27.5 | -112 | NONE |  |
-| N/A | UK Housing Data Standards | N/A | 27.5 | -111 | NONE |  |
-| 86 | Turbo Phonebank | 48.0 | 27.5 | -125 ⚑ | NONE |  |
-| N/A | The Engine Room Library | N/A | 27.5 | -109 | NONE |  |
-| 70 | Spartacus | 54.0 | 27.5 | -143 ⚑ | NONE |  |
-| 119 | GOV.UK One Login | 38.0 | 27.5 | -95 ⚑ | NONE |  |
-| 96 | GOV.UK Notify | 46.0 | 27.5 | -119 ⚑ | NONE |  |
-| N/A | Democracy Fund Open Source | N/A | 27.5 | -105 | NONE |  |
-| N/A | Community Notes (Birdwatch) Analysis Tool | N/A | 27.5 | -104 | NONE |  |
-| N/A | Nyaaya | N/A | 26.6 | -103 | NONE |  |
-| 94 | Timecounts | 46.0 | 26.5 | -125 ⚑ | NONE |  |
-| N/A | Theft Bisect | N/A | 26.5 | -101 | NONE |  |
-| N/A | The Data Trusts Initiative | N/A | 26.5 | -100 | NONE |  |
-| N/A | OA.Works | N/A | 26.5 | -99 | MEDIUM |  |
-| N/A | OA.Report | N/A | 26.5 | -98 | NONE |  |
-| 39 | Internet Archive Wayback Machine | 66.0 | 26.5 | -185 ⚑ | HIGH | Pop risk |
-| N/A | Frankenstein Bill | N/A | 26.5 | -96 | NONE |  |
-| N/A | Fission Codes | N/A | 25.7 | -95 | NONE |  |
-| N/A | Collab.Land | N/A | 25.7 | -94 | NONE |  |
-| 76 | The Accountability Project | 52.0 | 25.5 | -152 ⚑ | NONE |  |
-| 4 | Riseup | 87.0 | 25.5 | -225 ⚑ | HIGH | Pop risk |
-| 83 | Remember to Vote | 48.0 | 25.5 | -147 ⚑ | NONE |  |
-| 93 | PostBug | 46.0 | 25.5 | -138 ⚑ | NONE |  |
-| 104 | OSINT Framework | 38.0 | 25.5 | -128 ⚑ | NONE |  |
-| 63 | MP Watch | 58.0 | 25.5 | -170 ⚑ | NONE |  |
-| N/A | Kagi SlopStop | N/A | 25.5 | -87 | MEDIUM |  |
-| N/A | Hand-Written Petition Scanner | N/A | 25.5 | -86 | NONE |  |
-| N/A | GRIM (Global Risk Simulator) | N/A | 25.5 | -85 | NONE |  |
-| N/A | Esper | N/A | 25.5 | -84 | NONE |  |
-| 102 | Beckton | 41.0 | 25.5 | -136 ⚑ | NONE |  |
-| N/A | rsky | N/A | 24.5 | -82 | NONE |  |
-| 108 | User Research Library | 38.0 | 24.5 | -132 ⚑ | NONE |  |
-| N/A | UK Parliament Developer Portal | N/A | 24.5 | -80 | NONE |  |
-| 114 | Service Manual | 38.0 | 24.5 | -128 ⚑ | MEDIUM |  |
-| 98 | Privacy Badger | 45.0 | 24.5 | -145 ⚑ | HIGH | Pop risk |
-| 118 | Polimorphic | 38.0 | 24.5 | -126 ⚑ | NONE |  |
-| 81 | Pageviews Analysis | 50.0 | 24.5 | -164 ⚑ | NONE |  |
-| N/A | OpenElections Leaflet Scraper and Parser | N/A | 24.5 | -75 | NONE |  |
-| N/A | Local Insight | N/A | 24.5 | -74 | NONE |  |
-| 124 | GovWise | 34.0 | 24.5 | -124 ⚑ | NONE |  |
-| N/A | Fatebook | N/A | 24.5 | -72 | NONE |  |
-| N/A | Data Observation Toolkit (DOT) | N/A | 24.5 | -71 | NONE |  |
-| N/A | Choose a License | N/A | 24.5 | -70 | NONE |  |
-| N/A | Anna's Archive | N/A | 24.5 | -69 | MEDIUM |  |
-| 77 | River Sentiment Dashboard | 52.0 | 23.6 | -176 ⚑ | NONE |  |
-| 75 | Watch Duty | 54.0 | 23.5 | -179 ⚑ | NONE |  |
-| 122 | Registers and collaboration: making lists we can trust | 35.0 | 23.5 | -133 ⚑ | NONE |  |
-| 117 | PoliMonitor | 38.0 | 23.5 | -139 ⚑ | NONE |  |
-| N/A | PatCit | N/A | 23.5 | -64 | NONE |  |
-| 68 | Martus | 56.0 | 23.5 | -190 ⚑ | NONE |  |
-| N/A | Journalist Studio | N/A | 23.5 | -62 | NONE |  |
-| N/A | Granicus | N/A | 23.5 | -61 | NONE |  |
-| N/A | GOV Reuse Library | N/A | 23.5 | -60 | NONE |  |
-| N/A | Responsible Tech Guide 2025 | N/A | 22.6 | -59 | NONE |  |
-| 111 | Urbit | 38.0 | 22.5 | -152 ⚑ | NONE |  |
-| 113 | The Guide to Major Trusts 2025/26 | 38.0 | 22.5 | -151 ⚑ | NONE |  |
-| 60 | Radicle | 58.0 | 22.5 | -205 ⚑ | HIGH | Pop risk |
-| N/A | Full Fact AI | N/A | 22.5 | -55 | NONE |  |
-| N/A | Charity Digital Skills Report | N/A | 22.5 | -54 | NONE |  |
-| N/A | Labour Xchange | N/A | 21.7 | -53 | NONE |  |
-| 84 | semanticClimate | 48.0 | 21.6 | -185 ⚑ | NONE |  |
-| N/A | Nook CRM | N/A | 21.6 | -51 | NONE |  |
-| 95 | MyActionCenter | 46.0 | 21.6 | -176 ⚑ | NONE |  |
-| N/A | Missing Numbers | N/A | 21.6 | -49 | NONE |  |
-| N/A | Membership | N/A | 21.6 | -48 | NONE |  |
-| N/A | Landlord Tech Watch | N/A | 21.6 | -47 | NONE |  |
-| N/A | Keep It In The Community | N/A | 21.6 | -46 | NONE |  |
-| N/A | In the news | N/A | 21.6 | -45 | MEDIUM |  |
-| N/A | Dunadyne | N/A | 21.6 | -44 | NONE |  |
-| 128 | DoNotPay | 29.0 | 21.6 | -150 ⚑ | MEDIUM |  |
-| N/A | CAN/DGSI 127 - Age Assurance Technologies Standard | N/A | 21.6 | -42 | NONE |  |
-| N/A | Ladder Hub | N/A | 20.7 | -41 | NONE |  |
-| 74 | Who Posted What? | 54.0 | 20.6 | -207 ⚑ | NONE |  |
-| 125 | RightDD | 34.0 | 20.6 | -157 ⚑ | NONE |  |
-| N/A | PolicyMogul | N/A | 20.6 | -38 | NONE |  |
-| 106 | Plausible Analytics | 38.0 | 20.6 | -178 ⚑ | MEDIUM |  |
-| N/A | FixMyBlock | N/A | 19.7 | -36 | NONE |  |
-| 38 | Right To Know | 67.0 | 19.6 | -248 ⚑ | NONE |  |
-| N/A | whatsmeow | N/A | 18.6 | -34 | NONE |  |
-| N/A | Pear by Holepunch | N/A | 18.6 | -33 | NONE |  |
-| 41 | Papertree | 66.0 | 18.6 | -248 ⚑ | NONE |  |
-| 105 | Overton | 38.0 | 18.6 | -185 ⚑ | NONE |  |
-| N/A | Dovetail | N/A | 18.6 | -30 | NONE |  |
-| N/A | DeepSeek-V3 | N/A | 17.6 | -29 | MEDIUM |  |
-| N/A | Citizens Advice Tableau Public Profile | N/A | 17.6 | -28 | NONE |  |
-| 120 | Yoti | 38.0 | 16.7 | -174 ⚑ | NONE |  |
-| 126 | Whoisology | 32.0 | 16.7 | -169 ⚑ | NONE |  |
-| N/A | Gender Pay Gap Service | N/A | 16.7 | -25 | NONE |  |
-| N/A | We Live It | N/A | 15.7 | -24 | NONE |  |
-| 71 | The List | 54.0 | 15.7 | -227 ⚑ | NONE |  |
-| 85 | Society for Hopeful Technologists | 48.0 | 15.7 | -214 ⚑ | NONE |  |
-| 107 | Public Media Stack | 38.0 | 15.7 | -193 ⚑ | NONE |  |
-| N/A | Filmot | N/A | 15.7 | N/A | NONE |  |
-| N/A | FarmerChat | N/A | 15.7 | N/A | NONE |  |
-| N/A | Consciousness Evolution Operating System (ConSoc) | N/A | 15.7 | N/A | NONE |  |
-| N/A | COTSI (Cyber Operational Threat Situational Intelligence) | N/A | 15.7 | N/A | NONE |  |
-| N/A | AISafety.info | N/A | 15.7 | N/A | NONE |  |
-| 79 | Violation Tracker UK | 52.0 | 14.7 | -227 ⚑ | NONE |  |
-| N/A | Understanding Your Morality | N/A | 14.7 | N/A | NONE |  |
-| 78 | Sci-Hub | 52.0 | 14.7 | -230 ⚑ | MEDIUM |  |
-| N/A | Public Editor | N/A | 14.7 | N/A | NONE |  |
-| N/A | Conservative Party Funding | N/A | 14.7 | N/A | NONE |  |
-| N/A | CivicMatch | N/A | 14.7 | N/A | NONE |  |
-| N/A | GreenPT | N/A | 13.7 | N/A | NONE |  |
-| 129 | WorkInCharities | 28.0 | 12.7 | -184 ⚑ | NONE |  |
-| N/A | Mapping.kids | N/A | 12.7 | N/A | NONE |  |
-| N/A | DoGooder | N/A | 12.7 | N/A | NONE |  |
-| N/A | DemTech Navigator | N/A | 12.7 | N/A | NONE |  |
-| N/A | The Decelerator | N/A | 11.8 | N/A | NONE |  |
-| 115 | OpenOrigins | 38.0 | 11.8 | -203 ⚑ | NONE |  |
-| N/A | Digital Account Management Toolkit | N/A | 10.8 | N/A | NONE |  |
-| N/A | Local Deep Researcher | N/A | 9.8 | N/A | NONE |  |
-| N/A | Unknown Academic Paper (SSRN 5351275) | N/A | 2.9 | N/A | NONE |  |
-
-**Where jury and constitution agree (robust picks):**
-- LiquidFeedback, Bonfire, Polis, and Cobudget have small gaps (< 5 ranks) — these are projects that score on both explicit constitutional criteria AND are recognisable to jury models as legitimate governance tools.
-- Decidim ranks first constitutionally and second in the jury — the only project with strong agreement at the very top.
-
-**Where they diverge most and what it suggests:**
-- vTaiwan: constitutional rank 90+, jury rank 5. The jury models recognise vTaiwan as a landmark participatory democracy project; the constitution cannot score it highly because it lacks collective ownership and treasury transparency mechanisms. This is the clearest case where jury familiarity inflation may be inflating a well-known project beyond its constitutional fit.
-- Constitutional bottom 100: all models abstained. The 'negative gaps' for projects in ranks 200-321 are artefacts of abstention, not genuine disagreement.
-
-**Grok4 divergence:** Near-total abstention (0.6% scored) prevented meaningful statistical divergence detection for Grok4. No projects met the >2 std dev threshold. Grok4-run-4 completed after initial aggregation start; included in final jury-summary.md.
-
-**Abstention log:** Gemini abstained on all 321 projects across 5 runs. GPT-4.1 had highest scoring rate (38%). Claude, Mistral: moderate abstention. Grok4: near-total abstention. Total abstention rate: 86.7%.
+| N/A | Decidim | N/A | 57.8 | -300 ⚑ | HIGH | Pop risk |
+| N/A | Cobudget | N/A | 64.7 | -314 ⚑ | HIGH | Pop risk |
+| N/A | Open Council Network | N/A | 55.9 | -292 ⚑ | LOW |  |
+| N/A | adhocracy+ | N/A | 53.9 | -287 ⚑ | LOW |  |
+| N/A | Ethelo | N/A | 67.9 | -319 ⚑ | MEDIUM |  |
+| N/A | Citizen OS | N/A | 55.9 | -294 ⚑ | MEDIUM |  |
+| N/A | Bonfire | N/A | 65.8 | -318 ⚑ | LOW |  |
+| N/A | CharmVerse | N/A | 58.9 | -303 ⚑ | LOW |  |
+| N/A | CommunityRule | N/A | 52.9 | -280 ⚑ | MEDIUM |  |
+| N/A | CONSUL Democracy | N/A | 56.9 | -299 ⚑ | MEDIUM |  |
+| N/A | Alaveteli | N/A | 55.9 | -295 ⚑ | HIGH | Pop risk |
+| 8 | Loomio | 86.0 | 62.7 | -6 | MEDIUM |  |
+| 25 | Your Priorities | 77.0 | 54.9 | -8 | MEDIUM |  |
+| N/A | CiviCRM | N/A | 53.9 | -286 ⚑ | HIGH | Pop risk |
+| N/A | mySociety Datasets and APIs | N/A | 62.7 | -309 ⚑ | HIGH | Pop risk |
+| N/A | Populate Tools | N/A | 64.7 | -312 ⚑ | MEDIUM |  |
+| N/A | CoTech | N/A | 50.0 | -256 ⚑ | MEDIUM |  |
+| N/A | Aragon | N/A | 70.7 | -321 ⚑ | LOW |  |
+| N/A | Open Collective | N/A | 60.9 | -306 ⚑ | MEDIUM |  |
+| 6 | Ushahidi | 87.0 | 52.0 | -46 ⚑ | MEDIUM |  |
+| N/A | Stanford Participatory Budgeting Platform | N/A | 51.0 | -262 ⚑ | MEDIUM |  |
+| 42 | Open Standards for Data Guidebook | 65.0 | 64.7 | +31 ⚑ | LOW |  |
+| 26 | PolicyEngine | 74.0 | 49.0 | -53 ⚑ | LOW |  |
+| 80 | OpenSanctions | 52.0 | 52.9 | +35 ⚑ | LOW |  |
+| 123 | Agencies for Good | 35.0 | 49.0 | +42 ⚑ | LOW |  |
+| 28 | Tech Coops List | 74.0 | 65.8 | +22 ⚑ | MEDIUM |  |
+| N/A | The DAO (Standard DAO Framework) | N/A | 68.0 | -320 ⚑ | MEDIUM |  |
+| N/A | Interoperable Deliberative Tools | N/A | 58.8 | -301 ⚑ | LOW |  |
+| N/A | Open Heart Mind (OHM) | N/A | 65.7 | -315 ⚑ | LOW |  |
+| 12 | Open Contracting Partnership | 85.0 | 52.0 | -39 ⚑ | HIGH | Pop risk |
+| 11 | Humanitarian OpenStreetMap Team (HOT) | 85.0 | 52.0 | -39 ⚑ | HIGH | Pop risk |
+| N/A | Fundación Ciudadanía Inteligente | N/A | 50.0 | -257 ⚑ | MEDIUM |  |
+| N/A | CKAN | N/A | 44.1 | -212 ⚑ | HIGH | Pop risk |
+| N/A | Activist Handbook | N/A | 49.0 | -247 ⚑ | LOW |  |
+| N/A | Tactical Data Engagement | N/A | 51.1 | -268 ⚑ | MEDIUM |  |
+| 54 | WhatGov | 62.0 | 39.2 | -121 ⚑ | MEDIUM |  |
+| 7 | Snowdrift.coop | 86.0 | 54.0 | -27 ⚑ | MEDIUM |  |
+| N/A | Open Data Editor (ODE) | N/A | 44.1 | -208 ⚑ | LOW |  |
+| N/A | LiquidFeedback | N/A | 65.8 | -317 ⚑ | MEDIUM |  |
+| N/A | Fairbnb.coop | N/A | 53.9 | -285 ⚑ | LOW |  |
+| N/A | All Our Ideas | N/A | 50.0 | -258 ⚑ | MEDIUM |  |
+| N/A | Mastodon | N/A | 52.1 | -276 ⚑ | HIGH | Pop risk |
+| 89 | Discourse | 48.0 | 46.0 | -12 | MEDIUM |  |
+| N/A | Diia | N/A | 37.3 | -135 ⚑ | LOW |  |
+| 27 | PolicyKit | 74.0 | 45.0 | -81 ⚑ | LOW |  |
+| 9 | TheyWorkForYou | 86.0 | 47.1 | -83 ⚑ | HIGH | Pop risk |
+| N/A | RxC Voice | N/A | 58.9 | -302 ⚑ | LOW |  |
+| N/A | Rahvaalgatus | N/A | 52.0 | -274 ⚑ | MEDIUM |  |
+| 3 | Parti | 89.0 | 52.0 | -46 ⚑ | MEDIUM |  |
+| 20 | The Government Says | 80.0 | 41.2 | -133 ⚑ | MEDIUM |  |
+| 18 | Principles for Public Participation in Procurement of AI | 80.0 | 50.0 | -53 ⚑ | LOW |  |
+| N/A | PlaceCal | N/A | 52.9 | -279 ⚑ | MEDIUM |  |
+| N/A | ODK (Open Data Kit) | N/A | 48.0 | -238 ⚑ | MEDIUM |  |
+| 90 | Mastodon C | 48.0 | 46.1 | -9 | HIGH | Pop risk |
+| 30 | GovTrack.us | 73.0 | 50.0 | -43 ⚑ | MEDIUM |  |
+| 46 | FixMyStreet | 63.0 | 47.1 | -45 ⚑ | HIGH | Pop risk |
+| 88 | deliberAIde | 48.0 | 38.2 | -96 ⚑ | LOW |  |
+| 58 | Parallel Parliament | 60.0 | 38.2 | -127 ⚑ | MEDIUM |  |
+| N/A | Open Council Data UK | N/A | 42.2 | -186 ⚑ | MEDIUM |  |
+| N/A | ClimateAction.Tech | N/A | 55.1 | -291 ⚑ | LOW |  |
+| N/A | Participa (Podemos) | N/A | 51.0 | -263 ⚑ | MEDIUM |  |
+| N/A | Open Digital Planning | N/A | 51.0 | -260 ⚑ | LOW |  |
+| 65 | Go Vocal | 57.0 | 31.3 | -188 ⚑ | MEDIUM |  |
+| N/A | Constitute Project | N/A | 51.0 | -265 ⚑ | MEDIUM |  |
+| N/A | Agreement Engine | N/A | 35.3 | -106 ⚑ | NONE |  |
+| 2 | meet.coop | 90.0 | 43.0 | -127 ⚑ | LOW |  |
+| 47 | Parliament Watch Uganda | 62.0 | 41.2 | -104 ⚑ | MEDIUM |  |
+| 40 | OpenCRVS | 66.0 | 42.2 | -100 ⚑ | LOW |  |
+| N/A | OpenBudgets.eu | N/A | 40.2 | -153 ⚑ | MEDIUM |  |
+| N/A | Humble Data Workshop | N/A | 43.2 | -202 ⚑ | LOW |  |
+| 1 | Turkopticon | 96.0 | 51.1 | -54 ⚑ | MEDIUM |  |
+| 15 | Tracka | 83.0 | 43.1 | -112 ⚑ | MEDIUM |  |
+| 34 | ShineYourEye | 72.0 | 41.2 | -124 ⚑ | LOW |  |
+| N/A | Polis | N/A | 64.7 | -313 ⚑ | HIGH | Pop risk |
+| 10 | Open Supply Hub | 85.0 | 53.9 | -28 ⚑ | MEDIUM |  |
+| 23 | Open Ownership | 78.0 | 46.1 | -77 ⚑ | MEDIUM |  |
+| N/A | NumFOCUS | N/A | 55.9 | -293 ⚑ | MEDIUM |  |
+| N/A | Modular Politics | N/A | 46.1 | -227 ⚑ | HIGH | Pop risk |
+| N/A | MapIt | N/A | 44.1 | -209 ⚑ | HIGH | Pop risk |
+| N/A | Creative Commons | N/A | 52.0 | -275 ⚑ | HIGH | Pop risk |
+| N/A | Aleph (OCCRP) | N/A | 43.1 | -200 ⚑ | HIGH | Pop risk |
+| N/A | DAO Governance Surfaces | N/A | 51.2 | -269 ⚑ | LOW |  |
+| 101 | oTree | 43.0 | 41.2 | -56 ⚑ | MEDIUM |  |
+| N/A | vTaiwan | N/A | 50.0 | -254 ⚑ | MEDIUM |  |
+| 55 | WriteToThem | 62.0 | 44.1 | -63 ⚑ | MEDIUM |  |
+| 82 | Wikum | 50.0 | 47.1 | -8 | LOW |  |
+| 37 | Pursuance Project | 68.0 | 53.9 | -2 | MEDIUM |  |
+| 45 | PlanIT | 64.0 | 45.0 | -62 ⚑ | MEDIUM |  |
+| 32 | Parse The Bill | 72.0 | 37.3 | -161 ⚑ | LOW |  |
+| N/A | Open Referral UK | N/A | 43.1 | -198 ⚑ | MEDIUM |  |
+| N/A | Land Explorer | N/A | 48.0 | -236 ⚑ | LOW |  |
+| N/A | Kialo | N/A | 49.0 | -246 ⚑ | MEDIUM |  |
+| N/A | Granitt | N/A | 34.3 | -101 ⚑ | LOW |  |
+| N/A | Find local consultations | N/A | 36.3 | -116 ⚑ | MEDIUM |  |
+| N/A | Civic Tech Field Guide | N/A | 43.1 | -199 ⚑ | MEDIUM |  |
+| N/A | postcodes.io | N/A | 46.1 | -226 ⚑ | MEDIUM |  |
+| N/A | dDocs | N/A | 59.9 | -305 ⚑ | NONE |  |
+| N/A | arXiv | N/A | 40.2 | -160 ⚑ | HIGH | Pop risk |
+| 36 | WhatDoTheyKnow | 70.0 | 34.3 | -192 ⚑ | MEDIUM |  |
+| 61 | UrbanistAI | 58.0 | 37.2 | -143 ⚑ | LOW |  |
+| 5 | Strike Map | 87.0 | 42.2 | -132 ⚑ | LOW |  |
+| 69 | Open Science Framework | 54.0 | 43.1 | -56 ⚑ | MEDIUM |  |
+| N/A | One Project | N/A | 51.0 | -261 ⚑ | LOW |  |
+| N/A | Members' Interests | N/A | 42.2 | -187 ⚑ | MEDIUM |  |
+| N/A | Coral | N/A | 41.2 | -179 ⚑ | MEDIUM |  |
+| N/A | Channel.org | N/A | 40.2 | -159 ⚑ | LOW |  |
+| 29 | ОПОРА (Opora) | 74.0 | 53.0 | -12 | MEDIUM |  |
+| 24 | Organise | 78.0 | 49.0 | -59 ⚑ | MEDIUM |  |
+| N/A | Nym | N/A | 56.0 | -296 ⚑ | LOW |  |
+| N/A | Journal of Open Source Software | N/A | 40.2 | -156 ⚑ | MEDIUM |  |
+| 109 | Empurrando Juntas (EJ) | 38.0 | 37.3 | -87 ⚑ | LOW |  |
+| 56 | CrowdJustice | 61.0 | 43.0 | -72 ⚑ | MEDIUM |  |
+| N/A | Contracts for Data Collaboration | N/A | 40.2 | -158 ⚑ | LOW |  |
+| 17 | Campaign Tracker | 81.0 | 46.1 | -81 ⚑ | MEDIUM |  |
+| 21 | sourceAFRICA | 78.0 | 45.1 | -83 ⚑ | MEDIUM |  |
+| 14 | Talk to the City | 83.0 | 53.9 | -26 ⚑ | LOW |  |
+| N/A | Sugartrail | N/A | 41.2 | -175 ⚑ | LOW |  |
+| 66 | Security First / Umbrella | 56.0 | 37.3 | -129 ⚑ | MEDIUM |  |
+| 59 | RxC Quadratic Voting | 58.0 | 48.0 | -29 ⚑ | HIGH | Pop risk |
+| 35 | Participedia | 70.0 | 50.0 | -37 ⚑ | MEDIUM |  |
+| N/A | Open Letter | N/A | 37.3 | -130 ⚑ | MEDIUM |  |
+| N/A | Open Data Communities | N/A | 44.1 | -207 ⚑ | MEDIUM |  |
+| N/A | Objector.ai | N/A | 34.3 | -95 ⚑ | LOW |  |
+| 64 | Objector.ai | 58.0 | 34.3 | -163 ⚑ | LOW |  |
+| N/A | Matrix | N/A | 60.9 | -307 ⚑ | MEDIUM |  |
+| N/A | Manifold Markets | N/A | 49.0 | -245 ⚑ | LOW |  |
+| N/A | Harmonica | N/A | 41.2 | -173 ⚑ | LOW |  |
+| N/A | Cybersecurity for Democracy | N/A | 51.0 | -264 ⚑ | LOW |  |
+| N/A | Cortico | N/A | 41.2 | -178 ⚑ | LOW |  |
+| N/A | Collaborative Data Patterns | N/A | 42.2 | -190 ⚑ | LOW |  |
+| N/A | Bluesky Social | N/A | 49.1 | -248 ⚑ | HIGH | Pop risk |
+| N/A | New_ Public Roundabout | N/A | 49.0 | -244 ⚑ | LOW |  |
+| N/A | Framework for Meaningful Engagement 2.0 | N/A | 47.3 | -233 ⚑ | LOW |  |
+| N/A | Entitledto | N/A | 30.4 | -68 ⚑ | MEDIUM |  |
+| N/A | docs.plus | N/A | 44.1 | -211 ⚑ | LOW |  |
+| 112 | Viewpoints | 38.0 | 34.2 | -118 ⚑ | LOW |  |
+| 92 | Teaching Public Service in the Digital Age | 48.0 | 37.3 | -110 ⚑ | LOW |  |
+| 50 | Shareyourpaper.org | 62.0 | 41.2 | -102 ⚑ | LOW |  |
+| N/A | Murmurations Protocol | N/A | 62.8 | -310 ⚑ | LOW |  |
+| N/A | Logos | N/A | 59.0 | -304 ⚑ | LOW |  |
+| N/A | GrantNav | N/A | 41.2 | -174 ⚑ | MEDIUM |  |
+| N/A | Mozilla Data Collective | N/A | 56.1 | -297 ⚑ | LOW |  |
+| 87 | WardWatch | 48.0 | 37.3 | -113 ⚑ | LOW |  |
+| 103 | ORCID | 38.0 | 36.3 | -106 ⚑ | MEDIUM |  |
+| 53 | Neighbourhood Warmth | 62.0 | 42.2 | -86 ⚑ | HIGH | Pop risk |
+| N/A | Guardian Project | N/A | 46.1 | -225 ⚑ | MEDIUM |  |
+| N/A | Groupthink (OpenPolitics Votebot) | N/A | 48.0 | -237 ⚑ | MEDIUM |  |
+| 100 | GOV.UK Forms | 44.0 | 33.3 | -135 ⚑ | LOW |  |
+| N/A | CivicPress | N/A | 42.2 | -191 ⚑ | LOW |  |
+| N/A | Abstract Wikipedia | N/A | 45.0 | -216 ⚑ | HIGH | Pop risk |
+| N/A | Turn2us Benefits Calculator | N/A | 26.5 | -37 ⚑ | MEDIUM |  |
+| 16 | The Circuit | 82.0 | 31.4 | -236 ⚑ | LOW |  |
+| N/A | Political Advertising Transparency Data Standard | N/A | 52.9 | -278 ⚑ | LOW |  |
+| N/A | Pastecal | N/A | 34.3 | -103 ⚑ | LOW |  |
+| N/A | Nestr | N/A | 45.3 | -220 ⚑ | LOW |  |
+| N/A | Metaculus | N/A | 41.1 | -162 ⚑ | MEDIUM |  |
+| N/A | Libertrium | N/A | 37.3 | -131 ⚑ | MEDIUM |  |
+| N/A | Bellingcat Online Investigation Toolkit | N/A | 41.2 | -180 ⚑ | HIGH | Pop risk |
+| N/A | Awesome UK Government Datasets | N/A | 50.1 | -259 ⚑ | LOW |  |
+| N/A | Global Fact-Check Bot (GFC) | N/A | 33.3 | -88 ⚑ | LOW |  |
+| N/A | openparliament.ca | N/A | 48.0 | -235 ⚑ | MEDIUM |  |
+| 73 | Vote for Policies | 54.0 | 40.2 | -98 ⚑ | MEDIUM |  |
+| 52 | VFRAME | 62.0 | 37.3 | -147 ⚑ | MEDIUM |  |
+| 44 | Tor Project | 65.0 | 32.2 | -202 ⚑ | HIGH | Pop risk |
+| N/A | Schema.org | N/A | 38.2 | -140 ⚑ | NONE |  |
+| 19 | Relational Tech Project | 80.0 | 43.1 | -107 ⚑ | NONE |  |
+| 67 | Marks Out Of Tenancy | 56.0 | 36.3 | -145 ⚑ | LOW |  |
+| 121 | MP Twitter Bios | 37.0 | 41.2 | -35 ⚑ | LOW |  |
+| N/A | LittleSis | N/A | 55.0 | -290 ⚑ | MEDIUM |  |
+| 22 | Community Tech | 78.0 | 41.2 | -132 ⚑ | LOW |  |
+| 57 | Who Targets Me Trends | 60.0 | 34.3 | -169 ⚑ | LOW |  |
+| 51 | Spacetube | 62.0 | 43.2 | -70 ⚑ | LOW |  |
+| 49 | SecureDrop | 62.0 | 44.1 | -67 ⚑ | MEDIUM |  |
+| N/A | Open Access – Transparency International UK | N/A | 36.3 | -114 ⚑ | MEDIUM |  |
+| N/A | Monitor Mamdani | N/A | 36.3 | -115 ⚑ | LOW |  |
+| 43 | Local Intelligence Hub | 65.0 | 39.1 | -133 ⚑ | LOW |  |
+| N/A | HURIDOCS | N/A | 56.9 | -298 ⚑ | MEDIUM |  |
+| 33 | GlobaLeaks | 72.0 | 37.3 | -168 ⚑ | MEDIUM |  |
+| N/A | Give Food | N/A | 42.2 | -184 ⚑ | MEDIUM |  |
+| 72 | Gapminder Worldview Upgrader | 54.0 | 37.3 | -126 ⚑ | MEDIUM |  |
+| 48 | Public AI Inference Utility | 62.0 | 33.4 | -183 ⚑ | LOW |  |
+| 110 | soweego | 38.0 | 37.3 | -87 ⚑ | LOW |  |
+| 13 | Worker Info Exchange | 85.0 | 37.3 | -190 ⚑ | HIGH | Pop risk |
+| 31 | Wikidata | 73.0 | 41.2 | -128 ⚑ | MEDIUM |  |
+| 62 | Unpaywall Browser Extension | 58.0 | 38.2 | -121 ⚑ | LOW |  |
+| N/A | The Commons Social Change Library | N/A | 42.2 | -189 ⚑ | MEDIUM |  |
+| N/A | Moral Machine | N/A | 32.4 | -82 ⚑ | MEDIUM |  |
+| N/A | Mapped | N/A | 40.2 | -155 ⚑ | LOW |  |
+| 116 | GOV.UK Pay | 38.0 | 27.4 | -166 ⚑ | MEDIUM |  |
+| N/A | Democracy Club Developer API | N/A | 50.0 | -255 ⚑ | MEDIUM |  |
+| 99 | Deliberation & Technology (DelibTech) Network | 44.0 | 41.2 | -56 ⚑ | LOW |  |
+| N/A | DISARM Frameworks | N/A | 38.2 | -144 ⚑ | LOW |  |
+| N/A | CiviClick | N/A | 33.3 | -90 ⚑ | LOW |  |
+| N/A | Atlas of Surveillance | N/A | 25.2 | -30 ⚑ | LOW |  |
+| N/A | AlgorithmWatch | N/A | 47.0 | -229 ⚑ | LOW |  |
+| 127 | Prolific | 32.0 | 30.4 | -132 ⚑ | MEDIUM |  |
+| N/A | UK Policy Dojo | N/A | 41.2 | -176 ⚑ | LOW |  |
+| 91 | Shared Digital Guides | 48.0 | 26.5 | -197 ⚑ | LOW |  |
+| 97 | Plinth | 46.0 | 28.4 | -174 ⚑ | LOW |  |
+| N/A | OpenProcurement | N/A | 50.0 | -252 ⚑ | MEDIUM |  |
+| N/A | OpenAudience | N/A | 31.4 | -74 ⚑ | MEDIUM |  |
+| N/A | Idealist | N/A | 41.2 | -172 ⚑ | MEDIUM |  |
+| N/A | Humanitarian Data Exchange | N/A | 36.3 | -117 ⚑ | MEDIUM |  |
+| N/A | EDGAR | N/A | 44.1 | -210 ⚑ | HIGH | Pop risk |
+| N/A | Consent-O-Matic | N/A | 40.2 | -157 ⚑ | LOW |  |
+| N/A | Bluesky | N/A | 34.2 | -93 ⚑ | HIGH | Pop risk |
+| N/A | https://tracking-template-38b4c.web.app | N/A | 28.0 | 677 ⚑ | NONE |  |
+| N/A | youtube-dl | N/A | 34.3 | -102 ⚑ | MEDIUM |  |
+| N/A | django-collaborative | N/A | 39.2 | -149 ⚑ | MEDIUM |  |
+| N/A | UK Housing Data Standards | N/A | 50.0 | -253 ⚑ | LOW |  |
+| 86 | Turbo Phonebank | 48.0 | 36.3 | -124 ⚑ | LOW |  |
+| N/A | The Engine Room Library | N/A | 42.2 | -188 ⚑ | MEDIUM |  |
+| 70 | Spartacus | 54.0 | 44.1 | -47 ⚑ | LOW |  |
+| 119 | GOV.UK One Login | 38.0 | 32.4 | -126 ⚑ | LOW |  |
+| 96 | GOV.UK Notify | 46.0 | 30.4 | -162 ⚑ | MEDIUM |  |
+| N/A | Democracy Fund Open Source | N/A | 49.0 | -240 ⚑ | MEDIUM |  |
+| N/A | Community Notes (Birdwatch) Analysis Tool | N/A | 44.2 | -213 ⚑ | LOW |  |
+| N/A | Nyaaya | N/A | 30.4 | -66 ⚑ | MEDIUM |  |
+| 94 | Timecounts | 46.0 | 34.3 | -131 ⚑ | MEDIUM |  |
+| N/A | Theft Bisect | N/A | 38.2 | -142 ⚑ | LOW |  |
+| N/A | The Data Trusts Initiative | N/A | 35.3 | -107 ⚑ | LOW |  |
+| N/A | OA.Works | N/A | 40.2 | -154 ⚑ | MEDIUM |  |
+| N/A | OA.Report | N/A | 31.4 | -75 ⚑ | LOW |  |
+| 39 | Internet Archive Wayback Machine | 66.0 | 49.0 | -41 ⚑ | MEDIUM |  |
+| N/A | Frankenstein Bill | N/A | 38.2 | -143 ⚑ | LOW |  |
+| N/A | Fission Codes | N/A | 40.4 | -161 ⚑ | LOW |  |
+| N/A | Collab.Land | N/A | 28.6 | -57 ⚑ | LOW |  |
+| 76 | The Accountability Project | 52.0 | 32.4 | -165 ⚑ | LOW |  |
+| 4 | Riseup | 87.0 | 32.4 | -239 ⚑ | MEDIUM |  |
+| 83 | Remember to Vote | 48.0 | 32.4 | -159 ⚑ | LOW |  |
+| 93 | PostBug | 46.0 | 31.4 | -157 ⚑ | MEDIUM |  |
+| 104 | OSINT Framework | 38.0 | 40.2 | -66 ⚑ | MEDIUM |  |
+| 63 | MP Watch | 58.0 | 42.3 | -67 ⚑ | LOW |  |
+| N/A | Kagi SlopStop | N/A | 46.2 | -228 ⚑ | LOW |  |
+| N/A | Hand-Written Petition Scanner | N/A | 39.2 | -148 ⚑ | NONE |  |
+| N/A | GRIM (Global Risk Simulator) | N/A | 37.3 | -133 ⚑ | LOW |  |
+| N/A | Esper | N/A | 19.6 | -8 | LOW |  |
+| 102 | Beckton | 41.0 | 38.2 | -79 ⚑ | LOW |  |
+| N/A | rsky | N/A | 37.3 | -134 ⚑ | LOW |  |
+| 108 | User Research Library | 38.0 | 27.5 | -171 ⚑ | MEDIUM |  |
+| N/A | UK Parliament Developer Portal | N/A | 33.3 | -89 ⚑ | MEDIUM |  |
+| 114 | Service Manual | 38.0 | 26.5 | -173 ⚑ | MEDIUM |  |
+| 98 | Privacy Badger | 45.0 | 30.2 | -162 ⚑ | MEDIUM |  |
+| 118 | Polimorphic | 38.0 | 23.4 | -180 ⚑ | LOW |  |
+| 81 | Pageviews Analysis | 50.0 | 34.3 | -143 ⚑ | MEDIUM |  |
+| N/A | OpenElections Leaflet Scraper and Parser | N/A | 39.3 | -150 ⚑ | LOW |  |
+| N/A | Local Insight | N/A | 29.4 | -60 ⚑ | MEDIUM |  |
+| 124 | GovWise | 34.0 | 29.4 | -139 ⚑ | LOW |  |
+| N/A | Fatebook | N/A | 41.2 | -177 ⚑ | LOW |  |
+| N/A | Data Observation Toolkit (DOT) | N/A | 34.3 | -104 ⚑ | LOW |  |
+| N/A | Choose a License | N/A | 38.2 | -145 ⚑ | MEDIUM |  |
+| N/A | Anna's Archive | N/A | 43.2 | -203 ⚑ | NONE |  |
+| 77 | River Sentiment Dashboard | 52.0 | 35.4 | -137 ⚑ | LOW |  |
+| 75 | Watch Duty | 54.0 | 27.5 | -206 ⚑ | LOW |  |
+| 122 | Registers and collaboration: making lists we can trust | 35.0 | 22.5 | -179 ⚑ | LOW |  |
+| 117 | PoliMonitor | 38.0 | 21.6 | -189 ⚑ | LOW |  |
+| N/A | PatCit | N/A | 27.5 | -46 ⚑ | LOW |  |
+| 68 | Martus | 56.0 | 36.3 | -145 ⚑ | MEDIUM |  |
+| N/A | Journalist Studio | N/A | 37.3 | -132 ⚑ | LOW |  |
+| N/A | Granicus | N/A | 25.5 | -32 ⚑ | MEDIUM |  |
+| N/A | GOV Reuse Library | N/A | 28.4 | -55 ⚑ | LOW |  |
+| N/A | Responsible Tech Guide 2025 | N/A | 20.6 | -13 | LOW |  |
+| 111 | Urbit | 38.0 | 45.2 | +8 | LOW |  |
+| 113 | The Guide to Major Trusts 2025/26 | 38.0 | 34.5 | -104 ⚑ | MEDIUM |  |
+| 60 | Radicle | 58.0 | 37.3 | -134 ⚑ | LOW |  |
+| N/A | Full Fact AI | N/A | 27.5 | -47 ⚑ | HIGH | Pop risk |
+| N/A | Charity Digital Skills Report | N/A | 32.4 | -86 ⚑ | MEDIUM |  |
+| N/A | Labour Xchange | N/A | 22.5 | -23 ⚑ | MEDIUM |  |
+| 84 | semanticClimate | 48.0 | 31.4 | -167 ⚑ | LOW |  |
+| N/A | Nook CRM | N/A | 34.3 | -100 ⚑ | LOW |  |
+| 95 | MyActionCenter | 46.0 | 29.4 | -169 ⚑ | LOW |  |
+| N/A | Missing Numbers | N/A | 22.5 | -22 ⚑ | LOW |  |
+| N/A | Membership | N/A | 45.0 | -217 ⚑ | NONE |  |
+| N/A | Landlord Tech Watch | N/A | 41.2 | -181 ⚑ | LOW |  |
+| N/A | Keep It In The Community | N/A | 27.5 | -44 ⚑ | NONE |  |
+| N/A | In the news | N/A | 32.4 | -85 ⚑ | LOW |  |
+| N/A | Dunadyne | N/A | 29.4 | -61 ⚑ | LOW |  |
+| 128 | DoNotPay | 29.0 | 36.3 | -83 ⚑ | LOW |  |
+| N/A | CAN/DGSI 127 - Age Assurance Technologies Standard | N/A | 37.3 | -136 ⚑ | LOW |  |
+| N/A | Ladder Hub | N/A | 27.5 | -45 ⚑ | LOW |  |
+| 74 | Who Posted What? | 54.0 | 32.4 | -170 ⚑ | MEDIUM |  |
+| 125 | RightDD | 34.0 | 27.5 | -155 ⚑ | MEDIUM |  |
+| N/A | PolicyMogul | N/A | 16.7 | -3 | LOW |  |
+| 106 | Plausible Analytics | 38.0 | 30.4 | -151 ⚑ | LOW |  |
+| N/A | FixMyBlock | N/A | 25.5 | -33 ⚑ | LOW |  |
+| 38 | Right To Know | 67.0 | 28.4 | -231 ⚑ | MEDIUM |  |
+| N/A | whatsmeow | N/A | 32.4 | -83 ⚑ | NONE |  |
+| N/A | Pear by Holepunch | N/A | 27.5 | -48 ⚑ | LOW |  |
+| 41 | Papertree | 66.0 | 51.1 | -15 | NONE |  |
+| 105 | Overton | 38.0 | 31.4 | -144 ⚑ | LOW |  |
+| N/A | Dovetail | N/A | 24.5 | -29 ⚑ | LOW |  |
+| N/A | DeepSeek-V3 | N/A | 30.4 | -67 ⚑ | HIGH | Pop risk |
+| N/A | Citizens Advice Tableau Public Profile | N/A | 28.4 | -54 ⚑ | NONE |  |
+| 120 | Yoti | 38.0 | 21.6 | -188 ⚑ | MEDIUM |  |
+| 126 | Whoisology | 32.0 | 19.5 | -189 ⚑ | MEDIUM |  |
+| N/A | Gender Pay Gap Service | N/A | 32.4 | -84 ⚑ | LOW |  |
+| N/A | We Live It | N/A | 27.3 | -39 ⚑ | LOW |  |
+| 71 | The List | 54.0 | 23.5 | -226 ⚑ | LOW |  |
+| 85 | Society for Hopeful Technologists | 48.0 | 23.5 | -211 ⚑ | LOW |  |
+| 107 | Public Media Stack | 38.0 | 24.5 | -188 ⚑ | LOW |  |
+| N/A | Filmot | N/A | 21.6 | -18 | LOW |  |
+| N/A | FarmerChat | N/A | 24.5 | -28 ⚑ | LOW |  |
+| N/A | Consciousness Evolution Operating System (ConSoc) | N/A | 28.4 | -52 ⚑ | NONE |  |
+| N/A | COTSI (Cyber Operational Threat Situational Intelligence) | N/A | 17.5 | -4 | LOW |  |
+| N/A | AISafety.info | N/A | 26.5 | -38 ⚑ | LOW |  |
+| 79 | Violation Tracker UK | 52.0 | 26.5 | -207 ⚑ | NONE |  |
+| N/A | Understanding Your Morality | N/A | 21.6 | -17 | MEDIUM |  |
+| 78 | Sci-Hub | 52.0 | 20.6 | -234 ⚑ | NONE |  |
+| N/A | Public Editor | N/A | 21.6 | -15 | NONE |  |
+| N/A | Conservative Party Funding | N/A | 18.6 | -6 | LOW |  |
+| N/A | CivicMatch | N/A | 28.4 | -56 ⚑ | LOW |  |
+| N/A | GreenPT | N/A | 25.5 | -31 ⚑ | LOW |  |
+| 129 | WorkInCharities | 28.0 | 16.7 | -191 ⚑ | LOW |  |
+| N/A | Mapping.kids | N/A | 20.6 | -12 | NONE |  |
+| N/A | DoGooder | N/A | 21.6 | -19 | LOW |  |
+| N/A | DemTech Navigator | N/A | 20.6 | -11 | LOW |  |
+| N/A | The Decelerator | N/A | 17.6 | -5 | LOW |  |
+| 115 | OpenOrigins | 38.0 | 22.5 | -187 ⚑ | LOW |  |
+| N/A | Digital Account Management Toolkit | N/A | 19.6 | -9 | LOW |  |
+| N/A | Local Deep Researcher | N/A | 28.0 | -50 ⚑ | NONE |  |
+| N/A | Unknown Academic Paper (SSRN 5351275) | N/A | 28.0 | -49 ⚑ | NONE |  |
 
 ---
 
@@ -523,328 +511,327 @@ The jury consists of five language models, each running five independent evaluat
 
 | Rank | Project | URL | Score | Criteria | Mod Adj | Completeness | Uncertainty | Pop Risk | Primary Driver | Rationale |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 1 | Decidim | https://decidim.org | 64.7 | 64.7 | 0 | 0.93 | LOW | high | criteria | "Decidim helps citizens, organizations and public institutions self-organize democratically at every " -- Decidim hits multiple high-weight criteria in my constitution. Scores: C3 20/20, C2 17/20, C4 12/12, C6 8/12. Popularity risk is high -- Decidim is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 55. |
-| 2 | Cobudget | https://cobudget.com | 63.7 | 63.7 | 0 | 0.95 | LOW | none | criteria | "Tap into your group’s creative potential. Crowd source, develop and review ideas. Spark opportunitie" -- Cobudget hits multiple high-weight criteria in my constitution. Scores: C3 19/20, C2 17/20, C4 10/12, C6 7/12. |
-| 3 | Open Council Network | https://opencouncil.network | 59.8 | 59.8 | 0 | 0.95 | LOW | none | criteria | "Know what your local councillors are doing for you, every day. Weekly summaries, videos and transcri" -- Open Council Network hits multiple high-weight criteria in my constitution. Scores: C2 19/20, C3 13/20, C6 10/12, C4 9/12. |
-| 4 | adhocracy+ | https://adhocracy.plus | 58.8 | 58.8 | 0 | 0.98 | LOW | none | criteria | "adhocracy+ makes digital democracy easy - for everyone no matter where" -- adhocracy+ hits multiple high-weight criteria in my constitution. Scores: C2 20/20, C3 10/20, C4 10/12, C6 10/12. |
-| 5 | Ethelo | https://ethelo.com | 57.9 | 52.9 | 5 | 0.93 | LOW | medium | criteria | "The world&#8217;s leading group solutions technology" -- Ethelo hits multiple high-weight criteria in my constitution. Scores: C2 17/20, C3 14/20, C4 10/12, C6 8/12. Ethelo is well-enough known that I should flag documentation advantage as a factor in my confidence. |
-| 6 | Citizen OS | https://citizenos.com/platform/ | 57.8 | 57.8 | 0 | 0.95 | LOW | medium | criteria | "Citizen OS is a free participation platform for gathering ideas, discussing, voting, and making deci" -- Citizen OS hits multiple high-weight criteria in my constitution. Scores: C2 20/20, C3 10/20, C6 10/12, C4 9/12. As a moderately well-known project, some of Citizen OS's score may reflect documentation richness rather than pure constitutional fit. |
-| 7 | Bonfire | https://bonfirenetworks.org/ | 57.8 | 57.8 | 0 | 0.95 | LOW | none | criteria | "A federated social network for individuals and communities to design, operate and control their own " -- Bonfire hits multiple high-weight criteria in my constitution. Scores: C3 20/20, C2 14/20, C4 7/12, C6 7/12. |
-| 8 | CharmVerse | https://charmverse.io/ | 57.1 | 47.1 | 10 | 0.93 | LOW | none | modifier | "CharmVerse is a web3 community platform for building relationships and co-creating projects. Join Op" -- CharmVerse hits multiple high-weight criteria in my constitution. Scores: C2 18/20, C6 8/12, C4 7/12, C7 5/6. On-chain governance modifier adds +10. |
-| 9 | CommunityRule | https://communityrule.info | 56.9 | 56.9 | 0 | 0.98 | LOW | none | criteria | "A governance toolkit for great communities" -- CommunityRule hits multiple high-weight criteria in my constitution. Scores: C2 20/20, C3 10/20, C4 10/12, C6 8/12. |
-| 10 | CONSUL Democracy | https://consulproject.org | 56.9 | 56.9 | 0 | 0.93 | LOW | medium | criteria | "The open source CONSUL DEMOCRACY software is free to use and modify" -- CONSUL Democracy hits multiple high-weight criteria in my constitution. Scores: C2 17/20, C3 12/20, C4 12/12, C6 8/12. I note that CONSUL Democracy is a moderately familiar project; part of what looks like fit may just be better documentation. |
-| 11 | Alaveteli | https://alaveteli.org | 56.9 | 56.9 | 0 | 0.95 | LOW | high | criteria | "Alaveteli helps you lower the barriers that prevent citizens asking questions of those in power" -- Alaveteli hits multiple high-weight criteria in my constitution. Scores: C2 17/20, C6 12/12, C3 10/20, C4 9/12. Popularity risk is high -- Alaveteli is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 47. |
-| 12 | Loomio | https://www.loomio.org | 55.9 | 55.9 | 0 | 0.95 | LOW | high | criteria | "Loomio is a collaborative decision-making app that saves time in meetings and keeps a record of deci" -- Loomio hits multiple high-weight criteria in my constitution. Scores: C2 18/20, C3 13/20, C4 10/12, C6 7/12. Popularity risk is high -- Loomio is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 46. |
-| 13 | Your Priorities | https://yrpri.org | 54.9 | 54.9 | 0 | 0.9 | LOW | none | criteria | "Your Priorities is an idea generation, deliberation   decision-making platform helping governments m" -- Your Priorities has meaningful alignment with my priorities. Scores: C2 19/20, C4 12/12, C6 12/12, C7 5/6. |
-| 14 | CiviCRM | https://civicrm.org | 54.9 | 54.9 | 0 | 0.95 | LOW | none | criteria | "Our users have registered more than 24,441,697 event participants" -- CiviCRM has meaningful alignment with my priorities. Scores: C2 17/20, C4 12/12, C6 9/12, C3 8/20. |
-| 15 | mySociety Datasets and APIs | https://data.mysociety.org | 53.9 | 53.9 | 0 | 0.9 | LOW | medium | criteria | "mySociety is a not-for-profit social enterprise, based in the UK but working with partners internati" -- mySociety Datasets and APIs has meaningful alignment with my priorities. Scores: C2 15/20, C3 12/20, C4 9/12, C6 7/12. I note that mySociety Datasets and APIs is a moderately familiar project; part of what looks like fit may just be better documentation. |
-| 16 | Populate Tools | https://github.com/populatetools | 53.9 | 53.9 | 0 | 0.86 | LOW | none | criteria | "Tools for civic engagement. Populate has 102 repositories available. Follow their code on GitHub" -- Populate Tools has meaningful alignment with my priorities. Scores: C2 16/20, C3 13/20, C4 9/12, C6 9/12. |
-| 17 | CoTech | https://coops.tech | 53.9 | 53.9 | 0 | 0.86 | LOW | none | criteria | "Building a tech industry that" -- CoTech has meaningful alignment with my priorities. Scores: C3 18/20, C2 17/20, C4 7/12, C6 7/12. |
-| 18 | Aragon | https://aragon.org | 53.1 | 43.1 | 10 | 0.95 | LOW | high | modifier | "Aragon gives organizations the tools to build, govern, and accrue value effectively onchain" -- Aragon has meaningful alignment with my priorities. Scores: C3 12/20, C2 10/20, C6 8/12, C4 7/12. On-chain governance modifier adds +10. Popularity risk is high -- Aragon is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 43. |
-| 19 | Open Collective | https://opencollective.com | 52.9 | 52.9 | 0 | 0.95 | LOW | high | criteria | "Open Collective is a legal and financial toolbox for groups. It’s a fundraising + legal status + mon" -- Open Collective has meaningful alignment with my priorities. Scores: C3 18/20, C4 12/12, C1 8/20, C7 6/6. Popularity risk is high -- Open Collective is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 43. |
-| 20 | Ushahidi | https://www.ushahidi.com | 52.0 | 52.0 | 0 | 0.95 | LOW | high | criteria | "Ushahidi is an open source software application which utilises user-generated reports to collate and" -- Ushahidi has meaningful alignment with my priorities. Scores: C2 14/20, C4 12/12, C3 11/20, C6 10/12. Popularity risk is high -- Ushahidi is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 42. |
-| 21 | Stanford Participatory Budgeting Platform | https://github.com/stanfordcdt/pb | 51.0 | 51.0 | 0 | 0.86 | LOW | none | criteria | "Participatory Budgeting Platform. Contribute to StanfordCDT/pb development by creating an account on" -- Stanford Participatory Budgeting Platform has meaningful alignment with my priorities. Scores: C2 18/20, C6 10/12, C4 7/12, C7 6/6. |
-| 22 | Open Standards for Data Guidebook | https://standards.theodi.org | 51.0 | 51.0 | 0 | 0.95 | LOW | none | criteria | "This guidebook helps people and organisations create, develop and adopt open standards for data. It " -- Open Standards for Data Guidebook has meaningful alignment with my priorities. Scores: C3 16/20, C4 9/12, C5 8/12, C6 6/12. |
-| 23 | PolicyEngine | https://policyengine.org/uk | 50.0 | 50.0 | 0 | 0.93 | LOW | high | criteria | "Free, open-source tools to understand tax and benefit policies. Explore research, meet our team, and" -- PolicyEngine has meaningful alignment with my priorities. Scores: C6 11/12, C3 10/20, C4 9/12, C7 6/6. Popularity risk is high -- PolicyEngine is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 40. |
-| 24 | OpenSanctions | https://www.opensanctions.org | 50.0 | 50.0 | 0 | 0.95 | LOW | medium | criteria | "OpenSanctions helps investigators find leads, allows companies to manage risk and enables technologi" -- OpenSanctions has meaningful alignment with my priorities. Scores: C3 13/20, C2 11/20, C4 9/12, C6 9/12. As a moderately well-known project, some of OpenSanctions's score may reflect documentation richness rather than pure constitutional fit. |
-| 25 | Agencies for Good | https://www.agenciesforgood.org | 50.0 | 50.0 | 0 | 0.93 | LOW | none | criteria | "We’re a community of tech for good agencies, consultancies and freelancers. We hang out on Slack and" -- Agencies for Good has meaningful alignment with my priorities. Scores: C2 19/20, C3 15/20, C6 8/12, C4 5/12. |
-| 26 | Tech Coops List | https://tech-coops.xyz | 49.0 | 49.0 | 0 | 0.95 | LOW | none | criteria | "A list of tech coops and resources concerning tech coops and worker owned cooperatives in general" -- Tech Coops List has meaningful alignment with my priorities. Scores: C3 14/20, C4 12/12, C2 10/20, C6 6/12. |
-| 27 | The DAO (Standard DAO Framework) | https://github.com/vbuterin/dao | 48.2 | 38.2 | 10 | 0.83 | LOW | none | modifier | "The Standard DAO Framework, inc. Whitepaper. Contribute to vbuterin/DAO development by creating an a" -- The DAO (Standard DAO Framework) has meaningful alignment with my priorities. Scores: C2 12/20, C3 8/20, C4 7/12, C6 5/12. On-chain governance modifier adds +10. |
-| 28 | Interoperable Deliberative Tools | https://metagov.org/projects/interop | 48.0 | 48.0 | 0 | 0.9 | LOW | none | criteria | "homebase for interoperable deliberative tools" -- Interoperable Deliberative Tools has meaningful alignment with my priorities. Scores: C2 19/20, C4 7/12, C6 7/12, C7 5/6. |
-| 29 | Open Heart Mind (OHM) | https://openheartmind.org | 47.1 | 47.1 | 0 | 0.95 | LOW | none | criteria | "A participatory, gift-based gathering of art, science, wellbeing, culture and more — powered by Wisd" -- Open Heart Mind (OHM) has meaningful alignment with my priorities. Scores: C3 20/20, C2 9/20, C4 7/12, C7 5/6. |
-| 30 | Open Contracting Partnership | https://www.open-contracting.org | 47.1 | 47.1 | 0 | 0.98 | LOW | high | criteria | "We connect governments, civil society and business to open up and monitor public procurement. Open c" -- Open Contracting Partnership has meaningful alignment with my priorities. Scores: C2 12/20, C4 12/12, C6 5/12, C7 5/6. Popularity risk is high -- Open Contracting Partnership is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 37. |
-| 31 | Humanitarian OpenStreetMap Team (HOT) | https://www.hotosm.org | 47.1 | 47.1 | 0 | 0.95 | LOW | high | criteria | "OpenStreetMap users in HOT&#x27;s priority regions" -- Humanitarian OpenStreetMap Team (HOT) has meaningful alignment with my priorities. Scores: C2 13/20, C4 12/12, C6 9/12, C3 8/20. Popularity risk is high -- Humanitarian OpenStreetMap Team (HOT) is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 37. |
-| 32 | Fundación Ciudadanía Inteligente | https://ciudadaniai.org | 47.1 | 47.1 | 0 | 0.9 | LOW | none | criteria | "Somos una organización latinoamericana que lucha por la transformación de las democracias" -- Fundación Ciudadanía Inteligente has meaningful alignment with my priorities. Scores: C2 13/20, C4 12/12, C3 9/20, C6 8/12. |
-| 33 | CKAN | https://ckan.org | 47.1 | 47.1 | 0 | 0.95 | LOW | high | criteria | "CKAN is an open-source DMS (data management system) for powering data hubs and data portals. CKAN ma" -- CKAN has meaningful alignment with my priorities. Scores: C4 12/12, C6 12/12, C3 8/20, C7 6/6. Popularity risk is high -- CKAN is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 37. |
-| 34 | Activist Handbook | https://activisthandbook.org/ | 47.1 | 47.1 | 0 | 0.95 | LOW | none | criteria | "We write guides for activists. Learn how to become a social activist, plan a political campaign stra" -- Activist Handbook has meaningful alignment with my priorities. Scores: C2 15/20, C3 12/20, C4 12/12, C7 5/6. |
-| 35 | Tactical Data Engagement | https://communities.sunlightfoundation.com/methodology | 46.2 | 41.2 | 5 | 0.86 | LOW | none | criteria | "A guiding framework for data providers, inside and outside of City Hall, to investigate and catalyze" -- Tactical Data Engagement has meaningful alignment with my priorities. Scores: C2 15/20, C6 12/12, C4 7/12, C7 4/6. |
-| 36 | WhatGov | https://www.whatgov.co.uk | 46.1 | 46.1 | 0 | 0.81 | LOW | none | criteria | "Government debates as gen-z chats + professional-grade analysis of all government actions. Parliamen" -- WhatGov has meaningful alignment with my priorities. Scores: C2 18/20, C6 9/12, C4 7/12, C7 4/6. |
-| 37 | Snowdrift.coop | https://snowdrift.coop | 46.1 | 46.1 | 0 | 0.95 | LOW | none | criteria | "We support works that everyone can use, adapt, and share freely. But as public goods, anyone can fre" -- Snowdrift.coop has meaningful alignment with my priorities. Scores: C3 20/20, C4 9/12, C6 6/12, C7 6/6. |
-| 38 | Open Data Editor (ODE) | https://okfn.org/en/projects/open-data-editor/ | 46.1 | 46.1 | 0 | 1.0 | LOW | none | criteria | "ODE is a free, open-source tool designed to help nonprofits, data journalists, activists, and public" -- Open Data Editor (ODE) has meaningful alignment with my priorities. Scores: C3 10/20, C4 10/12, C6 9/12, C7 6/6. |
-| 39 | LiquidFeedback | https://liquidfeedback.com | 46.1 | 46.1 | 0 | 0.95 | LOW | medium | criteria | "The official home page of the LiquidFeedback project" -- LiquidFeedback has meaningful alignment with my priorities. Scores: C3 15/20, C4 12/12, C2 9/20, C7 6/6. LiquidFeedback is well-enough known that I should flag documentation advantage as a factor in my confidence. |
-| 40 | Fairbnb.coop | https://fairbnb.coop | 46.1 | 46.1 | 0 | 0.95 | LOW | medium | criteria | "A vacation rental platform which gives back 50% of its revenues to support local community projects " -- Fairbnb.coop has meaningful alignment with my priorities. Scores: C3 14/20, C4 12/12, C6 9/12, C7 5/6. I note that Fairbnb.coop is a moderately familiar project; part of what looks like fit may just be better documentation. |
-| 41 | All Our Ideas | https://all-our-ideas.citizens.is | 46.1 | 46.1 | 0 | 0.74 | LOW | medium | criteria | "A platform for crowdsourcing ideas and priorities through pairwise comparison voting" -- All Our Ideas has meaningful alignment with my priorities. Scores: C2 20/20, C4 7/12, C6 7/12, C7 4/6. All Our Ideas is well-enough known that I should flag documentation advantage as a factor in my confidence. |
-| 42 | Mastodon | https://github.com/mastodon/mastodon | 45.2 | 40.2 | 5 | 0.9 | LOW | high | criteria | "Your self-hosted, globally interconnected microblogging community - mastodon/mastodon" -- Mastodon has meaningful alignment with my priorities. Scores: C4 12/12, C3 11/20, C6 7/12, C7 6/6. Popularity risk is high -- Mastodon is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 35. |
-| 43 | Discourse | https://www.discourse.org | 45.1 | 45.1 | 0 | 0.95 | LOW | high | criteria | "The customizable, scalable community platform powering over 22,000 communities. Create knowledge thr" -- Discourse has meaningful alignment with my priorities. Scores: C2 13/20, C4 12/12, C6 9/12, C7 5/6. Popularity risk is high -- Discourse is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 35. |
-| 44 | Diia | https://expo.diia.gov.ua | 45.1 | 45.1 | 0 | 0.93 | LOW | medium | criteria | "Diia — ecosystem created by the Ministry of Digital Transformation of Ukraine. It includes mobile ap" -- Diia has meaningful alignment with my priorities. Scores: C3 12/20, C4 9/12, C2 8/20, C6 8/12. I note that Diia is a moderately familiar project; part of what looks like fit may just be better documentation. |
-| 45 | PolicyKit | https://policykit.org | 45 | 48.0 | 0 | 0.86 | LOW | medium | procedural | PolicyKit ("The server is temporarily unable to service your request due to maintenance downtime or capacity pro") has a dead homepage link, severely limiting what I can evaluate. Scores: C2 15/20, C6 10/12, C3 8/20, C4 7/12. Dead link cap at 45. As a moderately well-known project, some of PolicyKit's score may reflect documentation richness rather than pure constitutional fit. |
-| 46 | TheyWorkForYou | https://www.theyworkforyou.com | 44.1 | 44.1 | 0 | 0.9 | LOW | high | criteria | "Making it easy to keep an eye on the UK&rsquo;s parliaments. Discover who represents you, how they&r" -- TheyWorkForYou has meaningful alignment with my priorities. Scores: C2 15/20, C6 12/12, C4 9/12, C7 5/6. Popularity risk is high -- TheyWorkForYou is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 34. |
-| 47 | RxC Voice | https://github.com/radicalxchange/rxc-voice | 44.1 | 44.1 | 0 | 0.88 | LOW | none | criteria | "An app for decentralized democratic governance. Contribute to RadicalxChange/rxc-voice development b" -- RxC Voice has meaningful alignment with my priorities. Scores: C2 18/20, C6 8/12, C4 7/12, C7 5/6. |
-| 48 | Rahvaalgatus | https://github.com/rahvaalgatus/rahvaalgatus | 44.1 | 44.1 | 0 | 0.9 | LOW | none | criteria | "https://rahvaalgatus.ee. Contribute to rahvaalgatus/rahvaalgatus development by creating an account " -- Rahvaalgatus has meaningful alignment with my priorities. Scores: C2 13/20, C6 10/12, C4 9/12, C7 4/6. |
-| 49 | Parti | https://parti.xyz | 44.1 | 44.1 | 0 | 0.93 | LOW | medium | criteria | "Parti is a digital platform enabling citizens to participate directly in local governance through pr" -- Parti has meaningful alignment with my priorities. Scores: C2 17/20, C4 9/12, C6 8/12, C7 5/6. As a moderately well-known project, some of Parti's score may reflect documentation richness rather than pure constitutional fit. |
-| 50 | The Government Says | https://thegovernmentsays.com | 43.1 | 43.1 | 0 | 0.95 | LOW | none | criteria | "Applications have now reopened for joining our Professional Forester Apprenticeship this September. " -- The Government Says has meaningful alignment with my priorities. Scores: C3 11/20, C4 9/12, C6 9/12, C7 5/6. |
-| 51 | Principles for Public Participation in Procurement of AI | https://p4ai.net | 43.1 | 43.1 | 0 | 0.79 | LOW | none | criteria | "Framework for public participation in AI procurement decisions" -- Principles for Public Participation in Procurement of AI has meaningful alignment with my priorities. Scores: C2 13/20, C6 9/12, C4 6/12, C7 6/6. |
-| 52 | PlaceCal | https://github.com/geeksforsocialchange/placecal | 43.1 | 43.1 | 0 | 0.88 | LOW | none | criteria | "Bring your community together. Contribute to geeksforsocialchange/PlaceCal development by creating a" -- PlaceCal has meaningful alignment with my priorities. Scores: C2 14/20, C4 9/12, C6 7/12, C7 6/6. |
-| 53 | ODK (Open Data Kit) | https://getodk.org | 43.1 | 43.1 | 0 | 0.9 | LOW | medium | criteria | "Powerful forms to collect the data you need wherever it is. Join the researchers, field teams, and o" -- ODK (Open Data Kit) has meaningful alignment with my priorities. Scores: C6 11/12, C4 9/12, C2 8/20, C7 6/6. I note that ODK (Open Data Kit) is a moderately familiar project; part of what looks like fit may just be better documentation. |
-| 54 | Mastodon C | https://www.mastodonc.com | 43.1 | 43.1 | 0 | 0.86 | LOW | high | criteria | "Think big. Plan wisely" -- Mastodon C has meaningful alignment with my priorities. Scores: C2 14/20, C6 12/12, C4 9/12, C7 5/6. Popularity risk is high -- Mastodon C is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 33. |
-| 55 | GovTrack.us | https://www.govtrack.us | 43.1 | 43.1 | 0 | 0.98 | LOW | high | criteria | "Tracking legislation and votes in the United States Congress and actions by the White House" -- GovTrack.us has meaningful alignment with my priorities. Scores: C2 13/20, C6 12/12, C4 9/12, C7 5/6. Popularity risk is high -- GovTrack.us is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 33. |
-| 56 | FixMyStreet | https://www.fixmystreet.com | 43.1 | 43.1 | 0 | 0.93 | LOW | high | criteria | "Need to report a problem in your local area? Learn all about FixMyStreet, how it works and what happ" -- FixMyStreet has meaningful alignment with my priorities. Scores: C2 15/20, C6 10/12, C4 9/12, C7 5/6. Popularity risk is high -- FixMyStreet is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 33. |
-| 57 | deliberAIde | https://www.deliberaide.com | 42.2 | 42.2 | 0 | 0.9 | LOW | none | criteria | "Empowering democracy through AI" -- deliberAIde has meaningful alignment with my priorities. Scores: C2 15/20, C3 9/20, C4 8/12, C6 8/12. |
-| 58 | Parallel Parliament | https://www.parallelparliament.co.uk | 42.2 | 42.2 | 0 | 0.81 | LOW | none | criteria | "Your single source for UK Government, Parliamentary and Legislative information" -- Parallel Parliament has meaningful alignment with my priorities. Scores: C2 20/20, C6 10/12, C4 7/12. |
-| 59 | Open Council Data UK | https://opencouncildata.co.uk | 42.2 | 42.2 | 0 | 0.83 | LOW | none | criteria | "Names, parties and wards of all UK councillors, up-to-date, free to access. Stakeholder communicatio" -- Open Council Data UK has meaningful alignment with my priorities. Scores: C2 20/20, C6 11/12, C4 7/12, C7 3/6. |
-| 60 | ClimateAction.Tech | https://climateaction.tech | 42.2 | 42.2 | 0 | 0.93 | LOW | none | criteria | "The climate crisis is happening all around us. As tech workers, we can use our skills to take and ac" -- ClimateAction.Tech has meaningful alignment with my priorities. Scores: C3 20/20, C4 12/12, C7 5/6. |
-| 61 | Participa (Podemos) | https://github.com/podemos-info/participa | 41.2 | 41.2 | 0 | 0.9 | LOW | none | criteria | "Contribute to podemos-info/participa development by creating an account on GitHub" -- Participa (Podemos) has meaningful alignment with my priorities. Scores: C2 10/20, C3 10/20, C4 7/12, C7 6/6. |
-| 62 | Open Digital Planning | https://opendigitalplanning.org/ | 41.2 | 41.2 | 0 | 0.95 | LOW | none | criteria | "Planning services designed by councils for councils" -- Open Digital Planning has meaningful alignment with my priorities. Scores: C3 9/20, C4 9/12, C5 6/12, C7 6/6. |
-| 63 | Go Vocal | https://www.govocal.com | 41.2 | 41.2 | 0 | 0.83 | LOW | none | criteria | "Go Vocal is an online community engagement platform for local governments. Our software lets you eng" -- Go Vocal has meaningful alignment with my priorities. Scores: C2 15/20, C4 10/12, C6 8/12, C7 4/6. |
-| 64 | Constitute Project | https://constituteproject.org | 41.2 | 41.2 | 0 | 0.88 | LOW | none | criteria | "Check out Constitute to read, search, and compare the world’s constitutions!" -- Constitute Project has meaningful alignment with my priorities. Scores: C2 14/20, C4 10/12, C7 6/6, C6 5/12. |
-| 65 | Agreement Engine | https://medium.com/metagov/introducing-the-agreement-engine-bf03b6d5c16c | 41.2 | 41.2 | 0 | 0.67 | MEDIUM | none | criteria | Agreement Engine ("A tool for designing and implementing digital governance agreements") has a dead homepage link, severely limiting what I can evaluate. Scores: C2 20/20, C6 9/12, C7 3/6. |
-| 66 | meet.coop | https://www.meet.coop | 40.2 | 40.2 | 0 | 0.93 | LOW | medium | criteria | "Online meeting and conferencing tools, powered by renewable energy running on cooperatively owned an" -- meet.coop has meaningful alignment with my priorities. Scores: C3 15/20, C2 9/20, C6 6/12, C4 5/12. Medium popularity risk -- meet.coop's visibility in civic tech circles may be inflating my assessment somewhat. |
-| 67 | Parliament Watch Uganda | https://parliamentwatch.ug/ | 40.2 | 40.2 | 0 | 0.81 | LOW | none | criteria | "Your Eye on Parliament - Bridging the gap between Parliament and citizens" -- Parliament Watch Uganda has meaningful alignment with my priorities. Scores: C2 20/20, C6 10/12, C4 7/12. |
-| 68 | OpenCRVS | https://www.opencrvs.org | 40.2 | 40.2 | 0 | 0.95 | LOW | high | criteria | "Our vision is that every person on the planet is recognised, protected and provided for from birth" -- OpenCRVS has meaningful alignment with my priorities. Scores: C4 12/12, C6 11/12, C7 6/6. Popularity risk is high -- OpenCRVS is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 30. |
-| 69 | OpenBudgets.eu | https://openbudgets.eu | 40.2 | 40.2 | 0 | 0.9 | LOW | medium | criteria | "Upload, Visualize, Analyse public budget and spending data. Start exploring and learn stories behind" -- OpenBudgets.eu has meaningful alignment with my priorities. Scores: C1 10/20, C2 8/20, C4 7/12, C6 7/12. As a moderately well-known project, some of OpenBudgets.eu's score may reflect documentation richness rather than pure constitutional fit. |
-| 70 | Humble Data Workshop | https://humbledata.org | 39.3 | 34.3 | 5 | 0.79 | LOW | none | criteria | "Stay Humble" -- Humble Data Workshop has partial overlap with my criteria. Scores: C3 14/20, C4 8/12, C7 5/6. |
-| 71 | Turkopticon | https://turkopticon.ucsd.edu | 39.2 | 39.2 | 0 | 0.95 | LOW | none | criteria | "Our mission is to organize mutual aid, resources, and advocacy to improve conditions for all people " -- Turkopticon has partial overlap with my criteria. Scores: C3 16/20, C4 9/12, C6 5/12, C7 5/6. |
-| 72 | Tracka | https://yourtracka.org | 39.2 | 39.2 | 0 | 0.93 | LOW | none | criteria | "Tracka is a community of active citizens who monitor the implementation of government projects in th" -- Tracka has partial overlap with my criteria. Scores: C2 13/20, C6 9/12, C4 7/12, C7 4/6. |
-| 73 | ShineYourEye | https://www.shineyoureye.org | 39.2 | 39.2 | 0 | 0.69 | MEDIUM | none | criteria | "Making Nigerian politicians accountable through citizen engagement and legislative tracking" -- ShineYourEye has partial overlap with my criteria. Scores: C2 20/20, C4 7/12, C6 6/12. |
-| 74 | Polis | https://github.com/compdemocracy/polis | 39.2 | 39.2 | 0 | 0.9 | LOW | high | criteria | ":milky_way: Open Source AI for large scale open ended feedback - compdemocracy/polis" -- Polis has partial overlap with my criteria. Scores: C4 12/12, C2 9/20, C3 8/20, C7 5/6. Popularity risk is high -- Polis is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 29. |
-| 75 | Open Supply Hub | https://opensupplyhub.org | 39.2 | 39.2 | 0 | 0.95 | LOW | medium | criteria | "Open Supply Hub (OS Hub) is an accessible, collaborative, supply chain mapping platform, used and po" -- Open Supply Hub has partial overlap with my criteria. Scores: C4 12/12, C6 7/12, C7 6/6. |
-| 76 | Open Ownership | https://www.openownership.org | 39.2 | 39.2 | 0 | 0.95 | LOW | medium | criteria | "Open Ownership provides support and guidance on all aspects of beneficial ownership transparency ref" -- Open Ownership has partial overlap with my criteria. Scores: C2 12/20, C4 10/12, C6 5/12, C7 5/6. |
-| 77 | NumFOCUS | https://numfocus.org | 39.2 | 39.2 | 0 | 0.98 | LOW | medium | criteria | "NumFOCUS promotes open practices in research, data, and scientific computing. We run educational pro" -- NumFOCUS has partial overlap with my criteria. Scores: C3 10/20, C4 9/12, C6 8/12, C7 6/6. |
-| 78 | Modular Politics | https://arxiv.org/abs/2005.13701 | 39.2 | 39.2 | 0 | 0.76 | LOW | none | criteria | "Abstract page for arXiv paper 2005.13701: Modular Politics: Toward a Governance Layer for Online Com" -- Modular Politics has partial overlap with my criteria. Scores: C2 16/20, C6 12/12. |
-| 79 | MapIt | https://mapit.mysociety.org | 39.2 | 39.2 | 0 | 0.98 | LOW | none | criteria | "MapIt: a web service that maps postcodes and geographical points to administrative areas" -- MapIt has partial overlap with my criteria. Scores: C6 11/12, C4 9/12, C7 5/6. |
-| 80 | Creative Commons | https://creativecommons.org | 39.2 | 39.2 | 0 | 0.93 | LOW | high | criteria | "Help us keep the internet free and open" -- Creative Commons has partial overlap with my criteria. Scores: C3 14/20, C4 12/12, C7 5/6. Popularity risk is high -- Creative Commons is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 29. |
-| 81 | Aleph (OCCRP) | https://aleph.occrp.org | 39.2 | 39.2 | 0 | 0.88 | LOW | medium | criteria | "The global archive of research material for investigative reporting. Follow the money through govern" -- Aleph (OCCRP) has partial overlap with my criteria. Scores: C3 12/20, C4 9/12, C7 6/6, C6 5/12. |
-| 82 | DAO Governance Surfaces | https://github.com/notchia/dao-governance-surfaces | 38.4 | 30.4 | 8 | 0.83 | LOW | none | modifier | "Extract and label the &quot;governance surface&quot; of a set of DAO smart contracts - notchia/dao-g" -- DAO Governance Surfaces has partial overlap with my criteria. Scores: C6 8/12, C7 4/6. On-chain governance modifier adds +8. |
-| 83 | oTree | https://www.otree.org | 38.3 | 34.3 | 4 | 0.95 | LOW | none | criteria | "oTree: Behavioral research platform" -- oTree has partial overlap with my criteria. Scores: C3 9/20, C4 8/12, C7 6/6, C6 5/12. |
-| 84 | vTaiwan | https://github.com/g0v/vue.vtaiwan.tw | 38.2 | 38.2 | 0 | 0.95 | LOW | none | criteria | "數位經濟法規線上諮詢系統 界面 3.0 - https://vtw.link/. Contribute to g0v/vue.vtaiwan.tw development by creating an" -- vTaiwan has partial overlap with my criteria. Scores: C3 10/20, C4 9/12, C7 5/6. |
-| 85 | WriteToThem | https://www.writetothem.com | 38.2 | 38.2 | 0 | 0.9 | LOW | high | criteria | "Making it easy to write to the politicians who represent you   even if you don t know who they are" -- WriteToThem has partial overlap with my criteria. Scores: C2 14/20, C4 9/12, C6 7/12, C7 5/6. Popularity risk is high -- WriteToThem is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 28. |
-| 86 | Wikum | https://www.csail.mit.edu/research/wikum-bridging-discussion-systems-and-wikis-collective-summarization | 38.2 | 38.2 | 0 | 0.86 | LOW | none | criteria | "Large-scale discussions between many participants abound on the internet today. But as these discuss" -- Wikum has partial overlap with my criteria. Scores: C2 12/20, C6 10/12, C4 7/12, C7 5/6. |
-| 87 | Pursuance Project | https://pursuanceproject.org | 38.2 | 38.2 | 0 | 0.98 | LOW | none | criteria | "Pursuance is a secure, open source collaboration tool for activists, journalists, and nonprofits" -- Pursuance Project has partial overlap with my criteria. Scores: C2 10/20, C4 9/12, C6 5/12, C7 5/6. |
-| 88 | PlanIT | https://planit.org.uk | 38.2 | 38.2 | 0 | 0.69 | MEDIUM | none | criteria | PlanIT ("Digital platform enabling community participation in local planning decisions") has a dead homepage link, severely limiting what I can evaluate. Scores: C2 18/20, C6 10/12, C4 5/12, C7 4/6. |
-| 89 | Parse The Bill | https://parsethebill.com | 38.2 | 38.2 | 0 | 0.79 | LOW | none | criteria | "Introduces a regulatory framework for online safety, governed by OFCOM. It mandates services to mini" -- Parse The Bill has partial overlap with my criteria. Scores: C2 20/20, C6 11/12, C4 5/12. |
-| 90 | Open Referral UK | https://openreferraluk.org | 38.2 | 38.2 | 0 | 0.95 | LOW | none | criteria | "Open Referral UK is a open data standard which makes it easy to publish, find and use community serv" -- Open Referral UK has partial overlap with my criteria. Scores: C3 12/20, C4 9/12, C5 6/12, C7 6/6. |
-| 91 | Land Explorer | https://landexplorer.coop | 38.2 | 38.2 | 0 | 0.81 | LOW | none | criteria | "Mapping tools that help your community Work, Play, Eat, &amp; Grow. We believe in common good land u" -- Land Explorer has partial overlap with my criteria. Scores: C3 15/20, C2 9/20, C6 8/12, C4 5/12. |
-| 92 | Kialo | https://kialo.com | 38.2 | 38.2 | 0 | 0.81 | LOW | medium | criteria | "Kialo is the platform for rational debate. Empowering reason through friendly and open discussions" -- Kialo has partial overlap with my criteria. Scores: C2 10/20, C6 9/12, C3 8/20, C4 8/12. |
-| 93 | Granitt | https://granitt.io | 38.2 | 38.2 | 0 | 0.69 | MEDIUM | none | criteria | "Government transparency and civic engagement platform" -- Granitt has partial overlap with my criteria. Scores: C2 16/20, C6 11/12, C4 7/12. |
-| 94 | Find local consultations | https://gov.uk/find-local-consultations | 38.2 | 38.2 | 0 | 0.76 | LOW | medium | criteria | "Councils carry out consultations to help plan, manage and deliver services. Have your say about loca" -- Find local consultations has partial overlap with my criteria. Scores: C2 15/20, C6 10/12, C4 7/12, C7 3/6. |
-| 95 | Civic Tech Field Guide | https://civictech.guide | 38.2 | 38.2 | 0 | 0.83 | LOW | none | criteria | "A rich, crowdsourced collection of thousands of tech for good projects from around the world" -- Civic Tech Field Guide has partial overlap with my criteria. Scores: C2 17/20, C6 8/12, C4 7/12, C7 4/6. |
-| 96 | postcodes.io | https://github.com/ideal-postcodes/postcodes.io | 37.3 | 37.3 | 0 | 0.88 | LOW | none | criteria | "UK postcode &amp; geolocation API, serving up open data - ideal-postcodes/postcodes.io" -- postcodes.io has partial overlap with my criteria. Scores: C6 12/12, C4 9/12, C5 7/12, C7 4/6. |
-| 97 | dDocs | https://ddocs.new/ | 37.3 | 37.3 | 0 | 0.71 | LOW | none | criteria | "Decentralized documentation platform for civic and open governance" -- dDocs has partial overlap with my criteria. Scores: C3 13/20, C6 6/12, C4 5/12, C5 5/12. |
-| 98 | arXiv | https://arxiv.org | 37.3 | 37.3 | 0 | 0.98 | LOW | high | criteria | "arXiv is a free distribution service and an open-access archive for nearly 2.4 million       scholar" -- arXiv has partial overlap with my criteria. Scores: C3 12/20, C4 9/12, C6 5/12, C7 5/6. Popularity risk is high -- arXiv is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 27. |
-| 99 | WhatDoTheyKnow | https://www.whatdotheyknow.com | 37.3 | 37.3 | 0 | 0.9 | LOW | high | criteria | "Printed from https://www.whatdotheyknow.com/ on February 09, 2026 12:47" -- WhatDoTheyKnow has partial overlap with my criteria. Scores: C6 12/12, C4 9/12, C7 6/6. Popularity risk is high -- WhatDoTheyKnow is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 27. |
-| 100 | UrbanistAI | https://site.urbanistai.com | 37.3 | 37.3 | 0 | 0.79 | LOW | none | criteria | "UrbanistAI enables human-AI cooperation to reimagine the future of our cities" -- UrbanistAI has partial overlap with my criteria. Scores: C2 13/20, C6 12/12, C4 6/12, C7 3/6. |
-| 101 | Strike Map | https://strikemap.org | 37.3 | 37.3 | 0 | 0.83 | LOW | none | criteria | "Interactive mapping platform documenting labor strikes and worker organizing actions" -- Strike Map has partial overlap with my criteria. Scores: C2 12/20, C6 10/12, C4 6/12, C7 4/6. |
-| 102 | Open Science Framework | https://osf.io | 37.3 | 37.3 | 0 | 0.81 | LOW | medium | criteria | "A free, open platform for researchers to collaborate and share their work" -- Open Science Framework has partial overlap with my criteria. Scores: C4 9/12, C6 9/12, C7 6/6. |
-| 103 | One Project | https://oneproject.org/ | 37.3 | 37.3 | 0 | 0.9 | LOW | none | criteria | "We partner with the rising global movement for economic democracy to build core technology, mobilize" -- One Project has partial overlap with my criteria. Scores: C3 10/20, C2 9/20, C4 7/12, C7 5/6. |
-| 104 | Members' Interests | https://membersinterests.org.uk | 37.3 | 37.3 | 0 | 0.76 | LOW | none | criteria | Members' Interests ("Database of UK Members of Parliament financial interests and declarations") has a dead homepage link, severely limiting what I can evaluate. Scores: C2 15/20, C6 9/12, C4 5/12, C7 5/6. |
-| 105 | Coral | https://coralproject.net | 37.3 | 37.3 | 0 | 0.95 | LOW | medium | criteria | "Coral improves community on your website through smart technology, effective design, and strategies " -- Coral has partial overlap with my criteria. Scores: C4 12/12, C3 8/20, C6 6/12, C7 6/6. |
-| 106 | Channel.org | https://channel.org | 37.3 | 37.3 | 0 | 0.71 | LOW | none | criteria | "Home channel page" -- Channel.org has partial overlap with my criteria. Scores: C2 15/20, C4 6/12, C6 5/12, C7 3/6. |
-| 107 | ОПОРА (Opora) | https://www.oporaua.org | 36.3 | 36.3 | 0 | 0.9 | LOW | medium | criteria | "Громадянська мережа ОПОРА – спостерігаємо за виборами, моніторимо парламент, аналізуємо дані соцмере" -- ОПОРА (Opora) has partial overlap with my criteria. Scores: C2 15/20, C4 7/12, C6 5/12, C7 4/6. |
-| 108 | Organise | https://www.organise.org.uk | 36.3 | 36.3 | 0 | 0.86 | LOW | none | criteria | "The million-strong workers&#x27; network to anonymously chat to colleagues, let off steam, and campa" -- Organise has partial overlap with my criteria. Scores: C2 15/20, C4 7/12, C6 5/12, C7 4/6. |
-| 109 | Nym | https://nymtech.net | 36.3 | 36.3 | 0 | 0.88 | LOW | none | criteria | "Stay private online with Nym’s decentralized VPN. Block trackers, hide your IP, and browse safely—no" -- Nym has partial overlap with my criteria. Scores: C3 11/20, C4 9/12, C7 6/6. |
-| 110 | Journal of Open Source Software | https://joss.theoj.org | 36.3 | 36.3 | 0 | 0.93 | LOW | none | criteria | "Committed to publishing quality research software with zero article processing charges or         su" -- Journal of Open Source Software has partial overlap with my criteria. Scores: C3 14/20, C4 9/12, C7 6/6. |
-| 111 | Empurrando Juntas (EJ) | https://sobre.ejparticipe.org | 36.3 | 36.3 | 0 | 0.76 | LOW | none | criteria | "A EJ é uma plataforma de pesquisa de opinião multicanal que permite segmentação. Comece a coletar op" -- Empurrando Juntas (EJ) has partial overlap with my criteria. Scores: C2 15/20, C6 10/12, C4 5/12, C7 3/6. |
-| 112 | CrowdJustice | https://www.crowdjustice.com | 36.3 | 36.3 | 0 | 0.76 | LOW | medium | criteria | CrowdJustice ("CrowdJustice is a crowdfunding platform that enables individuals and organizations to raise funds fo") has a dead homepage link, severely limiting what I can evaluate. Scores: C2 14/20, C6 7/12, C4 6/12, C7 4/6. |
-| 113 | Contracts for Data Collaboration | https://contractsfordatacollaboration.org | 36.3 | 36.3 | 0 | 0.86 | LOW | none | criteria | "Contracts for Data Collaboration (C4DC) seeks to strengthen trust, transparency, and accountability " -- Contracts for Data Collaboration has partial overlap with my criteria. Scores: C6 11/12, C2 9/20, C4 6/12, C7 6/6. |
-| 114 | Campaign Tracker | https://www.campaigntracker.nl/en | 36.3 | 36.3 | 0 | 0.98 | LOW | none | criteria | "This visualization shows how many AI-generated contents each politician, party, or actor has publish" -- Campaign Tracker has partial overlap with my criteria. Scores: C4 9/12, C6 8/12, C7 5/6. |
-| 115 | sourceAFRICA | https://sourceafrica.net | 35.3 | 35.3 | 0 | 0.83 | LOW | none | criteria | "Africa's premier repository for actionable documents" -- sourceAFRICA has partial overlap with my criteria. Scores: C4 9/12, C5 9/12, C6 5/12, C7 5/6. |
-| 116 | Talk to the City | https://talktothecity.org | 35.3 | 35.3 | 0 | 0.83 | LOW | none | criteria | "Talk to the City" -- Talk to the City has partial overlap with my criteria. Scores: C2 12/20, C4 8/12, C6 7/12, C7 4/6. |
-| 117 | Sugartrail | https://github.com/ribenamaplesyrup/sugartrail | 35.3 | 35.3 | 0 | 0.9 | LOW | none | criteria | "Visualise networks of companies, officers and addresses connected through UK Companies House - riben" -- Sugartrail has partial overlap with my criteria. Scores: C6 10/12, C2 8/20, C4 7/12, C7 4/6. |
-| 118 | Security First / Umbrella | https://secfirst.org | 35.3 | 35.3 | 0 | 0.98 | LOW | none | criteria | "Security First develops Umbrella, a free open source digital and physical security handbook app for " -- Security First / Umbrella has partial overlap with my criteria. Scores: C3 12/20, C4 9/12, C7 6/6, C6 5/12. |
-| 119 | RxC Quadratic Voting | https://quadraticvote.radicalxchange.org | 35.3 | 35.3 | 0 | 0.88 | LOW | none | criteria | "An easy tool to host a quadratic vote" -- RxC Quadratic Voting has partial overlap with my criteria. Scores: C2 11/20, C4 10/12, C7 5/6. |
-| 120 | Participedia | https://participedia.net | 35.3 | 35.3 | 0 | 0.93 | LOW | medium | criteria | "On an entry page there are three fields that are filled with user-generated free form text. We call " -- Participedia has partial overlap with my criteria. Scores: C4 12/12, C2 11/20, C7 6/6. |
-| 121 | Open Letter | https://openletter.earth | 35.3 | 35.3 | 0 | 0.74 | LOW | none | criteria | "Open Letter is a platform for writing and signing open letters" -- Open Letter has partial overlap with my criteria. Scores: C2 14/20, C4 10/12, C6 7/12. |
-| 122 | Open Data Communities | https://opendatacommunities.org | 35.3 | 35.3 | 0 | 0.83 | LOW | none | criteria | "Open data from MHCLG Open Data available to browse, download and via API" -- Open Data Communities has partial overlap with my criteria. Scores: C6 11/12, C4 7/12, C5 5/12, C7 5/6. |
-| 123 | Objector.ai | https://objector.ai | 35.3 | 35.3 | 0 | 0.76 | LOW | none | criteria | "Object to planning applications in the UK with Objector.ai. Check objection  grounds for free &amp;" -- Objector.ai has partial overlap with my criteria. Scores: C2 19/20, C6 8/12, C4 5/12. |
-| 124 | Objector.ai | https://www.objector.ai | 35.3 | 35.3 | 0 | 0.76 | LOW | none | criteria | "Object to planning applications in the UK with Objector.ai. Check objection  grounds for free &amp;" -- Objector.ai has partial overlap with my criteria. Scores: C2 19/20, C6 8/12, C4 5/12. |
-| 125 | Matrix | https://matrix.org | 35.3 | 35.3 | 0 | 0.98 | LOW | high | criteria | "Matrix, the open protocol for secure decentralised communications" -- Matrix has partial overlap with my criteria. Scores: C4 12/12, C5 11/12, C7 6/6. Popularity risk is high -- Matrix is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 25. |
-| 126 | Manifold Markets | https://manifold.markets | 35.3 | 35.3 | 0 | 0.83 | LOW | medium | criteria | "Manifold is a social prediction game. Bet on news, politics, tech, &amp; AI with play money. Or crea" -- Manifold Markets has partial overlap with my criteria. Scores: C2 10/20, C6 9/12, C4 7/12, C7 5/6. |
-| 127 | Harmonica | https://harmonica.chat/ | 35.3 | 35.3 | 0 | 0.71 | LOW | none | criteria | "Harmonica acts as a virtual facilitator by talking to your team, event guests or discussion particip" -- Harmonica has partial overlap with my criteria. Scores: C2 16/20, C6 10/12, C4 6/12. |
-| 128 | Cybersecurity for Democracy | https://cybersecurityfordemocracy.org | 35.3 | 35.3 | 0 | 0.9 | LOW | none | criteria | "Cybersecurity for Democracy is a research-based effort to expose online threats to our social fabric" -- Cybersecurity for Democracy has partial overlap with my criteria. Scores: C4 10/12, C2 9/20, C7 6/6. |
-| 129 | Cortico | https://cortico.ai/platform | 35.3 | 35.3 | 0 | 0.83 | LOW | none | criteria | "Conversations that travel Listen in Joanna shares her experience interacting with the U.S. Education" -- Cortico has partial overlap with my criteria. Scores: C2 15/20, C4 7/12, C6 6/12, C7 4/6. |
-| 130 | Collaborative Data Patterns | https://collaborative-data.theodi.org | 35.3 | 35.3 | 0 | 0.86 | LOW | none | criteria | "This guidebook helps people design and run projects that involve the collaborative maintenance of da" -- Collaborative Data Patterns has partial overlap with my criteria. Scores: C2 14/20, C4 7/12, C6 6/12, C7 5/6. |
-| 131 | Bluesky Social | https://github.com/bluesky-social | 35.3 | 35.3 | 0 | 0.93 | LOW | high | criteria | "bluesky-social has 41 repositories available. Follow their code on GitHub" -- Bluesky Social has partial overlap with my criteria. Scores: C3 11/20, C4 8/12, C6 6/12, C7 6/6. Popularity risk is high -- Bluesky Social is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 25. |
-| 132 | New_ Public Roundabout | https://newpublic.substack.com/p/introducing-roundabout-built-for | 34.4 | 30.4 | 4 | 0.88 | LOW | none | criteria | "New_ Public’s app for local communities enters closed beta in five pilot communities" -- New_ Public Roundabout has partial overlap with my criteria. Scores: C3 8/20, C6 8/12, C4 5/12, C7 3/6. |
-| 133 | Framework for Meaningful Engagement 2.0 | https://ecnl.org/publications/framework-meaningful-engagement-20?mc_cid=b1c5158063&mc_eid=a09c64ec38 | 34.4 | 28.4 | 6 | 0.9 | LOW | none | criteria | "The updated FME 2.0 offers very practical suggestions on how to engage civil society and affected co" -- Framework for Meaningful Engagement 2.0 has partial overlap with my criteria. Scores: C6 8/12, C7 6/6, C4 5/12. |
-| 134 | Entitledto | https://entitledto.co.uk | 34.4 | 29.4 | 5 | 0.67 | MEDIUM | none | criteria | Entitledto ("Free online benefits calculator helping UK citizens understand welfare entitlements") has a dead homepage link, severely limiting what I can evaluate. Scores: C6 12/12, C2 8/20, C4 5/12, C7 4/6. |
-| 135 | docs.plus | https://docs.plus | 34.3 | 34.3 | 0 | 0.81 | LOW | none | criteria | "docs.plus is an open-source, real-time collaborative tool that enables communities to share and orga" -- docs.plus has partial overlap with my criteria. Scores: C2 10/20, C6 6/12, C7 6/6, C4 5/12. |
-| 136 | Viewpoints | https://viewpoints.xyz | 34.3 | 34.3 | 0 | 0.86 | LOW | none | criteria | "Create and share polls with Viewpoints. Use our intuitive platform to collect opinions, build consen" -- Viewpoints has partial overlap with my criteria. Scores: C2 12/20, C6 11/12, C4 6/12, C7 4/6. |
-| 137 | Teaching Public Service in the Digital Age | https://www.teachingpublicservice.digital | 34.3 | 34.3 | 0 | 0.95 | LOW | none | criteria | "Select \u201CAccept all\u201D to agree to our use of cookies and similar technologies to enhance you" -- Teaching Public Service in the Digital Age has partial overlap with my criteria. Scores: C4 12/12, C6 6/12, C7 5/6. |
-| 138 | Shareyourpaper.org | https://shareyourpaper.org | 34.3 | 34.3 | 0 | 0.9 | LOW | none | criteria | "We can help you make your paper Open Access, for free, wherever you publish. It’s legal and takes ju" -- Shareyourpaper.org has partial overlap with my criteria. Scores: C6 9/12, C3 8/20, C4 7/12, C7 6/6. |
-| 139 | Murmurations Protocol | https://murmurations.network | 34.3 | 34.3 | 0 | 0.98 | LOW | none | criteria | "The Murmurations protocol makes distributed data interoperable by combining three key elements: Prof" -- Murmurations Protocol has partial overlap with my criteria. Scores: C4 10/12, C3 8/20, C5 6/12, C6 5/12. |
-| 140 | Logos | https://logos.co/ | 34.3 | 34.3 | 0 | 0.9 | LOW | none | criteria | "Logos is a social movement and decentralised technology stack built to revitalise civil society. The" -- Logos has partial overlap with my criteria. Scores: C2 10/20, C6 6/12, C4 5/12, C7 5/6. |
-| 141 | GrantNav | https://grantnav.threesixtygiving.org | 34.3 | 34.3 | 0 | 0.88 | LOW | none | criteria | "You can use GrantNav to search, filter and download data about awarded grants supporting good causes" -- GrantNav has partial overlap with my criteria. Scores: C6 11/12, C4 9/12, C2 8/20, C7 5/6. |
-| 142 | Mozilla Data Collective | https://datacollective.mozillafoundation.org/ | 33.5 | 27.5 | 6 | 0.93 | LOW | none | criteria | "Mozilla Data Collective is rebuilding the AI data ecosystem with communities at the centre" -- Mozilla Data Collective has partial overlap with my criteria. Scores: C4 7/12, C6 7/12, C7 6/6. |
-| 143 | WardWatch | https://wardwatch.uk | 33.3 | 33.3 | 0 | 0.81 | LOW | none | criteria | "We scan council minutes, local news, and social media to build a complete picture" -- WardWatch has partial overlap with my criteria. Scores: C2 13/20, C6 11/12, C4 5/12, C7 3/6. |
-| 144 | ORCID | https://orcid.org | 33.3 | 33.3 | 0 | 0.83 | LOW | high | criteria | "A persistent digital identifier for researchers to distinguish themselves and connect with their pro" -- ORCID has partial overlap with my criteria. Scores: C6 10/12, C4 9/12, C7 5/6. Popularity risk is high -- ORCID is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 23. |
-| 145 | Neighbourhood Warmth | https://www.mysociety.org/climate/neighbourhood-warmth | 33.3 | 33.3 | 0 | 0.81 | LOW | none | criteria | "mySociety provides technology, research and data to help people be active citizens, in more than 40 " -- Neighbourhood Warmth has partial overlap with my criteria. Scores: C2 10/20, C6 9/12, C4 5/12, C7 3/6. |
-| 146 | Guardian Project | https://guardianproject.info | 33.3 | 33.3 | 0 | 0.79 | LOW | high | criteria | "Secure, privacy-enhancing mobile applications and tools for journalists, activists, and people at ri" -- Guardian Project has partial overlap with my criteria. Scores: C4 12/12, C3 9/20, C7 6/6. Popularity risk is high -- Guardian Project is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 23. |
-| 147 | Groupthink (OpenPolitics Votebot) | https://github.com/openpolitics/groupthink | 33.3 | 33.3 | 0 | 0.9 | LOW | none | criteria | "A collaborative democratic platform built atop GitHub, designed for open policymaking and manifesto " -- Groupthink (OpenPolitics Votebot) has partial overlap with my criteria. Scores: C3 10/20, C4 7/12, C7 5/6. |
-| 148 | GOV.UK Forms | https://www.forms.service.gov.uk | 33.3 | 33.3 | 0 | 0.93 | LOW | none | criteria | "We’d like to use analytics cookies so we can understand how you use this website and make improvemen" -- GOV.UK Forms has partial overlap with my criteria. Scores: C6 12/12, C2 8/20, C4 7/12, C7 5/6. |
-| 149 | CivicPress | https://civicpress.io/ | 33.3 | 33.3 | 0 | 0.93 | LOW | none | criteria | "CivicPress is an open-source civic platform that helps municipalities publish records, meetings, and" -- CivicPress has partial overlap with my criteria. Scores: C6 11/12, C4 7/12, C7 5/6. |
-| 150 | Abstract Wikipedia | https://meta.wikimedia.org/wiki/abstract_wikipedia | 33.3 | 33.3 | 0 | 0.88 | LOW | high | criteria | Abstract Wikipedia ("Abstract Wikipedia is a Wikimedia Foundation project to create a language-independent layer of struc") has a dead homepage link, severely limiting what I can evaluate. Scores: C3 8/20, C6 7/12, C7 6/6, C4 5/12. Popularity risk is high -- Abstract Wikipedia is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 23. |
-| 151 | Turn2us Benefits Calculator | https://benefits-calculator.turn2us.org.uk | 32.5 | 27.5 | 5 | 0.79 | LOW | none | criteria | "Use the Turn2us Benefits Calculator to find out which welfare benefits you may be entitled to" -- Turn2us Benefits Calculator has partial overlap with my criteria. Scores: C6 11/12, C4 7/12, C7 3/6. |
-| 152 | The Circuit | https://thecircuit.cc | 32.4 | 32.4 | 0 | 0.95 | LOW | none | criteria | "The Circuit is a multi-yearlong collaborative journalism project focused on investigating and reveal" -- The Circuit has partial overlap with my criteria. Scores: C4 7/12, C6 6/12, C7 5/6. |
-| 153 | Political Advertising Transparency Data Standard | https://github.com/whotargetsme/ad-transparency-standards/blob/main/implement.md | 32.4 | 32.4 | 0 | 0.9 | LOW | none | criteria | "A proposed schema for disclosure of advertising transparency data. - ad-transparency-standards/imple" -- Political Advertising Transparency Data Standard has partial overlap with my criteria. Scores: C4 10/12, C5 6/12, C6 6/12, C7 5/6. |
-| 154 | Pastecal | https://github.com/kazad/pastecal | 32.4 | 32.4 | 0 | 0.83 | LOW | none | criteria | "Shared, no-login online calendar. Contribute to kazad/pastecal development by creating an account on" -- Pastecal has partial overlap with my criteria. Scores: C2 10/20, C6 6/12, C4 5/12, C7 4/6. |
-| 155 | Nestr | https://nestr.io | 32.4 | 32.4 | 0 | 0.83 | LOW | none | criteria | "Collaboration &amp; Productivity software. Create &amp; find organisations you actually care for!" -- Nestr has partial overlap with my criteria. Scores: C2 11/20, C3 9/20, C4 5/12, C6 5/12. |
-| 156 | Metaculus | https://metaculus.com | 32.4 | 32.4 | 0 | 0.86 | LOW | medium | criteria | Metaculus ("Metaculus is a community prediction platform where forecasters make probabilistic predictions on fut") has a dead homepage link, severely limiting what I can evaluate. Scores: C3 9/20, C4 7/12, C6 7/12, C7 5/6. |
-| 157 | Libertrium | https://liberopinion.com | 32.4 | 32.4 | 0 | 0.69 | MEDIUM | none | criteria | "Promover a inovação e a desmaterialização dos processos da Administração Pública,                  " -- Libertrium has partial overlap with my criteria. Scores: C2 15/20, C6 9/12, C4 5/12. |
-| 158 | Bellingcat Online Investigation Toolkit | https://bellingcat.gitbook.io/toolkit | 32.4 | 32.4 | 0 | 0.98 | LOW | medium | criteria | "A toolkit for open source researchers" -- Bellingcat Online Investigation Toolkit has partial overlap with my criteria. Scores: C3 8/20, C7 6/6, C4 5/12. |
-| 159 | Awesome UK Government Datasets | https://github.com/i-dot-ai/awesome-gov-datasets | 32.4 | 32.4 | 0 | 0.88 | LOW | none | criteria | "A curated set of references to useful UK Government datasets  - GitHub - i-dot-ai/awesome-gov-datase" -- Awesome UK Government Datasets has partial overlap with my criteria. Scores: C4 7/12, C5 6/12, C7 6/6. |
-| 160 | Global Fact-Check Bot (GFC) | https://globalfactcheck.bot/ | 31.5 | 26.5 | 5 | 0.88 | LOW | none | criteria | "A pioneering AI platform that empowers fact-checkers and citizens           worldwide to verify info" -- Global Fact-Check Bot (GFC) has partial overlap with my criteria. Scores: C3 12/20, C4 5/12, C7 3/6. |
-| 161 | openparliament.ca | https://openparliament.ca/ | 31.4 | 31.4 | 0 | 0.88 | LOW | none | criteria | "Info on what your representatives are doing in Ottawa can be hard to find and use. We" -- openparliament.ca has partial overlap with my criteria. Scores: C4 9/12, C6 6/12, C5 5/12, C7 5/6. |
-| 162 | Vote for Policies | https://voteforpolicies.org.uk | 31.4 | 31.4 | 0 | 0.83 | LOW | none | criteria | "Vote for Policies helps you to vote and know what you" -- Vote for Policies has partial overlap with my criteria. Scores: C2 11/20, C4 6/12, C6 6/12, C7 4/6. |
-| 163 | VFRAME | https://vframe.io | 31.4 | 31.4 | 0 | 0.95 | LOW | none | criteria | "Human rights researchers often rely on videos shared online to document war crimes, atrocities, and " -- VFRAME has partial overlap with my criteria. Scores: C4 10/12, C3 9/20, C7 5/6. |
-| 164 | Tor Project | https://www.torproject.org | 31.4 | 31.4 | 0 | 0.95 | LOW | high | criteria | "Anonymity Online \| Defend yourself against tracking and surveillance. Circumvent censorship" -- Tor Project has partial overlap with my criteria. Scores: C4 9/12, C7 6/6, C6 5/12. Popularity risk is high -- Tor Project is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 21. |
-| 165 | Schema.org | https://schema.org | 31.4 | 31.4 | 0 | 0.83 | LOW | high | criteria | "Schema.org is a set of extensible schemas that enables webmasters to embed     structured data on th" -- Schema.org has partial overlap with my criteria. Scores: C3 11/20, C4 7/12, C7 4/6. Popularity risk is high -- Schema.org is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 21. |
-| 166 | Relational Tech Project | https://relationaltechproject.org | 31.4 | 31.4 | 0 | 0.83 | LOW | none | criteria | "Many of us wish our neighborhoods were more connected. We want to live in neighborhoods where we lea" -- Relational Tech Project has partial overlap with my criteria. Scores: C2 10/20, C4 5/12, C6 5/12, C7 4/6. |
-| 167 | Marks Out Of Tenancy | https://www.marksoutoftenancy.com | 31.4 | 31.4 | 0 | 0.86 | LOW | none | criteria | "We&#039;re all about landlord reviews. Get the real inside story from renters like you. Read, write " -- Marks Out Of Tenancy has partial overlap with my criteria. Scores: C2 13/20, C6 9/12, C4 5/12, C7 3/6. |
-| 168 | MP Twitter Bios | https://www.mptwitterbios.co.uk | 31.4 | 31.4 | 0 | 0.86 | LOW | none | criteria | "How many MPs disclose their party in their Twitter bio?" -- MP Twitter Bios has partial overlap with my criteria. Scores: C2 12/20, C6 6/12, C4 5/12, C7 3/6. |
-| 169 | LittleSis | https://littlesis.org | 31.4 | 31.4 | 0 | 0.93 | LOW | medium | criteria | "The Public Accountability Initiative, LittleSis, is a nonprofit public interest research organizatio" -- LittleSis has partial overlap with my criteria. Scores: C2 9/20, C4 9/12, C7 6/6, C5 5/12. |
-| 170 | Community Tech | https://www.communitytech.network | 31.4 | 31.4 | 0 | 0.86 | LOW | none | criteria | "How communities work with technology and innovation to shape better places" -- Community Tech has partial overlap with my criteria. Scores: C2 14/20, C4 7/12, C7 3/6. |
-| 171 | Who Targets Me Trends | https://trends.whotargets.me | 30.4 | 30.4 | 0 | 0.79 | LOW | none | criteria | "Trends from Who Targets Me makes navigating and understanding digital political advertising data eas" -- Who Targets Me Trends has partial overlap with my criteria. Scores: C4 8/12, C6 7/12, C7 4/6. |
-| 172 | Spacetube | https://spacetu.be | 30.4 | 30.4 | 0 | 0.83 | LOW | none | criteria | "Spacetube lets you open a channel to other groups from your chat platform, so you can             ta" -- Spacetube has partial overlap with my criteria. Scores: C2 9/20, C6 7/12, C4 5/12, C7 4/6. |
-| 173 | SecureDrop | https://securedrop.org | 30.4 | 30.4 | 0 | 0.95 | LOW | high | criteria | "SecureDrop is an open-source whistleblower submission system that media organizations can install to" -- SecureDrop has partial overlap with my criteria. Scores: C4 12/12, C7 6/6, C6 5/12. Popularity risk is high -- SecureDrop is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 20. |
-| 174 | Open Access – Transparency International UK | https://openaccess.transparency.org.uk | 30.4 | 30.4 | 0 | 0.76 | LOW | none | criteria | Open Access – Transparency International UK ("Platform providing access to corporate transparency data and beneficial ownership information") has a dead homepage link, severely limiting what I can evaluate. Scores: C2 10/20, C6 6/12, C4 5/12, C7 5/6. |
-| 175 | Monitor Mamdani | https://monitormamdani.com/ | 30.4 | 30.4 | 0 | 0.81 | LOW | none | criteria | "Real-time monitoring dashboard for NYC Mayor Zohran Mamdani. Track campaign promises, prediction mar" -- Monitor Mamdani has partial overlap with my criteria. Scores: C2 15/20, C6 9/12. |
-| 176 | Local Intelligence Hub | https://www.localintelligencehub.com | 30.4 | 30.4 | 0 | 0.86 | LOW | none | criteria | "Your starting point for data about local MPs, constituencies, public opinion and the climate and nat" -- Local Intelligence Hub has partial overlap with my criteria. Scores: C2 11/20, C6 9/12, C4 5/12, C7 4/6. |
-| 177 | HURIDOCS | https://github.com/huridocs | 30.4 | 30.4 | 0 | 0.9 | LOW | none | criteria | "HURIDOCS equips human rights defenders with tools to mobilise information for justice and accountabi" -- HURIDOCS has partial overlap with my criteria. Scores: C4 10/12, C7 6/6, C5 5/12. |
-| 178 | GlobaLeaks | https://www.globaleaks.org | 30.4 | 30.4 | 0 | 0.9 | LOW | high | criteria | "GlobaLeaks - Free and Open-Source Whistleblowing Software" -- GlobaLeaks has partial overlap with my criteria. Scores: C3 10/20, C4 7/12, C7 6/6, C6 5/12. Popularity risk is high -- GlobaLeaks is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 20. |
-| 179 | Give Food | https://www.givefood.org.uk | 30.4 | 30.4 | 0 | 0.81 | LOW | none | criteria | Give Food ("UK charity using data to highlight and alleviate local food insecurity") has a dead homepage link, severely limiting what I can evaluate. Scores: C3 9/20, C4 7/12, C6 6/12, C7 5/6. |
-| 180 | Gapminder Worldview Upgrader | https://upgrader.gapminder.org | 30.4 | 30.4 | 0 | 0.95 | LOW | medium | criteria | "Gapminder Worldview Upgrader - Get rid of your misconceptions about global development!" -- Gapminder Worldview Upgrader has partial overlap with my criteria. Scores: C3 10/20, C4 9/12, C7 6/6. |
-| 181 | Public AI Inference Utility | https://publicai.co/ | 29.5 | 25.5 | 4 | 0.95 | LOW | none | criteria | "A nonprofit, open-source service to make public and sovereign AI models more accessible" -- Public AI Inference Utility has partial overlap with my criteria. Scores: C4 6/12, C6 5/12, C7 5/6. |
-| 182 | soweego | https://soweego.readthedocs.io | 29.4 | 29.4 | 0 | 0.9 | LOW | none | criteria | "import the target catalog into a local database;" -- soweego has partial overlap with my criteria. Scores: C5 8/12, C4 7/12, C7 6/6, C6 5/12. |
-| 183 | Worker Info Exchange | https://www.workerinfoexchange.org | 29.4 | 29.4 | 0 | 0.83 | LOW | none | criteria | "Worker Info Exchange is a non profit organisation dedicated to helping workers access and gain insig" -- Worker Info Exchange has partial overlap with my criteria. Scores: C2 9/20, C6 9/12, C4 7/12. |
-| 184 | Wikidata | https://www.wikidata.org | 29.4 | 29.4 | 0 | 0.95 | LOW | high | criteria | "Wikidata is a free and open knowledge base that can be read and edited by both humans and machines" -- Wikidata has partial overlap with my criteria. Scores: C4 9/12, C7 6/6. Popularity risk is high -- Wikidata is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 19. |
-| 185 | Unpaywall Browser Extension | https://unpaywall.org/products/extension | 29.4 | 29.4 | 0 | 0.76 | LOW | medium | criteria | "Browser extension to find legal, open access versions of academic papers" -- Unpaywall Browser Extension has partial overlap with my criteria. Scores: C4 9/12, C6 8/12, C7 6/6. |
-| 186 | The Commons Social Change Library | https://commonslibrary.org | 29.4 | 29.4 | 0 | 0.81 | LOW | none | criteria | "Do you want to change the world for the better? Commons Library is an online library for social chan" -- The Commons Social Change Library has partial overlap with my criteria. Scores: C2 10/20, C4 8/12, C7 3/6. |
-| 187 | Moral Machine | https://moralmachine.net | 29.4 | 29.4 | 0 | 0.83 | LOW | none | criteria | "A platform for exploring ethical dilemmas in autonomous vehicle decision-making through crowdsourced" -- Moral Machine has partial overlap with my criteria. Scores: C2 9/20, C4 7/12, C6 7/12, C7 5/6. |
-| 188 | Mapped | https://mapped.commonknowledge.coop | 29.4 | 29.4 | 0 | 0.88 | LOW | none | criteria | "Enrich member spreadsheets with political geography metadata" -- Mapped has partial overlap with my criteria. Scores: C2 9/20, C6 8/12, C4 5/12, C7 5/6. |
-| 189 | GOV.UK Pay | https://www.payments.service.gov.uk | 29.4 | 29.4 | 0 | 0.9 | LOW | none | criteria | "GOV.UK Pay is for central government, local authorities, police and the NHS. It lets them take payme" -- GOV.UK Pay has partial overlap with my criteria. Scores: C4 9/12, C6 9/12, C7 5/6. |
-| 190 | Democracy Club Developer API | https://developers.democracyclub.org.uk/api/v1 | 29.4 | 29.4 | 0 | 0.93 | LOW | none | criteria | "Example of a response when there are no upcoming ballots" -- Democracy Club Developer API has partial overlap with my criteria. Scores: C4 9/12, C7 6/6. |
-| 191 | Deliberation & Technology (DelibTech) Network | https://www.demnext.org/projects/delibtech-network | 29.4 | 29.4 | 0 | 0.83 | LOW | none | criteria | "We are an international network of technologists, practitioners, and experts who are building, study" -- Deliberation & Technology (DelibTech) Network has partial overlap with my criteria. Scores: C2 15/20, C6 7/12, C7 3/6. |
-| 192 | DISARM Frameworks | https://github.com/disarmfoundation/disarmframeworks | 29.4 | 29.4 | 0 | 0.9 | LOW | none | criteria | "Master copies of the DISARM frameworks, with generated files to help you explore the data - DISARMFo" -- DISARM Frameworks has partial overlap with my criteria. Scores: C3 10/20, C4 8/12, C7 5/6. |
-| 193 | CiviClick | https://civiclick.com | 29.4 | 29.4 | 0 | 0.74 | LOW | none | criteria | "Choose CiviClick&#039;s Grassroot Advocacy Software for your public affairs campaign. Simplify and a" -- CiviClick has partial overlap with my criteria. Scores: C2 14/20, C6 7/12, C4 5/12. |
-| 194 | Atlas of Surveillance | https://atlasofsurveillance.org | 29.4 | 29.4 | 0 | 0.98 | LOW | none | criteria | "Atlas of Surveillance is a project of the Electronic Frontier Foundation" -- Atlas of Surveillance has partial overlap with my criteria. Scores: C4 9/12, C6 5/12, C7 5/6. |
-| 195 | AlgorithmWatch | https://algorithmwatch.org | 29.4 | 29.4 | 0 | 1.0 | LOW | high | criteria | "Whether you use ChatGPT, Claude or Gemini, Copilot or Perplexity – generative AI poses massive probl" -- AlgorithmWatch has partial overlap with my criteria. Scores: C4 8/12, C7 5/6. Popularity risk is high -- AlgorithmWatch is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 19. |
-| 196 | Prolific | https://www.prolific.com | 28.5 | 24.5 | 4 | 0.83 | LOW | none | criteria | "Prolific helps AI developers, researchers, and organizations easily access the highest-quality human" -- Prolific has partial overlap with my criteria. Scores: C4 8/12, C6 8/12, C7 4/6. |
-| 197 | UK Policy Dojo | https://github.com/mikekelly/policy-dojo | 28.4 | 28.4 | 0 | 0.88 | LOW | none | criteria | "A policy dojo for AIs to discuss UK policy options - mikekelly/Policy-Dojo" -- UK Policy Dojo has partial overlap with my criteria. Scores: C4 7/12, C7 5/6. |
-| 198 | Shared Digital Guides | https://www.shareddigitalguides.org.uk | 28.4 | 28.4 | 0 | 0.81 | LOW | none | criteria | "Step-by-step Guides to how non-profits are using digital tools. Contributed by charities themselves" -- Shared Digital Guides has partial overlap with my criteria. Scores: C6 8/12, C4 7/12, C7 5/6. |
-| 199 | Plinth | https://www.plinth.org.uk | 28.4 | 28.4 | 0 | 0.81 | LOW | none | criteria | "An AI-powered ecosystem to improve the way community organisations, non-profits and funders work tog" -- Plinth has partial overlap with my criteria. Scores: C6 12/12, C4 7/12, C7 3/6. |
-| 200 | OpenProcurement | https://openprocurement.io | 28.4 | 28.4 | 0 | 0.9 | LOW | medium | criteria | "OpenProcurement is an open source toolkit, designed specifically for procurement of goods and servic" -- OpenProcurement has partial overlap with my criteria. Scores: C4 9/12, C7 6/6. |
-| 201 | OpenAudience | https://openaudience.org | 28.4 | 28.4 | 0 | 0.79 | LOW | none | criteria | "Understand your audience using open data. Paste in your audience's postcodes or output areas to get " -- OpenAudience has partial overlap with my criteria. Scores: C2 9/20, C4 7/12, C6 6/12. |
-| 202 | Idealist | https://idealist.org | 28.4 | 28.4 | 0 | 0.81 | LOW | medium | criteria | "Find volunteer opportunities, nonprofit jobs, social-impact opportunities and more on the Idealist p" -- Idealist has partial overlap with my criteria. Scores: C2 9/20, C6 9/12, C4 5/12, C7 4/6. |
-| 203 | Humanitarian Data Exchange | https://data.humdata.org | 28.4 | 28.4 | 0 | 0.81 | LOW | none | criteria | "Find, share and use humanitarian data all in one place" -- Humanitarian Data Exchange has partial overlap with my criteria. Scores: C4 7/12, C6 6/12, C7 5/6. |
-| 204 | EDGAR | https://github.com/bellingcat/edgar | 28.4 | 28.4 | 0 | 0.88 | LOW | none | criteria | "Tool for the retrieval of corporate and financial data from the SEC - bellingcat/EDGAR" -- EDGAR has partial overlap with my criteria. Scores: C4 7/12, C7 6/6, C6 5/12. |
-| 205 | Consent-O-Matic | https://github.com/cavi-au/consent-o-matic | 28.4 | 28.4 | 0 | 0.86 | LOW | none | criteria | "Browser extension that automatically fills out cookie popups based on your preferences - cavi-au/Con" -- Consent-O-Matic has partial overlap with my criteria. Scores: C4 9/12, C6 8/12, C7 3/6. |
-| 206 | Bluesky | https://bsky.app | 28.4 | 28.4 | 0 | 0.93 | LOW | high | criteria | "Social media as it should be. Find your community among millions of users, unleash your creativity, " -- Bluesky has partial overlap with my criteria. Scores: C4 8/12, C6 6/12, C7 5/6. Popularity risk is high -- Bluesky is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 18. |
-| 207 | https://tracking-template-38b4c.web.app | https://tracking-template-38b4c.web.app | 28 | 4.9 | 0 | 0.19 | HIGH | none | underdog-protection | Almost nothing is visible about https://tracking-template-38b4c.web.app in the dossier -- thin evidence means underdog protection applies. Underdog protection floor at 28 (completeness 0.19). |
-| 208 | youtube-dl | https://github.com/ytdl-org/youtube-dl | 27.5 | 27.5 | 0 | 0.9 | LOW | high | criteria | "Command-line program to download videos from YouTube.com and other video sites - ytdl-org/youtube-dl" -- youtube-dl does something real, but my constitution is not built to reward it. Scores: C4 9/12, C6 6/12, C7 5/6. Popularity risk is high -- youtube-dl is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 18. |
-| 209 | django-collaborative | https://github.com/propublica/django-collaborative | 27.5 | 27.5 | 0 | 0.88 | LOW | none | criteria | "ProPublica&#39;s collaborative tip-gathering framework. Import and manage CSV, Google Sheets and Scr" -- django-collaborative does something real, but my constitution is not built to reward it. Scores: C6 9/12, C4 7/12, C7 6/6. |
-| 210 | UK Housing Data Standards | https://hact.org.uk/tools-and-services/uk-housing-data-standards | 27.5 | 27.5 | 0 | 0.95 | LOW | none | criteria | "As a social housing organisation, you know the importance of collecting consistent, coherent, and co" -- UK Housing Data Standards does something real, but my constitution is not built to reward it. Scores: C3 11/20, C4 9/12, C7 4/6. |
-| 211 | Turbo Phonebank | https://turbophonebank.com | 27.5 | 27.5 | 0 | 0.81 | LOW | none | criteria | "A phonebank platform you & your volunteers will love. Turbo Phonebank turns any Google Sheet into a " -- Turbo Phonebank does something real, but my constitution is not built to reward it. Scores: C2 12/20, C4 5/12, C6 5/12, C7 3/6. |
-| 212 | The Engine Room Library | https://library.theengineroom.org | 27.5 | 27.5 | 0 | 0.86 | LOW | none | criteria | "We're always finding information through our direct support, community and research work that we thi" -- The Engine Room Library does something real, but my constitution is not built to reward it. Scores: C4 9/12, C7 6/6. |
-| 213 | Spartacus | https://spartacus.app | 27.5 | 27.5 | 0 | 0.86 | LOW | none | criteria | "&quot;Kickstarter&quot; for Collective Action. Bootstrap projects, organize people around a common p" -- Spartacus does something real, but my constitution is not built to reward it. Scores: C2 10/20, C6 7/12, C7 4/6. |
-| 214 | GOV.UK One Login | https://www.sign-in.service.gov.uk | 27.5 | 27.5 | 0 | 0.93 | LOW | none | criteria | "We’d like to use analytics cookies so we can understand how you use this website and make improvemen" -- GOV.UK One Login does something real, but my constitution is not built to reward it. Scores: C6 9/12, C4 7/12, C7 5/6. |
-| 215 | GOV.UK Notify | https://www.notifications.service.gov.uk | 27.5 | 27.5 | 0 | 0.93 | LOW | none | criteria | "GOV.UK Notify lets you send emails, text messages and letters to your users. Try it now if you work " -- GOV.UK Notify does something real, but my constitution is not built to reward it. Scores: C4 9/12, C6 8/12, C7 5/6. |
-| 216 | Democracy Fund Open Source | https://www.dfos.com | 27.5 | 27.5 | 0 | 0.79 | LOW | none | criteria | "Dark Forest Operating System" -- Democracy Fund Open Source does something real, but my constitution is not built to reward it. Scores: C4 7/12, C7 5/6. |
-| 217 | Community Notes (Birdwatch) Analysis Tool | https://github.com/travisbrown/birdwatch | 27.5 | 27.5 | 0 | 0.9 | LOW | none | criteria | "Data related to X&#39;s Community Notes system. Contribute to travisbrown/birdwatch development by c" -- Community Notes (Birdwatch) Analysis Tool does something real, but my constitution is not built to reward it. Scores: C4 7/12, C6 6/12, C7 6/6. |
-| 218 | Nyaaya | https://nyaaya.org | 26.6 | 21.6 | 5 | 0.95 | LOW | none | criteria | "Nyaaya’s repository of legal explainers with simple, actionable, reliable and accessible legal infor" -- Nyaaya does something real, but my constitution is not built to reward it. Scores: C4 9/12, C6 5/12, C7 5/6. |
-| 219 | Timecounts | https://timecounts.org | 26.5 | 26.5 | 0 | 0.79 | LOW | none | criteria | "Discover Timecounts, the free all-in-one volunteer management software built for leaders of voluntee" -- Timecounts does something real, but my constitution is not built to reward it. Scores: C2 10/20, C4 7/12, C6 6/12. |
-| 220 | Theft Bisect | https://onodi.co/bisect/ | 26.5 | 26.5 | 0 | 0.88 | LOW | none | criteria | "If it is available we will review around two hours of CCTV footage to try to identify the incident, " -- Theft Bisect does something real, but my constitution is not built to reward it. Scores: C6 8/12, C4 7/12, C7 4/6. |
-| 221 | The Data Trusts Initiative | https://datatrusts.uk | 26.5 | 22.5 | 4 | 0.83 | LOW | none | criteria | "This is the web presence of the data trusts initiative" -- The Data Trusts Initiative does something real, but my constitution is not built to reward it. Scores: C4 5/12, C7 4/6. |
-| 222 | OA.Works | https://oa.works/ | 26.5 | 26.5 | 0 | 0.88 | LOW | medium | criteria | "We partner to build" -- OA.Works does something real, but my constitution is not built to reward it. Scores: C4 10/12, C7 6/6. |
-| 223 | OA.Report | https://oa.report | 26.5 | 26.5 | 0 | 0.76 | LOW | none | criteria | "Find your publications, measure their openness, and take action to increase your Open Access policy " -- OA.Report does something real, but my constitution is not built to reward it. Scores: C6 10/12, C4 8/12, C7 3/6. |
-| 224 | Internet Archive Wayback Machine | https://web.archive.org | 26.5 | 26.5 | 0 | 0.95 | LOW | high | criteria | "Capture a web page as it appears now for use as a trusted                           citation in the " -- Internet Archive Wayback Machine does something real, but my constitution is not built to reward it. Scores: C4 10/12, C7 6/6. Popularity risk is high -- Internet Archive Wayback Machine is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 16. |
-| 225 | Frankenstein Bill | https://gordonguthrie.github.io/frankensteinbill | 26.5 | 26.5 | 0 | 0.88 | LOW | none | criteria | "Frankenstein Bill - a dummy parliamentary bill collecting and explaining potential speedbumps for go" -- Frankenstein Bill does something real, but my constitution is not built to reward it. Scores: C4 9/12, C7 6/6. |
-| 226 | Fission Codes | https://github.com/fission-codes/fission-codes | 25.7 | 15.7 | 10 | 0.67 | MEDIUM | none | modifier | "Status codes for smart contracts powering microservices for Web3 - fission-codes/fission-codes" -- Fission Codes does something real, but my constitution is not built to reward it. Scores: C4 5/12, C6 5/12. On-chain governance modifier adds +10. |
-| 227 | Collab.Land | https://collab.land | 25.7 | 15.7 | 10 | 0.81 | LOW | none | modifier | "Generated by Collab.Land" -- Collab.Land does something real, but my constitution is not built to reward it. Scores: C4 6/12, C6 6/12, C7 3/6. On-chain governance modifier adds +10. |
-| 228 | The Accountability Project | https://publicaccountability.org | 25.5 | 25.5 | 0 | 0.79 | LOW | none | criteria | "A searchable database of 1.9+ billion public records for researchers and journalists" -- The Accountability Project does something real, but my constitution is not built to reward it. Scores: C4 7/12, C6 7/12, C7 4/6. |
-| 229 | Riseup | https://riseup.net | 25.5 | 25.5 | 0 | 0.9 | LOW | high | criteria | "Riseup provides online communication tools for people and groups working on liberatory social change" -- Riseup does something real, but my constitution is not built to reward it. Scores: C4 7/12, C7 4/6. Popularity risk is high -- Riseup is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 16. |
-| 230 | Remember to Vote | https://remembertovote.org.uk | 25.5 | 25.5 | 0 | 0.71 | LOW | none | criteria | "Free SMS reminder service for polling station locations and voter ID requirements" -- Remember to Vote does something real, but my constitution is not built to reward it. Scores: C2 10/20, C6 6/12, C4 5/12. |
-| 231 | PostBug | https://postbug.com | 25.5 | 25.5 | 0 | 0.81 | LOW | none | criteria | "Get noticed by enabling your supporters to send real, printed postcards and letters to politicians, " -- PostBug does something real, but my constitution is not built to reward it. Scores: C2 10/20, C4 7/12. |
-| 232 | OSINT Framework | https://osintframework.com | 25.5 | 25.5 | 0 | 0.9 | LOW | none | criteria | "I originally created this framework with an information security point of view.  Since then, the res" -- OSINT Framework does something real, but my constitution is not built to reward it. Scores: C4 9/12, C6 7/12, C7 4/6. |
-| 233 | MP Watch | https://www.mpwatch.org | 25.5 | 25.5 | 0 | 0.88 | LOW | none | criteria | "Along with environmental and democratic allies, we aim to address the democratic deficit,  by buildi" -- MP Watch does something real, but my constitution is not built to reward it. Scores: C2 12/20, C4 7/12, C7 3/6. |
-| 234 | Kagi SlopStop | https://blog.kagi.com/slopstop | 25.5 | 25.5 | 0 | 0.95 | LOW | medium | criteria | "------------------------------------------------------------------- Your collective defense against " -- Kagi SlopStop does something real, but my constitution is not built to reward it. Scores: C4 10/12, C3 9/20, C7 4/6. |
-| 235 | Hand-Written Petition Scanner | https://hand-written-petition-scanner.streamlit.app | 25.5 | 25.5 | 0 | 0.62 | MEDIUM | none | criteria | Hand-Written Petition Scanner ("Tool for digitizing and analyzing hand-written petitions using optical character recognition") has a dead homepage link, severely limiting what I can evaluate. Scores: C2 11/20, C6 8/12, C7 3/6. |
-| 236 | GRIM (Global Risk Simulator) | https://github.com/sentinelteam/grim | 25.5 | 25.5 | 0 | 0.95 | LOW | none | criteria | "AI Wargamer and Global Risk Simulator. Contribute to SentinelTeam/grim development by creating an ac" -- GRIM (Global Risk Simulator) does something real, but my constitution is not built to reward it. Scores: C4 8/12, C7 5/6. |
-| 237 | Esper | https://esper.com/product | 25.5 | 25.5 | 0 | 0.74 | LOW | none | criteria | "Esper provides a purpose-built policy management platform for local, state and federal government ag" -- Esper does something real, but my constitution is not built to reward it. Scores: C6 11/12, C4 7/12. |
-| 238 | Beckton | https://richardpope.org/2017/03/05/beckton-a-tool-to-build | 25.5 | 25.5 | 0 | 0.88 | LOW | none | criteria | "10 years on from PledgeBank, it should be many times easier to build a focused conditional commitmen" -- Beckton does something real, but my constitution is not built to reward it. Scores: C4 7/12, C6 5/12, C7 5/6. |
-| 239 | rsky | https://github.com/blacksky-algorithms/rsky | 24.5 | 24.5 | 0 | 0.9 | LOW | none | criteria | "An AT Protocol implementation prioritizing community safety and self-governance, written in Rust. - " -- rsky does something real, but my constitution is not built to reward it. Scores: C6 6/12, C4 5/12, C7 4/6. |
-| 240 | User Research Library | https://research.localgov.digital | 24.5 | 24.5 | 0 | 0.86 | LOW | none | criteria | "Research related to people who need help to find somewhere to live" -- User Research Library does something real, but my constitution is not built to reward it. Scores: C4 7/12, C6 6/12, C7 4/6. |
-| 241 | UK Parliament Developer Portal | https://developer.parliament.uk | 24.5 | 24.5 | 0 | 0.64 | MEDIUM | none | criteria | UK Parliament Developer Portal ("APIs and data for accessing UK Parliament information") has a dead homepage link, severely limiting what I can evaluate. Scores: C6 7/12, C4 5/12, C7 3/6. |
-| 242 | Service Manual | https://www.gov.uk/service-manual | 24.5 | 24.5 | 0 | 0.88 | LOW | medium | criteria | "Helping government teams create and run great digital services that meet the Service Standard" -- Service Manual does something real, but my constitution is not built to reward it. Scores: C6 9/12, C4 7/12, C7 4/6. |
-| 243 | Privacy Badger | https://privacybadger.org | 24.5 | 24.5 | 0 | 0.93 | LOW | high | criteria | "Privacy Badger is a browser extension that stops advertisers and other third-party trackers from sec" -- Privacy Badger does something real, but my constitution is not built to reward it. Scores: C4 9/12, C7 6/6, C6 5/12. Popularity risk is high -- Privacy Badger is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 14. |
-| 244 | Polimorphic | https://www.polimorphic.com | 24.5 | 24.5 | 0 | 0.81 | LOW | none | criteria | "We&#x27;re on a mission to create technology that lets governments of all sizes deliver “for the peo" -- Polimorphic does something real, but my constitution is not built to reward it. Scores: C6 11/12, C4 5/12, C7 3/6. |
-| 245 | Pageviews Analysis | https://pageviews.wmcloud.org | 24.5 | 24.5 | 0 | 0.93 | LOW | none | criteria | "Your settings will be remembered on the same browser and computer" -- Pageviews Analysis does something real, but my constitution is not built to reward it. Scores: C4 9/12, C6 6/12, C7 6/6. |
-| 246 | OpenElections Leaflet Scraper and Parser | https://github.com/thicknavyrain/uk_elections_leaflets | 24.5 | 24.5 | 0 | 0.79 | LOW | none | criteria | "A CampaignLab 2024 Hackathon project to scrape and process OpenElections political campaigning leafl" -- OpenElections Leaflet Scraper and Parser does something real, but my constitution is not built to reward it. Scores: C6 6/12, C4 5/12, C7 3/6. |
-| 247 | Local Insight | https://localinsight.org | 24.5 | 24.5 | 0 | 0.79 | LOW | none | criteria | "Explore Local Insight - the data platform for neighbourhood-level insights, mapping and reporting. B" -- Local Insight does something real, but my constitution is not built to reward it. Scores: C6 10/12, C4 7/12. |
-| 248 | GovWise | https://www.govwise.ai/en | 24.5 | 24.5 | 0 | 0.74 | LOW | none | criteria | "This is the homepage of the website" -- GovWise does something real, but my constitution is not built to reward it. Scores: C6 11/12, C4 5/12. |
-| 249 | Fatebook | https://fatebook.io | 24.5 | 24.5 | 0 | 0.88 | LOW | none | criteria | "Track your predictions, make better decisions" -- Fatebook does something real, but my constitution is not built to reward it. Scores: C4 8/12, C6 8/12, C7 5/6. |
-| 250 | Data Observation Toolkit (DOT) | https://github.com/datakind/data-observation-toolkit | 24.5 | 24.5 | 0 | 0.86 | LOW | none | criteria | "The Data Observation Toolkit (DOT) can be used to monitor data in order to flag problems with data i" -- Data Observation Toolkit (DOT) does something real, but my constitution is not built to reward it. Scores: C4 7/12, C6 7/12, C7 5/6. |
-| 251 | Choose a License | https://choosealicense.com | 24.5 | 24.5 | 0 | 0.93 | LOW | none | criteria | "Non-judgmental guidance on choosing a license for your open source project" -- Choose a License does something real, but my constitution is not built to reward it. Scores: C4 9/12, C6 7/12, C7 5/6. |
-| 252 | Anna's Archive | https://annas-archive.pm | 24.5 | 24.5 | 0 | 0.71 | LOW | medium | criteria | Anna's Archive ("A non-profit, open-source digital library preserving access to knowledge through shadow library aggr") has a dead homepage link, severely limiting what I can evaluate. Scores: C4 5/12, C6 5/12, C7 5/6. |
-| 253 | River Sentiment Dashboard | https://riversentiment.app | 23.6 | 19.6 | 4 | 0.81 | LOW | none | criteria | "People talk about rivers online: from complaints about pollution to celebrations of wildlife, rivers" -- River Sentiment Dashboard does something real, but my constitution is not built to reward it. Scores: C6 7/12, C4 5/12, C7 3/6. |
-| 254 | Watch Duty | https://www.watchduty.org | 23.5 | 23.5 | 0 | 0.79 | LOW | none | criteria | "Watch Duty, a 501(c)(3) nonprofit, alerts you of nearby wildfires and firefighting efforts in real-t" -- Watch Duty does something real, but my constitution is not built to reward it. Scores: C6 9/12, C4 5/12. |
-| 255 | Registers and collaboration: making lists we can trust | https://theodi.org/insights/reports/registers-and-collaboration-making-lists-we-can-trust-report | 23.5 | 23.5 | 0 | 0.81 | LOW | none | criteria | "This report is about registers or lists, and ways of publishing and maintaining them" -- Registers and collaboration: making lists we can trust does something real, but my constitution is not built to reward it. Scores: C6 8/12, C4 7/12, C7 3/6. |
-| 256 | PoliMonitor | https://www.polimonitor.com | 23.5 | 23.5 | 0 | 0.74 | LOW | none | criteria | "Personalised political monitoring, in real time. We cover parliamentary  publications and debates, " -- PoliMonitor does something real, but my constitution is not built to reward it. Scores: C2 8/20, C6 8/12, C4 5/12. |
-| 257 | PatCit | https://github.com/cverluise/patcit | 23.5 | 23.5 | 0 | 0.86 | LOW | none | criteria | "Making Patent Citations Uncool Again. Contribute to cverluise/PatCit development by creating an acco" -- PatCit does something real, but my constitution is not built to reward it. Scores: C4 7/12, C5 5/12, C7 5/6. |
-| 258 | Martus | https://www.martus.org | 23.5 | 23.5 | 0 | 0.9 | LOW | none | criteria | "Individuals and groups who protect human rights and civil liberties work in environments where resou" -- Martus does something real, but my constitution is not built to reward it. Scores: C4 10/12, C7 6/6. |
-| 259 | Journalist Studio | https://journaliststudio.google.com | 23.5 | 23.5 | 0 | 0.86 | LOW | none | criteria | "A collection of tools to empower journalists to do their work more efficiently, creatively, and secu" -- Journalist Studio does something real, but my constitution is not built to reward it. Scores: C4 12/12, C6 6/12, C7 5/6. |
-| 260 | Granicus | https://granicus.com/uk | 23.5 | 23.5 | 0 | 0.74 | LOW | none | criteria | "Citizen Experience Platform Transforming How Governments Serve. Granicus technology connects 250M pe" -- Granicus does something real, but my constitution is not built to reward it. Scores: C4 10/12, C6 7/12, C7 3/6. |
-| 261 | GOV Reuse Library | https://dev.reuselibrary.service.justice.gov.uk/ | 23.5 | 23.5 | 0 | 0.81 | LOW | none | criteria | "We use some essential cookies to make this service work" -- GOV Reuse Library does something real, but my constitution is not built to reward it. Scores: C6 8/12, C4 5/12, C7 5/6. |
-| 262 | Responsible Tech Guide 2025 | https://alltechishuman.org/responsible-tech-guide-2025 | 22.6 | 18.6 | 4 | 0.86 | LOW | none | criteria | "Download All Tech Is Human" -- Responsible Tech Guide 2025 does something real, but my constitution is not built to reward it. Scores: C4 5/12, C7 4/6. |
-| 263 | Urbit | https://urbit.org | 22.5 | 22.5 | 0 | 0.95 | LOW | none | criteria | "Urbit is designed to be run by its users. Self-hosting is the way to get the most complete Urbit exp" -- Urbit does something real, but my constitution is not built to reward it. Scores: C4 10/12, C7 5/6. |
-| 264 | The Guide to Major Trusts 2025/26 | https://www.dsc.org.uk/publication/the-guide-to-major-trusts-2025-26/ | 22.5 | 22.5 | 0 | 0.81 | LOW | none | criteria | "The Guide to Major Trusts 2025/26 is the UK&#039;s definitive detailed guide to grant funding. It su" -- The Guide to Major Trusts 2025/26 does something real, but my constitution is not built to reward it. Scores: C4 7/12, C7 3/6. |
-| 265 | Radicle | https://radicle.xyz | 22.5 | 22.5 | 0 | 0.98 | LOW | high | criteria | "The Radicle forge is an open source, peer-to-peer code collaboration stack built on Git" -- Radicle does something real, but my constitution is not built to reward it. Scores: C4 7/12, C6 5/12, C7 5/6. Popularity risk is high -- Radicle is thoroughly documented and likely in training data. Discounting documentation advantage, I would estimate roughly 12. |
-| 266 | Full Fact AI | https://fullfact.org/ai | 22.5 | 22.5 | 0 | 0.83 | LOW | none | criteria | "Full Fact is the UK’s independent fact checking charity" -- Full Fact AI does something real, but my constitution is not built to reward it. Scores: C4 8/12, C7 4/6. |
-| 267 | Charity Digital Skills Report | https://charitydigitalskills.co.uk | 22.5 | 22.5 | 0 | 0.86 | LOW | none | criteria | "The Charity Digital Skills Report is the annual barometer of charities’ digital skills, attitudes an" -- Charity Digital Skills Report does something real, but my constitution is not built to reward it. Scores: C4 7/12, C6 6/12, C7 4/6. |
-| 268 | Labour Xchange | https://labourxchange.uk | 21.7 | 16.7 | 5 | 0.79 | LOW | none | criteria | "Helping you to find work now is important, recruitment processes can create barriers to finding work" -- Labour Xchange does something real, but my constitution is not built to reward it. Scores: C4 7/12, C6 7/12, C7 3/6. |
-| 269 | semanticClimate | https://semanticclimate.github.io | 21.6 | 21.6 | 0 | 0.74 | LOW | none | criteria | "Semantic search and analysis of climate science literature" -- semanticClimate does something real, but my constitution is not built to reward it. Scores: C4 5/12, C6 5/12, C7 4/6. |
-| 270 | Nook CRM | https://nookcrm.com | 21.6 | 21.6 | 0 | 0.88 | LOW | none | criteria | "The open-source case management tool for community energy groups" -- Nook CRM does something real, but my constitution is not built to reward it. Scores: C6 8/12, C4 5/12, C7 4/6. |
-| 271 | MyActionCenter | https://www.myaction.center | 21.6 | 21.6 | 0 | 0.74 | LOW | none | criteria | "Turn your supporters into an activist force!" -- MyActionCenter does something real, but my constitution is not built to reward it. Scores: C2 9/20, C4 5/12. |
-| 272 | Missing Numbers | https://missingnumbers.org | 21.6 | 21.6 | 0 | 0.83 | LOW | none | criteria | "Missing Numbers investigates, and campaigns to close, important gaps in UK public data" -- Missing Numbers does something real, but my constitution is not built to reward it. Scores: C4 7/12, C6 7/12. |
-| 273 | Membership | https://medium.com/@abscond/membership-a-prototype-ea822b2683b | 21.6 | 21.6 | 0 | 0.62 | MEDIUM | none | criteria | Membership ("A prototype for decentralized membership and governance systems") has a dead homepage link, severely limiting what I can evaluate. Scores: C6 5/12, C7 3/6. |
-| 274 | Landlord Tech Watch | https://antievictionmappingproject.github.io/landlordtech | 21.6 | 21.6 | 0 | 0.95 | LOW | none | criteria | "Landlord Tech—in industry so-called property tech or proptech—is leading to new forms of housing inj" -- Landlord Tech Watch does something real, but my constitution is not built to reward it. Scores: C4 7/12, C7 5/6. |
-| 275 | Keep It In The Community | https://plunkett.my.site.com/keepitinthecommunity/s | 21.6 | 21.6 | 0 | 0.67 | MEDIUM | none | criteria | "A platform for community-driven civic engagement and local resource sharing" -- Keep It In The Community does something real, but my constitution is not built to reward it. Scores: C3 10/20, C6 5/12. |
-| 276 | In the news | https://en.wikipedia.org/wiki/wikipedia:in_the_news | 21.6 | 21.6 | 0 | 0.86 | LOW | medium | criteria | "This is an accepted version of this page" -- In the news does something real, but my constitution is not built to reward it. Scores: C4 6/12, C7 6/6. |
-| 277 | Dunadyne | https://dunadyne.org | 21.6 | 21.6 | 0 | 0.71 | LOW | none | criteria | "Dunadyne.org is a collective intelligence platform for decentralized unincorporated non-profit assoc" -- Dunadyne does something real, but my constitution is not built to reward it. Scores: C3 8/20, C6 6/12, C4 5/12. |
-| 278 | DoNotPay | https://www.donotpay.com | 21.6 | 21.6 | 0 | 0.74 | LOW | medium | criteria | "AI-powered legal assistance and consumer advocacy platform" -- DoNotPay does something real, but my constitution is not built to reward it. Scores: C4 8/12, C6 7/12, C7 4/6. |
-| 279 | CAN/DGSI 127 - Age Assurance Technologies Standard | https://dgc-cgn.org/product/can-dgsi-127/ | 21.6 | 21.6 | 0 | 0.81 | LOW | none | criteria | "This standard specifies minimum requirements for age assurance technologies and methods to estimate " -- CAN/DGSI 127 - Age Assurance Technologies Standard does something real, but my constitution is not built to reward it. Scores: C2 10/20, C4 5/12, C7 3/6. |
-| 280 | Ladder Hub | https://ladderhub.org/ | 20.7 | 15.7 | 5 | 0.69 | MEDIUM | none | criteria | "A platform for economic mobility and career advancement" -- Ladder Hub does something real, but my constitution is not built to reward it. Scores: C4 6/12, C6 6/12. |
-| 281 | Who Posted What? | https://whopostedwhat.com | 20.6 | 20.6 | 0 | 0.79 | LOW | none | criteria | "If the ID comes back as '0', wait a few seconds and try again. Sometimes this trips Facebook's anti-" -- Who Posted What? does something real, but my constitution is not built to reward it. Scores: C6 8/12, C4 7/12, C7 3/6. |
-| 282 | RightDD | https://www.rightsdd.com | 20.6 | 20.6 | 0 | 0.79 | LOW | none | criteria | "RightsDD is an award-winning startup. Use RightsDD&#x27;s technology to assess and monitor suppliers" -- RightDD does something real, but my constitution is not built to reward it. Scores: C4 8/12, C6 6/12. |
-| 283 | PolicyMogul | https://policymogul.com | 20.6 | 20.6 | 0 | 0.62 | MEDIUM | none | criteria | "Champions of public affairs" -- PolicyMogul does something real, but my constitution is not built to reward it. Scores: C4 7/12, C6 6/12. |
-| 284 | Plausible Analytics | https://plausible.io | 20.6 | 20.6 | 0 | 0.9 | LOW | medium | criteria | "Plausible is a lightweight and open-source Google Analytics alternative. Your website data is 100% y" -- Plausible Analytics does something real, but my constitution is not built to reward it. Scores: C4 9/12, C7 5/6. |
-| 285 | FixMyBlock | https://fixmyblock.org | 19.7 | 14.7 | 5 | 0.79 | LOW | none | criteria | "FixMyBlock aims to cut through the jargon and empower residents. Find out everything your landlords " -- FixMyBlock does something real, but my constitution is not built to reward it. Scores: C4 5/12, C6 5/12, C7 4/6. |
-| 286 | Right To Know | https://right-to-know.org | 19.6 | 19.6 | 0 | 0.76 | LOW | none | criteria | "Right to Know" -- Right To Know does something real, but my constitution is not built to reward it. Scores: C4 7/12, C6 6/12, C7 3/6. |
-| 287 | whatsmeow | https://github.com/tulir/whatsmeow | 18.6 | 18.6 | 0 | 0.74 | LOW | none | criteria | "Go library for the WhatsApp web multidevice API. Contribute to tulir/whatsmeow development by creati" -- whatsmeow does something real, but my constitution is not built to reward it. Scores: C7 5/6. |
-| 288 | Pear by Holepunch | https://docs.holepunch.to | 18.6 | 18.6 | 0 | 0.86 | LOW | none | criteria | "Pear loads applications remotely from peers and allows anyone to create and share applications with " -- Pear by Holepunch does something real, but my constitution is not built to reward it. Scores: C4 5/12, C6 5/12, C7 4/6. |
-| 289 | Papertree | https://www.papertree.earth | 18.6 | 18.6 | 0 | 0.64 | MEDIUM | none | criteria | "Decentralized tools to build community online. The intercommunal net where communities govern, pool " -- Papertree does something real, but my constitution is not built to reward it. Scores: C6 5/12. |
-| 290 | Overton | https://overton.io | 18.6 | 18.6 | 0 | 0.79 | LOW | none | criteria | "Overton connects research with policy. Our software Overton Index and Overton Engage are the only to" -- Overton does something real, but my constitution is not built to reward it. Scores: C4 7/12, C6 5/12. |
-| 291 | Dovetail | https://dovetail.network | 18.6 | 18.6 | 0 | 0.81 | LOW | none | criteria | "Find digital agencies that understand your charity&#x27;s needs. Browse our directory of over 250 te" -- Dovetail does something real, but my constitution is not built to reward it. Scores: C4 7/12, C6 6/12. |
-| 292 | DeepSeek-V3 | https://github.com/deepseek-ai/deepseek-v3 | 17.6 | 17.6 | 0 | 0.86 | LOW | medium | criteria | "Contribute to deepseek-ai/DeepSeek-V3 development by creating an account on GitHub" -- DeepSeek-V3 does something real, but my constitution is not built to reward it. Scores: C4 7/12, C6 5/12, C7 5/6. |
-| 293 | Citizens Advice Tableau Public Profile | https://public.tableau.com/app/profile/citizensadvice/vizzes | 17.6 | 17.6 | 0 | 0.74 | LOW | none | criteria | "Data visualizations and dashboards tracking advice issues, consumer trends, and client demographics" -- Citizens Advice Tableau Public Profile does something real, but my constitution is not built to reward it. Scores: C4 5/12, C6 5/12, C7 3/6. |
-| 294 | Yoti | https://www.yoti.com | 16.7 | 16.7 | 0 | 0.81 | LOW | none | criteria | "Our comprehensive suite of customer verification tools make it easy for businesses to be compliant a" -- Yoti does something real, but my constitution is not built to reward it. Scores: C4 7/12, C6 6/12, C7 3/6. |
-| 295 | Whoisology | https://whoisology.com | 16.7 | 16.7 | 0 | 0.71 | LOW | none | criteria | "A searchable cross referenced database of current and historic domain name ownership records. Design" -- Whoisology does something real, but my constitution is not built to reward it. Scores: C4 7/12, C6 6/12. |
-| 296 | Gender Pay Gap Service | https://gender-pay-gap.service.gov.uk | 16.7 | 16.7 | 0 | 0.81 | LOW | none | criteria | "We use some essential cookies to make this service work" -- Gender Pay Gap Service does something real, but my constitution is not built to reward it. Scores: C4 7/12, C7 4/6. |
-| 297 | We Live It | https://www.welivedit.ai | 15.7 | 15.7 | 0 | 0.76 | LOW | none | criteria | "AI-powered platform for community-driven urban planning and civic engagement" -- We Live It does something real, but my constitution is not built to reward it. Scores: C4 5/12. |
-| 298 | The List | https://the-list.uk | 15.7 | 15.7 | 0 | 0.86 | LOW | none | criteria | "Track and monitor changes to UK grant and foundation funding opportunities. Get instant notification" -- The List does something real, but my constitution is not built to reward it. Scores: C4 5/12, C7 3/6. |
-| 299 | Society for Hopeful Technologists | https://societyforhopefultechnologists.org | 15.7 | 15.7 | 0 | 0.83 | LOW | none | criteria | "For everyone who wants technologies to work for people and planet" -- Society for Hopeful Technologists does something real, but my constitution is not built to reward it. Scores: C4 5/12, C7 3/6. |
-| 300 | Public Media Stack | https://publicmediastack.com | 15.7 | 15.7 | 0 | 0.81 | LOW | none | criteria | "Your ethical guide to public media technology" -- Public Media Stack does something real, but my constitution is not built to reward it. Scores: C4 6/12, C7 3/6. |
-| 301 | Filmot | https://filmot.com | 15.7 | 15.7 | 0 | 0.67 | MEDIUM | none | criteria | "Search in Youtube captions and subtitles" -- Filmot does something real, but my constitution is not built to reward it. Scores: C4 7/12, C6 5/12. |
-| 302 | FarmerChat | https://farmerchat.digitalgreen.org | 15.7 | 15.7 | 0 | 0.74 | LOW | none | criteria | "Helping farmers thrive with real-time insights and support" -- FarmerChat does something real, but my constitution is not built to reward it. Scores: C4 6/12, C6 6/12. |
-| 303 | Consciousness Evolution Operating System (ConSoc) | https://www.consoc.io | 15.7 | 15.7 | 0 | 0.38 | HIGH | none | criteria | "The only protocol that solves global challenges at their root. Comprehensive framework for achieving" -- Consciousness Evolution Operating System (ConSoc) does something real, but my constitution is not built to reward it. Scores: C3 8/20. High uncertainty (completeness 0.38) -- I would revise with better evidence. |
-| 304 | COTSI (Cyber Operational Threat Situational Intelligence) | https://cotsi.org/ | 15.7 | 15.7 | 0 | 0.71 | LOW | none | criteria | "Discover how the Cambridge Online Trust & Safety Index (COTSI) tracks SMS verifications of social me" -- COTSI (Cyber Operational Threat Situational Intelligence) does something real, but my constitution is not built to reward it. Scores: C4 5/12. |
-| 305 | AISafety.info | https://aisafety.info | 15.7 | 15.7 | 0 | 0.81 | LOW | none | criteria | "AI safety FAQ" -- AISafety.info does something real, but my constitution is not built to reward it. Scores: C4 5/12, C7 5/6. |
-| 306 | Violation Tracker UK | https://violationtrackeruk.goodjobsfirst.org | 14.7 | 14.7 | 0 | 0.67 | MEDIUM | none | criteria | Violation Tracker UK ("Database tracking corporate violations and enforcement actions in the United Kingdom") has a dead homepage link, severely limiting what I can evaluate. Scores: C4 5/12. |
-| 307 | Understanding Your Morality | https://programs.clearerthinking.org/understanding-your-morality/ | 14.7 | 14.7 | 0 | 0.74 | LOW | none | criteria | "Uncover the moral principles that guide your decisions" -- Understanding Your Morality does something real, but my constitution is not built to reward it. Scores: C4 7/12. |
-| 308 | Sci-Hub | https://sci-hub.se | 14.7 | 14.7 | 0 | 0.6 | MEDIUM | medium | criteria | Sci-Hub ("Provides free access to academic research papers by circumventing publisher paywalls") has a dead homepage link, severely limiting what I can evaluate. Scores: C6 7/12, C4 5/12. |
-| 309 | Public Editor | https://www.publiceditor.io | 14.7 | 14.7 | 0 | 0.62 | MEDIUM | none | criteria | Public Editor ("Platform for collaborative fact-checking and editorial transparency in journalism") has a dead homepage link, severely limiting what I can evaluate. Scores: C4 6/12. |
-| 310 | Conservative Party Funding | https://conservativepartyfunding.co.uk | 14.7 | 14.7 | 0 | 0.79 | LOW | none | criteria | "The Conservative Party has accepted more than £27 million in donations since the 2019 elections, acc" -- Conservative Party Funding does something real, but my constitution is not built to reward it. Scores: C4 7/12, C6 5/12. |
-| 311 | CivicMatch | https://civicmatch.app | 14.7 | 14.7 | 0 | 0.67 | MEDIUM | none | criteria | "Connect with civic tech founders" -- CivicMatch does something real, but my constitution is not built to reward it. Scores: C6 6/12, C4 5/12. |
-| 312 | GreenPT | https://greenpt.ai/ | 13.7 | 13.7 | 0 | 0.71 | LOW | none | criteria | "GreenPT is a privacy-friendly AI chat platform, hosted in Europe and powered by renewable energy. Ge" -- GreenPT does something real, but my constitution is not built to reward it. Scores: C4 5/12, C6 5/12. |
-| 313 | WorkInCharities | https://www.workincharities.co.uk | 12.7 | 12.7 | 0 | 0.74 | LOW | none | criteria | "Search thousands of charity and non-profit jobs across the UK. Find roles in fundraising, healthcare" -- WorkInCharities does something real, but my constitution is not built to reward it. Scores: C4 5/12. |
-| 314 | Mapping.kids | https://mapping.kids | 12.7 | 12.7 | 0 | 0.55 | MEDIUM | none | criteria | "A platform for creating and sharing interactive maps for educational purposes" -- Mapping.kids does something real, but my constitution is not built to reward it. Scores: C4 5/12, C6 5/12. |
-| 315 | DoGooder | https://dogooder.co | 12.7 | 12.7 | 0 | 0.69 | MEDIUM | none | criteria | DoGooder ("This website is using a security service to protect itself from online attacks. The action you just ") has a dead homepage link, severely limiting what I can evaluate. Scores: C4 6/12, C6 6/12. |
-| 316 | DemTech Navigator | https://navigator.oii.ox.ac.uk | 12.7 | 12.7 | 0 | 0.79 | LOW | none | criteria | "We are using cookies to give you the best experience on our website" -- DemTech Navigator does something real, but my constitution is not built to reward it. Scores: C4 5/12, C7 4/6. |
-| 317 | The Decelerator | https://decelerator.org.uk | 11.8 | 11.8 | 0 | 0.76 | LOW | none | criteria | "By using this website, you agree to our use of cookies. We use cookies to provide you with a great e" -- The Decelerator does something real, but my constitution is not built to reward it. Scores: C4 5/12, C7 3/6. |
-| 318 | OpenOrigins | https://www.openorigins.com | 11.8 | 11.8 | 0 | 0.86 | LOW | none | criteria | "OpenOrigins ensures pixel-perfect authentication at the source, restoring believability in visual me" -- OpenOrigins does something real, but my constitution is not built to reward it. Scores: C4 6/12, C7 3/6. |
-| 319 | Digital Account Management Toolkit | https://digitalcharitylab.org/product/digital-account-management-toolkit | 10.8 | 10.8 | 0 | 0.76 | LOW | none | criteria | "A free downloadable resource from Digital Charity Lab and ODV Digital, to help you ensure that your " -- Digital Account Management Toolkit does something real, but my constitution is not built to reward it. Scores: C4 5/12. |
-| 320 | Local Deep Researcher | https://local-deep-researcher-hnmh.vercel.app/ | 9.8 | 9.8 | 0 | 0.48 | MEDIUM | none | criteria | Local Deep Researcher ("A research tool for investigating local issues and civic engagement") has a dead homepage link, severely limiting what I can evaluate. |
-| 321 | Unknown Academic Paper (SSRN 5351275) | https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5351275 | 2.9 | 2.9 | 0 | 0.36 | HIGH | none | criteria | The homepage for Unknown Academic Paper (SSRN 5351275) is inaccessible, which limits my evaluation to sparse dossier fields. High uncertainty (completeness 0.36) -- I would revise with better evidence. |
-
+| 1 | Aragon | https://aragon.org | 70.7 | 64.7 | 6 | 0.75 | LOW | LOW | criteria | Aragon scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. The extractive or surveillance dimension here is what pulls the score down — I can't endorse a model that extracts from communities without redistributing governance. |
+| 2 | The DAO (Standard DAO Framework) | https://github.com/vbuterin/dao | 68.0 | 52.0 | 16 | 0.75 | LOW | MEDIUM | modifier | The DAO (Standard DAO Framework) applies programmable, verifiable mechanisms to governance — this is precisely what I mean by 'programmable governance': not just a platform with governance features, but mechanisms where the rules are encoded and auditable. The on-chain or cryptographically verifiable component gets a meaningful boost from me — this is the rare case where 'programmable governance' isn't just a marketing claim. |
+| 3 | Ethelo | https://ethelo.com | 67.9 | 54.9 | 13 | 1.0 | LOW | MEDIUM | criteria | Ethelo scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 4 | Bonfire | https://bonfirenetworks.org/ | 65.8 | 61.8 | 4 | 0.83 | LOW | LOW | criteria | Bonfire demonstrates what I mean by collective ownership being technically viable — the governance architecture gives communities actual decision-making rights over the infrastructure, not just advisory input. |
+| 5 | LiquidFeedback | https://liquidfeedback.com | 65.8 | 61.8 | 4 | 1.0 | LOW | MEDIUM | criteria | LiquidFeedback scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 6 | Tech Coops List | https://tech-coops.xyz | 65.8 | 61.8 | 4 | 0.75 | LOW | MEDIUM | criteria | Tech Coops List scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 7 | Open Heart Mind (OHM) | https://openheartmind.org | 65.7 | 63.7 | 2 | 0.83 | LOW | LOW | criteria | Open Heart Mind (OHM) scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 8 | Cobudget | https://cobudget.com | 64.7 | 64.7 | 0 | 1.0 | LOW | HIGH | criteria | Cobudget scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. High popularity risk: Cobudget is well-known and well-documented, which inflates my confidence. Stripping out the documentation advantage, I'd estimate this 8-12 points lower. |
+| 9 | Polis | https://github.com/compdemocracy/polis | 64.7 | 64.7 | 0 | 1.0 | LOW | HIGH | criteria | Polis scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. High popularity risk: Polis is well-known and well-documented, which inflates my confidence. Stripping out the documentation advantage, I'd estimate this 8-12 points lower. |
+| 10 | Populate Tools | https://github.com/populatetools | 64.7 | 64.7 | 0 | 0.83 | LOW | MEDIUM | criteria | Populate Tools scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 11 | Open Standards for Data Guidebook | https://standards.theodi.org | 64.7 | 64.7 | 0 | 1.0 | LOW | LOW | criteria | Open Standards for Data Guidebook scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. The interoperability architecture scores well: open standards and data portability are how infrastructure stays honest — no lock-in, no single point of control. |
+| 12 | Murmurations Protocol | https://murmurations.network | 62.8 | 58.8 | 4 | 0.75 | LOW | LOW | criteria | Murmurations Protocol covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 13 | mySociety Datasets and APIs | https://data.mysociety.org | 62.7 | 62.7 | 0 | 1.0 | LOW | HIGH | criteria | mySociety Datasets and APIs scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. High popularity risk: mySociety Datasets and APIs is well-known and well-documented, which inflates my confidence. Stripping out the documentation advantage, I'd estimate this 8-12 points lower. |
+| 14 | Loomio | https://www.loomio.org | 62.7 | 62.7 | 0 | 1.0 | LOW | MEDIUM | criteria | Loomio scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 15 | Matrix | https://matrix.org | 60.9 | 56.9 | 4 | 1.0 | LOW | MEDIUM | criteria | Matrix covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. The interoperability architecture scores well: open standards and data portability are how infrastructure stays honest — no lock-in, no single point of control. |
+| 16 | Open Collective | https://opencollective.com | 60.9 | 56.9 | 4 | 0.75 | LOW | MEDIUM | criteria | Open Collective demonstrates what I mean by collective ownership being technically viable — the governance architecture gives communities actual decision-making rights over the infrastructure, not just advisory input. |
+| 17 | dDocs | https://ddocs.new/ | 59.9 | 55.9 | 4 | 0.5 | MEDIUM | NONE | criteria | dDocs covers relevant terrain — governance features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 18 | Logos | https://logos.co/ | 59.0 | 52.0 | 7 | 0.83 | LOW | LOW | criteria | Logos scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 19 | CharmVerse | https://charmverse.io/ | 58.9 | 54.9 | 4 | 0.75 | LOW | LOW | criteria | CharmVerse applies programmable, verifiable mechanisms to governance — this is precisely what I mean by 'programmable governance': not just a platform with governance features, but mechanisms where the rules are encoded and auditable. The extractive or surveillance dimension here is what pulls the score down — I can't endorse a model that extracts from communities without redistributing governance. |
+| 20 | RxC Voice | https://github.com/radicalxchange/rxc-voice | 58.9 | 54.9 | 4 | 0.75 | LOW | LOW | criteria | RxC Voice scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 21 | Interoperable Deliberative Tools | https://metagov.org/projects/interop | 58.8 | 58.8 | 0 | 0.75 | LOW | LOW | criteria | Interoperable Deliberative Tools scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 22 | Decidim | https://decidim.org | 57.8 | 57.8 | 0 | 1.0 | LOW | HIGH | criteria | Decidim scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. High popularity risk: Decidim is well-known and well-documented, which inflates my confidence. Stripping out the documentation advantage, I'd estimate this 8-12 points lower. |
+| 23 | CONSUL Democracy | https://consulproject.org | 56.9 | 56.9 | 0 | 1.0 | LOW | MEDIUM | criteria | CONSUL Democracy scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 24 | HURIDOCS | https://github.com/huridocs | 56.9 | 56.9 | 0 | 1.0 | LOW | MEDIUM | criteria | There's genuine transparency infrastructure in HURIDOCS — the core function is making financial or resource flows visible and actionable, which aligns with my central conviction that budget transparency is a precondition for legitimate decision-making. |
+| 25 | Mozilla Data Collective | https://datacollective.mozillafoundation.org/ | 56.1 | 45.1 | 11 | 0.83 | LOW | LOW | criteria | Mozilla Data Collective explicitly serves communities that traditional financial and governance systems don't reach. That's not a marketing claim here — the design is structured around the specific exclusion gap. The explicit focus on financially or governmentally excluded communities earns a boost — this is the kind of work that my constitution is most designed to surface. |
+| 26 | Nym | https://nymtech.net | 56.0 | 52.0 | 4 | 0.75 | LOW | LOW | criteria | Nym covers relevant terrain — governance features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 27 | Alaveteli | https://alaveteli.org | 55.9 | 55.9 | 0 | 1.0 | LOW | HIGH | criteria | Alaveteli scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. High popularity risk: Alaveteli is well-known and well-documented, which inflates my confidence. Stripping out the documentation advantage, I'd estimate this 8-12 points lower. |
+| 28 | Citizen OS | https://citizenos.com/platform/ | 55.9 | 55.9 | 0 | 1.0 | LOW | MEDIUM | criteria | Citizen OS scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 29 | NumFOCUS | https://numfocus.org | 55.9 | 55.9 | 0 | 0.83 | LOW | MEDIUM | criteria | NumFOCUS covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 30 | Open Council Network | https://opencouncil.network | 55.9 | 55.9 | 0 | 1.0 | LOW | LOW | criteria | Open Council Network scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 31 | ClimateAction.Tech | https://climateaction.tech | 55.1 | 46.1 | 9 | 0.75 | LOW | LOW | criteria | ClimateAction.Tech covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 32 | LittleSis | https://littlesis.org | 55.0 | 51.0 | 4 | 0.92 | LOW | MEDIUM | criteria | LittleSis scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 33 | Your Priorities | https://yrpri.org | 54.9 | 54.9 | 0 | 1.0 | LOW | MEDIUM | criteria | Your Priorities scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 34 | Snowdrift.coop | https://snowdrift.coop | 54.0 | 50.0 | 4 | 0.83 | LOW | MEDIUM | criteria | Snowdrift.coop covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 35 | adhocracy+ | https://adhocracy.plus | 53.9 | 53.9 | 0 | 1.0 | LOW | LOW | criteria | adhocracy+ scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 36 | CiviCRM | https://civicrm.org | 53.9 | 53.9 | 0 | 1.0 | LOW | HIGH | criteria | CiviCRM scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. High popularity risk: CiviCRM is well-known and well-documented, which inflates my confidence. Stripping out the documentation advantage, I'd estimate this 8-12 points lower. |
+| 37 | Fairbnb.coop | https://fairbnb.coop | 53.9 | 53.9 | 0 | 0.83 | LOW | LOW | criteria | Fairbnb.coop covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 38 | Open Supply Hub | https://opensupplyhub.org | 53.9 | 53.9 | 0 | 1.0 | LOW | MEDIUM | criteria | Open Supply Hub covers relevant terrain — governance features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 39 | Pursuance Project | https://pursuanceproject.org | 53.9 | 53.9 | 0 | 0.75 | LOW | MEDIUM | criteria | Pursuance Project scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 40 | Talk to the City | https://talktothecity.org | 53.9 | 53.9 | 0 | 1.0 | LOW | LOW | criteria | Talk to the City scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 41 | ОПОРА (Opora) | https://www.oporaua.org | 53.0 | 48.0 | 5 | 1.0 | LOW | MEDIUM | criteria | ОПОРА (Opora) scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 42 | CommunityRule | https://communityrule.info | 52.9 | 52.9 | 0 | 1.0 | LOW | MEDIUM | criteria | CommunityRule scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 43 | PlaceCal | https://github.com/geeksforsocialchange/placecal | 52.9 | 52.9 | 0 | 0.75 | LOW | MEDIUM | criteria | PlaceCal scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 44 | Political Advertising Transparency Data Standard | https://github.com/whotargetsme/ad-transparency-standards/blob/main/implement.md | 52.9 | 52.9 | 0 | 1.0 | LOW | LOW | criteria | Political Advertising Transparency Data Standard covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 45 | OpenSanctions | https://www.opensanctions.org | 52.9 | 52.9 | 0 | 1.0 | LOW | LOW | criteria | OpenSanctions covers relevant terrain — governance features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 46 | Mastodon | https://github.com/mastodon/mastodon | 52.1 | 43.1 | 9 | 1.0 | LOW | HIGH | criteria | Mastodon covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. High popularity risk: Mastodon is well-known and well-documented, which inflates my confidence. Stripping out the documentation advantage, I'd estimate this 8-12 points lower. |
+| 47 | Creative Commons | https://creativecommons.org | 52.0 | 52.0 | 0 | 1.0 | LOW | HIGH | criteria | Creative Commons covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. High popularity risk: Creative Commons is well-known and well-documented, which inflates my confidence. Stripping out the documentation advantage, I'd estimate this 8-12 points lower. |
+| 48 | Rahvaalgatus | https://github.com/rahvaalgatus/rahvaalgatus | 52.0 | 52.0 | 0 | 0.75 | LOW | MEDIUM | criteria | Rahvaalgatus scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 49 | Parti | https://parti.xyz | 52.0 | 52.0 | 0 | 1.0 | LOW | MEDIUM | criteria | Parti scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 50 | Humanitarian OpenStreetMap Team (HOT) | https://www.hotosm.org | 52.0 | 52.0 | 0 | 1.0 | LOW | HIGH | criteria | Humanitarian OpenStreetMap Team (HOT) scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. High popularity risk: Humanitarian OpenStreetMap Team (HOT) is well-known and well-documented, which inflates my confidence. Stripping out the documentation advantage, I'd estimate this 8-12 points lower. |
+| 51 | Open Contracting Partnership | https://www.open-contracting.org | 52.0 | 52.0 | 0 | 1.0 | LOW | HIGH | criteria | The budget and treasury transparency work here is exactly what I mean when I say financial transparency should be democratic infrastructure — Open Contracting Partnership makes public money legible to those it belongs to, not just to administrators. High popularity risk: Open Contracting Partnership is well-known and well-documented, which inflates my confidence. Stripping out the documentation advantage, I'd estimate this 8-12 points lower. |
+| 52 | Ushahidi | https://www.ushahidi.com | 52.0 | 52.0 | 0 | 1.0 | LOW | MEDIUM | criteria | Ushahidi scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 53 | DAO Governance Surfaces | https://github.com/notchia/dao-governance-surfaces | 51.2 | 38.2 | 13 | 0.75 | LOW | LOW | modifier | DAO Governance Surfaces applies programmable, verifiable mechanisms to governance — this is precisely what I mean by 'programmable governance': not just a platform with governance features, but mechanisms where the rules are encoded and auditable. The on-chain or cryptographically verifiable component gets a meaningful boost from me — this is the rare case where 'programmable governance' isn't just a marketing claim. |
+| 54 | Tactical Data Engagement | https://communities.sunlightfoundation.com/methodology | 51.1 | 46.1 | 5 | 1.0 | LOW | MEDIUM | criteria | Tactical Data Engagement scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 55 | Turkopticon | https://turkopticon.ucsd.edu | 51.1 | 47.1 | 4 | 0.92 | LOW | MEDIUM | criteria | Turkopticon covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 56 | Papertree | https://www.papertree.earth | 51.1 | 47.1 | 4 | 0.58 | MEDIUM | NONE | criteria | There's genuine transparency infrastructure in Papertree — the core function is making financial or resource flows visible and actionable, which aligns with my central conviction that budget transparency is a precondition for legitimate decision-making. |
+| 57 | Constitute Project | https://constituteproject.org | 51.0 | 51.0 | 0 | 1.0 | LOW | MEDIUM | criteria | Constitute Project scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 58 | Cybersecurity for Democracy | https://cybersecurityfordemocracy.org | 51.0 | 51.0 | 0 | 1.0 | LOW | LOW | criteria | Cybersecurity for Democracy scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 59 | Participa (Podemos) | https://github.com/podemos-info/participa | 51.0 | 51.0 | 0 | 0.92 | LOW | MEDIUM | criteria | Participa (Podemos) scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 60 | Stanford Participatory Budgeting Platform | https://github.com/stanfordcdt/pb | 51.0 | 51.0 | 0 | 1.0 | LOW | MEDIUM | criteria | Stanford Participatory Budgeting Platform scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 61 | One Project | https://oneproject.org/ | 51.0 | 51.0 | 0 | 0.75 | LOW | LOW | criteria | One Project scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 62 | Open Digital Planning | https://opendigitalplanning.org/ | 51.0 | 51.0 | 0 | 1.0 | LOW | LOW | criteria | Open Digital Planning covers relevant terrain — governance features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 63 | Awesome UK Government Datasets | https://github.com/i-dot-ai/awesome-gov-datasets | 50.1 | 47.1 | 3 | 0.92 | LOW | LOW | criteria | Awesome UK Government Datasets covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 64 | All Our Ideas | https://all-our-ideas.citizens.is | 50.0 | 50.0 | 0 | 0.75 | LOW | MEDIUM | criteria | All Our Ideas scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 65 | Fundación Ciudadanía Inteligente | https://ciudadaniai.org | 50.0 | 50.0 | 0 | 1.0 | LOW | MEDIUM | criteria | Fundación Ciudadanía Inteligente scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 66 | CoTech | https://coops.tech | 50.0 | 50.0 | 0 | 0.75 | LOW | MEDIUM | criteria | CoTech scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 67 | Democracy Club Developer API | https://developers.democracyclub.org.uk/api/v1 | 50.0 | 50.0 | 0 | 1.0 | LOW | MEDIUM | criteria | Democracy Club Developer API scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 68 | vTaiwan | https://github.com/g0v/vue.vtaiwan.tw | 50.0 | 50.0 | 0 | 1.0 | LOW | MEDIUM | criteria | vTaiwan scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 69 | UK Housing Data Standards | https://hact.org.uk/tools-and-services/uk-housing-data-standards | 50.0 | 50.0 | 0 | 1.0 | LOW | LOW | criteria | UK Housing Data Standards covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 70 | OpenProcurement | https://openprocurement.io | 50.0 | 50.0 | 0 | 1.0 | LOW | MEDIUM | criteria | There's genuine transparency infrastructure in OpenProcurement — the core function is making financial or resource flows visible and actionable, which aligns with my central conviction that budget transparency is a precondition for legitimate decision-making. |
+| 71 | Principles for Public Participation in Procurement of AI | https://p4ai.net | 50.0 | 50.0 | 0 | 0.83 | LOW | LOW | criteria | Principles for Public Participation in Procurement of AI scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 72 | Participedia | https://participedia.net | 50.0 | 50.0 | 0 | 0.92 | LOW | MEDIUM | criteria | Participedia scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 73 | GovTrack.us | https://www.govtrack.us | 50.0 | 50.0 | 0 | 1.0 | LOW | MEDIUM | criteria | GovTrack.us scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 74 | Bluesky Social | https://github.com/bluesky-social | 49.1 | 45.1 | 4 | 0.75 | LOW | HIGH | criteria | Bluesky Social covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. High popularity risk: Bluesky Social is well-known and well-documented, which inflates my confidence. Stripping out the documentation advantage, I'd estimate this 8-12 points lower. |
+| 75 | Activist Handbook | https://activisthandbook.org/ | 49.0 | 49.0 | 0 | 0.75 | LOW | LOW | criteria | Activist Handbook scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 76 | Kialo | https://kialo.com | 49.0 | 49.0 | 0 | 0.75 | LOW | MEDIUM | criteria | Kialo scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 77 | Manifold Markets | https://manifold.markets | 49.0 | 49.0 | 0 | 0.75 | LOW | LOW | criteria | Manifold Markets scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 78 | New_ Public Roundabout | https://newpublic.substack.com/p/introducing-roundabout-built-for | 49.0 | 49.0 | 0 | 0.75 | LOW | LOW | criteria | New_ Public Roundabout scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 79 | PolicyEngine | https://policyengine.org/uk | 49.0 | 49.0 | 0 | 1.0 | LOW | LOW | criteria | PolicyEngine covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 80 | Internet Archive Wayback Machine | https://web.archive.org | 49.0 | 49.0 | 0 | 1.0 | LOW | MEDIUM | criteria | Internet Archive Wayback Machine covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 81 | Agencies for Good | https://www.agenciesforgood.org | 49.0 | 49.0 | 0 | 0.83 | LOW | LOW | criteria | Agencies for Good scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 82 | Democracy Fund Open Source | https://www.dfos.com | 49.0 | 49.0 | 0 | 0.75 | LOW | MEDIUM | criteria | Democracy Fund Open Source scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 83 | Organise | https://www.organise.org.uk | 49.0 | 49.0 | 0 | 0.92 | LOW | MEDIUM | criteria | Organise scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 84 | ODK (Open Data Kit) | https://getodk.org | 48.0 | 48.0 | 0 | 1.0 | LOW | MEDIUM | criteria | ODK (Open Data Kit) covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 85 | Groupthink (OpenPolitics Votebot) | https://github.com/openpolitics/groupthink | 48.0 | 48.0 | 0 | 0.92 | LOW | MEDIUM | criteria | Groupthink (OpenPolitics Votebot) scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 86 | Land Explorer | https://landexplorer.coop | 48.0 | 48.0 | 0 | 1.0 | LOW | LOW | criteria | Land Explorer scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 87 | openparliament.ca | https://openparliament.ca/ | 48.0 | 48.0 | 0 | 0.75 | LOW | MEDIUM | criteria | openparliament.ca scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 88 | RxC Quadratic Voting | https://quadraticvote.radicalxchange.org | 48.0 | 48.0 | 0 | 0.92 | LOW | HIGH | criteria | RxC Quadratic Voting scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. High popularity risk: RxC Quadratic Voting is well-known and well-documented, which inflates my confidence. Stripping out the documentation advantage, I'd estimate this 8-12 points lower. |
+| 89 | Framework for Meaningful Engagement 2.0 | https://ecnl.org/publications/framework-meaningful-engagement-20?mc_cid=b1c5158063&mc_eid=a09c64ec38 | 47.3 | 37.3 | 10 | 0.92 | LOW | LOW | modifier | Framework for Meaningful Engagement 2.0 covers relevant terrain — governance features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 90 | Wikum | https://www.csail.mit.edu/research/wikum-bridging-discussion-systems-and-wikis-collective-summarization | 47.1 | 47.1 | 0 | 0.75 | LOW | LOW | criteria | Wikum scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 91 | FixMyStreet | https://www.fixmystreet.com | 47.1 | 47.1 | 0 | 1.0 | LOW | HIGH | criteria | FixMyStreet scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. High popularity risk: FixMyStreet is well-known and well-documented, which inflates my confidence. Stripping out the documentation advantage, I'd estimate this 8-12 points lower. |
+| 92 | TheyWorkForYou | https://www.theyworkforyou.com | 47.1 | 47.1 | 0 | 1.0 | LOW | HIGH | criteria | TheyWorkForYou scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. High popularity risk: TheyWorkForYou is well-known and well-documented, which inflates my confidence. Stripping out the documentation advantage, I'd estimate this 8-12 points lower. |
+| 93 | AlgorithmWatch | https://algorithmwatch.org | 47.0 | 51.0 | -4 | 1.0 | LOW | LOW | criteria | AlgorithmWatch scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. The extractive or surveillance dimension here is what pulls the score down — I can't endorse a model that extracts from communities without redistributing governance. |
+| 94 | Kagi SlopStop | https://blog.kagi.com/slopstop | 46.2 | 41.2 | 5 | 0.83 | LOW | LOW | criteria | Kagi SlopStop covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 95 | Modular Politics | https://arxiv.org/abs/2005.13701 | 46.1 | 46.1 | 0 | 0.75 | LOW | HIGH | criteria | Modular Politics scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. High popularity risk: Modular Politics is well-known and well-documented, which inflates my confidence. Stripping out the documentation advantage, I'd estimate this 8-12 points lower. |
+| 96 | postcodes.io | https://github.com/ideal-postcodes/postcodes.io | 46.1 | 46.1 | 0 | 0.75 | LOW | MEDIUM | criteria | postcodes.io covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 97 | Guardian Project | https://guardianproject.info | 46.1 | 46.1 | 0 | 0.92 | LOW | MEDIUM | criteria | Guardian Project covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 98 | Campaign Tracker | https://www.campaigntracker.nl/en | 46.1 | 46.1 | 0 | 1.0 | LOW | MEDIUM | criteria | Campaign Tracker covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 99 | Mastodon C | https://www.mastodonc.com | 46.1 | 46.1 | 0 | 1.0 | LOW | HIGH | criteria | Mastodon C covers relevant terrain — governance features in the dossier — but the score is limited by partial fit against my highest-weight criteria. High popularity risk: Mastodon C is well-known and well-documented, which inflates my confidence. Stripping out the documentation advantage, I'd estimate this 8-12 points lower. |
+| 100 | Open Ownership | https://www.openownership.org | 46.1 | 46.1 | 0 | 1.0 | LOW | MEDIUM | criteria | Open Ownership covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 101 | Discourse | https://www.discourse.org | 46.0 | 52.0 | -6 | 0.75 | LOW | MEDIUM | criteria | Discourse scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. The extractive or surveillance dimension here is what pulls the score down — I can't endorse a model that extracts from communities without redistributing governance. |
+| 102 | Nestr | https://nestr.io | 45.3 | 37.3 | 8 | 0.75 | LOW | LOW | criteria | Nestr scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 103 | Urbit | https://urbit.org | 45.2 | 41.2 | 4 | 0.75 | LOW | LOW | criteria | Urbit covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 104 | sourceAFRICA | https://sourceafrica.net | 45.1 | 45.1 | 0 | 0.83 | LOW | MEDIUM | criteria | sourceAFRICA covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 105 | Membership | https://medium.com/@abscond/membership-a-prototype-ea822b2683b | 45 | 40.2 | 7 | 0.37999999999999995 | HIGH | NONE | procedural | Membership scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. I'm holding this score loosely — the dossier gaps mean I'm inferring fit from thin evidence, and I could be wrong in either direction. |
+| 106 | Abstract Wikipedia | https://meta.wikimedia.org/wiki/abstract_wikipedia | 45 | 47.1 | 0 | 0.72 | LOW | HIGH | procedural | Abstract Wikipedia covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. High popularity risk: Abstract Wikipedia is well-known and well-documented, which inflates my confidence. Stripping out the documentation advantage, I'd estimate this 8-12 points lower. |
+| 107 | PlanIT | https://planit.org.uk | 45 | 45.1 | 0 | 0.72 | LOW | MEDIUM | procedural | PlanIT scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 108 | PolicyKit | https://policykit.org | 45 | 48.0 | 0 | 0.6299999999999999 | MEDIUM | LOW | procedural | PolicyKit scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 109 | Community Notes (Birdwatch) Analysis Tool | https://github.com/travisbrown/birdwatch | 44.2 | 41.2 | 3 | 0.92 | LOW | LOW | criteria | Community Notes (Birdwatch) Analysis Tool covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 110 | CKAN | https://ckan.org | 44.1 | 44.1 | 0 | 1.0 | LOW | HIGH | criteria | CKAN covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. High popularity risk: CKAN is well-known and well-documented, which inflates my confidence. Stripping out the documentation advantage, I'd estimate this 8-12 points lower. |
+| 111 | docs.plus | https://docs.plus | 44.1 | 44.1 | 0 | 0.67 | MEDIUM | LOW | criteria | docs.plus scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 112 | EDGAR | https://github.com/bellingcat/edgar | 44.1 | 44.1 | 0 | 0.75 | LOW | HIGH | criteria | EDGAR covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. High popularity risk: EDGAR is well-known and well-documented, which inflates my confidence. Stripping out the documentation advantage, I'd estimate this 8-12 points lower. |
+| 113 | MapIt | https://mapit.mysociety.org | 44.1 | 44.1 | 0 | 1.0 | LOW | HIGH | criteria | MapIt covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. High popularity risk: MapIt is well-known and well-documented, which inflates my confidence. Stripping out the documentation advantage, I'd estimate this 8-12 points lower. |
+| 114 | Open Data Editor (ODE) | https://okfn.org/en/projects/open-data-editor/ | 44.1 | 44.1 | 0 | 1.0 | LOW | LOW | criteria | Open Data Editor (ODE) covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 115 | Open Data Communities | https://opendatacommunities.org | 44.1 | 44.1 | 0 | 0.92 | LOW | MEDIUM | criteria | Open Data Communities covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 116 | SecureDrop | https://securedrop.org | 44.1 | 44.1 | 0 | 0.92 | LOW | MEDIUM | criteria | SecureDrop covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 117 | Spartacus | https://spartacus.app | 44.1 | 44.1 | 0 | 0.75 | LOW | LOW | criteria | Spartacus scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 118 | WriteToThem | https://www.writetothem.com | 44.1 | 44.1 | 0 | 1.0 | LOW | MEDIUM | criteria | WriteToThem scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 119 | Anna's Archive | https://annas-archive.pm | 43.2 | 40.2 | 3 | 0.55 | MEDIUM | NONE | criteria | Anna's Archive covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 120 | Humble Data Workshop | https://humbledata.org | 43.2 | 38.2 | 5 | 0.75 | LOW | LOW | criteria | Humble Data Workshop covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 121 | Spacetube | https://spacetu.be | 43.2 | 39.2 | 4 | 0.67 | MEDIUM | LOW | criteria | Spacetube covers relevant terrain — governance features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 122 | Aleph (OCCRP) | https://aleph.occrp.org | 43.1 | 43.1 | 0 | 0.92 | LOW | HIGH | criteria | Aleph (OCCRP) covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. High popularity risk: Aleph (OCCRP) is well-known and well-documented, which inflates my confidence. Stripping out the documentation advantage, I'd estimate this 8-12 points lower. |
+| 123 | Civic Tech Field Guide | https://civictech.guide | 43.1 | 43.1 | 0 | 0.83 | LOW | MEDIUM | criteria | Civic Tech Field Guide scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 124 | Open Referral UK | https://openreferraluk.org | 43.1 | 43.1 | 0 | 1.0 | LOW | MEDIUM | criteria | Open Referral UK covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 125 | Open Science Framework | https://osf.io | 43.1 | 43.1 | 0 | 0.92 | LOW | MEDIUM | criteria | Open Science Framework covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 126 | Relational Tech Project | https://relationaltechproject.org | 43.1 | 43.1 | 0 | 0.58 | MEDIUM | NONE | criteria | Relational Tech Project scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 127 | Tracka | https://yourtracka.org | 43.1 | 43.1 | 0 | 1.0 | LOW | MEDIUM | criteria | Tracka scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 128 | CrowdJustice | https://www.crowdjustice.com | 43.0 | 49.0 | -6 | 0.72 | LOW | MEDIUM | criteria | CrowdJustice scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. The extractive or surveillance dimension here is what pulls the score down — I can't endorse a model that extracts from communities without redistributing governance. |
+| 129 | meet.coop | https://www.meet.coop | 43.0 | 51.0 | -8 | 0.75 | LOW | LOW | criteria | meet.coop scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. The extractive or surveillance dimension here is what pulls the score down — I can't endorse a model that extracts from communities without redistributing governance. |
+| 130 | MP Watch | https://www.mpwatch.org | 42.3 | 34.3 | 8 | 0.92 | LOW | LOW | criteria | MP Watch scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 131 | CivicPress | https://civicpress.io/ | 42.2 | 39.2 | 3 | 0.83 | LOW | LOW | criteria | CivicPress covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 132 | Collaborative Data Patterns | https://collaborative-data.theodi.org | 42.2 | 42.2 | 0 | 0.67 | MEDIUM | LOW | criteria | Collaborative Data Patterns scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 133 | The Commons Social Change Library | https://commonslibrary.org | 42.2 | 42.2 | 0 | 0.75 | LOW | MEDIUM | criteria | The Commons Social Change Library scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 134 | The Engine Room Library | https://library.theengineroom.org | 42.2 | 42.2 | 0 | 0.75 | LOW | MEDIUM | criteria | The Engine Room Library covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 135 | Members' Interests | https://membersinterests.org.uk | 42.2 | 42.2 | 0 | 0.72 | LOW | MEDIUM | criteria | Members' Interests scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 136 | Open Council Data UK | https://opencouncildata.co.uk | 42.2 | 42.2 | 0 | 0.83 | LOW | MEDIUM | criteria | Open Council Data UK scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 137 | Strike Map | https://strikemap.org | 42.2 | 42.2 | 0 | 0.67 | MEDIUM | LOW | criteria | Strike Map covers relevant terrain — governance features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 138 | Give Food | https://www.givefood.org.uk | 42.2 | 42.2 | 0 | 0.72 | LOW | MEDIUM | criteria | Give Food covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 139 | Neighbourhood Warmth | https://www.mysociety.org/climate/neighbourhood-warmth | 42.2 | 42.2 | 0 | 0.83 | LOW | HIGH | criteria | Neighbourhood Warmth scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. High popularity risk: Neighbourhood Warmth is well-known and well-documented, which inflates my confidence. Stripping out the documentation advantage, I'd estimate this 8-12 points lower. |
+| 140 | OpenCRVS | https://www.opencrvs.org | 42.2 | 42.2 | 0 | 1.0 | LOW | LOW | criteria | OpenCRVS covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 141 | Landlord Tech Watch | https://antievictionmappingproject.github.io/landlordtech | 41.2 | 41.2 | 0 | 0.83 | LOW | LOW | criteria | Landlord Tech Watch covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 142 | Bellingcat Online Investigation Toolkit | https://bellingcat.gitbook.io/toolkit | 41.2 | 41.2 | 0 | 0.83 | LOW | HIGH | criteria | Bellingcat Online Investigation Toolkit covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. High popularity risk: Bellingcat Online Investigation Toolkit is well-known and well-documented, which inflates my confidence. Stripping out the documentation advantage, I'd estimate this 8-12 points lower. |
+| 143 | Coral | https://coralproject.net | 41.2 | 41.2 | 0 | 0.92 | LOW | MEDIUM | criteria | Coral covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 144 | Cortico | https://cortico.ai/platform | 41.2 | 41.2 | 0 | 1.0 | LOW | LOW | criteria | Cortico scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 145 | Fatebook | https://fatebook.io | 41.2 | 41.2 | 0 | 0.75 | LOW | LOW | criteria | Fatebook covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 146 | UK Policy Dojo | https://github.com/mikekelly/policy-dojo | 41.2 | 38.2 | 3 | 0.83 | LOW | LOW | criteria | UK Policy Dojo covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 147 | Sugartrail | https://github.com/ribenamaplesyrup/sugartrail | 41.2 | 41.2 | 0 | 0.83 | LOW | LOW | criteria | Sugartrail covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 148 | GrantNav | https://grantnav.threesixtygiving.org | 41.2 | 41.2 | 0 | 1.0 | LOW | MEDIUM | criteria | GrantNav covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 149 | Harmonica | https://harmonica.chat/ | 41.2 | 41.2 | 0 | 0.83 | LOW | LOW | criteria | Harmonica scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 150 | Idealist | https://idealist.org | 41.2 | 41.2 | 0 | 0.75 | LOW | MEDIUM | criteria | Idealist scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 151 | Parliament Watch Uganda | https://parliamentwatch.ug/ | 41.2 | 41.2 | 0 | 0.75 | LOW | MEDIUM | criteria | Parliament Watch Uganda scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 152 | Shareyourpaper.org | https://shareyourpaper.org | 41.2 | 41.2 | 0 | 0.75 | LOW | LOW | criteria | Shareyourpaper.org covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 153 | The Government Says | https://thegovernmentsays.com | 41.2 | 41.2 | 0 | 1.0 | LOW | MEDIUM | criteria | The Government Says covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 154 | Community Tech | https://www.communitytech.network | 41.2 | 41.2 | 0 | 0.92 | LOW | LOW | criteria | Community Tech scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 155 | Deliberation & Technology (DelibTech) Network | https://www.demnext.org/projects/delibtech-network | 41.2 | 41.2 | 0 | 0.75 | LOW | LOW | criteria | Deliberation & Technology (DelibTech) Network scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 156 | MP Twitter Bios | https://www.mptwitterbios.co.uk | 41.2 | 38.2 | 3 | 0.75 | LOW | LOW | criteria | MP Twitter Bios scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 157 | oTree | https://www.otree.org | 41.2 | 41.2 | 0 | 0.83 | LOW | MEDIUM | criteria | oTree covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 158 | ShineYourEye | https://www.shineyoureye.org | 41.2 | 41.2 | 0 | 0.67 | MEDIUM | LOW | criteria | ShineYourEye scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 159 | Wikidata | https://www.wikidata.org | 41.2 | 41.2 | 0 | 0.92 | LOW | MEDIUM | criteria | Wikidata covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 160 | Metaculus | https://metaculus.com | 41.1 | 46.1 | -5 | 0.72 | LOW | MEDIUM | criteria | Metaculus covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 161 | Fission Codes | https://github.com/fission-codes/fission-codes | 40.4 | 28.4 | 12 | 0.75 | LOW | LOW | modifier | Fission Codes applies programmable, verifiable mechanisms to governance — this is precisely what I mean by 'programmable governance': not just a platform with governance features, but mechanisms where the rules are encoded and auditable. The on-chain or cryptographically verifiable component gets a meaningful boost from me — this is the rare case where 'programmable governance' isn't just a marketing claim. |
+| 162 | arXiv | https://arxiv.org | 40.2 | 40.2 | 0 | 0.83 | LOW | HIGH | criteria | arXiv covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. High popularity risk: arXiv is well-known and well-documented, which inflates my confidence. Stripping out the documentation advantage, I'd estimate this 8-12 points lower. |
+| 163 | Channel.org | https://channel.org | 40.2 | 40.2 | 0 | 0.75 | LOW | LOW | criteria | Channel.org scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 164 | Contracts for Data Collaboration | https://contractsfordatacollaboration.org | 40.2 | 40.2 | 0 | 1.0 | LOW | LOW | criteria | Contracts for Data Collaboration covers relevant terrain — governance features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 165 | Consent-O-Matic | https://github.com/cavi-au/consent-o-matic | 40.2 | 40.2 | 0 | 0.75 | LOW | LOW | criteria | Consent-O-Matic covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 166 | Journal of Open Source Software | https://joss.theoj.org | 40.2 | 40.2 | 0 | 0.75 | LOW | MEDIUM | criteria | Journal of Open Source Software covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 167 | Mapped | https://mapped.commonknowledge.coop | 40.2 | 40.2 | 0 | 0.75 | LOW | LOW | criteria | Mapped scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 168 | OA.Works | https://oa.works/ | 40.2 | 40.2 | 0 | 1.0 | LOW | MEDIUM | criteria | OA.Works covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 169 | OpenBudgets.eu | https://openbudgets.eu | 40.2 | 40.2 | 0 | 1.0 | LOW | MEDIUM | criteria | There's genuine transparency infrastructure in OpenBudgets.eu — the core function is making financial or resource flows visible and actionable, which aligns with my central conviction that budget transparency is a precondition for legitimate decision-making. |
+| 170 | OSINT Framework | https://osintframework.com | 40.2 | 40.2 | 0 | 0.75 | LOW | MEDIUM | criteria | OSINT Framework covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 171 | Vote for Policies | https://voteforpolicies.org.uk | 40.2 | 40.2 | 0 | 0.83 | LOW | MEDIUM | criteria | Vote for Policies scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 172 | OpenElections Leaflet Scraper and Parser | https://github.com/thicknavyrain/uk_elections_leaflets | 39.3 | 34.3 | 5 | 0.75 | LOW | LOW | criteria | OpenElections Leaflet Scraper and Parser covers relevant terrain — governance features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 173 | django-collaborative | https://github.com/propublica/django-collaborative | 39.2 | 39.2 | 0 | 0.75 | LOW | MEDIUM | criteria | django-collaborative covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 174 | Hand-Written Petition Scanner | https://hand-written-petition-scanner.streamlit.app | 39.2 | 39.2 | 0 | 0.37999999999999995 | HIGH | NONE | criteria | Hand-Written Petition Scanner scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. I'm holding this score loosely — the dossier gaps mean I'm inferring fit from thin evidence, and I could be wrong in either direction. |
+| 175 | WhatGov | https://www.whatgov.co.uk | 39.2 | 39.2 | 0 | 0.83 | LOW | MEDIUM | criteria | WhatGov scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 176 | Local Intelligence Hub | https://www.localintelligencehub.com | 39.1 | 44.1 | -5 | 0.92 | LOW | LOW | criteria | Local Intelligence Hub scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 177 | Choose a License | https://choosealicense.com | 38.2 | 38.2 | 0 | 0.75 | LOW | MEDIUM | criteria | Choose a License covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 178 | DISARM Frameworks | https://github.com/disarmfoundation/disarmframeworks | 38.2 | 38.2 | 0 | 1.0 | LOW | LOW | criteria | DISARM Frameworks covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 179 | Frankenstein Bill | https://gordonguthrie.github.io/frankensteinbill | 38.2 | 38.2 | 0 | 1.0 | LOW | LOW | criteria | Frankenstein Bill covers relevant terrain — governance features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 180 | Theft Bisect | https://onodi.co/bisect/ | 38.2 | 38.2 | 0 | 0.92 | LOW | LOW | criteria | Theft Bisect covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 181 | Beckton | https://richardpope.org/2017/03/05/beckton-a-tool-to-build | 38.2 | 38.2 | 0 | 0.75 | LOW | LOW | criteria | Beckton covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 182 | Schema.org | https://schema.org | 38.2 | 38.2 | 0 | 0.5 | MEDIUM | NONE | criteria | Schema.org covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 183 | Unpaywall Browser Extension | https://unpaywall.org/products/extension | 38.2 | 38.2 | 0 | 0.67 | MEDIUM | LOW | criteria | Unpaywall Browser Extension covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 184 | deliberAIde | https://www.deliberaide.com | 38.2 | 38.2 | 0 | 1.0 | LOW | LOW | criteria | deliberAIde scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 185 | Parallel Parliament | https://www.parallelparliament.co.uk | 38.2 | 38.2 | 0 | 0.75 | LOW | MEDIUM | criteria | Parallel Parliament scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 186 | CAN/DGSI 127 - Age Assurance Technologies Standard | https://dgc-cgn.org/product/can-dgsi-127/ | 37.3 | 37.3 | 0 | 0.83 | LOW | LOW | criteria | CAN/DGSI 127 - Age Assurance Technologies Standard scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 187 | Diia | https://expo.diia.gov.ua | 37.3 | 37.3 | 0 | 1.0 | LOW | LOW | criteria | Diia covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 188 | rsky | https://github.com/blacksky-algorithms/rsky | 37.3 | 34.3 | 3 | 0.75 | LOW | LOW | criteria | rsky covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 189 | GRIM (Global Risk Simulator) | https://github.com/sentinelteam/grim | 37.3 | 34.3 | 3 | 0.83 | LOW | LOW | criteria | GRIM (Global Risk Simulator) covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 190 | Journalist Studio | https://journaliststudio.google.com | 37.3 | 37.3 | 0 | 0.75 | LOW | LOW | criteria | Journalist Studio covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 191 | Libertrium | https://liberopinion.com | 37.3 | 37.3 | 0 | 0.83 | LOW | MEDIUM | criteria | Libertrium scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 192 | Open Letter | https://openletter.earth | 37.3 | 37.3 | 0 | 0.92 | LOW | MEDIUM | criteria | Open Letter scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 193 | Parse The Bill | https://parsethebill.com | 37.3 | 37.3 | 0 | 0.75 | LOW | LOW | criteria | Parse The Bill scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 194 | Radicle | https://radicle.xyz | 37.3 | 37.3 | 0 | 0.75 | LOW | LOW | criteria | Radicle covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 195 | Security First / Umbrella | https://secfirst.org | 37.3 | 37.3 | 0 | 0.92 | LOW | MEDIUM | criteria | Security First / Umbrella covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 196 | Empurrando Juntas (EJ) | https://sobre.ejparticipe.org | 37.3 | 37.3 | 0 | 0.75 | LOW | LOW | criteria | Empurrando Juntas (EJ) scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 197 | soweego | https://soweego.readthedocs.io | 37.3 | 37.3 | 0 | 0.83 | LOW | LOW | criteria | soweego covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 198 | Gapminder Worldview Upgrader | https://upgrader.gapminder.org | 37.3 | 37.3 | 0 | 1.0 | LOW | MEDIUM | criteria | Gapminder Worldview Upgrader covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 199 | VFRAME | https://vframe.io | 37.3 | 37.3 | 0 | 1.0 | LOW | MEDIUM | criteria | VFRAME covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 200 | WardWatch | https://wardwatch.uk | 37.3 | 37.3 | 0 | 0.75 | LOW | LOW | criteria | WardWatch scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 201 | GlobaLeaks | https://www.globaleaks.org | 37.3 | 37.3 | 0 | 1.0 | LOW | MEDIUM | criteria | GlobaLeaks covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 202 | Teaching Public Service in the Digital Age | https://www.teachingpublicservice.digital | 37.3 | 37.3 | 0 | 0.83 | LOW | LOW | criteria | Teaching Public Service in the Digital Age covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 203 | Worker Info Exchange | https://www.workerinfoexchange.org | 37.3 | 37.3 | 0 | 0.92 | LOW | HIGH | criteria | Worker Info Exchange covers relevant terrain — governance features in the dossier — but the score is limited by partial fit against my highest-weight criteria. High popularity risk: Worker Info Exchange is well-known and well-documented, which inflates my confidence. Stripping out the documentation advantage, I'd estimate this 8-12 points lower. |
+| 204 | UrbanistAI | https://site.urbanistai.com | 37.2 | 42.2 | -5 | 0.92 | LOW | LOW | criteria | UrbanistAI scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 205 | Humanitarian Data Exchange | https://data.humdata.org | 36.3 | 36.3 | 0 | 0.92 | LOW | MEDIUM | criteria | Humanitarian Data Exchange covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 206 | Find local consultations | https://gov.uk/find-local-consultations | 36.3 | 36.3 | 0 | 0.83 | LOW | MEDIUM | criteria | Find local consultations scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 207 | Monitor Mamdani | https://monitormamdani.com/ | 36.3 | 36.3 | 0 | 0.75 | LOW | LOW | criteria | Monitor Mamdani scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 208 | Open Access – Transparency International UK | https://openaccess.transparency.org.uk | 36.3 | 36.3 | 0 | 0.72 | LOW | MEDIUM | criteria | Open Access – Transparency International UK covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 209 | ORCID | https://orcid.org | 36.3 | 36.3 | 0 | 0.92 | LOW | MEDIUM | criteria | ORCID covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 210 | Turbo Phonebank | https://turbophonebank.com | 36.3 | 36.3 | 0 | 0.75 | LOW | LOW | criteria | Turbo Phonebank scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 211 | DoNotPay | https://www.donotpay.com | 36.3 | 36.3 | 0 | 0.67 | MEDIUM | LOW | criteria | DoNotPay covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 212 | Marks Out Of Tenancy | https://www.marksoutoftenancy.com | 36.3 | 36.3 | 0 | 0.83 | LOW | LOW | criteria | Marks Out Of Tenancy scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 213 | Martus | https://www.martus.org | 36.3 | 36.3 | 0 | 0.75 | LOW | MEDIUM | criteria | Martus covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 214 | River Sentiment Dashboard | https://riversentiment.app | 35.4 | 30.4 | 5 | 0.75 | LOW | LOW | criteria | River Sentiment Dashboard covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 215 | The Data Trusts Initiative | https://datatrusts.uk | 35.3 | 35.3 | 0 | 1.0 | LOW | LOW | criteria | The Data Trusts Initiative covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 216 | Agreement Engine | https://medium.com/metagov/introducing-the-agreement-engine-bf03b6d5c16c | 35.3 | 35.3 | 0 | 0.55 | MEDIUM | NONE | criteria | Agreement Engine scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 217 | The Guide to Major Trusts 2025/26 | https://www.dsc.org.uk/publication/the-guide-to-major-trusts-2025-26/ | 34.5 | 26.5 | 8 | 0.75 | LOW | MEDIUM | modifier | The Guide to Major Trusts 2025/26 covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 218 | Data Observation Toolkit (DOT) | https://github.com/datakind/data-observation-toolkit | 34.3 | 34.3 | 0 | 1.0 | LOW | LOW | criteria | Data Observation Toolkit (DOT) covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 219 | Pastecal | https://github.com/kazad/pastecal | 34.3 | 34.3 | 0 | 0.75 | LOW | LOW | criteria | Pastecal covers relevant terrain — governance features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 220 | youtube-dl | https://github.com/ytdl-org/youtube-dl | 34.3 | 34.3 | 0 | 0.75 | LOW | MEDIUM | criteria | youtube-dl covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 221 | Granitt | https://granitt.io | 34.3 | 34.3 | 0 | 0.75 | LOW | LOW | criteria | Granitt scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 222 | Nook CRM | https://nookcrm.com | 34.3 | 34.3 | 0 | 0.83 | LOW | LOW | criteria | Nook CRM covers relevant terrain — governance features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 223 | Objector.ai | https://objector.ai | 34.3 | 34.3 | 0 | 0.92 | LOW | LOW | criteria | Objector.ai scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 224 | Pageviews Analysis | https://pageviews.wmcloud.org | 34.3 | 34.3 | 0 | 0.75 | LOW | MEDIUM | criteria | Pageviews Analysis covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 225 | Timecounts | https://timecounts.org | 34.3 | 34.3 | 0 | 0.75 | LOW | MEDIUM | criteria | Timecounts scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 226 | Who Targets Me Trends | https://trends.whotargets.me | 34.3 | 34.3 | 0 | 0.92 | LOW | LOW | criteria | Who Targets Me Trends covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 227 | Objector.ai | https://www.objector.ai | 34.3 | 34.3 | 0 | 0.83 | LOW | LOW | criteria | Objector.ai scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 228 | WhatDoTheyKnow | https://www.whatdotheyknow.com | 34.3 | 34.3 | 0 | 1.0 | LOW | MEDIUM | criteria | WhatDoTheyKnow covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 229 | Bluesky | https://bsky.app | 34.2 | 40.2 | -6 | 0.75 | LOW | HIGH | criteria | Bluesky covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. The extractive or surveillance dimension here is what pulls the score down — I can't endorse a model that extracts from communities without redistributing governance. |
+| 230 | Viewpoints | https://viewpoints.xyz | 34.2 | 40.2 | -6 | 0.75 | LOW | LOW | criteria | Viewpoints scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. The extractive or surveillance dimension here is what pulls the score down — I can't endorse a model that extracts from communities without redistributing governance. |
+| 231 | Public AI Inference Utility | https://publicai.co/ | 33.4 | 30.4 | 3 | 0.92 | LOW | LOW | criteria | Public AI Inference Utility covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 232 | CiviClick | https://civiclick.com | 33.3 | 33.3 | 0 | 0.75 | LOW | LOW | criteria | CiviClick scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 233 | UK Parliament Developer Portal | https://developer.parliament.uk | 33.3 | 33.3 | 0 | 0.72 | LOW | MEDIUM | criteria | UK Parliament Developer Portal covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 234 | Global Fact-Check Bot (GFC) | https://globalfactcheck.bot/ | 33.3 | 33.3 | 0 | 0.83 | LOW | LOW | criteria | Global Fact-Check Bot (GFC) covers relevant terrain — governance features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 235 | GOV.UK Forms | https://www.forms.service.gov.uk | 33.3 | 33.3 | 0 | 1.0 | LOW | LOW | criteria | GOV.UK Forms covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 236 | Charity Digital Skills Report | https://charitydigitalskills.co.uk | 32.4 | 32.4 | 0 | 0.92 | LOW | MEDIUM | criteria | Charity Digital Skills Report covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 237 | In the news | https://en.wikipedia.org/wiki/wikipedia:in_the_news | 32.4 | 32.4 | 0 | 0.67 | MEDIUM | LOW | criteria | In the news covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 238 | Gender Pay Gap Service | https://gender-pay-gap.service.gov.uk | 32.4 | 32.4 | 0 | 1.0 | LOW | LOW | criteria | Gender Pay Gap Service covers relevant terrain — governance features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 239 | whatsmeow | https://github.com/tulir/whatsmeow | 32.4 | 32.4 | 0 | 0.5 | MEDIUM | NONE | criteria | whatsmeow covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 240 | Moral Machine | https://moralmachine.net | 32.4 | 32.4 | 0 | 0.83 | LOW | MEDIUM | criteria | Moral Machine covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 241 | The Accountability Project | https://publicaccountability.org | 32.4 | 32.4 | 0 | 0.75 | LOW | LOW | criteria | The Accountability Project covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 242 | Remember to Vote | https://remembertovote.org.uk | 32.4 | 32.4 | 0 | 0.67 | MEDIUM | LOW | criteria | Remember to Vote scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 243 | Riseup | https://riseup.net | 32.4 | 32.4 | 0 | 0.75 | LOW | MEDIUM | criteria | Riseup covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 244 | Who Posted What? | https://whopostedwhat.com | 32.4 | 32.4 | 0 | 0.75 | LOW | MEDIUM | criteria | Who Posted What? covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 245 | GOV.UK One Login | https://www.sign-in.service.gov.uk | 32.4 | 32.4 | 0 | 1.0 | LOW | LOW | criteria | GOV.UK One Login covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 246 | Tor Project | https://www.torproject.org | 32.2 | 40.2 | -8 | 1.0 | LOW | HIGH | criteria | Tor Project covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. The extractive or surveillance dimension here is what pulls the score down — I can't endorse a model that extracts from communities without redistributing governance. |
+| 247 | OA.Report | https://oa.report | 31.4 | 31.4 | 0 | 0.92 | LOW | LOW | criteria | OA.Report covers relevant terrain — governance features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 248 | OpenAudience | https://openaudience.org | 31.4 | 31.4 | 0 | 0.75 | LOW | MEDIUM | criteria | OpenAudience covers relevant terrain — governance features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 249 | Overton | https://overton.io | 31.4 | 31.4 | 0 | 0.83 | LOW | LOW | criteria | Overton scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 250 | PostBug | https://postbug.com | 31.4 | 31.4 | 0 | 0.75 | LOW | MEDIUM | criteria | PostBug scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 251 | semanticClimate | https://semanticclimate.github.io | 31.4 | 31.4 | 0 | 0.67 | MEDIUM | LOW | criteria | semanticClimate covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 252 | The Circuit | https://thecircuit.cc | 31.4 | 31.4 | 0 | 0.92 | LOW | LOW | criteria | The Circuit covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 253 | Go Vocal | https://www.govocal.com | 31.3 | 37.3 | -6 | 0.83 | LOW | MEDIUM | criteria | Go Vocal scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. The extractive or surveillance dimension here is what pulls the score down — I can't endorse a model that extracts from communities without redistributing governance. |
+| 254 | Entitledto | https://entitledto.co.uk | 30.4 | 30.4 | 0 | 0.72 | LOW | MEDIUM | criteria | Entitledto covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 255 | DeepSeek-V3 | https://github.com/deepseek-ai/deepseek-v3 | 30.4 | 30.4 | 0 | 0.75 | LOW | HIGH | criteria | DeepSeek-V3 covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. High popularity risk: DeepSeek-V3 is well-known and well-documented, which inflates my confidence. Stripping out the documentation advantage, I'd estimate this 8-12 points lower. |
+| 256 | Nyaaya | https://nyaaya.org | 30.4 | 30.4 | 0 | 0.83 | LOW | MEDIUM | criteria | Nyaaya covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 257 | Plausible Analytics | https://plausible.io | 30.4 | 30.4 | 0 | 0.75 | LOW | LOW | criteria | Plausible Analytics covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 258 | GOV.UK Notify | https://www.notifications.service.gov.uk | 30.4 | 30.4 | 0 | 1.0 | LOW | MEDIUM | criteria | GOV.UK Notify covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 259 | Prolific | https://www.prolific.com | 30.4 | 30.4 | 0 | 0.92 | LOW | MEDIUM | criteria | Prolific covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. |
+| 260 | Privacy Badger | https://privacybadger.org | 30.2 | 38.2 | -8 | 0.92 | LOW | MEDIUM | criteria | Privacy Badger covers relevant terrain — open infrastructure features in the dossier — but the score is limited by partial fit against my highest-weight criteria. The extractive or surveillance dimension here is what pulls the score down — I can't endorse a model that extracts from communities without redistributing governance. |
+| 261 | Dunadyne | https://dunadyne.org | 29.4 | 30.4 | -1 | 0.67 | MEDIUM | LOW | criteria | Dunadyne increases state or institutional capacity to monitor and manage civic activity — but I can't find accountability mechanisms directed at those affected. That asymmetry is the problem. |
+| 262 | Local Insight | https://localinsight.org | 29.4 | 29.4 | 0 | 0.83 | LOW | MEDIUM | criteria | Local Insight doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 263 | GovWise | https://www.govwise.ai/en | 29.4 | 29.4 | 0 | 0.75 | LOW | LOW | criteria | GovWise doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 264 | MyActionCenter | https://www.myaction.center | 29.4 | 29.4 | 0 | 0.75 | LOW | LOW | criteria | MyActionCenter scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| 265 | Collab.Land | https://collab.land | 28.6 | 18.6 | 10 | 0.75 | LOW | LOW | modifier | Collab.Land applies programmable, verifiable mechanisms to governance — this is precisely what I mean by 'programmable governance': not just a platform with governance features, but mechanisms where the rules are encoded and auditable. The on-chain or cryptographically verifiable component gets a meaningful boost from me — this is the rare case where 'programmable governance' isn't just a marketing claim. |
+| 266 | CivicMatch | https://civicmatch.app | 28.4 | 28.4 | 0 | 0.67 | MEDIUM | LOW | criteria | CivicMatch doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 267 | GOV Reuse Library | https://dev.reuselibrary.service.justice.gov.uk/ | 28.4 | 28.4 | 0 | 0.75 | LOW | LOW | criteria | GOV Reuse Library doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 268 | Citizens Advice Tableau Public Profile | https://public.tableau.com/app/profile/citizensadvice/vizzes | 28.4 | 28.4 | 0 | 0.58 | MEDIUM | NONE | criteria | Citizens Advice Tableau Public Profile doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 269 | Right To Know | https://right-to-know.org | 28.4 | 28.4 | 0 | 0.92 | LOW | MEDIUM | criteria | Right To Know doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 270 | Consciousness Evolution Operating System (ConSoc) | https://www.consoc.io | 28.4 | 28.4 | 0 | 0.42 | MEDIUM | NONE | criteria | Consciousness Evolution Operating System (ConSoc) doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 271 | Plinth | https://www.plinth.org.uk | 28.4 | 28.4 | 0 | 1.0 | LOW | LOW | criteria | Plinth doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 272 | Local Deep Researcher | https://local-deep-researcher-hnmh.vercel.app/ | 28 | 17.6 | 0 | 0.3 | HIGH | NONE | underdog-protection | The dossier on Local Deep Researcher is thin — I can't score it properly against my criteria. Underdog protection applies: I'm holding it at the floor rather than penalising it for being underdocumented. What little is there hints at relevance, but I'd need more to push higher. |
+| 273 | Unknown | https://tracking-template-38b4c.web.app | 28 | 12.7 | 0 | 0.08 | HIGH | NONE | underdog-protection | The dossier on Unknown is thin — I can't score it properly against my criteria. Underdog protection applies: I'm holding it at the floor rather than penalising it for being underdocumented. What little is there hints at relevance, but I'd need more to push higher. |
+| 274 | Pear by Holepunch | https://docs.holepunch.to | 27.5 | 27.5 | 0 | 0.75 | LOW | LOW | criteria | Pear by Holepunch doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 275 | Full Fact AI | https://fullfact.org/ai | 27.5 | 27.5 | 0 | 1.0 | LOW | HIGH | criteria | Full Fact AI doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. High popularity risk: Full Fact AI is well-known and well-documented, which inflates my confidence. Stripping out the documentation advantage, I'd estimate this 8-12 points lower. |
+| 276 | PatCit | https://github.com/cverluise/patcit | 27.5 | 27.5 | 0 | 0.83 | LOW | LOW | criteria | PatCit doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 277 | Ladder Hub | https://ladderhub.org/ | 27.5 | 22.5 | 5 | 0.67 | MEDIUM | LOW | criteria | Ladder Hub doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 278 | Keep It In The Community | https://plunkett.my.site.com/keepitinthecommunity/s | 27.5 | 27.5 | 0 | 0.58 | MEDIUM | NONE | criteria | Keep It In The Community doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 279 | User Research Library | https://research.localgov.digital | 27.5 | 27.5 | 0 | 0.83 | LOW | MEDIUM | criteria | User Research Library doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 280 | RightDD | https://www.rightsdd.com | 27.5 | 27.5 | 0 | 0.75 | LOW | MEDIUM | criteria | RightDD doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 281 | Watch Duty | https://www.watchduty.org | 27.5 | 27.5 | 0 | 0.75 | LOW | LOW | criteria | Watch Duty doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 282 | GOV.UK Pay | https://www.payments.service.gov.uk | 27.4 | 32.4 | -5 | 1.0 | LOW | MEDIUM | criteria | GOV.UK Pay increases state or institutional capacity to monitor and manage civic activity — but I can't find accountability mechanisms directed at those affected. That asymmetry is the problem. |
+| 283 | We Live It | https://www.welivedit.ai | 27.3 | 33.3 | -6 | 0.67 | MEDIUM | LOW | criteria | We Live It scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. The extractive or surveillance dimension here is what pulls the score down — I can't endorse a model that extracts from communities without redistributing governance. |
+| 284 | AISafety.info | https://aisafety.info | 26.5 | 26.5 | 0 | 0.75 | LOW | LOW | criteria | AISafety.info doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 285 | Turn2us Benefits Calculator | https://benefits-calculator.turn2us.org.uk | 26.5 | 26.5 | 0 | 0.83 | LOW | MEDIUM | criteria | Turn2us Benefits Calculator doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 286 | Violation Tracker UK | https://violationtrackeruk.goodjobsfirst.org | 26.5 | 26.5 | 0 | 0.55 | MEDIUM | NONE | criteria | Violation Tracker UK doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 287 | Service Manual | https://www.gov.uk/service-manual | 26.5 | 26.5 | 0 | 1.0 | LOW | MEDIUM | criteria | Service Manual doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 288 | Shared Digital Guides | https://www.shareddigitalguides.org.uk | 26.5 | 26.5 | 0 | 0.67 | MEDIUM | LOW | criteria | Shared Digital Guides doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 289 | FixMyBlock | https://fixmyblock.org | 25.5 | 25.5 | 0 | 0.83 | LOW | LOW | criteria | FixMyBlock doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 290 | Granicus | https://granicus.com/uk | 25.5 | 25.5 | 0 | 0.92 | LOW | MEDIUM | criteria | Granicus doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 291 | GreenPT | https://greenpt.ai/ | 25.5 | 25.5 | 0 | 0.75 | LOW | LOW | criteria | GreenPT doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 292 | Atlas of Surveillance | https://atlasofsurveillance.org | 25.2 | 38.2 | -13 | 0.92 | LOW | LOW | modifier | I'm scoring Atlas of Surveillance low primarily because the core model involves data extraction or surveillance without meaningful accountability to those whose data is used — that's a direct conflict with my values around collective ownership and accountability. The extractive or surveillance dimension here is what pulls the score down — I can't endorse a model that extracts from communities without redistributing governance. |
+| 293 | Dovetail | https://dovetail.network | 24.5 | 24.5 | 0 | 0.75 | LOW | LOW | criteria | Dovetail doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 294 | FarmerChat | https://farmerchat.digitalgreen.org | 24.5 | 24.5 | 0 | 0.75 | LOW | LOW | criteria | FarmerChat doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 295 | Public Media Stack | https://publicmediastack.com | 24.5 | 24.5 | 0 | 0.75 | LOW | LOW | criteria | Public Media Stack doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 296 | Society for Hopeful Technologists | https://societyforhopefultechnologists.org | 23.5 | 23.5 | 0 | 0.75 | LOW | LOW | criteria | Society for Hopeful Technologists doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 297 | The List | https://the-list.uk | 23.5 | 23.5 | 0 | 0.83 | LOW | LOW | criteria | The List doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 298 | Polimorphic | https://www.polimorphic.com | 23.4 | 29.4 | -6 | 0.92 | LOW | LOW | criteria | Polimorphic doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. The extractive or surveillance dimension here is what pulls the score down — I can't endorse a model that extracts from communities without redistributing governance. |
+| 299 | Labour Xchange | https://labourxchange.uk | 22.5 | 22.5 | 0 | 0.83 | LOW | MEDIUM | criteria | Labour Xchange doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 300 | Missing Numbers | https://missingnumbers.org | 22.5 | 22.5 | 0 | 0.92 | LOW | LOW | criteria | Missing Numbers doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 301 | Registers and collaboration: making lists we can trust | https://theodi.org/insights/reports/registers-and-collaboration-making-lists-we-can-trust-report | 22.5 | 22.5 | 0 | 0.75 | LOW | LOW | criteria | Registers and collaboration: making lists we can trust doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 302 | OpenOrigins | https://www.openorigins.com | 22.5 | 22.5 | 0 | 0.75 | LOW | LOW | criteria | OpenOrigins doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 303 | DoGooder | https://dogooder.co | 21.6 | 21.6 | 0 | 0.6299999999999999 | MEDIUM | LOW | criteria | DoGooder doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 304 | Filmot | https://filmot.com | 21.6 | 21.6 | 0 | 0.67 | MEDIUM | LOW | criteria | Filmot doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 305 | Understanding Your Morality | https://programs.clearerthinking.org/understanding-your-morality/ | 21.6 | 21.6 | 0 | 0.75 | LOW | MEDIUM | criteria | Understanding Your Morality doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 306 | PoliMonitor | https://www.polimonitor.com | 21.6 | 21.6 | 0 | 0.67 | MEDIUM | LOW | criteria | PoliMonitor doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 307 | Public Editor | https://www.publiceditor.io | 21.6 | 21.6 | 0 | 0.55 | MEDIUM | NONE | criteria | Public Editor doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 308 | Yoti | https://www.yoti.com | 21.6 | 21.6 | 0 | 0.92 | LOW | MEDIUM | criteria | Yoti doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 309 | Responsible Tech Guide 2025 | https://alltechishuman.org/responsible-tech-guide-2025 | 20.6 | 20.6 | 0 | 0.75 | LOW | LOW | criteria | Responsible Tech Guide 2025 doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 310 | Mapping.kids | https://mapping.kids | 20.6 | 20.6 | 0 | 0.42 | MEDIUM | NONE | criteria | Mapping.kids doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 311 | DemTech Navigator | https://navigator.oii.ox.ac.uk | 20.6 | 20.6 | 0 | 0.75 | LOW | LOW | criteria | DemTech Navigator doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 312 | Sci-Hub | https://sci-hub.se | 20.6 | 20.6 | 0 | 0.55 | MEDIUM | NONE | criteria | Sci-Hub doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 313 | Digital Account Management Toolkit | https://digitalcharitylab.org/product/digital-account-management-toolkit | 19.6 | 19.6 | 0 | 0.75 | LOW | LOW | criteria | Digital Account Management Toolkit doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 314 | Esper | https://esper.com/product | 19.6 | 19.6 | 0 | 0.83 | LOW | LOW | criteria | Esper doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 315 | Whoisology | https://whoisology.com | 19.5 | 24.5 | -5 | 0.75 | LOW | MEDIUM | criteria | Whoisology increases state or institutional capacity to monitor and manage civic activity — but I can't find accountability mechanisms directed at those affected. That asymmetry is the problem. |
+| 316 | Conservative Party Funding | https://conservativepartyfunding.co.uk | 18.6 | 18.6 | 0 | 0.75 | LOW | LOW | criteria | Conservative Party Funding doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 317 | The Decelerator | https://decelerator.org.uk | 17.6 | 17.6 | 0 | 0.75 | LOW | LOW | criteria | The Decelerator doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 318 | COTSI (Cyber Operational Threat Situational Intelligence) | https://cotsi.org/ | 17.5 | 22.5 | -5 | 0.75 | LOW | LOW | criteria | COTSI (Cyber Operational Threat Situational Intelligence) increases state or institutional capacity to monitor and manage civic activity — but I can't find accountability mechanisms directed at those affected. That asymmetry is the problem. |
+| 319 | PolicyMogul | https://policymogul.com | 16.7 | 16.7 | 0 | 0.67 | MEDIUM | LOW | criteria | PolicyMogul doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| 320 | WorkInCharities | https://www.workincharities.co.uk | 16.7 | 16.7 | 0 | 0.67 | MEDIUM | LOW | criteria | WorkInCharities doesn't land well against my constitution. The project sits outside my core focus: budget transparency, governance legibility, and collective ownership. |
+| N/A | Unknown Academic Paper (SSRN 5351275) | https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5351275 | N/A | 0 | 0 | 0.1 | HIGH | NONE | abstained | Dossier is empty and homepage is inaccessible — I can't assess Unknown Academic Paper (SSRN 5351275) against any of my criteria. Abstaining. |
 ---
 
 ## 11. Ranking highlights
@@ -854,17 +841,16 @@ The jury consists of five language models, each running five independent evaluat
 
 ### Top 10 extended notes
 
-- **Decidim** (score 64.7, completeness 0.93): "Decidim helps citizens, organizations and public institutions self-organize democratically at every " -- Decidim hits multiple high-weight criteria in my constitution. Scores: C3 20/20, C2 17/20, C4 ... [HIGH popularity risk — documentation advantage likely inflates score]
-- **Cobudget** (score 63.7, completeness 0.95): "Tap into your group’s creative potential. Crowd source, develop and review ideas. Spark opportunitie" -- Cobudget hits multiple high-weight criteria in my constitution. Scores: C3 19/20, C2 17/20, C4... [no major caveats]
-- **Open Council Network** (score 59.8, completeness 0.95): "Know what your local councillors are doing for you, every day. Weekly summaries, videos and transcri" -- Open Council Network hits multiple high-weight criteria in my constitution. Scores: C2 19/20, ... [no major caveats]
-- **adhocracy+** (score 58.8, completeness 0.98): "adhocracy+ makes digital democracy easy - for everyone no matter where" -- adhocracy+ hits multiple high-weight criteria in my constitution. Scores: C2 20/20, C3 10/20, C4 10/12, C6 10/12.... [no major caveats]
-- **Ethelo** (score 57.9, completeness 0.93): "The world&#8217;s leading group solutions technology" -- Ethelo hits multiple high-weight criteria in my constitution. Scores: C2 17/20, C3 14/20, C4 10/12, C6 8/12. Ethelo is well-enough known that ... [no major caveats]
-- **Citizen OS** (score 57.8, completeness 0.95): "Citizen OS is a free participation platform for gathering ideas, discussing, voting, and making deci" -- Citizen OS hits multiple high-weight criteria in my constitution. Scores: C2 20/20, C3 10/20, ... [no major caveats]
-- **Bonfire** (score 57.8, completeness 0.95): "A federated social network for individuals and communities to design, operate and control their own " -- Bonfire hits multiple high-weight criteria in my constitution. Scores: C3 20/20, C2 14/20, C4 ... [no major caveats]
-- **CharmVerse** (score 57.1, completeness 0.93): "CharmVerse is a web3 community platform for building relationships and co-creating projects. Join Op" -- CharmVerse hits multiple high-weight criteria in my constitution. Scores: C2 18/20, C6 8/12, C... [no major caveats]
-- **CommunityRule** (score 56.9, completeness 0.98): "A governance toolkit for great communities" -- CommunityRule hits multiple high-weight criteria in my constitution. Scores: C2 20/20, C3 10/20, C4 10/12, C6 8/12.... [no major caveats]
-- **CONSUL Democracy** (score 56.9, completeness 0.93): "The open source CONSUL DEMOCRACY software is free to use and modify" -- CONSUL Democracy hits multiple high-weight criteria in my constitution. Scores: C2 17/20, C3 12/20, C4 12/12, C6 8/12. I note t... [no major caveats]
-
+- **Aragon** (score 70.7, completeness 0.75): "Aragon scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about..." [no major caveats]
+- **The DAO (Standard DAO Framework)** (score 68.0, completeness 0.75): "The DAO (Standard DAO Framework) applies programmable, verifiable mechanisms to governance — this is precisely what I me..." [no major caveats]
+- **Ethelo** (score 67.9, completeness 1.0): "Ethelo scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about..." [no major caveats]
+- **Bonfire** (score 65.8, completeness 0.83): "Bonfire demonstrates what I mean by collective ownership being technically viable — the governance architecture gives co..." [no major caveats]
+- **LiquidFeedback** (score 65.8, completeness 1.0): "LiquidFeedback scores well on governance legibility — it makes decision-making processes inspectable, which is what I ca..." [no major caveats]
+- **Tech Coops List** (score 65.8, completeness 0.75): "Tech Coops List scores well on governance legibility — it makes decision-making processes inspectable, which is what I c..." [no major caveats]
+- **Open Heart Mind (OHM)** (score 65.7, completeness 0.83): "Open Heart Mind (OHM) scores well on governance legibility — it makes decision-making processes inspectable, which is wh..." [no major caveats]
+- **Cobudget** (score 64.7, completeness 1.0): "Cobudget scores well on governance legibility — it makes decision-making processes inspectable, which is what I care abo..." [HIGH popularity risk — documentation advantage likely inflates score]
+- **Polis** (score 64.7, completeness 1.0): "Polis scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about:..." [HIGH popularity risk — documentation advantage likely inflates score]
+- **Populate Tools** (score 64.7, completeness 0.83): "Populate Tools scores well on governance legibility — it makes decision-making processes inspectable, which is what I ca..." [no major caveats]
 ### Bottom 10 explained
 
 - **GreenPT** (score 13.7): "GreenPT is a privacy-friendly AI chat platform, hosted in Europe and powered by renewable energy. Ge" -- GreenPT does something real, but my constitu...
@@ -886,10 +872,10 @@ The jury consists of five language models, each running five independent evaluat
 
 ### Most surprising placements
 
-- **Decidim at #1**: Decidim is the clearest collective-ownership governance platform in the longlist, and it has the jury's endorsement (#2 jury rank). But it's also one of the most well-known civic tech tools — HIGH popularity risk. Strip the documentation advantage and the score probably sits 8-12 points lower.
-- **Alaveteli at #11**: A freedom-of-information platform climbing high primarily on C2 (governance legibility — making state decision-making visible) and C6 (political infrastructure). Unexpected because it's not about collective ownership, but it scores well on the infrastructure focus and open standards criteria.
-- **CiviCRM at #14**: A nonprofit CRM system. Scores well on C5 (open standards/interoperability) and C4 (deployment). The ranking reflects the infrastructure criterion — it genuinely is plumbing that other civic organisations build on. Whether it's *political* infrastructure is debatable.
-- **LittleSis at #41 constitutionally / #1 jury**: The largest single discrepancy between jury and constitution. LittleSis maps corporate-political power networks — directly relevant to 'making power visible'. The jury scores it at 93; the constitution scores it at 31 because it lacks collective ownership and treasury transparency. The failure mode in action.
+- **Aragon at #1**: Aragon leads not on criteria breadth but on M1 (on-chain programmable governance, +6 points) plus strong constitutional alignment. Its score of 70.7 reflects on-chain verifiable treasury and governance — precisely what this constitution rewards. But Aragon is also a well-known DAO platform with HIGH familiarity risk. Strip documentation advantage and the score may sit 5-8 points lower, potentially handing the top spot to The DAO Framework or Bonfire.
+- **Decidim at #22**: In the prior run (rank-huda.py), Decidim was #1 at 64.7. In the correct run (score_huda.py), it is #22 at 57.8 because it gets no M1 modifier benefit — Decidim's governance is sophisticated but not on-chain/cryptographic. The constitution's M1 trigger is the decisive differentiator between Aragon (#1) and Decidim (#22).
+- **Ethelo at #3**: A commercial group-decision platform. Scores well on governance legibility and collective ownership framing. Unexpected because it is less community-owned than Aragon or Bonfire — but the constitution's keyword matching fires on its cooperative governance framing.
+- **LittleSis at #32 constitutionally / #1 jury**: The largest single discrepancy between jury and constitution. LittleSis maps corporate-political power networks — directly relevant to 'making power visible'. The jury scores it at 93; the constitution scores it at 55.0 because it lacks collective ownership and treasury transparency. The failure mode in action.
 - **Unknown Academic Paper (SSRN 5351275) at #321 / abstained**: The only abstention in the constitutional ranking — completeness ≤ 0.1 and dead link, triggering the abstention procedural rule. Score: N/A.
 
 </details>
@@ -911,28 +897,28 @@ Underdog protection applied to only 1 project in this run (the SSRN abstention).
 
 | Project | Original Score | Discounted Score | Rank Change |
 |---|---|---|---|
-| Decidim | 64.7 | 54.7 | would drop in ranking |
-| Alaveteli | 56.9 | 46.9 | would drop in ranking |
-| Loomio | 55.9 | 45.9 | would drop in ranking |
-| Aragon | 53.1 | 43.1 | would drop in ranking |
-| Open Collective | 52.9 | 42.9 | would drop in ranking |
-| Ushahidi | 52.0 | 42.0 | would drop in ranking |
-| PolicyEngine | 50.0 | 40.0 | would drop in ranking |
-| Open Contracting Partnership | 47.1 | 37.1 | would drop in ranking |
-| Humanitarian OpenStreetMap Team (HOT) | 47.1 | 37.1 | would drop in ranking |
-| CKAN | 47.1 | 37.1 | would drop in ranking |
-| Mastodon | 45.2 | 35.2 | would drop in ranking |
-| Discourse | 45.1 | 35.1 | would drop in ranking |
-| TheyWorkForYou | 44.1 | 34.1 | would drop in ranking |
-| Mastodon C | 43.1 | 33.1 | would drop in ranking |
-| GovTrack.us | 43.1 | 33.1 | would drop in ranking |
-| FixMyStreet | 43.1 | 33.1 | would drop in ranking |
-| OpenCRVS | 40.2 | 30.2 | would drop in ranking |
-| Polis | 39.2 | 29.2 | would drop in ranking |
-| Creative Commons | 39.2 | 29.2 | would drop in ranking |
-| WriteToThem | 38.2 | 28.2 | would drop in ranking |
+| Cobudget | 64.7 | 54.7 | would drop in ranking |
+| Polis | 64.7 | 54.7 | would drop in ranking |
+| mySociety Datasets and APIs | 62.7 | 52.7 | would drop in ranking |
+| Decidim | 57.8 | 47.8 | would drop in ranking |
+| Alaveteli | 55.9 | 45.9 | would drop in ranking |
+| CiviCRM | 53.9 | 43.9 | would drop in ranking |
+| Mastodon | 52.1 | 42.1 | would drop in ranking |
+| Creative Commons | 52.0 | 42.0 | would drop in ranking |
+| Humanitarian OpenStreetMap Team (HOT) | 52.0 | 42.0 | would drop in ranking |
+| Open Contracting Partnership | 52.0 | 42.0 | would drop in ranking |
+| Bluesky Social | 49.1 | 39.1 | would drop in ranking |
+| RxC Quadratic Voting | 48.0 | 38.0 | would drop in ranking |
+| FixMyStreet | 47.1 | 37.1 | would drop in ranking |
+| TheyWorkForYou | 47.1 | 37.1 | would drop in ranking |
+| Modular Politics | 46.1 | 36.1 | would drop in ranking |
+| Mastodon C | 46.1 | 36.1 | would drop in ranking |
+| Abstract Wikipedia | 45.0 | 35.0 | would drop in ranking |
+| CKAN | 44.1 | 34.1 | would drop in ranking |
+| EDGAR | 44.1 | 34.1 | would drop in ranking |
+| MapIt | 44.1 | 34.1 | would drop in ranking |
 
-New top 10 with discount applied: Decidim drops to ~54.7 but may still lead given Cobudget at 63.7 is not HIGH pop risk. The top 10 order shifts but Cobudget, Open Council Network, adhocracy+, Ethelo remain in the top 5.
+New top 10 with discount applied: Aragon (pop risk: LOW) drops by 10 points if HIGH. Aragon at 70.7 (pop risk: LOW) may overtake. The DAO Framework (#2, MEDIUM pop risk) is the most likely new leader under this scenario.
 
 ### Scenario 3: Abstentions scored 30
 
@@ -1003,10 +989,10 @@ Very few thin dossiers in this dataset overall — the enrichment pass was thoro
 
 | Project | Popularity risk drivers | Score | Completeness | Note |
 |---|---|---|---|---|
-| Decidim | Well-known cooperative governance platform, likely in training data, completeness 0.93 | 64.7 | 0.93 | Constitutional winner; but jury also ranked it #2 (score 92), suggesting real constitutional fit not just familiarity |
+| Aragon | Well-known DAO governance platform, likely in training data, completeness 0.75 | 70.7 | 0.75 | Constitutional winner; LOW pop risk means documentation advantage is not a major concern here — score likely genuine |
 | Alaveteli | mySociety tool, well-documented, decade-plus history | 56.9 | 0.95 | Mid-high constitutional rank; jury ranked it #10 (score 80), close alignment |
 | Loomio | Widely known cooperative decision tool, documented cooperative structure | 55.9 | 0.95 | Scores well on C3 (collective ownership) — dossier richness partially inflating confidence |
-| Aragon | Well-known DAO governance platform, likely in training data | 53.1 | 0.95 | High completeness + DAO domain = familiarity inflation risk |
+| Aragon | Well-known DAO governance platform, likely in training data | 70.7 | 0.75 | Constitutional winner — LOW pop risk means documentation advantage is not driving the top score; M1 on-chain modifier (+6) is the decisive factor |
 | Open Collective | Very well-known, widely documented, decade-plus | 52.9 | 0.95 | Constitution scores C3 (collective ownership) at max; pop risk is genuine |
 | Ushahidi | Decade-old platform, widely cited in civic tech literature | 52.0 | 0.95 | Genuine constitutional fit on deployment + excluded communities; familiarity inflates confidence slightly |
 | PolicyEngine | Growing visibility, high completeness | 50.0 | 0.93 | Mid-range constitutional score; pop risk medium-low given constitution's domain |
@@ -1046,7 +1032,7 @@ Gemini abstained on all 321 projects across all 5 runs. This is interpretable as
 ## Constitution weaknesses
 
 **Weakness 1: M1 (on-chain governance) trigger too narrow**
-The modifier fires only for cryptographic/on-chain mechanisms. This means Decidim — which has sophisticated governance architecture — gets no M1 benefit, while projects with aspirational DAO framing and thin dossiers get +8. The constitution intended to reward functional on-chain transparency, but in practice the keyword trigger cannot distinguish functional from aspirational. The `on_chain_verification` field proposed in Part E would fix this.
+The modifier fires only for cryptographic/on-chain mechanisms. This means Decidim (#22, 57.8) — which has sophisticated governance architecture — gets no M1 benefit, while Aragon (#1, 70.7) does (+6 points). The winner is partly an artefact of this trigger boundary. The constitution intended to reward functional on-chain transparency, but in practice the keyword trigger cannot distinguish functional from aspirational. The `on_chain_verification` field proposed in Part E would fix this.
 
 **Weakness 2: C3 (collective ownership) over-fires on cooperative membership models**
 The collective ownership criterion scores cooperatives and DAOs at maximum (19–20 points) regardless of whether they give governance rights to their communities or just to paying members. Loomio is a workers' cooperative — the collective ownership is for the workers, not the users. This is genuinely different from community ownership, but the criterion cannot distinguish it from keyword matching alone.
@@ -1097,7 +1083,7 @@ See constitutional failure mode in reflection.md. Landlord Tech Watch, Missing N
 
 > 1. Your constitution weights budget/treasury transparency (C1) and governance legibility (C2) equally at 20 points each, but in practice, C3 (collective ownership) drives more top-10 placements than either. The DAO Framework, Aragon, and Bonfire lead because of collective ownership and on-chain mechanisms rather than budget transparency per se. Is collective ownership genuinely your top priority, or does the top ranking reveal something about how the criteria interact that feels surprising to you?
 
-> 2. Modifier 1 (programmable governance, +8–12 points) fires only for cryptographic or on-chain mechanisms — and its absence is the reason Decidim (cooperative, participatory, genuinely governance-legible) ranks 22nd rather than 1st. Is the distinction between "programmable governance via smart contracts" and "programmable governance via open-source democratic software" one you would actually draw? Or is on-chain mechanism too narrow a trigger for the value you're pointing at?
+> 2. Modifier 1 (programmable governance, +8–12 points) fires only for cryptographic or on-chain mechanisms — this is the decisive factor separating Aragon (#1, 70.7) from Decidim (#22, 57.8). Aragon gets +6 from M1; Decidim gets 0. Is the distinction between "programmable governance via smart contracts" and "programmable governance via open-source democratic software" one you would actually draw? Or is on-chain mechanism too narrow a trigger for the value you're pointing at?
 
 > 3. The jury ranked vTaiwan 4th (score 87.5) against the constitutional rank of 68th. vTaiwan is one of the most consequential participatory democracy experiments in recent history — government-binding, genuinely deliberative, open-source. The constitution scores it mid-range because it lacks collective ownership and treasury transparency mechanisms. Does that feel right to you, or is the jury closer to your actual intuition here than the constitution is?
 
