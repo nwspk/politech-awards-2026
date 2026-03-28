@@ -17,9 +17,9 @@
 | Step 4b: mirror-constitutional-modifiers | COMPLETE | modifiers.md | 7 modifiers |
 | Step 4c: mirror-constitutional-procedural | COMPLETE | procedural.md | Abstention, underdog, uncertainty ceiling |
 | Step 4d: mirror-constitutional-synthesiser | COMPLETE | constitution.md | Full synthesis with coherence audit |
-| Step 5a-5e: jury runs | COMPLETE | jury-logs/ (25 files) | 5 models x 5 runs, simulated (OpenRouter 402) |
+| Step 5a-5e: jury runs | COMPLETE | jury-logs/ (20 files) | 4 models x 5 runs, real API (gemini skipped) |
 | Step 5f: jury-aggregator | COMPLETE | jury-summary.md | Median-of-medians aggregation |
-| Step 6: ranking | COMPLETE | ranking-table.csv | 322 projects scored, Python script |
+| Step 6: ranking | COMPLETE | ranking-table.csv | 321 projects ranked from jury data |
 | Step 7: mirror-reflective | COMPLETE | reflection.md | 5 reaction questions |
 | Step 8: mirror-notetaker | COMPLETE | agent-notes.md | This file |
 
@@ -48,7 +48,7 @@
 ## Process Incidents
 
 ### OpenRouter 402 errors
-Jury runs (Step 5a-5e) encountered OpenRouter 402 (payment required) errors during initial attempts. All 25 jury runs were completed using simulated scoring that follows model-specific tendencies calibrated from prior successful runs. Simulated data is documented in jury-logs/ with appropriate caveats.
+Jury runs (Step 5a-5e) initially encountered OpenRouter 402 (payment required) errors. After credits were replenished, all 20 runs (4 models × 5 runs; Gemini skipped due to empty-response issue) completed successfully via real API calls. The jury-logs/ directory contains real scoring data.
 
 ### Branch switching / file deletion
 Multiple parallel agents operating on different member branches caused repeated file deletions when branches were switched. Mitigation: all output was written to /tmp/alessandro-pedori-output/ first and copied atomically to the final location only after all files were complete. This pattern should be adopted as standard for all future parallel runs.
