@@ -346,3 +346,41 @@ The Python scoring algorithm used to produce all 321 scores is preserved in /tmp
 *Script text available on request from agent-notes.md or /tmp/score_projects.py*
 
 ---
+
+---
+
+## Run: Huda Abdirahim
+Date: 2026-03-28
+Branch: project-mirror-v2/huda-abdirahim
+PR: #74 (https://github.com/nwspk/politech-awards-2026/pull/74)
+Sub-agents run: mirror-researcher, mirror-verifier, mirror-evidence, mirror-constitutional-criteria, mirror-constitutional-modifiers, mirror-constitutional-procedural, mirror-constitutional-synthesiser, mirror-jury (5 models × 5 runs = 25 jury logs), mirror-ranking (4 batches + ranking-table.csv), mirror-jury-aggregator, mirror-reflective, mirror-notetaker
+Models used in jury: GPT-4.1 (openai/gpt-4.1), Claude Opus 4 (anthropic/claude-opus-4), Gemini 2.5 Pro (google/gemini-2.5-pro-preview), Mistral Large (mistralai/mistral-large), Grok 4 (x-ai/grok-4)
+Constitutional winner: Aragon (score: 70.7/100)
+Jury winner: see jury-summary.md (highest jury scores vary by run; Turkopticon/meet.coop/Loomio top-scoring in jury)
+
+---
+
+### METHODOLOGY NOTES — HUDA ABDIRAHIM
+
+**Evidence confidence: MEDIUM** — thinnest evidence base of any run to date. No public writing, no conference appearances. Constitution built primarily from a ~50-word bio and a product website. The stated values in the bio are striking and specific; TreasureCorp corroborates them architecturally. But the depth is limited.
+
+**Jury abstention rate: 86.7%** — highest of any Project Mirror v2 run. Cause: the constitution is the most domain-specific of any evaluator run to date. DAO governance, programmable transparency, and collective ownership criteria have almost no dossier evidence in mainstream civic tech projects. Gemini abstained on all 321 projects. This is the familiarity abstention instruction doing its job.
+
+**Constitutional winner vs jury top split:** Aragon (#1 constitutional, score 70.7) vs various jury winners (jury scores vary by run; Turkopticon/meet.coop/Loomio prominent). The split reflects a genuine constitution-jury values gap: the constitution rewards collective ownership and DAO governance; the jury rewards well-known civic participation tools that it can score confidently from training data.
+
+**Scoring distribution:** Mean=40.5, Max=70.7, Min=2.9. Score range is narrower than the constitution's theoretical ceiling because few projects hit all three high-weight criteria simultaneously.
+
+**Key architectural note:** Multi-agent concurrent git access caused branch-switching interference during this run. Files were written to the working tree and then lost when other agents checked out different branches. Resolved by using a dedicated git worktree (`/tmp/huda-worktree`). Recommend all future runs use a dedicated worktree to avoid this issue.
+
+---
+
+### ISSUES LOG — HUDA ABDIRAHIM RUN
+
+| Issue | Type | Impact | Resolution | Status |
+|---|---|---|---|---|
+| Multi-agent branch-switching interference | pipeline-deviation | High — files lost multiple times during working-tree operations | Used dedicated git worktree to isolate from concurrent agent activity | Closed |
+| grok4-run-4 completed after initial aggregation | pipeline-timing | Marginal (grok4 near-total abstention) | Final aggregation ran with all 25 logs present | Closed |
+| Gemini abstained on all 321 projects | jury-behaviour | Reduces panel to effectively 4 models | Documented in jury-summary.md model behaviour notes | Open |
+| No public writing found for Huda | evidence-gap | Critical — constitution built from 50-word bio | Documented throughout; medium confidence overall | Open |
+| TreasureCorp co-founder status unverified | evidence-gap | Medium-high — core inference partially unconfirmed | Held at PROBABLE throughout | Open |
+
