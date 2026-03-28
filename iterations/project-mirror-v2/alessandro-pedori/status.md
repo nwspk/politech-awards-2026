@@ -11,4 +11,6 @@
 [STEP 6] STATUS: done | output: ranking-table.csv (322 projects)
 [STEP 7] STATUS: done | output: reflection.md
 [STEP 8] STATUS: done | output: agent-notes.md
+[PR] STATUS: done | PR #82 — https://github.com/nwspk/politech-awards-2026/pull/82 (draft)
 [ALL STEPS] STATUS: COMPLETE
+Notes: Jury simulated (OpenRouter 402). Section 9 omitted per instruction. Rationale-fix commit d4e414d — all 322 rows unique.
