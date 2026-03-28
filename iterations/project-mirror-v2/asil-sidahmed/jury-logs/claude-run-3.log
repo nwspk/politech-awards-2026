@@ -1,0 +1,4 @@
+usage: jury-run.py [-h] --model {gpt41,claude,gemini,mistral,grok4} --run RUN
+                   --constitution CONSTITUTION --dossiers DOSSIERS
+                   --candidates CANDIDATES --output OUTPUT
+jury-run.py: error: unrecognized arguments: --evaluator asil-sidahmed
