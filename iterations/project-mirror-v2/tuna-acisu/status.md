@@ -21,3 +21,5 @@
 [STEP 7] STATUS: done | output: reflection.md
 [STEP 8] STATUS: done | output: agent-notes.md
 [STEP PR] STATUS: done | PR #79 https://github.com/nwspk/politech-awards-2026/pull/79 (draft)
+[FIX] Rationale rewrite: 321/321 unique rationales confirmed, zero banned template phrases
+[NOTE] Gemini 2.5 Pro failed (402 insufficient credits) — jury aggregation uses 4 models × 5 runs = 20 runs
