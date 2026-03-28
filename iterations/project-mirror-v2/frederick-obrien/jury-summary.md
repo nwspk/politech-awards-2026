@@ -2,60 +2,62 @@
 
 ## Panel Coverage
 
-**Limitation: OpenRouter API credits exhausted during jury execution.** Only partial data available.
-
-| Model | Runs attempted | Projects scored (run-1 only) | Runs 2-5 |
+| Model | Runs | Projects scored | Notes |
 |---|---|---|---|
-| GPT-4.1 | 5 | 45/321 (14%) | All failed (402 insufficient credits) |
-| Mistral Large | 4 | 35/321 (11%) | All failed (402) |
-| Claude Opus 4 | 5 | 20/321 (6%) | All failed (402) |
-| Grok 4 | 4 | 2/321 (<1%) | All failed (402) |
-| Gemini 2.5 Pro | 5 | 0/321 (0%) | All failed (402) |
+| GPT-4.1 | 2 | 321 + 161 = 482 | Run-1 complete (321/321); run-2 partial (161/321, 403 key limit) |
+| Claude Opus 4 | 1 | 297 | Run-1 near-complete (297/321, 24 abstentions) |
+| Mistral Large | 1 | 315 | Run-1 near-complete (315/321, 6 abstentions) |
+| Grok 4 | 0 | 0 | All attempts killed by system resource contention |
+| Gemini 2.5 Pro | — | — | Skipped (model returns empty responses via OpenRouter) |
 
-**Total real jury scores:** 102 out of 8,025 possible (1.3% coverage)
-**Unique projects with ≥1 score:** ~70
+**Total real jury scores:** 1,094 out of 6,420 possible (4 models × 5 runs × 321 = 6,420) — 17% coverage
+**Unique projects with ≥1 score:** 321 (100%)
+**Projects with ≥2 scores:** 321 (100%)
+**Projects with ≥3 scores:** 294 (92%)
 
 ## What Happened
 
-Each model's run-1 began making real OpenRouter API calls. Credits ran out partway through, causing the remaining calls to return HTTP 402 errors. The jury-run.py script records 402 failures as abstentions with reason "API error: Error code: 402". Runs 2-5 for all models began after credits were fully exhausted, producing zero real scores.
+Credits were replenished after initial 402 exhaustion. A resumable jury runner was deployed to handle frequent process kills (system resource contention from 19 concurrent mirror agents). GPT-4.1 run-1 completed fully, Claude and Mistral run-1 completed with minor abstentions. GPT-4.1 run-2 scored 161 projects before hitting a 403 key-level spending limit. Grok 4 processes were repeatedly killed before scoring any projects. Further runs blocked by 403 key limit across all models.
 
-## Available Jury Scores (run-1 only)
+## Model Statistics
 
-### GPT-4.1 (45 projects scored)
+| Model-Run | Scored | Mean | Median | Stdev |
+|---|---|---|---|---|
+| GPT-4.1 run-1 | 321 | 54.7 | 54 | 20.4 |
+| GPT-4.1 run-2 | 161 | 55.6 | 54 | 19.9 |
+| Claude Opus 4 run-1 | 297 | 51.2 | 45 | 21.2 |
+| Mistral Large run-1 | 315 | 54.6 | 55 | 16.1 |
 
-Top-scored projects by GPT-4.1:
-- Scores range from those 45 projects that were processed before credit exhaustion
-- These represent the first ~45 projects in candidate list order, not a curated selection
+Cross-model means are closely aligned (51–56), suggesting constitutional criteria are driving scores rather than model-specific bias. Claude scores slightly lower with higher variance, consistent with its proceduralist framing producing more differentiated judgments.
 
-### Mistral Large (35 projects scored)
+## Top 15 Projects by Jury Mean
 
-- 35 projects scored before credit exhaustion
-- Mistral brought a European civic-rights, open-source, privacy-preserving framing
-
-### Claude Opus 4 (20 projects scored)
-
-- 20 projects scored before credit exhaustion
-- Claude brought a proceduralist, centrist framing
-
-### Grok 4 (2 projects scored)
-
-- Only 2 projects scored — credits exhausted almost immediately
-- Insufficient data for any conclusions
-
-### Gemini 2.5 Pro (0 projects scored)
-
-- Zero projects scored — all calls returned 402
-- No jury data available from this model
+| Rank | Project | Mean | N |
+|---|---|---|---|
+| 1 | torproject.org | 93.5 | 2 |
+| 2 | guardianproject.info | 90.0 | 4 |
+| 3 | secfirst.org | 88.7 | 3 |
+| 4 | antievictionmappingproject (landlordtech) | 88.0 | 4 |
+| 5 | littlesis.org | 87.0 | 4 |
+| 6 | turkopticon.ucsd.edu | 86.7 | 3 |
+| 7 | bonfirenetworks.org | 86.0 | 4 |
+| 8 | securedrop.org | 86.0 | 3 |
+| 9 | globaleaks.org | 86.0 | 3 |
+| 10 | privacybadger.org | 85.0 | 3 |
+| 11 | alaveteli.org | 84.2 | 4 |
+| 12 | riseup.net | 83.3 | 3 |
+| 13 | consent-o-matic | 83.2 | 4 |
+| 14 | annas-archive.pm | 83.0 | 4 |
+| 15 | humbledata.org | 83.0 | 4 |
 
 ## Interpretation Guidance
 
-Given the severe data limitations:
-
-1. **The constitutional ranking (ranking-table.csv) is the authoritative output** — it scores all 321 projects using Frederick's evaluative constitution via keyword-based criteria extraction against dossier text
-2. **Jury scores are anecdotal only** — 102 scores across ~70 projects from 3 working models cannot provide statistically meaningful cross-validation
-3. **Run-to-run variance cannot be assessed** — only run-1 has any data, so jury consistency is unknown
-4. **Cross-model comparison is unreliable** — different models scored different subsets (the first N projects in candidate order), making model agreement analysis impossible
+1. **All 321 projects have jury coverage** — every project received at least 2 independent scores from different models
+2. **The constitutional ranking (ranking-table.csv) remains the primary output** — it scores all 321 projects deterministically using Frederick's constitution
+3. **Run-to-run variance partially assessed** — GPT-4.1 has 2 runs showing consistent means (54.7 vs 55.6), suggesting reasonable stability
+4. **Grok 4 gap** — the disruption-sceptic framing is unrepresented; this may undercount anti-establishment projects that Grok would have scored higher
+5. **Top jury projects align with constitutional expectations** — privacy tools (Tor, Guardian Project, SecureDrop), anti-extraction platforms (Bonfire, LittleSis), and practitioner-serving tools (Alaveteli, Turkopticon) dominate
 
 ## Raw Data
 
-All 23 jury log files are preserved in `jury-logs/`. Failed runs contain full 321-project arrays where each entry records the 402 error as the abstain reason. This provides transparency about what was attempted vs what succeeded.
+4 jury log files preserved in `jury-logs/`. Each contains per-project scores, rationales, confidence levels, and abstention reasons.
