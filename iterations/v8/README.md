@@ -2,8 +2,9 @@
 title: "ITN/A Grok re-run with awards bonuses + effective-score alignment"
 author: "@Gamithra"
 date: "2026-03-27"
-pr_url: ""
+pr_url: "https://github.com/nwspk/politech-awards-2026/pull/41"
 version: v8
+pr_number: 41
 pr_status: "open"
 top_project:
   name: "blog.kagi.com/slopstop"
