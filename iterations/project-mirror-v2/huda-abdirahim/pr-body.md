@@ -154,350 +154,421 @@ The constitution cannot see the value of democratic legitimacy built through mas
 
 ## 9. Jury run
 
-The jury consists of five language models, each running five independent evaluations (25 runs total). Models are selected to represent different evaluative tendencies documented in published research on LLM political alignment. Median aggregation is used rather than mean — this reduces the influence of Grok 4's bimodal scoring behaviour, which is documented as susceptible to live system prompt manipulation by xAI. Each model is given the full evaluative constitution and a familiarity abstention instruction: if the dossier doesn't support the specific constitutional criteria, abstain rather than scoring from training data familiarity.
+The jury consists of four language models (Gemini excluded — see below), each running five
+independent evaluations (20 runs total). Median aggregation is used to reduce outlier influence.
+Each model receives the full evaluative constitution and a familiarity abstention instruction:
+abstain if dossier evidence is insufficient to assess the specific criteria.
 
-**Note on abstention rates:** For this run, the panel abstained on 86.7% of all project-run combinations. This is high — and interpretable. Huda's constitution is narrowly domain-specific: treasury transparency, collective ownership, and programmable governance criteria do not match the evidence in most civic tech dossiers. The abstention instruction is working as intended.
+**Panel change:** gpt41-run-5 was identified as simulated in the prior aggregation. It has been
+replaced with a fresh real API call via OpenRouter (293 scored, 28 abstained). Gemini (google/gemini-2.5-pro-preview)
+abstained on all 321 projects across all 5 runs — its institutionalist framing is structurally
+incompatible with a constitution centred on DAO/collective ownership. Gemini is excluded from
+this aggregation. Effective panel: 4 models × 5 runs = 20 jury logs.
+
+**Abstention rate (4-model panel):** 55.5% (3560/6415 project-run combinations)
+**Projects with any jury score:** 302/321
+**Projects where all 4 models abstained:** 19/321
 
 **Panel:**
 
-| # | Model | Role | Political tendency | Key bias to watch |
-|---|---|---|---|---|
-| 1 | GPT-4.1 (OpenAI) | Progressive anchor | Measurably left-progressive; rewards participatory/justice civic tech | Self-scoring bias; recused from OpenAI-adjacent projects (none found here) |
-| 2 | Claude Opus 4 (Anthropic) | Centrist proceduralist | Rights-based UN UDHR framing; evaluates process quality over ideology | Tends to mid-range scores; high abstention rate |
-| 3 | Gemini 2.5 Pro (Google) | Institutionalist / Western-mainstream | Aligns with established democratic norms; perceived most neutral | Near-total abstention on this run (0/321 scored) — see model notes |
-| 4 | Mistral Large (Mistral AI) | European civic-rights / open-source | GDPR-aware, data-sovereignty conscious | Most sympathetic to open-source tools |
-| 5 | Grok 4 (xAI) | Disruption-sceptic / right-adjacent outlier | Only model with documented right-adjacent tendencies | Bimodal scoring; documented xAI system prompt manipulation — treat outliers with care |
+| # | Model | Role | Political tendency | Avg scored | Key bias to watch |
+|---|---|---|---|---|---|
+| 1 | GPT-4.1 (OpenAI) | Progressive anchor | Left-progressive; rewards participatory/justice civic tech | 293/321 (91%) | — |
+| 2 | Claude Opus 4 (Anthropic) | Centrist proceduralist | Rights-based UN UDHR framing; evaluates process quality over ideology | 71/321 (22%) | — |
+| 3 | Mistral Large (Mistral AI) | European civic-rights / open-source | GDPR-aware, data-sovereignty conscious | 200/321 (62%) | — |
+| 4 | Grok 4 (xAI) | Disruption-sceptic / right-adjacent outlier | Bimodal scoring; documented xAI system prompt manipulation | 7/321 (2%) | — |
+| — | Gemini 2.5 Pro (Google) | Institutionalist | Western-mainstream institutionalist | **EXCLUDED** (0/321) | Near-total abstention — institutionalist framing incompatible with DAO/collective ownership constitution |
 
-> **JuryConstGap** is the difference between a project's jury rank and its constitutional rank. A positive gap means the jury ranked it higher — potential familiarity inflation flag. A negative gap means the jury ranked it lower — the constitution may be over-valuing it relative to dossier evidence. Projects with a gap > 20 ranks are flagged. Note: for projects where all jury models abstained, the "jury rank" defaults to unranked (position 321+), creating very large apparent negative gaps that reflect abstention rather than disagreement.
+> **JuryConstGap** is the difference between a project's jury rank and its constitutional rank.
+> Positive gap = jury ranked higher (potential familiarity inflation). Negative gap = jury ranked lower.
+> Gaps > 20 ranks are flagged. Large apparent negative gaps for N/A-scored projects reflect abstention,
+> not genuine disagreement.
 
-> **Pop Risk** (popularity risk) flags well-known, well-documented projects where the score may reflect documentation advantage rather than constitutional fit. HIGH Pop Risk = treat score with scepticism; strip 8–12 points for a conservative estimate.
+> **Pop Risk** flags well-known projects where scores may reflect documentation advantage.
+
+**Top 25 jury-scored projects (4-model panel):**
+
+| Jury Rank | Project | Jury Score | Const Score | Const-Jury Gap | Pop Risk |
+|---|---|---|---|---|---|
+| 1 | Decidim | 92.0 | 57.8 | -21 ⚑ | HIGH |
+| 2 | CONSUL Democracy | 88.0 | 56.9 | -21 ⚑ | MEDIUM |
+| 3 | Open Contracting Partnership | 87.0 | 52.0 | -48 ⚑ | HIGH |
+| 4 | vTaiwan | 87.0 | 50.0 | -64 ⚑ | MEDIUM |
+| 5 | Open Collective | 85.0 | 60.9 | -11 | MEDIUM |
+| 6 | Open Council Network | 85.0 | 55.9 | -24 ⚑ | LOW |
+| 7 | Parti | 85.0 | 52.0 | -42 ⚑ | MEDIUM |
+| 8 | Turkopticon | 84.5 | 51.1 | -47 ⚑ | MEDIUM |
+| 9 | meet.coop | 84.5 | 43.0 | -120 ⚑ | LOW |
+| 10 | LittleSis | 84.0 | 55.0 | -22 ⚑ | MEDIUM |
+| 11 | CoTech | 84.0 | 50.0 | -55 ⚑ | MEDIUM |
+| 12 | Riseup | 83.0 | 32.4 | -231 ⚑ | MEDIUM |
+| 13 | LiquidFeedback | 82.5 | 65.8 | +8 | MEDIUM |
+| 14 | OpenProcurement | 82.5 | 50.0 | -56 ⚑ | MEDIUM |
+| 15 | Bonfire | 82.0 | 65.8 | +11 | LOW |
+| 16 | mySociety Datasets and APIs | 82.0 | 62.7 | +3 | HIGH |
+| 17 | Relational Tech Project | 82.0 | 43.1 | -109 ⚑ | NONE |
+| 18 | Polis | 81.0 | 64.7 | +9 | HIGH |
+| 19 | Loomio | 80.5 | 62.7 | +5 | MEDIUM |
+| 20 | Rahvaalgatus | 80.5 | 52.0 | -28 ⚑ | MEDIUM |
+| 21 | Mastodon | 80.0 | 52.1 | -25 ⚑ | HIGH |
+| 22 | Ushahidi | 80.0 | 52.0 | -30 ⚑ | MEDIUM |
+| 23 | HURIDOCS | 79.0 | 56.9 | -1 | MEDIUM |
+| 24 | TheyWorkForYou | 79.0 | 47.1 | -68 ⚑ | HIGH |
+| 25 | GlobaLeaks | 79.0 | 37.3 | -176 ⚑ | MEDIUM |
 
 **Full jury vote table — all 321 projects:**
 
-| Jury Rank | Project | Jury Score | Const Score | JuryConstGap | Pop Risk | Note |
-|---|---|---|---|---|---|---|
-| N/A | Decidim | N/A | 57.8 | -300 ⚑ | HIGH | Pop risk |
-| N/A | Cobudget | N/A | 64.7 | -314 ⚑ | HIGH | Pop risk |
-| N/A | Open Council Network | N/A | 55.9 | -292 ⚑ | LOW |  |
-| N/A | adhocracy+ | N/A | 53.9 | -287 ⚑ | LOW |  |
-| N/A | Ethelo | N/A | 67.9 | -319 ⚑ | MEDIUM |  |
-| N/A | Citizen OS | N/A | 55.9 | -294 ⚑ | MEDIUM |  |
-| N/A | Bonfire | N/A | 65.8 | -318 ⚑ | LOW |  |
-| N/A | CharmVerse | N/A | 58.9 | -303 ⚑ | LOW |  |
-| N/A | CommunityRule | N/A | 52.9 | -280 ⚑ | MEDIUM |  |
-| N/A | CONSUL Democracy | N/A | 56.9 | -299 ⚑ | MEDIUM |  |
-| N/A | Alaveteli | N/A | 55.9 | -295 ⚑ | HIGH | Pop risk |
-| 8 | Loomio | 86.0 | 62.7 | -6 | MEDIUM |  |
-| 25 | Your Priorities | 77.0 | 54.9 | -8 | MEDIUM |  |
-| N/A | CiviCRM | N/A | 53.9 | -286 ⚑ | HIGH | Pop risk |
-| N/A | mySociety Datasets and APIs | N/A | 62.7 | -309 ⚑ | HIGH | Pop risk |
-| N/A | Populate Tools | N/A | 64.7 | -312 ⚑ | MEDIUM |  |
-| N/A | CoTech | N/A | 50.0 | -256 ⚑ | MEDIUM |  |
-| N/A | Aragon | N/A | 70.7 | -321 ⚑ | LOW |  |
-| N/A | Open Collective | N/A | 60.9 | -306 ⚑ | MEDIUM |  |
-| 6 | Ushahidi | 87.0 | 52.0 | -46 ⚑ | MEDIUM |  |
-| N/A | Stanford Participatory Budgeting Platform | N/A | 51.0 | -262 ⚑ | MEDIUM |  |
-| 42 | Open Standards for Data Guidebook | 65.0 | 64.7 | +31 ⚑ | LOW |  |
-| 26 | PolicyEngine | 74.0 | 49.0 | -53 ⚑ | LOW |  |
-| 80 | OpenSanctions | 52.0 | 52.9 | +35 ⚑ | LOW |  |
-| 123 | Agencies for Good | 35.0 | 49.0 | +42 ⚑ | LOW |  |
-| 28 | Tech Coops List | 74.0 | 65.8 | +22 ⚑ | MEDIUM |  |
-| N/A | The DAO (Standard DAO Framework) | N/A | 68.0 | -320 ⚑ | MEDIUM |  |
-| N/A | Interoperable Deliberative Tools | N/A | 58.8 | -301 ⚑ | LOW |  |
-| N/A | Open Heart Mind (OHM) | N/A | 65.7 | -315 ⚑ | LOW |  |
-| 12 | Open Contracting Partnership | 85.0 | 52.0 | -39 ⚑ | HIGH | Pop risk |
-| 11 | Humanitarian OpenStreetMap Team (HOT) | 85.0 | 52.0 | -39 ⚑ | HIGH | Pop risk |
-| N/A | Fundación Ciudadanía Inteligente | N/A | 50.0 | -257 ⚑ | MEDIUM |  |
-| N/A | CKAN | N/A | 44.1 | -212 ⚑ | HIGH | Pop risk |
-| N/A | Activist Handbook | N/A | 49.0 | -247 ⚑ | LOW |  |
-| N/A | Tactical Data Engagement | N/A | 51.1 | -268 ⚑ | MEDIUM |  |
-| 54 | WhatGov | 62.0 | 39.2 | -121 ⚑ | MEDIUM |  |
-| 7 | Snowdrift.coop | 86.0 | 54.0 | -27 ⚑ | MEDIUM |  |
-| N/A | Open Data Editor (ODE) | N/A | 44.1 | -208 ⚑ | LOW |  |
-| N/A | LiquidFeedback | N/A | 65.8 | -317 ⚑ | MEDIUM |  |
-| N/A | Fairbnb.coop | N/A | 53.9 | -285 ⚑ | LOW |  |
-| N/A | All Our Ideas | N/A | 50.0 | -258 ⚑ | MEDIUM |  |
-| N/A | Mastodon | N/A | 52.1 | -276 ⚑ | HIGH | Pop risk |
-| 89 | Discourse | 48.0 | 46.0 | -12 | MEDIUM |  |
-| N/A | Diia | N/A | 37.3 | -135 ⚑ | LOW |  |
-| 27 | PolicyKit | 74.0 | 45.0 | -81 ⚑ | LOW |  |
-| 9 | TheyWorkForYou | 86.0 | 47.1 | -83 ⚑ | HIGH | Pop risk |
-| N/A | RxC Voice | N/A | 58.9 | -302 ⚑ | LOW |  |
-| N/A | Rahvaalgatus | N/A | 52.0 | -274 ⚑ | MEDIUM |  |
-| 3 | Parti | 89.0 | 52.0 | -46 ⚑ | MEDIUM |  |
-| 20 | The Government Says | 80.0 | 41.2 | -133 ⚑ | MEDIUM |  |
-| 18 | Principles for Public Participation in Procurement of AI | 80.0 | 50.0 | -53 ⚑ | LOW |  |
-| N/A | PlaceCal | N/A | 52.9 | -279 ⚑ | MEDIUM |  |
-| N/A | ODK (Open Data Kit) | N/A | 48.0 | -238 ⚑ | MEDIUM |  |
-| 90 | Mastodon C | 48.0 | 46.1 | -9 | HIGH | Pop risk |
-| 30 | GovTrack.us | 73.0 | 50.0 | -43 ⚑ | MEDIUM |  |
-| 46 | FixMyStreet | 63.0 | 47.1 | -45 ⚑ | HIGH | Pop risk |
-| 88 | deliberAIde | 48.0 | 38.2 | -96 ⚑ | LOW |  |
-| 58 | Parallel Parliament | 60.0 | 38.2 | -127 ⚑ | MEDIUM |  |
-| N/A | Open Council Data UK | N/A | 42.2 | -186 ⚑ | MEDIUM |  |
-| N/A | ClimateAction.Tech | N/A | 55.1 | -291 ⚑ | LOW |  |
-| N/A | Participa (Podemos) | N/A | 51.0 | -263 ⚑ | MEDIUM |  |
-| N/A | Open Digital Planning | N/A | 51.0 | -260 ⚑ | LOW |  |
-| 65 | Go Vocal | 57.0 | 31.3 | -188 ⚑ | MEDIUM |  |
-| N/A | Constitute Project | N/A | 51.0 | -265 ⚑ | MEDIUM |  |
-| N/A | Agreement Engine | N/A | 35.3 | -106 ⚑ | NONE |  |
-| 2 | meet.coop | 90.0 | 43.0 | -127 ⚑ | LOW |  |
-| 47 | Parliament Watch Uganda | 62.0 | 41.2 | -104 ⚑ | MEDIUM |  |
-| 40 | OpenCRVS | 66.0 | 42.2 | -100 ⚑ | LOW |  |
-| N/A | OpenBudgets.eu | N/A | 40.2 | -153 ⚑ | MEDIUM |  |
-| N/A | Humble Data Workshop | N/A | 43.2 | -202 ⚑ | LOW |  |
-| 1 | Turkopticon | 96.0 | 51.1 | -54 ⚑ | MEDIUM |  |
-| 15 | Tracka | 83.0 | 43.1 | -112 ⚑ | MEDIUM |  |
-| 34 | ShineYourEye | 72.0 | 41.2 | -124 ⚑ | LOW |  |
-| N/A | Polis | N/A | 64.7 | -313 ⚑ | HIGH | Pop risk |
-| 10 | Open Supply Hub | 85.0 | 53.9 | -28 ⚑ | MEDIUM |  |
-| 23 | Open Ownership | 78.0 | 46.1 | -77 ⚑ | MEDIUM |  |
-| N/A | NumFOCUS | N/A | 55.9 | -293 ⚑ | MEDIUM |  |
-| N/A | Modular Politics | N/A | 46.1 | -227 ⚑ | HIGH | Pop risk |
-| N/A | MapIt | N/A | 44.1 | -209 ⚑ | HIGH | Pop risk |
-| N/A | Creative Commons | N/A | 52.0 | -275 ⚑ | HIGH | Pop risk |
-| N/A | Aleph (OCCRP) | N/A | 43.1 | -200 ⚑ | HIGH | Pop risk |
-| N/A | DAO Governance Surfaces | N/A | 51.2 | -269 ⚑ | LOW |  |
-| 101 | oTree | 43.0 | 41.2 | -56 ⚑ | MEDIUM |  |
-| N/A | vTaiwan | N/A | 50.0 | -254 ⚑ | MEDIUM |  |
-| 55 | WriteToThem | 62.0 | 44.1 | -63 ⚑ | MEDIUM |  |
-| 82 | Wikum | 50.0 | 47.1 | -8 | LOW |  |
-| 37 | Pursuance Project | 68.0 | 53.9 | -2 | MEDIUM |  |
-| 45 | PlanIT | 64.0 | 45.0 | -62 ⚑ | MEDIUM |  |
-| 32 | Parse The Bill | 72.0 | 37.3 | -161 ⚑ | LOW |  |
-| N/A | Open Referral UK | N/A | 43.1 | -198 ⚑ | MEDIUM |  |
-| N/A | Land Explorer | N/A | 48.0 | -236 ⚑ | LOW |  |
-| N/A | Kialo | N/A | 49.0 | -246 ⚑ | MEDIUM |  |
-| N/A | Granitt | N/A | 34.3 | -101 ⚑ | LOW |  |
-| N/A | Find local consultations | N/A | 36.3 | -116 ⚑ | MEDIUM |  |
-| N/A | Civic Tech Field Guide | N/A | 43.1 | -199 ⚑ | MEDIUM |  |
-| N/A | postcodes.io | N/A | 46.1 | -226 ⚑ | MEDIUM |  |
-| N/A | dDocs | N/A | 59.9 | -305 ⚑ | NONE |  |
-| N/A | arXiv | N/A | 40.2 | -160 ⚑ | HIGH | Pop risk |
-| 36 | WhatDoTheyKnow | 70.0 | 34.3 | -192 ⚑ | MEDIUM |  |
-| 61 | UrbanistAI | 58.0 | 37.2 | -143 ⚑ | LOW |  |
-| 5 | Strike Map | 87.0 | 42.2 | -132 ⚑ | LOW |  |
-| 69 | Open Science Framework | 54.0 | 43.1 | -56 ⚑ | MEDIUM |  |
-| N/A | One Project | N/A | 51.0 | -261 ⚑ | LOW |  |
-| N/A | Members' Interests | N/A | 42.2 | -187 ⚑ | MEDIUM |  |
-| N/A | Coral | N/A | 41.2 | -179 ⚑ | MEDIUM |  |
-| N/A | Channel.org | N/A | 40.2 | -159 ⚑ | LOW |  |
-| 29 | ОПОРА (Opora) | 74.0 | 53.0 | -12 | MEDIUM |  |
-| 24 | Organise | 78.0 | 49.0 | -59 ⚑ | MEDIUM |  |
-| N/A | Nym | N/A | 56.0 | -296 ⚑ | LOW |  |
-| N/A | Journal of Open Source Software | N/A | 40.2 | -156 ⚑ | MEDIUM |  |
-| 109 | Empurrando Juntas (EJ) | 38.0 | 37.3 | -87 ⚑ | LOW |  |
-| 56 | CrowdJustice | 61.0 | 43.0 | -72 ⚑ | MEDIUM |  |
-| N/A | Contracts for Data Collaboration | N/A | 40.2 | -158 ⚑ | LOW |  |
-| 17 | Campaign Tracker | 81.0 | 46.1 | -81 ⚑ | MEDIUM |  |
-| 21 | sourceAFRICA | 78.0 | 45.1 | -83 ⚑ | MEDIUM |  |
-| 14 | Talk to the City | 83.0 | 53.9 | -26 ⚑ | LOW |  |
-| N/A | Sugartrail | N/A | 41.2 | -175 ⚑ | LOW |  |
-| 66 | Security First / Umbrella | 56.0 | 37.3 | -129 ⚑ | MEDIUM |  |
-| 59 | RxC Quadratic Voting | 58.0 | 48.0 | -29 ⚑ | HIGH | Pop risk |
-| 35 | Participedia | 70.0 | 50.0 | -37 ⚑ | MEDIUM |  |
-| N/A | Open Letter | N/A | 37.3 | -130 ⚑ | MEDIUM |  |
-| N/A | Open Data Communities | N/A | 44.1 | -207 ⚑ | MEDIUM |  |
-| N/A | Objector.ai | N/A | 34.3 | -95 ⚑ | LOW |  |
-| 64 | Objector.ai | 58.0 | 34.3 | -163 ⚑ | LOW |  |
-| N/A | Matrix | N/A | 60.9 | -307 ⚑ | MEDIUM |  |
-| N/A | Manifold Markets | N/A | 49.0 | -245 ⚑ | LOW |  |
-| N/A | Harmonica | N/A | 41.2 | -173 ⚑ | LOW |  |
-| N/A | Cybersecurity for Democracy | N/A | 51.0 | -264 ⚑ | LOW |  |
-| N/A | Cortico | N/A | 41.2 | -178 ⚑ | LOW |  |
-| N/A | Collaborative Data Patterns | N/A | 42.2 | -190 ⚑ | LOW |  |
-| N/A | Bluesky Social | N/A | 49.1 | -248 ⚑ | HIGH | Pop risk |
-| N/A | New_ Public Roundabout | N/A | 49.0 | -244 ⚑ | LOW |  |
-| N/A | Framework for Meaningful Engagement 2.0 | N/A | 47.3 | -233 ⚑ | LOW |  |
-| N/A | Entitledto | N/A | 30.4 | -68 ⚑ | MEDIUM |  |
-| N/A | docs.plus | N/A | 44.1 | -211 ⚑ | LOW |  |
-| 112 | Viewpoints | 38.0 | 34.2 | -118 ⚑ | LOW |  |
-| 92 | Teaching Public Service in the Digital Age | 48.0 | 37.3 | -110 ⚑ | LOW |  |
-| 50 | Shareyourpaper.org | 62.0 | 41.2 | -102 ⚑ | LOW |  |
-| N/A | Murmurations Protocol | N/A | 62.8 | -310 ⚑ | LOW |  |
-| N/A | Logos | N/A | 59.0 | -304 ⚑ | LOW |  |
-| N/A | GrantNav | N/A | 41.2 | -174 ⚑ | MEDIUM |  |
-| N/A | Mozilla Data Collective | N/A | 56.1 | -297 ⚑ | LOW |  |
-| 87 | WardWatch | 48.0 | 37.3 | -113 ⚑ | LOW |  |
-| 103 | ORCID | 38.0 | 36.3 | -106 ⚑ | MEDIUM |  |
-| 53 | Neighbourhood Warmth | 62.0 | 42.2 | -86 ⚑ | HIGH | Pop risk |
-| N/A | Guardian Project | N/A | 46.1 | -225 ⚑ | MEDIUM |  |
-| N/A | Groupthink (OpenPolitics Votebot) | N/A | 48.0 | -237 ⚑ | MEDIUM |  |
-| 100 | GOV.UK Forms | 44.0 | 33.3 | -135 ⚑ | LOW |  |
-| N/A | CivicPress | N/A | 42.2 | -191 ⚑ | LOW |  |
-| N/A | Abstract Wikipedia | N/A | 45.0 | -216 ⚑ | HIGH | Pop risk |
-| N/A | Turn2us Benefits Calculator | N/A | 26.5 | -37 ⚑ | MEDIUM |  |
-| 16 | The Circuit | 82.0 | 31.4 | -236 ⚑ | LOW |  |
-| N/A | Political Advertising Transparency Data Standard | N/A | 52.9 | -278 ⚑ | LOW |  |
-| N/A | Pastecal | N/A | 34.3 | -103 ⚑ | LOW |  |
-| N/A | Nestr | N/A | 45.3 | -220 ⚑ | LOW |  |
-| N/A | Metaculus | N/A | 41.1 | -162 ⚑ | MEDIUM |  |
-| N/A | Libertrium | N/A | 37.3 | -131 ⚑ | MEDIUM |  |
-| N/A | Bellingcat Online Investigation Toolkit | N/A | 41.2 | -180 ⚑ | HIGH | Pop risk |
-| N/A | Awesome UK Government Datasets | N/A | 50.1 | -259 ⚑ | LOW |  |
-| N/A | Global Fact-Check Bot (GFC) | N/A | 33.3 | -88 ⚑ | LOW |  |
-| N/A | openparliament.ca | N/A | 48.0 | -235 ⚑ | MEDIUM |  |
-| 73 | Vote for Policies | 54.0 | 40.2 | -98 ⚑ | MEDIUM |  |
-| 52 | VFRAME | 62.0 | 37.3 | -147 ⚑ | MEDIUM |  |
-| 44 | Tor Project | 65.0 | 32.2 | -202 ⚑ | HIGH | Pop risk |
-| N/A | Schema.org | N/A | 38.2 | -140 ⚑ | NONE |  |
-| 19 | Relational Tech Project | 80.0 | 43.1 | -107 ⚑ | NONE |  |
-| 67 | Marks Out Of Tenancy | 56.0 | 36.3 | -145 ⚑ | LOW |  |
-| 121 | MP Twitter Bios | 37.0 | 41.2 | -35 ⚑ | LOW |  |
-| N/A | LittleSis | N/A | 55.0 | -290 ⚑ | MEDIUM |  |
-| 22 | Community Tech | 78.0 | 41.2 | -132 ⚑ | LOW |  |
-| 57 | Who Targets Me Trends | 60.0 | 34.3 | -169 ⚑ | LOW |  |
-| 51 | Spacetube | 62.0 | 43.2 | -70 ⚑ | LOW |  |
-| 49 | SecureDrop | 62.0 | 44.1 | -67 ⚑ | MEDIUM |  |
-| N/A | Open Access – Transparency International UK | N/A | 36.3 | -114 ⚑ | MEDIUM |  |
-| N/A | Monitor Mamdani | N/A | 36.3 | -115 ⚑ | LOW |  |
-| 43 | Local Intelligence Hub | 65.0 | 39.1 | -133 ⚑ | LOW |  |
-| N/A | HURIDOCS | N/A | 56.9 | -298 ⚑ | MEDIUM |  |
-| 33 | GlobaLeaks | 72.0 | 37.3 | -168 ⚑ | MEDIUM |  |
-| N/A | Give Food | N/A | 42.2 | -184 ⚑ | MEDIUM |  |
-| 72 | Gapminder Worldview Upgrader | 54.0 | 37.3 | -126 ⚑ | MEDIUM |  |
-| 48 | Public AI Inference Utility | 62.0 | 33.4 | -183 ⚑ | LOW |  |
-| 110 | soweego | 38.0 | 37.3 | -87 ⚑ | LOW |  |
-| 13 | Worker Info Exchange | 85.0 | 37.3 | -190 ⚑ | HIGH | Pop risk |
-| 31 | Wikidata | 73.0 | 41.2 | -128 ⚑ | MEDIUM |  |
-| 62 | Unpaywall Browser Extension | 58.0 | 38.2 | -121 ⚑ | LOW |  |
-| N/A | The Commons Social Change Library | N/A | 42.2 | -189 ⚑ | MEDIUM |  |
-| N/A | Moral Machine | N/A | 32.4 | -82 ⚑ | MEDIUM |  |
-| N/A | Mapped | N/A | 40.2 | -155 ⚑ | LOW |  |
-| 116 | GOV.UK Pay | 38.0 | 27.4 | -166 ⚑ | MEDIUM |  |
-| N/A | Democracy Club Developer API | N/A | 50.0 | -255 ⚑ | MEDIUM |  |
-| 99 | Deliberation & Technology (DelibTech) Network | 44.0 | 41.2 | -56 ⚑ | LOW |  |
-| N/A | DISARM Frameworks | N/A | 38.2 | -144 ⚑ | LOW |  |
-| N/A | CiviClick | N/A | 33.3 | -90 ⚑ | LOW |  |
-| N/A | Atlas of Surveillance | N/A | 25.2 | -30 ⚑ | LOW |  |
-| N/A | AlgorithmWatch | N/A | 47.0 | -229 ⚑ | LOW |  |
-| 127 | Prolific | 32.0 | 30.4 | -132 ⚑ | MEDIUM |  |
-| N/A | UK Policy Dojo | N/A | 41.2 | -176 ⚑ | LOW |  |
-| 91 | Shared Digital Guides | 48.0 | 26.5 | -197 ⚑ | LOW |  |
-| 97 | Plinth | 46.0 | 28.4 | -174 ⚑ | LOW |  |
-| N/A | OpenProcurement | N/A | 50.0 | -252 ⚑ | MEDIUM |  |
-| N/A | OpenAudience | N/A | 31.4 | -74 ⚑ | MEDIUM |  |
-| N/A | Idealist | N/A | 41.2 | -172 ⚑ | MEDIUM |  |
-| N/A | Humanitarian Data Exchange | N/A | 36.3 | -117 ⚑ | MEDIUM |  |
-| N/A | EDGAR | N/A | 44.1 | -210 ⚑ | HIGH | Pop risk |
-| N/A | Consent-O-Matic | N/A | 40.2 | -157 ⚑ | LOW |  |
-| N/A | Bluesky | N/A | 34.2 | -93 ⚑ | HIGH | Pop risk |
-| N/A | https://tracking-template-38b4c.web.app | N/A | 28.0 | 677 ⚑ | NONE |  |
-| N/A | youtube-dl | N/A | 34.3 | -102 ⚑ | MEDIUM |  |
-| N/A | django-collaborative | N/A | 39.2 | -149 ⚑ | MEDIUM |  |
-| N/A | UK Housing Data Standards | N/A | 50.0 | -253 ⚑ | LOW |  |
-| 86 | Turbo Phonebank | 48.0 | 36.3 | -124 ⚑ | LOW |  |
-| N/A | The Engine Room Library | N/A | 42.2 | -188 ⚑ | MEDIUM |  |
-| 70 | Spartacus | 54.0 | 44.1 | -47 ⚑ | LOW |  |
-| 119 | GOV.UK One Login | 38.0 | 32.4 | -126 ⚑ | LOW |  |
-| 96 | GOV.UK Notify | 46.0 | 30.4 | -162 ⚑ | MEDIUM |  |
-| N/A | Democracy Fund Open Source | N/A | 49.0 | -240 ⚑ | MEDIUM |  |
-| N/A | Community Notes (Birdwatch) Analysis Tool | N/A | 44.2 | -213 ⚑ | LOW |  |
-| N/A | Nyaaya | N/A | 30.4 | -66 ⚑ | MEDIUM |  |
-| 94 | Timecounts | 46.0 | 34.3 | -131 ⚑ | MEDIUM |  |
-| N/A | Theft Bisect | N/A | 38.2 | -142 ⚑ | LOW |  |
-| N/A | The Data Trusts Initiative | N/A | 35.3 | -107 ⚑ | LOW |  |
-| N/A | OA.Works | N/A | 40.2 | -154 ⚑ | MEDIUM |  |
-| N/A | OA.Report | N/A | 31.4 | -75 ⚑ | LOW |  |
-| 39 | Internet Archive Wayback Machine | 66.0 | 49.0 | -41 ⚑ | MEDIUM |  |
-| N/A | Frankenstein Bill | N/A | 38.2 | -143 ⚑ | LOW |  |
-| N/A | Fission Codes | N/A | 40.4 | -161 ⚑ | LOW |  |
-| N/A | Collab.Land | N/A | 28.6 | -57 ⚑ | LOW |  |
-| 76 | The Accountability Project | 52.0 | 32.4 | -165 ⚑ | LOW |  |
-| 4 | Riseup | 87.0 | 32.4 | -239 ⚑ | MEDIUM |  |
-| 83 | Remember to Vote | 48.0 | 32.4 | -159 ⚑ | LOW |  |
-| 93 | PostBug | 46.0 | 31.4 | -157 ⚑ | MEDIUM |  |
-| 104 | OSINT Framework | 38.0 | 40.2 | -66 ⚑ | MEDIUM |  |
-| 63 | MP Watch | 58.0 | 42.3 | -67 ⚑ | LOW |  |
-| N/A | Kagi SlopStop | N/A | 46.2 | -228 ⚑ | LOW |  |
-| N/A | Hand-Written Petition Scanner | N/A | 39.2 | -148 ⚑ | NONE |  |
-| N/A | GRIM (Global Risk Simulator) | N/A | 37.3 | -133 ⚑ | LOW |  |
-| N/A | Esper | N/A | 19.6 | -8 | LOW |  |
-| 102 | Beckton | 41.0 | 38.2 | -79 ⚑ | LOW |  |
-| N/A | rsky | N/A | 37.3 | -134 ⚑ | LOW |  |
-| 108 | User Research Library | 38.0 | 27.5 | -171 ⚑ | MEDIUM |  |
-| N/A | UK Parliament Developer Portal | N/A | 33.3 | -89 ⚑ | MEDIUM |  |
-| 114 | Service Manual | 38.0 | 26.5 | -173 ⚑ | MEDIUM |  |
-| 98 | Privacy Badger | 45.0 | 30.2 | -162 ⚑ | MEDIUM |  |
-| 118 | Polimorphic | 38.0 | 23.4 | -180 ⚑ | LOW |  |
-| 81 | Pageviews Analysis | 50.0 | 34.3 | -143 ⚑ | MEDIUM |  |
-| N/A | OpenElections Leaflet Scraper and Parser | N/A | 39.3 | -150 ⚑ | LOW |  |
-| N/A | Local Insight | N/A | 29.4 | -60 ⚑ | MEDIUM |  |
-| 124 | GovWise | 34.0 | 29.4 | -139 ⚑ | LOW |  |
-| N/A | Fatebook | N/A | 41.2 | -177 ⚑ | LOW |  |
-| N/A | Data Observation Toolkit (DOT) | N/A | 34.3 | -104 ⚑ | LOW |  |
-| N/A | Choose a License | N/A | 38.2 | -145 ⚑ | MEDIUM |  |
-| N/A | Anna's Archive | N/A | 43.2 | -203 ⚑ | NONE |  |
-| 77 | River Sentiment Dashboard | 52.0 | 35.4 | -137 ⚑ | LOW |  |
-| 75 | Watch Duty | 54.0 | 27.5 | -206 ⚑ | LOW |  |
-| 122 | Registers and collaboration: making lists we can trust | 35.0 | 22.5 | -179 ⚑ | LOW |  |
-| 117 | PoliMonitor | 38.0 | 21.6 | -189 ⚑ | LOW |  |
-| N/A | PatCit | N/A | 27.5 | -46 ⚑ | LOW |  |
-| 68 | Martus | 56.0 | 36.3 | -145 ⚑ | MEDIUM |  |
-| N/A | Journalist Studio | N/A | 37.3 | -132 ⚑ | LOW |  |
-| N/A | Granicus | N/A | 25.5 | -32 ⚑ | MEDIUM |  |
-| N/A | GOV Reuse Library | N/A | 28.4 | -55 ⚑ | LOW |  |
-| N/A | Responsible Tech Guide 2025 | N/A | 20.6 | -13 | LOW |  |
-| 111 | Urbit | 38.0 | 45.2 | +8 | LOW |  |
-| 113 | The Guide to Major Trusts 2025/26 | 38.0 | 34.5 | -104 ⚑ | MEDIUM |  |
-| 60 | Radicle | 58.0 | 37.3 | -134 ⚑ | LOW |  |
-| N/A | Full Fact AI | N/A | 27.5 | -47 ⚑ | HIGH | Pop risk |
-| N/A | Charity Digital Skills Report | N/A | 32.4 | -86 ⚑ | MEDIUM |  |
-| N/A | Labour Xchange | N/A | 22.5 | -23 ⚑ | MEDIUM |  |
-| 84 | semanticClimate | 48.0 | 31.4 | -167 ⚑ | LOW |  |
-| N/A | Nook CRM | N/A | 34.3 | -100 ⚑ | LOW |  |
-| 95 | MyActionCenter | 46.0 | 29.4 | -169 ⚑ | LOW |  |
-| N/A | Missing Numbers | N/A | 22.5 | -22 ⚑ | LOW |  |
-| N/A | Membership | N/A | 45.0 | -217 ⚑ | NONE |  |
-| N/A | Landlord Tech Watch | N/A | 41.2 | -181 ⚑ | LOW |  |
-| N/A | Keep It In The Community | N/A | 27.5 | -44 ⚑ | NONE |  |
-| N/A | In the news | N/A | 32.4 | -85 ⚑ | LOW |  |
-| N/A | Dunadyne | N/A | 29.4 | -61 ⚑ | LOW |  |
-| 128 | DoNotPay | 29.0 | 36.3 | -83 ⚑ | LOW |  |
-| N/A | CAN/DGSI 127 - Age Assurance Technologies Standard | N/A | 37.3 | -136 ⚑ | LOW |  |
-| N/A | Ladder Hub | N/A | 27.5 | -45 ⚑ | LOW |  |
-| 74 | Who Posted What? | 54.0 | 32.4 | -170 ⚑ | MEDIUM |  |
-| 125 | RightDD | 34.0 | 27.5 | -155 ⚑ | MEDIUM |  |
-| N/A | PolicyMogul | N/A | 16.7 | -3 | LOW |  |
-| 106 | Plausible Analytics | 38.0 | 30.4 | -151 ⚑ | LOW |  |
-| N/A | FixMyBlock | N/A | 25.5 | -33 ⚑ | LOW |  |
-| 38 | Right To Know | 67.0 | 28.4 | -231 ⚑ | MEDIUM |  |
-| N/A | whatsmeow | N/A | 32.4 | -83 ⚑ | NONE |  |
-| N/A | Pear by Holepunch | N/A | 27.5 | -48 ⚑ | LOW |  |
-| 41 | Papertree | 66.0 | 51.1 | -15 | NONE |  |
-| 105 | Overton | 38.0 | 31.4 | -144 ⚑ | LOW |  |
-| N/A | Dovetail | N/A | 24.5 | -29 ⚑ | LOW |  |
-| N/A | DeepSeek-V3 | N/A | 30.4 | -67 ⚑ | HIGH | Pop risk |
-| N/A | Citizens Advice Tableau Public Profile | N/A | 28.4 | -54 ⚑ | NONE |  |
-| 120 | Yoti | 38.0 | 21.6 | -188 ⚑ | MEDIUM |  |
-| 126 | Whoisology | 32.0 | 19.5 | -189 ⚑ | MEDIUM |  |
-| N/A | Gender Pay Gap Service | N/A | 32.4 | -84 ⚑ | LOW |  |
-| N/A | We Live It | N/A | 27.3 | -39 ⚑ | LOW |  |
-| 71 | The List | 54.0 | 23.5 | -226 ⚑ | LOW |  |
-| 85 | Society for Hopeful Technologists | 48.0 | 23.5 | -211 ⚑ | LOW |  |
-| 107 | Public Media Stack | 38.0 | 24.5 | -188 ⚑ | LOW |  |
-| N/A | Filmot | N/A | 21.6 | -18 | LOW |  |
-| N/A | FarmerChat | N/A | 24.5 | -28 ⚑ | LOW |  |
-| N/A | Consciousness Evolution Operating System (ConSoc) | N/A | 28.4 | -52 ⚑ | NONE |  |
-| N/A | COTSI (Cyber Operational Threat Situational Intelligence) | N/A | 17.5 | -4 | LOW |  |
-| N/A | AISafety.info | N/A | 26.5 | -38 ⚑ | LOW |  |
-| 79 | Violation Tracker UK | 52.0 | 26.5 | -207 ⚑ | NONE |  |
-| N/A | Understanding Your Morality | N/A | 21.6 | -17 | MEDIUM |  |
-| 78 | Sci-Hub | 52.0 | 20.6 | -234 ⚑ | NONE |  |
-| N/A | Public Editor | N/A | 21.6 | -15 | NONE |  |
-| N/A | Conservative Party Funding | N/A | 18.6 | -6 | LOW |  |
-| N/A | CivicMatch | N/A | 28.4 | -56 ⚑ | LOW |  |
-| N/A | GreenPT | N/A | 25.5 | -31 ⚑ | LOW |  |
-| 129 | WorkInCharities | 28.0 | 16.7 | -191 ⚑ | LOW |  |
-| N/A | Mapping.kids | N/A | 20.6 | -12 | NONE |  |
-| N/A | DoGooder | N/A | 21.6 | -19 | LOW |  |
-| N/A | DemTech Navigator | N/A | 20.6 | -11 | LOW |  |
-| N/A | The Decelerator | N/A | 17.6 | -5 | LOW |  |
-| 115 | OpenOrigins | 38.0 | 22.5 | -187 ⚑ | LOW |  |
-| N/A | Digital Account Management Toolkit | N/A | 19.6 | -9 | LOW |  |
-| N/A | Local Deep Researcher | N/A | 28.0 | -50 ⚑ | NONE |  |
-| N/A | Unknown Academic Paper (SSRN 5351275) | N/A | 28.0 | -49 ⚑ | NONE |  |
+| Jury Rank | Project | Jury Score | Const Score | JuryConstGap | Pop Risk |
+|---|---|---|---|---|---|
+| 52 | Aragon | 72.0 | 70.7 | +51 ⚑ | LOW |
+| 260 | The DAO (Standard DAO Framework) | 38.0 | 68.0 | +258 ⚑ | MEDIUM |
+| 77 | Ethelo | 68.0 | 67.9 | +74 ⚑ | MEDIUM |
+| 15 | Bonfire | 82.0 | 65.8 | +11 | LOW |
+| 13 | LiquidFeedback | 82.5 | 65.8 | +8 | MEDIUM |
+| 53 | Tech Coops List | 72.0 | 65.8 | +47 ⚑ | MEDIUM |
+| 60 | Open Heart Mind (OHM) | 71.0 | 65.7 | +53 ⚑ | LOW |
+| 36 | Cobudget | 76.0 | 64.7 | +28 ⚑ | HIGH |
+| 18 | Polis | 81.0 | 64.7 | +9 | HIGH |
+| 122 | Populate Tools | 61.0 | 64.7 | +112 ⚑ | MEDIUM |
+| 102 | Open Standards for Data Guidebook | 63.0 | 64.7 | +91 ⚑ | LOW |
+| 45 | Murmurations Protocol | 74.0 | 62.8 | +33 ⚑ | LOW |
+| 16 | mySociety Datasets and APIs | 82.0 | 62.7 | +3 | HIGH |
+| 19 | Loomio | 80.5 | 62.7 | +5 | MEDIUM |
+| 46 | Matrix | 74.0 | 60.9 | +31 ⚑ | MEDIUM |
+| 5 | Open Collective | 85.0 | 60.9 | -11 | MEDIUM |
+| 92 | dDocs | 65.0 | 59.9 | +75 ⚑ | NONE |
+| 96 | Logos | 64.0 | 59.0 | +78 ⚑ | LOW |
+| 175 | CharmVerse | 52.0 | 58.9 | +156 ⚑ | LOW |
+| 114 | RxC Voice | 62.5 | 58.9 | +94 ⚑ | LOW |
+| 103 | Interoperable Deliberative Tools | 63.0 | 58.8 | +82 ⚑ | LOW |
+| 1 | Decidim | 92.0 | 57.8 | -21 ⚑ | HIGH |
+| 2 | CONSUL Democracy | 88.0 | 56.9 | -21 ⚑ | MEDIUM |
+| 23 | HURIDOCS | 79.0 | 56.9 | -1 | MEDIUM |
+| 78 | Mozilla Data Collective | 68.0 | 56.1 | +53 ⚑ | LOW |
+| 123 | Nym | 61.0 | 56.0 | +97 ⚑ | LOW |
+| 26 | Alaveteli | 78.0 | 55.9 | -1 | HIGH |
+| 37 | Citizen OS | 76.0 | 55.9 | +9 | MEDIUM |
+| 64 | NumFOCUS | 70.0 | 55.9 | +35 ⚑ | MEDIUM |
+| 6 | Open Council Network | 85.0 | 55.9 | -24 ⚑ | LOW |
+| 176 | ClimateAction.Tech | 52.0 | 55.1 | +145 ⚑ | LOW |
+| 10 | LittleSis | 84.0 | 55.0 | -22 ⚑ | MEDIUM |
+| 34 | Your Priorities | 76.5 | 54.9 | +1 | MEDIUM |
+| 27 | Snowdrift.coop | 78.0 | 54.0 | -7 | MEDIUM |
+| 76 | adhocracy+ | 68.5 | 53.9 | +41 ⚑ | LOW |
+| 79 | CiviCRM | 68.0 | 53.9 | +43 ⚑ | HIGH |
+| 38 | Fairbnb.coop | 76.0 | 53.9 | +1 | LOW |
+| 31 | Open Supply Hub | 77.0 | 53.9 | -7 | MEDIUM |
+| 93 | Pursuance Project | 65.0 | 53.9 | +54 ⚑ | MEDIUM |
+| 32 | Talk to the City | 77.0 | 53.9 | -8 | LOW |
+| 94 | ОПОРА (Opora) | 65.0 | 53.0 | +53 ⚑ | MEDIUM |
+| 39 | CommunityRule | 76.0 | 52.9 | -3 | MEDIUM |
+| 104 | PlaceCal | 63.0 | 52.9 | +61 ⚑ | MEDIUM |
+| 51 | Political Advertising Transparency Data Stand | 72.5 | 52.9 | +7 | LOW |
+| 134 | OpenSanctions | 57.0 | 52.9 | +89 ⚑ | LOW |
+| 21 | Mastodon | 80.0 | 52.1 | -25 ⚑ | HIGH |
+| 80 | Creative Commons | 68.0 | 52.0 | +33 ⚑ | HIGH |
+| 20 | Rahvaalgatus | 80.5 | 52.0 | -28 ⚑ | MEDIUM |
+| 7 | Parti | 85.0 | 52.0 | -42 ⚑ | MEDIUM |
+| 33 | Humanitarian OpenStreetMap Team (HOT) | 77.0 | 52.0 | -17 | HIGH |
+| 3 | Open Contracting Partnership | 87.0 | 52.0 | -48 ⚑ | HIGH |
+| 22 | Ushahidi | 80.0 | 52.0 | -30 ⚑ | MEDIUM |
+| 189 | DAO Governance Surfaces | 50.0 | 51.2 | +136 ⚑ | LOW |
+| 125 | Tactical Data Engagement | 60.0 | 51.1 | +71 ⚑ | MEDIUM |
+| 8 | Turkopticon | 84.5 | 51.1 | -47 ⚑ | MEDIUM |
+| 95 | Papertree | 65.0 | 51.1 | +39 ⚑ | NONE |
+| 97 | Constitute Project | 64.0 | 51.0 | +40 ⚑ | MEDIUM |
+| 140 | Cybersecurity for Democracy | 56.0 | 51.0 | +82 ⚑ | LOW |
+| 49 | Participa (Podemos) | 73.0 | 51.0 | -10 | MEDIUM |
+| 65 | Stanford Participatory Budgeting Platform | 70.0 | 51.0 | +5 | MEDIUM |
+| 54 | One Project | 72.0 | 51.0 | -7 | LOW |
+| 85 | Open Digital Planning | 67.5 | 51.0 | +23 ⚑ | LOW |
+| 218 | Awesome UK Government Datasets | 46.0 | 50.1 | +155 ⚑ | LOW |
+| 66 | All Our Ideas | 70.0 | 50.0 | +2 | MEDIUM |
+| 28 | Fundación Ciudadanía Inteligente | 78.0 | 50.0 | -37 ⚑ | MEDIUM |
+| 11 | CoTech | 84.0 | 50.0 | -55 ⚑ | MEDIUM |
+| 40 | Democracy Club Developer API | 76.0 | 50.0 | -27 ⚑ | MEDIUM |
+| 4 | vTaiwan | 87.0 | 50.0 | -64 ⚑ | MEDIUM |
+| 156 | UK Housing Data Standards | 54.0 | 50.0 | +87 ⚑ | LOW |
+| 14 | OpenProcurement | 82.5 | 50.0 | -56 ⚑ | MEDIUM |
+| 63 | Principles for Public Participation in Procur | 70.5 | 50.0 | -8 | LOW |
+| 81 | Participedia | 68.0 | 50.0 | +9 | MEDIUM |
+| 67 | GovTrack.us | 70.0 | 50.0 | -6 | MEDIUM |
+| 152 | Bluesky Social | 55.0 | 49.1 | +78 ⚑ | HIGH |
+| 89 | Activist Handbook | 66.0 | 49.0 | +14 | LOW |
+| 194 | Kialo | 49.0 | 49.0 | +118 ⚑ | MEDIUM |
+| 224 | Manifold Markets | 45.0 | 49.0 | +147 ⚑ | LOW |
+| 115 | New_ Public Roundabout | 62.0 | 49.0 | +37 ⚑ | LOW |
+| 42 | PolicyEngine | 75.0 | 49.0 | -37 ⚑ | LOW |
+| 82 | Internet Archive Wayback Machine | 68.0 | 49.0 | +2 | MEDIUM |
+| 261 | Agencies for Good | 38.0 | 49.0 | +180 ⚑ | LOW |
+| N/A | Democracy Fund Open Source | N/A | 49.0 | N/A | MEDIUM |
+| 87 | Organise | 66.5 | 49.0 | +4 | MEDIUM |
+| 105 | ODK (Open Data Kit) | 63.0 | 48.0 | +21 ⚑ | MEDIUM |
+| 61 | Groupthink (OpenPolitics Votebot) | 71.0 | 48.0 | -24 ⚑ | MEDIUM |
+| 90 | Land Explorer | 66.0 | 48.0 | +4 | LOW |
+| 83 | openparliament.ca | 68.0 | 48.0 | -4 | MEDIUM |
+| 106 | RxC Quadratic Voting | 63.0 | 48.0 | +18 | HIGH |
+| 98 | Framework for Meaningful Engagement 2.0 | 64.0 | 47.3 | +9 | LOW |
+| 157 | Wikum | 54.0 | 47.1 | +67 ⚑ | LOW |
+| 68 | FixMyStreet | 70.0 | 47.1 | -23 ⚑ | HIGH |
+| 24 | TheyWorkForYou | 79.0 | 47.1 | -68 ⚑ | HIGH |
+| 135 | AlgorithmWatch | 57.0 | 47.0 | +42 ⚑ | LOW |
+| 278 | Kagi SlopStop | 35.0 | 46.2 | +184 ⚑ | LOW |
+| 249 | Modular Politics | 40.0 | 46.1 | +154 ⚑ | HIGH |
+| 219 | postcodes.io | 46.0 | 46.1 | +123 ⚑ | MEDIUM |
+| 107 | Guardian Project | 63.0 | 46.1 | +10 | MEDIUM |
+| 41 | Campaign Tracker | 76.0 | 46.1 | -57 ⚑ | MEDIUM |
+| 177 | Mastodon C | 52.0 | 46.1 | +78 ⚑ | HIGH |
+| 35 | Open Ownership | 76.5 | 46.1 | -65 ⚑ | MEDIUM |
+| 158 | Discourse | 54.0 | 46.0 | +57 ⚑ | MEDIUM |
+| 262 | Nestr | 38.0 | 45.3 | +160 ⚑ | LOW |
+| 235 | Urbit | 43.0 | 45.2 | +132 ⚑ | LOW |
+| 72 | sourceAFRICA | 69.0 | 45.1 | -32 ⚑ | MEDIUM |
+| N/A | Membership | N/A | 45.0 | N/A | NONE |
+| 88 | Abstract Wikipedia | 66.5 | 45.0 | -18 | HIGH |
+| 116 | PlanIT | 62.0 | 45.0 | +9 | MEDIUM |
+| 55 | PolicyKit | 72.0 | 45.0 | -53 ⚑ | LOW |
+| 178 | Community Notes (Birdwatch) Analysis Tool | 52.0 | 44.2 | +69 ⚑ | LOW |
+| 47 | CKAN | 74.0 | 44.1 | -63 ⚑ | HIGH |
+| 126 | docs.plus | 60.0 | 44.1 | +15 | LOW |
+| 159 | EDGAR | 54.0 | 44.1 | +47 ⚑ | HIGH |
+| 128 | MapIt | 59.0 | 44.1 | +15 | HIGH |
+| 127 | Open Data Editor (ODE) | 60.0 | 44.1 | +13 | LOW |
+| 169 | Open Data Communities | 53.0 | 44.1 | +54 ⚑ | MEDIUM |
+| 101 | SecureDrop | 63.5 | 44.1 | -15 | MEDIUM |
+| 185 | Spartacus | 51.0 | 44.1 | +68 ⚑ | LOW |
+| 136 | WriteToThem | 57.0 | 44.1 | +18 | MEDIUM |
+| 200 | Anna's Archive | 48.0 | 43.2 | +81 ⚑ | NONE |
+| 167 | Humble Data Workshop | 53.5 | 43.2 | +47 ⚑ | LOW |
+| 124 | Spacetube | 61.0 | 43.2 | +3 | LOW |
+| 131 | Aleph (OCCRP) | 58.0 | 43.1 | +9 | HIGH |
+| 226 | Civic Tech Field Guide | 44.0 | 43.1 | +103 ⚑ | MEDIUM |
+| 48 | Open Referral UK | 73.5 | 43.1 | -76 ⚑ | MEDIUM |
+| 160 | Open Science Framework | 54.0 | 43.1 | +35 ⚑ | MEDIUM |
+| 17 | Relational Tech Project | 82.0 | 43.1 | -109 ⚑ | NONE |
+| 29 | Tracka | 78.0 | 43.1 | -98 ⚑ | MEDIUM |
+| 179 | CrowdJustice | 52.0 | 43.0 | +51 ⚑ | MEDIUM |
+| 9 | meet.coop | 84.5 | 43.0 | -120 ⚑ | LOW |
+| 195 | MP Watch | 49.0 | 42.3 | +65 ⚑ | LOW |
+| 108 | CivicPress | 63.0 | 42.2 | -23 ⚑ | LOW |
+| 201 | Collaborative Data Patterns | 48.0 | 42.2 | +69 ⚑ | LOW |
+| 161 | The Commons Social Change Library | 54.0 | 42.2 | +28 ⚑ | MEDIUM |
+| 150 | The Engine Room Library | 55.5 | 42.2 | +16 | MEDIUM |
+| 84 | Members' Interests | 68.0 | 42.2 | -51 ⚑ | MEDIUM |
+| 180 | Open Council Data UK | 52.0 | 42.2 | +44 ⚑ | MEDIUM |
+| 44 | Strike Map | 74.5 | 42.2 | -93 ⚑ | LOW |
+| N/A | Give Food | N/A | 42.2 | N/A | MEDIUM |
+| 141 | Neighbourhood Warmth | 56.0 | 42.2 | +2 | HIGH |
+| 69 | OpenCRVS | 70.0 | 42.2 | -71 ⚑ | LOW |
+| 56 | Landlord Tech Watch | 72.0 | 41.2 | -85 ⚑ | LOW |
+| 142 | Bellingcat Online Investigation Toolkit | 56.0 | 41.2 | 0 | HIGH |
+| 143 | Coral | 56.0 | 41.2 | 0 | MEDIUM |
+| 181 | Cortico | 52.0 | 41.2 | +37 ⚑ | LOW |
+| 263 | Fatebook | 38.0 | 41.2 | +118 ⚑ | LOW |
+| 264 | UK Policy Dojo | 38.0 | 41.2 | +118 ⚑ | LOW |
+| 137 | Sugartrail | 57.0 | 41.2 | -10 | LOW |
+| 73 | GrantNav | 69.0 | 41.2 | -75 ⚑ | MEDIUM |
+| 202 | Harmonica | 48.0 | 41.2 | +53 ⚑ | LOW |
+| 162 | Idealist | 54.0 | 41.2 | +12 | MEDIUM |
+| 121 | Parliament Watch Uganda | 61.5 | 41.2 | -30 ⚑ | MEDIUM |
+| 144 | Shareyourpaper.org | 56.0 | 41.2 | -8 | LOW |
+| 57 | The Government Says | 72.0 | 41.2 | -96 ⚑ | MEDIUM |
+| 62 | Community Tech | 71.0 | 41.2 | -92 ⚑ | LOW |
+| 203 | Deliberation & Technology (DelibTech) Network | 48.0 | 41.2 | +48 ⚑ | LOW |
+| 243 | MP Twitter Bios | 41.0 | 41.2 | +87 ⚑ | LOW |
+| 227 | oTree | 44.0 | 41.2 | +70 ⚑ | MEDIUM |
+| 74 | ShineYourEye | 69.0 | 41.2 | -84 ⚑ | LOW |
+| 43 | Wikidata | 75.0 | 41.2 | -116 ⚑ | MEDIUM |
+| 238 | Metaculus | 42.0 | 41.1 | +78 ⚑ | MEDIUM |
+| N/A | Fission Codes | N/A | 40.4 | N/A | LOW |
+| 190 | arXiv | 50.0 | 40.2 | +28 ⚑ | HIGH |
+| 163 | Channel.org | 54.0 | 40.2 | 0 | LOW |
+| 153 | Contracts for Data Collaboration | 55.0 | 40.2 | -11 | LOW |
+| 164 | Consent-O-Matic | 54.0 | 40.2 | -1 | LOW |
+| 154 | Journal of Open Source Software | 55.0 | 40.2 | -12 | MEDIUM |
+| 132 | Mapped | 58.0 | 40.2 | -35 ⚑ | LOW |
+| 91 | OA.Works | 66.0 | 40.2 | -77 ⚑ | MEDIUM |
+| 58 | OpenBudgets.eu | 72.0 | 40.2 | -111 ⚑ | MEDIUM |
+| 239 | OSINT Framework | 42.0 | 40.2 | +69 ⚑ | MEDIUM |
+| 170 | Vote for Policies | 53.0 | 40.2 | -1 | MEDIUM |
+| 171 | OpenElections Leaflet Scraper and Parser | 53.0 | 39.3 | -1 | LOW |
+| 240 | django-collaborative | 42.0 | 39.2 | +67 ⚑ | MEDIUM |
+| N/A | Hand-Written Petition Scanner | N/A | 39.2 | N/A | NONE |
+| 99 | WhatGov | 64.0 | 39.2 | -76 ⚑ | MEDIUM |
+| 109 | Local Intelligence Hub | 63.0 | 39.1 | -67 ⚑ | LOW |
+| 228 | Choose a License | 44.0 | 38.2 | +51 ⚑ | MEDIUM |
+| 220 | DISARM Frameworks | 46.0 | 38.2 | +42 ⚑ | LOW |
+| 221 | Frankenstein Bill | 46.0 | 38.2 | +42 ⚑ | LOW |
+| 279 | Theft Bisect | 35.0 | 38.2 | +99 ⚑ | LOW |
+| 265 | Beckton | 38.0 | 38.2 | +84 ⚑ | LOW |
+| N/A | Schema.org | N/A | 38.2 | N/A | NONE |
+| 117 | Unpaywall Browser Extension | 62.0 | 38.2 | -66 ⚑ | LOW |
+| 172 | deliberAIde | 53.0 | 38.2 | -12 | LOW |
+| 110 | Parallel Parliament | 63.0 | 38.2 | -75 ⚑ | MEDIUM |
+| 297 | CAN/DGSI 127 - Age Assurance Technologies Sta | 28.0 | 37.3 | +111 ⚑ | LOW |
+| 145 | Diia | 56.0 | 37.3 | -42 ⚑ | LOW |
+| 100 | rsky | 64.0 | 37.3 | -88 ⚑ | LOW |
+| N/A | GRIM (Global Risk Simulator) | N/A | 37.3 | N/A | LOW |
+| 229 | Journalist Studio | 44.0 | 37.3 | +39 ⚑ | LOW |
+| 204 | Libertrium | 48.0 | 37.3 | +13 | MEDIUM |
+| 138 | Open Letter | 57.0 | 37.3 | -54 ⚑ | MEDIUM |
+| 129 | Parse The Bill | 59.0 | 37.3 | -64 ⚑ | LOW |
+| 111 | Radicle | 63.0 | 37.3 | -83 ⚑ | LOW |
+| 173 | Security First / Umbrella | 53.0 | 37.3 | -22 ⚑ | MEDIUM |
+| 256 | Empurrando Juntas (EJ) | 39.0 | 37.3 | +60 ⚑ | LOW |
+| 266 | soweego | 38.0 | 37.3 | +69 ⚑ | LOW |
+| 165 | Gapminder Worldview Upgrader | 54.0 | 37.3 | -33 ⚑ | MEDIUM |
+| 130 | VFRAME | 58.5 | 37.3 | -69 ⚑ | MEDIUM |
+| 217 | WardWatch | 46.5 | 37.3 | +17 | LOW |
+| 25 | GlobaLeaks | 79.0 | 37.3 | -176 ⚑ | MEDIUM |
+| 191 | Teaching Public Service in the Digital Age | 50.0 | 37.3 | -11 | LOW |
+| 30 | Worker Info Exchange | 78.0 | 37.3 | -173 ⚑ | HIGH |
+| 196 | UrbanistAI | 49.0 | 37.2 | -8 | LOW |
+| 151 | Humanitarian Data Exchange | 55.5 | 36.3 | -54 ⚑ | MEDIUM |
+| 197 | Find local consultations | 49.0 | 36.3 | -9 | MEDIUM |
+| 198 | Monitor Mamdani | 49.0 | 36.3 | -9 | LOW |
+| 118 | Open Access – Transparency International UK | 62.0 | 36.3 | -90 ⚑ | MEDIUM |
+| 267 | ORCID | 38.0 | 36.3 | +58 ⚑ | MEDIUM |
+| 250 | Turbo Phonebank | 40.0 | 36.3 | +40 ⚑ | LOW |
+| 293 | DoNotPay | 31.0 | 36.3 | +82 ⚑ | LOW |
+| 186 | Marks Out Of Tenancy | 51.0 | 36.3 | -26 ⚑ | LOW |
+| 133 | Martus | 58.0 | 36.3 | -80 ⚑ | MEDIUM |
+| 222 | River Sentiment Dashboard | 46.0 | 35.4 | +8 | LOW |
+| 146 | The Data Trusts Initiative | 56.0 | 35.3 | -69 ⚑ | LOW |
+| 166 | Agreement Engine | 54.0 | 35.3 | -50 ⚑ | NONE |
+| 257 | The Guide to Major Trusts 2025/26 | 39.0 | 34.5 | +40 ⚑ | MEDIUM |
+| 155 | Data Observation Toolkit (DOT) | 55.0 | 34.3 | -63 ⚑ | LOW |
+| 199 | Pastecal | 49.0 | 34.3 | -20 | LOW |
+| 236 | youtube-dl | 43.0 | 34.3 | +16 | MEDIUM |
+| 174 | Granitt | 53.0 | 34.3 | -47 ⚑ | LOW |
+| 230 | Nook CRM | 44.0 | 34.3 | +8 | LOW |
+| 187 | Objector.ai | 51.0 | 34.3 | -36 ⚑ | LOW |
+| 147 | Pageviews Analysis | 56.0 | 34.3 | -77 ⚑ | MEDIUM |
+| 244 | Timecounts | 41.0 | 34.3 | +19 | MEDIUM |
+| 112 | Who Targets Me Trends | 63.0 | 34.3 | -114 ⚑ | LOW |
+| 182 | Objector.ai | 52.0 | 34.3 | -45 ⚑ | LOW |
+| 50 | WhatDoTheyKnow | 73.0 | 34.3 | -178 ⚑ | MEDIUM |
+| 192 | Bluesky | 50.0 | 34.2 | -37 ⚑ | HIGH |
+| 268 | Viewpoints | 38.0 | 34.2 | +38 ⚑ | LOW |
+| 75 | Public AI Inference Utility | 69.0 | 33.4 | -156 ⚑ | LOW |
+| 277 | CiviClick | 36.0 | 33.3 | +45 ⚑ | LOW |
+| 193 | UK Parliament Developer Portal | 50.0 | 33.3 | -40 ⚑ | MEDIUM |
+| 119 | Global Fact-Check Bot (GFC) | 62.0 | 33.3 | -115 ⚑ | LOW |
+| 231 | GOV.UK Forms | 44.0 | 33.3 | -4 | LOW |
+| 296 | Charity Digital Skills Report | 30.5 | 32.4 | +60 ⚑ | MEDIUM |
+| 120 | In the news | 62.0 | 32.4 | -117 ⚑ | LOW |
+| 148 | Gender Pay Gap Service | 56.0 | 32.4 | -90 ⚑ | LOW |
+| 269 | whatsmeow | 38.0 | 32.4 | +30 ⚑ | NONE |
+| 216 | Moral Machine | 47.0 | 32.4 | -24 ⚑ | MEDIUM |
+| 205 | The Accountability Project | 48.0 | 32.4 | -36 ⚑ | LOW |
+| 248 | Remember to Vote | 40.5 | 32.4 | +6 | LOW |
+| 12 | Riseup | 83.0 | 32.4 | -231 ⚑ | MEDIUM |
+| 215 | Who Posted What? | 47.5 | 32.4 | -29 ⚑ | MEDIUM |
+| 270 | GOV.UK One Login | 38.0 | 32.4 | +25 ⚑ | LOW |
+| 70 | Tor Project | 69.5 | 32.2 | -176 ⚑ | HIGH |
+| 251 | OA.Report | 40.0 | 31.4 | +4 | LOW |
+| 255 | OpenAudience | 39.5 | 31.4 | +7 | MEDIUM |
+| 271 | Overton | 38.0 | 31.4 | +22 ⚑ | LOW |
+| 259 | PostBug | 38.5 | 31.4 | +9 | MEDIUM |
+| 206 | semanticClimate | 48.0 | 31.4 | -45 ⚑ | LOW |
+| 71 | The Circuit | 69.5 | 31.4 | -181 ⚑ | LOW |
+| 149 | Go Vocal | 56.0 | 31.3 | -104 ⚑ | MEDIUM |
+| 207 | Entitledto | 48.0 | 30.4 | -47 ⚑ | MEDIUM |
+| 298 | DeepSeek-V3 | 28.0 | 30.4 | +43 ⚑ | HIGH |
+| 139 | Nyaaya | 56.5 | 30.4 | -117 ⚑ | MEDIUM |
+| 188 | Plausible Analytics | 51.0 | 30.4 | -69 ⚑ | LOW |
+| 245 | GOV.UK Notify | 41.0 | 30.4 | -13 | MEDIUM |
+| 287 | Prolific | 32.0 | 30.4 | +28 ⚑ | MEDIUM |
+| 225 | Privacy Badger | 45.0 | 30.2 | -35 ⚑ | MEDIUM |
+| 208 | Dunadyne | 48.0 | 29.4 | -53 ⚑ | LOW |
+| 246 | Local Insight | 41.0 | 29.4 | -16 | MEDIUM |
+| 286 | GovWise | 32.5 | 29.4 | +23 ⚑ | LOW |
+| 252 | MyActionCenter | 40.0 | 29.4 | -12 | LOW |
+| 288 | Collab.Land | 32.0 | 28.6 | +23 ⚑ | LOW |
+| 289 | CivicMatch | 32.0 | 28.4 | +23 ⚑ | LOW |
+| 272 | GOV Reuse Library | 38.0 | 28.4 | +5 | LOW |
+| N/A | Citizens Advice Tableau Public Profile | N/A | 28.4 | N/A | NONE |
+| 86 | Right To Know | 67.0 | 28.4 | -183 ⚑ | MEDIUM |
+| N/A | Consciousness Evolution Operating System (Con | N/A | 28.4 | N/A | NONE |
+| 234 | Plinth | 43.5 | 28.4 | -37 ⚑ | LOW |
+| N/A | Local Deep Researcher | N/A | 28.0 | N/A | NONE |
+| N/A | Unknown | N/A | 28.0 | N/A | NONE |
+| 209 | Pear by Holepunch | 48.0 | 27.5 | -65 ⚑ | LOW |
+| 232 | Full Fact AI | 44.0 | 27.5 | -43 ⚑ | HIGH |
+| 273 | PatCit | 38.0 | 27.5 | -3 | LOW |
+| N/A | Ladder Hub | N/A | 27.5 | N/A | LOW |
+| N/A | Keep It In The Community | N/A | 27.5 | N/A | NONE |
+| 247 | User Research Library | 41.0 | 27.5 | -32 ⚑ | MEDIUM |
+| 294 | RightDD | 31.0 | 27.5 | +14 | MEDIUM |
+| 210 | Watch Duty | 48.0 | 27.5 | -71 ⚑ | LOW |
+| 258 | GOV.UK Pay | 39.0 | 27.4 | -24 ⚑ | MEDIUM |
+| N/A | We Live It | N/A | 27.3 | N/A | LOW |
+| 299 | AISafety.info | 28.0 | 26.5 | +15 | LOW |
+| 211 | Turn2us Benefits Calculator | 48.0 | 26.5 | -74 ⚑ | MEDIUM |
+| 212 | Violation Tracker UK | 48.0 | 26.5 | -74 ⚑ | NONE |
+| 253 | Service Manual | 40.0 | 26.5 | -34 ⚑ | MEDIUM |
+| 223 | Shared Digital Guides | 46.0 | 26.5 | -65 ⚑ | LOW |
+| 233 | FixMyBlock | 44.0 | 25.5 | -56 ⚑ | LOW |
+| 295 | Granicus | 31.0 | 25.5 | +5 | MEDIUM |
+| 290 | GreenPT | 32.0 | 25.5 | -1 | LOW |
+| 59 | Atlas of Surveillance | 72.0 | 25.2 | -233 ⚑ | LOW |
+| 284 | Dovetail | 33.0 | 24.5 | -9 | LOW |
+| 241 | FarmerChat | 42.0 | 24.5 | -53 ⚑ | LOW |
+| 237 | Public Media Stack | 43.0 | 24.5 | -58 ⚑ | LOW |
+| 213 | Society for Hopeful Technologists | 48.0 | 23.5 | -83 ⚑ | LOW |
+| 183 | The List | 52.0 | 23.5 | -114 ⚑ | LOW |
+| 274 | Polimorphic | 38.0 | 23.4 | -24 ⚑ | LOW |
+| 242 | Labour Xchange | 42.0 | 22.5 | -57 ⚑ | MEDIUM |
+| 113 | Missing Numbers | 63.0 | 22.5 | -187 ⚑ | LOW |
+| 280 | Registers and collaboration: making lists we  | 35.0 | 22.5 | -21 ⚑ | LOW |
+| 275 | OpenOrigins | 38.0 | 22.5 | -27 ⚑ | LOW |
+| 291 | DoGooder | 32.0 | 21.6 | -12 | LOW |
+| 285 | Filmot | 33.0 | 21.6 | -19 | LOW |
+| N/A | Understanding Your Morality | N/A | 21.6 | N/A | MEDIUM |
+| 281 | PoliMonitor | 35.0 | 21.6 | -25 ⚑ | LOW |
+| N/A | Public Editor | N/A | 21.6 | N/A | NONE |
+| 282 | Yoti | 35.0 | 21.6 | -26 ⚑ | MEDIUM |
+| 300 | Responsible Tech Guide 2025 | 28.0 | 20.6 | -9 | LOW |
+| N/A | Mapping.kids | N/A | 20.6 | N/A | NONE |
+| 214 | DemTech Navigator | 48.0 | 20.6 | -97 ⚑ | LOW |
+| 168 | Sci-Hub | 53.5 | 20.6 | -144 ⚑ | NONE |
+| 283 | Digital Account Management Toolkit | 35.0 | 19.6 | -30 ⚑ | LOW |
+| 292 | Esper | 32.0 | 19.6 | -22 ⚑ | LOW |
+| 276 | Whoisology | 38.0 | 19.5 | -39 ⚑ | MEDIUM |
+| 184 | Conservative Party Funding | 52.0 | 18.6 | -132 ⚑ | LOW |
+| 301 | The Decelerator | 28.0 | 17.6 | -16 | LOW |
+| 254 | COTSI (Cyber Operational Threat Situational I | 40.0 | 17.5 | -64 ⚑ | LOW |
+| N/A | PolicyMogul | N/A | 16.7 | N/A | LOW |
+| 302 | WorkInCharities | 22.0 | 16.7 | -18 | LOW |
+| N/A | Unknown Academic Paper (SSRN 5351275) | N/A | N/A | N/A | NONE |
 
+**Where jury and constitution agree (robust picks):**
+
+- LiquidFeedback (const #5, jury #13, gap +8)
+- Polis (const #9, jury #18, gap +9)
+- mySociety Datasets and APIs (const #13, jury #16, gap +3)
+- Loomio (const #14, jury #19, gap +5)
+- HURIDOCS (const #24, jury #23, gap -1)
+- Alaveteli (const #27, jury #26, gap -1)
+- Citizen OS (const #28, jury #37, gap +9)
+- Your Priorities (const #33, jury #34, gap +1)
+
+**Where they diverge most and what it suggests:**
+
+- The DAO (Standard DAO Framework): const #2, jury #260, gap +258 — jury recognises this project broadly; constitution scores specific dossier criteria
+- Kagi SlopStop: const #94, jury #278, gap +184 — jury recognises this project broadly; constitution scores specific dossier criteria
+- Agencies for Good: const #81, jury #261, gap +180 — jury recognises this project broadly; constitution scores specific dossier criteria
+- Nestr: const #102, jury #262, gap +160 — jury recognises this project broadly; constitution scores specific dossier criteria
+- CharmVerse: const #19, jury #175, gap +156 — jury recognises this project broadly; constitution scores specific dossier criteria
+
+- Parti: const #49, jury #7, gap -42 — constitution over-values relative to jury
+- Rahvaalgatus: const #48, jury #20, gap -28 — constitution over-values relative to jury
+- Mastodon: const #46, jury #21, gap -25 — constitution over-values relative to jury
+- Open Council Network: const #30, jury #6, gap -24 — constitution over-values relative to jury
+- LittleSis: const #32, jury #10, gap -22 — constitution over-values relative to jury
+
+**Grok4 divergence:** Limited scoring (avg 7/321) restricts statistical divergence detection.
+**Abstention log:** Gemini: 0/321 scored (excluded). GPT-4.1: highest rate (293/321). Claude: 71/321. Mistral: 200/321. Grok4: 7/321.
 ---
 
 ## 10. Full ranking — all 321 projects
