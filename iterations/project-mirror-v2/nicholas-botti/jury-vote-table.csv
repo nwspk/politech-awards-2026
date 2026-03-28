@@ -1,0 +1,322 @@
+jury_rank,project,jury_score,const_score,jury_const_gap,pop_risk,models_scoring,note
+1,LittleSis,85.0,61.8,51,medium,1,Single model
+2,vTaiwan,80.0,84.5,2,high,1,Single model
+3,HURIDOCS,80.0,78.5,2,medium,1,Single model
+4,Rahvaalgatus,80.0,52.0,117,none,1,Single model
+5,Polis,79.0,87.4,-3,high,2,
+6,AlgorithmWatch,78.0,87.5,-5,high,3,
+7,Open Supply Hub,78.0,60.9,50,none,1,Single model
+8,OpenProcurement,75.0,76.6,-2,none,1,Single model
+9,Decidim,75.0,76.5,-2,high,3,
+10,Framework for Meaningful Engagement 2.0,75.0,68.8,9,none,3,
+11,Aleph (OCCRP),75.0,65.7,23,medium,2,
+12,ODK (Open Data Kit),75.0,64.9,25,medium,1,Single model
+13,Open Referral UK,75.0,64.8,27,none,1,Single model
+14,FarmerChat,75.0,45.2,157,none,1,Single model
+15,Guardian Project,74.0,69.7,3,medium,1,Single model
+16,Stanford Participatory Budgeting Platform,73.0,60.8,45,none,1,Single model
+17,Cortico,72.5,70.9,-1,none,2,
+18,Fundacion Ciudadania Inteligente,72.5,61.9,33,none,2,
+19,Cybersecurity for Democracy,72.0,71.7,-5,low,3,
+20,CONSUL Democracy,72.0,68.7,1,medium,3,
+21,Political Advertising Transparency Data Standard,72.0,68.7,2,none,1,Single model
+22,Data Observation Toolkit (DOT),72.0,65.8,10,none,1,Single model
+23,Ethelo,72.0,53.9,82,none,1,Single model
+24,CKAN,71.0,71.7,-11,high,2,
+25,LiquidFeedback,70.0,71.6,-10,medium,1,Single model
+26,mySociety Datasets and APIs,70.0,66.8,3,medium,3,
+27,Alaveteli,70.0,64.8,11,medium,3,
+28,OpenBudgets.eu,70.0,61.8,25,none,1,Single model
+29,Nyaaya,70.0,60.8,31,none,1,Single model
+30,Diia,70.0,59.8,35,low,2,
+31,Open Council Network,70.0,57.9,41,none,1,Single model
+32,Tactical Data Engagement,70.0,57.0,44,low,2,
+33,Participa (Podemos),70.0,53.9,73,none,1,Single model
+34,Interoperable Deliberative Tools,70.0,52.9,81,none,1,Single model
+35,Atlas of Surveillance,70.0,52.0,82,low,3,
+36,Entitledto,70.0,50.1,96,none,1,Single model
+37,FixMyBlock,70.0,36.3,206,none,1,Single model
+38,docs.plus,70.0,32.4,235,none,1,Single model
+39,Humanitarian Data Exchange,69.0,63.9,5,low,2,
+40,Open Collective,68.0,67.7,-14,medium,1,Single model
+41,Constitute Project,68.0,57.9,29,low,3,
+42,The Engine Room Library,68.0,54.0,60,none,1,Single model
+43,Murmurations Protocol,68.0,53.0,67,none,1,Single model
+44,New_ Public Roundabout,68.0,52.0,76,none,1,Single model
+45,Groupthink (OpenPolitics Votebot),68.0,50.0,89,none,1,Single model
+46,Humble Data Workshop,68.0,41.2,158,none,1,Single model
+47,Objector.ai,68.0,40.2,167,none,1,Single model
+48,CoTech,68.0,38.2,182,none,1,Single model
+49,Gender Pay Gap Service,67.5,58.9,17,none,2,
+50,Bellingcat Online Investigation Toolkit,67.5,56.9,29,medium,2,
+51,Democracy Club Developer API,67.5,51.1,76,none,2,
+52,Moral Machine,66.0,60.8,7,medium,1,Single model
+53,Idealist,66.0,39.2,168,none,1,Single model
+54,CiviCRM,65.5,56.0,29,medium,2,
+55,UK Housing Data Standards,65.0,64.8,-16,none,1,Single model
+56,Nym,65.0,64.8,-14,medium,1,Single model
+57,Coral,65.0,57.0,18,low,3,
+58,adhocracy+,65.0,56.0,26,low,3,
+59,RxC Voice,65.0,55.9,31,none,1,Single model
+60,Consent-O-Matic,65.0,55.0,33,none,2,
+61,CommunityRule,65.0,49.1,77,none,3,
+62,Missing Numbers,65.0,49.0,81,none,1,Single model
+63,Contracts for Data Collaboration,65.0,48.1,84,none,3,
+64,PlaceCal,65.0,46.1,103,none,2,
+65,Modular Politics,65.0,45.1,110,none,1,Single model
+66,Agreement Engine,65.0,44.1,117,none,1,Single model
+67,EDGAR,65.0,40.3,141,none,2,
+68,Mapped,65.0,39.2,154,none,1,Single model
+69,AISafety.info,65.0,38.3,159,low,1,Single model
+70,The Data Trusts Initiative,63.5,54.0,31,none,2,
+71,GrantNav,63.0,56.9,10,none,1,Single model
+72,All Our Ideas,62.5,42.2,124,none,2,
+73,Turn2us Benefits Calculator,62.5,42.2,126,none,2,
+74,The Commons Social Change Library,62.5,36.3,170,none,2,
+75,NumFOCUS,62.0,55.9,14,medium,1,Single model
+76,Land Explorer,62.0,48.0,76,none,1,Single model
+77,Open Heart Mind (OHM),62.0,48.0,76,none,1,Single model
+78,Open Letter,62.0,48.0,76,none,1,Single model
+79,Libertrium,62.0,45.1,97,none,1,Single model
+80,Labour Xchange,62.0,43.1,110,none,1,Single model
+81,Fairbnb.coop,62.0,38.2,150,none,1,Single model
+82,Nook CRM,62.0,36.3,164,none,1,Single model
+83,Full Fact AI,61.0,64.9,-47,low,2,
+84,Matrix,60.0,86.4,-81,high,1,Single model
+85,Mastodon,60.0,74.6,-76,high,1,Single model
+86,Journal of Open Source Software,60.0,55.9,1,none,1,Single model
+87,Frankenstein Bill,60.0,55.0,7,none,1,Single model
+88,Cobudget,60.0,52.0,30,none,3,
+89,Find local consultations,60.0,51.0,39,none,1,Single model
+90,MapIt,60.0,51.0,39,medium,1,Single model
+91,rsky,60.0,51.0,39,none,1,Single model
+92,Kialo,60.0,49.0,49,none,1,Single model
+93,Members' Interests,60.0,49.0,49,none,1,Single model
+94,DemTech Navigator,60.0,44.1,90,none,1,Single model
+95,Choose a License,60.0,42.2,103,low,1,Single model
+96,ClimateAction.Tech,60.0,41.2,106,none,1,Single model
+97,UK Parliament Developer Portal,60.0,41.2,106,none,1,Single model
+98,Collaborative Data Patterns,60.0,40.2,112,none,1,Single model
+99,In the News (Wikipedia),60.0,39.2,121,high,1,Single model
+100,Populate Tools,60.0,38.2,132,none,1,Single model
+101,Kagi SlopStop,58.0,47.1,64,none,1,Single model
+102,Pastecal,58.0,31.4,180,none,1,Single model
+103,arXiv,57.5,53.0,6,high,2,
+104,Landlord Tech Watch,57.5,44.2,78,none,2,
+105,Conservative Party Funding,56.5,34.3,152,none,2,
+106,OpenElections Leaflet Scraper and Parser,56.0,34.3,152,none,1,Single model
+107,Digital Account Management Toolkit,56.0,30.4,178,none,1,Single model
+108,DISARM Frameworks,55.0,73.6,-97,none,1,Single model
+109,Creative Commons,55.0,67.7,-84,high,1,Single model
+110,Community Notes (Birdwatch) Analysis Tool,55.0,62.8,-63,none,1,Single model
+111,Awesome UK Government Datasets,55.0,52.0,8,none,1,Single model
+112,Open Council Data UK,55.0,49.0,32,none,1,Single model
+113,postcodes.io,55.0,48.1,35,none,1,Single model
+114,youtube-dl,55.0,44.1,72,high,1,Single model
+115,Civic Tech Field Guide,55.0,39.2,104,none,2,
+116,Sugartrail,55.0,38.2,117,none,1,Single model
+117,django-collaborative,55.0,38.2,117,none,1,Single model
+118,Anna's Archive,55.0,30.3,168,low,1,Single model
+119,Dovetail,55.0,28.4,174,none,1,Single model
+120,OA.Report,54.0,55.9,-29,none,1,Single model
+121,Open Data Communities,54.0,52.0,1,none,1,Single model
+122,Fatebook,54.0,40.3,87,none,1,Single model
+123,OpenAudience,54.0,39.2,101,none,1,Single model
+124,Journalist Studio,54.0,35.2,129,medium,1,Single model
+125,Filmot,54.0,28.4,169,none,1,Single model
+126,Aragon,53.5,41.1,81,low,2,
+127,PatCit,50.0,45.1,51,none,1,Single model
+128,DAO Governance Surfaces,50.0,40.2,83,none,1,Single model
+129,Responsible Tech Guide 2025,50.0,37.3,110,none,1,Single model
+130,Pear by Holepunch,49.5,37.3,108,none,2,
+131,Charity Digital Skills Report,49.5,35.3,119,none,2,
+132,UK Policy Dojo,48.0,56.9,-50,none,1,Single model
+133,Local Insight,48.0,40.2,79,none,1,Single model
+134,The DAO (Standard DAO Framework),48.0,34.2,125,medium,1,Single model
+135,The Decelerator,48.0,33.3,129,none,1,Single model
+136,Nestr,48.0,33.3,131,none,1,Single model
+137,Esper,47.0,39.3,81,none,1,Single model
+138,CiviClick,46.5,30.4,146,none,2,
+139,Granicus,44.0,36.1,109,none,1,Single model
+N/A,PolicyEngine,N/A,75.7,N/A,medium,0,No jury scores (API failures)
+N/A,Open Digital Planning,N/A,73.7,N/A,none,0,No jury scores (API failures)
+N/A,Principles for Public Participation in Procurement of AI,N/A,73.6,N/A,none,0,No jury scores (API failures)
+N/A,Open Contracting Partnership,N/A,70.0,N/A,medium,0,No jury scores (API failures)
+N/A,OA.Works,N/A,68.8,N/A,none,0,No jury scores (API failures)
+N/A,Global Fact-Check Bot (GFC),N/A,68.7,N/A,none,0,No jury scores (API failures)
+N/A,Metaculus,N/A,67.8,N/A,medium,0,No jury scores (API failures)
+N/A,SecureDrop,N/A,67.7,N/A,high,0,No jury scores (API failures)
+N/A,Internet Archive Wayback Machine,N/A,67.0,N/A,high,0,No jury scores (API failures)
+N/A,Public AI Inference Utility,N/A,66.8,N/A,none,0,No jury scores (API failures)
+N/A,Talk to the City,N/A,66.7,N/A,none,0,No jury scores (API failures)
+N/A,Open Science Framework,N/A,65.8,N/A,high,0,No jury scores (API failures)
+N/A,Open Ownership,N/A,65.0,N/A,low,0,No jury scores (API failures)
+N/A,Participedia,N/A,64.8,N/A,medium,0,No jury scores (API failures)
+N/A,Parti,N/A,64.8,N/A,none,0,No jury scores (API failures)
+N/A,ORCID,N/A,63.8,N/A,high,0,No jury scores (API failures)
+N/A,OpenSanctions,N/A,63.0,N/A,low,0,No jury scores (API failures)
+N/A,RxC Quadratic Voting,N/A,62.8,N/A,none,0,No jury scores (API failures)
+N/A,OpenCRVS,N/A,62.0,N/A,low,0,No jury scores (API failures)
+N/A,Worker Info Exchange,N/A,62.0,N/A,none,0,No jury scores (API failures)
+N/A,Privacy Badger,N/A,61.8,N/A,medium,0,No jury scores (API failures)
+N/A,Open Data Editor (ODE),N/A,60.9,N/A,none,0,No jury scores (API failures)
+N/A,Overton,N/A,60.9,N/A,none,0,No jury scores (API failures)
+N/A,Security First / Umbrella,N/A,60.9,N/A,none,0,No jury scores (API failures)
+N/A,Humanitarian OpenStreetMap Team (HOT),N/A,60.0,N/A,medium,0,No jury scores (API failures)
+N/A,PolicyKit,N/A,59.9,N/A,none,0,No jury scores (API failures)
+N/A,Who Targets Me Trends,N/A,59.9,N/A,none,0,No jury scores (API failures)
+N/A,Open Standards for Data Guidebook,N/A,58.9,N/A,none,0,No jury scores (API failures)
+N/A,Schema.org,N/A,58.9,N/A,high,0,No jury scores (API failures)
+N/A,Wikidata,N/A,58.0,N/A,high,0,No jury scores (API failures)
+N/A,Bluesky Social,N/A,57.9,N/A,medium,0,No jury scores (API failures)
+N/A,openparliament.ca,N/A,57.9,N/A,none,0,No jury scores (API failures)
+N/A,sourceAFRICA,N/A,57.9,N/A,none,0,No jury scores (API failures)
+N/A,Campaign Tracker,N/A,57.0,N/A,none,0,No jury scores (API failures)
+N/A,GlobaLeaks,N/A,57.0,N/A,medium,0,No jury scores (API failures)
+N/A,Abstract Wikipedia,N/A,56.9,N/A,high,0,No jury scores (API failures)
+N/A,TheyWorkForYou,N/A,56.0,N/A,medium,0,No jury scores (API failures)
+N/A,VFRAME,N/A,56.0,N/A,none,0,No jury scores (API failures)
+N/A,Manifold Markets,N/A,55.9,N/A,none,0,No jury scores (API failures)
+N/A,Citizen OS,N/A,55.0,N/A,none,0,No jury scores (API failures)
+N/A,GOV.UK Notify,N/A,55.0,N/A,low,0,No jury scores (API failures)
+N/A,Gapminder Worldview Upgrader,N/A,55.0,N/A,medium,0,No jury scores (API failures)
+N/A,Tor Project,N/A,55.0,N/A,high,0,No jury scores (API failures)
+N/A,Ushahidi,N/A,55.0,N/A,medium,0,No jury scores (API failures)
+N/A,WhatDoTheyKnow,N/A,55.0,N/A,medium,0,No jury scores (API failures)
+N/A,oTree,N/A,55.0,N/A,none,0,No jury scores (API failures)
+N/A,GOV.UK Pay,N/A,54.0,N/A,none,0,No jury scores (API failures)
+N/A,OPORA,N/A,54.0,N/A,none,0,No jury scores (API failures)
+N/A,Open Access - Transparency International UK,N/A,53.9,N/A,none,0,No jury scores (API failures)
+N/A,Mozilla Data Collective,N/A,53.1,N/A,low,0,No jury scores (API failures)
+N/A,The Government Says,N/A,53.0,N/A,none,0,No jury scores (API failures)
+N/A,Plausible Analytics,N/A,53.0,N/A,none,0,No jury scores (API failures)
+N/A,FixMyStreet,N/A,53.0,N/A,medium,0,No jury scores (API failures)
+N/A,GovTrack.us,N/A,53.0,N/A,medium,0,No jury scores (API failures)
+N/A,One Project,N/A,52.9,N/A,none,0,No jury scores (API failures)
+N/A,Riseup,N/A,52.0,N/A,medium,0,No jury scores (API failures)
+N/A,The Circuit,N/A,52.0,N/A,none,0,No jury scores (API failures)
+N/A,GOV.UK Forms,N/A,52.0,N/A,none,0,No jury scores (API failures)
+N/A,Loomio,N/A,52.0,N/A,medium,0,No jury scores (API failures)
+N/A,GOV.UK Service Manual,N/A,51.0,N/A,low,0,No jury scores (API failures)
+N/A,Snowdrift.coop,N/A,50.1,N/A,none,0,No jury scores (API failures)
+N/A,GOV.UK One Login,N/A,50.0,N/A,low,0,No jury scores (API failures)
+N/A,deliberAIde,N/A,50.0,N/A,none,0,No jury scores (API failures)
+N/A,Bonfire,N/A,49.1,N/A,none,0,No jury scores (API failures)
+N/A,GRIM (Global Risk Simulator),N/A,49.1,N/A,none,0,No jury scores (API failures)
+N/A,Shareyourpaper.org,N/A,49.1,N/A,none,0,No jury scores (API failures)
+N/A,The Accountability Project,N/A,49.0,N/A,none,0,No jury scores (API failures)
+N/A,Tracka,N/A,49.0,N/A,none,0,No jury scores (API failures)
+N/A,Radicle,N/A,48.1,N/A,none,0,No jury scores (API failures)
+N/A,Relational Tech Project,N/A,48.1,N/A,none,0,No jury scores (API failures)
+N/A,Harmonica,N/A,48.0,N/A,none,0,No jury scores (API failures)
+N/A,Parliament Watch Uganda,N/A,48.0,N/A,none,0,No jury scores (API failures)
+N/A,PlanIT,N/A,48.0,N/A,none,0,No jury scores (API failures)
+N/A,User Research Library,N/A,48.0,N/A,none,0,No jury scores (API failures)
+N/A,Right To Know,N/A,48.0,N/A,none,0,No jury scores (API failures)
+N/A,Spartacus,N/A,48.0,N/A,none,0,No jury scores (API failures)
+N/A,Strike Map,N/A,48.0,N/A,none,0,No jury scores (API failures)
+N/A,Registers and collaboration: making lists we can trust,N/A,48.0,N/A,none,0,No jury scores (API failures)
+N/A,Give Food,N/A,48.0,N/A,none,0,No jury scores (API failures)
+N/A,Teaching Public Service in the Digital Age,N/A,48.0,N/A,none,0,No jury scores (API failures)
+N/A,Your Priorities,N/A,48.0,N/A,low,0,No jury scores (API failures)
+N/A,UrbanistAI,N/A,47.0,N/A,none,0,No jury scores (API failures)
+N/A,Tech Coops List,N/A,46.1,N/A,none,0,No jury scores (API failures)
+N/A,Mastodon C,N/A,46.0,N/A,none,0,No jury scores (API failures)
+N/A,WriteToThem,N/A,46.0,N/A,medium,0,No jury scores (API failures)
+N/A,Pursuance Project,N/A,45.2,N/A,none,0,No jury scores (API failures)
+N/A,semanticClimate,N/A,45.2,N/A,none,0,No jury scores (API failures)
+N/A,Spacetube,N/A,45.2,N/A,none,0,No jury scores (API failures)
+N/A,Monitor Mamdani,N/A,45.1,N/A,none,0,No jury scores (API failures)
+N/A,Citizens Advice Tableau Public Profile,N/A,45.1,N/A,none,0,No jury scores (API failures)
+N/A,Discourse,N/A,45.0,N/A,medium,0,No jury scores (API failures)
+N/A,Prolific,N/A,45.0,N/A,low,0,No jury scores (API failures)
+N/A,Logos,N/A,44.1,N/A,none,0,No jury scores (API failures)
+N/A,CrowdJustice,N/A,44.0,N/A,low,0,No jury scores (API failures)
+N/A,Unpaywall Browser Extension,N/A,44.0,N/A,low,0,No jury scores (API failures)
+N/A,Pageviews Analysis,N/A,43.2,N/A,none,0,No jury scores (API failures)
+N/A,River Sentiment Dashboard,N/A,43.1,N/A,none,0,No jury scores (API failures)
+N/A,Empurrando Juntas (EJ),N/A,43.1,N/A,none,0,No jury scores (API failures)
+N/A,Sci-Hub,N/A,43.0,N/A,high,0,No jury scores (API failures)
+N/A,Organise,N/A,43.0,N/A,none,0,No jury scores (API failures)
+N/A,Activist Handbook,N/A,42.2,N/A,none,0,No jury scores (API failures)
+N/A,CAN/DGSI 127 Age Assurance Standard,N/A,42.2,N/A,none,0,No jury scores (API failures)
+N/A,OSINT Framework,N/A,42.2,N/A,none,0,No jury scores (API failures)
+N/A,Beckton,N/A,42.2,N/A,none,0,No jury scores (API failures)
+N/A,soweego,N/A,41.2,N/A,none,0,No jury scores (API failures)
+N/A,Remember to Vote,N/A,41.2,N/A,none,0,No jury scores (API failures)
+N/A,Timecounts,N/A,40.2,N/A,none,0,No jury scores (API failures)
+N/A,Parse The Bill,N/A,40.2,N/A,none,0,No jury scores (API failures)
+N/A,Go Vocal,N/A,40.0,N/A,none,0,No jury scores (API failures)
+N/A,Turkopticon,N/A,40.0,N/A,low,0,No jury scores (API failures)
+N/A,Theft Bisect,N/A,39.2,N/A,none,0,No jury scores (API failures)
+N/A,Keep It In The Community,N/A,39.2,N/A,none,0,No jury scores (API failures)
+N/A,Society for Hopeful Technologists,N/A,39.2,N/A,none,0,No jury scores (API failures)
+N/A,The List,N/A,39.2,N/A,none,0,No jury scores (API failures)
+N/A,CivicPress,N/A,38.3,N/A,none,0,No jury scores (API failures)
+N/A,Understanding Your Morality,N/A,38.2,N/A,none,0,No jury scores (API failures)
+N/A,Plinth,N/A,38.0,N/A,none,0,No jury scores (API failures)
+N/A,Yoti,N/A,38.0,N/A,low,0,No jury scores (API failures)
+N/A,PolicyMogul,N/A,37.3,N/A,none,0,No jury scores (API failures)
+N/A,Public Media Stack,N/A,37.3,N/A,none,0,No jury scores (API failures)
+N/A,COTSI,N/A,36.3,N/A,none,0,No jury scores (API failures)
+N/A,Granitt,N/A,36.3,N/A,none,0,No jury scores (API failures)
+N/A,PostBug,N/A,36.3,N/A,none,0,No jury scores (API failures)
+N/A,Violation Tracker UK,N/A,36.0,N/A,none,0,No jury scores (API failures)
+N/A,GOV Reuse Library,N/A,35.3,N/A,none,0,No jury scores (API failures)
+N/A,Bluesky,N/A,35.2,N/A,medium,0,No jury scores (API failures)
+N/A,Local Intelligence Hub,N/A,35.0,N/A,none,0,No jury scores (API failures)
+N/A,Shine Your Eye,N/A,35.0,N/A,none,0,No jury scores (API failures)
+N/A,Who Posted What?,N/A,35.0,N/A,none,0,No jury scores (API failures)
+N/A,DelibTech Network,N/A,34.0,N/A,none,0,No jury scores (API failures)
+N/A,Polimorphic,N/A,34.0,N/A,none,0,No jury scores (API failures)
+N/A,WardWatch,N/A,34.0,N/A,none,0,No jury scores (API failures)
+N/A,DoGooder,N/A,33.3,N/A,none,0,No jury scores (API failures)
+N/A,Hand-Written Petition Scanner,N/A,33.3,N/A,none,0,No jury scores (API failures)
+N/A,Membership,N/A,33.3,N/A,none,0,No jury scores (API failures)
+N/A,Democracy Fund Open Source,N/A,33.0,N/A,none,0,No jury scores (API failures)
+N/A,Objector.ai,N/A,33.0,N/A,none,0,No jury scores (API failures)
+N/A,Parallel Parliament,N/A,33.0,N/A,none,0,No jury scores (API failures)
+N/A,Watch Duty,N/A,33.0,N/A,none,0,No jury scores (API failures)
+N/A,Wikum,N/A,33.0,N/A,none,0,No jury scores (API failures)
+N/A,Ladder Hub,N/A,32.4,N/A,none,0,No jury scores (API failures)
+N/A,Mapping.kids,N/A,32.4,N/A,none,0,No jury scores (API failures)
+N/A,whatsmeow,N/A,32.4,N/A,none,0,No jury scores (API failures)
+N/A,Neighbourhood Warmth,N/A,32.0,N/A,none,0,No jury scores (API failures)
+N/A,RightDD,N/A,32.0,N/A,none,0,No jury scores (API failures)
+N/A,WhatGov,N/A,32.0,N/A,none,0,No jury scores (API failures)
+N/A,Channel.org,N/A,31.4,N/A,none,0,No jury scores (API failures)
+N/A,Local Deep Researcher,N/A,31.4,N/A,none,0,No jury scores (API failures)
+N/A,DoNotPay,N/A,31.0,N/A,low,0,No jury scores (API failures)
+N/A,MP Watch,N/A,30.0,N/A,none,0,No jury scores (API failures)
+N/A,OpenOrigins,N/A,30.0,N/A,none,0,No jury scores (API failures)
+N/A,Urbit,N/A,30.0,N/A,low,0,No jury scores (API failures)
+N/A,Vote for Policies,N/A,30.0,N/A,none,0,No jury scores (API failures)
+N/A,meet.coop,N/A,30.0,N/A,none,0,No jury scores (API failures)
+N/A,Viewpoints,N/A,29.0,N/A,none,0,No jury scores (API failures)
+N/A,GreenPT,N/A,28.3,N/A,none,0,No jury scores (API failures)
+N/A,Community Tech Network,N/A,28.0,N/A,none,0,No jury scores (API failures)
+N/A,GovWise,N/A,28.0,N/A,none,0,No jury scores (API failures)
+N/A,Martus,N/A,28.0,N/A,none,0,No jury scores (API failures)
+N/A,dDocs,N/A,27.5,N/A,none,0,No jury scores (API failures)
+N/A,CharmVerse,N/A,27.4,N/A,none,0,No jury scores (API failures)
+N/A,Marks Out Of Tenancy,N/A,27.0,N/A,none,0,No jury scores (API failures)
+N/A,Dunadyne,N/A,26.5,N/A,none,0,No jury scores (API failures)
+N/A,Fission Codes,N/A,26.5,N/A,none,0,No jury scores (API failures)
+N/A,PoliMonitor,N/A,26.0,N/A,none,0,No jury scores (API failures)
+N/A,Turbo Phonebank,N/A,26.0,N/A,none,0,No jury scores (API failures)
+N/A,We Live It,N/A,26.0,N/A,none,0,No jury scores (API failures)
+N/A,CivicMatch,N/A,25.5,N/A,none,0,No jury scores (API failures)
+N/A,Public Editor,N/A,25.0,N/A,none,0,No jury scores (API failures)
+N/A,Shared Digital Guides,N/A,25.0,N/A,none,0,No jury scores (API failures)
+N/A,Collab.Land,N/A,24.5,N/A,none,0,No jury scores (API failures)
+N/A,MyActionCenter,N/A,24.0,N/A,none,0,No jury scores (API failures)
+N/A,Whoisology,N/A,24.0,N/A,none,0,No jury scores (API failures)
+N/A,Agencies for Good,N/A,22.0,N/A,none,0,No jury scores (API failures)
+N/A,Papertree,N/A,22.0,N/A,none,0,No jury scores (API failures)
+N/A,The Guide to Major Trusts 2025/26,N/A,22.0,N/A,none,0,No jury scores (API failures)
+N/A,MP Twitter Bios,N/A,20.0,N/A,none,0,No jury scores (API failures)
+N/A,DeepSeek-V3,N/A,19.4,N/A,high,0,No jury scores (API failures)
+N/A,WorkInCharities,N/A,16.0,N/A,none,0,No jury scores (API failures)
+N/A,Consciousness Evolution Operating System (CONSOC),N/A,12.0,N/A,none,0,No jury scores (API failures)
+N/A,Unknown Academic Paper (SSRN 5351275),N/A,N/A,N/A,none,0,No jury scores (API failures)
+N/A,Tracking Template,N/A,N/A,N/A,none,0,No jury scores (API failures)
