@@ -2,10 +2,9 @@
 
 ## Panel status
 
-- **Models completed:** claude, gemini, gpt41, mistral
-- **Models pending:** grok4
-- **Total runs:** 20
-- **Projects scored by ≥1 model:** 34
+- **Models completed:** claude, gemini, gpt41, grok4, mistral
+- **Total runs:** 25 (5 models x 5 runs = 25)
+- **Projects scored by >=1 model:** 34
 - **Projects with no jury score (all abstentions):** 287
 
 ## Abstention rates
@@ -15,94 +14,52 @@
 | claude | 5 | 0 | 1605 | 100.0% |
 | gemini | 5 | 0 | 1605 | 100.0% |
 | gpt41 | 5 | 155 | 1450 | 90.3% |
+| grok4 | 5 | 28 | 1577 | 98.3% |
 | mistral | 5 | 0 | 1605 | 100.0% |
 
-## Top 30 jury-scored projects
+## Grok4 divergence
 
-| Jury Rank | Project | Jury Score | Const Score | Const Rank | JuryConstGap | Pop Risk | Models |
-|-----------|---------|------------|-------------|------------|-------------|----------|--------|
-| 1 | All Our Ideas | 94 | 52.3 | 49 | +48 ⚠️ | LOW | 1 |
-| 2 | Alaveteli | 93 | 52.1 | 50 | +48 ⚠️ | HIGH | 1 |
-| 3 | Activist Handbook | 93 | 49.8 | 66 | +63 ⚠️ | LOW | 1 |
-| 4 | Bonfire | 92 | 64.9 | 4 | +0 | LOW | 1 |
-| 5 | CiviCRM | 91.5 | 54.1 | 38 | +33 ⚠️ | LOW | 1 |
-| 6 | ClimateAction.Tech | 91 | 44.1 | 126 | +120 ⚠️ | LOW | 1 |
-| 7 | Cobudget | 90 | 48.0 | 87 | +80 ⚠️ | LOW | 1 |
-| 8 | Citizen OS | 87 | 60.6 | 7 | -1 | LOW | 1 |
-| 9 | CKAN | 87.0 | 49.8 | 67 | +58 ⚠️ | HIGH | 1 |
-| 10 | Landlord Tech Watch | 87 | 25.5 | 274 | +264 ⚠️ | LOW | 1 |
-| 11 | Fundación Ciudadanía Inteligente | 85 | 57.1 | 19 | +8 | LOW | 1 |
-| 12 | Aleph (OCCRP) | 85 | 50.5 | 60 | +48 ⚠️ | LOW | 1 |
-| 13 | AlgorithmWatch | 84 | 55.2 | 32 | +19 | LOW | 1 |
-| 14 | adhocracy+ | 82 | 56.3 | 25 | +11 | LOW | 1 |
-| 15 | Bellingcat Online Investigation Toolkit | 82 | 44.3 | 124 | +109 ⚠️ | LOW | 1 |
-| 16 | Atlas of Surveillance | 82 | 42.3 | 145 | +129 ⚠️ | LOW | 1 |
-| 17 | arXiv | 78 | 19.0 | 301 | +284 ⚠️ | LOW | 1 |
-| 18 | Turn2us Benefits Calculator | 70 | 43.0 | 138 | +120 ⚠️ | HIGH | 1 |
-| 19 | Civic Tech Field Guide | 61.0 | 45.8 | 109 | +90 ⚠️ | HIGH | 1 |
-| 20 | Anna's Archive | 60 | 40.3 | 156 | +136 ⚠️ | LOW | 1 |
-| 21 | CivicPress | 59.0 | 38.5 | 170 | +149 ⚠️ | LOW | 1 |
-| 22 | Choose a License | 55 | 25.1 | 277 | +255 ⚠️ | LOW | 1 |
-| 23 | Channel.org | 54 | 51.8 | 53 | +30 ⚠️ | LOW | 1 |
-| 24 | Aragon | 54 | 29.5 | 241 | +217 ⚠️ | LOW | 1 |
-| 25 | Charity Digital Skills Report | 48 | 43.6 | 133 | +108 ⚠️ | LOW | 1 |
-| 26 | AISafety.info | 48 | 36.0 | 189 | +163 ⚠️ | LOW | 1 |
-| 27 | Kagi SlopStop | 47 | 30.7 | 230 | +203 ⚠️ | LOW | 1 |
-| 28 | Responsible Tech Guide 2025 | 46 | 38.5 | 169 | +141 ⚠️ | LOW | 1 |
-| 29 | Bluesky | 46 | 17.0 | 310 | +281 ⚠️ | LOW | 1 |
-| 30 | CharmVerse | 38 | 23.8 | 286 | +256 ⚠️ | LOW | 1 |
+Projects where Grok4 scored (rare — only 5-6 per run):
 
-## Analysis
-
-### Constitution-Jury agreement
-- Top 10 overlap: 2 projects appear in both constitutional top 10 and jury top 10
-- Shared: Bonfire, Citizen OS
-
-### Biggest JuryConstGap divergences
-- **arXiv**: gap +284 (jury ranked higher). Jury: 78, Const: 19.0
-- **Bluesky**: gap +281 (jury ranked higher). Jury: 46, Const: 17.0
-- **Collab.Land**: gap +266 (jury ranked higher). Jury: 22, Const: 20.4
-- **Landlord Tech Watch**: gap +264 (jury ranked higher). Jury: 87, Const: 25.5
-- **CharmVerse**: gap +256 (jury ranked higher). Jury: 38, Const: 23.8
-- **Choose a License**: gap +255 (jury ranked higher). Jury: 55, Const: 25.1
-- **Aragon**: gap +217 (jury ranked higher). Jury: 54, Const: 29.5
-- **Kagi SlopStop**: gap +203 (jury ranked higher). Jury: 47, Const: 30.7
-- **AISafety.info**: gap +163 (jury ranked higher). Jury: 48, Const: 36.0
-- **CivicPress**: gap +149 (jury ranked higher). Jury: 59.0, Const: 38.5
-
-### Grok4 divergence
-Grok4 runs pending — analysis will be updated when complete.
+| Project | Grok4 median | Panel median | Divergence |
+|---------|-------------|-------------|------------|
+| Alaveteli | 83 | 93 | -10 |
+| Activist Handbook | 76 | 93 | -17 |
+| AlgorithmWatch | 74 | 84 | -10 |
+| adhocracy+ | 72 | 82 | -10 |
+| Aleph (OCCRP) | 53 | 85 | -32 |
+| AISafety.info | 49 | 48 | 1 |
 
 ## Full jury results — all 321 projects
 
 | Jury Rank | Project | Jury Score | Const Score | JuryConstGap | Pop Risk | Note |
 |-----------|---------|------------|-------------|-------------|----------|------|
 | 1 | All Our Ideas | 94 | 52.3 | +48 | LOW | gap>20 |
-| 2 | Alaveteli | 93 | 52.1 | +48 | HIGH | gap>20 |
-| 3 | Activist Handbook | 93 | 49.8 | +63 | LOW | gap>20 |
-| 4 | Bonfire | 92 | 64.9 | +0 | LOW |  |
-| 5 | CiviCRM | 91.5 | 54.1 | +33 | LOW | gap>20 |
-| 6 | ClimateAction.Tech | 91 | 44.1 | +120 | LOW | gap>20 |
-| 7 | Cobudget | 90 | 48.0 | +80 | LOW | gap>20 |
-| 8 | Citizen OS | 87 | 60.6 | -1 | LOW |  |
-| 9 | CKAN | 87.0 | 49.8 | +58 | HIGH | gap>20 |
-| 10 | Landlord Tech Watch | 87 | 25.5 | +264 | LOW | gap>20 |
-| 11 | Fundación Ciudadanía Inteligente | 85 | 57.1 | +8 | LOW |  |
-| 12 | Aleph (OCCRP) | 85 | 50.5 | +48 | LOW | gap>20 |
-| 13 | AlgorithmWatch | 84 | 55.2 | +19 | LOW |  |
-| 14 | adhocracy+ | 82 | 56.3 | +11 | LOW |  |
-| 15 | Bellingcat Online Investigation Toolkit | 82 | 44.3 | +109 | LOW | gap>20 |
-| 16 | Atlas of Surveillance | 82 | 42.3 | +129 | LOW | gap>20 |
-| 17 | arXiv | 78 | 19.0 | +284 | LOW | gap>20 |
-| 18 | Turn2us Benefits Calculator | 70 | 43.0 | +120 | HIGH | gap>20 |
+| 2 | Bonfire | 92 | 64.9 | +2 | LOW |  |
+| 3 | CiviCRM | 91.5 | 54.1 | +35 | LOW | gap>20 |
+| 4 | ClimateAction.Tech | 91 | 44.1 | +122 | LOW | gap>20 |
+| 5 | Cobudget | 90 | 48.0 | +82 | LOW | gap>20 |
+| 6 | Alaveteli | 88.0 | 52.1 | +44 | HIGH | gap>20 |
+| 7 | Citizen OS | 87 | 60.6 | +0 | LOW |  |
+| 8 | CKAN | 87.0 | 49.8 | +59 | HIGH | gap>20 |
+| 9 | Landlord Tech Watch | 87 | 25.5 | +265 | LOW | gap>20 |
+| 10 | Fundación Ciudadanía Inteligente | 85 | 57.1 | +9 | LOW |  |
+| 11 | Activist Handbook | 84.5 | 49.8 | +55 | LOW | gap>20 |
+| 12 | Bellingcat Online Investigation Toolkit | 82 | 44.3 | +112 | LOW | gap>20 |
+| 13 | Atlas of Surveillance | 82 | 42.3 | +132 | LOW | gap>20 |
+| 14 | AlgorithmWatch | 79.0 | 55.2 | +18 | LOW |  |
+| 15 | arXiv | 78 | 19.0 | +286 | LOW | gap>20 |
+| 16 | adhocracy+ | 77.0 | 56.3 | +9 | LOW |  |
+| 17 | Turn2us Benefits Calculator | 70 | 43.0 | +121 | HIGH | gap>20 |
+| 18 | Aleph (OCCRP) | 69.0 | 50.5 | +42 | LOW | gap>20 |
 | 19 | Civic Tech Field Guide | 61.0 | 45.8 | +90 | HIGH | gap>20 |
 | 20 | Anna's Archive | 60 | 40.3 | +136 | LOW | gap>20 |
 | 21 | CivicPress | 59.0 | 38.5 | +149 | LOW | gap>20 |
 | 22 | Choose a License | 55 | 25.1 | +255 | LOW | gap>20 |
 | 23 | Channel.org | 54 | 51.8 | +30 | LOW | gap>20 |
 | 24 | Aragon | 54 | 29.5 | +217 | LOW | gap>20 |
-| 25 | Charity Digital Skills Report | 48 | 43.6 | +108 | LOW | gap>20 |
-| 26 | AISafety.info | 48 | 36.0 | +163 | LOW | gap>20 |
+| 25 | AISafety.info | 48.5 | 36.0 | +164 | LOW | gap>20 |
+| 26 | Charity Digital Skills Report | 48 | 43.6 | +107 | LOW | gap>20 |
 | 27 | Kagi SlopStop | 47 | 30.7 | +203 | LOW | gap>20 |
 | 28 | Responsible Tech Guide 2025 | 46 | 38.5 | +141 | LOW | gap>20 |
 | 29 | Bluesky | 46 | 17.0 | +281 | LOW | gap>20 |
