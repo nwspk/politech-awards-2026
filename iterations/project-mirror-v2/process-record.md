@@ -346,3 +346,65 @@ The Python scoring algorithm used to produce all 321 scores is preserved in /tmp
 *Script text available on request from agent-notes.md or /tmp/score_projects.py*
 
 ---
+
+## Run: Nicholas Botti
+Date: 2026-03-28
+Branch: project-mirror-v2/nicholas-botti
+PR: TBD (created after this entry)
+Sub-agents run: mirror-researcher, mirror-verifier, mirror-evidence, mirror-constitutional-criteria, mirror-constitutional-modifiers, mirror-constitutional-procedural, mirror-constitutional-synthesiser, mirror-jury (5 models × 5 runs attempted — see critical issue below), mirror-ranking (4 batches), mirror-jury-aggregator, mirror-ranking-merger, mirror-reflective, mirror-notetaker
+Models used in jury: GPT-4.1, Claude Opus 4, Gemini 2.5 Pro, Mistral Large, Grok 4 (partial — see issues)
+Constitutional winner: AlgorithmWatch (score 87.5/100)
+Jury winner (partial data): LittleSis (jury score 85.0, but only 158/321 projects scored)
+
+---
+
+### CRITICAL ISSUE: OpenRouter 402 Credit Exhaustion
+
+**Issue:** The OpenRouter account exhausted available credits after completing run 1 of each jury model. Runs 2–5 for all five models returned HTTP 402 errors and were recorded as full abstentions in the jury logs.
+
+**Impact:** Only run 1 per model contains real scores. Within run 1, only GPT-4.1 (153/321 scored), Claude (46/321), and Mistral (25/321) returned any scores. Gemini and Grok4 abstained on all 321 projects in run 1. Effective jury panel is a partial 3-model, single-run panel covering 158 of 321 projects.
+
+**Consequence:** Rank stability metrics (which require multiple runs per model) cannot be computed. Jury scores are directional estimates from a degraded jury. The constitutional ranking is the definitive output for this run.
+
+**Resolution:** Documented in jury-summary.md and agent-notes.md. The constitutional ranking-table.csv is not affected (it uses a keyword-scoring algorithm against dossier data, not API calls). A rerun of the jury with replenished credits would complete this profile properly.
+
+**Status:** Open — requires credit replenishment and jury rerun.
+
+---
+
+### DESIGN DECISIONS MADE DURING THIS RUN
+
+**Decision:** Jury aggregation uses run-1-only data without simulation fallback
+**Rationale:** Unlike the Aadi Kulkarni pilot (which used simulated jury scores when real API calls were not feasible), this run documents the 402 failure transparently and produces jury-summary.md from actual run-1 data only. No synthetic scores were inserted to fill the missing runs. The constitutional ranking, which does not depend on API calls, is the complete and reliable output. The jury data is partial and labelled as such throughout.
+**Alternatives considered:** Fill missing runs with simulated scores (rejected — would mix real and synthetic data without clear labelling, undermining the audit trail); mark all jury data as invalid (rejected — the available run-1 data is real and has directional value even if not statistically complete).
+**Prompted by:** OpenRouter 402 error on runs 2–5.
+
+---
+
+### METHODOLOGY NOTES
+
+**Constitution profile:** Nicholas Botti's constitution is the most distinctive in the cohort so far. Three 20-point criteria (AI institutional safety, regulatory/financial infrastructure, complexity-aware methodology) strongly reward a narrow class of projects that sit at the intersection of AI governance, institutional deployment, and epistemic honesty about failure modes. This produces a top 10 that is cohesive (AlgorithmWatch, Polis, Matrix, vTaiwan, HURIDOCS, OpenProcurement, Decidim, PolicyEngine, Mastodon, Open Digital Planning) but heavily concentrated in well-documented projects.
+
+**Underdog protection: NO** — explicit constitutional choice. Thin evidence is treated as a negative signal. 99/321 projects (31%) have completeness < 0.4 and cluster in the 22–50 score range.
+
+**Score distribution:** Max=87.5, Min=12.0, Mean=47.6. Two projects abstained (Unknown Academic Paper SSRN 5351275, Tracking Template — empty dossiers).
+
+**Constitutional blind spot identified:** The constitution rewards institutional improvement from inside (tools that help institutions govern better) but cannot adequately see accountability from outside (tools that help citizens contest institutional decisions). Criterion 2 (regulatory infrastructure) scores well for tools that serve regulators; it does not differentiate tools that make regulation legible to citizens who want to challenge it.
+
+**Popularity risk:** 21 of 321 projects flagged HIGH popularity risk. All 21 are in the top 30. Estimated documentation inflation: 5–12 points per project. AlgorithmWatch, Polis, Matrix, and vTaiwan all carry HIGH popularity risk flags despite genuine strong constitutional fit.
+
+**Jury divergence highlights:**
+- Largest positive gap (jury loves more): docs.plus (const 273, jury 30, gap +243) — GPT-4.1's progressive framing rewards community documentation tools the constitution doesn't see
+- Largest negative gap (constitution loves more): DISARM Frameworks (const 11, jury 108, gap −97) — disinformation intelligence infrastructure scores very high constitutionally; without Nicholas's specific framing, jury models rank it lower
+
+---
+
+### ISSUES LOG
+
+| Issue | Type | Impact | Resolution | Status |
+|---|---|---|---|---|
+| OpenRouter 402 credit exhaustion after run 1 | api-failure | Jury is partial; rank stability unmeasurable | Documented; constitutional ranking is complete output | Open — needs credit replenishment and rerun |
+| Gemini 2.5 Pro fully abstained in run 1 | model-behaviour | No Gemini scores available | Documented; instruction may have been applied maximally | Open |
+| Grok 4 fully abstained in run 1 | model-behaviour | No right-adjacent divergence measurable | Documented; 402 on subsequent runs | Open |
+| process-record.md missing from working tree | pipeline-deviation | Could not append without git restore | Restored from git HEAD with `git checkout HEAD -- iterations/project-mirror-v2/process-record.md` | Closed |
+| No LinkedIn full profile, no public writing found | evidence-gap | Constitution rests on bio and single arXiv paper for values | Constitution built on available evidence; MEDIUM confidence declared | Open — would improve with any new public writing found |
