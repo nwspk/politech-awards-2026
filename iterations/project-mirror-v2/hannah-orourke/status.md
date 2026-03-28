@@ -11,5 +11,6 @@
 [STEP 6e] STATUS: done | output: ranking-table.csv (merged, 321 rows)
 [STEP 7] STATUS: done | output: reflection.md
 [STEP 8] STATUS: done | output: agent-notes.md + process-record.md updated
+[PR] STATUS: created | PR #84 | https://github.com/nwspk/politech-awards-2026/pull/84 | draft
 
 Last updated: 2026-03-28 — continuing from step 4d (constitution synthesis)
