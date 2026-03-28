@@ -13,8 +13,41 @@ Canonical full iteration history for `/awards` rendering. Generated from `iterat
 | v5 | 2026-02-22 | @Gamithra | merged | Three-agent ITN/A deliberation: independent AI evaluators assess each project through political, relational, and experimental personas on 4 different lenses, argue in multi-turn conversation, and produce a ranked shortlist. | [v5](https://github.com/nwspk/politech-awards-2026/pull/12) | [entry](#v5-three-agent-itn-a-deliberation) |
 | v6 | 2026-03-09 | @sugaroverflow | open | This heuristic inherits the approach in [v5: ITN/A multi-agent deliberation heuristic](https://github.com/nwspk/politech-awards-2026/pull/12) with **6 independent AI juries** that run an ITN/A deliberation on a shortlist of 183 projects. The jury with the highest confidence score picks the project winner. | [v6](https://github.com/nwspk/politech-awards-2026/pull/15) | [entry](#v6-six-jury-itn-a-deliberation) |
 | v8 | 2026-03-27 | @Gamithra | open | This iteration keeps the **v5 ITN/A architecture**: Grok 4.1 Fast assesses every candidate on political, relational, and experimental lenses, then a facilitator-led multi-agent deliberation scores and argues over a **shortlist** of projects that cleared a green threshold on those assessments. | n/a | [entry](#v8-itn-a-grok-re-run-with-awards-bonuses-effective-score-alignment) |
+| v9 | 2026-03-28 | @Gamithra | open | Same **v5 ITN/A** setup (Grok 4.1 Fast: tri-lens assessment → shortlist → facilitator-led deliberation with relative scoring and multi-turn argument). **Deliberation adds awards-context bonuses** (−5 to +5 each: relevance, project concreteness, novelty) stored separately from the pure ITN/A aggregate. **`the-algorithm.ts` uses `aggregate_effective`** (ITN/A + bonuses, clamped 0–100; fallback to `aggregate`) for deliberated rows so **`results.json` matches deliberation ordering**. Non-deliberated rows keep v5 tiers: 2+ greens → 45, 1 green → 20, else 5. Dossier normalisation and URL normalisation keep `candidates.csv` aligned with `cache/assessments-grok.json` and `cache/deliberation-grok.json`. | [v9](https://github.com/nwspk/politech-awards-2026/pull/41) | [entry](#v9-itn-a-grok-re-run-with-awards-bonuses-effective-score-alignment-v8) |
 
 ## Full iteration records
+
+### v9 ITN/A Grok re-run with awards bonuses + effective-score alignment (v8)
+
+- **PR**: [v9](https://github.com/nwspk/politech-awards-2026/pull/41)
+- **Status**: open
+- **Author**: @Gamithra
+- **Date**: 2026-03-28
+- **Top project**: [blog.kagi.com](https://blog.kagi.com/slopstop) (score: 99)
+
+#### Heuristic
+
+Same **v5 ITN/A** setup (Grok 4.1 Fast: tri-lens assessment → shortlist → facilitator-led deliberation with relative scoring and multi-turn argument). **Deliberation adds awards-context bonuses** (−5 to +5 each: relevance, project concreteness, novelty) stored separately from the pure ITN/A aggregate. **`the-algorithm.ts` uses `aggregate_effective`** (ITN/A + bonuses, clamped 0–100; fallback to `aggregate`) for deliberated rows so **`results.json` matches deliberation ordering**. Non-deliberated rows keep v5 tiers: 2+ greens → 45, 1 green → 20, else 5. Dossier normalisation and URL normalisation keep `candidates.csv` aligned with `cache/assessments-grok.json` and `cache/deliberation-grok.json`.
+
+#### Rationale
+
+Bonuses make **timeliness, concreteness, and novelty** legible without corrupting the core ITN/A debate. Aligning the algorithm to **`aggregate_effective`** fixes a consistency bug: the jury saw bonus-adjusted scores but the leaderboard did not. Together with **ROUND 1 token budget / retries** and **safer enriched-field parsing**, this iteration is a deliberate **awards-focused** refinement of the v5 pipeline rather than a new jury architecture.
+
+#### Data sources
+
+- project URL
+- scraped content
+- additional data files
+
+#### Limitations
+
+Single model throughout (no v6-style multi-jury check). Bonus dimensions are subjective. Most projects still sit in coarse non-deliberated tiers. Scores remain ordinal, not cardinal.
+
+#### Assessment
+
+**SlopStop** (99) at the top is consistent with high relevance to 2026 platform-quality / “slop” debates plus strong concrete-project signalling in the bonus pass; **Bonfire** and **rsky** (97) illustrate tight ITN/A fields separated by awards bonuses.
+
+---
 
 ### v8 ITN/A Grok re-run with awards bonuses + effective-score alignment
 

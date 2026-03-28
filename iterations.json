@@ -192,5 +192,30 @@
     "limitations": "- **Single jury / single model family** for this iteration (Grok throughout evaluation and deliberation). Unlike v6, there is no cross-model robustness check.\n- **Bonuses are model judgments**, not external facts; they can reinforce hype or familiarity as easily as they surface deserved recognition.\n- **Most candidates remain in coarse non-deliberated tiers** (45 / 20 / 5); fine structure is concentrated on the shortlist.\n- **Effective scores are ordinal guides**, not cardinal welfare measures — large gaps between tiers are intentional.",
     "assessment": "With **`aggregate_effective`**, the head of **`results.json`** matches the deliberation ranking: **SlopStop** leads at **99**, reflecting strong ITN/A scores plus high awards bonuses on **relevance** (AI slop / information integrity in 2026) and **project concreteness**. **Bonfire** and **rsky** sit just behind at **97**, illustrating how bonuses reorder tightly contested ITN/A peers.\n\nWorth comparing to **v5** (single Grok, no bonuses) and **v6** (six juries, confidence-based promotion) to see whether this is a stable “awards-shaped” correction or a single-model artefact. A useful follow-up is whether to **publish bonus breakdowns** next to ranks for committee audit, or to re-run the same rubric with a second model jury.",
     "vote_result": null
+  },
+  {
+    "version": "v9",
+    "title": "ITN/A Grok re-run with awards bonuses + effective-score alignment (v8)",
+    "date": "2026-03-28",
+    "author": "@Gamithra",
+    "pr_number": 41,
+    "pr_url": "https://github.com/nwspk/politech-awards-2026/pull/41",
+    "pr_status": "open",
+    "top_project": {
+      "name": "blog.kagi.com",
+      "url": "https://blog.kagi.com/slopstop",
+      "score": 99
+    },
+    "heuristic": "Same **v5 ITN/A** setup (Grok 4.1 Fast: tri-lens assessment → shortlist → facilitator-led deliberation with relative scoring and multi-turn argument). **Deliberation adds awards-context bonuses** (−5 to +5 each: relevance, project concreteness, novelty) stored separately from the pure ITN/A aggregate. **`the-algorithm.ts` uses `aggregate_effective`** (ITN/A + bonuses, clamped 0–100; fallback to `aggregate`) for deliberated rows so **`results.json` matches deliberation ordering**. Non-deliberated rows keep v5 tiers: 2+ greens → 45, 1 green → 20, else 5. Dossier normalisation and URL normalisation keep `candidates.csv` aligned with `cache/assessments-grok.json` and `cache/deliberation-grok.json`.",
+    "rationale": "Bonuses make **timeliness, concreteness, and novelty** legible without corrupting the core ITN/A debate. Aligning the algorithm to **`aggregate_effective`** fixes a consistency bug: the jury saw bonus-adjusted scores but the leaderboard did not. Together with **ROUND 1 token budget / retries** and **safer enriched-field parsing**, this iteration is a deliberate **awards-focused** refinement of the v5 pipeline rather than a new jury architecture.",
+    "data_sources": [
+      "project URL",
+      "scraped content",
+      "additional data files"
+    ],
+    "keywords": null,
+    "limitations": "Single model throughout (no v6-style multi-jury check). Bonus dimensions are subjective. Most projects still sit in coarse non-deliberated tiers. Scores remain ordinal, not cardinal.",
+    "assessment": "**SlopStop** (99) at the top is consistent with high relevance to 2026 platform-quality / “slop” debates plus strong concrete-project signalling in the bonus pass; **Bonfire** and **rsky** (97) illustrate tight ITN/A fields separated by awards bonuses.",
+    "vote_result": null
   }
 ]
