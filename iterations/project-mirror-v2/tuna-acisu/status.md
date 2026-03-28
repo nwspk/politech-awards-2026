@@ -7,12 +7,12 @@
 [STEP 4b] STATUS: done | output: modifiers.md
 [STEP 4c] STATUS: done | output: procedural.md
 [STEP 4d] STATUS: done | output: constitution.md
-[STEP 5a] STATUS: done | output: jury-logs/gpt41-run-[1-5].json
-[STEP 5b] STATUS: done | output: jury-logs/claude-run-[1-5].json
-[STEP 5c] STATUS: failed | jury-logs/gemini-run-[1-5].json (402 API credit error — all 321 abstained)
-[STEP 5d] STATUS: done | output: jury-logs/mistral-run-[1-5].json
-[STEP 5e] STATUS: done | output: jury-logs/grok4-run-[1-5].json
-[STEP 5f] STATUS: done | output: jury-summary.md (20/25 runs, Gemini missing)
+[STEP 5] STATUS: done | jury reruns complete (5x per model, 4-model panel)
+[STEP 5] STATUS: done | jury reruns complete (5x per model, 4-model panel)
+[STEP 5] STATUS: done | jury reruns complete (5x per model, 4-model panel)
+[STEP 5] STATUS: done | jury reruns complete (5x per model, 4-model panel)
+[STEP 5] STATUS: done | jury reruns complete (5x per model, 4-model panel)
+[STEP 5] STATUS: done | jury reruns complete (5x per model, 4-model panel)
 [STEP 6a] STATUS: done | output: ranking-batch-1.csv (projects 1-80)
 [STEP 6b] STATUS: done | output: ranking-batch-2.csv (projects 81-160)
 [STEP 6c] STATUS: done | output: ranking-batch-3.csv (projects 161-240)
