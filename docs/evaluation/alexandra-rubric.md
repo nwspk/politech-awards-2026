@@ -129,23 +129,68 @@ How much impact per unit of funding? (Requires funding data where possible.)
 
 **Example calibration:** Granicus = 1; mySociety = 2–3; WorkerInfoExchange = 4; conservativepartyfunding.co.uk = 5; thegovernmentsays.com = 5
 
+### D9 — Net civic benefit / misuse risk (1–5)
+
+Can this project's positive societal impact be explicitly tracked? Is there documented or structural misuse risk?
+
+| Score | Description |
+|------:|-------------|
+| 1 | Primary or equally prominent documented use is harmful or illegal; positive civic impact cannot be isolated from misuse; OR net societal impact is contested or demonstrably negative |
+| 2 | Significant dual-use concern; positive civic use is real but structurally inseparable from harmful use; OR civic benefit is theoretical or structural, with no trackable positive outcomes |
+| 3 | Primarily civic intent; some dual-use potential but not documented at scale; benefit measurable in principle but data is sparse or indirect |
+| 4 | Explicit positive societal outcomes documented and attributable; misuse is limited or structurally contained by the tool's design |
+| 5 | Demonstrable, population-level positive civic impact that can be tracked with specific evidence; misuse is structurally prevented or negligible by design |
+
+**Scope rule:** Score the *net* effect across the full user population, not just intended use.
+- A tool used by 90% activists and 10% criminals is not automatically a 4 — the 10% matters if the harm is severe and unmitigable.
+- A tool with only civic users but no documented outcomes is a 3, not a 5.
+
+**Evidence requirements:**
+- D9 ≤ 2: cite documented misuse OR explain why positive benefit cannot be isolated from harm
+- D9 ≥ 4: cite specific tracked outcomes — court cases, policy changes, user counts with a verified civic purpose, savings figures, or similar
+- D9 = 3: state what evidence would be needed to move the score up or down
+
+**Example calibration:**
+
+| Score | Project | Rationale |
+|------:|---------|-----------|
+| 1 | Sci-Hub | Copyright infringement is the primary legal characterisation; no civic governance function; illegal in most jurisdictions |
+| 1 | The DAO (2016) | $60M hack; Ethereum chain split; net societal impact contested or negative |
+| 2 | Tor Project | Dark web criminal use (drug markets, CSAM) is structurally inseparable from activist use; positive impact on dissidents is real but cannot be isolated or quantified at the aggregate |
+| 2 | Aragon | VC-backed crypto governance; outcomes primarily financial; civic benefit theoretical |
+| 3 | Matrix | Hosts some extremist instances; net civic benefit likely positive but unquantified at instance level |
+| 3 | Internet Archive | Clear preservation benefit; ongoing copyright litigation is a live misuse dispute |
+| 4 | Aleph / OCCRP | Documented corruption exposures attributable to the tool; misuse structurally limited (vetted journalist access) |
+| 4 | Open Contracting Partnership | Policy adoption documented across jurisdictions; savings figures published |
+| 5 | SecureDrop | Whistleblowing outcomes documented; design structurally prevents misuse (no metadata retained, journalist-only access model) |
+| 5 | Decidim | Participatory budgeting outcomes tracked per city; open governance audit trail |
+| 5 | OpenProcurement (ProZorro) | $4B+ documented procurement savings; independently audited; anti-corruption by design |
+| 5 | Worker Info Exchange | Court wins for gig workers are public record; direct attribution to tool |
+
 ---
 
 ## Award A weights (headline composite)
 
 | Dimension | Weight |
 |-----------|--------:|
-| D1 Power asymmetry | 25% |
-| D2 Democratic depth | 20% |
-| D3 Counterfactual impact | 15% |
+| D1 Power asymmetry | 20% |
+| D2 Democratic depth | 15% |
+| D3 Counterfactual impact | 5% |
 | D4 Scale | 10% |
 | D5 Leverage | 10% |
-| D6 Accountability outcomes | 10% |
+| D6 Accountability outcomes | 15% |
 | D7 Openness | 5% |
 | D8 Resource efficiency | 5% |
+| D9 Net civic benefit | 15% |
 
-**Composite (1–5 scale):**  
-`0.25·D1 + 0.20·D2 + 0.15·D3 + 0.10·D4 + 0.10·D5 + 0.10·D6 + 0.05·D7 + 0.05·D8`
+**Composite (1–5 scale):**
+`0.20·D1 + 0.15·D2 + 0.05·D3 + 0.10·D4 + 0.10·D5 + 0.15·D6 + 0.05·D7 + 0.05·D8 + 0.15·D9`
+
+**Rationale for weight changes vs. v9:**
+- D9 (15%) is new: rewards demonstrable civic benefit, penalises unresolved misuse risk
+- D6 raised 10%→15%: accountability outcomes are the primary proxy for trackable positive impact
+- D3 reduced 15%→5%: counterfactual impact correlated too strongly with D1 (r=0.76); retained only as a tiebreaker
+- D1 reduced 25%→20%, D2 reduced 20%→15%: weight redistributed to evidence-based dimensions
 
 ---
 

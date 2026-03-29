@@ -1,15 +1,16 @@
 {
-  "generated_at": "2026-03-28T23:21:48.039Z",
+  "generated_at": "2026-03-29T14:28:17.204Z",
   "rubric_path": "docs/evaluation/alexandra-rubric.md",
   "weights": {
-    "D1": 0.25,
-    "D2": 0.2,
-    "D3": 0.15,
+    "D1": 0.2,
+    "D2": 0.15,
+    "D3": 0.05,
     "D4": 0.1,
     "D5": 0.1,
-    "D6": 0.1,
+    "D6": 0.15,
     "D7": 0.05,
-    "D8": 0.05
+    "D8": 0.05,
+    "D9": 0.15
   },
   "projects": [
     {
@@ -23,18 +24,17 @@
         "D5": 2,
         "D6": 1,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.35,
+      "median_composite": 2.4,
       "juror_composites": {
-        "grok": 2.15,
-        "claude": 2.35,
-        "kimi": 2.4
+        "claude": 2.4
       },
       "controversial_dimensions": [
         "D2"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://adhocracy.plus",
@@ -47,16 +47,15 @@
         "D5": 3,
         "D6": 2,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
       "median_composite": 2.8,
       "juror_composites": {
-        "grok": 3.2,
-        "claude": 2.8,
-        "kimi": 2.55
+        "claude": 2.8
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://aisafety.info",
@@ -69,18 +68,17 @@
         "D5": 1,
         "D6": 1,
         "D7": 3,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.7,
+      "median_composite": 1.85,
       "juror_composites": {
-        "grok": 2.3,
-        "claude": 1.7,
-        "kimi": 1.65
+        "claude": 1.85
       },
       "controversial_dimensions": [
         "D1"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://alaveteli.org",
@@ -93,16 +91,15 @@
         "D5": 3,
         "D6": 3,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.7,
+      "median_composite": 3,
       "juror_composites": {
-        "grok": 2.7,
-        "claude": 2.95,
-        "kimi": 2.6
+        "claude": 3
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://aleph.occrp.org",
@@ -115,16 +112,15 @@
         "D5": 4,
         "D6": 5,
         "D7": 4,
-        "D8": 2
+        "D8": 2,
+        "D9": 4
       },
-      "median_composite": 3.8,
+      "median_composite": 3.35,
       "juror_composites": {
-        "grok": 3.8,
-        "claude": 3.15,
-        "kimi": 3.8
+        "claude": 3.35
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://algorithmwatch.org",
@@ -137,16 +133,15 @@
         "D5": 2,
         "D6": 3,
         "D7": 3,
-        "D8": 3
+        "D8": 3,
+        "D9": 4
       },
-      "median_composite": 2.95,
+      "median_composite": 3.1,
       "juror_composites": {
-        "grok": 3.4,
-        "claude": 2.95,
-        "kimi": 2.9
+        "claude": 3.1
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://all-our-ideas.citizens.is",
@@ -159,16 +154,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
       "median_composite": 2.5,
       "juror_composites": {
-        "grok": 2.65,
-        "claude": 2.5,
-        "kimi": 2.4
+        "claude": 2.5
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://alltechishuman.org/responsible-tech-guide-2025",
@@ -181,16 +175,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.6,
+      "median_composite": 1.85,
       "juror_composites": {
-        "grok": 1.5,
-        "claude": 1.6,
-        "kimi": 1.75
+        "claude": 1.85
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://annas-archive.pm",
@@ -203,18 +196,17 @@
         "D5": 3,
         "D6": 2,
         "D7": 4,
-        "D8": 4
+        "D8": 4,
+        "D9": 2
       },
-      "median_composite": 3.2,
+      "median_composite": 2.95,
       "juror_composites": {
-        "grok": 2.65,
-        "claude": 3.2,
-        "kimi": 3.25
+        "claude": 2.95
       },
       "controversial_dimensions": [
         "D3"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://antievictionmappingproject.github.io/landlordtech",
@@ -227,16 +219,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 4,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 2.85,
+      "median_composite": 2.8,
       "juror_composites": {
-        "grok": 3,
-        "claude": 2.85,
-        "kimi": 2.85
+        "claude": 2.8
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://aragon.org",
@@ -249,17 +240,17 @@
         "D5": 3.5,
         "D6": 2,
         "D7": 3,
-        "D8": 2
+        "D8": 2,
+        "D9": 2
       },
-      "median_composite": 3.5,
+      "median_composite": 2.8,
       "juror_composites": {
-        "grok": 3.95,
-        "claude": 3.05
+        "claude": 2.8
       },
       "controversial_dimensions": [
         "D4"
       ],
-      "jurors_count": 2
+      "jurors_count": 1
     },
     {
       "url": "https://arxiv.org",
@@ -272,18 +263,17 @@
         "D5": 5,
         "D6": 2,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 4
       },
-      "median_composite": 3.15,
+      "median_composite": 3.3,
       "juror_composites": {
-        "grok": 3.55,
-        "claude": 3.15,
-        "kimi": 2.75
+        "claude": 3.3
       },
       "controversial_dimensions": [
         "D1"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://arxiv.org/abs/2005.13701",
@@ -296,19 +286,18 @@
         "D5": 2,
         "D6": 1,
         "D7": 3,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 2.95,
+      "median_composite": 2.8,
       "juror_composites": {
-        "grok": 3.1,
-        "claude": 2.95,
-        "kimi": 2.5
+        "claude": 2.8
       },
       "controversial_dimensions": [
         "D7",
         "D8"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://atlasofsurveillance.org",
@@ -321,16 +310,15 @@
         "D5": 2,
         "D6": 3,
         "D7": 3,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 3,
+      "median_composite": 2.95,
       "juror_composites": {
-        "grok": 3.1,
-        "claude": 2.95,
-        "kimi": 3
+        "claude": 2.95
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://bellingcat.gitbook.io/toolkit",
@@ -343,19 +331,18 @@
         "D5": 3,
         "D6": 4,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 4
       },
-      "median_composite": 3.2,
+      "median_composite": 3.45,
       "juror_composites": {
-        "grok": 2.5,
-        "claude": 3.35,
-        "kimi": 3.2
+        "claude": 3.45
       },
       "controversial_dimensions": [
         "D4",
         "D6"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://benefits-calculator.turn2us.org.uk",
@@ -368,16 +355,15 @@
         "D5": 1,
         "D6": 2,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.05,
+      "median_composite": 2.3,
       "juror_composites": {
-        "grok": 2.05,
-        "claude": 2.2,
-        "kimi": 1.95
+        "claude": 2.3
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://blog.kagi.com/slopstop",
@@ -390,19 +376,18 @@
         "D5": 1,
         "D6": 1,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.85,
+      "median_composite": 1.95,
       "juror_composites": {
-        "grok": 2.75,
-        "claude": 1.85,
-        "kimi": 1.65
+        "claude": 1.95
       },
       "controversial_dimensions": [
         "D1",
         "D3"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://bonfirenetworks.org/",
@@ -415,16 +400,15 @@
         "D5": 3,
         "D6": 1,
         "D7": 5,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 3.05,
+      "median_composite": 2.8,
       "juror_composites": {
-        "grok": 3.4,
-        "claude": 2.95,
-        "kimi": 3.05
+        "claude": 2.8
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://bsky.app",
@@ -437,16 +421,15 @@
         "D5": 3,
         "D6": 2,
         "D7": 3,
-        "D8": 2
+        "D8": 2,
+        "D9": 3
       },
       "median_composite": 2.75,
       "juror_composites": {
-        "grok": 3,
-        "claude": 2.75,
-        "kimi": 2.65
+        "claude": 2.75
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://channel.org",
@@ -459,18 +442,17 @@
         "D5": 2,
         "D6": 1,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 2
       },
-      "median_composite": 2.15,
+      "median_composite": 2.05,
       "juror_composites": {
-        "grok": 1.8,
-        "claude": 2.15,
-        "kimi": 2.25
+        "claude": 2.05
       },
       "controversial_dimensions": [
         "D2"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://charitydigitalskills.co.uk",
@@ -483,18 +465,17 @@
         "D5": 1,
         "D6": 2,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.6,
+      "median_composite": 2.15,
       "juror_composites": {
-        "grok": 1.4,
-        "claude": 2,
-        "kimi": 1.6
+        "claude": 2.15
       },
       "controversial_dimensions": [
         "D4"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://charmverse.io/",
@@ -507,16 +488,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 3,
-        "D8": 2
+        "D8": 2,
+        "D9": 2
       },
-      "median_composite": 2.25,
+      "median_composite": 2.05,
       "juror_composites": {
-        "grok": 2.45,
-        "claude": 2.15,
-        "kimi": 2.25
+        "claude": 2.05
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://choosealicense.com",
@@ -529,16 +509,15 @@
         "D5": 3,
         "D6": 1,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.25,
+      "median_composite": 2.45,
       "juror_composites": {
-        "grok": 2.35,
-        "claude": 2.25,
-        "kimi": 2.15
+        "claude": 2.45
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://citizenos.com/platform/",
@@ -551,16 +530,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 3,
+      "median_composite": 2.8,
       "juror_composites": {
-        "grok": 3,
-        "claude": 2.8,
-        "kimi": 3.05
+        "claude": 2.8
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://ciudadaniai.org",
@@ -573,16 +551,15 @@
         "D5": 2,
         "D6": 3,
         "D7": 3,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 3.1,
+      "median_composite": 2.9,
       "juror_composites": {
-        "grok": 3.1,
-        "claude": 2.9,
-        "kimi": 3.1
+        "claude": 2.9
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://civiclick.com",
@@ -595,16 +572,15 @@
         "D5": 1,
         "D6": 2,
         "D7": 1,
-        "D8": 2
+        "D8": 2,
+        "D9": 2
       },
       "median_composite": 2,
       "juror_composites": {
-        "grok": 2.2,
-        "claude": 2,
-        "kimi": 1.85
+        "claude": 2
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://civicmatch.app",
@@ -617,16 +593,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 1,
-        "D8": 3
+        "D8": 3,
+        "D9": 2
       },
-      "median_composite": 1.7,
+      "median_composite": 1.65,
       "juror_composites": {
-        "grok": 1.55,
-        "claude": 1.7,
-        "kimi": 1.8
+        "claude": 1.65
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://civicpress.io/",
@@ -639,16 +614,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 3,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 1.65,
+      "median_composite": 1.8,
       "juror_composites": {
-        "grok": 1.5,
-        "claude": 1.65,
-        "kimi": 1.8
+        "claude": 1.8
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://civicrm.org",
@@ -661,16 +635,15 @@
         "D5": 3,
         "D6": 2,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.6,
+      "median_composite": 2.65,
       "juror_composites": {
-        "grok": 2.8,
-        "claude": 2.6,
-        "kimi": 2.6
+        "claude": 2.65
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://civictech.guide",
@@ -683,19 +656,18 @@
         "D5": 3,
         "D6": 2,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.9,
+      "median_composite": 2.35,
       "juror_composites": {
-        "grok": 1.5,
-        "claude": 2.25,
-        "kimi": 1.9
+        "claude": 2.35
       },
       "controversial_dimensions": [
         "D4",
         "D5"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://ckan.org",
@@ -708,16 +680,15 @@
         "D5": 4,
         "D6": 3,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 4
       },
-      "median_composite": 2.9,
+      "median_composite": 3.25,
       "juror_composites": {
-        "grok": 2.9,
-        "claude": 3.1,
-        "kimi": 2.55
+        "claude": 3.25
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://climateaction.tech",
@@ -730,16 +701,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 4,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 2.75,
+      "median_composite": 2.8,
       "juror_composites": {
-        "grok": 2.95,
-        "claude": 2.75,
-        "kimi": 2.2
+        "claude": 2.8
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://cobudget.com",
@@ -752,16 +722,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 4,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
       "median_composite": 3,
       "juror_composites": {
-        "grok": 3,
-        "claude": 3.05,
-        "kimi": 3
+        "claude": 3
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://collab.land",
@@ -774,16 +743,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 1,
-        "D8": 2
+        "D8": 2,
+        "D9": 2
       },
-      "median_composite": 1.5,
+      "median_composite": 1.55,
       "juror_composites": {
-        "grok": 1.4,
-        "claude": 1.5,
-        "kimi": 1.6
+        "claude": 1.55
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://collaborative-data.theodi.org",
@@ -796,16 +764,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 3,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.9,
+      "median_composite": 2,
       "juror_composites": {
-        "grok": 1.7,
-        "claude": 1.9,
-        "kimi": 2
+        "claude": 2
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://commonslibrary.org",
@@ -818,16 +785,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.95,
+      "median_composite": 2.05,
       "juror_composites": {
-        "grok": 1.95,
-        "claude": 1.95,
-        "kimi": 1.85
+        "claude": 2.05
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://communities.sunlightfoundation.com/methodology",
@@ -840,16 +806,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.6,
+      "median_composite": 2.45,
       "juror_composites": {
-        "grok": 3.1,
-        "claude": 2.35,
-        "kimi": 2.6
+        "claude": 2.45
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://communityrule.info",
@@ -862,16 +827,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.25,
+      "median_composite": 2.3,
       "juror_composites": {
-        "grok": 2.8,
-        "claude": 2.25,
-        "kimi": 2.25
+        "claude": 2.3
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://conservativepartyfunding.co.uk",
@@ -884,16 +848,15 @@
         "D5": 1,
         "D6": 2,
         "D7": 1,
-        "D8": 5
+        "D8": 5,
+        "D9": 3
       },
-      "median_composite": 2.15,
+      "median_composite": 2.2,
       "juror_composites": {
-        "grok": 1.6,
-        "claude": 2.15,
-        "kimi": 2.2
+        "claude": 2.2
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://constituteproject.org",
@@ -906,16 +869,15 @@
         "D5": 3,
         "D6": 3,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 4
       },
-      "median_composite": 2.3,
+      "median_composite": 2.6,
       "juror_composites": {
-        "grok": 2.55,
-        "claude": 2.3,
-        "kimi": 2.3
+        "claude": 2.6
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://consulproject.org",
@@ -928,16 +890,15 @@
         "D5": 4,
         "D6": 3,
         "D7": 5,
-        "D8": 3
+        "D8": 3,
+        "D9": 4
       },
-      "median_composite": 3.65,
+      "median_composite": 3.5,
       "juror_composites": {
-        "grok": 4.1,
-        "claude": 3.4,
-        "kimi": 3.65
+        "claude": 3.5
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://contractsfordatacollaboration.org",
@@ -950,16 +911,15 @@
         "D5": 3,
         "D6": 2,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.25,
+      "median_composite": 2.4,
       "juror_composites": {
-        "grok": 2.25,
-        "claude": 2.25,
-        "kimi": 2.25
+        "claude": 2.4
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://coops.tech",
@@ -972,19 +932,18 @@
         "D5": 2,
         "D6": 1,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.7,
+      "median_composite": 2.65,
       "juror_composites": {
-        "grok": 3.1,
-        "claude": 2.7,
-        "kimi": 2.05
+        "claude": 2.65
       },
       "controversial_dimensions": [
         "D1",
         "D2"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://coralproject.net",
@@ -997,16 +956,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.25,
+      "median_composite": 2.4,
       "juror_composites": {
-        "grok": 2.1,
-        "claude": 2.25,
-        "kimi": 2.25
+        "claude": 2.4
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://cortico.ai/platform",
@@ -1019,16 +977,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.35,
+      "median_composite": 2.45,
       "juror_composites": {
-        "grok": 2.65,
-        "claude": 2.35,
-        "kimi": 2.35
+        "claude": 2.45
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://cotsi.org/",
@@ -1041,16 +998,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.4,
+      "median_composite": 2.35,
       "juror_composites": {
-        "grok": 2.8,
-        "claude": 2.4,
-        "kimi": 2.35
+        "claude": 2.35
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://creativecommons.org",
@@ -1063,20 +1019,19 @@
         "D5": 5,
         "D6": 4,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 4
       },
-      "median_composite": 4,
+      "median_composite": 3.95,
       "juror_composites": {
-        "grok": 4.95,
-        "claude": 3.95,
-        "kimi": 4
+        "claude": 3.95
       },
       "controversial_dimensions": [
         "D2",
         "D6",
         "D8"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://cybersecurityfordemocracy.org",
@@ -1089,16 +1044,15 @@
         "D5": 3,
         "D6": 3,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 4
       },
-      "median_composite": 3.1,
+      "median_composite": 3.25,
       "juror_composites": {
-        "grok": 3.35,
-        "claude": 3.1,
-        "kimi": 2.7
+        "claude": 3.25
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://data.humdata.org",
@@ -1111,16 +1065,15 @@
         "D5": 3,
         "D6": 3,
         "D7": 3,
-        "D8": 2
+        "D8": 2,
+        "D9": 3
       },
-      "median_composite": 2.4,
+      "median_composite": 2.55,
       "juror_composites": {
-        "grok": 2.55,
-        "claude": 2.4,
-        "kimi": 2.3
+        "claude": 2.55
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://data.mysociety.org",
@@ -1133,16 +1086,15 @@
         "D5": 4,
         "D6": 3,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.7,
+      "median_composite": 2.65,
       "juror_composites": {
-        "grok": 2.7,
-        "claude": 2.5,
-        "kimi": 3
+        "claude": 2.65
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://datacollective.mozillafoundation.org/",
@@ -1155,19 +1107,18 @@
         "D5": 3,
         "D6": 1,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.75,
+      "median_composite": 2.65,
       "juror_composites": {
-        "grok": 3,
-        "claude": 2.75,
-        "kimi": 1.85
+        "claude": 2.65
       },
       "controversial_dimensions": [
         "D1",
         "D2"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://datatrusts.uk",
@@ -1180,18 +1131,17 @@
         "D5": 2,
         "D6": 2,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.55,
+      "median_composite": 2.5,
       "juror_composites": {
-        "grok": 3.2,
-        "claude": 2.55,
-        "kimi": 2.45
+        "claude": 2.5
       },
       "controversial_dimensions": [
         "D2"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://ddocs.new/",
@@ -1204,19 +1154,18 @@
         "D5": 1,
         "D6": 1,
         "D7": 4,
-        "D8": 4
+        "D8": 4,
+        "D9": 2
       },
-      "median_composite": 1.55,
+      "median_composite": 1.3,
       "juror_composites": {
-        "grok": 1.55,
-        "claude": 1.15,
-        "kimi": 2.2
+        "claude": 1.3
       },
       "controversial_dimensions": [
         "D5",
         "D7"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://decelerator.org.uk",
@@ -1229,16 +1178,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.75,
+      "median_composite": 1.85,
       "juror_composites": {
-        "grok": 1.3,
-        "claude": 1.75,
-        "kimi": 1.85
+        "claude": 1.85
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://decidim.org",
@@ -1251,16 +1199,15 @@
         "D5": 4,
         "D6": 4,
         "D7": 5,
-        "D8": 3
+        "D8": 3,
+        "D9": 4
       },
       "median_composite": 4,
       "juror_composites": {
-        "grok": 4,
-        "claude": 4,
-        "kimi": 4.2
+        "claude": 4
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://dev.reuselibrary.service.justice.gov.uk/",
@@ -1273,16 +1220,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 3,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.45,
+      "median_composite": 1.65,
       "juror_composites": {
-        "grok": 1.45,
-        "claude": 1.45,
-        "kimi": 1.9
+        "claude": 1.65
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://developer.parliament.uk",
@@ -1295,16 +1241,15 @@
         "D5": 3,
         "D6": 2,
         "D7": 2,
-        "D8": 2
+        "D8": 2,
+        "D9": 3
       },
-      "median_composite": 1.95,
+      "median_composite": 2.15,
       "juror_composites": {
-        "grok": 1.7,
-        "claude": 1.95,
-        "kimi": 1.95
+        "claude": 2.15
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://developers.democracyclub.org.uk/api/v1",
@@ -1317,16 +1262,15 @@
         "D5": 3,
         "D6": 2,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.3,
+      "median_composite": 2.4,
       "juror_composites": {
-        "grok": 2.4,
-        "claude": 2.3,
-        "kimi": 2.15
+        "claude": 2.4
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://dgc-cgn.org/product/can-dgsi-127/",
@@ -1339,16 +1283,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 1,
-        "D8": 2
+        "D8": 2,
+        "D9": 2
       },
       "median_composite": 1.65,
       "juror_composites": {
-        "grok": 1.65,
-        "claude": 1.65,
-        "kimi": 1.55
+        "claude": 1.65
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://digitalcharitylab.org/product/digital-account-management-toolkit",
@@ -1361,16 +1304,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 2,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 1.4,
+      "median_composite": 1.65,
       "juror_composites": {
-        "grok": 1.4,
-        "claude": 1.35,
-        "kimi": 1.45
+        "claude": 1.65
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://docs.holepunch.to",
@@ -1383,16 +1325,15 @@
         "D5": 3,
         "D6": 1,
         "D7": 3,
-        "D8": 3
+        "D8": 3,
+        "D9": 2
       },
-      "median_composite": 2.35,
+      "median_composite": 2.1,
       "juror_composites": {
-        "grok": 2.45,
-        "claude": 2.25,
-        "kimi": 2.35
+        "claude": 2.1
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://docs.plus",
@@ -1405,17 +1346,17 @@
         "D5": 1.5,
         "D6": 1,
         "D7": 4,
-        "D8": 3.5
+        "D8": 3.5,
+        "D9": 3
       },
-      "median_composite": 1.6,
+      "median_composite": 2,
       "juror_composites": {
-        "grok": 1.3,
-        "claude": 1.9
+        "claude": 2
       },
       "controversial_dimensions": [
         "D2"
       ],
-      "jurors_count": 2
+      "jurors_count": 1
     },
     {
       "url": "https://dogooder.co",
@@ -1428,16 +1369,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 1,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.95,
+      "median_composite": 2.15,
       "juror_composites": {
-        "grok": 1.8,
-        "claude": 2.05,
-        "kimi": 1.95
+        "claude": 2.15
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://dovetail.network",
@@ -1450,16 +1390,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 1,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.35,
+      "median_composite": 1.65,
       "juror_composites": {
-        "grok": 1.1,
-        "claude": 1.45,
-        "kimi": 1.35
+        "claude": 1.65
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://dunadyne.org",
@@ -1472,16 +1411,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 1,
-        "D8": 1
+        "D8": 1,
+        "D9": 2
       },
-      "median_composite": 1.8,
+      "median_composite": 1.7,
       "juror_composites": {
-        "grok": 1.2,
-        "claude": 1.8,
-        "kimi": 1.85
+        "claude": 1.7
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://ecnl.org/publications/framework-meaningful-engagement-20?mc_cid=b1c5158063&mc_eid=a09c64ec38",
@@ -1494,16 +1432,15 @@
         "D5": 3,
         "D6": 2,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.85,
+      "median_composite": 2.5,
       "juror_composites": {
-        "grok": 3.45,
-        "claude": 2.45,
-        "kimi": 2.85
+        "claude": 2.5
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://en.wikipedia.org/wiki/wikipedia:in_the_news",
@@ -1516,16 +1453,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 4,
-        "D8": 5
+        "D8": 5,
+        "D9": 3
       },
-      "median_composite": 2,
+      "median_composite": 2.2,
       "juror_composites": {
-        "grok": 1.95,
-        "claude": 2,
-        "kimi": 2
+        "claude": 2.2
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://entitledto.co.uk",
@@ -1538,16 +1474,15 @@
         "D5": 2,
         "D6": 3,
         "D7": 1,
-        "D8": 2
+        "D8": 2,
+        "D9": 4
       },
-      "median_composite": 2.1,
+      "median_composite": 2.55,
       "juror_composites": {
-        "grok": 2.1,
-        "claude": 2.25,
-        "kimi": 2.05
+        "claude": 2.55
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://esper.com/product",
@@ -1560,16 +1495,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 1,
-        "D8": 2
+        "D8": 2,
+        "D9": 3
       },
-      "median_composite": 1.5,
+      "median_composite": 1.65,
       "juror_composites": {
-        "grok": 1.5,
-        "claude": 1.5,
-        "kimi": 1.35
+        "claude": 1.65
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://ethelo.com",
@@ -1582,16 +1516,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.95,
+      "median_composite": 2.85,
       "juror_composites": {
-        "grok": 3.05,
-        "claude": 2.95,
-        "kimi": 2.3
+        "claude": 2.85
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://expo.diia.gov.ua",
@@ -1604,16 +1537,15 @@
         "D5": 3,
         "D6": 3,
         "D7": 3,
-        "D8": 2
+        "D8": 2,
+        "D9": 4
       },
-      "median_composite": 2.75,
+      "median_composite": 2.95,
       "juror_composites": {
-        "grok": 2.75,
-        "claude": 2.7,
-        "kimi": 3.15
+        "claude": 2.95
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://fairbnb.coop",
@@ -1626,19 +1558,18 @@
         "D5": 2,
         "D6": 2,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.9,
+      "median_composite": 2.8,
       "juror_composites": {
-        "grok": 3.45,
-        "claude": 2.9,
-        "kimi": 2.25
+        "claude": 2.8
       },
       "controversial_dimensions": [
         "D1",
         "D3"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://farmerchat.digitalgreen.org",
@@ -1651,16 +1582,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.85,
+      "median_composite": 2,
       "juror_composites": {
-        "grok": 1.85,
-        "claude": 1.85,
-        "kimi": 1.75
+        "claude": 2
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://fatebook.io",
@@ -1673,16 +1603,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 3,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.9,
+      "median_composite": 2.1,
       "juror_composites": {
-        "grok": 1.9,
-        "claude": 2,
-        "kimi": 1.8
+        "claude": 2.1
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://filmot.com",
@@ -1695,18 +1624,17 @@
         "D5": 2,
         "D6": 1,
         "D7": 1,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 1.85,
+      "median_composite": 2.25,
       "juror_composites": {
-        "grok": 1.35,
-        "claude": 2.15,
-        "kimi": 1.85
+        "claude": 2.25
       },
       "controversial_dimensions": [
         "D4"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://fixmyblock.org",
@@ -1719,16 +1647,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.85,
+      "median_composite": 1.95,
       "juror_composites": {
-        "grok": 2.35,
-        "claude": 1.85,
-        "kimi": 1.85
+        "claude": 1.95
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://fullfact.org/ai",
@@ -1741,16 +1668,15 @@
         "D5": 2,
         "D6": 3,
         "D7": 2,
-        "D8": 2
+        "D8": 2,
+        "D9": 3
       },
-      "median_composite": 2.45,
+      "median_composite": 2.65,
       "juror_composites": {
-        "grok": 2.45,
-        "claude": 2.55,
-        "kimi": 2.05
+        "claude": 2.65
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://gender-pay-gap.service.gov.uk",
@@ -1763,18 +1689,17 @@
         "D5": 2,
         "D6": 3,
         "D7": 2,
-        "D8": 2
+        "D8": 2,
+        "D9": 3
       },
-      "median_composite": 2.65,
+      "median_composite": 2.75,
       "juror_composites": {
-        "grok": 2.65,
-        "claude": 2.7,
-        "kimi": 2.2
+        "claude": 2.75
       },
       "controversial_dimensions": [
         "D1"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://getodk.org",
@@ -1787,16 +1712,15 @@
         "D5": 4,
         "D6": 3,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 4
       },
-      "median_composite": 3.05,
+      "median_composite": 3.4,
       "juror_composites": {
-        "grok": 3.05,
-        "claude": 3.3,
-        "kimi": 2.95
+        "claude": 3.4
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://github.com/bellingcat/edgar",
@@ -1809,16 +1733,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 4,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 2.35,
+      "median_composite": 2.45,
       "juror_composites": {
-        "grok": 1.8,
-        "claude": 2.4,
-        "kimi": 2.35
+        "claude": 2.45
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://github.com/blacksky-algorithms/rsky",
@@ -1831,18 +1754,17 @@
         "D5": 3,
         "D6": 1,
         "D7": 4,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 2.8,
+      "median_composite": 2.7,
       "juror_composites": {
-        "grok": 3.1,
-        "claude": 2.8,
-        "kimi": 2.55
+        "claude": 2.7
       },
       "controversial_dimensions": [
         "D1"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://github.com/bluesky-social",
@@ -1855,16 +1777,15 @@
         "D5": 4,
         "D6": 2,
         "D7": 4,
-        "D8": 2
+        "D8": 2,
+        "D9": 3
       },
-      "median_composite": 3.05,
+      "median_composite": 3.25,
       "juror_composites": {
-        "grok": 3.05,
-        "claude": 3.45,
-        "kimi": 2.7
+        "claude": 3.25
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://github.com/cavi-au/consent-o-matic",
@@ -1877,19 +1798,18 @@
         "D5": 2,
         "D6": 2,
         "D7": 4,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 2.5,
+      "median_composite": 2.55,
       "juror_composites": {
-        "grok": 2.85,
-        "claude": 2.5,
-        "kimi": 2
+        "claude": 2.55
       },
       "controversial_dimensions": [
         "D1",
         "D3"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://github.com/compdemocracy/polis",
@@ -1902,16 +1822,15 @@
         "D5": 3,
         "D6": 3,
         "D7": 5,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 3.5,
+      "median_composite": 3.25,
       "juror_composites": {
-        "grok": 3.85,
-        "claude": 3.4,
-        "kimi": 3.5
+        "claude": 3.25
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://github.com/cverluise/patcit",
@@ -1924,16 +1843,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 4,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 2.05,
+      "median_composite": 2.1,
       "juror_composites": {
-        "grok": 1.95,
-        "claude": 2.05,
-        "kimi": 2.05
+        "claude": 2.1
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://github.com/datakind/data-observation-toolkit",
@@ -1946,16 +1864,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.95,
+      "median_composite": 2.1,
       "juror_composites": {
-        "grok": 1.85,
-        "claude": 2,
-        "kimi": 1.95
+        "claude": 2.1
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://github.com/deepseek-ai/deepseek-v3",
@@ -1968,16 +1885,15 @@
         "D5": 3,
         "D6": 1,
         "D7": 3,
-        "D8": 2
+        "D8": 2,
+        "D9": 2
       },
-      "median_composite": 1.9,
+      "median_composite": 2.05,
       "juror_composites": {
-        "grok": 1.9,
-        "claude": 2.05,
-        "kimi": 1.9
+        "claude": 2.05
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://github.com/disarmfoundation/disarmframeworks",
@@ -1990,16 +1906,15 @@
         "D5": 4,
         "D6": 2,
         "D7": 4,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 3.05,
+      "median_composite": 3.3,
       "juror_composites": {
-        "grok": 2.9,
-        "claude": 3.4,
-        "kimi": 3.05
+        "claude": 3.3
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://github.com/fission-codes/fission-codes",
@@ -2012,16 +1927,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 2
       },
-      "median_composite": 1.45,
+      "median_composite": 1.5,
       "juror_composites": {
-        "grok": 1.4,
-        "claude": 1.45,
-        "kimi": 1.5
+        "claude": 1.5
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://github.com/g0v/vue.vtaiwan.tw",
@@ -2034,16 +1948,15 @@
         "D5": 2,
         "D6": 4,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 4
       },
-      "median_composite": 3.4,
+      "median_composite": 3.05,
       "juror_composites": {
-        "grok": 3.4,
-        "claude": 2.9,
-        "kimi": 3.45
+        "claude": 3.05
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://github.com/geeksforsocialchange/placecal",
@@ -2056,18 +1969,17 @@
         "D5": 1,
         "D6": 1,
         "D7": 4,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 2,
+      "median_composite": 2.15,
       "juror_composites": {
-        "grok": 1.2,
-        "claude": 2.1,
-        "kimi": 2
+        "claude": 2.15
       },
       "controversial_dimensions": [
         "D2"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://github.com/huridocs",
@@ -2080,16 +1992,15 @@
         "D5": 3,
         "D6": 3,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 3.25,
+      "median_composite": 3.15,
       "juror_composites": {
-        "grok": 3.55,
-        "claude": 3.25,
-        "kimi": 3.1
+        "claude": 3.15
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://github.com/i-dot-ai/awesome-gov-datasets",
@@ -2102,16 +2013,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.85,
+      "median_composite": 2,
       "juror_composites": {
-        "grok": 1.15,
-        "claude": 1.85,
-        "kimi": 1.85
+        "claude": 2
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://github.com/ideal-postcodes/postcodes.io",
@@ -2124,16 +2034,15 @@
         "D5": 3,
         "D6": 1,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.05,
+      "median_composite": 2.4,
       "juror_composites": {
-        "grok": 1.6,
-        "claude": 2.3,
-        "kimi": 2.05
+        "claude": 2.4
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://github.com/kazad/pastecal",
@@ -2146,16 +2055,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 4,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 1.55,
+      "median_composite": 1.8,
       "juror_composites": {
-        "grok": 1.45,
-        "claude": 1.65,
-        "kimi": 1.55
+        "claude": 1.8
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://github.com/mastodon/mastodon",
@@ -2168,16 +2076,15 @@
         "D5": 5,
         "D6": 2,
         "D7": 5,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 3.8,
+      "median_composite": 3.4,
       "juror_composites": {
-        "grok": 4.15,
-        "claude": 3.6,
-        "kimi": 3.8
+        "claude": 3.4
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://github.com/mikekelly/policy-dojo",
@@ -2190,16 +2097,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 4,
-        "D8": 4
+        "D8": 4,
+        "D9": 2
       },
-      "median_composite": 1.5,
+      "median_composite": 1.6,
       "juror_composites": {
-        "grok": 1.25,
-        "claude": 1.5,
-        "kimi": 1.95
+        "claude": 1.6
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://github.com/notchia/dao-governance-surfaces",
@@ -2212,16 +2118,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 4,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 1.7,
+      "median_composite": 1.85,
       "juror_composites": {
-        "grok": 1.65,
-        "claude": 1.7,
-        "kimi": 2
+        "claude": 1.85
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://github.com/openpolitics/groupthink",
@@ -2234,18 +2139,17 @@
         "D5": 2,
         "D6": 2,
         "D7": 4,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 2.9,
+      "median_composite": 2.8,
       "juror_composites": {
-        "grok": 3.25,
-        "claude": 2.9,
-        "kimi": 2.3
+        "claude": 2.8
       },
       "controversial_dimensions": [
         "D3"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://github.com/podemos-info/participa",
@@ -2258,16 +2162,15 @@
         "D5": 2,
         "D6": 3,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 3.15,
+      "median_composite": 3.1,
       "juror_composites": {
-        "grok": 3.55,
-        "claude": 3.15,
-        "kimi": 3.15
+        "claude": 3.1
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://github.com/populatetools",
@@ -2280,16 +2183,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.35,
+      "median_composite": 2.3,
       "juror_composites": {
-        "grok": 2.7,
-        "claude": 2.25,
-        "kimi": 2.35
+        "claude": 2.3
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://github.com/propublica/django-collaborative",
@@ -2302,16 +2204,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.05,
+      "median_composite": 2.2,
       "juror_composites": {
-        "grok": 1.9,
-        "claude": 2.05,
-        "kimi": 2.15
+        "claude": 2.2
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://github.com/radicalxchange/rxc-voice",
@@ -2324,16 +2225,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.95,
+      "median_composite": 2.75,
       "juror_composites": {
-        "grok": 3.2,
-        "claude": 2.95,
-        "kimi": 2.75
+        "claude": 2.75
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://github.com/rahvaalgatus/rahvaalgatus",
@@ -2346,16 +2246,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 4,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 3,
+      "median_composite": 2.9,
       "juror_composites": {
-        "grok": 3,
-        "claude": 3,
-        "kimi": 2.8
+        "claude": 2.9
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://github.com/ribenamaplesyrup/sugartrail",
@@ -2368,16 +2267,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 4,
-        "D8": 5
+        "D8": 5,
+        "D9": 3
       },
       "median_composite": 2.2,
       "juror_composites": {
-        "grok": 2.35,
-        "claude": 2.2,
-        "kimi": 2.1
+        "claude": 2.2
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://github.com/sentinelteam/grim",
@@ -2390,18 +2288,17 @@
         "D5": 1,
         "D6": 1,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.6,
+      "median_composite": 2.1,
       "juror_composites": {
-        "grok": 1.35,
-        "claude": 2.05,
-        "kimi": 1.6
+        "claude": 2.1
       },
       "controversial_dimensions": [
         "D2"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://github.com/stanfordcdt/pb",
@@ -2414,16 +2311,15 @@
         "D5": 2,
         "D6": 3,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 3.25,
+      "median_composite": 3,
       "juror_composites": {
-        "grok": 3.25,
-        "claude": 3.15,
-        "kimi": 3.25
+        "claude": 3
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://github.com/thicknavyrain/uk_elections_leaflets",
@@ -2436,15 +2332,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 3.5,
-        "D8": 4.5
+        "D8": 4.5,
+        "D9": 3
       },
-      "median_composite": 1.625,
+      "median_composite": 1.85,
       "juror_composites": {
-        "grok": 1.55,
-        "claude": 1.7
+        "claude": 1.85
       },
       "controversial_dimensions": [],
-      "jurors_count": 2
+      "jurors_count": 1
     },
     {
       "url": "https://github.com/travisbrown/birdwatch",
@@ -2457,16 +2353,15 @@
         "D5": 1,
         "D6": 2,
         "D7": 4,
-        "D8": 4
+        "D8": 4,
+        "D9": 2
       },
-      "median_composite": 1.8,
+      "median_composite": 2,
       "juror_composites": {
-        "grok": 1.8,
-        "claude": 2.05,
-        "kimi": 1.8
+        "claude": 2
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://github.com/tulir/whatsmeow",
@@ -2479,16 +2374,15 @@
         "D5": 3,
         "D6": 1,
         "D7": 4,
-        "D8": 5
+        "D8": 5,
+        "D9": 2
       },
-      "median_composite": 1.8,
+      "median_composite": 2.2,
       "juror_composites": {
-        "grok": 1.75,
-        "claude": 2.3,
-        "kimi": 1.8
+        "claude": 2.2
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://github.com/vbuterin/dao",
@@ -2501,20 +2395,19 @@
         "D5": 3,
         "D6": 3,
         "D7": 4,
-        "D8": 5
+        "D8": 5,
+        "D9": 1
       },
-      "median_composite": 4,
+      "median_composite": 3.35,
       "juror_composites": {
-        "grok": 4.45,
-        "claude": 3.8,
-        "kimi": 4
+        "claude": 3.35
       },
       "controversial_dimensions": [
         "D3",
         "D5",
         "D6"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://github.com/whotargetsme/ad-transparency-standards/blob/main/implement.md",
@@ -2527,16 +2420,15 @@
         "D5": 4,
         "D6": 3,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.85,
+      "median_composite": 2.7,
       "juror_composites": {
-        "grok": 3.05,
-        "claude": 2.7,
-        "kimi": 2.85
+        "claude": 2.7
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://github.com/ytdl-org/youtube-dl",
@@ -2549,18 +2441,17 @@
         "D5": 4,
         "D6": 3,
         "D7": 5,
-        "D8": 5
+        "D8": 5,
+        "D9": 2
       },
-      "median_composite": 3.15,
+      "median_composite": 3,
       "juror_composites": {
-        "grok": 3.35,
-        "claude": 3.15,
-        "kimi": 2.75
+        "claude": 3
       },
       "controversial_dimensions": [
         "D1"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://globalfactcheck.bot/",
@@ -2573,18 +2464,17 @@
         "D5": 2,
         "D6": 1,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.75,
+      "median_composite": 1.9,
       "juror_composites": {
-        "grok": 2.1,
-        "claude": 1.75,
-        "kimi": 1.75
+        "claude": 1.9
       },
       "controversial_dimensions": [
         "D4"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://gordonguthrie.github.io/frankensteinbill",
@@ -2597,16 +2487,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 4,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 1.8,
+      "median_composite": 1.85,
       "juror_composites": {
-        "grok": 1.9,
-        "claude": 1.7,
-        "kimi": 1.8
+        "claude": 1.85
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://gov.uk/find-local-consultations",
@@ -2619,16 +2508,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 1,
-        "D8": 2
+        "D8": 2,
+        "D9": 3
       },
-      "median_composite": 1.85,
+      "median_composite": 2.05,
       "juror_composites": {
-        "grok": 1.85,
-        "claude": 1.95,
-        "kimi": 1.85
+        "claude": 2.05
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://granicus.com/uk",
@@ -2641,16 +2529,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 1,
-        "D8": 1
+        "D8": 1,
+        "D9": 3
       },
-      "median_composite": 1.7,
+      "median_composite": 1.85,
       "juror_composites": {
-        "grok": 1.75,
-        "claude": 1.6,
-        "kimi": 1.7
+        "claude": 1.85
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://granitt.io",
@@ -2663,16 +2550,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 1,
-        "D8": 2
+        "D8": 2,
+        "D9": 2
       },
-      "median_composite": 1.85,
+      "median_composite": 1.8,
       "juror_composites": {
-        "grok": 1.85,
-        "claude": 1.75,
-        "kimi": 1.85
+        "claude": 1.8
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://grantnav.threesixtygiving.org",
@@ -2685,16 +2571,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 3,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.15,
+      "median_composite": 2.35,
       "juror_composites": {
-        "grok": 2.15,
-        "claude": 2.25,
-        "kimi": 2
+        "claude": 2.35
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://greenpt.ai/",
@@ -2707,16 +2592,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 1,
-        "D8": 2
+        "D8": 2,
+        "D9": 3
       },
-      "median_composite": 1.55,
+      "median_composite": 1.9,
       "juror_composites": {
-        "grok": 1.05,
-        "claude": 1.75,
-        "kimi": 1.55
+        "claude": 1.9
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://guardianproject.info",
@@ -2729,18 +2613,17 @@
         "D5": 4,
         "D6": 3,
         "D7": 4,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 3.7,
+      "median_composite": 3.1,
       "juror_composites": {
-        "grok": 4.7,
-        "claude": 3.15,
-        "kimi": 3.7
+        "claude": 3.1
       },
       "controversial_dimensions": [
         "D2"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://hact.org.uk/tools-and-services/uk-housing-data-standards",
@@ -2753,16 +2636,15 @@
         "D5": 3,
         "D6": 2,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.3,
+      "median_composite": 2.45,
       "juror_composites": {
-        "grok": 2.3,
-        "claude": 2.4,
-        "kimi": 2.3
+        "claude": 2.45
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://hand-written-petition-scanner.streamlit.app",
@@ -2775,16 +2657,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 2,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 1.65,
+      "median_composite": 1.95,
       "juror_composites": {
-        "grok": 1.65,
-        "claude": 1.85,
-        "kimi": 1.6
+        "claude": 1.95
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://harmonica.chat/",
@@ -2797,16 +2678,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 1,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.8,
+      "median_composite": 2,
       "juror_composites": {
-        "grok": 1.45,
-        "claude": 1.9,
-        "kimi": 1.8
+        "claude": 2
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://humbledata.org",
@@ -2819,16 +2699,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 4,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 1.7,
+      "median_composite": 2.1,
       "juror_composites": {
-        "grok": 1.7,
-        "claude": 2,
-        "kimi": 1.55
+        "claude": 2.1
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://idealist.org",
@@ -2841,16 +2720,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 1,
-        "D8": 2
+        "D8": 2,
+        "D9": 3
       },
-      "median_composite": 2.15,
+      "median_composite": 2.35,
       "juror_composites": {
-        "grok": 1.75,
-        "claude": 2.2,
-        "kimi": 2.15
+        "claude": 2.35
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://joss.theoj.org",
@@ -2863,16 +2741,15 @@
         "D5": 3,
         "D6": 1,
         "D7": 4,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 2.2,
+      "median_composite": 2.45,
       "juror_composites": {
-        "grok": 2.2,
-        "claude": 2.35,
-        "kimi": 1.9
+        "claude": 2.45
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://journaliststudio.google.com",
@@ -2885,16 +2762,15 @@
         "D5": 3,
         "D6": 2,
         "D7": 2,
-        "D8": 1
+        "D8": 1,
+        "D9": 3
       },
-      "median_composite": 2.05,
+      "median_composite": 2.25,
       "juror_composites": {
-        "grok": 1.95,
-        "claude": 2.05,
-        "kimi": 2.05
+        "claude": 2.25
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://kialo.com",
@@ -2907,16 +2783,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 1,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.25,
+      "median_composite": 2.45,
       "juror_composites": {
-        "grok": 2.25,
-        "claude": 2.35,
-        "kimi": 2
+        "claude": 2.45
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://labourxchange.uk",
@@ -2929,16 +2804,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 1,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.65,
+      "median_composite": 1.8,
       "juror_composites": {
-        "grok": 1.5,
-        "claude": 1.7,
-        "kimi": 1.65
+        "claude": 1.8
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://ladderhub.org/",
@@ -2951,16 +2825,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 1,
-        "D8": 2
+        "D8": 2,
+        "D9": 2
       },
       "median_composite": 1.75,
       "juror_composites": {
-        "grok": 1.05,
-        "claude": 1.8,
-        "kimi": 1.75
+        "claude": 1.75
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://landexplorer.coop",
@@ -2973,16 +2846,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.1,
+      "median_composite": 2.6,
       "juror_composites": {
-        "grok": 2.1,
-        "claude": 2.65,
-        "kimi": 2
+        "claude": 2.6
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://liberopinion.com",
@@ -2995,16 +2867,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 1,
-        "D8": 2
+        "D8": 2,
+        "D9": 3
       },
-      "median_composite": 2.1,
+      "median_composite": 2.2,
       "juror_composites": {
-        "grok": 2.1,
-        "claude": 2.15,
-        "kimi": 1.85
+        "claude": 2.2
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://library.theengineroom.org",
@@ -3017,19 +2888,18 @@
         "D5": 2,
         "D6": 1,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.95,
+      "median_composite": 2.15,
       "juror_composites": {
-        "grok": 1.6,
-        "claude": 1.95,
-        "kimi": 2.05
+        "claude": 2.15
       },
       "controversial_dimensions": [
         "D4",
         "D5"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://liquidfeedback.com",
@@ -3042,16 +2912,15 @@
         "D5": 3,
         "D6": 3,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 3.3,
+      "median_composite": 3.2,
       "juror_composites": {
-        "grok": 3.95,
-        "claude": 3.25,
-        "kimi": 3.3
+        "claude": 3.2
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://littlesis.org",
@@ -3064,16 +2933,15 @@
         "D5": 3,
         "D6": 3,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
       "median_composite": 3.1,
       "juror_composites": {
-        "grok": 3.25,
-        "claude": 3.1,
-        "kimi": 3.1
+        "claude": 3.1
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://local-deep-researcher-hnmh.vercel.app/",
@@ -3086,16 +2954,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 1,
-        "D8": 1
+        "D8": 1,
+        "D9": 2
       },
-      "median_composite": 1,
+      "median_composite": 1.15,
       "juror_composites": {
-        "grok": 1,
-        "claude": 1,
-        "kimi": 1.45
+        "claude": 1.15
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://localinsight.org",
@@ -3108,16 +2975,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 1,
-        "D8": 2
+        "D8": 2,
+        "D9": 3
       },
-      "median_composite": 1.75,
+      "median_composite": 2.15,
       "juror_composites": {
-        "grok": 1.4,
-        "claude": 2,
-        "kimi": 1.75
+        "claude": 2.15
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://logos.co/",
@@ -3130,16 +2996,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 2
       },
-      "median_composite": 2.8,
+      "median_composite": 2.5,
       "juror_composites": {
-        "grok": 2.95,
-        "claude": 2.8,
-        "kimi": 2.55
+        "claude": 2.5
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://manifold.markets",
@@ -3152,16 +3017,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 2,
-        "D8": 2
+        "D8": 2,
+        "D9": 3
       },
-      "median_composite": 2.15,
+      "median_composite": 2.3,
       "juror_composites": {
-        "grok": 2.15,
-        "claude": 2.15,
-        "kimi": 1.8
+        "claude": 2.3
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://mapit.mysociety.org",
@@ -3174,15 +3038,15 @@
         "D5": 4,
         "D6": 2,
         "D7": 3,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.425,
+      "median_composite": 2.45,
       "juror_composites": {
-        "grok": 2.5,
-        "claude": 2.35
+        "claude": 2.45
       },
       "controversial_dimensions": [],
-      "jurors_count": 2
+      "jurors_count": 1
     },
     {
       "url": "https://mapped.commonknowledge.coop",
@@ -3195,16 +3059,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 3,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 2.05,
+      "median_composite": 2.15,
       "juror_composites": {
-        "grok": 1.7,
-        "claude": 2.05,
-        "kimi": 2.05
+        "claude": 2.15
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://mapping.kids",
@@ -3217,16 +3080,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.35,
+      "median_composite": 1.6,
       "juror_composites": {
-        "grok": 1.1,
-        "claude": 1.35,
-        "kimi": 1.6
+        "claude": 1.6
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://matrix.org",
@@ -3239,19 +3101,18 @@
         "D5": 5,
         "D6": 3,
         "D7": 5,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 4.05,
+      "median_composite": 3.85,
       "juror_composites": {
-        "grok": 4.45,
-        "claude": 4.05,
-        "kimi": 3.45
+        "claude": 3.85
       },
       "controversial_dimensions": [
         "D1",
         "D2"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://medium.com/@abscond/membership-a-prototype-ea822b2683b",
@@ -3264,16 +3125,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 3,
-        "D8": 4
+        "D8": 4,
+        "D9": 2
       },
-      "median_composite": 2.05,
+      "median_composite": 1.95,
       "juror_composites": {
-        "grok": 1.9,
-        "claude": 2.05,
-        "kimi": 2.7
+        "claude": 1.95
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://medium.com/metagov/introducing-the-agreement-engine-bf03b6d5c16c",
@@ -3286,16 +3146,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 3,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
       "median_composite": 2.15,
       "juror_composites": {
-        "grok": 2.55,
-        "claude": 2.1,
-        "kimi": 2.15
+        "claude": 2.15
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://membersinterests.org.uk",
@@ -3308,18 +3167,17 @@
         "D5": 1,
         "D6": 2,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.8,
+      "median_composite": 2,
       "juror_composites": {
-        "grok": 1.5,
-        "claude": 1.8,
-        "kimi": 1.95
+        "claude": 2
       },
       "controversial_dimensions": [
         "D4"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://meta.wikimedia.org/wiki/abstract_wikipedia",
@@ -3332,15 +3190,15 @@
         "D5": 3,
         "D6": 1.5,
         "D7": 4.5,
-        "D8": 2.5
+        "D8": 2.5,
+        "D9": 3
       },
-      "median_composite": 2.2,
+      "median_composite": 2.15,
       "juror_composites": {
-        "grok": 2.3,
-        "claude": 2.1
+        "claude": 2.15
       },
       "controversial_dimensions": [],
-      "jurors_count": 2
+      "jurors_count": 1
     },
     {
       "url": "https://metaculus.com",
@@ -3353,16 +3211,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 3,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.3,
+      "median_composite": 2.4,
       "juror_composites": {
-        "grok": 2.3,
-        "claude": 2.35,
-        "kimi": 2.15
+        "claude": 2.4
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://metagov.org/projects/interop",
@@ -3375,16 +3232,15 @@
         "D5": 3,
         "D6": 1,
         "D7": 3,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.8,
+      "median_composite": 2.65,
       "juror_composites": {
-        "grok": 3.15,
-        "claude": 2.8,
-        "kimi": 2.45
+        "claude": 2.65
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://missingnumbers.org",
@@ -3397,16 +3253,15 @@
         "D5": 1,
         "D6": 2,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.1,
+      "median_composite": 2.15,
       "juror_composites": {
-        "grok": 1.65,
-        "claude": 2.1,
-        "kimi": 2.5
+        "claude": 2.15
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://monitormamdani.com/",
@@ -3419,16 +3274,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 2,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 1.55,
+      "median_composite": 1.7,
       "juror_composites": {
-        "grok": 1.55,
-        "claude": 1.45,
-        "kimi": 1.6
+        "claude": 1.7
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://moralmachine.net",
@@ -3441,16 +3295,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 3,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.45,
+      "median_composite": 2.5,
       "juror_composites": {
-        "grok": 3,
-        "claude": 2.45,
-        "kimi": 2.45
+        "claude": 2.5
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://murmurations.network",
@@ -3463,18 +3316,17 @@
         "D5": 3,
         "D6": 1,
         "D7": 4,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 2.8,
+      "median_composite": 2.7,
       "juror_composites": {
-        "grok": 3.05,
-        "claude": 2.8,
-        "kimi": 2.45
+        "claude": 2.7
       },
       "controversial_dimensions": [
         "D2"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://navigator.oii.ox.ac.uk",
@@ -3487,18 +3339,17 @@
         "D5": 1,
         "D6": 1,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.6,
+      "median_composite": 1.75,
       "juror_composites": {
-        "grok": 1.5,
-        "claude": 1.6,
-        "kimi": 1.65
+        "claude": 1.75
       },
       "controversial_dimensions": [
         "D7"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://nestr.io",
@@ -3511,16 +3362,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 1,
-        "D8": 3
+        "D8": 3,
+        "D9": 2
       },
       "median_composite": 1.75,
       "juror_composites": {
-        "grok": 1.5,
-        "claude": 1.75,
-        "kimi": 2
+        "claude": 1.75
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://newpublic.substack.com/p/introducing-roundabout-built-for",
@@ -3533,16 +3383,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.75,
+      "median_composite": 2,
       "juror_composites": {
-        "grok": 1.55,
-        "claude": 1.95,
-        "kimi": 1.75
+        "claude": 2
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://nookcrm.com",
@@ -3555,18 +3404,17 @@
         "D5": 1,
         "D6": 1,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.85,
+      "median_composite": 1.95,
       "juror_composites": {
-        "grok": 1.35,
-        "claude": 1.85,
-        "kimi": 1.85
+        "claude": 1.95
       },
       "controversial_dimensions": [
         "D7"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://numfocus.org",
@@ -3579,18 +3427,17 @@
         "D5": 4,
         "D6": 2,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.5,
+      "median_composite": 2.6,
       "juror_composites": {
-        "grok": 2.9,
-        "claude": 2.5,
-        "kimi": 2.2
+        "claude": 2.6
       },
       "controversial_dimensions": [
         "D3"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://nyaaya.org",
@@ -3603,16 +3450,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 3,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.9,
+      "median_composite": 2.05,
       "juror_composites": {
-        "grok": 1.7,
-        "claude": 1.9,
-        "kimi": 1.9
+        "claude": 2.05
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://nymtech.net",
@@ -3625,19 +3471,18 @@
         "D5": 3,
         "D6": 2,
         "D7": 4,
-        "D8": 2
+        "D8": 2,
+        "D9": 2
       },
-      "median_composite": 2.9,
+      "median_composite": 2.55,
       "juror_composites": {
-        "grok": 2.9,
-        "claude": 2.7,
-        "kimi": 2.9
+        "claude": 2.55
       },
       "controversial_dimensions": [
         "D4",
         "D7"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://oa.report",
@@ -3650,16 +3495,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 1,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.8,
+      "median_composite": 2,
       "juror_composites": {
-        "grok": 1.75,
-        "claude": 1.8,
-        "kimi": 1.9
+        "claude": 2
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://oa.works/",
@@ -3672,20 +3516,19 @@
         "D5": 3,
         "D6": 3,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.85,
+      "median_composite": 2.9,
       "juror_composites": {
-        "grok": 3.95,
-        "claude": 2.85,
-        "kimi": 2.3
+        "claude": 2.9
       },
       "controversial_dimensions": [
         "D1",
         "D2",
         "D6"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://objector.ai",
@@ -3698,16 +3541,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 1,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
       "median_composite": 1.8,
       "juror_composites": {
-        "grok": 2.35,
-        "claude": 1.7,
-        "kimi": 1.8
+        "claude": 1.8
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://okfn.org/en/projects/open-data-editor/",
@@ -3720,16 +3562,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.95,
+      "median_composite": 2.15,
       "juror_composites": {
-        "grok": 1.75,
-        "claude": 1.95,
-        "kimi": 2.05
+        "claude": 2.15
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://oneproject.org/",
@@ -3742,16 +3583,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.85,
+      "median_composite": 2.5,
       "juror_composites": {
-        "grok": 2.95,
-        "claude": 2.55,
-        "kimi": 2.85
+        "claude": 2.5
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://onodi.co/bisect/",
@@ -3764,16 +3604,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 4,
-        "D8": 5
+        "D8": 5,
+        "D9": 3
       },
-      "median_composite": 1.75,
+      "median_composite": 2.05,
       "juror_composites": {
-        "grok": 1.55,
-        "claude": 1.95,
-        "kimi": 1.75
+        "claude": 2.05
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://openaccess.transparency.org.uk",
@@ -3786,15 +3625,15 @@
         "D5": 2,
         "D6": 2.5,
         "D7": 2.5,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.325,
+      "median_composite": 2.25,
       "juror_composites": {
-        "grok": 2.55,
-        "claude": 2.1
+        "claude": 2.25
       },
       "controversial_dimensions": [],
-      "jurors_count": 2
+      "jurors_count": 1
     },
     {
       "url": "https://openaudience.org",
@@ -3807,16 +3646,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 1,
-        "D8": 2
+        "D8": 2,
+        "D9": 3
       },
-      "median_composite": 1.55,
+      "median_composite": 1.75,
       "juror_composites": {
-        "grok": 1.45,
-        "claude": 1.6,
-        "kimi": 1.55
+        "claude": 1.75
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://openbudgets.eu",
@@ -3829,16 +3667,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 3,
-        "D8": 2
+        "D8": 2,
+        "D9": 3
       },
-      "median_composite": 2.05,
+      "median_composite": 2.25,
       "juror_composites": {
-        "grok": 1.95,
-        "claude": 2.1,
-        "kimi": 2.05
+        "claude": 2.25
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://opencollective.com",
@@ -3851,18 +3688,17 @@
         "D5": 4,
         "D6": 2,
         "D7": 5,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 3.55,
+      "median_composite": 3.1,
       "juror_composites": {
-        "grok": 4,
-        "claude": 3.15,
-        "kimi": 3.55
+        "claude": 3.1
       },
       "controversial_dimensions": [
         "D2"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://opencouncil.network",
@@ -3875,16 +3711,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.25,
+      "median_composite": 2.4,
       "juror_composites": {
-        "grok": 2.3,
-        "claude": 2.25,
-        "kimi": 2.05
+        "claude": 2.4
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://opencouncildata.co.uk",
@@ -3897,16 +3732,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2,
+      "median_composite": 2.1,
       "juror_composites": {
-        "grok": 2,
-        "claude": 2,
-        "kimi": 1.8
+        "claude": 2.1
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://opendatacommunities.org",
@@ -3919,16 +3753,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 3,
-        "D8": 2
+        "D8": 2,
+        "D9": 3
       },
-      "median_composite": 1.95,
+      "median_composite": 2.2,
       "juror_composites": {
-        "grok": 1.95,
-        "claude": 2,
-        "kimi": 1.9
+        "claude": 2.2
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://opendigitalplanning.org/",
@@ -3941,16 +3774,15 @@
         "D5": 3,
         "D6": 2,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.7,
+      "median_composite": 2.85,
       "juror_composites": {
-        "grok": 2.7,
-        "claude": 2.8,
-        "kimi": 2.5
+        "claude": 2.85
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://openheartmind.org",
@@ -3963,16 +3795,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 4,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
       "median_composite": 2.3,
       "juror_composites": {
-        "grok": 2.4,
-        "claude": 2.3,
-        "kimi": 2.15
+        "claude": 2.3
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://openletter.earth",
@@ -3985,16 +3816,15 @@
         "D5": 1,
         "D6": 2,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.25,
+      "median_composite": 2.15,
       "juror_composites": {
-        "grok": 2.3,
-        "claude": 1.9,
-        "kimi": 2.25
+        "claude": 2.15
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://openparliament.ca/",
@@ -4007,19 +3837,18 @@
         "D5": 2,
         "D6": 1,
         "D7": 4,
-        "D8": 5
+        "D8": 5,
+        "D9": 3
       },
-      "median_composite": 2.05,
+      "median_composite": 2.25,
       "juror_composites": {
-        "grok": 1.4,
-        "claude": 2.15,
-        "kimi": 2.05
+        "claude": 2.25
       },
       "controversial_dimensions": [
         "D3",
         "D4"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://openprocurement.io",
@@ -4032,18 +3861,17 @@
         "D5": 3,
         "D6": 4,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 5
       },
-      "median_composite": 3.45,
+      "median_composite": 3.65,
       "juror_composites": {
-        "grok": 3.95,
-        "claude": 3.4,
-        "kimi": 3.45
+        "claude": 3.65
       },
       "controversial_dimensions": [
         "D8"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://openreferraluk.org",
@@ -4056,16 +3884,15 @@
         "D5": 3,
         "D6": 2,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.3,
+      "median_composite": 2.45,
       "juror_composites": {
-        "grok": 2.3,
-        "claude": 2.4,
-        "kimi": 2.3
+        "claude": 2.45
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://opensupplyhub.org",
@@ -4078,16 +3905,15 @@
         "D5": 3,
         "D6": 3,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
       "median_composite": 3.1,
       "juror_composites": {
-        "grok": 3.45,
-        "claude": 3.1,
-        "kimi": 3.1
+        "claude": 3.1
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://orcid.org",
@@ -4100,16 +3926,15 @@
         "D5": 4,
         "D6": 3,
         "D7": 4,
-        "D8": 2
+        "D8": 2,
+        "D9": 3
       },
-      "median_composite": 2.55,
+      "median_composite": 2.65,
       "juror_composites": {
-        "grok": 2.95,
-        "claude": 2.5,
-        "kimi": 2.55
+        "claude": 2.65
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://osf.io",
@@ -4122,16 +3947,15 @@
         "D5": 4,
         "D6": 3,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 3.05,
+      "median_composite": 3.1,
       "juror_composites": {
-        "grok": 3.4,
-        "claude": 3.05,
-        "kimi": 2.8
+        "claude": 3.1
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://osintframework.com",
@@ -4144,16 +3968,15 @@
         "D5": 3,
         "D6": 2,
         "D7": 4,
-        "D8": 5
+        "D8": 5,
+        "D9": 2
       },
-      "median_composite": 2.15,
+      "median_composite": 2.35,
       "juror_composites": {
-        "grok": 2,
-        "claude": 2.4,
-        "kimi": 2.15
+        "claude": 2.35
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://overton.io",
@@ -4166,16 +3989,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 1,
-        "D8": 2
+        "D8": 2,
+        "D9": 3
       },
-      "median_composite": 2,
+      "median_composite": 2.2,
       "juror_composites": {
-        "grok": 2,
-        "claude": 2.05,
-        "kimi": 1.85
+        "claude": 2.2
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://p4ai.net",
@@ -4188,18 +4010,17 @@
         "D5": 2,
         "D6": 3,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.85,
+      "median_composite": 2.6,
       "juror_composites": {
-        "grok": 3.4,
-        "claude": 2.55,
-        "kimi": 2.85
+        "claude": 2.6
       },
       "controversial_dimensions": [
         "D3"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://pageviews.wmcloud.org",
@@ -4212,16 +4033,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 4,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 1.75,
+      "median_composite": 2.3,
       "juror_composites": {
-        "grok": 1.65,
-        "claude": 2.1,
-        "kimi": 1.75
+        "claude": 2.3
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5351275",
@@ -4234,16 +4054,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 1,
-        "D8": 1
+        "D8": 1,
+        "D9": 1
       },
       "median_composite": 1,
       "juror_composites": {
-        "grok": 1,
-        "claude": 1,
-        "kimi": 1
+        "claude": 1
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://parliamentwatch.ug/",
@@ -4256,16 +4075,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 1,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.5,
+      "median_composite": 1.65,
       "juror_composites": {
-        "grok": 1.5,
-        "claude": 1.5,
-        "kimi": 1.65
+        "claude": 1.65
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://parsethebill.com",
@@ -4278,16 +4096,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 1,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 1.6,
+      "median_composite": 1.75,
       "juror_composites": {
-        "grok": 1.55,
-        "claude": 1.6,
-        "kimi": 1.6
+        "claude": 1.75
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://parti.xyz",
@@ -4300,18 +4117,17 @@
         "D5": 3,
         "D6": 4,
         "D7": 3,
-        "D8": 3
+        "D8": 3,
+        "D9": 4
       },
-      "median_composite": 3.3,
+      "median_composite": 3.15,
       "juror_composites": {
-        "grok": 3.55,
-        "claude": 2.95,
-        "kimi": 3.3
+        "claude": 3.15
       },
       "controversial_dimensions": [
         "D3"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://participedia.net",
@@ -4324,16 +4140,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.4,
+      "median_composite": 2.45,
       "juror_composites": {
-        "grok": 2.55,
-        "claude": 2.4,
-        "kimi": 2.35
+        "claude": 2.45
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://planit.org.uk",
@@ -4346,16 +4161,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 1,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.2,
+      "median_composite": 2.3,
       "juror_composites": {
-        "grok": 2.5,
-        "claude": 2.2,
-        "kimi": 1.95
+        "claude": 2.3
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://plausible.io",
@@ -4368,16 +4182,15 @@
         "D5": 3,
         "D6": 1,
         "D7": 3,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 2.15,
+      "median_composite": 2.25,
       "juror_composites": {
-        "grok": 2.4,
-        "claude": 2.05,
-        "kimi": 2.15
+        "claude": 2.25
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://plunkett.my.site.com/keepitinthecommunity/s",
@@ -4390,19 +4203,18 @@
         "D5": 1,
         "D6": 1,
         "D7": 1,
-        "D8": 3
+        "D8": 3,
+        "D9": 2
       },
-      "median_composite": 1.85,
+      "median_composite": 1.8,
       "juror_composites": {
-        "grok": 1,
-        "claude": 1.9,
-        "kimi": 1.85
+        "claude": 1.8
       },
       "controversial_dimensions": [
         "D2",
         "D8"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://policyengine.org/uk",
@@ -4415,16 +4227,15 @@
         "D5": 3,
         "D6": 3,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.6,
+      "median_composite": 2.8,
       "juror_composites": {
-        "grok": 2.5,
-        "claude": 2.75,
-        "kimi": 2.6
+        "claude": 2.8
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://policykit.org",
@@ -4437,16 +4248,15 @@
         "D5": 3,
         "D6": 1,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 3.3,
+      "median_composite": 2.9,
       "juror_composites": {
-        "grok": 3.4,
-        "claude": 3.2,
-        "kimi": 3.3
+        "claude": 2.9
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://policymogul.com",
@@ -4459,18 +4269,17 @@
         "D5": 1,
         "D6": 1,
         "D7": 1,
-        "D8": 2
+        "D8": 2,
+        "D9": 3
       },
-      "median_composite": 1.45,
+      "median_composite": 2.05,
       "juror_composites": {
-        "grok": 1.05,
-        "claude": 1.95,
-        "kimi": 1.45
+        "claude": 2.05
       },
       "controversial_dimensions": [
         "D4"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://postbug.com",
@@ -4483,16 +4292,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 1,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.8,
+      "median_composite": 1.9,
       "juror_composites": {
-        "grok": 1.55,
-        "claude": 1.8,
-        "kimi": 1.8
+        "claude": 1.9
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://privacybadger.org",
@@ -4505,16 +4313,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.75,
+      "median_composite": 2.55,
       "juror_composites": {
-        "grok": 2.75,
-        "claude": 2.4,
-        "kimi": 2.85
+        "claude": 2.55
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://programs.clearerthinking.org/understanding-your-morality/",
@@ -4527,16 +4334,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 1,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.15,
+      "median_composite": 1.7,
       "juror_composites": {
-        "grok": 1.1,
-        "claude": 1.45,
-        "kimi": 1.15
+        "claude": 1.7
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://public.tableau.com/app/profile/citizensadvice/vizzes",
@@ -4549,16 +4355,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 1,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.65,
+      "median_composite": 2,
       "juror_composites": {
-        "grok": 1.65,
-        "claude": 1.8,
-        "kimi": 1.65
+        "claude": 2
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://publicaccountability.org",
@@ -4571,16 +4376,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.15,
+      "median_composite": 2.2,
       "juror_composites": {
-        "grok": 2.15,
-        "claude": 2.1,
-        "kimi": 2.35
+        "claude": 2.2
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://publicai.co/",
@@ -4593,16 +4397,15 @@
         "D5": 3,
         "D6": 1,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.6,
+      "median_composite": 2.15,
       "juror_composites": {
-        "grok": 2.6,
-        "claude": 2.15,
-        "kimi": 2.65
+        "claude": 2.15
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://publicmediastack.com",
@@ -4615,16 +4418,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.55,
+      "median_composite": 1.7,
       "juror_composites": {
-        "grok": 1.55,
-        "claude": 1.55,
-        "kimi": 1.75
+        "claude": 1.7
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://pursuanceproject.org",
@@ -4637,16 +4439,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 4,
-        "D8": 4
+        "D8": 4,
+        "D9": 2
       },
-      "median_composite": 2.45,
+      "median_composite": 2.3,
       "juror_composites": {
-        "grok": 2.35,
-        "claude": 2.45,
-        "kimi": 2.9
+        "claude": 2.3
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://quadraticvote.radicalxchange.org",
@@ -4659,16 +4460,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 3.2,
+      "median_composite": 3.05,
       "juror_composites": {
-        "grok": 3.65,
-        "claude": 3.2,
-        "kimi": 3.2
+        "claude": 3.05
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://radicle.xyz",
@@ -4681,16 +4481,15 @@
         "D5": 3,
         "D6": 1,
         "D7": 5,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.8,
+      "median_composite": 2.65,
       "juror_composites": {
-        "grok": 2.75,
-        "claude": 2.8,
-        "kimi": 2.95
+        "claude": 2.65
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://relationaltechproject.org",
@@ -4703,16 +4502,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 4,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 2.1,
+      "median_composite": 2.15,
       "juror_composites": {
-        "grok": 1.75,
-        "claude": 2.1,
-        "kimi": 2.15
+        "claude": 2.15
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://remembertovote.org.uk",
@@ -4725,16 +4523,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 2,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 1.45,
+      "median_composite": 1.75,
       "juror_composites": {
-        "grok": 1.15,
-        "claude": 1.6,
-        "kimi": 1.45
+        "claude": 1.75
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://research.localgov.digital",
@@ -4747,16 +4544,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 2,
-        "D8": 2
+        "D8": 2,
+        "D9": 3
       },
-      "median_composite": 1.45,
+      "median_composite": 1.9,
       "juror_composites": {
-        "grok": 1.3,
-        "claude": 1.75,
-        "kimi": 1.45
+        "claude": 1.9
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://richardpope.org/2017/03/05/beckton-a-tool-to-build",
@@ -4769,16 +4565,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 4,
-        "D8": 5
+        "D8": 5,
+        "D9": 2
       },
-      "median_composite": 2.25,
+      "median_composite": 2,
       "juror_composites": {
-        "grok": 2.35,
-        "claude": 2.1,
-        "kimi": 2.25
+        "claude": 2
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://right-to-know.org",
@@ -4791,16 +4586,15 @@
         "D5": 1,
         "D6": 2,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.85,
+      "median_composite": 2.1,
       "juror_composites": {
-        "grok": 1.85,
-        "claude": 1.95,
-        "kimi": 1.75
+        "claude": 2.1
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://riseup.net",
@@ -4813,19 +4607,18 @@
         "D5": 3,
         "D6": 3,
         "D7": 4,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 3.75,
+      "median_composite": 3.55,
       "juror_composites": {
-        "grok": 4.25,
-        "claude": 3.75,
-        "kimi": 3.4
+        "claude": 3.55
       },
       "controversial_dimensions": [
         "D5",
         "D6"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://riversentiment.app",
@@ -4838,16 +4631,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 3,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.6,
+      "median_composite": 1.75,
       "juror_composites": {
-        "grok": 1.55,
-        "claude": 1.6,
-        "kimi": 1.7
+        "claude": 1.75
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://schema.org",
@@ -4860,19 +4652,18 @@
         "D5": 5,
         "D6": 1,
         "D7": 5,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 2.85,
+      "median_composite": 2.7,
       "juror_composites": {
-        "grok": 3.55,
-        "claude": 2.75,
-        "kimi": 2.85
+        "claude": 2.7
       },
       "controversial_dimensions": [
         "D1",
         "D8"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://sci-hub.se",
@@ -4885,16 +4676,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 1,
-        "D8": 5
+        "D8": 5,
+        "D9": 1
       },
-      "median_composite": 3.3,
+      "median_composite": 2.8,
       "juror_composites": {
-        "grok": 3.3,
-        "claude": 3.15,
-        "kimi": 3.4
+        "claude": 2.8
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://secfirst.org",
@@ -4907,16 +4697,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.6,
+      "median_composite": 2.65,
       "juror_composites": {
-        "grok": 2.6,
-        "claude": 2.65,
-        "kimi": 2.45
+        "claude": 2.65
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://securedrop.org",
@@ -4929,16 +4718,15 @@
         "D5": 4,
         "D6": 5,
         "D7": 5,
-        "D8": 4
+        "D8": 4,
+        "D9": 5
       },
-      "median_composite": 3.85,
+      "median_composite": 3.9,
       "juror_composites": {
-        "grok": 4.15,
-        "claude": 3.75,
-        "kimi": 3.85
+        "claude": 3.9
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://semanticclimate.github.io",
@@ -4951,16 +4739,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 3,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.7,
+      "median_composite": 1.85,
       "juror_composites": {
-        "grok": 1.7,
-        "claude": 1.7,
-        "kimi": 2.05
+        "claude": 1.85
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://shareyourpaper.org",
@@ -4973,18 +4760,17 @@
         "D5": 2,
         "D6": 1,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.2,
+      "median_composite": 2.3,
       "juror_composites": {
-        "grok": 2.4,
-        "claude": 2.2,
-        "kimi": 1.95
+        "claude": 2.3
       },
       "controversial_dimensions": [
         "D1"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://site.urbanistai.com",
@@ -4997,16 +4783,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 1,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.2,
+      "median_composite": 2.3,
       "juror_composites": {
-        "grok": 2.35,
-        "claude": 2.2,
-        "kimi": 2.1
+        "claude": 2.3
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://snowdrift.coop",
@@ -5019,18 +4804,17 @@
         "D5": 2,
         "D6": 1,
         "D7": 5,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 3,
+      "median_composite": 2.75,
       "juror_composites": {
-        "grok": 3.1,
-        "claude": 3,
-        "kimi": 2.4
+        "claude": 2.75
       },
       "controversial_dimensions": [
         "D1"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://sobre.ejparticipe.org",
@@ -5043,16 +4827,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 1,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.8,
+      "median_composite": 2,
       "juror_composites": {
-        "grok": 1.8,
-        "claude": 1.9,
-        "kimi": 1.8
+        "claude": 2
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://societyforhopefultechnologists.org",
@@ -5065,16 +4848,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 3,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 2.05,
+      "median_composite": 2.1,
       "juror_composites": {
-        "grok": 2.25,
-        "claude": 2.05,
-        "kimi": 1.85
+        "claude": 2.1
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://sourceafrica.net",
@@ -5087,16 +4869,15 @@
         "D5": 3,
         "D6": 2,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.75,
+      "median_composite": 2.4,
       "juror_composites": {
-        "grok": 3.05,
-        "claude": 2.35,
-        "kimi": 2.75
+        "claude": 2.4
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://soweego.readthedocs.io",
@@ -5109,18 +4890,17 @@
         "D5": 3,
         "D6": 1,
         "D7": 4,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 2.15,
+      "median_composite": 2.2,
       "juror_composites": {
-        "grok": 1.45,
-        "claude": 2.15,
-        "kimi": 2.15
+        "claude": 2.2
       },
       "controversial_dimensions": [
         "D5"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://spacetu.be",
@@ -5133,15 +4913,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 4,
-        "D8": 4.5
+        "D8": 4.5,
+        "D9": 3
       },
-      "median_composite": 2.225,
+      "median_composite": 2.25,
       "juror_composites": {
-        "grok": 2.25,
-        "claude": 2.2
+        "claude": 2.25
       },
       "controversial_dimensions": [],
-      "jurors_count": 2
+      "jurors_count": 1
     },
     {
       "url": "https://spartacus.app",
@@ -5154,16 +4934,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 1,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 2.35,
+      "median_composite": 2.25,
       "juror_composites": {
-        "grok": 2.3,
-        "claude": 2.35,
-        "kimi": 2.75
+        "claude": 2.25
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://standards.theodi.org",
@@ -5176,18 +4955,17 @@
         "D5": 3,
         "D6": 2,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.2,
+      "median_composite": 2.25,
       "juror_composites": {
-        "grok": 2.2,
-        "claude": 2.05,
-        "kimi": 2.25
+        "claude": 2.25
       },
       "controversial_dimensions": [
         "D5"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://strikemap.org",
@@ -5200,16 +4978,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 3,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
       "median_composite": 2.55,
       "juror_composites": {
-        "grok": 2.8,
-        "claude": 2.55,
-        "kimi": 2.55
+        "claude": 2.55
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://talktothecity.org",
@@ -5222,16 +4999,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 3,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.7,
+      "median_composite": 2.65,
       "juror_composites": {
-        "grok": 2.55,
-        "claude": 2.7,
-        "kimi": 2.7
+        "claude": 2.65
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://tech-coops.xyz",
@@ -5244,18 +5020,17 @@
         "D5": 2,
         "D6": 1,
         "D7": 4,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 2.1,
+      "median_composite": 2.2,
       "juror_composites": {
-        "grok": 2.6,
-        "claude": 2.1,
-        "kimi": 1.9
+        "claude": 2.2
       },
       "controversial_dimensions": [
         "D1"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://the-list.uk",
@@ -5268,16 +5043,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 2,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 1.7,
+      "median_composite": 1.85,
       "juror_composites": {
-        "grok": 1.75,
-        "claude": 1.7,
-        "kimi": 1.7
+        "claude": 1.85
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://thecircuit.cc",
@@ -5290,16 +5064,15 @@
         "D5": 2,
         "D6": 3,
         "D7": 3,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.7,
+      "median_composite": 2.85,
       "juror_composites": {
-        "grok": 2.7,
-        "claude": 2.85,
-        "kimi": 2.65
+        "claude": 2.85
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://thegovernmentsays.com",
@@ -5312,16 +5085,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 4,
-        "D8": 5
+        "D8": 5,
+        "D9": 3
       },
-      "median_composite": 2.2,
+      "median_composite": 2.25,
       "juror_composites": {
-        "grok": 2.2,
-        "claude": 2.15,
-        "kimi": 2.3
+        "claude": 2.25
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://theodi.org/insights/reports/registers-and-collaboration-making-lists-we-can-trust-report",
@@ -5334,16 +5106,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.65,
+      "median_composite": 1.8,
       "juror_composites": {
-        "grok": 1.6,
-        "claude": 1.65,
-        "kimi": 1.65
+        "claude": 1.8
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://timecounts.org",
@@ -5356,18 +5127,17 @@
         "D5": 1,
         "D6": 1,
         "D7": 1,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.4,
+      "median_composite": 1.65,
       "juror_composites": {
-        "grok": 1.4,
-        "claude": 1.4,
-        "kimi": 1.85
+        "claude": 1.65
       },
       "controversial_dimensions": [
         "D4"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://tracking-template-38b4c.web.app",
@@ -5380,16 +5150,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 1,
-        "D8": 1
+        "D8": 1,
+        "D9": 2
       },
-      "median_composite": 1,
+      "median_composite": 1.15,
       "juror_composites": {
-        "grok": 1,
-        "claude": 1,
-        "kimi": 1
+        "claude": 1.15
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://trends.whotargets.me",
@@ -5402,18 +5171,17 @@
         "D5": 2,
         "D6": 2,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.45,
+      "median_composite": 2.55,
       "juror_composites": {
-        "grok": 2.35,
-        "claude": 2.45,
-        "kimi": 2.45
+        "claude": 2.55
       },
       "controversial_dimensions": [
         "D4"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://turbophonebank.com",
@@ -5426,16 +5194,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 1,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 1.85,
+      "median_composite": 2.05,
       "juror_composites": {
-        "grok": 1.75,
-        "claude": 2,
-        "kimi": 1.85
+        "claude": 2.05
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://turkopticon.ucsd.edu",
@@ -5448,15 +5215,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 4.5,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 3.275,
+      "median_composite": 3,
       "juror_composites": {
-        "grok": 3.35,
-        "claude": 3.2
+        "claude": 3
       },
       "controversial_dimensions": [],
-      "jurors_count": 2
+      "jurors_count": 1
     },
     {
       "url": "https://unpaywall.org/products/extension",
@@ -5469,19 +5236,18 @@
         "D5": 3,
         "D6": 2,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 4
       },
-      "median_composite": 2.4,
+      "median_composite": 2.65,
       "juror_composites": {
-        "grok": 2.95,
-        "claude": 2.4,
-        "kimi": 2.3
+        "claude": 2.65
       },
       "controversial_dimensions": [
         "D1",
         "D5"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://upgrader.gapminder.org",
@@ -5494,16 +5260,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.8,
+      "median_composite": 2.25,
       "juror_composites": {
-        "grok": 1.75,
-        "claude": 2.05,
-        "kimi": 1.8
+        "claude": 2.25
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://urbit.org",
@@ -5516,18 +5281,17 @@
         "D5": 2,
         "D6": 1,
         "D7": 3,
-        "D8": 2
+        "D8": 2,
+        "D9": 3
       },
-      "median_composite": 2.55,
+      "median_composite": 2.45,
       "juror_composites": {
-        "grok": 2.3,
-        "claude": 2.55,
-        "kimi": 3.05
+        "claude": 2.45
       },
       "controversial_dimensions": [
         "D2"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://vframe.io",
@@ -5540,16 +5304,15 @@
         "D5": 2,
         "D6": 3,
         "D7": 3,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 2.95,
+      "median_composite": 2.8,
       "juror_composites": {
-        "grok": 2.95,
-        "claude": 2.85,
-        "kimi": 3.05
+        "claude": 2.8
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://viewpoints.xyz",
@@ -5562,16 +5325,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 1,
-        "D8": 2
+        "D8": 2,
+        "D9": 2
       },
-      "median_composite": 1.35,
+      "median_composite": 1.45,
       "juror_composites": {
-        "grok": 1.25,
-        "claude": 1.35,
-        "kimi": 1.35
+        "claude": 1.45
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://violationtrackeruk.goodjobsfirst.org",
@@ -5584,16 +5346,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.3,
+      "median_composite": 2.5,
       "juror_composites": {
-        "grok": 2.3,
-        "claude": 2.5,
-        "kimi": 2.2
+        "claude": 2.5
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://voteforpolicies.org.uk",
@@ -5606,16 +5367,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.75,
+      "median_composite": 2.2,
       "juror_composites": {
-        "grok": 1.65,
-        "claude": 2.05,
-        "kimi": 1.75
+        "claude": 2.2
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://wardwatch.uk",
@@ -5628,16 +5388,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 1,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.5,
+      "median_composite": 1.65,
       "juror_composites": {
-        "grok": 1.5,
-        "claude": 1.5,
-        "kimi": 1.6
+        "claude": 1.65
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://web.archive.org",
@@ -5650,18 +5409,17 @@
         "D5": 5,
         "D6": 3,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 4
       },
-      "median_composite": 3.6,
+      "median_composite": 3.2,
       "juror_composites": {
-        "grok": 4,
-        "claude": 3.05,
-        "kimi": 3.6
+        "claude": 3.2
       },
       "controversial_dimensions": [
         "D1"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://whoisology.com",
@@ -5674,16 +5432,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 1,
-        "D8": 3
+        "D8": 3,
+        "D9": 2
       },
       "median_composite": 1.95,
       "juror_composites": {
-        "grok": 1.95,
-        "claude": 1.9,
-        "kimi": 2.3
+        "claude": 1.95
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://whopostedwhat.com",
@@ -5696,16 +5453,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.3,
+      "median_composite": 2.35,
       "juror_composites": {
-        "grok": 2.25,
-        "claude": 2.3,
-        "kimi": 2.35
+        "claude": 2.35
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.agenciesforgood.org",
@@ -5718,16 +5474,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.85,
+      "median_composite": 1.95,
       "juror_composites": {
-        "grok": 1.2,
-        "claude": 1.85,
-        "kimi": 1.95
+        "claude": 1.95
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.campaigntracker.nl/en",
@@ -5740,16 +5495,15 @@
         "D5": 2,
         "D6": 3,
         "D7": 3,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.2,
+      "median_composite": 2.65,
       "juror_composites": {
-        "grok": 2.15,
-        "claude": 2.6,
-        "kimi": 2.2
+        "claude": 2.65
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.communitytech.network",
@@ -5762,18 +5516,17 @@
         "D5": 2,
         "D6": 2,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.5,
+      "median_composite": 2.55,
       "juror_composites": {
-        "grok": 2.8,
-        "claude": 2.5,
-        "kimi": 2.15
+        "claude": 2.55
       },
       "controversial_dimensions": [
         "D1"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.consoc.io",
@@ -5786,15 +5539,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 1,
-        "D8": 1
+        "D8": 1,
+        "D9": 2
       },
-      "median_composite": 1,
+      "median_composite": 1.15,
       "juror_composites": {
-        "grok": 1,
-        "claude": 1
+        "claude": 1.15
       },
       "controversial_dimensions": [],
-      "jurors_count": 2
+      "jurors_count": 1
     },
     {
       "url": "https://www.crowdjustice.com",
@@ -5807,16 +5560,15 @@
         "D5": 2,
         "D6": 3,
         "D7": 2,
-        "D8": 2
+        "D8": 2,
+        "D9": 3
       },
       "median_composite": 2.8,
       "juror_composites": {
-        "grok": 2.85,
-        "claude": 2.8,
-        "kimi": 2.6
+        "claude": 2.8
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.csail.mit.edu/research/wikum-bridging-discussion-systems-and-wikis-collective-summarization",
@@ -5829,16 +5581,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 3,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.8,
+      "median_composite": 2.1,
       "juror_composites": {
-        "grok": 1.75,
-        "claude": 2.05,
-        "kimi": 1.8
+        "claude": 2.1
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.deliberaide.com",
@@ -5851,16 +5602,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 1,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.2,
+      "median_composite": 2.3,
       "juror_composites": {
-        "grok": 2.15,
-        "claude": 2.2,
-        "kimi": 2.3
+        "claude": 2.3
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.demnext.org/projects/delibtech-network",
@@ -5873,16 +5623,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.05,
+      "median_composite": 2.1,
       "juror_composites": {
-        "grok": 2.1,
-        "claude": 2.05,
-        "kimi": 2.05
+        "claude": 2.1
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.dfos.com",
@@ -5895,19 +5644,18 @@
         "D5": 2,
         "D6": 1,
         "D7": 3,
-        "D8": 2
+        "D8": 2,
+        "D9": 2
       },
-      "median_composite": 2,
+      "median_composite": 1.95,
       "juror_composites": {
-        "grok": 1.15,
-        "claude": 2,
-        "kimi": 2.3
+        "claude": 1.95
       },
       "controversial_dimensions": [
         "D4",
         "D5"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.discourse.org",
@@ -5920,16 +5668,15 @@
         "D5": 3,
         "D6": 1,
         "D7": 3,
-        "D8": 2
+        "D8": 2,
+        "D9": 3
       },
-      "median_composite": 2.45,
+      "median_composite": 2.6,
       "juror_composites": {
-        "grok": 2.25,
-        "claude": 2.55,
-        "kimi": 2.45
+        "claude": 2.6
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.donotpay.com",
@@ -5942,16 +5689,15 @@
         "D5": 1,
         "D6": 2,
         "D7": 1,
-        "D8": 2
+        "D8": 2,
+        "D9": 2
       },
-      "median_composite": 2,
+      "median_composite": 1.8,
       "juror_composites": {
-        "grok": 2,
-        "claude": 1.75,
-        "kimi": 2.45
+        "claude": 1.8
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.dsc.org.uk/publication/the-guide-to-major-trusts-2025-26/",
@@ -5964,18 +5710,17 @@
         "D5": 1,
         "D6": 1,
         "D7": 1,
-        "D8": 2
+        "D8": 2,
+        "D9": 3
       },
-      "median_composite": 1.55,
+      "median_composite": 1.7,
       "juror_composites": {
-        "grok": 1.6,
-        "claude": 1.55,
-        "kimi": 1.5
+        "claude": 1.7
       },
       "controversial_dimensions": [
         "D4"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.fixmystreet.com",
@@ -5988,16 +5733,15 @@
         "D5": 3,
         "D6": 3,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 4
       },
-      "median_composite": 2.55,
+      "median_composite": 2.9,
       "juror_composites": {
-        "grok": 2.7,
-        "claude": 2.55,
-        "kimi": 2.55
+        "claude": 2.9
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.forms.service.gov.uk",
@@ -6010,16 +5754,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 3,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.95,
+      "median_composite": 2.15,
       "juror_composites": {
-        "grok": 2,
-        "claude": 1.95,
-        "kimi": 1.6
+        "claude": 2.15
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.givefood.org.uk",
@@ -6032,16 +5775,15 @@
         "D5": 2,
         "D6": 3,
         "D7": 3,
-        "D8": 3
+        "D8": 3,
+        "D9": 4
       },
-      "median_composite": 2.25,
+      "median_composite": 2.75,
       "juror_composites": {
-        "grok": 2.15,
-        "claude": 2.5,
-        "kimi": 2.25
+        "claude": 2.75
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.globaleaks.org",
@@ -6054,18 +5796,17 @@
         "D5": 4,
         "D6": 3,
         "D7": 5,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 3.55,
+      "median_composite": 3.35,
       "juror_composites": {
-        "grok": 4.1,
-        "claude": 3.45,
-        "kimi": 3.55
+        "claude": 3.35
       },
       "controversial_dimensions": [
         "D5"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.gov.uk/service-manual",
@@ -6078,19 +5819,18 @@
         "D5": 3,
         "D6": 3,
         "D7": 2,
-        "D8": 2
+        "D8": 2,
+        "D9": 3
       },
-      "median_composite": 2.3,
+      "median_composite": 2.15,
       "juror_composites": {
-        "grok": 2.5,
-        "claude": 1.95,
-        "kimi": 2.3
+        "claude": 2.15
       },
       "controversial_dimensions": [
         "D3",
         "D4"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.govocal.com",
@@ -6103,16 +5843,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 2,
-        "D8": 2
+        "D8": 2,
+        "D9": 3
       },
-      "median_composite": 2.1,
+      "median_composite": 2.4,
       "juror_composites": {
-        "grok": 2,
-        "claude": 2.3,
-        "kimi": 2.1
+        "claude": 2.4
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.govtrack.us",
@@ -6125,16 +5864,15 @@
         "D5": 3,
         "D6": 2,
         "D7": 3,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.35,
+      "median_composite": 2.45,
       "juror_composites": {
-        "grok": 2.15,
-        "claude": 2.35,
-        "kimi": 2.35
+        "claude": 2.45
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.govwise.ai/en",
@@ -6147,16 +5885,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 1,
-        "D8": 2
+        "D8": 2,
+        "D9": 2
       },
-      "median_composite": 1.05,
+      "median_composite": 1.2,
       "juror_composites": {
-        "grok": 1.05,
-        "claude": 1.05,
-        "kimi": 1.15
+        "claude": 1.2
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.hotosm.org",
@@ -6169,18 +5906,17 @@
         "D5": 4,
         "D6": 3,
         "D7": 4,
-        "D8": 2
+        "D8": 2,
+        "D9": 4
       },
-      "median_composite": 3.2,
+      "median_composite": 3.35,
       "juror_composites": {
-        "grok": 3.65,
-        "claude": 3.2,
-        "kimi": 3
+        "claude": 3.35
       },
       "controversial_dimensions": [
         "D2"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.localintelligencehub.com",
@@ -6193,16 +5929,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 3,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.05,
+      "median_composite": 2.65,
       "juror_composites": {
-        "grok": 2.05,
-        "claude": 2.7,
-        "kimi": 2
+        "claude": 2.65
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.loomio.org",
@@ -6215,18 +5950,17 @@
         "D5": 3,
         "D6": 2,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 3.15,
+      "median_composite": 2.9,
       "juror_composites": {
-        "grok": 3.35,
-        "claude": 2.9,
-        "kimi": 3.15
+        "claude": 2.9
       },
       "controversial_dimensions": [
         "D3"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.marksoutoftenancy.com",
@@ -6239,16 +5973,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.8,
+      "median_composite": 2.1,
       "juror_composites": {
-        "grok": 1.8,
-        "claude": 1.95,
-        "kimi": 1.65
+        "claude": 2.1
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.martus.org",
@@ -6261,19 +5994,18 @@
         "D5": 2,
         "D6": 3,
         "D7": 4,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 3.55,
+      "median_composite": 3.1,
       "juror_composites": {
-        "grok": 3.65,
-        "claude": 3.2,
-        "kimi": 3.55
+        "claude": 3.1
       },
       "controversial_dimensions": [
         "D2",
         "D4"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.mastodonc.com",
@@ -6286,16 +6018,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 3,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.1,
+      "median_composite": 2.25,
       "juror_composites": {
-        "grok": 2.1,
-        "claude": 2.1,
-        "kimi": 2.2
+        "claude": 2.25
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.meet.coop",
@@ -6308,18 +6039,17 @@
         "D5": 2,
         "D6": 1,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.7,
+      "median_composite": 2.65,
       "juror_composites": {
-        "grok": 2.95,
-        "claude": 2.7,
-        "kimi": 2.25
+        "claude": 2.65
       },
       "controversial_dimensions": [
         "D1"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.mptwitterbios.co.uk",
@@ -6332,16 +6062,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 4,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 1.45,
+      "median_composite": 1.65,
       "juror_composites": {
-        "grok": 1.25,
-        "claude": 1.45,
-        "kimi": 1.75
+        "claude": 1.65
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.mpwatch.org",
@@ -6354,16 +6083,15 @@
         "D5": 1,
         "D6": 2,
         "D7": 1,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.9,
+      "median_composite": 1.95,
       "juror_composites": {
-        "grok": 1.85,
-        "claude": 1.9,
-        "kimi": 1.95
+        "claude": 1.95
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.myaction.center",
@@ -6376,15 +6104,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 1,
-        "D8": 3
+        "D8": 3,
+        "D9": 2
       },
       "median_composite": 1.9,
       "juror_composites": {
-        "grok": 1.8,
-        "claude": 2
+        "claude": 1.9
       },
       "controversial_dimensions": [],
-      "jurors_count": 2
+      "jurors_count": 1
     },
     {
       "url": "https://www.mysociety.org/climate/neighbourhood-warmth",
@@ -6397,16 +6125,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.95,
+      "median_composite": 2,
       "juror_composites": {
-        "grok": 1.95,
-        "claude": 1.95,
-        "kimi": 1.95
+        "claude": 2
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.notifications.service.gov.uk",
@@ -6419,16 +6146,15 @@
         "D5": 3,
         "D6": 2,
         "D7": 3,
-        "D8": 3
+        "D8": 3,
+        "D9": 4
       },
-      "median_composite": 2.1,
+      "median_composite": 2.35,
       "juror_composites": {
-        "grok": 2.1,
-        "claude": 1.95,
-        "kimi": 2.15
+        "claude": 2.35
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.objector.ai",
@@ -6441,16 +6167,15 @@
         "D5": 1,
         "D6": 2,
         "D7": 1,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.15,
+      "median_composite": 1.8,
       "juror_composites": {
-        "grok": 2.25,
-        "claude": 1.7,
-        "kimi": 2.15
+        "claude": 1.8
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.open-contracting.org",
@@ -6463,16 +6188,15 @@
         "D5": 4,
         "D6": 4,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 4
       },
-      "median_composite": 3.75,
+      "median_composite": 3.5,
       "juror_composites": {
-        "grok": 3.85,
-        "claude": 3.4,
-        "kimi": 3.75
+        "claude": 3.5
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.opencrvs.org",
@@ -6485,16 +6209,15 @@
         "D5": 4,
         "D6": 2,
         "D7": 5,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 3.15,
+      "median_composite": 3,
       "juror_composites": {
-        "grok": 3.4,
-        "claude": 3.15,
-        "kimi": 3.15
+        "claude": 3
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.openorigins.com",
@@ -6507,16 +6230,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 1,
-        "D8": 2
+        "D8": 2,
+        "D9": 3
       },
-      "median_composite": 1.65,
+      "median_composite": 2,
       "juror_composites": {
-        "grok": 1.45,
-        "claude": 1.9,
-        "kimi": 1.65
+        "claude": 2
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.openownership.org",
@@ -6529,16 +6251,15 @@
         "D5": 4,
         "D6": 3,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 4
       },
-      "median_composite": 3.8,
+      "median_composite": 3.25,
       "juror_composites": {
-        "grok": 3.8,
-        "claude": 3.2,
-        "kimi": 3.9
+        "claude": 3.25
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.opensanctions.org",
@@ -6551,16 +6272,15 @@
         "D5": 4,
         "D6": 3,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 3.25,
+      "median_composite": 2.95,
       "juror_composites": {
-        "grok": 3.25,
-        "claude": 3,
-        "kimi": 3.25
+        "claude": 2.95
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.oporaua.org",
@@ -6573,17 +6293,17 @@
         "D5": 2,
         "D6": 3,
         "D7": 2,
-        "D8": 2.5
+        "D8": 2.5,
+        "D9": 3
       },
-      "median_composite": 2.9,
+      "median_composite": 2.7,
       "juror_composites": {
-        "grok": 3.15,
-        "claude": 2.65
+        "claude": 2.7
       },
       "controversial_dimensions": [
         "D2"
       ],
-      "jurors_count": 2
+      "jurors_count": 1
     },
     {
       "url": "https://www.organise.org.uk",
@@ -6596,16 +6316,15 @@
         "D5": 2,
         "D6": 3,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
       "median_composite": 2.95,
       "juror_composites": {
-        "grok": 3.55,
-        "claude": 2.95,
-        "kimi": 2.95
+        "claude": 2.95
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.otree.org",
@@ -6618,16 +6337,15 @@
         "D5": 3,
         "D6": 2,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.9,
+      "median_composite": 2.05,
       "juror_composites": {
-        "grok": 2.1,
-        "claude": 1.8,
-        "kimi": 1.9
+        "claude": 2.05
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.papertree.earth",
@@ -6640,19 +6358,18 @@
         "D5": 2,
         "D6": 1,
         "D7": 4,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 2.75,
+      "median_composite": 1.95,
       "juror_composites": {
-        "grok": 2.9,
-        "claude": 1.85,
-        "kimi": 2.75
+        "claude": 1.95
       },
       "controversial_dimensions": [
         "D1",
         "D2"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.parallelparliament.co.uk",
@@ -6665,16 +6382,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.85,
+      "median_composite": 2.05,
       "juror_composites": {
-        "grok": 1.5,
-        "claude": 1.85,
-        "kimi": 1.9
+        "claude": 2.05
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.payments.service.gov.uk",
@@ -6687,16 +6403,15 @@
         "D5": 3,
         "D6": 2,
         "D7": 3,
-        "D8": 2
+        "D8": 2,
+        "D9": 4
       },
-      "median_composite": 2.05,
+      "median_composite": 2.5,
       "juror_composites": {
-        "grok": 2.05,
-        "claude": 2.15,
-        "kimi": 1.85
+        "claude": 2.5
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.plinth.org.uk",
@@ -6709,16 +6424,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 1,
-        "D8": 2
+        "D8": 2,
+        "D9": 3
       },
-      "median_composite": 1.8,
+      "median_composite": 2.15,
       "juror_composites": {
-        "grok": 1.65,
-        "claude": 2,
-        "kimi": 1.8
+        "claude": 2.15
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.polimonitor.com",
@@ -6731,16 +6445,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 1,
-        "D8": 2
+        "D8": 2,
+        "D9": 3
       },
-      "median_composite": 1.2,
+      "median_composite": 1.5,
       "juror_composites": {
-        "grok": 1.15,
-        "claude": 1.2,
-        "kimi": 1.4
+        "claude": 1.5
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.polimorphic.com",
@@ -6753,16 +6466,15 @@
         "D5": 1,
         "D6": 2,
         "D7": 1,
-        "D8": 2
+        "D8": 2,
+        "D9": 3
       },
-      "median_composite": 1.85,
+      "median_composite": 2.2,
       "juror_composites": {
-        "grok": 1.3,
-        "claude": 2.05,
-        "kimi": 1.85
+        "claude": 2.2
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.prolific.com",
@@ -6775,16 +6487,15 @@
         "D5": 3,
         "D6": 2,
         "D7": 1,
-        "D8": 2
+        "D8": 2,
+        "D9": 3
       },
-      "median_composite": 2.05,
+      "median_composite": 2.2,
       "juror_composites": {
-        "grok": 1.8,
-        "claude": 2.05,
-        "kimi": 2.25
+        "claude": 2.2
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.publiceditor.io",
@@ -6797,16 +6508,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 1,
-        "D8": 3
+        "D8": 3,
+        "D9": 2
       },
-      "median_composite": 1.8,
+      "median_composite": 1.75,
       "juror_composites": {
-        "grok": 1.8,
-        "claude": 1.8,
-        "kimi": 1.55
+        "claude": 1.75
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.rightsdd.com",
@@ -6819,16 +6529,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 1,
-        "D8": 2
+        "D8": 2,
+        "D9": 3
       },
-      "median_composite": 1.55,
+      "median_composite": 1.75,
       "juror_composites": {
-        "grok": 1.2,
-        "claude": 1.6,
-        "kimi": 1.55
+        "claude": 1.75
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.shareddigitalguides.org.uk",
@@ -6841,16 +6550,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 3,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.45,
+      "median_composite": 1.65,
       "juror_composites": {
-        "grok": 1.15,
-        "claude": 1.45,
-        "kimi": 1.55
+        "claude": 1.65
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.shineyoureye.org",
@@ -6863,18 +6571,17 @@
         "D5": 1,
         "D6": 2,
         "D7": 1,
-        "D8": 2
+        "D8": 2,
+        "D9": 3
       },
-      "median_composite": 1.95,
+      "median_composite": 2.35,
       "juror_composites": {
-        "grok": 1.9,
-        "claude": 2.35,
-        "kimi": 1.95
+        "claude": 2.35
       },
       "controversial_dimensions": [
         "D4"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.sign-in.service.gov.uk",
@@ -6887,16 +6594,15 @@
         "D5": 4,
         "D6": 2,
         "D7": 3,
-        "D8": 2
+        "D8": 2,
+        "D9": 3
       },
-      "median_composite": 2.4,
+      "median_composite": 2.5,
       "juror_composites": {
-        "grok": 2.15,
-        "claude": 2.4,
-        "kimi": 2.4
+        "claude": 2.5
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.teachingpublicservice.digital",
@@ -6909,16 +6615,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.95,
+      "median_composite": 2.25,
       "juror_composites": {
-        "grok": 1.95,
-        "claude": 2.15,
-        "kimi": 1.95
+        "claude": 2.25
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.theyworkforyou.com",
@@ -6931,16 +6636,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 4
       },
-      "median_composite": 2.3,
+      "median_composite": 2.55,
       "juror_composites": {
-        "grok": 2.4,
-        "claude": 2.3,
-        "kimi": 2.15
+        "claude": 2.55
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.torproject.org",
@@ -6953,18 +6657,17 @@
         "D5": 5,
         "D6": 5,
         "D7": 5,
-        "D8": 4
+        "D8": 4,
+        "D9": 2
       },
-      "median_composite": 4.5,
+      "median_composite": 3.9,
       "juror_composites": {
-        "grok": 4.95,
-        "claude": 4.15,
-        "kimi": 4.5
+        "claude": 3.9
       },
       "controversial_dimensions": [
         "D2"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.ushahidi.com",
@@ -6977,16 +6680,15 @@
         "D5": 4,
         "D6": 3,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 3.6,
+      "median_composite": 3.4,
       "juror_composites": {
-        "grok": 3.6,
-        "claude": 3.55,
-        "kimi": 3.75
+        "claude": 3.4
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.watchduty.org",
@@ -6999,16 +6701,15 @@
         "D5": 1,
         "D6": 2,
         "D7": 2,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 2.05,
+      "median_composite": 2.25,
       "juror_composites": {
-        "grok": 2.05,
-        "claude": 2.15,
-        "kimi": 1.95
+        "claude": 2.25
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.welivedit.ai",
@@ -7021,16 +6722,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 1,
-        "D8": 2
+        "D8": 2,
+        "D9": 2
       },
-      "median_composite": 1.95,
+      "median_composite": 1.85,
       "juror_composites": {
-        "grok": 1.95,
-        "claude": 1.95,
-        "kimi": 1.75
+        "claude": 1.85
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.whatdotheyknow.com",
@@ -7043,16 +6743,15 @@
         "D5": 4,
         "D6": 3,
         "D7": 4,
-        "D8": 3
+        "D8": 3,
+        "D9": 4
       },
-      "median_composite": 3.05,
+      "median_composite": 3.25,
       "juror_composites": {
-        "grok": 2.95,
-        "claude": 3.05,
-        "kimi": 3.05
+        "claude": 3.25
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.whatgov.co.uk",
@@ -7065,18 +6764,17 @@
         "D5": 1,
         "D6": 1,
         "D7": 3,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 1.7,
+      "median_composite": 1.85,
       "juror_composites": {
-        "grok": 1.6,
-        "claude": 1.7,
-        "kimi": 2.05
+        "claude": 1.85
       },
       "controversial_dimensions": [
         "D4"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.wikidata.org",
@@ -7089,19 +6787,18 @@
         "D5": 5,
         "D6": 2,
         "D7": 5,
-        "D8": 2
+        "D8": 2,
+        "D9": 3
       },
-      "median_composite": 3.15,
+      "median_composite": 3.1,
       "juror_composites": {
-        "grok": 4.65,
-        "claude": 3.15,
-        "kimi": 2.85
+        "claude": 3.1
       },
       "controversial_dimensions": [
         "D1",
         "D2"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.workerinfoexchange.org",
@@ -7114,16 +6811,15 @@
         "D5": 2,
         "D6": 4,
         "D7": 3,
-        "D8": 4
+        "D8": 4,
+        "D9": 4
       },
-      "median_composite": 3.35,
+      "median_composite": 3.4,
       "juror_composites": {
-        "grok": 3.5,
-        "claude": 3.35,
-        "kimi": 3.35
+        "claude": 3.4
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.workincharities.co.uk",
@@ -7136,16 +6832,15 @@
         "D5": 1,
         "D6": 1,
         "D7": 1,
-        "D8": 2
+        "D8": 2,
+        "D9": 3
       },
-      "median_composite": 1.15,
+      "median_composite": 1.5,
       "juror_composites": {
-        "grok": 1.15,
-        "claude": 1.2,
-        "kimi": 1.15
+        "claude": 1.5
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.writetothem.com",
@@ -7158,16 +6853,15 @@
         "D5": 2,
         "D6": 2,
         "D7": 3,
-        "D8": 4
+        "D8": 4,
+        "D9": 3
       },
-      "median_composite": 2.25,
+      "median_composite": 2.45,
       "juror_composites": {
-        "grok": 2.05,
-        "claude": 2.4,
-        "kimi": 2.25
+        "claude": 2.45
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://www.yoti.com",
@@ -7180,16 +6874,15 @@
         "D5": 2,
         "D6": 1,
         "D7": 1,
-        "D8": 2
+        "D8": 2,
+        "D9": 3
       },
-      "median_composite": 1.8,
+      "median_composite": 2.15,
       "juror_composites": {
-        "grok": 1.8,
-        "claude": 1.95,
-        "kimi": 1.45
+        "claude": 2.15
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://yourtracka.org",
@@ -7202,16 +6895,15 @@
         "D5": 1,
         "D6": 3,
         "D7": 2,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 2.95,
+      "median_composite": 2.75,
       "juror_composites": {
-        "grok": 3.1,
-        "claude": 2.75,
-        "kimi": 2.95
+        "claude": 2.75
       },
       "controversial_dimensions": [],
-      "jurors_count": 3
+      "jurors_count": 1
     },
     {
       "url": "https://yrpri.org",
@@ -7224,18 +6916,17 @@
         "D5": 2,
         "D6": 3,
         "D7": 3,
-        "D8": 3
+        "D8": 3,
+        "D9": 3
       },
-      "median_composite": 3.3,
+      "median_composite": 2.85,
       "juror_composites": {
-        "grok": 3.35,
-        "claude": 2.85,
-        "kimi": 3.3
+        "claude": 2.85
       },
       "controversial_dimensions": [
         "D3"
       ],
-      "jurors_count": 3
+      "jurors_count": 1
     }
   ]
 }

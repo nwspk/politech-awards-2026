@@ -5,8 +5,13 @@
  *   npx tsx scripts/alexandra/alexandra-aggregate.ts
  *   npx tsx scripts/alexandra/alexandra-aggregate.ts --out cache/alexandra-aggregate.json
  *
- * Reads:  cache/alexandra-assessments.json
+ * Reads:  cache/alexandra-assessments.json   (D1–D8)
+ *         cache/alexandra-d9-assessments.json (D9, optional — merged in when present)
  * Writes: cache/alexandra-aggregate.json (+ .csv alongside)
+ *
+ * Weight mode:
+ *   Default (no D9 file): D1–D8 original weights (v9 baseline)
+ *   With D9 file present: D1–D8 revised weights + D9 at 15% (v10 civic-benefit model)
  */
 
 import fs from "fs";
@@ -28,6 +33,7 @@ interface JurorScoreResult {
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..", "..");
 const IN_PATH = path.join(ROOT, "cache", "alexandra-assessments.json");
+const D9_PATH = path.join(ROOT, "cache", "alexandra-d9-assessments.json");
 
 const args = process.argv.slice(2);
 function getArg(flag: string): string | undefined {
@@ -36,19 +42,25 @@ function getArg(flag: string): string | undefined {
 }
 const OUT_JSON = path.resolve(ROOT, getArg("--out") ?? "cache/alexandra-aggregate.json");
 
-const DIMS = ["D1", "D2", "D3", "D4", "D5", "D6", "D7", "D8"] as const;
+// D9 file presence switches weight mode automatically
+const HAS_D9 = fs.existsSync(D9_PATH);
+
+const DIMS_BASE = ["D1", "D2", "D3", "D4", "D5", "D6", "D7", "D8"] as const;
+const DIMS_WITH_D9 = ["D1", "D2", "D3", "D4", "D5", "D6", "D7", "D8", "D9"] as const;
+const DIMS = HAS_D9 ? DIMS_WITH_D9 : DIMS_BASE;
 type Dim = (typeof DIMS)[number];
 
-const WEIGHTS: Record<Dim, number> = {
-  D1: 0.25,
-  D2: 0.2,
-  D3: 0.15,
-  D4: 0.1,
-  D5: 0.1,
-  D6: 0.1,
-  D7: 0.05,
-  D8: 0.05,
+// v9 baseline weights (no D9)
+const WEIGHTS_V9: Record<string, number> = {
+  D1: 0.25, D2: 0.20, D3: 0.15, D4: 0.10, D5: 0.10, D6: 0.10, D7: 0.05, D8: 0.05,
 };
+
+// v10 civic-benefit weights (with D9)
+const WEIGHTS_V10: Record<string, number> = {
+  D1: 0.20, D2: 0.15, D3: 0.05, D4: 0.10, D5: 0.10, D6: 0.15, D7: 0.05, D8: 0.05, D9: 0.15,
+};
+
+const WEIGHTS: Record<string, number> = HAS_D9 ? WEIGHTS_V10 : WEIGHTS_V9;
 
 function composite(scores: Record<Dim, number>): number {
   let s = 0;
@@ -115,6 +127,26 @@ function main() {
   }
 
   const data = JSON.parse(fs.readFileSync(IN_PATH, "utf-8")) as AssessmentsFile;
+
+  // Load D9 scores if available — keyed by url → juror id → D9 integer
+  const d9Scores: Record<string, Record<string, number>> = {};
+  if (HAS_D9) {
+    const d9Data = JSON.parse(fs.readFileSync(D9_PATH, "utf-8")) as Record<
+      string,
+      { jurors?: Record<string, { scores?: { D9?: number }; error?: boolean }> }
+    >;
+    for (const [url, entry] of Object.entries(d9Data)) {
+      if (!entry?.jurors) continue;
+      d9Scores[url] = {};
+      for (const [jid, j] of Object.entries(entry.jurors)) {
+        if (j && !j.error && typeof j.scores?.D9 === "number") {
+          d9Scores[url][jid] = j.scores.D9;
+        }
+      }
+    }
+    console.log(`D9 file loaded: ${Object.keys(d9Scores).length} URLs with D9 scores`);
+  }
+
   const projects: ProjectAgg[] = [];
 
   for (const url of Object.keys(data).sort()) {
@@ -122,32 +154,32 @@ function main() {
     if (!row?.jurors) continue;
 
     const jurorComposites: Record<string, number> = {};
-    const perDim: Record<Dim, number[]> = {
-      D1: [],
-      D2: [],
-      D3: [],
-      D4: [],
-      D5: [],
-      D6: [],
-      D7: [],
-      D8: [],
-    };
+    // Build perDim dynamically from DIMS so D9 is included when HAS_D9
+    const perDim: Record<string, number[]> = {};
+    for (const d of DIMS) perDim[d] = [];
 
     for (const [jid, entry] of Object.entries(row.jurors)) {
-      if (!entry || ("error" in entry && entry.error)) continue;
+      if (!entry || "error" in entry) continue;
       const scores = entry.scores;
-      const c: Record<Dim, number> = {
-        D1: scores.D1,
-        D2: scores.D2,
-        D3: scores.D3,
-        D4: scores.D4,
-        D5: scores.D5,
-        D6: scores.D6,
-        D7: scores.D7,
-        D8: scores.D8,
+
+      // Build score map for this juror — D1–D8 from main assessments, D9 from d9Scores
+      const c: Record<string, number> = {
+        D1: scores.D1, D2: scores.D2, D3: scores.D3, D4: scores.D4,
+        D5: scores.D5, D6: scores.D6, D7: scores.D7, D8: scores.D8,
       };
-      jurorComposites[jid] = composite(c);
-      for (const d of DIMS) perDim[d].push(scores[d]);
+      if (HAS_D9) {
+        const d9 = d9Scores[url]?.[jid];
+        if (typeof d9 === "number") c["D9"] = d9;
+      }
+
+      // Only compute composite when all active dimensions are present
+      const missingDims = DIMS.filter(d => c[d] == null);
+      if (missingDims.length === 0) {
+        jurorComposites[jid] = composite(c as Record<Dim, number>);
+      }
+      for (const d of DIMS) {
+        if (c[d] != null) perDim[d].push(c[d] as number);
+      }
     }
 
     const median_scores = {} as Record<Dim, number | null>;
