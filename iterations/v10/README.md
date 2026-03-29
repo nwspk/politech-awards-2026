@@ -7,9 +7,9 @@ version: v10
 pr_number: 89
 pr_status: "open"
 top_project:
-  name: "blog.kagi.com"
-  url: "https://blog.kagi.com/slopstop"
-  score: 99
+  name: "torproject.org"
+  url: "https://www.torproject.org"
+  score: 90
 ---
 
 ## Heuristic
