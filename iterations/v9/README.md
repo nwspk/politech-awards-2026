@@ -1,5 +1,5 @@
 ---
-title: "Alexandra D1–D8 three-model jury"
+title: "Contestable transparency — D1–D8 rubric, three jurors, auditable evidence"
 author: "@nwspk"
 date: "2026-03-28"
 pr_url: ""
