@@ -420,3 +420,23 @@ Winner: Humble Data Workshop (constitutional score: 77.7/100, jury confidence: M
 | Underdog protection practically inert | constitution-weakness | No projects in activation range | Longlist has high completeness; insurance only | Known |
 
 ---
+
+---
+
+## Consent update: David Powell
+
+Date: 2026-03-29
+
+David Powell confirmed he is comfortable with his ranking and constitution being on record on his individual branch (PR #71, now closed), but does not wish to be included in the overall aggregate score or committee deliberation.
+
+**Actions taken:**
+- Removed all David Powell data from the Source of Truth branch (PR #76): soul file, constitution, criteria, modifiers, procedural, evidence-assessed, ranking-table, reflection, jury-summary
+- PR #71 closed with a note explaining consent scope
+- David is not included in any aggregate or committee iterations
+
+**Consent scope (for reference):**
+- ✅ Individual ranking (ranking-table.csv) — on his branch, not in aggregation
+- ✅ Constitution — on his branch, not in aggregation
+- ❌ Inclusion in overall aggregate score
+- ❌ Inclusion in committee deliberation
+
