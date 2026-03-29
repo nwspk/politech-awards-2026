@@ -42,5 +42,6 @@ _Bot-maintained summary. Full records: [docs/logs/iterations-log.md](docs/logs/i
 | v7 | 2026-03-28 | open | expo.diia.gov.ua | [v7](https://github.com/nwspk/politech-awards-2026/pull/20) | [entry](docs/logs/iterations-log.md) |
 | v8 | 2026-03-27 | open | blog.kagi.com/slopstop | [v8](https://github.com/nwspk/politech-awards-2026/pull/41) | [entry](docs/logs/iterations-log.md) |
 | v9 | 2026-03-28 | open | www.torproject.org | — | [entry](docs/logs/iterations-log.md) |
+| v10 | 2026-03-29 | open | blog.kagi.com | [v10](https://github.com/nwspk/politech-awards-2026/pull/89) | [entry](docs/logs/iterations-log.md) |
 
 <!-- ITERATIONS:END -->
