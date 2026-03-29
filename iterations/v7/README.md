@@ -5,10 +5,11 @@ date: "2026-03-28"
 pr_url: "https://github.com/nwspk/politech-awards-2026/pull/20"
 version: v7
 pr_number: 20
-pr_status: "open"
+pr_status: "merged"
 top_project:
   name: "expo.diia.gov.ua"
   url: "https://expo.diia.gov.ua"
+  score: 91
   score: 91
 ---
 

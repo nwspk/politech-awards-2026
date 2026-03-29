@@ -12,14 +12,14 @@ Canonical full iteration history for `/awards` rendering. Generated from `iterat
 | v4 | 2026-02-13 | @jcoombes | merged | Base score (50) + inclusion bonus (URL keywords) − fetch-failure penalty (10) + AI-body bonus (up to 15). Uses cached page fetches to penalise dead/inaccessible sites and reward projects whose page content mentions AI governance, safety, or policy keywords. | [v4](https://github.com/nwspk/politech-awards-2026/pull/9) | [entry](#v4-ai-governance-body-bonus) |
 | v5 | 2026-02-22 | @Gamithra | merged | Three-agent ITN/A deliberation: independent AI evaluators assess each project through political, relational, and experimental personas on 4 different lenses, argue in multi-turn conversation, and produce a ranked shortlist. | [v5](https://github.com/nwspk/politech-awards-2026/pull/12) | [entry](#v5-three-agent-itn-a-deliberation) |
 | v6 | 2026-03-09 | @sugaroverflow | open | This heuristic inherits the approach in [v5: ITN/A multi-agent deliberation heuristic](https://github.com/nwspk/politech-awards-2026/pull/12) with **6 independent AI juries** that run an ITN/A deliberation on a shortlist of 183 projects. The jury with the highest confidence score picks the project winner. | [v6](https://github.com/nwspk/politech-awards-2026/pull/15) | [entry](#v6-six-jury-itn-a-deliberation) |
-| v7 | 2026-03-28 | @sugaroverflow | open | Scores and filters projects based on Davit's eight evaluation criteria: | [v7](https://github.com/nwspk/politech-awards-2026/pull/20) | [entry](#v7-v7-davit-aligned-political-relevance-heuristic) |
+| v7 | 2026-03-28 | @sugaroverflow | merged | Scores and filters projects based on Davit's eight evaluation criteria: | [v7](https://github.com/nwspk/politech-awards-2026/pull/20) | [entry](#v7-v7-davit-aligned-political-relevance-heuristic) |
 
 ## Full iteration records
 
 ### v7 v7: Davit-aligned political relevance heuristic
 
 - **PR**: [v7](https://github.com/nwspk/politech-awards-2026/pull/20)
-- **Status**: open
+- **Status**: merged
 - **Author**: @sugaroverflow
 - **Date**: 2026-03-28
 - **Top project**: [expo.diia.gov.ua](https://expo.diia.gov.ua) (score: 91)
