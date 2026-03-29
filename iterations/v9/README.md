@@ -53,3 +53,5 @@ v9 reuses v6’s **multi-model independence** while swapping the **measurement i
 ## Assessment
 
 Ships the **documentation + scripts + aggregate + optional `the-algorithm.ts` mode** in one PR. Committee runs eval when ready, commits or archives `cache/alexandra-*.json` if they want a reproducible snapshot, then may set `top_project` in this README after a full run. **Winner selection** remains a committee choice; v9 makes the numeric layer **contestable**. Current `top_project` reflects the highest `median_composite` in the committed aggregate snapshot.
+
+**Iteration bot:** commit root **`results.json`** from **`SCORING_MODE=v9 npx tsx the-algorithm.ts`** (not the default ITN/A path), and keep **`iterations/v9/results.json`** in sync with that file when you refresh the PR.

@@ -30,6 +30,8 @@ v9 **reuses v6’s multi-model independence** while swapping the **measurement i
 
 This PR ships **documentation** (`docs/evaluation/alexandra-rubric.md`), **scripts** (`scripts/alexandra/alexandra-eval.ts`, `alexandra-aggregate.ts`), **committed cache snapshots** (`cache/alexandra-assessments.json`, `cache/alexandra-aggregate.json`, `.csv`), **`iterations/v9/README.md`**, and the **`the-algorithm.ts`** hook under **`SCORING_MODE=v9`**. A full run has already produced an aggregate; **re-running eval is optional** if the committee is happy with the committed snapshot. In the current aggregate, **Tor Project** has the highest `median_composite` (reflected as `top_project` in the iteration README). **Winner selection** remains a **committee** choice; v9 makes the numeric layer **contestable** and auditable.
 
+**Iteration bot:** The updater reads committed root **`results.json`** only — it does **not** run the algorithm. For v9 you must generate it with **`SCORING_MODE=v9 npx tsx the-algorithm.ts`** (reads `cache/alexandra-aggregate.json`). The default command without `SCORING_MODE=v9` writes **v8-style ITN/A** scores and will confuse the bot. Commit **`iterations/v9/results.json`** as the same snapshot when you refresh the PR.
+
 ## Implementation
 
 - [x] Code is ready to review

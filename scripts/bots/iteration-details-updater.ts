@@ -4,6 +4,7 @@
 
 import { execSync } from "child_process";
 import * as fs from "fs";
+import * as path from "path";
 import {
   type Iteration,
   type ResultEntry,
@@ -65,6 +66,28 @@ function getNextVersion(): string {
   return `v${n + 1}`;
 }
 
+/** e.g. "v9: My title" → "v9" — used when iterations/v9/README.md exists but pr_number is not set yet. */
+function parseVersionPrefixFromTitle(title: string | null): string | null {
+  if (!title) return null;
+  const m = title.trim().match(/^(v\d+)\s*:/i);
+  return m ? m[1].toLowerCase() : null;
+}
+
+function getVersionFromTitleAndFolder(
+  title: string | null,
+  prNumber: number
+): string | null {
+  const v = parseVersionPrefixFromTitle(title);
+  if (!v) return null;
+  const readmePath = path.join("iterations", v, "README.md");
+  if (!fs.existsSync(readmePath)) return null;
+  const { frontmatter } = parseIterationMd(fs.readFileSync(readmePath, "utf-8"));
+  const claimed =
+    typeof frontmatter.pr_number === "number" ? frontmatter.pr_number : null;
+  if (claimed != null && claimed !== prNumber) return null;
+  return v;
+}
+
 function detectDataSources(): string[] {
   const code = fs.readFileSync("the-algorithm.ts", "utf-8");
   const sources: string[] = [];
@@ -115,7 +138,10 @@ function main(): void {
     return;
   }
 
-  const version = getVersionForPr(prNumber) ?? getNextVersion();
+  const version =
+    getVersionForPr(prNumber) ??
+    getVersionFromTitleAndFolder(title, prNumber) ??
+    getNextVersion();
   const topProject = allResults[0];
   const dataSources = detectDataSources();
 

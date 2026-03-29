@@ -83,7 +83,7 @@ flowchart TB
 
 **Triggers:** PR has `iteration` label and is "Ready for review", or `run-bot` label. Does not run on drafts. Non-iteration PRs (data, docs, fixes) skip the updater.
 
-**Author-provided results:** The bot does not run the algorithm. You run it locally and commit `results.json`. The bot reads your results and creates the iteration.
+**Author-provided results:** The bot does not run the algorithm. You run it locally and commit `results.json`. The bot reads your results and creates the iteration. For **v9 (Alexandra)**, generate `results.json` with **`SCORING_MODE=v9 npx tsx the-algorithm.ts`** so scores come from `cache/alexandra-aggregate.json`; the default command uses **v5 ITN/A** and will not match v9. If your PR title starts with **`vN:`** and `iterations/vN/README.md` already exists with no conflicting `pr_number`, the bot assigns **vN** instead of auto-incrementing.
 
 **What it does:**
 
