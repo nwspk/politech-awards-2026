@@ -8,6 +8,7 @@
     "sync:readme": "npx tsx scripts/bots/sync-readme.ts",
     "sync:iterations-log": "npx tsx scripts/bots/sync-iterations-log.ts",
     "docs:sync": "npm run build:iterations && npm run sync:readme && npm run sync:iterations-log",
+    "aggregate:mirror-v2-constitutions": "npx tsx scripts/bots/aggregate-mirror-v2-criteria.ts",
     "cache:sites": "npx tsx scripts/cache-sites.ts",
     "itn-a-eval": "npx tsx scripts/itn/itn-a-eval.ts",
     "itn-a-deliberate": "npx tsx scripts/itn/itn-a-deliberate.ts",
