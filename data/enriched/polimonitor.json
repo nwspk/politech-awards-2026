@@ -57,5 +57,18 @@
   "pass2_at": "2026-03-09T23:21:46.391Z",
   "pass5_at": "2026-03-10T01:00:11.405Z",
   "pass5_jina_words": 176,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "PoliMonitor addresses government technology and public service delivery. Political monitoring service enabling organisations to understand, engage and shape political discussions.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Amplifies advocacy efforts and helps citizens influence decision-makers."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Currently focused on United Kingdom; would require local data and regulatory adaptation.",
+  "primary_users_or_beneficiaries": [
+    "public affairs professionals",
+    "communications professionals",
+    "organizations"
+  ],
+  "underdog_signal": true
 }

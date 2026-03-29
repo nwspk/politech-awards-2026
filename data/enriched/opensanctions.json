@@ -69,25 +69,8 @@
     "Data quality dependent on source reliability",
     "Potential for data duplication or conflicts across sources"
   ],
-  "news_articles": [
-    {
-      "title": "OpenSanctions: Making Sanctions Data Open and Accessible",
-      "outlet": "TechCrunch",
-      "date": "2023"
-    },
-    {
-      "title": "How Open Data is Fighting Financial Crime",
-      "outlet": "Wired",
-      "date": "2022"
-    }
-  ],
-  "academic_citations": [
-    {
-      "title": "Data Infrastructure for Compliance: The Role of Open Sanctions Databases",
-      "authors": "Various",
-      "year": 2023
-    }
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "Transparency International Award for Data Innovation"
   ],
@@ -133,5 +116,21 @@
   "pass2_at": "2026-03-09T23:21:49.255Z",
   "pass5_at": "2026-03-10T00:55:37.703Z",
   "pass5_jina_words": 518,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "OpenSanctions addresses the civic need for government transparency and open data access, enabling citizens, journalists, and researchers to hold public institutions accountable.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "OpenSanctions provides foundational data infrastructure, standards, or platforms that other civic technology efforts build upon."
+  },
+  "systemic_issue_area": "corporate transparency and accountability",
+  "generalizability_notes": "High generalizability. OpenSanctions is open source and already deployed across multiple countries/jurisdictions, making replication straightforward for other contexts.",
+  "primary_users_or_beneficiaries": [
+    "investigators",
+    "companies",
+    "technologists",
+    "financial institutions",
+    "researchers",
+    "compliance professionals"
+  ],
+  "underdog_signal": true
 }

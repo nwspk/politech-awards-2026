@@ -61,13 +61,8 @@
     "Reliance on Amazon Mechanical Turk platform policies",
     "Volunteer-dependent operations"
   ],
-  "news_articles": [
-    "Irani, L. (2015). 'Justice for Data Janitors'. Public Books.",
-    "Rosenblat, A., & Stark, L. (2016). 'Uber's Algorithmic Management in the On-Demand Economy'. New Media & Society."
-  ],
-  "academic_citations": [
-    "Irani, L., & Silberman, M. S. (2016). Turkopticon: Interrupting worker invisibility in Amazon Mechanical Turk"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "in_civictech_guide": false,
   "policy_outcomes": [
     {
@@ -94,5 +89,18 @@
   "pass2_at": "2026-03-09T23:21:43.769Z",
   "pass5_at": "2026-03-10T00:51:49.203Z",
   "pass5_jina_words": 579,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Turkopticon addresses digital rights and online freedoms. Worker-led platform organizing mutual aid and advocacy for Amazon Mechanical Turk workers.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Directly supports organizing, mobilization, or campaign activities"
+  },
+  "systemic_issue_area": "digital rights infrastructure",
+  "generalizability_notes": "Highly generalizable — already deployed internationally and open source, facilitating adoption in new contexts.",
+  "primary_users_or_beneficiaries": [
+    "Amazon Mechanical Turk workers",
+    "Platform workers",
+    "Gig economy workers"
+  ],
+  "underdog_signal": true
 }

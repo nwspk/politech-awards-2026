@@ -104,17 +104,8 @@
     "Geopolitical restrictions in some regions",
     "Funding sustainability for operations"
   ],
-  "news_articles": [
-    "Guardian: 'Mapping the unmapped: how volunteers are creating life-saving maps'",
-    "Wired: 'The volunteers mapping the world's most dangerous places'",
-    "Reuters: 'Humanitarian mappers use crowdsourcing to aid disaster response'",
-    "TechCrunch: 'HOT launches new tools for crisis mapping'"
-  ],
-  "academic_citations": [
-    "Zook et al. (2012) on crowdsourced geographic information for disaster response",
-    "Haklay (2010) on volunteered geographic information",
-    "Goodchild & Li (2012) on assessing the quality of volunteered geographic information"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "Tech for Good Award",
     "UN recognition for humanitarian mapping contributions"
@@ -160,5 +151,21 @@
   "pass2_at": "2026-03-09T23:21:50.483Z",
   "pass5_at": "2026-03-10T00:55:08.301Z",
   "pass5_jina_words": 605,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Humanitarian OpenStreetMap Team (HOT) addresses making civic data accessible and actionable and enabling broader democratic participation. It has documented policy impact.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Serves as an information resource: Mapping for impact in humanitarian crises and development challenges."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "humanitarian organizations",
+    "development agencies",
+    "government partners",
+    "researchers",
+    "volunteers",
+    "affected communities"
+  ],
+  "underdog_signal": false
 }

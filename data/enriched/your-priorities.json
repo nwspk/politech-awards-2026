@@ -82,13 +82,8 @@
   "funding_verified": true,
   "last_funding_event": "2023",
   "dependency_risks": "Moderate - relies on Node.js/JavaScript ecosystem and PostgreSQL database; community maintenance of open-source components",
-  "news_articles": [
-    "Your Priorities platform used in Icelandic citizen consultation processes",
-    "Participatory budgeting initiatives across European municipalities"
-  ],
-  "academic_citations": [
-    "Citations in participatory democracy and e-governance literature"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "Recognition as leading participatory democracy platform in Europe"
   ],
@@ -126,5 +121,21 @@
   "pass2_at": "2026-03-09T23:21:53.868Z",
   "pass5_at": "2026-03-10T00:57:42.579Z",
   "pass5_jina_words": 17,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Your Priorities addresses democratic participation and citizen engagement. Idea generation, deliberation & decision-making platform for governments since 2008.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides civic data or journalism infrastructure"
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Highly generalizable — already deployed internationally and open source, facilitating adoption in new contexts.",
+  "primary_users_or_beneficiaries": [
+    "governments",
+    "citizens",
+    "communities",
+    "schools",
+    "youth",
+    "local authorities"
+  ],
+  "underdog_signal": false
 }

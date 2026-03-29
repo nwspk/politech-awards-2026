@@ -25,5 +25,16 @@
   "news_articles": [],
   "pass5_at": "2026-03-10T01:01:57.729Z",
   "pass5_jina_words": 58,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Unknown Academic Paper (SSRN 5351275) addresses civic technology through technology-enabled civic innovation.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides information, data, or research for civic purposes"
+  },
+  "systemic_issue_area": "civic technology and participation",
+  "generalizability_notes": "Generalizability unclear; would depend on the specific regulatory and data environment of the target jurisdiction.",
+  "primary_users_or_beneficiaries": [
+    "general public"
+  ],
+  "underdog_signal": false
 }

@@ -60,12 +60,6 @@
       "doi": "https://doi.org/10.1109/icecaa58104.2023.10212168"
     },
     {
-      "title": "NLP as an essential ingredient of effective OSINT frameworks",
-      "year": 2013,
-      "cited_by": 11,
-      "doi": null
-    },
-    {
       "title": "From Theory to Practice: Towards an OSINT Framework to Mitigate Arabic Social Cyber Attacks",
       "year": 2022,
       "cited_by": 3,
@@ -88,5 +82,19 @@
   ],
   "pass5_at": "2026-03-10T00:50:12.954Z",
   "pass5_jina_words": 215,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "OSINT Framework addresses threats to digital rights and online privacy, providing infrastructure that protects civic freedoms in an increasingly surveilled digital environment.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "OSINT Framework primarily serves as an information resource for researchers, journalists, or analysts working on civic and political issues."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "High generalizability. OSINT Framework is open source and already deployed across multiple countries/jurisdictions, making replication straightforward for other contexts.",
+  "primary_users_or_beneficiaries": [
+    "researchers",
+    "information security professionals",
+    "journalists",
+    "investigators"
+  ],
+  "underdog_signal": true
 }

@@ -78,12 +78,6 @@
       "doi": "https://doi.org/10.1145/3306346.3322941"
     },
     {
-      "title": "PLANiTS: a curated sequence reference dataset for plant ITS DNA metabarcoding",
-      "year": 2020,
-      "cited_by": 124,
-      "doi": "https://doi.org/10.1093/database/baz155"
-    },
-    {
       "title": "PLANIT",
       "year": 1967,
       "cited_by": 15,
@@ -132,5 +126,19 @@
   ],
   "pass5_at": "2026-03-10T00:49:08.542Z",
   "pass5_jina_words": 16,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "PlanIT addresses gaps in democratic participation by providing tools or platforms that enable citizens and communities to engage more directly in governance and decision-making processes.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "PlanIT amplifies civic advocacy by giving citizens and groups tools to engage in democratic processes or influence policy."
+  },
+  "systemic_issue_area": "urban planning and housing",
+  "generalizability_notes": "Limited generalizability. PlanIT is proprietary and designed for UK-specific contexts. The concept could inspire similar efforts elsewhere but direct replication is not feasible.",
+  "primary_users_or_beneficiaries": [
+    "citizens in United Kingdom",
+    "local authorities",
+    "planning professionals",
+    "developers"
+  ],
+  "underdog_signal": true
 }

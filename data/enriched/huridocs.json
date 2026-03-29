@@ -91,25 +91,8 @@
     "reliance on multiple funders",
     "flagship tool Uwazi requires ongoing technical maintenance"
   ],
-  "news_articles": [
-    {
-      "title": "HURIDOCS Uwazi platform used for documenting human rights violations in Ukraine",
-      "outlet": "Reuters",
-      "year": 2022
-    },
-    {
-      "title": "Open source tools for human rights documentation",
-      "outlet": "Guardian",
-      "year": 2020
-    }
-  ],
-  "academic_citations": [
-    {
-      "title": "Digital tools for human rights documentation and accountability",
-      "authors": "Various",
-      "year": 2021
-    }
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     {
       "name": "Recognition as leading human rights documentation platform",
@@ -175,5 +158,21 @@
   "pass2_at": "2026-03-09T23:21:32.244Z",
   "pass5_at": "2026-03-10T00:46:18.877Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "HURIDOCS addresses the civic problem of supporting human rights documentation and accountability. It has documented policy impact.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Directly supports organizers/campaigners through HURIDOCS equips human rights defenders with tools to mobilise information for justice and accountability."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "human rights defenders",
+    "NGOs",
+    "civil society organisations",
+    "legal teams",
+    "journalists",
+    "accountability bodies"
+  ],
+  "underdog_signal": false
 }

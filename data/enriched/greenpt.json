@@ -105,5 +105,21 @@
   ],
   "pass5_at": "2026-03-10T00:46:25.382Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "GreenPT addresses digital rights and online freedoms. Sustainable and privacy-friendly AI chat platform powered by renewable energy and hosted in Europe.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides technical infrastructure that other civic tools or services build upon."
+  },
+  "systemic_issue_area": "digital rights infrastructure",
+  "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Proprietary or closed-source; replication requires licensing.",
+  "primary_users_or_beneficiaries": [
+    "governments",
+    "businesses",
+    "privacy-focused organizations",
+    "developers",
+    "cultural institutions",
+    "mission-driven companies"
+  ],
+  "underdog_signal": true
 }

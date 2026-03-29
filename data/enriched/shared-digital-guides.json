@@ -56,12 +56,6 @@
   ],
   "academic_citations": [
     {
-      "title": "Touring Machines: Guide Agents for Sharing Stories about Digital Places",
-      "year": 1999,
-      "cited_by": 20,
-      "doi": null
-    },
-    {
       "title": "Smart cities: big data, civic hackers, and the quest for a new utopia",
       "year": 2014,
       "cited_by": 1599,
@@ -98,5 +92,18 @@
   "pass3_at": "2026-03-09T23:23:29.825Z",
   "_sources": [
     "openalex"
-  ]
+  ],
+  "political_relevance_summary": "Shared Digital Guides addresses government technology and public service delivery. Non-profit organisations share step-by-step guides to using digital tools for social good.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides data, research, or educational resources for civic engagement."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Open-source codebase facilitates replication; currently focused on United Kingdom; would require local data and regulatory adaptation.",
+  "primary_users_or_beneficiaries": [
+    "non-profit organisations",
+    "charities",
+    "social enterprises"
+  ],
+  "underdog_signal": false
 }

@@ -60,5 +60,16 @@
     "scraped_description": null,
     "scraped_final_url": "https://tracking-template-38b4c.web.app/"
   },
-  "pass2_at": "2026-03-10T00:27:55.564Z"
+  "pass2_at": "2026-03-10T00:27:55.564Z",
+  "political_relevance_summary": "None addresses civic technology through technology-enabled civic innovation.",
+  "movement_building_utility": {
+    "classification": "indirect_or_none",
+    "notes": "No clear direct movement-building utility identified"
+  },
+  "systemic_issue_area": "civic technology and participation",
+  "generalizability_notes": "Generalizability unclear; would depend on the specific regulatory and data environment of the target jurisdiction.",
+  "primary_users_or_beneficiaries": [
+    "general public"
+  ],
+  "underdog_signal": false
 }

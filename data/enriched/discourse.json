@@ -69,15 +69,8 @@
   "funding_verified": true,
   "last_funding_event": "Series B funding round",
   "dependency_risks": "Reliance on Ruby on Rails framework; PostgreSQL database dependency; JavaScript frontend dependencies",
-  "news_articles": [
-    "TechCrunch coverage of Discourse funding rounds",
-    "Guardian articles on online community moderation",
-    "Wired features on community platform evolution"
-  ],
-  "academic_citations": [
-    "Citations in research on online community management",
-    "Studies on discussion forum design and participation"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "Recognition as leading open-source community platform"
   ],
@@ -107,5 +100,20 @@
   "pass2_at": "2026-03-09T23:21:46.976Z",
   "pass5_at": "2026-03-10T00:54:28.511Z",
   "pass5_jina_words": 550,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Discourse addresses democratic participation and citizen engagement. Customizable, scalable community platform for building knowledge through conversation.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Platform for participatory democracy or deliberation that enables collective action."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Open-source codebase facilitates replication.",
+  "primary_users_or_beneficiaries": [
+    "tech companies",
+    "developers",
+    "product teams",
+    "support teams",
+    "community managers"
+  ],
+  "underdog_signal": false
 }

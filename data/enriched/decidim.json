@@ -71,9 +71,10 @@
   ],
   "news_articles": [],
   "academic_citations": [
-    "Barandiaran et al. (2024) — Decidim, a Technopolitical Network for Participatory Democracy, Springer",
-    "Borge Bravo et al. (2022) — Democratic disruption or continuity?, American Behavioral Scientist",
-    "Suter et al. (2023) — Decidim use in Zurich and Lucerne"
+    {
+      "citation": "Borge Bravo et al. (2022) — Democratic disruption or continuity?, American Behavioral Scientist",
+      "doi": "https://doi.org/10.1177/00027642221092798"
+    }
   ],
   "awards": [
     "Digital Public Goods Alliance recognition (2023)"
@@ -167,5 +168,21 @@
   },
   "pass5_at": "2026-03-10T00:45:44.349Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Decidim addresses democratic participation and citizen engagement. A free/libre, open and safe digital platform for citizen participation. Reprogramming democracy is now possible.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Platform for participatory democracy or deliberation that enables collective action."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Open-source codebase facilitates replication.",
+  "primary_users_or_beneficiaries": [
+    "municipal governments",
+    "regional governments",
+    "citizens' associations",
+    "universities",
+    "NGOs",
+    "trade unions"
+  ],
+  "underdog_signal": false
 }

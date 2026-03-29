@@ -70,5 +70,19 @@
   ],
   "pass5_at": "2026-03-10T01:02:02.569Z",
   "pass5_jina_words": 796,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "OpenAudience addresses the need for demographic and geographic audience understanding using open data, supporting campaigners and advocacy groups in targeting and understanding their constituencies.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "OpenAudience directly enables organizing by providing tools for collective action, campaigning, or community mobilization."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Limited generalizability. OpenAudience is proprietary and designed for UK-specific contexts. The concept could inspire similar efforts elsewhere but direct replication is not feasible.",
+  "primary_users_or_beneficiaries": [
+    "campaigners",
+    "political organizations",
+    "researchers",
+    "advocacy groups"
+  ],
+  "underdog_signal": false
 }

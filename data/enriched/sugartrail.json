@@ -99,5 +99,19 @@
   ],
   "pass5_at": "2026-03-10T00:46:21.811Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Sugartrail addresses civic data access and transparency. Network analysis and visualisation tool for exploring connections between companies, officers and addresses within UK Companies House.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Amplifies advocacy efforts and helps citizens influence decision-makers."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Open-source codebase facilitates replication; currently focused on United Kingdom; replication materials are available; would require local data and regulatory adaptation.",
+  "primary_users_or_beneficiaries": [
+    "investigative journalists",
+    "civic technology researchers",
+    "investigators",
+    "campaigners"
+  ],
+  "underdog_signal": false
 }

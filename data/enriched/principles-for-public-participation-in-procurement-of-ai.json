@@ -58,13 +58,8 @@
   ],
   "funding_verified": true,
   "last_funding_event": "2024",
-  "news_articles": [
-    "Mozilla Foundation announces P4AI framework",
-    "AI procurement transparency gains traction with new principles"
-  ],
-  "academic_citations": [
-    "Cited in AI governance and public participation literature"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "Recognition from international AI governance bodies"
   ],
@@ -99,5 +94,19 @@
   "pass2_at": "2026-03-09T23:21:38.293Z",
   "pass5_at": "2026-03-10T00:51:40.929Z",
   "pass5_jina_words": 400,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Principles for Public Participation in Procurement of AI addresses democratic participation and citizen engagement. Framework for public participation in AI procurement decisions.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides technical infrastructure supporting civic technology ecosystem."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions; replication materials are available; methodology-based approach is inherently transferable.",
+  "primary_users_or_beneficiaries": [
+    "policymakers",
+    "government procurement officials",
+    "civil society",
+    "civic technology researchers"
+  ],
+  "underdog_signal": false
 }

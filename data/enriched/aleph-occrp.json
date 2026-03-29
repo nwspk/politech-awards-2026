@@ -84,9 +84,7 @@
       "url": "https://en.wikipedia.org/wiki/Organized_Crime_and_Corruption_Reporting_Project"
     }
   ],
-  "academic_citations": [
-    "Aleph platform referenced in academic research on investigative journalism tools and open-source intelligence (OSINT) methodologies"
-  ],
+  "academic_citations": [],
   "awards": [
     "2017 Pulitzer Prize in Journalism (Panama Papers, shared with ICIJ and Süddeutsche Zeitung)"
   ],
@@ -146,5 +144,19 @@
     "tagline",
     "documented_limitations",
     "curation_criteria"
-  ]
+  ],
+  "political_relevance_summary": "Confronts threats to digital rights and civil liberties by equipping advocates and the public with information and tools.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Provides evidence and data that amplifies advocacy and accountability efforts."
+  },
+  "systemic_issue_area": "media independence and information access",
+  "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (multiple countries), demonstrating cross-context adaptability.",
+  "primary_users_or_beneficiaries": [
+    "investigative journalists",
+    "civil society researchers",
+    "grassroots activists and organizers",
+    "anti-corruption practitioners"
+  ],
+  "underdog_signal": false
 }

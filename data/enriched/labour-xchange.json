@@ -106,5 +106,21 @@
   ],
   "pass5_at": "2026-03-10T00:46:27.934Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Labour Xchange addresses the civic problem of making civic data accessible and actionable.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Serves as an information resource: A fair work platform connecting underemployed and flexible workers with employers."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "currently deployed in United Kingdom only, but approach could be adapted to other national contexts.",
+  "primary_users_or_beneficiaries": [
+    "underemployed workers",
+    "parents",
+    "carers",
+    "people with disabilities",
+    "employers",
+    "public sector organizations"
+  ],
+  "underdog_signal": false
 }

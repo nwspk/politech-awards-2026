@@ -60,16 +60,8 @@
     "Facebook anti-scraping measures",
     "Server maintenance dependent on donations"
   ],
-  "news_articles": [
-    "Guardian coverage of Facebook research tools",
-    "Wired article on disinformation research platforms",
-    "TechCrunch coverage of civic tech tools"
-  ],
-  "academic_citations": [
-    "Cited in research on social media disinformation detection",
-    "Used in studies on election-related misinformation",
-    "Referenced in academic work on Facebook data access for researchers"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "in_civictech_guide": true,
   "documented_limitations": [
     "Instagram date-filtering feature removed May 12, 2021 after Facebook disabled it",
@@ -97,5 +89,19 @@
   "pass2_at": "2026-03-09T23:21:44.510Z",
   "pass5_at": "2026-03-10T00:52:40.943Z",
   "pass5_jina_words": 427,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Who Posted What? addresses civic data access and transparency. Non-public Facebook keyword search tool for researchers and public interest workers.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides civic data or journalism infrastructure"
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Moderately generalizable — already international but proprietary nature may limit independent replication.",
+  "primary_users_or_beneficiaries": [
+    "journalists",
+    "researchers",
+    "public interest workers",
+    "fact-checkers"
+  ],
+  "underdog_signal": true
 }

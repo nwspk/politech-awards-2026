@@ -104,20 +104,7 @@
       "url": "https://www.open-contracting.org/news/mexico-eprocurement"
     }
   ],
-  "academic_citations": [
-    {
-      "title": "Open Contracting and Public Procurement Transparency: Evidence from Implementation in Emerging Markets",
-      "authors": "Multiple",
-      "year": 2023,
-      "venue": "World Bank Economic Review"
-    },
-    {
-      "title": "Transparency in Government Procurement: The Role of Open Data Standards",
-      "authors": "Multiple",
-      "year": 2022,
-      "venue": "Journal of Public Administration Research and Theory"
-    }
-  ],
+  "academic_citations": [],
   "awards": [
     {
       "name": "World Bank Open Data Award",
@@ -181,5 +168,21 @@
   "pass2_at": "2026-03-09T23:21:54.855Z",
   "pass5_at": "2026-03-10T00:55:28.921Z",
   "pass5_jina_words": 241,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Open Contracting Partnership addresses the civic need for government transparency and open data access, enabling citizens, journalists, and researchers to hold public institutions accountable.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Open Contracting Partnership amplifies civic advocacy by giving citizens and groups tools to engage in democratic processes or influence policy."
+  },
+  "systemic_issue_area": "government procurement transparency",
+  "generalizability_notes": "High generalizability. Open Contracting Partnership is open source and already deployed across multiple countries/jurisdictions, making replication straightforward for other contexts.",
+  "primary_users_or_beneficiaries": [
+    "government procurement officials",
+    "civil society organizations",
+    "researchers",
+    "journalists",
+    "engaged citizens and civic participants",
+    "businesses"
+  ],
+  "underdog_signal": true
 }

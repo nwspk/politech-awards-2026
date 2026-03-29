@@ -78,5 +78,17 @@
   ],
   "pass5_at": "2026-03-10T00:46:18.448Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Fission Codes addresses civic technology. Status codes for smart contracts powering microservices for Web3.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides technical infrastructure that other civic tools or services build upon."
+  },
+  "systemic_issue_area": "civic technology infrastructure",
+  "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Open-source codebase facilitates replication.",
+  "primary_users_or_beneficiaries": [
+    "developers",
+    "blockchain/Web3 engineers"
+  ],
+  "underdog_signal": true
 }

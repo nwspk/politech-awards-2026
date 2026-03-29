@@ -58,14 +58,7 @@
     "Platform adoption risk - requires critical mass of developers to be viable alternative to centralized forges",
     "Network effects dependency - value increases with user base"
   ],
-  "news_articles": [
-    {
-      "headline": "Radicle makes it to the top of Hacker News",
-      "outlet": "Hacker News",
-      "date": "2024-03-05",
-      "url": null
-    }
-  ],
+  "news_articles": [],
   "academic_citations": [
     {
       "title": "'Radicle' biochemistry: the biology of root-specific metabolism",
@@ -105,5 +98,18 @@
   ],
   "pass5_at": "2026-03-10T00:51:05.865Z",
   "pass5_jina_words": 552,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Radicle addresses digital rights and online freedoms. A sovereign, peer-to-peer code forge built on Git.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides digital rights infrastructure or privacy-preserving technology foundations."
+  },
+  "systemic_issue_area": "digital rights infrastructure",
+  "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "civic tech developers",
+    "open source contributors",
+    "technologists"
+  ],
+  "underdog_signal": true
 }

@@ -52,14 +52,7 @@
     "Relies on Claude Code for AI implementation",
     "Single developer project"
   ],
-  "news_articles": [
-    {
-      "headline": "British Transport Police would no longer review CCTV footage in bike theft cases if the footage was longer than two hours",
-      "outlet": "London Centric",
-      "date": "2025-10-17",
-      "url": null
-    }
-  ],
+  "news_articles": [],
   "academic_citations": [
     {
       "title": "Long‐term, livestock‐mediated redistribution of nitrogen and phosphorus in an East African savanna",
@@ -118,5 +111,18 @@
   ],
   "pass5_at": "2026-03-10T01:02:45.916Z",
   "pass5_jina_words": 962,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Theft Bisect addresses civic data access and transparency. A binary search tool to help identify bike theft moments in CCTV footage.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides civic data or journalism infrastructure"
+  },
+  "systemic_issue_area": "civic advocacy infrastructure",
+  "generalizability_notes": "Good generalizability potential — open source allows adaptation to other jurisdictions, though localization would be needed.",
+  "primary_users_or_beneficiaries": [
+    "law enforcement",
+    "citizens",
+    "bike theft victims"
+  ],
+  "underdog_signal": true
 }

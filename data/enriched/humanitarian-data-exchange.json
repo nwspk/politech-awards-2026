@@ -65,8 +65,10 @@
     "https://reliefweb.int/report/world/humanitarian-data-exchange-improving-data-sharing"
   ],
   "academic_citations": [
-    "Meier, P. (2015). Digital Humanitarians: How Big Data is Changing the Face of Humanitarian Response. CRC Press.",
-    "Letouzé, E., & Jancewicz, S. (2017). The Big Data Era in Humanitarian Response. Harvard Humanitarian Initiative."
+    {
+      "citation": "Meier, P. (2015). Digital Humanitarians: How Big Data is Changing the Face of Humanitarian Response. CRC Press.",
+      "doi": "https://doi.org/10.1201/b18023"
+    }
   ],
   "awards": [
     "UN OCHA Innovation Award (2015)"
@@ -107,5 +109,20 @@
   "pass2_at": "2026-03-09T23:21:24.532Z",
   "pass5_at": "2026-03-10T00:45:42.627Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Humanitarian Data Exchange addresses the civic problem of making civic data accessible and actionable. It has documented policy impact.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Serves as an information resource: Find, share and use humanitarian data all in one place."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "humanitarian organizations",
+    "researchers",
+    "data analysts",
+    "NGOs",
+    "government agencies"
+  ],
+  "underdog_signal": false
 }

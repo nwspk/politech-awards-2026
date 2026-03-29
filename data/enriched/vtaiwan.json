@@ -65,13 +65,8 @@
     "Vue.js",
     "Travis CI (deployment)"
   ],
-  "news_articles": [
-    "vTaiwan platform used for Uber regulation consultation (2015)",
-    "Taiwan's digital democracy experiment with vTaiwan (multiple sources 2015-2020)"
-  ],
-  "academic_citations": [
-    "Cited in deliberative democracy and e-governance literature on participatory policy-making"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "in_civictech_guide": true,
   "policy_outcomes": [
     "Informed Uber and taxi regulation in Taiwan",
@@ -104,5 +99,19 @@
   "pass2_at": "2026-03-09T23:21:29.618Z",
   "pass5_at": "2026-03-10T00:40:25.985Z",
   "pass5_jina_words": 381,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "vTaiwan addresses civic technology. Taiwan's open digital democracy platform for collaborative online public consultation on legislation.",
+  "movement_building_utility": {
+    "classification": "indirect_or_none",
+    "notes": "General tool/platform without direct movement-building function"
+  },
+  "systemic_issue_area": "civic technology and participation",
+  "generalizability_notes": "Good generalizability potential — open source allows adaptation to other jurisdictions, though localization would be needed.",
+  "primary_users_or_beneficiaries": [
+    "Taiwanese citizens",
+    "government agencies",
+    "civil society",
+    "industry stakeholders"
+  ],
+  "underdog_signal": true
 }

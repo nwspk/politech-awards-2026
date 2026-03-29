@@ -68,17 +68,8 @@
     "Commercial SaaS model — access dependent on ongoing contracts",
     "Small GitHub presence for open-source components"
   ],
-  "news_articles": [
-    "Ethelo featured in discussions of participatory budgeting and civic engagement platforms",
-    "Coverage of Metro Vancouver mobility pricing engagement process"
-  ],
+  "news_articles": [],
   "academic_citations": [
-    {
-      "title": "La expresión del conocimiento y la voluntad en los discursos políticos de Demóstenes",
-      "year": 1988,
-      "cited_by": 0,
-      "doi": null
-    },
     {
       "title": "Generative AI for Pro-Democracy Platforms",
       "year": 2024,
@@ -153,5 +144,21 @@
   ],
   "pass5_at": "2026-03-10T00:46:13.683Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Ethelo addresses democratic participation and citizen engagement. The world's leading group solutions technology — a multi-party scenario analysis engine that finds fair solutions with broad support.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Platform for participatory democracy or deliberation that enables collective action."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Moderately generalizable; deployed in multiple countries. Open-source codebase facilitates replication.",
+  "primary_users_or_beneficiaries": [
+    "municipal governments",
+    "indigenous communities",
+    "DAOs",
+    "NGOs",
+    "public sector agencies",
+    "residents"
+  ],
+  "underdog_signal": true
 }

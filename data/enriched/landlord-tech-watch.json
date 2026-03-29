@@ -64,9 +64,7 @@
     "Reliance on volunteer contributions",
     "Limited institutional funding"
   ],
-  "news_articles": [
-    "Landlord Tech Watch: Documenting the Rise of Tenant Surveillance (Housing Justice News, 2023)"
-  ],
+  "news_articles": [],
   "academic_citations": [
     {
       "title": "The work of landlord technology: The fictions of frictionless property management",
@@ -110,5 +108,19 @@
   "pass5_changes": [
     "tagline",
     "policy_outcomes"
-  ]
+  ],
+  "political_relevance_summary": "Landlord Tech Watch addresses empowering advocacy and civic campaigning and making civic data accessible and actionable. It has documented policy impact.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Amplifies advocacy efforts through Producing data, scholarship, and popular educational materials documenting how property technology increases landlord power while disempowering tenants."
+  },
+  "systemic_issue_area": "housing justice",
+  "generalizability_notes": "Open-source codebase enables replication. currently deployed in United States only, but approach could be adapted to other national contexts.",
+  "primary_users_or_beneficiaries": [
+    "tenants",
+    "housing advocates",
+    "researchers",
+    "policymakers"
+  ],
+  "underdog_signal": true
 }

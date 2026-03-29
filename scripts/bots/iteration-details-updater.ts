@@ -66,26 +66,40 @@ function getNextVersion(): string {
   return `v${n + 1}`;
 }
 
-/** e.g. "v9: My title" → "v9" — used when iterations/v9/README.md exists but pr_number is not set yet. */
-function parseVersionPrefixFromTitle(title: string | null): string | null {
+/** e.g. Title "v8: ITN/A with awards focus" → "v8" */
+function versionFromDeclaredTitle(title: string | null): string | null {
   if (!title) return null;
-  const m = title.trim().match(/^(v\d+)\s*:/i);
-  return m ? m[1].toLowerCase() : null;
+  const m = title.trim().match(/^v(\d+)\s*:/i);
+  if (!m) return null;
+  return `v${m[1]}`;
 }
 
-function getVersionFromTitleAndFolder(
-  title: string | null,
-  prNumber: number
-): string | null {
-  const v = parseVersionPrefixFromTitle(title);
-  if (!v) return null;
-  const readmePath = path.join("iterations", v, "README.md");
-  if (!fs.existsSync(readmePath)) return null;
-  const { frontmatter } = parseIterationMd(fs.readFileSync(readmePath, "utf-8"));
-  const claimed =
-    typeof frontmatter.pr_number === "number" ? frontmatter.pr_number : null;
-  if (claimed != null && claimed !== prNumber) return null;
-  return v;
+function iterationReadmePath(version: string): string {
+  return path.join("iterations", version, "README.md");
+}
+
+/**
+ * Prefer an existing iterations/vN/ folder when the PR Title starts with "vN:"
+ * (avoids creating v(N+1) when the branch already added vN but omitted pr_number).
+ * If that README already claims a different pr_number, fall through to auto-increment.
+ */
+function resolveIterationVersion(prNumber: number, title: string | null): string {
+  const byPr = getVersionForPr(prNumber);
+  if (byPr) return byPr;
+
+  const fromTitle = versionFromDeclaredTitle(title);
+  if (fromTitle && fs.existsSync(iterationReadmePath(fromTitle))) {
+    const { frontmatter } = parseIterationMd(
+      fs.readFileSync(iterationReadmePath(fromTitle), "utf-8")
+    );
+    const claimed =
+      typeof frontmatter.pr_number === "number" ? frontmatter.pr_number : null;
+    if (claimed == null || claimed === prNumber) {
+      return fromTitle;
+    }
+  }
+
+  return getNextVersion();
 }
 
 function detectDataSources(): string[] {
@@ -138,10 +152,7 @@ function main(): void {
     return;
   }
 
-  const version =
-    getVersionForPr(prNumber) ??
-    getVersionFromTitleAndFolder(title, prNumber) ??
-    getNextVersion();
+  const version = resolveIterationVersion(prNumber, title);
   const topProject = allResults[0];
   const dataSources = detectDataSources();
 

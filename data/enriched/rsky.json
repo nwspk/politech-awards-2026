@@ -99,5 +99,17 @@
   ],
   "pass5_at": "2026-03-10T00:46:16.659Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "rsky addresses digital rights and online freedoms. An AT Protocol implementation prioritizing community safety and self-governance, written in Rust.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides digital rights infrastructure or privacy-preserving technology foundations."
+  },
+  "systemic_issue_area": "digital rights infrastructure",
+  "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions; replication materials are available.",
+  "primary_users_or_beneficiaries": [
+    "civic tech developers",
+    "platform users"
+  ],
+  "underdog_signal": true
 }

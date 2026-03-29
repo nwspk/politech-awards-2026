@@ -59,13 +59,8 @@
     "reliance on third-party payment providers",
     "PCI DSS compliance requirements"
   ],
-  "news_articles": [
-    "GOV.UK Pay: How the UK government is simplifying online payments (Government Digital Service blog)",
-    "UK government's payment platform processes billions in transactions (TechCrunch, 2023)"
-  ],
-  "academic_citations": [
-    "Digital Government and Public Service Delivery: The Case of GOV.UK Pay (Journal of E-Government Studies and Best Practices)"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "Digital Service Award (UK Government Digital Service)"
   ],
@@ -104,5 +99,20 @@
   "pass2_at": "2026-03-09T23:21:49.225Z",
   "pass5_at": "2026-03-10T00:55:58.067Z",
   "pass5_jina_words": 423,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "GOV.UK Pay addresses government technology and public service delivery. A payment processing platform for UK public services.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides technical infrastructure that other civic tools or services build upon."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Could be adapted to other national contexts with localization. Open-source codebase facilitates replication.",
+  "primary_users_or_beneficiaries": [
+    "government agencies",
+    "local authorities",
+    "police services",
+    "NHS",
+    "citizens"
+  ],
+  "underdog_signal": false
 }

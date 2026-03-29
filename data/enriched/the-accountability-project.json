@@ -57,9 +57,7 @@
     "Reliance on single major funder (Reva and David Logan Foundation)",
     "Institutional dependency on UC Berkeley School of Journalism"
   ],
-  "news_articles": [
-    "UC Berkeley launches Accountability Project database with 1.9 billion public records"
-  ],
+  "news_articles": [],
   "academic_citations": [
     {
       "title": "Integrated digital twin and blockchain framework to support accountable information sharing in construction projects",
@@ -101,5 +99,18 @@
   ],
   "pass5_at": "2026-03-10T00:50:52.712Z",
   "pass5_jina_words": 141,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "The Accountability Project addresses civic data access and transparency. A searchable database of 1.9+ billion public records for researchers and journalists.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides information, data, or research for civic purposes"
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Limited to United States context currently; approach could potentially be replicated in similar jurisdictions with adaptation to local data sources and regulations.",
+  "primary_users_or_beneficiaries": [
+    "journalists",
+    "researchers",
+    "investigators"
+  ],
+  "underdog_signal": true
 }

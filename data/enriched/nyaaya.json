@@ -96,12 +96,6 @@
       "year": 2026,
       "cited_by": 0,
       "doi": "https://doi.org/10.5281/zenodo.18797525"
-    },
-    {
-      "title": "Definitions of the 15 Padaarthas of the Nyaaya System: Annotated Translation f the Nyaaya-suutra, the first Adhyaasa",
-      "year": 2004,
-      "cited_by": 0,
-      "doi": null
     }
   ],
   "in_civictech_guide": false,
@@ -131,5 +125,23 @@
   ],
   "pass5_at": "2026-03-10T01:00:05.452Z",
   "pass5_jina_words": 185,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Nyaaya addresses barriers to legal access and understanding, making the law more accessible to ordinary people who lack resources for professional legal counsel.",
+  "movement_building_utility": {
+    "classification": "indirect_or_none",
+    "notes": "Nyaaya's primary function is not directly oriented toward civic organizing, advocacy, or movement infrastructure."
+  },
+  "systemic_issue_area": "legal access and literacy",
+  "generalizability_notes": "Moderate generalizability. Nyaaya is open source but built for a specific national context. The approach could be replicated but would require adaptation to local legal and institutional frameworks.",
+  "primary_users_or_beneficiaries": [
+    "general public",
+    "women",
+    "children",
+    "LGBTQI+",
+    "persons with disabilities",
+    "scheduled castes and tribes",
+    "senior citizens",
+    "informal workers"
+  ],
+  "underdog_signal": false
 }

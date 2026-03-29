@@ -93,5 +93,19 @@
   ],
   "pass5_at": "2026-03-10T01:00:14.778Z",
   "pass5_jina_words": 488,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Parliament Watch Uganda addresses gaps in democratic participation by providing tools or platforms that enable citizens and communities to engage more directly in governance and decision-making processes.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Parliament Watch Uganda amplifies civic advocacy by giving citizens and groups tools to engage in democratic processes or influence policy."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Limited generalizability. Parliament Watch Uganda is proprietary and context-specific. While the model could inspire similar initiatives, direct replication would require building from scratch.",
+  "primary_users_or_beneficiaries": [
+    "citizens in Uganda",
+    "researchers",
+    "journalists",
+    "civil society organizations"
+  ],
+  "underdog_signal": true
 }

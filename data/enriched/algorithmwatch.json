@@ -146,12 +146,6 @@
       "doi": "https://doi.org/10.1145/3514094.3534187"
     },
     {
-      "title": "Bestehende und künftige Regelungen des Einsatzes von Algorithmen im HR-Bereich, Gutachten AlgorithmWatch",
-      "year": 2019,
-      "cited_by": 1,
-      "doi": null
-    },
-    {
       "title": "Translating Principles into Practices of Digital Ethics: Five Risks of Being Unethical",
       "year": 2019,
       "cited_by": 452,
@@ -280,5 +274,20 @@
   "pass5_changes": [
     "tagline",
     "news_articles"
-  ]
+  ],
+  "political_relevance_summary": "Addresses challenges in algorithmic accountability by serving general public, policymakers, journalists.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides information and analysis on AI/algorithmic risks relevant to public policy."
+  },
+  "systemic_issue_area": "algorithmic accountability",
+  "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (11 countries), demonstrating cross-context adaptability.",
+  "primary_users_or_beneficiaries": [
+    "general public",
+    "policymakers and legislative staff",
+    "investigative journalists",
+    "civic technology researchers",
+    "civil society organizations"
+  ],
+  "underdog_signal": false
 }

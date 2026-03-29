@@ -61,13 +61,8 @@
     "Reliance on UK government press release feeds",
     "No apparent backup or archival strategy documented"
   ],
-  "news_articles": [
-    "Guardian coverage of government transparency tools",
-    "BBC News mentions of press release monitoring"
-  ],
-  "academic_citations": [
-    "Citations in media studies and government transparency research"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "Shuttleworth Fellowship recognition"
   ],
@@ -103,5 +98,20 @@
   "pass2_at": "2026-03-09T23:21:43.414Z",
   "pass5_at": "2026-03-10T00:54:55.485Z",
   "pass5_jina_words": 393,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "The Government Says addresses civic data access and transparency. Real-time aggregation and monitoring of UK government press releases and statements.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides information, data, or research for civic purposes"
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Good generalizability potential — open source allows adaptation to other jurisdictions, though localization would be needed.",
+  "primary_users_or_beneficiaries": [
+    "journalists",
+    "researchers",
+    "citizens",
+    "campaigners",
+    "media organizations"
+  ],
+  "underdog_signal": true
 }

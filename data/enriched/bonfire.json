@@ -63,12 +63,8 @@
     "Reliance on grant funding cycles (NGI/NLnet)",
     "Competing with more established fediverse platforms (Mastodon)"
   ],
-  "news_articles": [
-    "Coverage in fediverse and digital rights media outlets; mentions in discussions of federated social networks and digital sovereignty"
-  ],
-  "academic_citations": [
-    "Referenced in academic literature on federated social networks, digital commons, and platform cooperativism"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "in_civictech_guide": false,
   "wikipedia_page": false,
   "causation_strength": "anecdotal",
@@ -95,5 +91,20 @@
   "pass2_at": "2026-03-09T23:21:23.654Z",
   "pass5_at": "2026-03-10T00:42:14.435Z",
   "pass5_jina_words": 525,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses barriers to meaningful citizen participation in democratic decision-making by providing tools for public engagement and deliberation.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides decentralized communication infrastructure as an alternative to corporate platforms."
+  },
+  "systemic_issue_area": "digital rights infrastructure",
+  "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (multiple countries), demonstrating cross-context adaptability.",
+  "primary_users_or_beneficiaries": [
+    "activist communities",
+    "worker and community cooperatives",
+    "mutual aid groups",
+    "fediverse users",
+    "digital rights advocates"
+  ],
+  "underdog_signal": true
 }

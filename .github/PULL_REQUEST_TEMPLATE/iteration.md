@@ -11,7 +11,9 @@ labels: ["iteration"]
 
 ## Title
 
-<!-- Optional: a short name for this iteration (e.g. "Exclusion keyword bonus"). If omitted, the first line of Heuristic or the version number is used. -->
+<!-- Optional: a short name for this iteration (e.g. "Exclusion keyword bonus"). If omitted, the first line of Heuristic or the version number is used.
+
+     If you already created `iterations/vN/README.md` on your branch, start this line with **vN:** (e.g. `v8: ITN/A with awards focus`) **or** set `pr_number` in that README’s YAML before the first bot run — otherwise the updater may create a duplicate `v(N+1)` folder. -->
 
 ## Heuristic
 

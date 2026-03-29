@@ -63,20 +63,7 @@
     "Reliance on AI/LLM accuracy for legal advice",
     "Regulatory scrutiny on unauthorized practice of law"
   ],
-  "news_articles": [
-    {
-      "headline": "DoNotPay's AI lawyer faces legal challenges",
-      "outlet": "TechCrunch",
-      "date": "2023",
-      "url": null
-    },
-    {
-      "headline": "AI startup DoNotPay raises funding to expand legal services",
-      "outlet": "VentureBeat",
-      "date": "2021",
-      "url": null
-    }
-  ],
+  "news_articles": [],
   "academic_citations": [
     {
       "title": "Sustainable AI Development (SAID): On the Road to More Access to Justice",
@@ -130,5 +117,18 @@
   ],
   "pass5_at": "2026-03-10T00:54:31.713Z",
   "pass5_jina_words": 38,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "DoNotPay addresses civic data access and transparency. AI-powered legal assistance and consumer advocacy platform.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Directly supports organizing, campaigning, or advocacy actions."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Proprietary or closed-source; replication requires licensing.",
+  "primary_users_or_beneficiaries": [
+    "consumers",
+    "citizens",
+    "individuals seeking legal assistance"
+  ],
+  "underdog_signal": false
 }

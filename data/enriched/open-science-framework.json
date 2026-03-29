@@ -59,16 +59,8 @@
     "Reliance on Center for Open Science for operational funding",
     "Python/Django framework maintenance dependencies"
   ],
-  "news_articles": [
-    "Nature: Open Science Framework transforms research transparency (2019)",
-    "Science Magazine: How OSF is changing reproducibility (2018)",
-    "Chronicle of Higher Education: Open Science Framework adoption grows (2020)"
-  ],
-  "academic_citations": [
-    "Nosek, B. A., et al. (2015). Open Science Framework. Nature Methods.",
-    "Munafò, M. R., et al. (2017). A manifesto for reproducible science. Nature Human Behaviour.",
-    "Hardwicke, T. E., et al. (2020). Mapping the landscape of human reports comparing the reliability and efficiency of data collection methods. Royal Society Open Science."
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "Recognition as leading open science infrastructure by UNESCO",
     "Featured in multiple research transparency initiatives"
@@ -111,5 +103,18 @@
     "NSF integration for grant management"
   ],
   "ai_involvement": "Limited; basic recommendation systems for project discovery",
-  "pass2_at": "2026-03-09T23:21:40.717Z"
+  "pass2_at": "2026-03-09T23:21:40.717Z",
+  "political_relevance_summary": "OSF addresses the reproducibility crisis in science and barriers to research transparency. By making research open and replicable, it strengthens the evidence base available for public policy decisions.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Open Science Framework provides foundational data infrastructure, standards, or platforms that other civic technology efforts build upon."
+  },
+  "systemic_issue_area": "information freedom and open access",
+  "generalizability_notes": "High generalizability. Open Science Framework is open source and already deployed across multiple countries/jurisdictions, making replication straightforward for other contexts.",
+  "primary_users_or_beneficiaries": [
+    "researchers",
+    "academics",
+    "scientists"
+  ],
+  "underdog_signal": false
 }

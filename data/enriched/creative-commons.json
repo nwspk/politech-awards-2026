@@ -123,12 +123,7 @@
       "url": "https://creativecommons.org/2026/02/12/how-to-keep-the-internet-human/"
     }
   ],
-  "academic_citations": [
-    "Broussard (2007). 'The copyleft movement: creative commons licensing.' Communication Research Trends.",
-    "Elkin-Koren (2006). 'Exploring Creative Commons: A Skeptical View.' The Future of the Public Domain. Kluwer Law International.",
-    "Lessig (2004). Free Culture. Penguin Press.",
-    "Creative Commons (2009). 'Defining Noncommercial.' Research report."
-  ],
+  "academic_citations": [],
   "in_civictech_guide": false,
   "wikipedia_page": true,
   "policy_outcomes": [
@@ -191,5 +186,20 @@
   "ai_involvement": "Active policy engagement: published positions on AI training data use of CC-licensed works; developing CC Signals tool for expressing AI-related rights preferences; opposes 'pay-to-crawl' schemes; does not use AI in license tooling",
   "pass5_at": "2026-03-10T00:45:37.323Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses challenges in legal access and justice by serving educators, researchers, artists.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides legal or licensing infrastructure that supports open civic technology."
+  },
+  "systemic_issue_area": "legal access and justice",
+  "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (15 countries), demonstrating cross-context adaptability.",
+  "primary_users_or_beneficiaries": [
+    "educators",
+    "civic technology researchers",
+    "artists",
+    "cultural heritage institutions",
+    "open source developers"
+  ],
+  "underdog_signal": false
 }
