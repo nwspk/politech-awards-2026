@@ -19,7 +19,6 @@ SLUGS=(
   davit-jintcharadze
   fatima-sarah-khalid
   gamithra-marga
-  emily-mayhew
   frederick-obrien
   martina-orlea
   chris-owen

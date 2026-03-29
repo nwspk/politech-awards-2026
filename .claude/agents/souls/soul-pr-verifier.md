@@ -125,7 +125,6 @@ Check all of these (as of 2026-03-28):
 - PR #74 — Huda Abdirahim
 - PR #75 — Nicholas Botti
 - PR #70 — Jamie Coombes
-- PR #69 — Emily Mayhew
 - PR #71 — David Powell
 - PR #72 — Frederick O'Brien
 - PR #67 — Fatima Sarah Khalid

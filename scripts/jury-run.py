@@ -10,10 +10,10 @@ Usage:
     source /root/claw/scripts/env.sh
     python3 scripts/jury-run.py \
         --model gpt41 --run 1 \
-        --constitution iterations/project-mirror-v2/emily-mayhew/constitution.md \
+        --constitution iterations/project-mirror-v2/<member-slug>/constitution.md \
         --dossiers data/enriched/ \
         --candidates candidates.csv \
-        --output iterations/project-mirror-v2/emily-mayhew/jury-logs/gpt41-run-1.json
+        --output iterations/project-mirror-v2/<member-slug>/jury-logs/gpt41-run-1.json
 """
 
 import argparse
