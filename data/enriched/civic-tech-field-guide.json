@@ -62,13 +62,8 @@
   "funding_verified": true,
   "last_funding_event": "2023",
   "dependency_risks": "Reliance on volunteer contributions and grant funding; potential sustainability challenges if major funders withdraw support",
-  "news_articles": [
-    "TechCrunch coverage of civic tech landscape",
-    "Guardian articles on civic technology initiatives"
-  ],
-  "academic_citations": [
-    "Citations in civic tech and digital democracy research literature"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "Recognition as leading civic tech resource"
   ],
@@ -106,5 +101,20 @@
   "pass2_at": "2026-03-09T23:21:23.241Z",
   "pass5_at": "2026-03-10T00:43:37.483Z",
   "pass5_jina_words": 259,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses barriers to meaningful citizen participation in democratic decision-making by providing tools for public engagement and deliberation.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Serves as an information resource for civic actors, researchers, or the public."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Already deployed across multiple jurisdictions (multiple countries), demonstrating cross-context adaptability. Methodology and approach could inform similar efforts in other jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "civic tech practitioners",
+    "nonprofits",
+    "social good organizations",
+    "civic technology researchers",
+    "job seekers"
+  ],
+  "underdog_signal": true
 }

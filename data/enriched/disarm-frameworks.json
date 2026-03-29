@@ -75,16 +75,8 @@
     "relies on volunteer community for updates",
     "Blue Framework contains TTPs from authoritarian contexts requiring contextual caution"
   ],
-  "news_articles": [
-    {
-      "title": "DISARM Framework: A Structured Approach to Countering Disinformation",
-      "outlet": "Various cybersecurity and information security publications",
-      "year": 2021
-    }
-  ],
-  "academic_citations": [
-    "Cited in academic literature on disinformation taxonomy and counter-influence frameworks"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "in_civictech_guide": false,
   "wikipedia_page": false,
   "policy_outcomes": [
@@ -149,5 +141,21 @@
   "pass2_at": "2026-03-09T23:21:31.198Z",
   "pass5_at": "2026-03-10T00:46:18.228Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "DISARM Frameworks addresses civic technology. Master copies of the DISARM disinformation TTP frameworks for describing and countering disinformation incidents.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides technical infrastructure that other civic tools or services build upon."
+  },
+  "systemic_issue_area": "civic technology infrastructure",
+  "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Open-source codebase facilitates replication.",
+  "primary_users_or_beneficiaries": [
+    "disinformation researchers",
+    "government counter-influence units",
+    "NATO",
+    "EU institutions",
+    "information security analysts",
+    "civil society organisations"
+  ],
+  "underdog_signal": false
 }

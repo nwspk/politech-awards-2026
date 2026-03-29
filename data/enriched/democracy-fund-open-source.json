@@ -72,5 +72,16 @@
   ],
   "pass5_at": "2026-03-10T00:54:26.804Z",
   "pass5_jina_words": 42,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Democracy Fund Open Source addresses civic technology. Open source tools and resources for civic engagement and democratic participation.",
+  "movement_building_utility": {
+    "classification": "indirect_or_none",
+    "notes": "Indirect civic tech relevance; not primarily a movement-building tool."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Could be adapted to other national contexts with localization. Open-source codebase facilitates replication.",
+  "primary_users_or_beneficiaries": [
+    "Voters, election officials, civic organizations, researchers"
+  ],
+  "underdog_signal": false
 }

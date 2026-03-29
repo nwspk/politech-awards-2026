@@ -59,14 +59,12 @@
   "dependency_risks": [
     "Merger with VolunteerMatch in 2025 may affect platform stability or feature availability"
   ],
-  "news_articles": [
-    "Idealist and VolunteerMatch Merge to Create Largest Global Volunteer Platform (2025)",
-    "How Idealist.org Connects Millions to Social Impact Work (TechCrunch, 2020)",
-    "Idealist Celebrates 25 Years of Connecting Changemakers (Guardian, 2020)"
-  ],
+  "news_articles": [],
   "academic_citations": [
-    "Benkler, Y. (2006). The Wealth of Networks: How Social Production Transforms Markets and Freedom",
-    "Shirky, C. (2008). Here Comes Everybody: The Power of Organizing Without Organizations"
+    {
+      "citation": "Benkler, Y. (2006). The Wealth of Networks: How Social Production Transforms Markets and Freedom",
+      "doi": "https://doi.org/10.12987/9780300127232"
+    }
   ],
   "awards": [
     "Fast Company World Changing Ideas Award",
@@ -83,5 +81,20 @@
   "pass2_at": "2026-03-09T23:21:32.695Z",
   "pass5_at": "2026-03-10T00:46:27.019Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Idealist addresses enabling broader democratic participation and making civic data accessible and actionable.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Serves as an information resource: Global platform connecting millions of people with social-impact jobs, volunteer opportunities, and community action."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "job seekers",
+    "nonprofit professionals",
+    "volunteers",
+    "nonprofit organizations",
+    "community groups"
+  ],
+  "underdog_signal": false
 }

@@ -118,5 +118,19 @@
   ],
   "pass5_at": "2026-03-10T00:52:44.158Z",
   "pass5_jina_words": 383,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses barriers to meaningful citizen participation in democratic decision-making by providing tools for public engagement and deliberation.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides decentralized communication infrastructure as an alternative to corporate platforms."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Primarily national in scope; replication would require significant localization.",
+  "primary_users_or_beneficiaries": [
+    "tech agencies",
+    "consultancies",
+    "freelancers",
+    "social impact organizations"
+  ],
+  "underdog_signal": false
 }

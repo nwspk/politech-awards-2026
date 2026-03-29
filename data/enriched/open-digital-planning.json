@@ -150,5 +150,20 @@
   "pass3_at": "2026-03-09T23:22:51.718Z",
   "_sources": [
     "openalex"
-  ]
+  ],
+  "political_relevance_summary": "Open Digital Planning addresses barriers to civic data access and transparency, making public or institutional data more available for accountability, research, and informed civic engagement.",
+  "movement_building_utility": {
+    "classification": "indirect_or_none",
+    "notes": "Open Digital Planning's primary function is not directly oriented toward civic organizing, advocacy, or movement infrastructure."
+  },
+  "systemic_issue_area": "urban planning and housing",
+  "generalizability_notes": "Moderate generalizability. Open Digital Planning is open source but designed for UK-specific regulatory and institutional contexts. Adaptation to other jurisdictions would require significant localization.",
+  "primary_users_or_beneficiaries": [
+    "local planning authorities",
+    "council planning officers",
+    "residents",
+    "planning applicants",
+    "developers"
+  ],
+  "underdog_signal": false
 }

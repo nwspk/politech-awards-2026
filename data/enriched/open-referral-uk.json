@@ -68,34 +68,8 @@
     "dependency on ongoing MHCLG support",
     "voluntary council adoption"
   ],
-  "news_articles": [
-    {
-      "title": "Open Referral UK: Making Community Services Data Accessible",
-      "outlet": "UK Government Digital Service Blog",
-      "date": "2023",
-      "url": null
-    }
-  ],
-  "academic_citations": [
-    {
-      "title": "Transition from open and laparoscopic to robotic pancreaticoduodenectomy in a UK tertiary referral hepatobiliary and pancreatic centre - Early experience of robotic pancreaticoduodenectomy",
-      "year": 2020,
-      "cited_by": 27,
-      "doi": "https://doi.org/10.1016/j.hpb.2020.03.008"
-    },
-    {
-      "title": "Post‐feminism and popular culture",
-      "year": 2004,
-      "cited_by": 1264,
-      "doi": "https://doi.org/10.1080/1468077042000309937"
-    },
-    {
-      "title": "The National ReferAll Database: An Open Dataset of Exercise Referral Schemes Across the UK",
-      "year": 2021,
-      "cited_by": 8,
-      "doi": "https://doi.org/10.3390/ijerph18094831"
-    }
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     {
       "name": "Central Digital and Data Office Endorsement",
@@ -152,5 +126,19 @@
   ],
   "pass5_at": "2026-03-10T00:49:43.122Z",
   "pass5_jina_words": 230,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Open Referral UK addresses fragmentation in community service information, making it easier for residents to find and access support services through standardized open data.",
+  "movement_building_utility": {
+    "classification": "indirect_or_none",
+    "notes": "Open Referral UK's primary function is not directly oriented toward civic organizing, advocacy, or movement infrastructure."
+  },
+  "systemic_issue_area": "community services access",
+  "generalizability_notes": "Moderate generalizability. Open Referral UK is open source but designed for UK-specific regulatory and institutional contexts. Adaptation to other jurisdictions would require significant localization.",
+  "primary_users_or_beneficiaries": [
+    "local councils",
+    "community organisations",
+    "social care providers",
+    "residents seeking services"
+  ],
+  "underdog_signal": true
 }

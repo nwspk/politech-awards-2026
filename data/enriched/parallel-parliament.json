@@ -58,12 +58,6 @@
   ],
   "academic_citations": [
     {
-      "title": "Europarl: A Parallel Corpus for Statistical Machine Translation",
-      "year": 2005,
-      "cited_by": 3106,
-      "doi": null
-    },
-    {
       "title": "The European Parliament as a discourse community: its role in comparable analyses of data drawn from parallel interpreting corpora",
       "year": 2018,
       "cited_by": 9,
@@ -87,5 +81,21 @@
   ],
   "pass5_at": "2026-03-10T00:55:55.629Z",
   "pass5_jina_words": 813,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Parallel Parliament addresses gaps in democratic participation by providing tools or platforms that enable citizens and communities to engage more directly in governance and decision-making processes.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Parallel Parliament directly enables organizing by providing tools for collective action, campaigning, or community mobilization."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Limited generalizability. Parallel Parliament is proprietary and designed for UK-specific contexts. The concept could inspire similar efforts elsewhere but direct replication is not feasible.",
+  "primary_users_or_beneficiaries": [
+    "researchers",
+    "journalists",
+    "campaigners",
+    "parliamentarians",
+    "policy professionals",
+    "citizens in United Kingdom"
+  ],
+  "underdog_signal": true
 }

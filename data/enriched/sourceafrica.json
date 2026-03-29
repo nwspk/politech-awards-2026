@@ -67,13 +67,8 @@
     "built on DocumentCloud (third-party dependency)",
     "dependent on Code for Africa / ANCIR institutional funding"
   ],
-  "news_articles": [
-    "Code for Africa launches sourceAFRICA platform (2015)",
-    "African journalists use sourceAFRICA for investigations (various outlets)"
-  ],
-  "academic_citations": [
-    "Referenced in studies on African investigative journalism infrastructure"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "Recognition as key African civic tech infrastructure"
   ],
@@ -103,5 +98,19 @@
   "disparity_tracking": false,
   "community_ownership": true,
   "ai_involvement": "minimal - uses DocumentCloud's OCR and text extraction capabilities",
-  "pass2_at": "2026-03-09T23:21:44.752Z"
+  "pass2_at": "2026-03-09T23:21:44.752Z",
+  "political_relevance_summary": "sourceAFRICA addresses civic technology. Africa's premier repository for actionable documents.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides data, research, or educational resources for civic engagement."
+  },
+  "systemic_issue_area": "civic technology infrastructure",
+  "generalizability_notes": "Open-source codebase facilitates replication; currently focused on pan-African (47 contributing organisations); replication materials are available; would require local data and regulatory adaptation.",
+  "primary_users_or_beneficiaries": [
+    "investigative journalists",
+    "civil society organisations",
+    "watchdog ngos",
+    "the african public"
+  ],
+  "underdog_signal": false
 }

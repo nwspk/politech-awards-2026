@@ -54,15 +54,8 @@
     "Regulatory uncertainty around prediction markets in various jurisdictions",
     "Platform reliance on user participation and liquidity"
   ],
-  "news_articles": [
-    "TechCrunch: Manifold Markets raises Series A to expand prediction market platform",
-    "The Guardian: How prediction markets are changing political forecasting",
-    "Wired: Inside the world of AI-powered prediction markets"
-  ],
-  "academic_citations": [
-    "Prediction Markets as Information Aggregation Mechanisms (various academic papers citing Manifold Markets)",
-    "Google Scholar entries for Manifold Markets forecasting accuracy studies"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [],
   "in_civictech_guide": false,
   "wikipedia_page": false,
@@ -112,5 +105,18 @@
   },
   "pass5_at": "2026-03-10T01:02:41.859Z",
   "pass5_jina_words": 0,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Manifold Markets addresses enabling broader democratic participation and making civic data accessible and actionable.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Serves as an information resource: A platform for creating and trading prediction markets on political, cultural, and business outcomes."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "researchers",
+    "forecasters",
+    "traders"
+  ],
+  "underdog_signal": false
 }

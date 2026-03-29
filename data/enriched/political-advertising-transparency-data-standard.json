@@ -61,13 +61,8 @@
   "funding_verified": true,
   "last_funding_event": "2023",
   "dependency_risks": "Dependent on continued funding from foundations; reliance on voluntary platform adoption",
-  "news_articles": [
-    "Guardian coverage of ad transparency initiatives",
-    "TechCrunch articles on political ad standards"
-  ],
-  "academic_citations": [
-    "Research on political advertising transparency standards"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "in_civictech_guide": true,
   "policy_outcomes": [
     "Influenced EU Digital Services Act transparency requirements",
@@ -99,5 +94,20 @@
   "pass2_at": "2026-03-09T23:21:31.833Z",
   "pass5_at": "2026-03-10T00:46:23.330Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Political Advertising Transparency Data Standard addresses civic data access and transparency. A schema standard for how political advertising data is presented across platforms to increase comprehension, trust, and interoperability.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Amplifies advocacy efforts and helps citizens influence decision-makers."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions; replication materials are available; methodology-based approach is inherently transferable.",
+  "primary_users_or_beneficiaries": [
+    "investigative journalists",
+    "civic technology researchers",
+    "advertising platforms",
+    "engaged citizens",
+    "civil society organizations"
+  ],
+  "underdog_signal": true
 }

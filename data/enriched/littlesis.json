@@ -81,9 +81,7 @@
       "url": "https://news.littlesis.org/2025/01/hochul-stalls-climate-action/"
     }
   ],
-  "academic_citations": [
-    "Cited in peer-reviewed research on corporate influence, lobbying networks, and power mapping methodologies"
-  ],
+  "academic_citations": [],
   "awards": [
     "Recognized as leading power-mapping tool by civic tech community"
   ],
@@ -121,5 +119,20 @@
   "pass2_at": "2026-03-09T23:21:35.216Z",
   "pass5_at": "2026-03-10T00:46:34.751Z",
   "pass5_jina_words": 521,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "LittleSis addresses mapping communities and resources for civic engagement and addressing housing justice and tenant rights. It has documented policy impact.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Directly supports organizers/campaigners through Free database of who-knows-who at the heights of business and government — power research for just futures."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Open-source codebase enables replication.",
+  "primary_users_or_beneficiaries": [
+    "researchers",
+    "activists",
+    "journalists",
+    "organizers",
+    "social movement organizations"
+  ],
+  "underdog_signal": false
 }

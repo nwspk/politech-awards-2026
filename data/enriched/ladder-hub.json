@@ -73,5 +73,21 @@
   ],
   "pass5_at": "2026-03-10T00:46:28.333Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Ladder Hub provides technology infrastructure relevant to civic and political processes, focused on A platform for economic mobility and career advancement.",
+  "movement_building_utility": {
+    "classification": "indirect_or_none",
+    "notes": "Primarily serves L, o, w; limited direct movement-building utility."
+  },
+  "systemic_issue_area": "civic technology infrastructure",
+  "generalizability_notes": "currently deployed in United States only, but approach could be adapted to other national contexts.",
+  "primary_users_or_beneficiaries": [
+    "L",
+    "o",
+    "w",
+    "-",
+    "i",
+    "n"
+  ],
+  "underdog_signal": false
 }

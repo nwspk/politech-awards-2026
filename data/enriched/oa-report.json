@@ -57,14 +57,7 @@
     "Reliance on third-party data sources (OpenAlex, Crossref)",
     "Subscription-based revenue model dependency"
   ],
-  "news_articles": [
-    {
-      "headline": "Confused by open-access policies? These tools can help",
-      "outlet": "Nature",
-      "date": null,
-      "url": null
-    }
-  ],
+  "news_articles": [],
   "academic_citations": [
     {
       "title": "From policy to practice: Lessons learned from an open science funding initiative",
@@ -123,5 +116,19 @@
     "homepage_has_impact_metrics": false,
     "scraped_description": "Find your publications, measure their openness, and take action to increase your Open Access policy compliance.",
     "scraped_final_url": "https://oa.report/"
-  }
+  },
+  "political_relevance_summary": "OA.Report addresses barriers to civic data access and transparency, making public or institutional data more available for accountability, research, and informed civic engagement.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "OA.Report provides foundational data infrastructure, standards, or platforms that other civic technology efforts build upon."
+  },
+  "systemic_issue_area": "information freedom and open access",
+  "generalizability_notes": "Moderate generalizability. OA.Report operates internationally but is proprietary, so replication would require licensing or rebuilding rather than direct adoption.",
+  "primary_users_or_beneficiaries": [
+    "research funders",
+    "research organizations",
+    "grant managers",
+    "researchers"
+  ],
+  "underdog_signal": true
 }

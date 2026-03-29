@@ -63,14 +63,7 @@
     "Proprietary platform dependency",
     "Reliance on custom AI model training"
   ],
-  "news_articles": [
-    {
-      "headline": "ParticipatoryAI in UAE",
-      "outlet": "Bloomberg Cities",
-      "date": null,
-      "url": null
-    }
-  ],
+  "news_articles": [],
   "academic_citations": [
     {
       "title": "Vilniaus Miestas – Tarp Metaforos Ir Pragmatikos",
@@ -125,5 +118,20 @@
   ],
   "pass5_at": "2026-03-10T01:00:49.404Z",
   "pass5_jina_words": 247,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "UrbanistAI addresses democratic participation and citizen engagement. The platform to reimagine the future of cities through collective intelligence and AI-powered participatory planning.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides civic data or journalism infrastructure"
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Moderately generalizable — already international but proprietary nature may limit independent replication.",
+  "primary_users_or_beneficiaries": [
+    "citizens",
+    "policymakers",
+    "local governments",
+    "design studios",
+    "communication agencies"
+  ],
+  "underdog_signal": true
 }

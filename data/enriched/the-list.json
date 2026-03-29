@@ -113,5 +113,18 @@
   "pass5_jina_words": 453,
   "pass5_changes": [
     "policy_outcomes"
-  ]
+  ],
+  "political_relevance_summary": "The List addresses civic technology. Tracking changes to grant-making behaviour of Trusts and Foundations in the UK — By Fundraisers, For Fundraisers.",
+  "movement_building_utility": {
+    "classification": "indirect_or_none",
+    "notes": "No clear direct movement-building utility identified"
+  },
+  "systemic_issue_area": "civic technology and participation",
+  "generalizability_notes": "Limited to UK context currently; approach could potentially be replicated in similar jurisdictions with adaptation to local data sources and regulations.",
+  "primary_users_or_beneficiaries": [
+    "UK nonprofits",
+    "fundraisers",
+    "charities"
+  ],
+  "underdog_signal": true
 }

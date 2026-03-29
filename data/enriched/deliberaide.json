@@ -62,7 +62,7 @@
     "https://www.nesta.org.uk/project/deliberaide/",
     "https://www.civictech.guide/projects/deliberaide/"
   ],
-  "academic_citations": "Limited peer-reviewed publications; primarily case studies and practitioner reports",
+  "academic_citations": [],
   "awards": [
     "Nesta Innovation in Democracy Award"
   ],
@@ -90,5 +90,19 @@
   "pass2_at": "2026-03-09T23:21:47.268Z",
   "pass5_at": "2026-03-10T00:54:19.240Z",
   "pass5_jina_words": 479,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "deliberAIde addresses democratic participation and citizen engagement. Human-Centred AI That Supports Dialogue at Every Step.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Platform for participatory democracy or deliberation that enables collective action."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Proprietary or closed-source; replication requires licensing.",
+  "primary_users_or_beneficiaries": [
+    "governments",
+    "organizations",
+    "communities",
+    "citizens"
+  ],
+  "underdog_signal": true
 }

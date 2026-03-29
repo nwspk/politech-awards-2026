@@ -58,13 +58,8 @@
   "dependency_risks": [
     "Platform discontinuation announced for March 2025 with most datasets no longer supported"
   ],
-  "news_articles": [
-    "UK government to shut down Open Data Communities platform (2024)",
-    "Open Data Communities closure: What it means for researchers and local government (2024)"
-  ],
-  "academic_citations": [
-    "Use of Open Data Communities datasets in UK deprivation and housing research"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "in_civictech_guide": false,
   "policy_outcomes": [
     "Enabled evidence-based local government policy decisions through access to deprivation indices",
@@ -102,5 +97,20 @@
   "pass2_at": "2026-03-09T23:21:37.513Z",
   "pass5_at": "2026-03-10T00:48:19.468Z",
   "pass5_jina_words": 395,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Open Data Communities addresses the civic need for government transparency and open data access, enabling citizens, journalists, and researchers to hold public institutions accountable.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Open Data Communities provides foundational data infrastructure, standards, or platforms that other civic technology efforts build upon."
+  },
+  "systemic_issue_area": "urban planning and housing",
+  "generalizability_notes": "Moderate generalizability. Open Data Communities is open source but designed for UK-specific regulatory and institutional contexts. Adaptation to other jurisdictions would require significant localization.",
+  "primary_users_or_beneficiaries": [
+    "researchers",
+    "citizens in United Kingdom",
+    "local government",
+    "data analysts",
+    "policy makers"
+  ],
+  "underdog_signal": false
 }

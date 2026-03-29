@@ -54,9 +54,7 @@
   ],
   "funding_verified": true,
   "last_funding_event": "What Works Cities initiative support",
-  "news_articles": [
-    "Sunlight Foundation's work on open data policies covered by various civic tech and government publications"
-  ],
+  "news_articles": [],
   "academic_citations": [
     {
       "title": "Facebook as a destination marketing tool: Evidence from Italian regional Destination Management Organizations",
@@ -118,5 +116,19 @@
   ],
   "pass5_at": "2026-03-10T00:44:06.306Z",
   "pass5_jina_words": 899,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Tactical Data Engagement addresses democratic participation and citizen engagement. A framework for local governments to catalyze resident-centered use of open data for community problem-solving.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides technical infrastructure supporting civic technology ecosystem."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Currently focused on United States; replication materials are available; methodology-based approach is inherently transferable.",
+  "primary_users_or_beneficiaries": [
+    "local government staff",
+    "community members",
+    "data providers",
+    "marginalized communities"
+  ],
+  "underdog_signal": false
 }

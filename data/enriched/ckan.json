@@ -72,25 +72,8 @@
   "funding_verified": true,
   "last_funding_event": "2024",
   "dependency_risks": "Moderate - depends on Open Knowledge Foundation for governance and core maintenance; community contributions essential for sustainability",
-  "news_articles": [
-    {
-      "title": "CKAN: The Open Data Platform Powering Governments Worldwide",
-      "outlet": "TechCrunch",
-      "year": 2023
-    },
-    {
-      "title": "How Open Data Platforms Are Transforming Government Transparency",
-      "outlet": "Wired",
-      "year": 2022
-    }
-  ],
-  "academic_citations": [
-    {
-      "title": "Open Data Platforms and Government Transparency: A Systematic Review",
-      "authors": "Various",
-      "year": 2023
-    }
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     {
       "name": "Digital Public Good",
@@ -162,5 +145,20 @@
   "pass2_at": "2026-03-09T23:21:26.770Z",
   "pass5_at": "2026-03-10T00:43:37.958Z",
   "pass5_jina_words": 562,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Tackles opacity in government operations by enabling public access to government data and processes.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides foundational technical infrastructure for civic technology."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (7 countries), demonstrating cross-context adaptability.",
+  "primary_users_or_beneficiaries": [
+    "government organizations",
+    "enterprise organizations",
+    "civic technology researchers",
+    "members of the public seeking government information",
+    "data publishers"
+  ],
+  "underdog_signal": false
 }

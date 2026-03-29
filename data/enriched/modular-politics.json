@@ -42,9 +42,7 @@
   "team_size": "small",
   "funding_model": "Academic research",
   "funding_verified": false,
-  "academic_citations": [
-    "Referenced in governance and platform studies literature"
-  ],
+  "academic_citations": [],
   "in_civictech_guide": false,
   "outcome_methodology": "Theoretical framework - no empirical outcomes",
   "replication_materials_available": false,
@@ -57,5 +55,18 @@
   "pass2_at": "2026-03-09T23:21:20.996Z",
   "pass5_at": "2026-03-10T00:42:05.360Z",
   "pass5_jina_words": 499,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Modular Politics addresses enabling broader democratic participation and improving government service delivery and transparency.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides foundational infrastructure: A governance layer framework for building composable, modular online community governance systems."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "researchers",
+    "platform operators",
+    "online community managers"
+  ],
+  "underdog_signal": true
 }

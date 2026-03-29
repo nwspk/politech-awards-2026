@@ -63,5 +63,18 @@
   "pass2_at": "2026-03-09T23:21:33.811Z",
   "pass5_at": "2026-03-10T00:59:45.307Z",
   "pass5_jina_words": 0,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "DemTech Navigator addresses digital rights and online freedoms. Online resource guide for civil society groups to address disinformation.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides data, research, or monitoring capabilities for civic purposes."
+  },
+  "systemic_issue_area": "digital rights infrastructure",
+  "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Proprietary or closed-source; replication requires licensing.",
+  "primary_users_or_beneficiaries": [
+    "civil society groups",
+    "researchers",
+    "practitioners"
+  ],
+  "underdog_signal": true
 }

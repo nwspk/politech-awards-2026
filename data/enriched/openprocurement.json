@@ -68,17 +68,8 @@
     "dependent on Ukrainian government adoption",
     "active conflict in Ukraine"
   ],
-  "news_articles": [
-    "Reuters: Ukraine's ProZorro platform saves billions in public spending (2019)",
-    "Guardian: How Ukraine is fighting corruption through open procurement (2017)",
-    "TechCrunch: OpenProcurement toolkit expands to Moldova (2021)",
-    "Wired: The anti-corruption tech saving Ukraine money (2016)"
-  ],
-  "academic_citations": [
-    "Peixoto, T., & Sifry, M. (2017). Civic tech for social change. Berkman Klein Center, Harvard University.",
-    "Meijer, A. J., & Thaens, M. (2013). Social media strategies: Understanding different approaches in North American and European public agencies. Government Information Quarterly, 30(4), 343-351.",
-    "Lourenço, R. P. (2015). An analysis of public e-procurement platforms in the EU. Telematics and Informatics, 32(2), 325-332."
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "World Procurement Award (WPA) 2016 - Public Sector category (ProZorro)",
     "Open Government Awards 2016 - Global Summit in Paris (ProZorro)",
@@ -123,5 +114,18 @@
   "pass2_at": "2026-03-09T23:21:40.288Z",
   "pass5_at": "2026-03-10T00:49:26.727Z",
   "pass5_jina_words": 543,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "OpenProcurement addresses the need for more transparent, efficient, and accountable government operations through digital tools and open processes.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "OpenProcurement provides transparency tools or data that inform civic oversight of government."
+  },
+  "systemic_issue_area": "government procurement transparency",
+  "generalizability_notes": "High generalizability. OpenProcurement is open source and already deployed across multiple countries/jurisdictions, making replication straightforward for other contexts.",
+  "primary_users_or_beneficiaries": [
+    "government procurement agencies",
+    "suppliers",
+    "civil society watchdogs"
+  ],
+  "underdog_signal": true
 }

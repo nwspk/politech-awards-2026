@@ -76,5 +76,18 @@
   ],
   "pass5_at": "2026-03-10T00:45:45.270Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses gaps in government accountability and public service delivery through technology-enabled civic engagement.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Serves as an information resource for civic actors, researchers, or the public."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Primarily national in scope; replication would require significant localization. Methodology and approach could inform similar efforts in other jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "technology developers",
+    "policymakers and legislative staff",
+    "standards bodies"
+  ],
+  "underdog_signal": false
 }

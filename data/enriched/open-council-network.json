@@ -63,13 +63,8 @@
     "Reliance on volunteer contributors",
     "Limited technical infrastructure budget"
   ],
-  "news_articles": [
-    "Guardian: 'Open Council Network brings transparency to local government' (2021)",
-    "TechCrunch: 'UK civic tech platform tracks council decisions' (2019)"
-  ],
-  "academic_citations": [
-    "Cited in research on civic technology adoption in UK local government (2022)"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "Nesta Innovation in Civic Tech Award (2020)"
   ],
@@ -102,5 +97,18 @@
   "pass2_at": "2026-03-09T23:21:37.341Z",
   "pass5_at": "2026-03-10T01:00:22.218Z",
   "pass5_jina_words": 230,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Open Council Network addresses gaps in democratic participation by providing tools or platforms that enable citizens and communities to engage more directly in governance and decision-making processes.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Open Council Network directly enables organizing by providing tools for collective action, campaigning, or community mobilization."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Moderate generalizability. Open Council Network is open source but designed for UK-specific regulatory and institutional contexts. Adaptation to other jurisdictions would require significant localization.",
+  "primary_users_or_beneficiaries": [
+    "citizens in United Kingdom",
+    "researchers",
+    "campaigners"
+  ],
+  "underdog_signal": true
 }

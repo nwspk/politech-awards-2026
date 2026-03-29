@@ -142,5 +142,19 @@
   ],
   "pass5_at": "2026-03-10T01:01:47.474Z",
   "pass5_jina_words": 0,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Members' Interests addresses making civic data accessible and actionable and enabling broader democratic participation. It has documented policy impact.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Serves as an information resource: Database of UK Members of Parliament financial interests and declarations."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase enables replication. currently deployed in United Kingdom only, but approach could be adapted to other national contexts.",
+  "primary_users_or_beneficiaries": [
+    "journalists",
+    "researchers",
+    "campaigners",
+    "parliamentarians"
+  ],
+  "underdog_signal": false
 }

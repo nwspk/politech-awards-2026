@@ -68,9 +68,7 @@
     "https://www.wired.com/story/fatebook-prediction-platform",
     "https://www.theguardian.com/technology/fatebook"
   ],
-  "academic_citations": [
-    "Tetlock, P., & Gardner, D. (2023). Superforecasting applications in civic tech"
-  ],
+  "academic_citations": [],
   "awards": [
     "Effective Altruism Community Award 2023"
   ],
@@ -97,5 +95,18 @@
   "pass2_at": "2026-03-09T23:21:27.167Z",
   "pass5_at": "2026-03-10T00:46:14.878Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Fatebook addresses civic data access and transparency. Rapid predictions, anywhere.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides technical infrastructure that other civic tools or services build upon."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Open-source codebase facilitates replication.",
+  "primary_users_or_beneficiaries": [
+    "researchers",
+    "forecasters",
+    "decision-makers"
+  ],
+  "underdog_signal": false
 }

@@ -68,18 +68,8 @@
     "funder concentration risk",
     "reliance on publisher permissions data accuracy"
   ],
-  "news_articles": [
-    {
-      "headline": "Open Access Button — discovering when and where researchers hit paywalls",
-      "outlet": "Scientific American",
-      "date": null,
-      "url": null
-    }
-  ],
-  "academic_citations": [
-    "Shamash, K. (2020). Open Access Button: A tool for tracking open access adoption. First Monday, 25(1).",
-    "Bosch, S., & Albee, B. (2014). Death by 1,000 cuts. The Serials Librarian, 67(3), 253-261."
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "Arcadia Fund Open Access Award (2015)",
     "Code for Science & Society Fellowship (2018)"
@@ -148,5 +138,20 @@
   },
   "pass5_at": "2026-03-10T01:01:00.912Z",
   "pass5_jina_words": 547,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "OA.Works addresses barriers to research access and knowledge equity, promoting open access to publicly funded research that informs policy and civic understanding.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "OA.Works primarily serves as an information resource for researchers, journalists, or analysts working on civic and political issues."
+  },
+  "systemic_issue_area": "information freedom and open access",
+  "generalizability_notes": "High generalizability. OA.Works is open source and already deployed across multiple countries/jurisdictions, making replication straightforward for other contexts.",
+  "primary_users_or_beneficiaries": [
+    "researchers",
+    "librarians",
+    "funders",
+    "universities",
+    "civil society advocates"
+  ],
+  "underdog_signal": false
 }

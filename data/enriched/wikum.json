@@ -56,9 +56,7 @@
   "funding_verified": true,
   "last_funding_event": "2017",
   "dependency_risks": "Limited ongoing maintenance; last commit in 2017 suggests project may not be actively developed",
-  "academic_citations": [
-    "Zhang, Amy X. and Verou, Lea and Karger, David. Wikum: Bridging Discussion Forums and Wikis Using Recursive Summarization. CSCW 2017"
-  ],
+  "academic_citations": [],
   "in_civictech_guide": false,
   "replication_materials_available": true,
   "published_performance_metrics": "User studies conducted in CSCW 2017 publication",
@@ -73,5 +71,18 @@
   "pass2_at": "2026-03-09T23:21:44.406Z",
   "pass5_at": "2026-03-10T00:54:17.588Z",
   "pass5_jina_words": 0,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Wikum addresses democratic participation and citizen engagement. Tools for communities to collectively summarize large online discussions and manage embedded knowledge.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides civic data or journalism infrastructure"
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Highly generalizable — already deployed internationally and open source, facilitating adoption in new contexts.",
+  "primary_users_or_beneficiaries": [
+    "researchers",
+    "online communities",
+    "discussion participants"
+  ],
+  "underdog_signal": true
 }

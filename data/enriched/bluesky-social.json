@@ -71,10 +71,7 @@
     "https://www.reuters.com/technology/bluesky-social-media",
     "https://techcrunch.com/tag/bluesky/"
   ],
-  "academic_citations": [
-    "Decentralized social media protocols research",
-    "AT Protocol technical documentation"
-  ],
+  "academic_citations": [],
   "in_civictech_guide": false,
   "wikipedia_page": "https://en.wikipedia.org/wiki/Bluesky_(social_network)",
   "replication_materials_available": true,
@@ -101,5 +98,17 @@
   "pass2_at": "2026-03-09T23:21:29.065Z",
   "pass5_at": "2026-03-10T00:46:16.890Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses challenges in civic technology infrastructure by serving general_public, developers.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides decentralized communication infrastructure as an alternative to corporate platforms."
+  },
+  "systemic_issue_area": "civic technology infrastructure",
+  "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (4 countries), demonstrating cross-context adaptability.",
+  "primary_users_or_beneficiaries": [
+    "general_public",
+    "civic technology developers"
+  ],
+  "underdog_signal": false
 }

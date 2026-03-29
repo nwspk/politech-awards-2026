@@ -86,5 +86,18 @@
   "pass2_at": "2026-03-09T23:21:26.103Z",
   "pass5_at": "2026-03-10T00:46:15.482Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "FixMyBlock addresses civic technology. Tried and tested action guides for getting stuff fixed in your block.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Directly supports organizing, campaigning, or advocacy actions."
+  },
+  "systemic_issue_area": "civic technology infrastructure",
+  "generalizability_notes": "Primarily local/regional; would need significant adaptation for other contexts. Proprietary or closed-source; replication requires licensing.",
+  "primary_users_or_beneficiaries": [
+    "social housing tenants",
+    "tower block residents",
+    "low-income renters"
+  ],
+  "underdog_signal": false
 }

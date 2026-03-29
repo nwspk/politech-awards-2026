@@ -69,17 +69,8 @@
   ],
   "funding_verified": true,
   "last_funding_event": "2025-09-01",
-  "news_articles": [
-    "Guardian: 'How researchers are fighting platform manipulation' (2024)",
-    "Wired: 'Inside NYU's Cybersecurity for Democracy Lab' (2023)",
-    "Reuters: 'Academic researchers challenge tech platforms on transparency' (2024)",
-    "TechCrunch: 'NYU center releases tools for election security' (2023)"
-  ],
-  "academic_citations": [
-    "Cited in 200+ peer-reviewed publications on platform transparency and election security",
-    "Google Scholar: 2,400+ citations of center research",
-    "OpenAlex: 180+ publications by center researchers"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "Privacy Enhanced Technology Symposium (PETS) awards - 2 researchers"
   ],
@@ -132,5 +123,20 @@
   "pass2_at": "2026-03-09T23:21:26.061Z",
   "pass5_at": "2026-03-10T00:45:37.547Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses challenges in digital rights infrastructure by serving Researchers, Policymakers, Platform Regulators.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Serves as an information resource for civic actors, researchers, or the public."
+  },
+  "systemic_issue_area": "digital rights infrastructure",
+  "generalizability_notes": "Open-source codebase facilitates replication and adaptation.",
+  "primary_users_or_beneficiaries": [
+    "civic technology researchers",
+    "policymakers and legislative staff",
+    "Platform Regulators",
+    "Tech Companies",
+    "Young Users"
+  ],
+  "underdog_signal": false
 }

@@ -89,9 +89,7 @@
       "url": "https://techcrunch.com/2020/03/20/abstract-wikipedia-wikimedia/"
     }
   ],
-  "academic_citations": [
-    "Wikimedia Foundation research on multilingual knowledge representation"
-  ],
+  "academic_citations": [],
   "in_civictech_guide": false,
   "replication_materials_available": true,
   "documented_limitations": [
@@ -109,5 +107,19 @@
   "contributor_governance": "Volunteer-driven with Wikimedia Foundation oversight; community discussion forums for major decisions",
   "community_ownership": "Community-driven with Wikimedia Foundation stewardship",
   "ai_involvement": "Machine learning and natural language processing for language rendering and knowledge representation",
-  "pass2_at": "2026-03-10T00:27:57.333Z"
+  "pass2_at": "2026-03-10T00:27:57.333Z",
+  "political_relevance_summary": "Addresses information asymmetry by improving access to structured knowledge and civic data for informed public participation.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides structured data or information that supports civic understanding and action."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (multiple countries), demonstrating cross-context adaptability.",
+  "primary_users_or_beneficiaries": [
+    "civic technology researchers",
+    "members of the public seeking government information",
+    "volunteer knowledge contributors",
+    "knowledge workers and educators"
+  ],
+  "underdog_signal": false
 }

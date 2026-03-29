@@ -69,10 +69,7 @@
     "https://www.wired.com/story/constitute-project-constitutions",
     "https://www.theguardian.com/world/constitute-project"
   ],
-  "academic_citations": [
-    "Constitute Project database cited in constitutional law scholarship",
-    "Used in comparative constitutional studies"
-  ],
+  "academic_citations": [],
   "awards": [
     "Recognized as leading constitutional research resource"
   ],
@@ -144,5 +141,20 @@
   "pass2_at": "2026-03-09T23:21:23.696Z",
   "pass5_at": "2026-03-10T00:45:36.502Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses barriers to meaningful citizen participation in democratic decision-making by providing tools for public engagement and deliberation.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Serves as an information resource for civic actors, researchers, or the public."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (5 countries), demonstrating cross-context adaptability. Methodology and approach could inform similar efforts in other jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "civic technology researchers",
+    "constitutional courts",
+    "educators",
+    "citizens seeking to participate in local democratic processes",
+    "constitutional commissions"
+  ],
+  "underdog_signal": true
 }
