@@ -1,5 +1,5 @@
 ---
-title: "For each of 19 Newspeak House fellows, a multi-stage AI pipeline infers an expli"
+title: "For each of 18 Newspeak House fellows, a multi-stage AI pipeline infers an expli"
 author: "@sugaroverflow"
 date: "2026-03-29"
 pr_url: "https://github.com/nwspk/politech-awards-2026/pull/90"
@@ -7,14 +7,14 @@ version: v7
 pr_number: 90
 pr_status: "open"
 top_project:
-  name: "algorithmwatch.org"
-  url: "https://algorithmwatch.org"
-  score: 97
+  name: "liquidfeedback.com"
+  url: "https://liquidfeedback.com"
+  score: 65
 ---
 
 ## Heuristic
 
-For each of 19 Newspeak House fellows, a multi-stage AI pipeline infers an explicit **evaluative constitution** from their public record — weighted criteria, value modifiers, and procedural rules, written in first person. That constitution scores all 321 longlist projects (0–100). A **4-model jury panel** (GPT-4.1, Gemini 2.5 Pro, Mistral Large, Grok 4) independently cross-checks each ranking across 5 runs each. The committee score is the **simple mean of all 19 constitutional scores** per project.
+For each of 18 Newspeak House fellows, a multi-stage AI pipeline infers an explicit **evaluative constitution** from their public record — weighted criteria, value modifiers, and procedural rules, written in first person. That constitution scores all 321 longlist projects (0–100). A **4-model jury panel** (GPT-4.1, Gemini 2.5 Pro, Mistral Large, Grok 4) independently cross-checks each ranking across 5 runs each. The committee score is the **simple mean of all 18 constitutional scores** per project.
 
 `SCORING_MODE=v10` in `the-algorithm.ts` reads `iterations/project-mirror-v2/committee-aggregation/committee-ranking.csv` and maps `avg_score` directly to the leaderboard (scores are already 0–100).
 
@@ -22,7 +22,7 @@ For each of 19 Newspeak House fellows, a multi-stage AI pipeline infers an expli
 
 ### What this iteration is
 
-v10 is the first heuristic that uses **individual evaluative constitutions** rather than a shared rubric. Instead of asking "what dimensions matter?" once for the whole committee, it asks: "what does *this person's* public record reveal about what they value?" — separately for each of 19 fellows — then aggregates across them.
+v10 is the first heuristic that uses **individual evaluative constitutions** rather than a shared rubric. Instead of asking "what dimensions matter?" once for the whole committee, it asks: "what does *this person's* public record reveal about what they value?" — separately for each of 18 fellows — then aggregates across them.
 
 The constitutional approach was developed as Project Mirror v2. Each fellow's pipeline runs in sequence:
 
@@ -32,7 +32,7 @@ The constitutional approach was developed as Project Mirror v2. Each fellow's pi
 4. **Scoring** — all 321 projects scored against the constitution with first-person prose rationales
 5. **Jury cross-check** — 4-model panel (GPT-4.1, Gemini 2.5 Pro, Mistral Large, Grok 4) runs 5 independent passes; jury scores cross-check but do not override the constitutional ranking
 
-The committee score is the **mean constitutional score** across all 19 fellows. This is v1 of the aggregation — fellows are reviewing their individual PRs and can request re-runs if the constitution feels wrong.
+The committee score is the **mean constitutional score** across all 18 fellows. This is v1 of the aggregation — fellows are reviewing their individual PRs and can request re-runs if the constitution feels wrong.
 
 ### Design decisions
 
@@ -54,8 +54,8 @@ Each fellow's constitutional winner and individual PR:
 | [#81](https://github.com/nwspk/politech-awards-2026/pull/81) | Connor Dunlop | AlgorithmWatch |
 | [#71](https://github.com/nwspk/politech-awards-2026/pull/71) | David Powell | mySociety Datasets and APIs |
 | [#86](https://github.com/nwspk/politech-awards-2026/pull/86) | Davit Jintcharadze | LiquidFeedback |
-| [#69](https://github.com/nwspk/politech-awards-2026/pull/69) | Emily Mayhew | Open Digital Planning |
 | [#67](https://github.com/nwspk/politech-awards-2026/pull/67) | Fatima Sarah Khalid | CONSUL Democracy |
+| [#88](https://github.com/nwspk/politech-awards-2026/pull/88) | Francesca Galli | mySociety Datasets and APIs |
 | [#72](https://github.com/nwspk/politech-awards-2026/pull/72) | Frederick O'Brien | Open Heart Mind |
 | [#68](https://github.com/nwspk/politech-awards-2026/pull/68) | Gamithra Marga | Bonfire |
 | [#84](https://github.com/nwspk/politech-awards-2026/pull/84) | Hannah O'Rourke | AlgorithmWatch |
@@ -64,7 +64,6 @@ Each fellow's constitutional winner and individual PR:
 | [#80](https://github.com/nwspk/politech-awards-2026/pull/80) | Martina Orlea | Martus |
 | [#75](https://github.com/nwspk/politech-awards-2026/pull/75) | Nicholas Botti | AlgorithmWatch |
 | [#79](https://github.com/nwspk/politech-awards-2026/pull/79) | Tuna Acisu | Gapminder Worldview Upgrader (100 — only perfect score in cohort) |
-| [#88](https://github.com/nwspk/politech-awards-2026/pull/88) | Francesca Galli | mySociety Datasets and APIs |
 
 Full methodology: PR [#76](https://github.com/nwspk/politech-awards-2026/pull/76)
 
@@ -87,4 +86,4 @@ Full methodology: PR [#76](https://github.com/nwspk/politech-awards-2026/pull/76
 
 This PR ships `iterations/project-mirror-v2/committee-aggregation/committee-ranking.csv` (321 rows, avg_score, stdev, coverage) and this PR body as the v10 iteration entry. Individual mirror PRs (#67–88) remain open for fellow amendments. A v10.1 re-aggregation will run after the feedback window closes.
 
-**318 of 321 projects** scored by all 19 fellows. 3 projects scored by fewer (URL deduplication across Alessandro and Davit's CSVs).
+**319 of 321 projects** scored by all 18 fellows. 2 projects scored by fewer (URL deduplication across Alessandro and Davit's CSVs).
