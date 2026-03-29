@@ -12,11 +12,11 @@ Canonical full iteration history for `/awards` rendering. Generated from `iterat
 | v4 | 2026-02-13 | @jcoombes | merged | Base score (50) + inclusion bonus (URL keywords) − fetch-failure penalty (10) + AI-body bonus (up to 15). Uses cached page fetches to penalise dead/inaccessible sites and reward projects whose page content mentions AI governance, safety, or policy keywords. | [v4](https://github.com/nwspk/politech-awards-2026/pull/9) | [entry](#v4-ai-governance-body-bonus) |
 | v5 | 2026-02-22 | @Gamithra | merged | Three-agent ITN/A deliberation: independent AI evaluators assess each project through political, relational, and experimental personas on 4 different lenses, argue in multi-turn conversation, and produce a ranked shortlist. | [v5](https://github.com/nwspk/politech-awards-2026/pull/12) | [entry](#v5-three-agent-itn-a-deliberation) |
 | v6 | 2026-03-09 | @sugaroverflow | open | This heuristic inherits the approach in [v5: ITN/A multi-agent deliberation heuristic](https://github.com/nwspk/politech-awards-2026/pull/12) with **6 independent AI juries** that run an ITN/A deliberation on a shortlist of 183 projects. The jury with the highest confidence score picks the project winner. | [v6](https://github.com/nwspk/politech-awards-2026/pull/15) | [entry](#v6-six-jury-itn-a-deliberation) |
-| v7 | 2026-03-29 | @sugaroverflow | open | For each of 18 Newspeak House fellows, a multi-stage AI pipeline infers an explicit **evaluative constitution** from their public record — weighted criteria, value modifiers, and procedural rules, written in first person. That constitution scores all 321 longlist projects (0–100). A **4-model jury panel** (GPT-4.1, Gemini 2.5 Pro, Mistral Large, Grok 4) independently cross-checks each ranking across 5 runs each. The committee score is the **simple mean of all 18 constitutional scores** per project. | [v7](https://github.com/nwspk/politech-awards-2026/pull/90) | [entry](#v7-for-each-of-18-newspeak-house-fellows-a-multi-stage-ai-pipeline-infers-an-expli) |
+| v7 | 2026-03-29 | @sugaroverflow | open | For each of 19 Newspeak House fellows, a multi-stage AI pipeline infers an explicit **evaluative constitution** from their public record — weighted criteria, value modifiers, and procedural rules, written in first person. That constitution scores all 321 longlist projects (0–100). A **4-model jury panel** (GPT-4.1, Gemini 2.5 Pro, Mistral Large, Grok 4) independently cross-checks each ranking across 5 runs each. The committee score is the **simple mean of all 19 constitutional scores** per project (including one **rankings-only** synthetic agent input with no constitution in-repo). | [v7](https://github.com/nwspk/politech-awards-2026/pull/90) | [entry](#v7-for-each-of-19-newspeak-house-fellows-a-multi-stage-ai-pipeline-infers-an-expli) |
 
 ## Full iteration records
 
-### v7 For each of 18 Newspeak House fellows, a multi-stage AI pipeline infers an expli
+### v7 For each of 19 Newspeak House fellows, a multi-stage AI pipeline infers an expli
 
 - **PR**: [v7](https://github.com/nwspk/politech-awards-2026/pull/90)
 - **Status**: open
@@ -26,7 +26,7 @@ Canonical full iteration history for `/awards` rendering. Generated from `iterat
 
 #### Heuristic
 
-For each of 18 Newspeak House fellows, a multi-stage AI pipeline infers an explicit **evaluative constitution** from their public record — weighted criteria, value modifiers, and procedural rules, written in first person. That constitution scores all 321 longlist projects (0–100). A **4-model jury panel** (GPT-4.1, Gemini 2.5 Pro, Mistral Large, Grok 4) independently cross-checks each ranking across 5 runs each. The committee score is the **simple mean of all 18 constitutional scores** per project.
+For each of 19 Newspeak House fellows, a multi-stage AI pipeline infers an explicit **evaluative constitution** from their public record — weighted criteria, value modifiers, and procedural rules, written in first person. That constitution scores all 321 longlist projects (0–100). A **4-model jury panel** (GPT-4.1, Gemini 2.5 Pro, Mistral Large, Grok 4) independently cross-checks each ranking across 5 runs each. The committee score is the **simple mean of all 19 constitutional scores** per project. One cohort member contributes **only** a precomputed ranking table for aggregation (**synthetic Emily agent**); **no constitution** for that input is stored in this repository.
 
 `SCORING_MODE=v10` in `the-algorithm.ts` reads `iterations/project-mirror-v2/committee-aggregation/committee-ranking.csv` and maps `avg_score` directly to the leaderboard (scores are already 0–100).
 
@@ -34,7 +34,7 @@ For each of 18 Newspeak House fellows, a multi-stage AI pipeline infers an expli
 
 ### What this iteration is
 
-v10 is the first heuristic that uses **individual evaluative constitutions** rather than a shared rubric. Instead of asking "what dimensions matter?" once for the whole committee, it asks: "what does *this person's* public record reveal about what they value?" — separately for each of 18 fellows — then aggregates across them.
+v10 is the first heuristic that uses **individual evaluative constitutions** rather than a shared rubric. Instead of asking "what dimensions matter?" once for the whole committee, it asks: "what does *this person's* public record reveal about what they value?" — separately for each of 19 fellows — then aggregates across them.
 
 The constitutional approach was developed as Project Mirror v2. Each fellow's pipeline runs in sequence:
 
@@ -44,7 +44,7 @@ The constitutional approach was developed as Project Mirror v2. Each fellow's pi
 4. **Scoring** — all 321 projects scored against the constitution with first-person prose rationales
 5. **Jury cross-check** — 4-model panel (GPT-4.1, Gemini 2.5 Pro, Mistral Large, Grok 4) runs 5 independent passes; jury scores cross-check but do not override the constitutional ranking
 
-The committee score is the **mean constitutional score** across all 18 fellows. This is v1 of the aggregation — fellows are reviewing their individual PRs and can request re-runs if the constitution feels wrong.
+The committee score is the **mean constitutional score** across all 19 fellows. This is v1 of the aggregation — fellows are reviewing their individual PRs and can request re-runs if the constitution feels wrong.
 
 ### Design decisions
 
@@ -54,10 +54,10 @@ The committee score is the **mean constitutional score** across all 18 fellows. 
 
 ### Per-fellow results
 
-Each fellow's constitutional winner and individual PR:
+Each fellow's constitutional winner and individual PR (or rankings-only input):
 
-| PR | Fellow | Constitutional Winner |
-|----|--------|----------------------|
+| PR / source | Fellow | Constitutional Winner |
+|-------------|--------|----------------------|
 | [#73](https://github.com/nwspk/politech-awards-2026/pull/73) | Aadi Kulkarni | OpenCRVS |
 | [#82](https://github.com/nwspk/politech-awards-2026/pull/82) | Alessandro Pedori | Decidim |
 | [#83](https://github.com/nwspk/politech-awards-2026/pull/83) | Alexandra Ciocanel | AlgorithmWatch |
@@ -66,6 +66,7 @@ Each fellow's constitutional winner and individual PR:
 | [#81](https://github.com/nwspk/politech-awards-2026/pull/81) | Connor Dunlop | AlgorithmWatch |
 | [#71](https://github.com/nwspk/politech-awards-2026/pull/71) | David Powell | mySociety Datasets and APIs |
 | [#86](https://github.com/nwspk/politech-awards-2026/pull/86) | Davit Jintcharadze | LiquidFeedback |
+| [Rankings only](https://github.com/nwspk/politech-awards-2026/tree/project-mirror-v2/emily-mayhew-rankings-only/iterations/project-mirror-v2/emily-mayhew) | Synthetic Emily agent | Open Digital Planning |
 | [#67](https://github.com/nwspk/politech-awards-2026/pull/67) | Fatima Sarah Khalid | CONSUL Democracy |
 | [#88](https://github.com/nwspk/politech-awards-2026/pull/88) | Francesca Galli | mySociety Datasets and APIs |
 | [#72](https://github.com/nwspk/politech-awards-2026/pull/72) | Frederick O'Brien | Open Heart Mind |
@@ -98,7 +99,7 @@ Full methodology: PR [#76](https://github.com/nwspk/politech-awards-2026/pull/76
 
 This PR ships `iterations/project-mirror-v2/committee-aggregation/committee-ranking.csv` (321 rows, avg_score, stdev, coverage) and this PR body as the v10 iteration entry. Individual mirror PRs (#67–88) remain open for fellow amendments. A v10.1 re-aggregation will run after the feedback window closes.
 
-**319 of 321 projects** scored by all 18 fellows. 2 projects scored by fewer (URL deduplication across Alessandro and Davit's CSVs).
+**319 of 321 projects** scored by all 19 inputs. 2 projects scored by fewer (URL deduplication across Alessandro and Davit's CSVs). The synthetic Emily agent contributes **rankings only** in-repo; **no constitution** is published for that input.
 
 ---
 
