@@ -1,19 +1,18 @@
 # Committee aggregation — review exports
 
-Generated artifacts for **reading** and **analysis** (not canonical scoring inputs; those stay on each fellow’s `project-mirror-v2/<slug>` branch).
+Generated artifacts (not canonical scoring inputs; those stay on each fellow’s `project-mirror-v2/<slug>` branch).
 
 | File | Purpose |
 |------|--------|
-| `all-mirror-constitutions.md` | Human-readable: data tables (sizes), then **Catalogue — Part A criteria**: one combined table (fellow × criterion name × weight) plus **one table per fellow**, then full Part A/B/C prose (or full `constitution.md`). |
-| `all-mirror-criteria-table.csv` | One row per **criterion**: `name`, `pr_url`, `criterion_index`, `criterion_title`, `weight` (parsed from Part A). |
-| `all-mirror-constitutions-sections.csv` | Long format: one row per section with `slug`, `section` (`part_a` / `part_b` / `part_c` / `full_constitution`), `source_file`, `content` (UTF-8, BOM for Excel). |
-| `all-mirror-constitutions-index.csv` | One row per fellow: PR URL, `layout` (`split_files` vs `single_file`), character counts per part. |
-| `rubrics-stacked.svg` | Optional chart (relative bar lengths by part); regenerate with the script. |
+| **`all-mirror-rubrics.md`** | **Start here:** one `##` heading per fellow and a **markdown table** (`# \| Criterion \| Weight`) for Part A only — easy to read in GitHub or locally. |
+| `all-mirror-criteria-table.csv` | Same criterion rows as the tables, flat (for Sheets / pandas). |
+| `all-mirror-constitutions-sections.csv` | Full text: Part A/B/C or whole `constitution.md` per row (UTF-8 BOM for Excel). |
+| `all-mirror-constitutions-index.csv` | One row per fellow: char counts and layout flags. |
 
-Regenerate from repo root (requires local `project-mirror-v2/*` branches — `git fetch origin` if needed):
+Regenerate from repo root (local `project-mirror-v2/*` refs — `git fetch origin` if needed):
 
 ```bash
 npm run aggregate:mirror-v2-constitutions
 ```
 
-PR [#93](https://github.com/nwspk/politech-awards-2026/pull/93) uses a Mermaid overview in its description; the same text is kept in [`pr-93-body.md`](./pr-93-body.md) for easy copy/paste or `gh pr edit 93 --body-file …` after edits.
+PR [#93](https://github.com/nwspk/politech-awards-2026/pull/93): copy for the PR body lives in [`pr-93-body.md`](./pr-93-body.md).
