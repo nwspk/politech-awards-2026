@@ -13,10 +13,11 @@ For contribution workflow, see [CONTRIBUTING.md](../../CONTRIBUTING.md).
 
 ## At a glance
 
+
 | Area | Current state | Where to read details |
 |---|---|---|
 | Open tradeoffs | Active unresolved questions across iterations, data quality, framework, and event UX | [Open questions and unresolved tradeoffs](#open-questions-and-unresolved-tradeoffs) |
-| Meeting record | Full canonical notes captured for Feb 4, Mar 4, Mar 13, and Mar 15 sessions | [Meeting notes](#meeting-notes-full-canonical-record) |
+| Meeting record | Full canonical notes captured for Feb 4, Mar 4, Mar 9, Mar 13, Mar 15, and Mar 22 sessions | [Meeting notes](#meeting-notes-full-canonical-record) |
 | Current emphasis | Data quality follow-up, citation reliability, typology, and theory-of-change framing | [2026-03-15 impromptu](#2026-03-15-impromptu) |
 | Governance baseline | CODEOWNERS voting model and iterative PR process | [2026-02-04 notes](#2026-02-04-1800) |
 | Canonical source | This file (canonical) | This file |
@@ -43,6 +44,7 @@ Consolidated from process notes plus current iteration/data logs.
 | Open | Data quality | Is scraped content sufficiently representative of each project? | Weak/partial page captures can distort both eval and deliberation quality | Add scrape-quality diagnostics and fallback source strategy |
 | Open | Pipeline design | Should shortlist gating be removed or loosened when cost allows? | Shortlist may hide signal and lock in early-pass errors; full-run cost may be acceptable | Benchmark cost/quality tradeoff with and without shortlist |
 | Open | Values design | Should committee values be explicitly reflected and aggregated in the scoring process? | Current framework may overweight one value schema vs committee plural values | Prototype value elicitation + aggregation pathway and compare rankings |
+| Open | Human review | How should stated familiarity bias be handled in manual ranking? | Davit explicitly noted uneven familiarity with projects while manually reviewing | Decide whether to add a second-pass normalization/review rule for manual scores |
 | Open | Methodology | What intermediate outputs should be treated as first-class process artifacts? | Useful artifacts exist (cache, assessments, deliberations) but taxonomy is unclear | Define artifact classes and publication policy in logs/docs |
 | Open | Analysis | Can we model the ranking space to identify principal value axes? | Value structure is implicit and hard to reason about directly | Explore dimensionality-reduction analysis on project-score vectors |
 | Open | Analysis | Can uncertainty-aware member estimators improve fairness and interpretability? | Current process lacks explicit uncertainty modeling and representation metrics | Prototype estimator + uncertainty outputs (e.g. controversy/uncertainty indicators) |
@@ -211,6 +213,27 @@ Consolidated from process notes plus current iteration/data logs.
 - Fatima: Follow up on 10-15 low-quality dossiers and improve where evidence exists.
 - Fatima: Draft and test a political typology proposal for project classification.
 - Fatima: Draft and test a theory-of-change field for candidate dossiers/process use.
+
+---
+
+### 2026-03-22 (email from Davit; manual review checkpoint)
+
+- **Type**: Manual review checkpoint
+- **Participants**: Davit, Fatima (email exchange)
+- **Related PR/context**: [v7 PR](https://github.com/nwspk/politech-awards-2026/pull/20), [Davit ranking sheet](https://docs.google.com/spreadsheets/d/1wEQ35p2zkiBVUr8JEWgRmt_Zh1EYFFCxxs-d5H6NGgI/edit?gid=0#gid=0)
+
+#### Notes captured
+
+- Davit reported he had reviewed the first ~20 projects and would continue.
+- He explicitly noted familiarity bias risk in his human review due to uneven prior knowledge across projects.
+- He wrote that the AI leader was his number-two choice at that stage.
+- He identified **Diia** as his top choice at that stage, with rationale: large-scale adoption (20M+ users), transferable infrastructure in principle, and wartime utility for digital passport access.
+- He flagged **LiquidFeedback** as another familiar project with an experimentally strong model and some real-world track record.
+
+#### Action items captured
+
+- Update v7 iteration docs with Davit's written rationale and ranking-sheet context without adding new inferred claims.
+- Confirm committee handling for manual-review familiarity bias (normalization or explicit caveat).
 
 ---
 

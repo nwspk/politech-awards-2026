@@ -4,6 +4,7 @@
 
 import { execSync } from "child_process";
 import * as fs from "fs";
+import * as path from "path";
 import {
   type Iteration,
   type ResultEntry,
@@ -65,6 +66,34 @@ function getNextVersion(): string {
   return `v${n + 1}`;
 }
 
+/** e.g. Title "v8: ITN/A with awards focus" → "v8" */
+function versionFromDeclaredTitle(title: string | null): string | null {
+  if (!title) return null;
+  const m = title.trim().match(/^v(\d+)\s*:/i);
+  if (!m) return null;
+  return `v${m[1]}`;
+}
+
+function iterationReadmePath(version: string): string {
+  return path.join("iterations", version, "README.md");
+}
+
+/**
+ * Prefer an existing iterations/vN/ folder when the PR Title starts with "vN:"
+ * (avoids creating v(N+1) when the branch already added vN but omitted pr_number).
+ */
+function resolveIterationVersion(prNumber: number, title: string | null): string {
+  const byPr = getVersionForPr(prNumber);
+  if (byPr) return byPr;
+
+  const fromTitle = versionFromDeclaredTitle(title);
+  if (fromTitle && fs.existsSync(iterationReadmePath(fromTitle))) {
+    return fromTitle;
+  }
+
+  return getNextVersion();
+}
+
 function detectDataSources(): string[] {
   const code = fs.readFileSync("the-algorithm.ts", "utf-8");
   const sources: string[] = [];
@@ -115,7 +144,7 @@ function main(): void {
     return;
   }
 
-  const version = getVersionForPr(prNumber) ?? getNextVersion();
+  const version = resolveIterationVersion(prNumber, title);
   const topProject = allResults[0];
   const dataSources = detectDataSources();
 
