@@ -1,18 +1,18 @@
 # Project A — v1 Run Summary
 
 **Run date:** 2026-03-27
-**Fellows profiled:** 18
+**Fellows profiled:** 17
 **Methodology:** [iterations/project-a/methodology.md](methodology.md)
 
 ---
 
 ## Overview
 
-Project A is the first complete run of an AI-inferred values heuristic applied to the Newspeak House 2025/26 Political Technology fellowship cohort. For each of the 18 fellows, a research agent constructed a values profile from publicly available sources, derived scoring criteria from those inferred values, and used those criteria to rank all 322 Politech Awards nominees. A 5-model jury — Claude Sonnet 4.6, GPT-4o, Mistral Large, Llama 3 70B, and a Google Gemini variant — each independently selected a winner from a 20-project shortlist across three runs (15 votes per fellow). The pipeline tests a single research question: can an AI accurately infer a person's values from their public record, and do those inferred values produce project rankings the person would endorse?
+Project A is the first complete run of an AI-inferred values heuristic applied to the Newspeak House 2025/26 Political Technology fellowship cohort. For each of the 17 fellows documented here, a research agent constructed a values profile from publicly available sources, derived scoring criteria from those inferred values, and used those criteria to rank all 322 Politech Awards nominees. A 5-model jury — Claude Sonnet 4.6, GPT-4o, Mistral Large, Llama 3 70B, and a Google Gemini variant — each independently selected a winner from a 20-project shortlist across three runs (15 votes per fellow). The pipeline tests a single research question: can an AI accurately infer a person's values from their public record, and do those inferred values produce project rankings the person would endorse?
 
-A significant methodological constraint affected all 18 runs: Gemini 1.5 Pro (`google/gemini-pro-1.5`), specified as the Google-family jury member in the methodology, was deprecated on OpenRouter and returned HTTP 404 across every run. Three substitute Google models were used instead — Gemini 2.0 Flash (four fellows), Gemini 2.5 Flash (three fellows), and Gemini 2.5 Pro (eleven fellows). The substitutions preserve the five-provider diversity intent of the jury design, but make strict cross-fellow comparability on the Gemini vote impossible.
+A significant methodological constraint affected every run: Gemini 1.5 Pro (`google/gemini-pro-1.5`), specified as the Google-family jury member in the methodology, was deprecated on OpenRouter and returned HTTP 404 across every run. Three substitute Google models were used instead — Gemini 2.0 Flash (four fellows), Gemini 2.5 Flash (three fellows), and Gemini 2.5 Pro (ten fellows). The substitutions preserve the five-provider diversity intent of the jury design, but make strict cross-fellow comparability on the Gemini vote impossible.
 
-The results show substantial variation in jury stability that tracks the richness and coherence of each fellow's public record. Nine of the 18 fellows produced strong consensus (12+/15 votes), five produced majority results (8–11/15), and four produced contested results (under 8/15). The contested cases — Jamie Coombes, Davit Jintcharadze, Asil Sidahmed, and Emily Mayhew — each reflect genuine interpretive ambiguity: either the fellow's public record is too thin to anchor a confident reading (Emily Mayhew, with the sparsest record in the cohort), or the fellow's values contain a real tension between two plausible but distinct project framings (Davit's researcher vs. activist identity; Jamie's interpretability-as-mechanism vs. interpretability-as-accountability split; Asil's health equity vs. accountability-for-power-abuse axis). Three fellows — Huda Abdirahim, Gamithra Marga, and Emily Mayhew — have primary Claude scores that differ from the jury plurality winner, indicating the scoring prompts or values framing carried meaningful weight. The v1 results also reveal which project types recur as dominant matches: Polis, Decidim, and SecureDrop each appear as a winner for multiple fellows, suggesting these projects have unusually broad value alignment within this cohort.
+The results show substantial variation in jury stability that tracks the richness and coherence of each fellow's public record. Nine of the 17 fellows produced strong consensus (12+/15 votes), five produced majority results (8–11/15), and three produced contested results (under 8/15). The contested cases — Jamie Coombes, Davit Jintcharadze, and Asil Sidahmed — each reflect genuine interpretive ambiguity in how model families read the fellow's values (e.g. Davit's researcher vs. activist identity; Jamie's interpretability-as-mechanism vs. interpretability-as-accountability split; Asil's health equity vs. accountability-for-power-abuse axis). Two fellows — Huda Abdirahim and Gamithra Marga — have primary Claude scores that differ from the jury plurality winner, indicating the scoring prompts or values framing carried meaningful weight. The v1 results also reveal which project types recur as dominant matches: Polis, Decidim, and SecureDrop each appear as a winner for multiple fellows, suggesting these projects have unusually broad value alignment within this cohort.
 
 ---
 
@@ -34,7 +34,6 @@ The results show substantial variation in jury stability that tracks the richnes
 | Aadi Kulkarni | medium-high | Diia | 12/15 | strong | yes |
 | Fatima Sarah Khalid | high | Decidim | 11/15 | majority | yes |
 | Gamithra Marga | high | Bonfire (plurality) | 8/15 | majority | no (Claude: meet.coop) |
-| Emily Mayhew | low-medium | Open Contracting Partnership (plurality) | 5/15 | contested | no (Claude: Open Digital Planning) |
 | Frederick O'Brien | medium-high | SecureDrop | 10/15 | majority | yes |
 | Alessandro Pedori | medium-high | Polis | 15/15 | strong | yes |
 | David Powell | high | Loomio | 14/15 | strong | yes |
@@ -980,75 +979,6 @@ The results show substantial variation in jury stability that tracks the richnes
 - Hacker commune living at Astralship: does the jury result capture what you're building there, or is the solarpunk/regenerative dimension missing from the shortlist?
 
 **Key finding:** The meet.coop vs. Bonfire split is one of the most substantively interesting in the pipeline — both projects are genuine expressions of Gamithra's values, and the distinction between them (cooperative-owned infrastructure vs. federated-protocol community sovereignty) is a real philosophical question about the future of community technology. Claude's quote — "the solarpunk alignment is not metaphorical here — the renewable energy commitment and cooperative ownership structure are baked into the infrastructure itself" — correctly identifies what meet.coop offers that Bonfire does not, while GPT-4o's choice of Bonfire correctly identifies the greater scalability of federated protocols over a single cooperative service.
-
----
-
-### Emily Mayhew
-
-**PR:** https://github.com/nwspk/politech-awards-2026/pull/37
-**Branch:** `project-a/emily-mayhew`
-**Confidence:** low-medium
-**Sources confirmed:** 2 (cohort bio, Newspeak House listing); 2 contextual (DCMS copyright/AI policy landscape, Creative Content Exchange policy analysis); 1 uncertain (Twitter/X @emilyjmayhew — content not accessible)
-**Identity collisions confirmed:** Dr Emily Mayhew (Imperial College military historian) and Emily Mayhew MRICS (Savills surveyor) — both different individuals, confirmed and excluded
-**Gemini substitution:** Gemini 2.5 Pro (`google/gemini-2.5-pro`)
-
-**Bio snippet:** Emily Mayhew is a UK civil servant with approximately ten years in central government. She currently works at the Department for Culture, Media and Sport (DCMS) on creating a marketplace for creative content for AI training — focused on transparent and fair licensing between rights holders and AI developers. Her previous roles span local government digital transformation, national incident response, refugee resettlement, competitive funding programmes, and copyright and AI policy. She joined the Newspeak House 2025/26 fellowship to build technical skills and test how government competencies transfer to building things, describing herself as someone "making policy at the AI/Creative Industries intersection." She has the thinnest confirmed public record in the cohort.
-
-**Inferred values:**
-
-| Value | Description |
-|---|---|
-| Fair and transparent systems | Her DCMS work is explicitly about transparent and fair licensing between rights holders and AI developers |
-| Practical government capability | Joined Newspeak House specifically to "start building things" and test transferable skills |
-| Cross-boundary policy work | Portfolio spans copyright, refugee resettlement, incident response, local government, AI — drawn to complex interfaces |
-| Accessible public services | Local government digital transformation and refugee resettlement work suggests she thinks about how services reach people in difficulty |
-| Protecting creative and cultural workers | Current role on creative content AI licensing is about ensuring creators are fairly remunerated |
-| Incrementalism and institutional pragmatism | A decade in civil service suggests she operates within institutional constraints and values what can actually be achieved |
-| Human-centred implementation | Fellowship goal of testing how "government skills apply elsewhere" suggests she cares about whether things actually work for real people |
-
-**Note:** All values are inferred from job titles and fellowship bio, not from published writing or stated positions. This is the most inference-dependent profile in the cohort. Civil servants do work they are assigned; the portfolio may reflect assignment diversity rather than personal values alignment with each domain.
-
-**Scoring criteria (weighted):**
-
-| Criterion | Weight |
-|---|---|
-| Practical government applicability | high |
-| Fair access and equitable design | high |
-| Transparency and accountability | high |
-| Practical usability and real-world deployment | medium |
-| Rights and fairness for affected parties | medium |
-| Cross-institutional interoperability | medium |
-| Bridging policy and implementation | low |
-
-**Top 5 projects from ranking:**
-1. Open Digital Planning
-2. GOV.UK Forms
-3. Open Contracting Partnership
-4. OpenCRVS
-5. WhatDoTheyKnow
-
-**Jury results (contested):**
-
-| Model | Run 1 | Run 2 | Run 3 |
-|---|---|---|---|
-| Claude Sonnet 4.6 | Open Contracting Partnership | Open Contracting Partnership | Open Contracting Partnership |
-| GPT-4o | OpenCRVS | Open Digital Planning | Open Digital Planning |
-| Mistral Large | Open Digital Planning | Open Digital Planning | Creative Commons |
-| Llama 3 70B | Creative Commons | Open Contracting Partnership | Open Contracting Partnership |
-| Gemini 2.5 Pro | Creative Commons | Creative Commons | The Data Trusts Initiative |
-
-**Vote totals:** Open Contracting Partnership 5/15 (33%), Open Digital Planning 4/15 (27%), Creative Commons 4/15 (27%), OpenCRVS 1/15 (7%), The Data Trusts Initiative 1/15 (7%) — **contested**
-
-**Stability notes:** Three-way contested result — the most split jury in the Project A cohort. The split reflects a genuine interpretive ambiguity in Emily's profile: Claude emphasised cross-institutional scale and "unglamorous, rights-protective infrastructure" (Open Contracting Partnership); GPT-4o and Mistral read "practical government applicability" as UK-specific local government tools (Open Digital Planning); Gemini consistently weighted the "protecting creative workers" value and Emily's current DCMS role (Creative Commons). Notable within-model variance: Claude proposed Open Digital Planning in the primary run, but chose Open Contracting Partnership in all three jury runs — the reframing as a jury vote shifted the weighting. **Flagged for human review.**
-
-**Reflection questions posed (agent notes):**
-- Five different models gave four different winners. The split is: Cross-institutional procurement transparency (Open Contracting Partnership), UK-specific local government tools (Open Digital Planning), or creative content licensing commons (Creative Commons). Which feels closest to your actual priorities?
-- You joined Newspeak House to "start building things." Is there a specific project in this shortlist you'd want to build, or adapt for the UK context?
-- Your refugee resettlement background: does OpenCRVS (civil registration for displaced people) resonate as a personal priority separate from your current DCMS role?
-- The DCMS Creative Content Exchange work: does Creative Commons represent what you're trying to build, or is it a precursor that your work extends?
-- This is the thinnest public record in the cohort. What would you add — a blog post, a talk, a public position — that would change this ranking?
-
-**Key finding:** Emily's profile is the clearest demonstration in the cohort of what happens when values must be inferred entirely from job titles rather than expressed positions. The contested jury result is not a failure of the pipeline — it accurately reflects the genuine difficulty of inferring values from a career spanning refugee resettlement, copyright policy, local government digital transformation, and AI/creative industries. Emily's response to this profile is the most valuable data point in the project precisely because it would also validate or invalidate the inference method for thin-record cases.
 
 ---
 
