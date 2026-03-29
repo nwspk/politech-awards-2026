@@ -13,3 +13,5 @@ Regenerate from repo root (requires local `project-mirror-v2/*` branches — `gi
 ```bash
 npm run aggregate:mirror-v2-constitutions
 ```
+
+PR [#93](https://github.com/nwspk/politech-awards-2026/pull/93) uses a Mermaid overview in its description; the same text is kept in [`pr-93-body.md`](./pr-93-body.md) for easy copy/paste or `gh pr edit 93 --body-file …` after edits.
