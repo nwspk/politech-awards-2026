@@ -12,7 +12,106 @@ The synthetic Emily agent has **rankings only** in-repo — no constitution text
 
 Canonical copies stay on each `project-mirror-v2/<slug>` branch / PR; **re-run this script** after amendments.
 
-## Table of contents
+## Data tables (CSV preview)
+
+Skimmable view of the same data as the CSV exports. **Character counts** match the `content` field length in `all-mirror-constitutions-sections.csv`. Full rubric text is in [the sections below](#table-of-contents-for-full-text).
+
+### Fellow summary (↔ `all-mirror-constitutions-index.csv`)
+
+| Fellow | PR | Layout | Part A chars | Part B chars | Part C chars | Full const chars | Total chars | Jump |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Aadi Kulkarni | [#73](https://github.com/nwspk/politech-awards-2026/pull/73) | split_files | 9768 | 6491 | 9712 | 0 | 25971 | [→](#aadi-kulkarni) |
+| Alessandro Pedori | [#82](https://github.com/nwspk/politech-awards-2026/pull/82) | split_files | 6805 | 5291 | 3632 | 0 | 15728 | [→](#alessandro-pedori) |
+| Alexandra Ciocanel | [#83](https://github.com/nwspk/politech-awards-2026/pull/83) | split_files | 11137 | 5755 | 8514 | 0 | 25406 | [→](#alexandra-ciocanel) |
+| Asil Sidahmed | [#87](https://github.com/nwspk/politech-awards-2026/pull/87) | split_files | 7493 | 4856 | 9203 | 0 | 21552 | [→](#asil-sidahmed) |
+| Chris Owen | [#85](https://github.com/nwspk/politech-awards-2026/pull/85) | split_files | 8813 | 5470 | 6063 | 0 | 20346 | [→](#chris-owen) |
+| Connor Dunlop | [#81](https://github.com/nwspk/politech-awards-2026/pull/81) | split_files | 7807 | 4886 | 4439 | 0 | 17132 | [→](#connor-dunlop) |
+| David Powell | [#71](https://github.com/nwspk/politech-awards-2026/pull/71) | split_files | 5074 | 2317 | 2643 | 0 | 10034 | [→](#david-powell) |
+| Davit Jintcharadze | [#86](https://github.com/nwspk/politech-awards-2026/pull/86) | single_file | 0 | 0 | 0 | 13796 | 13796 | [→](#davit-jintcharadze) |
+| Fatima Sarah Khalid | [#67](https://github.com/nwspk/politech-awards-2026/pull/67) | split_files | 10095 | 6669 | 10256 | 0 | 27020 | [→](#fatima-sarah-khalid) |
+| Francesca Galli | [#88](https://github.com/nwspk/politech-awards-2026/pull/88) | single_file | 0 | 0 | 0 | 5373 | 5373 | [→](#francesca-galli) |
+| Frederick O'Brien | [#72](https://github.com/nwspk/politech-awards-2026/pull/72) | split_files | 9392 | 7129 | 7386 | 0 | 23907 | [→](#frederick-obrien) |
+| Gamithra Marga | [#68](https://github.com/nwspk/politech-awards-2026/pull/68) | split_files | 8230 | 5795 | 12397 | 0 | 26422 | [→](#gamithra-marga) |
+| Hannah O'Rourke | [#84](https://github.com/nwspk/politech-awards-2026/pull/84) | split_files | 8630 | 3500 | 3748 | 0 | 15878 | [→](#hannah-orourke) |
+| Huda Abdirahim | [#74](https://github.com/nwspk/politech-awards-2026/pull/74) | split_files | 7898 | 5821 | 9575 | 0 | 23294 | [→](#huda-abdirahim) |
+| Jamie Coombes | [#70](https://github.com/nwspk/politech-awards-2026/pull/70) | split_files | 9524 | 5701 | 10834 | 0 | 26059 | [→](#jamie-coombes) |
+| Martina Orlea | [#80](https://github.com/nwspk/politech-awards-2026/pull/80) | split_files | 469 | 386 | 380 | 0 | 1235 | [→](#martina-orlea) |
+| Nicholas Botti | [#75](https://github.com/nwspk/politech-awards-2026/pull/75) | split_files | 12097 | 7064 | 12416 | 0 | 31577 | [→](#nicholas-botti) |
+| Tuna Acisu | [#79](https://github.com/nwspk/politech-awards-2026/pull/79) | split_files | 11691 | 7414 | 9428 | 0 | 28533 | [→](#tuna-acisu) |
+
+### Part A — `part_a` (↔ criteria.md)
+
+| Fellow | PR | Source file | Characters | Jump |
+| --- | --- | --- | --- | --- |
+| Aadi Kulkarni | [#73](https://github.com/nwspk/politech-awards-2026/pull/73) | `criteria.md` | 9768 | [→](#aadi-kulkarni) |
+| Alessandro Pedori | [#82](https://github.com/nwspk/politech-awards-2026/pull/82) | `criteria.md` | 6805 | [→](#alessandro-pedori) |
+| Alexandra Ciocanel | [#83](https://github.com/nwspk/politech-awards-2026/pull/83) | `criteria.md` | 11137 | [→](#alexandra-ciocanel) |
+| Asil Sidahmed | [#87](https://github.com/nwspk/politech-awards-2026/pull/87) | `criteria.md` | 7493 | [→](#asil-sidahmed) |
+| Chris Owen | [#85](https://github.com/nwspk/politech-awards-2026/pull/85) | `criteria.md` | 8813 | [→](#chris-owen) |
+| Connor Dunlop | [#81](https://github.com/nwspk/politech-awards-2026/pull/81) | `criteria.md` | 7807 | [→](#connor-dunlop) |
+| David Powell | [#71](https://github.com/nwspk/politech-awards-2026/pull/71) | `criteria.md` | 5074 | [→](#david-powell) |
+| Fatima Sarah Khalid | [#67](https://github.com/nwspk/politech-awards-2026/pull/67) | `criteria.md` | 10095 | [→](#fatima-sarah-khalid) |
+| Frederick O'Brien | [#72](https://github.com/nwspk/politech-awards-2026/pull/72) | `criteria.md` | 9392 | [→](#frederick-obrien) |
+| Gamithra Marga | [#68](https://github.com/nwspk/politech-awards-2026/pull/68) | `criteria.md` | 8230 | [→](#gamithra-marga) |
+| Hannah O'Rourke | [#84](https://github.com/nwspk/politech-awards-2026/pull/84) | `criteria.md` | 8630 | [→](#hannah-orourke) |
+| Huda Abdirahim | [#74](https://github.com/nwspk/politech-awards-2026/pull/74) | `criteria.md` | 7898 | [→](#huda-abdirahim) |
+| Jamie Coombes | [#70](https://github.com/nwspk/politech-awards-2026/pull/70) | `criteria.md` | 9524 | [→](#jamie-coombes) |
+| Martina Orlea | [#80](https://github.com/nwspk/politech-awards-2026/pull/80) | `criteria.md` | 469 | [→](#martina-orlea) |
+| Nicholas Botti | [#75](https://github.com/nwspk/politech-awards-2026/pull/75) | `criteria.md` | 12097 | [→](#nicholas-botti) |
+| Tuna Acisu | [#79](https://github.com/nwspk/politech-awards-2026/pull/79) | `criteria.md` | 11691 | [→](#tuna-acisu) |
+
+### Part B — `part_b` (↔ modifiers.md)
+
+| Fellow | PR | Source file | Characters | Jump |
+| --- | --- | --- | --- | --- |
+| Aadi Kulkarni | [#73](https://github.com/nwspk/politech-awards-2026/pull/73) | `modifiers.md` | 6491 | [→](#aadi-kulkarni) |
+| Alessandro Pedori | [#82](https://github.com/nwspk/politech-awards-2026/pull/82) | `modifiers.md` | 5291 | [→](#alessandro-pedori) |
+| Alexandra Ciocanel | [#83](https://github.com/nwspk/politech-awards-2026/pull/83) | `modifiers.md` | 5755 | [→](#alexandra-ciocanel) |
+| Asil Sidahmed | [#87](https://github.com/nwspk/politech-awards-2026/pull/87) | `modifiers.md` | 4856 | [→](#asil-sidahmed) |
+| Chris Owen | [#85](https://github.com/nwspk/politech-awards-2026/pull/85) | `modifiers.md` | 5470 | [→](#chris-owen) |
+| Connor Dunlop | [#81](https://github.com/nwspk/politech-awards-2026/pull/81) | `modifiers.md` | 4886 | [→](#connor-dunlop) |
+| David Powell | [#71](https://github.com/nwspk/politech-awards-2026/pull/71) | `modifiers.md` | 2317 | [→](#david-powell) |
+| Fatima Sarah Khalid | [#67](https://github.com/nwspk/politech-awards-2026/pull/67) | `modifiers.md` | 6669 | [→](#fatima-sarah-khalid) |
+| Frederick O'Brien | [#72](https://github.com/nwspk/politech-awards-2026/pull/72) | `modifiers.md` | 7129 | [→](#frederick-obrien) |
+| Gamithra Marga | [#68](https://github.com/nwspk/politech-awards-2026/pull/68) | `modifiers.md` | 5795 | [→](#gamithra-marga) |
+| Hannah O'Rourke | [#84](https://github.com/nwspk/politech-awards-2026/pull/84) | `modifiers.md` | 3500 | [→](#hannah-orourke) |
+| Huda Abdirahim | [#74](https://github.com/nwspk/politech-awards-2026/pull/74) | `modifiers.md` | 5821 | [→](#huda-abdirahim) |
+| Jamie Coombes | [#70](https://github.com/nwspk/politech-awards-2026/pull/70) | `modifiers.md` | 5701 | [→](#jamie-coombes) |
+| Martina Orlea | [#80](https://github.com/nwspk/politech-awards-2026/pull/80) | `modifiers.md` | 386 | [→](#martina-orlea) |
+| Nicholas Botti | [#75](https://github.com/nwspk/politech-awards-2026/pull/75) | `modifiers.md` | 7064 | [→](#nicholas-botti) |
+| Tuna Acisu | [#79](https://github.com/nwspk/politech-awards-2026/pull/79) | `modifiers.md` | 7414 | [→](#tuna-acisu) |
+
+### Part C — `part_c` (↔ procedural.md)
+
+| Fellow | PR | Source file | Characters | Jump |
+| --- | --- | --- | --- | --- |
+| Aadi Kulkarni | [#73](https://github.com/nwspk/politech-awards-2026/pull/73) | `procedural.md` | 9712 | [→](#aadi-kulkarni) |
+| Alessandro Pedori | [#82](https://github.com/nwspk/politech-awards-2026/pull/82) | `procedural.md` | 3632 | [→](#alessandro-pedori) |
+| Alexandra Ciocanel | [#83](https://github.com/nwspk/politech-awards-2026/pull/83) | `procedural.md` | 8514 | [→](#alexandra-ciocanel) |
+| Asil Sidahmed | [#87](https://github.com/nwspk/politech-awards-2026/pull/87) | `procedural.md` | 9203 | [→](#asil-sidahmed) |
+| Chris Owen | [#85](https://github.com/nwspk/politech-awards-2026/pull/85) | `procedural.md` | 6063 | [→](#chris-owen) |
+| Connor Dunlop | [#81](https://github.com/nwspk/politech-awards-2026/pull/81) | `procedural.md` | 4439 | [→](#connor-dunlop) |
+| David Powell | [#71](https://github.com/nwspk/politech-awards-2026/pull/71) | `procedural.md` | 2643 | [→](#david-powell) |
+| Fatima Sarah Khalid | [#67](https://github.com/nwspk/politech-awards-2026/pull/67) | `procedural.md` | 10256 | [→](#fatima-sarah-khalid) |
+| Frederick O'Brien | [#72](https://github.com/nwspk/politech-awards-2026/pull/72) | `procedural.md` | 7386 | [→](#frederick-obrien) |
+| Gamithra Marga | [#68](https://github.com/nwspk/politech-awards-2026/pull/68) | `procedural.md` | 12397 | [→](#gamithra-marga) |
+| Hannah O'Rourke | [#84](https://github.com/nwspk/politech-awards-2026/pull/84) | `procedural.md` | 3748 | [→](#hannah-orourke) |
+| Huda Abdirahim | [#74](https://github.com/nwspk/politech-awards-2026/pull/74) | `procedural.md` | 9575 | [→](#huda-abdirahim) |
+| Jamie Coombes | [#70](https://github.com/nwspk/politech-awards-2026/pull/70) | `procedural.md` | 10834 | [→](#jamie-coombes) |
+| Martina Orlea | [#80](https://github.com/nwspk/politech-awards-2026/pull/80) | `procedural.md` | 380 | [→](#martina-orlea) |
+| Nicholas Botti | [#75](https://github.com/nwspk/politech-awards-2026/pull/75) | `procedural.md` | 12416 | [→](#nicholas-botti) |
+| Tuna Acisu | [#79](https://github.com/nwspk/politech-awards-2026/pull/79) | `procedural.md` | 9428 | [→](#tuna-acisu) |
+
+### Full constitution — `full_constitution` (↔ constitution.md only)
+
+| Fellow | PR | Source file | Characters | Jump |
+| --- | --- | --- | --- | --- |
+| Davit Jintcharadze | [#86](https://github.com/nwspk/politech-awards-2026/pull/86) | `constitution.md` | 13796 | [→](#davit-jintcharadze) |
+| Francesca Galli | [#88](https://github.com/nwspk/politech-awards-2026/pull/88) | `constitution.md` | 5373 | [→](#francesca-galli) |
+
+---
+
+## Table of contents for full text
 
 - [Aadi Kulkarni](#aadi-kulkarni)
 - [Alessandro Pedori](#alessandro-pedori)

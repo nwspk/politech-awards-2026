@@ -12,7 +12,7 @@ flowchart TB
   run["npm run aggregate:mirror-v2-constitutions"]
 
   subgraph artifacts["committee-aggregation/"]
-    md["all-mirror-constitutions.md — prose + TOC"]
+    md["all-mirror-constitutions.md — tables + prose + TOC"]
     sec["all-mirror-constitutions-sections.csv — long data"]
     idx["all-mirror-constitutions-index.csv — one row per fellow"]
   end
@@ -28,7 +28,7 @@ This PR adds a **single place** to read every fellow’s evaluative rubric (Part
 
 ### Files
 
-- **`all-mirror-constitutions.md`** — Narrative review doc (TOC + per-fellow sections). Davit and Francesca use one combined `constitution.md` on their branches; everyone else uses split files when present.
+- **`all-mirror-constitutions.md`** — **Markdown tables** up front (fellow summary + one table per CSV section, with character counts and jump links), then full narrative text (TOC + per-fellow sections). Davit and Francesca use one combined `constitution.md` on their branches; everyone else uses split files when present.
 - **`all-mirror-constitutions-sections.csv`** — Long format: `slug`, `section` (`part_a` | `part_b` | `part_c` | `full_constitution`), `source_file`, `content`. UTF-8 with BOM for Excel.
 - **`all-mirror-constitutions-index.csv`** — One row per fellow: PR link, `layout`, character counts per part (handy for filtering without loading full text).
 - **`scripts/bots/aggregate-mirror-v2-criteria.ts`** — Regenerates the three outputs; **`npm run aggregate:mirror-v2-constitutions`** from repo root (needs local `project-mirror-v2/*` refs — `git fetch origin` if missing).
