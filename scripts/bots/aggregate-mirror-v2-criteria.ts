@@ -1,13 +1,12 @@
 /**
  * Build review artifacts for Project Mirror v2 constitutions:
- * - Markdown: **one readable table per fellow** (Part A criterion + weight only)
- * - CSV (long): one row per section with full text (Sheets / R / pandas friendly)
- * - CSV (index): one row per fellow with char counts and layout flags
- * - CSV: flat Part A criteria (fellow × criterion × weight)
+ * - Markdown: `all-mirror-rubrics.md` — per fellow: Part A, Part B (modifiers), Part C (rules)
+ * - Markdown: `pr-93-body.md` — PR description: comparisons + `<details>` full A/B/C tables
+ * - CSV (long / index / criteria): unchanged
  *
  * Requires local git refs: project-mirror-v2/<slug>
  *
- * Usage: npx tsx scripts/bots/aggregate-mirror-v2-criteria.ts [--out <md>] [--csv-sections <csv>] [--csv-index <csv>] [--csv-criteria <csv>]
+ * Usage: npx tsx scripts/bots/aggregate-mirror-v2-criteria.ts [--out <md>] [--pr-body <md>] …
  */
 
 import { execSync } from "node:child_process";
@@ -15,6 +14,8 @@ import * as fs from "node:fs";
 import * as path from "node:path";
 
 const REPO = "https://github.com/nwspk/politech-awards-2026";
+/** Branch that hosts aggregation PR artifacts (for raw links in generated PR body). */
+const AGGREGATION_BRANCH = "project-mirror-v2/aggregate-constitutions-review";
 
 const MIRRORS: { slug: string; name: string; pr: number }[] = [
   { slug: "aadi-kulkarni", name: "Aadi Kulkarni", pr: 73 },
@@ -89,6 +90,7 @@ function csvCell(value: string): string {
 
 function parseArgs(): {
   outMd: string;
+  outPrBody: string;
   outSectionsCsv: string;
   outIndexCsv: string;
   outCriteriaCsv: string;
@@ -96,12 +98,16 @@ function parseArgs(): {
   const argv = process.argv.slice(2);
   const defaultsDir = "iterations/project-mirror-v2/committee-aggregation";
   let outMd = `${defaultsDir}/all-mirror-rubrics.md`;
+  let outPrBody = `${defaultsDir}/pr-93-body.md`;
   let outSectionsCsv = `${defaultsDir}/all-mirror-constitutions-sections.csv`;
   let outIndexCsv = `${defaultsDir}/all-mirror-constitutions-index.csv`;
   let outCriteriaCsv = `${defaultsDir}/all-mirror-criteria-table.csv`;
   for (let i = 0; i < argv.length; i++) {
     if (argv[i] === "--out" && argv[i + 1]) {
       outMd = argv[i + 1];
+      i++;
+    } else if (argv[i] === "--pr-body" && argv[i + 1]) {
+      outPrBody = argv[i + 1];
       i++;
     } else if (argv[i] === "--csv-sections" && argv[i + 1]) {
       outSectionsCsv = argv[i + 1];
@@ -114,7 +120,7 @@ function parseArgs(): {
       i++;
     }
   }
-  return { outMd, outSectionsCsv, outIndexCsv, outCriteriaCsv };
+  return { outMd, outPrBody, outSectionsCsv, outIndexCsv, outCriteriaCsv };
 }
 
 function collectFellows(): FellowAggregate[] {
@@ -195,6 +201,34 @@ function extractPartAText(f: FellowAggregate): string | null {
     /^## Part A:\s*[^\n]*\n([\s\S]*?)(?=^## Part\s+[B-Z]\b)/m
   );
   return m ? m[1].trim() : null;
+}
+
+function extractPartBText(f: FellowAggregate): string | null {
+  if (f.modifiers?.trim()) return f.modifiers.trim();
+  const c = f.constitution?.trim();
+  if (!c) return null;
+  const m = c.match(
+    /^## Part B:\s*[^\n]*\n([\s\S]*?)(?=^## Part\s+C\b)/im
+  );
+  return m ? m[1].trim() : null;
+}
+
+function extractPartCText(f: FellowAggregate): string | null {
+  if (f.procedural?.trim()) return f.procedural.trim();
+  const c = f.constitution?.trim();
+  if (!c) return null;
+  const m = c.match(
+    /^## Part C:\s*[^\n]*\n([\s\S]*?)(?=^## Part\s+D\b)/im
+  );
+  return m ? m[1].trim() : null;
+}
+
+/** Isolate Part C body when file also contains Parts D/E (e.g. procedural.md). */
+function slicePartCSubsection(raw: string): string {
+  const m = raw.match(
+    /(?:^## Part C[^\n]*\n|^### Part C[^\n]*\n)([\s\S]*?)(?=^## Part D|^### Part D|^## Part E|^### Part E|\Z)/im
+  );
+  return m ? m[1].trim() : raw;
 }
 
 interface ParsedCriterion {
@@ -304,6 +338,249 @@ function parseAllPartACriteria(partA: string): ParsedCriterion[] {
   return parseCriterionMarkdownTable(partA);
 }
 
+interface ParsedModifier {
+  label: string;
+  title: string;
+  direction: string;
+  magnitude: string;
+}
+
+function extractListField(body: string, field: string): string {
+  const esc = field.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const bold = new RegExp(`-\\s*\\*\\*${esc}:\\*\\*\\s*(.+)`, "im");
+  const plain = new RegExp(`-\\s*${esc}:\\s*(.+)`, "im");
+  return (
+    body.match(bold)?.[1]?.trim() ||
+    body.match(plain)?.[1]?.trim() ||
+    "—"
+  );
+}
+
+function parseModifierHead(head: string): { label: string; title: string } | null {
+  const s = head.trim();
+  const colon = s.match(/^((?:M\d+|Modifier\s+\d+))\s*:\s*(.*)$/i);
+  if (colon) {
+    const raw = colon[1].trim();
+    const modNum = raw.match(/^modifier\s+(\d+)/i)?.[1];
+    const label = modNum ? `M${modNum}` : raw;
+    const title = (colon[2] || "").trim() || label;
+    return { label, title };
+  }
+  const mdot = s.match(/^(M\d+)\.\s*(.*)$/i);
+  if (mdot) {
+    const title = (mdot[2] || "").trim() || mdot[1];
+    return { label: mdot[1], title };
+  }
+  const memdash = s.match(/^(M\d+)\s+[\u2013\u2014\u2212-]\s*(.+)$/i);
+  if (memdash) {
+    return { label: memdash[1], title: memdash[2].trim() };
+  }
+  const ndot = s.match(/^(\d+)\.\s*(.+)$/);
+  if (ndot) {
+    return { label: `M${ndot[1]}`, title: ndot[2].trim() };
+  }
+  return null;
+}
+
+function parseModifiersFromMarkdownTable(text: string): ParsedModifier[] {
+  const out: ParsedModifier[] = [];
+  for (const line of text.split(/\r?\n/)) {
+    const trimmed = line.trim();
+    if (!trimmed.startsWith("|")) continue;
+    const inner = trimmed
+      .split("|")
+      .map((c) => c.trim())
+      .slice(1, -1);
+    if (inner.length < 4) continue;
+    if (inner.every((c) => /^[-:\s]+$/.test(c))) continue;
+    const c0 = inner[0];
+    const c1 = inner[1];
+    if (/^#$/i.test(c0) && /modifier/i.test(c1)) continue;
+    if (!/^M\d+$/i.test(c0)) continue;
+    out.push({
+      label: c0.replace(/^m/i, "M"),
+      title: c1,
+      direction: inner[2] || "—",
+      magnitude: inner[3] || "—",
+    });
+  }
+  return out;
+}
+
+function parseModifiersPlainMLines(text: string): ParsedModifier[] {
+  const out: ParsedModifier[] = [];
+  for (const line of text.split(/\r?\n/)) {
+    const m = line.match(/^\s*(M\d+)\s*:\s*(.+)$/i);
+    if (!m) continue;
+    let rest = m[2].trim();
+    const parenMag = rest.match(/\(([^)]+)\)\s*$/);
+    let magnitude = "—";
+    if (parenMag) {
+      magnitude = parenMag[1].trim();
+      rest = rest.slice(0, parenMag.index).trim();
+    }
+    const tl = rest.toLowerCase();
+    let dir = "—";
+    if (/\bconditional\b/.test(tl)) dir = "conditional (from title)";
+    else if (
+      /\bpenalt(y|ies)\b/.test(tl) ||
+      /\bpenali[sz]e\b/.test(tl) ||
+      /\bscepticism\b/.test(tl) ||
+      /\breduction\b/.test(tl)
+    )
+      dir = "reduce (from title)";
+    else if (
+      /\bbonus\b/.test(tl) ||
+      /\bboost\b/.test(tl) ||
+      /\balignment\b/.test(tl) ||
+      /\bcredibility\b/.test(tl) ||
+      /\bsupport\b/.test(tl)
+    )
+      dir = "boost (from title)";
+    out.push({
+      label: m[1].replace(/^m/i, "M"),
+      title: rest,
+      direction: dir,
+      magnitude,
+    });
+  }
+  return out;
+}
+
+function parseModifiers(text: string): ParsedModifier[] {
+  if (!text.trim()) return [];
+  const chunks = text.split(
+    /^###\s+(?=(?:M\d+)(?:\s*:\s*\S|\s*\.\s*\S|\s+[\u2013\u2014\u2212-])|(?:Modifier\s+\d+)\s*:\s*\S|\d+\.\s*\S)/im
+  );
+  const out: ParsedModifier[] = [];
+  for (const chunk of chunks) {
+    const t = chunk.trim();
+    if (!t) continue;
+    const firstNl = t.indexOf("\n");
+    const head = firstNl === -1 ? t : t.slice(0, firstNl);
+    const body = firstNl === -1 ? "" : t.slice(firstNl + 1);
+    const parsed = parseModifierHead(head);
+    if (!parsed) continue;
+    let dir = extractListField(body, "Direction");
+    let mag = extractListField(body, "Magnitude");
+    let title = parsed.title;
+    if (dir === "—") {
+      const tl = title.toLowerCase();
+      if (/\bconditional\b/.test(tl)) dir = "conditional (from title)";
+      else if (/\bpenali[sz]e\b/.test(tl) || /\bpenalty\b/.test(tl))
+        dir = "reduce (from title)";
+      else if (/\bboosts?\b/.test(tl)) dir = "boost (from title)";
+      else if (/\breduces?\b/.test(tl)) dir = "reduce (from title)";
+    }
+    if (mag === "—") {
+      const m = title.match(
+        /([−–-]?\d+\s*(?:to|–|-)\s*[−–-]?\d+\s*pts?)/i
+      );
+      if (m) mag = m[1].trim();
+    }
+    out.push({
+      label: parsed.label,
+      title,
+      direction: dir,
+      magnitude: mag,
+    });
+  }
+  if (out.length > 0) return out;
+  const fromTable = parseModifiersFromMarkdownTable(text);
+  if (fromTable.length > 0) return fromTable;
+  return parseModifiersPlainMLines(text);
+}
+
+interface ParsedRule {
+  name: string;
+  summary: string;
+}
+
+function parseProceduralRuleBlocks(
+  inner: string,
+  delimiter: RegExp
+): ParsedRule[] {
+  if (!new RegExp(delimiter.source, delimiter.flags).test(inner)) {
+    return [];
+  }
+  const parts = inner.split(delimiter).filter(Boolean);
+  const out: ParsedRule[] = [];
+  for (const p of parts) {
+    const t = p.trim();
+    if (!t) continue;
+    const firstNl = t.indexOf("\n");
+    let name = firstNl === -1 ? t.trim() : t.slice(0, firstNl).trim();
+    name = name.replace(/^#+\s*/, "").trim();
+    if (!name || /^Part\s/i.test(name)) continue;
+    const body = firstNl === -1 ? "" : t.slice(firstNl + 1);
+    const ruleLine =
+      body.match(/\*\*Rule:\*\*\s*([^\n]+)/)?.[1]?.trim() ||
+      body.match(/\*\*Trigger:\*\*\s*([^\n]+)/)?.[1]?.trim() ||
+      body.split(/\n/).find((l) => l.trim().length > 0)?.trim() ||
+      "—";
+    const summary =
+      ruleLine.length > 140 ? ruleLine.slice(0, 137) + "…" : ruleLine;
+    out.push({ name, summary });
+  }
+  return out;
+}
+
+const H2_RULE_TITLE_SKIP =
+  /^(Part\s+[A-E]\b|Project Mirror|Date\b|Evaluator\b)/i;
+
+function parseProceduralRulesH2(inner: string): ParsedRule[] {
+  const parts = inner.split(/^##\s+/m);
+  const out: ParsedRule[] = [];
+  for (const part of parts) {
+    const t = part.trim();
+    if (!t) continue;
+    const firstNl = t.indexOf("\n");
+    let name = firstNl === -1 ? t.trim() : t.slice(0, firstNl).trim();
+    name = name.replace(/^#+\s*/, "").trim();
+    if (!name || H2_RULE_TITLE_SKIP.test(name)) continue;
+    const body = firstNl === -1 ? "" : t.slice(firstNl + 1);
+    if (!/\*\*(?:Rule|Trigger):/.test(body)) continue;
+    const ruleLine =
+      body.match(/\*\*Rule:\*\*\s*([^\n]+)/)?.[1]?.trim() ||
+      body.match(/\*\*Trigger:\*\*\s*([^\n]+)/)?.[1]?.trim() ||
+      body.split(/\n/).find((l) => l.trim().length > 0)?.trim() ||
+      "—";
+    const summary =
+      ruleLine.length > 140 ? ruleLine.slice(0, 137) + "…" : ruleLine;
+    out.push({ name, summary });
+  }
+  return out;
+}
+
+function parseProceduralRules(raw: string): ParsedRule[] {
+  const inner = slicePartCSubsection(raw);
+  let out = parseProceduralRuleBlocks(inner, /^####\s+/m);
+  if (out.length === 0) {
+    out = parseProceduralRuleBlocks(inner, /^###\s+(?!Part\s)/m);
+  }
+  if (out.length === 0) {
+    out = parseProceduralRulesH2(inner);
+  }
+  return out;
+}
+
+interface FellowRubricParsed {
+  fellow: FellowAggregate;
+  criteria: ParsedCriterion[];
+  modifiers: ParsedModifier[];
+  rules: ParsedRule[];
+}
+
+function parseFellowRubric(f: FellowAggregate): FellowRubricParsed {
+  const partA = extractPartAText(f);
+  const criteria = partA ? parseAllPartACriteria(partA) : [];
+  const partB = extractPartBText(f);
+  const modifiers = partB ? parseModifiers(partB) : [];
+  const partC = extractPartCText(f);
+  const rules = partC ? parseProceduralRules(partC) : [];
+  return { fellow: f, criteria, modifiers, rules };
+}
+
 interface CriterionTableRow {
   slug: string;
   name: string;
@@ -342,9 +619,234 @@ function collectCriterionTableRows(
   return rows;
 }
 
-/** Single readable doc: one `##` per fellow, table `# | Criterion | Weight`. */
+const STOPWORDS = new Set([
+  "that",
+  "with",
+  "from",
+  "this",
+  "they",
+  "have",
+  "been",
+  "each",
+  "which",
+  "their",
+  "will",
+  "would",
+  "could",
+  "other",
+  "about",
+  "into",
+  "more",
+  "than",
+  "also",
+  "only",
+  "some",
+  "what",
+  "when",
+  "where",
+  "there",
+  "does",
+  "such",
+  "these",
+  "those",
+  "between",
+  "within",
+  "without",
+  "based",
+  "using",
+]);
+
+const THEME_NEEDLES = [
+  "governance",
+  "community",
+  "democracy",
+  "participation",
+  "equity",
+  "access",
+  "transparency",
+  "privacy",
+  "government",
+  "institution",
+  "deliberative",
+  "inclusion",
+  "deployment",
+  "open source",
+  "accountability",
+  "surveillance",
+  "enforcement",
+  "verification",
+];
+
+function titleWordBag(p: FellowRubricParsed): Set<string> {
+  const blob = [
+    ...p.criteria.map((c) => c.title),
+    ...p.modifiers.map((m) => m.title),
+  ]
+    .join(" ")
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, " ");
+  const words = blob
+    .split(/\s+/)
+    .filter((w) => w.length >= 4 && !STOPWORDS.has(w));
+  return new Set(words);
+}
+
+function jaccard(a: Set<string>, b: Set<string>): number {
+  let inter = 0;
+  for (const x of a) {
+    if (b.has(x)) inter++;
+  }
+  const uni = a.size + b.size - inter;
+  return uni === 0 ? 0 : Math.round((inter / uni) * 1000) / 1000;
+}
+
+/** Cross-fellow comparison tables (append to rubrics doc and PR body). */
+function buildComparisonMarkdown(
+  parsed: FellowRubricParsed[],
+  sep: (n: number) => string
+): string {
+  const lines: string[] = [
+    "## Cross-fellow comparison",
+    "",
+    "_Overlap scores use **Jaccard similarity** on word tokens (length ≥ 4) from Part A criterion titles + Part B modifier titles only — a rough signal, not semantic equivalence._",
+    "",
+    "### Rubric shape",
+    "",
+    "| Fellow | Part A (n) | Part B (n) | Part C rules (n) | Source layout |",
+    sep(5),
+  ];
+
+  for (const p of parsed) {
+    const f = p.fellow;
+    if (f.missingRef) {
+      lines.push(
+        `| ${escapeMdTableCell(f.name)} | — | — | — | _branch missing_ |`
+      );
+      continue;
+    }
+    const layout =
+      f.layout === "single_file"
+        ? "single `constitution.md`"
+        : f.layout === "split_files"
+          ? "split A/B/C files"
+          : "—";
+    lines.push(
+      `| ${escapeMdTableCell(f.name)} | ${p.criteria.length} | ${p.modifiers.length} | ${p.rules.length} | ${layout} |`
+    );
+  }
+
+  lines.push("", "### Modifier directions (Part B)", "", "| Fellow | boost | reduce | conditional | other |", sep(5));
+  for (const p of parsed) {
+    const f = p.fellow;
+    if (f.missingRef) {
+      lines.push(`| ${escapeMdTableCell(f.name)} | — | — | — | — |`);
+      continue;
+    }
+    let b = 0,
+      r = 0,
+      c = 0,
+      o = 0;
+    for (const m of p.modifiers) {
+      const d = m.direction.toLowerCase();
+      const t = m.title.toLowerCase();
+      if (d.includes("conditional") || t.includes("conditional")) c++;
+      else if (d.includes("boost") || t.includes("boost")) b++;
+      else if (d.includes("reduce") || t.includes("reduce")) r++;
+      else if (d !== "—" && d.length) o++;
+    }
+    lines.push(
+      `| ${escapeMdTableCell(f.name)} | ${b} | ${r} | ${c} | ${o} |`
+    );
+  }
+
+  lines.push("", "### Theme signals in titles (Part A + B)", "");
+  lines.push(
+    "How many fellows have **each theme substring** anywhere in criterion or modifier titles (case-insensitive).",
+    "",
+    "| Theme | Fellows (count) | Who (first names) |",
+    sep(3)
+  );
+
+  for (const needle of THEME_NEEDLES) {
+    const hits: string[] = [];
+    for (const p of parsed) {
+      if (p.fellow.missingRef) continue;
+      const blob = [
+        ...p.criteria.map((x) => x.title),
+        ...p.modifiers.map((x) => x.title),
+      ]
+        .join(" ")
+        .toLowerCase();
+      if (blob.includes(needle)) {
+        const first = p.fellow.name.split(/\s+/)[0];
+        hits.push(first);
+      }
+    }
+    const who =
+      hits.length === 0
+        ? "—"
+        : hits.length <= 8
+          ? hits.join(", ")
+          : `${hits.slice(0, 8).join(", ")} +${hits.length - 8}`;
+    lines.push(`| ${needle} | ${hits.length} | ${who} |`);
+  }
+
+  const bags = parsed
+    .filter((p) => !p.fellow.missingRef)
+    .map((p) => ({ p, bag: titleWordBag(p) }))
+    .filter((x) => x.bag.size > 0);
+
+  const pairs: { a: string; b: string; j: number }[] = [];
+  for (let i = 0; i < bags.length; i++) {
+    for (let j = i + 1; j < bags.length; j++) {
+      const ji = jaccard(bags[i].bag, bags[j].bag);
+      pairs.push({
+        a: bags[i].p.fellow.name,
+        b: bags[j].p.fellow.name,
+        j: ji,
+      });
+    }
+  }
+  pairs.sort((x, y) => y.j - x.j);
+
+  lines.push(
+    "",
+    "### Most similar rubric wording (Jaccard on title tokens)",
+    "",
+    "| Fellow A | Fellow B | Jaccard |",
+    sep(3)
+  );
+  for (const row of pairs.slice(0, 10)) {
+    lines.push(
+      `| ${escapeMdTableCell(row.a)} | ${escapeMdTableCell(row.b)} | ${row.j} |`
+    );
+  }
+
+  lines.push(
+    "",
+    "### Least similar pairs (still some token overlap)",
+    "",
+    "| Fellow A | Fellow B | Jaccard |",
+    sep(3)
+  );
+  const nonzero = pairs.filter((x) => x.j > 0);
+  const bottom = nonzero.slice(-8).reverse();
+  if (bottom.length === 0) {
+    lines.push("| — | — | — |");
+  } else {
+    for (const row of bottom) {
+      lines.push(
+        `| ${escapeMdTableCell(row.a)} | ${escapeMdTableCell(row.b)} | ${row.j} |`
+      );
+    }
+  }
+
+  lines.push("", "---", "");
+  return lines.join("\n");
+}
+
 function buildRubricTablesMarkdown(
-  fellows: FellowAggregate[],
+  parsed: FellowRubricParsed[],
   generated: string
 ): string {
   const sep = (n: number) => `| ${Array(n).fill("---").join(" | ")} |`;
@@ -355,15 +857,16 @@ function buildRubricTablesMarkdown(
     "",
     `**Generated:** ${generated}`,
     "",
-    "Part **A** only: each row is one named criterion and its weight. Parsed from `criteria.md` or the `## Part A` section of `constitution.md` on each mirror branch.",
+    "Per fellow: **Part A** (criteria + weight), **Part B** (value modifiers), **Part C** (procedural rules, short summary). Parsed from split files or from `constitution.md` sections where applicable.",
     "",
-    "Need full prose (high/low score text, modifiers, procedural)? Use the fellow’s PR or [`all-mirror-constitutions-sections.csv`](./all-mirror-constitutions-sections.csv). Same tables in CSV: [`all-mirror-criteria-table.csv`](./all-mirror-criteria-table.csv).",
+    "Full prose: mirror PRs or [`all-mirror-constitutions-sections.csv`](./all-mirror-constitutions-sections.csv). Flat criteria: [`all-mirror-criteria-table.csv`](./all-mirror-criteria-table.csv).",
     "",
     "---",
     "",
   ];
 
-  for (const f of fellows) {
+  for (const p of parsed) {
+    const f = p.fellow;
     lines.push(`## ${escapeMdTableCell(f.name)}`, "");
     if (f.missingRef) {
       lines.push(
@@ -382,17 +885,13 @@ function buildRubricTablesMarkdown(
       lines.push("_No criteria or constitution found._", "", "---", "");
       continue;
     }
-    const partA = extractPartAText(f);
-    const crits = partA ? parseAllPartACriteria(partA) : [];
-    lines.push("| # | Criterion | Weight |", sep(3));
-    if (crits.length === 0) {
-      lines.push(
-        "| — | *Could not parse criterion headings in Part A* | — |",
-        ""
-      );
+
+    lines.push("### Part A — criteria", "", "| # | Criterion | Weight |", sep(3));
+    if (p.criteria.length === 0) {
+      lines.push("| — | *Could not parse Part A headings* | — |", "");
     } else {
       let n = 0;
-      for (const c of crits) {
+      for (const c of p.criteria) {
         n += 1;
         lines.push(
           `| ${n} | ${escapeMdTableCell(c.title)} | ${escapeMdTableCell(c.weight)} |`
@@ -400,13 +899,174 @@ function buildRubricTablesMarkdown(
       }
       lines.push("");
     }
+
+    lines.push(
+      "### Part B — value modifiers",
+      "",
+      "| # | Modifier | Direction | Magnitude |",
+      sep(4)
+    );
+    if (p.modifiers.length === 0) {
+      lines.push(
+        "| — | *No Part B parsed* | — | — |",
+        ""
+      );
+    } else {
+      let n = 0;
+      for (const m of p.modifiers) {
+        n += 1;
+        lines.push(
+          `| ${n} | ${escapeMdTableCell(m.title)} | ${escapeMdTableCell(m.direction)} | ${escapeMdTableCell(m.magnitude)} |`
+        );
+      }
+      lines.push("");
+    }
+
+    lines.push(
+      "### Part C — procedural rules",
+      "",
+      "| # | Rule | Summary |",
+      sep(3)
+    );
+    if (p.rules.length === 0) {
+      lines.push("| — | *No Part C rules parsed (`####` blocks)* | — |", "");
+    } else {
+      let n = 0;
+      for (const r of p.rules) {
+        n += 1;
+        lines.push(
+          `| ${n} | ${escapeMdTableCell(r.name)} | ${escapeMdTableCell(r.summary)} |`
+        );
+      }
+      lines.push("");
+    }
+
     lines.push("---", "");
   }
 
+  lines.push(buildComparisonMarkdown(parsed, sep));
   lines.push(
     "_The synthetic Emily input is rankings-only in-repo — no constitution text._",
     ""
   );
+  return lines.join("\n") + "\n";
+}
+
+const PR_MERMAID = `flowchart TB
+  subgraph sources["18 fellow branches (project-mirror-v2/*)"]
+    split["Most: criteria + modifiers + procedural"]
+    single["Davit + Francesca: constitution.md only"]
+  end
+  run["npm run aggregate:mirror-v2-constitutions"]
+  subgraph out["committee-aggregation/"]
+    md["all-mirror-rubrics.md"]
+    prb["pr-93-body.md — copy into GitHub PR"]
+    crit["all-mirror-criteria-table.csv"]
+    sec["all-mirror-constitutions-sections.csv"]
+  end
+  split --> run
+  single --> run
+  run --> md
+  run --> prb
+  run --> crit
+  run --> sec`;
+
+/** GitHub PR description: comparisons + collapsible master tables for A / B / C. */
+function buildPrBodyMarkdown(
+  parsed: FellowRubricParsed[],
+  generated: string
+): string {
+  const sep = (n: number) => `| ${Array(n).fill("---").join(" | ")} |`;
+  const rubricsUrl = `${REPO}/blob/${AGGREGATION_BRANCH}/iterations/project-mirror-v2/committee-aggregation/all-mirror-rubrics.md`;
+  const lines: string[] = [
+    "## Project Mirror v2 — aggregate rubrics for review",
+    "",
+    `**Generated:** ${generated}`,
+    "",
+    `Readable per-fellow + comparison tables live in [**all-mirror-rubrics.md**](${rubricsUrl}) (same content as below, without PR length limits).`,
+    "",
+    "This description is **auto-generated** — run `npm run aggregate:mirror-v2-constitutions` and paste or `gh pr edit --body-file iterations/project-mirror-v2/committee-aggregation/pr-93-body.md`.",
+    "",
+    "### Pipeline",
+    "",
+    "```mermaid",
+    PR_MERMAID,
+    "```",
+    "",
+    buildComparisonMarkdown(parsed, sep),
+    "<details>",
+    "<summary><strong>Master table — Part A (all fellows)</strong></summary>",
+    "",
+    "| Fellow | # | Criterion | Weight |",
+    sep(4),
+  ];
+
+  for (const p of parsed) {
+    const f = p.fellow;
+    if (f.missingRef || p.criteria.length === 0) continue;
+    let n = 0;
+    for (const c of p.criteria) {
+      n += 1;
+      lines.push(
+        `| ${escapeMdTableCell(f.name)} | ${n} | ${escapeMdTableCell(c.title)} | ${escapeMdTableCell(c.weight)} |`
+      );
+    }
+  }
+
+  lines.push(
+    "",
+    "</details>",
+    "",
+    "<details>",
+    "<summary><strong>Master table — Part B value modifiers (all fellows)</strong></summary>",
+    "",
+    "| Fellow | # | Modifier | Direction | Magnitude |",
+    sep(5)
+  );
+
+  for (const p of parsed) {
+    const f = p.fellow;
+    if (f.missingRef || p.modifiers.length === 0) continue;
+    let n = 0;
+    for (const m of p.modifiers) {
+      n += 1;
+      lines.push(
+        `| ${escapeMdTableCell(f.name)} | ${n} | ${escapeMdTableCell(m.title)} | ${escapeMdTableCell(m.direction)} | ${escapeMdTableCell(m.magnitude)} |`
+      );
+    }
+  }
+
+  lines.push(
+    "",
+    "</details>",
+    "",
+    "<details>",
+    "<summary><strong>Master table — Part C procedural rules (all fellows)</strong></summary>",
+    "",
+    "| Fellow | # | Rule | Summary |",
+    sep(4)
+  );
+
+  for (const p of parsed) {
+    const f = p.fellow;
+    if (f.missingRef || p.rules.length === 0) continue;
+    let n = 0;
+    for (const r of p.rules) {
+      n += 1;
+      lines.push(
+        `| ${escapeMdTableCell(f.name)} | ${n} | ${escapeMdTableCell(r.name)} | ${escapeMdTableCell(r.summary)} |`
+      );
+    }
+  }
+
+  lines.push("", "</details>", "");
+  lines.push(
+    "### After fellow PRs change",
+    "",
+    "Re-run the npm script and commit updated `all-mirror-rubrics.md`, `pr-93-body.md`, and CSVs.",
+    ""
+  );
+
   return lines.join("\n") + "\n";
 }
 
@@ -580,9 +1240,11 @@ function writeIndexCsv(pathStr: string, fellows: FellowAggregate[]): void {
 }
 
 function main(): void {
-  const { outMd, outSectionsCsv, outIndexCsv, outCriteriaCsv } = parseArgs();
+  const { outMd, outPrBody, outSectionsCsv, outIndexCsv, outCriteriaCsv } =
+    parseArgs();
   const generated = new Date().toISOString().slice(0, 10);
   const fellows = collectFellows();
+  const parsed = fellows.map(parseFellowRubric);
   const sectionRows = toSectionRows(fellows);
   const criteriaRows = collectCriterionTableRows(fellows);
 
@@ -590,9 +1252,13 @@ function main(): void {
   fs.mkdirSync(path.dirname(absMd), { recursive: true });
   fs.writeFileSync(
     absMd,
-    buildRubricTablesMarkdown(fellows, generated),
+    buildRubricTablesMarkdown(parsed, generated),
     "utf-8"
   );
+
+  const absPr = path.resolve(outPrBody);
+  fs.mkdirSync(path.dirname(absPr), { recursive: true });
+  fs.writeFileSync(absPr, buildPrBodyMarkdown(parsed, generated), "utf-8");
 
   const absSections = path.resolve(outSectionsCsv);
   fs.mkdirSync(path.dirname(absSections), { recursive: true });
@@ -607,6 +1273,7 @@ function main(): void {
   writeCriteriaTableCsv(absCriteria, criteriaRows);
 
   console.log(`Wrote ${outMd}`);
+  console.log(`Wrote ${outPrBody}`);
   console.log(`Wrote ${outSectionsCsv} (${sectionRows.length} rows)`);
   console.log(`Wrote ${outIndexCsv} (${fellows.length} rows)`);
   console.log(`Wrote ${outCriteriaCsv} (${criteriaRows.length} rows)`);
