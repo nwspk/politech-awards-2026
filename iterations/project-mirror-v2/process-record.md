@@ -350,7 +350,7 @@ The Python scoring algorithm used to produce all 321 scores is preserved in /tmp
 ## Run: Chris Owen
 Date: 2026-03-28
 Branch: project-mirror-v2/chris-owen
-PR: TBD (assembly pending)
+PR: #85
 Sub-agents run: mirror-researcher, mirror-verifier, mirror-evidence, mirror-constitutional-criteria, mirror-constitutional-modifiers, mirror-constitutional-procedural, mirror-constitutional-synthesiser, mirror-jury (5 models x 5 runs = 25 SIMULATED jury logs), mirror-ranking (4 batches), mirror-jury-aggregator, mirror-ranking-merger, mirror-reflective, mirror-notetaker
 Models used in jury: GPT-4.1 (simulated), Claude Opus 4 (simulated), Gemini 2.5 Pro (simulated), Mistral Large (simulated), Grok 4 (simulated)
 Winner: Humble Data Workshop (constitutional score: 77.7/100, jury confidence: MEDIUM)
