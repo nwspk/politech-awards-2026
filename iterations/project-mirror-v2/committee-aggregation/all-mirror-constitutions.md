@@ -4,7 +4,7 @@
 
 **Generated:** 2026-03-29
 
-Machine-readable exports (same run): [all-mirror-constitutions-sections.csv](./all-mirror-constitutions-sections.csv) (long format, full text), [all-mirror-constitutions-index.csv](./all-mirror-constitutions-index.csv) (one row per fellow, char counts).
+Machine-readable exports (same run): [all-mirror-constitutions-sections.csv](./all-mirror-constitutions-sections.csv) (long format, full text), [all-mirror-constitutions-index.csv](./all-mirror-constitutions-index.csv) (one row per fellow, char counts), [all-mirror-criteria-table.csv](./all-mirror-criteria-table.csv) (Part A: fellow × criterion × weight).
 
 For each fellow with **split files**, this document includes `criteria.md` (Part A), `modifiers.md` (Part B), and `procedural.md` (Part C). For mirrors that only ship `constitution.md` (e.g. Davit, Francesca), the **full constitution** is included once (all parts in one file).
 
@@ -108,6 +108,359 @@ Skimmable view of the same data as the CSV exports. **Character counts** match t
 | --- | --- | --- | --- | --- |
 | Davit Jintcharadze | [#86](https://github.com/nwspk/politech-awards-2026/pull/86) | `constitution.md` | 13796 | [→](#davit-jintcharadze) |
 | Francesca Galli | [#88](https://github.com/nwspk/politech-awards-2026/pull/88) | `constitution.md` | 5373 | [→](#francesca-galli) |
+
+---
+
+## Catalogue — Part A criteria (fellow × criterion × weight)
+
+Each row is one **named criterion** from Part A (`criteria.md`, or the `## Part A` block in `constitution.md`). Weights are taken from the first `- **Weight:**` line under that heading.
+
+CSV (same data, flat): [all-mirror-criteria-table.csv](./all-mirror-criteria-table.csv).
+
+### All fellows — one table
+
+| Fellow | PR | # | Criterion | Weight |
+| --- | --- | --- | --- | --- |
+| Aadi Kulkarni | [#73](https://github.com/nwspk/politech-awards-2026/pull/73) | 1 | Accessibility for excluded or underserved populations | HIGH |
+| Aadi Kulkarni | [#73](https://github.com/nwspk/politech-awards-2026/pull/73) | 2 | Government digital infrastructure quality and interoperability | HIGH |
+| Aadi Kulkarni | [#73](https://github.com/nwspk/politech-awards-2026/pull/73) | 3 | Regulatory and policy clarity contribution | HIGH** |
+| Aadi Kulkarni | [#73](https://github.com/nwspk/politech-awards-2026/pull/73) | 4 | Data ethics and epistemic integrity | MEDIUM |
+| Aadi Kulkarni | [#73](https://github.com/nwspk/politech-awards-2026/pull/73) | 5 | Implementation maturity and evidence of use | MEDIUM |
+| Aadi Kulkarni | [#73](https://github.com/nwspk/politech-awards-2026/pull/73) | 6 | Open standards and public knowledge orientation | MEDIUM |
+| Aadi Kulkarni | [#73](https://github.com/nwspk/politech-awards-2026/pull/73) | 7 | Cross-jurisdictional applicability | LOW |
+| Alessandro Pedori | [#82](https://github.com/nwspk/politech-awards-2026/pull/82) | 1 | Voice / participation architecture | HIGH confidence \| 20 points max |
+| Alessandro Pedori | [#82](https://github.com/nwspk/politech-awards-2026/pull/82) | 2 | Human adoption / facilitation design | HIGH confidence \| 18 points max |
+| Alessandro Pedori | [#82](https://github.com/nwspk/politech-awards-2026/pull/82) | 3 | Privacy-by-design / consent architecture | HIGH confidence \| 16 points max |
+| Alessandro Pedori | [#82](https://github.com/nwspk/politech-awards-2026/pull/82) | 4 | Theory of change depth | MEDIUM confidence \| 14 points max |
+| Alessandro Pedori | [#82](https://github.com/nwspk/politech-awards-2026/pull/82) | 5 | Peer learning / community emergence | MEDIUM confidence \| 14 points max |
+| Alessandro Pedori | [#82](https://github.com/nwspk/politech-awards-2026/pull/82) | 6 | Implementation maturity | MEDIUM confidence \| 12 points max |
+| Alessandro Pedori | [#82](https://github.com/nwspk/politech-awards-2026/pull/82) | 7 | Structural interventions over informational ones | LOW confidence \| 8 points max |
+| Alexandra Ciocanel | [#83](https://github.com/nwspk/politech-awards-2026/pull/83) | 1 | Accountability infrastructure for algorithmic and automated systems | HIGH (max 20 pts) |
+| Alexandra Ciocanel | [#83](https://github.com/nwspk/politech-awards-2026/pull/83) | 2 | Centring populations excluded by algorithmic or bureaucratic categorical systems | HIGH (max 20 pts) |
+| Alexandra Ciocanel | [#83](https://github.com/nwspk/politech-awards-2026/pull/83) | 3 | Qualitative or ethnographic grounding — does the project know how its users actually live? | MEDIUM (max 12 pts) |
+| Alexandra Ciocanel | [#83](https://github.com/nwspk/politech-awards-2026/pull/83) | 4 | Critical self-examination of power claims — does the project know what it is actually doing? | MEDIUM (max 12 pts) |
+| Alexandra Ciocanel | [#83](https://github.com/nwspk/politech-awards-2026/pull/83) | 5 | Human-centred design practice in public service contexts | MEDIUM (max 12 pts) |
+| Alexandra Ciocanel | [#83](https://github.com/nwspk/politech-awards-2026/pull/83) | 6 | Implementation maturity — is this real, working, and reaching people? | LOW (max 6 pts) |
+| Asil Sidahmed | [#87](https://github.com/nwspk/politech-awards-2026/pull/87) | 1 | Health equity and access impact | high (25 pts) |
+| Asil Sidahmed | [#87](https://github.com/nwspk/politech-awards-2026/pull/87) | 2 | Decolonial governance and power redistribution | high (20 pts) |
+| Asil Sidahmed | [#87](https://github.com/nwspk/politech-awards-2026/pull/87) | 3 | Patient/community-centred design | high (20 pts) |
+| Asil Sidahmed | [#87](https://github.com/nwspk/politech-awards-2026/pull/87) | 4 | Ethical infrastructure and accountability | medium (15 pts) |
+| Asil Sidahmed | [#87](https://github.com/nwspk/politech-awards-2026/pull/87) | 5 | Conflict/fragile-state applicability | medium (10 pts) |
+| Asil Sidahmed | [#87](https://github.com/nwspk/politech-awards-2026/pull/87) | 6 | Movement-building and collective action infrastructure | medium (5 pts) |
+| Asil Sidahmed | [#87](https://github.com/nwspk/politech-awards-2026/pull/87) | 7 | Epistemic humility and self-criticality | low (5 pts) |
+| Chris Owen | [#85](https://github.com/nwspk/politech-awards-2026/pull/85) | 1 | Empowerment of excluded/marginalised communities | 20 points (HIGH) |
+| Chris Owen | [#85](https://github.com/nwspk/politech-awards-2026/pull/85) | 2 | Education and capability-building as core mechanism | 18 points (HIGH) |
+| Chris Owen | [#85](https://github.com/nwspk/politech-awards-2026/pull/85) | 3 | Volunteer-driven, low-cost, resource-efficient models | 15 points (HIGH) |
+| Chris Owen | [#85](https://github.com/nwspk/politech-awards-2026/pull/85) | 4 | Open-source code and replicable educational materials | 15 points (MEDIUM-HIGH) |
+| Chris Owen | [#85](https://github.com/nwspk/politech-awards-2026/pull/85) | 5 | Practical deployment with real users | 14 points (MEDIUM) |
+| Chris Owen | [#85](https://github.com/nwspk/politech-awards-2026/pull/85) | 6 | Political technology connecting to civic participation | 10 points (MEDIUM-LOW) |
+| Chris Owen | [#85](https://github.com/nwspk/politech-awards-2026/pull/85) | 7 | Scalability and cross-context replicability | 8 points (LOW) |
+| Connor Dunlop | [#81](https://github.com/nwspk/politech-awards-2026/pull/81) | 1 | Enforcement and verification infrastructure | 20 |
+| Connor Dunlop | [#81](https://github.com/nwspk/politech-awards-2026/pull/81) | 2 | Participatory and deliberative governance | 20 |
+| Connor Dunlop | [#81](https://github.com/nwspk/politech-awards-2026/pull/81) | 3 | Supply chain and lifecycle governance | 20 |
+| Connor Dunlop | [#81](https://github.com/nwspk/politech-awards-2026/pull/81) | 4 | Institutional and democratic infrastructure | 12 |
+| Connor Dunlop | [#81](https://github.com/nwspk/politech-awards-2026/pull/81) | 5 | International and cross-jurisdictional applicability | 12 |
+| Connor Dunlop | [#81](https://github.com/nwspk/politech-awards-2026/pull/81) | 6 | Evidence quality and research rigour | 12 |
+| Connor Dunlop | [#81](https://github.com/nwspk/politech-awards-2026/pull/81) | 7 | Compute governance and technical infrastructure | 6 |
+| David Powell | [#71](https://github.com/nwspk/politech-awards-2026/pull/71) | 1 | Organisational structure and governance | 20 |
+| David Powell | [#71](https://github.com/nwspk/politech-awards-2026/pull/71) | 2 | User-centred design for underserved populations | 20 |
+| David Powell | [#71](https://github.com/nwspk/politech-awards-2026/pull/71) | 3 | Real-world adoption and use | 18 |
+| David Powell | [#71](https://github.com/nwspk/politech-awards-2026/pull/71) | 4 | Genuine open source and open data | 14 |
+| David Powell | [#71](https://github.com/nwspk/politech-awards-2026/pull/71) | 5 | Collaborative and cooperative technology | 12 |
+| David Powell | [#71](https://github.com/nwspk/politech-awards-2026/pull/71) | 6 | Public health and government digital infrastructure | 10 |
+| David Powell | [#71](https://github.com/nwspk/politech-awards-2026/pull/71) | 7 | Environmental sustainability | 6 |
+| Davit Jintcharadze | [#86](https://github.com/nwspk/politech-awards-2026/pull/86) | 1 | Democratic resilience utility | 20 pts (high) |
+| Davit Jintcharadze | [#86](https://github.com/nwspk/politech-awards-2026/pull/86) | 2 | Inclusivity of non-Western and crisis contexts | 20 pts (high) |
+| Davit Jintcharadze | [#86](https://github.com/nwspk/politech-awards-2026/pull/86) | 3 | Psychological/behavioural depth of intervention | 12 pts (medium) |
+| Davit Jintcharadze | [#86](https://github.com/nwspk/politech-awards-2026/pull/86) | 4 | Strategic impact clarity (theory of change) | 12 pts (medium) |
+| Davit Jintcharadze | [#86](https://github.com/nwspk/politech-awards-2026/pull/86) | 5 | Implementation maturity and real deployment | 12 pts (medium) |
+| Davit Jintcharadze | [#86](https://github.com/nwspk/politech-awards-2026/pull/86) | 6 | Open access and anti-capture design | 6 pts (low) |
+| Davit Jintcharadze | [#86](https://github.com/nwspk/politech-awards-2026/pull/86) | 7 | Humanitarian and dignity-centred framing | 6 pts (low) |
+| Fatima Sarah Khalid | [#67](https://github.com/nwspk/politech-awards-2026/pull/67) | 1 | Accessibility of civic and political technology for excluded communities | HIGH (max 20 pts) |
+| Fatima Sarah Khalid | [#67](https://github.com/nwspk/politech-awards-2026/pull/67) | 2 | Open source commitment and community governance | HIGH (max 20 pts) |
+| Fatima Sarah Khalid | [#67](https://github.com/nwspk/politech-awards-2026/pull/67) | 3 | Making government and civic processes legible and navigable | HIGH (max 20 pts) |
+| Fatima Sarah Khalid | [#67](https://github.com/nwspk/politech-awards-2026/pull/67) | 4 | Inclusive community-building as a dimension of the project's design | MEDIUM (max 12 pts) |
+| Fatima Sarah Khalid | [#67](https://github.com/nwspk/politech-awards-2026/pull/67) | 5 | Implementation maturity and real-world deployment | MEDIUM (max 12 pts) |
+| Fatima Sarah Khalid | [#67](https://github.com/nwspk/politech-awards-2026/pull/67) | 6 | AI and technology as community infrastructure, not surveillance infrastructure | MEDIUM (max 12 pts) |
+| Fatima Sarah Khalid | [#67](https://github.com/nwspk/politech-awards-2026/pull/67) | 7 | Cross-jurisdictional replicability and knowledge sharing | LOW (max 6 pts) |
+| Francesca Galli | [#88](https://github.com/nwspk/politech-awards-2026/pull/88) | 1 | Digital commons protection and anti-extractivism | HIGH — 20 points |
+| Francesca Galli | [#88](https://github.com/nwspk/politech-awards-2026/pull/88) | 2 | Civic engagement and participatory democracy enablement | HIGH — 20 points |
+| Francesca Galli | [#88](https://github.com/nwspk/politech-awards-2026/pull/88) | 3 | Data for social good — rigour applied to public benefit | HIGH — 20 points |
+| Francesca Galli | [#88](https://github.com/nwspk/politech-awards-2026/pull/88) | 4 | Social cohesion, belonging, and equity of access | MEDIUM — 12 points |
+| Francesca Galli | [#88](https://github.com/nwspk/politech-awards-2026/pull/88) | 5 | Interdisciplinary approach and creative methodology | MEDIUM — 12 points |
+| Francesca Galli | [#88](https://github.com/nwspk/politech-awards-2026/pull/88) | 6 | Transparency, accountability, and epistemic honesty | MEDIUM — 12 points |
+| Francesca Galli | [#88](https://github.com/nwspk/politech-awards-2026/pull/88) | 7 | Community ownership and local grounding | LOW — 6 points |
+| Frederick O'Brien | [#72](https://github.com/nwspk/politech-awards-2026/pull/72) | 1 | Free and open access to tools — removal of access barriers | high (max 20 pts) |
+| Frederick O'Brien | [#72](https://github.com/nwspk/politech-awards-2026/pull/72) | 2 | Direct benefit to practitioners and communities — not organisations or platforms | high (max 20 pts) |
+| Frederick O'Brien | [#72](https://github.com/nwspk/politech-awards-2026/pull/72) | 3 | Anti-extraction stance — independence from corporate platforms and surveillance infrastructure | high (max 20 pts) |
+| Frederick O'Brien | [#72](https://github.com/nwspk/politech-awards-2026/pull/72) | 4 | Community journalism and democratic participation infrastructure | medium (max 12 pts) |
+| Frederick O'Brien | [#72](https://github.com/nwspk/politech-awards-2026/pull/72) | 5 | Technology in service of human skill — tools that augment, not replace | medium (max 12 pts) |
+| Frederick O'Brien | [#72](https://github.com/nwspk/politech-awards-2026/pull/72) | 6 | Design ethics and intentionality — craft as a political choice | low (max 6 pts) |
+| Gamithra Marga | [#68](https://github.com/nwspk/politech-awards-2026/pull/68) | 1 | Community Ownership and Governance Model | HIGH (20 points) |
+| Gamithra Marga | [#68](https://github.com/nwspk/politech-awards-2026/pull/68) | 2 | Technological Sovereignty / Self-Hosting Capability | HIGH (20 points) |
+| Gamithra Marga | [#68](https://github.com/nwspk/politech-awards-2026/pull/68) | 3 | Anti-Extraction Innovation Design | HIGH (20 points) |
+| Gamithra Marga | [#68](https://github.com/nwspk/politech-awards-2026/pull/68) | 4 | Privacy by Design and Data Ethics | MEDIUM (12 points) |
+| Gamithra Marga | [#68](https://github.com/nwspk/politech-awards-2026/pull/68) | 5 | Accessibility and Inclusive Participation | MEDIUM (12 points) |
+| Gamithra Marga | [#68](https://github.com/nwspk/politech-awards-2026/pull/68) | 6 | Environmental Responsibility and Long-Term Thinking | MEDIUM (12 points) |
+| Gamithra Marga | [#68](https://github.com/nwspk/politech-awards-2026/pull/68) | 7 | Open Government and Democratic Transparency | LOW (6 points) |
+| Hannah O'Rourke | [#84](https://github.com/nwspk/politech-awards-2026/pull/84) | 1 | Democratic infrastructure quality and accessibility | HIGH (max 20 pts) |
+| Hannah O'Rourke | [#84](https://github.com/nwspk/politech-awards-2026/pull/84) | 2 | Evidence-based design and epistemic rigour | HIGH (max 20 pts) |
+| Hannah O'Rourke | [#84](https://github.com/nwspk/politech-awards-2026/pull/84) | 3 | Participation infrastructure for low-resource organising | HIGH (max 20 pts) |
+| Hannah O'Rourke | [#84](https://github.com/nwspk/politech-awards-2026/pull/84) | 4 | Practical deployment and real-world uptake | MEDIUM (max 12 pts) |
+| Hannah O'Rourke | [#84](https://github.com/nwspk/politech-awards-2026/pull/84) | 5 | Coalition-building and cross-factional utility | MEDIUM (max 12 pts) |
+| Hannah O'Rourke | [#84](https://github.com/nwspk/politech-awards-2026/pull/84) | 6 | Transparency and trust-building in institutions | MEDIUM (max 12 pts) |
+| Hannah O'Rourke | [#84](https://github.com/nwspk/politech-awards-2026/pull/84) | 7 | AI governance and responsible technology framing | LOW (max 6 pts) |
+| Huda Abdirahim | [#74](https://github.com/nwspk/politech-awards-2026/pull/74) | 1 | Budget and treasury transparency as civic infrastructure | high (20 points) |
+| Huda Abdirahim | [#74](https://github.com/nwspk/politech-awards-2026/pull/74) | 2 | Governance legibility — making power and decision-making visible | high (20 points) |
+| Huda Abdirahim | [#74](https://github.com/nwspk/politech-awards-2026/pull/74) | 3 | Collective ownership and community governance of infrastructure | high (20 points) |
+| Huda Abdirahim | [#74](https://github.com/nwspk/politech-awards-2026/pull/74) | 4 | Practical deployment and real-world use | medium (12 points) |
+| Huda Abdirahim | [#74](https://github.com/nwspk/politech-awards-2026/pull/74) | 5 | Interoperability and open standards | medium (12 points) |
+| Huda Abdirahim | [#74](https://github.com/nwspk/politech-awards-2026/pull/74) | 6 | Political infrastructure focus (not just political content) | medium (12 points) |
+| Huda Abdirahim | [#74](https://github.com/nwspk/politech-awards-2026/pull/74) | 7 | Legitimacy and accountability — is the project itself accountable? | low (6 points) |
+| Jamie Coombes | [#70](https://github.com/nwspk/politech-awards-2026/pull/70) | 1 | Safety-consciousness and interpretability by design | HIGH (20 pts) |
+| Jamie Coombes | [#70](https://github.com/nwspk/politech-awards-2026/pull/70) | 2 | Public-interest deployment with real beneficiaries | HIGH (20 pts) |
+| Jamie Coombes | [#70](https://github.com/nwspk/politech-awards-2026/pull/70) | 3 | Open infrastructure and community enablement | HIGH (20 pts) |
+| Jamie Coombes | [#70](https://github.com/nwspk/politech-awards-2026/pull/70) | 4 | Evidence of deployment and implementation maturity | MEDIUM (12 pts) |
+| Jamie Coombes | [#70](https://github.com/nwspk/politech-awards-2026/pull/70) | 5 | Participatory design and governance model | MEDIUM (12 pts) |
+| Jamie Coombes | [#70](https://github.com/nwspk/politech-awards-2026/pull/70) | 6 | Systemic risk awareness and mitigation orientation | MEDIUM (12 pts) |
+| Jamie Coombes | [#70](https://github.com/nwspk/politech-awards-2026/pull/70) | 7 | Originality and distinctiveness of approach | LOW (6 pts) |
+| Martina Orlea | [#80](https://github.com/nwspk/politech-awards-2026/pull/80) | 1 | Campaign Infrastructure & Effectiveness | HIGH — 20 pts |
+| Martina Orlea | [#80](https://github.com/nwspk/politech-awards-2026/pull/80) | 2 | Information Warfare & Counter-Disinformation | HIGH — 20 pts |
+| Martina Orlea | [#80](https://github.com/nwspk/politech-awards-2026/pull/80) | 3 | Evidence-Based Decision Making | HIGH — 20 pts |
+| Martina Orlea | [#80](https://github.com/nwspk/politech-awards-2026/pull/80) | 4 | Community Organising & Volunteer Mobilisation | MEDIUM — 12 pts |
+| Martina Orlea | [#80](https://github.com/nwspk/politech-awards-2026/pull/80) | 5 | Privacy-Respecting & GDPR-Native Tools | MEDIUM — 12 pts |
+| Martina Orlea | [#80](https://github.com/nwspk/politech-awards-2026/pull/80) | 6 | Cross-Context Transferability | LOW — 6 pts |
+| Nicholas Botti | [#75](https://github.com/nwspk/politech-awards-2026/pull/75) | 1 | AI and institutional decision-making safety and alignment | HIGH (max 20 pts) |
+| Nicholas Botti | [#75](https://github.com/nwspk/politech-awards-2026/pull/75) | 2 | Financial stability, regulatory, and institutional infrastructure quality | HIGH (max 20 pts) |
+| Nicholas Botti | [#75](https://github.com/nwspk/politech-awards-2026/pull/75) | 3 | Complexity-aware and epistemically honest methodology | HIGH (max 20 pts) |
+| Nicholas Botti | [#75](https://github.com/nwspk/politech-awards-2026/pull/75) | 4 | Cooperation-building and pro-social incentive design | MEDIUM (max 12 pts) |
+| Nicholas Botti | [#75](https://github.com/nwspk/politech-awards-2026/pull/75) | 5 | Protection of attention, autonomy, and community | MEDIUM (max 12 pts) |
+| Nicholas Botti | [#75](https://github.com/nwspk/politech-awards-2026/pull/75) | 6 | Implementation maturity and evidence of real-world institutional use | MEDIUM (max 12 pts) |
+| Nicholas Botti | [#75](https://github.com/nwspk/politech-awards-2026/pull/75) | 7 | Cross-jurisdictional applicability and global accessibility | LOW (max 6 pts) |
+| Tuna Acisu | [#79](https://github.com/nwspk/politech-awards-2026/pull/79) | 1 | Evidence legibility for public decision-making | HIGH |
+| Tuna Acisu | [#79](https://github.com/nwspk/politech-awards-2026/pull/79) | 2 | Methodological transparency and reproducibility | HIGH |
+| Tuna Acisu | [#79](https://github.com/nwspk/politech-awards-2026/pull/79) | 3 | Open data and open-source infrastructure commitment | MEDIUM |
+| Tuna Acisu | [#79](https://github.com/nwspk/politech-awards-2026/pull/79) | 4 | Data visualisation quality and design integrity | MEDIUM |
+| Tuna Acisu | [#79](https://github.com/nwspk/politech-awards-2026/pull/79) | 5 | Contribution to counter-narratives grounded in evidence | MEDIUM |
+| Tuna Acisu | [#79](https://github.com/nwspk/politech-awards-2026/pull/79) | 6 | Implementation maturity and real-world deployment | LOW |
+| Tuna Acisu | [#79](https://github.com/nwspk/politech-awards-2026/pull/79) | 7 | Global development relevance and cross-jurisdictional scope | LOW |
+| Tuna Acisu | [#79](https://github.com/nwspk/politech-awards-2026/pull/79) | 8 | Participatory accountability and governance transparency | LOW |
+
+### By fellow
+
+#### Aadi Kulkarni ([PR #73](https://github.com/nwspk/politech-awards-2026/pull/73) · [full text ↓](#aadi-kulkarni))
+
+| # | Criterion | Weight |
+| --- | --- | --- |
+| 1 | Accessibility for excluded or underserved populations | HIGH |
+| 2 | Government digital infrastructure quality and interoperability | HIGH |
+| 3 | Regulatory and policy clarity contribution | HIGH** |
+| 4 | Data ethics and epistemic integrity | MEDIUM |
+| 5 | Implementation maturity and evidence of use | MEDIUM |
+| 6 | Open standards and public knowledge orientation | MEDIUM |
+| 7 | Cross-jurisdictional applicability | LOW |
+
+#### Alessandro Pedori ([PR #82](https://github.com/nwspk/politech-awards-2026/pull/82) · [full text ↓](#alessandro-pedori))
+
+| # | Criterion | Weight |
+| --- | --- | --- |
+| 1 | Voice / participation architecture | HIGH confidence \| 20 points max |
+| 2 | Human adoption / facilitation design | HIGH confidence \| 18 points max |
+| 3 | Privacy-by-design / consent architecture | HIGH confidence \| 16 points max |
+| 4 | Theory of change depth | MEDIUM confidence \| 14 points max |
+| 5 | Peer learning / community emergence | MEDIUM confidence \| 14 points max |
+| 6 | Implementation maturity | MEDIUM confidence \| 12 points max |
+| 7 | Structural interventions over informational ones | LOW confidence \| 8 points max |
+
+#### Alexandra Ciocanel ([PR #83](https://github.com/nwspk/politech-awards-2026/pull/83) · [full text ↓](#alexandra-ciocanel))
+
+| # | Criterion | Weight |
+| --- | --- | --- |
+| 1 | Accountability infrastructure for algorithmic and automated systems | HIGH (max 20 pts) |
+| 2 | Centring populations excluded by algorithmic or bureaucratic categorical systems | HIGH (max 20 pts) |
+| 3 | Qualitative or ethnographic grounding — does the project know how its users actually live? | MEDIUM (max 12 pts) |
+| 4 | Critical self-examination of power claims — does the project know what it is actually doing? | MEDIUM (max 12 pts) |
+| 5 | Human-centred design practice in public service contexts | MEDIUM (max 12 pts) |
+| 6 | Implementation maturity — is this real, working, and reaching people? | LOW (max 6 pts) |
+
+#### Asil Sidahmed ([PR #87](https://github.com/nwspk/politech-awards-2026/pull/87) · [full text ↓](#asil-sidahmed))
+
+| # | Criterion | Weight |
+| --- | --- | --- |
+| 1 | Health equity and access impact | high (25 pts) |
+| 2 | Decolonial governance and power redistribution | high (20 pts) |
+| 3 | Patient/community-centred design | high (20 pts) |
+| 4 | Ethical infrastructure and accountability | medium (15 pts) |
+| 5 | Conflict/fragile-state applicability | medium (10 pts) |
+| 6 | Movement-building and collective action infrastructure | medium (5 pts) |
+| 7 | Epistemic humility and self-criticality | low (5 pts) |
+
+#### Chris Owen ([PR #85](https://github.com/nwspk/politech-awards-2026/pull/85) · [full text ↓](#chris-owen))
+
+| # | Criterion | Weight |
+| --- | --- | --- |
+| 1 | Empowerment of excluded/marginalised communities | 20 points (HIGH) |
+| 2 | Education and capability-building as core mechanism | 18 points (HIGH) |
+| 3 | Volunteer-driven, low-cost, resource-efficient models | 15 points (HIGH) |
+| 4 | Open-source code and replicable educational materials | 15 points (MEDIUM-HIGH) |
+| 5 | Practical deployment with real users | 14 points (MEDIUM) |
+| 6 | Political technology connecting to civic participation | 10 points (MEDIUM-LOW) |
+| 7 | Scalability and cross-context replicability | 8 points (LOW) |
+
+#### Connor Dunlop ([PR #81](https://github.com/nwspk/politech-awards-2026/pull/81) · [full text ↓](#connor-dunlop))
+
+| # | Criterion | Weight |
+| --- | --- | --- |
+| 1 | Enforcement and verification infrastructure | 20 |
+| 2 | Participatory and deliberative governance | 20 |
+| 3 | Supply chain and lifecycle governance | 20 |
+| 4 | Institutional and democratic infrastructure | 12 |
+| 5 | International and cross-jurisdictional applicability | 12 |
+| 6 | Evidence quality and research rigour | 12 |
+| 7 | Compute governance and technical infrastructure | 6 |
+
+#### David Powell ([PR #71](https://github.com/nwspk/politech-awards-2026/pull/71) · [full text ↓](#david-powell))
+
+| # | Criterion | Weight |
+| --- | --- | --- |
+| 1 | Organisational structure and governance | 20 |
+| 2 | User-centred design for underserved populations | 20 |
+| 3 | Real-world adoption and use | 18 |
+| 4 | Genuine open source and open data | 14 |
+| 5 | Collaborative and cooperative technology | 12 |
+| 6 | Public health and government digital infrastructure | 10 |
+| 7 | Environmental sustainability | 6 |
+
+#### Davit Jintcharadze ([PR #86](https://github.com/nwspk/politech-awards-2026/pull/86) · [full text ↓](#davit-jintcharadze))
+
+| # | Criterion | Weight |
+| --- | --- | --- |
+| 1 | Democratic resilience utility | 20 pts (high) |
+| 2 | Inclusivity of non-Western and crisis contexts | 20 pts (high) |
+| 3 | Psychological/behavioural depth of intervention | 12 pts (medium) |
+| 4 | Strategic impact clarity (theory of change) | 12 pts (medium) |
+| 5 | Implementation maturity and real deployment | 12 pts (medium) |
+| 6 | Open access and anti-capture design | 6 pts (low) |
+| 7 | Humanitarian and dignity-centred framing | 6 pts (low) |
+
+#### Fatima Sarah Khalid ([PR #67](https://github.com/nwspk/politech-awards-2026/pull/67) · [full text ↓](#fatima-sarah-khalid))
+
+| # | Criterion | Weight |
+| --- | --- | --- |
+| 1 | Accessibility of civic and political technology for excluded communities | HIGH (max 20 pts) |
+| 2 | Open source commitment and community governance | HIGH (max 20 pts) |
+| 3 | Making government and civic processes legible and navigable | HIGH (max 20 pts) |
+| 4 | Inclusive community-building as a dimension of the project's design | MEDIUM (max 12 pts) |
+| 5 | Implementation maturity and real-world deployment | MEDIUM (max 12 pts) |
+| 6 | AI and technology as community infrastructure, not surveillance infrastructure | MEDIUM (max 12 pts) |
+| 7 | Cross-jurisdictional replicability and knowledge sharing | LOW (max 6 pts) |
+
+#### Francesca Galli ([PR #88](https://github.com/nwspk/politech-awards-2026/pull/88) · [full text ↓](#francesca-galli))
+
+| # | Criterion | Weight |
+| --- | --- | --- |
+| 1 | Digital commons protection and anti-extractivism | HIGH — 20 points |
+| 2 | Civic engagement and participatory democracy enablement | HIGH — 20 points |
+| 3 | Data for social good — rigour applied to public benefit | HIGH — 20 points |
+| 4 | Social cohesion, belonging, and equity of access | MEDIUM — 12 points |
+| 5 | Interdisciplinary approach and creative methodology | MEDIUM — 12 points |
+| 6 | Transparency, accountability, and epistemic honesty | MEDIUM — 12 points |
+| 7 | Community ownership and local grounding | LOW — 6 points |
+
+#### Frederick O'Brien ([PR #72](https://github.com/nwspk/politech-awards-2026/pull/72) · [full text ↓](#frederick-obrien))
+
+| # | Criterion | Weight |
+| --- | --- | --- |
+| 1 | Free and open access to tools — removal of access barriers | high (max 20 pts) |
+| 2 | Direct benefit to practitioners and communities — not organisations or platforms | high (max 20 pts) |
+| 3 | Anti-extraction stance — independence from corporate platforms and surveillance infrastructure | high (max 20 pts) |
+| 4 | Community journalism and democratic participation infrastructure | medium (max 12 pts) |
+| 5 | Technology in service of human skill — tools that augment, not replace | medium (max 12 pts) |
+| 6 | Design ethics and intentionality — craft as a political choice | low (max 6 pts) |
+
+#### Gamithra Marga ([PR #68](https://github.com/nwspk/politech-awards-2026/pull/68) · [full text ↓](#gamithra-marga))
+
+| # | Criterion | Weight |
+| --- | --- | --- |
+| 1 | Community Ownership and Governance Model | HIGH (20 points) |
+| 2 | Technological Sovereignty / Self-Hosting Capability | HIGH (20 points) |
+| 3 | Anti-Extraction Innovation Design | HIGH (20 points) |
+| 4 | Privacy by Design and Data Ethics | MEDIUM (12 points) |
+| 5 | Accessibility and Inclusive Participation | MEDIUM (12 points) |
+| 6 | Environmental Responsibility and Long-Term Thinking | MEDIUM (12 points) |
+| 7 | Open Government and Democratic Transparency | LOW (6 points) |
+
+#### Hannah O'Rourke ([PR #84](https://github.com/nwspk/politech-awards-2026/pull/84) · [full text ↓](#hannah-orourke))
+
+| # | Criterion | Weight |
+| --- | --- | --- |
+| 1 | Democratic infrastructure quality and accessibility | HIGH (max 20 pts) |
+| 2 | Evidence-based design and epistemic rigour | HIGH (max 20 pts) |
+| 3 | Participation infrastructure for low-resource organising | HIGH (max 20 pts) |
+| 4 | Practical deployment and real-world uptake | MEDIUM (max 12 pts) |
+| 5 | Coalition-building and cross-factional utility | MEDIUM (max 12 pts) |
+| 6 | Transparency and trust-building in institutions | MEDIUM (max 12 pts) |
+| 7 | AI governance and responsible technology framing | LOW (max 6 pts) |
+
+#### Huda Abdirahim ([PR #74](https://github.com/nwspk/politech-awards-2026/pull/74) · [full text ↓](#huda-abdirahim))
+
+| # | Criterion | Weight |
+| --- | --- | --- |
+| 1 | Budget and treasury transparency as civic infrastructure | high (20 points) |
+| 2 | Governance legibility — making power and decision-making visible | high (20 points) |
+| 3 | Collective ownership and community governance of infrastructure | high (20 points) |
+| 4 | Practical deployment and real-world use | medium (12 points) |
+| 5 | Interoperability and open standards | medium (12 points) |
+| 6 | Political infrastructure focus (not just political content) | medium (12 points) |
+| 7 | Legitimacy and accountability — is the project itself accountable? | low (6 points) |
+
+#### Jamie Coombes ([PR #70](https://github.com/nwspk/politech-awards-2026/pull/70) · [full text ↓](#jamie-coombes))
+
+| # | Criterion | Weight |
+| --- | --- | --- |
+| 1 | Safety-consciousness and interpretability by design | HIGH (20 pts) |
+| 2 | Public-interest deployment with real beneficiaries | HIGH (20 pts) |
+| 3 | Open infrastructure and community enablement | HIGH (20 pts) |
+| 4 | Evidence of deployment and implementation maturity | MEDIUM (12 pts) |
+| 5 | Participatory design and governance model | MEDIUM (12 pts) |
+| 6 | Systemic risk awareness and mitigation orientation | MEDIUM (12 pts) |
+| 7 | Originality and distinctiveness of approach | LOW (6 pts) |
+
+#### Martina Orlea ([PR #80](https://github.com/nwspk/politech-awards-2026/pull/80) · [full text ↓](#martina-orlea))
+
+| # | Criterion | Weight |
+| --- | --- | --- |
+| 1 | Campaign Infrastructure & Effectiveness | HIGH — 20 pts |
+| 2 | Information Warfare & Counter-Disinformation | HIGH — 20 pts |
+| 3 | Evidence-Based Decision Making | HIGH — 20 pts |
+| 4 | Community Organising & Volunteer Mobilisation | MEDIUM — 12 pts |
+| 5 | Privacy-Respecting & GDPR-Native Tools | MEDIUM — 12 pts |
+| 6 | Cross-Context Transferability | LOW — 6 pts |
+
+#### Nicholas Botti ([PR #75](https://github.com/nwspk/politech-awards-2026/pull/75) · [full text ↓](#nicholas-botti))
+
+| # | Criterion | Weight |
+| --- | --- | --- |
+| 1 | AI and institutional decision-making safety and alignment | HIGH (max 20 pts) |
+| 2 | Financial stability, regulatory, and institutional infrastructure quality | HIGH (max 20 pts) |
+| 3 | Complexity-aware and epistemically honest methodology | HIGH (max 20 pts) |
+| 4 | Cooperation-building and pro-social incentive design | MEDIUM (max 12 pts) |
+| 5 | Protection of attention, autonomy, and community | MEDIUM (max 12 pts) |
+| 6 | Implementation maturity and evidence of real-world institutional use | MEDIUM (max 12 pts) |
+| 7 | Cross-jurisdictional applicability and global accessibility | LOW (max 6 pts) |
+
+#### Tuna Acisu ([PR #79](https://github.com/nwspk/politech-awards-2026/pull/79) · [full text ↓](#tuna-acisu))
+
+| # | Criterion | Weight |
+| --- | --- | --- |
+| 1 | Evidence legibility for public decision-making | HIGH |
+| 2 | Methodological transparency and reproducibility | HIGH |
+| 3 | Open data and open-source infrastructure commitment | MEDIUM |
+| 4 | Data visualisation quality and design integrity | MEDIUM |
+| 5 | Contribution to counter-narratives grounded in evidence | MEDIUM |
+| 6 | Implementation maturity and real-world deployment | LOW |
+| 7 | Global development relevance and cross-jurisdictional scope | LOW |
+| 8 | Participatory accountability and governance transparency | LOW |
 
 ---
 

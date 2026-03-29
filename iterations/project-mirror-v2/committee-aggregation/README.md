@@ -4,9 +4,11 @@ Generated artifacts for **reading** and **analysis** (not canonical scoring inpu
 
 | File | Purpose |
 |------|--------|
-| `all-mirror-constitutions.md` | Human-readable: **markdown tables** at the top (same shape as the CSVs: fellow summary + one table per section), then full Part A/B/C text (or full `constitution.md`). |
+| `all-mirror-constitutions.md` | Human-readable: data tables (sizes), then **Catalogue — Part A criteria**: one combined table (fellow × criterion name × weight) plus **one table per fellow**, then full Part A/B/C prose (or full `constitution.md`). |
+| `all-mirror-criteria-table.csv` | One row per **criterion**: `name`, `pr_url`, `criterion_index`, `criterion_title`, `weight` (parsed from Part A). |
 | `all-mirror-constitutions-sections.csv` | Long format: one row per section with `slug`, `section` (`part_a` / `part_b` / `part_c` / `full_constitution`), `source_file`, `content` (UTF-8, BOM for Excel). |
 | `all-mirror-constitutions-index.csv` | One row per fellow: PR URL, `layout` (`split_files` vs `single_file`), character counts per part. |
+| `rubrics-stacked.svg` | Optional chart (relative bar lengths by part); regenerate with the script. |
 
 Regenerate from repo root (requires local `project-mirror-v2/*` branches — `git fetch origin` if needed):
 
