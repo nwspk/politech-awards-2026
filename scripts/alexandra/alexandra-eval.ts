@@ -1,5 +1,5 @@
 /**
- * Alexandra v10 — three independent model jurors score D1–D8 per project.
+ * Alexandra v9 — three independent model jurors score D1–D8 per project.
  *
  * Usage (repo root, OPENROUTER_API_KEY set):
  *   npx tsx scripts/alexandra/alexandra-eval.ts
@@ -363,7 +363,7 @@ async function main() {
     process.exit(1);
   }
 
-  console.log(`\nAlexandra v10 evaluation`);
+  console.log(`\nAlexandra v9 evaluation`);
   console.log(`Jurors: ${jurors.map((j) => `${j.id}=${j.model}`).join(", ")}`);
   console.log(`Concurrency: ${CONCURRENCY} | Call delay: ${CALL_DELAY_MS}ms`);
   console.log(`Output: ${OUT_PATH}\n`);

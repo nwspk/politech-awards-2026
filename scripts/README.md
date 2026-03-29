@@ -17,11 +17,11 @@ npm run cache:read -- <url> [port]
 npm run itn-a-eval
 npm run itn-a-deliberate
 
-# Alexandra v10 (D1–D8 three-model jury)
+# Alexandra v9 (D1–D8 three-model jury)
 npm run alexandra-eval
 # faster full run (tune if you hit 429s): npm run alexandra-eval -- --concurrency 8 --call-delay-ms 0
 npm run alexandra-aggregate
-# SCORING_MODE=v10 npx tsx the-algorithm.ts
+# SCORING_MODE=v9 npx tsx the-algorithm.ts
 
 # Enrichment collection
 npm run collect:enriched

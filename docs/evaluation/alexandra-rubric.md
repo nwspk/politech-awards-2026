@@ -1,6 +1,6 @@
 # Alexandra framework — Technology Evaluation (Award A: “Most Politically Transformative”)
 
-Canonical rubric text for the **v10 three-model jury** pipeline (`scripts/alexandra/`).  
+Canonical rubric text for the **v9 three-model jury** pipeline (`scripts/alexandra/`).  
 Prompts should **inject or reference** this file so scores stay contestable and versioned.
 
 ---

@@ -13,9 +13,9 @@ Reference for the bots, scripts, and data formats powering this repo.
 | Refresh full iterations log | `npm run sync:iterations-log` |
 | Refresh all generated iteration docs | `npm run docs:sync` |
 | Run Alexandra D1–D8 three-model jury | `npm run alexandra-eval` → `npm run alexandra-aggregate` (needs `OPENROUTER_API_KEY`, `cache/sites.sqlite`, enriched dossiers) |
-| Rank candidates with Alexandra aggregates | `SCORING_MODE=v10 npx tsx the-algorithm.ts` (reads `cache/alexandra-aggregate.json`) |
+| Rank candidates with Alexandra aggregates | `SCORING_MODE=v9 npx tsx the-algorithm.ts` (reads `cache/alexandra-aggregate.json`) |
 
-Rubric: [alexandra-rubric.md](../evaluation/alexandra-rubric.md). Iteration notes: [v10 README](../../iterations/v10/README.md).
+Rubric: [alexandra-rubric.md](../evaluation/alexandra-rubric.md). Iteration notes: [v9 README](../../iterations/v9/README.md).
 
 Contributor-first guide: [CONTRIBUTING.md](../../CONTRIBUTING.md)
 

@@ -13,13 +13,12 @@ Canonical full iteration history for `/awards` rendering. Generated from `iterat
 | v5 | 2026-02-22 | @Gamithra | merged | Three-agent ITN/A deliberation: independent AI evaluators assess each project through political, relational, and experimental personas on 4 different lenses, argue in multi-turn conversation, and produce a ranked shortlist. | [v5](https://github.com/nwspk/politech-awards-2026/pull/12) | [entry](#v5-three-agent-itn-a-deliberation) |
 | v6 | 2026-03-09 | @sugaroverflow | open | This heuristic inherits the approach in [v5: ITN/A multi-agent deliberation heuristic](https://github.com/nwspk/politech-awards-2026/pull/12) with **6 independent AI juries** that run an ITN/A deliberation on a shortlist of 183 projects. The jury with the highest confidence score picks the project winner. | [v6](https://github.com/nwspk/politech-awards-2026/pull/15) | [entry](#v6-six-jury-itn-a-deliberation) |
 | v7 | 2026-03-28 | @sugaroverflow | open | Scores and filters projects based on Davit's eight evaluation criteria: | [v7](https://github.com/nwspk/politech-awards-2026/pull/20) | [entry](#v7-v7-davit-aligned-political-relevance-heuristic) |
-| v8 | 2026-03-27 | @Gamithra | open | This iteration keeps the **v5 ITN/A architecture**: Grok 4.1 Fast assesses every candidate on political, relational, and experimental lenses, then a facilitator-led multi-agent deliberation scores and argues over a **shortlist** of projects that cleared a green threshold on those assessments. | n/a | [entry](#v8-itn-a-grok-re-run-with-awards-bonuses-effective-score-alignment) |
-| v9 | 2026-03-28 | @Gamithra | open | Same **v5 ITN/A** setup (Grok 4.1 Fast: tri-lens assessment → shortlist → facilitator-led deliberation with relative scoring and multi-turn argument). **Deliberation adds awards-context bonuses** (−5 to +5 each: relevance, project concreteness, novelty) stored separately from the pure ITN/A aggregate. **`the-algorithm.ts` uses `aggregate_effective`** (ITN/A + bonuses, clamped 0–100; fallback to `aggregate`) for deliberated rows so **`results.json` matches deliberation ordering**. Non-deliberated rows keep v5 tiers: 2+ greens → 45, 1 green → 20, else 5. Dossier normalisation and URL normalisation keep `candidates.csv` aligned with `cache/assessments-grok.json` and `cache/deliberation-grok.json`. | [v9](https://github.com/nwspk/politech-awards-2026/pull/41) | [entry](#v9-itn-a-grok-re-run-with-awards-bonuses-effective-score-alignment-v8) |
-| v10 | 2026-03-28 | @nwspk | open | **Evaluation:** `npx tsx scripts/alexandra/alexandra-eval.ts` — each juror returns integers 1–5 for D1–D8 plus an `evidence[]` array (URL, quote, source type) per the prompt. Context = **enriched dossier** (`data/enriched/*.json`) + **cached page text** (`cache/sites.sqlite`), same spirit as `itn-a-eval.ts`. **Speed:** `--concurrency N` (e.g. `8`) runs N URLs in parallel; `--call-delay-ms 0` removes pauses between calls if your OpenRouter tier tolerates it (default `800`). | n/a | [entry](#v10-alexandra-d1-d8-three-model-jury) |
+| v8 | 2026-03-27 | @Gamithra | open | This iteration keeps the **v5 ITN/A architecture**: Grok 4.1 Fast assesses every candidate on political, relational, and experimental lenses, then a facilitator-led multi-agent deliberation scores and argues over a **shortlist** of projects that cleared a green threshold on those assessments. | [v8](https://github.com/nwspk/politech-awards-2026/pull/41) | [entry](#v8-itn-a-grok-re-run-with-awards-bonuses-effective-score-alignment) |
+| v9 | 2026-03-28 | @nwspk | open | **Evaluation:** `npx tsx scripts/alexandra/alexandra-eval.ts` — each juror returns integers 1–5 for D1–D8 plus an `evidence[]` array (URL, quote, source type) per the prompt. Context = **enriched dossier** (`data/enriched/*.json`) + **cached page text** (`cache/sites.sqlite`), same spirit as `itn-a-eval.ts`. **Speed:** `--concurrency N` (e.g. `8`) runs N URLs in parallel; `--call-delay-ms 0` removes pauses between calls if your OpenRouter tier tolerates it (default `800`). | n/a | [entry](#v9-alexandra-d1-d8-three-model-jury) |
 
 ## Full iteration records
 
-### v10 Alexandra D1–D8 three-model jury
+### v9 Alexandra D1–D8 three-model jury
 
 - **PR**: n/a
 - **Status**: open
@@ -33,7 +32,7 @@ Canonical full iteration history for `/awards` rendering. Generated from `iterat
 
 **Aggregation:** `npx tsx scripts/alexandra/alexandra-aggregate.ts` — per URL, median score per dimension across successful jurors; **median of juror weighted composites** as `median_composite`. Flags dimensions where max−min ≥ 2 across jurors as `controversial_dimensions`.
 
-**Ranking hook:** `SCORING_MODE=v10 npx tsx the-algorithm.ts` maps `median_composite` (1–5) → **20–100** via `round(composite × 20)`; URLs absent from the aggregate file score **5** (same baseline as un-assessed v5 rows). Default remains **v5** if `SCORING_MODE` is unset.
+**Ranking hook:** `SCORING_MODE=v9 npx tsx the-algorithm.ts` maps `median_composite` (1–5) → **20–100** via `round(composite × 20)`; URLs absent from the aggregate file score **5** (same baseline as un-assessed v5 rows). Default remains **v5** if `SCORING_MODE` is unset.
 
 Optional env: `ALEXANDRA_AGGREGATE_PATH` — override path to the aggregate JSON.
 
@@ -41,7 +40,7 @@ Optional env: `ALEXANDRA_AGGREGATE_PATH` — override path to the aggregate JSON
 
 Alexandra asked for a **traditional structured rubric** (weighted dimensions, auditable evidence, multiple raters) without delegating a single opaque score. Three models stand in for three human jurors for **this exercise**; inter-model spread is a **sensitivity signal**, not a substitute for Krippendorff’s α on human scores.
 
-v10 reuses v6’s **multi-model independence** while swapping the **measurement instrument** from ITN/A buckets to **D1–D8**. (Numbered **v10** so it does not collide with committee **v9**, which is Gamithra’s ITN/A + awards-bonuses iteration on `main`.)
+v9 reuses v6’s **multi-model independence** while swapping the **measurement instrument** from ITN/A buckets to **D1–D8**. Gamithra’s ITN/A + awards-bonuses line is documented as **v8** ([PR #41](https://github.com/nwspk/politech-awards-2026/pull/41)).
 
 #### Data sources
 
@@ -61,45 +60,13 @@ v10 reuses v6’s **multi-model independence** while swapping the **measurement 
 
 #### Assessment
 
-Ships the **documentation + scripts + aggregate + optional `the-algorithm.ts` mode** in one PR. Committee runs eval when ready, commits or archives `cache/alexandra-*.json` if they want a reproducible snapshot, then may set `top_project` in this README after a full run. **Winner selection** remains a committee choice; v10 makes the numeric layer **contestable**. Current `top_project` reflects the highest `median_composite` in the pilot aggregate snapshot.
-
----
-
-### v9 ITN/A Grok re-run with awards bonuses + effective-score alignment (v8)
-
-- **PR**: [v9](https://github.com/nwspk/politech-awards-2026/pull/41)
-- **Status**: open
-- **Author**: @Gamithra
-- **Date**: 2026-03-28
-- **Top project**: [blog.kagi.com](https://blog.kagi.com/slopstop) (score: 99)
-
-#### Heuristic
-
-Same **v5 ITN/A** setup (Grok 4.1 Fast: tri-lens assessment → shortlist → facilitator-led deliberation with relative scoring and multi-turn argument). **Deliberation adds awards-context bonuses** (−5 to +5 each: relevance, project concreteness, novelty) stored separately from the pure ITN/A aggregate. **`the-algorithm.ts` uses `aggregate_effective`** (ITN/A + bonuses, clamped 0–100; fallback to `aggregate`) for deliberated rows so **`results.json` matches deliberation ordering**. Non-deliberated rows keep v5 tiers: 2+ greens → 45, 1 green → 20, else 5. Dossier normalisation and URL normalisation keep `candidates.csv` aligned with `cache/assessments-grok.json` and `cache/deliberation-grok.json`.
-
-#### Rationale
-
-Bonuses make **timeliness, concreteness, and novelty** legible without corrupting the core ITN/A debate. Aligning the algorithm to **`aggregate_effective`** fixes a consistency bug: the jury saw bonus-adjusted scores but the leaderboard did not. Together with **ROUND 1 token budget / retries** and **safer enriched-field parsing**, this iteration is a deliberate **awards-focused** refinement of the v5 pipeline rather than a new jury architecture.
-
-#### Data sources
-
-- project URL
-- scraped content
-- additional data files
-
-#### Limitations
-
-Single model throughout (no v6-style multi-jury check). Bonus dimensions are subjective. Most projects still sit in coarse non-deliberated tiers. Scores remain ordinal, not cardinal.
-
-#### Assessment
-
-**SlopStop** (99) at the top is consistent with high relevance to 2026 platform-quality / “slop” debates plus strong concrete-project signalling in the bonus pass; **Bonfire** and **rsky** (97) illustrate tight ITN/A fields separated by awards bonuses.
+Ships the **documentation + scripts + aggregate + optional `the-algorithm.ts` mode** in one PR. Committee runs eval when ready, commits or archives `cache/alexandra-*.json` if they want a reproducible snapshot, then may set `top_project` in this README after a full run. **Winner selection** remains a committee choice; v9 makes the numeric layer **contestable**. Current `top_project` reflects the highest `median_composite` in the committed aggregate snapshot.
 
 ---
 
 ### v8 ITN/A Grok re-run with awards bonuses + effective-score alignment
 
-- **PR**: n/a
+- **PR**: [v8](https://github.com/nwspk/politech-awards-2026/pull/41)
 - **Status**: open
 - **Author**: @Gamithra
 - **Date**: 2026-03-27
