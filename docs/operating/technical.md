@@ -13,6 +13,7 @@ Reference for the bots, scripts, and data formats powering this repo.
 | Refresh full iterations log | `npm run sync:iterations-log` |
 | Refresh all generated iteration docs | `npm run docs:sync` |
 | Run Alexandra D1–D8 three-model jury | `npm run alexandra-eval` → `npm run alexandra-aggregate` (needs `OPENROUTER_API_KEY`, `cache/sites.sqlite`, enriched dossiers) |
+| Claude-only top-N rationales (per D1–D8) | `npm run alexandra-top10-justify` after aggregate exists → `cache/alexandra-top10-justifications.json` (set **`ANTHROPIC_API_KEY`** for BYOK, or **`OPENROUTER_API_KEY`**) |
 | Rank candidates with Alexandra aggregates | `SCORING_MODE=v9 npx tsx the-algorithm.ts` (reads `cache/alexandra-aggregate.json`) |
 
 Rubric: [alexandra-rubric.md](../evaluation/alexandra-rubric.md). Iteration notes: [v9 README](../../iterations/v9/README.md).

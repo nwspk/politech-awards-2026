@@ -13,6 +13,7 @@
     "itn-a-deliberate": "npx tsx scripts/itn/itn-a-deliberate.ts",
     "alexandra-eval": "npx tsx scripts/alexandra/alexandra-eval.ts",
     "alexandra-aggregate": "npx tsx scripts/alexandra/alexandra-aggregate.ts",
+    "alexandra-top10-justify": "npx tsx scripts/alexandra/alexandra-top10-justify.ts",
     "collect:enriched": "npx tsx scripts/data-processing/collect-enriched.ts",
     "rename:enriched": "npx tsx scripts/data-processing/rename-enriched.ts",
     "cache:sites:retry": "npx tsx scripts/cache-sites.ts --retry-failed",

@@ -15,20 +15,23 @@
 import fs from "fs";
 import path from "path";
 import csv from "csv-parser";
-import Database from "better-sqlite3";
 import { fileURLToPath } from "url";
+import {
+  ROOT,
+  openCache,
+  getCachedPageText,
+  loadEnrichedSnippets,
+  enrichedForUrl,
+} from "./alexandra-context.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const ROOT = path.resolve(__dirname, "..", "..");
-const RUBRIC_PATH = path.join(ROOT, "docs", "evaluation", "alexandra-rubric.md");
-const CACHE_DB_PATH = path.join(ROOT, "cache", "sites.sqlite");
+const RUBRIC_PATH = path.resolve(
+  process.env.ALEXANDRA_RUBRIC_PATH || path.join(ROOT, "docs", "evaluation", "alexandra-rubric.md")
+);
 const CANDIDATES_CSV = path.join(ROOT, "candidates.csv");
-const ENRICHED_DIR = path.join(ROOT, "data", "enriched");
 const OUT_PATH = path.join(ROOT, "cache", "alexandra-assessments.json");
 
 const OPENROUTER_API = "https://openrouter.ai/api/v1/chat/completions";
-const BODY_CHAR_LIMIT = 3500;
-const ENRICHED_CHAR_LIMIT = 14000;
 
 const JURORS: { id: string; model: string }[] = [
   { id: "grok", model: "x-ai/grok-4.1-fast" },
@@ -37,7 +40,6 @@ const JURORS: { id: string; model: string }[] = [
 ];
 
 const DIMS = ["D1", "D2", "D3", "D4", "D5", "D6", "D7", "D8"] as const;
-type Dim = (typeof DIMS)[number];
 
 // ---------------------------------------------------------------------------
 // args
@@ -55,88 +57,6 @@ const JUROR_FILTER = getArg("--juror"); // grok | claude | kimi
 const CONCURRENCY = Math.max(1, parseInt(getArg("--concurrency") ?? "1", 10));
 /** Pause between juror calls and between URLs (rate-limit kindness). Use 0 to go faster if your tier allows. */
 const CALL_DELAY_MS = Math.max(0, parseInt(getArg("--call-delay-ms") ?? "800", 10));
-
-// ---------------------------------------------------------------------------
-// URL / text helpers (match ITN / the-algorithm normalisation)
-// ---------------------------------------------------------------------------
-
-function normalizeUrlKey(raw: string): string {
-  try {
-    const u = new URL(raw.startsWith("http") ? raw : `https://${raw}`);
-    return (u.hostname.replace(/^www\./, "") + u.pathname).toLowerCase().replace(/\/$/, "");
-  } catch {
-    return raw.toLowerCase().replace(/\/$/, "");
-  }
-}
-
-function extractReadableText(html: string): string {
-  let text = html
-    .replace(/<script[\s\S]*?<\/script>/gi, " ")
-    .replace(/<style[\s\S]*?<\/style>/gi, " ")
-    .replace(/<noscript[\s\S]*?<\/noscript>/gi, " ")
-    .replace(/<!--[\s\S]*?-->/g, " ");
-  const mainMatch =
-    text.match(/<main[\s\S]*?<\/main>/i) ||
-    text.match(/<article[\s\S]*?<\/article>/i);
-  const working = mainMatch ? mainMatch[0] : text;
-  const stripped = working
-    .replace(/<[^>]+>/g, " ")
-    .replace(/\s{3,}/g, "  ")
-    .trim();
-  return stripped.slice(0, BODY_CHAR_LIMIT);
-}
-
-function openCache(): Database.Database {
-  if (!fs.existsSync(CACHE_DB_PATH)) {
-    console.error(`Cache not found at ${CACHE_DB_PATH}. Run: npm run cache:sites`);
-    process.exit(1);
-  }
-  return new Database(CACHE_DB_PATH, { readonly: true });
-}
-
-function getCachedPageText(db: Database.Database, url: string): { text: string; hadCache: boolean } {
-  const row = db.prepare("SELECT body, error FROM pages WHERE url = ?").get(url) as
-    | { body: string | null; error: string | null }
-    | undefined;
-  if (!row) return { text: "", hadCache: false };
-  if (row.error || !row.body) return { text: "", hadCache: true };
-  return { text: extractReadableText(row.body), hadCache: true };
-}
-
-// ---------------------------------------------------------------------------
-// Enriched dossier index: canonical url -> compact JSON snippet
-// ---------------------------------------------------------------------------
-
-function loadEnrichedSnippets(): Map<string, string> {
-  const map = new Map<string, string>();
-  if (!fs.existsSync(ENRICHED_DIR)) return map;
-  const files = fs.readdirSync(ENRICHED_DIR).filter((f) => f.endsWith(".json") && f !== "verification-report.json");
-  for (const f of files) {
-    try {
-      const j = JSON.parse(fs.readFileSync(path.join(ENRICHED_DIR, f), "utf-8")) as { url?: string };
-      if (!j.url) continue;
-      const key = normalizeUrlKey(j.url);
-      const blob = JSON.stringify(j, null, 2);
-      map.set(key, blob.length > ENRICHED_CHAR_LIMIT ? blob.slice(0, ENRICHED_CHAR_LIMIT) + "\n…[truncated]" : blob);
-    } catch {
-      /* skip */
-    }
-  }
-  return map;
-}
-
-function enrichedForUrl(map: Map<string, string>, url: string): string {
-  const key = normalizeUrlKey(url);
-  if (map.has(key)) return map.get(key)!;
-  try {
-    const u = new URL(url.startsWith("http") ? url : `https://${url}`);
-    const alt = normalizeUrlKey(u.origin + u.pathname.replace(/\/$/, ""));
-    if (map.has(alt)) return map.get(alt)!;
-  } catch {
-    /* */
-  }
-  return "(No enriched dossier matched this URL.)";
-}
 
 // ---------------------------------------------------------------------------
 // OpenRouter
@@ -355,6 +275,13 @@ function sleep(ms: number) {
 // ---------------------------------------------------------------------------
 
 async function main() {
+  if (!fs.existsSync(RUBRIC_PATH)) {
+    console.error(
+      `Rubric not found: ${RUBRIC_PATH}\n` +
+        `Restore docs/evaluation/alexandra-rubric.md or set ALEXANDRA_RUBRIC_PATH to a markdown file.`
+    );
+    process.exit(1);
+  }
   const rubricMd = fs.readFileSync(RUBRIC_PATH, "utf-8");
   const system = buildSystemPrompt(rubricMd);
   const jurors = JUROR_FILTER ? JURORS.filter((j) => j.id === JUROR_FILTER) : JURORS;

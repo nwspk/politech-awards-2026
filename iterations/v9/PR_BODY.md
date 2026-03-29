@@ -28,7 +28,22 @@ v9 **reuses v6’s multi-model independence** while swapping the **measurement i
 
 ## Assessment
 
-This PR ships **documentation** (`docs/evaluation/alexandra-rubric.md`), **scripts** (`scripts/alexandra/alexandra-eval.ts`, `alexandra-aggregate.ts`), **committed cache snapshots** (`cache/alexandra-assessments.json`, `cache/alexandra-aggregate.json`, `.csv`), **`iterations/v9/README.md`**, and the **`the-algorithm.ts`** hook under **`SCORING_MODE=v9`**. A full run has already produced an aggregate; **re-running eval is optional** if the committee is happy with the committed snapshot. In the current aggregate, **Tor Project** has the highest `median_composite` (reflected as `top_project` in the iteration README). **Winner selection** remains a **committee** choice; v9 makes the numeric layer **contestable** and auditable.
+This PR ships **documentation** (`docs/evaluation/alexandra-rubric.md`), **scripts** (`scripts/alexandra/alexandra-eval.ts`, `alexandra-aggregate.ts`, **`alexandra-top10-justify.ts`**), **shared context** (`alexandra-context.ts`), **committed cache snapshots** (`cache/alexandra-assessments.json`, `cache/alexandra-aggregate.json`, `.csv`, **`cache/alexandra-top10-justifications.json`**), **`iterations/v9/README.md`**, and the **`the-algorithm.ts`** hook under **`SCORING_MODE=v9`**. A full run has already produced an aggregate; **re-running eval is optional** if the committee is happy with the committed snapshot. In the current aggregate, **Tor Project** has the highest `median_composite` (reflected as `top_project` in the iteration README). **Winner selection** remains a **committee** choice; v9 makes the numeric layer **contestable** and auditable.
+
+**Top-10 justification pass (committed):** This PR includes **`cache/alexandra-top10-justifications.json`** — **Claude-only** second pass on the **top 10** by `median_composite`. For each project and each **D1–D8**, the file has a short **justification** (or **`cannot_assess`** + reason) plus **evidence** rows (URL, quote, `source_type`), anchored to the **median** scores (not a re-score). Regenerate with `npm run alexandra-top10-justify` (prefer **`ANTHROPIC_API_KEY`** / BYOK; else **`OPENROUTER_API_KEY`**).
+
+| Rank | Project | `median_composite` |
+|-----:|---------|---------------------:|
+| 1 | Tor Project | 4.50 |
+| 2 | Matrix | 4.05 |
+| 3 | Creative Commons | 4.00 |
+| 4 | Decidim | 4.00 |
+| 5 | The DAO (Standard DAO Framework) | 4.00 |
+| 6 | SecureDrop | 3.85 |
+| 7 | Aleph (OCCRP) | 3.80 |
+| 8 | Mastodon | 3.80 |
+| 9 | Open Ownership | 3.80 |
+| 10 | Riseup | 3.75 |
 
 **Iteration bot:** The updater reads committed root **`results.json`** only — it does **not** run the algorithm. For v9 you must generate it with **`SCORING_MODE=v9 npx tsx the-algorithm.ts`** (reads `cache/alexandra-aggregate.json`). The default command without `SCORING_MODE=v9` writes **v8-style ITN/A** scores and will confuse the bot. Commit **`iterations/v9/results.json`** as the same snapshot when you refresh the PR.
 

@@ -16,13 +16,16 @@ top_project:
 - **Prerequisite:** `export OPENROUTER_API_KEY='sk-or-v1-...'` (from [OpenRouter keys](https://openrouter.ai/keys)). Without it, `alexandra-eval` exits immediately and no `cache/alexandra-assessments.json` is written.
 - **What this is:** Three **independent** LLM jurors (same family as v6 Phase 1: Grok, Claude, Kimi) each score every candidate on **D1–D8** using the **canonical rubric** in `docs/evaluation/alexandra-rubric.md` (Award A weights).
 - **Not ITN/A:** This does **not** replace green/yellow deliberation; it is a **parallel, numeric** track for transparency and inter-model disagreement analysis.
-- **Artifacts:** `cache/alexandra-assessments.json` (raw juror JSON), `cache/alexandra-aggregate.json` + `.csv` (medians, controversy flags). **Re-running eval is optional** once those files exist for your snapshot.
+- **Artifacts:** `cache/alexandra-assessments.json` (raw juror JSON), `cache/alexandra-aggregate.json` + `.csv` (medians, controversy flags), **`cache/alexandra-top10-justifications.json`** (Claude top-10 per-dimension rationales + evidence, when committed). **Re-running eval is optional** once those files exist for your snapshot.
+- **Top-N rationales (optional):** `npm run alexandra-top10-justify` — **Claude only** writes, for each of the top **10** URLs by `median_composite`, a **per-dimension** block: 1–3 sentence justification **or** `cannot_assess` + reason, plus **≥1 evidence** row per assessed dimension. Output: `cache/alexandra-top10-justifications.json` (resume-safe; `--force` to redo). **Auth:** prefer **`ANTHROPIC_API_KEY`** (direct [Anthropic API](https://docs.anthropic.com/), BYOK — no OpenRouter credits); optional **`ANTHROPIC_MODEL`** (default `claude-sonnet-4-20250514`). If unset, falls back to **`OPENROUTER_API_KEY`** and **`ALEXANDRA_JUSTIFY_MODEL`** (default `anthropic/claude-sonnet-4-6`).
 
 ## Heuristic
 
 **Evaluation:** `npx tsx scripts/alexandra/alexandra-eval.ts` — each juror returns integers 1–5 for D1–D8 plus an `evidence[]` array (URL, quote, source type) per the prompt. Context = **enriched dossier** (`data/enriched/*.json`) + **cached page text** (`cache/sites.sqlite`), same spirit as `itn-a-eval.ts`. **Speed:** `--concurrency N` (e.g. `8`) runs N URLs in parallel; `--call-delay-ms 0` removes pauses between calls if your OpenRouter tier tolerates it (default `800`).
 
 **Aggregation:** `npx tsx scripts/alexandra/alexandra-aggregate.ts` — per URL, median score per dimension across successful jurors; **median of juror weighted composites** as `median_composite`. Flags dimensions where max−min ≥ 2 across jurors as `controversial_dimensions`.
+
+**Justifications (top N):** `npx tsx scripts/alexandra/alexandra-top10-justify.ts` — after aggregate exists; `--top 15`, `--url …`, `--out …`, `--aggregate …`. Does **not** re-score; it explains the **median** values already in the aggregate.
 
 **Ranking hook:** `SCORING_MODE=v9 npx tsx the-algorithm.ts` maps `median_composite` (1–5) → **20–100** via `round(composite × 20)`; URLs absent from the aggregate file score **5** (same baseline as un-assessed v5 rows). Default remains **v5** if `SCORING_MODE` is unset.
 

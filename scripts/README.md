@@ -21,6 +21,8 @@ npm run itn-a-deliberate
 npm run alexandra-eval
 # faster full run (tune if you hit 429s): npm run alexandra-eval -- --concurrency 8 --call-delay-ms 0
 npm run alexandra-aggregate
+# Claude-only rationales for top N by median (after aggregate exists):
+# npm run alexandra-top10-justify
 # SCORING_MODE=v9 npx tsx the-algorithm.ts
 
 # Enrichment collection
@@ -61,6 +63,8 @@ npx tsx the-algorithm.ts
 | `itn/itn-a-deliberate.ts` | Canonical ITN deliberation entrypoint (`cache/deliberation*.json`). |
 | `alexandra/alexandra-eval.ts` | Three-model D1–D8 jurors → `cache/alexandra-assessments.json`. |
 | `alexandra/alexandra-aggregate.ts` | Median / controversy → `cache/alexandra-aggregate.json` (+ `.csv`). |
+| `alexandra/alexandra-top10-justify.ts` | Claude-only second pass: per-D1–D8 justification + evidence for top N (→ `cache/alexandra-top10-justifications.json`). Uses **`ANTHROPIC_API_KEY`** (direct API / BYOK) when set; else **`OPENROUTER_API_KEY`**. |
+| `alexandra/alexandra-context.ts` | Shared dossier + `sites.sqlite` page text for Alexandra scripts. |
 | `snapshot-existing-cache.ts` | One-off copy of cache files into `iterations/v5/` and `iterations/v6/`. |
 | `data-processing/collect-enriched.ts` | Canonical enrichment collection entrypoint. |
 | `data-processing/rename-enriched.ts` | Canonical entrypoint to merge + rename enriched dossier files. |
