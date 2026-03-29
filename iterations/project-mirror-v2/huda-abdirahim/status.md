@@ -7,8 +7,8 @@
 [STEP 4b] STATUS: done | output: modifiers.md | 6 modifiers (3 boost, 2 reduce, 1 conditional)
 [STEP 4c] STATUS: done | output: procedural.md | underdog-protection: YES | floor: 28pts at completeness<0.35
 [STEP 4d] STATUS: done | output: constitution.md
-[STEP 5] STATUS: done | output: jury-logs/ (25 runs, 5 models x 5 runs) | abstention rate: 86.7% | const winner: Aragon (70.7) | jury winner: LittleSis (jury)
-[STEP 5f] STATUS: done | output: jury-summary.md | 4 aggregation outputs produced
+[STEP 5] STATUS: done | jury reruns complete (5x per model, 4-model panel)
+[STEP 5] STATUS: done | jury reruns complete (5x per model, 4-model panel)
 [STEP 6] STATUS: done | output: ranking-table.csv + ranking-batch-1-4.csv | 321 projects scored | max=70.7 avg=40.5
 [STEP 7] STATUS: done | output: reflection.md
 [STEP 8] STATUS: done | output: agent-notes.md + process-record.md updated
