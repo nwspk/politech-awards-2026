@@ -129,7 +129,6 @@ As of 2026-03-27, eighteen fellows have been profiled:
 | Aadi Kulkarni | medium-high | Diia | Diia | 12/15 | strong |
 | Fatima Sarah Khalid | high | Decidim | Decidim | 11/15 | majority |
 | Gamithra Marga | high | meet.coop | Bonfire | 8/15 | majority |
-| Emily Mayhew | low-medium | Open Digital Planning | Open Contracting Partnership | 5/15 | contested |
 | Frederick O'Brien | medium-high | SecureDrop | SecureDrop | 10/15 | majority |
 | Alessandro Pedori | medium-high | Polis | Polis | 15/15 | strong |
 | David Powell | high | Loomio | Loomio | 14/15 | strong |
@@ -143,8 +142,7 @@ As of 2026-03-27, eighteen fellows have been profiled:
 - **Asil Sidahmed (technical failure, contested):** Gemini 2.5 Pro run 1 failed — reasoning token budget exhausted at `max_tokens: 500`; runs 2 and 3 valid at `max_tokens: 2000`. 14/15 valid votes; four-way split: OpenCRVS (Claude + Llama 3, 6 votes), Guardian Project (GPT-4o, 3 votes), HURIDOCS (Mistral, 3 votes), VFRAME (Gemini, 2 votes). Reflects genuine ambiguity across her health equity, security-for-movements, information-for-justice, and conflict-accountability values.
 - **Fatima Sarah Khalid (primary/jury partial split):** Claude run 3 and all three Gemini 2.5 Pro runs chose Polis over Decidim (4 votes total), making the result majority rather than strong. Reflects a Decidim-as-production vs. Polis-as-AI-governance-research tension in her values. Gemini 2.5 Pro substituted.
 - **Gamithra Marga (primary/jury split):** Primary (Claude) chose meet.coop; jury plurality chose Bonfire (8/15). Split along model family lines: Claude + Llama 3 → meet.coop (cooperative infrastructure + renewable energy); GPT-4o + Mistral → Bonfire (self-hosting and federated architecture); Gemini split (Bonfire × 2, Decidim × 1). Gemini 2.5 Pro substituted.
-- **Emily Mayhew (contested, flagged, thinnest record):** Thinnest public record in the cohort — values entirely inferred from job titles and fellowship bio, no published writing. Five-way jury split: Open Contracting Partnership (5), Open Digital Planning (4), Creative Commons (4), OpenCRVS (1), The Data Trusts Initiative (1). Claude primary proposed Open Digital Planning; Claude jury runs chose Open Contracting Partnership (within-model variance). Flagged for human review. Gemini 2.5 Pro substituted.
-- **Gemini 1.5 Pro unavailable:** Gemini 1.5 Pro (`google/gemini-pro-1.5`) was deprecated on OpenRouter and returned 404 across all 18 runs. Substitutes used: Gemini 2.0 Flash (alexandra-ciocanel, nicholas-botti, tuna-acisu, david-powell), Gemini 2.5 Flash (connor-dunlop, huda-abdirahim, aadi-kulkarni), Gemini 2.5 Pro (jamie-coombes, francesca-galli, martina-orlea, chris-owen, asil-sidahmed, fatima-sarah-khalid, gamithra-marga, emily-mayhew, frederick-obrien, alessandro-pedori). All substitutions preserve 5-provider diversity intent.
+- **Gemini 1.5 Pro unavailable:** Gemini 1.5 Pro (`google/gemini-pro-1.5`) was deprecated on OpenRouter and returned 404 across each fellow run. Substitutes used: Gemini 2.0 Flash (alexandra-ciocanel, nicholas-botti, tuna-acisu, david-powell), Gemini 2.5 Flash (connor-dunlop, huda-abdirahim, aadi-kulkarni), Gemini 2.5 Pro (jamie-coombes, francesca-galli, martina-orlea, chris-owen, asil-sidahmed, fatima-sarah-khalid, gamithra-marga, frederick-obrien, alessandro-pedori). All substitutions preserve 5-provider diversity intent.
 
 ---
 
