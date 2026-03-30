@@ -89,7 +89,7 @@ def extract_heuristic_name(readme_path: str) -> str:
 
 
 def synthetic_assessment(heuristic_name: str) -> str:
-    return f"Ranked using: {heuristic_name}. No detailed per-project assessment available for this iteration."
+    return "No detailed per-project assessment available for this iteration."
 
 
 def enrich_results(
