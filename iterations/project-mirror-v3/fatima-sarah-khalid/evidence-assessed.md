@@ -1,13 +1,7 @@
 # Project Mirror v3 — Evidence (Assessed)
 ## Evaluator: Fatima Sarah Khalid
-## Note: Evidence base unchanged from v2. See v2/fatima-sarah-khalid/evidence-assessed.md for full source assessment.
-## Version: v3 | 2026-03-30
-
----
-
-# Project Mirror v2 — Evidence (Assessed)
-## Evaluator: Fatima Sarah Khalid
-## Evidence agent | 2026-03-28
+## Evidence agent | 2026-03-30
+## Note: Evidence base unchanged from v2. Version header updated; no new evidence gathered for v3 rerun.
 
 ---
 
