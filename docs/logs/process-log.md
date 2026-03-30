@@ -338,7 +338,7 @@ Consolidated from process notes plus current iteration/data logs.
 ### 2026-03-30 (matrix chat synthesis through Mar 30)
 
 - **Type**: Matrix synthesis note
-- **Participants**: cohort thread participants (including Ed, Gamithra, Hannah, Fatima, others)
+- **Participants**: cohort thread participants (including Ed, Gamithra, Hannah, Fatima, Nick, Huda, others)
 - **Source**: matrix export (Awards 2026 room, exported 2026-03-30)
 - **Related context**: weekly process updates, ranking interpretation, showcase prep
 
@@ -388,6 +388,7 @@ Consolidated from process notes plus current iteration/data logs.
 | 2026-03-09 | Tested six-jury model robustness design (v6) | Evaluate winner stability across model worldviews | [v6 PR](https://github.com/nwspk/politech-awards-2026/pull/15) |
 | 2026-03-10 | Adopted full-dataset enriched dossiers and verification approach (data attempt 3) | Improve evidence quality and auditability across all candidates | [Data log](https://github.com/nwspk/politech-awards-2026/blob/main/docs/logs/data-log.md#attempt-3-enriched-dossiers-era) |
 | 2026-03-15 | Logged citation-quality and theory-of-change gaps during enrichment review | Improve evidence reliability and comparability across project types | [Data log](https://github.com/nwspk/politech-awards-2026/blob/main/docs/logs/data-log.md#known-limitations-and-gaps) |
+| 2026-03-30 | Expanded committee participation to include Nick and Huda | Both iterated on their agents and are now included in committee workflow | [Mar 30 matrix synthesis](https://github.com/nwspk/politech-awards-2026/blob/main/docs/logs/process-log.md#2026-03-30-matrix-chat-synthesis-through-mar-30) |
 
 ## Logging protocol
 
