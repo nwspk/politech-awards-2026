@@ -461,14 +461,14 @@ v10 committee aggregation recomputed using v3 rankings for these three members.
 
 v10 (PR #90, branch `project-mirror-v2/committee-aggregation`) preserved as pre-iteration baseline. v11 adds `committee-ranking-v11.csv` alongside the preserved v10 `committee-ranking.csv`.
 
-**Committee winner: LiquidFeedback (65.10, stdev 14.5, n=18). Winner unchanged from v10 (63.84).**
+**Committee winner: LiquidFeedback (65.45, stdev 14.95, n=18). Winner unchanged from v10 (63.84).**
 
 **Top 5:**
-1. LiquidFeedback — 65.10
-2. Decidim — 61.13
-3. CONSUL Democracy — 60.93
-4. mySociety Datasets and APIs — 60.48
-5. Open Data Editor (ODE) — 60.24
+1. LiquidFeedback — 65.45
+2. Open Data Editor (ODE) — 61.94
+3. Decidim — 61.40
+4. CONSUL Democracy — 61.02
+5. mySociety Datasets and APIs — 59.88
 
 **Methodology:** Simple mean of 18 constitutional scores. v3 ranking tables substituted for Nicholas Botti, Huda Abdirahim, Alexandra Ciocanel. 31 URL variants in Alexandra v3's table remapped to canonical v10 URLs. AlgorithmWatch coverage drops to n=17 (Alexandra v3 did not score it). David Powell retained in this aggregate per committee-aggregation branch precedent (note: process-record consent entry 2026-03-29 records his withdrawal from aggregation — this is a known inconsistency preserved from the v10 computation).
 
