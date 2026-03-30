@@ -20,69 +20,112 @@ It is not a recomputation of scores. It is a structured deliberation where agent
 
 ## Candidates
 
-Shortlist of 19 projects: all individual constitutional winners (one per agent) plus committee-level aggregate results not already represented.
+Top 10% of the 321-project longlist by mean constitutional score (v11): **32 projects**, ranked #1–#32.
 
-| ID | Name | URL | Mean Rank (v11) | Why Included |
-|----|------|-----|-----------------|--------------|
-| `algorithm-watch` | AlgorithmWatch | https://algorithmwatch.org | #39 | Constitutional winner: Safeguard |
-| `bonfire` | Bonfire | https://bonfirenetworks.org | #7 | Constitutional winner: Gamithra Marga |
-| `decidim` | Decidim | https://decidim.org | #3 | Constitutional winner: Alessandro Pedori |
-| `ethelo` | Ethelo | https://ethelo.com | #54 | Constitutional winner: Huda Abdirahim |
-| `gapminder-upgrader` | Gapminder Worldview Upgrader | https://upgrader.gapminder.org | #99 | Constitutional winner: Prism; v13 divisive winner |
-| `humble-data` | Humble Data Workshop | https://humbledata.org | #87 | Constitutional winner: Chris Owen |
-| `interop-delib` | Interoperable Deliberative Tools | https://metagov.org/projects/interop | #72 | Constitutional winner: Jamie Coombes |
-| `liquidfeedback` | LiquidFeedback | https://liquidfeedback.com | #1 | Constitutional winner: Davit Jintcharadze; v11 mean winner |
-| `martus` | Martus | https://www.martus.org | #49 | Constitutional winner: Signal |
-| `mastodon` | Mastodon | https://github.com/mastodon/mastodon | #21 | Constitutional winner: Fatima Sarah Khalid (v5) |
-| `mysociety-data` | mySociety Datasets and APIs | https://data.mysociety.org | #2 | Constitutional winner: David Powell + Francesca Galli |
-| `ode` | Open Data Editor (ODE) | https://okfn.org/en/projects/open-data-editor/ | #4 | v12 median rank winner |
-| `open-digital-planning` | Open Digital Planning | https://opendigitalplanning.org | #17 | Constitutional winner: Harbour (Emily Mayhew) |
-| `ohm` | Open Heart Mind | https://openheartmind.org | #28 | Constitutional winner: Beacon (Frederick O'Brien) |
-| `opencrvs` | OpenCRVS | https://www.opencrvs.org | #25 | Constitutional winner: Aadi Kulkarni |
-| `polis` | Polis | https://github.com/compdemocracy/polis | #10 | Constitutional winner: Nicholas Botti |
-| `ushahidi` | Ushahidi | https://www.ushahidi.com | #20 | Constitutional winner: Asil Sidahmed |
-| `vote-for-policies` | Vote for Policies | https://voteforpolicies.org.uk | #253 | v14 consensus winner (lowest stdev, 7.59) |
-| `worker-info-exchange` | Worker Info Exchange | https://www.workerinfoexchange.org | #157 | Constitutional winner: Alexandra Ciocanel |
+Selection rationale: the top 10% threshold avoids shortlisting bias inherent in hand-picking individual winners. The candidate set is defined entirely by the committee's own aggregated preferences, not by the spec author.
+
+> **Note on excluded constitutional winners:** 8 agents' individual constitutional winners fall outside the top 10% and are therefore not in this shortlist: AlgorithmWatch (#39, Safeguard), Martus (#49, Signal), Ethelo (#54, Huda Abdirahim), Interoperable Deliberative Tools (#72, Jamie Coombes), Humble Data Workshop (#87, Chris Owen), Gapminder Worldview Upgrader (#99, Prism), Worker Info Exchange (#157, Alexandra Ciocanel), Vote for Policies (#253, v14 consensus winner). This is itself a finding: for these 8 agents, their constitutional top pick diverges significantly from the committee's aggregate preferences. Their strategic ballot reasoning should account for this.
+
+| ID | Name | URL | Mean Score | Stdev | Mean Rank (v11) |
+|----|------|-----|------------|-------|-----------------|
+| `liquidfeedback` | LiquidFeedback | https://liquidfeedback.com | 65.08 | 15.14 | #1 |
+| `mysociety-data` | mySociety Datasets and APIs | https://data.mysociety.org | 62.72 | 15.50 | #2 |
+| `decidim` | Decidim | https://decidim.org | 62.05 | 16.53 | #3 |
+| `ode` | Open Data Editor (ODE) | https://okfn.org/en/projects/open-data-editor/ | 61.96 | 17.37 | #4 |
+| `consul` | CONSUL Democracy | https://consulproject.org | 61.77 | 17.69 | #5 |
+| `alaveteli` | Alaveteli | https://alaveteli.org | 60.89 | 16.87 | #6 |
+| `bonfire` | Bonfire | https://bonfirenetworks.org | 59.44 | 16.24 | #7 |
+| `huridocs` | HURIDOCS | https://github.com/huridocs | 59.19 | 19.50 | #8 |
+| `open-supply-hub` | Open Supply Hub | https://opensupplyhub.org | 58.68 | 18.52 | #9 |
+| `polis` | Polis | https://github.com/compdemocracy/polis | 58.31 | 18.66 | #10 |
+| `citizen-os` | Citizen OS | https://citizenos.com/platform/ | 57.59 | 17.17 | #11 |
+| `aleph` | Aleph (OCCRP) | https://aleph.occrp.org | 57.46 | 19.26 | #12 |
+| `guardian-project` | Guardian Project | https://guardianproject.info | 57.28 | 19.14 | #13 |
+| `adhocracy-plus` | adhocracy+ | https://adhocracy.plus | 56.79 | 13.48 | #14 |
+| `open-council-network` | Open Council Network | https://opencouncil.network | 56.73 | 17.43 | #15 |
+| `bellingcat-toolkit` | Bellingcat Online Investigation Toolkit | https://bellingcat.gitbook.io/toolkit | 56.68 | 18.78 | #16 |
+| `open-digital-planning` | Open Digital Planning | https://opendigitalplanning.org | 56.42 | 16.92 | #17 |
+| `civicrm` | CiviCRM | https://civicrm.org | 56.16 | 17.05 | #18 |
+| `odk` | ODK (Open Data Kit) | https://getodk.org | 56.04 | 14.12 | #19 |
+| `ushahidi` | Ushahidi | https://www.ushahidi.com | 55.95 | 12.04 | #20 |
+| `mastodon` | Mastodon | https://github.com/mastodon/mastodon | 55.89 | 19.72 | #21 |
+| `communityrule` | CommunityRule | https://communityrule.info | 55.86 | 15.22 | #22 |
+| `loomio` | Loomio | https://www.loomio.org | 55.52 | 14.72 | #23 |
+| `participedia` | Participedia | https://participedia.net | 54.95 | 14.05 | #24 |
+| `opencrvs` | OpenCRVS | https://www.opencrvs.org | 54.84 | 16.78 | #25 |
+| `vtaiwan` | vTaiwan | https://github.com/g0v/vue.vtaiwan.tw | 54.73 | 20.35 | #26 |
+| `open-contracting` | Open Contracting Partnership | https://www.open-contracting.org | 54.64 | 15.63 | #27 |
+| `ohm` | Open Heart Mind | https://openheartmind.org | 54.44 | 15.49 | #28 |
+| `policyengine` | PolicyEngine | https://policyengine.org/uk | 54.38 | 19.11 | #29 |
+| `cobudget` | Cobudget | https://cobudget.com | 54.31 | 15.55 | #30 |
+| `hot` | Humanitarian OpenStreetMap Team (HOT) | https://www.hotosm.org | 54.26 | 14.62 | #31 |
+| `participa` | Participa (Podemos) | https://github.com/podemos-info/participa | 54.13 | 15.95 | #32 |
 
 ### Project descriptions
 
-* **AlgorithmWatch** (`algorithm-watch`) — Research and advocacy organisation monitoring algorithmic accountability, AI transparency, and automated decision-making in public sector and corporate contexts. Publishes audits, tools, and policy research.
-
-* **Bonfire** (`bonfire`) — Open-source, federated social networking toolkit built on ActivityPub. Enables communities to host their own social spaces as part of the Fediverse without depending on centralised platforms.
-
-* **Decidim** (`decidim`) — Open-source participatory democracy platform used by governments and organisations worldwide for participatory budgeting, citizen assemblies, and governance.
-
-* **Ethelo** (`ethelo`) — Group deliberation and collective decision-making platform. Uses an AI engine to identify consensus and divergence across stakeholder groups, optimising for group agreement.
-
-* **Gapminder Worldview Upgrader** (`gapminder-upgrader`) — Interactive fact-checking quizzes about global development data. Designed to surface and correct systematic cognitive biases about poverty, health, and progress.
-
-* **Humble Data Workshop** (`humble-data`) — Free data literacy bootcamp programme for underrepresented groups in data science and analytics. Delivered by volunteers; operates on a pay-it-forward model.
-
-* **Interoperable Deliberative Tools** (`interop-delib`) — Metagov project developing open protocols for bridging deliberative democracy platforms (Pol.is, Loomio, Decidim, etc.) to enable cross-platform participation and data portability.
-
 * **LiquidFeedback** (`liquidfeedback`) — Software for liquid democracy: delegable proxy voting with structured deliberation. Used by political parties and organisations for binding or advisory collective decision-making.
-
-* **Martus** (`martus`) — Open-source encrypted document repository for human rights defenders. Enables activists and journalists to securely collect, manage, and share sensitive evidence across hostile environments.
-
-* **Mastodon** (`mastodon`) — Open-source, federated social media server using ActivityPub. Communities run their own instances; no single operator controls the network. Largest Fediverse platform.
 
 * **mySociety Datasets and APIs** (`mysociety-data`) — Civic data infrastructure by mySociety: TheyWorkForYou, EveryPolitician, MapIt, and related open APIs enabling downstream civic applications.
 
+* **Decidim** (`decidim`) — Open-source participatory democracy platform used by governments and organisations worldwide for participatory budgeting, citizen assemblies, and governance.
+
 * **Open Data Editor (ODE)** (`ode`) — Desktop application by Open Knowledge Foundation enabling non-technical users to validate, clean, and publish open data in standard formats without writing code.
 
-* **Open Digital Planning** (`open-digital-planning`) — UK consortium building open-source digital planning tools for local authorities, including applications under the Planning and Infrastructure Act.
+* **CONSUL Democracy** (`consul`) — Open-source citizen participation platform originally developed by Madrid City Council. Used by governments for participatory budgeting, citizen proposals, voting, and collaborative legislation.
 
-* **Open Heart Mind** (`ohm`) — Open-source platform for peer recognition, gratitude, and community contribution tracking in collaborative and purpose-driven organisations.
+* **Alaveteli** (`alaveteli`) — mySociety's open-source Freedom of Information request platform. Powers WhatDoTheyKnow (UK) and equivalents in 25+ countries, enabling citizens to request and publish government information.
 
-* **OpenCRVS** (`opencrvs`) — Open-source civil registration and vital statistics platform for governments in low-income countries to digitise birth, death, and marriage registration, enabling access to legal identity.
+* **Bonfire** (`bonfire`) — Open-source, federated social networking toolkit built on ActivityPub. Enables communities to host their own social spaces as part of the Fediverse without depending on centralised platforms.
+
+* **HURIDOCS** (`huridocs`) — Human rights documentation toolkit: structured data standards and open-source tools for civil society organisations to securely collect, manage, and analyse human rights violation data.
+
+* **Open Supply Hub** (`open-supply-hub`) — Open database of global supply chain facilities. Maps factory and supplier locations to enable transparency, accountability, and due diligence in global supply chains.
 
 * **Polis** (`polis`) — AI-powered platform for large-scale group opinion mapping. Uses ML clustering to identify consensus and divergence across populations via free-text statement submission and voting.
 
+* **Citizen OS** (`citizen-os`) — Estonian e-democracy platform for online deliberation and petition co-signing. Emphasises structured argumentation and cross-party consensus building.
+
+* **Aleph (OCCRP)** (`aleph`) — Investigative journalism data platform by OCCRP. Indexes leaked and public datasets, corporate registries, and sanctions lists; enables cross-dataset document search for journalists.
+
+* **Guardian Project** (`guardian-project`) — Open-source security tools for journalists and activists in hostile environments: Orbot (Tor for Android), Briar, Haven, and related privacy-preserving mobile applications.
+
+* **adhocracy+** (`adhocracy-plus`) — Open-source participation platform developed by Liquid Democracy e.V. Used by German municipalities and organisations for citizen input, online consultations, and structured proposals.
+
+* **Open Council Network** (`open-council-network`) — Network and tooling for open, participatory local government. Supports councils adopting transparent, community-driven decision-making processes.
+
+* **Bellingcat Online Investigation Toolkit** (`bellingcat-toolkit`) — Curated resource guide of open-source investigation tools used by Bellingcat and the wider OSINT community for geolocation, verification, and open-source intelligence.
+
+* **Open Digital Planning** (`open-digital-planning`) — UK consortium building open-source digital planning tools for local authorities, including applications under the Planning and Infrastructure Act.
+
+* **CiviCRM** (`civicrm`) — Open-source constituent relationship management system built specifically for nonprofits, civic organisations, and advocacy groups. Manages contacts, donations, events, and campaigns.
+
+* **ODK (Open Data Kit)** (`odk`) — Open-source toolkit for mobile data collection in low-connectivity environments. Widely used in public health, humanitarian response, and election monitoring.
+
 * **Ushahidi** (`ushahidi`) — Open-source crisis mapping and community reporting platform used globally in humanitarian response, elections, and conflict monitoring.
 
-* **Vote for Policies** (`vote-for-policies`) — UK platform presenting party manifestos as blind policy comparisons, without party labels. Enables voters to identify their policy alignment independently of party affiliation.
+* **Mastodon** (`mastodon`) — Open-source, federated social media server using ActivityPub. Communities run their own instances; no single operator controls the network. Largest Fediverse platform.
 
-* **Worker Info Exchange** (`worker-info-exchange`) — Worker data rights organisation enabling gig economy workers (Uber, Deliveroo, etc.) to access and exercise their GDPR rights over algorithmic management data.
+* **CommunityRule** (`communityrule`) — Library of governance templates for online communities. Provides structured, remix-able rules for how communities make decisions, handle conflict, and distribute power.
+
+* **Loomio** (`loomio`) — Cooperative-built platform for collaborative decision-making in organisations and communities. Combines threaded discussion with structured proposal and consent mechanisms.
+
+* **Participedia** (`participedia`) — Open database and research platform cataloguing participatory democracy initiatives and methods worldwide. Used by researchers, practitioners, and policymakers.
+
+* **OpenCRVS** (`opencrvs`) — Open-source civil registration and vital statistics platform for governments in low-income countries to digitise birth, death, and marriage registration, enabling access to legal identity.
+
+* **vTaiwan** (`vtaiwan`) — Taiwanese open-source policy consultation process combining Pol.is, online deliberation, and in-person summits. Developed by g0v to involve citizens in technology regulation.
+
+* **Open Contracting Partnership** (`open-contracting`) — Global initiative publishing open data standards (OCDS) for government procurement. Enables civil society and journalists to monitor public spending on contracts.
+
+* **Open Heart Mind** (`ohm`) — Open-source platform for peer recognition, gratitude, and community contribution tracking in collaborative and purpose-driven organisations.
+
+* **PolicyEngine** (`policyengine`) — Open-source microsimulation platform for tax and benefit policy. Enables anyone to model the household-level impact of policy reforms in the UK and US.
+
+* **Cobudget** (`cobudget`) — Collaborative budgeting tool for groups and organisations. Members propose and allocate funds to projects democratically; originally developed by the Enspiral network.
+
+* **Humanitarian OpenStreetMap Team (HOT)** (`hot`) — Activates open-source mapping (OpenStreetMap) for humanitarian response. Coordinates volunteer mappers to produce base maps for disaster-affected and under-mapped regions.
+
+* **Participa (Podemos)** (`participa`) — Open-source participatory platform developed by Podemos for internal party democracy: voting, proposals, budgeting, and collaborative programme development.
 
 ---
 
@@ -151,11 +194,11 @@ Each agent's preferences over the 19 shortlisted candidates are derived directly
 
 **Ballot format:** Complete strict ranking of all 19 candidates.
 
-**Scoring:** With 19 candidates, the top-ranked candidate receives 18 points, second receives 17, ..., last-ranked receives 0.
+**Scoring:** With 32 candidates, the top-ranked candidate receives 31 points, second receives 30, ..., last-ranked receives 0.
 
 **Winner computation:**
 1. Sum each candidate's Borda points across all 17 ballots
-2. Maximum possible score: 18 × 17 = 306 points
+2. Maximum possible score: 31 × 17 = 527 points
 3. Candidate with highest total wins
 
 **Tie-breaking:** If two or more candidates are tied on Borda score:
@@ -277,7 +320,7 @@ If the Social Choice Round produces a different winner from all four baselines, 
   "round": "social-choice-v1",
   "voting_rule": "borda-count",
   "n_agents": 17,
-  "n_candidates": 19,
+  "n_candidates": 32,
   "ballots": {
     "aadi-kulkarni": {
       "ballot": ["opencrvs", "ode", ...],
@@ -316,10 +359,14 @@ If the Social Choice Round produces a different winner from all four baselines, 
 
 ## Notes on Candidate Selection
 
-This shortlist was constructed to surface genuine constitutional divergence. The 19 candidates span:
-- **High consensus, high mean** (LiquidFeedback, mySociety, Decidim, ODE) — likely Borda frontrunners under honest voting
-- **High individual conviction, low mean** (Worker Info Exchange at #157, Vote for Policies at #253) — will test whether constitutional winners can survive Borda aggregation
-- **High divisiveness** (AlgorithmWatch stdev 21.15, Gapminder stdev 25.76, Mastodon stdev 19.72) — these are natural targets for strategic manipulation
-- **High consensus, low mean** (Vote for Policies stdev 7.59) — the consensus candidate; may perform better under strategic than honest voting
+The top 10% threshold (32 of 321 projects) is defined entirely by the committee's own mean scores from v11 — no editorial shortlisting. Mean score range: 54.13 (Participa, #32) to 65.08 (LiquidFeedback, #1). Score gap between #32 and #33: 54.13 → 53.62 (vTaiwan — note: vTaiwan is #26 and is included; the cut at #32 captures Participa at 54.13).
 
-The tension between constitutionally strong individual picks and statistically strong committee picks is the core deliberative problem this round is designed to resolve.
+**Structural features of this shortlist:**
+
+- **High consensus, high mean** (LiquidFeedback, mySociety, Decidim, ODE, adhocracy+, ODK) — likely Borda frontrunners under honest voting; low stdev signals broad agreement
+- **High mean, high divisiveness** (vTaiwan stdev 20.35, HURIDOCS stdev 19.50, Mastodon stdev 19.72, Aleph stdev 19.26, PolicyEngine stdev 19.11) — strong average but polarising; natural strategic targets for both promotion and burial
+- **8 constitutional winners absent** — agents whose top pick is below the 10% threshold face a structurally different problem: their honest ballot cannot rank their constitutional winner first. This increases strategic pressure on those 8 agents.
+
+**Constitutional winners inside the shortlist** (9 of 17 agents): LiquidFeedback (Davit), mySociety Data (David Powell + Francesca), Decidim (Alessandro), ODE (v12 winner), Bonfire (Gamithra), Polis (Nicholas), Open Digital Planning (Harbour), Ushahidi (Asil), Mastodon (Fatima), OpenCRVS (Aadi), Open Heart Mind (Beacon).
+
+The core deliberative tension: 8 agents' constitutional champions are absent. Will they converge on LiquidFeedback (the mean frontrunner), coordinate around a second-best alternative, or attempt to strategically elevate a dark horse within the top 32?
