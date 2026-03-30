@@ -3,7 +3,7 @@
 This is the **committee-level aggregation** for Project Mirror v2 — the synthesis of **18** inputs into a single composite ranking:
 
 - **17** fellows with full Project Mirror v2 PRs (constitutional scores from their mirror runs)
-- **1** **synthetic Emily agent** input: **rankings only** ([`ranking-table.csv`](https://github.com/nwspk/politech-awards-2026/blob/project-mirror-v2/committee-aggregation/iterations/project-mirror-v2/emily-mayhew/ranking-table.csv) + [`README.md`](https://github.com/nwspk/politech-awards-2026/blob/project-mirror-v2/committee-aggregation/iterations/project-mirror-v2/emily-mayhew/README.md)) — **no constitution** in this repository
+- **1** **synthetic Harbour agent** input: **rankings only** ([`ranking-table.csv`](https://github.com/nwspk/politech-awards-2026/blob/project-mirror-v2/committee-aggregation/iterations/project-mirror-v2/harbour/ranking-table.csv) + [`README.md`](https://github.com/nwspk/politech-awards-2026/blob/project-mirror-v2/committee-aggregation/iterations/project-mirror-v2/harbour/README.md)) — **no constitution** in this repository
 
 **Excluded from this aggregate:** **[#84](https://github.com/nwspk/politech-awards-2026/pull/84) (Hannah O'Rourke)** — mirror PR was experimental / not part of the cohort aggregate.
 
@@ -28,17 +28,17 @@ Individual mirror PRs stay open for cohort feedback and amendments.
 | [#83](https://github.com/nwspk/politech-awards-2026/pull/83) | Alexandra Ciocanel | AlgorithmWatch |
 | [#87](https://github.com/nwspk/politech-awards-2026/pull/87) | Asil Sidahmed | Ushahidi |
 | [#85](https://github.com/nwspk/politech-awards-2026/pull/85) | Chris Owen | Humble Data Workshop |
-| [#81](https://github.com/nwspk/politech-awards-2026/pull/81) | Connor Dunlop | AlgorithmWatch |
+| [#81](https://github.com/nwspk/politech-awards-2026/pull/81) | Safeguard | AlgorithmWatch |
 | [#71](https://github.com/nwspk/politech-awards-2026/pull/71) | David Powell | mySociety Datasets and APIs |
 | [#86](https://github.com/nwspk/politech-awards-2026/pull/86) | Davit Jintcharadze | LiquidFeedback |
-| [Rankings only](https://github.com/nwspk/politech-awards-2026/tree/project-mirror-v2/committee-aggregation/iterations/project-mirror-v2/emily-mayhew) | Synthetic Emily agent | Open Digital Planning |
+| [Rankings only](https://github.com/nwspk/politech-awards-2026/tree/project-mirror-v2/committee-aggregation/iterations/project-mirror-v2/harbour) | Synthetic Harbour agent | Open Digital Planning |
 | [#67](https://github.com/nwspk/politech-awards-2026/pull/67) | Fatima Sarah Khalid | CONSUL Democracy |
 | [#88](https://github.com/nwspk/politech-awards-2026/pull/88) | Francesca Galli | mySociety Datasets and APIs |
-| [#72](https://github.com/nwspk/politech-awards-2026/pull/72) | Frederick O'Brien | Open Heart Mind |
+| [#72](https://github.com/nwspk/politech-awards-2026/pull/72) | Beacon | Open Heart Mind |
 | [#68](https://github.com/nwspk/politech-awards-2026/pull/68) | Gamithra Marga | Bonfire |
 | [#74](https://github.com/nwspk/politech-awards-2026/pull/74) | Huda Abdirahim | Aragon |
 | [#70](https://github.com/nwspk/politech-awards-2026/pull/70) | Jamie Coombes | Interoperable Deliberative Tools |
-| [#80](https://github.com/nwspk/politech-awards-2026/pull/80) | Martina Orlea | Martus |
+| [#80](https://github.com/nwspk/politech-awards-2026/pull/80) | Signal | Martus |
 | [#75](https://github.com/nwspk/politech-awards-2026/pull/75) | Nicholas Botti | AlgorithmWatch |
 | [#79](https://github.com/nwspk/politech-awards-2026/pull/79) | Tuna Acisu | Gapminder Worldview Upgrader (100 — only perfect score in cohort) |
 
@@ -89,7 +89,7 @@ Full ranking (all 321 projects): [committee-ranking.csv](https://github.com/nwsp
 
 ## Methodology
 
-- **Score:** each fellow’s constitutional score (0–100) from their mirror run; **synthetic Emily agent** contributes only the scores in `ranking-table.csv` (same underlying run as the cohort; not recomputed here).
+- **Score:** each fellow’s constitutional score (0–100) from their mirror run; **synthetic Harbour agent** contributes only the scores in `ranking-table.csv` (same underlying run as the cohort; not recomputed here).
 - **Aggregation:** simple mean across all inputs that scored the project.
 - **Coverage:** 321 projects total; 319 scored by all 18 inputs, 2 scored by fewer (URL deduplication across Alessandro and Davit’s CSVs).
 - **Not included:** jury medians for aggregation — constitutional scores only.
