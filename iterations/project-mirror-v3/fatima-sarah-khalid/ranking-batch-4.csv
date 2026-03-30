@@ -1,0 +1,80 @@
+rank,project_name,url,score,criteria_score,mod_adj,completeness,c1,c2,c3,c4,c5,c6,c7,rationale
+241,OA.Report,https://oa.report,39.6,39.6,0,0.58,11,0,20,2,2,18,4,V3 implementation-first. Top driver: gov legibility.
+242,MyActionCenter,https://www.myaction.center,39.6,39.6,0,0.58,10,0,21,2,3,18,3,V3 implementation-first. Top driver: gov legibility.
+243,Objector.ai,https://www.objector.ai,39.6,39.6,0,0.58,10,0,25,2,2,15,3,V3 implementation-first. Top driver: gov legibility.
+244,PoliMonitor,https://www.polimonitor.com,39.6,39.6,0,0.58,10,0,21,2,3,18,3,V3 implementation-first. Top driver: gov legibility.
+245,Responsible Tech Guide 2025,https://alltechishuman.org/responsible-tech-guide-2025,39.6,39.6,0,0.58,9,2,14,2,2,23,5,V3 implementation-first. Top driver: community tech infra.
+246,Organise,https://www.organise.org.uk,39.6,39.6,0,0.67,8,2,21,2,3,18,3,V3 implementation-first. Top driver: gov legibility.
+247,UrbanistAI,https://site.urbanistai.com,39.3,33.3,6,0.67,10,0,14,2,2,16,4,V3 implementation-first. Top driver: community tech infra. M_IMPL: 1 government partner(s) boost.
+248,Local Insight,https://localinsight.org,39.3,33.3,6,0.67,9,0,13,2,3,18,3,V3 implementation-first. Top driver: community tech infra. M_IMPL: 1 government partner(s) boost.
+249,Full Fact AI,https://fullfact.org/ai,39.3,33.3,6,0.75,8,2,12,2,3,16,5,V3 implementation-first. Top driver: community tech infra. M_IMPL: 1 government partner(s) boost.
+250,Granicus,https://granicus.com/uk,39.3,33.3,6,0.75,8,0,15,2,3,15,5,V3 implementation-first. Top driver: gov legibility. M_IMPL: 1 government partner(s) boost.
+251,DemTech Navigator,https://navigator.oii.ox.ac.uk,38.9,38.9,0,0.58,11,0,13,2,2,23,5,V3 implementation-first. Top driver: community tech infra.
+252,ShineYourEye,https://www.shineyoureye.org,38.9,38.9,0,0.58,10,0,21,2,2,18,3,V3 implementation-first. Top driver: gov legibility.
+253,Kialo,https://kialo.com,38.9,38.9,0,0.58,9,2,21,2,2,15,5,V3 implementation-first. Top driver: gov legibility.
+254,Open Letter,https://openletter.earth,38.9,38.9,0,0.5,8,0,21,2,2,18,5,V3 implementation-first. Top driver: gov legibility.
+255,DeepSeek-V3,https://github.com/deepseek-ai/deepseek-v3,38.9,38.9,0,0.83,4,14,12,2,3,15,6,V3 implementation-first. Top driver: community tech infra.
+256,Plinth,https://www.plinth.org.uk,38.6,32.6,6,0.67,9,0,13,2,5,15,3,V3 implementation-first. Top driver: community tech infra. M_IMPL: 2 government partner(s) boost.
+257,Digital Account Management Toolkit,https://digitalcharitylab.org/product/digital-account-management-toolkit,38.2,38.2,0,0.58,11,0,13,2,3,23,3,V3 implementation-first. Top driver: community tech infra.
+258,Nestr,https://nestr.io,38.2,38.2,0,0.58,10,0,21,2,2,15,5,V3 implementation-first. Top driver: gov legibility.
+259,GovWise,https://www.govwise.ai/en,37.9,31.9,6,0.75,10,0,13,2,3,15,3,V3 implementation-first. Top driver: community tech infra. M_IMPL: 1 government partner(s) boost.
+260,Gender Pay Gap Service,https://gender-pay-gap.service.gov.uk,37.9,31.9,6,0.67,8,0,13,2,2,18,3,V3 implementation-first. Top driver: community tech infra. M_IMPL: 1 government partner(s) boost.
+261,PlanIT,https://planit.org.uk,37.9,31.9,6,0.75,5,0,17,2,1,18,3,V3 implementation-first. Top driver: community tech infra. M_IMPL: 2 government partner(s) boost.
+262,PolicyMogul,https://policymogul.com,37.5,37.5,0,0.58,8,0,21,2,2,18,3,V3 implementation-first. Top driver: gov legibility.
+263,Open Council Data UK,https://opencouncildata.co.uk,37.5,37.5,0,0.58,6,0,22,2,3,18,3,V3 implementation-first. Top driver: gov legibility.
+264,FarmerChat,https://farmerchat.digitalgreen.org,36.8,36.8,0,0.58,16,2,12,2,2,15,4,V3 implementation-first. Top driver: accessibility.
+265,FixMyBlock,https://fixmyblock.org,36.8,36.8,0,0.58,16,0,12,2,2,18,3,V3 implementation-first. Top driver: community tech infra.
+266,Community Tech,https://www.communitytech.network,36.8,36.8,0,0.58,11,0,17,2,2,18,3,V3 implementation-first. Top driver: community tech infra.
+267,Timecounts,https://timecounts.org,36.8,36.8,0,0.58,11,0,16,2,3,18,3,V3 implementation-first. Top driver: community tech infra.
+268,Viewpoints,https://viewpoints.xyz,36.8,36.8,0,0.58,10,2,16,2,3,16,4,V3 implementation-first. Top driver: gov legibility.
+269,Vote for Policies,https://voteforpolicies.org.uk,36.1,36.1,0,0.58,10,2,13,2,4,18,3,V3 implementation-first. Top driver: community tech infra.
+270,The Commons Social Change Library,https://commonslibrary.org,36.1,36.1,0,0.58,10,0,16,2,2,18,4,V3 implementation-first. Top driver: community tech infra.
+271,Nook CRM,https://nookcrm.com,36.1,36.1,0,0.67,9,3,15,2,2,18,3,V3 implementation-first. Top driver: community tech infra.
+272,Shared Digital Guides,https://www.shareddigitalguides.org.uk,36.1,36.1,0,0.58,8,6,13,2,2,18,3,V3 implementation-first. Top driver: community tech infra.
+273,Missing Numbers,https://missingnumbers.org,36.1,36.1,0,0.58,6,0,21,2,2,18,3,V3 implementation-first. Top driver: gov legibility.
+274,UK Parliament Developer Portal,https://developer.parliament.uk,35.9,29.9,6,0.67,4,0,15,2,1,18,3,V3 implementation-first. Top driver: community tech infra. M_IMPL: 1 government partner(s) boost.
+275,Deliberation & Technology (DelibTech) Network,https://www.demnext.org/projects/delibtech-network,35.4,35.4,0,0.58,10,2,14,2,3,15,5,V3 implementation-first. Top driver: community tech infra.
+276,Turbo Phonebank,https://turbophonebank.com,35.4,35.4,0,0.58,10,2,13,2,3,18,3,V3 implementation-first. Top driver: community tech infra.
+277,RightDD,https://www.rightsdd.com,34.7,34.7,0,0.58,11,0,12,2,3,18,4,V3 implementation-first. Top driver: community tech infra.
+278,Worker Info Exchange,https://www.workerinfoexchange.org,34.7,34.7,0,0.58,11,0,13,2,3,18,3,V3 implementation-first. Top driver: community tech infra.
+279,Society for Hopeful Technologists,https://societyforhopefultechnologists.org,34.7,34.7,0,0.67,10,2,12,2,3,18,3,V3 implementation-first. Top driver: community tech infra.
+280,WardWatch,https://wardwatch.uk,34.7,34.7,0,0.58,10,0,17,2,3,15,3,V3 implementation-first. Top driver: gov legibility.
+281,PostBug,https://postbug.com,34.7,34.7,0,0.58,8,0,16,2,3,18,3,V3 implementation-first. Top driver: community tech infra.
+282,Understanding Your Morality,https://programs.clearerthinking.org/understanding-your-morality/,34.7,34.7,0,0.58,8,0,15,2,2,18,5,V3 implementation-first. Top driver: community tech infra.
+283,The List,https://the-list.uk,34.0,34.0,0,0.58,10,2,12,2,2,18,3,V3 implementation-first. Top driver: community tech infra.
+284,Mapping.kids,https://mapping.kids,34.0,34.0,0,0.42,10,0,12,2,2,18,5,V3 implementation-first. Top driver: community tech infra.
+285,CivicMatch,https://civicmatch.app,34.0,34.0,0,0.5,8,0,15,2,3,18,3,V3 implementation-first. Top driver: community tech infra.
+286,Spartacus,https://spartacus.app,34.0,34.0,0,0.58,8,0,16,2,2,18,3,V3 implementation-first. Top driver: community tech infra.
+287,Dovetail,https://dovetail.network,33.3,33.3,0,0.58,11,0,12,2,2,18,3,V3 implementation-first. Top driver: community tech infra.
+288,Right To Know,https://right-to-know.org,33.3,33.3,0,0.58,11,0,12,2,2,18,3,V3 implementation-first. Top driver: community tech infra.
+289,Remember to Vote,https://remembertovote.org.uk,33.3,33.3,0,0.58,10,0,13,2,2,18,3,V3 implementation-first. Top driver: community tech infra.
+290,Public Media Stack,https://publicmediastack.com,33.3,33.3,0,0.58,9,0,12,2,2,18,5,V3 implementation-first. Top driver: community tech infra.
+291,The Guide to Major Trusts 2025/26,https://www.dsc.org.uk/publication/the-guide-to-major-trusts-2025-26/,33.3,33.3,0,0.58,9,0,12,2,4,18,3,V3 implementation-first. Top driver: community tech infra.
+292,Watch Duty,https://www.watchduty.org,33.3,33.3,0,0.58,9,0,13,2,3,18,3,V3 implementation-first. Top driver: community tech infra.
+293,Keep It In The Community,https://plunkett.my.site.com/keepitinthecommunity/s,33.3,33.3,0,0.58,8,2,12,2,3,18,3,V3 implementation-first. Top driver: community tech infra.
+294,Empurrando Juntas (EJ),https://sobre.ejparticipe.org,32.6,32.6,0,0.58,10,0,14,2,3,15,3,V3 implementation-first. Top driver: community tech infra.
+295,Global Fact-Check Bot (GFC),https://globalfactcheck.bot/,32.6,32.6,0,0.67,9,5,8,2,3,15,5,V3 implementation-first. Top driver: community tech infra.
+296,DoNotPay,https://www.donotpay.com,32.6,32.6,0,0.67,9,3,12,2,2,15,4,V3 implementation-first. Top driver: community tech infra.
+297,Citizens Advice Tableau Public Profile,https://public.tableau.com/app/profile/citizensadvice/vizzes,32.6,32.6,0,0.58,9,0,12,2,3,18,3,V3 implementation-first. Top driver: community tech infra.
+298,Registers and collaboration: making lists we can trust,https://theodi.org/insights/reports/registers-and-collaboration-making-lists-we-can-trust-report,32.6,32.6,0,0.58,9,0,13,2,2,18,3,V3 implementation-first. Top driver: community tech infra.
+299,Collab.Land,https://collab.land,32.6,32.6,0,0.58,8,0,12,2,2,18,5,V3 implementation-first. Top driver: community tech infra.
+300,Who Targets Me Trends,https://trends.whotargets.me,32.6,32.6,0,0.67,6,2,12,2,3,18,4,V3 implementation-first. Top driver: community tech infra.
+301,Dunadyne,https://dunadyne.org,32.6,32.6,0,0.58,3,2,12,2,2,21,5,V3 implementation-first. Top driver: community tech infra.
+302,Local Deep Researcher,https://local-deep-researcher-hnmh.vercel.app/,31.9,31.9,0,0.42,8,0,12,2,1,18,5,V3 implementation-first. Top driver: community tech infra.
+303,OpenAudience,https://openaudience.org,31.9,31.9,0,0.58,8,0,13,2,2,18,3,V3 implementation-first. Top driver: community tech infra.
+304,Public Editor,https://www.publiceditor.io,31.9,31.9,0,0.58,8,0,12,2,1,18,5,V3 implementation-first. Top driver: community tech infra.
+305,WorkInCharities,https://www.workincharities.co.uk,31.9,31.9,0,0.58,8,0,12,2,3,18,3,V3 implementation-first. Top driver: community tech infra.
+306,Whoisology,https://whoisology.com,31.9,31.9,0,0.58,6,0,13,2,2,18,5,V3 implementation-first. Top driver: community tech infra.
+307,The Decelerator,https://decelerator.org.uk,31.2,31.2,0,0.58,10,0,12,2,2,15,4,V3 implementation-first. Top driver: community tech infra.
+308,DoGooder,https://dogooder.co,31.2,31.2,0,0.5,8,0,12,2,1,18,4,V3 implementation-first. Top driver: community tech infra.
+309,We Live It,https://www.welivedit.ai,31.2,31.2,0,0.58,8,0,12,2,3,15,5,V3 implementation-first. Top driver: community tech infra.
+310,Who Posted What?,https://whopostedwhat.com,31.2,31.2,0,0.58,6,0,12,2,4,18,3,V3 implementation-first. Top driver: community tech infra.
+311,Overton,https://overton.io,31.2,31.2,0,0.58,3,0,20,2,2,15,3,V3 implementation-first. Top driver: gov legibility.
+312,Conservative Party Funding,https://conservativepartyfunding.co.uk,30.6,30.6,0,0.58,6,0,12,2,3,18,3,V3 implementation-first. Top driver: community tech infra.
+313,The Accountability Project,https://publicaccountability.org,30.6,30.6,0,0.58,6,0,13,2,2,18,3,V3 implementation-first. Top driver: community tech infra.
+314,Filmot,https://filmot.com,30.6,30.6,0,0.58,5,0,12,2,2,18,5,V3 implementation-first. Top driver: community tech infra.
+315,Prolific,https://www.prolific.com,30.6,30.6,0,0.67,4,0,12,4,3,16,5,V3 implementation-first. Top driver: community tech infra.
+316,Yoti,https://www.yoti.com,30.3,24.3,6,0.75,9,0,13,2,3,5,3,V3 implementation-first. Top driver: gov legibility. M_IMPL: 1 government partner(s) boost.
+317,Unknown Academic Paper (SSRN 5351275),https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5351275,29.2,29.2,0,0.25,8,0,12,2,1,18,1,V3 implementation-first. Top driver: community tech infra.
+318,Violation Tracker UK,https://violationtrackeruk.goodjobsfirst.org,27.8,27.8,0,0.58,4,0,12,2,1,18,3,V3 implementation-first. Top driver: community tech infra.
+319,OpenOrigins,https://www.openorigins.com,22.9,22.9,0,0.58,3,0,6,2,2,15,5,V3 implementation-first. Top driver: community tech infra.
