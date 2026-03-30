@@ -1,49 +1,27 @@
-# Status: Project Mirror v5 — Fatima Sarah Khalid
-## Agent: fatima-v5
-## Last updated: 2026-03-30
+# Status: project-mirror-v5/fatima-sarah-khalid
 
----
+## Run: v5 (agency-first)
+**Date:** 2026-03-30
+**Status:** COMPLETE
 
-## Current status: COMPLETE
+## Completed Steps
+- [x] V2 constitution and evidence fetched from branch project-mirror-v2/fatima-sarah-khalid
+- [x] V5 constitution built: weights updated per Fatima's feedback, agency-first framing applied, M_AGENCY added
+- [x] 321 projects scored
+- [x] Ranking batches 1-4 written
+- [x] Ranking table (321 rows, sorted by score desc) written
+- [x] Reflection and agent notes written
 
-All pipeline stages complete. Branch pushed. PR open.
+## Winner: Bonfire (83.3)
 
----
-
-## Stage log
-
-| Stage | Status | Notes |
-|---|---|---|
-| Fetch v2 files | DONE | constitution, criteria, modifiers, evidence-assessed, ranking-table fetched from v2 branch |
-| Load enriched dossiers | DONE | 322 projects in /data/enriched/ |
-| Build v5 constitution | DONE | Agency-first framing; C6 promoted to 30; C5 demoted to 6; M_AGENCY added |
-| Score all 322 projects | DONE | 322/322 scored; 3 field errors caught and corrected in second pass |
-| Tie-breaking applied | DONE | Mastodon wins (C1=30 > CONSUL's C1=25) |
-| Batch CSVs written | DONE | 4 batches: 80/81/80/81 projects |
-| reflection.md | DONE | v2 vs v5 comparison; 5 biggest movers with rationale |
-| agent-notes.md | DONE | Open questions for v4 synthesis flagged |
-| Branch created | DONE | project-mirror-v5/fatima-sarah-khalid |
-| Files pushed | DONE | |
-| PR opened | DONE | |
-
----
-
-## Winner
-
-**Mastodon** — score 100.0
-
-Wins on tie-breaking over CONSUL Democracy (also 100.0) by C1 score: Mastodon explicitly serves marginalized communities (C1=30); CONSUL Democracy scores 25 on C1.
-
-## Top 5
-
-1. Mastodon — 100.0
-2. CONSUL Democracy — 100.0
-3. Abstract Wikipedia — 100.0
-4. CiviCRM — 99.8
-5. Alaveteli — 99.8
-
-## Biggest mover up
-Security First / Umbrella: v2 rank 154 → v5 rank 15 (+139)
-
-## Biggest mover down
-Talk to the City: v2 rank 34 → v5 rank 222 (-188)
+## Top 10
+1. Bonfire (83.3)
+2. CONSUL Democracy
+3. LiquidFeedback
+4. Open Data Editor (ODE)
+5. Polis
+6. Decidim
+7. Alaveteli
+8. Cobudget
+9. Open Standards for Data Guidebook
+10. adhocracy+
