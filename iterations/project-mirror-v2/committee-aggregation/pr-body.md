@@ -7,7 +7,7 @@ This is the **committee-level aggregation** for Project Mirror v2 — the synthe
 
 **Excluded from this aggregate:** **[#84](https://github.com/nwspk/politech-awards-2026/pull/84) (Hannah O'Rourke)** — mirror PR was experimental / not part of the cohort aggregate.
 
-Each score below is the simple mean of the **18** constitutional scores (or precomputed constitutional scores from the synthetic agent’s ranking table) for that project.
+Each score below is the simple mean of the **18** constitutional scores (or precomputed constitutional scores from the synthetic agent's ranking table) for that project.
 
 Individual mirror PRs stay open for cohort feedback and amendments.
 
@@ -15,7 +15,7 @@ Individual mirror PRs stay open for cohort feedback and amendments.
 
 ## Committee Winner
 
-**LiquidFeedback** — avg score 63.84 across all 18 inputs (stdev 14.5)
+**LiquidFeedback** — avg score 65.27 across all 18 inputs (stdev 14.6)
 
 ---
 
@@ -25,7 +25,7 @@ Individual mirror PRs stay open for cohort feedback and amendments.
 |-------------|--------|----------------------|
 | [#73](https://github.com/nwspk/politech-awards-2026/pull/73) | Aadi Kulkarni | OpenCRVS |
 | [#82](https://github.com/nwspk/politech-awards-2026/pull/82) | Alessandro Pedori | Decidim |
-| [#83](https://github.com/nwspk/politech-awards-2026/pull/83) | Alexandra Ciocanel | AlgorithmWatch |
+| [#83](https://github.com/nwspk/politech-awards-2026/pull/83) / [#94](https://github.com/nwspk/politech-awards-2026/pull/94) | Alexandra Ciocanel | Worker Info Exchange (94.7) **(v3)** |
 | [#87](https://github.com/nwspk/politech-awards-2026/pull/87) | Asil Sidahmed | Ushahidi |
 | [#85](https://github.com/nwspk/politech-awards-2026/pull/85) | Chris Owen | Humble Data Workshop |
 | [#81](https://github.com/nwspk/politech-awards-2026/pull/81) | Safeguard | AlgorithmWatch |
@@ -36,40 +36,40 @@ Individual mirror PRs stay open for cohort feedback and amendments.
 | [#88](https://github.com/nwspk/politech-awards-2026/pull/88) | Francesca Galli | mySociety Datasets and APIs |
 | [#72](https://github.com/nwspk/politech-awards-2026/pull/72) | Beacon | Open Heart Mind |
 | [#68](https://github.com/nwspk/politech-awards-2026/pull/68) | Gamithra Marga | Bonfire |
-| [#74](https://github.com/nwspk/politech-awards-2026/pull/74) | Huda Abdirahim | Aragon |
+| [#74](https://github.com/nwspk/politech-awards-2026/pull/74) / [#98](https://github.com/nwspk/politech-awards-2026/pull/98) | Huda Abdirahim | Ethelo (68.9) **(v3)** |
 | [#70](https://github.com/nwspk/politech-awards-2026/pull/70) | Jamie Coombes | Interoperable Deliberative Tools |
 | [#80](https://github.com/nwspk/politech-awards-2026/pull/80) | Signal | Martus |
-| [#75](https://github.com/nwspk/politech-awards-2026/pull/75) | Nicholas Botti | AlgorithmWatch |
+| [#75](https://github.com/nwspk/politech-awards-2026/pull/75) / [#97](https://github.com/nwspk/politech-awards-2026/pull/97) | Nicholas Botti | Polis (94.4) **(v3)** |
 | [#79](https://github.com/nwspk/politech-awards-2026/pull/79) | Prism (codename) | Gapminder Worldview Upgrader (100 — only perfect score in cohort) |
 
 ---
 
 ## Top 20 — Committee Ranking
 
-Sorted by average score across all 18 inputs. Coverage = number of inputs that scored the project (319 of 321 projects scored by all 18).
+Sorted by average score across all 18 inputs. Coverage = number of inputs that scored the project (311 of 321 projects scored by all 18).
 
 | Rank | Project | Avg Score | Stdev | Coverage |
 |------|---------|-----------|-------|----------|
-| 1 | LiquidFeedback | 63.84 | 14.5 | 18 |
-| 2 | mySociety Datasets and APIs | 61.81 | 12.3 | 18 |
-| 3 | Open Data Editor (ODE) | 61.14 | 13.5 | 18 |
-| 4 | Open Supply Hub | 59.08 | 13.5 | 18 |
-| 5 | Decidim | 58.86 | 14.6 | 18 |
-| 6 | Alaveteli | 58.66 | 12.7 | 18 |
-| 7 | CONSUL Democracy | 58.62 | 15.3 | 18 |
-| 8 | Bonfire | 57.54 | 13.1 | 18 |
-| 9 | ODK (Open Data Kit) | 56.56 | 12.5 | 18 |
-| 10 | Polis | 56.52 | 17.0 | 18 |
-| 11 | Open Council Network | 55.81 | 12.1 | 18 |
-| 12 | HURIDOCS | 55.79 | 14.9 | 18 |
-| 13 | Participedia | 55.63 | 12.3 | 18 |
-| 14 | Open Digital Planning | 55.42 | 13.6 | 18 |
-| 15 | AlgorithmWatch | 55.33 | 19.7 | 18 |
-| 16 | Guardian Project | 54.83 | 15.5 | 18 |
-| 17 | Mastodon | 54.81 | 15.5 | 18 |
-| 18 | Ushahidi | 54.76 | 10.7 | 18 |
-| 19 | CiviCRM | 54.75 | 12.2 | 18 |
-| 20 | Open Contracting Partnership | 54.72 | 13.9 | 18 |
+| 1 | LiquidFeedback | 65.27 | 14.6 | 18 |
+| 2 | Open Data Editor (ODE) | 61.74 | 16.2 | 18 |
+| 3 | Decidim | 61.34 | 15.0 | 18 |
+| 4 | mySociety Datasets and APIs | 60.97 | 14.8 | 18 |
+| 5 | CONSUL Democracy | 60.91 | 15.4 | 18 |
+| 6 | Alaveteli | 59.42 | 13.5 | 18 |
+| 7 | Polis | 57.88 | 17.5 | 18 |
+| 8 | Bonfire | 57.56 | 12.8 | 18 |
+| 9 | HURIDOCS | 57.41 | 16.1 | 18 |
+| 10 | Open Supply Hub | 57.24 | 16.4 | 18 |
+| 11 | ODK (Open Data Kit) | 56.87 | 14.5 | 18 |
+| 12 | Guardian Project | 56.87 | 18.3 | 18 |
+| 13 | OpenCRVS | 56.71 | 17.3 | 18 |
+| 14 | Ushahidi | 56.27 | 11.9 | 18 |
+| 15 | Aleph (OCCRP) | 55.85 | 15.8 | 18 |
+| 16 | Open Contracting Partnership | 55.74 | 15.4 | 18 |
+| 17 | Open Digital Planning | 55.72 | 14.9 | 18 |
+| 18 | adhocracy+ | 55.69 | 10.8 | 18 |
+| 19 | Citizen OS | 55.64 | 14.7 | 18 |
+| 20 | Participedia | 55.58 | 13.9 | 18 |
 
 Full ranking (all 321 projects): [committee-ranking.csv](https://github.com/nwspk/politech-awards-2026/blob/project-mirror-v2/committee-aggregation/iterations/project-mirror-v2/committee-aggregation/committee-ranking.csv)
 
@@ -79,20 +79,21 @@ Full ranking (all 321 projects): [committee-ranking.csv](https://github.com/nwsp
 
 | Project | Stdev | Avg | Coverage |
 |---------|-------|-----|----------|
-| AlgorithmWatch | 19.7 | 55.33 | 18 |
-| Political Advertising Transparency Data Standard | 17.0 | 51.43 | 18 |
-| Polis | 17.0 | 56.52 | 18 |
-| vTaiwan | 16.6 | 50.59 | 18 |
-| Matrix | 16.2 | 53.47 | 18 |
+| AlgorithmWatch | 21.1 | 54.40 | 17 |
+| vTaiwan | 18.7 | 53.62 | 18 |
+| Guardian Project | 18.3 | 56.87 | 18 |
+| Political Advertising Transparency Data Standard | 18.3 | 52.07 | 18 |
+| Polis | 17.5 | 57.88 | 18 |
 
 ---
 
 ## Methodology
 
-- **Score:** each fellow’s constitutional score (0–100) from their mirror run; **synthetic Harbour agent** contributes only the scores in `ranking-table.csv` (same underlying run as the cohort; not recomputed here).
+- **Score:** each fellow's constitutional score (0–100) from their mirror run; **synthetic Harbour agent** contributes only the scores in `ranking-table.csv` (same underlying run as the cohort; not recomputed here).
 - **Aggregation:** simple mean across all inputs that scored the project.
-- **Coverage:** 321 projects total; 319 scored by all 18 inputs, 2 scored by fewer (URL deduplication across Alessandro and Davit’s CSVs).
+- **v3 substitutions:** Nicholas Botti ([#97](https://github.com/nwspk/politech-awards-2026/pull/97)), Huda Abdirahim ([#98](https://github.com/nwspk/politech-awards-2026/pull/98)), and Alexandra Ciocanel ([#94](https://github.com/nwspk/politech-awards-2026/pull/94)) have updated constitutions (v3); their v3 `ranking-table.csv` scores are used in this aggregation in place of their v2 scores. All other 15 inputs use v2 scores unchanged.
+- **Coverage:** 321 projects total; 311 scored by all 18 inputs, 10 scored by fewer (name normalisation across v2/v3 CSVs, plus 2 placeholder/unknown entries with structurally limited coverage).
 - **Not included:** jury medians for aggregation — constitutional scores only.
-- **Excluded:** Hannah O’Rourke ([#84](https://github.com/nwspk/politech-awards-2026/pull/84)) — not part of this aggregate.
+- **Excluded:** Hannah O'Rourke ([#84](https://github.com/nwspk/politech-awards-2026/pull/84)) — not part of this aggregate.
 
-This is v1 of the committee score. After fellows review and amend their individual PRs, a v2 re-aggregation can incorporate any updated scores.
+This is v10 of the committee score, incorporating v3 rankings for Nicholas Botti, Huda Abdirahim, and Alexandra Ciocanel.
