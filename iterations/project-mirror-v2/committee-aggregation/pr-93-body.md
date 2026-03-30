@@ -42,17 +42,17 @@ _Overlap scores use **Jaccard similarity** on word tokens (length ≥ 4) from Pa
 | Alexandra Ciocanel | 6 | 6 | 0 | split A/B/C files |
 | Asil Sidahmed | 7 | 6 | 1 | split A/B/C files |
 | Chris Owen | 7 | 6 | 8 | split A/B/C files |
-| Connor Dunlop | 7 | 6 | 0 | split A/B/C files |
+| Safeguard | 7 | 6 | 0 | split A/B/C files |
 | David Powell | 7 | 6 | 0 | split A/B/C files |
 | Davit Jintcharadze | 7 | 6 | 0 | single `constitution.md` |
 | Fatima Sarah Khalid | 7 | 6 | 8 | split A/B/C files |
 | Francesca Galli | 7 | 6 | 0 | single `constitution.md` |
-| Frederick O'Brien | 6 | 6 | 0 | split A/B/C files |
+| Beacon | 6 | 6 | 0 | split A/B/C files |
 | Gamithra Marga | 7 | 6 | 0 | split A/B/C files |
 | Hannah O'Rourke | 7 | 6 | 9 | split A/B/C files |
 | Huda Abdirahim | 7 | 6 | 2 | split A/B/C files |
 | Jamie Coombes | 7 | 6 | 9 | split A/B/C files |
-| Martina Orlea | 6 | 6 | 0 | split A/B/C files |
+| Signal | 6 | 6 | 0 | split A/B/C files |
 | Nicholas Botti | 7 | 6 | 6 | split A/B/C files |
 | Tuna Acisu | 8 | 7 | 8 | split A/B/C files |
 
@@ -65,17 +65,17 @@ _Overlap scores use **Jaccard similarity** on word tokens (length ≥ 4) from Pa
 | Alexandra Ciocanel | 3 | 3 | 0 | 0 |
 | Asil Sidahmed | 3 | 2 | 1 | 0 |
 | Chris Owen | 3 | 2 | 1 | 0 |
-| Connor Dunlop | 4 | 2 | 0 | 0 |
+| Safeguard | 4 | 2 | 0 | 0 |
 | David Powell | 3 | 3 | 0 | 0 |
 | Davit Jintcharadze | 3 | 2 | 1 | 0 |
 | Fatima Sarah Khalid | 3 | 2 | 1 | 0 |
 | Francesca Galli | 4 | 2 | 0 | 0 |
-| Frederick O'Brien | 3 | 2 | 1 | 0 |
+| Beacon | 3 | 2 | 1 | 0 |
 | Gamithra Marga | 4 | 2 | 0 | 0 |
 | Hannah O'Rourke | 3 | 3 | 0 | 0 |
 | Huda Abdirahim | 3 | 2 | 1 | 0 |
 | Jamie Coombes | 3 | 2 | 1 | 0 |
-| Martina Orlea | 5 | 1 | 0 | 0 |
+| Signal | 5 | 1 | 0 | 0 |
 | Nicholas Botti | 3 | 2 | 1 | 0 |
 | Tuna Acisu | 4 | 2 | 1 | 0 |
 
@@ -85,24 +85,24 @@ How many fellows have **each theme substring** anywhere in criterion or modifier
 
 | Theme | Fellows (count) | Who (first names) |
 | --- | --- | --- |
-| governance | 13 | Aadi, Alexandra, Asil, Connor, David, Fatima, Frederick, Gamithra +5 |
-| community | 14 | Aadi, Alessandro, Alexandra, Asil, Connor, Fatima, Francesca, Frederick +6 |
+| governance | 13 | Aadi, Alexandra, Asil, Safeguard, David, Fatima, Beacon, Gamithra +5 |
+| community | 14 | Aadi, Alessandro, Alexandra, Asil, Safeguard, Fatima, Francesca, Beacon +6 |
 | democracy | 1 | Francesca |
-| participation | 6 | Alessandro, Chris, Francesca, Frederick, Gamithra, Hannah |
+| participation | 6 | Alessandro, Chris, Francesca, Beacon, Gamithra, Hannah |
 | equity | 2 | Asil, Francesca |
-| access | 12 | Aadi, Asil, Chris, David, Davit, Fatima, Francesca, Frederick +4 |
-| transparency | 7 | David, Francesca, Frederick, Gamithra, Hannah, Huda, Tuna |
-| privacy | 3 | Alessandro, Gamithra, Martina |
+| access | 12 | Aadi, Asil, Chris, David, Davit, Fatima, Francesca, Beacon +4 |
+| transparency | 7 | David, Francesca, Beacon, Gamithra, Hannah, Huda, Tuna |
+| privacy | 3 | Alessandro, Gamithra, Signal |
 | government | 4 | Aadi, David, Fatima, Gamithra |
-| institution | 6 | Asil, Connor, Davit, Frederick, Hannah, Nicholas |
-| deliberative | 1 | Connor |
+| institution | 6 | Asil, Safeguard, Davit, Beacon, Hannah, Nicholas |
+| deliberative | 1 | Safeguard |
 | inclusion | 0 | — |
-| deployment | 8 | Chris, Connor, Davit, Fatima, Hannah, Huda, Jamie, Tuna |
-| open source | 3 | David, Fatima, Martina |
+| deployment | 8 | Chris, Safeguard, Davit, Fatima, Hannah, Huda, Jamie, Tuna |
+| open source | 3 | David, Fatima, Signal |
 | accountability | 8 | Aadi, Alexandra, Asil, Francesca, Hannah, Huda, Nicholas, Tuna |
-| surveillance | 9 | Alexandra, Asil, Davit, Fatima, Frederick, Gamithra, Huda, Jamie +1 |
-| enforcement | 1 | Connor |
-| verification | 1 | Connor |
+| surveillance | 9 | Alexandra, Asil, Davit, Fatima, Beacon, Gamithra, Huda, Jamie +1 |
+| enforcement | 1 | Safeguard |
+| verification | 1 | Safeguard |
 
 ### Most similar rubric wording (Jaccard on title tokens)
 
@@ -114,8 +114,8 @@ How many fellows have **each theme substring** anywhere in criterion or modifier
 | Fatima Sarah Khalid | Nicholas Botti | 0.209 |
 | Fatima Sarah Khalid | Tuna Acisu | 0.2 |
 | Nicholas Botti | Tuna Acisu | 0.195 |
-| Frederick O'Brien | Huda Abdirahim | 0.184 |
-| Fatima Sarah Khalid | Frederick O'Brien | 0.179 |
+| Beacon | Huda Abdirahim | 0.184 |
+| Fatima Sarah Khalid | Beacon | 0.179 |
 | Fatima Sarah Khalid | Hannah O'Rourke | 0.178 |
 | Aadi Kulkarni | Nicholas Botti | 0.175 |
 
@@ -123,13 +123,13 @@ How many fellows have **each theme substring** anywhere in criterion or modifier
 
 | Fellow A | Fellow B | Jaccard |
 | --- | --- | --- |
-| Alexandra Ciocanel | Martina Orlea | 0.019 |
+| Alexandra Ciocanel | Signal | 0.019 |
 | Alessandro Pedori | Hannah O'Rourke | 0.02 |
-| Davit Jintcharadze | Martina Orlea | 0.024 |
-| Francesca Galli | Martina Orlea | 0.032 |
+| Davit Jintcharadze | Signal | 0.024 |
+| Francesca Galli | Signal | 0.032 |
 | Alessandro Pedori | David Powell | 0.037 |
-| Alessandro Pedori | Martina Orlea | 0.038 |
-| Alessandro Pedori | Connor Dunlop | 0.042 |
+| Alessandro Pedori | Signal | 0.038 |
+| Alessandro Pedori | Safeguard | 0.042 |
 | Alessandro Pedori | Tuna Acisu | 0.046 |
 
 ---
@@ -173,13 +173,13 @@ How many fellows have **each theme substring** anywhere in criterion or modifier
 | Chris Owen | 5 | Practical deployment with real users | 14 points (MEDIUM) |
 | Chris Owen | 6 | Political technology connecting to civic participation | 10 points (MEDIUM-LOW) |
 | Chris Owen | 7 | Scalability and cross-context replicability | 8 points (LOW) |
-| Connor Dunlop | 1 | Enforcement and verification infrastructure | 20 |
-| Connor Dunlop | 2 | Participatory and deliberative governance | 20 |
-| Connor Dunlop | 3 | Supply chain and lifecycle governance | 20 |
-| Connor Dunlop | 4 | Institutional and democratic infrastructure | 12 |
-| Connor Dunlop | 5 | International and cross-jurisdictional applicability | 12 |
-| Connor Dunlop | 6 | Evidence quality and research rigour | 12 |
-| Connor Dunlop | 7 | Compute governance and technical infrastructure | 6 |
+| Safeguard | 1 | Enforcement and verification infrastructure | 20 |
+| Safeguard | 2 | Participatory and deliberative governance | 20 |
+| Safeguard | 3 | Supply chain and lifecycle governance | 20 |
+| Safeguard | 4 | Institutional and democratic infrastructure | 12 |
+| Safeguard | 5 | International and cross-jurisdictional applicability | 12 |
+| Safeguard | 6 | Evidence quality and research rigour | 12 |
+| Safeguard | 7 | Compute governance and technical infrastructure | 6 |
 | David Powell | 1 | Organisational structure and governance | 20 |
 | David Powell | 2 | User-centred design for underserved populations | 20 |
 | David Powell | 3 | Real-world adoption and use | 18 |
@@ -208,12 +208,12 @@ How many fellows have **each theme substring** anywhere in criterion or modifier
 | Francesca Galli | 5 | Interdisciplinary approach and creative methodology | MEDIUM — 12 points |
 | Francesca Galli | 6 | Transparency, accountability, and epistemic honesty | MEDIUM — 12 points |
 | Francesca Galli | 7 | Community ownership and local grounding | LOW — 6 points |
-| Frederick O'Brien | 1 | Free and open access to tools — removal of access barriers | high (max 20 pts) |
-| Frederick O'Brien | 2 | Direct benefit to practitioners and communities — not organisations or platforms | high (max 20 pts) |
-| Frederick O'Brien | 3 | Anti-extraction stance — independence from corporate platforms and surveillance infrastructure | high (max 20 pts) |
-| Frederick O'Brien | 4 | Community journalism and democratic participation infrastructure | medium (max 12 pts) |
-| Frederick O'Brien | 5 | Technology in service of human skill — tools that augment, not replace | medium (max 12 pts) |
-| Frederick O'Brien | 6 | Design ethics and intentionality — craft as a political choice | low (max 6 pts) |
+| Beacon | 1 | Free and open access to tools — removal of access barriers | high (max 20 pts) |
+| Beacon | 2 | Direct benefit to practitioners and communities — not organisations or platforms | high (max 20 pts) |
+| Beacon | 3 | Anti-extraction stance — independence from corporate platforms and surveillance infrastructure | high (max 20 pts) |
+| Beacon | 4 | Community journalism and democratic participation infrastructure | medium (max 12 pts) |
+| Beacon | 5 | Technology in service of human skill — tools that augment, not replace | medium (max 12 pts) |
+| Beacon | 6 | Design ethics and intentionality — craft as a political choice | low (max 6 pts) |
 | Gamithra Marga | 1 | Community Ownership and Governance Model | HIGH (20 points) |
 | Gamithra Marga | 2 | Technological Sovereignty / Self-Hosting Capability | HIGH (20 points) |
 | Gamithra Marga | 3 | Anti-Extraction Innovation Design | HIGH (20 points) |
@@ -242,12 +242,12 @@ How many fellows have **each theme substring** anywhere in criterion or modifier
 | Jamie Coombes | 5 | Participatory design and governance model | MEDIUM (12 pts) |
 | Jamie Coombes | 6 | Systemic risk awareness and mitigation orientation | MEDIUM (12 pts) |
 | Jamie Coombes | 7 | Originality and distinctiveness of approach | LOW (6 pts) |
-| Martina Orlea | 1 | Campaign Infrastructure & Effectiveness | HIGH — 20 pts |
-| Martina Orlea | 2 | Information Warfare & Counter-Disinformation | HIGH — 20 pts |
-| Martina Orlea | 3 | Evidence-Based Decision Making | HIGH — 20 pts |
-| Martina Orlea | 4 | Community Organising & Volunteer Mobilisation | MEDIUM — 12 pts |
-| Martina Orlea | 5 | Privacy-Respecting & GDPR-Native Tools | MEDIUM — 12 pts |
-| Martina Orlea | 6 | Cross-Context Transferability | LOW — 6 pts |
+| Signal | 1 | Campaign Infrastructure & Effectiveness | HIGH — 20 pts |
+| Signal | 2 | Information Warfare & Counter-Disinformation | HIGH — 20 pts |
+| Signal | 3 | Evidence-Based Decision Making | HIGH — 20 pts |
+| Signal | 4 | Community Organising & Volunteer Mobilisation | MEDIUM — 12 pts |
+| Signal | 5 | Privacy-Respecting & GDPR-Native Tools | MEDIUM — 12 pts |
+| Signal | 6 | Cross-Context Transferability | LOW — 6 pts |
 | Nicholas Botti | 1 | AI and institutional decision-making safety and alignment | HIGH (max 20 pts) |
 | Nicholas Botti | 2 | Financial stability, regulatory, and institutional infrastructure quality | HIGH (max 20 pts) |
 | Nicholas Botti | 3 | Complexity-aware and epistemically honest methodology | HIGH (max 20 pts) |
@@ -302,12 +302,12 @@ How many fellows have **each theme substring** anywhere in criterion or modifier
 | Chris Owen | 4 | Boost for open, replicable educational materials | boost | moderate (+5-10 pts); cap at +3 when C3 >= 18 |
 | Chris Owen | 5 | Protect early-stage projects serving excluded populations | boost (conditional) | mild (+2-5 pts) |
 | Chris Owen | 6 | Reduce for tech-centric framing over people-centric framing | reduce | mild (-2-5 pts) |
-| Connor Dunlop | 1 | Technical enforcement boost | boost | +8 to +14 |
-| Connor Dunlop | 2 | Voluntary-only reduction | reduce | -8 to -12 |
-| Connor Dunlop | 3 | Precautionary design boost | boost | +5 to +9 |
-| Connor Dunlop | 4 | Community co-governance boost | boost | +4 to +8 |
-| Connor Dunlop | 5 | Power concentration reduction | reduce | -10 to -15 |
-| Connor Dunlop | 6 | Post-deployment monitoring boost | boost (weak) | +3 to +6 |
+| Safeguard | 1 | Technical enforcement boost | boost | +8 to +14 |
+| Safeguard | 2 | Voluntary-only reduction | reduce | -8 to -12 |
+| Safeguard | 3 | Precautionary design boost | boost | +5 to +9 |
+| Safeguard | 4 | Community co-governance boost | boost | +4 to +8 |
+| Safeguard | 5 | Power concentration reduction | reduce | -10 to -15 |
+| Safeguard | 6 | Post-deployment monitoring boost | boost (weak) | +3 to +6 |
 | David Powell | 1 | Cooperative/non-profit structure boost | boost | +6 to +12 points |
 | David Powell | 2 | VC-backed/founder-enrichment penalty | reduce | −6 to −10 points |
 | David Powell | 3 | Accessibility for vulnerable users boost | boost | +4 to +8 points |
@@ -332,12 +332,12 @@ How many fellows have **each theme substring** anywhere in criterion or modifier
 | Francesca Galli | 4 | Penalise digitising power without challenging it: -5 to -8 pts | reduce (from title) | -5 to -8 pts |
 | Francesca Galli | 5 | Boost visible self-critique/epistemic honesty: +3 to +5 pts | boost (from title) | — |
 | Francesca Galli | 6 | Boost European/Italian civic tech: +3 to +5 pts | boost (from title) | — |
-| Frederick O'Brien | 1 | Boost — tools built for practitioners who have no existing alternatives | boost | strong (+8–12 points) |
-| Frederick O'Brien | 2 | Reduce — extractive platform capture or surveillance-adjacent architecture | reduce | strong (−8–12 points) |
-| Frederick O'Brien | 3 | Boost — community ownership or governance — power to practitioners not institutions | boost | moderate (+5–8 points) |
-| Frederick O'Brien | 4 | Reduce — tools that automate civic judgment or replace human decision-making | reduce | moderate (−5–8 points) |
-| Frederick O'Brien | 5 | Boost — equitable economics for creative and media workers | boost | moderate (+4–7 points) |
-| Frederick O'Brien | 6 | Boost — epistemic humility and prototype transparency | boost (conditional — applies only when combined with genuine innovative design) | weak (+3–5 points) |
+| Beacon | 1 | Boost — tools built for practitioners who have no existing alternatives | boost | strong (+8–12 points) |
+| Beacon | 2 | Reduce — extractive platform capture or surveillance-adjacent architecture | reduce | strong (−8–12 points) |
+| Beacon | 3 | Boost — community ownership or governance — power to practitioners not institutions | boost | moderate (+5–8 points) |
+| Beacon | 4 | Reduce — tools that automate civic judgment or replace human decision-making | reduce | moderate (−5–8 points) |
+| Beacon | 5 | Boost — equitable economics for creative and media workers | boost | moderate (+4–7 points) |
+| Beacon | 6 | Boost — epistemic humility and prototype transparency | boost (conditional — applies only when combined with genuine innovative design) | weak (+3–5 points) |
 | Gamithra Marga | 1 | Ecstatic / Embodied / Joyful Technology Boost | boost | moderate (+5–10 points) |
 | Gamithra Marga | 2 | Platforms-as-Infrastructure / Open Protocol Boost | boost | strong (+8–12 points) |
 | Gamithra Marga | 3 | VC / Surveillance / Extraction Penalty | reduce | strong (−10–15 points) |
@@ -362,12 +362,12 @@ How many fellows have **each theme substring** anywhere in criterion or modifier
 | Jamie Coombes | 4 | Participatory governance signal boost | Boost | Moderate (+5–8 pts) |
 | Jamie Coombes | 5 | Thin-evidence prototype protection | Conditional (floor, not boost) | Moderate — sets uncertainty floor at 28 pts when applicable |
 | Jamie Coombes | 6 | AI ethics rhetoric without mechanism penalty | Reduce | Weak (−4–7 pts) |
-| Martina Orlea | 1 | Progressive Values Alignment | boost (from title) | +2 to +8 |
-| Martina Orlea | 2 | Practitioner-Built Credibility | boost (from title) | +2 to +6 |
-| Martina Orlea | 3 | Multi-Channel Strategy Support | boost (from title) | +1 to +5 |
-| Martina Orlea | 4 | Bot/Automation Scepticism Penalty | reduce (from title) | -3 to -8 |
-| Martina Orlea | 5 | Scalability Evidence Bonus | boost (from title) | +2 to +6 |
-| Martina Orlea | 6 | Open Source / Accessibility Bonus | boost (from title) | +1 to +4 |
+| Signal | 1 | Progressive Values Alignment | boost (from title) | +2 to +8 |
+| Signal | 2 | Practitioner-Built Credibility | boost (from title) | +2 to +6 |
+| Signal | 3 | Multi-Channel Strategy Support | boost (from title) | +1 to +5 |
+| Signal | 4 | Bot/Automation Scepticism Penalty | reduce (from title) | -3 to -8 |
+| Signal | 5 | Scalability Evidence Bonus | boost (from title) | +2 to +6 |
+| Signal | 6 | Open Source / Accessibility Bonus | boost (from title) | +1 to +4 |
 | Nicholas Botti | 1 | Boost — Human-in-the-loop governance and judgment preservation | boost | moderate (+6–10 points) |
 | Nicholas Botti | 2 | Reduce — Surveillance, opacity, or concentration of power without accountability | reduce | moderate to strong (−8–15 points) |
 | Nicholas Botti | 3 | Boost — Explicit complexity acknowledgment and failure mode documentation | boost | weak to moderate (+3–6 points) |
@@ -454,6 +454,8 @@ How many fellows have **each theme substring** anywhere in criterion or modifier
 | Tuna Acisu | 8 | Scope of concern | Geographic scope does not determine base score. A project addressing UK parliamentary transparency can score as highly as a global data p… |
 
 </details>
+
+The synthetic Harbour input is rankings-only in-repo — no constitution text.
 
 ### After fellow PRs change
 

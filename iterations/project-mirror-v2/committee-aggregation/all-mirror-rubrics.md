@@ -202,9 +202,9 @@ Full prose: mirror PRs or [`all-mirror-constitutions-sections.csv`](./all-mirror
 
 ---
 
-## Connor Dunlop
+## Safeguard
 
-[PR #81](https://github.com/nwspk/politech-awards-2026/pull/81) · `project-mirror-v2/connor-dunlop`
+[PR #81](https://github.com/nwspk/politech-awards-2026/pull/81) · `project-mirror-v2/safeguard`
 
 ### Part A — criteria
 
@@ -384,9 +384,9 @@ Full prose: mirror PRs or [`all-mirror-constitutions-sections.csv`](./all-mirror
 
 ---
 
-## Frederick O'Brien
+## Beacon
 
-[PR #72](https://github.com/nwspk/politech-awards-2026/pull/72) · `project-mirror-v2/frederick-obrien`
+[PR #72](https://github.com/nwspk/politech-awards-2026/pull/72) · `project-mirror-v2/beacon`
 
 ### Part A — criteria
 
@@ -575,9 +575,9 @@ Full prose: mirror PRs or [`all-mirror-constitutions-sections.csv`](./all-mirror
 
 ---
 
-## Martina Orlea
+## Signal
 
-[PR #80](https://github.com/nwspk/politech-awards-2026/pull/80) · `project-mirror-v2/martina-orlea`
+[PR #80](https://github.com/nwspk/politech-awards-2026/pull/80) · `project-mirror-v2/signal`
 
 ### Part A — criteria
 
@@ -706,17 +706,17 @@ _Overlap scores use **Jaccard similarity** on word tokens (length ≥ 4) from Pa
 | Alexandra Ciocanel | 6 | 6 | 0 | split A/B/C files |
 | Asil Sidahmed | 7 | 6 | 1 | split A/B/C files |
 | Chris Owen | 7 | 6 | 8 | split A/B/C files |
-| Connor Dunlop | 7 | 6 | 0 | split A/B/C files |
+| Safeguard | 7 | 6 | 0 | split A/B/C files |
 | David Powell | 7 | 6 | 0 | split A/B/C files |
 | Davit Jintcharadze | 7 | 6 | 0 | single `constitution.md` |
 | Fatima Sarah Khalid | 7 | 6 | 8 | split A/B/C files |
 | Francesca Galli | 7 | 6 | 0 | single `constitution.md` |
-| Frederick O'Brien | 6 | 6 | 0 | split A/B/C files |
+| Beacon | 6 | 6 | 0 | split A/B/C files |
 | Gamithra Marga | 7 | 6 | 0 | split A/B/C files |
 | Hannah O'Rourke | 7 | 6 | 9 | split A/B/C files |
 | Huda Abdirahim | 7 | 6 | 2 | split A/B/C files |
 | Jamie Coombes | 7 | 6 | 9 | split A/B/C files |
-| Martina Orlea | 6 | 6 | 0 | split A/B/C files |
+| Signal | 6 | 6 | 0 | split A/B/C files |
 | Nicholas Botti | 7 | 6 | 6 | split A/B/C files |
 | Tuna Acisu | 8 | 7 | 8 | split A/B/C files |
 
@@ -729,17 +729,17 @@ _Overlap scores use **Jaccard similarity** on word tokens (length ≥ 4) from Pa
 | Alexandra Ciocanel | 3 | 3 | 0 | 0 |
 | Asil Sidahmed | 3 | 2 | 1 | 0 |
 | Chris Owen | 3 | 2 | 1 | 0 |
-| Connor Dunlop | 4 | 2 | 0 | 0 |
+| Safeguard | 4 | 2 | 0 | 0 |
 | David Powell | 3 | 3 | 0 | 0 |
 | Davit Jintcharadze | 3 | 2 | 1 | 0 |
 | Fatima Sarah Khalid | 3 | 2 | 1 | 0 |
 | Francesca Galli | 4 | 2 | 0 | 0 |
-| Frederick O'Brien | 3 | 2 | 1 | 0 |
+| Beacon | 3 | 2 | 1 | 0 |
 | Gamithra Marga | 4 | 2 | 0 | 0 |
 | Hannah O'Rourke | 3 | 3 | 0 | 0 |
 | Huda Abdirahim | 3 | 2 | 1 | 0 |
 | Jamie Coombes | 3 | 2 | 1 | 0 |
-| Martina Orlea | 5 | 1 | 0 | 0 |
+| Signal | 5 | 1 | 0 | 0 |
 | Nicholas Botti | 3 | 2 | 1 | 0 |
 | Tuna Acisu | 4 | 2 | 1 | 0 |
 
@@ -749,24 +749,24 @@ How many fellows have **each theme substring** anywhere in criterion or modifier
 
 | Theme | Fellows (count) | Who (first names) |
 | --- | --- | --- |
-| governance | 13 | Aadi, Alexandra, Asil, Connor, David, Fatima, Frederick, Gamithra +5 |
-| community | 14 | Aadi, Alessandro, Alexandra, Asil, Connor, Fatima, Francesca, Frederick +6 |
+| governance | 13 | Aadi, Alexandra, Asil, Safeguard, David, Fatima, Beacon, Gamithra +5 |
+| community | 14 | Aadi, Alessandro, Alexandra, Asil, Safeguard, Fatima, Francesca, Beacon +6 |
 | democracy | 1 | Francesca |
-| participation | 6 | Alessandro, Chris, Francesca, Frederick, Gamithra, Hannah |
+| participation | 6 | Alessandro, Chris, Francesca, Beacon, Gamithra, Hannah |
 | equity | 2 | Asil, Francesca |
-| access | 12 | Aadi, Asil, Chris, David, Davit, Fatima, Francesca, Frederick +4 |
-| transparency | 7 | David, Francesca, Frederick, Gamithra, Hannah, Huda, Tuna |
-| privacy | 3 | Alessandro, Gamithra, Martina |
+| access | 12 | Aadi, Asil, Chris, David, Davit, Fatima, Francesca, Beacon +4 |
+| transparency | 7 | David, Francesca, Beacon, Gamithra, Hannah, Huda, Tuna |
+| privacy | 3 | Alessandro, Gamithra, Signal |
 | government | 4 | Aadi, David, Fatima, Gamithra |
-| institution | 6 | Asil, Connor, Davit, Frederick, Hannah, Nicholas |
-| deliberative | 1 | Connor |
+| institution | 6 | Asil, Safeguard, Davit, Beacon, Hannah, Nicholas |
+| deliberative | 1 | Safeguard |
 | inclusion | 0 | — |
-| deployment | 8 | Chris, Connor, Davit, Fatima, Hannah, Huda, Jamie, Tuna |
-| open source | 3 | David, Fatima, Martina |
+| deployment | 8 | Chris, Safeguard, Davit, Fatima, Hannah, Huda, Jamie, Tuna |
+| open source | 3 | David, Fatima, Signal |
 | accountability | 8 | Aadi, Alexandra, Asil, Francesca, Hannah, Huda, Nicholas, Tuna |
-| surveillance | 9 | Alexandra, Asil, Davit, Fatima, Frederick, Gamithra, Huda, Jamie +1 |
-| enforcement | 1 | Connor |
-| verification | 1 | Connor |
+| surveillance | 9 | Alexandra, Asil, Davit, Fatima, Beacon, Gamithra, Huda, Jamie +1 |
+| enforcement | 1 | Safeguard |
+| verification | 1 | Safeguard |
 
 ### Most similar rubric wording (Jaccard on title tokens)
 
@@ -778,8 +778,8 @@ How many fellows have **each theme substring** anywhere in criterion or modifier
 | Fatima Sarah Khalid | Nicholas Botti | 0.209 |
 | Fatima Sarah Khalid | Tuna Acisu | 0.2 |
 | Nicholas Botti | Tuna Acisu | 0.195 |
-| Frederick O'Brien | Huda Abdirahim | 0.184 |
-| Fatima Sarah Khalid | Frederick O'Brien | 0.179 |
+| Beacon | Huda Abdirahim | 0.184 |
+| Fatima Sarah Khalid | Beacon | 0.179 |
 | Fatima Sarah Khalid | Hannah O'Rourke | 0.178 |
 | Aadi Kulkarni | Nicholas Botti | 0.175 |
 
@@ -787,16 +787,16 @@ How many fellows have **each theme substring** anywhere in criterion or modifier
 
 | Fellow A | Fellow B | Jaccard |
 | --- | --- | --- |
-| Alexandra Ciocanel | Martina Orlea | 0.019 |
+| Alexandra Ciocanel | Signal | 0.019 |
 | Alessandro Pedori | Hannah O'Rourke | 0.02 |
-| Davit Jintcharadze | Martina Orlea | 0.024 |
-| Francesca Galli | Martina Orlea | 0.032 |
+| Davit Jintcharadze | Signal | 0.024 |
+| Francesca Galli | Signal | 0.032 |
 | Alessandro Pedori | David Powell | 0.037 |
-| Alessandro Pedori | Martina Orlea | 0.038 |
-| Alessandro Pedori | Connor Dunlop | 0.042 |
+| Alessandro Pedori | Signal | 0.038 |
+| Alessandro Pedori | Safeguard | 0.042 |
 | Alessandro Pedori | Tuna Acisu | 0.046 |
 
 ---
 
-_The synthetic Emily input is rankings-only in-repo — no constitution text._
+_The synthetic Harbour input is rankings-only in-repo — no constitution text._
 
