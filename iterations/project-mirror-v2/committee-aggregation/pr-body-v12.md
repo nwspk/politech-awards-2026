@@ -17,7 +17,7 @@ Mean score rewards projects that a few members champion very highly, even if mos
 
 Under median rank, Open Data Editor displaces LiquidFeedback for the first time across any committee aggregation. The reason is structural: LiquidFeedback has three members scoring it in the 80s and 90s, but its median rank of 16 reveals that the typical evaluator places it outside their top 15. ODE, by contrast, lands in most members' top 10–15 without anyone scoring it near the bottom.
 
-**Why ODE is broadly legible.** It serves non-technical users — nonprofits, data journalists, activists, public servants — which maps onto multiple constitutions at once. Aadi ranks it #2 at 82.7: *"The explicit focus on 'nonprofits, data journalists, activists, and public servants who don't know how to code' directly addresses the technical barriers that exclude many civic actors from data work."* Prism ranks it #10 at 79.0: *"Government adoption is the concrete signal here: Zagreb city government. Open Data Editor is not just proposing evidence legibility — it is delivering it to institutional decision-makers."* Davit at 76.9: *"Non-Western deployment geography (Cambodia, South Africa, Ghana) is excellent — these are exactly the contexts my constitution prioritises."*
+**Why ODE is broadly legible.** It serves non-technical users — nonprofits, data journalists, activists, public servants — which maps onto multiple constitutions at once. Aadi ranks it #2 at 82.7: *"The explicit focus on 'nonprofits, data journalists, activists, and public servants who don't know how to code' directly addresses the technical barriers that exclude many civic actors from data work."* Tuna Acisu ranks it #10 at 79.0: *"Government adoption is the concrete signal here: Zagreb city government. Open Data Editor is not just proposing evidence legibility — it is delivering it to institutional decision-makers."* Davit at 76.9: *"Non-Western deployment geography (Cambodia, South Africa, Ghana) is excellent — these are exactly the contexts my constitution prioritises."*
 
 **Why LiquidFeedback's mean lead doesn't translate to median rank.** LiquidFeedback's three superfans (Davit 94.4, Alessandro 86.9, Fatima 83.5) pull its mean to 64.94. But ten members place it at rank #26 or lower. Chris ranks it #72: *"A modifier penalty reflects concern about power digitisation without access expansion."* Jamie at #57: *"The top of my ranking is reserved for projects with deeper systemic ambition."* Signal at #41. Asil at #6 — but at 46.1, which shows even a high rank can come with a low score when the criteria barely apply.
 
@@ -30,7 +30,7 @@ Under median rank, Open Data Editor displaces LiquidFeedback for the first time 
 | Alessandro | #2 | 86.9 | #27 | 63.9 |
 | Fatima | #2 | 83.5 | #21 | 68.6 |
 | Nick (v3) | #9 | 78.6 | #36 | 67.9 |
-| Prism | #23 | 73.0 | #10 | 79.0 |
+| Tuna Acisu | #23 | 73.0 | #10 | 79.0 |
 | Harbour | #11 | 70.9 | #4 | 76.8 |
 | Aadi | #39 | 67.9 | #2 | 82.7 |
 | Alexandra (v3) | #30 | 63.9 | #169 | 29.9 |
