@@ -582,3 +582,28 @@ v11 through v14 committee aggregation CSVs re-rolled to replace Fatima's v3 (imp
 - `project-mirror-v2/committee-aggregation-v12` — `committee-ranking-v12.csv`
 - `project-mirror-v2/committee-analysis-divisive` — `divisive-projects.csv`
 - `project-mirror-v2/committee-analysis-consensus` — `consensus-projects.csv`
+
+---
+
+## Committee correction — 17-member committee — 2026-03-30
+
+Hannah O'Rourke is not present on the source of truth (methodology) branch and does not count for deliberations. All previous aggregations (v11–v14) incorrectly included her individual-branch data.
+
+**Committee corrected to 17 members:** 13×v2 (including 5 codename agents: beacon, harbour, prism, safeguard, signal) + 3×v3 (Nicholas, Huda, Alexandra) + 1×v5 (Fatima).
+
+**Impact on results:**
+
+| Aggregation | Old result (18 members) | New result (17 members) | Change |
+|---|---|---|---|
+| v11 (mean) | LiquidFeedback 66.38 | LiquidFeedback 65.08 | Winner unchanged; avg −1.30 |
+| v12 (median rank) | ODE med=14.0; LF #3 | ODE med=12.0; LF #5 | LF drops to 5th — Hannah ranked it 3rd |
+| v13 (divisive) | Gapminder 25.07 #1; AlgorithmWatch 22.90 #2 | Gapminder 25.76 #1; Turkopticon 22.15 #2 | AlgorithmWatch drops to 5th — Hannah gave it 95.5 |
+| v14 (consensus) | Vote for Policies 7.70 | Vote for Policies 7.59 | Winner unchanged; Civic Tech Field Guide enters top 5 |
+
+**PRs updated:** #100 (v11 title + body), #104 (v12 body), #105 (v13 title + body), #107 (v14 body)
+
+**CSV branches updated with 17-member data:**
+- `project-mirror-v2/committee-aggregation-v11`
+- `project-mirror-v2/committee-aggregation-v12`
+- `project-mirror-v2/committee-analysis-divisive`
+- `project-mirror-v2/committee-analysis-consensus`
