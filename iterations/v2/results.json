@@ -1,1286 +1,2570 @@
 [
   {
     "url": "https://civicmatch.app",
-    "score": 100
+    "name": "CivicMatch",
+    "score": 100,
+    "summary": "Connect citizens with civic opportunities and elected representatives",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://civicpress.io/",
-    "score": 100
+    "name": "CivicPress",
+    "score": 100,
+    "summary": "Open infrastructure for transparent local government",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://mapping.kids",
-    "score": 99
+    "name": "Mapping.kids",
+    "score": 99,
+    "summary": "A platform for creating and sharing interactive maps for educational purposes",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/datakind/data-observation-toolkit",
-    "score": 98
+    "name": "Data Observation Toolkit (DOT)",
+    "score": 98,
+    "summary": "Open-source toolkit to monitor data integrity and flag problems in public health and humanitarian datasets",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/travisbrown/birdwatch",
-    "score": 98
+    "name": "Community Notes (Birdwatch) Analysis Tool",
+    "score": 98,
+    "summary": "Metadata repository and analysis tools for X's Community Notes system, adding user aliases and tweet-author data missing from official snapshots",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://localinsight.org",
-    "score": 98
+    "name": "Local Insight",
+    "score": 98,
+    "summary": "Community and Neighbourhood Data Platform",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/g0v/vue.vtaiwan.tw",
-    "score": 97
+    "name": "vTaiwan",
+    "score": 97,
+    "summary": "Taiwan's open digital democracy platform for collaborative online public consultation on legislation",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://theodi.org/insights/reports/registers-and-collaboration-making-lists-we-can-trust-report",
-    "score": 97
+    "name": "Registers and collaboration: making lists we can trust",
+    "score": 97,
+    "summary": "A report examining models of stewarding registers and the importance of transparency and collaboration in managing trusted lists",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://ckan.org",
-    "score": 95
+    "name": "CKAN",
+    "score": 95,
+    "summary": "The world's leading open source data management system for powering data hubs and data portals",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://docs.holepunch.to",
-    "score": 95
+    "name": "Pear by Holepunch",
+    "score": 95,
+    "summary": "A peer-to-peer runtime, development and deployment platform for building unstoppable applications",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://p4ai.net",
-    "score": 95
+    "name": "Principles for Public Participation in Procurement of AI",
+    "score": 95,
+    "summary": "Framework for public participation in AI procurement decisions",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://publicai.co/",
-    "score": 95
+    "name": "Public AI Inference Utility",
+    "score": 95,
+    "summary": "A public access point for public and sovereign AI models",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://spartacus.app",
-    "score": 95
+    "name": "Spartacus",
+    "score": 95,
+    "summary": "Build critical mass with conditional commitments that only activate when enough people join in",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://globalfactcheck.bot/",
-    "score": 94
+    "name": "Global Fact-Check Bot (GFC)",
+    "score": 94,
+    "summary": "A pioneering AI platform that empowers fact-checkers and citizens worldwide to verify information accuracy across 50+ languages, powered by 38 trusted organizations",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://harmonica.chat/",
-    "score": 94
+    "name": "Harmonica",
+    "score": 94,
+    "summary": "AI-powered facilitation platform for conversational surveys and stakeholder engagement",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.teachingpublicservice.digital",
-    "score": 94
+    "name": "Teaching Public Service in the Digital Age",
+    "score": 94,
+    "summary": "Open-access syllabus and training to equip public servants with digital-era skills",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/ytdl-org/youtube-dl",
-    "score": 93
+    "name": "youtube-dl",
+    "score": 93,
+    "summary": "Command-line program to download videos from YouTube.com and other video sites",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://policykit.org",
-    "score": 93
+    "name": "PolicyKit",
+    "score": 93,
+    "summary": "An open-source tool for evolving governance in online communities",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://ethelo.com",
-    "score": 92
+    "name": "Ethelo",
+    "score": 92,
+    "summary": "The world's leading group solutions technology — a multi-party scenario analysis engine that finds fair solutions with broad support.",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://navigator.oii.ox.ac.uk",
-    "score": 92
+    "name": "DemTech Navigator",
+    "score": 92,
+    "summary": "Online resource guide for civil society groups to address disinformation",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://parsethebill.com",
-    "score": 92
+    "name": "Parse The Bill",
+    "score": 92,
+    "summary": "AI-generated overviews of UK parliamentary bills for engaged citizens and advocacy groups",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://viewpoints.xyz",
-    "score": 92
+    "name": "Viewpoints",
+    "score": 92,
+    "summary": "Effortless AI-powered polls and consensus building for meetings, events, and communities",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://alaveteli.org",
-    "score": 91
+    "name": "Alaveteli",
+    "score": 91,
+    "summary": "Run your own Freedom of Information website - An open-source platform for making public freedom of information requests to public bodies",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://dogooder.co",
-    "score": 91
+    "name": "DoGooder",
+    "score": 91,
+    "summary": "Civic engagement and advocacy platform for grassroots campaigns",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://filmot.com",
-    "score": 91
+    "name": "Filmot",
+    "score": 91,
+    "summary": "Search in Youtube captions and subtitles",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/vbuterin/dao",
-    "score": 90
+    "name": "The DAO (Standard DAO Framework)",
+    "score": 90,
+    "summary": "A Standard DAO (Decentralized Autonomous Organization) framework written in Solidity",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.openownership.org",
-    "score": 90
+    "name": "Open Ownership",
+    "score": 90,
+    "summary": "Driving global shift towards transparency and accountability in corporate ownership and control",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://ecnl.org/publications/framework-meaningful-engagement-20?mc_cid=b1c5158063&mc_eid=a09c64ec38",
-    "score": 89
+    "name": "Framework for Meaningful Engagement 2.0",
+    "score": 89,
+    "summary": "Practical suggestions on how to engage civil society and affected communities in AI development to support platforms and AI developers in creating rights-based products",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/huridocs",
-    "score": 89
+    "name": "HURIDOCS",
+    "score": 89,
+    "summary": "HURIDOCS equips human rights defenders with tools to mobilise information for justice and accountability",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.rightsdd.com",
-    "score": 89
+    "name": "RightDD",
+    "score": 89,
+    "summary": "Human rights risk management technology for ESG due diligence and supply chain compliance",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.ushahidi.com",
-    "score": 89
+    "name": "Ushahidi",
+    "score": 89,
+    "summary": "Crowdsourcing Solutions to Empower Communities",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.marksoutoftenancy.com",
-    "score": 88
+    "name": "Marks Out Of Tenancy",
+    "score": 88,
+    "summary": "UK landlord and letting agency review platform empowering renters with information and rights guidance",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://dovetail.network",
-    "score": 87
+    "name": "Dovetail",
+    "score": 87,
+    "summary": "Helps non-profits find a digital partner that fits",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://esper.com/product",
-    "score": 87
+    "name": "Esper",
+    "score": 87,
+    "summary": "End-to-end policy management platform for government agencies",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://mapit.mysociety.org",
-    "score": 87
+    "name": "MapIt",
+    "score": 87,
+    "summary": "Match postcodes and geographical points to administrative areas",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://pageviews.wmcloud.org",
-    "score": 87
+    "name": "Pageviews Analysis",
+    "score": 87,
+    "summary": "Tool for analyzing and comparing pageview statistics across Wikipedia articles",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.workincharities.co.uk",
-    "score": 87
+    "name": "WorkInCharities",
+    "score": 87,
+    "summary": "Job board platform connecting charity and nonprofit sector workers with employment opportunities",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://gordonguthrie.github.io/frankensteinbill",
-    "score": 86
+    "name": "Frankenstein Bill",
+    "score": 86,
+    "summary": "A dummy parliamentary bill collecting and explaining potential speedbumps for government software development and digitally-enabled service design",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://joss.theoj.org",
-    "score": 86
+    "name": "Journal of Open Source Software",
+    "score": 86,
+    "summary": "A developer friendly, open access journal for research software packages",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://oa.report",
-    "score": 86
+    "name": "OA.Report",
+    "score": 86,
+    "summary": "Track Open Access policy compliance and research openness across funded publications",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://objector.ai",
-    "score": 86
+    "name": "Objector.ai",
+    "score": 86,
+    "summary": "AI-powered planning objection letter and toolkit to help citizens challenge unsuitable planning applications",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.martus.org",
-    "score": 86
+    "name": "Martus",
+    "score": 86,
+    "summary": "Free, open source secure information collection and management tool for human rights activists",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://climateaction.tech",
-    "score": 85
+    "name": "ClimateAction.Tech",
+    "score": 85,
+    "summary": "Tech workers seeding climate action in companies, organisations and industries",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://communities.sunlightfoundation.com/methodology",
-    "score": 85
+    "name": "Tactical Data Engagement",
+    "score": 85,
+    "summary": "A framework for local governments to catalyze resident-centered use of open data for community problem-solving",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://openparliament.ca/",
-    "score": 85
+    "name": "openparliament.ca",
+    "score": 85,
+    "summary": "Making it easy to find out what your representatives in Ottawa are up to — see what they're saying, what laws they're proposing, and track parliamentary debates and bills.",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://choosealicense.com",
-    "score": 84
+    "name": "Choose a License",
+    "score": 84,
+    "summary": "An open source license guide helping developers and projects select appropriate licenses for their work",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://overton.io",
-    "score": 84
+    "name": "Overton",
+    "score": 84,
+    "summary": "A platform for understanding and analyzing political positions and policy proposals",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://docs.plus",
-    "score": 83
+    "name": "docs.plus",
+    "score": 83,
+    "summary": "Free, open-source collaborative documents for organizations",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://local-deep-researcher-hnmh.vercel.app/",
-    "score": 82
+    "name": "Local Deep Researcher",
+    "score": 82,
+    "summary": "A research tool for investigating local issues and civic engagement",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.givefood.org.uk",
-    "score": 81
+    "name": "Give Food",
+    "score": 81,
+    "summary": "UK charity using data to highlight and alleviate local food insecurity",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.govocal.com",
-    "score": 81
+    "name": "Go Vocal",
+    "score": 81,
+    "summary": "Online community engagement platform for governments",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://collaborative-data.theodi.org",
-    "score": 80
+    "name": "Collaborative Data Patterns",
+    "score": 80,
+    "summary": "A guidebook for designing and running projects involving collaborative maintenance of shared data assets",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/blacksky-algorithms/rsky",
-    "score": 80
+    "name": "rsky",
+    "score": 80,
+    "summary": "An AT Protocol implementation prioritizing community safety and self-governance, written in Rust",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://trends.whotargets.me",
-    "score": 80
+    "name": "Who Targets Me Trends",
+    "score": 80,
+    "summary": "Platform for tracking and analyzing digital political advertising across Meta and Google in 60+ countries",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://fullfact.org/ai",
-    "score": 79
+    "name": "Full Fact AI",
+    "score": 79,
+    "summary": "Scalable, robust software designed for fact checkers to identify the most important bad information",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/stanfordcdt/pb",
-    "score": 79
+    "name": "Stanford Participatory Budgeting Platform",
+    "score": 79,
+    "summary": "Open-source platform for hosting participatory budgeting elections in cities across the United States",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://plunkett.my.site.com/keepitinthecommunity/s",
-    "score": 79
+    "name": "Keep It In The Community",
+    "score": 79,
+    "summary": "A platform for community-driven civic engagement and local resource sharing",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://public.tableau.com/app/profile/citizensadvice/vizzes",
-    "score": 79
+    "name": "Citizens Advice Tableau Public Profile",
+    "score": 79,
+    "summary": "Data visualizations and dashboards tracking advice issues, consumer trends, and client demographics across the United Kingdom",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://thegovernmentsays.com",
-    "score": 79
+    "name": "The Government Says",
+    "score": 79,
+    "summary": "Real-time aggregation and monitoring of UK government press releases and statements",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.polimorphic.com",
-    "score": 79
+    "name": "Polimorphic",
+    "score": 79,
+    "summary": "AI-powered platform for service-first government operations and resident engagement",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://dgc-cgn.org/product/can-dgsi-127/",
-    "score": 78
+    "name": "CAN/DGSI 127 - Age Assurance Technologies Standard",
+    "score": 78,
+    "summary": "Standard specifying minimum requirements for age assurance technologies and methods to estimate age range",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://civictech.guide",
-    "score": 77
+    "name": "Civic Tech Field Guide",
+    "score": 77,
+    "summary": "The world's largest collection of projects using tech for the common good",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/bluesky-social",
-    "score": 76
+    "name": "Bluesky Social",
+    "score": 76,
+    "summary": "Social networking technology created by Bluesky",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://okfn.org/en/projects/open-data-editor/",
-    "score": 76
+    "name": "Open Data Editor (ODE)",
+    "score": 76,
+    "summary": "A no-code desktop app for error-free spreadsheets with guaranteed privacy and FAIR data",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://right-to-know.org",
-    "score": 76
+    "name": "Right To Know",
+    "score": 76,
+    "summary": "A digital toolkit for communities to discover environmental health hazards in their area",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://riversentiment.app",
-    "score": 76
+    "name": "River Sentiment Dashboard",
+    "score": 76,
+    "summary": "Displays social media sentiment about rivers alongside ecological status data for 450+ rivers in the Thames basin",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.mptwitterbios.co.uk",
-    "score": 76
+    "name": "MP Twitter Bios",
+    "score": 76,
+    "summary": "Analysis of whether UK Members of Parliament mention their political party in their Twitter biographies",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://annas-archive.pm",
-    "score": 75
+    "name": "Anna's Archive",
+    "score": 75,
+    "summary": "A non-profit, open-source digital library preserving access to knowledge through shadow library aggregation",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://gov.uk/find-local-consultations",
-    "score": 75
+    "name": "Find local consultations",
+    "score": 75,
+    "summary": "A UK government service enabling citizens to discover and participate in local council consultations",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://standards.theodi.org",
-    "score": 75
+    "name": "Open Standards for Data Guidebook",
+    "score": 75,
+    "summary": "Helping people and organisations create, develop and adopt open standards for data",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.openorigins.com",
-    "score": 75
+    "name": "OpenOrigins",
+    "score": 75,
+    "summary": "The Trust Layer for a Verified Internet",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://library.theengineroom.org",
-    "score": 74
+    "name": "The Engine Room Library",
+    "score": 74,
+    "summary": "Open, multilingual research guides on using data and technology for social change",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://postbug.com",
-    "score": 74
+    "name": "PostBug",
+    "score": 74,
+    "summary": "Send printed postcards to people in power",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.discourse.org",
-    "score": 74
+    "name": "Discourse",
+    "score": 74,
+    "summary": "Customizable, scalable community platform for building knowledge through conversation",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://conservativepartyfunding.co.uk",
-    "score": 73
+    "name": "Conservative Party Funding",
+    "score": 73,
+    "summary": "Industry overview of donations to the UK Conservative Party since 2019",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://manifold.markets",
-    "score": 73
+    "name": "Manifold Markets",
+    "score": 73,
+    "summary": "A platform for creating and trading prediction markets on political, cultural, and business outcomes",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://richardpope.org/2017/03/05/beckton-a-tool-to-build",
-    "score": 73
+    "name": "Beckton",
+    "score": 73,
+    "summary": "A conditional-commitment tool for creating groups of paying members — only charges if enough people join.",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://sci-hub.se",
-    "score": 73
+    "name": "Sci-Hub",
+    "score": 73,
+    "summary": "Provides free access to academic research papers by circumventing publisher paywalls",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://labourxchange.uk",
-    "score": 72
+    "name": "Labour Xchange",
+    "score": 72,
+    "summary": "A fair work platform connecting underemployed and flexible workers with employers",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/fission-codes/fission-codes",
-    "score": 71
+    "name": "Fission Codes",
+    "score": 71,
+    "summary": "Status codes for smart contracts powering microservices for Web3",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://granicus.com/uk",
-    "score": 71
+    "name": "Granicus",
+    "score": 71,
+    "summary": "The Citizen Experience Platform for Government",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://snowdrift.coop",
-    "score": 71
+    "name": "Snowdrift.coop",
+    "score": 71,
+    "summary": "Crowdmatching for public goods",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://sobre.ejparticipe.org",
-    "score": 71
+    "name": "Empurrando Juntas (EJ)",
+    "score": 71,
+    "summary": "AI-powered opinion collection platform that segments audiences into personas based on their views",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.crowdjustice.com",
-    "score": 71
+    "name": "CrowdJustice",
+    "score": 71,
+    "summary": "Crowdfunding platform for legal cases and justice campaigns",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://cotsi.org/",
-    "score": 70
+    "name": "COTSI (Cyber Operational Threat Situational Intelligence)",
+    "score": 70,
+    "summary": "Tracks daily price and availability of fake SMS verifications across 197 countries and 500+ platforms to map the online manipulation economy",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://granitt.io",
-    "score": 70
+    "name": "Granitt",
+    "score": 70,
+    "summary": "Government transparency and civic engagement platform",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.notifications.service.gov.uk",
-    "score": 70
+    "name": "GOV.UK Notify",
+    "score": 70,
+    "summary": "A free notification service for UK government, local authorities, and NHS to send emails, text messages, and letters",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://humbledata.org",
-    "score": 69
+    "name": "Humble Data Workshop",
+    "score": 69,
+    "summary": "Free data science and Python workshops for underrepresented groups in tech",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://urbit.org",
-    "score": 69
+    "name": "Urbit",
+    "score": 69,
+    "summary": "A personal server operating system designed for self-sovereignty and decentralized computing",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.fixmystreet.com",
-    "score": 69
+    "name": "FixMyStreet",
+    "score": 69,
+    "summary": "Report, view, and discuss local street problems with UK councils",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.prolific.com",
-    "score": 69
+    "name": "Prolific",
+    "score": 69,
+    "summary": "Easily collect high-quality data from real people",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://matrix.org",
-    "score": 68
+    "name": "Matrix",
+    "score": 68,
+    "summary": "An open standard and network for secure, decentralised, interoperable communication",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://blog.kagi.com/slopstop",
-    "score": 67
+    "name": "Kagi SlopStop",
+    "score": 67,
+    "summary": "Community-driven AI slop detection in Kagi Search — your collective defense against AI-generated spam and content farms",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://cobudget.com",
-    "score": 67
+    "name": "Cobudget",
+    "score": 67,
+    "summary": "Bring people, ideas and money together, encouraging participation at every stage",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://entitledto.co.uk",
-    "score": 66
+    "name": "Entitledto",
+    "score": 66,
+    "summary": "Free online benefits calculator helping UK citizens understand welfare entitlements",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://membersinterests.org.uk",
-    "score": 66
+    "name": "Members' Interests",
+    "score": 66,
+    "summary": "Database of UK Members of Parliament financial interests and declarations",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://upgrader.gapminder.org",
-    "score": 66
+    "name": "Gapminder Worldview Upgrader",
+    "score": 66,
+    "summary": "Important stuff most people get wrong — a free educational tool to help people rid themselves of common systematic misconceptions about global development",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://decelerator.org.uk",
-    "score": 65
+    "name": "The Decelerator",
+    "score": 65,
+    "summary": "A free support service for civil society organisations facing endings — closures, mergers, leadership transitions, and programme ends.",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://guardianproject.info",
-    "score": 65
+    "name": "Guardian Project",
+    "score": 65,
+    "summary": "Secure, privacy-enhancing mobile applications and tools for journalists, activists, and people at risk",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://missingnumbers.org",
-    "score": 65
+    "name": "Missing Numbers",
+    "score": 65,
+    "summary": "Investigates and campaigns to close important gaps in UK public data",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.workerinfoexchange.org",
-    "score": 65
+    "name": "Worker Info Exchange",
+    "score": 65,
+    "summary": "Platform connecting workers with information about labor rights, workplace conditions, and employment resources",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://whoisology.com",
-    "score": 64
+    "name": "Whoisology",
+    "score": 64,
+    "summary": "Billions of archived domain name whois records searchable and cross-referenced for reverse lookups",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://datacollective.mozillafoundation.org/",
-    "score": 63
+    "name": "Mozilla Data Collective",
+    "score": 63,
+    "summary": "Rebuilding the AI data ecosystem with communities at the centre — 470+ high-quality global datasets, built by and for the community in a transparent and ethical way.",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://littlesis.org",
-    "score": 63
+    "name": "LittleSis",
+    "score": 63,
+    "summary": "Free database of who-knows-who at the heights of business and government — power research for just futures",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://nookcrm.com",
-    "score": 63
+    "name": "Nook CRM",
+    "score": 63,
+    "summary": "The case management tool for community energy, codesigned by energy advisors",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.mysociety.org/climate/neighbourhood-warmth",
-    "score": 63
+    "name": "Neighbourhood Warmth",
+    "score": 63,
+    "summary": "A free online platform helping people form teams around shared home energy challenges like retrofit assessments and energy efficiency",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://getodk.org",
-    "score": 62
+    "name": "ODK (Open Data Kit)",
+    "score": 62,
+    "summary": "Open-source tools for collecting, managing, and using data in resource-constrained environments",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.govwise.ai/en",
-    "score": 62
+    "name": "GovWise",
+    "score": 62,
+    "summary": "AI-powered platform for automating public procurement tender screening and bid management",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.theyworkforyou.com",
-    "score": 62
+    "name": "TheyWorkForYou",
+    "score": 62,
+    "summary": "Hansard and Official Reports for the UK Parliament, Scottish Parliament, and Northern Ireland Assembly - done right",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/i-dot-ai/awesome-gov-datasets",
-    "score": 61
+    "name": "Awesome UK Government Datasets",
+    "score": 61,
+    "summary": "A curated list of references to useful UK Government datasets",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.localintelligencehub.com",
-    "score": 61
+    "name": "Local Intelligence Hub",
+    "score": 61,
+    "summary": "Data platform for analyzing local MPs, constituencies, public opinion and climate/nature movement engagement to support campaigning and organizing",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://datatrusts.uk",
-    "score": 60
+    "name": "The Data Trusts Initiative",
+    "score": 60,
+    "summary": "Working at the interface of technology, policy and the law to create data trusts that empower individuals and communities while supporting data use for social benefit.",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://grantnav.threesixtygiving.org",
-    "score": 60
+    "name": "GrantNav",
+    "score": 60,
+    "summary": "Search, explore and download grants data published by UK funders in the 360Giving Data Standard",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://hact.org.uk/tools-and-services/uk-housing-data-standards",
-    "score": 60
+    "name": "UK Housing Data Standards",
+    "score": 60,
+    "summary": "Sector-developed data standards for UK social housing to improve data governance, performance, and regulatory reporting",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://mapped.commonknowledge.coop",
-    "score": 60
+    "name": "Mapped",
+    "score": 60,
+    "summary": "A tool for organisers and activists to locate their people by constituency and enrich supporter data with location-specific information",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://nyaaya.org",
-    "score": 60
+    "name": "Nyaaya",
+    "score": 60,
+    "summary": "India's Laws Explained — open access legal information for every Indian citizen",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://opendigitalplanning.org/",
-    "score": 60
+    "name": "Open Digital Planning",
+    "score": 60,
+    "summary": "Planning services designed by councils for councils — a community of Local Planning Authorities transforming England's digital planning system",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://tracking-template-38b4c.web.app",
-    "score": 60
+    "name": null,
+    "score": 60,
+    "summary": "",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.yoti.com",
-    "score": 60
+    "name": "Yoti",
+    "score": 60,
+    "summary": "Building the world's trusted identity platform",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.shareddigitalguides.org.uk",
-    "score": 59
+    "name": "Shared Digital Guides",
+    "score": 59,
+    "summary": "Non-profit organisations share step-by-step guides to using digital tools for social good",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.whatdotheyknow.com",
-    "score": 59
+    "name": "WhatDoTheyKnow",
+    "score": 59,
+    "summary": "Make freedom of information requests and see responses from UK public authorities",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://developers.democracyclub.org.uk/api/v1",
-    "score": 58
+    "name": "Democracy Club Developer API",
+    "score": 58,
+    "summary": "API for accessing ballots, candidates and polling stations data",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/ribenamaplesyrup/sugartrail",
-    "score": 58
+    "name": "Sugartrail",
+    "score": 58,
+    "summary": "Network analysis and visualisation tool for exploring connections between companies, officers and addresses within UK Companies House",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://talktothecity.org",
-    "score": 57
+    "name": "Talk to the City",
+    "score": 57,
+    "summary": "Open-source LLM survey tool to improve collective discourse and decision-making by analyzing qualitative responses and generating easy-to-navigate reports",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://the-list.uk",
-    "score": 57
+    "name": "The List",
+    "score": 57,
+    "summary": "Tracking changes to grant-making behaviour of Trusts and Foundations in the UK — By Fundraisers, For Fundraisers",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://yourtracka.org",
-    "score": 57
+    "name": "Tracka",
+    "score": 57,
+    "summary": "Monitor the status of federal and state projects in your community and take action on implementation gaps",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/rahvaalgatus/rahvaalgatus",
-    "score": 56
+    "name": "Rahvaalgatus",
+    "score": 56,
+    "summary": "Estonian citizen initiative and e-petition platform",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://openaccess.transparency.org.uk",
-    "score": 56
+    "name": "Open Access – Transparency International UK",
+    "score": 56,
+    "summary": "Platform providing access to corporate transparency data and beneficial ownership information",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://violationtrackeruk.goodjobsfirst.org",
-    "score": 56
+    "name": "Violation Tracker UK",
+    "score": 56,
+    "summary": "Database tracking corporate violations and enforcement actions in the United Kingdom",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://web.archive.org",
-    "score": 56
+    "name": "Internet Archive Wayback Machine",
+    "score": 56,
+    "summary": "Digital archive of the World Wide Web — preserving over 1 trillion web pages since 1996",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/mikekelly/policy-dojo",
-    "score": 55
+    "name": "UK Policy Dojo",
+    "score": 55,
+    "summary": "A dojo for AI agents to battle out UK policy ideas through adversarial review",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://securedrop.org",
-    "score": 55
+    "name": "SecureDrop",
+    "score": 55,
+    "summary": "Open source whistleblower submission system for secure anonymous document sharing",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://dunadyne.org",
-    "score": 54
+    "name": "Dunadyne",
+    "score": 54,
+    "summary": "Collective intelligence platform for forming and organizing Decentralized Unincorporated Nonprofit Associations (DUNAs)",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://opencouncildata.co.uk",
-    "score": 54
+    "name": "Open Council Data UK",
+    "score": 54,
+    "summary": "Councillor data resources for psephologists, campaigners and charities",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://publicaccountability.org",
-    "score": 54
+    "name": "The Accountability Project",
+    "score": 54,
+    "summary": "A searchable database of 1.9+ billion public records for researchers and journalists",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://contractsfordatacollaboration.org",
-    "score": 53
+    "name": "Contracts for Data Collaboration",
+    "score": 53,
+    "summary": "Strengthening trust, transparency, and accountability in cross-sector data collaboratives through legal frameworks and shared resources",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://openbudgets.eu",
-    "score": 53
+    "name": "OpenBudgets.eu",
+    "score": 53,
+    "summary": "Upload, visualize, and analyse public budget and spending data to discover stories behind budgets",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://strikemap.org",
-    "score": 53
+    "name": "Strike Map",
+    "score": 53,
+    "summary": "Interactive mapping platform documenting labor strikes and worker organizing actions",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.myaction.center",
-    "score": 53
+    "name": "MyActionCenter",
+    "score": 53,
+    "summary": "Turn your supporters into an activist force through coordinated online actions and gamification",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://alltechishuman.org/responsible-tech-guide-2025",
-    "score": 52
+    "name": "Responsible Tech Guide 2025",
+    "score": 52,
+    "summary": "Flagship resource providing information, inspiration, and pathways for involvement in the Responsible Tech ecosystem",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://greenpt.ai/",
-    "score": 52
+    "name": "GreenPT",
+    "score": 52,
+    "summary": "Sustainable and privacy-friendly AI chat platform powered by renewable energy and hosted in Europe",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://turkopticon.ucsd.edu",
-    "score": 52
+    "name": "Turkopticon",
+    "score": 52,
+    "summary": "Worker-led platform organizing mutual aid and advocacy for Amazon Mechanical Turk workers",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.govtrack.us",
-    "score": 52
+    "name": "GovTrack.us",
+    "score": 52,
+    "summary": "Tracking the U.S. Congress and the White House to make a more open and accountable government",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.whatgov.co.uk",
-    "score": 52
+    "name": "WhatGov",
+    "score": 52,
+    "summary": "Parliament, Clearly",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://adhocracy.plus",
-    "score": 51
+    "name": "adhocracy+",
+    "score": 51,
+    "summary": "Makes digital democracy easy — for everyone, no matter where.",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://all-our-ideas.citizens.is",
-    "score": 50
+    "name": "All Our Ideas",
+    "score": 50,
+    "summary": "A platform for crowdsourcing ideas and priorities through pairwise comparison voting",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/compdemocracy/polis",
-    "score": 50
+    "name": "Polis",
+    "score": 50,
+    "summary": "Open-source AI-powered platform for large-scale open-ended public feedback and deliberation",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://nestr.io",
-    "score": 50
+    "name": "Nestr",
+    "score": 50,
+    "summary": "Purpose-driven collaboration platform using self-organization and AI",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://voteforpolicies.org.uk",
-    "score": 50
+    "name": "Vote for Policies",
+    "score": 50,
+    "summary": "Compare political party policies without knowing which party they belong to, helping voters make informed decisions",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.hotosm.org",
-    "score": 50
+    "name": "Humanitarian OpenStreetMap Team (HOT)",
+    "score": 50,
+    "summary": "Mapping for impact in humanitarian crises and development challenges",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/bellingcat/edgar",
-    "score": 49
+    "name": "EDGAR",
+    "score": 49,
+    "summary": "Tool for the retrieval of corporate and financial data from the SEC",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://soweego.readthedocs.io",
-    "score": 49
+    "name": "soweego",
+    "score": 49,
+    "summary": "Link Wikidata to large catalogs",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://spacetu.be",
-    "score": 49
+    "name": "Spacetube",
+    "score": 49,
+    "summary": "Group-to-group chat tool built on Matrix for secure decentralised communication",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.deliberaide.com",
-    "score": 49
+    "name": "deliberAIde",
+    "score": 49,
+    "summary": "Human-Centred AI That Supports Dialogue at Every Step",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.writetothem.com",
-    "score": 49
+    "name": "WriteToThem",
+    "score": 49,
+    "summary": "Email your Councillor, MP, MSP, MS, MLA or London Assembly Member for free",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://farmerchat.digitalgreen.org",
-    "score": 48
+    "name": "FarmerChat",
+    "score": 48,
+    "summary": "AI-powered conversational platform providing agricultural advisory to smallholder farmers",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://monitormamdani.com/",
-    "score": 48
+    "name": "Monitor Mamdani",
+    "score": 48,
+    "summary": "Live NYC Mayor Tracking Dashboard monitoring Zohran Mamdani's campaign promises and performance",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://onodi.co/bisect/",
-    "score": 48
+    "name": "Theft Bisect",
+    "score": 48,
+    "summary": "A binary search tool to help identify bike theft moments in CCTV footage",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://openheartmind.org",
-    "score": 48
+    "name": "Open Heart Mind (OHM)",
+    "score": 48,
+    "summary": "Participatory gatherings and regenerative systems for collective flourishing — developing Wisdom, an open-source peer evaluation platform",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://data.mysociety.org",
-    "score": 47
+    "name": "mySociety Datasets and APIs",
+    "score": 47,
+    "summary": "Open datasets and APIs for democracy, transparency, and community engagement",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/geeksforsocialchange/placecal",
-    "score": 47
+    "name": "PlaceCal",
+    "score": 47,
+    "summary": "Bring your community together",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://medium.com/@abscond/membership-a-prototype-ea822b2683b",
-    "score": 47
+    "name": "Membership",
+    "score": 47,
+    "summary": "A prototype for decentralized membership and governance systems",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://vframe.io",
-    "score": 47
+    "name": "VFRAME",
+    "score": 47,
+    "summary": "Computer vision for OSINT: detecting illegal munitions and documenting war crimes through AI-powered video analysis",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.open-contracting.org",
-    "score": 47
+    "name": "Open Contracting Partnership",
+    "score": 47,
+    "summary": "Open, fair & efficient public contracting to improve US$2 trillion in annual public procurement spending",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.loomio.org",
-    "score": 46
+    "name": "Loomio",
+    "score": 46,
+    "summary": "Make decisions together, without the endless meetings",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.sign-in.service.gov.uk",
-    "score": 46
+    "name": "GOV.UK One Login",
+    "score": 46,
+    "summary": "Centralized digital identity and authentication platform for UK government services",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://journaliststudio.google.com",
-    "score": 45
+    "name": "Journalist Studio",
+    "score": 45,
+    "summary": "A collection of tools to empower journalists to do their work more efficiently, creatively, and securely",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://metagov.org/projects/interop",
-    "score": 45
+    "name": "Interoperable Deliberative Tools",
+    "score": 45,
+    "summary": "Homebase for interoperable deliberative tools enabling governance beyond voting and commenting",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://oneproject.org/",
-    "score": 45
+    "name": "One Project",
+    "score": 45,
+    "summary": "Building infrastructure for economic democracy — connecting people, organisations, and resources to coordinate and grow a new economy",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://radicle.xyz",
-    "score": 45
+    "name": "Radicle",
+    "score": 45,
+    "summary": "A sovereign, peer-to-peer code forge built on Git",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://shareyourpaper.org",
-    "score": 45
+    "name": "Shareyourpaper.org",
+    "score": 45,
+    "summary": "Simplest way to legally make academic papers freely available on Google Scholar, Web of Science, and personal sites",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.communitytech.network",
-    "score": 45
+    "name": "Community Tech",
+    "score": 45,
+    "summary": "Technology built with, by and for communities that is locally accountable and creates local value",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://policyengine.org/uk",
-    "score": 44
+    "name": "PolicyEngine",
+    "score": 44,
+    "summary": "Open-source policy analysis and simulation platform for tax and benefit systems",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.campaigntracker.nl/en",
-    "score": 44
+    "name": "Campaign Tracker",
+    "score": 44,
+    "summary": "Platform for tracking and analyzing political campaign spending and advertising in the Netherlands",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://aragon.org",
-    "score": 43
+    "name": "Aragon",
+    "score": 43,
+    "summary": "The Home of Onchain Organizations – governance and ownership infrastructure for DAOs and protocols",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://creativecommons.org",
-    "score": 43
+    "name": "Creative Commons",
+    "score": 43,
+    "summary": "CC empowers individuals and communities around the world through technical, legal, and policy solutions that enable the sharing of education, culture, and science in the public interest.",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/ideal-postcodes/postcodes.io",
-    "score": 43
+    "name": "postcodes.io",
+    "score": 43,
+    "summary": "UK postcode & geolocation API, serving up open data",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://orcid.org",
-    "score": 43
+    "name": "ORCID",
+    "score": 43,
+    "summary": "A persistent digital identifier for researchers to distinguish themselves and connect with their professional activities across disciplines, borders, and time",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://semanticclimate.github.io",
-    "score": 43
+    "name": "semanticClimate",
+    "score": 43,
+    "summary": "Semantic search and analysis of climate science literature",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://constituteproject.org",
-    "score": 42
+    "name": "Constitute Project",
+    "score": 42,
+    "summary": "A comprehensive analysis of the world's constitutions to support constitutional design and inform citizens",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://fatebook.io",
-    "score": 42
+    "name": "Fatebook",
+    "score": 42,
+    "summary": "Rapid predictions, anywhere",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://osf.io",
-    "score": 42
+    "name": "Open Science Framework",
+    "score": 42,
+    "summary": "A free, open platform for researchers to collaborate and share their work",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.otree.org",
-    "score": 42
+    "name": "oTree",
+    "score": 42,
+    "summary": "Open-source platform for web-based behavioral research and interactive experiments",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://tech-coops.xyz",
-    "score": 41
+    "name": "Tech Coops List",
+    "score": 41,
+    "summary": "A curated directory and resource hub for worker-owned technology cooperatives and related information",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.globaleaks.org",
-    "score": 41
+    "name": "GlobaLeaks",
+    "score": 41,
+    "summary": "Free and open-source whistleblowing software enabling secure anonymous reporting platforms",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://idealist.org",
-    "score": 40
+    "name": "Idealist",
+    "score": 40,
+    "summary": "Global platform connecting millions of people with social-impact jobs, volunteer opportunities, and community action",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://parliamentwatch.ug/",
-    "score": 40
+    "name": "Parliament Watch Uganda",
+    "score": 40,
+    "summary": "Monitor and track the Ugandan Parliament with data and expert insights on transparency and accountability",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://privacybadger.org",
-    "score": 40
+    "name": "Privacy Badger",
+    "score": 40,
+    "summary": "A free browser extension made by EFF to stop companies from spying on you online.",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://expo.diia.gov.ua",
-    "score": 39
+    "name": "Diia",
+    "score": 39,
+    "summary": "Ukraine's digital government ecosystem: mobile app, portal, and digital transformation projects",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://meta.wikimedia.org/wiki/abstract_wikipedia",
-    "score": 39
+    "name": "Abstract Wikipedia",
+    "score": 39,
+    "summary": "A Wikimedia project to create a language-independent layer of structured knowledge that can be rendered into multiple natural languages",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://channel.org",
-    "score": 38
+    "name": "Channel.org",
+    "score": 38,
+    "summary": "Own your Channels, content, and community",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://kialo.com",
-    "score": 38
+    "name": "Kialo",
+    "score": 38,
+    "summary": "A platform for structured debate and critical thinking through collaborative argument mapping",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://newpublic.substack.com/p/introducing-roundabout-built-for",
-    "score": 38
+    "name": "New_ Public Roundabout",
+    "score": 38,
+    "summary": "A community space for neighbors — local digital forum app built from the ground up with community stewards",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://quadraticvote.radicalxchange.org",
-    "score": 38
+    "name": "RxC Quadratic Voting",
+    "score": 38,
+    "summary": "An easy tool to host a quadratic vote. Quadratic Voting is the mathematically optimal way to vote in a democratic community by allocating votes that express the degree of your preferences, not just direction.",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://whopostedwhat.com",
-    "score": 38
+    "name": "Who Posted What?",
+    "score": 38,
+    "summary": "Non-public Facebook keyword search tool for researchers and public interest workers",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/populatetools",
-    "score": 37
+    "name": "Populate Tools",
+    "score": 37,
+    "summary": "Tools for civic engagement",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.consoc.io",
-    "score": 37
+    "name": "Consciousness Evolution Operating System (ConSoc)",
+    "score": 37,
+    "summary": "Feel Symbiotic Cooperation",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://charmverse.io/",
-    "score": 36
+    "name": "CharmVerse",
+    "score": 36,
+    "summary": "The Network for Onchain Communities",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://consulproject.org",
-    "score": 36
+    "name": "CONSUL Democracy",
+    "score": 36,
+    "summary": "The most complete citizen participation tool for an open, transparent and democratic government.",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/openpolitics/groupthink",
-    "score": 36
+    "name": "Groupthink (OpenPolitics Votebot)",
+    "score": 36,
+    "summary": "A collaborative democratic platform built atop GitHub, designed for open policymaking and manifesto writing",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://parti.xyz",
-    "score": 36
+    "name": "Parti",
+    "score": 36,
+    "summary": "함께 만드는 워킹그룹, 빠띠 카누 (Together Making Working Groups, Parti Canu) - A platform for connecting people with similar interests loosely and collaborating through shared documents, voting, and surveys",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://riseup.net",
-    "score": 36
+    "name": "Riseup",
+    "score": 36,
+    "summary": "Secure online communication tools for people and groups working on liberatory social change",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://timecounts.org",
-    "score": 35
+    "name": "Timecounts",
+    "score": 35,
+    "summary": "The Modern Volunteer Management Solution",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://fixmyblock.org",
-    "score": 34
+    "name": "FixMyBlock",
+    "score": 34,
+    "summary": "Tried and tested action guides for getting stuff fixed in your block",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/cavi-au/consent-o-matic",
-    "score": 34
+    "name": "Consent-O-Matic",
+    "score": 34,
+    "summary": "Browser extension that automatically fills out cookie popups based on user preferences",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://moralmachine.net",
-    "score": 34
+    "name": "Moral Machine",
+    "score": 34,
+    "summary": "A platform for exploring ethical dilemmas in autonomous vehicle decision-making through crowdsourced data collection",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://participedia.net",
-    "score": 34
+    "name": "Participedia",
+    "score": 34,
+    "summary": "A global crowdsourcing platform for researchers, activists, practitioners, and anyone interested in public participation and democratic innovations.",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://site.urbanistai.com",
-    "score": 34
+    "name": "UrbanistAI",
+    "score": 34,
+    "summary": "The platform to reimagine the future of cities through collective intelligence and AI-powered participatory planning.",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://data.humdata.org",
-    "score": 33
+    "name": "Humanitarian Data Exchange",
+    "score": 33,
+    "summary": "Find, share and use humanitarian data all in one place",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://relationaltechproject.org",
-    "score": 33
+    "name": "Relational Tech Project",
+    "score": 33,
+    "summary": "Tools crafted by, with, and for neighbors - made to help us care for and trust each other",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.opensanctions.org",
-    "score": 33
+    "name": "OpenSanctions",
+    "score": 33,
+    "summary": "Supreme Data on Supreme Leaders - open source sanctions and politically exposed persons data platform",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.plinth.org.uk",
-    "score": 33
+    "name": "Plinth",
+    "score": 33,
+    "summary": "AI-powered platform helping organisations deliver, measure and fund community impact",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://antievictionmappingproject.github.io/landlordtech",
-    "score": 32
+    "name": "Landlord Tech Watch",
+    "score": 32,
+    "summary": "Producing data, scholarship, and popular educational materials documenting how property technology increases landlord power while disempowering tenants",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://benefits-calculator.turn2us.org.uk",
-    "score": 32
+    "name": "Turn2us Benefits Calculator",
+    "score": 32,
+    "summary": "Online tool to help people identify welfare benefits they may be entitled to",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/tulir/whatsmeow",
-    "score": 32
+    "name": "whatsmeow",
+    "score": 32,
+    "summary": "Go library for the WhatsApp web multidevice API",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://openprocurement.io",
-    "score": 32
+    "name": "OpenProcurement",
+    "score": 32,
+    "summary": "Open source e-procurement toolkit powering transparent public procurement systems.",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/propublica/django-collaborative",
-    "score": 31
+    "name": "django-collaborative",
+    "score": 31,
+    "summary": "ProPublica's collaborative tip-gathering framework for importing and managing CSV, Google Sheets and Screendoor data",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://medium.com/metagov/introducing-the-agreement-engine-bf03b6d5c16c",
-    "score": 31
+    "name": "Agreement Engine",
+    "score": 31,
+    "summary": "A tool for designing and implementing digital governance agreements",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://societyforhopefultechnologists.org",
-    "score": 31
+    "name": "Society for Hopeful Technologists",
+    "score": 31,
+    "summary": "For everyone who wants technologies to work for people and planet.",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.agenciesforgood.org",
-    "score": 31
+    "name": "Agencies for Good",
+    "score": 31,
+    "summary": "A community of tech for good agencies, consultancies and freelancers supporting socially impactful work",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.payments.service.gov.uk",
-    "score": 31
+    "name": "GOV.UK Pay",
+    "score": 31,
+    "summary": "A payment processing platform for UK public services",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.wikidata.org",
-    "score": 31
+    "name": "Wikidata",
+    "score": 31,
+    "summary": "A free and open knowledge base that can be read and edited by both machines and humans",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/mastodon/mastodon",
-    "score": 30
+    "name": "Mastodon",
+    "score": 30,
+    "summary": "Your self-hosted, globally interconnected microblogging community",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://opendatacommunities.org",
-    "score": 30
+    "name": "Open Data Communities",
+    "score": 30,
+    "summary": "Official open data platform from the UK Ministry of Housing, Communities & Local Government publishing 200+ datasets on deprivation, housing, planning, and local government finance",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://plausible.io",
-    "score": 30
+    "name": "Plausible Analytics",
+    "score": 30,
+    "summary": "Simple, privacy-friendly Google Analytics alternative",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://en.wikipedia.org/wiki/wikipedia:in_the_news",
-    "score": 29
+    "name": "In the news",
+    "score": 29,
+    "summary": "Section of the Main Page directing readers to articles substantially updated to reflect recent or current events of wide interest",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://nymtech.net",
-    "score": 29
+    "name": "Nym",
+    "score": 29,
+    "summary": "The World's Most Private Decentralized VPN",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://coops.tech",
-    "score": 28
+    "name": "CoTech",
+    "score": 28,
+    "summary": "A UK-wide network of cooperative technology companies building values-aligned digital products",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://coralproject.net",
-    "score": 28
+    "name": "Coral",
+    "score": 28,
+    "summary": "A better commenting experience — open source tools for safer, more engaged online communities.",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/thicknavyrain/uk_elections_leaflets",
-    "score": 28
+    "name": "OpenElections Leaflet Scraper and Parser",
+    "score": 28,
+    "summary": "A CampaignLab 2024 Hackathon project to scrape and process UK election campaign leaflets into structured JSON using GPT-4 Vision",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://sourceafrica.net",
-    "score": 28
+    "name": "sourceAFRICA",
+    "score": 28,
+    "summary": "Africa's premier repository for actionable documents",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.donotpay.com",
-    "score": 28
+    "name": "DoNotPay",
+    "score": 28,
+    "summary": "AI-powered legal assistance and consumer advocacy platform",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.objector.ai",
-    "score": 28
+    "name": "Objector.ai",
+    "score": 28,
+    "summary": "AI-powered planning objection letter and toolkit to help citizens challenge unsuitable planning applications",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.polimonitor.com",
-    "score": 28
+    "name": "PoliMonitor",
+    "score": 28,
+    "summary": "Political monitoring service enabling organisations to understand, engage and shape political discussions",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://activisthandbook.org/",
-    "score": 27
+    "name": "Activist Handbook",
+    "score": 27,
+    "summary": "Campaigning guides for activists",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5351275",
-    "score": 27
+    "name": "Unknown Academic Paper (SSRN 5351275)",
+    "score": 27,
+    "summary": "",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://cybersecurityfordemocracy.org",
-    "score": 26
+    "name": "Cybersecurity for Democracy",
+    "score": 26,
+    "summary": "A multi-university center for problem-driven research and research-driven policy",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://ddocs.new/",
-    "score": 26
+    "name": "dDocs",
+    "score": 26,
+    "summary": "Decentralized documentation platform for civic and open governance",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.parallelparliament.co.uk",
-    "score": 26
+    "name": "Parallel Parliament",
+    "score": 26,
+    "summary": "A comprehensive platform for tracking UK parliamentary legislation, debates, and legislative processes with live transcripts and bill amendment tracking.",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://bellingcat.gitbook.io/toolkit",
-    "score": 25
+    "name": "Bellingcat Online Investigation Toolkit",
+    "score": 25,
+    "summary": "A toolkit for open source researchers - your place to discover tools for online investigations",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://collab.land",
-    "score": 25
+    "name": "Collab.Land",
+    "score": 25,
+    "summary": "Web3 community management platform for token-gated membership verification",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://aleph.occrp.org",
-    "score": 24
+    "name": "Aleph (OCCRP)",
+    "score": 24,
+    "summary": "The global archive of research material for investigative reporting. Follow the money through government records and databases.",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.gov.uk/service-manual",
-    "score": 24
+    "name": "Service Manual",
+    "score": 24,
+    "summary": "Guidance for UK government teams to create and run great public services meeting the Service Standard",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://decidim.org",
-    "score": 23
+    "name": "Decidim",
+    "score": 23,
+    "summary": "A free/libre, open and safe digital platform for citizen participation. Reprogramming democracy is now possible.",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://gender-pay-gap.service.gov.uk",
-    "score": 23
+    "name": "Gender Pay Gap Service",
+    "score": 23,
+    "summary": "Search and compare gender pay gap data",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://ladderhub.org/",
-    "score": 23
+    "name": "Ladder Hub",
+    "score": 23,
+    "summary": "A platform for economic mobility and career advancement",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://openaudience.org",
-    "score": 23
+    "name": "OpenAudience",
+    "score": 23,
+    "summary": "Understand your audience using open data by analyzing postcodes and output areas",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://schema.org",
-    "score": 23
+    "name": "Schema.org",
+    "score": 23,
+    "summary": "A collaborative, community activity with a mission to create, maintain, and promote schemas for structured data on the Internet, on web pages, in email messages, and beyond",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://unpaywall.org/products/extension",
-    "score": 23
+    "name": "Unpaywall Browser Extension",
+    "score": 23,
+    "summary": "Browser extension to find legal, open access versions of academic papers",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://citizenos.com/platform/",
-    "score": 22
+    "name": "Citizen OS",
+    "score": 22,
+    "summary": "Secure, free and open-source participation platform for meaningful discussions and democratic decisions",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://ciudadaniai.org",
-    "score": 22
+    "name": "Fundación Ciudadanía Inteligente",
+    "score": 22,
+    "summary": "Latin American organization fighting for the transformation of democracies through civic technology and open tools",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://communityrule.info",
-    "score": 22
+    "name": "CommunityRule",
+    "score": 22,
+    "summary": "A governance toolkit for great communities",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.welivedit.ai",
-    "score": 22
+    "name": "We Live It",
+    "score": 22,
+    "summary": "AI-powered platform for community-driven urban planning and civic engagement",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://fairbnb.coop",
-    "score": 21
+    "name": "Fairbnb.coop",
+    "score": 21,
+    "summary": "Community powered tourism platform",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/cverluise/patcit",
-    "score": 21
+    "name": "PatCit",
+    "score": 21,
+    "summary": "Making Patent Citations Uncool Again — a comprehensive dataset of structured patent citations",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://policymogul.com",
-    "score": 21
+    "name": "PolicyMogul",
+    "score": 21,
+    "summary": "Champions of public affairs",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://bsky.app",
-    "score": 20
+    "name": "Bluesky",
+    "score": 20,
+    "summary": "Open social media platform built on the AT Protocol",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/deepseek-ai/deepseek-v3",
-    "score": 20
+    "name": "DeepSeek-V3",
+    "score": 20,
+    "summary": "A Mixture-of-Experts language model with 671B total parameters optimized for efficient inference and cost-effective training",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://pursuanceproject.org",
-    "score": 20
+    "name": "Pursuance Project",
+    "score": 20,
+    "summary": "Open source software enabling individuals and organizations to collaborate on shared goals through secure task management and discussion",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.demnext.org/projects/delibtech-network",
-    "score": 20
+    "name": "Deliberation & Technology (DelibTech) Network",
+    "score": 20,
+    "summary": "International network of technologists and practitioners building and studying technology to enhance deliberation and digital infrastructure for deliberative democracy",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://aisafety.info",
-    "score": 19
+    "name": "AISafety.info",
+    "score": 19,
+    "summary": "Educational resource on AI safety risks and how to help ensure beneficial AI outcomes",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://opencollective.com",
-    "score": 19
+    "name": "Open Collective",
+    "score": 19,
+    "summary": "Raise, manage and disburse money with full transparency.",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://openletter.earth",
-    "score": 19
+    "name": "Open Letter",
+    "score": 19,
+    "summary": "Platform for creating and signing open letters to effect civic and political change",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://osintframework.com",
-    "score": 19
+    "name": "OSINT Framework",
+    "score": 19,
+    "summary": "A curated collection of free OSINT tools and resources for information gathering",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.opencrvs.org",
-    "score": 19
+    "name": "OpenCRVS",
+    "score": 19,
+    "summary": "Open source digital civil registration and vital statistics system for every person on the planet",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://algorithmwatch.org",
-    "score": 18
+    "name": "AlgorithmWatch",
+    "score": 18,
+    "summary": "A non-governmental, non-profit organization based in Berlin and Zurich that fights for a world where algorithms and Artificial Intelligence (AI) do not weaken justice, human rights, democracy, and sustainability but strengthen them.",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://turbophonebank.com",
-    "score": 18
+    "name": "Turbo Phonebank",
+    "score": 18,
+    "summary": "A free phonebank platform that turns Google Sheets into phonebanks and textbanks with 2-tap calling",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.oporaua.org",
-    "score": 18
+    "name": "ОПОРА (Opora)",
+    "score": 18,
+    "summary": "Ukrainian civic network for election monitoring, democratic integrity, and civic participation",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.shineyoureye.org",
-    "score": 18
+    "name": "ShineYourEye",
+    "score": 18,
+    "summary": "Making Nigerian politicians accountable through citizen engagement and legislative tracking",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/podemos-info/participa",
-    "score": 17
+    "name": "Participa (Podemos)",
+    "score": 17,
+    "summary": "Unified census and participation platform for Podemos: voting, donations, microcredits, and citizen initiatives",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/sentinelteam/grim",
-    "score": 17
+    "name": "GRIM (Global Risk Simulator)",
+    "score": 17,
+    "summary": "AI Wargamer and Global Risk Simulator — a Telegram bot for simulating and role-playing global catastrophic risk scenarios",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://murmurations.network",
-    "score": 17
+    "name": "Murmurations Protocol",
+    "score": 17,
+    "summary": "Making movements visible — a distributed data sharing protocol to facilitate collaboration at scale",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://oa.works/",
-    "score": 17
+    "name": "OA.Works",
+    "score": 17,
+    "summary": "Powerfully simple open access tools for a just and kind information age",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://planit.org.uk",
-    "score": 17
+    "name": "PlanIT",
+    "score": 17,
+    "summary": "Digital platform enabling community participation in local planning decisions",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.meet.coop",
-    "score": 17
+    "name": "meet.coop",
+    "score": 17,
+    "summary": "The Online Meeting Cooperative - surveillance-free video conferencing powered by renewable energy on cooperatively owned infrastructure",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.mpwatch.org",
-    "score": 17
+    "name": "MP Watch",
+    "score": 17,
+    "summary": "Uniting People and Politicians for Climate Action",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/disarmfoundation/disarmframeworks",
-    "score": 16
+    "name": "DISARM Frameworks",
+    "score": 16,
+    "summary": "Master copies of the DISARM disinformation TTP frameworks for describing and countering disinformation incidents",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/kazad/pastecal",
-    "score": 16
+    "name": "Pastecal",
+    "score": 16,
+    "summary": "Zero-login shared calendar for collaborative scheduling without authentication",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.dsc.org.uk/publication/the-guide-to-major-trusts-2025-26/",
-    "score": 16
+    "name": "The Guide to Major Trusts 2025/26",
+    "score": 16,
+    "summary": "UK's definitive directory of over 1,000 largest grant-makers awarding £7.23 billion annually",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://cortico.ai/platform",
-    "score": 15
+    "name": "Cortico",
+    "score": 15,
+    "summary": "Bringing underheard voices to the center of stronger civic spaces through recorded small-group dialogue and AI-assisted sensemaking.",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://liquidfeedback.com",
-    "score": 15
+    "name": "LiquidFeedback",
+    "score": 15,
+    "summary": "Liquid democracy software for transparent proposal development and collective decision-making",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://arxiv.org/abs/2005.13701",
-    "score": 14
+    "name": "Modular Politics",
+    "score": 14,
+    "summary": "A governance layer framework for building composable, modular online community governance systems",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://remembertovote.org.uk",
-    "score": 14
+    "name": "Remember to Vote",
+    "score": 14,
+    "summary": "Free SMS reminder service for polling station locations and voter ID requirements",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.csail.mit.edu/research/wikum-bridging-discussion-systems-and-wikis-collective-summarization",
-    "score": 14
+    "name": "Wikum",
+    "score": 14,
+    "summary": "Tools for communities to collectively summarize large online discussions and manage embedded knowledge",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://yrpri.org",
-    "score": 14
+    "name": "Your Priorities",
+    "score": 14,
+    "summary": "Idea generation, deliberation & decision-making platform for governments since 2008",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://hand-written-petition-scanner.streamlit.app",
-    "score": 13
+    "name": "Hand-Written Petition Scanner",
+    "score": 13,
+    "summary": "Tool for digitizing and analyzing hand-written petitions using optical character recognition",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://wardwatch.uk",
-    "score": 13
+    "name": "WardWatch",
+    "score": 13,
+    "summary": "AI-powered deep research on councillor performance",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://secfirst.org",
-    "score": 12
+    "name": "Security First / Umbrella",
+    "score": 12,
+    "summary": "Free, open source digital and physical security handbook app for journalists, activists, NGO staff, and people working in high-risk environments.",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.dfos.com",
-    "score": 12
+    "name": "Democracy Fund Open Source",
+    "score": 12,
+    "summary": "Open source tools and resources for civic engagement and democratic participation",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.forms.service.gov.uk",
-    "score": 12
+    "name": "GOV.UK Forms",
+    "score": 12,
+    "summary": "Create accessible online forms for UK government without technical knowledge",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://atlasofsurveillance.org",
-    "score": 11
+    "name": "Atlas of Surveillance",
+    "score": 11,
+    "summary": "Documenting Police Tech in Our Communities with Open Source Research",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://digitalcharitylab.org/product/digital-account-management-toolkit",
-    "score": 11
+    "name": "Digital Account Management Toolkit",
+    "score": 11,
+    "summary": "Free resource to help nonprofits manage social media and digital accounts securely and prevent account lockouts",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://opensupplyhub.org",
-    "score": 11
+    "name": "Open Supply Hub",
+    "score": 11,
+    "summary": "A global, open-source platform for supply chain transparency and worker rights",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://civiclick.com",
-    "score": 10
+    "name": "CiviClick",
+    "score": 10,
+    "summary": "Grassroots advocacy software platform that personalizes advocate experience and drives policy influence at scale",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://dev.reuselibrary.service.justice.gov.uk/",
-    "score": 10
+    "name": "GOV Reuse Library",
+    "score": 10,
+    "summary": "Find and reuse digital service elements - Building public services together, one reusable block at a time",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://developer.parliament.uk",
-    "score": 10
+    "name": "UK Parliament Developer Portal",
+    "score": 10,
+    "summary": "APIs and data for accessing UK Parliament information",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://landexplorer.coop",
-    "score": 10
+    "name": "Land Explorer",
+    "score": 10,
+    "summary": "Mapping tools that help communities find, access and manage land for common good projects",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://publicmediastack.com",
-    "score": 10
+    "name": "Public Media Stack",
+    "score": 10,
+    "summary": "A curated research resource mapping software tools and technologies used across the public media workflow",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/radicalxchange/rxc-voice",
-    "score": 9
+    "name": "RxC Voice",
+    "score": 9,
+    "summary": "An app for decentralized democratic governance leveraging Quadratic Funding, pol.is, and Quadratic Voting",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://metaculus.com",
-    "score": 9
+    "name": "Metaculus",
+    "score": 9,
+    "summary": "A community prediction platform for forecasting future events and outcomes",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.papertree.earth",
-    "score": 9
+    "name": "Papertree",
+    "score": 9,
+    "summary": "Interactive tree planting data platform for transparent climate action accountability",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.torproject.org",
-    "score": 9
+    "name": "Tor Project",
+    "score": 9,
+    "summary": "Anonymity Online - Advance human rights and defend privacy through free and open source anonymity and privacy technologies",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://bonfirenetworks.org/",
-    "score": 8
+    "name": "Bonfire",
+    "score": 8,
+    "summary": "A federated social network for individuals and communities to design, operate and control their own digital lives.",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://commonslibrary.org",
-    "score": 8
+    "name": "The Commons Social Change Library",
+    "score": 8,
+    "summary": "Free digital library of 1500+ educational resources for activists, campaigners, and social change advocates",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://research.localgov.digital",
-    "score": 7
+    "name": "User Research Library",
+    "score": 7,
+    "summary": "A searchable repository of user research conducted by local government services",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://thecircuit.cc",
-    "score": 7
+    "name": "The Circuit",
+    "score": 7,
+    "summary": "A data-driven collaborative journalism investigation into Cook County's court system using 3 million criminal cases",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.publiceditor.io",
-    "score": 7
+    "name": "Public Editor",
+    "score": 7,
+    "summary": "Platform for collaborative fact-checking and editorial transparency in journalism",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://civicrm.org",
-    "score": 6
+    "name": "CiviCRM",
+    "score": 6,
+    "summary": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/notchia/dao-governance-surfaces",
-    "score": 6
+    "name": "DAO Governance Surfaces",
+    "score": 6,
+    "summary": "Extract and label the governance surface of a set of DAO smart contracts",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.organise.org.uk",
-    "score": 6
+    "name": "Organise",
+    "score": 6,
+    "summary": "Get heard at work – a workers' network for collective action on employment issues",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://openreferraluk.org",
-    "score": 5
+    "name": "Open Referral UK",
+    "score": 5,
+    "summary": "The open data standard that makes it easy to publish, find, and use community services data.",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.watchduty.org",
-    "score": 5
+    "name": "Watch Duty",
+    "score": 5,
+    "summary": "Real-time wildfire maps and alerts powered by volunteer first responders",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/whotargetsme/ad-transparency-standards/blob/main/implement.md",
-    "score": 4
+    "name": "Political Advertising Transparency Data Standard",
+    "score": 4,
+    "summary": "A schema standard for how political advertising data is presented across platforms to increase comprehension, trust, and interoperability",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://programs.clearerthinking.org/understanding-your-morality/",
-    "score": 4
+    "name": "Understanding Your Morality",
+    "score": 4,
+    "summary": "An interactive tool to help people understand their moral values and reasoning",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.mastodonc.com",
-    "score": 4
+    "name": "Mastodon C",
+    "score": 4,
+    "summary": "Data science and technology consultancy focused on open data, analytics, and civic technology",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://liberopinion.com",
-    "score": 3
+    "name": "Libertrium",
+    "score": 3,
+    "summary": "Digital solutions for public administration modernization, citizen participation, and transparency",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://numfocus.org",
-    "score": 3
+    "name": "NumFOCUS",
+    "score": 3,
+    "summary": "A Nonprofit Supporting Open Code for Better Science",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://arxiv.org",
-    "score": 1
+    "name": "arXiv",
+    "score": 1,
+    "summary": "Free distribution service and open-access archive for scholarly articles in physics, mathematics, computer science, and related fields",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://charitydigitalskills.co.uk",
-    "score": 1
+    "name": "Charity Digital Skills Report",
+    "score": 1,
+    "summary": "Annual survey tracking digital and AI adoption, skills, and support needs across the UK charity sector",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://logos.co/",
-    "score": 1
+    "name": "Logos",
+    "score": 1,
+    "summary": "A social movement and decentralised technology stack built to revitalise civil society",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://opencouncil.network",
-    "score": 1
+    "name": "Open Council Network",
+    "score": 1,
+    "summary": "Makes local government decision-making accessible to everyone through council meeting tracking and weekly summaries",
+    "assessment": "No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   }
 ]

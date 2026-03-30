@@ -1,1286 +1,2570 @@
 [
   {
     "url": "https://algorithmwatch.org",
-    "score": 97
+    "name": "AlgorithmWatch",
+    "score": 97,
+    "summary": "A non-governmental, non-profit organization based in Berlin and Zurich that fights for a world where algorithms and Artificial Intelligence (AI) do not weaken justice, human rights, democracy, and sustainability but strengthen them.",
+    "assessment": "Genuine feedback loops from field investigations (scandals, blocked research) that update public positions – not dogmatic gospel, but testable via policy outcomes.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://bellingcat.gitbook.io/toolkit",
-    "score": 94
+    "name": "Bellingcat Online Investigation Toolkit",
+    "score": 94,
+    "summary": "A toolkit for open source researchers - your place to discover tools for online investigations",
+    "assessment": "Cultivates relational tissue in OSINT community—volunteer guardians embody sustained care, turning tool-list into living collaboration political/experimental lenses might overlook as mere resource.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://creativecommons.org",
-    "score": 83
+    "name": "Creative Commons",
+    "score": 83,
+    "summary": "CC empowers individuals and communities around the world through technical, legal, and policy solutions that enable the sharing of education, culture, and science in the public interest.",
+    "assessment": "CC's theory of open licensing is a falsifiable hypothesis tested at planetary scale via adoption feedback, enabling others' experimentation while modeling institutional updating.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://blog.kagi.com/slopstop",
-    "score": 68
+    "name": "Kagi SlopStop",
+    "score": 68,
+    "summary": "Community-driven AI slop detection in Kagi Search — your collective defense against AI-generated spam and content farms",
+    "assessment": "Strong, multi-signal feedback loops (flags + verification + iteration) treat theory of change as live hypothesis, enabling surprise/update – rare honesty in search tech's black-box norm.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://adhocracy.plus",
-    "score": 20
+    "name": "adhocracy+",
+    "score": 20,
+    "summary": "Makes digital democracy easy — for everyone, no matter where.",
+    "assessment": "Serves institutional power-holders (municipalities/companies) with cleaner citizen interfaces, reinforcing hierarchies under 'democracy' branding—relational/experimental agents might overvalue community/tools, missing who truly wields outcomes.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://aleph.occrp.org",
-    "score": 20
+    "name": "Aleph (OCCRP)",
+    "score": 20,
+    "summary": "The global archive of research material for investigative reporting. Follow the money through government records and databases.",
+    "assessment": "The relational promise is real—cross-border data solidarity—but the nourishment is uneven: the platform brilliantly reduces technical isolation yet quietly outsources the emotional and verification labour to local journalists and affected communities. Unless that labour is recognised and resourced, the relational fabric could fray even as the tech succeeds.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://bonfirenetworks.org/",
-    "score": 20
+    "name": "Bonfire",
+    "score": 20,
+    "summary": "A federated social network for individuals and communities to design, operate and control their own digital lives.",
+    "assessment": "Prioritizes relationships as ends, not means—political agents miss this anti-extraction relational core; experimental might undervalue the 'care together' hypothesis.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://civicpress.io/",
-    "score": 20
+    "name": "CivicPress",
+    "score": 20,
+    "summary": "Open infrastructure for transparent local government",
+    "assessment": "This is infrastructure for the mundane work of democracy that relational and experimental agents might dismiss as 'just bureaucracy' - but it's building open source tools that municipalities can actually own rather than rent from vendors. The political potential isn't in the tool itself but in the shift from proprietary govtech to public infrastructure, creating space for more radical democratic possibilities once the basic plumbing works.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://civicrm.org",
-    "score": 20
+    "name": "CiviCRM",
+    "score": 20,
+    "summary": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations",
+    "assessment": "Open-source model provides genuine, distributed feedback loops that political/relational agents might undervalue, enabling survival and adaptation beyond any single theory of change.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://climateaction.tech",
-    "score": 20
+    "name": "ClimateAction.Tech",
+    "score": 20,
+    "summary": "Tech workers seeding climate action in companies, organisations and industries",
+    "assessment": "Empowers tech workers to self-regulate their sector's emissions, polishing hierarchies without upending who controls compute and capital.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://cobudget.com",
-    "score": 20
+    "name": "Cobudget",
+    "score": 20,
+    "summary": "Bring people, ideas and money together, encouraging participation at every stage",
+    "assessment": "Genuine user-level feedback loops via pledge/track, but project's own epistemology invisible—hypothesis-testable for groups, untestable gospel for Cobudget team?",
+    "assessment_synthetic": false
   },
   {
     "url": "https://consulproject.org",
-    "score": 20
+    "name": "CONSUL Democracy",
+    "score": 20,
+    "summary": "The most complete citizen participation tool for an open, transparent and democratic government.",
+    "assessment": "Reinforces municipal state power with a participatory facade, channeling dissent into manageable inputs—relational/experimental agents miss this as elite co-optation of grassroots energy.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://coralproject.net",
-    "score": 20
+    "name": "Coral",
+    "score": 20,
+    "summary": "A better commenting experience — open source tools for safer, more engaged online communities.",
+    "assessment": "The political and relational agents would see Coral as infrastructure for a beleaguered profession, building solidarity and institutional capacity. What they'd miss is the epistemic gap between 'we have good tools' and 'we know these tools improve democratic discourse.' Coral's theory of change is held as working assumption, not testable hypothesis. The project has the *apparatus* of learning (open source, iteration, feedback channels) without visible *practice* of learning about outcomes. This…",
+    "assessment_synthetic": false
   },
   {
     "url": "https://cortico.ai/platform",
-    "score": 20
+    "name": "Cortico",
+    "score": 20,
+    "summary": "Bringing underheard voices to the center of stronger civic spaces through recorded small-group dialogue and AI-assisted sensemaking.",
+    "assessment": "This project sits in the tension between genuine community listening and institutional knowledge extraction. The epistemic question is whether AI-supported sensemaking preserves or flattens the complexity of community knowledge, and whether the insights generated create feedback loops that actually shift power rather than just informing it.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://datacollective.mozillafoundation.org/",
-    "score": 20
+    "name": "Mozilla Data Collective",
+    "score": 20,
+    "summary": "Rebuilding the AI data ecosystem with communities at the centre — 470+ high-quality global datasets, built by and for the community in a transparent and ethical way.",
+    "assessment": "Promising feedback via community contributions, but no visible mechanisms to test if datasets actually enable better AI outcomes or just feel-good collection.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://datatrusts.uk",
-    "score": 20
+    "name": "The Data Trusts Initiative",
+    "score": 20,
+    "summary": "Working at the interface of technology, policy and the law to create data trusts that empower individuals and communities while supporting data use for social benefit.",
+    "assessment": "Genuine feedback potential via pilots (testable hypothesis on data trusts' empowerment), but no visible mechanisms for public failure-acknowledgment or updating — epistemics promising yet unverified.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://decelerator.org.uk",
-    "score": 20
+    "name": "The Decelerator",
+    "score": 20,
+    "summary": "A free support service for civil society organisations facing endings — closures, mergers, leadership transitions, and programme ends.",
+    "assessment": "This project has genuine epistemic humility in naming endings as inevitable, but may lack the feedback loops to know whether its approach to endings is actually reducing harm or just aestheticizing collapse. The political and relational agents would miss how this project's theory of change - that better endings create better beginnings - remains largely untested and potentially unfalsifiable.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://decidim.org",
-    "score": 20
+    "name": "Decidim",
+    "score": 20,
+    "summary": "A free/libre, open and safe digital platform for citizen participation. Reprogramming democracy is now possible.",
+    "assessment": "Genuine OSS feedback loops via Metadecidim enable noticing errors, but public adopter constraints may blunt bold updates — political/relational agents miss this quiet institutional stickiness.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://ethelo.com",
-    "score": 20
+    "name": "Ethelo",
+    "score": 20,
+    "summary": "The world's leading group solutions technology — a multi-party scenario analysis engine that finds fair solutions with broad support.",
+    "assessment": "No visible mechanisms to surface/respond to evidence of ineffectiveness (e.g., when consensus fails or support drops below 76%); theory of change ('algorithm finds fair solutions') treated as received truth, not hypothesis.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://expo.diia.gov.ua",
-    "score": 20
+    "name": "Diia",
+    "score": 20,
+    "summary": "Ukraine's digital government ecosystem: mobile app, portal, and digital transformation projects",
+    "assessment": "Reinforces centralized state power under war pretext, serving executive (Zelenskyy/MinDigital) more than dismantling hierarchies; relational/experimental agents might miss this as mere 'efficiency win' amid invasion.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://fixmyblock.org",
-    "score": 20
+    "name": "FixMyBlock",
+    "score": 20,
+    "summary": "Tried and tested action guides for getting stuff fixed in your block",
+    "assessment": "No visible feedback loops or falsifiability – guides presented as 'tried and tested' truth, not hypotheses; intellectual honesty in tenant stories, but no institutional updating mechanism to surprise or pivot.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://github.com/cverluise/patcit",
-    "score": 20
+    "name": "PatCit",
+    "score": 20,
+    "summary": "Making Patent Citations Uncool Again — a comprehensive dataset of structured patent citations",
+    "assessment": "Democratizes patent citation opacity (big corps' edge), but on corporate cloud—cracks power without toppling it; relational/experimental miss this IP asymmetry play.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://github.com/disarmfoundation/disarmframeworks",
-    "score": 20
+    "name": "DISARM Frameworks",
+    "score": 20,
+    "summary": "Master copies of the DISARM disinformation TTP frameworks for describing and countering disinformation incidents",
+    "assessment": "Reinforces infosec power arrangements (MITRE-style) onto disinformation response, centering technical responders while invisibilizing grassroots/media reform – relational/experimental agents might miss this hierarchical import.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://github.com/huridocs",
-    "score": 20
+    "name": "HURIDOCS",
+    "score": 20,
+    "summary": "HURIDOCS equips human rights defenders with tools to mobilise information for justice and accountability",
+    "assessment": "The epistemic structure here is interesting - they're building technical infrastructure with embedded domain knowledge, creating a form of distributed learning where insights get encoded into tools rather than documented explicitly. The open-source approach creates genuine knowledge transfer, but there's a question about whether they have feedback loops to validate that technical improvements translate to human rights impact. This is infrastructure epistemics - learning through building rather t…",
+    "assessment_synthetic": false
   },
   {
     "url": "https://github.com/i-dot-ai/awesome-gov-datasets",
-    "score": 20
+    "name": "Awesome UK Government Datasets",
+    "score": 20,
+    "summary": "A curated list of references to useful UK Government datasets",
+    "assessment": "This project embodies a crucial epistemic insight: that government transparency often fails not because data doesn't exist, but because it's impossible to find. The structured metadata approach creates genuine learning infrastructure that could outlast the specific project. However, it operates entirely within existing power structures - making government outputs more legible without questioning why they're so illegible in the first place.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://github.com/mikekelly/policy-dojo",
-    "score": 20
+    "name": "UK Policy Dojo",
+    "score": 20,
+    "summary": "A dojo for AI agents to battle out UK policy ideas through adversarial review",
+    "assessment": "Reinforces AI as neutral arbiter of policy, centering tech-mediated ideologies over messy human power struggles—what relational/experimental agents might celebrate as 'innovative debate' masks hierarchical invisibility.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://github.com/openpolitics/groupthink",
-    "score": 20
+    "name": "Groupthink (OpenPolitics Votebot)",
+    "score": 20,
+    "summary": "A collaborative democratic platform built atop GitHub, designed for open policymaking and manifesto writing",
+    "assessment": "Gently instruments GitHub's battle-tested collab relations for policy without pretending to invent community from scratch—political/experimental agents miss this low-friction relational reuse.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://github.com/podemos-info/participa",
-    "score": 20
+    "name": "Participa (Podemos)",
+    "score": 20,
+    "summary": "Unified census and participation platform for Podemos: voting, donations, microcredits, and citizen initiatives",
+    "assessment": "Enables relational infrastructure for political community (votes + geo-teams), turning individual energy into collective ties—missed by political power-focus or experimental metrics.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://github.com/sentinelteam/grim",
-    "score": 20
+    "name": "GRIM (Global Risk Simulator)",
+    "score": 20,
+    "summary": "AI Wargamer and Global Risk Simulator — a Telegram bot for simulating and role-playing global catastrophic risk scenarios",
+    "assessment": "Flattens access to global risk simulation, challenging expert-gatekept wargaming hierarchies—but risks becoming interface polish for unchanged catastrophe drivers.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://github.com/travisbrown/birdwatch",
-    "score": 20
+    "name": "Community Notes (Birdwatch) Analysis Tool",
+    "score": 20,
+    "summary": "Metadata repository and analysis tools for X's Community Notes system, adding user aliases and tweet-author data missing from official snapshots",
+    "assessment": "Enables power mapping of Community Notes (e.g., elite targeting like Musk), surfacing who benefits from X's 'crowd' moderation without disrupting platform sovereignty.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://github.com/vbuterin/dao",
-    "score": 20
+    "name": "The DAO (Standard DAO Framework)",
+    "score": 20,
+    "summary": "A Standard DAO (Decentralized Autonomous Organization) framework written in Solidity",
+    "assessment": "Empowers crypto insiders to build 'autonomous' orgs, challenging traditional hierarchies on paper but cementing Ethereum's power base—relational/experimental agents miss this founder-centric power layering.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://globalfactcheck.bot/",
-    "score": 20
+    "name": "Global Fact-Check Bot (GFC)",
+    "score": 20,
+    "summary": "A pioneering AI platform that empowers fact-checkers and citizens worldwide to verify information accuracy across 50+ languages, powered by 38 trusted organizations",
+    "assessment": "Amplifies power of global fact-checking networks (often Western-funded NGOs) as arbiters of truth, challenging populist/disinfo actors but entrenching elite narrative control—what relational/experimental lenses overlook.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://hact.org.uk/tools-and-services/uk-housing-data-standards",
-    "score": 20
+    "name": "UK Housing Data Standards",
+    "score": 20,
+    "summary": "Sector-developed data standards for UK social housing to improve data governance, performance, and regulatory reporting",
+    "assessment": "Genuine epistemic humility via public PoC/testing call—holds theory (standards improve outcomes) as testable, not dogma; political/relational agents might miss this as just 'sector collab'.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://humbledata.org",
-    "score": 20
+    "name": "Humble Data Workshop",
+    "score": 20,
+    "summary": "Free data science and Python workshops for underrepresented groups in tech",
+    "assessment": "This is a fractal, low-ego intervention that treats skill-sharing as mutual aid rather than charity. It won't topple tech's power structure, but it seeds networks capable of pivoting toward more confrontational forms once participants trust themselves and each other—something a pure systemic or experimental lens would undervalue.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://library.theengineroom.org",
-    "score": 20
+    "name": "The Engine Room Library",
+    "score": 20,
+    "summary": "Open, multilingual research guides on using data and technology for social change",
+    "assessment": "Reinforces NGO-tech solutionism by packaging data/tech tactics for social changemakers without interrogating who controls the tech stacks or funds the 'change'—centers expert summarizers over grassroots epistemologies.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://liquidfeedback.com",
-    "score": 20
+    "name": "LiquidFeedback",
+    "score": 20,
+    "summary": "Liquid democracy software for transparent proposal development and collective decision-making",
+    "assessment": "The project’s epistemic weak point is the missing feedback loop on *power outcomes*: no visible mechanism tests whether post-LiquidFeedback decisions are (a) different from what elites would have chosen anyway, or (b) perceived as more legitimate by the least-heard participants. Without that loop, ‘10 years of experience’ risks mean 10 years of refining a black-box legitimiser.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://matrix.org",
-    "score": 20
+    "name": "Matrix",
+    "score": 20,
+    "summary": "An open standard and network for secure, decentralised, interoperable communication",
+    "assessment": "Thin promo hides potential open-source learning loops; political/relational agents miss how spec evolution tests 'decentralization works' hypothesis via real-world forks/adoption.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://nyaaya.org",
-    "score": 20
+    "name": "Nyaaya",
+    "score": 20,
+    "summary": "India's Laws Explained — open access legal information for every Indian citizen",
+    "assessment": "Quietly rebuilds relational agency in everyday injustices—enables people to nourish/protect their bonds (family, work) via rights-knowledge, where political/experimental lenses see only info vs power.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://oneproject.org/",
-    "score": 20
+    "name": "One Project",
+    "score": 20,
+    "summary": "Building infrastructure for economic democracy — connecting people, organisations, and resources to coordinate and grow a new economy",
+    "assessment": "Explicitly challenges capitalist power arrangements by centering economic democracy and multiplicity, but thin details obscure who holds power here (funders? team elites?) — reinforces solutionism without visible structural disruption.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://opendigitalplanning.org/",
-    "score": 20
+    "name": "Open Digital Planning",
+    "score": 20,
+    "summary": "Planning services designed by councils for councils — a community of Local Planning Authorities transforming England's digital planning system",
+    "assessment": "Clear evidence of practical updating (pivots, maturity checks) amid thin details on failure acknowledgment or surprise – epistemics functional but govt-framed, not hungrily truth-seeking.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://openheartmind.org",
-    "score": 20
+    "name": "Open Heart Mind (OHM)",
+    "score": 20,
+    "summary": "Participatory gatherings and regenerative systems for collective flourishing — developing Wisdom, an open-source peer evaluation platform",
+    "assessment": "The core epistemic question is whether 'wisdom of crowds' is held as a testable hypothesis or an article of faith. The project shows promising structural commitments (open source, contributor recognition, multiple contexts) but unclear feedback loops for when collective wisdom fails or creates new problems. The tension between beautiful vision and messy implementation reality is unresolved.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://openparliament.ca/",
-    "score": 20
+    "name": "openparliament.ca",
+    "score": 20,
+    "summary": "Making it easy to find out what your representatives in Ottawa are up to — see what they're saying, what laws they're proposing, and track parliamentary debates and bills.",
+    "assessment": "The political agent sees a civic-tech jewel that entrenches the very spectator democracy it claims to fix: by perfecting the interface for watching parliamentary theatre, it relieves citizens of the messier work of organizing, while letting elites point to ‘openness’ as legitimacy. Relational and experimental agents miss how this substitution of visibility for power is the quietest form of capture.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://openreferraluk.org",
-    "score": 20
+    "name": "Open Referral UK",
+    "score": 20,
+    "summary": "The open data standard that makes it easy to publish, find, and use community services data.",
+    "assessment": "Nourishes relational fabric by standardizing data flows, letting frontline workers focus on people not silos—political agents miss this quiet empowerment of care labor.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://osf.io",
-    "score": 20
+    "name": "Open Science Framework",
+    "score": 20,
+    "summary": "A free, open platform for researchers to collaborate and share their work",
+    "assessment": "Exceptional feedback loops for science (prereg, data sharing force epistemic honesty), but political agents miss how it indirectly challenges elite gatekeeping without direct power confrontation.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://richardpope.org/2017/03/05/beckton-a-tool-to-build",
-    "score": 20
+    "name": "Beckton",
+    "score": 20,
+    "summary": "A conditional-commitment tool for creating groups of paying members — only charges if enough people join.",
+    "assessment": "The political agent spots that the real intervention is not the software but the re-introduction of conditional-commitment organising into labour contexts where upfront money is a barrier; payment rails and TOS risk censoring it, so any future funding must include legal/hosting shields, not just feature polish—something the relational and experimental agents would likely overlook.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://secfirst.org",
-    "score": 20
+    "name": "Security First / Umbrella",
+    "score": 20,
+    "summary": "Free, open source digital and physical security handbook app for journalists, activists, NGO staff, and people working in high-risk environments.",
+    "assessment": "Sustains fragile human connections in adversarial digital spaces by prioritizing security as relational care—political agents miss this inward nourishment enabling outward resistance.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://snowdrift.coop",
-    "score": 20
+    "name": "Snowdrift.coop",
+    "score": 20,
+    "summary": "Crowdmatching for public goods",
+    "assessment": "This project treats the theory of public goods coordination as settled science rather than a contested political question. While crowdmatching might be clever, there's no evidence they're testing whether this mechanism actually serves communities' self-defined needs versus imposing a particular vision of how public goods should emerge. The political agent would see this as potentially replicating traditional power dynamics under democratic language; the relational agent would notice the absence…",
+    "assessment_synthetic": false
   },
   {
     "url": "https://societyforhopefultechnologists.org",
-    "score": 20
+    "name": "Society for Hopeful Technologists",
+    "score": 20,
+    "summary": "For everyone who wants technologies to work for people and planet.",
+    "assessment": "Creates real relational infrastructure for tech workers stuck in critique mode, turning isolation into hopeful solidarity—the human fabric political power plays or experimental tweaks overlook.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://sourceafrica.net",
-    "score": 20
+    "name": "sourceAFRICA",
+    "score": 20,
+    "summary": "Africa's premier repository for actionable documents",
+    "assessment": "The epistemic risk is conflating transparency with accountability. Unless the archive is coupled to power-shifting mechanisms (legal allies, civic coalitions, audience reach) it risks becoming a monument to documents no one acts upon.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://soweego.readthedocs.io",
-    "score": 20
+    "name": "soweego",
+    "score": 20,
+    "summary": "Link Wikidata to large catalogs",
+    "assessment": "This project creates permanent infrastructure for knowledge surveillance and extraction, presented as neutral technical linkage. While it serves legitimate research purposes, it also creates irrevocable capacity for combining disparate databases about people, cultural production, and social relationships in ways that will enable new forms of surveillance and commercial extraction. The team appears blind to the political nature of forcing diverse knowledge systems into compatible formats, seeing…",
+    "assessment_synthetic": false
   },
   {
     "url": "https://spacetu.be",
-    "score": 20
+    "name": "Spacetube",
+    "score": 20,
+    "summary": "Group-to-group chat tool built on Matrix for secure decentralised communication",
+    "assessment": "Quietly reinforces decentralized power flows against Big Tech gatekeeping, centering Matrix affinity groups while rendering non-technical users invisible—no relational warmth or experimental rigor to elevate it.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://standards.theodi.org",
-    "score": 20
+    "name": "Open Standards for Data Guidebook",
+    "score": 20,
+    "summary": "Helping people and organisations create, develop and adopt open standards for data",
+    "assessment": "Standard-setting consolidates soft power for orgs like ODI (intermediated by UK/Western interests), channeling grassroots data efforts into interoperable but controllable formats—what relational/experimental agents overlook as neutral tooling.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://the-list.uk",
-    "score": 20
+    "name": "The List",
+    "score": 20,
+    "summary": "Tracking changes to grant-making behaviour of Trusts and Foundations in the UK — By Fundraisers, For Fundraisers",
+    "assessment": "The List is a community patch over a structural information gap; it is epistemically under-instrumented—no visible correction or accuracy loops—so its usefulness could erode quietly if bad data creeps in.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://thecircuit.cc",
-    "score": 20
+    "name": "The Circuit",
+    "score": 20,
+    "summary": "A data-driven collaborative journalism investigation into Cook County's court system using 3 million criminal cases",
+    "assessment": "Data as feedback loop exists (280k arrests analyzed), enabling surprise (e.g., Van Dyke leniency), but no mechanisms shown for institutional surprise or failure acknowledgment.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://upgrader.gapminder.org",
-    "score": 20
+    "name": "Gapminder Worldview Upgrader",
+    "score": 20,
+    "summary": "Important stuff most people get wrong — a free educational tool to help people rid themselves of common systematic misconceptions about global development",
+    "assessment": "The political agent sees that this project embodies the NGO-academic-industrial complex: correcting masses for their ignorance while leaving intact the power to name what counts as a 'misconception'. It will likely succeed at its own metrics — and that success will legitimate the very epistemic hierarchy it pretends to dissolve. The relational and experimental agents will miss how the *form* of the tool (we correct you) undermines its *content* (the world is complex).",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.agenciesforgood.org",
-    "score": 20
+    "name": "Agencies for Good",
+    "score": 20,
+    "summary": "A community of tech for good agencies, consultancies and freelancers supporting socially impactful work",
+    "assessment": "The political and relational agents will miss that the slack itself is a tacit knowledge commons whose epistemic value is precisely its refusal to formalise—formalisation would kill the trust that makes rapid resource-sharing possible. The experimental question is whether that trust can be scaled or archived without destroying it.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.gov.uk/service-manual",
-    "score": 20
+    "name": "Service Manual",
+    "score": 20,
+    "summary": "Guidance for UK government teams to create and run great public services meeting the Service Standard",
+    "assessment": "Reinforces centralized state power with user-friendly tech veneer, serving taxpayers superficially while entrenching Westminster hierarchies—relational/experimental agents might miss this legitimating function.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.hotosm.org",
-    "score": 20
+    "name": "Humanitarian OpenStreetMap Team (HOT)",
+    "score": 20,
+    "summary": "Mapping for impact in humanitarian crises and development challenges",
+    "assessment": "Fosters a global relational web of mappers sustaining each other through shared humanitarian purpose—political agents miss this volunteer nourishment amid power/data dynamics.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.opensanctions.org",
-    "score": 20
+    "name": "OpenSanctions",
+    "score": 20,
+    "summary": "Supreme Data on Supreme Leaders - open source sanctions and politically exposed persons data platform",
+    "assessment": "Enables relational protection via open data on extractors (sanctions evaders), but instruments humans as data—political/experimental agents miss this tension between nourishing transparency and potential surveillance chill.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.oporaua.org",
-    "score": 20
+    "name": "ОПОРА (Opora)",
+    "score": 20,
+    "summary": "Ukrainian civic network for election monitoring, democratic integrity, and civic participation",
+    "assessment": "This is democracy as seance - maintaining rituals of electoral legitimacy to keep the ghost of normal Ukraine alive while the actual state fights for survival. The political question isn't whether they're monitoring elections well, but whether maintaining electoral democracy during existential war is revolutionary preservation or tragic denial. They're trapped in western democracy templates that might be irrelevant to what Ukraine actually needs to survive as a political entity.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.organise.org.uk",
-    "score": 20
+    "name": "Organise",
+    "score": 20,
+    "summary": "Get heard at work – a workers' network for collective action on employment issues",
+    "assessment": "The epistemic question here isn't whether they're learning from user feedback (they clearly are), but whether they're learning about the deeper theory of change. Does anonymous, platform-mediated organizing actually build worker power, or does it create the feeling of empowerment while leaving fundamental structures intact? The success metrics make this question hard to answer - and potentially hard for them to even ask.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.otree.org",
-    "score": 20
+    "name": "oTree",
+    "score": 20,
+    "summary": "Open-source platform for web-based behavioral research and interactive experiments",
+    "assessment": "The relational and experimental agents will miss that oTree’s apolitical stance is itself a political choice: by refusing to encode ethics into the architecture, it defaults to the ethics of whoever has the most grant money and the least oversight.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.shareddigitalguides.org.uk",
-    "score": 20
+    "name": "Shared Digital Guides",
+    "score": 20,
+    "summary": "Non-profit organisations share step-by-step guides to using digital tools for social good",
+    "assessment": "The political and relational agents will miss that this is a low-stakes knowledge commons that could quietly cultivate epistemic humility inside participating orgs—IF CAST adds even a lightweight ‘what we learned / what didn’t work’ field to each guide. Without that, it’s just another static best-practice library.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.teachingpublicservice.digital",
-    "score": 20
+    "name": "Teaching Public Service in the Digital Age",
+    "score": 20,
+    "summary": "Open-access syllabus and training to equip public servants with digital-era skills",
+    "assessment": "Adoption scale hints at real-world testing of theory (digital skills via syllabi work), but no transparent mechanisms to falsify/update it — epistemics strong on diffusion, weak on self-correction.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.theyworkforyou.com",
-    "score": 20
+    "name": "TheyWorkForYou",
+    "score": 20,
+    "summary": "Hansard and Official Reports for the UK Parliament, Scottish Parliament, and Northern Ireland Assembly - done right",
+    "assessment": "TheyWorkForYou exemplifies how successful civic tech can become epistemically frozen - its core theory of change ('transparency improves democracy') has become unfalsifiable infrastructure. The political and relational agents would miss how the project's very success makes it unable to learn whether its approach actually works.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.ushahidi.com",
-    "score": 20
+    "name": "Ushahidi",
+    "score": 20,
+    "summary": "Crowdsourcing Solutions to Empower Communities",
+    "assessment": "Billionaire-backed data layer reinforces 'empowerment' hierarchies—citizen voices amplified but funneled through tech philanthropists, sidestepping who controls the underlying governance machines.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.watchduty.org",
-    "score": 20
+    "name": "Watch Duty",
+    "score": 20,
+    "summary": "Real-time wildfire maps and alerts powered by volunteer first responders",
+    "assessment": "Shifts power from centralized agencies to volunteer-distributed real-time info, serving fire-vulnerable communities (often rural/underserved) while reinforcing nonprofit hierarchies over deeper challenges to arsonists of the status quo.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://yourtracka.org",
-    "score": 20
+    "name": "Tracka",
+    "score": 20,
+    "summary": "Monitor the status of federal and state projects in your community and take action on implementation gaps",
+    "assessment": "Distributed epistemic loops via citizen reports create genuine, hard-to-fake feedback at scale, but no transparency on how Tracka internally learns from them.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://activisthandbook.org/",
-    "score": 5
+    "name": "Activist Handbook",
+    "score": 5,
+    "summary": "Campaigning guides for activists",
+    "assessment": "Thin content reveals a power play: funnels people into predefined 'progressive' activism lanes, potentially reinforcing NGO-funded hierarchies over grassroots multiplicity—what relational agent might celebrate as community-building, I see as narrowing political imagination.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://all-our-ideas.citizens.is",
-    "score": 5
+    "name": "All Our Ideas",
+    "score": 5,
+    "summary": "A platform for crowdsourcing ideas and priorities through pairwise comparison voting",
+    "assessment": "The project appears to have solved a specific consultation problem so thoroughly that it stopped questioning whether this is still the right problem to solve. The epistemic humility that created wiki surveys has been replaced by methodological certainty, making it unable to learn that communities might need fundamentally different tools for democratic participation now.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://alltechishuman.org/responsible-tech-guide-2025",
-    "score": 5
+    "name": "Responsible Tech Guide 2025",
+    "score": 5,
+    "summary": "Flagship resource providing information, inspiration, and pathways for involvement in the Responsible Tech ecosystem",
+    "assessment": "This is movement capture dressed as movement building—taking the energy for tech accountability and channeling it into individual career development within existing power structures, while extracting community data and labor to build the organization's brand. The relational and experimental agents would miss how the very framework of 'responsible tech' serves to legitimate continued tech expansion by creating the illusion of guardrails rather than fundamental transformation.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://annas-archive.pm",
-    "score": 5
+    "name": "Anna's Archive",
+    "score": 5,
+    "summary": "A non-profit, open-source digital library preserving access to knowledge through shadow library aggregation",
+    "assessment": "What the political and experimental agents would miss is how infrastructure projects like this create or fail to create genuine community among knowledge seekers. They'd see the radical redistribution of access but miss whether this creates relationships between users, between knowledge creators and seekers, or just enables more isolated individual consumption masked as collective liberation.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://antievictionmappingproject.github.io/landlordtech",
-    "score": 5
+    "name": "Landlord Tech Watch",
+    "score": 5,
+    "summary": "Producing data, scholarship, and popular educational materials documenting how property technology increases landlord power while disempowering tenants",
+    "assessment": "Thin content blocks relational read; title hints at protective community mapping vs extractive tech, but political/experimental agents would need full page for power/data angles.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://aragon.org",
-    "score": 5
+    "name": "Aragon",
+    "score": 5,
+    "summary": "The Home of Onchain Organizations – governance and ownership infrastructure for DAOs and protocols",
+    "assessment": "Modular architecture as genuine feedback enabler—allows testing/updating governance hypotheses without catastrophe—but unproven if they acknowledge when onchain isn't enough.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://arxiv.org",
-    "score": 5
+    "name": "arXiv",
+    "score": 5,
+    "summary": "Free distribution service and open-access archive for scholarly articles in physics, mathematics, computer science, and related fields",
+    "assessment": "What the other agents would miss is how arXiv has created a genuine gift economy within academia - researchers voluntarily contribute moderation, peer review, and curation labor not for personal gain but because they experience themselves as part of a scholarly community worth sustaining. This isn't extraction of free labor but an expression of relational values that traditional publishing has nearly destroyed.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://arxiv.org/abs/2005.13701",
-    "score": 5
+    "name": "Modular Politics",
+    "score": 5,
+    "summary": "A governance layer framework for building composable, modular online community governance systems",
+    "assessment": "This project embodies a classic tension in political technology: rigorous systems thinking that could genuinely improve governance tools, but may be fundamentally misunderstanding governance as a technical rather than relational problem. The modularity paradigm could either enable genuine experimentation or create sophisticated ways to avoid confronting power.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://atlasofsurveillance.org",
-    "score": 5
+    "name": "Atlas of Surveillance",
+    "score": 5,
+    "summary": "Documenting Police Tech in Our Communities with Open Source Research",
+    "assessment": "Exposes hidden power (police tech infrastructure) to communities, challenging state secrecy—whoever built it centers the surveilled over enforcers.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://benefits-calculator.turn2us.org.uk",
-    "score": 5
+    "name": "Turn2us Benefits Calculator",
+    "score": 5,
+    "summary": "Online tool to help people identify welfare benefits they may be entitled to",
+    "assessment": "Thin content reveals no epistemic infrastructure; political/relational agents might praise accessibility, but this lacks mechanisms to test or update amid policy flux.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://bsky.app",
-    "score": 5
+    "name": "Bluesky",
+    "score": 5,
+    "summary": "Open social media platform built on the AT Protocol",
+    "assessment": "The political agent sees that Bluesky is simultaneously trying to democratize social media infrastructure while recreating Twitter's power dynamics at a different scale. The protocol could enable genuine structural change, but only if the team can let go of making Bluesky the center of that change. The relational and experimental agents will miss how the 'algorithmic choice' framing still centers platform power — users choose between algorithms created by others, rather than creating their own c…",
+    "assessment_synthetic": false
   },
   {
     "url": "https://channel.org",
-    "score": 5
+    "name": "Channel.org",
+    "score": 5,
+    "summary": "Own your Channels, content, and community",
+    "assessment": "No visible relational fabric at all—pure slogan, so political/experimental agents might speculate on mechanics while I see total relational void.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://charitydigitalskills.co.uk",
-    "score": 5
+    "name": "Charity Digital Skills Report",
+    "score": 5,
+    "summary": "Annual survey tracking digital and AI adoption, skills, and support needs across the UK charity sector",
+    "assessment": "This is audit culture wearing the mask of capacity building. It individualizes structural underfunding as 'digital inadequacy' while creating new markets for tech vendors. The relational agent would miss how the survey itself performs power—making charities survey themselves for the benefit of digital transformation industries. The experimental agent would miss that the 'hypothesis' (digital skills=charity effectiveness) is baked into the survey design and serves existing power arrangements.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://charmverse.io/",
-    "score": 5
+    "name": "CharmVerse",
+    "score": 5,
+    "summary": "The Network for Onchain Communities",
+    "assessment": "This is administrative infrastructure masquerading as political transformation. The real political question isn't whether grants can be managed more efficiently — it's whether the grant model itself concentrates decision-making power in foundations/whale-token-holders while creating the appearance of community participation. CharmVerse makes this extraction more comfortable rather than questioning it.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://choosealicense.com",
-    "score": 5
+    "name": "Choose a License",
+    "score": 5,
+    "summary": "An open source license guide helping developers and projects select appropriate licenses for their work",
+    "assessment": "Reinforces corporate-friendly OSS norms (MIT prominence) under guise of neutrality, centering GitHub's power while sidelining deeper challenges to proprietary software dominance—what radical OSS histories would demand.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://citizenos.com/platform/",
-    "score": 5
+    "name": "Citizen OS",
+    "score": 5,
+    "summary": "Secure, free and open-source participation platform for meaningful discussions and democratic decisions",
+    "assessment": "Insufficient page content (only 'Topics' snippet) blocks epistemic evaluation entirely; need full project description, theory of change, and evidence of learning mechanisms.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://ciudadaniai.org",
-    "score": 5
+    "name": "Fundación Ciudadanía Inteligente",
+    "score": 5,
+    "summary": "Latin American organization fighting for the transformation of democracies through civic technology and open tools",
+    "assessment": "Thin content reveals almost nothing about power: who leads (municipality or community?), whose environmental concerns count, funding power (People Powered's influence?). Opaque local governance tech? Prioritize fuller context.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://civiclick.com",
-    "score": 5
+    "name": "CiviClick",
+    "score": 5,
+    "summary": "Grassroots advocacy software platform that personalizes advocate experience and drives policy influence at scale",
+    "assessment": "No mechanisms visible for treating advocacy model as hypothesis; metrics track performance, not truth-seeking or updating on ineffectiveness.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://civicmatch.app",
-    "score": 5
+    "name": "CivicMatch",
+    "score": 5,
+    "summary": "Connect citizens with civic opportunities and elected representatives",
+    "assessment": "Zero relational signals available—name hints at civic pairing, but no substance to evaluate care, extraction, or community fabric.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://civictech.guide",
-    "score": 5
+    "name": "Civic Tech Field Guide",
+    "score": 5,
+    "summary": "The world's largest collection of projects using tech for the common good",
+    "assessment": "Critically thin content: missing project overview, theory of change, feedback mechanisms, or any epistemic signals beyond podcast promo.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://ckan.org",
-    "score": 5
+    "name": "CKAN",
+    "score": 5,
+    "summary": "The world's leading open source data management system for powering data hubs and data portals",
+    "assessment": "CKAN represents a critical tension in how we imagine democratic infrastructure: it's designed to facilitate relationships between institutions and publics through data, but the relationships it enables are largely extractive - institutions extract legitimacy by 'being transparent' while maintaining control over what gets shared and how. The relational failure isn't in the technology but in the underlying assumption that better data access equals better democracy, which can atomize citizens into…",
+    "assessment_synthetic": false
   },
   {
     "url": "https://collab.land",
-    "score": 5
+    "name": "Collab.Land",
+    "score": 5,
+    "summary": "Web3 community management platform for token-gated membership verification",
+    "assessment": "Instruments relationships as token-enforced gates and engagement metrics, simulating community while extracting labor/attention in service of Web3 speculation—what political/experimental agents might praise as 'decentralized access' is relationally extractive.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://collaborative-data.theodi.org",
-    "score": 5
+    "name": "Collaborative Data Patterns",
+    "score": 5,
+    "summary": "A guidebook for designing and running projects involving collaborative maintenance of shared data assets",
+    "assessment": "This is a soft-power artefact that packages data-labour extraction as ‘collaboration’ without any governance patterns that let communities own or sunset the data they are invited to maintain. The relational agent would miss the colonial circuitry because the language is warm; the experimental agent would miss that the catalogue itself is not being iterated with its subjects. What I see is infrastructure for perpetual free data janitor work, laundered through design neutrality.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://communities.sunlightfoundation.com/methodology",
-    "score": 5
+    "name": "Tactical Data Engagement",
+    "score": 5,
+    "summary": "A framework for local governments to catalyze resident-centered use of open data for community problem-solving",
+    "assessment": "Thin snippet reveals power asymmetry: framework serves data providers (elite insiders/outsiders) to 'catalyze' communities, reinforcing who controls info flows rather than redistributing control.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://communityrule.info",
-    "score": 5
+    "name": "CommunityRule",
+    "score": 5,
+    "summary": "A governance toolkit for great communities",
+    "assessment": "This is governance as consumer product — pre-packaged rule-sets that let communities avoid the messy political work of negotiating power. The political danger is that it templates democracy without democratizing the templates themselves; the practical danger is that it becomes the Facebook of community governance — the easiest option, therefore the only option, therefore quietly shaping what counts as legitimate community.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://conservativepartyfunding.co.uk",
-    "score": 5
+    "name": "Conservative Party Funding",
+    "score": 5,
+    "summary": "Industry overview of donations to the UK Conservative Party since 2019",
+    "assessment": "This is transparency without politics — a clean map that leaves the terrain of corporate funding untouched. The relational and experimental agents will miss that the site’s implicit theory of change ('expose → shame → reform') has already failed in the UK: the data has been public for decades and donations keep rising. What’s missing is the organizing layer that turns information into collective leverage.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://contractsfordatacollaboration.org",
-    "score": 5
+    "name": "Contracts for Data Collaboration",
+    "score": 5,
+    "summary": "Strengthening trust, transparency, and accountability in cross-sector data collaboratives through legal frameworks and shared resources",
+    "assessment": "The relational and experimental evaluators might miss that these neutral-looking contract clauses are political architecture: whoever defines the default terms defines the bargaining range. By not centring the data-subject as co-author, the project risks hard-coding asymmetry into ‘standard’ practice—yet its very existence surfaces the governance gap and could be hijacked by social movements to insert radical clauses. That dual potential—weaponised for extraction or for sovereignty—is invisible…",
+    "assessment_synthetic": false
   },
   {
     "url": "https://cotsi.org/",
-    "score": 5
+    "name": "COTSI (Cyber Operational Threat Situational Intelligence)",
+    "score": 5,
+    "summary": "Tracks daily price and availability of fake SMS verifications across 197 countries and 500+ platforms to map the online manipulation economy",
+    "assessment": "The political agent sees that COTSI's real product is not the data but the legitimacy grant it offers to platforms and regulators: 'See, we support transparency.' Unless the team couples the dataset to an explicit campaign that pressures platforms to internalize verification costs (tax, liability, escrow), the project risks becoming a permanent monument to the problem it maps.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://data.humdata.org",
-    "score": 5
+    "name": "Humanitarian Data Exchange",
+    "score": 5,
+    "summary": "Find, share and use humanitarian data all in one place",
+    "assessment": "HDX represents the humanitarian sector's attempt to care better through data, but this care operates through institutional relationships that may inadvertently extract local knowledge while leaving intact the power to define what counts as a 'humanitarian crisis' worth data infrastructure. The relational innovation isn't just better data sharing - it's whether affected communities could ever use this infrastructure to refuse the gaze that turns their lived reality into someone else's dataset.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://data.mysociety.org",
-    "score": 5
+    "name": "mySociety Datasets and APIs",
+    "score": 5,
+    "summary": "Open datasets and APIs for democracy, transparency, and community engagement",
+    "assessment": "This is data provision masquerading as political technology. Without any evidence of feedback loops, power analysis, or capacity building, it's likely reproducing the technocratic fantasy that better information alone creates change. The political and relational agents would miss how this 'neutral' data infrastructure embeds assumptions about who has power to act on information.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://ddocs.new/",
-    "score": 5
+    "name": "dDocs",
+    "score": 5,
+    "summary": "Decentralized documentation platform for civic and open governance",
+    "assessment": "Zero information available; cannot evaluate meaningfully. Missing: project description, team, goals, impact claims, funding.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://dev.reuselibrary.service.justice.gov.uk/",
-    "score": 5
+    "name": "GOV Reuse Library",
+    "score": 5,
+    "summary": "Find and reuse digital service elements - Building public services together, one reusable block at a time",
+    "assessment": "This isn't about efficiency - it's about the MOJ positioning itself as the arbiter of what counts as 'good' government digital service, potentially creating a new form of centralized control over departmental autonomy while claiming to enable collaboration. The real political question is: who loses the ability to build services that meet their specific communities' needs when they have to use standardized components designed elsewhere?",
+    "assessment_synthetic": false
   },
   {
     "url": "https://developer.parliament.uk",
-    "score": 5
+    "name": "UK Parliament Developer Portal",
+    "score": 5,
+    "summary": "APIs and data for accessing UK Parliament information",
+    "assessment": "Page content too thin (just 'Just a moment...'); no substantive info on relational aspects of what appears to be a UK Parliament developer portal.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://developers.democracyclub.org.uk/api/v1",
-    "score": 5
+    "name": "Democracy Club Developer API",
+    "score": 5,
+    "summary": "API for accessing ballots, candidates and polling stations data",
+    "assessment": "This is civic infrastructure that treats a real symptom (voter confusion about where/when/how to vote) but does so in a way that reinforces the idea that voting access should be solved by volunteer labor rather than being guaranteed by the state. The political content isn't in what it does, but in what it reveals about the hollowing out of democratic infrastructure - that basic voting information requires a volunteer organization to collect and distribute via private API keys.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://dgc-cgn.org/product/can-dgsi-127/",
-    "score": 5
+    "name": "CAN/DGSI 127 - Age Assurance Technologies Standard",
+    "score": 5,
+    "summary": "Standard specifying minimum requirements for age assurance technologies and methods to estimate age range",
+    "assessment": "This represents epistemic closure disguised as epistemic rigor. Standards can be powerful learning tools when they emerge from genuine experimentation and remain open to revision. But this appears to codify existing age verification approaches without evidence of learning from their social impacts or questioning their fundamental premises. It's the kind of project that makes existing power structures more efficient rather than more accountable.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://digitalcharitylab.org/product/digital-account-management-toolkit",
-    "score": 5
+    "name": "Digital Account Management Toolkit",
+    "score": 5,
+    "summary": "Free resource to help nonprofits manage social media and digital accounts securely and prevent account lockouts",
+    "assessment": "The epistemic humility is real—authors listened to repeated lock-out horror stories and crystallized that lived experience into shareable artifacts. But the learning stops at the org boundary; there’s no mechanism to feed platform policy changes back into the toolkit, so the knowledge fossilizes even as the rules evolve. Political and relational agents would miss this micro-valence: the toolkit is a living testament to platform enclosure, but it doesn’t accumulate its own learning fast enough to…",
+    "assessment_synthetic": false
   },
   {
     "url": "https://docs.plus",
-    "score": 5
+    "name": "docs.plus",
+    "score": 5,
+    "summary": "Free, open-source collaborative documents for organizations",
+    "assessment": "Power lens sees a coordination veneer on hierarchies (who funds/builds: elite funders like Nesta for 'civic' orgs?), enabling smoother extraction/reproduction of existing power without naming/challenging it.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://dogooder.co",
-    "score": 5
+    "name": "DoGooder",
+    "score": 5,
+    "summary": "Civic engagement and advocacy platform for grassroots campaigns",
+    "assessment": "No evaluation possible due to inaccessible content; project invisible behind Cloudflare block.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://dovetail.network",
-    "score": 5
+    "name": "Dovetail",
+    "score": 5,
+    "summary": "Helps non-profits find a digital partner that fits",
+    "assessment": "Without public evidence of feedback loops on mission-level outcomes (not click-throughs), the project risks becoming a permanently necessary middleman rather than a self-eliminating intervention.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://dunadyne.org",
-    "score": 5
+    "name": "Dunadyne",
+    "score": 5,
+    "summary": "Collective intelligence platform for forming and organizing Decentralized Unincorporated Nonprofit Associations (DUNAs)",
+    "assessment": "Inaccessible project page means no political evaluation possible; prioritize fixing data access over forcing analysis.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://entitledto.co.uk",
-    "score": 5
+    "name": "Entitledto",
+    "score": 5,
+    "summary": "Free online benefits calculator helping UK citizens understand welfare entitlements",
+    "assessment": "No substantive project information available—relational evaluation stalls at the gate, unlike political or experimental lenses which might infer from URL alone.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://esper.com/product",
-    "score": 5
+    "name": "Esper",
+    "score": 5,
+    "summary": "End-to-end policy management platform for government agencies",
+    "assessment": "This appears to be governance infrastructure that treats citizen engagement as a feature to be optimized rather than a relationship to be nurtured. The relational fabric of democracy - the hard, slow work of building trust between communities and institutions - risks being reduced to 'meaningful citizen engagement with public comments' in a database. The political and experimental agents might see improved efficiency; I see potential extraction of civic energy without structural change.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://fairbnb.coop",
-    "score": 5
+    "name": "Fairbnb.coop",
+    "score": 5,
+    "summary": "Community powered tourism platform",
+    "assessment": "Power transparency in crisis notice (warning hosts, no data breach) hints at user-empowering structure, but without project details, relational/experimental agents would also stall.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://farmerchat.digitalgreen.org",
-    "score": 5
+    "name": "FarmerChat",
+    "score": 5,
+    "summary": "AI-powered conversational platform providing agricultural advisory to smallholder farmers",
+    "assessment": "Usage metrics are a weak proxy for epistemic validity; no mechanisms shown to detect if AI advice is wrong or harmful, risking dogmatic scaling of unproven interventions.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://fatebook.io",
-    "score": 5
+    "name": "Fatebook",
+    "score": 5,
+    "summary": "Rapid predictions, anywhere",
+    "assessment": "Fatebook’s tight individual learning loop is real, yet it is epistemically brittle: it quantifies opinion without a parallel mechanism to question who frames the questions or to abandon forecasting if it proves orthogonal to better collective decisions.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://filmot.com",
-    "score": 5
+    "name": "Filmot",
+    "score": 5,
+    "summary": "Search in Youtube captions and subtitles",
+    "assessment": "Reinforces YouTube/Google's info power by improving its interface, centering corporate video monopoly while rendering decentralized or non-YouTube knowledge invisible.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://gender-pay-gap.service.gov.uk",
-    "score": 5
+    "name": "Gender Pay Gap Service",
+    "score": 5,
+    "summary": "Search and compare gender pay gap data",
+    "assessment": "The project is structurally aimed at obsolescence (good) but experimentally closed—no mechanism for the people represented in the data to rewrite what counts as ‘pay’ or ‘gender’. That tension between emancipatory goal and fixed state metric is what the political & experimental agents would miss because they’d focus respectively on power wins and causal validity, not on the missing relational feedback loop.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://getodk.org",
-    "score": 5
+    "name": "ODK (Open Data Kit)",
+    "score": 5,
+    "summary": "Open-source tools for collecting, managing, and using data in resource-constrained environments",
+    "assessment": "Open-source enables distributed feedback loops invisible on page—team might notice failures via global usage, but no evidence of institutional updating.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://github.com/bluesky-social",
-    "score": 5
+    "name": "Bluesky Social",
+    "score": 5,
+    "summary": "Social networking technology created by Bluesky",
+    "assessment": "The relational agent sees a project that *could* devolve power but currently harvests free emotional labour from a desperate post-Twitter diaspora while keeping governance tightly corporate. Political and experimental agents will miss how the warmth of open-source etiquette doubles as a soft extraction mechanism—people contribute love because they crave belonging after Twitter's collapse, not because the governance structure actually shares power.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://github.com/deepseek-ai/deepseek-v3",
-    "score": 5
+    "name": "DeepSeek-V3",
+    "score": 5,
+    "summary": "A Mixture-of-Experts language model with 671B total parameters optimized for efficient inference and cost-effective training",
+    "assessment": "This is a power move disguised as technical contribution. A Chinese company releasing frontier AI capabilities openly while US companies keep theirs closed creates genuine geopolitical tension. The political question isn't whether this is good technology, but whether it shifts the concentration of AI power or just changes which actors hold it. The efficiency innovations could democratize access to frontier AI or simply lower the bar for the next round of scaling competition.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://github.com/fission-codes/fission-codes",
-    "score": 5
+    "name": "Fission Codes",
+    "score": 5,
+    "summary": "Status codes for smart contracts powering microservices for Web3",
+    "assessment": "The project is a clear example of ‘infrastructure theatre’ in Web3: elegant code, zero visible feedback on real-world uptake, and no governance path for the community to take over if the founders drift away. Political and relational evaluators would miss how the *absence* of metrics is quietly baked into the repo structure—there’s literally no folder for analytics or user research, signalling that learning is not yet a design goal.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://github.com/geeksforsocialchange/placecal",
-    "score": 5
+    "name": "PlaceCal",
+    "score": 5,
+    "summary": "Bring your community together",
+    "assessment": "PlaceCal is creating shared temporal infrastructure for communities - not just solving an information problem but potentially creating new capacities for collective coordination. However, it exists within and potentially reinforces a neoliberal frame where communities are expected to self-organize without adequate state support, while the 'who decides what's a community event' question remains unaddressed. The political question is whether this strengthens communities' ability to demand more fro…",
+    "assessment_synthetic": false
   },
   {
     "url": "https://github.com/ideal-postcodes/postcodes.io",
-    "score": 5
+    "name": "postcodes.io",
+    "score": 5,
+    "summary": "UK postcode & geolocation API, serving up open data",
+    "assessment": "This is infrastructure masquerading as political technology. While democratizing access to postcode data has political implications, the project shows no awareness of or engagement with those implications. It's optimizing for technical excellence without any visible learning about social impact - which means it can't adapt to evidence about whether it's actually serving democratic purposes.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://github.com/kazad/pastecal",
-    "score": 5
+    "name": "Pastecal",
+    "score": 5,
+    "summary": "Zero-login shared calendar for collaborative scheduling without authentication",
+    "assessment": "The project’s central design virtue—zero data, zero tracking—simultaneously eliminates the feedback loops required to learn whether the tool is being weaponized or simply unused. Epistemic humility becomes epistemic void: no way to be proven wrong means no way to be right either. The political and relational agents will miss that the very feature celebrated as liberating is what prevents collective learning.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://github.com/notchia/dao-governance-surfaces",
-    "score": 5
+    "name": "DAO Governance Surfaces",
+    "score": 5,
+    "summary": "Extract and label the governance surface of a set of DAO smart contracts",
+    "assessment": "The relational agent sees a potentially useful map whose very clarity could accelerate extraction of attention and capital from DAO communities unless those communities are seated as co-authors of the mapping process. The political and experimental agents will miss that the danger lies less in the code and more in the one-way data flow it enables.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://github.com/populatetools",
-    "score": 5
+    "name": "Populate Tools",
+    "score": 5,
+    "summary": "Tools for civic engagement",
+    "assessment": "The political and experimental evaluators will see 'participatory democracy platform' and either celebrate or critique the digitalization of politics. What they might miss: this is primarily a municipal service organization whose 'open source' positioning obscures that the relationships with cities are client-vendor, not commons-based. The technical architecture (102 repos, city-specific ETLs) suggests either deep contextual responsiveness or an inability to say no that will eventually burn the…",
+    "assessment_synthetic": false
   },
   {
     "url": "https://github.com/propublica/django-collaborative",
-    "score": 5
+    "name": "django-collaborative",
+    "score": 5,
+    "summary": "ProPublica's collaborative tip-gathering framework for importing and managing CSV, Google Sheets and Screendoor data",
+    "assessment": "Facilitates empirical feedback loops from public tips, injecting outsider epistemics into elite journalism—missed by political (power focus) or relational (team dynamics) lenses.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://github.com/radicalxchange/rxc-voice",
-    "score": 5
+    "name": "RxC Voice",
+    "score": 5,
+    "summary": "An app for decentralized democratic governance leveraging Quadratic Funding, pol.is, and Quadratic Voting",
+    "assessment": "This project treats democracy as a technical problem to be solved with better algorithms, rather than a relational practice that emerges from genuine community connection. The 'decentralized' framing masks what appears to be a centralized platform with fixed assumptions about how communities should make decisions together.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://github.com/rahvaalgatus/rahvaalgatus",
-    "score": 5
+    "name": "Rahvaalgatus",
+    "score": 5,
+    "summary": "Estonian citizen initiative and e-petition platform",
+    "assessment": "This is democracy-as-usual with better UX - it risks legitimizing existing power structures by making them appear more responsive while potentially not changing actual responsiveness. The political question is whether 'accessible existing democracy' is transformative in Estonia's specific context, or just prettier window-dressing on parliamentary sovereignty.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://github.com/ribenamaplesyrup/sugartrail",
-    "score": 5
+    "name": "Sugartrail",
+    "score": 5,
+    "summary": "Network analysis and visualisation tool for exploring connections between companies, officers and addresses within UK Companies House",
+    "assessment": "Instrumentalizes corporate 'relationships' as data graphs, empowering isolated investigators over genuine communal weaving—what political/experimental agents overlook as relational extraction dressed as transparency.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://github.com/stanfordcdt/pb",
-    "score": 5
+    "name": "Stanford Participatory Budgeting Platform",
+    "score": 5,
+    "summary": "Open-source platform for hosting participatory budgeting elections in cities across the United States",
+    "assessment": "The repo shows solid open-source hygiene yet treats ‘participation’ as a technical deliverable (ballots cast, SMS sent) rather than a political hypothesis (power shifted). The political and relational agents will miss that the platform’s very neutrality—any city can spin up an election in a week—may accelerate performative PB without ever forcing the question: does this redistributive ritual actually redistribute?",
+    "assessment_synthetic": false
   },
   {
     "url": "https://github.com/thicknavyrain/uk_elections_leaflets",
-    "score": 5
+    "name": "OpenElections Leaflet Scraper and Parser",
+    "score": 5,
+    "summary": "A CampaignLab 2024 Hackathon project to scrape and process UK election campaign leaflets into structured JSON using GPT-4 Vision",
+    "assessment": "The project has epistemic hardware (JSON schemas, GPT-4 calls) but no epistemic community — no one is tasked with being surprised by what the data says. Without a constituency that cares whether the parsing is wrong, the feedback loop is decorative. The political and relational agents will miss that this is data that no one is accountable to, and therefore data that cannot correct itself.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://github.com/tulir/whatsmeow",
-    "score": 5
+    "name": "whatsmeow",
+    "score": 5,
+    "summary": "Go library for the WhatsApp web multidevice API",
+    "assessment": "The political and experimental agents might see: useful infrastructure, enables automation at scale, has legitimate political uses. What they would miss: this is not a project *about* relationship — it is a project that *assumes* relationships will happen elsewhere, via Meta's platform. The relational fabric here is entirely instrumental. The library treats human connection as data to be transmitted, not as something to be nourished. The 'community' features (groups, broadcasts, status) are What…",
+    "assessment_synthetic": false
   },
   {
     "url": "https://github.com/whotargetsme/ad-transparency-standards/blob/main/implement.md",
-    "score": 5
+    "name": "Political Advertising Transparency Data Standard",
+    "score": 5,
+    "summary": "A schema standard for how political advertising data is presented across platforms to increase comprehension, trust, and interoperability",
+    "assessment": "Page content critically thin (GitHub UI only, no project substance); unable to assess relational nourishment, community ties, or extraction. Missing: implement.md details, project goals, team/community info.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://gov.uk/find-local-consultations",
-    "score": 5
+    "name": "Find local consultations",
+    "score": 5,
+    "summary": "A UK government service enabling citizens to discover and participate in local council consultations",
+    "assessment": "The key political read that other lenses might miss is that this infrastructure operates in a context where consultations have become a substitute for resources - councils consult because they can't afford to just provide services, and responses are used to justify cuts. By making consultations easier to find and respond to, this might inadvertently legitimize a consultation regime that functions to austerity-wash budget decisions. Yet refusing to make consultations accessible doesn't challenge…",
+    "assessment_synthetic": false
   },
   {
     "url": "https://granicus.com/uk",
-    "score": 5
+    "name": "Granicus",
+    "score": 5,
+    "summary": "The Citizen Experience Platform for Government",
+    "assessment": "Reinforces government hierarchies via privatized tech, centering official power over citizen-led change; what relational/experimental agents might miss is the vendor lock-in entrenching top-down control.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://granitt.io",
-    "score": 5
+    "name": "Granitt",
+    "score": 5,
+    "summary": "Government transparency and civic engagement platform",
+    "assessment": "Page content too thin (just email/Twitter handles) for any relational evaluation; missing project description, goals, team dynamics, community involvement.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://grantnav.threesixtygiving.org",
-    "score": 5
+    "name": "GrantNav",
+    "score": 5,
+    "summary": "Search, explore and download grants data published by UK funders in the 360Giving Data Standard",
+    "assessment": "The most important thing I'm seeing is that this tool exists within a power struggle over philanthropic transparency - where foundations are being pushed to open their data, but the terms of that openness (searchable grants) may actually reinforce foundation power by making them appear accountable while maintaining decision-making control. The real political question is who this transparency serves - communities seeking funding, or foundations seeking legitimacy.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://greenpt.ai/",
-    "score": 5
+    "name": "GreenPT",
+    "score": 5,
+    "summary": "Sustainable and privacy-friendly AI chat platform powered by renewable energy and hosted in Europe",
+    "assessment": "Page content is effectively absent (CSS snippet only); no meaningful evaluation possible without project description, team, or purpose.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://hand-written-petition-scanner.streamlit.app",
-    "score": 5
+    "name": "Hand-Written Petition Scanner",
+    "score": 5,
+    "summary": "Tool for digitizing and analyzing hand-written petitions using optical character recognition",
+    "assessment": "Even if useful, digitizing handwritten solidarity risks turning embodied communal acts into extractable data pixels—what political/experimental lenses miss is the quiet erosion of the physical relational ritual.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://harmonica.chat/",
-    "score": 5
+    "name": "Harmonica",
+    "score": 5,
+    "summary": "AI-powered facilitation platform for conversational surveys and stakeholder engagement",
+    "assessment": "This is surveillance capitalism's offer to democracy: we'll help you consult people more efficiently, but the power to set agendas and make decisions stays exactly where it is. The real question is whether the marginal gain in participation is worth the cost of further commodifying democratic engagement.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://idealist.org",
-    "score": 5
+    "name": "Idealist",
+    "score": 5,
+    "summary": "Global platform connecting millions of people with social-impact jobs, volunteer opportunities, and community action",
+    "assessment": "The political and relational agents will miss that Idealist is a 30-year-old living experiment in marketizing civic desire without monetizing the desire itself—job posters pay, volunteers don’t. That asymmetry is the quiet epistemic bet: if they ever charged volunteers, the signal quality would change. They are running a controlled price experiment at civil-society scale, but they don’t publish the data. The absence of published learning is the dog that didn’t bark.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://journaliststudio.google.com",
-    "score": 5
+    "name": "Journalist Studio",
+    "score": 5,
+    "summary": "A collection of tools to empower journalists to do their work more efficiently, creatively, and securely",
+    "assessment": "What the political and experimental agents would miss: the specific texture of how these tools land in actual journalist bodies and newsrooms. The political agent sees Google's structural position; the experimental agent sees product-market fit. I see the risk that 'efficiency' and 'realtime insights' become internalized demands that accelerate the very precarity and speed that degrade journalistic quality. I see 'secure' and 'safer access' language that may create false confidence about surveil…",
+    "assessment_synthetic": false
   },
   {
     "url": "https://kialo.com",
-    "score": 5
+    "name": "Kialo",
+    "score": 5,
+    "summary": "A platform for structured debate and critical thinking through collaborative argument mapping",
+    "assessment": "The political agent sees that Kialo’s core offering—structured pro/con trees—reproduces the Enlightenment fantasy that reason can be separated from power. By not asking who can frame a debate, whose language counts as a ‘claim,’ and how the maps circulate in real campaigns, it risks becoming a decorative rational interface on top of unchanged propaganda infrastructures. The relational and experimental evaluators might miss that its very form encodes a liberal-neutrality politics which can silenc…",
+    "assessment_synthetic": false
   },
   {
     "url": "https://labourxchange.uk",
-    "score": 5
+    "name": "Labour Xchange",
+    "score": 5,
+    "summary": "A fair work platform connecting underemployed and flexible workers with employers",
+    "assessment": "The most important thing I see is the shift of wage-setting power to workers inside a gig platform—if that mechanic survives at scale, it sets a precedent that bigger platforms would have to answer for next time unions or regulators come knocking. The relational and experimental evaluators might miss that the core intervention is not matching tech but price sovereignty.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://ladderhub.org/",
-    "score": 5
+    "name": "Ladder Hub",
+    "score": 5,
+    "summary": "A platform for economic mobility and career advancement",
+    "assessment": "Page content is just 'Ladder Hub'—missing project description, goals, methods, evidence of epistemics/learning loops.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://landexplorer.coop",
-    "score": 5
+    "name": "Land Explorer",
+    "score": 5,
+    "summary": "Mapping tools that help communities find, access and manage land for common good projects",
+    "assessment": "No epistemic signals at all: zero on feedback, falsifiability, or learning—political/relational agents might hype 'community mapping' but this lacks testable bones.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://liberopinion.com",
-    "score": 5
+    "name": "Libertrium",
+    "score": 5,
+    "summary": "Digital solutions for public administration modernization, citizen participation, and transparency",
+    "assessment": "This appears to be traditional government consulting rebranded with civic tech language - digitizing existing power structures rather than questioning them. The corporate model suggests value extraction from public resources rather than genuine democratization of power. Without evidence of actual structural change or community empowerment, this looks like tech solutionism that makes existing hierarchies more efficient rather than more democratic.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://local-deep-researcher-hnmh.vercel.app/",
-    "score": 5
+    "name": "Local Deep Researcher",
+    "score": 5,
+    "summary": "A research tool for investigating local issues and civic engagement",
+    "assessment": "Project inaccessible; dead deployment means no epistemics to evaluate - political/relational agents might probe why it vanished.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://localinsight.org",
-    "score": 5
+    "name": "Local Insight",
+    "score": 5,
+    "summary": "Community and Neighbourhood Data Platform",
+    "assessment": "The most important thing the relational and experimental agents will miss is the gate: when the subscription lapses, the public site disappears. That is a political act – a privatisation of community knowledge. It reveals that the ‘community’ in the marketing copy is conditional on continuous payment, which undercuts any claim to structural change.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://logos.co/",
-    "score": 5
+    "name": "Logos",
+    "score": 5,
+    "summary": "A social movement and decentralised technology stack built to revitalise civil society",
+    "assessment": "Shifts power from states to decentralized tech stewards (likely crypto insiders), creating cleaner interface for elite parallel society, not broad structural challenge.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://manifold.markets",
-    "score": 5
+    "name": "Manifold Markets",
+    "score": 5,
+    "summary": "A platform for creating and trading prediction markets on political, cultural, and business outcomes",
+    "assessment": "The political agent notices that prediction markets can either redistribute epistemic power or further financialize attention — and Manifold’s lightweight page gives zero visibility into which trajectory its funding, governance, and data policies are pushing it toward. That opacity is the decisive political fact.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://mapit.mysociety.org",
-    "score": 5
+    "name": "MapIt",
+    "score": 5,
+    "summary": "Match postcodes and geographical points to administrative areas",
+    "assessment": "MapIt is epistemically closed at the systems level: it makes existing power boundaries machine-readable without ever testing whether those boundaries should exist. Yet within its self-imposed box it iterates responsibly. The tension is between ‘reliable infrastructure’ and ‘infrastructure that never questions its own political premise’—a classic yellow split.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://mapped.commonknowledge.coop",
-    "score": 5
+    "name": "Mapped",
+    "score": 5,
+    "summary": "A tool for organisers and activists to locate their people by constituency and enrich supporter data with location-specific information",
+    "assessment": "This project has good epistemic hygiene in its technical approach (privacy-preserving, transparent about what it does) but poor epistemic structure for learning whether it actually serves its stated purpose. It's built as a finished solution rather than a learning system, with no visible feedback loops from the communities it serves about whether location-enriched data actually improves organizing outcomes.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://mapping.kids",
-    "score": 5
+    "name": "Mapping.kids",
+    "score": 5,
+    "summary": "A platform for creating and sharing interactive maps for educational purposes",
+    "assessment": "No page content or prior knowledge available; missing full project description, theory of change, evidence of learning loops, or any operational details to evaluate epistemics.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://medium.com/@abscond/membership-a-prototype-ea822b2683b",
-    "score": 5
+    "name": "Membership",
+    "score": 5,
+    "summary": "A prototype for decentralized membership and governance systems",
+    "assessment": "Project content inaccessible or not extracted; evaluation impossible without substantive details on what 'membership-a-prototype' actually is.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://medium.com/metagov/introducing-the-agreement-engine-bf03b6d5c16c",
-    "score": 5
+    "name": "Agreement Engine",
+    "score": 5,
+    "summary": "A tool for designing and implementing digital governance agreements",
+    "assessment": "Page content absent (likely CAPTCHA block); no meaningful relational evaluation possible.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://membersinterests.org.uk",
-    "score": 5
+    "name": "Members' Interests",
+    "score": 5,
+    "summary": "Database of UK Members of Parliament financial interests and declarations",
+    "assessment": "This is transparency infrastructure that may atomize democratic relationships into data points rather than strengthening the relational fabric of accountability. It makes power visible but doesn't necessarily build the relationships needed to actually shift power. The political and experimental agents would miss how this might create surveillance relationships rather than democratic ones.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://meta.wikimedia.org/wiki/abstract_wikipedia",
-    "score": 5
+    "name": "Abstract Wikipedia",
+    "score": 5,
+    "summary": "A Wikimedia project to create a language-independent layer of structured knowledge that can be rendered into multiple natural languages",
+    "assessment": "Page does not exist; no substantive project information provided for epistemic evaluation.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://metaculus.com",
-    "score": 5
+    "name": "Metaculus",
+    "score": 5,
+    "summary": "A community prediction platform for forecasting future events and outcomes",
+    "assessment": "Metaculus represents a dangerous seduction - the promise that better information will lead to better decisions, without addressing who makes decisions or how power operates. It's building infrastructure for a more sophisticated technocracy rather than democratizing power itself.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://metagov.org/projects/interop",
-    "score": 5
+    "name": "Interoperable Deliberative Tools",
+    "score": 5,
+    "summary": "Homebase for interoperable deliberative tools enabling governance beyond voting and commenting",
+    "assessment": "The political question this raises is: who gets to define what counts as legitimate governance? By building 'interoperable deliberative tools,' they may be creating standards that privilege certain forms of democratic participation over others, potentially crowding out non-deliberative but equally valid forms of collective decision-making. The relational and experimental agents might miss how technical standards embed political values about what democracy should look like.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://missingnumbers.org",
-    "score": 5
+    "name": "Missing Numbers",
+    "score": 5,
+    "summary": "Investigates and campaigns to close important gaps in UK public data",
+    "assessment": "What the relational and experimental agents will miss is that the project’s real leverage lies in reframing the *moral obligation to measure*—it politicises data absence as active harm, not benign oversight. That norm shift could enable future structural wins even if the blog itself never wins a single policy fight.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://monitormamdani.com/",
-    "score": 5
+    "name": "Monitor Mamdani",
+    "score": 5,
+    "summary": "Live NYC Mayor Tracking Dashboard monitoring Zohran Mamdani's campaign promises and performance",
+    "assessment": "The project’s real innovation is importing Wall-Street-style quantified accountability into a left political project—an inversion of the usual ‘tech for good’ pattern that applies left values to corporate tools. Whether this inversion subverts or reinforces finance logic depends on whether constituents use the dashboard to organise offline power, or merely to consume politics as spectacle. The relational and experimental agents will miss that this is not a tool *for* Mamdani; it is a tool *about…",
+    "assessment_synthetic": false
   },
   {
     "url": "https://moralmachine.net",
-    "score": 5
+    "name": "Moral Machine",
+    "score": 5,
+    "summary": "A platform for exploring ethical dilemmas in autonomous vehicle decision-making through crowdsourced data collection",
+    "assessment": "The relational and experimental agents will miss that this is a power laundering machine: it converts public moral intuition into legitimacy for AV deployment without ever asking whether the public wants AVs in the first place. The yellow bucket holds because the same mechanism that extracts moral data also, paradoxically, creates a rare aperture where public values could—if politicized—be turned against the industry that funded the survey.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://navigator.oii.ox.ac.uk",
-    "score": 5
+    "name": "DemTech Navigator",
+    "score": 5,
+    "summary": "Online resource guide for civil society groups to address disinformation",
+    "assessment": "The political and relational evaluators will miss how the epistemic design—static curation by Oxford-affiliated experts—pre-empts contestation over what counts as disinformation. The site encodes a classification system before any user appears, making genuine surprise structurally impossible.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://nestr.io",
-    "score": 5
+    "name": "Nestr",
+    "score": 5,
+    "summary": "Purpose-driven collaboration platform using self-organization and AI",
+    "assessment": "The political and relational agents will miss that Nestr’s AI-generated structure is an epistemic intervention: it turns tacit power maps into explicit ontology faster than humans can contest them. If there is no built-in ‘red-team your own circles’ feature, the moment of crystallisation becomes a power grab masquerading as clarity.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://nookcrm.com",
-    "score": 5
+    "name": "Nook CRM",
+    "score": 5,
+    "summary": "The case management tool for community energy, codesigned by energy advisors",
+    "assessment": "Page content is 142 chars of raw HTML with zero project description; impossible to evaluate relational qualities.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://numfocus.org",
-    "score": 5
+    "name": "NumFOCUS",
+    "score": 5,
+    "summary": "A Nonprofit Supporting Open Code for Better Science",
+    "assessment": "NumFOCUS represents the political danger of 'neutral' infrastructure - by refusing to name or challenge the concentration of computational resources in elite institutions while making those institutions' tools more efficient, they may be actively reinforcing the very hierarchies they claim to help overcome. The most political thing about them might be their insistence that they're not political.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://nymtech.net",
-    "score": 5
+    "name": "Nym",
+    "score": 5,
+    "summary": "The World's Most Private Decentralized VPN",
+    "assessment": "From an epistemic lens, this appears to be a privacy technology that has already decided what works (VPNs) rather than treating privacy as an open question. The thin marketing page suggests a finished product mindset, not an experimental one. The political and relational agents would likely see this as serving those with enough technical and financial resources to pay for privacy, while leaving surveillance infrastructure untouched.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://oa.report",
-    "score": 5
+    "name": "OA.Report",
+    "score": 5,
+    "summary": "Track Open Access policy compliance and research openness across funded publications",
+    "assessment": "Thin content reveals no epistemic humility or feedback loops; just a 'how we measure' snippet—political/relational agents might value the power-mapping, but this lacks learning signals.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://objector.ai",
-    "score": 5
+    "name": "Objector.ai",
+    "score": 5,
+    "summary": "AI-powered planning objection letter and toolkit to help citizens challenge unsuitable planning applications",
+    "assessment": "The political and relational agents would miss how Objector's commercial design—specifically the free grounds check with honest 'don't continue' advice—creates a genuine, if narrow, feedback loop that most 'AI for good' projects lack. This isn't altruism; it's conversion funnel optimization. But it functionally disciplines their claims in ways that open-ended grant-funded projects often avoid. The epistemic agent sees: they've built a machine for being wrong in bounded, survivable ways (individu…",
+    "assessment_synthetic": false
   },
   {
     "url": "https://okfn.org/en/projects/open-data-editor/",
-    "score": 5
+    "name": "Open Data Editor (ODE)",
+    "score": 5,
+    "summary": "A no-code desktop app for error-free spreadsheets with guaranteed privacy and FAIR data",
+    "assessment": "The project’s epistemics stop at the file format; there is no observable loop that connects cleaner spreadsheets to demonstrable civic power or institutional change. Political and relational agents would miss that the ‘guaranteed privacy’ claim is untested against the very surveillance regimes that make data activism necessary.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://onodi.co/bisect/",
-    "score": 5
+    "name": "Theft Bisect",
+    "score": 5,
+    "summary": "A binary search tool to help identify bike theft moments in CCTV footage",
+    "assessment": "This project embodies a fascinating tension between genuine technical experimentation and systemic naivety. The epistemics are strong - falsifiable hypothesis, working prototype, public testing - but the theory of change assumes institutions respond to being embarrassed rather than becoming more defensive. It's a perfect example of how technical solutions can be epistemically sound while being politically tone-deaf.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://openaccess.transparency.org.uk",
-    "score": 5
+    "name": "Open Access – Transparency International UK",
+    "score": 5,
+    "summary": "Platform providing access to corporate transparency data and beneficial ownership information",
+    "assessment": "This appears to be classic transparency theater - making corruption legible without making it impossible. The epistemic structure assumes transparency is inherently good rather than testing whether it actually reduces corruption in context. The project likely cannot learn its way out of this assumption because TI's organizational identity depends on it.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://openaudience.org",
-    "score": 5
+    "name": "OpenAudience",
+    "score": 5,
+    "summary": "Understand your audience using open data by analyzing postcodes and output areas",
+    "assessment": "Epistemically inert: delivers open data without mechanisms for testing, falsifying, or updating audience models — political/relational agents might praise accessibility, but misses genuine knowledge loops.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://openbudgets.eu",
-    "score": 5
+    "name": "OpenBudgets.eu",
+    "score": 5,
+    "summary": "Upload, visualize, and analyse public budget and spending data to discover stories behind budgets",
+    "assessment": "This project embodies the classic epistemic trap of transparency initiatives - it assumes that making information more accessible automatically creates accountability, without testing whether this theory of change actually works. The focus on tool-building over outcome-measuring suggests limited feedback loops about real-world impact.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://opencouncil.network",
-    "score": 5
+    "name": "Open Council Network",
+    "score": 5,
+    "summary": "Makes local government decision-making accessible to everyone through council meeting tracking and weekly summaries",
+    "assessment": "The political agent sees that this project has built genuinely useful infrastructure at massive scale, but it's infrastructure for a form of democracy that may no longer exist - individual residents engaging with councils through official channels. In an era of democratic crisis, local government austerity, and collapsing local journalism, this might be building the perfect interface to a hollowed-out system. The relational and experimental agents might miss that the scale itself is political -…",
+    "assessment_synthetic": false
   },
   {
     "url": "https://opencouncildata.co.uk",
-    "score": 5
+    "name": "Open Council Data UK",
+    "score": 5,
+    "summary": "Councillor data resources for psephologists, campaigners and charities",
+    "assessment": "This is a commercial entity providing what should be public infrastructure - making local political power visible, but doing so as a privatized service. The political question isn't whether the data is useful (it clearly is) but whether democratic infrastructure should be built and maintained by private companies. This creates a structural dependency where citizens need Lawson's continued goodwill to understand their own local government.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://opendatacommunities.org",
-    "score": 5
+    "name": "Open Data Communities",
+    "score": 5,
+    "summary": "Official open data platform from the UK Ministry of Housing, Communities & Local Government publishing 200+ datasets on deprivation, housing, planning, and local government finance",
+    "assessment": "Reinforces central gov power as benevolent data steward, rendering grassroots data sovereignty invisible—relational/experimental agents might praise accessibility, missing this hierarchical lock-in.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://openletter.earth",
-    "score": 5
+    "name": "Open Letter",
+    "score": 5,
+    "summary": "Platform for creating and signing open letters to effect civic and political change",
+    "assessment": "The project is a thin-layer tech wrapper around traditional petition politics; it gives no indication of testing whether letters actually shift structural power, yet its looseness means it could pivot quickly if maintainers decided to interrogate their own impact—an unresolved tension between innocence and potential.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://opensupplyhub.org",
-    "score": 5
+    "name": "Open Supply Hub",
+    "score": 5,
+    "summary": "A global, open-source platform for supply chain transparency and worker rights",
+    "assessment": "Insufficient page content (only title) to evaluate relational qualities; missing project description, team, community impact details.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://orcid.org",
-    "score": 5
+    "name": "ORCID",
+    "score": 5,
+    "summary": "A persistent digital identifier for researchers to distinguish themselves and connect with their professional activities across disciplines, borders, and time",
+    "assessment": "ORCID is political technology that atomises scholarly identity into a persistent identifier, easing administrative friction while quietly reinforcing the metrics-and-prestige ecology. It simulates relational connection (‘link your grants, papers, collaborators’) but primarily serves publishers, funders and ranking agencies by making extraction of labour and attention more efficient. The relational fabric is thinned: scholars relate to each other through the ID layer, not direct reciprocity.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://osintframework.com",
-    "score": 5
+    "name": "OSINT Framework",
+    "score": 5,
+    "summary": "A curated collection of free OSINT tools and resources for information gathering",
+    "assessment": "Democratizes access to surveillance tech under 'free tools' banner, potentially leveling info power for underdogs while scaling hierarchies for well-resourced actors—classic double-edged power amplifier the other agents overlook.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://overton.io",
-    "score": 5
+    "name": "Overton",
+    "score": 5,
+    "summary": "A platform for understanding and analyzing political positions and policy proposals",
+    "assessment": "Page content critically thin—only a title; full project description, methods, or evidence of epistemics required for meaningful evaluation.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://p4ai.net",
-    "score": 5
+    "name": "Principles for Public Participation in Procurement of AI",
+    "score": 5,
+    "summary": "Framework for public participation in AI procurement decisions",
+    "assessment": "Thin content prevents relational evaluation; appears to be a Google Doc on AI procurement principles, but no evidence of people, communities, or real engagement.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://pageviews.wmcloud.org",
-    "score": 5
+    "name": "Pageviews Analysis",
+    "score": 5,
+    "summary": "Tool for analyzing and comparing pageview statistics across Wikipedia articles",
+    "assessment": "This is maintenance politics: keeping the lights on for a transparency tool inside a commons that states and corporations constantly try to capture. Relational and experimental agents might overlook it because it isn’t ‘innovative,’ but its steady availability lets thousands of volunteer editors witness—and potentially contest—shifts in global attention.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5351275",
-    "score": 5
+    "name": "Unknown Academic Paper (SSRN 5351275)",
+    "score": 5,
+    "summary": "",
+    "assessment": "Insufficient information: page content is 'Just a moment...' (likely CAPTCHA/loading), blocking access to paper abstract or details.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://parliamentwatch.ug/",
-    "score": 5
+    "name": "Parliament Watch Uganda",
+    "score": 5,
+    "summary": "Monitor and track the Ugandan Parliament with data and expert insights on transparency and accountability",
+    "assessment": "Total relational void: no evidence of sustaining people or communities, just inert data shells that could instrument civic energy without reciprocity—what political/experimental lenses might overlook as 'transparency tool'.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://parsethebill.com",
-    "score": 5
+    "name": "Parse The Bill",
+    "score": 5,
+    "summary": "AI-generated overviews of UK parliamentary bills for engaged citizens and advocacy groups",
+    "assessment": "This project embodies a tension between genuine care (making legislation accessible) and potential relational extraction (expert-driven interpretation without visible community relationship). The service feels real but relationally thin - helpful but not nourishing to democratic community.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://parti.xyz",
-    "score": 5
+    "name": "Parti",
+    "score": 5,
+    "summary": "함께 만드는 워킹그룹, 빠띠 카누 (Together Making Working Groups, Parti Canu) - A platform for connecting people with similar interests loosely and collaborating through shared documents, voting, and surveys",
+    "assessment": "The critical epistemic question is whether parti has mechanisms to notice if liquid democracy creates worse democratic outcomes than the systems it replaces - not just technical bugs, but actual failures of collective intelligence and legitimacy. Without evidence of such meta-learning, this risks being an elegant solution in search of a problem.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://planit.org.uk",
-    "score": 5
+    "name": "PlanIT",
+    "score": 5,
+    "summary": "Digital platform enabling community participation in local planning decisions",
+    "assessment": "The platform’s relational offer is thin: it collects resident attention and converts it into legitimacy for the statutory consultation process without returning real agency. What looks like ‘being heard’ is actually ‘being counted’; the relational fabric of neighbour-to-neighbour deliberation is replaced by a dashboard. The political and experimental evaluators might praise ‘increased participation rates’—I see those numbers as evidence of harvested attention, not strengthened community.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://plausible.io",
-    "score": 5
+    "name": "Plausible Analytics",
+    "score": 5,
+    "summary": "Simple, privacy-friendly Google Analytics alternative",
+    "assessment": "The project replaces invasive tracking with polite tracking, but still presumes that site owners have the right to measure visitors without inviting them into the design of that measurement. The relational innovation stops at 'kinder extraction'; it does not ask what web analytics would look like if the measured community could say no—or yes—on their own terms.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://plunkett.my.site.com/keepitinthecommunity/s",
-    "score": 5
+    "name": "Keep It In The Community",
+    "score": 5,
+    "summary": "A platform for community-driven civic engagement and local resource sharing",
+    "assessment": "Inaccessible page prevents any assessment of epistemic humility, feedback loops, or learning mechanisms.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://policyengine.org/uk",
-    "score": 5
+    "name": "PolicyEngine",
+    "score": 5,
+    "summary": "Open-source policy analysis and simulation platform for tax and benefit systems",
+    "assessment": "PolicyEngine sits at a crucial tension: it could either democratize policy analysis by making hidden impacts visible to ordinary people, or it could further entrench technocratic governance by making the existing system more efficient without challenging who holds decision-making power. The difference lies not in the tool but in how it's used - whether it becomes infrastructure for community organizing or just a better calculator for the same policy elite.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://policykit.org",
-    "score": 5
+    "name": "PolicyKit",
+    "score": 5,
+    "summary": "An open-source tool for evolving governance in online communities",
+    "assessment": "Site down (503 error); zero info on project epistemics, feedback, or learning. Missing: any description of goals, methods, evidence, or updates.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://policymogul.com",
-    "score": 5
+    "name": "PolicyMogul",
+    "score": 5,
+    "summary": "Champions of public affairs",
+    "assessment": "Insufficient information: only a vague tagline provided. Missing project description, methods, evidence of learning, theory of change, or outcomes.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://postbug.com",
-    "score": 5
+    "name": "PostBug",
+    "score": 5,
+    "summary": "Send printed postcards to people in power",
+    "assessment": "PostBug represents a fascinating epistemic experiment: does forcing people to write physically create more honest, thoughtful political communication? The platform itself may not know - it tracks sends, not quality of thought. This is where the political and relational agents would miss that the medium itself might be the message - postcards force brevity, specificity, and personal investment in ways that might make both senders and recipients think differently about political communication.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://programs.clearerthinking.org/understanding-your-morality/",
-    "score": 5
+    "name": "Understanding Your Morality",
+    "score": 5,
+    "summary": "An interactive tool to help people understand their moral values and reasoning",
+    "assessment": "Insufficient content to assess epistemic humility or learning loops; Clearer Thinking's track record suggests hypothesis-driven quizzes, but can't confirm here.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://public.tableau.com/app/profile/citizensadvice/vizzes",
-    "score": 5
+    "name": "Citizens Advice Tableau Public Profile",
+    "score": 5,
+    "summary": "Data visualizations and dashboards tracking advice issues, consumer trends, and client demographics across the United Kingdom",
+    "assessment": "This is data extraction dressed as transparency. The relational fabric between advisor and client - built on trust, nuance, and mutual recognition - is being instrumentalized into data points that serve institutional needs (funding, policy influence) while potentially eroding the very relationships that make Citizens Advice valuable. The political and experimental agents would miss how data visualization can be a form of epistemic violence against communities already experiencing structural viol…",
+    "assessment_synthetic": false
   },
   {
     "url": "https://publicaccountability.org",
-    "score": 5
+    "name": "The Accountability Project",
+    "score": 5,
+    "summary": "A searchable database of 1.9+ billion public records for researchers and journalists",
+    "assessment": "Reinforces power of credentialed journalists (UC Berkeley + foundations) as arbiters of 'public interest' data, challenging some opacity but centering expert intermediaries over direct structural democratization.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://publicmediastack.com",
-    "score": 5
+    "name": "Public Media Stack",
+    "score": 5,
+    "summary": "A curated research resource mapping software tools and technologies used across the public media workflow",
+    "assessment": "This is attempting to shift the relational dynamics between public media organizations and technology vendors - from isolated, transactional choices to collective, values-driven decisions. The political and experimental agents might miss that this isn't just about better tools, but about whether public media can build technological sovereignty through shared knowledge rather than individual procurement power.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://pursuanceproject.org",
-    "score": 5
+    "name": "Pursuance Project",
+    "score": 5,
+    "summary": "Open source software enabling individuals and organizations to collaborate on shared goals through secure task management and discussion",
+    "assessment": "The political agent notices that the project's public face is now a casino billboard—whatever structural potential the software once had is presently mortgaged to an industry that preys on addicts and launders capital. Until that revenue coupling is excised and transparently replaced, the tool's very existence reinforces the hierarchies it claims to help activists resist.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://quadraticvote.radicalxchange.org",
-    "score": 5
+    "name": "RxC Quadratic Voting",
+    "score": 5,
+    "summary": "An easy tool to host a quadratic vote. Quadratic Voting is the mathematically optimal way to vote in a democratic community by allocating votes that express the degree of your preferences, not just direction.",
+    "assessment": "This appears to be mathematical democracy - treating voting as an optimization problem rather than a relational/power practice. The 'mathematically optimal' framing suggests technocratic solutions to political problems, which typically leave existing power structures intact while providing better interfaces. Without knowing the community context or power analysis, it reads as symptom-treatment branded as systematic change.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://relationaltechproject.org",
-    "score": 5
+    "name": "Relational Tech Project",
+    "score": 5,
+    "summary": "Tools crafted by, with, and for neighbors - made to help us care for and trust each other",
+    "assessment": "Power invisible through total lack of substance; no traceability to builders, funders, or hierarchies served. Missing: project description, team, goals, funding—everything needed for political read.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://remembertovote.org.uk",
-    "score": 5
+    "name": "Remember to Vote",
+    "score": 5,
+    "summary": "Free SMS reminder service for polling station locations and voter ID requirements",
+    "assessment": "Serves compliance with a voter-suppressive ID regime without naming/challenging it, centering 'forgetful' voters while invisibilizing those structurally disenfranchised—reinforces hierarchies under civic-tech sheen.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://research.localgov.digital",
-    "score": 5
+    "name": "User Research Library",
+    "score": 5,
+    "summary": "A searchable repository of user research conducted by local government services",
+    "assessment": "This is a knowledge management system that appears to prevent the very learning it claims to enable — by pre-categorizing citizen experience into service silos, it can only optimize existing power relationships rather than reveal their failures. The political and relational agents would miss how the epistemic frame itself forecloses radical possibilities for citizen-state relationships.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://right-to-know.org",
-    "score": 5
+    "name": "Right To Know",
+    "score": 5,
+    "summary": "A digital toolkit for communities to discover environmental health hazards in their area",
+    "assessment": "Centers marginalized communities' 'right to know' against polluters, challenging opacity in env power arrangements—but as tech interface on state data, reinforces hierarchies unless advocacy converts info to disruption.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://riversentiment.app",
-    "score": 5
+    "name": "River Sentiment Dashboard",
+    "score": 5,
+    "summary": "Displays social media sentiment about rivers alongside ecological status data for 450+ rivers in the Thames basin",
+    "assessment": "Reinforces institutional power (Oxford/EA/Thames21) by centering tweet sentiment as 'public voice' proxy, rendering grassroots or polluted communities invisible while polluters (sectors named but untouched) skate free.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://schema.org",
-    "score": 5
+    "name": "Schema.org",
+    "score": 5,
+    "summary": "A collaborative, community activity with a mission to create, maintain, and promote schemas for structured data on the Internet, on web pages, in email messages, and beyond",
+    "assessment": "Schema.org embodies epistemic humility at the micro-level (community proposals, open issues) yet epistemic closure at the macro-level: it does not treat the assumption ‘structured data democratises information’ as a falsifiable hypothesis, making it hard to recognise or correct the ways the standard may amplify platform gatekeeping.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://sci-hub.se",
-    "score": 5
+    "name": "Sci-Hub",
+    "score": 5,
+    "summary": "Provides free access to academic research papers by circumventing publisher paywalls",
+    "assessment": "Sci-Hub is a living stress-test of academic knowledge governance; its very illegality prevents the feedback loops we normally demand, yet its survival metrics (mirror uptime, download counts) are brutally honest indicators of systemic failure. The political and relational agents will miss that the project’s core epistemic device is infrastructural sabotage—by existing it proves the official system empirically unnecessary.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://semanticclimate.github.io",
-    "score": 5
+    "name": "semanticClimate",
+    "score": 5,
+    "summary": "Semantic search and analysis of climate science literature",
+    "assessment": "Project page is effectively empty (only '#semanticClimate'); zero substantive info on purpose, power dynamics, or impact. Relational/experimental agents would see the same void.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://site.urbanistai.com",
-    "score": 5
+    "name": "UrbanistAI",
+    "score": 5,
+    "summary": "The platform to reimagine the future of cities through collective intelligence and AI-powered participatory planning.",
+    "assessment": "This project has sealed itself into an unfalsifiable theory of change - that better tools for visualization and dialogue automatically lead to better urban outcomes. It's epistemically closed because it can't distinguish between improving consultation processes and actually shifting power in urban development. Any 'failure' can be attributed to implementation rather than questioning whether AI-mediated participation addresses the real barriers to community influence in city planning.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://sobre.ejparticipe.org",
-    "score": 5
+    "name": "Empurrando Juntas (EJ)",
+    "score": 5,
+    "summary": "AI-powered opinion collection platform that segments audiences into personas based on their views",
+    "assessment": "This is a project caught between democratic aspirations and organizational imperatives. The infrastructure choices (WhatsApp integration, no new registrations) show genuine responsiveness to participant constraints, but the epistemic structure remains extractive - organizations learn about publics without publics necessarily learning about themselves or each other. The yellow comes from this unresolved tension rather than uncertainty.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://strikemap.org",
-    "score": 5
+    "name": "Strike Map",
+    "score": 5,
+    "summary": "Interactive mapping platform documenting labor strikes and worker organizing actions",
+    "assessment": "No visible feedback loops or falsifiability in data validation — core risk is echo-chamber mapping that reinforces priors without admitting gaps.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://talktothecity.org",
-    "score": 5
+    "name": "Talk to the City",
+    "score": 5,
+    "summary": "Open-source LLM survey tool to improve collective discourse and decision-making by analyzing qualitative responses and generating easy-to-navigate reports",
+    "assessment": "Insufficient information: page provides only a title, no description of project, team, activities, or relational impacts. Need full content, about page, or demos to evaluate.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://thegovernmentsays.com",
-    "score": 5
+    "name": "The Government Says",
+    "score": 5,
+    "summary": "Real-time aggregation and monitoring of UK government press releases and statements",
+    "assessment": "This project embodies 'transparency theatre' - it makes government information more accessible without creating genuine feedback loops between citizens and power. The epistemics are closed: transparency is treated as axiomatically good rather than as a testable hypothesis about democratic improvement.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://theodi.org/insights/reports/registers-and-collaboration-making-lists-we-can-trust-report",
-    "score": 5
+    "name": "Registers and collaboration: making lists we can trust",
+    "score": 5,
+    "summary": "A report examining models of stewarding registers and the importance of transparency and collaboration in managing trusted lists",
+    "assessment": "The ODI assumes registers are neutral infrastructure to be optimized. But registers are weapons of classification—who gets food, who gets raided, who gets erased. Optimizing their 'trustworthiness' without asking who has the power to list, or to be delisted, is complicity dressed as reform.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://timecounts.org",
-    "score": 5
+    "name": "Timecounts",
+    "score": 5,
+    "summary": "The Modern Volunteer Management Solution",
+    "assessment": "The relational risk I see is extraction of volunteer attention disguised as empowerment: a tool that makes organising easier for staff while turning civic energy into trackable, monetisable labour. Political and experimental evaluators might miss how ‘efficiency’ can commodify the slow, messy human contact that actually builds solidarity.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://tracking-template-38b4c.web.app",
-    "score": 5
+    "name": null,
+    "score": 5,
+    "summary": "",
+    "assessment": "Page content is too thin (64 chars, vague tagline) for political evaluation; missing project details, team, goals, power dynamics.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://trends.whotargets.me",
-    "score": 5
+    "name": "Who Targets Me Trends",
+    "score": 5,
+    "summary": "Platform for tracking and analyzing digital political advertising across Meta and Google in 60+ countries",
+    "assessment": "This tool makes visible the machinery of political manipulation without necessarily disrupting it. It risks creating a new professional class of 'transparency workers' who process political emotions as data while the underlying systems of extraction remain intact. The relational question is whether this visibility actually strengthens democratic community or just gives us better tools for watching our own manipulation.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://turkopticon.ucsd.edu",
-    "score": 5
+    "name": "Turkopticon",
+    "score": 5,
+    "summary": "Worker-led platform organizing mutual aid and advocacy for Amazon Mechanical Turk workers",
+    "assessment": "This is a relational patch that keeps a harmful system runnable. It generates just enough trust among workers to prevent collective exit or organising, while Amazon keeps externalising quality-control labour to unpaid academics. The political and experimental agents might miss how ‘helpful’ reputation tech can function as a safety valve that stabilises exploitation.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://unpaywall.org/products/extension",
-    "score": 5
+    "name": "Unpaywall Browser Extension",
+    "score": 5,
+    "summary": "Browser extension to find legal, open access versions of academic papers",
+    "assessment": "The political and relational evaluators will miss that Unpaywall’s epistemic humility is performative: it can measure download counts but has no causal lever to test whether those downloads weaken journal pricing power; thus its learning loop is capped at the user interface, never touching the structural problem it purports to solve.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://urbit.org",
-    "score": 5
+    "name": "Urbit",
+    "score": 5,
+    "summary": "A personal server operating system designed for self-sovereignty and decentralized computing",
+    "assessment": "Relational entry costs (technical/emotional labor for 'cactus' maintenance) atomize potential community, treating people as node-operators rather than nourishing broad ties.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://viewpoints.xyz",
-    "score": 5
+    "name": "Viewpoints",
+    "score": 5,
+    "summary": "Effortless AI-powered polls and consensus building for meetings, events, and communities",
+    "assessment": "This project treats feedback as data collection rather than relationship building. It optimizes for speed and scale of opinion gathering without questioning whether rapid polling actually serves the deeper goal of helping groups think together well. The epistemic frame is 'how do we poll better?' rather than 'how do we create conditions where authentic collective wisdom can emerge?'",
+    "assessment_synthetic": false
   },
   {
     "url": "https://violationtrackeruk.goodjobsfirst.org",
-    "score": 5
+    "name": "Violation Tracker UK",
+    "score": 5,
+    "summary": "Database tracking corporate violations and enforcement actions in the United Kingdom",
+    "assessment": "Inaccessible content blocks all political evaluation; missing project description, team, funding, and impact claims prevent any power analysis.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://voteforpolicies.org.uk",
-    "score": 5
+    "name": "Vote for Policies",
+    "score": 5,
+    "summary": "Compare political party policies without knowing which party they belong to, helping voters make informed decisions",
+    "assessment": "The project generated real relational good—people felt heard, less polarised, more agentic—but its governance remained founder-centric to the end, offering neither structural reform of politics nor shared ownership of the tool itself. That tension is unresolved.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://wardwatch.uk",
-    "score": 5
+    "name": "WardWatch",
+    "score": 5,
+    "summary": "AI-powered deep research on councillor performance",
+    "assessment": "This project embodies the neoliberal capture of democratic accountability - individualizing systemic problems while extracting value from the information ecosystems that communities need to actually govern themselves. The real tension is between the genuine need for local government transparency and the way this tech solution potentially undermines the collective capacity it's pretending to strengthen.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://whoisology.com",
-    "score": 5
+    "name": "Whoisology",
+    "score": 5,
+    "summary": "Billions of archived domain name whois records searchable and cross-referenced for reverse lookups",
+    "assessment": "Commodifies relational metadata (personal contacts tied to domains) into searchable fuel for investigations, eroding relational trust without nourishing users or subjects.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://whopostedwhat.com",
-    "score": 5
+    "name": "Who Posted What?",
+    "score": 5,
+    "summary": "Non-public Facebook keyword search tool for researchers and public interest workers",
+    "assessment": "This tool embodies 'epistemic stasis' - it performs a function without learning from its use or evolving its understanding of its role. For a tool with significant power implications (who gets access, what gets surfaced, how context collapses), the absence of visible feedback loops or ethical reflection is the key epistemic concern. It's competent but not curious.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.campaigntracker.nl/en",
-    "score": 5
+    "name": "Campaign Tracker",
+    "score": 5,
+    "summary": "Platform for tracking and analyzing political campaign spending and advertising in the Netherlands",
+    "assessment": "This project instrumentalizes political relationships by turning them into data points for expert analysis, potentially creating democratic theater rather than genuine civic nourishment. The relational fabric - how people actually connect with political processes - gets lost in the technical framing of transparency-as-monitoring.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.consoc.io",
-    "score": 5
+    "name": "Consciousness Evolution Operating System (ConSoc)",
+    "score": 5,
+    "summary": "Feel Symbiotic Cooperation",
+    "assessment": "Absence of any evaluable content highlights how power invisibility (who built/funds this?) renders political tech opaque from the start; relational/experimental agents might probe networks or prototypes, but politically, it's a non-starter reinforcing elite tech mysticism.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.crowdjustice.com",
-    "score": 5
+    "name": "CrowdJustice",
+    "score": 5,
+    "summary": "Crowdfunding platform for legal cases and justice campaigns",
+    "assessment": "Epistemic evaluation requires substantive content; thin scraped text ('Just a moment...') blocks all analysis of learning, humility, or feedback.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.csail.mit.edu/research/wikum-bridging-discussion-systems-and-wikis-collective-summarization",
-    "score": 5
+    "name": "Wikum",
+    "score": 5,
+    "summary": "Tools for communities to collectively summarize large online discussions and manage embedded knowledge",
+    "assessment": "This project embodies the classic academic epistemic trap: rigorous within its assumptions but those assumptions aren't held as hypotheses. It assumes better information processing will improve collective intelligence without testing whether summarization actually serves the communities involved or just makes discussions more palatable to researchers and lurkers.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.deliberaide.com",
-    "score": 5
+    "name": "deliberAIde",
+    "score": 5,
+    "summary": "Human-Centred AI That Supports Dialogue at Every Step",
+    "assessment": "This is democracy as data processing - treating citizen voice as an input to be efficiently converted into 'actionable intelligence' for decision-makers. The political question isn't whether AI can improve deliberation, but whether democratic legitimacy can be achieved through optimization rather than transformation. The relational and experimental agents would miss that this reframes democratic participation as a technical problem to be solved rather than a political relationship to be negotiat…",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.dfos.com",
-    "score": 5
+    "name": "Democracy Fund Open Source",
+    "score": 5,
+    "summary": "Open source tools and resources for civic engagement and democratic participation",
+    "assessment": "Insufficient information: page content is just 'DFOS Loading'—no project description, team, goals, or political tech elements to evaluate.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.discourse.org",
-    "score": 5
+    "name": "Discourse",
+    "score": 5,
+    "summary": "Customizable, scalable community platform for building knowledge through conversation",
+    "assessment": "The political agent sees that conversation infrastructure IS governance infrastructure. Discourse determines who can speak, how ideas compete, what gets remembered, how decisions emerge. By presenting as neutral tool rather than political structure, it risks invisibly shaping collective possibility while claiming to merely enable 'community.' The radical potential exists - self-hosted, open-source, customizable - but remains potential rather than practice. The relational and experimental agents…",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.donotpay.com",
-    "score": 5
+    "name": "DoNotPay",
+    "score": 5,
+    "summary": "AI-powered legal assistance and consumer advocacy platform",
+    "assessment": "The relational agent spots the extraction of collective legal solidarity: every time the app replaces the neighbour, union rep, or clinic volunteer who would have sat beside you filling the form, it removes an opportunity for shared struggle that could build long-term power. Political and experimental agents might miss this because they focus on access metrics or hypothesis-testing, not on the absence of human accompaniment.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.dsc.org.uk/publication/the-guide-to-major-trusts-2025-26/",
-    "score": 5
+    "name": "The Guide to Major Trusts 2025/26",
+    "score": 5,
+    "summary": "UK's definitive directory of over 1,000 largest grant-makers awarding £7.23 billion annually",
+    "assessment": "Insufficient content to evaluate relational nourishment or extraction; appears to be a funding directory, but needs full details.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.fixmystreet.com",
-    "score": 5
+    "name": "FixMyStreet",
+    "score": 5,
+    "summary": "Report, view, and discuss local street problems with UK councils",
+    "assessment": "The relational risk is polite extraction: it harvests citizen attention and emotional labour to generate council-facing data without securing any reciprocal obligation for councils to act or to nourish the reporters. It’s not evil, but it’s a stabiliser for a failing system rather than a transformer of it.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.forms.service.gov.uk",
-    "score": 5
+    "name": "GOV.UK Forms",
+    "score": 5,
+    "summary": "Create accessible online forms for UK government without technical knowledge",
+    "assessment": "This is the state’s own UX fig-leaf: by making hostile policies easier to execute, it reduces the friction that might otherwise produce collective refusal. The relational and experimental agents will miss how efficiency can be counter-insurgency against citizen rage.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.givefood.org.uk",
-    "score": 5
+    "name": "Give Food",
+    "score": 5,
+    "summary": "UK charity using data to highlight and alleviate local food insecurity",
+    "assessment": "Page blocked ('Just a moment...'); no substantive project info available for relational evaluation.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.govocal.com",
-    "score": 5
+    "name": "Go Vocal",
+    "score": 5,
+    "summary": "Online community engagement platform for governments",
+    "assessment": "This appears to be a classic 'participation washing' platform - sophisticated tools for collecting input without mechanisms for ensuring that input actually influences decisions. The epistemics seem oriented toward government efficiency rather than democratic learning.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.govtrack.us",
-    "score": 5
+    "name": "GovTrack.us",
+    "score": 5,
+    "summary": "Tracking the U.S. Congress and the White House to make a more open and accountable government",
+    "assessment": "GovTrack exemplifies how progressive technologists get trapped building better interfaces on top of broken power structures, mistaking transparency for democracy while actually creating more sophisticated surveillance mechanisms that primarily serve lobbyists and well-resourced advocacy organizations. The relational and experimental agents would miss how this reinforces the very powerlessness it's trying to solve by individualizing what should be collective political action.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.govwise.ai/en",
-    "score": 5
+    "name": "GovWise",
+    "score": 5,
+    "summary": "AI-powered platform for automating public procurement tender screening and bid management",
+    "assessment": "The project treats procurement opacity as a pure information problem for vendors, not as a political problem of how public money should advance equity, climate, and labor standards. Unless its success metrics include ‘share of contracts going to cooperatives, minority-owned, and social enterprises,’ it risks optimizing the very extraction it claims to solve.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.localintelligencehub.com",
-    "score": 5
+    "name": "Local Intelligence Hub",
+    "score": 5,
+    "summary": "Data platform for analyzing local MPs, constituencies, public opinion and climate/nature movement engagement to support campaigning and organizing",
+    "assessment": "This is data infrastructure for professional campaigning that may simulate relational politics while actually reinforcing transactional representative-constituent dynamics. The platform extracts community concerns and packages them for campaign use without necessarily returning value to those communities or supporting genuine relationship-building between constituents and representatives.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.marksoutoftenancy.com",
-    "score": 5
+    "name": "Marks Out Of Tenancy",
+    "score": 5,
+    "summary": "UK landlord and letting agency review platform empowering renters with information and rights guidance",
+    "assessment": "User-generated reviews create a feedback loop for renters/landlords, but zero evidence of meta-loops for the project itself—epistemic black box.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.martus.org",
-    "score": 5
+    "name": "Martus",
+    "score": 5,
+    "summary": "Free, open source secure information collection and management tool for human rights activists",
+    "assessment": "This is a perfect example of the political tension between documentation as necessary groundwork for justice versus documentation as a substitute for political action. The sunset announcement reveals the ultimate fragility of treating symptoms (abuses) without addressing structures (power). Yet dismissing 15 years of documented evidence would be its own form of political violence against those who risked everything to provide testimony.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.mastodonc.com",
-    "score": 5
+    "name": "Mastodon C",
+    "score": 5,
+    "summary": "Data science and technology consultancy focused on open data, analytics, and civic technology",
+    "assessment": "Insufficient information: page content too thin (only 'SEND demand analysis and modelling More'). Need full project description, team/community details, and evidence of relational practices to evaluate.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.mptwitterbios.co.uk",
-    "score": 5
+    "name": "MP Twitter Bios",
+    "score": 5,
+    "summary": "Analysis of whether UK Members of Parliament mention their political party in their Twitter biographies",
+    "assessment": "The political agent sees that this micro-dataset already performs power: it exposes an intra-elite signalling difference—progressive parties brand themselves, the governing party hides its brand—thereby offering campaigners, journalists and researchers a ready-made lever for accountability questions. The relational and experimental agents will miss that the value is not in the metric but in the asymmetry it surfaces.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.mpwatch.org",
-    "score": 5
+    "name": "MP Watch",
+    "score": 5,
+    "summary": "Uniting People and Politicians for Climate Action",
+    "assessment": "Page content is a thin metadata snippet (Framer hydrate/breakpoints); no project description, team, or relational elements to evaluate. Missing: actual site content, mission, community involvement.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.myaction.center",
-    "score": 5
+    "name": "MyActionCenter",
+    "score": 5,
+    "summary": "Turn your supporters into an activist force through coordinated online actions and gamification",
+    "assessment": "Zero relational visibility in thin content; political/experimental agents might speculate on organizing tech, but no human fabric to evaluate.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.notifications.service.gov.uk",
-    "score": 5
+    "name": "GOV.UK Notify",
+    "score": 5,
+    "summary": "A free notification service for UK government, local authorities, and NHS to send emails, text messages, and letters",
+    "assessment": "Notify represents a rare case where government built genuinely excellent epistemic infrastructure - it makes the state's communication legible, trackable, and improvable. But its very success might make us forget to ask whether improved government messaging serves democracy, or just makes state power more efficient at whatever it already does. The political and relational agents would miss how this technical infrastructure fundamentally alters the information asymmetry between citizen and state.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.objector.ai",
-    "score": 5
+    "name": "Objector.ai",
+    "score": 5,
+    "summary": "AI-powered planning objection letter and toolkit to help citizens challenge unsuitable planning applications",
+    "assessment": "This is the gentrification of dissent: a privatised shortcut that lets affluent residents defend their amenity while abdicating from the slower work of building cross-class coalitions that could actually redesign planning law. The relational agent will miss that class angle; the experimental agent will miss that the metric of success is not ‘letter accepted’ but ‘state responsibility further eroded’.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.openorigins.com",
-    "score": 5
+    "name": "OpenOrigins",
+    "score": 5,
+    "summary": "The Trust Layer for a Verified Internet",
+    "assessment": "No substantive project information available; evaluation impossible without description of what Open Origins does, its theory of change, or evidence of epistemics.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.parallelparliament.co.uk",
-    "score": 5
+    "name": "Parallel Parliament",
+    "score": 5,
+    "summary": "A comprehensive platform for tracking UK parliamentary legislation, debates, and legislative processes with live transcripts and bill amendment tracking.",
+    "assessment": "The project’s real offering is faster, prettier access to official discourse, but it keeps the relational bottleneck in place: only the already-legitimate get to speak, and the rest of us can merely watch. A genuine relational intervention would hand the editorial keys to communities so they could annotate, redact, and remix the record in ways that surface missing voices; this site gives no such affordance.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.payments.service.gov.uk",
-    "score": 5
+    "name": "GOV.UK Pay",
+    "score": 5,
+    "summary": "A payment processing platform for UK public services",
+    "assessment": "This is technically competent infrastructure development with decent feedback loops, but it operates entirely within existing power structures without questioning them. It's optimizing the status quo rather than exploring alternatives. While valuable for government efficiency, it doesn't offer the kind of epistemic innovation or structural questioning that would make it compelling for experimental political technology funding.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.plinth.org.uk",
-    "score": 5
+    "name": "Plinth",
+    "score": 5,
+    "summary": "AI-powered platform helping organisations deliver, measure and fund community impact",
+    "assessment": "This is AI-washing the philanthro-industrial complex — making wealth extraction more efficient while claiming to 'reimagine' anything. The relational agent would miss how this reshapes relationships into data points, and the experimental agent would miss how the 'optimization' is actually optimization for existing power structures, not better outcomes. But the political lens sees this as making the current system more efficient at being itself — which might be worse than leaving it inefficient e…",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.polimonitor.com",
-    "score": 5
+    "name": "PoliMonitor",
+    "score": 5,
+    "summary": "Political monitoring service enabling organisations to understand, engage and shape political discussions",
+    "assessment": "This is a commercial service optimizing for speed and personalization in political intelligence, not a project testing hypotheses about democratic engagement. The epistemics are entirely extractive - gathering information about politics without contributing to political knowledge or capacity. The political and relational agents would miss that this isn't even trying to be a learning project - it's a market efficiency play in the lobbying industry.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.polimorphic.com",
-    "score": 5
+    "name": "Polimorphic",
+    "score": 5,
+    "summary": "AI-powered platform for service-first government operations and resident engagement",
+    "assessment": "This is optimization masquerading as transformation. Their epistemics are strong within a bounded frame - they genuinely measure and improve service delivery - but they refuse to examine the frame itself. They're creating a more perfect bureaucracy rather than asking whether bureaucracy is the right form for the services being delivered. The political and relational agents would miss how their 'feedback loops' only feed back into efficiency metrics, never into questions of power, legitimacy, or…",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.prolific.com",
-    "score": 5
+    "name": "Prolific",
+    "score": 5,
+    "summary": "Easily collect high-quality data from real people",
+    "assessment": "The relational and experimental agents will miss that Prolific is quietly becoming critical infrastructure for the global social-science pipeline; its API choices will shape what kinds of questions get asked and who counts as a valid research subject. That infrastructural power is hidden behind a bland recruitment website.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.publiceditor.io",
-    "score": 5
+    "name": "Public Editor",
+    "score": 5,
+    "summary": "Platform for collaborative fact-checking and editorial transparency in journalism",
+    "assessment": "Public Editor is trying to solve a real problem (media accuracy) with a method (crowdsourced editorial oversight) that has genuine epistemic virtues, but it's unclear whether this addresses the structural causes of media failure or just creates a new layer of accountability that newsrooms can selectively engage with. The tension is between making existing journalism better and needing to fundamentally reimagine how journalism works.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.rightsdd.com",
-    "score": 5
+    "name": "RightDD",
+    "score": 5,
+    "summary": "Human rights risk management technology for ESG due diligence and supply chain compliance",
+    "assessment": "No mechanisms for genuine epistemic updating (e.g., validating risk indicators against outcomes); treats theory as received truth in a black-box dashboard.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.shineyoureye.org",
-    "score": 5
+    "name": "ShineYourEye",
+    "score": 5,
+    "summary": "Making Nigerian politicians accountable through citizen engagement and legislative tracking",
+    "assessment": "ShineYourEye risks being a perfect example of how 'transparency' technologies can extract community knowledge and courage while creating permanent dependence on external platforms for accountability—potentially fragmenting the very relational networks that communities need to hold power accountable in sustainable, culturally grounded ways.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.sign-in.service.gov.uk",
-    "score": 5
+    "name": "GOV.UK One Login",
+    "score": 5,
+    "summary": "Centralized digital identity and authentication platform for UK government services",
+    "assessment": "The page advertises an identity utility whose learning loops are invisible to outsiders; without public metrics or citizen oversight we cannot tell if its apparent epistemic humility is real or just Whitehall PR. Political and relational agents will miss that the project’s very success could erase the feedback channels that birthed it.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.welivedit.ai",
-    "score": 5
+    "name": "We Live It",
+    "score": 5,
+    "summary": "AI-powered platform for community-driven urban planning and civic engagement",
+    "assessment": "Insufficient information: page content is essentially absent (just title), missing project description, team, community impact, or any relational details.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.whatdotheyknow.com",
-    "score": 5
+    "name": "WhatDoTheyKnow",
+    "score": 5,
+    "summary": "Make freedom of information requests and see responses from UK public authorities",
+    "assessment": "The political and relational agents would miss that this project's epistemic virtue—documenting everything, operating in public—may have become performative. The request counts, the transparency of the platform itself, the very visibility of its operation: these are epistemic commitments that also serve as reputation management. Is the project still testing whether transparency works, or has it become a demonstration that transparency is good? The key question: when did they last change their mi…",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.whatgov.co.uk",
-    "score": 5
+    "name": "WhatGov",
+    "score": 5,
+    "summary": "Parliament, Clearly",
+    "assessment": "Page content is insufficient for any political evaluation—missing project description, team, funding, goals, and power dynamics.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.workincharities.co.uk",
-    "score": 5
+    "name": "WorkInCharities",
+    "score": 5,
+    "summary": "Job board platform connecting charity and nonprofit sector workers with employment opportunities",
+    "assessment": "This isn't a political technology project - it's a standard job platform with charity branding. The relational innovation I'd look for would be in how the platform itself functions, but all I see is conventional job posting that treats relationships as transactions. The political and experimental agents would see this as charity sector labour market data, but from a relational lens, it's extracting hope and labour while simulating connection to meaningful work.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.writetothem.com",
-    "score": 5
+    "name": "WriteToThem",
+    "score": 5,
+    "summary": "Email your Councillor, MP, MSP, MS, MLA or London Assembly Member for free",
+    "assessment": "No visible feedback loops or falsifiability—pure execution without learning mechanisms; political/relational agents miss this as inert infrastructure.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.yoti.com",
-    "score": 5
+    "name": "Yoti",
+    "score": 5,
+    "summary": "Building the world's trusted identity platform",
+    "assessment": "Massive real-world feedback loops (millions of checks) generate performance data, but no visible mechanisms for epistemic updating or treating success as hypothesis – political/relational agents miss this as 'just business-as-usual tech'.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://yrpri.org",
-    "score": 5
+    "name": "Your Priorities",
+    "score": 5,
+    "summary": "Idea generation, deliberation & decision-making platform for governments since 2008",
+    "assessment": "This represents the central tension in democratic technology: building infrastructure for participation within existing power structures. It could be genuinely expanding democratic capacity or providing a digital veneer for consultation theater. The political question isn't whether it improves current processes, but whether it challenges or reinforces the fundamental arrangement where governments decide and citizens merely input.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://aisafety.info",
-    "score": 0
+    "name": "AISafety.info",
+    "score": 0,
+    "summary": "Educational resource on AI safety risks and how to help ensure beneficial AI outcomes",
+    "assessment": "Centers AI specialists/EA donors as heroes addressing 'catastrophic' risks, reinforcing tech hierarchies without challenging the capitalist/geopolitical AI arms race producing them.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://alaveteli.org",
-    "score": 0
+    "name": "Alaveteli",
+    "score": 0,
+    "summary": "Run your own Freedom of Information website - An open-source platform for making public freedom of information requests to public bodies",
+    "assessment": "Public archiving turns individual requests into shared relational assets, building collective trust in institutions—what political agents see as accountability, I see as nourished human connections to power.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://commonslibrary.org",
-    "score": 0
+    "name": "The Commons Social Change Library",
+    "score": 0,
+    "summary": "Free digital library of 1500+ educational resources for activists, campaigners, and social change advocates",
+    "assessment": "Reactive curation to world events hints at loose feedback (political surprises update library), but no mechanisms to test if resources drive wins – knowledge as received truth, not hypothesis.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://constituteproject.org",
-    "score": 0
+    "name": "Constitute Project",
+    "score": 0,
+    "summary": "A comprehensive analysis of the world's constitutions to support constitutional design and inform citizens",
+    "assessment": "Creates falsifiable, updatable knowledge base (constitution texts/topics) with real feedback from global usage, fostering epistemic humility in users without dogmatic imposition.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://coops.tech",
-    "score": 0
+    "name": "CoTech",
+    "score": 0,
+    "summary": "A UK-wide network of cooperative technology companies building values-aligned digital products",
+    "assessment": "The political and relational agents would miss that this project treats cooperative ownership as an article of faith rather than a falsifiable strategy for improving outcomes. There's no evidence of epistemic humility or willingness to update if the model isn't working. It's a sealed system that can only confirm its own righteousness.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://cybersecurityfordemocracy.org",
-    "score": 0
+    "name": "Cybersecurity for Democracy",
+    "score": 0,
+    "summary": "A multi-university center for problem-driven research and research-driven policy",
+    "assessment": "Challenges concentrated power (China's Locknet exporting control, big tech surveillance) through epistemic disruption, serving diffuse democratic interests over elite hierarchies – relational/experimental agents might miss this as reinforcing US tech-policy blob.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://docs.holepunch.to",
-    "score": 0
+    "name": "Pear by Holepunch",
+    "score": 0,
+    "summary": "A peer-to-peer runtime, development and deployment platform for building unstoppable applications",
+    "assessment": "This project embeds its epistemics in technical architecture rather than explicit learning processes. It's sophisticated about technical iteration but may be epistemically rigid about whether P2P is actually the right solution to begin with. The learning happens through code and documentation, not through questioning core premises.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://ecnl.org/publications/framework-meaningful-engagement-20?mc_cid=b1c5158063&mc_eid=a09c64ec38",
-    "score": 0
+    "name": "Framework for Meaningful Engagement 2.0",
+    "score": 0,
+    "summary": "Practical suggestions on how to engage civil society and affected communities in AI development to support platforms and AI developers in creating rights-based products",
+    "assessment": "Disrupts AI corporate unilateralism by operationalizing power-sharing, forcing devs to cede control to affected communities — a direct challenge to tech hierarchies the other agents overlook.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://en.wikipedia.org/wiki/wikipedia:in_the_news",
-    "score": 0
+    "name": "In the news",
+    "score": 0,
+    "summary": "Section of the Main Page directing readers to articles substantially updated to reflect recent or current events of wide interest",
+    "assessment": "Subtly challenges media oligopolies by centralizing volunteer-curated, source-backed context on Wikipedia's Main Page, empowering dispersed publics over corporate narratives without pretending to upend capitalism.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://fullfact.org/ai",
-    "score": 0
+    "name": "Full Fact AI",
+    "score": 0,
+    "summary": "Scalable, robust software designed for fact checkers to identify the most important bad information",
+    "assessment": "Centers power in fact-checking NGOs (often Western-aligned) as arbiters of truth, reinforcing technocratic hierarchies over democratizing info production or challenging elite deceivers.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://github.com/bellingcat/edgar",
-    "score": 0
+    "name": "EDGAR",
+    "score": 0,
+    "summary": "Tool for the retrieval of corporate and financial data from the SEC",
+    "assessment": "Instruments corporate and financial relationships as extractable data/metrics, prioritizing transparency over relational repair—what political transparency focus and experimental tooling might overlook.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://github.com/blacksky-algorithms/rsky",
-    "score": 0
+    "name": "rsky",
+    "score": 0,
+    "summary": "An AT Protocol implementation prioritizing community safety and self-governance, written in Rust",
+    "assessment": "Genuine feedback loops via GitHub/open source (commits/stars/PRs) enable noticing if Rust AT impl fails on safety/scalability—political/relational agents miss this as a falsifiable engineering hypothesis, not just community signaling.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://github.com/cavi-au/consent-o-matic",
-    "score": 0
+    "name": "Consent-O-Matic",
+    "score": 0,
+    "summary": "Browser extension that automatically fills out cookie popups based on user preferences",
+    "assessment": "Fosters low-extraction collaboration in privacy maintenance, sustaining user/team energy amid extractive web ecology—missed by political/experimental focus on power/tests.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://github.com/compdemocracy/polis",
-    "score": 0
+    "name": "Polis",
+    "score": 0,
+    "summary": "Open-source AI-powered platform for large-scale open-ended public feedback and deliberation",
+    "assessment": "Strong feedback loops via live opinion mapping (self-validating hypothesis: if no clusters emerge, method falsifies itself)—political/relational agents miss this machine-readable humility.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://github.com/datakind/data-observation-toolkit",
-    "score": 0
+    "name": "Data Observation Toolkit (DOT)",
+    "score": 0,
+    "summary": "Open-source toolkit to monitor data integrity and flag problems in public health and humanitarian datasets",
+    "assessment": "Creates genuine, automated feedback loops for data epistemics in politics-adjacent health systems—flags 'wrongness' at scale, what others might overlook as 'tech plumbing'.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://github.com/g0v/vue.vtaiwan.tw",
-    "score": 0
+    "name": "vTaiwan",
+    "score": 0,
+    "summary": "Taiwan's open digital democracy platform for collaborative online public consultation on legislation",
+    "assessment": "Mandated gov responses create a rare, enforceable feedback loop — genuine mechanism to notice if theory (public input improves regs) fails, fostering intellectual honesty over self-confirmation.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://github.com/mastodon/mastodon",
-    "score": 0
+    "name": "Mastodon",
+    "score": 0,
+    "summary": "Your self-hosted, globally interconnected microblogging community",
+    "assessment": "Exceptional feedback loops via public repo metrics, server telemetry sharing, and forkability—team can't hide from evidence of failure (e.g., instance crashes, low retention).",
+    "assessment_synthetic": false
   },
   {
     "url": "https://github.com/ytdl-org/youtube-dl",
-    "score": 0
+    "name": "youtube-dl",
+    "score": 0,
+    "summary": "Command-line program to download videos from YouTube.com and other video sites",
+    "assessment": "Challenges platform sovereignty over information access, centering user agency in a corporate-dominated media landscape—what relational might miss as 'just code'.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://gordonguthrie.github.io/frankensteinbill",
-    "score": 0
+    "name": "Frankenstein Bill",
+    "score": 0,
+    "summary": "A dummy parliamentary bill collecting and explaining potential speedbumps for government software development and digitally-enabled service design",
+    "assessment": "Rare gov-backed open epistemic infrastructure: turns anecdotal tech frustrations into cataloged, falsifiable patterns — political/relational agents miss how this quietly trains policymakers to self-update on digital constraints.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://guardianproject.info",
-    "score": 0
+    "name": "Guardian Project",
+    "score": 0,
+    "summary": "Secure, privacy-enhancing mobile applications and tools for journalists, activists, and people at risk",
+    "assessment": "Open-source security forces brutal feedback loops (exploits = instant falsification), creating intellectual honesty the political lens might dismiss as 'just tech' amid power games.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://joss.theoj.org",
-    "score": 0
+    "name": "Journal of Open Source Software",
+    "score": 0,
+    "summary": "A developer friendly, open access journal for research software packages",
+    "assessment": "JOSS is a low-noise, high-leverage intervention inside the evaluation circuitry of academia: it turns the prestige generator itself into a commons, proving that the citation economy can be hacked without first overthrowing Elsevier. The relational and experimental agents will miss that the power move here is not scale but infiltration of the credentialing operating system.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://littlesis.org",
-    "score": 0
+    "name": "LittleSis",
+    "score": 0,
+    "summary": "Free database of who-knows-who at the heights of business and government — power research for just futures",
+    "assessment": "Rare open epistemic commons for power networks: falsifiable by design (anyone can query/add/disprove ties), enabling surprise and updating political agents overlook.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://murmurations.network",
-    "score": 0
+    "name": "Murmurations Protocol",
+    "score": 0,
+    "summary": "Making movements visible — a distributed data sharing protocol to facilitate collaboration at scale",
+    "assessment": "Protocol embeds epistemic humility via distributed timestamps/verifiability—anyone can see/test if knowledge is stale/outdated, forcing update or discard without central dogma.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://newpublic.substack.com/p/introducing-roundabout-built-for",
-    "score": 0
+    "name": "New_ Public Roundabout",
+    "score": 0,
+    "summary": "A community space for neighbors — local digital forum app built from the ground up with community stewards",
+    "assessment": "Nonprofit model subtly challenges profit-driven big tech hierarchies at community scale, centering stewards over algorithms — relational/experimental agents might undervalue this power shift.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://oa.works/",
-    "score": 0
+    "name": "OA.Works",
+    "score": 0,
+    "summary": "Powerfully simple open access tools for a just and kind information age",
+    "assessment": "Subtly shifts power from profit-driven publishers to authors/libraries/funders, centering underserved knowers (students/organizers) invisible in closed systems—relational/experimental agents might miss this enclosure-busting leverage.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://opencollective.com",
-    "score": 0
+    "name": "Open Collective",
+    "score": 0,
+    "summary": "Raise, manage and disburse money with full transparency.",
+    "assessment": "Financial transparency creates donor-side feedback loops, but platform's own theory ('unlock funding via hosts') lacks visible falsifiability or failure acknowledgment.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://openprocurement.io",
-    "score": 0
+    "name": "OpenProcurement",
+    "score": 0,
+    "summary": "Open source e-procurement toolkit powering transparent public procurement systems.",
+    "assessment": "Reinforces state legitimacy via transparency while challenging elite capture in procurement—a double-edged power realignment relational/experimental lenses might overlook as neutral tooling.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://participedia.net",
-    "score": 0
+    "name": "Participedia",
+    "score": 0,
+    "summary": "A global crowdsourcing platform for researchers, activists, practitioners, and anyone interested in public participation and democratic innovations.",
+    "assessment": "Weaves a global relational fabric for democratic knowledge, turning isolated innovations into interconnected, editable stories—political agents miss this living community pulse.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://privacybadger.org",
-    "score": 0
+    "name": "Privacy Badger",
+    "score": 0,
+    "summary": "A free browser extension made by EFF to stop companies from spying on you online.",
+    "assessment": "Shifts power from ad-tech oligarchs to users by automating consent enforcement, something relational/experimental agents might undervalue as 'just a tool' amid collective action pushes.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://publicai.co/",
-    "score": 0
+    "name": "Public AI Inference Utility",
+    "score": 0,
+    "summary": "A public access point for public and sovereign AI models",
+    "assessment": "Prioritizes relational sovereignty through public institutions and open contribs, fostering sustained institutional-community ties that political power plays or pure experimentation might overlook.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://radicle.xyz",
-    "score": 0
+    "name": "Radicle",
+    "score": 0,
+    "summary": "A sovereign, peer-to-peer code forge built on Git",
+    "assessment": "Shifts power from corporate code overlords to peer networks, centering devs invisible in GitHub's terms-of-service panopticon—relational/experimental agents miss this raw challenge to infra capitalism.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://riseup.net",
-    "score": 0
+    "name": "Riseup",
+    "score": 0,
+    "summary": "Secure online communication tools for people and groups working on liberatory social change",
+    "assessment": "Centers power-dispossessed by wresting comms control from hierarchies—relational/epistemic agents might miss how this rawly disrupts who owns the pipes of dissent.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://securedrop.org",
-    "score": 0
+    "name": "SecureDrop",
+    "score": 0,
+    "summary": "Open source whistleblower submission system for secure anonymous document sharing",
+    "assessment": "SecureDrop represents the paradox of epistemic rigidity in service of democratic transparency. Its uncompromising security model creates genuine protection for sources, but this very rigidity may prevent it from adapting to changing media ecosystems or discovering that its approach isn't actually serving the broader goal of democratic accountability. The project has feedback loops for security but not for democratic efficacy.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://shareyourpaper.org",
-    "score": 0
+    "name": "Shareyourpaper.org",
+    "score": 0,
+    "summary": "Simplest way to legally make academic papers freely available on Google Scholar, Web of Science, and personal sites",
+    "assessment": "Shifts micro-power from publisher monopolies to library/author coalitions via legal tech, reinforcing collective bargaining without fanfare—what pure experimenters or relators might overlook as 'just a sharing tool'.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://spartacus.app",
-    "score": 0
+    "name": "Spartacus",
+    "score": 0,
+    "summary": "Build critical mass with conditional commitments that only activate when enough people join in",
+    "assessment": "Serves dispersed middle-class power (rationalist-funded), enabling leaderless coordination that challenges top-down authority but reinforces fragmented individualism over unified structural challenge.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://tech-coops.xyz",
-    "score": 0
+    "name": "Tech Coops List",
+    "score": 0,
+    "summary": "A curated directory and resource hub for worker-owned technology cooperatives and related information",
+    "assessment": "Subtly recenters power in workers by mapping an under-the-radar democratic tech economy, invisible to relational/experimental views focused on interpersonal or iterative dynamics.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://turbophonebank.com",
-    "score": 0
+    "name": "Turbo Phonebank",
+    "score": 0,
+    "summary": "A free phonebank platform that turns Google Sheets into phonebanks and textbanks with 2-tap calling",
+    "assessment": "Sustains volunteer energy in relational drudgery work, preventing burnout in activism; political agents miss this human-centered UX relief, experimental miss the implicit hypothesis of 'ease enables persistence'.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://vframe.io",
-    "score": 0
+    "name": "VFRAME",
+    "score": 0,
+    "summary": "Computer vision for OSINT: detecting illegal munitions and documenting war crimes through AI-powered video analysis",
+    "assessment": "Reinforces NGO-Western funder power in global justice theater, challenging perpetrator states but entrenching tech-mediated humanitarianism over disarmament.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://web.archive.org",
-    "score": 0
+    "name": "Internet Archive Wayback Machine",
+    "score": 0,
+    "summary": "Digital archive of the World Wide Web — preserving over 1 trillion web pages since 1996",
+    "assessment": "The Wayback Machine is the internet’s institutionalised epistemic humility: it encodes the assumption that every claim may need to be checked later, so it preserves the evidence *before* anyone knows it will matter. That structural bet on future learning is rare and worth amplifying.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.communitytech.network",
-    "score": 0
+    "name": "Community Tech",
+    "score": 0,
+    "summary": "Technology built with, by and for communities that is locally accountable and creates local value",
+    "assessment": "Prioritizes relational accountability in tech (local value sticking to place), nourishing community fabric over metrics—political/experimental agents might overlook this anti-extractive relational core.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.demnext.org/projects/delibtech-network",
-    "score": 0
+    "name": "Deliberation & Technology (DelibTech) Network",
+    "score": 0,
+    "summary": "International network of technologists and practitioners building and studying technology to enhance deliberation and digital infrastructure for deliberative democracy",
+    "assessment": "Invite-only Chatham House creates rarefied space for honest failure-sharing in tech-democracy, where public hype often drowns epistemics—political/relational agents might miss this as just 'networking'.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.globaleaks.org",
-    "score": 0
+    "name": "GlobaLeaks",
+    "score": 0,
+    "summary": "Free and open-source whistleblowing software enabling secure anonymous reporting platforms",
+    "assessment": "Democratizes a core power-disrupting act (whistleblowing) against surveillance hierarchies, serving the silenced over the powerful — relational/experimental agents might miss how it inherently challenges who controls information flows.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.loomio.org",
-    "score": 0
+    "name": "Loomio",
+    "score": 0,
+    "summary": "Make decisions together, without the endless meetings",
+    "assessment": "Embeds falsifiable decision epistemics (test proposals, resolve objections) as a lightweight infrastructure—political agents miss how this humbles egos systematically across scales.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.meet.coop",
-    "score": 0
+    "name": "meet.coop",
+    "score": 0,
+    "summary": "The Online Meeting Cooperative - surveillance-free video conferencing powered by renewable energy on cooperatively owned infrastructure",
+    "assessment": "The political and relational agents will miss that this is a church, not a laboratory. It's gathering the faithful and building their capacity, but it's not testing whether cooperative tech infrastructure actually outperforms other governance models. The epistemic failure is treating 'more cooperatives' as the answer before asking what question cooperative structure best solves.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.mysociety.org/climate/neighbourhood-warmth",
-    "score": 0
+    "name": "Neighbourhood Warmth",
+    "score": 0,
+    "summary": "A free online platform helping people form teams around shared home energy challenges like retrofit assessments and energy efficiency",
+    "assessment": "This is attempting to build community capacity for energy organizing without fully challenging the structures that make such organizing necessary - but the fractal nature of the intervention (train the trainer, horizontal team connections) could create lasting infrastructure for more radical energy democracy even if the platform itself becomes captured by market or state interests.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.open-contracting.org",
-    "score": 0
+    "name": "Open Contracting Partnership",
+    "score": 0,
+    "summary": "Open, fair & efficient public contracting to improve US$2 trillion in annual public procurement spending",
+    "assessment": "Centers public scrutiny on trillion-dollar state spending power, challenging opaque elite capture without relying on savior tech—relational/experimental agents might miss this as core redistributive leverage.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.opencrvs.org",
-    "score": 0
+    "name": "OpenCRVS",
+    "score": 0,
+    "summary": "Open source digital civil registration and vital statistics system for every person on the planet",
+    "assessment": "Disrupts Western vendor dominance in identity tech, handing power to Global South states/communities, but cements bureaucratic state as identity arbiter—relational/experimental agents miss this sovereignty shift.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.openownership.org",
-    "score": 0
+    "name": "Open Ownership",
+    "score": 0,
+    "summary": "Driving global shift towards transparency and accountability in corporate ownership and control",
+    "assessment": "Strong epistemic humility signals — symposia/starter guides on 'evidence and impact' treat theory as testable, with mechanisms to notice non-working (e.g., procurement measurement); political/relational miss this internal rigor.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.papertree.earth",
-    "score": 0
+    "name": "Papertree",
+    "score": 0,
+    "summary": "Interactive tree planting data platform for transparent climate action accountability",
+    "assessment": "No visible feedback loops or falsifiability; theory of decentralized sovereignty feels like received truth, not tested hypothesis — political/relational agents might overlook this as principled conviction.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.torproject.org",
-    "score": 0
+    "name": "Tor Project",
+    "score": 0,
+    "summary": "Anonymity Online - Advance human rights and defend privacy through free and open source anonymity and privacy technologies",
+    "assessment": "Dismantles visibility hierarchies for the marginalized, challenging state/corporate panopticons without reinforcing them—raw power read others miss.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.wikidata.org",
-    "score": 0
+    "name": "Wikidata",
+    "score": 0,
+    "summary": "A free and open knowledge base that can be read and edited by both machines and humans",
+    "assessment": "Redistributes epistemic power from corps/states to messy global volunteers, creating open-data substrate that undermines proprietary 'truth' machines—relational/epistemic agents miss this as baseline infrastructure shift.",
+    "assessment_synthetic": false
   },
   {
     "url": "https://www.workerinfoexchange.org",
-    "score": 0
+    "name": "Worker Info Exchange",
+    "score": 0,
+    "summary": "Platform connecting workers with information about labor rights, workplace conditions, and employment resources",
+    "assessment": "Weaponizes data sovereignty to erode platform feudalism, centering invisible gig workers against tech oligarchs—what pure tech 'disruption' narratives obscure.",
+    "assessment_synthetic": false
   }
 ]
