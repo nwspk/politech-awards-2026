@@ -12,16 +12,16 @@
 - [x] Ranking table (321 rows, sorted by score desc) written
 - [x] Reflection and agent notes written
 
-## Winner: Bonfire (83.3)
+## Winner: Mastodon (100)
 
 ## Top 10
-1. Bonfire (83.3)
-2. CONSUL Democracy
-3. LiquidFeedback
-4. Open Data Editor (ODE)
-5. Polis
-6. Decidim
-7. Alaveteli
-8. Cobudget
-9. Open Standards for Data Guidebook
-10. adhocracy+
+1. Mastodon (100)
+2. CONSUL Democracy (100)
+3. Abstract Wikipedia (100)
+4. CiviCRM (99.8)
+5. Alaveteli (99.8)
+6. Aleph (OCCRP) (99.8)
+7. HURIDOCS (99.8)
+8. OA.Works (99.8)
+9. Bonfire (99.1)
+10. Gapminder Worldview Upgrader (97.0)
