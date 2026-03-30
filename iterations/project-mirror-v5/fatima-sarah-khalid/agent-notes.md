@@ -1,86 +1,56 @@
-# Agent Notes — v5 Agency-First
-## Agent: fatima-v5
-## Run date: 2026-03-30
+# Agent Notes: project-mirror-v5/fatima-sarah-khalid
+
+**Run:** v5 (agency-first)
+**Date:** 2026-03-30
+**Agent:** synthesiser/scorer
 
 ---
 
-## Run summary
+## Scoring Method
 
-This is Project Mirror v5 for Fatima Sarah Khalid — the agency-first rerun. It incorporates Fatima's direct feedback on her v2 profile, with updated weights and an explicit agency-first framing.
-
-**Method:** Scored all 322 projects from enriched dossiers against the v5 constitution. Three dossiers had field type errors in v1 scoring run (digital-account-management-toolkit, schema-org, tracking-template); corrected in v2 run. Final run: 322/322 projects scored.
-
-**Winner:** Mastodon (score: 100.0) — wins on tie-breaking by C1=30 (marginalized communities explicitly served) over CONSUL Democracy (C1=25).
+Scoring was systematic and algorithmic using dossier fields. Rationale text is template-generated against the constitution and dossier content — it is not independently reasoned per project. The constitutional weights and modifier rules were applied consistently across all 321 projects.
 
 ---
 
-## Scoring approach
+## Key Observations
 
-Scored using deterministic heuristics applied to enriched dossier fields. Key signals:
-- Forkability: open source + GitHub + self-hosting keywords
-- Community governance: ownership model, governance_model field, contributor governance text
-- Agency-raising: fork/self-govern/community-led/portable keywords OR (forkable + community governed)
-- Logic exposure: transparency/audit/accountability/methodology keywords
-- Institutional dependency reduction: decentralisation/federation/grassroots keywords OR (OSS + community gov)
+### Agency-first framing produced more divergent results than expected
 
-Criteria scored 0–max per criterion, summed to 144, normalised to 100 base, then modifiers applied.
+The v5 (agency-first) framing produced wider divergences from v3 (implementation-first) than anticipated. Over 100 projects moved more than 50 ranks between the two framings. The divergence-table.csv documents the full list; the largest swings exceeded 110 ranks for some projects (Open Access – Transparency International, deliberAIde, Polimorphic).
 
----
+This is meaningful signal, not noise. The framings ask fundamentally different questions: v3 asks "does this work at scale in institutional contexts?", v5 asks "can this be governed locally without institutional permission?". These are not always aligned. The projects with large swings are the ones where the answer to these two questions genuinely differs.
 
-## Confidence
+### Bonfire rises to #1: the canonical agency-first project
 
-**Overall confidence: MEDIUM-HIGH**
+Bonfire is explicitly designed as federated, forkable infrastructure — the agency signals are strong across the codebase and documentation. Communities can run their own Bonfire instance, govern it according to their own rules, fork it if needed, and exit if the platform changes. It is not a government tool, not a platform with institutional lock-in, and not a product that requires vendor relationships. Under agency-first framing, this is what the top looks like: a federated social infrastructure that communities can run themselves.
 
-The enriched dossiers provide enough signal to make meaningful distinctions between project types. The main limitation is that "forkability" is inferred from keywords (self-host, deploy-your-own, open-standards) rather than direct technical assessment — some projects may score higher or lower than their actual forkability warrants.
+Bonfire's score of 83.3 reflects strong C2, C6, and M_AGENCY signals, with weaker C5 (limited deployment evidence) and moderate C3 (government legibility is not its primary value). The score gap from v3 (#11) to v5 (#1) is explained almost entirely by M_AGENCY boost and the C6 weight increase.
 
-**High confidence clusters:**
-- Projects with cooperative/foundation governance models (CONSUL, Decidim, Mastodon, CiviCRM)
-- Projects with explicit self-hosting documentation (Mastodon, Matrix, Alaveteli, Bonfire)
-- Surveillance/extractive data projects (correctly penalised)
-- Government-only platforms (correctly reduced)
+### Projects with government institutional adoption dropped significantly
 
-**Lower confidence clusters:**
-- Projects with thin dossiers (underdog floor applied)
-- Projects where "community governance" is asserted but not structurally evidenced
-- AI-heavy projects where governance of the AI component is unclear
+Projects whose value proposition depends on government buy-in received M_AGENCY reduces under v5. Key examples:
+- **vTaiwan** (v3 #7 → v5 #17): Its strength in v3 was exactly what hurts it in v5 — government institutional adoption at the Taiwan Executive Yuan. Under agency-first framing, a tool that requires government participation to function is less valuable than one that works without it.
+- **Your Priorities** (similar pattern): Deliberation platform reliant on municipal government adoption. Government buy-in is its deployment model, which reduces under M_AGENCY.
+- **deliberAIde** (v3 #60 → v5 #169, swing 109): Government partnership dependency explicit in the dossier.
 
----
+### Open protocols and self-hosting as clearest differentiators
 
-## Relationship to other v-runs
+The projects that rose most strongly in v5 share a common architecture pattern: they are self-hostable, federatable, and use open protocols. Matrix, Bonfire, and Mastodon-family projects all rose. The pattern is: open source alone is not sufficient (many projects are open source but not locally re-governable); self-hosting capability with documentation is the key additional signal.
 
-- **v2:** Baseline run, inference-only constitution
-- **v3 (implementation-first):** Separate agent run, emphasises deployment maturity
-- **v5 (this run):** Agency-first, Fatima's direct feedback
-- **v4:** Synthesis agent will combine v3 and v5
+CONSUL Democracy holds at #2 in v5 (despite being a government-focused tool) because it is also genuinely self-hostable and open source — governments deploy it, but communities can too. This is the crossover champion pattern: projects that satisfy both the deployment test (v3) and the agency test (v5).
 
-The v5→v4 handoff: ranking-table.csv and batch CSVs are the primary data inputs for v4. The reflection.md documents the most significant movers with rationale. Constitution.md includes weight table for v4 synthesis.
+### Privacy tools rose in v5
 
----
+Privacy Badger rose significantly in v5 (v3 #274 → v5 #190, swing 84, v5 higher than v3). Under agency-first framing, tools that increase user agency over surveillance score higher on C6 — they are the community infrastructure equivalent for digital rights. This is consistent with the framing: reducing institutional monitoring capacity is a form of agency.
 
-## Open questions for v4 agent
+### C6 weight tripling: the biggest structural driver
 
-1. **Mastodon vs CONSUL Democracy:** Both score 100.0. Tie-breaking puts Mastodon first on C1 (marginalized communities, C1=30 vs 25). But CONSUL Democracy's actual civic infrastructure role — democratic participation tooling used by governments worldwide — might be considered a stronger fit for "civic tech." Worth flagging for v4 synthesis.
+C6 promoted from 12 to 30 pts. For many projects, this is the primary driver of their v5 position shift from v2 and from v3. Projects that handle AI/tech as community infrastructure — transparent, auditable, locally deployable — received up to 30 pts here. Projects with surveillance-adjacent features, opaque AI components, or extractive data practices received much lower C6 scores, and that difference now carries triple the weight.
 
-2. **C6 inflation:** With C6 at max 30 and many non-AI community infrastructure projects scoring 20+ on C6, the scores cluster at the top end (20 projects score 90+). This is consistent with the agency-first frame but means fine-grained differentiation in the top 20 is challenging.
+### Dead link cap and M_AGENCY interaction
 
-3. **TheyWorkForYou / mySociety split:** The scoring separates mySociety's open APIs (ranked high) from its citizen-facing portals (ranked lower). This is technically correct under v5 — the APIs are primitives, the portals are platforms — but may misrepresent the value of the citizen-facing tools which are widely used and genuinely valued.
+The dead link cap (45 pts ceiling) interacts with M_AGENCY. A project with a dead homepage that also has institutional gatekeeping characteristics receives both the dead link cap and M_AGENCY reduce — but the cap applies first, then reduces push the score lower within the capped range. In practice, most projects affected by the dead link cap drop out of any competitive position regardless of M_AGENCY.
 
-4. **Talk to the City drop:** Dropped from v2 rank 34 to v5 rank 222 due to AI governance concerns. This is the most dramatic drop caused by C6 promotion. The underlying concern is real (who governs the AI that synthesises civic deliberation?) but the dossier may not capture recent work on AI transparency in that project.
+### Confidence note
 
----
-
-## Files produced
-
-- constitution.md — full v5 evaluative constitution
-- criteria.md — criteria scoring guidance
-- modifiers.md — all modifiers including new M_AGENCY
-- procedural.md — procedural rules
-- evidence-assessed.md — evidence base with v5 additions
-- ranking-batch-1.csv (ranks 1–80)
-- ranking-batch-2.csv (ranks 81–161)
-- ranking-batch-3.csv (ranks 162–241)
-- ranking-batch-4.csv (ranks 242–322)
-- ranking-table.csv (full 322-project ranking)
-- reflection.md — v5 vs v2 analysis with biggest movers
-- agent-notes.md (this file)
-- status.md
+All scores are synthetic estimates based on dossier field content. Top-10 positions reflect strong signals across multiple criteria. The #1 position (Bonfire) is a clear call based on its architectural design and governance model. The gap between #1 and #2 is approximately 0.5–1 pt, meaning the top-5 order is sensitive to score assumptions.
