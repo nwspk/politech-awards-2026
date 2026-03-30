@@ -40,7 +40,7 @@ Individual mirror PRs stay open for cohort feedback and amendments.
 | [#70](https://github.com/nwspk/politech-awards-2026/pull/70) | Jamie Coombes | Interoperable Deliberative Tools |
 | [#80](https://github.com/nwspk/politech-awards-2026/pull/80) | Signal | Martus |
 | [#75](https://github.com/nwspk/politech-awards-2026/pull/75) / [#97](https://github.com/nwspk/politech-awards-2026/pull/97) | Nicholas Botti | Polis (94.4) **(v3)** |
-| [#79](https://github.com/nwspk/politech-awards-2026/pull/79) | Prism (codename) | Gapminder Worldview Upgrader (100 — only perfect score in cohort) |
+| [#79](https://github.com/nwspk/politech-awards-2026/pull/79) | Tuna Acisu | Gapminder Worldview Upgrader (100 — only perfect score in cohort) |
 
 ---
 
