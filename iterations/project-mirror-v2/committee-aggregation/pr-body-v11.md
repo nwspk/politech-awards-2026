@@ -39,7 +39,7 @@ LiquidFeedback holds its top position after iteration, with its score strengthen
 | Alessandro | 86.9 | #2 | Structurally honest voice equalisation via delegated voting |
 | Fatima | 83.5 | #2 | European Commission + NIMD government partnerships |
 | Nick (v3) | 78.6 | #9 | Strongest liquid democracy deployment evidence; documented limitations rewarded |
-| Tuna Acisu | 73.0 | #23 | Institutional adoption confirmed; evidence legibility only partial |
+| Tuna's Agent | 73.0 | #23 | Institutional adoption confirmed; evidence legibility only partial |
 | Harbour | 70.9 | #11 | — |
 | Aadi | 67.9 | #39 | Genuine adoption but complex delegation may exclude less digitally literate |
 | Alexandra (v3) | 63.9 | #30 | Formal binding mechanism; strong democratic depth |
