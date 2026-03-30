@@ -1,0 +1,81 @@
+rank,project_name,url,score,criteria_score,mod_adj,completeness,c1,c2,c3,c4,c5,c6,c7,rationale
+81,Bellingcat Online Investigation Toolkit,https://bellingcat.gitbook.io/toolkit,59.7,59.7,0,0.67,6,22,21,2,4,25,6,V3 implementation-first. Top driver: community tech infra.
+82,Open Contracting Partnership,https://www.open-contracting.org,59.3,49.3,10,0.92,6,21,16,2,5,15,6,V3 implementation-first. Top driver: open source/governance. M_IMPL boost: government adoption at scale (3 partners).
+83,DISARM Frameworks,https://github.com/disarmfoundation/disarmframeworks,59.3,49.3,10,0.83,3,22,12,2,5,21,6,V3 implementation-first. Top driver: open source/governance. M_IMPL boost: government adoption at scale (4 partners).
+84,Martus,https://www.martus.org,59.0,59.0,0,0.75,11,20,13,2,4,29,6,V3 implementation-first. Top driver: community tech infra.
+85,Awesome UK Government Datasets,https://github.com/i-dot-ai/awesome-gov-datasets,58.8,52.8,6,0.83,11,27,12,2,3,17,4,V3 implementation-first. Top driver: open source/governance. M_IMPL: 1 government partner(s) boost.
+86,Fundación Ciudadanía Inteligente,https://ciudadaniai.org,58.8,52.8,6,0.92,3,21,22,4,5,15,6,V3 implementation-first. Top driver: gov legibility. M_IMPL: 2 government partner(s) boost.
+87,Tactical Data Engagement,https://communities.sunlightfoundation.com/methodology,58.6,48.6,10,0.75,16,2,25,2,3,18,4,V3 implementation-first. Top driver: gov legibility. M_IMPL boost: government adoption at scale (1 partners).
+88,Humble Data Workshop,https://humbledata.org,58.3,58.3,0,0.67,18,22,12,4,2,20,6,V3 implementation-first. Top driver: open source/governance.
+89,Talk to the City,https://talktothecity.org,58.1,52.1,6,0.92,11,14,21,2,5,16,6,V3 implementation-first. Top driver: gov legibility. M_IMPL: 2 government partner(s) boost.
+90,Land Explorer,https://landexplorer.coop,58.0,41.0,17,0.67,11,2,21,2,2,18,3,V3 implementation-first. Top driver: gov legibility. M_IMPL boost: government adoption at scale (1 partners).
+91,Plausible Analytics,https://plausible.io,57.6,57.6,0,0.83,13,21,13,2,4,27,3,V3 implementation-first. Top driver: community tech infra.
+92,LittleSis,https://littlesis.org,57.6,57.6,0,0.83,4,25,26,2,5,17,4,V3 implementation-first. Top driver: gov legibility.
+93,Wikidata,https://www.wikidata.org,57.4,51.4,6,0.92,4,27,13,2,5,17,6,V3 implementation-first. Top driver: open source/governance. M_IMPL: 1 government partner(s) boost.
+94,Ushahidi,https://www.ushahidi.com,57.2,47.2,10,0.92,8,16,17,2,4,15,6,V3 implementation-first. Top driver: gov legibility. M_IMPL boost: government adoption at scale (3 partners).
+95,Creative Commons,https://creativecommons.org,57.2,47.2,10,0.92,4,24,12,2,5,15,6,V3 implementation-first. Top driver: open source/governance. M_IMPL boost: government adoption at scale (3 partners).
+96,SecureDrop,https://securedrop.org,56.9,56.9,0,0.83,11,25,13,2,5,20,6,V3 implementation-first. Top driver: open source/governance.
+97,Choose a License,https://choosealicense.com,56.9,56.9,0,0.75,11,16,21,2,4,23,5,V3 implementation-first. Top driver: community tech infra.
+98,Mastodon C,https://www.mastodonc.com,56.7,50.7,6,0.92,11,16,22,2,4,15,3,V3 implementation-first. Top driver: gov legibility. M_IMPL: 1 government partner(s) boost.
+99,Your Priorities,https://yrpri.org,56.7,50.7,6,0.92,8,16,22,2,4,15,6,V3 implementation-first. Top driver: gov legibility. M_IMPL: 1 government partner(s) boost.
+100,Principles for Public Participation in Procurement of AI,https://p4ai.net,56.5,46.5,10,0.75,8,12,17,2,5,17,6,V3 implementation-first. Top driver: gov legibility. M_IMPL boost: government adoption at scale (3 partners).
+101,Shareyourpaper.org,https://shareyourpaper.org,56.2,56.2,0,0.75,11,27,13,2,3,20,5,V3 implementation-first. Top driver: open source/governance.
+102,The Engine Room Library,https://library.theengineroom.org,56.2,56.2,0,0.75,11,27,12,2,3,20,6,V3 implementation-first. Top driver: open source/governance.
+103,rsky,https://github.com/blacksky-algorithms/rsky,56.2,56.2,0,0.75,11,22,13,2,2,25,6,V3 implementation-first. Top driver: community tech infra.
+104,Gapminder Worldview Upgrader,https://upgrader.gapminder.org,56.0,50.0,6,0.92,8,22,8,4,5,20,5,V3 implementation-first. Top driver: open source/governance. M_IMPL: 2 government partner(s) boost.
+105,FixMyStreet,https://www.fixmystreet.com,56.0,50.0,6,0.92,8,21,14,2,5,18,4,V3 implementation-first. Top driver: open source/governance. M_IMPL: 1 government partner(s) boost.
+106,WhatGov,https://www.whatgov.co.uk,56.0,50.0,6,0.75,3,20,22,2,2,20,3,V3 implementation-first. Top driver: gov legibility. M_IMPL: 1 government partner(s) boost.
+107,Go Vocal,https://www.govocal.com,55.8,45.8,10,0.75,8,6,25,2,5,15,5,V3 implementation-first. Top driver: gov legibility. M_IMPL boost: government adoption at scale (4 partners).
+108,Pastecal,https://github.com/kazad/pastecal,55.6,55.6,0,0.75,11,20,21,2,2,20,4,V3 implementation-first. Top driver: gov legibility.
+109,Groupthink (OpenPolitics Votebot),https://github.com/openpolitics/groupthink,55.6,55.6,0,0.75,10,22,20,2,2,20,4,V3 implementation-first. Top driver: open source/governance.
+110,Bluesky,https://bsky.app,55.6,55.6,0,0.83,4,21,21,2,4,23,5,V3 implementation-first. Top driver: community tech infra.
+111,GOV.UK Forms,https://www.forms.service.gov.uk,55.3,49.3,6,0.92,9,19,16,2,4,18,3,V3 implementation-first. Top driver: open source/governance. M_IMPL: 1 government partner(s) boost.
+112,GOV.UK Pay,https://www.payments.service.gov.uk,55.3,49.3,6,0.92,8,19,16,2,5,18,3,V3 implementation-first. Top driver: open source/governance. M_IMPL: 1 government partner(s) boost.
+113,Spacetube,https://spacetu.be,54.9,54.9,0,0.67,11,20,14,2,2,25,5,V3 implementation-first. Top driver: community tech infra.
+114,One Project,https://oneproject.org/,54.9,54.9,0,0.67,8,22,15,4,2,23,5,V3 implementation-first. Top driver: community tech infra.
+115,The Government Says,https://thegovernmentsays.com,54.6,48.6,6,0.92,6,22,13,2,3,20,4,V3 implementation-first. Top driver: open source/governance. M_IMPL: 1 government partner(s) boost.
+116,Political Advertising Transparency Data Standard,https://github.com/whotargetsme/ad-transparency-standards/blob/main/implement.md,54.6,48.6,6,0.92,6,20,12,2,5,20,5,V3 implementation-first. Top driver: open source/governance. M_IMPL: 2 government partner(s) boost.
+117,Radicle,https://radicle.xyz,54.2,54.2,0,0.75,11,20,13,2,2,25,5,V3 implementation-first. Top driver: community tech infra.
+118,Manifold Markets,https://manifold.markets,54.2,54.2,0,0.83,9,21,21,2,4,18,3,V3 implementation-first. Top driver: open source/governance.
+119,Papertree,https://www.papertree.earth,54.2,54.2,0,0.5,9,12,25,2,2,23,5,V3 implementation-first. Top driver: gov legibility.
+120,Open Collective,https://opencollective.com,54.2,54.2,0,0.83,8,27,12,2,4,20,5,V3 implementation-first. Top driver: open source/governance.
+121,Participedia,https://participedia.net,54.2,54.2,0,0.75,8,22,15,2,4,21,6,V3 implementation-first. Top driver: open source/governance.
+122,openparliament.ca,https://openparliament.ca/,54.2,54.2,0,0.75,5,25,20,2,5,17,4,V3 implementation-first. Top driver: open source/governance.
+123,Agencies for Good,https://www.agenciesforgood.org,54.1,43.1,11,0.58,9,2,25,2,3,18,3,V3 implementation-first. Top driver: gov legibility. M_IMPL boost: government adoption at scale (0 partners).
+124,GOV.UK Notify,https://www.notifications.service.gov.uk,53.9,47.9,6,0.92,8,19,13,2,5,18,4,V3 implementation-first. Top driver: open source/governance. M_IMPL: 1 government partner(s) boost.
+125,Campaign Tracker,https://www.campaigntracker.nl/en,53.9,47.9,6,0.92,6,24,12,2,6,15,4,V3 implementation-first. Top driver: open source/governance. M_IMPL: 2 government partner(s) boost.
+126,VFRAME,https://vframe.io,53.9,47.9,6,0.92,6,16,13,2,4,23,5,V3 implementation-first. Top driver: community tech infra. M_IMPL: 2 government partner(s) boost.
+127,Community Notes (Birdwatch) Analysis Tool,https://github.com/travisbrown/birdwatch,53.9,47.9,6,0.92,5,27,5,2,4,20,6,V3 implementation-first. Top driver: open source/governance. M_IMPL: 1 government partner(s) boost.
+128,GovTrack.us,https://www.govtrack.us,53.9,47.9,6,0.92,3,16,22,2,4,18,4,V3 implementation-first. Top driver: gov legibility. M_IMPL: 2 government partner(s) boost.
+129,Cortico,https://cortico.ai/platform,53.8,43.8,10,0.75,11,2,24,2,5,16,3,V3 implementation-first. Top driver: gov legibility. M_IMPL boost: government adoption at scale (5 partners).
+130,Activist Handbook,https://activisthandbook.org/,53.5,53.5,0,0.75,11,21,17,2,3,18,5,V3 implementation-first. Top driver: open source/governance.
+131,Channel.org,https://channel.org,53.5,53.5,0,0.67,11,20,17,2,2,20,5,V3 implementation-first. Top driver: open source/governance.
+132,whatsmeow,https://github.com/tulir/whatsmeow,53.5,53.5,0,0.67,10,25,12,2,3,20,5,V3 implementation-first. Top driver: open source/governance.
+133,Aragon,https://aragon.org,53.5,53.5,0,0.83,8,21,21,2,4,18,3,V3 implementation-first. Top driver: open source/governance.
+134,UK Policy Dojo,https://github.com/mikekelly/policy-dojo,53.5,53.5,0,0.75,5,25,20,2,3,18,4,V3 implementation-first. Top driver: open source/governance.
+135,CoTech,https://coops.tech,53.4,42.4,11,0.67,11,11,17,2,2,15,3,V3 implementation-first. Top driver: gov legibility. M_IMPL boost: government adoption at scale (0 partners).
+136,GrantNav,https://grantnav.threesixtygiving.org,53.2,47.2,6,0.92,11,16,13,2,4,18,4,V3 implementation-first. Top driver: community tech infra. M_IMPL: 2 government partner(s) boost.
+137,WriteToThem,https://www.writetothem.com,53.2,47.2,6,0.92,10,14,17,2,4,18,3,V3 implementation-first. Top driver: community tech infra. M_IMPL: 1 government partner(s) boost.
+138,ОПОРА (Opora),https://www.oporaua.org,53.2,47.2,6,0.83,10,10,21,2,4,18,3,V3 implementation-first. Top driver: gov legibility. M_IMPL: 1 government partner(s) boost.
+139,Democracy Fund Open Source,https://www.dfos.com,53.2,47.2,6,0.67,8,12,20,2,2,20,4,V3 implementation-first. Top driver: gov legibility. M_IMPL: 1 government partner(s) boost.
+140,Idealist,https://idealist.org,53.1,43.1,10,0.67,9,0,24,2,4,18,5,V3 implementation-first. Top driver: gov legibility. M_IMPL boost: government adoption at scale (0 partners).
+141,The DAO (Standard DAO Framework),https://github.com/vbuterin/dao,52.8,52.8,0,0.75,10,20,13,2,2,23,6,V3 implementation-first. Top driver: community tech infra.
+142,Bluesky Social,https://github.com/bluesky-social,52.8,52.8,0,0.83,8,27,12,2,4,17,6,V3 implementation-first. Top driver: open source/governance.
+143,Libertrium,https://liberopinion.com,52.4,42.4,10,0.67,9,0,25,2,4,18,3,V3 implementation-first. Top driver: gov legibility. M_IMPL boost: government adoption at scale (5 partners).
+144,Theft Bisect,https://onodi.co/bisect/,52.1,52.1,0,0.83,11,25,12,2,4,17,4,V3 implementation-first. Top driver: open source/governance.
+145,PlaceCal,https://github.com/geeksforsocialchange/placecal,52.1,52.1,0,0.75,10,20,16,2,3,20,4,V3 implementation-first. Top driver: open source/governance.
+146,Interoperable Deliberative Tools,https://metagov.org/projects/interop,52.1,52.1,0,0.75,8,21,22,2,3,15,4,V3 implementation-first. Top driver: gov legibility.
+147,MP Twitter Bios,https://www.mptwitterbios.co.uk,52.1,52.1,0,0.75,6,20,21,2,2,20,4,V3 implementation-first. Top driver: gov legibility.
+148,Journalist Studio,https://journaliststudio.google.com,52.1,52.1,0,0.75,6,19,13,2,3,27,5,V3 implementation-first. Top driver: community tech infra.
+149,Journal of Open Source Software,https://joss.theoj.org,52.1,52.1,0,0.83,4,27,12,2,4,20,6,V3 implementation-first. Top driver: open source/governance.
+150,GOV.UK One Login,https://www.sign-in.service.gov.uk,51.8,45.8,6,0.92,8,14,17,2,3,18,4,V3 implementation-first. Top driver: community tech infra. M_IMPL: 1 government partner(s) boost.
+151,Security First / Umbrella,https://secfirst.org,51.4,51.4,0,0.75,10,22,12,2,2,20,6,V3 implementation-first. Top driver: open source/governance.
+152,Urbit,https://urbit.org,51.4,51.4,0,0.75,9,19,13,2,3,23,5,V3 implementation-first. Top driver: community tech infra.
+153,youtube-dl,https://github.com/ytdl-org/youtube-dl,51.4,51.4,0,0.75,6,20,13,2,4,25,4,V3 implementation-first. Top driver: community tech infra.
+154,Sugartrail,https://github.com/ribenamaplesyrup/sugartrail,51.4,51.4,0,0.83,4,27,13,2,4,20,4,V3 implementation-first. Top driver: open source/governance.
+155,Esper,https://esper.com/product,51.1,45.1,6,0.67,10,0,24,2,3,23,3,V3 implementation-first. Top driver: gov legibility. M_IMPL: 1 government partner(s) boost.
+156,Harmonica,https://harmonica.chat/,51.0,41.0,10,0.67,10,0,22,2,5,15,5,V3 implementation-first. Top driver: gov legibility. M_IMPL boost: government adoption at scale (3 partners).
+157,GRIM (Global Risk Simulator),https://github.com/sentinelteam/grim,50.7,50.7,0,0.75,10,30,5,2,3,17,6,V3 implementation-first. Top driver: open source/governance.
+158,Fission Codes,https://github.com/fission-codes/fission-codes,50.7,50.7,0,0.67,10,25,12,2,3,20,1,V3 implementation-first. Top driver: open source/governance.
+159,docs.plus,https://docs.plus,50.7,50.7,0,0.67,10,20,13,2,2,20,6,V3 implementation-first. Top driver: open source/governance.
+160,CharmVerse,https://charmverse.io/,50.7,50.7,0,0.75,9,21,17,2,3,18,3,V3 implementation-first. Top driver: open source/governance.
