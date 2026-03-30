@@ -1,8 +1,8 @@
 ---
-title: "Contestable transparency — D1–D8 rubric, three jurors, auditable evidence"
+title: "Contestable transparency — Dimensional rubric, three jurors, auditable evidence"
 author: "@alecsandrac"
 date: "2026-03-28"
-pr_url: ""
+pr_url: "https://github.com/nwspk/politech-awards-2026/pull/89"
 version: v9
 pr_status: "open"
 top_project:
