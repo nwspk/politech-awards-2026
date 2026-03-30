@@ -1,93 +1,62 @@
-# Value Modifiers — v5 Agency-First
+# Evaluative Constitution — Part B: Value Modifiers
 ## Evaluator: Fatima Sarah Khalid
 ## Version: v5 | 2026-03-30
 
 ---
 
-## M_AGENCY (new in v5): Agency amplifier
-
-| Direction | Magnitude | Trigger |
-|---|---|---|
-| Boost | +12 points | Project can be meaningfully forked/adapted locally AND exposes its decision-making logic AND raises user agency over system behaviour |
-| Boost | +8 points | Project is forkable AND partially exposes logic or raises agency (but not both fully) |
-| Reduce | -10 points | Project requires institutional gatekeeping to function AND cannot be locally re-governed AND has no community governance |
-| Reduce | -8 points | Project operates primarily as a platform with vendor lock-in signals and is not open source |
-
-**Evidence required for boost:** Self-hosting documentation; forkable/open architecture; transparent methodology; evidence that communities can re-deploy without permission from the originating institution.
-
-**Evidence required for reduce:** Requires government/institutional adoption as a prerequisite; no self-hosting option; closed API or vendor-only deployment; users cannot exit without losing their data or context.
-
-**Why Fatima (v5):** "Prioritise systems that increase user agency over system behavior. Prioritise systems that can be forked, adapted, and re-governed locally. Deprioritise systems that require institutional buy-in to function. Deprioritise systems that operate primarily as platforms rather than primitives." [Direct feedback]
+### M1: Boost — community ownership or governance of the project itself
+- **Direction:** boost
+- **Magnitude:** strong (+8–14 points)
+- **Applies when:** The project is governed by the community it serves — not just open source, but actively community-governed. Evidence of governance could include: community voting on roadmap, community board membership, formally community-owned legal structure (co-op, not-for-profit with community representation), or explicitly community-run infrastructure. The community must be the *governed* community (the people the project serves), not just a developer community.
+- **Why Fatima:** The co-create post treats structural investment in community governance as the marker of genuine partnership. Her Medium bio frames open source as a commitment alongside intersectionality — she cares about who holds power in a project, not just whether the code is open. The BIFFUD collective itself is community-owned and anti-institutional. Her Drupal community DEI work is about governance of the community as much as code. [GitLab co-create post — CONFIRMED; Medium bio — CONFIRMED; BIFFUD — PROBABLE]
 
 ---
 
-## M1: Boost — community ownership or governance of the project itself
-
-| Direction | Magnitude | Trigger |
-|---|---|---|
-| Boost | +10 points | Community-owned legal structure (co-op, foundation with community board, democratic membership model); community votes on roadmap |
-| Boost | +5 points | Community governance indicators (contributor governance with community voice; community advisory board; transparent governance process) |
-
-**Why Fatima:** The co-create post treats structural investment in community governance as the marker of genuine partnership. BIFFUD is community-owned and anti-institutional. She cares about who holds power, not just whether code is open. [GitLab co-create post — CONFIRMED; Medium bio — CONFIRMED; BIFFUD — PROBABLE]
+### M2: Reduce — extractive data practices or surveillance without community consent
+- **Direction:** reduce
+- **Magnitude:** strong (−10–16 points)
+- **Applies when:** The project collects, aggregates, or sells data about citizens or community members without meaningful consent or without returning governance of that data to the people it concerns. Also applies to projects that use data or AI to increase state or institutional monitoring capacity without accountability mechanisms. Applies even if the stated purpose is beneficial.
+- **Why Fatima:** The consistent theme in her AI writing is that community expertise and human judgment must remain in the loop — AI that replaces community rather than serving it is the failure mode she names. Her BIFFUD affiliation signals anti-extractive orientation. Her DEI work in Drupal is about community power, which requires data not flowing to extractors without accountability. [GitLab ChatGPT post — CONFIRMED; BIFFUD affiliation — PROBABLE; Medium bio — CONFIRMED]
 
 ---
 
-## M2: Reduce — extractive data practices or surveillance without community consent
-
-| Direction | Magnitude | Trigger |
-|---|---|---|
-| Reduce | -14 points | Project collects, sells, or monetises citizen/community data without consent; surveillance tools; tools that increase state monitoring capacity without accountability |
-| Reduce | -10 points | AI component used for surveillance; predictive policing; law enforcement data aggregation |
-
-**Why Fatima:** Community expertise and human judgment must remain in the loop — AI that replaces community rather than serving it is the failure mode she names. BIFFUD affiliation signals anti-extractive orientation. [GitLab ChatGPT post — CONFIRMED; BIFFUD — PROBABLE]
+### M3: Boost — designed specifically for under-resourced or under-served civic contexts
+- **Direction:** boost
+- **Magnitude:** moderate (+5–9 points)
+- **Applies when:** The project was explicitly designed for communities or contexts that lack alternatives — not as a nice feature but as the primary design constraint. Evidence: project documentation naming specific underserved groups as primary users, design decisions made to accommodate low-resource contexts (offline capability, low-bandwidth, low-literacy interfaces), or deployment primarily in under-resourced settings.
+- **Why Fatima:** The drone companion app's mission — helping ordinary citizens navigate complex regulatory requirements — is exactly this: making something accessible that would otherwise require professional mediation. Sessionize bio: "simplifying technical concepts." Her framing of open source × intersectionality positions underserved communities as the reason for the work, not its beneficiaries as afterthought. [Sessionize bio — CONFIRMED; GitHub drone-companion-app — PROBABLE]
 
 ---
 
-## M3: Boost — designed specifically for under-resourced or under-served civic contexts
-
-| Direction | Magnitude | Trigger |
-|---|---|---|
-| Boost | +7 points | Project explicitly designed for underserved communities as primary design constraint; low-resource adaptations (offline, low-bandwidth, low-literacy); deployment in under-resourced settings named in documentation |
-| Boost | +4 points | Accessibility is a genuine and documented design consideration with completeness evidence |
-
-**Why Fatima:** "Open source × intersectionality" positions underserved communities as the reason for the work. Sessionize bio: "simplifying technical concepts." [Sessionize bio — CONFIRMED; GitHub drone-companion-app — PROBABLE]
+### M4: Reduce — tools that digitise existing power structures without challenging them
+- **Direction:** reduce
+- **Magnitude:** moderate (−5–8 points)
+- **Applies when:** The project adds a digital layer to an existing civic or government process but does not improve citizen access, reduce barriers, or shift any power to communities. Digital interfaces to bureaucracy that remain just as opaque, just as inaccessible, or that primarily benefit institutions rather than the people they nominally serve. Projects where "civic tech" means serving government efficiency rather than citizen empowerment.
+- **Why Fatima:** Her career path (Code for Canada, Microsoft Civic Tech) is explicitly about embedding digital professionals in government to improve services for citizens — not just to modernise government for its own sake. The distinction between government efficiency tools and citizen empowerment tools is fundamental to her lens. [Code for Canada fellowship — CONFIRMED; bio — CONFIRMED]
 
 ---
 
-## M4: Reduce — tools that digitise existing power structures without challenging them
-
-| Direction | Magnitude | Trigger |
-|---|---|---|
-| Reduce | -6 points | Project adds a digital layer to existing civic/government process without reducing complexity, improving access, or shifting power; "civic tech" means government efficiency rather than citizen empowerment; government portal/e-government framing without legibility or agency signals |
-
-**Why Fatima:** Her career is about improving services for citizens — not just modernising government for its own sake. [Code for Canada fellowship — CONFIRMED]
+### M5: Boost — inclusive developer community as a visible part of the project
+- **Direction:** boost
+- **Magnitude:** weak (+3–6 points)
+- **Applies when:** The project has documented, active investment in diversity and inclusion within its developer or contributor community — not just in its user community. Evidence: DEI statements with structural commitments (not just marketing), visible diverse leadership, active inclusion programs for contributors, DEI audits.
+- **Why Fatima:** Her @drupaldiversity work is specifically DEI within developer communities. Her WCT awards are for inclusion in technology communities. Her Sessionize bio names D&I as a specialism alongside CI/CD — she sees these as equally technical. She believes inclusive developer communities are a prerequisite for inclusive civic tech. [Sessionize bio — CONFIRMED; @drupaldiversity membership — CONFIRMED; WCT award — PROBABLE]
 
 ---
 
-## M5: Boost — inclusive developer community as a visible part of the project
-
-| Direction | Magnitude | Trigger |
-|---|---|---|
-| Boost | +4 points | Documented, active DEI investment within developer/contributor community (structural commitments, not just marketing); diverse leadership; active inclusion programmes; DEI audits — combined with open source |
-
-**Why Fatima:** @drupaldiversity work is specifically DEI within developer communities. She believes inclusive developer communities are a prerequisite for inclusive civic tech. [Sessionize bio — CONFIRMED; @drupaldiversity — CONFIRMED]
-
----
-
-## M6: Conditional — prototype protection for accessibility-first projects
-
-| Direction | Magnitude | Trigger |
-|---|---|---|
-| Boost (C5 only) | +4–8 pts on C5 | Low C5 score primarily because project addresses an access gap with no alternatives; (a) target population clearly underserved + (b) evidence of design quality/intent + (c) limited deployment explained by resource constraints, not abandonment |
-
-**Note in v5:** With C5 demoted to max 6 pts, M6 has reduced absolute impact. Still applies for qualifying prototypes. [GitHub drone-companion-app — PROBABLE; Code for Canada fellowship context — CONFIRMED]
+### M6: Conditional — prototype protection for accessibility-first projects
+- **Direction:** conditional
+- **Magnitude:** moderate (+4–8 points on implementation maturity criterion only)
+- **Applies when:** A project scores low on Criterion 5 (implementation maturity) primarily because it is addressing an access gap that has no existing alternatives — meaning the relevant maturity comparator is not "is this deployed at scale" but "is this the only tool that even attempts to solve this for this population." Applies when: (a) the target population is clearly underserved, AND (b) there is evidence of design quality and intent even without deployment evidence, AND (c) the dossier explains why deployment is limited (resource constraints, early stage) rather than because the project is abandoned.
+- **Note in v5:** With C5 demoted to max 6 pts, M6 has reduced absolute impact. Still applies for thin-dossier projects meeting all three conditions.
+- **Why Fatima:** Her Code for Canada fellowship period shows her building tools that were inherently limited by the fellowship duration (18 months) and government procurement cycles — not by lack of quality or commitment. The drone companion app is archived not because it failed but because fellowship ended. She would recognise that civic tech for under-resourced contexts is structurally harder to deploy at scale than mainstream developer tools, and should not be penalised for maturity metrics designed for better-resourced projects. [GitHub drone-companion-app — PROBABLE; Code for Canada fellowship context — CONFIRMED]
 
 ---
 
-## Modifier interaction rules
-
-1. M_AGENCY and M1 can stack (both can apply to the same project)
-2. M_AGENCY reduce and M2 can stack (a surveillance platform with institutional gatekeeping takes both penalties)
-3. M6 operates at criterion level (C5 only) — does not interact with total-score modifiers
-4. Underdog floor (25 pts minimum for low-completeness projects) applies after all modifiers
-5. Dead link cap (45 pts maximum) applies before underdog floor
+### M_AGENCY: Agency-First Modifier
+- **Direction:** conditional
+- **Boost magnitude:** +6–12 points
+- **Reduce magnitude:** −6–10 points
+- **Boost applies when:** The project can be forked/adapted/re-governed locally, exposes its decision logic, is self-hostable, uses open protocols, or explicitly reduces dependence on centralised actors. Open source is a necessary but not sufficient condition — self-hostability, federation, or local deployment capability earns the boost.
+- **Reduce applies when:** The project is platform-only (SaaS, no self-hosting option), requires institutional gatekeeping to access, is proprietary, or operates in a way that concentrates governance with a central authority. Reduces more strongly for closed-source platforms than for open-source platforms without federation.
+- **Neutral when:** The project is open source but centrally hosted with no self-hosting documentation — open but not locally re-governable.
