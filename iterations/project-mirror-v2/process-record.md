@@ -452,3 +452,26 @@ Three members iterated on their agents based on feedback review:
 - **Alexandra Ciocanel → v3** (`iterations/project-mirror-v3/alexandra-ciocanel/`) — C2 and C4 jointly elevated to 49% combined criteria weight; M7 (intra-class dynamics) added as new modifier; constitution reoriented around naming specific power asymmetries, excluded populations, and mechanisms of exclusion/redress; underdog protection formalised; popularity discount applied without automatic score reduction. Winner: Worker Info Exchange (94.7). PR: #94
 
 v10 committee aggregation recomputed using v3 rankings for these three members.
+
+---
+
+## v11 committee aggregation — 2026-03-30
+
+**v11 created as new branch `project-mirror-v2/committee-aggregation-v11` (PR #100).**
+
+v10 (PR #90, branch `project-mirror-v2/committee-aggregation`) preserved as pre-iteration baseline. v11 adds `committee-ranking-v11.csv` alongside the preserved v10 `committee-ranking.csv`.
+
+**Committee winner: LiquidFeedback (65.10, stdev 14.5, n=18). Winner unchanged from v10 (63.84).**
+
+**Top 5:**
+1. LiquidFeedback — 65.10
+2. Decidim — 61.13
+3. CONSUL Democracy — 60.93
+4. mySociety Datasets and APIs — 60.48
+5. Open Data Editor (ODE) — 60.24
+
+**Methodology:** Simple mean of 18 constitutional scores. v3 ranking tables substituted for Nicholas Botti, Huda Abdirahim, Alexandra Ciocanel. 31 URL variants in Alexandra v3's table remapped to canonical v10 URLs. AlgorithmWatch coverage drops to n=17 (Alexandra v3 did not score it). David Powell retained in this aggregate per committee-aggregation branch precedent (note: process-record consent entry 2026-03-29 records his withdrawal from aggregation — this is a known inconsistency preserved from the v10 computation).
+
+**PR #100:** `project-mirror-v2/committee-aggregation-v11` — draft, base main. v11 CSV at `iterations/project-mirror-v2/committee-aggregation/committee-ranking-v11.csv`.
+
+**PR #90 comment added** linking to v11 as the post-iteration aggregate.
