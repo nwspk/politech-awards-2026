@@ -24,30 +24,6 @@
     "assessment_synthetic": false
   },
   {
-    "url": "https://creativecommons.org",
-    "name": "Creative Commons",
-    "score": 90,
-    "summary": "CC empowers individuals and communities around the world through technical, legal, and policy solutions that enable the sharing of education, culture, and science in the public interest.",
-    "assessment": "Davit's manual evaluation: 90% overall. Strongest on track record (90%), timeliness (90%), systemic significance (90%).",
-    "assessment_synthetic": false
-  },
-  {
-    "url": "https://www.hotosm.org",
-    "name": "Humanitarian OpenStreetMap Team (HOT)",
-    "score": 90,
-    "summary": "Mapping for impact in humanitarian crises and development challenges",
-    "assessment": "Davit's manual evaluation: 90% overall. Strongest on track record (95%), integrity over hype (95%), generalizability (95%).",
-    "assessment_synthetic": false
-  },
-  {
-    "url": "https://www.globaleaks.org",
-    "name": "GlobaLeaks",
-    "score": 90,
-    "summary": "Free and open-source whistleblowing software enabling secure anonymous reporting platforms",
-    "assessment": "Davit's manual evaluation: 90% overall. Strongest on track record (90%), timeliness (90%), systemic significance (90%).",
-    "assessment_synthetic": false
-  },
-  {
     "url": "https://liquidfeedback.com",
     "name": "LiquidFeedback",
     "score": 89,
@@ -56,59 +32,11 @@
     "assessment_synthetic": false
   },
   {
-    "url": "https://www.opencrvs.org",
-    "name": "OpenCRVS",
-    "score": 89,
-    "summary": "Open source digital civil registration and vital statistics system for every person on the planet",
-    "assessment": "Davit's manual evaluation: 89% overall. Strongest on track record (95%), systemic significance (95%), timeliness (90%).",
-    "assessment_synthetic": false
-  },
-  {
-    "url": "https://fullfact.org/ai",
-    "name": "Full Fact AI",
-    "score": 87,
-    "summary": "Scalable, robust software designed for fact checkers to identify the most important bad information",
-    "assessment": "Davit's manual evaluation: 87% overall. Strongest on systemic significance (95%), timeliness (90%), real-world political relevance (90%).",
-    "assessment_synthetic": false
-  },
-  {
-    "url": "https://www.oporaua.org",
-    "name": "\u041e\u041f\u041e\u0420\u0410 (Opora)",
-    "score": 87,
-    "summary": "Ukrainian civic network for election monitoring, democratic integrity, and civic participation",
-    "assessment": "Davit's manual evaluation: 87% overall. Strongest on track record (95%), integrity over hype (95%), timeliness (90%).",
-    "assessment_synthetic": false
-  },
-  {
-    "url": "https://www.workerinfoexchange.org",
-    "name": "Worker Info Exchange",
-    "score": 87,
-    "summary": "Platform connecting workers with information about labor rights, workplace conditions, and employment resources",
-    "assessment": "Davit's manual evaluation: 87% overall. Strongest on integrity over hype (99%), systemic significance (95%), movement usefulness (90%).",
-    "assessment_synthetic": false
-  },
-  {
     "url": "https://securedrop.org",
     "name": "SecureDrop",
     "score": 86,
     "summary": "Open source whistleblower submission system for secure anonymous document sharing",
     "assessment": "Davit's manual evaluation: 86% overall. Strongest on track record (90%), systemic significance (90%), real-world political relevance (90%).",
-    "assessment_synthetic": false
-  },
-  {
-    "url": "https://openprocurement.io",
-    "name": "OpenProcurement",
-    "score": 85,
-    "summary": "Open source e-procurement toolkit powering transparent public procurement systems.",
-    "assessment": "Davit's manual evaluation: 85% overall. Strongest on track record (89%), real-world political relevance (89%), integrity over hype (89%).",
-    "assessment_synthetic": false
-  },
-  {
-    "url": "https://privacybadger.org",
-    "name": "Privacy Badger",
-    "score": 84,
-    "summary": "A free browser extension made by EFF to stop companies from spying on you online.",
-    "assessment": "Davit's manual evaluation: 84% overall. Strongest on real-world political relevance (90%), track record (85%), timeliness (85%).",
     "assessment_synthetic": false
   },
   {
@@ -128,14 +56,6 @@
     "assessment_synthetic": false
   },
   {
-    "url": "https://alaveteli.org",
-    "name": "Alaveteli",
-    "score": 82,
-    "summary": "Run your own Freedom of Information website - An open-source platform for making public freedom of information requests to public bodies",
-    "assessment": "Davit's manual evaluation: 82% overall. Strongest on systemic significance (90%), integrity over hype (90%), track record (85%).",
-    "assessment_synthetic": false
-  },
-  {
     "url": "https://www.torproject.org",
     "name": "Tor Project",
     "score": 82,
@@ -144,11 +64,11 @@
     "assessment_synthetic": false
   },
   {
-    "url": "https://github.com/huridocs",
-    "name": "HURIDOCS",
+    "url": "https://alaveteli.org",
+    "name": "Alaveteli",
     "score": 82,
-    "summary": "HURIDOCS equips human rights defenders with tools to mobilise information for justice and accountability",
-    "assessment": "Davit's manual evaluation: 82% overall. Strongest on timeliness (85%), integrity over hype (85%), generalizability (85%).",
+    "summary": "Run your own Freedom of Information website - An open-source platform for making public freedom of information requests to public bodies",
+    "assessment": "Davit's manual evaluation: 82% overall. Strongest on systemic significance (90%), integrity over hype (90%), track record (85%).",
     "assessment_synthetic": false
   },
   {
@@ -176,6 +96,70 @@
     "assessment_synthetic": false
   },
   {
+    "url": "https://github.com/compdemocracy/polis",
+    "name": "Polis",
+    "score": 78,
+    "summary": "Open-source AI-powered platform for large-scale open-ended public feedback and deliberation",
+    "assessment": "Davit's manual evaluation: 78% overall. Strongest on track record (89%), systemic significance (80%), movement usefulness (80%). Previous knowledge of this one.",
+    "assessment_synthetic": false
+  },
+  {
+    "url": "https://getodk.org",
+    "name": "ODK (Open Data Kit)",
+    "score": 78,
+    "summary": "Open-source tools for collecting, managing, and using data in resource-constrained environments",
+    "assessment": "Davit's manual evaluation: 78% overall. Strongest on generalizability (95%), track record (90%), systemic significance (80%).",
+    "assessment_synthetic": false
+  },
+  {
+    "url": "https://consulproject.org",
+    "name": "CONSUL Democracy",
+    "score": 77,
+    "summary": "The most complete citizen participation tool for an open, transparent and democratic government.",
+    "assessment": "Davit's manual evaluation: 77% overall. Strongest on movement usefulness (90%), generalizability (85%), real-world political relevance (82%).",
+    "assessment_synthetic": false
+  },
+  {
+    "url": "https://cobudget.com",
+    "name": "Cobudget",
+    "score": 76,
+    "summary": "Bring people, ideas and money together, encouraging participation at every stage",
+    "assessment": "Davit's manual evaluation: 76% overall. Strongest on integrity over hype (90%), movement usefulness (85%), track record (80%).",
+    "assessment_synthetic": false
+  },
+  {
+    "url": "https://algorithmwatch.org",
+    "name": "AlgorithmWatch",
+    "score": 75,
+    "summary": "A non-governmental, non-profit organization based in Berlin and Zurich that fights for a world where algorithms and Artificial Intelligence (AI) do not weaken justice, human rights, democracy, and sustainability but strengthen them.",
+    "assessment": "Davit's manual evaluation: 75% overall. Strongest on real-world political relevance (89%), systemic significance (80%), movement usefulness (80%).",
+    "assessment_synthetic": false
+  },
+  {
+    "url": "https://ckan.org",
+    "name": "CKAN",
+    "score": 73,
+    "summary": "The world's leading open source data management system for powering data hubs and data portals",
+    "assessment": "Davit's manual evaluation: 73% overall. Strongest on track record (85%), systemic significance (80%), real-world political relevance (80%).",
+    "assessment_synthetic": false
+  },
+  {
+    "url": "https://github.com/mastodon/mastodon",
+    "name": "Mastodon",
+    "score": 67,
+    "summary": "Your self-hosted, globally interconnected microblogging community",
+    "assessment": "Davit's manual evaluation: 67% overall. Strongest on track record (75%), timeliness (75%), systemic significance (75%).",
+    "assessment_synthetic": false
+  },
+  {
+    "url": "https://creativecommons.org",
+    "name": "Creative Commons",
+    "score": 90,
+    "summary": "CC empowers individuals and communities around the world through technical, legal, and policy solutions that enable the sharing of education, culture, and science in the public interest.",
+    "assessment": "Davit's manual evaluation: 90% overall. Strongest on track record (90%), timeliness (90%), systemic significance (90%).",
+    "assessment_synthetic": false
+  },
+  {
     "url": "https://www.notifications.service.gov.uk",
     "name": "GOV.UK Notify",
     "score": 81,
@@ -184,11 +168,35 @@
     "assessment_synthetic": false
   },
   {
-    "url": "https://yourtracka.org",
-    "name": "Tracka",
-    "score": 81,
-    "summary": "Monitor the status of federal and state projects in your community and take action on implementation gaps",
-    "assessment": "Davit's manual evaluation: 81% overall. Strongest on integrity over hype (90%), timeliness (85%), track record (80%).",
+    "url": "https://www.hotosm.org",
+    "name": "Humanitarian OpenStreetMap Team (HOT)",
+    "score": 90,
+    "summary": "Mapping for impact in humanitarian crises and development challenges",
+    "assessment": "Davit's manual evaluation: 90% overall. Strongest on track record (95%), integrity over hype (95%), generalizability (95%).",
+    "assessment_synthetic": false
+  },
+  {
+    "url": "https://www.opencrvs.org",
+    "name": "OpenCRVS",
+    "score": 89,
+    "summary": "Open source digital civil registration and vital statistics system for every person on the planet",
+    "assessment": "Davit's manual evaluation: 89% overall. Strongest on track record (95%), systemic significance (95%), timeliness (90%).",
+    "assessment_synthetic": false
+  },
+  {
+    "url": "https://policyengine.org/uk",
+    "name": "PolicyEngine",
+    "score": 71,
+    "summary": "Open-source policy analysis and simulation platform for tax and benefit systems",
+    "assessment": "Davit's manual evaluation: 71% overall. Strongest on systemic significance (80%), evidence quality (80%), track record (70%).",
+    "assessment_synthetic": false
+  },
+  {
+    "url": "https://privacybadger.org",
+    "name": "Privacy Badger",
+    "score": 84,
+    "summary": "A free browser extension made by EFF to stop companies from spying on you online.",
+    "assessment": "Davit's manual evaluation: 84% overall. Strongest on real-world political relevance (90%), track record (85%), timeliness (85%).",
     "assessment_synthetic": false
   },
   {
@@ -197,6 +205,22 @@
     "score": 80,
     "summary": "Crowdsourcing Solutions to Empower Communities",
     "assessment": "Davit's manual evaluation: 80% overall. Strongest on track record (80%), timeliness (80%), systemic significance (80%).",
+    "assessment_synthetic": false
+  },
+  {
+    "url": "https://www.globaleaks.org",
+    "name": "GlobaLeaks",
+    "score": 90,
+    "summary": "Free and open-source whistleblowing software enabling secure anonymous reporting platforms",
+    "assessment": "Davit's manual evaluation: 90% overall. Strongest on track record (90%), timeliness (90%), systemic significance (90%).",
+    "assessment_synthetic": false
+  },
+  {
+    "url": "https://github.com/huridocs",
+    "name": "HURIDOCS",
+    "score": 82,
+    "summary": "HURIDOCS equips human rights defenders with tools to mobilise information for justice and accountability",
+    "assessment": "Davit's manual evaluation: 82% overall. Strongest on timeliness (85%), integrity over hype (85%), generalizability (85%).",
     "assessment_synthetic": false
   },
   {
@@ -232,59 +256,11 @@
     "assessment_synthetic": false
   },
   {
-    "url": "https://getodk.org",
-    "name": "ODK (Open Data Kit)",
-    "score": 78,
-    "summary": "Open-source tools for collecting, managing, and using data in resource-constrained environments",
-    "assessment": "Davit's manual evaluation: 78% overall. Strongest on generalizability (95%), track record (90%), systemic significance (80%).",
-    "assessment_synthetic": false
-  },
-  {
-    "url": "https://github.com/compdemocracy/polis",
-    "name": "Polis",
-    "score": 78,
-    "summary": "Open-source AI-powered platform for large-scale open-ended public feedback and deliberation",
-    "assessment": "Davit's manual evaluation: 78% overall. Strongest on track record (89%), systemic significance (80%), movement usefulness (80%). Previous knowledge of this one.",
-    "assessment_synthetic": false
-  },
-  {
-    "url": "https://participedia.net",
-    "name": "Participedia",
-    "score": 78,
-    "summary": "A global crowdsourcing platform for researchers, activists, practitioners, and anyone interested in public participation and democratic innovations.",
-    "assessment": "Davit's manual evaluation: 78% overall. Strongest on generalizability (95%), track record (90%), systemic significance (80%).",
-    "assessment_synthetic": false
-  },
-  {
-    "url": "https://consulproject.org",
-    "name": "CONSUL Democracy",
-    "score": 77,
-    "summary": "The most complete citizen participation tool for an open, transparent and democratic government.",
-    "assessment": "Davit's manual evaluation: 77% overall. Strongest on movement usefulness (90%), generalizability (85%), real-world political relevance (82%).",
-    "assessment_synthetic": false
-  },
-  {
-    "url": "https://cobudget.com",
-    "name": "Cobudget",
-    "score": 76,
-    "summary": "Bring people, ideas and money together, encouraging participation at every stage",
-    "assessment": "Davit's manual evaluation: 76% overall. Strongest on integrity over hype (90%), movement usefulness (85%), track record (80%).",
-    "assessment_synthetic": false
-  },
-  {
-    "url": "https://www.opensanctions.org",
-    "name": "OpenSanctions",
-    "score": 76,
-    "summary": "Supreme Data on Supreme Leaders - open source sanctions and politically exposed persons data platform",
-    "assessment": "Davit's manual evaluation: 76% overall. Strongest on integrity over hype (90%), movement usefulness (85%), track record (80%).",
-    "assessment_synthetic": false
-  },
-  {
-    "url": "https://algorithmwatch.org",
-    "name": "AlgorithmWatch",
-    "score": 75,
-    "summary": "A non-governmental, non-profit organization based in Berlin and Zurich that fights for a world where algorithms and Artificial Intelligence (AI) do not weaken justice, human rights, democracy, and sustainability but strengthen them.",
-    "assessment": "Davit's manual evaluation: 75% overall. Strongest on real-world political relevance (89%), systemic significance (80%), movement usefulness (80%).",
+    "url": "https://fullfact.org/ai",
+    "name": "Full Fact AI",
+    "score": 87,
+    "summary": "Scalable, robust software designed for fact checkers to identify the most important bad information",
+    "assessment": "Davit's manual evaluation: 87% overall. Strongest on systemic significance (95%), timeliness (90%), real-world political relevance (90%).",
     "assessment_synthetic": false
   },
   {
@@ -296,27 +272,51 @@
     "assessment_synthetic": false
   },
   {
-    "url": "https://ckan.org",
-    "name": "CKAN",
-    "score": 73,
-    "summary": "The world's leading open source data management system for powering data hubs and data portals",
-    "assessment": "Davit's manual evaluation: 73% overall. Strongest on track record (85%), systemic significance (80%), real-world political relevance (80%).",
+    "url": "https://participedia.net",
+    "name": "Participedia",
+    "score": 78,
+    "summary": "A global crowdsourcing platform for researchers, activists, practitioners, and anyone interested in public participation and democratic innovations.",
+    "assessment": "Davit's manual evaluation: 78% overall. Strongest on generalizability (95%), track record (90%), systemic significance (80%).",
     "assessment_synthetic": false
   },
   {
-    "url": "https://policyengine.org/uk",
-    "name": "PolicyEngine",
-    "score": 71,
-    "summary": "Open-source policy analysis and simulation platform for tax and benefit systems",
-    "assessment": "Davit's manual evaluation: 71% overall. Strongest on systemic significance (80%), evidence quality (80%), track record (70%).",
+    "url": "https://www.opensanctions.org",
+    "name": "OpenSanctions",
+    "score": 76,
+    "summary": "Supreme Data on Supreme Leaders - open source sanctions and politically exposed persons data platform",
+    "assessment": "Davit's manual evaluation: 76% overall. Strongest on integrity over hype (90%), movement usefulness (85%), track record (80%).",
     "assessment_synthetic": false
   },
   {
-    "url": "https://github.com/mastodon/mastodon",
-    "name": "Mastodon",
-    "score": 67,
-    "summary": "Your self-hosted, globally interconnected microblogging community",
-    "assessment": "Davit's manual evaluation: 67% overall. Strongest on track record (75%), timeliness (75%), systemic significance (75%).",
+    "url": "https://openprocurement.io",
+    "name": "OpenProcurement",
+    "score": 85,
+    "summary": "Open source e-procurement toolkit powering transparent public procurement systems.",
+    "assessment": "Davit's manual evaluation: 85% overall. Strongest on track record (89%), real-world political relevance (89%), integrity over hype (89%).",
+    "assessment_synthetic": false
+  },
+  {
+    "url": "https://yourtracka.org",
+    "name": "Tracka",
+    "score": 81,
+    "summary": "Monitor the status of federal and state projects in your community and take action on implementation gaps",
+    "assessment": "Davit's manual evaluation: 81% overall. Strongest on integrity over hype (90%), timeliness (85%), track record (80%).",
+    "assessment_synthetic": false
+  },
+  {
+    "url": "https://www.oporaua.org",
+    "name": "\u041e\u041f\u041e\u0420\u0410 (Opora)",
+    "score": 87,
+    "summary": "Ukrainian civic network for election monitoring, democratic integrity, and civic participation",
+    "assessment": "Davit's manual evaluation: 87% overall. Strongest on track record (95%), integrity over hype (95%), timeliness (90%).",
+    "assessment_synthetic": false
+  },
+  {
+    "url": "https://www.workerinfoexchange.org",
+    "name": "Worker Info Exchange",
+    "score": 87,
+    "summary": "Platform connecting workers with information about labor rights, workplace conditions, and employment resources",
+    "assessment": "Davit's manual evaluation: 87% overall. Strongest on integrity over hype (99%), systemic significance (95%), movement usefulness (90%).",
     "assessment_synthetic": false
   }
 ]
