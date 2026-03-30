@@ -1,0 +1,52 @@
+[
+  {
+    "url": "https://liquidfeedback.com",
+    "name": "LiquidFeedback",
+    "score": 65.08
+  },
+  {
+    "url": "https://decidim.org",
+    "name": "Decidim",
+    "score": 62.05
+  },
+  {
+    "url": "https://okfn.org/en/projects/open-data-editor",
+    "name": "Open Data Editor (ODE)",
+    "score": 61.96
+  },
+  {
+    "url": "https://consulproject.org",
+    "name": "CONSUL Democracy",
+    "score": 61.77
+  },
+  {
+    "url": "https://data.mysociety.org",
+    "name": "mySociety Datasets and APIs",
+    "score": 61.11
+  },
+  {
+    "url": "https://alaveteli.org",
+    "name": "Alaveteli",
+    "score": 60.89
+  },
+  {
+    "url": "https://bonfirenetworks.org",
+    "name": "Bonfire",
+    "score": 59.44
+  },
+  {
+    "url": "https://github.com/huridocs",
+    "name": "HURIDOCS",
+    "score": 59.19
+  },
+  {
+    "url": "https://opensupplyhub.org",
+    "name": "Open Supply Hub",
+    "score": 58.68
+  },
+  {
+    "url": "https://github.com/compdemocracy/polis",
+    "name": "Polis",
+    "score": 58.31
+  }
+]
