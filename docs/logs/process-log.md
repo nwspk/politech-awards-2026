@@ -17,7 +17,7 @@ For contribution workflow, see [CONTRIBUTING.md](https://github.com/nwspk/polite
 | Area | Current state | Where to read details |
 |---|---|---|
 | Open tradeoffs | Active unresolved questions across iterations, data quality, framework, and event UX | [Open questions table](https://github.com/nwspk/politech-awards-2026/blob/main/docs/logs/process-log.md#open-questions-and-unresolved-tradeoffs) |
-| Meeting record | Canonical notes captured for Feb 4, Feb 23, Mar 4, Mar 9, Mar 13, Mar 15, Mar 17, Mar 22, and Mar 30 synthesis | [Meeting notes section](https://github.com/nwspk/politech-awards-2026/blob/main/docs/logs/process-log.md#meeting-notes-full-canonical-record) |
+| Meeting record | Canonical notes captured for Feb 4, Feb 23, Mar 4, Mar 9, Mar 13, Mar 15, Mar 17, Mar 22, Mar 29, and Mar 30 synthesis | [Meeting notes section](https://github.com/nwspk/politech-awards-2026/blob/main/docs/logs/process-log.md#meeting-notes-full-canonical-record) |
 | Current emphasis | Model confidence/variance checks, human intervention design, values/lens framing, and attendee ranking UX | [Latest consultation notes](https://github.com/nwspk/politech-awards-2026/blob/main/docs/logs/process-log.md#2026-03-17-1600-consultation-with-sarah) |
 | Governance baseline | CODEOWNERS voting model and iterative PR process | [2026-02-04 notes](https://github.com/nwspk/politech-awards-2026/blob/main/docs/logs/process-log.md#2026-02-04-1800) |
 | Canonical source | This file (canonical) | This file |
@@ -28,28 +28,14 @@ Consolidated from process notes plus current iteration/data logs.
 
 | Status | Area | Question | Why unresolved | Next action |
 |---|---|---|---|---|
-| Open | Iterations | Should confidence-ranked jury promotion remain the final selector? | Confidence is self-reported and may reward model style over reasoning quality | Compare alternative promotion rules using current six-jury outputs |
-| Open | Iterations | How should model calibration asymmetry (especially Claude) be normalized? | Current shortlist behavior may structurally underrepresent some model judgments | Test calibration-aware shortlist thresholds |
-| Open | Iterations | Should mixed-jury optimistic merging be retained? | It may bias toward charitable interpretations | Run merged-most-optimistic vs merged-median comparison |
-| Open | Data | How much human review is required before final publication? | High-value evidence fields remain sparse for some projects | Add manual spot-check policy for high-risk dossiers |
-| Open | Data | How should weak evidence fields (`policy_outcomes`, `causation_strength`) be handled in scoring? | Fields are partially filled but often hard to verify from public web traces | Gate scoring bonuses on link-backed evidence |
-| Open | Data quality | How should citation quality be enforced in enrichment outputs? | Current citations may include keyword-match artifacts rather than verified references | Add citation validation + manual review criteria before promotion to canonical data |
-| Open | Data | Should non-project or low-quality candidate URLs be filtered earlier? | Nomination quality still affects enrichment reliability | Add intake validation rules before enrichment runs |
-| Open | Framework | Should the committee adopt a political typology for classifying projects? | Current comparisons mix different project types and intents | Propose and test a minimal typology (e.g. data extraction, workflow efficiency, organizing/coordination) |
-| Open | Framework | How should each project's theory of change be captured and scored? | Current fields emphasize outputs/evidence but less explicit causal pathway framing | Add theory-of-change field and test weighting in one branch |
-| Open | Framework | Where should human intervention sit in deliberation? | Committee interest in adding human checkpoints without losing inspectability | Prototype one human-in-the-loop branch and compare outcomes |
-| Open | Framework | Should the committee branch into a model-evaluation framing in parallel to project ranking? | Team interest in comparing model political priors/training effects | Run a parallel branch and publish comparative findings |
-| Open | Model behavior | How stable are model outputs run-to-run for the same setup? | Winner sensitivity across models may be compounded by within-model variance/noise | Run repeatability tests (e.g. Grok x10) and publish variance stats |
-| Open | Explanations | What level of score explanation should be published per project? | Current ranking UI can surface outcomes without enough interpretability context | Add per-project explanation blocks tied to score components |
-| Open | Data quality | Is scraped content sufficiently representative of each project? | Weak/partial page captures can distort both eval and deliberation quality | Add scrape-quality diagnostics and fallback source strategy |
-| Open | Pipeline design | Should shortlist gating be removed or loosened when cost allows? | Shortlist may hide signal and lock in early-pass errors; full-run cost may be acceptable | Benchmark cost/quality tradeoff with and without shortlist |
-| Open | Values design | Should committee values be explicitly reflected and aggregated in the scoring process? | Current framework may overweight one value schema vs committee plural values | Prototype value elicitation + aggregation pathway and compare rankings |
-| Open | Human review | How should stated familiarity bias be handled in manual ranking? | Davit explicitly noted uneven familiarity with projects while manually reviewing | Decide whether to add a second-pass normalization/review rule for manual scores |
-| Open | Evaluation | How should Alexandra D1–D8 jury outputs feed awards (shortlist only vs `SCORING_MODE=v9` ranking)? | v9 adds numeric transparency; weights and category corrections still optional | Run pilot `npm run alexandra-eval -- --limit N`; compare spread to ITN/A; decide publication policy |
-| Open | Methodology | What intermediate outputs should be treated as first-class process artifacts? | Useful artifacts exist (cache, assessments, deliberations) but taxonomy is unclear | Define artifact classes and publication policy in logs/docs |
-| Open | Analysis | Can we model the ranking space to identify principal value axes? | Value structure is implicit and hard to reason about directly | Explore dimensionality-reduction analysis on project-score vectors |
-| Open | Analysis | Can uncertainty-aware member estimators improve fairness and interpretability? | Current process lacks explicit uncertainty modeling and representation metrics | Prototype estimator + uncertainty outputs (e.g. controversy/uncertainty indicators) |
-| Open | Event UX | Should attendees rank projects live (pairwise or values-driven ranking UI)? | Valuable for transparency, but interaction model is undecided | Prototype ranking UI ahead of showcase and test facilitation format |
+| Open | Data | What minimum evidence quality is required before a project can be scored with confidence? | Coverage and citation reliability remain uneven across projects | Define publication thresholds (coverage, citation quality, manual spot-check criteria) and enforce them before final scoring |
+| Open | Values | Which committee values should be explicit in the framework, and how should tradeoffs between values be handled? | Different iterations encode values differently and can lead to different winners | Publish a concise values schema and map each scoring lens to it |
+| Open | Facilitation | Where should human judgment sit in the decision process versus automated scoring? | Full automation improves scale but may weaken legitimacy and deliberative quality | Test and document one explicit human-in-the-loop decision checkpoint |
+| Open | Method | What does a "good" evaluation design look like for this context: ranking, deliberation, aggregation, or a hybrid? | Different methods optimize different goals (consistency, interpretability, participation) | Compare a small set of methods on the same shortlist and document tradeoffs |
+| Open | Model behavior | How stable are outcomes across reruns, models, and aggregation rules? | Winner sensitivity may reflect model variance as much as project differences | Run repeatability and cross-model variance checks and publish uncertainty notes with results |
+| Open | Interpretation | What should rankings be interpreted as: objective winners, value-expressions, or decision aids? | Public meaning is still ambiguous and risks overclaiming | Add explicit interpretation guidance to awards communications and logs |
+| Open | Transparency | What level of explanation should accompany each score or ranking decision? | Numbers without rationale reduce contestability and trust | Publish concise per-project explanation blocks tied to evidence, values, and method |
+| Open | Participation | How should attendee/cohort participation (for example pairwise or criteria input) inform final outcomes? | Participation can improve legitimacy but may conflict with methodological consistency | Prototype one participation pathway and define how it affects final decisions |
 
 ## Meeting notes (full canonical record)
 
@@ -317,6 +303,35 @@ Consolidated from process notes plus current iteration/data logs.
 
 - Update v7 iteration docs with Davit's written rationale and ranking-sheet context without adding new inferred claims.
 - Confirm committee handling for manual-review familiarity bias (normalization or explicit caveat).
+
+---
+
+### 2026-03-29 11:00-18:00 (showcase planning hackathon)
+
+- **Type**: Planning hackathon
+- **Participants**: cohort contributors (multi-workstream session)
+- **Related context**: showcase preparation, final iteration readiness, and event operations
+- **Source**: Political Technology Awards planning doc (hackathon notes + todos)
+
+#### Notes captured (high-level)
+
+- The session consolidated planning for narrative flow, delivery sequencing, and event facilitation mechanics.
+- Workstreams ran in parallel across:
+  - iteration readiness and final merge hygiene for latest branches,
+  - agent/deliberation follow-up (including aggregation-method comparisons),
+  - audience interaction tooling and supporting materials,
+  - logistics and operations for event delivery.
+- The team aligned on a single planning document as the working source of truth for assignments and dependencies.
+- Multiple presentation and coordination assets were completed, while final pre-event tasks were explicitly assigned for the next 24-48 hours.
+- Consensus direction: keep methodology legible, emphasize process transparency, and avoid over-claiming finality in outputs.
+
+#### Action items captured
+
+- Finalize pending iteration merges and verify `/awards` reflects latest versions.
+- Run one additional aggregation pass for mirror-related outputs and compare methods at a high level.
+- Finalize audience-facing interaction materials and deployment checks.
+- Prepare shortlist artifacts and print-ready materials for facilitation.
+- Complete remaining event operations tasks (materials, food/logistics, and event copy updates).
 
 ---
 
