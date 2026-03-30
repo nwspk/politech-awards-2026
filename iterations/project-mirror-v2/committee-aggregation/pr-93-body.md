@@ -54,7 +54,7 @@ _Overlap scores use **Jaccard similarity** on word tokens (length ≥ 4) from Pa
 | Jamie Coombes | 7 | 6 | 9 | split A/B/C files |
 | Signal | 6 | 6 | 0 | split A/B/C files |
 | Nicholas Botti | 7 | 6 | 6 | split A/B/C files |
-| Tuna Acisu | 8 | 7 | 8 | split A/B/C files |
+| Prism | 8 | 7 | 8 | split A/B/C files |
 
 ### Modifier directions (Part B)
 
@@ -77,7 +77,7 @@ _Overlap scores use **Jaccard similarity** on word tokens (length ≥ 4) from Pa
 | Jamie Coombes | 3 | 2 | 1 | 0 |
 | Signal | 5 | 1 | 0 | 0 |
 | Nicholas Botti | 3 | 2 | 1 | 0 |
-| Tuna Acisu | 4 | 2 | 1 | 0 |
+| Prism | 4 | 2 | 1 | 0 |
 
 ### Theme signals in titles (Part A + B)
 
@@ -91,15 +91,15 @@ How many fellows have **each theme substring** anywhere in criterion or modifier
 | participation | 6 | Alessandro, Chris, Francesca, Beacon, Gamithra, Hannah |
 | equity | 2 | Asil, Francesca |
 | access | 12 | Aadi, Asil, Chris, David, Davit, Fatima, Francesca, Beacon +4 |
-| transparency | 7 | David, Francesca, Beacon, Gamithra, Hannah, Huda, Tuna |
+| transparency | 7 | David, Francesca, Beacon, Gamithra, Hannah, Huda, Prism |
 | privacy | 3 | Alessandro, Gamithra, Signal |
 | government | 4 | Aadi, David, Fatima, Gamithra |
 | institution | 6 | Asil, Safeguard, Davit, Beacon, Hannah, Nicholas |
 | deliberative | 1 | Safeguard |
 | inclusion | 0 | — |
-| deployment | 8 | Chris, Safeguard, Davit, Fatima, Hannah, Huda, Jamie, Tuna |
+| deployment | 8 | Chris, Safeguard, Davit, Fatima, Hannah, Huda, Jamie, Prism |
 | open source | 3 | David, Fatima, Signal |
-| accountability | 8 | Aadi, Alexandra, Asil, Francesca, Hannah, Huda, Nicholas, Tuna |
+| accountability | 8 | Aadi, Alexandra, Asil, Francesca, Hannah, Huda, Nicholas, Prism |
 | surveillance | 9 | Alexandra, Asil, Davit, Fatima, Beacon, Gamithra, Huda, Jamie +1 |
 | enforcement | 1 | Safeguard |
 | verification | 1 | Safeguard |
@@ -110,10 +110,10 @@ How many fellows have **each theme substring** anywhere in criterion or modifier
 | --- | --- | --- |
 | Fatima Sarah Khalid | Huda Abdirahim | 0.247 |
 | Aadi Kulkarni | Fatima Sarah Khalid | 0.214 |
-| Aadi Kulkarni | Tuna Acisu | 0.209 |
+| Aadi Kulkarni | Prism | 0.209 |
 | Fatima Sarah Khalid | Nicholas Botti | 0.209 |
-| Fatima Sarah Khalid | Tuna Acisu | 0.2 |
-| Nicholas Botti | Tuna Acisu | 0.195 |
+| Fatima Sarah Khalid | Prism | 0.2 |
+| Nicholas Botti | Prism | 0.195 |
 | Beacon | Huda Abdirahim | 0.184 |
 | Fatima Sarah Khalid | Beacon | 0.179 |
 | Fatima Sarah Khalid | Hannah O'Rourke | 0.178 |
@@ -130,7 +130,7 @@ How many fellows have **each theme substring** anywhere in criterion or modifier
 | Alessandro Pedori | David Powell | 0.037 |
 | Alessandro Pedori | Signal | 0.038 |
 | Alessandro Pedori | Safeguard | 0.042 |
-| Alessandro Pedori | Tuna Acisu | 0.046 |
+| Alessandro Pedori | Prism | 0.046 |
 
 ---
 
@@ -255,14 +255,14 @@ How many fellows have **each theme substring** anywhere in criterion or modifier
 | Nicholas Botti | 5 | Protection of attention, autonomy, and community | MEDIUM (max 12 pts) |
 | Nicholas Botti | 6 | Implementation maturity and evidence of real-world institutional use | MEDIUM (max 12 pts) |
 | Nicholas Botti | 7 | Cross-jurisdictional applicability and global accessibility | LOW (max 6 pts) |
-| Tuna Acisu | 1 | Evidence legibility for public decision-making | HIGH |
-| Tuna Acisu | 2 | Methodological transparency and reproducibility | HIGH |
-| Tuna Acisu | 3 | Open data and open-source infrastructure commitment | MEDIUM |
-| Tuna Acisu | 4 | Data visualisation quality and design integrity | MEDIUM |
-| Tuna Acisu | 5 | Contribution to counter-narratives grounded in evidence | MEDIUM |
-| Tuna Acisu | 6 | Implementation maturity and real-world deployment | LOW |
-| Tuna Acisu | 7 | Global development relevance and cross-jurisdictional scope | LOW |
-| Tuna Acisu | 8 | Participatory accountability and governance transparency | LOW |
+| Prism | 1 | Evidence legibility for public decision-making | HIGH |
+| Prism | 2 | Methodological transparency and reproducibility | HIGH |
+| Prism | 3 | Open data and open-source infrastructure commitment | MEDIUM |
+| Prism | 4 | Data visualisation quality and design integrity | MEDIUM |
+| Prism | 5 | Contribution to counter-narratives grounded in evidence | MEDIUM |
+| Prism | 6 | Implementation maturity and real-world deployment | LOW |
+| Prism | 7 | Global development relevance and cross-jurisdictional scope | LOW |
+| Prism | 8 | Participatory accountability and governance transparency | LOW |
 
 </details>
 
@@ -374,13 +374,13 @@ How many fellows have **each theme substring** anywhere in criterion or modifier
 | Nicholas Botti | 4 | Reduce — Naive optimisation without system-level consideration | reduce | weak to moderate (−4–8 points) |
 | Nicholas Botti | 5 | Boost — Economic simulation, policymaker advisory tools, or decision-support infrastructure | boost | moderate (+5–8 points) |
 | Nicholas Botti | 6 | Conditional — Boosts open-source civic infrastructure; no boost for proprietary tools serving similar purposes | conditional (boost if open; no boost if proprietary) | weak (+3–5 points) if open |
-| Tuna Acisu | 1 | Boosts projects with strong data visualisation that reveals hidden patterns | boost | strong (+10–15 pts) |
-| Tuna Acisu | 2 | Reduces projects that operate as black boxes — opaque methodology or hidden data | reduce | strong (-10–15 pts) |
-| Tuna Acisu | 3 | Boosts projects that address perception gaps between data and public belief | boost | moderate (+5–10 pts) |
-| Tuna Acisu | 4 | Reduces projects that merely digitise existing power structures without adding transparency | reduce | moderate (-5–10 pts) |
-| Tuna Acisu | 5 | Boosts projects serving populations whose data is underrepresented in global datasets | boost | moderate (+5–10 pts) |
-| Tuna Acisu | 6 | Conditional — boosts open-source projects with active community governance; reduces "open-washing" | conditional | moderate (+5–8 pts boost if genuinely open; -5–8 pts reduce if open-washing) |
-| Tuna Acisu | 7 | Boosts projects that bridge academic research and public understanding | boost | weak (+2–5 pts) |
+| Prism | 1 | Boosts projects with strong data visualisation that reveals hidden patterns | boost | strong (+10–15 pts) |
+| Prism | 2 | Reduces projects that operate as black boxes — opaque methodology or hidden data | reduce | strong (-10–15 pts) |
+| Prism | 3 | Boosts projects that address perception gaps between data and public belief | boost | moderate (+5–10 pts) |
+| Prism | 4 | Reduces projects that merely digitise existing power structures without adding transparency | reduce | moderate (-5–10 pts) |
+| Prism | 5 | Boosts projects serving populations whose data is underrepresented in global datasets | boost | moderate (+5–10 pts) |
+| Prism | 6 | Conditional — boosts open-source projects with active community governance; reduces "open-washing" | conditional | moderate (+5–8 pts boost if genuinely open; -5–8 pts reduce if open-washing) |
+| Prism | 7 | Boosts projects that bridge academic research and public understanding | boost | weak (+2–5 pts) |
 
 </details>
 
@@ -444,14 +444,14 @@ How many fellows have **each theme substring** anywhere in criterion or modifier
 | Nicholas Botti | 4 | Popularity discount | Well-documented popularity is NOT treated as a quality signal. A project with a polished website, many media mentions, and extensive doss… |
 | Nicholas Botti | 5 | Tie-breaking | When two projects score identically after all criteria and modifiers, the tie-breaker sequence is: |
 | Nicholas Botti | 6 | Uncertainty handling | When dossier evidence is thin but not absent, uncertainty LOWERS the score on the affected criterion rather than triggering abstention or… |
-| Tuna Acisu | 1 | Abstention threshold | A project receives N/A (abstention) only when: (a) the dossier provides insufficient evidence to assess against either of the two HIGH-we… |
-| Tuna Acisu | 2 | Prototype handling | Prototypes are given fair treatment but not full marks on implementation maturity (Criterion 6). If a prototype addresses evidence legibi… |
-| Tuna Acisu | 3 | Popularity discount | Tuna does not treat popularity as a quality signal. His professional formation is in data science — he is trained to ask what the evidenc… |
-| Tuna Acisu | 4 | Tie-breaking | When two projects score equally after all criteria and modifiers: first tie-breaker is evidence legibility quality (which project makes i… |
-| Tuna Acisu | 5 | Uncertainty handling | Uncertainty is handled conservatively but without punitive reduction. When evidence is thin but positive in direction — a project appears… |
-| Tuna Acisu | 6 | Novelty vs implementation | A novel approach to evidence communication, data visualisation, or methodological transparency can substantially compensate for limited d… |
-| Tuna Acisu | 7 | Movement infrastructure vs direct service | Tuna does not systematically prefer either. OWID itself is a kind of movement infrastructure — it provides the evidence base that journal… |
-| Tuna Acisu | 8 | Scope of concern | Geographic scope does not determine base score. A project addressing UK parliamentary transparency can score as highly as a global data p… |
+| Prism | 1 | Abstention threshold | A project receives N/A (abstention) only when: (a) the dossier provides insufficient evidence to assess against either of the two HIGH-we… |
+| Prism | 2 | Prototype handling | Prototypes are given fair treatment but not full marks on implementation maturity (Criterion 6). If a prototype addresses evidence legibi… |
+| Prism | 3 | Popularity discount | Prism does not treat popularity as a quality signal. His professional formation is in data science — he is trained to ask what the evidenc… |
+| Prism | 4 | Tie-breaking | When two projects score equally after all criteria and modifiers: first tie-breaker is evidence legibility quality (which project makes i… |
+| Prism | 5 | Uncertainty handling | Uncertainty is handled conservatively but without punitive reduction. When evidence is thin but positive in direction — a project appears… |
+| Prism | 6 | Novelty vs implementation | A novel approach to evidence communication, data visualisation, or methodological transparency can substantially compensate for limited d… |
+| Prism | 7 | Movement infrastructure vs direct service | Prism does not systematically prefer either. OWID itself is a kind of movement infrastructure — it provides the evidence base that journal… |
+| Prism | 8 | Scope of concern | Geographic scope does not determine base score. A project addressing UK parliamentary transparency can score as highly as a global data p… |
 
 </details>
 

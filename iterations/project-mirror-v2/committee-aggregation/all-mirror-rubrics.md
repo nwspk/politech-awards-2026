@@ -649,9 +649,9 @@ Full prose: mirror PRs or [`all-mirror-constitutions-sections.csv`](./all-mirror
 
 ---
 
-## Tuna Acisu
+## Prism
 
-[PR #79](https://github.com/nwspk/politech-awards-2026/pull/79) · `project-mirror-v2/tuna-acisu`
+[PR #79](https://github.com/nwspk/politech-awards-2026/pull/79) · `project-mirror-v2/prism`
 
 ### Part A — criteria
 
@@ -684,11 +684,11 @@ Full prose: mirror PRs or [`all-mirror-constitutions-sections.csv`](./all-mirror
 | --- | --- | --- |
 | 1 | Abstention threshold | A project receives N/A (abstention) only when: (a) the dossier provides insufficient evidence to assess against either of the two HIGH-we… |
 | 2 | Prototype handling | Prototypes are given fair treatment but not full marks on implementation maturity (Criterion 6). If a prototype addresses evidence legibi… |
-| 3 | Popularity discount | Tuna does not treat popularity as a quality signal. His professional formation is in data science — he is trained to ask what the evidenc… |
+| 3 | Popularity discount | Prism does not treat popularity as a quality signal. His professional formation is in data science — he is trained to ask what the evidenc… |
 | 4 | Tie-breaking | When two projects score equally after all criteria and modifiers: first tie-breaker is evidence legibility quality (which project makes i… |
 | 5 | Uncertainty handling | Uncertainty is handled conservatively but without punitive reduction. When evidence is thin but positive in direction — a project appears… |
 | 6 | Novelty vs implementation | A novel approach to evidence communication, data visualisation, or methodological transparency can substantially compensate for limited d… |
-| 7 | Movement infrastructure vs direct service | Tuna does not systematically prefer either. OWID itself is a kind of movement infrastructure — it provides the evidence base that journal… |
+| 7 | Movement infrastructure vs direct service | Prism does not systematically prefer either. OWID itself is a kind of movement infrastructure — it provides the evidence base that journal… |
 | 8 | Scope of concern | Geographic scope does not determine base score. A project addressing UK parliamentary transparency can score as highly as a global data p… |
 
 ---
@@ -718,7 +718,7 @@ _Overlap scores use **Jaccard similarity** on word tokens (length ≥ 4) from Pa
 | Jamie Coombes | 7 | 6 | 9 | split A/B/C files |
 | Signal | 6 | 6 | 0 | split A/B/C files |
 | Nicholas Botti | 7 | 6 | 6 | split A/B/C files |
-| Tuna Acisu | 8 | 7 | 8 | split A/B/C files |
+| Prism | 8 | 7 | 8 | split A/B/C files |
 
 ### Modifier directions (Part B)
 
@@ -741,7 +741,7 @@ _Overlap scores use **Jaccard similarity** on word tokens (length ≥ 4) from Pa
 | Jamie Coombes | 3 | 2 | 1 | 0 |
 | Signal | 5 | 1 | 0 | 0 |
 | Nicholas Botti | 3 | 2 | 1 | 0 |
-| Tuna Acisu | 4 | 2 | 1 | 0 |
+| Prism | 4 | 2 | 1 | 0 |
 
 ### Theme signals in titles (Part A + B)
 
@@ -755,15 +755,15 @@ How many fellows have **each theme substring** anywhere in criterion or modifier
 | participation | 6 | Alessandro, Chris, Francesca, Beacon, Gamithra, Hannah |
 | equity | 2 | Asil, Francesca |
 | access | 12 | Aadi, Asil, Chris, David, Davit, Fatima, Francesca, Beacon +4 |
-| transparency | 7 | David, Francesca, Beacon, Gamithra, Hannah, Huda, Tuna |
+| transparency | 7 | David, Francesca, Beacon, Gamithra, Hannah, Huda, Prism |
 | privacy | 3 | Alessandro, Gamithra, Signal |
 | government | 4 | Aadi, David, Fatima, Gamithra |
 | institution | 6 | Asil, Safeguard, Davit, Beacon, Hannah, Nicholas |
 | deliberative | 1 | Safeguard |
 | inclusion | 0 | — |
-| deployment | 8 | Chris, Safeguard, Davit, Fatima, Hannah, Huda, Jamie, Tuna |
+| deployment | 8 | Chris, Safeguard, Davit, Fatima, Hannah, Huda, Jamie, Prism |
 | open source | 3 | David, Fatima, Signal |
-| accountability | 8 | Aadi, Alexandra, Asil, Francesca, Hannah, Huda, Nicholas, Tuna |
+| accountability | 8 | Aadi, Alexandra, Asil, Francesca, Hannah, Huda, Nicholas, Prism |
 | surveillance | 9 | Alexandra, Asil, Davit, Fatima, Beacon, Gamithra, Huda, Jamie +1 |
 | enforcement | 1 | Safeguard |
 | verification | 1 | Safeguard |
@@ -774,10 +774,10 @@ How many fellows have **each theme substring** anywhere in criterion or modifier
 | --- | --- | --- |
 | Fatima Sarah Khalid | Huda Abdirahim | 0.247 |
 | Aadi Kulkarni | Fatima Sarah Khalid | 0.214 |
-| Aadi Kulkarni | Tuna Acisu | 0.209 |
+| Aadi Kulkarni | Prism | 0.209 |
 | Fatima Sarah Khalid | Nicholas Botti | 0.209 |
-| Fatima Sarah Khalid | Tuna Acisu | 0.2 |
-| Nicholas Botti | Tuna Acisu | 0.195 |
+| Fatima Sarah Khalid | Prism | 0.2 |
+| Nicholas Botti | Prism | 0.195 |
 | Beacon | Huda Abdirahim | 0.184 |
 | Fatima Sarah Khalid | Beacon | 0.179 |
 | Fatima Sarah Khalid | Hannah O'Rourke | 0.178 |
@@ -794,7 +794,7 @@ How many fellows have **each theme substring** anywhere in criterion or modifier
 | Alessandro Pedori | David Powell | 0.037 |
 | Alessandro Pedori | Signal | 0.038 |
 | Alessandro Pedori | Safeguard | 0.042 |
-| Alessandro Pedori | Tuna Acisu | 0.046 |
+| Alessandro Pedori | Prism | 0.046 |
 
 ---
 
