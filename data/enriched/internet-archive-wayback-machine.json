@@ -94,10 +94,10 @@
     }
   ],
   "academic_citations": [
-    "Kahle, B. (2007). 'Preserving the Internet.' Scientific American, 296(3), 40-47.",
-    "Bragg, M. (2012). 'Building the Internet Archive.' In The Internet Archive: A Digital Library of Internet Sites and Other Cultural Artifacts.",
-    "Dougherty, J. & Meyer, D. (2014). 'Migrating Complex Projects to an Open-Source Platform: The Internet Archive Experience.' Code4Lib Journal, 24.",
-    "Multiple citations in legal proceedings (Hachette v. Internet Archive, 2020-2023)"
+    {
+      "citation": "Kahle, B. (2007). 'Preserving the Internet.' Scientific American, 296(3), 40-47.",
+      "doi": "https://doi.org/10.1038/scientificamerican0397-82"
+    }
   ],
   "awards": [
     "National Medal of Technology and Innovation (Brewster Kahle, 2015)",
@@ -148,5 +148,20 @@
   "pass2_at": "2026-03-09T23:21:48.552Z",
   "pass5_at": "2026-03-10T00:52:18.153Z",
   "pass5_jina_words": 58,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Internet Archive Wayback Machine addresses preserving digital information for public accountability and ensuring freedom of information and public access to knowledge. It has documented policy impact.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Serves as an information resource: Digital archive of the World Wide Web — preserving over 1 trillion web pages since 1996."
+  },
+  "systemic_issue_area": "knowledge access",
+  "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "researchers",
+    "journalists",
+    "historians",
+    "legal professionals",
+    "print-disabled users"
+  ],
+  "underdog_signal": false
 }

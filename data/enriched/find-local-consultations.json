@@ -67,12 +67,6 @@
       "year": 2005,
       "cited_by": 320,
       "doi": "https://doi.org/10.1016/j.landurbplan.2005.04.004"
-    },
-    {
-      "title": "The Implication of Land Grabbing on Pastoral Economy in Sudan",
-      "year": 2016,
-      "cited_by": 183,
-      "doi": null
     }
   ],
   "in_civictech_guide": false,
@@ -107,5 +101,18 @@
   ],
   "pass5_at": "2026-03-10T00:46:24.252Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Find local consultations addresses democratic participation and citizen engagement. A UK government service enabling citizens to discover and participate in local council consultations.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Platform for participatory democracy or deliberation that enables collective action."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Could be adapted to other national contexts with localization. Proprietary or closed-source; replication requires licensing.",
+  "primary_users_or_beneficiaries": [
+    "citizens",
+    "local councils",
+    "residents"
+  ],
+  "underdog_signal": false
 }

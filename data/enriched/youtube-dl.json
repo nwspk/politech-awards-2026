@@ -59,13 +59,8 @@
     "Legal challenges from copyright holders",
     "Maintenance burden on volunteer contributors"
   ],
-  "news_articles": [
-    "GitHub DMCA takedown notices (2020, 2023)",
-    "Coverage in TechCrunch, Wired regarding copyright battles"
-  ],
-  "academic_citations": [
-    "Cited in digital rights and copyright law research"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "in_civictech_guide": false,
   "wikipedia_page": "https://en.wikipedia.org/wiki/Youtube-dl",
   "replication_materials_available": true,
@@ -94,5 +89,19 @@
   "pass2_at": "2026-03-09T23:21:31.127Z",
   "pass5_at": "2026-03-10T00:46:23.555Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "youtube-dl addresses digital rights and online freedoms. Command-line program to download videos from YouTube.com and other video sites.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides civic data or journalism infrastructure"
+  },
+  "systemic_issue_area": "digital rights infrastructure",
+  "generalizability_notes": "Highly generalizable — already deployed internationally and open source, facilitating adoption in new contexts.",
+  "primary_users_or_beneficiaries": [
+    "journalists",
+    "researchers",
+    "archivists",
+    "content creators"
+  ],
+  "underdog_signal": true
 }

@@ -57,9 +57,7 @@
   ],
   "funding_verified": true,
   "last_funding_event": "2023",
-  "news_articles": [
-    "ECNL publications on AI governance and meaningful engagement"
-  ],
+  "news_articles": [],
   "academic_citations": [
     {
       "title": "THEORIZING WEB 2.0",
@@ -72,12 +70,6 @@
       "year": 2008,
       "cited_by": 21520,
       "doi": "https://doi.org/10.1111/j.1365-2648.2007.04569.x"
-    },
-    {
-      "title": "Digital Leadership: Changing Paradigms for Changing Times",
-      "year": 2014,
-      "cited_by": 75,
-      "doi": null
     }
   ],
   "in_civictech_guide": false,
@@ -110,5 +102,19 @@
   ],
   "pass5_at": "2026-03-10T00:46:12.749Z",
   "pass5_jina_words": 520,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Framework for Meaningful Engagement 2.0 addresses civic technology. Practical suggestions on how to engage civil society and affected communities in AI development to support platforms and AI developers in creating rights-based products.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides technical infrastructure that other civic tools or services build upon."
+  },
+  "systemic_issue_area": "digital rights infrastructure",
+  "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Open-source codebase facilitates replication.",
+  "primary_users_or_beneficiaries": [
+    "Civil society organizations",
+    "AI developers",
+    "Affected communities",
+    "Marginalized and vulnerable groups"
+  ],
+  "underdog_signal": false
 }

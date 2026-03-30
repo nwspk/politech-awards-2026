@@ -112,5 +112,20 @@
   ],
   "pass5_at": "2026-03-10T00:46:26.687Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Humble Data Workshop provides technology infrastructure relevant to civic and political processes, focused on Free data science and Python workshops for underrepresented groups in tech.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Serves as an information resource: Free data science and Python workshops for underrepresented groups in tech."
+  },
+  "systemic_issue_area": "civic technology infrastructure",
+  "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "women",
+    "people of colour",
+    "LGBTQ+ individuals",
+    "people with disabilities",
+    "underrepresented groups in data science and tech"
+  ],
+  "underdog_signal": true
 }

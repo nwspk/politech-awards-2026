@@ -70,10 +70,7 @@
     "https://www.theguardian.com/global-development/2019/feb/12/gapminder-worldview-upgrader",
     "https://www.wired.com/story/gapminder-misconceptions-global-development"
   ],
-  "academic_citations": [
-    "Rosling, H., Rosling, O., & Rönnlund, A. R. (2018). Factfulness: Ten Reasons We're Wrong About the World—and Why Things Are Better Than You Think. Flatiron Books.",
-    "Gapminder Foundation. (2020). The Worldview Upgrader: Measuring and Reducing Misconceptions About Global Development. Journal of Educational Technology & Society, 23(4), 45-58."
-  ],
+  "academic_citations": [],
   "awards": [
     "UNESCO Prize for Digital Learning Innovation (2018)"
   ],
@@ -109,5 +106,20 @@
   "pass2_at": "2026-03-09T23:21:46.034Z",
   "pass5_at": "2026-03-10T01:04:13.108Z",
   "pass5_jina_words": 177,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Gapminder Worldview Upgrader addresses combating misinformation and protecting information integrity. Important stuff most people get wrong — a free educational tool to help people rid themselves of common systematic misconceptions about global development.",
+  "movement_building_utility": {
+    "classification": "indirect_or_none",
+    "notes": "Indirect civic tech relevance; not primarily a movement-building tool."
+  },
+  "systemic_issue_area": "information integrity",
+  "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Open-source codebase facilitates replication.",
+  "primary_users_or_beneficiaries": [
+    "general public",
+    "educators",
+    "students",
+    "policymakers",
+    "corporate learners"
+  ],
+  "underdog_signal": false
 }

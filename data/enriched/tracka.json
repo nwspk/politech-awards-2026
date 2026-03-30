@@ -161,5 +161,18 @@
   "pass5_jina_words": 801,
   "pass5_changes": [
     "policy_outcomes"
-  ]
+  ],
+  "political_relevance_summary": "Tracka addresses democratic participation and citizen engagement. Monitor the status of federal and state projects in your community and take action on implementation gaps.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Directly supports organizing, mobilization, or campaign activities"
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Limited to Nigeria context currently; approach could potentially be replicated in similar jurisdictions with adaptation to local data sources and regulations.",
+  "primary_users_or_beneficiaries": [
+    "citizens",
+    "community members",
+    "civil society organizations"
+  ],
+  "underdog_signal": false
 }

@@ -73,10 +73,7 @@
     "https://www.theguardian.com/science/2021/sep/15/orcid-identifier-system",
     "https://www.wired.com/story/orcid-researcher-identity/"
   ],
-  "academic_citations": [
-    "Haak, L. L., et al. (2012). ORCID: a system to uniquely identify researchers. Research Trends, 31, 6-7.",
-    "Fenner, M., et al. (2014). A data citation roadmap for scholarly data repositories. bioRxiv, 097196."
-  ],
+  "academic_citations": [],
   "awards": [
     "FORCE11 Community Award (2016)"
   ],
@@ -114,5 +111,20 @@
     "Research councils in multiple countries"
   ],
   "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:40.099Z"
+  "pass2_at": "2026-03-09T23:21:40.099Z",
+  "political_relevance_summary": "ORCID addresses the challenge of persistent researcher identification, enabling transparent attribution of research outputs that inform policy. Its civic relevance is indirect but foundational to research integrity.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "ORCID provides foundational data infrastructure, standards, or platforms that other civic technology efforts build upon."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "High generalizability. ORCID is open source and already deployed across multiple countries/jurisdictions, making replication straightforward for other contexts.",
+  "primary_users_or_beneficiaries": [
+    "researchers",
+    "academics",
+    "scientists",
+    "institutions",
+    "publishers"
+  ],
+  "underdog_signal": false
 }

@@ -68,10 +68,7 @@
     "https://www.nytimes.com/2010/01/31/weekinreview/31govtrack.html",
     "https://www.theguardian.com/technology/2011/sep/15/govtrack-congress-tracking"
   ],
-  "academic_citations": [
-    "Tauberer, Joshua. 'GovTrack.us: A Tool for Civic Engagement.' Journal of E-Government, 2010.",
-    "Noveck, Beth Simone. 'Wiki Government: How Technology Can Make Government Better, Democracy Stronger, and Citizens More Powerful.' Brookings Institution Press, 2009."
-  ],
+  "academic_citations": [],
   "awards": [
     "Webby Award for Government & Politics (2010)",
     "Knight News Challenge Award (2008)"
@@ -111,5 +108,21 @@
   "pass2_at": "2026-03-09T23:21:47.904Z",
   "pass5_at": "2026-03-10T00:54:59.086Z",
   "pass5_jina_words": 463,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "GovTrack.us addresses democratic participation and citizen engagement. Tracking the U.S. Congress and the White House to make a more open and accountable government.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Government technology or democratic infrastructure."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Could be adapted to other national contexts with localization. Open-source codebase facilitates replication.",
+  "primary_users_or_beneficiaries": [
+    "citizens",
+    "journalists",
+    "researchers",
+    "educators",
+    "advocates",
+    "congressional staff"
+  ],
+  "underdog_signal": false
 }

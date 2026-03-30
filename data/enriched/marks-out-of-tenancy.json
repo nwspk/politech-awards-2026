@@ -119,5 +119,20 @@
   ],
   "pass5_at": "2026-03-10T00:56:21.071Z",
   "pass5_jina_words": 319,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Marks Out Of Tenancy addresses making civic data accessible and actionable and empowering advocacy and civic campaigning.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Amplifies advocacy efforts through UK landlord and letting agency review platform empowering renters with information and rights guidance."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "currently deployed in United Kingdom only, but approach could be adapted to other national contexts.",
+  "primary_users_or_beneficiaries": [
+    "renters",
+    "tenants",
+    "local authorities",
+    "universities",
+    "students' unions"
+  ],
+  "underdog_signal": true
 }

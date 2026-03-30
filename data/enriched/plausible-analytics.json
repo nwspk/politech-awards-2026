@@ -60,14 +60,8 @@
   "dependency_risks": [
     "Reliance on EU infrastructure and data residency requirements"
   ],
-  "news_articles": [
-    "TechCrunch: Plausible Analytics raises awareness on privacy-first analytics",
-    "The Guardian: Privacy-focused alternatives to Google Analytics gain traction",
-    "Wired: How indie developers are building privacy-respecting tools"
-  ],
-  "academic_citations": [
-    "Privacy-preserving web analytics in academic literature on data protection"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "Product Hunt recognition for privacy-focused analytics"
   ],
@@ -93,5 +87,21 @@
   "pass2_at": "2026-03-09T23:21:39.297Z",
   "pass5_at": "2026-03-10T00:49:09.281Z",
   "pass5_jina_words": 553,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Plausible Analytics addresses digital rights and online freedoms. Simple, privacy-friendly Google Analytics alternative.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides digital rights infrastructure or privacy-preserving technology foundations."
+  },
+  "systemic_issue_area": "digital rights infrastructure",
+  "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "website owners",
+    "startups",
+    "agencies",
+    "creators",
+    "bloggers",
+    "freelancers"
+  ],
+  "underdog_signal": true
 }

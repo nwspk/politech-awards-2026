@@ -52,10 +52,7 @@
     "Dependency on Discord and Telegram APIs",
     "Cryptocurrency market volatility"
   ],
-  "news_articles": [
-    "Collab.Land raises funding for Web3 community management",
-    "Token-gated communities gain traction with Collab.Land"
-  ],
+  "news_articles": [],
   "academic_citations": [
     {
       "title": "Singulariser le multiple",
@@ -104,5 +101,19 @@
   },
   "pass5_at": "2026-03-10T00:47:22.565Z",
   "pass5_jina_words": 433,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses challenges in civic technology infrastructure by serving cryptocurrency communities, token holders, Discord communities.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Technology platform serving civic technology needs."
+  },
+  "systemic_issue_area": "civic technology infrastructure",
+  "generalizability_notes": "Already deployed across multiple jurisdictions (3 countries), demonstrating cross-context adaptability.",
+  "primary_users_or_beneficiaries": [
+    "cryptocurrency communities",
+    "token holders",
+    "Discord communities",
+    "Telegram communities"
+  ],
+  "underdog_signal": false
 }

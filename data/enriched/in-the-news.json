@@ -67,12 +67,6 @@
       "year": 2017,
       "cited_by": 6377,
       "doi": "https://doi.org/10.1257/jep.31.2.211"
-    },
-    {
-      "title": "Good News and Bad News: Representation Theorems and Applications",
-      "year": 1981,
-      "cited_by": 3306,
-      "doi": "https://doi.org/10.2307/3003562"
     }
   ],
   "in_civictech_guide": false,
@@ -103,5 +97,16 @@
   ],
   "pass5_at": "2026-03-10T00:46:12.982Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "In the news provides technology infrastructure relevant to civic and political processes, focused on Section of the Main Page directing readers to articles substantially updated to reflect recent or current events of wide interest.",
+  "movement_building_utility": {
+    "classification": "indirect_or_none",
+    "notes": "Primarily serves Wikipedia readers, General public; limited direct movement-building utility."
+  },
+  "systemic_issue_area": "housing justice",
+  "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "Wikipedia readers"
+  ],
+  "underdog_signal": true
 }

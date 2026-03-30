@@ -179,5 +179,20 @@
   "pass5_jina_words": 230,
   "pass5_changes": [
     "tagline"
-  ]
+  ],
+  "political_relevance_summary": "Addresses threats to digital autonomy and privacy rights that affect civic participation and civil liberties.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Provides evidence and data that amplifies advocacy and accountability efforts."
+  },
+  "systemic_issue_area": "media independence and information access",
+  "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (multiple countries), demonstrating cross-context adaptability.",
+  "primary_users_or_beneficiaries": [
+    "investigative journalists",
+    "fact-checkers",
+    "human rights researchers",
+    "citizen journalists",
+    "open source intelligence researchers"
+  ],
+  "underdog_signal": true
 }

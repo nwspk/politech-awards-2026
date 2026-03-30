@@ -48,13 +48,8 @@
   "known_funders": [],
   "funding_verified": false,
   "last_funding_event": null,
-  "news_articles": [
-    "Globe and Mail coverage of parliamentary transparency tools",
-    "CBC News mentions of open government initiatives"
-  ],
-  "academic_citations": [
-    "Citations in Canadian political science and open government research"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [],
   "in_civictech_guide": true,
   "wikipedia_page": false,
@@ -102,5 +97,19 @@
     "documented_limitations",
     "curation_criteria",
     "ai_involvement"
-  ]
+  ],
+  "political_relevance_summary": "openparliament.ca addresses the need for more transparent, efficient, and accountable government operations through digital tools and open processes.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "openparliament.ca provides foundational data infrastructure, standards, or platforms that other civic technology efforts build upon."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Moderate generalizability. openparliament.ca is open source, enabling technical replication, but its current scope is limited to specific jurisdictions or contexts.",
+  "primary_users_or_beneficiaries": [
+    "Canadian citizens",
+    "journalists",
+    "researchers",
+    "advocacy groups"
+  ],
+  "underdog_signal": true
 }

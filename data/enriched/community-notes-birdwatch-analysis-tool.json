@@ -129,5 +129,19 @@
   ],
   "pass5_at": "2026-03-10T00:46:22.682Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses challenges in information integrity by serving researchers, journalists, fact-checkers.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Technology platform serving civic technology needs."
+  },
+  "systemic_issue_area": "information integrity",
+  "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (2 countries), demonstrating cross-context adaptability.",
+  "primary_users_or_beneficiaries": [
+    "civic technology researchers",
+    "investigative journalists",
+    "fact-checkers",
+    "platform accountability advocates"
+  ],
+  "underdog_signal": true
 }

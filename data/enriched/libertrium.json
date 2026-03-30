@@ -89,5 +89,18 @@
   "pass2_at": "2026-03-09T23:21:31.336Z",
   "pass5_at": "2026-03-10T00:46:28.893Z",
   "pass5_jina_words": 19,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Libertrium addresses enabling broader democratic participation and improving government service delivery and transparency.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Amplifies advocacy efforts through Digital solutions for public administration modernization, citizen participation, and transparency."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "currently deployed in Portugal only, but approach could be adapted to other national contexts.",
+  "primary_users_or_beneficiaries": [
+    "public administration",
+    "municipalities",
+    "civil society organizations"
+  ],
+  "underdog_signal": false
 }

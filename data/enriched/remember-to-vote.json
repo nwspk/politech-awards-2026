@@ -98,5 +98,17 @@
   ],
   "pass5_at": "2026-03-10T00:51:12.726Z",
   "pass5_jina_words": 466,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Remember to Vote addresses democratic participation and citizen engagement. Free SMS reminder service for polling station locations and voter ID requirements.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Directly supports organizing, mobilization, or democratic participation processes."
+  },
+  "systemic_issue_area": "electoral integrity",
+  "generalizability_notes": "Currently focused on United Kingdom; would require local data and regulatory adaptation.",
+  "primary_users_or_beneficiaries": [
+    "voters seeking electoral information",
+    "registered voters"
+  ],
+  "underdog_signal": true
 }

@@ -67,15 +67,8 @@
     "Reliance on Meta and Google API access and data availability",
     "Platform policy changes could affect data collection"
   ],
-  "news_articles": [
-    "Guardian coverage of political ad tracking",
-    "Reuters reporting on digital advertising transparency",
-    "TechCrunch articles on ad tech monitoring"
-  ],
-  "academic_citations": [
-    "Research on political advertising transparency",
-    "Studies on disinformation and election integrity"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "in_civictech_guide": true,
   "policy_outcomes": [
     "Contributed to transparency discussions around political advertising",
@@ -114,5 +107,20 @@
     }
   ],
   "ai_involvement": false,
-  "pass2_at": "2026-03-09T23:21:43.877Z"
+  "pass2_at": "2026-03-09T23:21:43.877Z",
+  "political_relevance_summary": "Who Targets Me Trends addresses civic data access and transparency. Platform for tracking and analyzing digital political advertising across Meta and Google in 60+ countries.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides information, data, or research for civic purposes"
+  },
+  "systemic_issue_area": "media accountability and press freedom",
+  "generalizability_notes": "Moderately generalizable — already international but proprietary nature may limit independent replication.",
+  "primary_users_or_beneficiaries": [
+    "journalists",
+    "election monitors",
+    "researchers",
+    "campaign professionals",
+    "citizens"
+  ],
+  "underdog_signal": true
 }

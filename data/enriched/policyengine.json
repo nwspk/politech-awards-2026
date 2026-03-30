@@ -70,15 +70,8 @@
     "Reliance on volunteer contributors for open-source maintenance",
     "Dependency on accurate government tax and benefit data"
   ],
-  "news_articles": [
-    "PolicyEngine: Making tax policy transparent (Guardian, 2023)",
-    "Open-source tool helps citizens understand tax changes (Reuters, 2022)",
-    "PolicyEngine expands to US policy simulation (TechCrunch, 2021)"
-  ],
-  "academic_citations": [
-    "Microsimulation of tax-benefit policy using PolicyEngine (Journal of Economic Policy, 2023)",
-    "Open-source policy analysis tools for evidence-based policymaking (Policy Studies Review, 2022)"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "Nesta Innovation Award (2020)",
     "Open Data Institute recognition (2021)"
@@ -123,5 +116,20 @@
   "pass5_jina_words": 327,
   "pass5_changes": [
     "policy_outcomes"
-  ]
+  ],
+  "political_relevance_summary": "Addresses civic data access and policy transparency by providing open-source tools to simulate the impact of tax and benefit policy changes on households and government budgets.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Amplifies advocacy efforts and helps citizens influence decision-makers."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Open-source codebase facilitates replication; deployed in multiple countries, suggesting adaptability; replication materials are available.",
+  "primary_users_or_beneficiaries": [
+    "policymakers",
+    "civic technology researchers",
+    "engaged citizens",
+    "advocacy organizations",
+    "investigative journalists"
+  ],
+  "underdog_signal": false
 }

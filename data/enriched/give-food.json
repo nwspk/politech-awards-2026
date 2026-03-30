@@ -88,7 +88,10 @@
     }
   ],
   "academic_citations": [
-    "Loopstra, R., & Tarasuk, V. (2015). Food bank usage is a poor indicator of food insecurity: insights from Canada. International Journal of Food Security"
+    {
+      "citation": "Loopstra, R., & Tarasuk, V. (2015). Food bank usage is a poor indicator of food insecurity: insights from Canada. International Journal of Food Security",
+      "doi": "https://doi.org/10.1017/s1474746415000184"
+    }
   ],
   "awards": [
     "Tech for Good Award (2019)"
@@ -135,5 +138,20 @@
     "Partnerships with local councils for data sharing and advocacy"
   ],
   "ai_involvement": false,
-  "pass2_at": "2026-03-10T00:27:59.302Z"
+  "pass2_at": "2026-03-10T00:27:59.302Z",
+  "political_relevance_summary": "Give Food addresses civic data access and transparency. UK charity using data to highlight and alleviate local food insecurity.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides data, research, or monitoring capabilities for civic purposes."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Could be adapted to other national contexts with localization. Open-source codebase facilitates replication.",
+  "primary_users_or_beneficiaries": [
+    "citizens",
+    "food banks",
+    "journalists",
+    "researchers",
+    "campaigners"
+  ],
+  "underdog_signal": true
 }

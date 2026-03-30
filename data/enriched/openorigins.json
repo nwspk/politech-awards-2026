@@ -55,22 +55,13 @@
   "funding_verified": true,
   "last_funding_event": "2024",
   "dependency_risks": "Proprietary technology stack; reliance on third-party data sources for verification",
-  "news_articles": [
-    "OpenOrigins raises funding for disinformation detection platform",
-    "How OpenOrigins is building trust in digital media"
-  ],
+  "news_articles": [],
   "academic_citations": [
     {
       "title": "CoverDrop: Blowing the Whistle Through A News App",
       "year": 2022,
       "cited_by": 2,
       "doi": "https://doi.org/10.2478/popets-2022-0035"
-    },
-    {
-      "title": "Designing an Android Application for the Wireless Detection of Credit Card Skimmers",
-      "year": 2019,
-      "cited_by": 0,
-      "doi": null
     },
     {
       "title": "Content Authenticities: A Discussion on the Values of Provenance Data for Creatives and Their Audiences",
@@ -95,5 +86,19 @@
   ],
   "pass5_at": "2026-03-10T00:55:34.880Z",
   "pass5_jina_words": 461,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "OpenOrigins addresses the erosion of trust in visual media by providing content authentication tools that help verify the provenance of images and video, combating deepfakes and manipulated content in political discourse.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "OpenOrigins primarily serves as an information resource for researchers, journalists, or analysts working on civic and political issues."
+  },
+  "systemic_issue_area": "media integrity and trust",
+  "generalizability_notes": "Moderate generalizability. OpenOrigins operates internationally but is proprietary, so replication would require licensing or rebuilding rather than direct adoption.",
+  "primary_users_or_beneficiaries": [
+    "journalists",
+    "media organizations",
+    "researchers",
+    "engaged citizens and civic participants"
+  ],
+  "underdog_signal": false
 }

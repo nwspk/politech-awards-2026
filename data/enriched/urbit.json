@@ -63,15 +63,8 @@
     "Reliance on Tlon Corporation for hosting services",
     "Technical complexity barriers for non-technical users"
   ],
-  "news_articles": [
-    "Wired: 'Urbit Wants to Give You Back Control of Your Digital Life'",
-    "TechCrunch: 'Urbit Raises Funding for Decentralized Computing Platform'",
-    "The Verge: 'What is Urbit and Why Are Developers Excited About It?'"
-  ],
-  "academic_citations": [
-    "Research on decentralized computing architectures",
-    "Studies on digital sovereignty and personal servers"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "in_civictech_guide": false,
   "documented_limitations": [
     "Self-hosting requires technical expertise",
@@ -91,5 +84,18 @@
   "pass2_at": "2026-03-09T23:21:44.662Z",
   "pass5_at": "2026-03-10T00:52:01.258Z",
   "pass5_jina_words": 756,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Urbit addresses digital rights and online freedoms. A personal server operating system designed for self-sovereignty and decentralized computing.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Amplifies civic voice or facilitates contact with decision-makers"
+  },
+  "systemic_issue_area": "digital rights infrastructure",
+  "generalizability_notes": "Highly generalizable — already deployed internationally and open source, facilitating adoption in new contexts.",
+  "primary_users_or_beneficiaries": [
+    "developers",
+    "technology enthusiasts",
+    "individuals seeking digital sovereignty"
+  ],
+  "underdog_signal": false
 }

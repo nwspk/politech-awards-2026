@@ -64,9 +64,7 @@
     "dependent on Liquid Democracy e.V. sustainability",
     "single-org governance"
   ],
-  "news_articles": [
-    "Participatory budgeting initiatives in Berlin using adhocracy+ (German media coverage)"
-  ],
+  "news_articles": [],
   "academic_citations": [
     {
       "title": "Strategy Formation in an Adhocracy",
@@ -142,5 +140,18 @@
   ],
   "pass5_at": "2026-03-10T00:41:12.844Z",
   "pass5_jina_words": 245,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses barriers to meaningful citizen participation in democratic decision-making by providing tools for public engagement and deliberation.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Platform enabling direct democratic participation or civic engagement."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Could be adapted for other national contexts with localization effort.",
+  "primary_users_or_beneficiaries": [
+    "municipal residents",
+    "civil society organisations",
+    "public administrations"
+  ],
+  "underdog_signal": false
 }

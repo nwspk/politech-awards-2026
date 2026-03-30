@@ -86,15 +86,8 @@
     "small core developer team",
     "commercial sustainability of FlexiGuided GmbH"
   ],
-  "news_articles": [
-    "Guardian: 'How liquid democracy could change politics' (2015)",
-    "Wired: 'The Pirate Party's radical experiment in direct democracy' (2012)",
-    "Reuters: 'German Pirate Party uses online voting system' (2011)",
-    "TechCrunch: 'LiquidFeedback brings liquid democracy to the web' (2010)"
-  ],
-  "academic_citations": [
-    "cited in liquid democracy literature; taught at University of Toulouse, University of Bologna, King's College London, Karlsruhe Institute of Technology, Carnegie Mellon University, Harvard University"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "SuMa Award 2011 (SuMa e.V. — Association for Free Access to Knowledge)"
   ],
@@ -164,5 +157,20 @@
   "pass2_at": "2026-03-09T23:21:38.444Z",
   "pass5_at": "2026-03-10T00:46:31.424Z",
   "pass5_jina_words": 552,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "LiquidFeedback addresses the civic problem of lowering barriers to civic participation. It has documented policy impact.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Directly supports organizers/campaigners through Liquid democracy software for transparent proposal development and collective decision-making."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "political parties",
+    "civil society organisations",
+    "municipalities",
+    "corporations",
+    "cooperatives"
+  ],
+  "underdog_signal": true
 }

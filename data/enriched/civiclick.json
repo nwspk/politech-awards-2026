@@ -50,14 +50,7 @@
     "subscriptions"
   ],
   "funding_verified": false,
-  "news_articles": [
-    {
-      "headline": "Chazz Clevinger is revolutionizing civic engagement in the digital age",
-      "outlet": "USA TODAY",
-      "date": null,
-      "url": null
-    }
-  ],
+  "news_articles": [],
   "awards": [
     {
       "name": "Award Winning Digital Advocacy Technology",
@@ -75,5 +68,20 @@
   "pass2_at": "2026-03-09T23:21:20.647Z",
   "pass5_at": "2026-03-10T00:43:21.973Z",
   "pass5_jina_words": 458,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses barriers to meaningful citizen participation in democratic decision-making by providing tools for public engagement and deliberation.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Provides direct tools for organizing, campaigning, or mobilizing civic action."
+  },
+  "systemic_issue_area": "civic advocacy infrastructure",
+  "generalizability_notes": "Primarily national in scope; replication would require significant localization.",
+  "primary_users_or_beneficiaries": [
+    "public affairs professionals",
+    "nonprofits",
+    "associations",
+    "companies",
+    "advocacy agencies"
+  ],
+  "underdog_signal": false
 }

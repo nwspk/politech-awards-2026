@@ -118,5 +118,19 @@
   ],
   "pass5_at": "2026-03-10T00:57:17.208Z",
   "pass5_jina_words": 432,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Worker Info Exchange addresses civic data access and transparency. Platform connecting workers with information about labor rights, workplace conditions, and employment resources.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Amplifies civic voice or facilitates contact with decision-makers"
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Limited to United States context currently; approach could potentially be replicated in similar jurisdictions with adaptation to local data sources and regulations.",
+  "primary_users_or_beneficiaries": [
+    "workers",
+    "labor advocates",
+    "researchers",
+    "labor organizations"
+  ],
+  "underdog_signal": true
 }

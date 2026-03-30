@@ -150,5 +150,21 @@
   ],
   "pass5_at": "2026-03-10T01:02:50.766Z",
   "pass5_jina_words": 355,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Open Data Editor (ODE) addresses the civic need for government transparency and open data access, enabling citizens, journalists, and researchers to hold public institutions accountable.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Open Data Editor (ODE) directly enables organizing by providing tools for collective action, campaigning, or community mobilization."
+  },
+  "systemic_issue_area": "digital rights infrastructure",
+  "generalizability_notes": "High generalizability. Open Data Editor (ODE) is open source and already deployed across multiple countries/jurisdictions, making replication straightforward for other contexts.",
+  "primary_users_or_beneficiaries": [
+    "nonprofits",
+    "data journalists",
+    "activists",
+    "public servants",
+    "researchers",
+    "government officials"
+  ],
+  "underdog_signal": true
 }

@@ -133,5 +133,18 @@
   ],
   "pass5_at": "2026-03-10T00:54:58.578Z",
   "pass5_jina_words": 246,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Go Vocal addresses democratic participation and citizen engagement. Online community engagement platform for governments.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Platform for participatory democracy or deliberation that enables collective action."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Highly generalizable; already deployed across multiple countries. Open-source codebase facilitates replication.",
+  "primary_users_or_beneficiaries": [
+    "government agencies",
+    "residents",
+    "citizens"
+  ],
+  "underdog_signal": false
 }

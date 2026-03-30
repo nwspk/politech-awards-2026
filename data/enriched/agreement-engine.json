@@ -51,9 +51,7 @@
     "Academic institutions"
   ],
   "funding_verified": false,
-  "academic_citations": [
-    "Metagov research publications"
-  ],
+  "academic_citations": [],
   "in_civictech_guide": false,
   "documented_limitations": [
     "Page content unavailable - JavaScript and cookies required to access Medium article",
@@ -70,5 +68,18 @@
   "pass2_at": "2026-03-10T00:27:56.725Z",
   "pass5_at": "2026-03-10T00:47:51.911Z",
   "pass5_jina_words": 58,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses barriers to meaningful citizen participation in democratic decision-making by providing tools for public engagement and deliberation.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Platform enabling direct democratic participation or civic engagement."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (2 countries), demonstrating cross-context adaptability.",
+  "primary_users_or_beneficiaries": [
+    "civic technology researchers",
+    "governance practitioners",
+    "digital communities"
+  ],
+  "underdog_signal": true
 }

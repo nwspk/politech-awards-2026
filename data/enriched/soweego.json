@@ -64,10 +64,7 @@
     "depends on Wikidata/Mix'n'match infrastructure",
     "catalogs supported limited to Discogs, IMDB, MusicBrainz"
   ],
-  "academic_citations": [
-    "Nechaev, Y., Corcoglioniti, F., Giuliano, C.: Linking knowledge bases to social media profiles. SAC 2017.",
-    "Nechaev, Y., Corcoglioniti, F., Giuliano, C.: SocialLink: Linking DBpedia Entities to Corresponding Twitter Accounts. ISWC 2017."
-  ],
+  "academic_citations": [],
   "in_civictech_guide": false,
   "wikipedia_page": false,
   "causation_strength": "anecdotal",
@@ -100,5 +97,21 @@
   "pass2_at": "2026-03-09T23:21:42.403Z",
   "pass5_at": "2026-03-10T00:51:39.151Z",
   "pass5_jina_words": 404,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "soweego addresses civic technology. Link Wikidata to large catalogs.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides data, research, or educational resources for civic engagement."
+  },
+  "systemic_issue_area": "civic technology infrastructure",
+  "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions; replication materials are available.",
+  "primary_users_or_beneficiaries": [
+    "wikidata editors",
+    "statisticians",
+    "epidemiologists",
+    "historians",
+    "computer scientists",
+    "open data practitioners"
+  ],
+  "underdog_signal": false
 }

@@ -97,5 +97,16 @@
     "known_funders",
     "governance_model",
     "contributor_governance"
-  ]
+  ],
+  "political_relevance_summary": "Schema.org addresses civic technology. A collaborative, community activity with a mission to create, maintain, and promote schemas for structured data on the Internet, on web pages, in email messages, and beyond.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides data, research, or educational resources for civic engagement."
+  },
+  "systemic_issue_area": "civic technology infrastructure",
+  "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions; methodology-based approach is inherently transferable.",
+  "primary_users_or_beneficiaries": [
+    "civic technology users"
+  ],
+  "underdog_signal": false
 }

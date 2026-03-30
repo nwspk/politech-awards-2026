@@ -62,13 +62,8 @@
     "Dependency on GovEval for data accuracy",
     "Reliance on Mythic Beasts for hosting infrastructure"
   ],
-  "news_articles": [
-    "Guardian coverage of mySociety projects (2015-2020)",
-    "BBC News features on citizen engagement tools"
-  ],
-  "academic_citations": [
-    "Citations in civic technology and digital democracy literature"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "mySociety recognition for civic engagement innovation"
   ],
@@ -106,5 +101,18 @@
   "pass5_jina_words": 170,
   "pass5_changes": [
     "dependency_risks"
-  ]
+  ],
+  "political_relevance_summary": "WriteToThem addresses democratic participation and citizen engagement. Email your Councillor, MP, MSP, MS, MLA or London Assembly Member for free.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Amplifies civic voice or facilitates contact with decision-makers"
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Moderate generalizability — partially open source; core approach could be replicated but may require significant adaptation.",
+  "primary_users_or_beneficiaries": [
+    "citizens",
+    "campaigners",
+    "constituents"
+  ],
+  "underdog_signal": true
 }

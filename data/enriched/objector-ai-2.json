@@ -53,14 +53,7 @@
     "Reliance on UK planning policy which may change",
     "Dependency on local council planning portals for document access"
   ],
-  "news_articles": [
-    {
-      "headline": null,
-      "outlet": "National Press (mentioned but not specified)",
-      "date": null,
-      "url": null
-    }
-  ],
+  "news_articles": [],
   "in_civictech_guide": false,
   "causation_strength": "anecdotal",
   "replication_materials_available": false,
@@ -81,5 +74,18 @@
   "pass2_at": "2026-03-09T23:21:45.704Z",
   "pass5_at": "2026-03-10T00:55:25.457Z",
   "pass5_jina_words": 569,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Objector.ai addresses gaps in democratic participation by providing tools or platforms that enable citizens and communities to engage more directly in governance and decision-making processes.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Objector.ai amplifies civic advocacy by giving citizens and groups tools to engage in democratic processes or influence policy."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Limited generalizability. Objector.ai is proprietary and designed for UK-specific contexts. The concept could inspire similar efforts elsewhere but direct replication is not feasible.",
+  "primary_users_or_beneficiaries": [
+    "citizens in United Kingdom",
+    "community groups",
+    "individuals objecting to planning applications"
+  ],
+  "underdog_signal": true
 }

@@ -73,15 +73,8 @@
     "Reliance on government adoption and political will for implementation",
     "Dependency on international funding for operations"
   ],
-  "news_articles": [
-    "Guardian: 'Open Ownership launches beneficial ownership transparency initiative'",
-    "Reuters: 'Global push for corporate ownership transparency gains momentum'",
-    "TechCrunch: 'Open Ownership secures funding for beneficial ownership database'"
-  ],
-  "academic_citations": [
-    "Sharman, J. C. (2017). 'The Despot's Dilemma: The Political Economy of Extraterritoriality.' Cornell University Press.",
-    "Findley, M. G., et al. (2021). 'The Illicit Global Economy and State Power.' Journal of Politics."
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "Transparency International Award for Anti-Corruption Innovation"
   ],
@@ -148,5 +141,20 @@
   "pass2_at": "2026-03-09T23:21:51.633Z",
   "pass5_at": "2026-03-10T00:55:37.085Z",
   "pass5_jina_words": 287,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Open Ownership addresses the civic need for government transparency and open data access, enabling citizens, journalists, and researchers to hold public institutions accountable.",
+  "movement_building_utility": {
+    "classification": "advocacy_amplifier",
+    "notes": "Open Ownership amplifies civic advocacy by giving citizens and groups tools to engage in democratic processes or influence policy."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "High generalizability. Open Ownership is open source and already deployed across multiple countries/jurisdictions, making replication straightforward for other contexts.",
+  "primary_users_or_beneficiaries": [
+    "governments",
+    "researchers",
+    "civil society organizations",
+    "extractive industry stakeholders",
+    "policymakers"
+  ],
+  "underdog_signal": false
 }

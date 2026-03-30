@@ -65,10 +65,7 @@
     "https://www.eff.org/deeplinks/2014/04/privacy-badger",
     "https://www.eff.org/deeplinks/2025/03/online-tracking-out-control-privacy-badger-can-help-you-fight-back"
   ],
-  "academic_citations": [
-    "Englehardt, S., & Narayanan, A. (2016). Online tracking: A 1-million-site measurement and analysis. Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security.",
-    "Mayer, J. R., & Mitchell, J. C. (2012). Third-party web tracking: Policy and technology. 2012 IEEE Symposium on Security and Privacy."
-  ],
+  "academic_citations": [],
   "awards": [
     "EFF Award for Privacy Protection"
   ],
@@ -105,5 +102,19 @@
   "pass2_at": "2026-03-09T23:21:39.959Z",
   "pass5_at": "2026-03-10T00:50:17.757Z",
   "pass5_jina_words": 366,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Privacy Badger addresses surveillance oversight and privacy protection. A free browser extension made by EFF to stop companies from spying on you online.",
+  "movement_building_utility": {
+    "classification": "infrastructure",
+    "notes": "Provides technical infrastructure supporting civic technology ecosystem."
+  },
+  "systemic_issue_area": "civic technology infrastructure",
+  "generalizability_notes": "Open-source codebase facilitates replication; already deployed across multiple jurisdictions; replication materials are available.",
+  "primary_users_or_beneficiaries": [
+    "general internet users",
+    "investigative journalists",
+    "activists",
+    "privacy-conscious individuals"
+  ],
+  "underdog_signal": true
 }

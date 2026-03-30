@@ -70,9 +70,7 @@
       "url": "https://www.nature.com/articles/s41586-018-0637-6"
     }
   ],
-  "academic_citations": [
-    "Awad et al. (2018) - The Moral Machine experiment"
-  ],
+  "academic_citations": [],
   "awards": [
     "Featured in Nature journal (2018)"
   ],
@@ -111,5 +109,18 @@
     "known_funders",
     "curation_criteria",
     "contributor_governance"
-  ]
+  ],
+  "political_relevance_summary": "Moral Machine addresses the civic problem of making civic data accessible and actionable. It has documented policy impact.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Serves as an information resource: A platform for exploring ethical dilemmas in autonomous vehicle decision-making through crowdsourced data collection."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "researchers",
+    "AI developers",
+    "policymakers"
+  ],
+  "underdog_signal": false
 }

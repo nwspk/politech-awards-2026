@@ -75,5 +75,19 @@
   "pass2_at": "2026-03-09T23:21:45.236Z",
   "pass5_at": "2026-03-10T00:57:26.786Z",
   "pass5_jina_words": 53,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "MyActionCenter addresses enabling broader democratic participation and empowering advocacy and civic campaigning.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Directly supports organizers/campaigners through Turn your supporters into an activist force through coordinated online actions and gamification."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "campaigners",
+    "activists",
+    "nonprofit organizations",
+    "political organizations"
+  ],
+  "underdog_signal": true
 }

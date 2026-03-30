@@ -88,10 +88,7 @@
       "url": "https://www.theguardian.com/technology/2022/nov/18/prediction-platforms-government/"
     }
   ],
-  "academic_citations": [
-    "Metaculus: A Community Prediction Platform for Forecasting Global Events (2023)",
-    "Evaluating Prediction Markets as Tools for Public Policy (2022)"
-  ],
+  "academic_citations": [],
   "awards": [
     "Recognition as leading forecasting platform by Future of Humanity Institute"
   ],
@@ -127,5 +124,18 @@
   "disparity_tracking": false,
   "community_ownership": "Partial; community forecasters contribute predictions but platform is owned by Metaculus Inc.",
   "ai_involvement": "AI used for question recommendation and forecaster matching; machine learning for aggregate forecast optimization",
-  "pass2_at": "2026-03-10T00:29:07.386Z"
+  "pass2_at": "2026-03-10T00:29:07.386Z",
+  "political_relevance_summary": "Metaculus addresses the civic problem of making civic data accessible and actionable. It has documented policy impact.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Serves as an information resource: A community prediction platform for forecasting future events and outcomes."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "researchers",
+    "forecasters",
+    "policymakers"
+  ],
+  "underdog_signal": true
 }

@@ -81,5 +81,21 @@
   ],
   "pass5_at": "2026-03-10T00:57:49.098Z",
   "pass5_jina_words": 174,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "We Live It addresses civic technology. AI-powered platform for community-driven urban planning and civic engagement.",
+  "movement_building_utility": {
+    "classification": "indirect_or_none",
+    "notes": "General tool/platform without direct movement-building function"
+  },
+  "systemic_issue_area": "civic technology and participation",
+  "generalizability_notes": "Moderately generalizable — already international but proprietary nature may limit independent replication.",
+  "primary_users_or_beneficiaries": [
+    "U",
+    "r",
+    "b",
+    "a",
+    "n",
+    " "
+  ],
+  "underdog_signal": false
 }

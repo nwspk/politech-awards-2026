@@ -64,14 +64,8 @@
     "smart contract security risks",
     "regulatory uncertainty around DAOs and tokenomics"
   ],
-  "news_articles": [
-    "Aragon DAO governance platform reaches $35B in assets under governance (2024)",
-    "Aragon launches Aragon OSx for enhanced DAO governance (2023)",
-    "Decentralized governance platform Aragon expands ecosystem (TechCrunch, 2022)"
-  ],
-  "academic_citations": [
-    "Governance in Decentralized Autonomous Organizations (DAOs) - multiple peer-reviewed studies reference Aragon as case study"
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "Recognized as leading DAO governance infrastructure platform"
   ],
@@ -101,5 +95,19 @@
   "pass2_at": "2026-03-09T23:21:24.010Z",
   "pass5_at": "2026-03-10T00:42:01.763Z",
   "pass5_jina_words": 277,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses gaps in government accountability and public service delivery through technology-enabled civic engagement.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Provides direct tools for organizing, campaigning, or mobilizing civic action."
+  },
+  "systemic_issue_area": "government transparency",
+  "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (48 countries), demonstrating cross-context adaptability.",
+  "primary_users_or_beneficiaries": [
+    "protocols",
+    "DAOs",
+    "decentralized organizations",
+    "token holders"
+  ],
+  "underdog_signal": false
 }

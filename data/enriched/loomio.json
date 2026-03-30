@@ -67,15 +67,8 @@
     "Small team size may limit maintenance capacity",
     "Reliance on subscription revenue model"
   ],
-  "news_articles": [
-    "Guardian: 'Loomio: the platform helping groups make decisions together' (2015)",
-    "TechCrunch: 'Loomio raises funding to scale participatory democracy platform' (2014)",
-    "Wired: 'How Loomio is changing the way organizations make decisions' (2016)"
-  ],
-  "academic_citations": [
-    "Bauwens, M., & Kostakis, V. (2019). Network Society and Future Scenarios for a Collaborative Economy. Palgrave Macmillan.",
-    "Scholz, T., & Schneider, N. (Eds.). (2016). Ours to Hack and to Own: The Rise of Platform Cooperativism. OR Books."
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "Shuttleworth Fellowship (2012)",
     "Mozilla Open Web Fellowship (2014)"
@@ -119,5 +112,21 @@
   "pass2_at": "2026-03-09T23:21:49.590Z",
   "pass5_at": "2026-03-10T00:56:09.347Z",
   "pass5_jina_words": 449,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Loomio addresses enabling broader democratic participation and improving government service delivery and transparency. It has documented policy impact.",
+  "movement_building_utility": {
+    "classification": "direct_organizer_tool",
+    "notes": "Used by organizers and campaigners: Make decisions together, without the endless meetings."
+  },
+  "systemic_issue_area": "democratic participation access",
+  "generalizability_notes": "Open-source codebase enables replication. already deployed internationally across multiple jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "membership organizations",
+    "governance boards",
+    "self-managing companies",
+    "political movements",
+    "cooperatives",
+    "nonprofits"
+  ],
+  "underdog_signal": false
 }

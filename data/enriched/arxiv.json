@@ -70,11 +70,7 @@
     "https://www.theguardian.com/science/2023/arxiv-open-access",
     "https://www.wired.com/story/arxiv-physics-preprints/"
   ],
-  "academic_citations": [
-    "Ginsparg, P. (1996). 'Winners and losers in the global research village.' In The Proceedings of the International Conference on High Energy Physics.",
-    "Harnad, S. (2005). 'Fast-Forward on the Green Road to Open Access.' Ariadne, 42.",
-    "Larivière, V., Haustein, S., & Mongeon, P. (2015). 'The oligopoly of academic publishing in the digital era.' PLOS ONE, 10(6)."
-  ],
+  "academic_citations": [],
   "awards": [
     "Recognized as foundational open access infrastructure by UNESCO",
     "Multiple citations in digital scholarship literature"
@@ -107,5 +103,19 @@
   "pass2_at": "2026-03-09T23:21:25.763Z",
   "pass5_at": "2026-03-10T00:42:02.256Z",
   "pass5_jina_words": 278,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Addresses threats to digital autonomy and privacy rights that affect civic participation and civil liberties.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Serves as an information resource for civic actors, researchers, or the public."
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Open-source codebase facilitates replication and adaptation. Already deployed across multiple jurisdictions (2 countries), demonstrating cross-context adaptability. Methodology and approach could inform similar efforts in other jurisdictions.",
+  "primary_users_or_beneficiaries": [
+    "civic technology researchers",
+    "academics",
+    "scientists",
+    "students and early-career researchers"
+  ],
+  "underdog_signal": false
 }

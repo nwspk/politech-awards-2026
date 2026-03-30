@@ -67,16 +67,8 @@
     "Reliance on volunteer contributors",
     "Dependency on Wikimedia Foundation infrastructure"
   ],
-  "news_articles": [
-    "Wikidata: Building a Better Wikipedia - The Guardian (2020)",
-    "How Wikidata is Changing Knowledge Management - TechCrunch (2021)",
-    "Wikidata Reaches 100 Million Items Milestone - Reuters (2022)"
-  ],
-  "academic_citations": [
-    "Vrandečić, D., & Krötzsch, M. (2014). Wikidata: A free and open knowledge base that can be read and edited by both machines and humans. IJSWIS, 10(4), 1-22.",
-    "Erxleben, F., et al. (2014). Introducing Wikidata to the Linked Data Web. ISWC 2014.",
-    "Tanon, T. K., et al. (2016). From Freebase to Wikidata: The Great Migration. WWW 2016."
-  ],
+  "news_articles": [],
+  "academic_citations": [],
   "awards": [
     "Wikimedia Foundation Project Award",
     "Recognition as critical infrastructure for knowledge sharing"
@@ -119,5 +111,20 @@
   "pass2_at": "2026-03-09T23:21:53.755Z",
   "pass5_at": "2026-03-10T00:57:13.997Z",
   "pass5_jina_words": 354,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Wikidata addresses civic data access and transparency. A free and open knowledge base that can be read and edited by both machines and humans.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Provides information, data, or research for civic purposes"
+  },
+  "systemic_issue_area": "civic data access",
+  "generalizability_notes": "Highly generalizable — already deployed internationally and open source, facilitating adoption in new contexts.",
+  "primary_users_or_beneficiaries": [
+    "researchers",
+    "journalists",
+    "citizens",
+    "developers",
+    "knowledge workers"
+  ],
+  "underdog_signal": false
 }

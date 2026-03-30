@@ -48,5 +48,18 @@
   "pass2_at": "2026-03-10T00:27:54.556Z",
   "pass5_at": "2026-03-10T00:55:51.571Z",
   "pass5_jina_words": 463,
-  "pass5_changes": []
+  "pass5_changes": [],
+  "political_relevance_summary": "Papertree addresses barriers to civic data access and transparency, making public or institutional data more available for accountability, research, and informed civic engagement.",
+  "movement_building_utility": {
+    "classification": "information_resource",
+    "notes": "Papertree primarily serves as an information resource for researchers, journalists, or analysts working on civic and political issues."
+  },
+  "systemic_issue_area": "climate accountability",
+  "generalizability_notes": "High generalizability. Papertree is open source and already deployed across multiple countries/jurisdictions, making replication straightforward for other contexts.",
+  "primary_users_or_beneficiaries": [
+    "tree planting organisations",
+    "climate advocates",
+    "researchers"
+  ],
+  "underdog_signal": false
 }
