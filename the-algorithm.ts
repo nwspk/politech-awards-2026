@@ -246,7 +246,9 @@ function fetchInformationHeuristic(url: string): number {
 //   npx tsx scripts/itn/itn-a-deliberate.ts  → cache/deliberation.json
 //
 // Scoring tiers:
-//   Deliberated projects:       aggregate score from deliberation (range: 51–90)
+//   Deliberated projects:       aggregate_effective from final_scores (ITN/A + awards
+//                               bonuses, 0–100) — matches deliberation ranking & winner.
+//                               Falls back to aggregate if effective is absent.
 //   2+ greens, not deliberated: 45  (strong signal, below deliberation floor)
 //   1 green:                    20
 //   0 greens / grey / red:       5  (baseline)
@@ -278,18 +280,24 @@ function loadItnAScores(): {
     const deliberation = new Map<string, number>();
     const assessments = new Map<string, AssessmentBuckets>();
 
-    const deliberationPath = process.env.DELIBERATION_PATH || path.resolve('cache', 'deliberation.json');
+    const deliberationPath = process.env.DELIBERATION_PATH || path.resolve('cache', 'deliberation-grok.json');
     if (fs.existsSync(deliberationPath)) {
         const data = JSON.parse(fs.readFileSync(deliberationPath, 'utf-8'));
         for (const entry of data.final_scores ?? []) {
-            deliberation.set(normalizeUrl(entry.url), entry.aggregate);
+            const eff = entry.aggregate_effective;
+            const raw = entry.aggregate;
+            const score =
+                typeof eff === 'number' && !Number.isNaN(eff) ? eff
+                    : typeof raw === 'number' && !Number.isNaN(raw) ? raw
+                        : 0;
+            deliberation.set(normalizeUrl(entry.url), score);
         }
         console.log(`[v5] Loaded ${deliberation.size} deliberated scores from ${deliberationPath}`);
     } else {
         console.warn('[v5] No deliberation.json found — falling back to assessment tiers only');
     }
 
-    const assessmentsPath = process.env.ASSESSMENTS_PATH || path.resolve('cache', 'assessments.json');
+    const assessmentsPath = process.env.ASSESSMENTS_PATH || path.resolve('cache', 'assessments-grok.json');
     if (fs.existsSync(assessmentsPath)) {
         const data = JSON.parse(fs.readFileSync(assessmentsPath, 'utf-8'));
         for (const [url, a] of Object.entries(data) as [string, any][]) {
@@ -323,7 +331,7 @@ function heuristicV5(url: string): number {
     const { deliberation, assessments } = getItnAScores();
     const key = normalizeUrl(url);
 
-    // Tier 1: deliberated — use the score from the multi-agent argument process
+    // Tier 1: deliberated — effective score (ITN/A + bonuses) from final_scores
     if (deliberation.has(key)) {
         return deliberation.get(key)!;
     }
@@ -338,9 +346,53 @@ function heuristicV5(url: string): number {
     return 5; // grey / red / zero greens
 }
 
-// select which heuristic version to use
-// v5 is the ITN/A multi-agent deliberation heuristic
-const CURRENT_HEURISTIC: ScoringFunction = heuristicV5;
+// --- v9: Alexandra D1–D8 three-model jury (see docs/evaluation/alexandra-rubric.md) ---
+// Reads cache/alexandra-aggregate.json (from scripts/alexandra/alexandra-aggregate.ts).
+// Maps median composite (1–5) → 20–100 for comparability with other heuristic scales.
+// Use: SCORING_MODE=v9 npx tsx the-algorithm.ts
+// Optional: ALEXANDRA_AGGREGATE_PATH=/path/to/alexandra-aggregate.json
+
+let _alexandraCompositeByUrl: Map<string, number> | null = null;
+
+function loadAlexandraComposites(): Map<string, number> {
+    if (_alexandraCompositeByUrl !== null) return _alexandraCompositeByUrl;
+    _alexandraCompositeByUrl = new Map();
+    const aggPath = process.env.ALEXANDRA_AGGREGATE_PATH || path.resolve('cache', 'alexandra-aggregate.json');
+    if (!fs.existsSync(aggPath)) {
+        console.warn(`[v9] No aggregate at ${aggPath} — all projects score 5 until you run alexandra-aggregate`);
+        return _alexandraCompositeByUrl;
+    }
+    try {
+        const data = JSON.parse(fs.readFileSync(aggPath, 'utf-8')) as {
+            projects?: Array<{ url?: string; median_composite?: number | null }>;
+        };
+        for (const p of data.projects ?? []) {
+            if (typeof p.url !== 'string' || p.median_composite == null || Number.isNaN(p.median_composite)) {
+                continue;
+            }
+            _alexandraCompositeByUrl.set(normalizeUrl(p.url), p.median_composite);
+        }
+        console.log(`[v9] Loaded ${_alexandraCompositeByUrl.size} Alexandra aggregates from ${aggPath}`);
+    } catch (e) {
+        console.warn('[v9] Failed to read alexandra aggregate:', e);
+    }
+    return _alexandraCompositeByUrl;
+}
+
+function heuristicV9Alexandra(url: string): number {
+    const m = loadAlexandraComposites();
+    const key = normalizeUrl(url);
+    const composite = m.get(key);
+    if (composite === undefined) return 5;
+    return Math.min(100, Math.max(1, Math.round(composite * 20)));
+}
+
+/**
+ * SCORING_MODE=v5 (default): ITN/A deliberation + assessment tiers.
+ * SCORING_MODE=v9: Alexandra median composite × 20; missing URLs → 5.
+ */
+const CURRENT_HEURISTIC: ScoringFunction =
+    process.env.SCORING_MODE === 'v9' ? heuristicV9Alexandra : heuristicV5;
 
 // process candidates from CSV and score them
 function processCandidates(scoringFunction: ScoringFunction): Promise<Candidate[]> {
@@ -375,6 +427,8 @@ function writeResults(candidates: Candidate[]): void {
 
 // main execution
 async function main() {
+    const mode = process.env.SCORING_MODE === 'v9' ? 'v9 (Alexandra aggregate)' : 'v5 (ITN/A)';
+    console.log(`Scoring mode: ${mode}`);
     const candidates = await processCandidates(CURRENT_HEURISTIC);
     writeResults(candidates);
 }
