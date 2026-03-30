@@ -5,10 +5,11 @@ date: "2026-03-27"
 pr_url: "https://github.com/nwspk/politech-awards-2026/pull/41"
 version: v8
 pr_number: 41
-pr_status: "open"
+pr_status: "merged"
 top_project:
-  name: "blog.kagi.com/slopstop"
+  name: "blog.kagi.com"
   url: "https://blog.kagi.com/slopstop"
+  score: 99
   score: 99
 ---
 
