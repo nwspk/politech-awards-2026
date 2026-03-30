@@ -13,25 +13,25 @@ Low variance has two very different meanings. It can mean a project is universal
 - Constitutional diversity means "agreement" may reflect shared blind spots as much as genuine convergence
 
 ## Assessment
-**Most agreed-upon: Vote for Policies — stdev 6.2 (mean 31.8)**
+**Most agreed-upon: Vote for Policies — stdev 7.59 (mean 32.54)**
 
 The committee agrees on Vote for Policies with unusual consistency — but the agreement is that it is limited. It is discontinued after the 2024 election. It is narrowly UK-focused. Multiple members note the project treats voters as passive consumers rather than building their capacity. Nick: "discontinued after 2024 election, closing off the core mechanism." Davit: "My constitution does not have room for stable-democracy domestic tools." Gamithra: "My criteria don't map well onto this kind of work." The consensus is not enthusiasm — it is quiet convergence on a modest ceiling.
 
-**The more interesting cases are further down the list.** mySociety Datasets and APIs (stdev 14.7, mean 60.0) appears in neither the most divisive nor the most agreed-upon tiers — but it is the project with the highest mean score among those with relatively low variance. Where Vote for Policies achieves consensus at 31.8, mySociety achieves it at 60.0: researchers, FOI influence, institutional partnerships, and open APIs all map onto enough different constitutions that broad agreement on quality is possible.
+**The more interesting cases are further down the list.** mySociety Datasets and APIs (stdev 16.40, mean 61.11) appears in neither the most divisive nor the most agreed-upon tiers — but it is the project with the highest mean score among those with full 17/17 coverage and moderate variance. Where Vote for Policies achieves consensus at 32.54, mySociety achieves broad agreement on quality at 61.11: researchers, FOI influence, institutional partnerships, and open APIs all map onto enough different constitutions that convergence is possible despite the wider spread.
 
 **The least divisive top 10 (full 17/17 coverage, sorted by stdev):**
 | Consensus rank | Project | Stdev | Mean |
 |------|---------|-------|------|
-| 1 | Vote for Policies | 6.2 | 31.8 |
-| 2 | Turbo Phonebank | 7.8 | 32.2 |
-| 3 | MyActionCenter | 8.2 | 30.0 |
-| 4 | MP Watch | 8.2 | 33.3 |
-| 5 | Civic Tech Field Guide | 8.3 | 43.3 |
-| 6 | Local Intelligence Hub | 8.3 | 39.5 |
-| 7 | Anna's Archive | 8.4 | 39.5 |
-| 8 | Remember to Vote | 8.5 | 34.0 |
-| 9 | Give Food | 8.9 | 39.8 |
-| 10 | Mapped | 8.9 | 37.0 |
+| 1 | Vote for Policies | 7.59 | 32.54 |
+| 2 | Civic Tech Field Guide | 7.93 | 42.63 |
+| 3 | Remember to Vote | 8.06 | 35.01 |
+| 4 | Turbo Phonebank | 8.12 | 32.93 |
+| 5 | MP Watch | 8.47 | 33.66 |
+| 6 | WriteToThem | 8.60 | 40.61 |
+| 7 | MyActionCenter | 8.82 | 30.78 |
+| 8 | Local Intelligence Hub | 8.86 | 40.59 |
+| 9 | PostBug | 9.51 | 29.22 |
+| 10 | Mapped | 9.60 | 38.18 |
 
 Note: consensus here mostly reflects shared indifference — these are narrow, legible, or discontinued tools that don't strongly activate any constitution. The exception worth examining is **Civic Tech Field Guide** (mean 43.3), where agreement reflects a shared view that the resource is valuable but not transformative, and where multiple members independently flag its acknowledged Western/English-language bias as the limiting factor.
 
