@@ -1,4 +1,4 @@
-# Modifiers — Martina Orlea
+# Modifiers — Signal
 ## Project Mirror v2 — Step 4b
 ## Date: 2026-03-28
 

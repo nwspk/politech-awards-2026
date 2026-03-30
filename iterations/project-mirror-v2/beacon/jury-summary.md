@@ -1,4 +1,4 @@
-# Jury Summary — Frederick O'Brien
+# Jury Summary — Beacon
 
 ## Panel Coverage
 
@@ -53,7 +53,7 @@ Cross-model means are closely aligned (51–56), suggesting constitutional crite
 ## Interpretation Guidance
 
 1. **All 321 projects have jury coverage** — every project received at least 2 independent scores from different models
-2. **The constitutional ranking (ranking-table.csv) remains the primary output** — it scores all 321 projects deterministically using Frederick's constitution
+2. **The constitutional ranking (ranking-table.csv) remains the primary output** — it scores all 321 projects deterministically using Beacon's constitution
 3. **Run-to-run variance partially assessed** — GPT-4.1 has 2 runs showing consistent means (54.7 vs 55.6), suggesting reasonable stability
 4. **Grok 4 gap** — the disruption-sceptic framing is unrepresented; this may undercount anti-establishment projects that Grok would have scored higher
 5. **Top jury projects align with constitutional expectations** — privacy tools (Tor, Guardian Project, SecureDrop), anti-extraction platforms (Bonfire, LittleSis), and practitioner-serving tools (Alaveteli, Turkopticon) dominate

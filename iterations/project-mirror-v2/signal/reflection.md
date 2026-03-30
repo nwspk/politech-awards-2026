@@ -1,4 +1,4 @@
-# Reflective Analysis — Martina Orlea
+# Reflective Analysis — Signal
 ## Project Mirror v2 — Step 7
 ## Date: 2026-03-28
 

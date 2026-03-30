@@ -1,4 +1,4 @@
-# Criteria — Martina Orlea
+# Criteria — Signal
 ## Project Mirror v2 — Step 4a
 ## Date: 2026-03-28
 

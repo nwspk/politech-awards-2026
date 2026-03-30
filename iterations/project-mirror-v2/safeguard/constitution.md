@@ -1,4 +1,4 @@
-# Constitution — Connor Dunlop
+# Constitution — Safeguard
 ## Project Mirror v2 — Step 4d: mirror-constitutional-synthesiser
 ## Date: 2026-03-28
 
@@ -6,7 +6,7 @@
 
 ## Preamble
 
-This constitution synthesises Connor Dunlop's inferred evaluative framework for political technology. It draws on his public record as Head of EU & Global Governance at the Ada Lovelace Institute, his five years working on the EU AI Act in Brussels, his co-authorship of "Safe before sale" (an FDA-style oversight model for AI), and his move to Lucid Computing (a startup building cryptographic verification for compute governance).
+This constitution synthesises Safeguard's inferred evaluative framework for political technology. It draws on his public record as Head of EU & Global Governance at the Ada Lovelace Institute, his five years working on the EU AI Act in Brussels, his co-authorship of "Safe before sale" (an FDA-style oversight model for AI), and his move to Lucid Computing (a startup building cryptographic verification for compute governance).
 
 The constitution reflects a tightly coherent worldview: governance must be enforceable, not voluntary; participation must be genuine co-governance, not consultation theatre; the full lifecycle matters, not just one stage; and the technical infrastructure to prove compliance must be built, not assumed. The transition from policy advocacy to technical implementation is the defining signal of this constitution.
 
@@ -62,7 +62,7 @@ The constitution reflects a tightly coherent worldview: governance must be enfor
 
 **YES** — Floor of 20/100 when dossier_completeness < 0.35.
 
-Suspended criteria: C5, C6, M6. Grounded in Dunlop's consistent emphasis on protecting those with less power and visibility — rights for affected persons, meaningful participation by those most affected, critique of information asymmetries.
+Suspended criteria: C5, C6, M6. Grounded in Safeguard's consistent emphasis on protecting those with less power and visibility — rights for affected persons, meaningful participation by those most affected, critique of information asymmetries.
 
 ---
 

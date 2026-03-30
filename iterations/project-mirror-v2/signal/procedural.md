@@ -1,4 +1,4 @@
-# Procedural Rules — Martina Orlea
+# Procedural Rules — Signal
 ## Project Mirror v2 — Step 4c
 ## Date: 2026-03-28
 

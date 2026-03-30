@@ -1,4 +1,4 @@
-# Procedural Rules — Connor Dunlop
+# Procedural Rules — Safeguard
 ## Project Mirror v2 — Step 4c: mirror-constitutional-procedural
 ## Date: 2026-03-28
 
@@ -23,7 +23,7 @@
 
 **YES** — applied.
 
-Connor Dunlop's work consistently emphasises that governance should protect those with less power and visibility. His advocacy for "rights for affected persons," his insistence on meaningful participation by those "most affected by technologies," and his critique of information asymmetries all point toward a disposition that would not penalise obscure projects for being obscure. His conflict studies and human rights background reinforces this: thin evidence is not the same as weak merit.
+Safeguard's work consistently emphasises that governance should protect those with less power and visibility. His advocacy for "rights for affected persons," his insistence on meaningful participation by those "most affected by technologies," and his critique of information asymmetries all point toward a disposition that would not penalise obscure projects for being obscure. His conflict studies and human rights background reinforces this: thin evidence is not the same as weak merit.
 
 **Floor:** 20/100 when dossier_completeness < 0.35
 

@@ -1,4 +1,4 @@
-# Jury Summary — Martina Orlea
+# Jury Summary — Signal
 ## Project Mirror v2 — Aggregated
 
 Projects with jury scores: 307

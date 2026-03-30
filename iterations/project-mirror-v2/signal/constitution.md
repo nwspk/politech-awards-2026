@@ -1,9 +1,9 @@
-# Evaluative Constitution — Martina Orlea
+# Evaluative Constitution — Signal
 ## Project Mirror v2 — Step 4d: Synthesiser
 ## Date: 2026-03-28
 
 ## Preamble
-Inferred evaluative framework for Martina Orlea, Romanian political campaigner and digital strategist. Lens shaped by campaign experience across Europe and Asia, emphasis on evidence-based message testing, information warfare countermeasures, and scalable volunteer mobilisation.
+Inferred evaluative framework for Signal, Romanian political campaigner and digital strategist. Lens shaped by campaign experience across Europe and Asia, emphasis on evidence-based message testing, information warfare countermeasures, and scalable volunteer mobilisation.
 
 ## Part A — Criteria (90 raw pts)
 C1: Campaign Infrastructure (HIGH, 20 pts)

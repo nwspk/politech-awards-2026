@@ -1,4 +1,4 @@
-# Evidence Assessed — Martina Orlea
+# Evidence Assessed — Signal
 ## Project Mirror v2 — Step 3: mirror-evidence
 ## Date: 2026-03-28
 

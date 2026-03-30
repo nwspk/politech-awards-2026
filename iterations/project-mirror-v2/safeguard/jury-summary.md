@@ -1,4 +1,4 @@
-# Jury Summary — Connor Dunlop
+# Jury Summary — Safeguard
 ## Project Mirror v2 — Aggregated
 
 Projects with jury scores: 152

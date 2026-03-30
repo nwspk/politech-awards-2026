@@ -1,11 +1,11 @@
-# Evidence Assessed — Frederick O'Brien
+# Evidence Assessed — Beacon
 ## Project Mirror v2 — mirror-evidence output
 
 ---
 
 ### Confidence summary
 
-The evidence base for Frederick O'Brien is unusually coherent for a public record that has no single landmark source (no major longread manifesto, no conference keynote, no academic paper). What exists is a cluster of living projects — teeline.online, Soli, Dummy, the Gonzo Engineering resources repository — that consistently embody the same values across different domains: free access, open source, direct economic benefit to practitioners, bypassing intermediary platforms. This is evidence that is harder to fake or overread than stated positions — he has built things that cost time and money to maintain, repeatedly, in the same direction.
+The evidence base for Beacon is unusually coherent for a public record that has no single landmark source (no major longread manifesto, no conference keynote, no academic paper). What exists is a cluster of living projects — teeline.online, Soli, Dummy, the Gonzo Engineering resources repository — that consistently embody the same values across different domains: free access, open source, direct economic benefit to practitioners, bypassing intermediary platforms. This is evidence that is harder to fake or overread than stated positions — he has built things that cost time and money to maintain, repeatedly, in the same direction.
 
 The evidence base is weakest on: his Guardian work specifically (inaccessible); any direct engagement with AI or data ethics debates; and the granular detail of his community journalism practice at Social Streets and Roman Road LDN. These gaps matter for the periphery of the constitution but not for its core.
 
@@ -85,13 +85,13 @@ The evidence base is weakest on: his Guardian work specifically (inaccessible); 
 
 ### Gap analysis
 
-1. **Guardian interactive journalism bylines (HIGH IMPACT)** — This is Frederick's primary professional work for the past four years. Interactive journalism at The Guardian specifically intersects with data journalism, civic data, public interest visualisation, and election coverage. Without these, the constitution cannot properly account for what he actually builds professionally every day. His views on evidence, interactivity, and public-interest data are most legible through this work. Inaccessible due to site fetch restrictions.
+1. **Guardian interactive journalism bylines (HIGH IMPACT)** — This is Beacon's primary professional work for the past four years. Interactive journalism at The Guardian specifically intersects with data journalism, civic data, public interest visualisation, and election coverage. Without these, the constitution cannot properly account for what he actually builds professionally every day. His views on evidence, interactivity, and public-interest data are most legible through this work. Inaccessible due to site fetch restrictions.
 
 2. **Smashing Magazine articles (MEDIUM IMPACT)** — "Towards an ad-free web" in particular would give direct evidence of his views on revenue models and platform ethics for journalism. The themes on the personal website are consistent with the project record but the specific arguments are unverified. If the ad-free web piece expresses a strong position on reader-funded journalism, that would sharpen modifiers around sustainability and economic models for civic tools.
 
 3. **Social Streets / Roman Road LDN archive (MEDIUM IMPACT)** — A year of community journalism in east London (2018–2019) would show what topics he chose to cover, how he framed community stories, and what his editorial instincts are at the hyperlocal level. This would ground the "community journalism as democratic foundation" value in specific reporting choices rather than just the employment record.
 
-4. **Soli live deployment status (LOW-MEDIUM IMPACT)** — The README describes it as a "thought experiment as much as anything else." If it is currently live and operational, it is evidence of sustained commitment; if dormant, it is evidence of exploratory rather than implementation-focused values. This matters for the "prototype handling" procedural rule: is Frederick someone who ships things and maintains them, or who explores ideas and moves on?
+4. **Soli live deployment status (LOW-MEDIUM IMPACT)** — The README describes it as a "thought experiment as much as anything else." If it is currently live and operational, it is evidence of sustained commitment; if dormant, it is evidence of exploratory rather than implementation-focused values. This matters for the "prototype handling" procedural rule: is Beacon someone who ships things and maintains them, or who explores ideas and moves on?
 
 5. **Any public statements on AI in journalism (MEDIUM IMPACT)** — As a Guardian software engineer at the editorial/tech overlap in 2025, he is necessarily navigating automated journalism, AI-assisted interactive graphics, and the role of data in public interest reporting. His position on this is the most consequential unknown for constitutional inference — "technology should serve keen minds not replace them" is a strong prior but does not specify the criteria for distinguishing good from bad AI use in practice.
 
@@ -99,4 +99,4 @@ The evidence base is weakest on: his Guardian work specifically (inaccessible); 
 
 ### Identity integrity notes
 
-All sources used in the clean evidence section belong unambiguously to Frederick O'Brien. Cross-referencing at multiple institutional nodes (Guardian + gonzo.engineering + teeline.online + audioxide + social streets east London) leaves no meaningful uncertainty. The only GitHub username confusion (frob = Frank Robert Anderson) is resolved and that username is not associated with any Frederick O'Brien source.
+All sources used in the clean evidence section belong unambiguously to Beacon. Cross-referencing at multiple institutional nodes (Guardian + gonzo.engineering + teeline.online + audioxide + social streets east London) leaves no meaningful uncertainty. The only GitHub username confusion (frob = Frank Robert Anderson) is resolved and that username is not associated with any Beacon source.
