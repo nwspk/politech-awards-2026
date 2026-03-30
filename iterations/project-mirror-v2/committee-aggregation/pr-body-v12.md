@@ -15,7 +15,7 @@ Mean score rewards projects that a few members champion very highly, even if mos
 ## Assessment
 **Winner: Open Data Editor (ODE) — median rank 11 (mean rank 31.3, coverage 17/17)**
 
-Under median rank, Open Data Editor displaces LiquidFeedback for the first time across any committee aggregation. The reason is structural: LiquidFeedback has three members scoring it in the 80s and 90s, but its median rank of 16 reveals that the typical evaluator places it outside their top 15. ODE, by contrast, lands in most members' top 10–15 without anyone scoring it near the bottom.
+Under median rank, Open Data Editor displaces LiquidFeedback for the first time across any committee aggregation. The reason is structural: LiquidFeedback has three members scoring it in the 80s and 90s, but its median rank of 19 reveals that the typical evaluator places it outside their top 18. ODE, by contrast, lands in most members' top 10–15 without anyone scoring it near the bottom.
 
 **Why ODE is broadly legible.** It serves non-technical users — nonprofits, data journalists, activists, public servants — which maps onto multiple constitutions at once. Aadi ranks it #2 at 82.7: *"The explicit focus on 'nonprofits, data journalists, activists, and public servants who don't know how to code' directly addresses the technical barriers that exclude many civic actors from data work."* Tuna's Agent ranks it #10 at 79.0: *"Government adoption is the concrete signal here: Zagreb city government. Open Data Editor is not just proposing evidence legibility — it is delivering it to institutional decision-makers."* Davit at 76.9: *"Non-Western deployment geography (Cambodia, South Africa, Ghana) is excellent — these are exactly the contexts my constitution prioritises."*
 
