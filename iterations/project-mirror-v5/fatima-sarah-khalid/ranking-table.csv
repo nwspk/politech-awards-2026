@@ -1,0 +1,323 @@
+rank,project_name,url,score,rationale
+1,Mastodon,https://github.com/mastodon/mastodon,100,AI/tech infrastructure (C6=25); open source + forkable (C2=30); accessibility (C1=30) | mods: M_AGENCY+8+M1+5+M3+7
+2,CONSUL Democracy,https://consulproject.org,100,AI/tech infrastructure (C6=25); open source + forkable (C2=30); accessibility (C1=25) | mods: M_AGENCY+12+M1+10+M3+4
+3,Abstract Wikipedia,https://meta.wikimedia.org/wiki/abstract_wikipedia,100,open source + forkable (C2=30); accessibility (C1=25); forkable+community governed | mods: M_AGENCY+8+M1+10+M3+4
+4,CiviCRM,https://civicrm.org,99.8,open source + forkable (C2=30); accessibility (C1=25); legibility+agency (C3=28) | mods: M_AGENCY+8+M1+10+M3+4
+5,Alaveteli,https://alaveteli.org,99.8,AI/tech infrastructure (C6=25); open source + forkable (C2=30); legibility+agency (C3=28) | mods: M_AGENCY+12+M1+10
+6,Aleph (OCCRP),https://aleph.occrp.org,99.8,AI/tech infrastructure (C6=25); open source + forkable (C2=30); legibility+agency (C3=28) | mods: M_AGENCY+12+M1+10
+7,HURIDOCS,https://github.com/huridocs,99.8,AI/tech infrastructure (C6=25); open source + forkable (C2=30); legibility+agency (C3=28) | mods: M_AGENCY+12+M1+10
+8,OA.Works,https://oa.works/,99.8,open source + forkable (C2=30); legibility+agency (C3=28); forkable+community governed | mods: M_AGENCY+8+M1+10+M5+4
+9,Bonfire,https://bonfirenetworks.org/,99.1,AI/tech infrastructure (C6=25); open source + forkable (C2=30); legibility+agency (C3=28) | mods: M_AGENCY+12+M1+10
+10,Gapminder Worldview Upgrader,https://upgrader.gapminder.org,97.0,open source + forkable (C2=30); accessibility (C1=25); legibility+agency (C3=24) | mods: M_AGENCY+8+M1+10+M3+4
+11,Open Standards for Data Guidebook,https://standards.theodi.org,97.0,AI/tech infrastructure (C6=25); open source + forkable (C2=30); legibility+agency (C3=24) | mods: M_AGENCY+12+M1+10
+12,CKAN,https://ckan.org,95.4,open source + forkable (C2=30); accessibility (C1=25); forkable+community governed | mods: M_AGENCY+12+M1+10+M3+4
+13,Open Council Network,https://opencouncil.network,94.8,open source + forkable (C2=30); accessibility (C1=25); legibility+agency (C3=28) | mods: M_AGENCY+8+M1+5+M3+4
+14,ClimateAction.Tech,https://climateaction.tech,93.5,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+8+M1+10+M5+4
+15,Security First / Umbrella,https://secfirst.org,93.0,AI/tech infrastructure (C6=25); open source + forkable (C2=30); legibility+agency (C3=24) | mods: M_AGENCY+8+M1+10
+16,mySociety Datasets and APIs,https://data.mysociety.org,92.8,open source + forkable (C2=30); legibility+agency (C3=28); forkable+community governed | mods: M_AGENCY+12+M1+10
+17,LittleSis,https://littlesis.org,92.7,AI/tech infrastructure (C6=25); open source + forkable (C2=30); legibility+agency (C3=28) | mods: M_AGENCY+12+M1+5
+18,Decidim,https://decidim.org,92.3,open source + forkable (C2=30); legibility+agency (C3=28); forkable+community governed | mods: M_AGENCY+8+M1+10
+19,Turkopticon,https://turkopticon.ucsd.edu,92.3,open source + forkable (C2=30); legibility+agency (C3=28); forkable+community governed | mods: M_AGENCY+8+M1+10
+20,Open Digital Planning,https://opendigitalplanning.org/,92.0,AI/tech infrastructure (C6=25); open source + forkable (C2=30); legibility+agency (C3=24) | mods: M_AGENCY+12+M1+5
+21,Bellingcat Online Investigation Toolkit,https://bellingcat.gitbook.io/toolkit,91.4,AI/tech infrastructure (C6=25); open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+12+M1+10
+22,Logos,https://logos.co/,90.8,AI/tech infrastructure (C6=25); open source + forkable (C2=30); legibility+agency (C3=28) | mods: M_AGENCY+8+M1+5
+23,Humble Data Workshop,https://humbledata.org,90.8,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+8+M1+10+M5+4
+24,PolicyEngine,https://policyengine.org/uk,89.5,open source + forkable (C2=30); legibility+agency (C3=28); forkable+community governed | mods: M_AGENCY+8+M1+10
+25,Open Supply Hub,https://opensupplyhub.org,89.2,AI/tech infrastructure (C6=25); open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+12+M1+5
+26,PolicyKit,https://policykit.org,88.8,open source + forkable (C2=30); legibility+agency (C3=24); forkable+community governed | mods: M_AGENCY+8+M1+10
+27,adhocracy+,https://adhocracy.plus,88.8,open source + forkable (C2=30); legibility+agency (C3=28); forkable+community governed | mods: M_AGENCY+8+M1+10
+28,Populate Tools,https://github.com/populatetools,88.7,AI/tech infrastructure (C6=25); open source + forkable (C2=30); legibility+agency (C3=28) | mods: M_AGENCY+8+M1+5
+29,The Engine Room Library,https://library.theengineroom.org,88.5,open source + forkable (C2=30); accessibility (C1=25); forkable+community governed | mods: M_AGENCY+8+M1+5+M3+4
+30,Open Referral UK,https://openreferraluk.org,87.3,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+12+M1+10
+31,Open Data Editor (ODE),https://okfn.org/en/projects/open-data-editor/,87.3,AI/tech infrastructure (C6=25); open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+12+M1+10
+32,Public AI Inference Utility,https://publicai.co/,86.4,AI/tech infrastructure (C6=25); open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+12+M1+5
+33,Citizen OS,https://citizenos.com/platform/,86.1,open source + forkable (C2=30); legibility+agency (C3=24); forkable+community governed | mods: M_AGENCY+8+M1+10
+34,CommunityRule,https://communityrule.info,86.1,open source + forkable (C2=30); legibility+agency (C3=24); forkable+community governed | mods: M_AGENCY+8+M1+10
+35,Open Science Framework,https://osf.io,86.1,open source + forkable (C2=30); legibility+agency (C3=24); forkable+community governed | mods: M_AGENCY+8+M1+10
+36,oTree,https://www.otree.org,86.1,open source + forkable (C2=30); legibility+agency (C3=24); forkable+community governed | mods: M_AGENCY+8+M1+10
+37,LiquidFeedback,https://liquidfeedback.com,85.9,open source + forkable (C2=30); legibility+agency (C3=28); forkable+community governed | mods: M_AGENCY+12+M1+10
+38,Diia,https://expo.diia.gov.ua,85.4,AI/tech infrastructure (C6=25); open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+8+M1+10
+39,One Project,https://oneproject.org/,85.4,open source + forkable (C2=30); legibility+agency (C3=24); forkable+community governed | mods: M_AGENCY+8+M1+10
+40,Open Heart Mind (OHM),https://openheartmind.org,85.4,open source + forkable (C2=30); legibility+agency (C3=24); forkable+community governed | mods: M_AGENCY+8+M1+10
+41,Loomio,https://www.loomio.org,85.4,open source + forkable (C2=30); legibility+agency (C3=28); forkable+community governed | mods: M_AGENCY+8+M1+10
+42,Internet Archive Wayback Machine,https://web.archive.org,85.1,AI/tech infrastructure (C6=25); open source + forkable (C2=30); legibility+agency (C3=24) | mods: M_AGENCY+12+M1+5
+43,Channel.org,https://channel.org,83.8,open source + forkable (C2=30); legibility+agency (C3=24); forkable+community governed | mods: M_AGENCY+8+M1+5
+44,All Our Ideas,https://all-our-ideas.citizens.is,83.8,open source + forkable (C2=30); legibility+agency (C3=28); forkable+community governed | mods: M_AGENCY+8+M1+5
+45,WhatGov,https://www.whatgov.co.uk,83.8,open source + forkable (C2=30); legibility+agency (C3=28); forkable+community governed | mods: M_AGENCY+8+M1+5
+46,Matrix,https://matrix.org,83.8,AI/tech infrastructure (C6=25); open source + forkable (C2=30); legibility+agency (C3=28) | mods: M_AGENCY+8+M1+5
+47,EDGAR,https://github.com/bellingcat/edgar,83.7,AI/tech infrastructure (C6=25); open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+12+M1+5
+48,Journal of Open Source Software,https://joss.theoj.org,83.3,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+8+M1+10
+49,Shareyourpaper.org,https://shareyourpaper.org,83.3,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+8+M1+10
+50,Pursuance Project,https://pursuanceproject.org,83.1,open source + forkable (C2=30); legibility+agency (C3=28); forkable+community governed | mods: M_AGENCY+8+M1+5
+51,RxC Voice,https://github.com/radicalxchange/rxc-voice,83.1,open source + forkable (C2=30); legibility+agency (C3=28); forkable+community governed | mods: M_AGENCY+8+M1+5
+52,Schema.org,https://schema.org,82.3,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+12+M1+5
+53,GRIM (Global Risk Simulator),https://github.com/sentinelteam/grim,81.9,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+8+M1+10
+54,Cobudget,https://cobudget.com,81.9,open source + forkable (C2=30); legibility+agency (C3=28); forkable+community governed | mods: M_AGENCY+8+M1+10
+55,Groupthink (OpenPolitics Votebot),https://github.com/openpolitics/groupthink,81.8,open source + forkable (C2=30); legibility+agency (C3=28); forkable+community governed | mods: M_AGENCY+8+M1+5
+56,Participa (Podemos),https://github.com/podemos-info/participa,81.8,open source + forkable (C2=30); legibility+agency (C3=28); forkable+community governed | mods: M_AGENCY+8+M1+5
+57,Nym,https://nymtech.net,81.6,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+12+M1+5
+58,NumFOCUS,https://numfocus.org,81.1,open source + forkable (C2=30); legibility+agency (C3=24); forkable+community governed | mods: M_AGENCY+8+M1+5
+59,Polis,https://github.com/compdemocracy/polis,81.1,open source + forkable (C2=30); legibility+agency (C3=24); forkable+community governed | mods: M_AGENCY+8+M1+5
+60,Tor Project,https://www.torproject.org,81.1,open source + forkable (C2=30); legibility+agency (C3=24); forkable+community governed | mods: M_AGENCY+8+M1+5
+61,vTaiwan,https://github.com/g0v/vue.vtaiwan.tw,81.1,open source + forkable (C2=30); legibility+agency (C3=24); forkable+community governed | mods: M_AGENCY+8+M1+5
+62,Coral,https://coralproject.net,80.5,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+8+M1+10
+63,DISARM Frameworks,https://github.com/disarmfoundation/disarmframeworks,80.5,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+8+M1+10
+64,GlobaLeaks,https://www.globaleaks.org,80.5,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+8+M1+10
+65,Snowdrift.coop,https://snowdrift.coop,79.8,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+8+M1+10
+66,Awesome UK Government Datasets,https://github.com/i-dot-ai/awesome-gov-datasets,79.5,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+12+M1+5
+67,Open Collective,https://opencollective.com,78.8,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+12+M1+5
+68,soweego,https://soweego.readthedocs.io,78.8,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+12+M1+5
+69,The Government Says,https://thegovernmentsays.com,78.3,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+8+M1+5
+70,Tracka,https://yourtracka.org,76.4,AI/tech infrastructure (C6=25); accessibility (C1=30) | mods: M1+5+M3+4
+71,Data Observation Toolkit (DOT),https://github.com/datakind/data-observation-toolkit,75.5,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+8+M1+5
+72,Ethelo,https://ethelo.com,75.1,accessibility (C1=30) | mods: M1+10+M3+4
+73,Bluesky Social,https://github.com/bluesky-social,74.8,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+8+M1+5
+74,Murmurations Protocol,https://murmurations.network,74.8,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+8+M1+5
+75,Mozilla Data Collective,https://datacollective.mozillafoundation.org/,74.5,accessibility (C1=30) | mods: M_AGENCY+8+M3+4
+76,Fairbnb.coop,https://fairbnb.coop,73.7,accessibility (C1=25); legibility+agency (C3=24) | mods: M1+10+M3+4
+77,Democracy Club Developer API,https://developers.democracyclub.org.uk/api/v1,73.4,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+8+M1+5
+78,Tech Coops List,https://tech-coops.xyz,73.4,open source + forkable (C2=30); legibility+agency (C3=24); forkable+community governed | mods: M_AGENCY+8+M1+5
+79,Guardian Project,https://guardianproject.info,73.3,AI/tech infrastructure (C6=25) | mods: M_AGENCY+8
+80,PatCit,https://github.com/cverluise/patcit,73.1,mods: M_AGENCY+8+M5+4
+81,The DAO (Standard DAO Framework),https://github.com/vbuterin/dao,71.2,legibility+agency (C3=28) | mods: M_AGENCY+8
+82,deliberAIde,https://www.deliberaide.com,70.9,accessibility (C1=25) | mods: M1+10+M3+4
+83,Humanitarian Data Exchange,https://data.humdata.org,70.9,accessibility (C1=25) | mods: M1+10+M3+4
+84,Metaculus,https://metaculus.com,70.9,accessibility (C1=25) | mods: M1+10+M3+4
+85,Your Priorities,https://yrpri.org,70.9,accessibility (C1=25) | mods: M1+10+M3+4
+86,Contracts for Data Collaboration,https://contractsfordatacollaboration.org,70.5,AI/tech infrastructure (C6=25) | mods: M_AGENCY+8
+87,Cybersecurity for Democracy,https://cybersecurityfordemocracy.org,70.5,AI/tech infrastructure (C6=25) | mods: M_AGENCY+8
+88,rsky,https://github.com/blacksky-algorithms/rsky,69.8,AI/tech infrastructure (C6=25) | mods: M_AGENCY+8
+89,Framework for Meaningful Engagement 2.0,https://ecnl.org/publications/framework-meaningful-engagement-20?mc_cid=b1c5158063&mc_eid=a09c64ec38,69.5,accessibility (C1=30) | mods: M3+7
+90,Land Explorer,https://landexplorer.coop,68.9,accessibility (C1=25) | mods: M1+10+M3+4
+91,MapIt,https://mapit.mysociety.org,68.9,accessibility (C1=25) | mods: M1+10+M3+4
+92,UK Policy Dojo,https://github.com/mikekelly/policy-dojo,68.4,legibility+agency (C3=24) | mods: M_AGENCY+8
+93,Community Notes (Birdwatch) Analysis Tool,https://github.com/travisbrown/birdwatch,67.7,AI/tech infrastructure (C6=25) | mods: M_AGENCY+8
+94,Landlord Tech Watch,https://antievictionmappingproject.github.io/landlordtech,67.2,accessibility (C1=25) | mods: M3+4
+95,OpenElections Leaflet Scraper and Parser,https://github.com/thicknavyrain/uk_elections_leaflets,67.0,AI/tech infrastructure (C6=25) | mods: M_AGENCY+8
+96,Creative Commons,https://creativecommons.org,66.9,AI/tech infrastructure (C6=25) | mods: M1+10
+97,Ushahidi,https://www.ushahidi.com,66.9,AI/tech infrastructure (C6=25) | mods: M1+10
+98,Full Fact AI,https://fullfact.org/ai,66.6,accessibility (C1=30) | mods: M1+5+M3+4
+99,MP Twitter Bios,https://www.mptwitterbios.co.uk,66.5,accessibility (C1=25) | mods: M3+4
+100,Constitute Project,https://constituteproject.org,66.3,mods: M_AGENCY+8
+101,OpenProcurement,https://openprocurement.io,66.3,mods: M_AGENCY+8
+102,Humanitarian OpenStreetMap Team (HOT),https://www.hotosm.org,65.9,accessibility (C1=25) | mods: M1+5+M3+4
+103,sourceAFRICA,https://sourceafrica.net,65.6,AI/tech infrastructure (C6=25) | mods: M_AGENCY+8
+104,ODK (Open Data Kit),https://getodk.org,65.5,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+12+M1+5+M2-14
+105,Ladder Hub,https://ladderhub.org/,65.2,accessibility (C1=30) | mods: M1+5+M3+4
+106,Kialo,https://kialo.com,65.2,accessibility (C1=25) | mods: M1+5+M3+4
+107,Relational Tech Project,https://relationaltechproject.org,64.7,mods: M1+5
+108,Neighbourhood Warmth,https://www.mysociety.org/climate/neighbourhood-warmth,63.9,accessibility (C1=25) | mods: M1+5+M3+4
+109,Frankenstein Bill,https://gordonguthrie.github.io/frankensteinbill,63.6,mods: M_AGENCY+8
+110,Teaching Public Service in the Digital Age,https://www.teachingpublicservice.digital,62.9,AI/tech infrastructure (C6=22) | mods: M_AGENCY+8
+111,openparliament.ca,https://openparliament.ca/,62.9,mods: M_AGENCY+8
+112,dDocs,https://ddocs.new/,62.6,mods: M1+5
+113,Principles for Public Participation in Procurement of AI,https://p4ai.net,62.6,mods: M1+5
+114,Open Access – Transparency International UK,https://openaccess.transparency.org.uk,62.3,AI/tech infrastructure (C6=25); accessibility (C1=25) | mods: M3+4
+115,Anna's Archive,https://annas-archive.pm,62.2,AI/tech infrastructure (C6=22) | mods: M_AGENCY+8
+116,Moral Machine,https://moralmachine.net,60.9,accessibility (C1=25); legibility+agency (C3=28) | mods: M3+4
+117,Democracy Fund Open Source,https://www.dfos.com,60.6,mods: M1+5
+118,CivicPress,https://civicpress.io/,60.1,AI/tech infrastructure (C6=22) | mods: M_AGENCY+8
+119,Fundación Ciudadanía Inteligente,https://ciudadaniai.org,60.0,mods: M1+10
+120,The Data Trusts Initiative,https://datatrusts.uk,60.0,mods: M1+10
+121,Idealist,https://idealist.org,59.6,AI/tech infrastructure (C6=22); accessibility (C1=25) | mods: M3+4
+122,Cortico,https://cortico.ai/platform,59.2,AI/tech infrastructure (C6=25) | mods: M1+5
+123,Open Ownership,https://www.openownership.org,59.2,AI/tech infrastructure (C6=25) | mods: M1+5
+124,Consent-O-Matic,https://github.com/cavi-au/consent-o-matic,59.0,AI/tech infrastructure (C6=25)
+125,VFRAME,https://vframe.io,58.6,AI/tech infrastructure (C6=25) | mods: M1+10
+126,Modular Politics,https://arxiv.org/abs/2005.13701,58.5,AI/tech infrastructure (C6=25) | mods: M1+5
+127,RxC Quadratic Voting,https://quadraticvote.radicalxchange.org,58.3,No strong signals
+128,WhatDoTheyKnow,https://www.whatdotheyknow.com,58.3,No strong signals
+129,Give Food,https://www.givefood.org.uk,57.9,mods: M1+10
+130,ShineYourEye,https://www.shineyoureye.org,57.8,AI/tech infrastructure (C6=25) | mods: M1+5
+131,Activist Handbook,https://activisthandbook.org/,57.8,mods: M1+5
+132,docs.plus,https://docs.plus,57.6,No strong signals
+133,Pastecal,https://github.com/kazad/pastecal,57.6,No strong signals
+134,PlaceCal,https://github.com/geeksforsocialchange/placecal,57.6,No strong signals
+135,Spacetube,https://spacetu.be,57.6,No strong signals
+136,Citizens Advice Tableau Public Profile,https://public.tableau.com/app/profile/citizensadvice/vizzes,57.5,AI/tech infrastructure (C6=25); accessibility (C1=25) | mods: M3+4
+137,Pageviews Analysis,https://pageviews.wmcloud.org,57.3,mods: M_AGENCY+8
+138,Tactical Data Engagement,https://communities.sunlightfoundation.com/methodology,57.0,accessibility (C1=30) | mods: M3+7
+139,OpenCRVS,https://www.opencrvs.org,57.0,mods: M3+7
+140,Prolific,https://www.prolific.com,56.8,AI/tech infrastructure (C6=25); accessibility (C1=25) | mods: M3+4
+141,Society for Hopeful Technologists,https://societyforhopefultechnologists.org,56.5,mods: M1+10
+142,Radicle,https://radicle.xyz,56.2,AI/tech infrastructure (C6=25)
+143,Stanford Participatory Budgeting Platform,https://github.com/stanfordcdt/pb,56.2,No strong signals
+144,Turn2us Benefits Calculator,https://benefits-calculator.turn2us.org.uk,56.1,accessibility (C1=30) | mods: M3+4
+145,Papertree,https://www.papertree.earth,55.6,AI/tech infrastructure (C6=25)
+146,Rahvaalgatus,https://github.com/rahvaalgatus/rahvaalgatus,55.6,No strong signals
+147,Participedia,https://participedia.net,55.6,No strong signals
+148,Theft Bisect,https://onodi.co/bisect/,55.6,No strong signals
+149,Mastodon C,https://www.mastodonc.com,55.4,accessibility (C1=25) | mods: M3+4
+150,postcodes.io,https://github.com/ideal-postcodes/postcodes.io,55.2,mods: M_AGENCY+8
+151,The Circuit,https://thecircuit.cc,55.0,AI/tech infrastructure (C6=25) | mods: M1+5
+152,Agreement Engine,https://medium.com/metagov/introducing-the-agreement-engine-bf03b6d5c16c,54.9,No strong signals
+153,Hand-Written Petition Scanner,https://hand-written-petition-scanner.streamlit.app,54.7,accessibility (C1=25) | mods: M3+4
+154,Manifold Markets,https://manifold.markets,54.7,accessibility (C1=25) | mods: M3+4
+155,OpenSanctions,https://www.opensanctions.org,54.4,AI/tech infrastructure (C6=25) | mods: M1+10
+156,Interoperable Deliberative Tools,https://metagov.org/projects/interop,54.3,mods: M1+5
+157,Membership,https://medium.com/@abscond/membership-a-prototype-ea822b2683b,54.2,No strong signals
+158,Entitledto,https://entitledto.co.uk,54.0,accessibility (C1=30) | mods: M3+4
+159,GreenPT,https://greenpt.ai/,54.0,AI/tech infrastructure (C6=25); accessibility (C1=25) | mods: M3+4
+160,Local Intelligence Hub,https://www.localintelligencehub.com,53.3,accessibility (C1=25) | mods: M3+4
+161,Marks Out Of Tenancy,https://www.marksoutoftenancy.com,53.3,accessibility (C1=25) | mods: M3+4
+162,Members' Interests,https://membersinterests.org.uk,53.3,accessibility (C1=25) | mods: M3+4
+163,Missing Numbers,https://missingnumbers.org,53.3,accessibility (C1=25) | mods: M3+4
+164,Agencies for Good,https://www.agenciesforgood.org,53.1,mods: M1+10
+165,New_ Public Roundabout,https://newpublic.substack.com/p/introducing-roundabout-built-for,53.1,mods: M1+10
+166,Campaign Tracker,https://www.campaigntracker.nl/en,52.9,mods: M1+5
+167,Parti,https://parti.xyz,52.9,mods: M1+5
+168,Watch Duty,https://www.watchduty.org,52.9,mods: M1+5
+169,CrowdJustice,https://www.crowdjustice.com,52.8,AI/tech infrastructure (C6=22)
+170,Mapped,https://mapped.commonknowledge.coop,52.6,accessibility (C1=25) | mods: M3+4
+171,Open Data Communities,https://opendatacommunities.org,52.6,accessibility (C1=25) | mods: M3+4
+172,UK Parliament Developer Portal,https://developer.parliament.uk,52.6,accessibility (C1=25) | mods: M3+4
+173,Dunadyne,https://dunadyne.org,52.2,mods: M1+5
+174,Open Contracting Partnership,https://www.open-contracting.org,52.2,mods: M1+5
+175,Martus,https://www.martus.org,52.1,No strong signals
+176,semanticClimate,https://semanticclimate.github.io,52.1,No strong signals
+177,youtube-dl,https://github.com/ytdl-org/youtube-dl,52.1,No strong signals
+178,arXiv,https://arxiv.org,51.7,mods: M1+10
+179,The List,https://the-list.uk,51.4,AI/tech infrastructure (C6=25)
+180,Bluesky,https://bsky.app,51.0,mods: M1+10
+181,Kagi SlopStop,https://blog.kagi.com/slopstop,51.0,mods: M1+10
+182,Responsible Tech Guide 2025,https://alltechishuman.org/responsible-tech-guide-2025,50.7,AI/tech infrastructure (C6=25)
+183,In the news,https://en.wikipedia.org/wiki/wikipedia:in_the_news,50.7,AI/tech infrastructure (C6=22)
+184,GOV.UK Forms,https://www.forms.service.gov.uk,50.5,accessibility (C1=25) | mods: M3+4
+185,Aragon,https://aragon.org,50.3,mods: M1+10
+186,AlgorithmWatch,https://algorithmwatch.org,50.2,AI/tech infrastructure (C6=25) | mods: M1+10+M2-14
+187,ОПОРА (Opora),https://www.oporaua.org,50.1,mods: M1+5
+188,Vote for Policies,https://voteforpolicies.org.uk,50.1,mods: M1+5
+189,Beckton,https://richardpope.org/2017/03/05/beckton-a-tool-to-build,50.0,No strong signals
+190,Sugartrail,https://github.com/ribenamaplesyrup/sugartrail,50.0,No strong signals
+191,SecureDrop,https://securedrop.org,50.0,No strong signals
+192,Wikidata,https://www.wikidata.org,50.0,No strong signals
+193,FarmerChat,https://farmerchat.digitalgreen.org,49.8,accessibility (C1=30) | mods: M3+4
+194,Nyaaya,https://nyaaya.org,49.8,accessibility (C1=25) | mods: M3+4
+195,Political Advertising Transparency Data Standard,https://github.com/whotargetsme/ad-transparency-standards/blob/main/implement.md,49.6,mods: M_AGENCY+8+M2-14
+196,DAO Governance Surfaces,https://github.com/notchia/dao-governance-surfaces,49.3,No strong signals
+197,Fission Codes,https://github.com/fission-codes/fission-codes,49.3,No strong signals
+198,Pear by Holepunch,https://docs.holepunch.to,49.3,No strong signals
+199,Unpaywall Browser Extension,https://unpaywall.org/products/extension,49.3,No strong signals
+200,whatsmeow,https://github.com/tulir/whatsmeow,49.3,No strong signals
+201,FixMyBlock,https://fixmyblock.org,49.1,accessibility (C1=30) | mods: M3+4
+202,Journalist Studio,https://journaliststudio.google.com,49.1,accessibility (C1=25) | mods: M3+4
+203,CAN/DGSI 127 - Age Assurance Technologies Standard,https://dgc-cgn.org/product/can-dgsi-127/,48.6,AI/tech infrastructure (C6=25)
+204,Sci-Hub,https://sci-hub.se,47.9,AI/tech infrastructure (C6=25)
+205,Labour Xchange,https://labourxchange.uk,47.8,accessibility (C1=25) | mods: M3+4
+206,Local Insight,https://localinsight.org,47.8,accessibility (C1=25) | mods: M3+4
+207,CoTech,https://coops.tech,47.5,mods: M1+10
+208,Atlas of Surveillance,https://atlasofsurveillance.org,47.4,AI/tech infrastructure (C6=25) | mods: M1+10+M2-14
+209,django-collaborative,https://github.com/propublica/django-collaborative,47.2,No strong signals
+210,OSINT Framework,https://osintframework.com,47.2,AI/tech infrastructure (C6=22)
+211,Global Fact-Check Bot (GFC),https://globalfactcheck.bot/,46.8,mods: M1+10
+212,The Accountability Project,https://publicaccountability.org,46.5,AI/tech infrastructure (C6=25)
+213,CharmVerse,https://charmverse.io/,45.8,AI/tech infrastructure (C6=22)
+214,Mapping.kids,https://mapping.kids,45.8,AI/tech infrastructure (C6=22)
+215,ORCID,https://orcid.org,45.3,mods: M1+5
+216,GOV.UK One Login,https://www.sign-in.service.gov.uk,45.0,accessibility (C1=25) | mods: M3+4
+217,Parliament Watch Uganda,https://parliamentwatch.ug/,44.4,AI/tech infrastructure (C6=25)
+218,Go Vocal,https://www.govocal.com,44.4,No strong signals
+219,Open Letter,https://openletter.earth,44.4,No strong signals
+220,OpenBudgets.eu,https://openbudgets.eu,44.4,No strong signals
+221,Strike Map,https://strikemap.org,44.4,No strong signals
+222,Talk to the City,https://talktothecity.org,44.4,No strong signals
+223,UrbanistAI,https://site.urbanistai.com,44.4,No strong signals
+224,Keep It In The Community,https://plunkett.my.site.com/keepitinthecommunity/s,43.9,mods: M1+5
+225,Granitt,https://granitt.io,43.8,AI/tech infrastructure (C6=22)
+226,Discourse,https://www.discourse.org,43.8,No strong signals
+227,MyActionCenter,https://www.myaction.center,43.8,No strong signals
+228,WardWatch,https://wardwatch.uk,43.8,No strong signals
+229,UK Housing Data Standards,https://hact.org.uk/tools-and-services/uk-housing-data-standards,43.1,No strong signals
+230,meet.coop,https://www.meet.coop,42.5,mods: M1+10+M2-14
+231,Consciousness Evolution Operating System (ConSoc),https://www.consoc.io,42.5,mods: M1+5
+232,Dovetail,https://dovetail.network,42.5,mods: M1+5
+233,Community Tech,https://www.communitytech.network,42.4,No strong signals
+234,Find local consultations,https://gov.uk/find-local-consultations,42.4,No strong signals
+235,FixMyStreet,https://www.fixmystreet.com,42.4,No strong signals
+236,GovTrack.us,https://www.govtrack.us,42.4,No strong signals
+237,Monitor Mamdani,https://monitormamdani.com/,42.4,No strong signals
+238,MP Watch,https://www.mpwatch.org,42.4,No strong signals
+239,Objector.ai,https://objector.ai,42.4,No strong signals
+240,Open Council Data UK,https://opencouncildata.co.uk,42.4,No strong signals
+241,Organise,https://www.organise.org.uk,42.4,No strong signals
+242,Right To Know,https://right-to-know.org,42.4,No strong signals
+243,River Sentiment Dashboard,https://riversentiment.app,42.4,No strong signals
+244,The Commons Social Change Library,https://commonslibrary.org,42.4,No strong signals
+245,The Guide to Major Trusts 2025/26,https://www.dsc.org.uk/publication/the-guide-to-major-trusts-2025-26/,42.4,No strong signals
+246,TheyWorkForYou,https://www.theyworkforyou.com,42.4,No strong signals
+247,Timecounts,https://timecounts.org,42.4,No strong signals
+248,Turbo Phonebank,https://turbophonebank.com,42.4,No strong signals
+249,Violation Tracker UK,https://violationtrackeruk.goodjobsfirst.org,42.4,No strong signals
+250,WriteToThem,https://www.writetothem.com,42.4,No strong signals
+251,Esper,https://esper.com/product,42.4,No strong signals
+252,CivicMatch,https://civicmatch.app,41.7,AI/tech infrastructure (C6=25)
+253,Civic Tech Field Guide,https://civictech.guide,41.7,No strong signals
+254,Harmonica,https://harmonica.chat/,41.7,No strong signals
+255,Overton,https://overton.io,41.7,No strong signals
+256,User Research Library,https://research.localgov.digital,41.7,No strong signals
+257,Who Targets Me Trends,https://trends.whotargets.me,41.4,AI/tech infrastructure (C6=25) | mods: M_AGENCY-8+M1+5
+258,Gender Pay Gap Service,https://gender-pay-gap.service.gov.uk,41.0,AI/tech infrastructure (C6=25)
+259,Worker Info Exchange,https://www.workerinfoexchange.org,41.0,mods: M1+5+M2-14
+260,Collaborative Data Patterns,https://collaborative-data.theodi.org,41.0,No strong signals
+261,Deliberation & Technology (DelibTech) Network,https://www.demnext.org/projects/delibtech-network,41.0,No strong signals
+262,Nestr,https://nestr.io,41.0,No strong signals
+263,We Live It,https://www.welivedit.ai,41.0,No strong signals
+264,Wikum,https://www.csail.mit.edu/research/wikum-bridging-discussion-systems-and-wikis-collective-summarization,41.0,No strong signals
+265,PlanIT,https://planit.org.uk,40.5,accessibility (C1=25) | mods: M_AGENCY-10+M3+4
+266,Nook CRM,https://nookcrm.com,40.3,AI/tech infrastructure (C6=25)
+267,Choose a License,https://choosealicense.com,40.3,AI/tech infrastructure (C6=22)
+268,Empurrando Juntas (EJ),https://sobre.ejparticipe.org,40.3,No strong signals
+269,OpenAudience,https://openaudience.org,40.3,No strong signals
+270,PostBug,https://postbug.com,40.3,No strong signals
+271,Remember to Vote,https://remembertovote.org.uk,40.3,No strong signals
+272,GovWise,https://www.govwise.ai/en,39.6,No strong signals
+273,Libertrium,https://liberopinion.com,39.6,No strong signals
+274,Viewpoints,https://viewpoints.xyz,39.6,No strong signals
+275,WorkInCharities,https://www.workincharities.co.uk,39.6,No strong signals
+276,OA.Report,https://oa.report,39.6,No strong signals
+277,Parallel Parliament,https://www.parallelparliament.co.uk,39.6,AI/tech infrastructure (C6=22)
+278,PolicyMogul,https://policymogul.com,39.6,AI/tech infrastructure (C6=22)
+279,Charity Digital Skills Report,https://charitydigitalskills.co.uk,39.6,AI/tech infrastructure (C6=22)
+280,Privacy Badger,https://privacybadger.org,39.5,mods: M2-14
+281,Objector.ai,https://www.objector.ai,38.9,No strong signals
+282,Parse The Bill,https://parsethebill.com,38.9,No strong signals
+283,AISafety.info,https://aisafety.info,38.2,No strong signals
+284,Digital Account Management Toolkit,https://digitalcharitylab.org/product/digital-account-management-toolkit,38.2,No strong signals
+285,DoGooder,https://dogooder.co,38.2,No strong signals
+286,DoNotPay,https://www.donotpay.com,38.2,No strong signals
+287,Riseup,https://riseup.net,38.2,No strong signals
+288,The Decelerator,https://decelerator.org.uk,37.5,AI/tech infrastructure (C6=22)
+289,,https://tracking-template-38b4c.web.app,36.8,AI/tech infrastructure (C6=22) | mods: underdog_floor
+290,Unknown Academic Paper (SSRN 5351275),https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5351275,36.8,AI/tech infrastructure (C6=22) | mods: underdog_floor
+291,Unknown,,36.8,AI/tech infrastructure (C6=22) | mods: underdog_floor
+292,Conservative Party Funding,https://conservativepartyfunding.co.uk,36.8,No strong signals
+293,PoliMonitor,https://www.polimonitor.com,36.8,AI/tech infrastructure (C6=22)
+294,CiviClick,https://civiclick.com,36.8,No strong signals
+295,Spartacus,https://spartacus.app,36.8,No strong signals
+296,Granicus,https://granicus.com/uk,36.1,No strong signals
+297,Local Deep Researcher,https://local-deep-researcher-hnmh.vercel.app/,36.1,No strong signals
+298,DeepSeek-V3,https://github.com/deepseek-ai/deepseek-v3,35.4,No strong signals
+299,DemTech Navigator,https://navigator.oii.ox.ac.uk,35.4,No strong signals
+300,Fatebook,https://fatebook.io,35.4,No strong signals
+301,Filmot,https://filmot.com,35.4,No strong signals
+302,OpenOrigins,https://www.openorigins.com,35.4,No strong signals
+303,Public Editor,https://www.publiceditor.io,35.4,No strong signals
+304,Public Media Stack,https://publicmediastack.com,35.4,No strong signals
+305,Registers and collaboration: making lists we can trust,https://theodi.org/insights/reports/registers-and-collaboration-making-lists-we-can-trust-report,35.4,No strong signals
+306,Urbit,https://urbit.org,35.4,No strong signals
+307,COTSI (Cyber Operational Threat Situational Intelligence),https://cotsi.org/,35.4,AI/tech infrastructure (C6=25)
+308,Plausible Analytics,https://plausible.io,35.4,AI/tech infrastructure (C6=25)
+309,GOV Reuse Library,https://dev.reuselibrary.service.justice.gov.uk/,34.0,No strong signals
+310,GOV.UK Notify,https://www.notifications.service.gov.uk,34.0,No strong signals
+311,GOV.UK Pay,https://www.payments.service.gov.uk,34.0,No strong signals
+312,GrantNav,https://grantnav.threesixtygiving.org,34.0,No strong signals
+313,Plinth,https://www.plinth.org.uk,34.0,No strong signals
+314,Polimorphic,https://www.polimorphic.com,34.0,No strong signals
+315,Service Manual,https://www.gov.uk/service-manual,34.0,No strong signals
+316,Understanding Your Morality,https://programs.clearerthinking.org/understanding-your-morality/,34.0,No strong signals
+317,Collab.Land,https://collab.land,33.3,No strong signals
+318,Who Posted What?,https://whopostedwhat.com,33.3,No strong signals
+319,RightDD,https://www.rightsdd.com,28.5,No strong signals
+320,Whoisology,https://whoisology.com,27.1,No strong signals
+321,Shared Digital Guides,https://www.shareddigitalguides.org.uk,26.4,No strong signals
+322,Yoti,https://www.yoti.com,11.7,mods: M2-14

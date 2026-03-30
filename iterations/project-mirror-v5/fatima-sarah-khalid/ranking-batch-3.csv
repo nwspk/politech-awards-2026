@@ -1,0 +1,81 @@
+rank,project_name,url,score,rationale
+162,Members' Interests,https://membersinterests.org.uk,53.3,accessibility (C1=25) | mods: M3+4
+163,Missing Numbers,https://missingnumbers.org,53.3,accessibility (C1=25) | mods: M3+4
+164,Agencies for Good,https://www.agenciesforgood.org,53.1,mods: M1+10
+165,New_ Public Roundabout,https://newpublic.substack.com/p/introducing-roundabout-built-for,53.1,mods: M1+10
+166,Campaign Tracker,https://www.campaigntracker.nl/en,52.9,mods: M1+5
+167,Parti,https://parti.xyz,52.9,mods: M1+5
+168,Watch Duty,https://www.watchduty.org,52.9,mods: M1+5
+169,CrowdJustice,https://www.crowdjustice.com,52.8,AI/tech infrastructure (C6=22)
+170,Mapped,https://mapped.commonknowledge.coop,52.6,accessibility (C1=25) | mods: M3+4
+171,Open Data Communities,https://opendatacommunities.org,52.6,accessibility (C1=25) | mods: M3+4
+172,UK Parliament Developer Portal,https://developer.parliament.uk,52.6,accessibility (C1=25) | mods: M3+4
+173,Dunadyne,https://dunadyne.org,52.2,mods: M1+5
+174,Open Contracting Partnership,https://www.open-contracting.org,52.2,mods: M1+5
+175,Martus,https://www.martus.org,52.1,No strong signals
+176,semanticClimate,https://semanticclimate.github.io,52.1,No strong signals
+177,youtube-dl,https://github.com/ytdl-org/youtube-dl,52.1,No strong signals
+178,arXiv,https://arxiv.org,51.7,mods: M1+10
+179,The List,https://the-list.uk,51.4,AI/tech infrastructure (C6=25)
+180,Bluesky,https://bsky.app,51.0,mods: M1+10
+181,Kagi SlopStop,https://blog.kagi.com/slopstop,51.0,mods: M1+10
+182,Responsible Tech Guide 2025,https://alltechishuman.org/responsible-tech-guide-2025,50.7,AI/tech infrastructure (C6=25)
+183,In the news,https://en.wikipedia.org/wiki/wikipedia:in_the_news,50.7,AI/tech infrastructure (C6=22)
+184,GOV.UK Forms,https://www.forms.service.gov.uk,50.5,accessibility (C1=25) | mods: M3+4
+185,Aragon,https://aragon.org,50.3,mods: M1+10
+186,AlgorithmWatch,https://algorithmwatch.org,50.2,AI/tech infrastructure (C6=25) | mods: M1+10+M2-14
+187,ОПОРА (Opora),https://www.oporaua.org,50.1,mods: M1+5
+188,Vote for Policies,https://voteforpolicies.org.uk,50.1,mods: M1+5
+189,Beckton,https://richardpope.org/2017/03/05/beckton-a-tool-to-build,50.0,No strong signals
+190,Sugartrail,https://github.com/ribenamaplesyrup/sugartrail,50.0,No strong signals
+191,SecureDrop,https://securedrop.org,50.0,No strong signals
+192,Wikidata,https://www.wikidata.org,50.0,No strong signals
+193,FarmerChat,https://farmerchat.digitalgreen.org,49.8,accessibility (C1=30) | mods: M3+4
+194,Nyaaya,https://nyaaya.org,49.8,accessibility (C1=25) | mods: M3+4
+195,Political Advertising Transparency Data Standard,https://github.com/whotargetsme/ad-transparency-standards/blob/main/implement.md,49.6,mods: M_AGENCY+8+M2-14
+196,DAO Governance Surfaces,https://github.com/notchia/dao-governance-surfaces,49.3,No strong signals
+197,Fission Codes,https://github.com/fission-codes/fission-codes,49.3,No strong signals
+198,Pear by Holepunch,https://docs.holepunch.to,49.3,No strong signals
+199,Unpaywall Browser Extension,https://unpaywall.org/products/extension,49.3,No strong signals
+200,whatsmeow,https://github.com/tulir/whatsmeow,49.3,No strong signals
+201,FixMyBlock,https://fixmyblock.org,49.1,accessibility (C1=30) | mods: M3+4
+202,Journalist Studio,https://journaliststudio.google.com,49.1,accessibility (C1=25) | mods: M3+4
+203,CAN/DGSI 127 - Age Assurance Technologies Standard,https://dgc-cgn.org/product/can-dgsi-127/,48.6,AI/tech infrastructure (C6=25)
+204,Sci-Hub,https://sci-hub.se,47.9,AI/tech infrastructure (C6=25)
+205,Labour Xchange,https://labourxchange.uk,47.8,accessibility (C1=25) | mods: M3+4
+206,Local Insight,https://localinsight.org,47.8,accessibility (C1=25) | mods: M3+4
+207,CoTech,https://coops.tech,47.5,mods: M1+10
+208,Atlas of Surveillance,https://atlasofsurveillance.org,47.4,AI/tech infrastructure (C6=25) | mods: M1+10+M2-14
+209,django-collaborative,https://github.com/propublica/django-collaborative,47.2,No strong signals
+210,OSINT Framework,https://osintframework.com,47.2,AI/tech infrastructure (C6=22)
+211,Global Fact-Check Bot (GFC),https://globalfactcheck.bot/,46.8,mods: M1+10
+212,The Accountability Project,https://publicaccountability.org,46.5,AI/tech infrastructure (C6=25)
+213,CharmVerse,https://charmverse.io/,45.8,AI/tech infrastructure (C6=22)
+214,Mapping.kids,https://mapping.kids,45.8,AI/tech infrastructure (C6=22)
+215,ORCID,https://orcid.org,45.3,mods: M1+5
+216,GOV.UK One Login,https://www.sign-in.service.gov.uk,45.0,accessibility (C1=25) | mods: M3+4
+217,Parliament Watch Uganda,https://parliamentwatch.ug/,44.4,AI/tech infrastructure (C6=25)
+218,Go Vocal,https://www.govocal.com,44.4,No strong signals
+219,Open Letter,https://openletter.earth,44.4,No strong signals
+220,OpenBudgets.eu,https://openbudgets.eu,44.4,No strong signals
+221,Strike Map,https://strikemap.org,44.4,No strong signals
+222,Talk to the City,https://talktothecity.org,44.4,No strong signals
+223,UrbanistAI,https://site.urbanistai.com,44.4,No strong signals
+224,Keep It In The Community,https://plunkett.my.site.com/keepitinthecommunity/s,43.9,mods: M1+5
+225,Granitt,https://granitt.io,43.8,AI/tech infrastructure (C6=22)
+226,Discourse,https://www.discourse.org,43.8,No strong signals
+227,MyActionCenter,https://www.myaction.center,43.8,No strong signals
+228,WardWatch,https://wardwatch.uk,43.8,No strong signals
+229,UK Housing Data Standards,https://hact.org.uk/tools-and-services/uk-housing-data-standards,43.1,No strong signals
+230,meet.coop,https://www.meet.coop,42.5,mods: M1+10+M2-14
+231,Consciousness Evolution Operating System (ConSoc),https://www.consoc.io,42.5,mods: M1+5
+232,Dovetail,https://dovetail.network,42.5,mods: M1+5
+233,Community Tech,https://www.communitytech.network,42.4,No strong signals
+234,Find local consultations,https://gov.uk/find-local-consultations,42.4,No strong signals
+235,FixMyStreet,https://www.fixmystreet.com,42.4,No strong signals
+236,GovTrack.us,https://www.govtrack.us,42.4,No strong signals
+237,Monitor Mamdani,https://monitormamdani.com/,42.4,No strong signals
+238,MP Watch,https://www.mpwatch.org,42.4,No strong signals
+239,Objector.ai,https://objector.ai,42.4,No strong signals
+240,Open Council Data UK,https://opencouncildata.co.uk,42.4,No strong signals
+241,Organise,https://www.organise.org.uk,42.4,No strong signals
