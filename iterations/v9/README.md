@@ -1,6 +1,6 @@
 ---
 title: "Contestable transparency — D1–D8 rubric, three jurors, auditable evidence"
-author: "@nwspk"
+author: "@alecsandrac"
 date: "2026-03-28"
 pr_url: ""
 version: v9
