@@ -1,11 +1,11 @@
 ---
-title: "v7: Davit-aligned political relevance heuristic"
-author: "@sugaroverflow"
+title: "Davit-aligned political relevance heuristic"
+author: "@davit-jintcharadze"
 date: "2026-03-28"
 pr_url: "https://github.com/nwspk/politech-awards-2026/pull/20"
 version: v7
 pr_number: 20
-pr_status: "open"
+pr_status: "merged"
 top_project:
   name: "expo.diia.gov.ua"
   url: "https://expo.diia.gov.ua"

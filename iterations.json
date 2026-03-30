@@ -170,12 +170,12 @@
   },
   {
     "version": "v7",
-    "title": "v7: Davit-aligned political relevance heuristic",
+    "title": "Davit-aligned political relevance heuristic",
     "date": "2026-03-28",
-    "author": "@sugaroverflow",
+    "author": "@davit-jintcharadze",
     "pr_number": 20,
     "pr_url": "https://github.com/nwspk/politech-awards-2026/pull/20",
-    "pr_status": "open",
+    "pr_status": "merged",
     "top_project": {
       "name": "expo.diia.gov.ua",
       "url": "https://expo.diia.gov.ua",
@@ -200,9 +200,9 @@
     "author": "@Gamithra",
     "pr_number": 41,
     "pr_url": "https://github.com/nwspk/politech-awards-2026/pull/41",
-    "pr_status": "open",
+    "pr_status": "merged",
     "top_project": {
-      "name": "blog.kagi.com/slopstop",
+      "name": "blog.kagi.com",
       "url": "https://blog.kagi.com/slopstop",
       "score": 99
     },

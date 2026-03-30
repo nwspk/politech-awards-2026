@@ -12,8 +12,8 @@ Canonical full iteration history for `/awards` rendering. Generated from `iterat
 | v4 | 2026-02-13 | @jcoombes | merged | Base score (50) + inclusion bonus (URL keywords) − fetch-failure penalty (10) + AI-body bonus (up to 15). Uses cached page fetches to penalise dead/inaccessible sites and reward projects whose page content mentions AI governance, safety, or policy keywords. | [v4](https://github.com/nwspk/politech-awards-2026/pull/9) | [entry](#v4-ai-governance-body-bonus) |
 | v5 | 2026-02-22 | @Gamithra | merged | Three-agent ITN/A deliberation: independent AI evaluators assess each project through political, relational, and experimental personas on 4 different lenses, argue in multi-turn conversation, and produce a ranked shortlist. | [v5](https://github.com/nwspk/politech-awards-2026/pull/12) | [entry](#v5-three-agent-itn-a-deliberation) |
 | v6 | 2026-03-09 | @sugaroverflow | open | This heuristic inherits the approach in [v5: ITN/A multi-agent deliberation heuristic](https://github.com/nwspk/politech-awards-2026/pull/12) with **6 independent AI juries** that run an ITN/A deliberation on a shortlist of 183 projects. The jury with the highest confidence score picks the project winner. | [v6](https://github.com/nwspk/politech-awards-2026/pull/15) | [entry](#v6-six-jury-itn-a-deliberation) |
-| v7 | 2026-03-28 | @sugaroverflow | open | Scores and filters projects based on Davit's eight evaluation criteria: | [v7](https://github.com/nwspk/politech-awards-2026/pull/20) | [entry](#v7-v7-davit-aligned-political-relevance-heuristic) |
-| v8 | 2026-03-27 | @Gamithra | open | This iteration keeps the **v5 ITN/A architecture**: Grok 4.1 Fast assesses every candidate on political, relational, and experimental lenses, then a facilitator-led multi-agent deliberation scores and argues over a **shortlist** of projects that cleared a green threshold on those assessments. | [v8](https://github.com/nwspk/politech-awards-2026/pull/41) | [entry](#v8-itn-a-grok-re-run-with-awards-bonuses-effective-score-alignment) |
+| v7 | 2026-03-28 | @davit-jintcharadze | merged | Scores and filters projects based on Davit's eight evaluation criteria: | [v7](https://github.com/nwspk/politech-awards-2026/pull/20) | [entry](#v7-davit-aligned-political-relevance-heuristic) |
+| v8 | 2026-03-27 | @Gamithra | merged | This iteration keeps the **v5 ITN/A architecture**: Grok 4.1 Fast assesses every candidate on political, relational, and experimental lenses, then a facilitator-led multi-agent deliberation scores and argues over a **shortlist** of projects that cleared a green threshold on those assessments. | [v8](https://github.com/nwspk/politech-awards-2026/pull/41) | [entry](#v8-itn-a-grok-re-run-with-awards-bonuses-effective-score-alignment) |
 | v9 | 2026-03-28 | @nwspk | open | **Evaluation:** `npx tsx scripts/alexandra/alexandra-eval.ts` — each juror returns integers 1–5 for D1–D8 plus an `evidence[]` array (URL, quote, source type) per the prompt. Context = **enriched dossier** (`data/enriched/*.json`) + **cached page text** (`cache/sites.sqlite`), same spirit as `itn-a-eval.ts`. **Speed:** `--concurrency N` (e.g. `8`) runs N URLs in parallel; `--call-delay-ms 0` removes pauses between calls if your OpenRouter tier tolerates it (default `800`). | n/a | [entry](#v9-contestable-transparency-d1-d8-rubric-three-jurors-auditable-evidence) |
 | v10 | 2026-03-29 | @sugaroverflow | open | Three **independent** LLM jurors (Grok, Claude, Kimi via OpenRouter) each score every candidate on **D1–D8** using the **Award A** weighted rubric in `docs/evaluation/alexandra-rubric.md`. Each juror returns integers **1–5** per dimension plus an **`evidence[]`** array (URL, quote, source type). **Aggregation** takes medians per dimension and a **median weighted composite** (`median_composite` on 1–5); dimensions with **max−min ≥ 2** across jurors are flagged as controversial. **`SCORING_MODE=v9 npx tsx the-algorithm.ts`** maps `median_composite × 20` to **20–100** for the public leaderboard; URLs missing from the aggregate score **5**. This is a **parallel numeric track** to ITN/A — it does **not** replace green/yellow deliberation. | [v10](https://github.com/nwspk/politech-awards-2026/pull/89) | [entry](#v10-three-independent-llm-jurors-grok-claude-kimi-via-openrouter-each-score) |
 
@@ -145,10 +145,10 @@ Ships the **documentation + scripts + aggregate + optional `the-algorithm.ts` mo
 ### v8 ITN/A Grok re-run with awards bonuses + effective-score alignment
 
 - **PR**: [v8](https://github.com/nwspk/politech-awards-2026/pull/41)
-- **Status**: open
+- **Status**: merged
 - **Author**: @Gamithra
 - **Date**: 2026-03-27
-- **Top project**: [blog.kagi.com/slopstop](https://blog.kagi.com/slopstop) (score: 99)
+- **Top project**: [blog.kagi.com](https://blog.kagi.com/slopstop) (score: 99)
 
 #### Heuristic
 
@@ -197,11 +197,11 @@ Worth comparing to **v5** (single Grok, no bonuses) and **v6** (six juries, conf
 
 ---
 
-### v7 v7: Davit-aligned political relevance heuristic
+### v7 Davit-aligned political relevance heuristic
 
 - **PR**: [v7](https://github.com/nwspk/politech-awards-2026/pull/20)
-- **Status**: open
-- **Author**: @sugaroverflow
+- **Status**: merged
+- **Author**: @davit-jintcharadze
 - **Date**: 2026-03-28
 - **Top project**: [expo.diia.gov.ua](https://expo.diia.gov.ua) (score: 91)
 

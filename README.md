@@ -39,8 +39,8 @@ _Bot-maintained summary. Full records: [docs/logs/iterations-log.md](docs/logs/i
 | v4 | 2026-02-13 | merged | algorithmwatch.org | [v4](https://github.com/nwspk/politech-awards-2026/pull/9) | [entry](docs/logs/iterations-log.md) |
 | v5 | 2026-02-22 | merged | github.com | [v5](https://github.com/nwspk/politech-awards-2026/pull/12) | [entry](docs/logs/iterations-log.md) |
 | v6 | 2026-03-09 | open | algorithmwatch.org | [v6](https://github.com/nwspk/politech-awards-2026/pull/15) | [entry](docs/logs/iterations-log.md) |
-| v7 | 2026-03-28 | open | expo.diia.gov.ua | [v7](https://github.com/nwspk/politech-awards-2026/pull/20) | [entry](docs/logs/iterations-log.md) |
-| v8 | 2026-03-27 | open | blog.kagi.com/slopstop | [v8](https://github.com/nwspk/politech-awards-2026/pull/41) | [entry](docs/logs/iterations-log.md) |
+| v7 | 2026-03-28 | merged | expo.diia.gov.ua | [v7](https://github.com/nwspk/politech-awards-2026/pull/20) | [entry](docs/logs/iterations-log.md) |
+| v8 | 2026-03-27 | merged | blog.kagi.com | [v8](https://github.com/nwspk/politech-awards-2026/pull/41) | [entry](docs/logs/iterations-log.md) |
 | v9 | 2026-03-28 | open | www.torproject.org | — | [entry](docs/logs/iterations-log.md) |
 | v10 | 2026-03-29 | open | torproject.org | [v10](https://github.com/nwspk/politech-awards-2026/pull/89) | [entry](docs/logs/iterations-log.md) |
 
