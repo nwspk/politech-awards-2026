@@ -475,3 +475,76 @@ v10 (PR #90, branch `project-mirror-v2/committee-aggregation`) preserved as pre-
 **PR #100:** `project-mirror-v2/committee-aggregation-v11` — draft, base main. v11 CSV at `iterations/project-mirror-v2/committee-aggregation/committee-ranking-v11.csv`.
 
 **PR #90 comment added** linking to v11 as the post-iteration aggregate.
+
+---
+
+## Fatima Sarah Khalid — v3/v4/v5 reruns — 2026-03-30
+
+Fatima reviewed her v2 agent output and left feedback with updated weights and two framings. Three reruns produced on the same day.
+
+### Updated weights (all three runs)
+- C1 (Accessibility for excluded communities): 30 (was 20)
+- C2 (Open source + community governance): 30 (was 20)
+- C3 (Making gov/civic processes legible): 30 (was 20)
+- C4 (Inclusive community-building): 12 (unchanged)
+- C5 (Implementation maturity): 6 (was 12)
+- C6 (AI/tech as community infrastructure): 30 (was 12)
+- C7 (Cross-jurisdictional replicability): 6 (unchanged)
+
+### v3 — implementation-first (2026-03-30)
+
+**Winner: Decidim (82.8)**
+
+Implementation-first framing: prioritises systems with demonstrated real-world adoption at scale, government use, and measurable policy impact. New modifier M_IMPL (+8–12) rewards documented government/institutional adoption; C5 demoted to LOW to avoid double-counting with M_IMPL.
+
+Decidim rises from v2 rank 3 to rank 1, displacing CONSUL Democracy. Key differentiator: Decidim's democratic association model (community voting on roadmap) scores higher than CONSUL's certified-companies model under elevated C2 + M1.
+
+Notable movers: meet.coop (+169), Privacy Badger (+194), Matrix (+37) all rise with C6 promotion. Meta-resources (Civic Tech Field Guide, Commons Social Change Library) drop hard under M_IMPL.
+
+**Files:** `iterations/project-mirror-v3/fatima-sarah-khalid/`
+**PR:** [#109](https://github.com/nwspk/politech-awards-2026/pull/109) — draft
+
+### v5 — agency-first (2026-03-30)
+
+**Winner: Mastodon (100.0)**
+
+Agency-first framing: core question shifts from "how do people participate in systems?" to "how do people gain the capacity to shape, fork, and govern systems themselves?". New modifier M_AGENCY (+8–12) rewards forkable, locally re-governable systems; penalises platforms requiring institutional gatekeeping.
+
+Mastodon wins on tie-breaking over CONSUL Democracy (also 100.0) by C1=30 vs C1=25 — federated, self-hosted, explicitly serves marginalised communities. Talk to the City drops 188 places (AI not locally re-governable). GOV.UK One Login drops 185 (cannot be forked or exited).
+
+**Files:** `iterations/project-mirror-v5/fatima-sarah-khalid/`
+**PR:** [#108](https://github.com/nwspk/politech-awards-2026/pull/108) — draft
+
+### v4 — synthesis (2026-03-30)
+
+**Winner: Bonfire (avg score 89.8, v3 rank 4, v5 rank 9)**
+
+Synthesis pass compares v3 and v5 rankings. Two-axis classification: Agency (v5 rank as proxy) × Implementation (v3 rank as proxy) produces four quadrants: Proven Commons (119 projects, 37%), Promising Primitives (41, 13%), Captured Scale (40, 13%), Institutional Artifacts (119, 37%).
+
+Bonfire wins synthesis by being consistently strong in both framings. Mastodon (v5 rank 1) drops to synthesis rank 4 because its implementation evidence in civic/governmental contexts is thinner than Decidim. Decidim (v3 rank 1) drops to synthesis rank 3 because it scores lower under agency-first.
+
+Consensus top-12 (top 30 in both framings): Mastodon, CONSUL Democracy, CiviCRM, Aleph (OCCRP), HURIDOCS, Bonfire, Open Standards for Data Guidebook, Open Council Network, ClimateAction.Tech, mySociety Datasets and APIs, Decidim, adhocracy+.
+
+**Files:** `iterations/project-mirror-v4/fatima-sarah-khalid/`
+**PR:** [#110](https://github.com/nwspk/politech-awards-2026/pull/110) — draft
+
+---
+
+## Committee aggregation update — Fatima v3 scores — 2026-03-30
+
+v11 through v14 committee aggregation CSVs updated to replace Fatima's v2 scores with her v3 (implementation-first) scores. 18-member committee (14×v2 + 4×v3: Nicholas Botti, Huda Abdirahim, Alexandra Ciocanel, Fatima Sarah Khalid).
+
+**Note on member loading fix (2026-03-30):** An initial aggregation pass missed Chris Owen, Jamie Coombes, Francesca Galli, and Martina Orlea due to column name variations in their ranking CSVs (`project` vs `name`/`project_name`). This was identified and corrected; final aggregations include all 18 members.
+
+**Final results after correction:**
+
+| Aggregation | Winner | Key metric |
+|---|---|---|
+| v11 (mean) | LiquidFeedback | avg 65.45, stdev 14.95, n=18 |
+| v12 (median rank) | Open Data Editor (ODE) | median rank 14.0, n=18 |
+| v13 (most divisive) | AlgorithmWatch | stdev 22.92, mean 56.54 |
+| v14 (consensus) | Vote for Policies | stdev 6.5, mean 32.3 |
+
+**Fatima's LiquidFeedback score: v2=83.5 (rank 2) → v3=69.2 (rank 25).** Implementation-first framing rewards Decidim's democratic association governance model over LiquidFeedback's delegated voting model.
+
+**PRs updated:** #100 (v11), #104 (v12), #105 (v13), #107 (v14)
