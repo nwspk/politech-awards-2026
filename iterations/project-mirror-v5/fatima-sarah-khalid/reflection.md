@@ -1,86 +1,70 @@
-# Reflection: v5 vs v2
-## Evaluator: Fatima Sarah Khalid
-## Version: v5 | 2026-03-30
+# Reflection: v5 vs v2 — Fatima Sarah Khalid
+
+**Run:** v5 (agency-first)
+**Date:** 2026-03-30
+**Compared to:** v2 (baseline)
 
 ---
 
-## The core shift
+## Winner Comparison
 
-V2 asked: *can people participate in this system?*
-V5 asks: *can people govern, fork, and reshape this system themselves?*
+**V2 winner:** CONSUL Democracy (84.3)
+**V5 winner:** Bonfire (83.3)
 
-This is not a small tweak — it's a change in what counts as success. A well-deployed government portal that millions use but cannot fork, adapt, or leave scores lower in v5. A forkable federated protocol that ten communities self-govern scores dramatically higher. The question is not adoption. It's autonomy.
-
----
-
-## What shot up
-
-### 1. Federated and self-hostable infrastructure
-
-**Mastodon** (v2: rank 8 → v5: rank 1): The canonical example of agency-first tech. "Your self-hosted, globally interconnected microblogging community" — self-hosting is in the tagline. Communities can fork, adapt instances to their needs, and leave if the platform changes. No institutional permission required. Under v5, this is the ideal: federated infrastructure that communities own, run, and re-govern locally.
-
-**Bonfire** (v2: rank 11 → v5: rank 9): Federated, modular, designed to be adapted. Every community can run their own instance with their own governance rules. Exactly the kind of "primitive not platform" Fatima wants to see more of.
-
-### 2. Open infrastructure that exposes its logic
-
-**Alaveteli** (v2: rank 18 → v5: rank 5): Freedom of information request platform that is deployable in any country, open source, and designed to be forked. Multiple national deployments. The logic is exposed — you can see exactly how FOI requests are processed. This is legibility that leads to agency: citizens can not only understand the process, they can run the infrastructure themselves.
-
-**Aleph (OCCRP)** (v2: rank 52 → v5: rank 6): Investigation infrastructure for journalists and civil society. Open source, auditable, self-deployable. The methodology is transparent. This jumped because the agency-first frame values tools that expose how power works — and Aleph does exactly that.
-
-### 3. Security First / Umbrella (v2: rank 154 → v5: rank 15)
-
-A tool for protecting human rights defenders and activists from surveillance — the opposite of institutional lock-in. Open source, community-governed, explicitly designed for under-resourced civil society actors who cannot rely on institutional support. This was vastly underweighted in v2 (C6 max was 12; now it's 30), and the combination of privacy infrastructure + community governance + designed for excluded communities puts it near the top.
-
-### 4. LittleSis (v2: rank 134 → v5: rank 17)
-
-Maps who is connected to power — the transparency end of accountability. Open data, community-contributed, exposes the decision-making networks behind power. Under v5's emphasis on exposing underlying decision logic, this fits perfectly.
+The agency-first framing changes the winner. This is not a marginal shift — it reflects a genuine difference in what the two framings value. CONSUL Democracy's strength in v2 came from its combination of strong accessibility, open source governance, and government deployment evidence. Under v5, those strengths are still present, but the agency-first lens introduces a new question: can a community run this without institutional permission? CONSUL is still near the top (#2 in v5) because it is self-hostable and genuinely open source. But Bonfire, which is explicitly designed as federated primitive infrastructure for community self-governance, edges ahead under the agency-first frame.
 
 ---
 
-## What dropped
+## The Biggest Shift: Projects Requiring Institutional Relationships
 
-### 1. Government portals and legibility-without-agency tools
+The biggest drop pattern in v5 is tools that require institutional relationships to function. Under M_AGENCY, requiring government or institutional buy-in to operate is a reducer — and for several projects, that dependency is central to their design:
 
-**GOV.UK One Login** (v2: rank 31 → v5: rank 216): A government authentication service. Citizens use it but cannot fork it, re-govern it, or leave it. It makes one process (identity verification) more efficient, but it is the definition of institutional platform rather than community primitive. Under C6's new weight, it scores poorly: no transparent AI logic, no community governance, centralised.
-
-**TheyWorkForYou / WriteToThem** (v2: ranks 71/85 → v5: ranks 246/250): These make UK parliament legible and enable citizens to contact their representatives. In v2, this was strong civic tech. In v5, it reveals a limitation: you can see what MPs do and write to them, but you cannot govern the infrastructure, fork it for a different context, or change the system it reflects. Participation yes; agency, limited. (Note: mySociety's APIs and datasets, which are more primitive/forkable, stayed high.)
-
-**Talk to the City** (v2: rank 34 → v5: rank 222): An AI-powered tool for synthesising public deliberation. In v2, its participatory framing and deliberation focus were strong signals. In v5, the AI component without clear community governance or transparency is the problem — the model that runs the synthesis is not locally re-governable. This is exactly Fatima's concern about AI as infrastructure: who governs the AI that mediates civic conversation?
-
-**Civic Tech Field Guide** (v2: rank 88 → v5: rank 253): A curated directory of civic tech projects. Informational, valuable, but not agency-raising in the v5 sense — you can find projects, but the guide itself is not forkable infrastructure. This drop shows the limits of "legibility as a service" — it makes the field navigable but does not help communities govern the tools they find.
-
-### 2. Tools requiring institutional adoption
-
-Any tool whose primary value proposition is "government adopts us" dropped substantially. Under M_AGENCY, requiring institutional buy-in to function is a reducer. Tools that work for communities without institutional permission are what v5 rewards.
+- **vTaiwan** (v2 → v5 drop): Its formal Taiwan Executive Yuan relationship, which is a strength in v3 under M_IMPL, becomes a liability in v5 under M_AGENCY. The tool's value depends on government participation; citizens cannot run it independently.
+- **Your Priorities** (drop in v5): Municipal adoption is the deployment model. This is a platform-first tool that requires institutional gatekeeping to provide citizen value.
+- **Talk to the City** (drop in v5): AI-powered deliberation synthesis where the AI component's governance is unclear and not locally re-governable.
+- **AlgorithmWatch** (lower in v5 than v3): An accountability organisation for AI systems; its approach requires institutional engagement to produce value, rather than enabling communities to audit AI systems themselves.
 
 ---
 
-## Top 5 biggest movers (rank change)
+## The Biggest Risers: Federated and Self-Hostable Infrastructure
 
-| Project | v2 Rank | v5 Rank | Change | Why |
-|---|---|---|---|---|
-| Mastodon | 8 | 1 | +7 | Canonical agency-first: self-hosted, federated, forkable, community-governed. Was already strong; now it's the winner. |
-| Security First / Umbrella | 154 | 15 | +139 | Privacy infrastructure for human rights defenders — C6 weight tripling transformed its position. Community-governed, open source, designed for those who can't depend on institutions. |
-| Aleph (OCCRP) | 52 | 6 | +46 | Investigation infrastructure that exposes power networks. Transparent logic, self-deployable, community-oriented. The C6 and M_AGENCY double boost. |
-| LittleSis | 134 | 17 | +117 | Maps power connections. Open data, community-contributed. Exposes underlying decision logic — exactly C6+C3 in the v5 framing. |
-| Abstract Wikipedia | 96 | 3 | +93 | Multilingual, open content infrastructure for everyone. Community-governed, forkable data layer, democratises knowledge globally. Serves genuinely excluded communities. |
+The biggest risers in v5 are projects where communities can run their own instance, fork the codebase for their needs, and govern locally:
+
+- **Bonfire** (v3 #11 → v5 #1): Federated social infrastructure, explicitly designed for community self-hosting and governance. No institutional permission required. This is "primitives over platforms" at the top of the ranking.
+- **adhocracy+** (enters v5 top 10): The project's architecture supports local deployment and adaptation without central institutional dependency.
+- **Open Standards for Data Guidebook** (enters v5 top 10): Standards documentation that any community can implement, adapt, and apply without institutional gatekeeping. The "primitive" quality is in the documentation layer itself — open specifications are the most forkable artifact possible.
 
 ---
 
-## What this reveals about the participation → agency shift
+## CONSUL Democracy Holds at #2: The Crossover Champion Pattern
 
-**1. The v2 top was civic tech for engaged citizens. The v5 top is infrastructure for autonomous communities.**
+CONSUL Democracy's continued presence at #2 in v5 reveals an important pattern: projects that are both widely deployed (v3 signal) AND self-hostable/open source (v5 signal) do not have to choose between the framings. CONSUL is a government tool, but it is also genuinely open source, self-hostable by any organisation, and used by communities as well as governments. Its value is not entirely dependent on institutional relationships — any organisation can deploy it.
 
-V2 rewarded tools that made democracy more legible and government more navigable — TheyWorkForYou, WriteToThem, CONSUL, Decidim. These are excellent tools. But they largely assume the user is working within existing institutional structures. V5 rewards tools that help communities build their own structures: federated networks, self-hosted infrastructure, open primitives that travel without institutional permission.
+This "crossover champion" pattern is rare. Most well-deployed civic tech tools are institutionally dependent; most agency-first tools have limited deployment. CONSUL sits at the intersection and benefits from both framings.
 
-**2. AI governance is now a first-order question, not a background check.**
+---
 
-C6 at 30 points (equal to C1/C2/C3) means how a project handles AI is central to its ranking. This reveals something important: most civic tech tools don't think carefully about AI governance. The ones that do — that make their AI logic transparent, that keep communities in control of AI components, that can be locally re-governed — separate sharply from those that treat AI as a feature to add or a vendor service to call.
+## What This Reveals About Fatima's Values Tension
 
-**3. Deployment scale and agency are in tension, not alignment.**
+The v2/v5 divergence reveals a productive tension in Fatima's own trajectory. Her background is in institutional embedding — Code for Canada is explicitly about putting digital professionals inside government to improve services. That career was about working within institutions to change them. Her stated feedback ("primitives over platforms, agency over participation") points in a different direction: toward infrastructure that enables communities to operate without institutional mediation.
 
-Many high-deployment, well-funded platforms dropped. This is not a bug in the scoring — it reflects a genuine insight. A tool that is deployed at scale but cannot be forked, adapted, or exited is a dependency, not an asset. Agency-first framing asks: what happens when this tool changes, is acquired, or ceases to serve the community? Projects that enable communities to own their infrastructure score higher even at smaller scale.
+This is not a contradiction — it is an evolution. Her early career demonstrated that institutional engagement works for service delivery. Her current framing asks: what works for communities that don't have institutional relationships, or whose institutional relationships have failed them? The v5 framing is an answer to that question.
 
-**4. The v2→v5 drop pattern identifies a civic tech trap.**
+The v3/v5 split makes this legible: v3 rewards what Fatima's early career would have valued (implementation maturity, government adoption, deployment at scale); v5 rewards what her stated current values emphasise (forkability, local re-governance, agency over behavior). Both are present in her overall outlook; the split framings surface where they diverge.
 
-The biggest droppers are tools that solved the *participation* problem (helping citizens engage with existing systems) but left the *conditions* problem untouched (who owns and governs the infrastructure those citizens use?). Fatima's feedback identifies this as a frontier she is moving toward — not away from participation, but toward the conditions that make participation durable and autonomous.
+---
+
+## Privacy Tools Rise in V5
+
+A notable secondary pattern: tools that increase user agency over surveillance rose in v5. Privacy Badger (v3 #274 → v5 #190) and similar tools benefit from C6 at 30 pts — reducing institutional monitoring capacity is a form of community infrastructure under the agency-first frame. This is internally consistent: if the concern is that technology too often serves institutional power at community expense, then tools that reverse that dynamic for individuals score well.
+
+---
+
+## Summary
+
+V5's agency-first reframe does three things to the ranking:
+1. Elevates federated/self-hostable infrastructure (Bonfire, Matrix, open protocol tools)
+2. Penalises institutional-dependency tools (government portals, tools requiring official partnerships)
+3. Promotes privacy and accountability infrastructure that reduces surveillance capacity
+
+The winner change (CONSUL → Bonfire) is meaningful, not noise. It reflects a genuine difference in what the two framings reward. The v4 synthesis will determine whether CONSUL or Bonfire represents the stronger consensus pick across both framings.
