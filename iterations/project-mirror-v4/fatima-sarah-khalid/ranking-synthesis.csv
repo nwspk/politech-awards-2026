@@ -1,0 +1,320 @@
+synthesis_rank,project_name,v3_rank,v5_rank,v3_score,v5_score,avg_score,quadrant
+1,Bonfire,4,9,80.4,99.1,89.8,Proven Commons
+2,CONSUL Democracy,7,2,78.1,100.0,89.0,Proven Commons
+3,Decidim,1,18,82.8,92.3,87.5,Proven Commons
+4,Mastodon,11,1,73.9,100.0,87.0,Proven Commons
+5,HURIDOCS,21,7,71.1,99.8,85.4,Proven Commons
+6,CiviCRM,26,4,69.2,99.8,84.5,Proven Commons
+7,Aleph (OCCRP),28,6,69.0,99.8,84.4,Proven Commons
+8,Open Standards for Data Guidebook,19,11,71.3,97.0,84.2,Proven Commons
+9,ClimateAction.Tech,9,14,74.9,93.5,84.2,Proven Commons
+10,Loomio,3,41,80.9,85.4,83.2,Proven Commons
+11,Alaveteli,45,5,66.4,99.8,83.1,Proven Commons
+12,Matrix,2,46,81.5,83.8,82.7,Proven Commons
+13,Open Council Network,30,13,68.5,94.8,81.7,Proven Commons
+14,OA.Works,56,8,63.6,99.8,81.7,Proven Commons
+15,mySociety Datasets and APIs,29,16,69.0,92.8,80.9,Proven Commons
+16,CKAN,46,12,66.2,95.4,80.8,Proven Commons
+17,Cobudget,8,54,77.4,81.9,79.7,Proven Commons
+18,Turkopticon,42,19,66.6,92.3,79.4,Proven Commons
+19,Citizen OS,14,33,72.7,86.1,79.4,Proven Commons
+20,Open Data Editor (ODE),20,31,71.3,87.3,79.3,Proven Commons
+21,adhocracy+,25,27,69.2,88.8,79.0,Proven Commons
+22,All Our Ideas,12,44,73.9,83.8,78.8,Proven Commons
+23,Open Supply Hub,31,25,68.5,89.2,78.8,Proven Commons
+24,Populate Tools,37,28,67.1,88.7,77.9,Proven Commons
+25,Polis,10,59,74.8,81.1,77.9,Proven Commons
+26,LiquidFeedback,24,37,69.2,85.9,77.6,Proven Commons
+27,Open Digital Planning,62,20,62.9,92.0,77.5,Proven Commons
+28,Logos,54,22,63.9,90.8,77.3,Proven Commons
+29,Mozilla Data Collective,5,75,79.0,74.5,76.8,Proven Commons
+30,NumFOCUS,15,58,72.5,81.1,76.8,Proven Commons
+31,Internet Archive Wayback Machine,33,42,68.3,85.1,76.7,Proven Commons
+32,Gapminder Worldview Upgrader,104,10,56.0,97.0,76.5,Proven Commons
+33,CommunityRule,47,34,65.7,86.1,75.9,Proven Commons
+34,PolicyEngine,69,24,62.2,89.5,75.8,Proven Commons
+35,oTree,49,36,65.6,86.1,75.8,Proven Commons
+36,Public AI Inference Utility,51,32,64.9,86.4,75.7,Proven Commons
+37,Bellingcat Online Investigation Toolkit,81,21,59.7,91.4,75.6,Proven Commons
+38,vTaiwan,22,61,69.7,81.1,75.4,Proven Commons
+39,LittleSis,92,17,57.6,92.7,75.2,Proven Commons
+40,RxC Voice,36,51,67.2,83.1,75.2,Proven Commons
+41,Humble Data Workshop,88,23,58.3,90.8,74.5,Proven Commons
+42,Open Science Framework,66,35,62.2,86.1,74.2,Proven Commons
+43,Tor Project,38,60,67.1,81.1,74.1,Proven Commons
+44,Open Heart Mind (OHM),65,40,62.4,85.4,73.9,Proven Commons
+45,Diia,68,38,62.2,85.4,73.8,Proven Commons
+46,Open Referral UK,77,30,60.2,87.3,73.8,Proven Commons
+47,Coral,41,62,66.7,80.5,73.6,Proven Commons
+48,GlobaLeaks,44,64,66.4,80.5,73.5,Proven Commons
+49,Nym,53,57,63.9,81.6,72.8,Proven Commons
+50,Abstract Wikipedia,206,3,45.0,100.0,72.5,Promising Primitives
+51,The Engine Room Library,102,29,56.2,88.5,72.3,Proven Commons
+52,Guardian Project,18,79,71.3,73.3,72.3,Proven Commons
+53,Snowdrift.coop,52,65,64.5,79.8,72.2,Proven Commons
+54,Security First / Umbrella,151,15,51.4,93.0,72.2,Proven Commons
+55,Cybersecurity for Democracy,13,87,73.4,70.5,72.0,Proven Commons
+56,Participa (Podemos),71,56,61.8,81.8,71.8,Proven Commons
+57,Fairbnb.coop,32,76,68.4,73.7,71.1,Proven Commons
+58,Murmurations Protocol,35,74,67.2,74.8,71.0,Proven Commons
+59,One Project,114,39,54.9,85.4,70.2,Proven Commons
+60,Tech Coops List,43,78,66.6,73.4,70.0,Proven Commons
+61,DISARM Frameworks,83,63,59.3,80.5,69.9,Proven Commons
+62,WhatGov,106,45,56.0,83.8,69.9,Proven Commons
+63,Shareyourpaper.org,101,49,56.2,83.3,69.8,Proven Commons
+64,Awesome UK Government Datasets,85,66,58.8,79.5,69.2,Proven Commons
+65,Ethelo,63,72,62.8,75.1,68.9,Proven Commons
+66,Groupthink (OpenPolitics Votebot),109,55,55.6,81.8,68.7,Proven Commons
+67,Channel.org,131,43,53.5,83.8,68.7,Proven Commons
+68,Data Observation Toolkit (DOT),75,71,60.9,75.5,68.2,Proven Commons
+69,Contracts for Data Collaboration,50,86,65.0,70.5,67.8,Proven Commons
+70,Journal of Open Source Software,149,48,52.1,83.3,67.7,Proven Commons
+71,ODK (Open Data Kit),27,104,69.0,65.5,67.2,Proven Commons
+72,PolicyKit,207,26,45.0,88.8,66.9,Promising Primitives
+73,Democracy Club Developer API,79,77,60.2,73.4,66.8,Proven Commons
+74,Constitute Project,39,100,66.9,66.3,66.6,Proven Commons
+75,Open Collective,120,67,54.2,78.8,66.5,Proven Commons
+76,Schema.org,161,52,50.7,82.3,66.5,Promising Primitives
+77,The Government Says,115,69,54.6,78.3,66.5,Proven Commons
+78,GRIM (Global Risk Simulator),157,53,50.7,81.9,66.3,Proven Commons
+79,MapIt,61,91,62.9,68.9,65.9,Proven Commons
+80,Humanitarian OpenStreetMap Team (HOT),48,102,65.6,65.9,65.8,Proven Commons
+81,Framework for Meaningful Engagement 2.0,73,89,61.4,69.5,65.5,Proven Commons
+82,arXiv,6,178,78.8,51.7,65.2,Captured Scale
+83,Pursuance Project,189,50,47.2,83.1,65.2,Promising Primitives
+84,OpenCRVS,17,139,72.0,57.0,64.5,Proven Commons
+85,EDGAR,201,47,45.1,83.7,64.4,Promising Primitives
+86,Bluesky Social,142,73,52.8,74.8,63.8,Proven Commons
+87,Your Priorities,99,85,56.7,70.9,63.8,Proven Commons
+88,Land Explorer,90,90,58.0,68.9,63.5,Proven Commons
+89,OpenProcurement,78,101,60.2,66.3,63.2,Proven Commons
+90,Open Ownership,40,123,66.9,59.2,63.1,Proven Commons
+91,rsky,103,88,56.2,69.8,63.0,Proven Commons
+92,soweego,186,68,47.2,78.8,63.0,Promising Primitives
+93,Tracka,177,70,49.1,76.4,62.8,Promising Primitives
+94,Frankenstein Bill,72,109,61.6,63.6,62.6,Proven Commons
+95,Teaching Public Service in the Digital Age,67,110,62.2,62.9,62.5,Proven Commons
+96,Ushahidi,94,97,57.2,66.9,62.1,Proven Commons
+97,Creative Commons,95,96,57.2,66.9,62.1,Proven Commons
+98,The DAO (Standard DAO Framework),141,81,52.8,71.2,62.0,Proven Commons
+99,WhatDoTheyKnow,57,128,63.6,58.3,61.0,Proven Commons
+100,UK Policy Dojo,134,92,53.5,68.4,61.0,Proven Commons
+101,Community Notes (Birdwatch) Analysis Tool,127,93,53.9,67.7,60.8,Proven Commons
+102,RxC Quadratic Voting,60,127,63.2,58.3,60.8,Proven Commons
+103,Parti,34,167,68.3,52.9,60.6,Captured Scale
+104,Consent-O-Matic,70,124,61.8,59.0,60.4,Proven Commons
+105,CivicPress,80,118,59.7,60.1,59.9,Proven Commons
+106,Stanford Participatory Budgeting Platform,55,143,63.6,56.2,59.9,Proven Commons
+107,deliberAIde,181,82,48.2,70.9,59.6,Promising Primitives
+108,Principles for Public Participation in Procurement of AI,100,113,56.5,62.6,59.5,Proven Commons
+109,Fundación Ciudadanía Inteligente,86,119,58.8,60.0,59.4,Proven Commons
+110,PatCit,198,80,45.8,73.1,59.4,Promising Primitives
+111,MP Twitter Bios,147,99,52.1,66.5,59.3,Proven Commons
+112,Landlord Tech Watch,163,94,50.0,67.2,58.6,Promising Primitives
+113,openparliament.ca,122,111,54.2,62.9,58.5,Proven Commons
+114,OpenElections Leaflet Scraper and Parser,171,95,49.3,67.0,58.1,Promising Primitives
+115,Metaculus,203,84,45.0,70.9,58.0,Promising Primitives
+116,Humanitarian Data Exchange,213,83,44.9,70.9,57.9,Promising Primitives
+117,Tactical Data Engagement,87,138,58.6,57.0,57.8,Proven Commons
+118,OpenSanctions,76,155,60.9,54.4,57.6,Proven Commons
+119,ORCID,23,215,69.7,45.3,57.5,Captured Scale
+120,meet.coop,16,230,72.1,42.5,57.3,Captured Scale
+121,AlgorithmWatch,59,186,63.5,50.2,56.9,Captured Scale
+122,Democracy Fund Open Source,139,117,53.2,60.6,56.9,Proven Commons
+123,Neighbourhood Warmth,167,108,49.8,63.9,56.8,Promising Primitives
+124,Pastecal,108,133,55.6,57.6,56.6,Proven Commons
+125,Cortico,129,122,53.8,59.2,56.5,Proven Commons
+126,Idealist,140,121,53.1,59.6,56.4,Proven Commons
+127,Spacetube,113,135,54.9,57.6,56.2,Proven Commons
+128,VFRAME,126,125,53.9,58.6,56.2,Proven Commons
+129,Mastodon C,98,149,56.7,55.4,56.0,Proven Commons
+130,Open Contracting Partnership,82,174,59.3,52.2,55.8,Captured Scale
+131,sourceAFRICA,196,103,45.8,65.6,55.7,Promising Primitives
+132,Activist Handbook,130,131,53.5,57.8,55.6,Proven Commons
+133,Martus,84,175,59.0,52.1,55.5,Captured Scale
+134,Radicle,117,142,54.2,56.2,55.2,Proven Commons
+135,PlaceCal,145,134,52.1,57.6,54.9,Proven Commons
+136,Papertree,119,145,54.2,55.6,54.9,Proven Commons
+137,OSINT Framework,64,210,62.5,47.2,54.9,Captured Scale
+138,Participedia,121,147,54.2,55.6,54.9,Proven Commons
+139,Manifold Markets,118,154,54.2,54.7,54.5,Proven Commons
+140,dDocs,197,112,45.8,62.6,54.2,Promising Primitives
+141,Relational Tech Project,218,107,43.8,64.7,54.2,Promising Primitives
+142,docs.plus,159,132,50.7,57.6,54.2,Proven Commons
+143,Theft Bisect,144,148,52.1,55.6,53.9,Proven Commons
+144,Wikidata,93,192,57.4,50.0,53.7,Captured Scale
+145,Anna's Archive,202,115,45.0,62.2,53.6,Promising Primitives
+146,Agencies for Good,123,164,54.1,53.1,53.6,Captured Scale
+147,Open Access – Transparency International UK,209,114,45.0,62.3,53.6,Promising Primitives
+148,SecureDrop,96,191,56.9,50.0,53.5,Captured Scale
+149,Campaign Tracker,125,166,53.9,52.9,53.4,Captured Scale
+150,Pageviews Analysis,173,137,49.3,57.3,53.3,Promising Primitives
+151,Bluesky,110,180,55.6,51.0,53.3,Captured Scale
+152,Interoperable Deliberative Tools,146,156,52.1,54.3,53.2,Proven Commons
+153,Ladder Hub,233,105,41.0,65.2,53.1,Promising Primitives
+154,TheyWorkForYou,58,246,63.5,42.4,53.0,Captured Scale
+155,Moral Machine,200,116,45.1,60.9,53.0,Promising Primitives
+156,GOV.UK Forms,111,184,55.3,50.5,52.9,Captured Scale
+157,Full Fact AI,249,98,39.3,66.6,52.9,Promising Primitives
+158,Rahvaalgatus,170,146,49.3,55.6,52.5,Promising Primitives
+159,Political Advertising Transparency Data Standard,116,195,54.6,49.6,52.1,Captured Scale
+160,Kialo,253,106,38.9,65.2,52.0,Promising Primitives
+161,Turn2us Benefits Calculator,183,144,47.7,56.1,51.9,Promising Primitives
+162,Aragon,133,185,53.5,50.3,51.9,Captured Scale
+163,youtube-dl,153,177,51.4,52.1,51.8,Captured Scale
+164,ОПОРА (Opora),138,187,53.2,50.1,51.7,Captured Scale
+165,Give Food,208,129,45.0,57.9,51.5,Promising Primitives
+166,whatsmeow,132,200,53.5,49.3,51.4,Captured Scale
+167,Marks Out Of Tenancy,175,161,49.1,53.3,51.2,Institutional Artifacts
+168,GreenPT,179,159,48.4,54.0,51.2,Promising Primitives
+169,postcodes.io,187,150,47.2,55.2,51.2,Promising Primitives
+170,Talk to the City,89,222,58.1,44.4,51.2,Captured Scale
+171,Mapped,169,170,49.3,52.6,51.0,Institutional Artifacts
+172,The Circuit,191,151,47.0,55.0,51.0,Promising Primitives
+173,The Data Trusts Initiative,227,120,42.1,60.0,51.0,Promising Primitives
+174,Modular Politics,222,126,43.1,58.5,50.8,Promising Primitives
+175,Sugartrail,154,190,51.4,50.0,50.7,Captured Scale
+176,Journalist Studio,148,202,52.1,49.1,50.6,Captured Scale
+177,CoTech,135,207,53.4,47.5,50.5,Captured Scale
+178,Privacy Badger,74,280,61.1,39.5,50.3,Captured Scale
+179,Go Vocal,107,218,55.8,44.4,50.1,Captured Scale
+180,Agreement Engine,204,152,45.0,54.9,50.0,Promising Primitives
+181,Fission Codes,158,197,50.7,49.3,50.0,Captured Scale
+182,Local Intelligence Hub,192,160,46.5,53.3,49.9,Promising Primitives
+183,Pear by Holepunch,165,198,50.0,49.3,49.6,Institutional Artifacts
+184,Membership,205,157,45.0,54.2,49.6,Promising Primitives
+185,Unpaywall Browser Extension,172,199,49.3,49.3,49.3,Institutional Artifacts
+186,Beckton,178,189,48.6,50.0,49.3,Institutional Artifacts
+187,FixMyStreet,105,235,56.0,42.4,49.2,Captured Scale
+188,Members' Interests,210,162,45.0,53.3,49.1,Institutional Artifacts
+189,Entitledto,219,158,43.5,54.0,48.8,Promising Primitives
+190,semanticClimate,199,176,45.1,52.1,48.6,Institutional Artifacts
+191,Choose a License,97,267,56.9,40.3,48.6,Captured Scale
+192,Hand-Written Petition Scanner,224,153,42.4,54.7,48.5,Promising Primitives
+193,GOV.UK One Login,150,216,51.8,45.0,48.4,Captured Scale
+194,Atlas of Surveillance,174,208,49.3,47.4,48.3,Institutional Artifacts
+195,ShineYourEye,252,130,38.9,57.8,48.3,Promising Primitives
+196,CharmVerse,160,213,50.7,45.8,48.2,Institutional Artifacts
+197,DAO Governance Surfaces,188,196,47.2,49.3,48.2,Institutional Artifacts
+198,GovTrack.us,128,236,53.9,42.4,48.1,Captured Scale
+199,WriteToThem,137,250,53.2,42.4,47.8,Captured Scale
+200,Open Data Communities,223,171,42.8,52.6,47.7,Institutional Artifacts
+201,OpenBudgets.eu,162,220,50.4,44.4,47.4,Institutional Artifacts
+202,New_ Public Roundabout,230,165,41.7,53.1,47.4,Institutional Artifacts
+203,In the news,217,183,43.8,50.7,47.2,Institutional Artifacts
+204,CrowdJustice,229,169,41.7,52.8,47.2,Institutional Artifacts
+205,Kagi SlopStop,221,181,43.1,51.0,47.0,Institutional Artifacts
+206,Discourse,166,226,50.0,43.8,46.9,Institutional Artifacts
+207,Esper,155,251,51.1,42.4,46.8,Captured Scale
+208,Plausible Analytics,91,308,57.6,35.4,46.5,Captured Scale
+209,UK Housing Data Standards,168,229,49.8,43.1,46.5,Institutional Artifacts
+210,Harmonica,156,254,51.0,41.7,46.4,Captured Scale
+211,CAN/DGSI 127 - Age Assurance Technologies Standard,215,203,44.2,48.6,46.4,Institutional Artifacts
+212,Libertrium,143,273,52.4,39.6,46.0,Captured Scale
+213,Nyaaya,231,194,41.7,49.8,45.8,Institutional Artifacts
+214,django-collaborative,214,209,44.4,47.2,45.8,Institutional Artifacts
+215,Granitt,184,225,47.7,43.8,45.8,Institutional Artifacts
+216,MP Watch,176,238,49.1,42.4,45.8,Institutional Artifacts
+217,Society for Hopeful Technologists,279,141,34.7,56.5,45.6,Promising Primitives
+218,River Sentiment Dashboard,180,243,48.4,42.4,45.4,Institutional Artifacts
+219,Responsible Tech Guide 2025,245,182,39.6,50.7,45.2,Institutional Artifacts
+220,Citizens Advice Tableau Public Profile,297,136,32.6,57.5,45.0,Promising Primitives
+221,Labour Xchange,228,205,42.1,47.8,45.0,Institutional Artifacts
+222,Find local consultations,190,234,47.0,42.4,44.7,Institutional Artifacts
+223,Missing Numbers,273,163,36.1,53.3,44.7,Institutional Artifacts
+224,GOV.UK Pay,112,311,55.3,34.0,44.6,Captured Scale
+225,Collaborative Data Patterns,182,260,47.9,41.0,44.5,Institutional Artifacts
+226,Monitor Mamdani,193,237,46.3,42.4,44.3,Institutional Artifacts
+227,UK Parliament Developer Portal,274,172,35.9,52.6,44.2,Institutional Artifacts
+228,Sci-Hub,237,204,40.3,47.9,44.1,Institutional Artifacts
+229,Wikum,185,264,47.2,41.0,44.1,Institutional Artifacts
+230,Riseup,164,287,50.0,38.2,44.1,Institutional Artifacts
+231,GOV.UK Notify,124,310,53.9,34.0,44.0,Captured Scale
+232,Prolific,315,140,30.6,56.8,43.7,Promising Primitives
+233,GrantNav,136,312,53.2,34.0,43.6,Captured Scale
+234,Local Insight,248,206,39.3,47.8,43.5,Institutional Artifacts
+235,Urbit,152,306,51.4,35.4,43.4,Captured Scale
+236,Strike Map,226,221,42.4,44.4,43.4,Institutional Artifacts
+237,FarmerChat,264,193,36.8,49.8,43.3,Institutional Artifacts
+238,Civic Tech Field Guide,211,253,44.9,41.7,43.3,Institutional Artifacts
+239,Vote for Policies,269,188,36.1,50.1,43.1,Institutional Artifacts
+240,Watch Duty,292,168,33.3,52.9,43.1,Institutional Artifacts
+241,FixMyBlock,265,201,36.8,49.1,43.0,Institutional Artifacts
+242,Charity Digital Skills Report,194,279,45.8,39.6,42.7,Institutional Artifacts
+243,The List,283,179,34.0,51.4,42.7,Institutional Artifacts
+244,Parliament Watch Uganda,236,217,41.0,44.4,42.7,Institutional Artifacts
+245,Dunadyne,301,173,32.6,52.2,42.4,Institutional Artifacts
+246,Consciousness Evolution Operating System (ConSoc),232,231,41.6,42.5,42.0,Institutional Artifacts
+247,UrbanistAI,247,223,39.3,44.4,41.8,Institutional Artifacts
+248,MyActionCenter,242,227,39.6,43.8,41.7,Institutional Artifacts
+249,Open Letter,254,219,38.9,44.4,41.6,Institutional Artifacts
+250,Organise,246,241,39.6,42.4,41.0,Institutional Artifacts
+251,User Research Library,240,256,40.0,41.7,40.9,Institutional Artifacts
+252,Fatebook,195,300,45.8,35.4,40.6,Institutional Artifacts
+253,Parse The Bill,225,282,42.4,38.9,40.6,Institutional Artifacts
+254,Parallel Parliament,239,277,40.3,39.6,40.0,Institutional Artifacts
+255,Open Council Data UK,263,240,37.5,42.4,40.0,Institutional Artifacts
+256,Mapping.kids,284,214,34.0,45.8,39.9,Institutional Artifacts
+257,Global Fact-Check Bot (GFC),295,211,32.6,46.8,39.7,Institutional Artifacts
+258,OA.Report,241,276,39.6,39.6,39.6,Institutional Artifacts
+259,Timecounts,267,247,36.8,42.4,39.6,Institutional Artifacts
+260,Nestr,258,262,38.2,41.0,39.6,Institutional Artifacts
+261,Community Tech,266,233,36.8,42.4,39.6,Institutional Artifacts
+262,Gender Pay Gap Service,260,258,37.9,41.0,39.5,Institutional Artifacts
+263,Service Manual,212,315,44.9,34.0,39.5,Institutional Artifacts
+264,Objector.ai,243,281,39.6,38.9,39.2,Institutional Artifacts
+265,The Commons Social Change Library,270,244,36.1,42.4,39.2,Institutional Artifacts
+266,PlanIT,261,265,37.9,40.5,39.2,Institutional Artifacts
+267,WardWatch,280,228,34.7,43.8,39.2,Institutional Artifacts
+268,AISafety.info,238,283,40.3,38.2,39.2,Institutional Artifacts
+269,Polimorphic,216,314,44.0,34.0,39.0,Institutional Artifacts
+270,Turbo Phonebank,276,248,35.4,42.4,38.9,Institutional Artifacts
+271,CiviClick,234,294,41.0,36.8,38.9,Institutional Artifacts
+272,GovWise,259,272,37.9,39.6,38.8,Institutional Artifacts
+273,GOV Reuse Library,220,309,43.5,34.0,38.8,Institutional Artifacts
+274,Keep It In The Community,293,224,33.3,43.9,38.6,Institutional Artifacts
+275,PolicyMogul,262,278,37.5,39.6,38.5,Institutional Artifacts
+276,The Accountability Project,313,212,30.6,46.5,38.5,Institutional Artifacts
+277,Nook CRM,271,266,36.1,40.3,38.2,Institutional Artifacts
+278,Deliberation & Technology (DelibTech) Network,275,261,35.4,41.0,38.2,Institutional Artifacts
+279,Digital Account Management Toolkit,257,284,38.2,38.2,38.2,Institutional Artifacts
+280,Viewpoints,268,274,36.8,39.6,38.2,Institutional Artifacts
+281,PoliMonitor,244,293,39.6,36.8,38.2,Institutional Artifacts
+282,COTSI (Cyber Operational Threat Situational Intelligence),235,307,41.0,35.4,38.2,Institutional Artifacts
+283,CivicMatch,285,252,34.0,41.7,37.9,Institutional Artifacts
+284,Worker Info Exchange,278,259,34.7,41.0,37.9,Institutional Artifacts
+285,Dovetail,287,232,33.3,42.5,37.9,Institutional Artifacts
+286,The Guide to Major Trusts 2025/26,291,245,33.3,42.4,37.8,Institutional Artifacts
+287,Right To Know,288,242,33.3,42.4,37.8,Institutional Artifacts
+288,Granicus,250,296,39.3,36.1,37.7,Institutional Artifacts
+289,PostBug,281,270,34.7,40.3,37.5,Institutional Artifacts
+290,DemTech Navigator,251,299,38.9,35.4,37.1,Institutional Artifacts
+291,DeepSeek-V3,255,298,38.9,35.4,37.1,Institutional Artifacts
+292,Who Targets Me Trends,300,257,32.6,41.4,37.0,Institutional Artifacts
+293,Remember to Vote,289,271,33.3,40.3,36.8,Institutional Artifacts
+294,Overton,311,255,31.2,41.7,36.5,Institutional Artifacts
+295,Empurrando Juntas (EJ),294,268,32.6,40.3,36.5,Institutional Artifacts
+296,Plinth,256,313,38.6,34.0,36.3,Institutional Artifacts
+297,OpenAudience,303,269,31.9,40.3,36.1,Institutional Artifacts
+298,We Live It,309,263,31.2,41.0,36.1,Institutional Artifacts
+299,WorkInCharities,305,275,31.9,39.6,35.8,Institutional Artifacts
+300,Spartacus,286,295,34.0,36.8,35.4,Institutional Artifacts
+301,DoNotPay,296,286,32.6,38.2,35.4,Institutional Artifacts
+302,Violation Tracker UK,318,249,27.8,42.4,35.1,Institutional Artifacts
+303,DoGooder,308,285,31.2,38.2,34.7,Institutional Artifacts
+304,The Decelerator,307,288,31.2,37.5,34.4,Institutional Artifacts
+305,Understanding Your Morality,282,316,34.7,34.0,34.4,Institutional Artifacts
+306,Public Media Stack,290,304,33.3,35.4,34.3,Institutional Artifacts
+307,Local Deep Researcher,302,297,31.9,36.1,34.0,Institutional Artifacts
+308,Registers and collaboration: making lists we can trust,298,305,32.6,35.4,34.0,Institutional Artifacts
+309,Conservative Party Funding,312,292,30.6,36.8,33.7,Institutional Artifacts
+310,Public Editor,304,303,31.9,35.4,33.6,Institutional Artifacts
+311,Collab.Land,299,317,32.6,33.3,33.0,Institutional Artifacts
+312,Filmot,314,301,30.6,35.4,33.0,Institutional Artifacts
+313,Unknown Academic Paper (SSRN 5351275),317,290,29.2,36.8,33.0,Institutional Artifacts
+314,Who Posted What?,310,318,31.2,33.3,32.2,Institutional Artifacts
+315,RightDD,277,319,34.7,28.5,31.6,Institutional Artifacts
+316,Shared Digital Guides,272,321,36.1,26.4,31.2,Institutional Artifacts
+317,Whoisology,306,320,31.9,27.1,29.5,Institutional Artifacts
+318,OpenOrigins,319,302,22.9,35.4,29.1,Institutional Artifacts
+319,Yoti,316,322,30.3,11.7,21.0,Institutional Artifacts
