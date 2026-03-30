@@ -9,7 +9,11 @@
  *   npx tsx scripts/itn/itn-a-eval.ts --url https://example.com
  *   npx tsx scripts/itn/itn-a-eval.ts --retry-errors
  *   npx tsx scripts/itn/itn-a-eval.ts --model x-ai/grok-3-mini-beta
- *   npx tsx scripts/itn/itn-a-eval.ts --setup grok --model x-ai/grok-4.1-fast   # v6: write to cache/assessments-grok.json
+ *   npx tsx scripts/itn/itn-a-eval.ts --setup grok --model x-ai/grok-4.1-fast
+ *
+ * Content source priority:
+ *   1. data/enriched/{slug}.json  (structured dossier — preferred)
+ *   2. cache/sites.sqlite          (raw HTML scrape fallback)
  */
 
 import fs from "fs";
@@ -24,10 +28,11 @@ import Database from "better-sqlite3";
 const DEFAULT_MODEL = "x-ai/grok-4.1-fast";
 const OPENROUTER_API = "https://openrouter.ai/api/v1/chat/completions";
 const CACHE_DB_PATH = path.resolve("cache", "sites.sqlite");
+const DOSSIER_DIR = path.resolve("data", "enriched");
 const CANDIDATES_CSV = path.resolve("candidates.csv");
 
 // ---------------------------------------------------------------------------
-// Args (parsed early so path helpers can use them)
+// Args
 // ---------------------------------------------------------------------------
 
 const args = process.argv.slice(2);
@@ -36,7 +41,6 @@ function getArg(flag: string): string | undefined {
   return idx !== -1 ? args[idx + 1] : undefined;
 }
 
-// Assessments path: cache/assessments.json by default, or cache/assessments-{setup}.json when --setup NAME is set (v6)
 function getAssessmentsPath(): string {
   const setup = getArg("--setup");
   const base = setup ? `assessments-${setup}.json` : "assessments.json";
@@ -49,7 +53,6 @@ const SINGLE_URL = getArg("--url");
 const RETRY_ERRORS = args.includes("--retry-errors");
 const CONCURRENCY = parseInt(getArg("--concurrency") ?? "1", 10);
 
-// Target chars of readable text to pass in per project
 const BODY_CHAR_LIMIT = 3500;
 const CALL_DELAY_MS = 600;
 
@@ -64,6 +67,12 @@ interface LensRead {
   evidence: string;
   reflective_question: string;
   watchout: string;
+}
+
+interface AwardsContext {
+  relevance_2026: string;
+  project_specificity: string;
+  novelty: string;
 }
 
 interface AgentResult {
@@ -81,6 +90,7 @@ interface AgentResult {
     fractality: LensRead;
     non_identification: LensRead;
   };
+  awards_context: AwardsContext;
   felt_sense: string;
   bucket: Bucket;
   key_read: string;
@@ -90,6 +100,7 @@ interface ProjectAssessment {
   evaluated_at: string;
   model: string;
   had_cache: boolean;
+  had_dossier: boolean;
   political?: AgentResult | { error: true; message: string };
   relational?: AgentResult | { error: true; message: string };
   experimental?: AgentResult | { error: true; message: string };
@@ -98,13 +109,169 @@ interface ProjectAssessment {
 type AssessmentsMap = Record<string, ProjectAssessment>;
 
 // ---------------------------------------------------------------------------
-// HTML → readable text
-// Strips tags, extracts meaningful content, collapses whitespace.
-// Tries to pull main content area before falling back to full body.
+// Dossier loading — data/enriched/*.json, keyed by url field
+// ---------------------------------------------------------------------------
+
+interface Dossier {
+  url: string;
+  name?: string;
+  tagline?: string;
+  project_type?: string;
+  org_type?: string;
+  issue_area?: string[] | string;
+  founded_year?: number;
+  decade_plus?: boolean;
+  underdog_signal?: boolean;
+  github_stars?: number;
+  last_commit_date?: string;
+  in_civictech_guide?: boolean;
+  governance_model?: string;
+  format?: string[] | string;
+  political_relevance_summary?: string;
+  movement_building_utility?: { classification: string; notes: string };
+  systemic_issue_area?: string;
+  communities_served?: string[] | string;
+  geography?: string;
+  countries_deployed?: string[];
+  policy_outcomes?: unknown;
+  causation_strength?: string;
+  dependency_risks?: string[];
+  failure_modes?: string[] | string;
+  funding_model?: string[] | string;
+  known_funders?: string[] | string;
+  open_source?: string;
+  ai_involvement?: string;
+  scraped?: { scraped_description?: string; dead_link?: boolean };
+  [key: string]: unknown;
+}
+
+function normalizeUrl(raw: string): string {
+  try {
+    const u = new URL(raw.startsWith("http") ? raw : "https://" + raw);
+    return (u.hostname.replace(/^www\./, "") + u.pathname).toLowerCase().replace(/\/$/, "");
+  } catch {
+    return raw.toLowerCase().replace(/\/$/, "");
+  }
+}
+
+let _dossierMap: Map<string, Dossier> | null = null;
+
+function loadDossiers(): Map<string, Dossier> {
+  if (_dossierMap) return _dossierMap;
+  _dossierMap = new Map();
+  if (!fs.existsSync(DOSSIER_DIR)) {
+    console.warn(`  Dossier directory not found at ${DOSSIER_DIR} — will use page cache only`);
+    return _dossierMap;
+  }
+  const files = fs.readdirSync(DOSSIER_DIR).filter(f => f.endsWith(".json"));
+  for (const file of files) {
+    try {
+      const d: Dossier = JSON.parse(fs.readFileSync(path.join(DOSSIER_DIR, file), "utf-8"));
+      if (d.url) {
+        _dossierMap.set(d.url, d);
+        _dossierMap.set(normalizeUrl(d.url), d);
+      }
+    } catch { /* skip malformed */ }
+  }
+  return _dossierMap;
+}
+
+function getDossier(url: string): Dossier | null {
+  const map = loadDossiers();
+  return map.get(url) ?? map.get(normalizeUrl(url)) ?? null;
+}
+
+/** Enriched JSON often uses string | string[] (or other scalars) for list-like fields. */
+function listFieldToStrings(v: unknown): string[] {
+  if (v == null) return [];
+  if (Array.isArray(v)) return v.map(x => String(x)).filter(s => s.length);
+  if (typeof v === "string") {
+    const t = v.trim();
+    return t ? [t] : [];
+  }
+  if (typeof v === "number" || typeof v === "boolean") return [String(v)];
+  return [];
+}
+
+type PolicyOutcomeLine = { description: string; year?: number };
+
+/** policy_outcomes may be an array of objects, a plain string, or a single object. */
+function asPolicyOutcomeList(v: unknown): PolicyOutcomeLine[] {
+  if (v == null) return [];
+  if (typeof v === "string") {
+    const t = v.trim();
+    return t ? [{ description: t }] : [];
+  }
+  if (Array.isArray(v)) {
+    const out: PolicyOutcomeLine[] = [];
+    for (const item of v) {
+      if (item != null && typeof item === "object" && "description" in item) {
+        const o = item as { description?: string; year?: number };
+        if (o.description?.trim())
+          out.push({ description: o.description.trim(), year: o.year });
+      } else if (typeof item === "string" && item.trim()) {
+        out.push({ description: item.trim() });
+      }
+    }
+    return out;
+  }
+  if (typeof v === "object" && "description" in v) {
+    const o = v as { description?: string; year?: number };
+    if (o.description?.trim())
+      return [{ description: o.description.trim(), year: o.year }];
+  }
+  return [];
+}
+
+function formatDossierForPrompt(d: Dossier): string {
+  const lines: string[] = [];
+  if (d.name) lines.push(`Name: ${d.name}`);
+  if (d.tagline) lines.push(`Tagline: ${d.tagline}`);
+  if (d.project_type) lines.push(`Type: ${d.project_type} | Org: ${d.org_type ?? "unknown"}`);
+  if (d.founded_year) lines.push(`Founded: ${d.founded_year}${d.decade_plus ? " (10+ years old)" : ""}`);
+  if (d.governance_model) lines.push(`Governance: ${d.governance_model}`);
+  const formatParts = listFieldToStrings(d.format);
+  if (formatParts.length) lines.push(`Format: ${formatParts.join(", ")}`);
+  const issueParts = listFieldToStrings(d.issue_area);
+  if (issueParts.length) lines.push(`Issue areas: ${issueParts.join(", ")}`);
+  if (d.geography) lines.push(`Geography: ${d.geography}`);
+  const communitiesParts = listFieldToStrings(d.communities_served);
+  if (communitiesParts.length) lines.push(`Communities: ${communitiesParts.join(", ")}`);
+  if (d.open_source) lines.push(`Open source: ${d.open_source}`);
+  if (d.github_stars !== undefined) lines.push(`GitHub stars: ${d.github_stars}`);
+  if (d.last_commit_date) lines.push(`Last commit: ${d.last_commit_date}`);
+  if (d.in_civictech_guide !== undefined) lines.push(`In civictech guide: ${d.in_civictech_guide}`);
+  if (d.underdog_signal !== undefined) lines.push(`Underdog signal: ${d.underdog_signal}`);
+  const fundingParts = listFieldToStrings(d.funding_model);
+  if (fundingParts.length) lines.push(`Funding: ${fundingParts.join(", ")}`);
+  const funderParts = listFieldToStrings(d.known_funders);
+  if (funderParts.length) lines.push(`Known funders: ${funderParts.join(", ")}`);
+  if (d.political_relevance_summary) lines.push(`Political relevance: ${d.political_relevance_summary}`);
+  if (d.systemic_issue_area) lines.push(`Systemic issue: ${d.systemic_issue_area}`);
+  if (d.movement_building_utility) {
+    lines.push(`Movement utility: ${d.movement_building_utility.classification} — ${d.movement_building_utility.notes}`);
+  }
+  if (d.causation_strength) lines.push(`Causation strength: ${d.causation_strength}`);
+  const policyOutcomes = asPolicyOutcomeList(d.policy_outcomes);
+  if (policyOutcomes.length) {
+    lines.push(`Policy outcomes:`);
+    policyOutcomes.slice(0, 3).forEach(o =>
+      lines.push(`  - ${o.description}${o.year != null ? ` (${o.year})` : ""}`)
+    );
+  }
+  if (d.ai_involvement) lines.push(`AI involvement: ${d.ai_involvement}`);
+  if (d.scraped?.scraped_description) lines.push(`Description: ${d.scraped.scraped_description}`);
+  if (d.scraped?.dead_link) lines.push(`NOTE: Dead link recorded at scrape time`);
+  const failureParts = listFieldToStrings(d.failure_modes).slice(0, 2);
+  if (failureParts.length) lines.push(`Known failure modes: ${failureParts.join("; ")}`);
+  return lines.join("\n");
+}
+
+// ---------------------------------------------------------------------------
+// HTML -> readable text (SQLite fallback)
 // ---------------------------------------------------------------------------
 
 function extractReadableText(html: string): string {
-  // Remove everything we know is noise
   let text = html
     .replace(/<script[\s\S]*?<\/script>/gi, " ")
     .replace(/<style[\s\S]*?<\/style>/gi, " ")
@@ -115,14 +282,12 @@ function extractReadableText(html: string): string {
     .replace(/<footer[\s\S]*?<\/footer>/gi, " ")
     .replace(/<header[\s\S]*?<\/header>/gi, " ");
 
-  // Try to isolate main content if marked up semantically
   const mainMatch = text.match(/<main[\s\S]*?<\/main>/i)
     || text.match(/<article[\s\S]*?<\/article>/i)
     || text.match(/id=["']?(main|content|primary)["']?[\s\S]*?<\/div>/i);
 
   const working = mainMatch ? mainMatch[0] : text;
 
-  // Strip remaining tags, decode entities, collapse whitespace
   const stripped = working
     .replace(/<[^>]+>/g, " ")
     .replace(/&nbsp;/g, " ")
@@ -135,12 +300,11 @@ function extractReadableText(html: string): string {
     .replace(/\s{3,}/g, "  ")
     .trim();
 
-  // Deduplicate repeated lines (nav/footer often repeats link text)
   const lines = stripped.split(/\n|\r/);
   const seen = new Set<string>();
   const deduped = lines.filter(line => {
     const key = line.trim().toLowerCase();
-    if (key.length < 4) return false; // skip near-empty lines
+    if (key.length < 4) return false;
     if (seen.has(key)) return false;
     seen.add(key);
     return true;
@@ -150,32 +314,47 @@ function extractReadableText(html: string): string {
 }
 
 // ---------------------------------------------------------------------------
-// Cache DB
+// Content loading — dossier first, SQLite fallback
 // ---------------------------------------------------------------------------
 
-function openCache(): Database.Database {
-  if (!fs.existsSync(CACHE_DB_PATH)) {
-    console.error(`Cache not found at ${CACHE_DB_PATH}. Run: npm run cache:sites`);
-    process.exit(1);
-  }
-  return new Database(CACHE_DB_PATH, { readonly: true });
+let _db: Database.Database | null = null;
+
+function getDb(): Database.Database | null {
+  if (_db) return _db;
+  if (!fs.existsSync(CACHE_DB_PATH)) return null;
+  _db = new Database(CACHE_DB_PATH, { readonly: true });
+  return _db;
 }
 
-function getCachedEntry(db: Database.Database, url: string): {
-  text: string;
+function getProjectContent(url: string): {
+  dossierText: string;
+  pageText: string;
+  hadDossier: boolean;
   hadCache: boolean;
 } {
-  const row = db.prepare("SELECT body, error FROM pages WHERE url = ?").get(url) as
-    | { body: string | null; error: string | null }
-    | undefined;
+  const dossier = getDossier(url);
+  const hadDossier = !!dossier;
+  const dossierText = dossier ? formatDossierForPrompt(dossier) : "";
 
-  if (!row) return { text: "", hadCache: false };
-  if (row.error || !row.body) return { text: "", hadCache: true };
-  return { text: extractReadableText(row.body), hadCache: true };
+  const db = getDb();
+  let pageText = "";
+  let hadCache = false;
+  if (db) {
+    const row = db.prepare("SELECT body, error FROM pages WHERE url = ?").get(url) as
+      | { body: string | null; error: string | null } | undefined;
+    if (row && !row.error && row.body) {
+      pageText = extractReadableText(row.body);
+      hadCache = true;
+    } else if (row) {
+      hadCache = true; // fetched but errored or empty
+    }
+  }
+
+  return { dossierText, pageText, hadDossier, hadCache };
 }
 
 // ---------------------------------------------------------------------------
-// Assessments I/O — load once, save after every agent write
+// Assessments I/O
 // ---------------------------------------------------------------------------
 
 function loadAssessments(): AssessmentsMap {
@@ -209,6 +388,20 @@ function readCandidateUrls(csvPath: string): Promise<string[]> {
 }
 
 // ---------------------------------------------------------------------------
+// Awards context lens — added to all three agent prompts
+// Each agent reads it through their own lens naturally; the framing is the same.
+// ---------------------------------------------------------------------------
+
+const AWARDS_CONTEXT_SECTION = `
+AWARDS CONTEXT LENS — reason about these three dimensions through YOUR specific lens. Write prose only — no scores. These readings feed into quantified bonus points assigned later in deliberation.
+
+RELEVANCE_2026: Does this project matter *right now*, in the current political moment? Consider what has sharpened in 2025-2026: democratic backsliding, AI governance gaps, platform capture, surveillance expansion, information warfare, the collapse of trust in institutions. Read this through your lens — political: "whose power does this address at this moment?"; relational: "which human relationships and communities are under particular threat right now?"; experimental: "which knowledge gaps and epistemic failures have become most urgent to address?"
+
+PROJECT_SPECIFICITY: Is this a specific, concrete output — a tool, protocol, dataset, methodology, piece of research — or primarily an established organisation, network, or community of practice? We want to surface specific contributions over institutional presence. Not a quality judgment — an org can be excellent. But is there a *thing* here? Something you could point to and say "this specific output is the contribution"? Use governance_model, format, and what the dossier shows about what they actually ship.
+
+NOVELTY: Is this a genuinely new entrant bringing fresh approaches to the political technology ecosystem, or a well-established player already recognised and resourced? New voices need the spotlight more than established ones. Use the dossier signals to calibrate — founded_year, decade_plus, underdog_signal, github_stars, in_civictech_guide. Being well-known is not a sin, but it should not attract extra reward here.`;
+
+// ---------------------------------------------------------------------------
 // Agent prompts
 // ---------------------------------------------------------------------------
 
@@ -220,6 +413,26 @@ BUCKET CALIBRATION — read this before choosing:
   red    = Doesn't resonate on any lens, or actively fails one. A project can be worthy and still get red — it means "not what we're looking for this round."
 
 If you are defaulting to yellow because it feels safe: stop. Ask yourself — do the lenses actually point in different directions, or are you hedging? Hedging belongs in the self-check, not the bucket. Expect roughly: 20-25% green, 30-35% yellow (real tension), 25-30% red, 10-15% grey.`;
+
+const RESPONSE_SCHEMA = `
+Respond ONLY with valid JSON, no markdown fences, no preamble:
+{
+  "self_check": { "radical_uncertainty": "...", "many_ways_of_knowing": "...", "speed_of_wisdom": "...", "bigger_picture": "...", "all_scales": "...", "inner_work": "..." },
+  "lenses": {
+    "systemic": { "spectrum_position": "...", "evidence": "...", "reflective_question": "...", "watchout": "..." },
+    "experimentation": { "spectrum_position": "...", "evidence": "...", "reflective_question": "...", "watchout": "..." },
+    "fractality": { "spectrum_position": "...", "evidence": "...", "reflective_question": "...", "watchout": "..." },
+    "non_identification": { "spectrum_position": "...", "evidence": "...", "reflective_question": "...", "watchout": "..." }
+  },
+  "awards_context": {
+    "relevance_2026": "...",
+    "project_specificity": "...",
+    "novelty": "..."
+  },
+  "felt_sense": "...",
+  "bucket": "green|yellow|red|grey",
+  "key_read": "..."
+}`;
 
 const AGENT_PROMPTS: Record<string, string> = {
   political: `You are the POLITICAL evaluator in a three-agent ITN/A evaluation committee assessing political technology projects.
@@ -236,22 +449,22 @@ EVALUATOR SELF-CHECK — answer honestly before evaluating, flag blind spots:
 
 FOUR LENSES — for each: spectrum_position (where on the spectrum, in your own words), evidence (what you're basing it on — label as evidence / intuition / both), reflective_question (your answer to the lens's question), watchout (what the watch-out surfaced, if anything).
 
-LENS 1 — SYSTEMIC IMPACT [symptom-treatment ←→ structure-change]
+LENS 1 — SYSTEMIC IMPACT [symptom-treatment <-> structure-change]
 Look for: What system is this intervening in? At what level? Does it name the system or act as if the problem exists in isolation?
 Reflective question: If this project succeeds completely, does the need for it disappear — or does it become permanently necessary?
 Watch out for: Structure-change branding on symptom-treatment. Also: refusing to treat symptoms in pursuit of structural purity.
 
-LENS 2 — EXPERIMENTATION [fixed execution ←→ pure exploration]
+LENS 2 — EXPERIMENTATION [fixed execution <-> pure exploration]
 Look for: Built-in mechanisms to learn and change course? Theory of change as hypothesis or fact?
 Reflective question: If the project's core assumption turned out to be wrong, would the team notice? How quickly? What would they do?
 Watch out for: Iteration theatre — agile language, waterfall execution. Also: "exploration" used to avoid committing.
 
-LENS 3 — FRACTALITY [serves one scale deeply ←→ serves many scales lightly]
+LENS 3 — FRACTALITY [serves one scale deeply <-> serves many scales lightly]
 Look for: Nourishes or consumes the people working on it? Strengthens community or extracts from it?
 Reflective question: If you only looked at what this project does for the people inside it — would it still be worth doing?
 Watch out for: Sacrificing team wellbeing for "impact." Also: so internally nourishing it never faces outward.
 
-LENS 4 — NON-IDENTIFICATION [tightly held ←→ loosely held]
+LENS 4 — NON-IDENTIFICATION [tightly held <-> loosely held]
 Look for: Does the team steward the project, or are they the project? Can they describe what would make them stop?
 Reflective question: If this project needed to become something completely different to achieve its underlying purpose, would the team let it?
 Watch out for: "I'm not attached" with identity visibly fused. Also: so loosely held there's no conviction.
@@ -260,21 +473,11 @@ FELT SENSE: After the lenses — what is your gut saying, even if it contradicts
 
 KEY READ: The single most important thing THIS agent sees — what the relational and experimental agents would miss.
 
+${AWARDS_CONTEXT_SECTION}
+
 ${BUCKET_CALIBRATION}
 
-Respond ONLY with valid JSON, no markdown fences, no preamble:
-{
-  "self_check": { "radical_uncertainty": "...", "many_ways_of_knowing": "...", "speed_of_wisdom": "...", "bigger_picture": "...", "all_scales": "...", "inner_work": "..." },
-  "lenses": {
-    "systemic": { "spectrum_position": "...", "evidence": "...", "reflective_question": "...", "watchout": "..." },
-    "experimentation": { "spectrum_position": "...", "evidence": "...", "reflective_question": "...", "watchout": "..." },
-    "fractality": { "spectrum_position": "...", "evidence": "...", "reflective_question": "...", "watchout": "..." },
-    "non_identification": { "spectrum_position": "...", "evidence": "...", "reflective_question": "...", "watchout": "..." }
-  },
-  "felt_sense": "...",
-  "bucket": "green|yellow|red|grey",
-  "key_read": "..."
-}`,
+${RESPONSE_SCHEMA}`,
 
   relational: `You are the RELATIONAL evaluator in a three-agent ITN/A evaluation committee assessing political technology projects.
 
@@ -290,22 +493,22 @@ EVALUATOR SELF-CHECK — answer honestly, flag blind spots:
 
 FOUR LENSES — for each: spectrum_position, evidence (label: evidence/intuition/both), reflective_question (your answer), watchout.
 
-LENS 1 — SYSTEMIC IMPACT [symptom-treatment ←→ structure-change]
+LENS 1 — SYSTEMIC IMPACT [symptom-treatment <-> structure-change]
 Look for: What relational structures does this reinforce or challenge? Does it name the relational system it's in?
 Reflective question: If this project succeeds completely, does the need for it disappear — or does it become permanently necessary?
 Watch out for: "Connection" tech that atomises while simulating community.
 
-LENS 2 — EXPERIMENTATION [fixed execution ←→ pure exploration]
+LENS 2 — EXPERIMENTATION [fixed execution <-> pure exploration]
 Look for: Does the project learn from the communities it serves? Does it treat its model of human need as a hypothesis?
 Reflective question: If the core assumption about what communities need turned out to be wrong, would the team notice?
 Watch out for: Projects that collect community feedback as performance rather than actually updating.
 
-LENS 3 — FRACTALITY [serves one scale deeply ←→ serves many scales lightly]
+LENS 3 — FRACTALITY [serves one scale deeply <-> serves many scales lightly]
 Look for: Nourishes or consumes the team? Strengthens community ties or extracts emotional labour?
 Reflective question: If you only looked at what this project does for the people inside it — would it still be worth doing?
 Watch out for: Sacrificing team and community wellbeing for reach. Also: the project so internally warm it never faces outward.
 
-LENS 4 — NON-IDENTIFICATION [tightly held ←→ loosely held]
+LENS 4 — NON-IDENTIFICATION [tightly held <-> loosely held]
 Look for: Is the community ownership real or rhetorical? Would the founders let the community take it somewhere they didn't intend?
 Reflective question: If this project needed to become something completely different to serve its community, would the team let it?
 Watch out for: Community language that masks founder control.
@@ -314,21 +517,11 @@ FELT SENSE: What is your gut saying after the lenses? Especially if it contradic
 
 KEY READ: The single most important thing THIS agent sees — what the political and experimental agents would miss.
 
+${AWARDS_CONTEXT_SECTION}
+
 ${BUCKET_CALIBRATION}
 
-Respond ONLY with valid JSON, no markdown fences:
-{
-  "self_check": { "radical_uncertainty": "...", "many_ways_of_knowing": "...", "speed_of_wisdom": "...", "bigger_picture": "...", "all_scales": "...", "inner_work": "..." },
-  "lenses": {
-    "systemic": { "spectrum_position": "...", "evidence": "...", "reflective_question": "...", "watchout": "..." },
-    "experimentation": { "spectrum_position": "...", "evidence": "...", "reflective_question": "...", "watchout": "..." },
-    "fractality": { "spectrum_position": "...", "evidence": "...", "reflective_question": "...", "watchout": "..." },
-    "non_identification": { "spectrum_position": "...", "evidence": "...", "reflective_question": "...", "watchout": "..." }
-  },
-  "felt_sense": "...",
-  "bucket": "green|yellow|red|grey",
-  "key_read": "..."
-}`,
+${RESPONSE_SCHEMA}`,
 
   experimental: `You are the EXPERIMENTAL evaluator in a three-agent ITN/A evaluation committee assessing political technology projects.
 
@@ -344,22 +537,22 @@ EVALUATOR SELF-CHECK — answer honestly, flag blind spots:
 
 FOUR LENSES — for each: spectrum_position, evidence (label: evidence/intuition/both), reflective_question (your answer), watchout.
 
-LENS 1 — SYSTEMIC IMPACT [symptom-treatment ←→ structure-change]
+LENS 1 — SYSTEMIC IMPACT [symptom-treatment <-> structure-change]
 Look for: Does this project understand the system it's in, or treat the problem as isolated? Epistemic tools that make power legible without challenging it sit firmly left.
 Reflective question: If this project succeeds completely, does the need for it disappear — or does it become permanently necessary?
 Watch out for: Legibility projects that map existing power without shifting it.
 
-LENS 2 — EXPERIMENTATION [fixed execution ←→ pure exploration]
+LENS 2 — EXPERIMENTATION [fixed execution <-> pure exploration]
 Look for: Real feedback loops or performed ones? Theory of change as hypothesis or gospel?
 Reflective question: If the project's core assumption turned out to be wrong, would the team notice? How quickly? What would they do?
 Watch out for: Iteration theatre — agile language, waterfall execution. Also: endless exploration that never commits to a direction.
 
-LENS 3 — FRACTALITY [serves one scale deeply ←→ serves many scales lightly]
+LENS 3 — FRACTALITY [serves one scale deeply <-> serves many scales lightly]
 Look for: Does the project generate knowledge and capacity that survives even if the specific project fails?
 Reflective question: If you only looked at what this project does for the people inside it — would it still be worth doing?
 Watch out for: Learning that accrues to researchers and funders at the expense of communities studied.
 
-LENS 4 — NON-IDENTIFICATION [tightly held ←→ loosely held]
+LENS 4 — NON-IDENTIFICATION [tightly held <-> loosely held]
 Look for: Is the theory of change falsifiable, or unfalsifiable by design?
 Reflective question: If this project needed to become something completely different to achieve its purpose, would the team let it?
 Watch out for: Mission lock disguised as conviction. Also: pivoting so freely the thread is lost.
@@ -368,21 +561,11 @@ FELT SENSE: What is your gut saying after the lenses? Especially if it contradic
 
 KEY READ: The single most important thing THIS agent sees — what the political and relational agents would miss.
 
+${AWARDS_CONTEXT_SECTION}
+
 ${BUCKET_CALIBRATION}
 
-Respond ONLY with valid JSON, no markdown fences:
-{
-  "self_check": { "radical_uncertainty": "...", "many_ways_of_knowing": "...", "speed_of_wisdom": "...", "bigger_picture": "...", "all_scales": "...", "inner_work": "..." },
-  "lenses": {
-    "systemic": { "spectrum_position": "...", "evidence": "...", "reflective_question": "...", "watchout": "..." },
-    "experimentation": { "spectrum_position": "...", "evidence": "...", "reflective_question": "...", "watchout": "..." },
-    "fractality": { "spectrum_position": "...", "evidence": "...", "reflective_question": "...", "watchout": "..." },
-    "non_identification": { "spectrum_position": "...", "evidence": "...", "reflective_question": "...", "watchout": "..." }
-  },
-  "felt_sense": "...",
-  "bucket": "green|yellow|red|grey",
-  "key_read": "..."
-}`
+${RESPONSE_SCHEMA}`
 };
 
 // ---------------------------------------------------------------------------
@@ -407,7 +590,7 @@ async function callOpenRouter(system: string, user: string, model: string): Prom
         { role: "system", content: system },
         { role: "user", content: user }
       ],
-      max_tokens: 2200,
+      max_tokens: 2500,
       temperature: 0.3
     })
   });
@@ -457,7 +640,6 @@ function hasErrors(a: ProjectAssessment): boolean {
 }
 
 function isComplete(a: ProjectAssessment): boolean {
-  // Complete means all three agents have a successful (non-error) result
   return ["political", "relational", "experimental"].every(k => {
     const v = a[k as keyof ProjectAssessment];
     return v && typeof v === "object" && !("error" in v);
@@ -478,7 +660,9 @@ async function main() {
     process.exit(1);
   }
 
-  const db = openCache();
+  const dossiers = loadDossiers();
+  console.log(`Dossiers loaded: ${Math.floor(dossiers.size / 2)} (from ${DOSSIER_DIR})`);
+
   const assessments = loadAssessments();
 
   const allUrls = SINGLE_URL
@@ -489,7 +673,7 @@ async function main() {
     const existing = assessments[url];
     if (!existing) return true;
     if (RETRY_ERRORS && hasErrors(existing)) return true;
-    if (!isComplete(existing)) return true; // resume partial
+    if (!isComplete(existing)) return true;
     return false;
   });
 
@@ -498,7 +682,7 @@ async function main() {
 
   if (pending.length === 0) {
     console.log("Nothing to do. Use --retry-errors to re-run failed assessments.");
-    db.close();
+    if (_db) _db.close();
     return;
   }
 
@@ -506,36 +690,45 @@ async function main() {
   let projectsDone = 0;
   let totalErrors = 0;
 
-  async function processUrl(url: string, queueIndex: number): Promise<void> {
-    const { text, hadCache } = getCachedEntry(db, url);
-    const textPreview = text
-      ? `PAGE CONTENT (${text.length} chars extracted):\n---\n${text}\n---`
-      : `No cached page content available for this URL. Evaluate from the URL and any prior knowledge. Be explicit about what you don't know.`;
+  async function processUrl(url: string): Promise<void> {
+    const { dossierText, pageText, hadDossier, hadCache } = getProjectContent(url);
+
+    let contentBlock: string;
+    if (hadDossier) {
+      contentBlock = `DOSSIER DATA (structured — primary source):\n---\n${dossierText}\n---`;
+      if (pageText) {
+        contentBlock += `\n\nSUPPLEMENTARY PAGE CONTENT (${pageText.length} chars):\n---\n${pageText}\n---`;
+      }
+    } else if (pageText) {
+      contentBlock = `PAGE CONTENT (${pageText.length} chars extracted — no dossier available):\n---\n${pageText}\n---`;
+    } else {
+      contentBlock = `No dossier or cached page content available. Evaluate from URL and any prior knowledge. Be explicit about what you don't know.`;
+    }
 
     const userMessage = `Apply the ITN/A protocol to this political technology project.
 
 URL: ${url}
 
-${textPreview}
+${contentBlock}
 
-Complete all steps: evaluator self-check, four lenses with spectrum positioning, felt sense, bucket, key read. Be genuinely reflective in the self-check. If page content is thin or absent, say so in the relevant fields rather than inventing.`;
+Complete all steps: evaluator self-check, four lenses with spectrum positioning, awards context lens, felt sense, bucket, key read. Be genuinely reflective in the self-check. If content is thin or absent, say so rather than inventing.`;
 
     const idx = ++projectsDone;
-    console.log(`[${idx}/${pending.length}] ${hostname(url)} ${hadCache ? `(${text.length} chars)` : "(no cache)"}`);
+    const sourceLabel = hadDossier ? "dossier" : hadCache ? `${pageText.length}c` : "no content";
+    console.log(`[${idx}/${pending.length}] ${hostname(url)} (${sourceLabel})`);
 
-    // Initialise entry so we can write partial results immediately
     if (!assessments[url]) {
       assessments[url] = {
         evaluated_at: new Date().toISOString(),
         model: MODEL,
         had_cache: hadCache,
+        had_dossier: hadDossier,
       };
     }
 
     let projectErrors = 0;
 
     for (const agentId of agentIds) {
-      // Skip already-completed agents (resume support)
       const existing = assessments[url][agentId];
       if (existing && !("error" in existing)) {
         process.stdout.write(`  ${agentId}: already done (${(existing as AgentResult).bucket})\n`);
@@ -556,30 +749,26 @@ Complete all steps: evaluator self-check, four lenses with spectrum positioning,
         continue;
       }
 
-      // Save after every SUCCESSFUL agent call — live updates
       assessments[url].evaluated_at = new Date().toISOString();
       saveAssessments(assessments);
-
       await sleep(CALL_DELAY_MS);
     }
 
     if (projectErrors > 0) totalErrors++;
   }
 
-  // Worker pool: CONCURRENCY workers drain the pending queue concurrently
   console.log(`Concurrency: ${CONCURRENCY}\n`);
   const queue = [...pending];
-  let queueIndex = 0;
   const workers = Array.from({ length: Math.min(CONCURRENCY, pending.length) }, async () => {
     while (queue.length > 0) {
       const url = queue.shift();
       if (!url) break;
-      await processUrl(url, queueIndex++);
+      await processUrl(url);
     }
   });
   await Promise.all(workers);
 
-  db.close();
+  if (_db) _db.close();
 
   console.log(`\nDone. ${projectsDone} projects | ${totalErrors} with errors`);
   console.log(`Results: ${ASSESSMENTS_PATH}`);

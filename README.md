@@ -40,5 +40,6 @@ _Bot-maintained summary. Full records: [docs/logs/iterations-log.md](docs/logs/i
 | v5 | 2026-02-22 | merged | github.com | [v5](https://github.com/nwspk/politech-awards-2026/pull/12) | [entry](docs/logs/iterations-log.md) |
 | v6 | 2026-03-09 | open | algorithmwatch.org | [v6](https://github.com/nwspk/politech-awards-2026/pull/15) | [entry](docs/logs/iterations-log.md) |
 | v7 | 2026-03-28 | merged | expo.diia.gov.ua | [v7](https://github.com/nwspk/politech-awards-2026/pull/20) | [entry](docs/logs/iterations-log.md) |
+| v8 | 2026-03-27 | open | blog.kagi.com/slopstop | [v8](https://github.com/nwspk/politech-awards-2026/pull/41) | [entry](docs/logs/iterations-log.md) |
 
 <!-- ITERATIONS:END -->
