@@ -5,10 +5,11 @@ date: "2026-03-29"
 pr_url: "https://github.com/nwspk/politech-awards-2026/pull/89"
 version: v10
 pr_number: 89
-pr_status: "open"
+pr_status: "merged"
 top_project:
   name: "torproject.org"
   url: "https://www.torproject.org"
+  score: 90
   score: 90
 ---
 
