@@ -548,3 +548,37 @@ v11 through v14 committee aggregation CSVs updated to replace Fatima's v2 scores
 **Fatima's LiquidFeedback score: v2=83.5 (rank 2) → v3=69.2 (rank 25).** Implementation-first framing rewards Decidim's democratic association governance model over LiquidFeedback's delegated voting model.
 
 **PRs updated:** #100 (v11), #104 (v12), #105 (v13), #107 (v14)
+
+---
+
+## Committee aggregation re-roll — Fatima v5 scores — 2026-03-30
+
+v11 through v14 committee aggregation CSVs re-rolled to replace Fatima's v3 (implementation-first) scores with her v5 (agency-first) scores. Committee is now 18 members: 14×v2 + 3×v3 (Nicholas Botti, Huda Abdirahim, Alexandra Ciocanel) + 1×v5 (Fatima Sarah Khalid).
+
+**Rationale:** Always use the most recent agent version per member. Fatima's v5 is her most calibrated constitution.
+
+**Final results with v5:**
+
+| Aggregation | Winner | Key metric | Change from v3 run |
+|---|---|---|---|
+| v11 (mean) | LiquidFeedback | avg 66.38, stdev 15.69, n=18 | Winner unchanged; avg rises 65.45 → 66.38 |
+| v12 (median rank) | Open Data Editor (ODE) | median rank 14.0, n=18 | Winner unchanged |
+| v13 (most divisive) | **Gapminder Worldview Upgrader** | stdev 25.07, mean 45.79 | **CHANGED** — AlgorithmWatch displaced |
+| v14 (consensus/lowest stdev) | Vote for Policies | stdev 7.7, mean 33.08 | Winner unchanged; stdev slightly higher |
+
+**Key score shifts (Fatima v3 → v5):**
+- LiquidFeedback: 69.2 (rank 25) → 85.9 (rank 37) — agency-first rewards forkable, community-governed
+- Gapminder Worldview Upgrader: 56.0 (rank 104) → 97.0 (rank 10) — near-perfect fit for legibility + agency framing
+- mySociety Datasets and APIs: 69.0 (rank 29) → 92.8 (rank 16)
+- Open Data Editor (ODE): 71.3 (rank 18) → 87.3 (rank 31)
+- AlgorithmWatch: 63.5 (rank 59) → 50.2 (rank 186) — agency framing penalises the watchdog monitoring model
+
+**v13 change explained:** Fatima's Gapminder score jumps from 56.0 to 97.0 under agency-first framing. Combined with Tuna's existing 100.0 ceiling and Asil's 10.6 / Alexandra's 15.5 floor, Gapminder's stdev stretches to 25.07 — overtaking AlgorithmWatch (22.90).
+
+**PRs updated:** #100 (v11 title + body), #104 (v12 body), #105 (v13 title + body), #107 (v14 title + body)
+
+**CSV branches updated:**
+- `project-mirror-v2/committee-aggregation-v11` — `committee-ranking-v11.csv`
+- `project-mirror-v2/committee-aggregation-v12` — `committee-ranking-v12.csv`
+- `project-mirror-v2/committee-analysis-divisive` — `divisive-projects.csv`
+- `project-mirror-v2/committee-analysis-consensus` — `consensus-projects.csv`
