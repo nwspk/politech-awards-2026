@@ -161,6 +161,7 @@ SKIP_PREFIXES = ("project-mirror",)
 
 # Iterations with real assessments: {iter_name: assessments_filename}
 REAL_ASSESSMENT_ITERS = {
+    "v5": "assessments.json",
     "v6": "assessments-merged.json",
     "v8": "assessments-grok.json",
 }
