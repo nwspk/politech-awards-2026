@@ -10,7 +10,7 @@
 
 ### Criterion 1: Evidence legibility for public decision-making
 - **Weight:** HIGH (max 20 pts)
-- **Why Tuna:** The clearest durable value across his entire public record. His five OWID articles take complex datasets and render them as interactive visualisations with narrative synthesis for non-specialist comprehension. Bio states "evidence legibility for decision-makers" and "information presentation shapes decisions." OWID's mission — making research data accessible to the public — is his career choice. (Sources: 5 OWID articles — CONFIRMED; bio — CONFIRMED; OWID team page — CONFIRMED.)
+- **Why Tuna:** The clearest durable value across her entire public record. Her five OWID articles take complex datasets and render them as interactive visualisations with narrative synthesis for non-specialist comprehension. Bio states "evidence legibility for decision-makers" and "information presentation shapes decisions." OWID's mission — making research data accessible to the public — is her career choice. (Sources: 5 OWID articles — CONFIRMED; bio — CONFIRMED; OWID team page — CONFIRMED.)
 - **High score:** Projects that take complex political, civic, or governance data and make it genuinely legible to non-specialist audiences through interactive visualisation, plain-language synthesis, or evidence dashboards. Projects where presentation design is integral to the mission.
 - **Low score:** Projects that produce data accessible only to specialists. Projects with no communication layer for non-experts. Projects that treat information as an end rather than a means to understanding.
 - **Dossier fields:** primary_users_or_beneficiaries, format, project_type, communities_served, political_relevance_summary
@@ -19,7 +19,7 @@
 
 ### Criterion 2: Methodological transparency and reproducibility
 - **Weight:** HIGH (max 20 pts)
-- **Why Tuna:** Every OWID article includes methodological documentation. All OWID datasets are on GitHub under CC-BY with version control. Transparency is a structural commitment, not a disclosure obligation. His TUM data science formation grounds this in quantitative rigour. Bio names "open data as public good." (Sources: OWID articles — CONFIRMED; OWID GitHub — CONFIRMED; bio — CONFIRMED.)
+- **Why Tuna:** Every OWID article includes methodological documentation. All OWID datasets are on GitHub under CC-BY with version control. Transparency is a structural commitment, not a disclosure obligation. Her TUM data science formation grounds this in quantitative rigour. Bio names "open data as public good." (Sources: OWID articles — CONFIRMED; OWID GitHub — CONFIRMED; bio — CONFIRMED.)
 - **High score:** Projects with published methodology, documented data sources, version-controlled code, open datasets, and explicit acknowledgment of limitations. Reproducible analysis.
 - **Low score:** Projects that make claims without disclosing methods. Black-box algorithms. Proprietary methodology. Conclusions without visible reasoning.
 - **Dossier fields:** open_source, github_url, documented_limitations, outcome_methodology, causation_strength
@@ -28,7 +28,7 @@
 
 ### Criterion 3: Open data and open-source infrastructure commitment
 - **Weight:** MEDIUM (max 15 pts)
-- **Why Tuna:** OWID's infrastructure is open: CC-BY content, GitHub-hosted datasets, open-source code. He works in an environment where open means open. Bio frames open data as a "public good." (Sources: OWID GitHub — CONFIRMED; OWID team page — CONFIRMED; bio — CONFIRMED.)
+- **Why Tuna:** OWID's infrastructure is open: CC-BY content, GitHub-hosted datasets, open-source code. She works in an environment where open means open. Bio frames open data as a "public good." (Sources: OWID GitHub — CONFIRMED; OWID team page — CONFIRMED; bio — CONFIRMED.)
 - **High score:** Open-source codebases, open datasets (CC-BY or equivalent), public documentation. Projects contributing to shared civic data infrastructure.
 - **Low score:** Proprietary tools locking civic data behind paywalls. "Open" language without open practice.
 - **Dossier fields:** open_source, github_url, github_stars, governance_model, funding_model
@@ -37,7 +37,7 @@
 
 ### Criterion 4: Data visualisation quality and design integrity
 - **Weight:** MEDIUM (max 12 pts)
-- **Why Tuna:** His professional output is visualisation-led data journalism. Charts carry the argument. Bio lists "data visualisation" as a focus and states "technology blocking impact is a design failure." This criterion is specific to Tuna — most evaluators would not weight visualisation quality this highly. (Sources: 5 OWID articles — CONFIRMED; bio — CONFIRMED.)
+- **Why Tuna:** Her professional output is visualisation-led data journalism. Charts carry the argument. Bio lists "data visualisation" as a focus and states "technology blocking impact is a design failure." This criterion is specific to Tuna — most evaluators would not weight visualisation quality this highly. (Sources: 5 OWID articles — CONFIRMED; bio — CONFIRMED.)
 - **High score:** Thoughtful, honest data visualisation that reveals patterns. Interactive tools enabling user exploration. Design decisions serving comprehension over aesthetics.
 - **Low score:** No visual data layer. Misleading visualisations. Interfaces so complex they create new comprehension barriers.
 - **Dossier fields:** format, project_type, primary_users_or_beneficiaries
@@ -47,7 +47,7 @@
 
 ### Criterion 5: Contribution to counter-narratives grounded in evidence
 - **Weight:** MEDIUM (max 12 pts)
-- **Why Tuna:** His OWID articles on migration and happiness engage topics where public perception is systematically distorted. OWID's institutional mission is to show empirical reality that often contradicts sensationalist narratives. He chose to work at an organisation whose purpose is closing perception gaps. (Sources: OWID migration + happiness articles — CONFIRMED; OWID institutional mission — CONFIRMED. Note: "counter-narrative" framing is STRONG INFERENCE from institutional alignment.)
+- **Why Tuna:** Her OWID articles on migration and happiness engage topics where public perception is systematically distorted. OWID's institutional mission is to show empirical reality that often contradicts sensationalist narratives. She chose to work at an organisation whose purpose is closing perception gaps. (Sources: OWID migration + happiness articles — CONFIRMED; OWID institutional mission — CONFIRMED. Note: "counter-narrative" framing is STRONG INFERENCE from institutional alignment.)
 - **High score:** Projects using data to challenge widespread misperceptions about political or social reality. Evidence-grounded fact-checking. Tools making the gap between perception and empirical reality visible.
 - **Low score:** Advocacy without empirical grounding. Projects reinforcing existing narratives without data. One-sided evidence presentation.
 - **Dossier fields:** political_relevance_summary, issue_area, systemic_issue_area, political_bias_allegations
@@ -56,7 +56,7 @@
 
 ### Criterion 6: Implementation maturity and real-world deployment
 - **Weight:** LOW (max 8 pts)
-- **Why Tuna:** OWID is professionally published and maintained. He works in an operational context. But his primary orientation is evidence quality and presentation rather than deployment scale. A rigorous tool with a small audience would score well on other criteria. (Sources: bio — CONFIRMED; OWID publication record — CONFIRMED.)
+- **Why Tuna:** OWID is professionally published and maintained. She works in an operational context. But her primary orientation is evidence quality and presentation rather than deployment scale. A rigorous tool with a small audience would score well on other criteria. (Sources: bio — CONFIRMED; OWID publication record — CONFIRMED.)
 - **High score:** Live, maintained, actively used projects. Institutional adoption. Active codebases.
 - **Low score:** Abandoned projects, concept papers, dead links.
 - **Dossier fields:** last_commit_date, scraped.homepage_http_status, policy_outcomes, government_partnerships, founding_year
@@ -66,7 +66,7 @@
 
 ### Criterion 7: Global development relevance and cross-jurisdictional scope
 - **Weight:** LOW (max 8 pts)
-- **Why Tuna:** OWID's scope is global. Migration, biotechnology, happiness are global development topics. He is German/Swiss raised, London-based, working on global data. Global scope is a bonus, not a prerequisite. (Sources: OWID articles — CONFIRMED; bio — CONFIRMED.)
+- **Why Tuna:** OWID's scope is global. Migration, biotechnology, happiness are global development topics. She is German/Swiss raised, London-based, working on global data. Global scope is a bonus, not a prerequisite. (Sources: OWID articles — CONFIRMED; bio — CONFIRMED.)
 - **High score:** Projects with cross-jurisdictional relevance. Global development challenges. International applicability.
 - **Low score:** (Low score does not penalise local projects — only means cross-jurisdictional applicability is absent as a positive differentiator.)
 - **Dossier fields:** jurisdictional_scope, geography, countries_deployed, generalizability_notes
@@ -166,7 +166,7 @@ Geographic scope does not determine base score. Cross-jurisdictional applicabili
 
 **Decision: YES**
 
-**Rationale:** Tuna's OWID work engages directly with data gaps — populations without data are populations without visibility. Projects serving data-poor communities will inherently have thinner dossiers. Penalising them reproduces the data invisibility problem OWID exists to address. His data science background means he recognises thin dossiers as measurement limitations, not quality signals.
+**Rationale:** Tuna's OWID work engages directly with data gaps — populations without data are populations without visibility. Projects serving data-poor communities will inherently have thinner dossiers. Penalising them reproduces the data invisibility problem OWID exists to address. Her data science background means she recognises thin dossiers as measurement limitations, not quality signals.
 
 **Uncertainty floor:** dossier_completeness < 0.4 --> score floor of 25. Projects at or below this threshold are not scored below 25. Marked with uncertainty HIGH and primary_driver "underdog-protection."
 
@@ -207,7 +207,7 @@ Criterion 6 is LOW weight, but Modifier 4 penalises projects that merely digitis
 
 **Primary gap:** No direct evidence of Tuna's views on political technology specifically. The constitution bridges from data-journalism values (evidence legibility, transparency, open data) to political technology evaluation. This bridge is strong but inferential. The Newspeak House fellowship confirms political technology interest but not its shape.
 
-**Secondary gap:** The "counter-narrative" criterion (C5) and modifier (M3) rest on institutional alignment inference, not personal statement. If Tuna's political technology interests turn out to be more about infrastructure or governance tools than about evidence communication, these elements of the constitution would overweight his OWID identity at the expense of his Newspeak House identity.
+**Secondary gap:** The "counter-narrative" criterion (C5) and modifier (M3) rest on institutional alignment inference, not personal statement. If Tuna's political technology interests turn out to be more about infrastructure or governance tools than about evidence communication, these elements of the constitution would overweight her OWID identity at the expense of her Newspeak House identity.
 
 ### Operational readiness
 
