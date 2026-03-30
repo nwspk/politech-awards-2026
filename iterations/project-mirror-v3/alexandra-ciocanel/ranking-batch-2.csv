@@ -1,0 +1,82 @@
+rank,name,url,score,criteria_score,modifier_adj,completeness,uncertainty,pop_risk,primary_driver,rationale
+1,vTaiwan,https://github.com/g0v/vue.vtaiwan.tw,80.6,53,+16,0.85,LOW,NONE,criteria,Formal legislative consultation with documented policy outcomes; multi-stage g0v community engagement; highest C1+C6 in batch
+2,Guardian Project,https://guardianproject.info,78.2,51,+16,0.85,LOW,NONE,modifier,Structural correction of surveillance power asymmetry for people in repressive regimes; named populations with named repression mechanisms; strong M1+M3
+3,Participa (Podemos),https://github.com/podemos-info/participa,70.0,50,+9,0.80,LOW,NONE,modifier,Binding democratic mechanism for 500k+ members with 30+ binding votes; formal structural redistribution of policymaking authority
+4,Stanford PB Platform,https://github.com/stanfordcdt/pb,65.7,44,+12,0.75,LOW,NONE,modifier,Formal citizen budget decision authority; multi-city deployment documented; strong C3 participatory design
+5,HURIDOCS,https://github.com/huridocs,65.3,47,+8,0.85,LOW,NONE,modifier,Enables formal accountability processes; epistemic redress for suppressed testimony; strong C2+C4 on human rights documentation
+6,Nyaaya,https://nyaaya.org,64.8,40,+16,0.80,LOW,NONE,modifier,Formal legal knowledge access correcting epistemic power asymmetry; highly specific named populations with named exclusion mechanism; strong M1+M3
+7,LiquidFeedback,https://liquidfeedback.com,63.9,45,+9,0.85,LOW,NONE,modifier,Formal binding democratic delegation mechanism; strong C6 democratic depth; M1 structural correction
+8,New_ Public Roundabout,https://newpublic.substack.com/p/introducing-roundabout-built-for,63.7,44,+10,0.70,MEDIUM,NONE,modifier,Explicitly targets underestimated communities; co-designed with community stewards multi-stage; M3+M5 both active
+9,Groupthink (OpenPolitics),https://github.com/openpolitics/groupthink,62.9,45,+8,0.75,MEDIUM,NONE,modifier,Structural redistribution of policymaking authority used in UK elections; strong C4 critical self-examination
+10,Rahvaalgatus,https://github.com/rahvaalgatus/rahvaalgatus,62.9,45,+8,0.65,MEDIUM,NONE,modifier,Formal legislative petition mechanism triggering parliamentary consideration; strong C6 democratic depth; M1 structural correction
+11,Polis,https://github.com/compdemocracy/polis,61.3,47,+4,0.80,LOW,MEDIUM,criteria,Strong C3+C4 scores; multi-stage engagement documented across vTaiwan deployments; MEDIUM pop_risk: AI-mediated consensus may systematically suppress minority positions
+12,LittleSis,https://littlesis.org,59.6,39,+12,0.85,LOW,NONE,modifier,Enables accountability campaigns against corporate-government power; maps intra-class dynamics; M1+M7 both active
+13,Humble Data Workshop,https://humbledata.org,56.2,42,+5,0.75,MEDIUM,NONE,modifier,Named excluded populations with named tech-sector exclusion mechanism; highest C2 in batch among non-governance tools; M3 active
+14,PlaceCal,https://github.com/geeksforsocialchange/placecal,50.3,38,+4,0.70,MEDIUM,NONE,criteria,Community-based organiser tool with documented engagement; strong C3+C5; M5 active for multi-stage lifecycle
+15,Labour Xchange,https://labourxchange.uk,41.5,34,0,0.70,MEDIUM,NONE,criteria,Strong C2 naming excluded worker populations; but limited participatory governance and critical self-examination
+16,Land Explorer,https://landexplorer.coop,41.5,34,0,0.70,MEDIUM,NONE,criteria,Cooperative land data tool with equity framing; moderate across criteria; no strong modifiers triggered
+17,Missing Numbers,https://missingnumbers.org,40.2,33,0,0.75,LOW,NONE,criteria,Data transparency tool with strong C4 critical framing; but limited direct community engagement
+18,Murmurations Protocol,https://murmurations.network,40.2,33,0,0.75,MEDIUM,NONE,criteria,Decentralised data protocol with community emphasis; moderate across criteria; no modifiers triggered
+19,UK Housing Data Standards,https://hact.org.uk/tools-and-services/uk-housing-data-standards,40.2,33,0,0.80,LOW,NONE,criteria,Equity-focused data standards with strong C2 on housing populations; limited participatory engagement at community level
+20,Data Observation Toolkit,https://github.com/datakind/data-observation-toolkit,40.2,33,0,0.75,MEDIUM,NONE,criteria,DataKind equity framing with moderate community orientation; C1+C4 carry score; no modifiers triggered
+21,RxC Voice,https://github.com/radicalxchange/rxc-voice,39.0,32,0,0.65,MEDIUM,NONE,criteria,Strong C6 democratic depth via quadratic voting; but limited evidence of excluded population centering
+22,Mapped,https://mapped.commonknowledge.coop,39.0,32,0,0.65,MEDIUM,NONE,criteria,Labour movement organising tool; moderate C2 naming excluded workers; Common Knowledge cooperative context
+23,Interoperable Deliberative Tools,https://metagov.org/projects/interop,37.8,31,0,0.65,MEDIUM,NONE,criteria,Strong C4 governance analysis; moderate C6; limited community engagement evidence
+24,Consent-O-Matic,https://github.com/cavi-au/consent-o-matic,36.6,30,0,0.70,MEDIUM,NONE,criteria,Addresses consent power asymmetry; strong C4 critical framing; limited participatory design evidence
+25,Political Ad Transparency Standard,https://github.com/whotargetsme/ad-transparency-standards/blob/main/implement.md,36.6,30,0,0.70,MEDIUM,NONE,criteria,Strong C4 on power analysis of political advertising; limited community engagement
+26,Populate Tools,https://github.com/populatetools,35.4,29,0,0.55,MEDIUM,NONE,criteria,Democratic data tools; moderate across criteria; limited dossier completeness reduces confidence
+27,Matrix,https://matrix.org,35.4,29,0,0.85,LOW,HIGH,criteria,Decentralised communication protocol; HIGH pop_risk: infrastructure-level tool without explicit equity mandate; strong C1+C4 but no community centering
+28,Nook CRM,https://nookcrm.com,35.4,29,0,0.65,MEDIUM,NONE,criteria,Community organising CRM; moderate C2+C3; limited evidence of democratic governance of tool itself
+29,Engine Room Library,https://library.theengineroom.org,34.1,28,0,0.75,LOW,NONE,criteria,Advocacy and civil society resource library; moderate C4 critical framing; C1 limited
+30,Abstract Wikipedia,https://meta.wikimedia.org/wiki/abstract_wikipedia,34.1,28,0,0.70,MEDIUM,NONE,criteria,Knowledge equity framing; moderate C2; limited participatory design evidence at community level
+31,Mastodon,https://github.com/mastodon/mastodon,32.9,27,0,0.85,LOW,HIGH,criteria,Federated social network; HIGH pop_risk: infrastructure-level tool without explicit equity mandate for excluded populations
+32,Monitor Mamdani,https://monitormamdani.com/,32.9,27,0,0.65,MEDIUM,NONE,criteria,Political accountability monitoring tool; moderate C5 underdog signal; limited participatory engagement
+33,Community Notes Analysis,https://github.com/travisbrown/birdwatch,31.7,26,0,0.70,MEDIUM,NONE,criteria,Strong C4 critical analysis of platform power; limited C2+C3; primarily analytical tool
+34,DISARM Frameworks,https://github.com/disarmfoundation/disarmframeworks,30.5,25,0,0.80,LOW,NONE,criteria,Counter-disinformation framework; moderate C1+C4; limited community participation and excluded population focus
+35,Granitt,https://granitt.io,30.0,13,0,0.15,HIGH,NONE,[floor],Underdog protection floor applied: dossier_completeness 0.15 < 0.4; minimal dossier data; HIGH uncertainty
+36,Hand-Written Petition Scanner,https://hand-written-petition-scanner.streamlit.app,30.0,24,0,0.30,HIGH,NONE,[floor],Underdog protection floor applied: dossier_completeness 0.30 < 0.4; dead link; petition accessibility tool for excluded populations
+37,Ladder Hub,https://ladderhub.org/,30.0,19,0,0.25,HIGH,NONE,[floor],Underdog protection floor applied: dossier_completeness 0.25 < 0.4; limited data; apparent community focus
+38,Mapping.kids,https://mapping.kids,30.0,17,0,0.10,HIGH,NONE,[floor],Underdog protection floor applied: dossier_completeness 0.10 < 0.4; all null dossier fields; HIGH uncertainty
+39,liberopinion.com,https://liberopinion.com,30.0,16,0,0.00,HIGH,NONE,[floor],Underdog protection floor applied: no dossier file found; completeness 0.00; maximum uncertainty
+40,Membership (prototype),https://medium.com/@abscond/membership-a-prototype-ea822b2683b,30.0,19,0,0.20,HIGH,NONE,[floor],Underdog protection floor applied: dossier_completeness 0.20 < 0.4; 403 access; limited dossier data
+41,Agreement Engine,https://medium.com/metagov/introducing-the-agreement-engine-bf03b6d5c16c,30.0,21,0,0.25,HIGH,NONE,[floor],Underdog protection floor applied: dossier_completeness 0.25 < 0.4; 403 access; governance tooling
+42,Local Deep Researcher,https://local-deep-researcher-hnmh.vercel.app/,30.0,12,0,0.20,HIGH,NONE,[floor],Underdog protection floor applied: dossier_completeness 0.20 < 0.4; 404 access; minimal dossier data
+43,Moral Machine,https://moralmachine.net,28.0,23,0,0.70,LOW,NONE,criteria,Ethical AI crowdsourcing; moderate C3+C4; but limited direct community empowerment or excluded population centering
+44,youtube-dl,https://github.com/ytdl-org/youtube-dl,26.8,22,0,0.75,LOW,HIGH,criteria,HIGH pop_risk: infrastructure tool without equity mandate; some C5 underdog signal from copyright battles
+45,GrantNav,https://grantnav.threesixtygiving.org,26.8,22,0,0.70,LOW,NONE,criteria,Funding transparency tool; moderate C1+C4; limited community participation design
+46,JOSS,https://joss.theoj.org,26.8,22,0,0.70,LOW,NONE,criteria,Open source academic publishing; moderate C3+C4; limited excluded population centering
+47,Frankenstein Bill,https://gordonguthrie.github.io/frankensteinbill,25.6,21,0,0.70,MEDIUM,NONE,criteria,Legislative transparency tool; moderate C5 underdog signal; limited participatory design
+48,Find Local Consultations,https://gov.uk/find-local-consultations,25.6,21,0,0.65,LOW,NONE,criteria,Government consultation access tool; moderate C1+C6; limited community engagement design
+49,Logos,https://logos.co/,24.4,20,0,0.50,HIGH,NONE,criteria,Privacy/censorship resistance tool; moderate C1; limited community centering; HIGH uncertainty from low completeness
+50,Members' Interests,https://membersinterests.org.uk,24.4,20,0,0.50,HIGH,NONE,criteria,Parliamentary accountability tool; moderate C1+C4; 404 access; HIGH uncertainty
+51,Sugartrail,https://github.com/ribenamaplesyrup/sugartrail,23.2,19,0,0.55,HIGH,NONE,criteria,Corporate network analysis; moderate C5 underdog signal; limited community engagement
+52,Kialo,https://kialo.com,23.2,19,0,0.60,MEDIUM,NONE,criteria,Structured debate platform; moderate C6; limited excluded population focus
+53,DemTech Navigator,https://navigator.oii.ox.ac.uk,23.2,19,0,0.55,MEDIUM,NONE,criteria,Democratic technology navigator; moderate C4; academic framing limits community centering
+54,OA.Report,https://oa.report,22.0,18,0,0.60,MEDIUM,NONE,criteria,Open access reporting tool; moderate C1+C4; academic infrastructure without community focus
+55,Nym,https://nymtech.net,20.7,17,0,0.65,MEDIUM,NONE,criteria,Privacy network infrastructure; moderate C1; limited community centering and participatory design
+56,Harmonica,https://harmonica.chat/,19.6,21,-6,0.55,HIGH,NONE,modifier,M4 applied: AI collecting/synthesising stakeholder views without transparent governance for data use; reduces score from raw 25.6
+57,NumFOCUS,https://numfocus.org,19.5,16,0,0.70,LOW,NONE,criteria,Open source scientific computing; moderate C3; limited political/equity framing
+58,Global Fact-Check Bot,https://globalfactcheck.bot/,18.4,20,-6,0.65,MEDIUM,NONE,modifier,M4 applied: AI fact-checking expanding epistemic authority without clear governance for contested claims
+59,MapIt,https://mapit.mysociety.org,18.3,15,0,0.70,LOW,NONE,criteria,Geographic boundary API; limited equity or community framing; mySociety infrastructure tool
+60,Metaculus,https://metaculus.com,18.3,15,0,0.65,MEDIUM,NONE,criteria,Prediction market platform; limited excluded population focus or community empowerment
+61,Nestr,https://nestr.io,18.3,15,0,0.60,MEDIUM,NONE,criteria,Organisational governance tool; limited evidence of excluded population centering
+62,DAO Governance Surfaces,https://github.com/notchia/dao-governance-surfaces,17.7,17,-3,0.55,HIGH,NONE,modifier,M6 applied: technical blockchain analysis without community engagement framing
+63,UK Policy Dojo,https://github.com/mikekelly/policy-dojo,15.5,16,-4,0.60,HIGH,NONE,modifier,M6 applied: AI-only policy deliberation bypassing democratic governance
+64,django-collaborative,https://github.com/propublica/django-collaborative,15.3,15,-3,0.65,MEDIUM,NONE,modifier,M6 applied: technical tip-gathering tool framing without governance/participation dimension
+65,Pastecal,https://github.com/kazad/pastecal,14.6,12,0,0.55,HIGH,NONE,criteria,Calendar sharing tool; limited equity or political relevance; primarily technical utility
+66,Idealist,https://idealist.org,14.6,12,0,0.65,LOW,NONE,criteria,Nonprofit job board; limited structural equity analysis or community empowerment
+67,PatCit,https://github.com/cverluise/patcit,13.1,14,-4,0.65,MEDIUM,NONE,modifier,M6 applied: purely technical patent citation dataset; no governance engagement
+68,The DAO (Standard DAO Framework),https://github.com/vbuterin/dao,13.1,14,-4,0.60,MEDIUM,NONE,modifier,M6 applied: technical smart contract mechanism without adequate governance analysis
+69,GRIM (Global Risk Simulator),https://github.com/sentinelteam/grim,13.1,14,-4,0.65,MEDIUM,NONE,modifier,M6 applied: technical simulation framing with no governance dimension
+70,UK Elections Leaflets,https://github.com/thicknavyrain/uk_elections_leaflets,12.9,13,-3,0.55,HIGH,NONE,modifier,M6 applied: technical hackathon data project without community engagement
+71,Local Insight,https://localinsight.org,12.2,10,0,0.55,MEDIUM,NONE,criteria,Local data intelligence; limited excluded population focus or participatory design
+72,Manifold Markets,https://manifold.markets,11.6,12,-3,0.60,MEDIUM,NONE,modifier,M6 applied: market mechanism framing treats civic information as tradeable commodity
+73,whatsmeow,https://github.com/tulir/whatsmeow,10.4,11,-3,0.55,HIGH,NONE,modifier,M6 applied: technical WhatsApp API library; no political or governance dimension
+74,GreenPT,https://greenpt.ai/,10.4,11,-3,0.55,MEDIUM,NONE,modifier,M6 applied: technical environmental/privacy framing without governance analysis
+75,Bluesky Social,https://github.com/bluesky-social,9.4,11,-4,0.65,LOW,HIGH,modifier,M6 applied: predominantly technical decentralisation framing; HIGH pop_risk: platform infrastructure without equity mandate
+76,postcodes.io,https://github.com/ideal-postcodes/postcodes.io,9.2,10,-3,0.60,LOW,NONE,modifier,M6 applied: geographic API technical framing; no community empowerment dimension
+77,Awesome Gov Datasets,https://github.com/i-dot-ai/awesome-gov-datasets,7.0,9,-4,0.60,MEDIUM,NONE,modifier,M6 applied: purely technical government data catalog; CDDO/government-internal framing
+78,Journalist Studio,https://journaliststudio.google.com,7.0,9,-4,0.65,LOW,NONE,modifier,M6 applied: technical Google platform framing; commercial orientation reduces structural equity value
+79,Fission Codes,https://github.com/fission-codes/fission-codes,6.0,9,-5,0.45,HIGH,NONE,modifier,M6 applied: purely technical Web3 status codes; no civic or governance dimension
+80,Granicus,https://granicus.com/uk,6.0,9,-5,0.60,LOW,NONE,modifier,M6 applied: purely commercial technical platform for government communication; no community empowerment
+81,DeepSeek-V3,https://github.com/deepseek-ai/deepseek-v3,0.0,7,-12,0.65,LOW,HIGH,modifier,M6+M4 applied: purely technical LLM with no governance framework; concerns about state influence without accountability; score floored at 0

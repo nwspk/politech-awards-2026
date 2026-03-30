@@ -440,3 +440,15 @@ David Powell confirmed he is comfortable with his ranking and constitution being
 - ❌ Inclusion in overall aggregate score
 - ❌ Inclusion in committee deliberation
 
+
+---
+
+## v3 iterations — 2026-03-30
+
+Three members iterated on their agents based on feedback review:
+
+- **Nicholas Botti → v3** (`iterations/project-mirror-v3/nicholas-botti/`) — added Mechanism of Action modifier (M7). Winner: Polis (94.4). PR: #97
+- **Huda Abdirahim → v3** (`iterations/project-mirror-v3/huda-abdirahim/`) — C3 reweighted, M1 expanded to off-chain democratic software, new C8 (decision-making leverage). Winner: Ethelo (68.9). PR: #98
+- **Alexandra Ciocanel → v3** (`iterations/project-mirror-v3/alexandra-ciocanel/`) — C2 and C4 jointly elevated to 49% combined criteria weight; M7 (intra-class dynamics) added as new modifier; constitution reoriented around naming specific power asymmetries, excluded populations, and mechanisms of exclusion/redress; underdog protection formalised; popularity discount applied without automatic score reduction. Winner: Worker Info Exchange (94.7). PR: #94
+
+v10 committee aggregation recomputed using v3 rankings for these three members.
