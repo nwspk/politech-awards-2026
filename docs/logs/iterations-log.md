@@ -14,8 +14,133 @@ Canonical full iteration history for `/awards` rendering. Generated from `iterat
 | v6 | 2026-03-09 | @sugaroverflow | open | This heuristic inherits the approach in [v5: ITN/A multi-agent deliberation heuristic](https://github.com/nwspk/politech-awards-2026/pull/12) with **6 independent AI juries** that run an ITN/A deliberation on a shortlist of 183 projects. The jury with the highest confidence score picks the project winner. | [v6](https://github.com/nwspk/politech-awards-2026/pull/15) | [entry](#v6-six-jury-itn-a-deliberation) |
 | v7 | 2026-03-28 | @davit-jintcharadze | merged | Scores and filters projects based on Davit's eight evaluation criteria: | [v7](https://github.com/nwspk/politech-awards-2026/pull/20) | [entry](#v7-davit-aligned-political-relevance-heuristic) |
 | v8 | 2026-03-27 | @Gamithra | merged | This iteration keeps the **v5 ITN/A architecture**: Grok 4.1 Fast assesses every candidate on political, relational, and experimental lenses, then a facilitator-led multi-agent deliberation scores and argues over a **shortlist** of projects that cleared a green threshold on those assessments. | [v8](https://github.com/nwspk/politech-awards-2026/pull/41) | [entry](#v8-itn-a-grok-re-run-with-awards-bonuses-effective-score-alignment) |
+| v9 | 2026-03-28 | @nwspk | open | **Evaluation:** `npx tsx scripts/alexandra/alexandra-eval.ts` — each juror returns integers 1–5 for D1–D8 plus an `evidence[]` array (URL, quote, source type) per the prompt. Context = **enriched dossier** (`data/enriched/*.json`) + **cached page text** (`cache/sites.sqlite`), same spirit as `itn-a-eval.ts`. **Speed:** `--concurrency N` (e.g. `8`) runs N URLs in parallel; `--call-delay-ms 0` removes pauses between calls if your OpenRouter tier tolerates it (default `800`). | n/a | [entry](#v9-contestable-transparency-d1-d8-rubric-three-jurors-auditable-evidence) |
+| v10 | 2026-03-29 | @sugaroverflow | open | Three **independent** LLM jurors (Grok, Claude, Kimi via OpenRouter) each score every candidate on **D1–D8** using the **Award A** weighted rubric in `docs/evaluation/alexandra-rubric.md`. Each juror returns integers **1–5** per dimension plus an **`evidence[]`** array (URL, quote, source type). **Aggregation** takes medians per dimension and a **median weighted composite** (`median_composite` on 1–5); dimensions with **max−min ≥ 2** across jurors are flagged as controversial. **`SCORING_MODE=v9 npx tsx the-algorithm.ts`** maps `median_composite × 20` to **20–100** for the public leaderboard; URLs missing from the aggregate score **5**. This is a **parallel numeric track** to ITN/A — it does **not** replace green/yellow deliberation. | [v10](https://github.com/nwspk/politech-awards-2026/pull/89) | [entry](#v10-three-independent-llm-jurors-grok-claude-kimi-via-openrouter-each-score) |
 
 ## Full iteration records
+
+### v10 Three **independent** LLM jurors (Grok, Claude, Kimi via OpenRouter) each score
+
+- **PR**: [v10](https://github.com/nwspk/politech-awards-2026/pull/89)
+- **Status**: open
+- **Author**: @sugaroverflow
+- **Date**: 2026-03-29
+- **Top project**: [torproject.org](https://www.torproject.org) (score: 90)
+
+#### Heuristic
+
+Three **independent** LLM jurors (Grok, Claude, Kimi via OpenRouter) each score every candidate on **D1–D8** using the **Award A** weighted rubric in `docs/evaluation/alexandra-rubric.md`. Each juror returns integers **1–5** per dimension plus an **`evidence[]`** array (URL, quote, source type). **Aggregation** takes medians per dimension and a **median weighted composite** (`median_composite` on 1–5); dimensions with **max−min ≥ 2** across jurors are flagged as controversial. **`SCORING_MODE=v9 npx tsx the-algorithm.ts`** maps `median_composite × 20` to **20–100** for the public leaderboard; URLs missing from the aggregate score **5**. This is a **parallel numeric track** to ITN/A — it does **not** replace green/yellow deliberation.
+
+#### Rationale
+
+### Committee context (Alexandra, summarized)
+
+Candidates are **very different** and **website-only** material is a weak basis for fair comparison. Alexandra still favoured a **traditional rubric**: pick important dimensions, operationalise them, **weight** and score them, and use **three assessors** for inter-rater checks—with **auditable evidence** and, in a full process, **construct / discriminant validity**, consultation instead of **LLM-only** delegation, and work she skipped here (evidence logs, **sensitivity on weights**).
+
+A **Claude-assisted taxonomy** (not fully reviewed by her) was useful mainly for **tensions** that force trade-offs—e.g. **reform vs rupture**, **state as partner vs subject**, **deliberation vs mobilisation**, **openness vs security**, **platform vs protocol**, **AI as tool vs threat**, **infrastructure vs advocacy**—and for the idea that **several award types** might fit reality better than one global score. She questioned whether **objective quantification** is always fairer than **subjective allocation within categories**, and noted **under-represented** themes (**climate**, **humanitarian**, **Global South**) and odd **regional spread** in this set. **This iteration scores only D1–D8 + Award A weights**, not taxonomy categories (the long ~250-project taxonomy stays reference-only).
+
+Her **five-step** sketch maps here as: dimensions → **weights** → **data/proxies** → **category corrections** (infra, security, research, solo/unfunded) → outputs (e.g. composite, rankings, outliers). The repo implements the **dimension + weight** core; **Step 4** is documented but **not auto-applied in code**. **Honest limitation:** the most politically significant projects are often the **hardest to measure**—scores help **drop weak candidates** and build a **defensible shortlist**; **final selection still needs human judgment**; the win is **transparent, contestable** reasoning.
+
+**Matrix:** She asked about **web-only** evaluation—this run uses **enriched dossiers** and **`cache/sites.sqlite`**, not scraping alone. **Three models** (Grok, Claude, Kimi) stand in for **three jurors**; she was clear outputs were **mostly Claude-driven** with **no strong sense of ownership**—treat them as **instrument tests**, not her personal scores. She pointed to next steps: **quotes / links** from primary sources per dimension for a **shortlist**, and later an **eval-of-eval** (accuracy, verifiability, consistency, reproducibility, transparency, fairness). **Edward Saperia:** *“trying to measure things that are hard to measure is really what this exercise is about!”*
+
+### Award A rubric, lineage, and what v9 commits
+
+The rubric frames **Award A: “Most Politically Transformative”** — eight dimensions from power asymmetry and democratic depth through counterfactual impact, scale, leverage, accountability outcomes, openness, and resource efficiency, with the **headline composite**  
+`0.25·D1 + 0.20·D2 + 0.15·D3 + 0.10·D4 + 0.10·D5 + 0.10·D6 + 0.05·D7 + 0.05·D8`.
+
+v9 **reuses v6’s multi-model independence** while swapping the **measurement instrument** from ITN/A buckets to **D1–D8**. Gamithra’s ITN/A + awards-bonuses iteration is **v8** ([PR #41](https://github.com/nwspk/politech-awards-2026/pull/41)); Davit’s aligned manual ranking track is **v7** ([PR #20](https://github.com/nwspk/politech-awards-2026/pull/20)).
+
+### Illustrative manual scores (subset only — not the full 321)
+
+Alexandra noted a table **was not applied to all candidates**. Illustrative calibration only (rank order as in her note; composites imply close ties):
+
+| Rank | Project | D1 | D2 | D3 | D4 | D5 | D6 | D7 | D8 | Weighted score |
+|-----:|---------|----|----|----|----|----|----|----|----|----------------:|
+| 1 | Tor Project | 5 | 1 | 5 | 5 | 4 | 5 | 5 | 4 | 4.05 |
+| 2 | Decidim | 4 | 5 | 3 | 4 | 4 | 3 | 5 | 4 | 4.00 |
+| 3 | Polis (compdemocracy) | 4 | 4 | 5 | 3 | 3 | 4 | 5 | 4 | 4.00 |
+| 4 | vTaiwan | 4 | 5 | 4 | 2 | 3 | 4 | 5 | 5 | 4.00 |
+| 5 | Quadratic Vote (RxC) | 4 | 5 | 4 | 3 | 3 | 3 | 5 | 4 | 3.95 |
+| 6 | WorkerInfoExchange | 5 | 3 | 5 | 2 | 2 | 4 | 5 | 5 | 3.90 |
+| 7 | Ushahidi | 4 | 3 | 4 | 4 | 4 | 4 | 5 | 4 | 3.85 |
+| 8 | Mastodon | 4 | 3 | 3 | 5 | 5 | 3 | 5 | 4 | 3.80 |
+| 9 | ATProtocol (bluesky-social) | 4 | 3 | 4 | 4 | 5 | 2 | 5 | 3 | 3.70 |
+| 10 | RxC Voice | 4 | 5 | 4 | 2 | 2 | 2 | 5 | 5 | 3.70 |
+| 11 | GuardianProject | 5 | 2 | 4 | 3 | 4 | 3 | 5 | 4 | 3.70 |
+| 12 | OneProject | 5 | 5 | 3 | 2 | 2 | 2 | 5 | 4 | 3.75 |
+
+#### Data sources
+
+- project URL
+- scraped content
+- additional data files
+
+#### Limitations
+
+- **Not human inter-rater reliability:** three models ≠ three humans; calibration differs (e.g. Claude’s conservative greens in v6 may compress variance on some dimensions).
+- **D4 / D8** often lack solid data; jurors infer and may set `cannot_assess_dimensions` — weak without manual audits.
+- **Cost / time:** full **321 × 3** juror calls is expensive; **`--limit`** and **`--url`** exist for pilots.
+- **Rubric “Step 4” category corrections** (infrastructure multiplier, security D3 weighting, etc.) are **not** auto-applied in code yet.
+- **Provenance:** enriched JSON may contain imperfect citations; prompts ask jurors to prefer **primary** links.
+- **Honest limitation (rubric):** quantified scores support **shortlisting and transparency**, not automatic winner selection.
+
+#### Assessment
+
+This PR ships **documentation** (`docs/evaluation/alexandra-rubric.md`), **scripts** (`scripts/alexandra/alexandra-eval.ts`, `alexandra-aggregate.ts`), **committed cache snapshots** (`cache/alexandra-assessments.json`, `cache/alexandra-aggregate.json`, `.csv`), **`iterations/v9/README.md`**, and the **`the-algorithm.ts`** hook under **`SCORING_MODE=v9`**. A full **321 × 3** juror run produced the aggregate in **Results** below; **re-running eval is optional** if the committee accepts this snapshot. **Tor Project** has the highest `median_composite` in that aggregate (also `top_project` in `iterations/v9/README.md`). **Winner selection** remains a **committee** choice; v9 makes the numeric layer **contestable** and auditable.
+
+For the iteration bot and public leaderboard, commit **`results.json`** from **`SCORING_MODE=v9 npx tsx the-algorithm.ts`** (321 rows, same ordering as the aggregate mapping).
+
+---
+
+### v9 Contestable transparency — D1–D8 rubric, three jurors, auditable evidence
+
+- **PR**: n/a
+- **Status**: open
+- **Author**: @nwspk
+- **Date**: 2026-03-28
+- **Top project**: [www.torproject.org](https://www.torproject.org) (score: 90)
+
+#### Heuristic
+
+**Evaluation:** `npx tsx scripts/alexandra/alexandra-eval.ts` — each juror returns integers 1–5 for D1–D8 plus an `evidence[]` array (URL, quote, source type) per the prompt. Context = **enriched dossier** (`data/enriched/*.json`) + **cached page text** (`cache/sites.sqlite`), same spirit as `itn-a-eval.ts`. **Speed:** `--concurrency N` (e.g. `8`) runs N URLs in parallel; `--call-delay-ms 0` removes pauses between calls if your OpenRouter tier tolerates it (default `800`).
+
+**Aggregation:** `npx tsx scripts/alexandra/alexandra-aggregate.ts` — per URL, median score per dimension across successful jurors; **median of juror weighted composites** as `median_composite`. Flags dimensions where max−min ≥ 2 across jurors as `controversial_dimensions`.
+
+**Justifications (top N):** `npx tsx scripts/alexandra/alexandra-top10-justify.ts` — after aggregate exists; `--top 15`, `--url …`, `--out …`, `--aggregate …`. Does **not** re-score; it explains the **median** values already in the aggregate.
+
+**Ranking hook:** `SCORING_MODE=v9 npx tsx the-algorithm.ts` maps `median_composite` (1–5) → **20–100** via `round(composite × 20)`; URLs absent from the aggregate file score **5** (same baseline as un-assessed v5 rows). Default remains **v5** if `SCORING_MODE` is unset.
+
+Optional env: `ALEXANDRA_AGGREGATE_PATH` — override path to the aggregate JSON.
+
+#### Rationale
+
+Alexandra asked for a **traditional structured rubric** (weighted dimensions, auditable evidence, multiple raters) without delegating a single opaque score. Three models stand in for three human jurors for **this exercise**; inter-model spread is a **sensitivity signal**, not a substitute for Krippendorff’s α on human scores.
+
+v9 reuses v6’s **multi-model independence** while swapping the **measurement instrument** from ITN/A buckets to **D1–D8**. Gamithra’s ITN/A + awards-bonuses line is documented as **v8** ([PR #41](https://github.com/nwspk/politech-awards-2026/pull/41)).
+
+#### Data sources
+
+- `docs/evaluation/alexandra-rubric.md` (frozen rubric text in prompts)
+- `data/enriched/*.json` (committee dossiers)
+- `cache/sites.sqlite` (scraped page bodies, via `npm run cache:sites`)
+- `candidates.csv`
+- OpenRouter API (`OPENROUTER_API_KEY`)
+
+#### Limitations
+
+- **Not human inter-rater reliability:** Three models ≠ three humans; calibration differs (e.g. Claude’s conservative greens in v6 may compress variance on some dimensions).
+- **D4 / D8:** Downstream reach and funding are often **missing**; jurors must infer and mark `cannot_assess_dimensions` — still weak without manual audits.
+- **Cost / time:** Full 321 × 3 jurors is expensive; use `--limit` and `--url` for development.
+- **Category corrections** (infrastructure multiplier, security D3 weighting, etc.) in the rubric’s “Step 4” are **not** auto-applied in code yet — optional follow-up.
+- **Provenance:** Enriched JSON may contain imperfect citations; jurors should prefer **primary** links when present.
+
+#### Assessment
+
+Ships the **documentation + scripts + aggregate + optional `the-algorithm.ts` mode** in one PR. Committee runs eval when ready, commits or archives `cache/alexandra-*.json` if they want a reproducible snapshot, then may set `top_project` in this README after a full run. **Winner selection** remains a committee choice; v9 makes the numeric layer **contestable**. Current `top_project` reflects the highest `median_composite` in the committed aggregate snapshot.
+
+**Iteration bot:** commit root **`results.json`** from **`SCORING_MODE=v9 npx tsx the-algorithm.ts`** (not the default ITN/A path), and keep **`iterations/v9/results.json`** in sync with that file when you refresh the PR.
+
+---
 
 ### v8 ITN/A Grok re-run with awards bonuses + effective-score alignment
 

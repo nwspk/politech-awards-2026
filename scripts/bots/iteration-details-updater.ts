@@ -81,6 +81,7 @@ function iterationReadmePath(version: string): string {
 /**
  * Prefer an existing iterations/vN/ folder when the PR Title starts with "vN:"
  * (avoids creating v(N+1) when the branch already added vN but omitted pr_number).
+ * If that README already claims a different pr_number, fall through to auto-increment.
  */
 function resolveIterationVersion(prNumber: number, title: string | null): string {
   const byPr = getVersionForPr(prNumber);
@@ -88,7 +89,14 @@ function resolveIterationVersion(prNumber: number, title: string | null): string
 
   const fromTitle = versionFromDeclaredTitle(title);
   if (fromTitle && fs.existsSync(iterationReadmePath(fromTitle))) {
-    return fromTitle;
+    const { frontmatter } = parseIterationMd(
+      fs.readFileSync(iterationReadmePath(fromTitle), "utf-8")
+    );
+    const claimed =
+      typeof frontmatter.pr_number === "number" ? frontmatter.pr_number : null;
+    if (claimed == null || claimed === prNumber) {
+      return fromTitle;
+    }
   }
 
   return getNextVersion();

@@ -12,6 +12,11 @@ Reference for the bots, scripts, and data formats powering this repo.
 | Refresh README iteration table | `npm run sync:readme` |
 | Refresh full iterations log | `npm run sync:iterations-log` |
 | Refresh all generated iteration docs | `npm run docs:sync` |
+| Run Alexandra D1–D8 three-model jury | `npm run alexandra-eval` → `npm run alexandra-aggregate` (needs `OPENROUTER_API_KEY`, `cache/sites.sqlite`, enriched dossiers) |
+| Claude-only top-N rationales (per D1–D8) | `npm run alexandra-top10-justify` after aggregate exists → `cache/alexandra-top10-justifications.json` (set **`ANTHROPIC_API_KEY`** for BYOK, or **`OPENROUTER_API_KEY`**) |
+| Rank candidates with Alexandra aggregates | `SCORING_MODE=v9 npx tsx the-algorithm.ts` (reads `cache/alexandra-aggregate.json`) |
+
+Rubric: [alexandra-rubric.md](../evaluation/alexandra-rubric.md). Iteration notes: [v9 README](../../iterations/v9/README.md).
 
 Contributor-first guide: [CONTRIBUTING.md](../../CONTRIBUTING.md)
 
@@ -79,7 +84,7 @@ flowchart TB
 
 **Triggers:** PR has `iteration` label and is "Ready for review", or `run-bot` label. Does not run on drafts. Non-iteration PRs (data, docs, fixes) skip the updater.
 
-**Author-provided results:** The bot does not run the algorithm. You run it locally and commit `results.json`. The bot reads your results and creates the iteration.
+**Author-provided results:** The bot does not run the algorithm. You run it locally and commit `results.json`. The bot reads your results and creates the iteration. For **v9 (Alexandra)**, generate `results.json` with **`SCORING_MODE=v9 npx tsx the-algorithm.ts`** so scores come from `cache/alexandra-aggregate.json`; the default command uses **v5 ITN/A** and will not match v9. If your PR title starts with **`vN:`** and `iterations/vN/README.md` already exists with no conflicting `pr_number`, the bot assigns **vN** instead of auto-incrementing.
 
 **What it does:**
 

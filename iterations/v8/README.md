@@ -10,7 +10,6 @@ top_project:
   name: "blog.kagi.com"
   url: "https://blog.kagi.com/slopstop"
   score: 99
-  score: 99
 ---
 
 ## Quick summary
