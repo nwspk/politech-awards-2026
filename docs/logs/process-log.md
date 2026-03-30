@@ -9,17 +9,17 @@ Structured process history for the awards committee. Canonical full log for `/aw
 - Keep the `Open questions and unresolved tradeoffs` table current when decisions change.
 - Prefer concise notes that link to relevant PRs or docs.
 
-For contribution workflow, see [CONTRIBUTING.md](../../CONTRIBUTING.md).
+For contribution workflow, see [CONTRIBUTING.md](https://github.com/nwspk/politech-awards-2026/blob/main/CONTRIBUTING.md).
 
-## At a glance
+### At a glance
 
 
 | Area | Current state | Where to read details |
 |---|---|---|
-| Open tradeoffs | Active unresolved questions across iterations, data quality, framework, and event UX | [Open questions and unresolved tradeoffs](#open-questions-and-unresolved-tradeoffs) |
-| Meeting record | Full canonical notes captured for Feb 4, Mar 4, Mar 9, Mar 13, Mar 15, and Mar 22 sessions | [Meeting notes](#meeting-notes-full-canonical-record) |
-| Current emphasis | Data quality follow-up, citation reliability, typology, and theory-of-change framing | [2026-03-15 impromptu](#2026-03-15-impromptu) |
-| Governance baseline | CODEOWNERS voting model and iterative PR process | [2026-02-04 notes](#2026-02-04-1800) |
+| Open tradeoffs | Active unresolved questions across iterations, data quality, framework, and event UX | [Open questions table](https://github.com/nwspk/politech-awards-2026/blob/main/docs/logs/process-log.md#open-questions-and-unresolved-tradeoffs) |
+| Meeting record | Canonical notes captured for Feb 4, Feb 23, Mar 4, Mar 9, Mar 13, Mar 15, Mar 17, Mar 22, and Mar 30 synthesis | [Meeting notes section](https://github.com/nwspk/politech-awards-2026/blob/main/docs/logs/process-log.md#meeting-notes-full-canonical-record) |
+| Current emphasis | Model confidence/variance checks, human intervention design, values/lens framing, and attendee ranking UX | [Latest consultation notes](https://github.com/nwspk/politech-awards-2026/blob/main/docs/logs/process-log.md#2026-03-17-1600-consultation-with-sarah) |
+| Governance baseline | CODEOWNERS voting model and iterative PR process | [2026-02-04 notes](https://github.com/nwspk/politech-awards-2026/blob/main/docs/logs/process-log.md#2026-02-04-1800) |
 | Canonical source | This file (canonical) | This file |
 
 ## Open questions and unresolved tradeoffs
@@ -107,7 +107,34 @@ Consolidated from process notes plus current iteration/data logs.
 - Submit at least one PR/iteration — all — due 2026-02-18.
 - Create CSV of organization data — Asil — due 2026-02-11.
 - Repurpose operator bot for ranking/engagement — Gamithra — due 2026-02-18.
-- Website data management — Fatima — ongoing.
+- Maintain website data management — Fatima — ongoing.
+
+---
+
+### 2026-02-23 (matrix discussion with Ed; values/method framing)
+
+- **Type**: Matrix discussion
+- **Participants**: Ed (+ cohort participants in thread)
+- **Related context**: committee values framing and process architecture exploration
+
+#### Notes captured
+
+- Proposed reframing: rankings may be interpreted as an expression of committee values, not objective best-project claims.
+- Suggested pathway:
+  - reflect committee member values explicitly (biography/survey/published work),
+  - aggregate those values through inspectable mechanisms (averaging, voting variants, debates, robust aggregations).
+- Suggested treating intermediate outputs as meaningful artifacts rather than transient internals.
+- Suggested ranking-space analysis:
+  - characterize score vector space,
+  - explore principal axes/components for value extraction,
+  - estimate uncertainty and representation quality of member-level models.
+
+#### Questions derived into tradeoffs table
+
+- Explicit value reflection and aggregation design.
+- Intermediate artifact taxonomy/publication policy.
+- Dimensionality-reduction/value-axis analysis.
+- Uncertainty-aware estimator approach for member/project scoring.
 
 ---
 
@@ -138,12 +165,35 @@ Consolidated from process notes plus current iteration/data logs.
 
 #### Action items captured
 
-- Gamithra: publish dashboard of agent deliberation.
-- Fatima: website integration path for deliberation outputs (link/table on awards site).
-- Fatima: fix `candidates.csv` and add extended detail version.
-- Fatima: scheduling updates.
-- Move meetings to 17:00 weekly.
-- Optional coworking hour on Sundays.
+- Gamithra: Publish a dashboard of agent deliberation.
+- Fatima: Define a website integration path for deliberation outputs (link/table on awards site).
+- Fatima: Fix `candidates.csv` and add an extended detail version.
+- Fatima: Publish scheduling updates.
+- Team: Move meetings to 17:00 weekly.
+- Team: Keep an optional coworking hour on Sundays.
+
+---
+
+### 2026-03-09 (matrix discussion with Ed; v6 release context)
+
+- **Type**: Matrix discussion
+- **Participants**: Ed, Fatima, Gamithra, Hannah
+- **Related PR/context**: [v6 PR](https://github.com/nwspk/politech-awards-2026/pull/15), [Awards site](https://2025.newspeak.house/awards)
+
+#### Notes captured
+
+- Multi-model jury winners were surprising and highly divergent across juries.
+- Key challenge raised: whether differences are only cross-model or also within-model (run-to-run stability/noise).
+- UI/communication feedback: ranking display is useful, but needs richer per-score explanations.
+- Cost discussion: full eval runs appeared affordable relative to expected budget (~$11 including re-runs), raising possibility of broader/no-shortlist runs.
+- Data quality concern reaffirmed: scraped content may not sufficiently represent project reality.
+
+#### Questions derived into tradeoffs table
+
+- Model self-consistency and repeatability.
+- Explanation depth for published rankings.
+- Scrape quality adequacy for downstream scoring.
+- Full-run vs shortlist cost-quality tradeoff.
 
 ---
 
@@ -153,7 +203,7 @@ Consolidated from process notes plus current iteration/data logs.
 - **Attendees**: Gamithra, Fatima
 - **Apologies**: none recorded
 - **Key documents**: updates from enrichment work
-- **Related PR/context**: [v6 PR](https://github.com/nwspk/politech-awards-2026/pull/15), [Data log Attempt 3](data-log.md#attempt-3-enriched-dossiers-era)
+- **Related PR/context**: [v6 PR](https://github.com/nwspk/politech-awards-2026/pull/15), [Data log Attempt 3](https://github.com/nwspk/politech-awards-2026/blob/main/docs/logs/data-log.md#attempt-3-enriched-dossiers-era)
 
 #### Full notes
 
@@ -185,11 +235,11 @@ Consolidated from process notes plus current iteration/data logs.
 
 #### Action items captured
 
-- Fatima: manually verify missing pieces for 10 flagged projects.
-- Gamithra: publish deliberation interface.
-- Gamithra: publish latest awards view via operator flow.
-- Team: plan March 29 hackathon for showcase prep.
-- Team: continue Wednesday check-ins.
+- Fatima: Manually verify missing pieces for 10 flagged projects.
+- Gamithra: Publish the deliberation interface.
+- Gamithra: Publish the latest awards view via operator flow.
+- Team: Plan the March 29 hackathon for showcase prep.
+- Team: Continue Wednesday check-ins.
 
 ---
 
@@ -199,7 +249,7 @@ Consolidated from process notes plus current iteration/data logs.
 - **Attendees**: Ed, Hannah, Fatima
 - **Apologies**: none recorded
 - **Key documents**: data enrichment PR review context
-- **Related PR/context**: [Data log Attempt 3](data-log.md#attempt-3-enriched-dossiers-era)
+- **Related PR/context**: [Data log Attempt 3](https://github.com/nwspk/politech-awards-2026/blob/main/docs/logs/data-log.md#attempt-3-enriched-dossiers-era)
 
 #### Full notes
 
@@ -214,6 +264,38 @@ Consolidated from process notes plus current iteration/data logs.
 - Fatima: Follow up on 10-15 low-quality dossiers and improve where evidence exists.
 - Fatima: Draft and test a political typology proposal for project classification.
 - Fatima: Draft and test a theory-of-change field for candidate dossiers/process use.
+
+---
+
+### 2026-03-17 16:00 (consultation with Sarah)
+
+- **Type**: Consultation meeting
+- **Attendees**: Fatima, Ed
+- **Apologies**: none recorded
+- **Key documents**: process framing notes from consultation
+- **Related context**: committee deliberation design and event legitimacy framing
+
+#### Full notes
+
+- Confidence values are currently self-reported by deliberating models; this is a weak selector signal on its own.
+- Suggested robustness check: run the same model repeatedly (for example x10) and measure winner variance.
+- Core legitimacy question raised: if AI models decide the winner end-to-end, does the result still feel meaningful to attendees and recipients?
+- Alternative framing discussed: use LLMs to help people articulate values and research evidence, while reserving final selection power for humans.
+- Prompt design note: if keyword-based ranking is used, definitions of each keyword should be included directly in the prompt.
+- Pairwise methods were discussed as useful for codifying values, but potentially misleading as a strict ranking system.
+- Broad conclusion: the significance of the award is partly created by human participation in selection; over-automation risks undermining that legitimacy.
+
+#### Questions derived into tradeoffs table
+
+- Confidence should remain a diagnostic metric rather than the final promotion rule.
+- Repeatability testing should be added before finalizing winner claims.
+- Human intervention points should be explicit in the awards workflow.
+
+#### Action items captured
+
+- Run one repeatability benchmark for at least one jury setup and log variance stats.
+- Draft one human-in-the-loop decision variant and compare its outputs to fully automated ranking.
+- Add keyword-definition requirements wherever keyword-based scoring is retained.
 
 ---
 
@@ -238,53 +320,47 @@ Consolidated from process notes plus current iteration/data logs.
 
 ---
 
-### 2026-03-09 (matrix discussion with Ed; v6 release context)
+### 2026-03-30 (matrix chat synthesis through Mar 30)
 
-- **Type**: matrix discussion
-- **Participants**: Ed, Fatima, Gamithra, Hannah
-- **Related PR/context**: [v6 PR](https://github.com/nwspk/politech-awards-2026/pull/15), [Awards site](https://2025.newspeak.house/awards)
+- **Type**: Matrix synthesis note
+- **Participants**: cohort thread participants (including Ed, Gamithra, Hannah, Fatima, others)
+- **Source**: matrix export (Awards 2026 room, exported 2026-03-30)
+- **Related context**: weekly process updates, ranking interpretation, showcase prep
 
-#### Notes captured
+#### Clustered themes
 
-- Multi-model jury winners were surprising and highly divergent across juries.
-- Key challenge raised: whether differences are only cross-model or also within-model (run-to-run stability/noise).
-- UI/communication feedback: ranking display is useful, but needs richer per-score explanations.
-- Cost discussion: full eval runs appeared affordable relative to expected budget (~$11 including re-runs), raising possibility of broader/no-shortlist runs.
-- Data quality concern reaffirmed: scraped content may not sufficiently represent project reality.
+1. **Data quality and enrichment limits**
+   - Repeated concern that cached/project-page data is too thin for reliable assessments.
+   - Consensus that richer external evidence is needed (usage context, third-party references, clearer project descriptions).
+   - Practical implication: enrichment quality should be treated as a first-order constraint on ranking quality.
 
-#### Questions derived into tradeoffs table
+2. **Values and legitimacy framing**
+   - Rankings were framed as expressions of committee values rather than objective truth claims.
+   - Discussion pointed toward making values explicit and inspectably aggregating them across members.
+   - Intermediate outputs were treated as meaningful artifacts, not just pipeline exhaust.
 
-- Model self-consistency and repeatability.
-- Explanation depth for published rankings.
-- Scrape quality adequacy for downstream scoring.
-- Full-run vs shortlist cost-quality tradeoff.
+3. **Model behavior and stability**
+   - Strong interest in distinguishing cross-model disagreement from within-model variance.
+   - Winner divergence across juries increased demand for repeatability checks before strong winner claims.
+   - Communication need identified: publish clearer reasoning alongside numeric outputs.
+
+4. **Process and event UX**
+   - Ongoing interest in attendee-facing ranking interactions (pairwise or values-driven interfaces).
+   - Mini-workshop format at the event was discussed as a way to expose deliberation complexity.
+   - Showcase planning emphasized clear narrative continuity across iterations.
+
+5. **Operational cadence**
+   - Weekly Wednesday check-ins remained the default coordination rhythm.
+   - PR cadence and incremental branch experiments continued to be used for rapid iteration.
+   - Operator publishing and interface updates were treated as core delivery tasks.
+
+#### Action items captured
+
+- Keep publishing concise weekly synthesis notes that separate evidence, values claims, and decisions.
+- Include an explicit "known limits" statement when presenting rankings publicly.
+- Track repeatability and explanation quality as standing criteria before final showcase claims.
 
 ---
-
-### 2026-02-23 (matrix discussion with Ed; values/method framing)
-
-- **Type**: matrix discussion
-- **Participants**: Ed (+ cohort participants in thread)
-- **Related context**: committee values framing and process architecture exploration
-
-#### Notes captured
-
-- Proposed reframing: rankings may be interpreted as an expression of committee values, not objective best-project claims.
-- Suggested pathway:
-  - reflect committee member values explicitly (biography/survey/published work),
-  - aggregate those values through inspectable mechanisms (averaging, voting variants, debates, robust aggregations).
-- Suggested treating intermediate outputs as meaningful artifacts rather than transient internals.
-- Suggested ranking-space analysis:
-  - characterize score vector space,
-  - explore principal axes/components for value extraction,
-  - estimate uncertainty and representation quality of member-level models.
-
-#### Questions derived into tradeoffs table
-
-- Explicit value reflection and aggregation design.
-- Intermediate artifact taxonomy/publication policy.
-- Dimensionality-reduction/value-axis analysis.
-- Uncertainty-aware estimator approach for member/project scoring.
 
 ## Decision and rationale log (high level)
 
@@ -295,8 +371,8 @@ Consolidated from process notes plus current iteration/data logs.
 | 2026-02-13 | Added cached page-content signals (v4) | URL-only heuristics were too weak | [v4 PR](https://github.com/nwspk/politech-awards-2026/pull/9) |
 | 2026-02-22 | Introduced multi-agent deliberation pipeline (v5) | Shift from static criteria matching to contest-based evaluation | [v5 PR](https://github.com/nwspk/politech-awards-2026/pull/12) |
 | 2026-03-09 | Tested six-jury model robustness design (v6) | Evaluate winner stability across model worldviews | [v6 PR](https://github.com/nwspk/politech-awards-2026/pull/15) |
-| 2026-03-10 | Adopted full-dataset enriched dossiers and verification approach (data attempt 3) | Improve evidence quality and auditability across all candidates | [Data log](data-log.md#attempt-3-enriched-dossiers-era) |
-| 2026-03-15 | Logged citation-quality and theory-of-change gaps during enrichment review | Improve evidence reliability and comparability across project types | [Data log](data-log.md#known-limitations-and-gaps) |
+| 2026-03-10 | Adopted full-dataset enriched dossiers and verification approach (data attempt 3) | Improve evidence quality and auditability across all candidates | [Data log](https://github.com/nwspk/politech-awards-2026/blob/main/docs/logs/data-log.md#attempt-3-enriched-dossiers-era) |
+| 2026-03-15 | Logged citation-quality and theory-of-change gaps during enrichment review | Improve evidence reliability and comparability across project types | [Data log](https://github.com/nwspk/politech-awards-2026/blob/main/docs/logs/data-log.md#known-limitations-and-gaps) |
 
 ## Logging protocol
 
