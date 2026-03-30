@@ -89,7 +89,7 @@ def extract_heuristic_name(readme_path: str) -> str:
 
 
 def synthetic_assessment(heuristic_name: str) -> str:
-    return f"Ranked using: {heuristic_name}. No detailed per-project assessment available for this iteration."
+    return "No detailed per-project assessment available for this iteration."
 
 
 def enrich_results(
@@ -161,6 +161,7 @@ SKIP_PREFIXES = ("project-mirror",)
 
 # Iterations with real assessments: {iter_name: assessments_filename}
 REAL_ASSESSMENT_ITERS = {
+    "v5": "assessments.json",
     "v6": "assessments-merged.json",
     "v8": "assessments-grok.json",
 }
