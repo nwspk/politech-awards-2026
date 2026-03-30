@@ -134,7 +134,7 @@ Check all of these (as of 2026-03-28):
 Also watch for new PRs from members still in-progress:
 - Connor Dunlop (branch: project-mirror-v2/connor-dunlop)
 - Alessandro Pedori
-- Tuna Acisu
+- Prism
 - Francesca Galli
 - Davit Jintcharadze
 - Chris Owen
