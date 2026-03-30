@@ -1,319 +1,320 @@
 rank,project_name,url,median_rank,mean_rank,coverage
-1,Open Data Editor (ODE),https://okfn.org/en/projects/open-data-editor/,14.0,31.2,18
-2,CONSUL Democracy,https://consulproject.org,16,36.8,17
-3,LiquidFeedback,https://liquidfeedback.com,19.5,23.6,18
-4,mySociety Datasets and APIs,https://data.mysociety.org,20.0,34.7,18
-5,Decidim,https://decidim.org,27.5,44.6,18
-6,HURIDOCS,https://github.com/huridocs,29.0,53.3,18
-7,Aleph (OCCRP),https://aleph.occrp.org,30.5,49.9,18
-8,Alaveteli,https://alaveteli.org,31.0,32.7,18
-9,Bonfire,https://bonfirenetworks.org/,31.0,50.5,18
-10,Mastodon,https://github.com/mastodon/mastodon,31.0,60.9,18
-11,Open Digital Planning,https://opendigitalplanning.org/,33.0,54.9,18
-12,Participedia,https://participedia.net,33.5,58.8,18
-13,CommunityRule,https://communityrule.info,36.5,52.3,18
-14,Polis,https://github.com/compdemocracy/polis,38.5,53.6,18
-15,Guardian Project,https://guardianproject.info,38.5,61.9,18
-16,PolicyEngine,https://policyengine.org/uk,38.5,62.9,18
-17,adhocracy+,https://adhocracy.plus,39,54.8,17
-18,Open Heart Mind (OHM),https://openheartmind.org,40.5,64.2,18
-19,Creative Commons,https://creativecommons.org,40.5,65.9,18
-20,Constitute Project,https://constituteproject.org,41.5,62.0,18
-21,Open Council Network,https://opencouncil.network,43.5,50.3,18
-22,ODK (Open Data Kit),https://getodk.org,44.0,53.3,18
-23,Open Supply Hub,https://opensupplyhub.org,44.5,51.1,18
-24,Open Standards for Data Guidebook,https://standards.theodi.org,44.5,73.4,18
-25,Logos,https://logos.co/,45.5,77.4,18
-26,Bellingcat Online Investigation Toolkit,https://bellingcat.gitbook.io/toolkit,47,59.9,17
-27,Citizen OS,https://citizenos.com/platform/,49.0,55.1,18
-28,Cybersecurity for Democracy,https://cybersecurityfordemocracy.org,50.5,74.4,18
-29,Loomio,https://www.loomio.org,51.0,57.5,18
-30,Open Ownership,https://www.openownership.org,52.5,82.4,18
-31,GlobaLeaks,https://www.globaleaks.org,53.0,80.4,18
-32,Framework for Meaningful Engagement 2.0,https://ecnl.org/publications/framework-meaningful-engagement-20?mc_cid=b1c5158063&mc_eid=a09c64ec38,53.5,74.3,18
-33,CiviCRM,https://civicrm.org,54.0,54.4,18
-34,Cobudget,https://cobudget.com,54,68.5,17
-35,Talk to the City,https://talktothecity.org,54.0,74.7,18
-36,Open Contracting Partnership,https://www.open-contracting.org,55.0,68.3,18
-37,Humanitarian OpenStreetMap Team (HOT),https://www.hotosm.org,56.0,70.3,18
-38,Parti,https://parti.xyz,56.0,74.2,18
-39,Participa (Podemos),https://github.com/podemos-info/participa,61.5,65.3,18
-40,AlgorithmWatch,https://algorithmwatch.org,62,92.6,17
-41,All Our Ideas,https://all-our-ideas.citizens.is,63.0,86.9,18
-42,Matrix,https://matrix.org,63.5,73.3,18
-43,OpenSanctions,https://www.opensanctions.org,64.0,80.4,18
-44,Activist Handbook,https://activisthandbook.org/,64.5,102.1,18
-45,Martus,https://www.martus.org,66.5,88.8,18
-46,Open Collective,https://opencollective.com,67.0,79.0,18
-47,Fundación Ciudadanía Inteligente,https://ciudadaniai.org,67.0,82.9,16
-48,Ushahidi,https://www.ushahidi.com,68.0,66.1,18
-49,Tor Project,https://www.torproject.org,69.0,106.2,18
-50,vTaiwan,https://github.com/g0v/vue.vtaiwan.tw,69.5,83.1,18
-51,Pursuance Project,https://pursuanceproject.org,72.0,87.7,18
-52,Security First / Umbrella,https://secfirst.org,72.5,88.8,18
-53,Mozilla Data Collective,https://datacollective.mozillafoundation.org/,74.5,81.4,18
-54,PlaceCal,https://github.com/geeksforsocialchange/placecal,74.5,90.6,18
-55,Stanford Participatory Budgeting Platform,https://github.com/stanfordcdt/pb,78,84.4,17
-56,Open Science Framework,https://osf.io,78.5,100.6,18
-57,OpenCRVS,https://www.opencrvs.org,79.5,79.6,18
-58,Principles for Public Participation in Procurement of AI,https://p4ai.net,79.5,93.7,18
-59,Political Advertising Transparency Data Standard,https://github.com/whotargetsme/ad-transparency-standards/blob/main/implement.md,80,85.5,17
-60,RxC Quadratic Voting,https://quadraticvote.radicalxchange.org,81.0,87.9,18
-61,Community Notes (Birdwatch) Analysis Tool,https://github.com/travisbrown/birdwatch,82,106.7,17
-62,Tech Coops List,https://tech-coops.xyz,83.0,90.4,18
-63,OpenBudgets.eu,https://openbudgets.eu,83.5,110.1,18
-64,Cortico,https://cortico.ai/platform,84.0,115.9,18
-65,The Government Says,https://thegovernmentsays.com,84.5,112.0,18
-66,Your Priorities,https://yrpri.org,85,99.4,17
-67,VFRAME,https://vframe.io,88.0,109.1,18
-68,Interoperable Deliberative Tools,https://metagov.org/projects/interop,89.0,104.9,18
-69,ОПОРА (Opora),https://www.oporaua.org,90,94.2,17
-70,Populate Tools,https://github.com/populatetools,90.5,96.1,18
-71,Mastodon C,https://www.mastodonc.com,91.0,108.3,18
-72,Internet Archive Wayback Machine,https://web.archive.org,91.5,95.8,18
-73,Ethelo,https://ethelo.com,92.5,105.4,18
-74,OpenProcurement,https://openprocurement.io,95.0,123.9,18
-75,Groupthink (OpenPolitics Votebot),https://github.com/openpolitics/groupthink,96,104.5,17
-76,SecureDrop,https://securedrop.org,96.5,107.2,18
-77,oTree,https://www.otree.org,96.5,120.2,18
-78,TheyWorkForYou,https://www.theyworkforyou.com,97.5,118.8,18
-79,WhatDoTheyKnow,https://www.whatdotheyknow.com,98.0,102.2,18
-80,Contracts for Data Collaboration,https://contractsfordatacollaboration.org,99.0,111.3,18
-81,Wikidata,https://www.wikidata.org,99.0,116.3,18
-82,The DAO (Standard DAO Framework),https://github.com/vbuterin/dao,100.5,119.8,18
-83,Open Referral UK,https://openreferraluk.org,102.0,107.1,18
-84,Relational Tech Project,https://relationaltechproject.org,102.0,110.6,18
-85,LittleSis,https://littlesis.org,102.5,89.9,18
-86,OA.Works,https://oa.works/,104.0,113.9,18
-87,Murmurations Protocol,https://murmurations.network,105.5,119.8,18
-88,RxC Voice,https://github.com/radicalxchange/rxc-voice,107.5,105.1,18
-89,openparliament.ca,https://openparliament.ca/,107.5,119.6,18
-90,sourceAFRICA,https://sourceafrica.net,107.5,125.4,18
-91,One Project,https://oneproject.org/,108.5,105.9,18
-92,Rahvaalgatus,https://github.com/rahvaalgatus/rahvaalgatus,108.5,113.9,18
-93,CKAN,https://ckan.org,109.0,99.9,18
-94,ClimateAction.Tech,https://climateaction.tech,111,119.3,17
-95,Turkopticon,https://turkopticon.ucsd.edu,113.5,124.8,18
-96,Channel.org,https://channel.org,114,114.9,17
-97,Humble Data Workshop,https://humbledata.org,115.0,117.6,18
-98,Diia,https://expo.diia.gov.ua,115.0,127.8,18
-99,Civic Tech Field Guide,https://civictech.guide,115.0,127.9,18
-100,Campaign Tracker,https://www.campaigntracker.nl/en,115.5,106.7,18
-101,arXiv,https://arxiv.org,115.5,134.9,18
-102,Tactical Data Engagement,https://communities.sunlightfoundation.com/methodology,116,130.9,17
-103,Nym,https://nymtech.net,118.5,128.3,18
-104,OSINT Framework,https://osintframework.com,119.5,140.9,18
-105,Tracka,https://yourtracka.org,121.0,118.9,18
-106,The Engine Room Library,https://library.theengineroom.org,122,142.5,17
-107,Coral,https://coralproject.net,122.5,116.0,18
-108,GovTrack.us,https://www.govtrack.us,123.0,135.4,18
-109,PolicyKit,https://policykit.org,123.5,133.3,18
-110,The Commons Social Change Library,https://commonslibrary.org,123.5,141.6,18
-111,Strike Map,https://strikemap.org,124.0,121.0,18
-112,Monitor Mamdani,https://monitormamdani.com/,124.0,134.7,18
-113,Land Explorer,https://landexplorer.coop,125.5,130.7,18
-114,OpenElections Leaflet Scraper and Parser,https://github.com/thicknavyrain/uk_elections_leaflets,130,141.7,17
-115,ShineYourEye,https://www.shineyoureye.org,130,143.8,17
-116,Pastecal,https://github.com/kazad/pastecal,130.5,123.2,18
-117,DISARM Frameworks,https://github.com/disarmfoundation/disarmframeworks,131.0,133.0,18
-118,FixMyStreet,https://www.fixmystreet.com,132.0,117.9,18
-119,Awesome UK Government Datasets,https://github.com/i-dot-ai/awesome-gov-datasets,132,135.6,17
-120,deliberAIde,https://www.deliberaide.com,132.5,137.5,18
-121,docs.plus,https://docs.plus,135,128.2,17
-122,UrbanistAI,https://site.urbanistai.com,135.5,145.8,18
-123,MapIt,https://mapit.mysociety.org,135.5,152.5,18
-124,Discourse,https://www.discourse.org,136.0,139.8,18
-125,Public AI Inference Utility,https://publicai.co/,136.5,140.3,18
-126,Parliament Watch Uganda,https://parliamentwatch.ug/,137.5,152.8,18
-127,Agencies for Good,https://www.agenciesforgood.org,140.0,148.1,18
-128,Neighbourhood Warmth,https://www.mysociety.org/climate/neighbourhood-warmth,141.0,156.6,18
-129,Consent-O-Matic,https://github.com/cavi-au/consent-o-matic,143.0,151.9,18
-130,Harmonica,https://harmonica.chat/,144.0,157.9,18
-131,Granitt,https://granitt.io,144.5,157.4,18
-132,rsky,https://github.com/blacksky-algorithms/rsky,145.0,144.3,18
-133,ORCID,https://orcid.org,146.0,161.8,18
-134,Abstract Wikipedia,https://meta.wikimedia.org/wiki/abstract_wikipedia,146.5,153.4,18
-135,WriteToThem,https://www.writetothem.com,147.5,144.2,18
-136,Unpaywall Browser Extension,https://unpaywall.org/products/extension,147.5,147.2,18
-137,Open Letter,https://openletter.earth,148.5,147.7,18
-138,Democracy Club Developer API,https://developers.democracyclub.org.uk/api/v1,148.5,148.6,18
-139,Fairbnb.coop,https://fairbnb.coop,149,152.7,17
-140,dDocs,https://ddocs.new/,150,154.3,17
-141,Journal of Open Source Software,https://joss.theoj.org,151,155.1,17
-142,NumFOCUS,https://numfocus.org,155.5,148.8,18
-143,Humanitarian Data Exchange,https://data.humdata.org,156.5,160.3,18
-144,Moral Machine,https://moralmachine.net,157.5,165.6,18
-145,Kialo,https://kialo.com,158.5,177.7,18
-146,GRIM (Global Risk Simulator),https://github.com/sentinelteam/grim,159.0,162.6,18
-147,Teaching Public Service in the Digital Age,https://www.teachingpublicservice.digital,160.0,152.7,18
-148,Aragon,https://aragon.org,160.5,143.7,18
-149,Local Intelligence Hub,https://www.localintelligencehub.com,160.5,144.4,18
-150,Open Data Communities,https://opendatacommunities.org,160.5,166.3,18
-151,CrowdJustice,https://www.crowdjustice.com,161.0,154.3,18
-152,Members' Interests,https://membersinterests.org.uk,161.0,163.2,18
-153,meet.coop,https://www.meet.coop,161.0,167.4,18
-154,CoTech,https://coops.tech,161.5,155.8,18
-155,Open Access – Transparency International UK,https://openaccess.transparency.org.uk,162,154.8,17
-156,Mapped,https://mapped.commonknowledge.coop,162.0,162.3,18
-157,Atlas of Surveillance,https://atlasofsurveillance.org,162.0,166.3,18
-158,Who Targets Me Trends,https://trends.whotargets.me,162.5,154.6,18
-159,Community Tech,https://www.communitytech.network,163,154.2,17
-160,Anna's Archive,https://annas-archive.pm,163.0,156.1,18
-161,Privacy Badger,https://privacybadger.org,163.5,160.1,18
-162,Snowdrift.coop,https://snowdrift.coop,164.5,152.8,18
-163,Spacetube,https://spacetu.be,164.5,180.8,18
-164,Bluesky,https://bsky.app,165,147.0,17
-165,Gapminder Worldview Upgrader,https://upgrader.gapminder.org,165.0,148.1,18
-166,Agreement Engine,https://medium.com/metagov/introducing-the-agreement-engine-bf03b6d5c16c,166.0,158.9,18
-167,Data Observation Toolkit (DOT),https://github.com/datakind/data-observation-toolkit,167,153.1,17
-168,Riseup,https://riseup.net,168.0,173.9,18
-169,Find local consultations,https://gov.uk/find-local-consultations,169,172.6,17
-170,Landlord Tech Watch,https://antievictionmappingproject.github.io/landlordtech,170.0,157.8,18
-171,youtube-dl,https://github.com/ytdl-org/youtube-dl,171.0,172.3,18
-172,Parallel Parliament,https://www.parallelparliament.co.uk,172.5,164.2,18
-173,postcodes.io,https://github.com/ideal-postcodes/postcodes.io,174.0,184.3,18
-174,UK Policy Dojo,https://github.com/mikekelly/policy-dojo,174.0,192.8,18
-175,Pageviews Analysis,https://pageviews.wmcloud.org,174.5,167.1,18
-176,Collaborative Data Patterns,https://collaborative-data.theodi.org,174.5,171.7,18
-177,Bluesky Social,https://github.com/bluesky-social,174.5,181.9,18
-178,The Circuit,https://thecircuit.cc,175.0,164.3,18
-179,Modular Politics,https://arxiv.org/abs/2005.13701,176,172.3,17
-180,Parse The Bill,https://parsethebill.com,176.0,181.9,18
-181,Open Council Data UK,https://opencouncildata.co.uk,178.5,168.5,18
-182,Frankenstein Bill,https://gordonguthrie.github.io/frankensteinbill,178.5,168.6,18
-183,River Sentiment Dashboard,https://riversentiment.app,178.5,187.8,18
-184,WhatGov,https://www.whatgov.co.uk,180.0,154.8,18
-185,DAO Governance Surfaces,https://github.com/notchia/dao-governance-surfaces,180.0,182.4,18
-186,Nyaaya,https://nyaaya.org,180.5,183.3,18
-187,Viewpoints,https://viewpoints.xyz,180.5,187.4,18
-188,Worker Info Exchange,https://www.workerinfoexchange.org,181.5,179.9,18
-189,Idealist,https://idealist.org,182.0,188.4,18
-190,Give Food,https://www.givefood.org.uk,182.5,166.6,18
-191,Spartacus,https://spartacus.app,183.0,199.2,18
-192,Papertree,https://www.papertree.earth,183.5,171.7,18
-193,Shareyourpaper.org,https://shareyourpaper.org,184.0,168.9,18
-194,Wikum,https://www.csail.mit.edu/research/wikum-bridging-discussion-systems-and-wikis-collective-summarization,186.0,182.8,18
-195,Manifold Markets,https://manifold.markets,186.0,184.9,18
-196,Missing Numbers,https://missingnumbers.org,186.5,189.9,18
-197,Theft Bisect,https://onodi.co/bisect/,188.0,177.6,18
-198,CharmVerse,https://charmverse.io/,188.0,183.8,18
-199,Go Vocal,https://www.govocal.com,189.5,165.7,18
-200,Timecounts,https://timecounts.org,189.5,186.8,18
-201,Hand-Written Petition Scanner,https://hand-written-petition-scanner.streamlit.app,189.5,190.5,18
-202,Remember to Vote,https://remembertovote.org.uk,189.5,200.6,18
-203,UK Housing Data Standards,https://hact.org.uk/tools-and-services/uk-housing-data-standards,192.0,177.2,18
-204,MP Twitter Bios,https://www.mptwitterbios.co.uk,192.5,175.4,18
-205,Sugartrail,https://github.com/ribenamaplesyrup/sugartrail,193.0,153.1,18
-206,Full Fact AI,https://fullfact.org/ai,193.0,182.4,18
-207,PlanIT,https://planit.org.uk,193.5,173.6,18
-208,OA.Report,https://oa.report,193.5,190.8,18
-209,Marks Out Of Tenancy,https://www.marksoutoftenancy.com,194.0,178.8,18
-210,CivicPress,https://civicpress.io/,194.0,186.0,18
-211,Metaculus,https://metaculus.com,195.5,183.4,18
-212,GOV.UK Forms,https://www.forms.service.gov.uk,196.0,185.3,18
-213,Organise,https://www.organise.org.uk,197.0,177.6,18
-214,Radicle,https://radicle.xyz,197.5,188.2,18
-215,The Data Trusts Initiative,https://datatrusts.uk,198,177.1,17
-216,In the news,https://en.wikipedia.org/wiki/wikipedia:in_the_news,200.0,200.0,16
-217,Beckton,https://richardpope.org/2017/03/05/beckton-a-tool-to-build,201.5,193.4,18
-218,CiviClick,https://civiclick.com,202.0,193.5,18
-219,FarmerChat,https://farmerchat.digitalgreen.org,203,228.4,17
-220,Journalist Studio,https://journaliststudio.google.com,204.5,182.2,18
-221,GrantNav,https://grantnav.threesixtygiving.org,205.0,184.6,18
-222,New_ Public Roundabout,https://newpublic.substack.com/p/introducing-roundabout-built-for,205.0,187.2,18
-223,PatCit,https://github.com/cverluise/patcit,207.0,189.3,18
-224,Prolific,https://www.prolific.com,209.5,203.5,18
-225,Empurrando Juntas (EJ),https://sobre.ejparticipe.org,210.0,203.1,18
-226,MP Watch,https://www.mpwatch.org,210.5,194.4,18
-227,semanticClimate,https://semanticclimate.github.io,211.0,206.3,18
-228,Objector.ai,https://objector.ai,211.5,191.2,18
-229,soweego,https://soweego.readthedocs.io,211.5,202.4,18
-230,django-collaborative,https://github.com/propublica/django-collaborative,211.5,210.9,18
-231,Conservative Party Funding,https://conservativepartyfunding.co.uk,213.0,216.6,18
-232,EDGAR,https://github.com/bellingcat/edgar,214.0,187.5,18
-233,GOV.UK One Login,https://www.sign-in.service.gov.uk,214.0,200.7,18
-234,Global Fact-Check Bot (GFC),https://globalfactcheck.bot/,215,171.9,17
-235,RightDD,https://www.rightsdd.com,215,219.1,17
-236,Kagi SlopStop,https://blog.kagi.com/slopstop,215.5,212.5,18
-237,Deliberation & Technology (DelibTech) Network,https://www.demnext.org/projects/delibtech-network,216,208.5,17
-238,Right To Know,https://right-to-know.org,216.5,197.8,18
-239,Schema.org,https://schema.org,217.5,196.1,18
-240,Charity Digital Skills Report,https://charitydigitalskills.co.uk,218.0,195.7,18
-241,Libertrium,https://liberopinion.com,218,199.2,17
-242,Nestr,https://nestr.io,218.5,207.2,18
-243,GOV.UK Notify,https://www.notifications.service.gov.uk,219.5,205.4,18
-244,Democracy Fund Open Source,https://www.dfos.com,221,191.9,17
-245,MyActionCenter,https://www.myaction.center,221.0,221.9,18
-246,Turbo Phonebank,https://turbophonebank.com,222.0,206.3,18
-247,GOV.UK Pay,https://www.payments.service.gov.uk,222.5,218.9,18
-248,Choose a License,https://choosealicense.com,223.5,214.1,18
-249,Vote for Policies,https://voteforpolicies.org.uk,226.5,219.7,18
-250,Gender Pay Gap Service,https://gender-pay-gap.service.gov.uk,228.0,210.4,18
-251,WardWatch,https://wardwatch.uk,228,211.5,17
-252,Plinth,https://www.plinth.org.uk,229.5,227.8,18
-253,FixMyBlock,https://fixmyblock.org,230.0,223.7,18
-254,Who Posted What?,https://whopostedwhat.com,232.5,220.4,18
-255,Granicus,https://granicus.com/uk,234.0,217.2,18
-256,Nook CRM,https://nookcrm.com,234.0,219.3,18
-257,GreenPT,https://greenpt.ai/,235.0,234.6,18
-258,Turn2us Benefits Calculator,https://benefits-calculator.turn2us.org.uk,236,214.2,17
-259,Entitledto,https://entitledto.co.uk,236,218.1,17
-260,Pear by Holepunch,https://docs.holepunch.to,236.5,219.3,18
-261,Sci-Hub,https://sci-hub.se,236.5,227.9,18
-262,Citizens Advice Tableau Public Profile,https://public.tableau.com/app/profile/citizensadvice/vizzes,237.0,237.0,18
-263,The Accountability Project,https://publicaccountability.org,241.5,226.2,18
-264,DoGooder,https://dogooder.co,241.5,237.0,18
-265,Plausible Analytics,https://plausible.io,241.5,243.2,18
-266,Fatebook,https://fatebook.io,243.0,234.2,18
-267,UK Parliament Developer Portal,https://developer.parliament.uk,244.0,226.7,18
-268,COTSI (Cyber Operational Threat Situational Intelligence),https://cotsi.org/,246.5,232.3,16
-269,OpenAudience,https://openaudience.org,247.5,231.7,18
-270,Local Insight,https://localinsight.org,248.5,233.7,18
-271,Public Media Stack,https://publicmediastack.com,248.5,236.7,18
-272,PostBug,https://postbug.com,248.5,238.9,18
-273,Shared Digital Guides,https://www.shareddigitalguides.org.uk,248.5,254.6,18
-274,Membership,https://medium.com/@abscond/membership-a-prototype-ea822b2683b,249,233.6,17
-275,Polimorphic,https://www.polimorphic.com,250,240.4,17
-276,Digital Account Management Toolkit,https://digitalcharitylab.org/product/digital-account-management-toolkit,250.5,243.3,18
-277,DoNotPay,https://www.donotpay.com,251,217.9,17
-278,Dovetail,https://dovetail.network,251,255.4,17
-279,Overton,https://overton.io,251.5,214.9,18
-280,CAN/DGSI 127 - Age Assurance Technologies Standard,https://dgc-cgn.org/product/can-dgsi-127/,251.5,236.6,16
-281,OpenOrigins,https://www.openorigins.com,252,227.7,17
-282,Public Editor,https://www.publiceditor.io,252.0,251.9,18
-283,Esper,https://esper.com/product,252.5,244.6,18
-284,whatsmeow,https://github.com/tulir/whatsmeow,254.0,231.5,18
-285,Violation Tracker UK,https://violationtrackeruk.goodjobsfirst.org,254.5,244.9,18
-286,AISafety.info,https://aisafety.info,255,237.1,17
-287,User Research Library,https://research.localgov.digital,260.5,247.4,18
-288,GOV Reuse Library,https://dev.reuselibrary.service.justice.gov.uk/,262,245.0,17
-289,Society for Hopeful Technologists,https://societyforhopefultechnologists.org,263.0,239.5,18
-290,Registers and collaboration: making lists we can trust,https://theodi.org/insights/reports/registers-and-collaboration-making-lists-we-can-trust-report,266,258.5,17
-291,We Live It,https://www.welivedit.ai,266.5,253.6,18
-292,Urbit,https://urbit.org,267.0,244.6,18
-293,Dunadyne,https://dunadyne.org,267.0,248.9,18
-294,Responsible Tech Guide 2025,https://alltechishuman.org/responsible-tech-guide-2025,268.0,243.6,18
-295,Local Deep Researcher,https://local-deep-researcher-hnmh.vercel.app/,268.5,256.7,18
-296,Labour Xchange,https://labourxchange.uk,269.5,243.3,18
-297,Service Manual,https://www.gov.uk/service-manual,272.0,240.2,16
-298,Yoti,https://www.yoti.com,273,265.7,17
-299,Mapping.kids,https://mapping.kids,273.5,250.3,18
-300,DemTech Navigator,https://navigator.oii.ox.ac.uk,274.0,235.3,18
-301,Watch Duty,https://www.watchduty.org,276.0,243.4,18
-302,Understanding Your Morality,https://programs.clearerthinking.org/understanding-your-morality/,280.0,263.2,18
-303,Whoisology,https://whoisology.com,280.5,267.6,18
-304,CivicMatch,https://civicmatch.app,281.5,266.1,18
-305,PoliMonitor,https://www.polimonitor.com,282.0,266.1,18
-306,Keep It In The Community,https://plunkett.my.site.com/keepitinthecommunity/s,283.5,247.8,18
-307,Fission Codes,https://github.com/fission-codes/fission-codes,283.5,267.9,18
-308,Filmot,https://filmot.com,285.5,256.1,18
-309,The List,https://the-list.uk,287.5,272.1,18
-310,The Guide to Major Trusts 2025/26,https://www.dsc.org.uk/publication/the-guide-to-major-trusts-2025-26/,289.0,288.1,18
-311,DeepSeek-V3,https://github.com/deepseek-ai/deepseek-v3,290.0,276.7,16
-312,The Decelerator,https://decelerator.org.uk,290.5,262.7,18
-313,Ladder Hub,https://ladderhub.org/,295.5,269.7,18
-314,PolicyMogul,https://policymogul.com,295.5,286.8,18
-315,Collab.Land,https://collab.land,297,276.1,17
-316,Consciousness Evolution Operating System (ConSoc),https://www.consoc.io,299,282.3,17
-317,GovWise,https://www.govwise.ai/en,301,276.9,17
-318,WorkInCharities,https://www.workincharities.co.uk,309,299.6,17
+1,Open Data Editor (ODE),https://okfn.org/en/projects/open-data-editor/,12,32.1,17
+2,mySociety Datasets and APIs,https://data.mysociety.org,18.0,25.8,16
+3,CONSUL Democracy,https://consulproject.org,19,37.1,17
+4,Decidim,https://decidim.org,20,40.3,17
+5,LiquidFeedback,https://liquidfeedback.com,23,24.9,17
+6,HURIDOCS,https://github.com/huridocs,26,49.9,17
+7,Mastodon,https://github.com/mastodon/mastodon,28,61.1,17
+8,Alaveteli,https://alaveteli.org,29,32.8,17
+9,Aleph (OCCRP),https://aleph.occrp.org,32,52.4,17
+10,Open Digital Planning,https://opendigitalplanning.org/,33,51.7,17
+11,Participedia,https://participedia.net,33,57,17
+12,Bonfire,https://bonfirenetworks.org/,34,51.8,17
+13,CommunityRule,https://communityrule.info,34,51.9,17
+14,Polis,https://github.com/compdemocracy/polis,35,54.4,17
+15,Open Supply Hub,https://opensupplyhub.org,37,49.9,17
+16,PolicyEngine,https://policyengine.org/uk,37,64.5,17
+17,adhocracy+,https://adhocracy.plus,39,51.9,17
+18,Creative Commons,https://creativecommons.org,40,63.6,17
+19,Guardian Project,https://guardianproject.info,40,65.1,17
+20,ODK (Open Data Kit),https://getodk.org,41,48.9,17
+21,Open Heart Mind (OHM),https://openheartmind.org,41,67.2,17
+22,Open Ownership,https://www.openownership.org,42,81.5,17
+23,Open Council Network,https://opencouncil.network,43,50.2,17
+24,Open Standards for Data Guidebook,https://standards.theodi.org,44,70.3,17
+25,Constitute Project,https://constituteproject.org,45,64.4,17
+26,Cybersecurity for Democracy,https://cybersecurityfordemocracy.org,45,68.1,17
+27,Bellingcat Online Investigation Toolkit,https://bellingcat.gitbook.io/toolkit,47.0,59.8,16
+28,Citizen OS,https://citizenos.com/platform/,49.5,55.2,16
+29,Logos,https://logos.co/,51,80.1,17
+30,GlobaLeaks,https://www.globaleaks.org,52,82.1,17
+31,CiviCRM,https://civicrm.org,53,54.4,17
+32,Loomio,https://www.loomio.org,53,58.9,17
+33,Framework for Meaningful Engagement 2.0,https://ecnl.org/publications/framework-meaningful-engagement-20?mc_cid=b1c5158063&mc_eid=a09c64ec38,53.5,75.2,16
+34,Talk to the City,https://talktothecity.org,55,78.9,17
+35,Cobudget,https://cobudget.com,56,70.6,17
+36,Parti,https://parti.xyz,57,76.5,17
+37,Humanitarian OpenStreetMap Team (HOT),https://www.hotosm.org,58,73.6,17
+38,Fundación Ciudadanía Inteligente,https://ciudadaniai.org,58,81.1,17
+39,Open Contracting Partnership,https://www.open-contracting.org,60,72.1,17
+40,vTaiwan,https://github.com/g0v/vue.vtaiwan.tw,62,75.1,17
+41,All Our Ideas,https://all-our-ideas.citizens.is,63,81.5,17
+42,Participa (Podemos),https://github.com/podemos-info/participa,65,66.4,17
+43,OpenSanctions,https://www.opensanctions.org,65,81.6,17
+44,Stanford Participatory Budgeting Platform,https://github.com/stanfordcdt/pb,66,81.4,17
+45,Open Collective,https://opencollective.com,67,82.5,17
+46,Activist Handbook,https://activisthandbook.org/,67,107.9,17
+47,Tor Project,https://www.torproject.org,69,105.3,17
+48,Ethelo,https://ethelo.com,72,99.7,17
+49,PlaceCal,https://github.com/geeksforsocialchange/placecal,73,89.3,17
+50,Pursuance Project,https://pursuanceproject.org,73,92.1,17
+51,Open Science Framework,https://osf.io,73,98.5,17
+52,Ushahidi,https://www.ushahidi.com,74,68.6,17
+53,Matrix,https://matrix.org,74,75.3,17
+54,Mozilla Data Collective,https://datacollective.mozillafoundation.org/,75,82.8,17
+55,Security First / Umbrella,https://secfirst.org,75,90.4,17
+56,AlgorithmWatch,https://algorithmwatch.org,77.0,98.6,16
+57,OpenCRVS,https://www.opencrvs.org,78,73.7,17
+58,Principles for Public Participation in Procurement of AI,https://p4ai.net,78,88.2,17
+59,Tech Coops List,https://tech-coops.xyz,80,90.8,17
+60,OpenBudgets.eu,https://openbudgets.eu,80,108.8,17
+61,RxC Quadratic Voting,https://quadraticvote.radicalxchange.org,82,89.5,17
+62,Community Notes (Birdwatch) Analysis Tool,https://github.com/travisbrown/birdwatch,82,105.2,17
+63,Your Priorities,https://yrpri.org,83.0,93.2,16
+64,Internet Archive Wayback Machine,https://web.archive.org,84,92.5,17
+65,Groupthink (OpenPolitics Votebot),https://github.com/openpolitics/groupthink,86,96.4,17
+66,Political Advertising Transparency Data Standard,https://github.com/whotargetsme/ad-transparency-standards/blob/main/implement.md,88,92.1,17
+67,Martus,https://www.martus.org,88,92.4,17
+68,SecureDrop,https://securedrop.org,89,103.9,17
+69,OpenProcurement,https://openprocurement.io,89,117.6,17
+70,ОПОРА (Opora),https://www.oporaua.org,90,98.7,17
+71,VFRAME,https://vframe.io,90,112.5,17
+72,Mastodon C,https://www.mastodonc.com,91,111.3,17
+73,The DAO (Standard DAO Framework),https://github.com/vbuterin/dao,93,113.4,17
+74,The Government Says,https://thegovernmentsays.com,94,116.9,17
+75,Wikidata,https://www.wikidata.org,95,109,17
+76,One Project,https://oneproject.org/,97,100.9,17
+77,Interoperable Deliberative Tools,https://metagov.org/projects/interop,98,106.6,17
+78,Contracts for Data Collaboration,https://contractsfordatacollaboration.org,99.0,106.1,16
+79,Open Referral UK,https://openreferraluk.org,100,106.2,17
+80,WhatDoTheyKnow,https://www.whatdotheyknow.com,100,107.4,17
+81,Populate Tools,https://github.com/populatetools,101,97.6,17
+82,TheyWorkForYou,https://www.theyworkforyou.com,101,121.9,17
+83,LittleSis,https://littlesis.org,103,94.8,17
+84,RxC Voice,https://github.com/radicalxchange/rxc-voice,103,102.6,17
+85,Diia,https://expo.diia.gov.ua,103.0,124.6,16
+86,OSINT Framework,https://osintframework.com,104,133.9,17
+87,Relational Tech Project,https://relationaltechproject.org,105,114,17
+88,oTree,https://www.otree.org,105,123.1,17
+89,sourceAFRICA,https://sourceafrica.net,106,119.9,17
+90,Nym,https://nymtech.net,106,126.8,17
+91,CKAN,https://ckan.org,107,98.6,17
+92,OA.Works,https://oa.works/,108,115.2,17
+93,Cortico,https://cortico.ai/platform,108.0,123.4,16
+94,ClimateAction.Tech,https://climateaction.tech,111,121.1,17
+95,openparliament.ca,https://openparliament.ca/,111,124.3,17
+96,Rahvaalgatus,https://github.com/rahvaalgatus/rahvaalgatus,113,118.8,17
+97,Channel.org,https://channel.org,114,115.9,17
+98,Tactical Data Engagement,https://communities.sunlightfoundation.com/methodology,116,132.1,17
+99,Tracka,https://yourtracka.org,117,115.6,17
+100,Murmurations Protocol,https://murmurations.network,117,125.9,17
+101,Turkopticon,https://turkopticon.ucsd.edu,118,127.7,17
+102,PolicyKit,https://policykit.org,119,126.4,17
+103,Civic Tech Field Guide,https://civictech.guide,119,133.2,17
+104,Open Access – Transparency International UK,https://openaccess.transparency.org.uk,120,145.6,17
+105,arXiv,https://arxiv.org,120.5,139.9,16
+106,Open Letter,https://openletter.earth,121,144.7,17
+107,Coral,https://coralproject.net,122,112.2,17
+108,Campaign Tracker,https://www.campaigntracker.nl/en,122,113,17
+109,The Engine Room Library,https://library.theengineroom.org,122,143,17
+110,FixMyStreet,https://www.fixmystreet.com,124,116.8,17
+111,Strike Map,https://strikemap.org,125,125.5,17
+112,GovTrack.us,https://www.govtrack.us,125,137.2,17
+113,Monitor Mamdani,https://monitormamdani.com/,127,136.6,17
+114,ORCID,https://orcid.org,128,162.1,17
+115,Pastecal,https://github.com/kazad/pastecal,129,122.8,17
+116,The Commons Social Change Library,https://commonslibrary.org,129,146.4,17
+117,Land Explorer,https://landexplorer.coop,130,133.4,17
+118,Humble Data Workshop,https://humbledata.org,132,121.7,17
+119,Public AI Inference Utility,https://publicai.co/,132,136.8,17
+120,OpenElections Leaflet Scraper and Parser,https://github.com/thicknavyrain/uk_elections_leaflets,132,154.6,17
+121,deliberAIde,https://www.deliberaide.com,133,139.5,17
+122,Agencies for Good,https://www.agenciesforgood.org,133,148.6,17
+123,Neighbourhood Warmth,https://www.mysociety.org/climate/neighbourhood-warmth,133,154.2,17
+124,Discourse,https://www.discourse.org,134,137.8,17
+125,docs.plus,https://docs.plus,134.5,128.1,16
+126,DISARM Frameworks,https://github.com/disarmfoundation/disarmframeworks,135,136.1,17
+127,rsky,https://github.com/blacksky-algorithms/rsky,137,137.4,17
+128,Unpaywall Browser Extension,https://unpaywall.org/products/extension,138,141.9,17
+129,Consent-O-Matic,https://github.com/cavi-au/consent-o-matic,139,147.8,17
+130,Parliament Watch Uganda,https://parliamentwatch.ug/,139,160.5,17
+131,ShineYourEye,https://www.shineyoureye.org,141,154.1,17
+132,MapIt,https://mapit.mysociety.org,142,156.2,17
+133,Abstract Wikipedia,https://meta.wikimedia.org/wiki/abstract_wikipedia,144,148.1,17
+134,Awesome UK Government Datasets,https://github.com/i-dot-ai/awesome-gov-datasets,145,146.3,17
+135,Fairbnb.coop,https://fairbnb.coop,146,146.4,17
+136,Spacetube,https://spacetu.be,148,181.1,17
+137,dDocs,https://ddocs.new/,148.5,150.5,16
+138,Democracy Club Developer API,https://developers.democracyclub.org.uk/api/v1,148.5,152.1,16
+139,UrbanistAI,https://site.urbanistai.com,149,152.4,17
+140,WriteToThem,https://www.writetothem.com,149,152.4,17
+141,Open Data Communities,https://opendatacommunities.org,150,162.9,17
+142,Journal of Open Source Software,https://joss.theoj.org,151,155,17
+143,Humanitarian Data Exchange,https://data.humdata.org,152,160.8,17
+144,Kialo,https://kialo.com,152,172.3,17
+145,CrowdJustice,https://www.crowdjustice.com,153,148.7,17
+146,Harmonica,https://harmonica.chat/,154,161.5,17
+147,NumFOCUS,https://numfocus.org,155,148.5,17
+148,Data Observation Toolkit (DOT),https://github.com/datakind/data-observation-toolkit,155,149.1,17
+149,Granitt,https://granitt.io,156,161,17
+150,Snowdrift.coop,https://snowdrift.coop,159,144.9,17
+151,Members' Interests,https://membersinterests.org.uk,161,158.6,17
+152,GRIM (Global Risk Simulator),https://github.com/sentinelteam/grim,161,163.4,17
+153,Gapminder Worldview Upgrader,https://upgrader.gapminder.org,162,147,17
+154,Local Intelligence Hub,https://www.localintelligencehub.com,162,148.6,17
+155,Agreement Engine,https://medium.com/metagov/introducing-the-agreement-engine-bf03b6d5c16c,162,153.4,17
+156,Anna's Archive,https://annas-archive.pm,163.0,156.2,16
+157,Bluesky Social,https://github.com/bluesky-social,163,177.3,17
+158,Teaching Public Service in the Digital Age,https://www.teachingpublicservice.digital,164,155.1,17
+159,Aragon,https://aragon.org,165,144.4,17
+160,Bluesky,https://bsky.app,165,146.6,17
+161,youtube-dl,https://github.com/ytdl-org/youtube-dl,165,164.5,17
+162,Who Targets Me Trends,https://trends.whotargets.me,166,161.2,17
+163,Moral Machine,https://moralmachine.net,166,169,17
+164,Community Tech,https://www.communitytech.network,167,165.3,17
+165,Privacy Badger,https://privacybadger.org,168,160.6,17
+166,meet.coop,https://www.meet.coop,168,174.4,17
+167,Atlas of Surveillance,https://atlasofsurveillance.org,169,171,17
+168,Find local consultations,https://gov.uk/find-local-consultations,170,170.3,17
+169,Mapped,https://mapped.commonknowledge.coop,170,170.6,17
+170,The Circuit,https://thecircuit.cc,171,161.1,17
+171,Shareyourpaper.org,https://shareyourpaper.org,171,167.6,17
+172,Landlord Tech Watch,https://antievictionmappingproject.github.io/landlordtech,172,166.8,17
+173,Nyaaya,https://nyaaya.org,174,183.5,17
+174,Collaborative Data Patterns,https://collaborative-data.theodi.org,175.0,169.7,16
+175,DAO Governance Surfaces,https://github.com/notchia/dao-governance-surfaces,175,178.3,17
+176,Riseup,https://riseup.net,175,179.8,17
+177,UK Policy Dojo,https://github.com/mikekelly/policy-dojo,175,186.5,17
+178,postcodes.io,https://github.com/ideal-postcodes/postcodes.io,175,188.3,17
+179,Modular Politics,https://arxiv.org/abs/2005.13701,176,166.4,17
+180,Pageviews Analysis,https://pageviews.wmcloud.org,176,167.3,17
+181,Objector.ai,https://objector.ai,176,178.7,17
+182,Papertree,https://www.papertree.earth,177,171.2,17
+183,CoTech,https://coops.tech,178.0,162.6,16
+184,Wikum,https://www.csail.mit.edu/research/wikum-bridging-discussion-systems-and-wikis-collective-summarization,178,181.6,17
+185,Radicle,https://radicle.xyz,178,182.5,17
+186,River Sentiment Dashboard,https://riversentiment.app,179,190.9,17
+187,Parallel Parliament,https://www.parallelparliament.co.uk,180,165.9,17
+188,Give Food,https://www.givefood.org.uk,181,161.6,17
+189,WhatGov,https://www.whatgov.co.uk,182,153.8,17
+190,Open Council Data UK,https://opencouncildata.co.uk,184,172.2,17
+191,UK Housing Data Standards,https://hact.org.uk/tools-and-services/uk-housing-data-standards,186,172.7,17
+192,Theft Bisect,https://onodi.co/bisect/,186,177.5,17
+193,CharmVerse,https://charmverse.io/,186,181.8,17
+194,Manifold Markets,https://manifold.markets,186,183.9,17
+195,Hand-Written Petition Scanner,https://hand-written-petition-scanner.streamlit.app,186,187.7,17
+196,Go Vocal,https://www.govocal.com,187,164.4,17
+197,Idealist,https://idealist.org,187,192.1,17
+198,Spartacus,https://spartacus.app,187,203,17
+199,Missing Numbers,https://missingnumbers.org,189,194.2,17
+200,Sugartrail,https://github.com/ribenamaplesyrup/sugartrail,190,150.9,17
+201,Parse The Bill,https://parsethebill.com,190,188,17
+202,Remember to Vote,https://remembertovote.org.uk,190,195.8,17
+203,Metaculus,https://metaculus.com,192,179.9,17
+204,Timecounts,https://timecounts.org,192,194.4,17
+205,PlanIT,https://planit.org.uk,193,169.4,17
+206,MP Twitter Bios,https://www.mptwitterbios.co.uk,193,172.8,17
+207,Organise,https://www.organise.org.uk,193,176.7,17
+208,Frankenstein Bill,https://gordonguthrie.github.io/frankensteinbill,195,177.8,17
+209,CivicPress,https://civicpress.io/,195.0,187.5,16
+210,PatCit,https://github.com/cverluise/patcit,198,188.4,17
+211,FarmerChat,https://farmerchat.digitalgreen.org,198.0,225.1,16
+212,The Data Trusts Initiative,https://datatrusts.uk,199,172.2,17
+213,In the news,https://en.wikipedia.org/wiki/wikipedia:in_the_news,199,200.2,17
+214,Worker Info Exchange,https://www.workerinfoexchange.org,200,184.5,17
+215,Marks Out Of Tenancy,https://www.marksoutoftenancy.com,200,185.8,17
+216,Viewpoints,https://viewpoints.xyz,201,190.3,17
+217,Journalist Studio,https://journaliststudio.google.com,203,179.9,17
+218,Full Fact AI,https://fullfact.org/ai,205,184.1,17
+219,semanticClimate,https://semanticclimate.github.io,205,201.8,17
+220,OA.Report,https://oa.report,206,193.6,17
+221,GOV.UK Forms,https://www.forms.service.gov.uk,208,188,17
+222,Libertrium,https://liberopinion.com,208,196.3,17
+223,soweego,https://soweego.readthedocs.io,209,201.2,17
+224,django-collaborative,https://github.com/propublica/django-collaborative,209,211.2,17
+225,EDGAR,https://github.com/bellingcat/edgar,210,183.4,17
+226,New_ Public Roundabout,https://newpublic.substack.com/p/introducing-roundabout-built-for,210,188.7,17
+227,GrantNav,https://grantnav.threesixtygiving.org,210,191.1,17
+228,Pear by Holepunch,https://docs.holepunch.to,213.0,212.9,16
+229,Objector.ai,https://www.objector.ai,214,193.4,17
+230,CiviClick,https://civiclick.com,214,199.9,17
+231,Empurrando Juntas (EJ),https://sobre.ejparticipe.org,214,207.1,17
+232,Who Posted What?,https://whopostedwhat.com,214,216.2,17
+233,Global Fact-Check Bot (GFC),https://globalfactcheck.bot/,215,170.1,17
+234,Beckton,https://richardpope.org/2017/03/05/beckton-a-tool-to-build,215,201.5,17
+235,MP Watch,https://www.mpwatch.org,215,204.6,17
+236,GOV.UK One Login,https://www.sign-in.service.gov.uk,216,204.1,17
+237,Kagi SlopStop,https://blog.kagi.com/slopstop,216.5,220.1,16
+238,RightDD,https://www.rightsdd.com,216.5,220.1,16
+239,Charity Digital Skills Report,https://charitydigitalskills.co.uk,219.0,200.6,16
+240,Deliberation & Technology (DelibTech) Network,https://www.demnext.org/projects/delibtech-network,219,214.3,17
+241,Right To Know,https://right-to-know.org,222,203.8,17
+242,Prolific,https://www.prolific.com,222,209,17
+243,Choose a License,https://choosealicense.com,223,211.6,17
+244,Vote for Policies,https://voteforpolicies.org.uk,225,217.2,17
+245,Democracy Fund Open Source,https://www.dfos.com,226.0,193.3,16
+246,Gender Pay Gap Service,https://gender-pay-gap.service.gov.uk,226,207.1,17
+247,Entitledto,https://entitledto.co.uk,226.5,213.8,16
+248,GOV.UK Pay,https://www.payments.service.gov.uk,227,222.2,17
+249,MyActionCenter,https://www.myaction.center,227,230.6,17
+250,WardWatch,https://wardwatch.uk,229.5,214.6,16
+251,Plinth,https://www.plinth.org.uk,230,225.8,17
+252,Conservative Party Funding,https://conservativepartyfunding.co.uk,231.5,233.9,16
+253,Turbo Phonebank,https://turbophonebank.com,233,213.5,17
+254,Turn2us Benefits Calculator,https://benefits-calculator.turn2us.org.uk,234.5,209.2,16
+255,Sci-Hub,https://sci-hub.se,235,225.3,17
+256,GOV.UK Notify,https://www.notifications.service.gov.uk,236,211.1,17
+257,Nook CRM,https://nookcrm.com,236,220.2,17
+258,The Accountability Project,https://publicaccountability.org,237,221.5,17
+259,DoGooder,https://dogooder.co,237,237.4,17
+260,FixMyBlock,https://fixmyblock.org,238,229.4,17
+261,Fatebook,https://fatebook.io,238,233.5,17
+262,GreenPT,https://greenpt.ai/,239,237.1,17
+263,DoNotPay,https://www.donotpay.com,239.5,214.4,16
+264,Schema.org,https://schema.org,240,196.9,17
+265,Granicus,https://granicus.com/uk,241,219.1,17
+266,Membership,https://medium.com/@abscond/membership-a-prototype-ea822b2683b,241,229,17
+267,Nestr,https://nestr.io,244,215.6,17
+268,UK Parliament Developer Portal,https://developer.parliament.uk,244,226.3,17
+269,Public Media Stack,https://publicmediastack.com,247,233.5,17
+270,COTSI (Cyber Operational Threat Situational Intelligence),https://cotsi.org/,247.5,232.6,16
+271,Citizens Advice Tableau Public Profile,https://public.tableau.com/app/profile/citizensadvice/vizzes,249,238.5,17
+272,Esper,https://esper.com/product,249.0,239,16
+273,OpenAudience,https://openaudience.org,250,234.3,17
+274,Polimorphic,https://www.polimorphic.com,250.0,238.6,16
+275,Public Editor,https://www.publiceditor.io,250,248.9,17
+276,Dovetail,https://dovetail.network,251,259.8,15
+277,Plausible Analytics,https://plausible.io,252,245.2,17
+278,CAN/DGSI 127 - Age Assurance Technologies Standard,https://dgc-cgn.org/product/can-dgsi-127/,252.5,239.1,16
+279,Violation Tracker UK,https://violationtrackeruk.goodjobsfirst.org,253,245.2,17
+280,Overton,https://overton.io,255,214.1,17
+281,whatsmeow,https://github.com/tulir/whatsmeow,255,228.6,17
+282,OpenOrigins,https://www.openorigins.com,256.0,227.9,16
+283,Shared Digital Guides,https://www.shareddigitalguides.org.uk,257,256.7,17
+284,Responsible Tech Guide 2025,https://alltechishuman.org/responsible-tech-guide-2025,257.5,239.9,16
+285,GOV Reuse Library,https://dev.reuselibrary.service.justice.gov.uk/,260.0,243.5,16
+286,PostBug,https://postbug.com,261,239.9,17
+287,Digital Account Management Toolkit,https://digitalcharitylab.org/product/digital-account-management-toolkit,261.5,253.2,16
+288,Local Insight,https://localinsight.org,262,237.8,17
+289,AISafety.info,https://aisafety.info,263,242.1,17
+290,User Research Library,https://research.localgov.digital,263,248.7,17
+291,Urbit,https://urbit.org,267,241.2,17
+292,Registers and collaboration: making lists we can trust,https://theodi.org/insights/reports/registers-and-collaboration-making-lists-we-can-trust-report,267,259.4,17
+293,Labour Xchange,https://labourxchange.uk,268,240.6,17
+294,Dunadyne,https://dunadyne.org,268.0,254,16
+295,Local Deep Researcher,https://local-deep-researcher-hnmh.vercel.app/,270,257.2,17
+296,We Live It,https://www.welivedit.ai,272,255,17
+297,Service Manual,https://www.gov.uk/service-manual,273,236.9,17
+298,Mapping.kids,https://mapping.kids,273,247.7,17
+299,Yoti,https://www.yoti.com,273.0,265.4,16
+300,DemTech Navigator,https://navigator.oii.ox.ac.uk,276,233.9,17
+301,Watch Duty,https://www.watchduty.org,276,240.5,17
+302,Society for Hopeful Technologists,https://societyforhopefultechnologists.org,278,244.4,17
+303,Whoisology,https://whoisology.com,278,265.8,17
+304,Filmot,https://filmot.com,279,253.8,17
+305,Fission Codes,https://github.com/fission-codes/fission-codes,282,267.5,17
+306,CivicMatch,https://civicmatch.app,284.5,277.7,16
+307,PoliMonitor,https://www.polimonitor.com,285,276.8,17
+308,The Guide to Major Trusts 2025/26,https://www.dsc.org.uk/publication/the-guide-to-major-trusts-2025-26/,285,287.6,17
+309,Understanding Your Morality,https://programs.clearerthinking.org/understanding-your-morality/,286,264.1,17
+310,The List,https://the-list.uk,286,271.4,17
+311,Keep It In The Community,https://plunkett.my.site.com/keepitinthecommunity/s,287,251.2,17
+312,DeepSeek-V3,https://github.com/deepseek-ai/deepseek-v3,291,276.7,15
+313,Ladder Hub,https://ladderhub.org/,293,268.2,17
+314,PolicyMogul,https://policymogul.com,294,287.1,17
+315,The Decelerator,https://decelerator.org.uk,297.0,280.4,16
+316,Collab.Land,https://collab.land,297.5,274.8,16
+317,GovWise,https://www.govwise.ai/en,302.0,277.2,16
+318,Consciousness Evolution Operating System (ConSoc),https://www.consoc.io,306,284.9,17
+319,WorkInCharities,https://www.workincharities.co.uk,310.0,299.5,16
