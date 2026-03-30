@@ -2,11 +2,9 @@
 ## Evaluator: Fatima Sarah Khalid
 ## Version: v5 | 2026-03-30
 
-> **Synthetic estimate.** This constitution was inferred from public evidence by
-> an AI agent. It does not claim to reconstruct Fatima Sarah Khalid's true beliefs.
-> See evidence-assessed.md for sources and confidence levels.
+> Synthetic estimate. This constitution was inferred from public evidence by an AI agent. It does not claim to reconstruct Fatima Sarah Khalid's true beliefs. See evidence-assessed.md for sources and confidence levels.
 
-> **v5 changes:** Updated criteria weights per Fatima's direct feedback. Agency-first framing — prioritises forkability, local re-governance, exposing decision logic, reducing institutional dependence. Deprioritises platforms requiring institutional buy-in. C6 promoted from MEDIUM (12) to HIGH (30). C5 demoted from MEDIUM (12) to LOW (6). New modifier M_AGENCY added. Core question shift: from *how do people participate in systems?* to *how do people gain the capacity to shape, fork, and govern systems themselves?*
+> **v5 changes (2026-03-30):** Updated criteria weights per Fatima's direct feedback (C1:30, C2:30, C3:30, C4:12, C5:6, C6:30, C7:6). Agency-first framing applied. Added modifier M_AGENCY: boost (+6–12) for projects that can be forked/adapted/re-governed locally and expose their decision logic; reduce (−6–10) for projects that are platform-only or require institutional gatekeeping. All other modifiers (M1–M6) carried from v2.
 
 ---
 
@@ -19,13 +17,17 @@
 - **Low score (0–30%):** Projects aimed primarily at already-engaged, digitally literate professionals or activists who have multiple alternatives. Tools that improve efficiency for people who are already participating, without opening participation to new groups.
 - **Dossier fields:** communities_served, primary_users_or_beneficiaries, geographic_focus, tagline, scraped_description
 
+---
+
 ### Criterion 2: Open source commitment and community governance
 - **Weight:** HIGH (max 30 pts)
-- **Why Fatima:** Her Medium bio explicitly frames open source as "open source x intersectionality" — an ethical and political commitment. Her @drupaldiversity membership and GitLab co-create program post show her treating community contributors as genuine partners in governance. [Medium bio, GitHub profile, GitLab co-create post — all CONFIRMED]
+- **Why Fatima:** Her Medium bio explicitly frames it as "open source x intersectionality," treating it as an ethical and political commitment. Her @drupaldiversity membership and GitLab co-create program post show her treating community contributors as genuine partners in governance. [Medium bio, GitHub profile, GitLab co-create post — all CONFIRMED]
 - **v5 framing:** High scores if the community can fork, adapt, and re-govern the project locally. Low scores if governance is institutionally controlled despite being technically open-source. The test is not "is the code open?" but "can the governed community reshape this?"
 - **High score (80–100%):** Projects that are genuinely open source AND where the communities served can shape the project's direction through forking, contributing, or governing. Evidence: active contribution pathways, community governance structures, forkable architecture that enables local re-deployment.
 - **Low score (0–30%):** Proprietary tools; or projects that are technically open-source but controlled by a single institution with no meaningful community governance. Tools that extract value from communities without returning governance to them.
 - **Dossier fields:** open_source, github_url, license, community_governance, community_ownership, contributor_governance, governance_model
+
+---
 
 ### Criterion 3: Making government and civic processes legible and navigable
 - **Weight:** HIGH (max 30 pts)
@@ -35,12 +37,16 @@
 - **Low score (0–30%):** Tools that add a digital interface to existing processes without meaningfully reducing complexity. Projects where "civic" means the subject matter rather than citizen empowerment. Read-only information portals with no action pathway.
 - **Dossier fields:** political_relevance_summary, primary_users_or_beneficiaries, issue_area, scraped_description, tagline
 
+---
+
 ### Criterion 4: Inclusive community-building as a dimension of the project's design
 - **Weight:** MEDIUM (max 12 pts)
 - **Why Fatima:** Her DEI work within the Drupal community and WCT Rising Star award suggest she reads inclusion as part of a project's architecture, not an add-on. [Sessionize, @drupaldiversity membership, Medium bio, WCT award — CONFIRMED/PROBABLE]
 - **High score (80–100%):** Projects with documented mechanisms for including contributors or users from underrepresented groups — mentorship programmes, accessible contribution pathways, DEI audits of community governance, explicit representation in leadership.
 - **Low score (0–30%):** Projects where inclusion is claimed in marketing language but no structural mechanisms exist.
 - **Dossier fields:** team_diversity_signals, community_governance, scraped_description, political_relevance_summary
+
+---
 
 ### Criterion 5: Implementation maturity and real-world deployment
 - **Weight:** LOW (max 6 pts) — *demoted from MEDIUM in v5*
@@ -49,6 +55,8 @@
 - **Low score (0–30%):** Proof-of-concept tools with no deployment evidence. Archived repositories. Dead links.
 - **Dossier fields:** deployment_context, homepage_http_status, github_url, dead_link, last_updated, government_partnerships
 
+---
+
 ### Criterion 6: AI and technology as community infrastructure, not surveillance infrastructure
 - **Weight:** HIGH (max 30 pts) — *promoted from MEDIUM in v5*
 - **Why promoted:** The consistent thread in Fatima's AI writing is that AI must serve communities rather than extract from them. Her BIFFUD affiliation reinforces scepticism of technology that increases institutional power at community expense. In an agency-first frame, how a project handles AI is now a primary question, not a secondary one. [GitLab ChatGPT post, co-create post, Medium bio BIFFUD affiliation — CONFIRMED]
@@ -56,6 +64,8 @@
 - **High score (80–100%):** Projects where AI/technology increases community capacity; where AI logic is transparent, auditable, or open-source; where AI components can be locally deployed or replaced. Non-AI projects that are decentralised, federated, privacy-first, or community-governed infrastructure score high here.
 - **Low score (0–30%):** Projects where AI operates as a black box or centralises decision power. AI that automates government processes without accountability. Surveillance tools. Extractive data platforms. Technology that increases institutional power at community expense.
 - **Dossier fields:** ai_involvement, data_practices, political_relevance_summary, documented_limitations, scraped_description
+
+---
 
 ### Criterion 7: Cross-jurisdictional replicability and knowledge sharing
 - **Weight:** LOW (max 6 pts)
@@ -66,49 +76,74 @@
 
 ---
 
+## Agency-First Framing Notes
+
+Under v5 (agency-first), scoring guidance emphasises:
+- Systems that increase user agency over system behavior (not just participation within it)
+- Systems that expose underlying decision-making logic (not just outputs)
+- Systems that can be forked, adapted, and re-governed locally
+- Systems that reduce dependence on centralized institutional actors
+
+Deprioritised:
+- Systems that require institutional buy-in to function
+- Systems that operate primarily as platforms rather than primitives
+
+---
+
 ## Part B: Value Modifiers
 
-### M_AGENCY (new v5): Agency amplifier
-- **Direction:** boost or reduce
-- **Magnitude:** boost +8–12 points / reduce -8–14 points
-- **Boost applies when:** The project can be meaningfully forked or adapted locally AND exposes its decision-making logic AND raises user agency over system behaviour (not just participation within it). Evidence: forkable architecture, self-hosting documentation, transparent methodology, community re-governance capability.
-- **Reduce applies when:** The project requires institutional gatekeeping to function, cannot be locally re-governed, or locks users into vendor relationships. Platforms that are functional only within specific institutional contexts; tools that increase participation but not agency; systems that expose outputs but not logic.
-- **Why Fatima:** "Prioritise systems that can be forked, adapted, and re-governed locally." "Deprioritise systems that operate primarily as platforms rather than primitives." [Direct feedback — v5 framing]
+### M_AGENCY: Agency-First Modifier
+- **Direction:** conditional
+- **Boost magnitude:** +6–12 points
+- **Reduce magnitude:** −6–10 points
+- **Boost applies when:** The project can be forked/adapted/re-governed locally, exposes its decision logic, is self-hostable, uses open protocols, or explicitly reduces dependence on centralised actors. Open source is a necessary but not sufficient condition — self-hostability, federation, or local deployment capability earns the boost.
+- **Reduce applies when:** The project is platform-only (SaaS, no self-hosting option), requires institutional gatekeeping to access, is proprietary, or operates in a way that concentrates governance with a central authority. Reduces more strongly for closed-source platforms than for open-source platforms without federation.
+- **Neutral when:** The project is open source but centrally hosted with no self-hosting documentation — open but not locally re-governable.
 
 ### M1: Boost — community ownership or governance of the project itself
 - **Direction:** boost
 - **Magnitude:** strong (+8–14 points)
-- **Applies when:** The project is governed by the community it serves — not just open source, but actively community-governed. Evidence: community voting on roadmap, community board membership, formally community-owned legal structure (co-op, not-for-profit with community representation), or explicitly community-run infrastructure.
-- **Why Fatima:** The co-create post treats structural investment in community governance as the marker of genuine partnership. Her Medium bio frames open source as a commitment alongside intersectionality — she cares about who holds power, not just whether the code is open. [GitLab co-create post — CONFIRMED; Medium bio — CONFIRMED; BIFFUD — PROBABLE]
+- **Applies when:** The project is governed by the community it serves — not just open source, but actively community-governed. Evidence of governance could include: community voting on roadmap, community board membership, formally community-owned legal structure (co-op, not-for-profit with community representation), or explicitly community-run infrastructure. The community must be the *governed* community (the people the project serves), not just a developer community.
+- **Why Fatima:** The co-create post treats structural investment in community governance as the marker of genuine partnership. Her Medium bio frames open source as a commitment alongside intersectionality — she cares about who holds power in a project, not just whether the code is open. The BIFFUD collective itself is community-owned and anti-institutional. Her Drupal community DEI work is about governance of the community as much as code. [GitLab co-create post — CONFIRMED; Medium bio — CONFIRMED; BIFFUD — PROBABLE]
+
+---
 
 ### M2: Reduce — extractive data practices or surveillance without community consent
 - **Direction:** reduce
 - **Magnitude:** strong (−10–16 points)
-- **Applies when:** The project collects, aggregates, or sells data about citizens or community members without meaningful consent or without returning governance of that data to the people it concerns. Also applies to projects that use data or AI to increase state or institutional monitoring capacity without accountability mechanisms.
-- **Why Fatima:** Community expertise and human judgment must remain in the loop — AI that replaces community rather than serving it is the failure mode she names. Her BIFFUD affiliation signals anti-extractive orientation. [GitLab ChatGPT post — CONFIRMED; BIFFUD affiliation — PROBABLE; Medium bio — CONFIRMED]
+- **Applies when:** The project collects, aggregates, or sells data about citizens or community members without meaningful consent or without returning governance of that data to the people it concerns. Also applies to projects that use data or AI to increase state or institutional monitoring capacity without accountability mechanisms. Applies even if the stated purpose is beneficial.
+- **Why Fatima:** The consistent theme in her AI writing is that community expertise and human judgment must remain in the loop — AI that replaces community rather than serving it is the failure mode she names. Her BIFFUD affiliation signals anti-extractive orientation. [GitLab ChatGPT post — CONFIRMED; BIFFUD affiliation — PROBABLE; Medium bio — CONFIRMED]
+
+---
 
 ### M3: Boost — designed specifically for under-resourced or under-served civic contexts
 - **Direction:** boost
 - **Magnitude:** moderate (+5–9 points)
-- **Applies when:** The project was explicitly designed for communities or contexts that lack alternatives — not as a nice feature but as the primary design constraint. Evidence: project documentation naming specific underserved groups as primary users, design decisions for low-resource contexts (offline capability, low-bandwidth, low-literacy), or deployment primarily in under-resourced settings.
+- **Applies when:** The project was explicitly designed for communities or contexts that lack alternatives — not as a nice feature but as the primary design constraint. Evidence: project documentation naming specific underserved groups as primary users, design decisions made to accommodate low-resource contexts (offline capability, low-bandwidth, low-literacy interfaces), or deployment primarily in under-resourced settings.
 - **Why Fatima:** The drone companion app's mission — helping ordinary citizens navigate complex regulatory requirements — is exactly this. Sessionize bio: "simplifying technical concepts." Open source × intersectionality positions underserved communities as the reason for the work. [Sessionize bio — CONFIRMED; GitHub drone-companion-app — PROBABLE]
+
+---
 
 ### M4: Reduce — tools that digitise existing power structures without challenging them
 - **Direction:** reduce
 - **Magnitude:** moderate (−5–8 points)
-- **Applies when:** The project adds a digital layer to an existing civic or government process but does not improve citizen access, reduce barriers, or shift any power to communities. Projects where "civic tech" means government efficiency rather than citizen empowerment.
-- **Why Fatima:** Her career (Code for Canada, Microsoft Civic Tech) is explicitly about improving services for citizens — not just modernising government for its own sake. [Code for Canada fellowship — CONFIRMED; bio — CONFIRMED]
+- **Applies when:** The project adds a digital layer to an existing civic or government process but does not improve citizen access, reduce barriers, or shift any power to communities. Digital interfaces to bureaucracy that remain just as opaque, just as inaccessible, or that primarily benefit institutions rather than the people they nominally serve. Projects where "civic tech" means serving government efficiency rather than citizen empowerment.
+- **Why Fatima:** Her career path (Code for Canada, Microsoft Civic Tech) is explicitly about embedding digital professionals in government to improve services for citizens — not just to modernise government for its own sake. [Code for Canada fellowship — CONFIRMED; bio — CONFIRMED]
+
+---
 
 ### M5: Boost — inclusive developer community as a visible part of the project
 - **Direction:** boost
 - **Magnitude:** weak (+3–6 points)
-- **Applies when:** The project has documented, active investment in diversity and inclusion within its developer or contributor community — not just in its user community. Evidence: DEI statements with structural commitments, visible diverse leadership, active inclusion programs for contributors.
-- **Why Fatima:** Her @drupaldiversity work is specifically DEI within developer communities. She believes inclusive developer communities are a prerequisite for inclusive civic tech. [Sessionize bio — CONFIRMED; @drupaldiversity membership — CONFIRMED]
+- **Applies when:** The project has documented, active investment in diversity and inclusion within its developer or contributor community — not just in its user community. Evidence: DEI statements with structural commitments (not just marketing), visible diverse leadership, active inclusion programs for contributors, DEI audits.
+- **Why Fatima:** Her @drupaldiversity work is specifically DEI within developer communities. Her WCT awards are for inclusion in technology communities. She believes inclusive developer communities are a prerequisite for inclusive civic tech. [Sessionize bio — CONFIRMED; @drupaldiversity membership — CONFIRMED; WCT award — PROBABLE]
+
+---
 
 ### M6: Conditional — prototype protection for accessibility-first projects
 - **Direction:** conditional
 - **Magnitude:** moderate (+4–8 points on implementation maturity criterion only)
-- **Applies when:** A project scores low on C5 primarily because it is addressing an access gap with no existing alternatives. Applies when: (a) target population is clearly underserved, AND (b) there is evidence of design quality and intent even without deployment evidence, AND (c) the dossier explains why deployment is limited (resource constraints, early stage) rather than because the project is abandoned.
+- **Applies when:** A project scores low on Criterion 5 (implementation maturity) primarily because it is addressing an access gap that has no existing alternatives. Applies when: (a) the target population is clearly underserved, AND (b) there is evidence of design quality and intent even without deployment evidence, AND (c) the dossier explains why deployment is limited (resource constraints, early stage) rather than because the project is abandoned.
 - **Note in v5:** With C5 demoted to max 6 pts, M6 has reduced absolute impact. Still applies for thin-dossier projects meeting all three conditions.
 
 ---
@@ -152,19 +187,8 @@
 
 ---
 
-## Part E: Synthesis Notes
+## Part E: Weight Change Summary (v2 → v5)
 
-### Core shift from v2 to v5
-
-The fundamental reorientation: v2 asked "how do people participate in systems?" V5 asks "how do people gain the capacity to shape, fork, and govern systems themselves?"
-
-This shift has concrete scoring consequences:
-- A tool that makes government data legible but offers no action pathway scores lower in v5
-- A protocol that enables federated self-governance scores dramatically higher in v5
-- A well-deployed platform with institutional lock-in scores lower in v5
-- A prototype that is forkable, community-governed, and exposes its logic scores higher in v5
-
-### Weight changes from v2
 | Criterion | v2 weight | v5 weight | Change |
 |---|---|---|---|
 | C1 (Accessibility) | 20 | 30 | +10 |
@@ -175,5 +199,4 @@ This shift has concrete scoring consequences:
 | C6 (AI as infrastructure) | 12 | 30 | +18 |
 | C7 (Cross-jurisdictional) | 6 | 6 | no change |
 
-### New modifier
-M_AGENCY: +8–12 for forkable+exposes logic+raises agency; -8–14 for institutional gatekeeping or vendor lock-in.
+New modifier: M_AGENCY (+6–12 boost for forkable/self-hostable/re-governable; −6–10 for platform-only or institutional gatekeeping)
