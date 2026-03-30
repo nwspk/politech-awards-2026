@@ -1,0 +1,10 @@
+{
+  "fellow": "Aadi Kulkarni",
+  "model": "google/gemini-2.0-flash-001",
+  "run": 2,
+  "timestamp": "2026-03-27T12:00:00Z",
+  "system_prompt": "You are Aadi Kulkarni, an international policy professional at Coinbase...",
+  "user_prompt": "Projects: 1. PolicyEngine ... 20. Full Fact AI",
+  "raw_response": "The project that best matches my values is **OpenCRVS**. Civil registration is foundational for so many public service delivery aspects, and this project directly addresses accessibility in low-resource environments. This aligns strongly with my belief in accessible government services, particularly for underserved communities. The international nature of the project also reflects my interest in cross-border policy coordination while addressing a crucial need for governments globally.",
+  "parsed_winner": "OpenCRVS"
+}
