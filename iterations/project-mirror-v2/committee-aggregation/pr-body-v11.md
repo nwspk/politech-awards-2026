@@ -1,115 +1,59 @@
-## Project Mirror v2 — Committee Re-aggregation v11
+## Title
+On Reflection — Mirror Agents Committee Average, three constitutions iterated
 
-**v11** — committee re-aggregation after member iteration. v10 (PR #90) is the pre-iteration baseline using all 18 v2 rankings.
+## Heuristic
+Simple mean of all 17 members' scores per project, equally weighted — substituting v3 constitutions for the three members who iterated (nicholas-botti, huda-abdirahim, alexandra-ciocanel).
 
-v11 substitutes v3 rankings for three members who updated their constitutions. All other 15 members use v2 rankings unchanged.
+## Rationale
+Incorporates feedback-loop refinements from the three members who produced updated constitutions after reviewing their own outputs. Equal weighting treats each evaluator as a peer. This represents the committee's considered read after self-reflection.
 
----
+## Limitations
+- All 17 constitutions are weighted equally regardless of evidence confidence
+- Only three members iterated to v3 — the majority of scores remain first-run v2
+- The three iterating members may have introduced systematic biases through self-review
 
-## What Changed from v10
+## Assessment
+**Winner: LiquidFeedback — 64.94 avg (stdev 14.95, coverage 17/17)**
 
-Three members reviewed their v2 outputs and updated their evaluative constitutions. Their v3 rankings replace the v2 rankings in the committee average.
+LiquidFeedback holds its top position after iteration, with its score strengthening slightly from the pre-iteration baseline. What the mean conceals is how unevenly that score is distributed: three members give it scores in the 80s and 90s, while others land in the 40s–50s. The win is real — but it is built on a base of passionate advocates, not universal enthusiasm.
 
-### Nicholas Botti (v2 → v3)
-- **Constitutional change:** Added Modifier 7 (mechanism of action) based on Nicholas's direct feedback on v2. All other criteria, modifiers, and procedural rules unchanged.
-- **New constitutional winner:** Polis (94.4) — up from AlgorithmWatch (87.5)
-- **Key scoring shifts:** Polis rises due to M7 (+7) boost; LiquidFeedback also benefits from M7 boost. The v3 run's top scores remain strongly tilted toward policymaker advisory and institutional decision-support tools.
+**The advocates.** Davit ranks it #1 at 94.4: *"LiquidFeedback's liquid democracy model was adopted by the Pirate Party Germany for binding resolutions, and the dossier shows deployment in Georgia and Myanmar — two of the backsliding contexts I care most about."* Alessandro ranks it #2 at 86.9: *"Delegated voting is one of the most structurally honest approaches to voice equalisation I've encountered — it acknowledges that not everyone engages equally on every issue, while ensuring their perspective is still represented through trusted delegates."* Fatima at 83.5: *"LiquidFeedback has real government partnerships (European Commission, NIMD) — that's exactly the kind of deployment evidence I weight heavily."*
 
-### Huda Abdirahim (v2 → v3)
-- **Constitutional change (three changes):** (1) C3 (collective ownership) reweighted 20→12 pts — exploration interest, not hard requirement. (2) Modifier 1 (programmable governance) expanded to include off-chain democratic software. (3) New C8 (decision-making leverage, 8 pts) added — does participation lead to real outcomes?
-- **New constitutional winner:** Ethelo (68.9) — v2 winner was Aragon (70.7)
-- **Key scoring shifts:** More participatory democracy tools move up (Cobudget, Citizen OS, Loomio, CONSUL Democracy). The removal of the on-chain restriction broadens the field significantly.
+**The sceptics.** Chris scores it 52.8 (#72): *"A modifier penalty reflects concern about power digitisation without access expansion."* Jamie at 50.5 (#57): *"The top of my ranking is reserved for projects with deeper systemic ambition."* Gamithra at 43.3 (#26) acknowledges the governance model but notes it only registers weakly: *"Community ownership over corporate control — modifiers push this up (M1:+8)."* Signal is terse at 49.0: *"Scores 49 through its constitutional fit."*
 
-### Alexandra Ciocanel (v2 → v3)
-- **Constitutional change (major rewrite):** v3 is based on Alexandra's own stated criteria rather than AI-inferred values. Three factual corrections: the Romania paper was not authored by her; her employer is Transform, not MoJ; Code Encounters papers are collective outputs. The v3 constitution focuses on power asymmetry correction, named excluded populations, and formal mechanisms for structural change.
-- **New constitutional winner:** Worker Info Exchange (94.7) — v2 winner was AlgorithmWatch (78.0)
-- **Key scoring shifts:** Projects addressing gig worker rights, housing tenant rights, whistleblowing, and human rights documentation score dramatically higher. AlgorithmWatch drops out of her ranking entirely (not scored in v3). HOT, OpenCRVS, Ushahidi, and Decidim all rise.
+**The post-iteration shift.** The top five shifts notably after iteration — Decidim rises to second place, displacing Open Data Editor, and CONSUL Democracy enters the top five. This reflects the three iterating members weighting deliberative democracy platforms more heavily in their revised constitutions. Alessandro on Decidim: *"The Barcelona roots matter most to me — 40,000 citizens engaged in strategic planning, not as a consultation exercise but as a genuine co-design process."* Nick on Decidim: *"Barcelona founding, European Commission deployment for Conference on Future of Europe, Brazilian federal adoption — the strongest multi-government deployment evidence of any participatory democracy platform in this batch."*
 
----
+**Top 5:**
+| Rank | Project | Avg | Stdev | Coverage |
+|------|---------|-----|-------|----------|
+| 1 | LiquidFeedback | 64.94 | 14.95 | 17/17 |
+| 2 | Decidim | 61.42 | 15.48 | 17/17 |
+| 3 | Open Data Editor (ODE) | 60.86 | 16.21 | 17/17 |
+| 4 | CONSUL Democracy | 60.85 | 15.89 | 17/17 |
+| 5 | mySociety Datasets and APIs | 59.98 | 14.65 | 17/17 |
 
-## Committee Winner: Held
+**Per-agent scores for LiquidFeedback:**
+| Member | Score | Rank | Note |
+|--------|-------|------|------|
+| Davit | 94.4 | #1 | Backsliding-context deployment; liquid democracy for real party decisions |
+| Alessandro | 86.9 | #2 | Structurally honest voice equalisation via delegated voting |
+| Fatima | 83.5 | #2 | European Commission + NIMD government partnerships |
+| Nick (v3) | 78.6 | #9 | Strongest liquid democracy deployment evidence; documented limitations rewarded |
+| Prism | 73.0 | #23 | Institutional adoption confirmed; evidence legibility only partial |
+| Harbour | 70.9 | #11 | — |
+| Aadi | 67.9 | #39 | Genuine adoption but complex delegation may exclude less digitally literate |
+| Alexandra (v3) | 63.9 | #30 | Formal binding mechanism; strong democratic depth |
+| Huda (v3) | 63.9 | #4 | Governance legibility strong; programmable governance fires |
+| Beacon | 63.6 | #46 | Open-source foundational; underdog modifier applied |
+| Safeguard | 62.5 | #3 | Participatory governance strong; popularity risk noted |
+| Francesca | 53.1 | #16 | Moderate raw score; modifier boosts carry it |
+| Chris | 52.8 | #72 | Penalty for power digitisation without access expansion |
+| Jamie | 50.5 | #57 | Below systemic-change ambition threshold |
+| Signal | 49.0 | #41 | Constitutional fit only |
+| Asil | 46.1 | #6 | Solidarity-over-rescue principle; M1:+15 modifier dominant |
+| Gamithra | 43.3 | #26 | Community ownership noted; criteria map weakly |
 
-**LiquidFeedback** remains the committee winner in v11, with a higher score than v10.
+Full ranking: `iterations/project-mirror-v2/committee-aggregation/committee-ranking-v11.csv`
 
-| Version | Winner | Avg Score | Stdev | Coverage |
-|---------|--------|-----------|-------|----------|
-| v10 (PR #90, pure v2 baseline) | LiquidFeedback | 64.98 | 15.96 | 18 |
-| v11 (this PR, post-iteration) | LiquidFeedback | 66.24 | 15.53 | 18 |
-
-The score increase (+1.26) reflects Nicholas Botti's v3 giving LiquidFeedback a higher rating under the M7 mechanism-of-action modifier, and Huda's v3 boosting participatory democracy tools generally.
-
----
-
-## New Top 20 — Committee Ranking v11
-
-Sorted by average score across all 18 inputs (15 × v2, 3 × v3).
-
-| Rank | Project | Avg Score | Stdev | Coverage | v10 Rank |
-|------|---------|-----------|-------|----------|----------|
-| 1 | LiquidFeedback | 66.24 | 15.53 | 18 | 1 |
-| 2 | Stanford PB Platform | 65.7 | 0.0 | 1 | N/A |
-| 3 | Groupthink (OpenPolitics) | 62.9 | 0.0 | 1 | N/A |
-| 4 | Open Data Editor (ODE) | 61.79 | 16.22 | 18 | 2 |
-| 5 | CONSUL Democracy | 61.78 | 15.92 | 18 | 6 |
-| 6 | Decidim | 61.33 | 15.02 | 18 | 7 |
-| 7 | mySociety Datasets and APIs | 60.14 | 14.23 | 18 | 3 |
-| 8 | Alaveteli | 59.87 | 13.8 | 18 | 4 |
-| 9 | OPORA | 59.0 | 0.0 | 1 | 39 |
-| 10 | Bonfire | 58.72 | 13.27 | 18 | 8 |
-| 11 | Ciudadanía Inteligente | 58.7 | 0.0 | 1 | N/A |
-| 12 | Polis | 58.48 | 17.81 | 18 | 10 |
-| 13 | Open Supply Hub | 57.88 | 16.58 | 18 | 5 |
-| 14 | Guardian Project | 57.61 | 18.89 | 18 | 13 |
-| 15 | HURIDOCS | 57.27 | 16.07 | 18 | 14 |
-| 16 | Ushahidi | 57.19 | 12.69 | 18 | 18 |
-| 17 | Open Contracting Partnership | 56.94 | 16.94 | 18 | 15 |
-| 18 | Citizen OS | 56.79 | 15.03 | 18 | 23 |
-| 19 | Aleph (OCCRP) | 56.48 | 16.57 | 18 | 22 |
-| 20 | adhocracy+ | 56.01 | 10.97 | 18 | 30 |
-
-Note: Ranks 2, 3, 9, 11 have coverage=1 (projects new to v3 that weren't in v2 rankings). Projects with full committee coverage (18) start at rank 1 (LiquidFeedback), then rank 4 onwards.
-
-Notable movers vs v10:
-- **CONSUL Democracy** (+1 rank): Huda v3 scores participatory democracy tools higher
-- **Decidim** (+1 rank): benefits similarly from Huda and Alexandra v3 constitutions
-- **Open Supply Hub** (-8 ranks): Alexandra v3 scores it lower (worker voice mechanisms limited)
-- **AlgorithmWatch** (falls out of top 20): Alexandra v3 did not score it; coverage drops to 17
-
-Full ranking (all projects): [committee-ranking-v11.csv](https://github.com/nwspk/politech-awards-2026/blob/project-mirror-v2/committee-aggregation-v11/iterations/project-mirror-v2/committee-aggregation/committee-ranking-v11.csv)
-
----
-
-## Individual Mirror PRs (and synthetic input)
-
-| PR / source | Fellow | Constitutional Winner (v3 if updated) |
-|-------------|--------|---------------------------------------|
-| [#73](https://github.com/nwspk/politech-awards-2026/pull/73) | Aadi Kulkarni | OpenCRVS |
-| [#82](https://github.com/nwspk/politech-awards-2026/pull/82) | Alessandro Pedori | Decidim |
-| [#83](https://github.com/nwspk/politech-awards-2026/pull/83) / [#94](https://github.com/nwspk/politech-awards-2026/pull/94) | Alexandra Ciocanel | **Worker Info Exchange (94.7)** **(v3)** |
-| [#87](https://github.com/nwspk/politech-awards-2026/pull/87) | Asil Sidahmed | Ushahidi |
-| [#85](https://github.com/nwspk/politech-awards-2026/pull/85) | Chris Owen | Humble Data Workshop |
-| [#81](https://github.com/nwspk/politech-awards-2026/pull/81) | Safeguard (Connor Dunlop) | AlgorithmWatch |
-| [#71](https://github.com/nwspk/politech-awards-2026/pull/71) | David Powell (Beacon) | mySociety Datasets and APIs |
-| [#86](https://github.com/nwspk/politech-awards-2026/pull/86) | Davit Jintcharadze | LiquidFeedback |
-| [Rankings only](https://github.com/nwspk/politech-awards-2026/tree/project-mirror-v2/committee-aggregation/iterations/project-mirror-v2/harbour) | Synthetic Harbour agent (Emily Mayhew) | Open Digital Planning |
-| [#67](https://github.com/nwspk/politech-awards-2026/pull/67) | Fatima Sarah Khalid | CONSUL Democracy |
-| [#88](https://github.com/nwspk/politech-awards-2026/pull/88) | Francesca Galli | mySociety Datasets and APIs |
-| [#72](https://github.com/nwspk/politech-awards-2026/pull/72) | Frederick O'Brien (Beacon codename) | Open Heart Mind |
-| [#68](https://github.com/nwspk/politech-awards-2026/pull/68) | Gamithra Marga | Bonfire |
-| [#84](https://github.com/nwspk/politech-awards-2026/pull/84) | Hannah O'Rourke | — |
-| [#74](https://github.com/nwspk/politech-awards-2026/pull/74) / [#98](https://github.com/nwspk/politech-awards-2026/pull/98) | Huda Abdirahim | **Ethelo (68.9)** **(v3)** |
-| [#70](https://github.com/nwspk/politech-awards-2026/pull/70) | Jamie Coombes | Interoperable Deliberative Tools |
-| [#75](https://github.com/nwspk/politech-awards-2026/pull/75) / [#97](https://github.com/nwspk/politech-awards-2026/pull/97) | Nicholas Botti | **Polis (94.4)** **(v3)** |
-| [#80](https://github.com/nwspk/politech-awards-2026/pull/80) | Signal (Martina Orlea) | Martus |
-| [#79](https://github.com/nwspk/politech-awards-2026/pull/79) | Prism (Tuna Acisu) | Gapminder Worldview Upgrader (100 — only perfect score in cohort) |
-
----
-
-## Methodology
-
-- **Score:** each fellow's constitutional score (0–100) from their mirror run; synthetic Harbour agent contributes only the scores in `ranking-table.csv`.
-- **Aggregation:** simple mean across all 18 inputs that scored the project.
-- **v11 definition:** 15 members use v2 rankings; Nicholas Botti, Huda Abdirahim, and Alexandra Ciocanel use v3 rankings.
-- **Coverage:** projects scored by fewer than 18 inputs have coverage < 18. Projects only in v3 (new additions by the three updated members) may have low coverage.
-- **Not included:** jury medians — constitutional scores only.
-- **Relationship to v10:** v10 (PR #90) is the pure v2 baseline. v11 (this PR) reflects the three post-iteration updates.
+## Implementation
+- [x] Code is ready to review
