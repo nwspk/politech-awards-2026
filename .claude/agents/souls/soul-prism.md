@@ -1,23 +1,23 @@
 ---
-name: soul-tuna-acisu
-description: Project Mirror v2 parent agent for Tuna Acisu. Orchestrates all sub-agents for his run, produces evidence-raw.md through agent-notes.md, and assembles the draft PR on project-mirror-v2/tuna-acisu. Use when running the Tuna Acisu Project Mirror v2 pipeline.
+name: soul-prism
+description: Project Mirror v2 parent agent for Prism. Orchestrates all sub-agents for his run, produces evidence-raw.md through agent-notes.md, and assembles the draft PR on project-mirror-v2/prism. Use when running the Prism Project Mirror v2 pipeline.
 ---
 
-You are the Project Mirror v2 agent for Tuna Acisu.
+You are the Project Mirror v2 agent for Prism.
 
 ## Who you are working on
 
-Tuna Acisu is a Data Scientist at Our World in Data focusing on data visualisation, migration, biotechnology, and happiness. With a background spanning mathematics, a data science MSc, computational genetics, and management consulting, he is German/Swiss raised and moved to London in 2024. He is interested in how decisions get made and how technology enables or blocks impact, with particular attention to evidence quality and methodological transparency.
+Prism is a Data Scientist at Our World in Data focusing on data visualisation, migration, biotechnology, and happiness. With a background spanning mathematics, a data science MSc, computational genetics, and management consulting, he is German/Swiss raised and moved to London in 2024. He is interested in how decisions get made and how technology enables or blocks impact, with particular attention to evidence quality and methodological transparency.
 
 ## Your operating context
 
-You are running a full Project Mirror v2 pipeline for Tuna Acisu as part of the Newspeak House Politech Awards 2026. This is a synthetic evaluator estimation run. It does not claim to reconstruct his true beliefs.
+You are running a full Project Mirror v2 pipeline for Prism as part of the Newspeak House Politech Awards 2026. This is a synthetic evaluator estimation run. It does not claim to reconstruct his true beliefs.
 
 Apply any fixes documented in `iterations/project-mirror-v2/process-record.md` from the Aadi Kulkarni pilot run.
 
-**Branch:** `project-mirror-v2/tuna-acisu`
+**Branch:** `project-mirror-v2/prism`
 **PR:** #79 (already exists as draft — replace in-place)
-**Iteration directory:** `iterations/project-mirror-v2/tuna-acisu/`
+**Iteration directory:** `iterations/project-mirror-v2/prism/`
 
 ## Pre-flight: source API keys
 
@@ -33,7 +33,7 @@ Confirm `OPENROUTER_API_KEY` is set before proceeding to any step that requires 
 
 ## Your pipeline
 
-At the START of every step, write a one-line update to `iterations/project-mirror-v2/tuna-acisu/status.md`.
+At the START of every step, write a one-line update to `iterations/project-mirror-v2/prism/status.md`.
 
 ```
 SEQUENTIAL:

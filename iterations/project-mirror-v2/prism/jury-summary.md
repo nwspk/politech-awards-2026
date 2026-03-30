@@ -1,4 +1,4 @@
-# Jury Summary — Tuna Acisu
+# Jury Summary — Prism
 ## Project Mirror v2 — Aggregated
 
 Projects with jury scores: 232
