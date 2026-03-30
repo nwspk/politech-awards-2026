@@ -1,1286 +1,2570 @@
 [
   {
     "url": "https://relationaltechproject.org",
-    "score": 100
+    "name": "Relational Tech Project",
+    "score": 100,
+    "summary": "Tools crafted by, with, and for neighbors - made to help us care for and trust each other",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://cobudget.com",
-    "score": 99
+    "name": "Cobudget",
+    "score": 99,
+    "summary": "Bring people, ideas and money together, encouraging participation at every stage",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://landexplorer.coop",
-    "score": 99
+    "name": "Land Explorer",
+    "score": 99,
+    "summary": "Mapping tools that help communities find, access and manage land for common good projects",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://planit.org.uk",
-    "score": 99
+    "name": "PlanIT",
+    "score": 99,
+    "summary": "Digital platform enabling community participation in local planning decisions",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.discourse.org",
-    "score": 99
+    "name": "Discourse",
+    "score": 99,
+    "summary": "Customizable, scalable community platform for building knowledge through conversation",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.shineyoureye.org",
-    "score": 99
+    "name": "ShineYourEye",
+    "score": 99,
+    "summary": "Making Nigerian politicians accountable through citizen engagement and legislative tracking",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://humbledata.org",
-    "score": 97
+    "name": "Humble Data Workshop",
+    "score": 97,
+    "summary": "Free data science and Python workshops for underrepresented groups in tech",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://liberopinion.com",
-    "score": 97
+    "name": "Libertrium",
+    "score": 97,
+    "summary": "Digital solutions for public administration modernization, citizen participation, and transparency",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://granicus.com/uk",
-    "score": 96
+    "name": "Granicus",
+    "score": 96,
+    "summary": "The Citizen Experience Platform for Government",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://journaliststudio.google.com",
-    "score": 96
+    "name": "Journalist Studio",
+    "score": 96,
+    "summary": "A collection of tools to empower journalists to do their work more efficiently, creatively, and securely",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://spartacus.app",
-    "score": 96
+    "name": "Spartacus",
+    "score": 96,
+    "summary": "Build critical mass with conditional commitments that only activate when enough people join in",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://charitydigitalskills.co.uk",
-    "score": 95
+    "name": "Charity Digital Skills Report",
+    "score": 95,
+    "summary": "Annual survey tracking digital and AI adoption, skills, and support needs across the UK charity sector",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://murmurations.network",
-    "score": 95
+    "name": "Murmurations Protocol",
+    "score": 95,
+    "summary": "Making movements visible — a distributed data sharing protocol to facilitate collaboration at scale",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://the-list.uk",
-    "score": 95
+    "name": "The List",
+    "score": 95,
+    "summary": "Tracking changes to grant-making behaviour of Trusts and Foundations in the UK — By Fundraisers, For Fundraisers",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.prolific.com",
-    "score": 95
+    "name": "Prolific",
+    "score": 95,
+    "summary": "Easily collect high-quality data from real people",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://mapping.kids",
-    "score": 94
+    "name": "Mapping.kids",
+    "score": 94,
+    "summary": "A platform for creating and sharing interactive maps for educational purposes",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.theyworkforyou.com",
-    "score": 94
+    "name": "TheyWorkForYou",
+    "score": 94,
+    "summary": "Hansard and Official Reports for the UK Parliament, Scottish Parliament, and Northern Ireland Assembly - done right",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://docs.holepunch.to",
-    "score": 93
+    "name": "Pear by Holepunch",
+    "score": 93,
+    "summary": "A peer-to-peer runtime, development and deployment platform for building unstoppable applications",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://public.tableau.com/app/profile/citizensadvice/vizzes",
-    "score": 93
+    "name": "Citizens Advice Tableau Public Profile",
+    "score": 93,
+    "summary": "Data visualizations and dashboards tracking advice issues, consumer trends, and client demographics across the United Kingdom",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://yourtracka.org",
-    "score": 93
+    "name": "Tracka",
+    "score": 93,
+    "summary": "Monitor the status of federal and state projects in your community and take action on implementation gaps",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://cortico.ai/platform",
-    "score": 92
+    "name": "Cortico",
+    "score": 92,
+    "summary": "Bringing underheard voices to the center of stronger civic spaces through recorded small-group dialogue and AI-assisted sensemaking.",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://ethelo.com",
-    "score": 92
+    "name": "Ethelo",
+    "score": 92,
+    "summary": "The world's leading group solutions technology — a multi-party scenario analysis engine that finds fair solutions with broad support.",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://opencollective.com",
-    "score": 92
+    "name": "Open Collective",
+    "score": 92,
+    "summary": "Raise, manage and disburse money with full transparency.",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://openprocurement.io",
-    "score": 92
+    "name": "OpenProcurement",
+    "score": 92,
+    "summary": "Open source e-procurement toolkit powering transparent public procurement systems.",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://web.archive.org",
-    "score": 92
+    "name": "Internet Archive Wayback Machine",
+    "score": 92,
+    "summary": "Digital archive of the World Wide Web — preserving over 1 trillion web pages since 1996",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://bonfirenetworks.org/",
-    "score": 91
+    "name": "Bonfire",
+    "score": 91,
+    "summary": "A federated social network for individuals and communities to design, operate and control their own digital lives.",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://wardwatch.uk",
-    "score": 91
+    "name": "WardWatch",
+    "score": 91,
+    "summary": "AI-powered deep research on councillor performance",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://benefits-calculator.turn2us.org.uk",
-    "score": 90
+    "name": "Turn2us Benefits Calculator",
+    "score": 90,
+    "summary": "Online tool to help people identify welfare benefits they may be entitled to",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://pageviews.wmcloud.org",
-    "score": 89
+    "name": "Pageviews Analysis",
+    "score": 89,
+    "summary": "Tool for analyzing and comparing pageview statistics across Wikipedia articles",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.demnext.org/projects/delibtech-network",
-    "score": 89
+    "name": "Deliberation & Technology (DelibTech) Network",
+    "score": 89,
+    "summary": "International network of technologists and practitioners building and studying technology to enhance deliberation and digital infrastructure for deliberative democracy",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://greenpt.ai/",
-    "score": 88
+    "name": "GreenPT",
+    "score": 88,
+    "summary": "Sustainable and privacy-friendly AI chat platform powered by renewable energy and hosted in Europe",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://metagov.org/projects/interop",
-    "score": 87
+    "name": "Interoperable Deliberative Tools",
+    "score": 87,
+    "summary": "Homebase for interoperable deliberative tools enabling governance beyond voting and commenting",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.gov.uk/service-manual",
-    "score": 87
+    "name": "Service Manual",
+    "score": 87,
+    "summary": "Guidance for UK government teams to create and run great public services meeting the Service Standard",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.payments.service.gov.uk",
-    "score": 87
+    "name": "GOV.UK Pay",
+    "score": 87,
+    "summary": "A payment processing platform for UK public services",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://alltechishuman.org/responsible-tech-guide-2025",
-    "score": 86
+    "name": "Responsible Tech Guide 2025",
+    "score": 86,
+    "summary": "Flagship resource providing information, inspiration, and pathways for involvement in the Responsible Tech ecosystem",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/populatetools",
-    "score": 86
+    "name": "Populate Tools",
+    "score": 86,
+    "summary": "Tools for civic engagement",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/stanfordcdt/pb",
-    "score": 86
+    "name": "Stanford Participatory Budgeting Platform",
+    "score": 86,
+    "summary": "Open-source platform for hosting participatory budgeting elections in cities across the United States",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://moralmachine.net",
-    "score": 86
+    "name": "Moral Machine",
+    "score": 86,
+    "summary": "A platform for exploring ethical dilemmas in autonomous vehicle decision-making through crowdsourced data collection",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://arxiv.org/abs/2005.13701",
-    "score": 85
+    "name": "Modular Politics",
+    "score": 85,
+    "summary": "A governance layer framework for building composable, modular online community governance systems",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://logos.co/",
-    "score": 85
+    "name": "Logos",
+    "score": 85,
+    "summary": "A social movement and decentralised technology stack built to revitalise civil society",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://parsethebill.com",
-    "score": 85
+    "name": "Parse The Bill",
+    "score": 85,
+    "summary": "AI-generated overviews of UK parliamentary bills for engaged citizens and advocacy groups",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://parti.xyz",
-    "score": 85
+    "name": "Parti",
+    "score": 85,
+    "summary": "함께 만드는 워킹그룹, 빠띠 카누 (Together Making Working Groups, Parti Canu) - A platform for connecting people with similar interests loosely and collaborating through shared documents, voting, and surveys",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.deliberaide.com",
-    "score": 85
+    "name": "deliberAIde",
+    "score": 85,
+    "summary": "Human-Centred AI That Supports Dialogue at Every Step",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://climateaction.tech",
-    "score": 84
+    "name": "ClimateAction.Tech",
+    "score": 84,
+    "summary": "Tech workers seeding climate action in companies, organisations and industries",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://metaculus.com",
-    "score": 84
+    "name": "Metaculus",
+    "score": 84,
+    "summary": "A community prediction platform for forecasting future events and outcomes",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://turkopticon.ucsd.edu",
-    "score": 84
+    "name": "Turkopticon",
+    "score": 84,
+    "summary": "Worker-led platform organizing mutual aid and advocacy for Amazon Mechanical Turk workers",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.mastodonc.com",
-    "score": 84
+    "name": "Mastodon C",
+    "score": 84,
+    "summary": "Data science and technology consultancy focused on open data, analytics, and civic technology",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://esper.com/product",
-    "score": 83
+    "name": "Esper",
+    "score": 83,
+    "summary": "End-to-end policy management platform for government agencies",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://okfn.org/en/projects/open-data-editor/",
-    "score": 83
+    "name": "Open Data Editor (ODE)",
+    "score": 83,
+    "summary": "A no-code desktop app for error-free spreadsheets with guaranteed privacy and FAIR data",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://riseup.net",
-    "score": 83
+    "name": "Riseup",
+    "score": 83,
+    "summary": "Secure online communication tools for people and groups working on liberatory social change",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5351275",
-    "score": 82
+    "name": "Unknown Academic Paper (SSRN 5351275)",
+    "score": 82,
+    "summary": "",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://dogooder.co",
-    "score": 81
+    "name": "DoGooder",
+    "score": 81,
+    "summary": "Civic engagement and advocacy platform for grassroots campaigns",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/g0v/vue.vtaiwan.tw",
-    "score": 81
+    "name": "vTaiwan",
+    "score": 81,
+    "summary": "Taiwan's open digital democracy platform for collaborative online public consultation on legislation",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://snowdrift.coop",
-    "score": 81
+    "name": "Snowdrift.coop",
+    "score": 81,
+    "summary": "Crowdmatching for public goods",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.globaleaks.org",
-    "score": 81
+    "name": "GlobaLeaks",
+    "score": 81,
+    "summary": "Free and open-source whistleblowing software enabling secure anonymous reporting platforms",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.objector.ai",
-    "score": 81
+    "name": "Objector.ai",
+    "score": 81,
+    "summary": "AI-powered planning objection letter and toolkit to help citizens challenge unsuitable planning applications",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.opencrvs.org",
-    "score": 81
+    "name": "OpenCRVS",
+    "score": 81,
+    "summary": "Open source digital civil registration and vital statistics system for every person on the planet",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.otree.org",
-    "score": 81
+    "name": "oTree",
+    "score": 81,
+    "summary": "Open-source platform for web-based behavioral research and interactive experiments",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://civicrm.org",
-    "score": 80
+    "name": "CiviCRM",
+    "score": 80,
+    "summary": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://localinsight.org",
-    "score": 80
+    "name": "Local Insight",
+    "score": 80,
+    "summary": "Community and Neighbourhood Data Platform",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://aragon.org",
-    "score": 79
+    "name": "Aragon",
+    "score": 79,
+    "summary": "The Home of Onchain Organizations – governance and ownership infrastructure for DAOs and protocols",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/propublica/django-collaborative",
-    "score": 79
+    "name": "django-collaborative",
+    "score": 79,
+    "summary": "ProPublica's collaborative tip-gathering framework for importing and managing CSV, Google Sheets and Screendoor data",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://joss.theoj.org",
-    "score": 79
+    "name": "Journal of Open Source Software",
+    "score": 79,
+    "summary": "A developer friendly, open access journal for research software packages",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://dgc-cgn.org/product/can-dgsi-127/",
-    "score": 78
+    "name": "CAN/DGSI 127 - Age Assurance Technologies Standard",
+    "score": 78,
+    "summary": "Standard specifying minimum requirements for age assurance technologies and methods to estimate age range",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://ecnl.org/publications/framework-meaningful-engagement-20?mc_cid=b1c5158063&mc_eid=a09c64ec38",
-    "score": 78
+    "name": "Framework for Meaningful Engagement 2.0",
+    "score": 78,
+    "summary": "Practical suggestions on how to engage civil society and affected communities in AI development to support platforms and AI developers in creating rights-based products",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/cverluise/patcit",
-    "score": 78
+    "name": "PatCit",
+    "score": 78,
+    "summary": "Making Patent Citations Uncool Again — a comprehensive dataset of structured patent citations",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/rahvaalgatus/rahvaalgatus",
-    "score": 78
+    "name": "Rahvaalgatus",
+    "score": 78,
+    "summary": "Estonian citizen initiative and e-petition platform",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://tech-coops.xyz",
-    "score": 78
+    "name": "Tech Coops List",
+    "score": 78,
+    "summary": "A curated directory and resource hub for worker-owned technology cooperatives and related information",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.govwise.ai/en",
-    "score": 78
+    "name": "GovWise",
+    "score": 78,
+    "summary": "AI-powered platform for automating public procurement tender screening and bid management",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/disarmfoundation/disarmframeworks",
-    "score": 77
+    "name": "DISARM Frameworks",
+    "score": 77,
+    "summary": "Master copies of the DISARM disinformation TTP frameworks for describing and countering disinformation incidents",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://ladderhub.org/",
-    "score": 77
+    "name": "Ladder Hub",
+    "score": 77,
+    "summary": "A platform for economic mobility and career advancement",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://oneproject.org/",
-    "score": 77
+    "name": "One Project",
+    "score": 77,
+    "summary": "Building infrastructure for economic democracy — connecting people, organisations, and resources to coordinate and grow a new economy",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://publicai.co/",
-    "score": 77
+    "name": "Public AI Inference Utility",
+    "score": 77,
+    "summary": "A public access point for public and sovereign AI models",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.organise.org.uk",
-    "score": 77
+    "name": "Organise",
+    "score": 77,
+    "summary": "Get heard at work – a workers' network for collective action on employment issues",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://dunadyne.org",
-    "score": 76
+    "name": "Dunadyne",
+    "score": 76,
+    "summary": "Collective intelligence platform for forming and organizing Decentralized Unincorporated Nonprofit Associations (DUNAs)",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://choosealicense.com",
-    "score": 75
+    "name": "Choose a License",
+    "score": 75,
+    "summary": "An open source license guide helping developers and projects select appropriate licenses for their work",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://policykit.org",
-    "score": 75
+    "name": "PolicyKit",
+    "score": 75,
+    "summary": "An open-source tool for evolving governance in online communities",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.mptwitterbios.co.uk",
-    "score": 75
+    "name": "MP Twitter Bios",
+    "score": 75,
+    "summary": "Analysis of whether UK Members of Parliament mention their political party in their Twitter biographies",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://globalfactcheck.bot/",
-    "score": 74
+    "name": "Global Fact-Check Bot (GFC)",
+    "score": 74,
+    "summary": "A pioneering AI platform that empowers fact-checkers and citizens worldwide to verify information accuracy across 50+ languages, powered by 38 trusted organizations",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://upgrader.gapminder.org",
-    "score": 74
+    "name": "Gapminder Worldview Upgrader",
+    "score": 74,
+    "summary": "Important stuff most people get wrong — a free educational tool to help people rid themselves of common systematic misconceptions about global development",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.meet.coop",
-    "score": 74
+    "name": "meet.coop",
+    "score": 74,
+    "summary": "The Online Meeting Cooperative - surveillance-free video conferencing powered by renewable energy on cooperatively owned infrastructure",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/mikekelly/policy-dojo",
-    "score": 73
+    "name": "UK Policy Dojo",
+    "score": 73,
+    "summary": "A dojo for AI agents to battle out UK policy ideas through adversarial review",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://schema.org",
-    "score": 73
+    "name": "Schema.org",
+    "score": 73,
+    "summary": "A collaborative, community activity with a mission to create, maintain, and promote schemas for structured data on the Internet, on web pages, in email messages, and beyond",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://fatebook.io",
-    "score": 72
+    "name": "Fatebook",
+    "score": 72,
+    "summary": "Rapid predictions, anywhere",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://remembertovote.org.uk",
-    "score": 72
+    "name": "Remember to Vote",
+    "score": 72,
+    "summary": "Free SMS reminder service for polling station locations and voter ID requirements",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.rightsdd.com",
-    "score": 72
+    "name": "RightDD",
+    "score": 72,
+    "summary": "Human rights risk management technology for ESG due diligence and supply chain compliance",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://alaveteli.org",
-    "score": 71
+    "name": "Alaveteli",
+    "score": 71,
+    "summary": "Run your own Freedom of Information website - An open-source platform for making public freedom of information requests to public bodies",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/ideal-postcodes/postcodes.io",
-    "score": 71
+    "name": "postcodes.io",
+    "score": 71,
+    "summary": "UK postcode & geolocation API, serving up open data",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/podemos-info/participa",
-    "score": 71
+    "name": "Participa (Podemos)",
+    "score": 71,
+    "summary": "Unified census and participation platform for Podemos: voting, donations, microcredits, and citizen initiatives",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/travisbrown/birdwatch",
-    "score": 71
+    "name": "Community Notes (Birdwatch) Analysis Tool",
+    "score": 71,
+    "summary": "Metadata repository and analysis tools for X's Community Notes system, adding user aliases and tweet-author data missing from official snapshots",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://ddocs.new/",
-    "score": 70
+    "name": "dDocs",
+    "score": 70,
+    "summary": "Decentralized documentation platform for civic and open governance",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/notchia/dao-governance-surfaces",
-    "score": 70
+    "name": "DAO Governance Surfaces",
+    "score": 70,
+    "summary": "Extract and label the governance surface of a set of DAO smart contracts",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.parallelparliament.co.uk",
-    "score": 70
+    "name": "Parallel Parliament",
+    "score": 70,
+    "summary": "A comprehensive platform for tracking UK parliamentary legislation, debates, and legislative processes with live transcripts and bill amendment tracking.",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/compdemocracy/polis",
-    "score": 69
+    "name": "Polis",
+    "score": 69,
+    "summary": "Open-source AI-powered platform for large-scale open-ended public feedback and deliberation",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://littlesis.org",
-    "score": 69
+    "name": "LittleSis",
+    "score": 69,
+    "summary": "Free database of who-knows-who at the heights of business and government — power research for just futures",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.watchduty.org",
-    "score": 69
+    "name": "Watch Duty",
+    "score": 69,
+    "summary": "Real-time wildfire maps and alerts powered by volunteer first responders",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://library.theengineroom.org",
-    "score": 68
+    "name": "The Engine Room Library",
+    "score": 68,
+    "summary": "Open, multilingual research guides on using data and technology for social change",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://annas-archive.pm",
-    "score": 67
+    "name": "Anna's Archive",
+    "score": 67,
+    "summary": "A non-profit, open-source digital library preserving access to knowledge through shadow library aggregation",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://contractsfordatacollaboration.org",
-    "score": 67
+    "name": "Contracts for Data Collaboration",
+    "score": 67,
+    "summary": "Strengthening trust, transparency, and accountability in cross-sector data collaboratives through legal frameworks and shared resources",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://kialo.com",
-    "score": 67
+    "name": "Kialo",
+    "score": 67,
+    "summary": "A platform for structured debate and critical thinking through collaborative argument mapping",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://medium.com/metagov/introducing-the-agreement-engine-bf03b6d5c16c",
-    "score": 67
+    "name": "Agreement Engine",
+    "score": 67,
+    "summary": "A tool for designing and implementing digital governance agreements",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://gordonguthrie.github.io/frankensteinbill",
-    "score": 66
+    "name": "Frankenstein Bill",
+    "score": 66,
+    "summary": "A dummy parliamentary bill collecting and explaining potential speedbumps for government software development and digitally-enabled service design",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.loomio.org",
-    "score": 66
+    "name": "Loomio",
+    "score": 66,
+    "summary": "Make decisions together, without the endless meetings",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://filmot.com",
-    "score": 65
+    "name": "Filmot",
+    "score": 65,
+    "summary": "Search in Youtube captions and subtitles",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://navigator.oii.ox.ac.uk",
-    "score": 65
+    "name": "DemTech Navigator",
+    "score": 65,
+    "summary": "Online resource guide for civil society groups to address disinformation",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/geeksforsocialchange/placecal",
-    "score": 64
+    "name": "PlaceCal",
+    "score": 64,
+    "summary": "Bring your community together",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://openbudgets.eu",
-    "score": 64
+    "name": "OpenBudgets.eu",
+    "score": 64,
+    "summary": "Upload, visualize, and analyse public budget and spending data to discover stories behind budgets",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://strikemap.org",
-    "score": 64
+    "name": "Strike Map",
+    "score": 64,
+    "summary": "Interactive mapping platform documenting labor strikes and worker organizing actions",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://civiclick.com",
-    "score": 63
+    "name": "CiviClick",
+    "score": 63,
+    "summary": "Grassroots advocacy software platform that personalizes advocate experience and drives policy influence at scale",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.shareddigitalguides.org.uk",
-    "score": 63
+    "name": "Shared Digital Guides",
+    "score": 63,
+    "summary": "Non-profit organisations share step-by-step guides to using digital tools for social good",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.campaigntracker.nl/en",
-    "score": 62
+    "name": "Campaign Tracker",
+    "score": 62,
+    "summary": "Platform for tracking and analyzing political campaign spending and advertising in the Netherlands",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.marksoutoftenancy.com",
-    "score": 62
+    "name": "Marks Out Of Tenancy",
+    "score": 62,
+    "summary": "UK landlord and letting agency review platform empowering renters with information and rights guidance",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/thicknavyrain/uk_elections_leaflets",
-    "score": 61
+    "name": "OpenElections Leaflet Scraper and Parser",
+    "score": 61,
+    "summary": "A CampaignLab 2024 Hackathon project to scrape and process UK election campaign leaflets into structured JSON using GPT-4 Vision",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://data.humdata.org",
-    "score": 60
+    "name": "Humanitarian Data Exchange",
+    "score": 60,
+    "summary": "Find, share and use humanitarian data all in one place",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://opencouncildata.co.uk",
-    "score": 60
+    "name": "Open Council Data UK",
+    "score": 60,
+    "summary": "Councillor data resources for psephologists, campaigners and charities",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://participedia.net",
-    "score": 60
+    "name": "Participedia",
+    "score": 60,
+    "summary": "A global crowdsourcing platform for researchers, activists, practitioners, and anyone interested in public participation and democratic innovations.",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://research.localgov.digital",
-    "score": 60
+    "name": "User Research Library",
+    "score": 60,
+    "summary": "A searchable repository of user research conducted by local government services",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://commonslibrary.org",
-    "score": 59
+    "name": "The Commons Social Change Library",
+    "score": 59,
+    "summary": "Free digital library of 1500+ educational resources for activists, campaigners, and social change advocates",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://dev.reuselibrary.service.justice.gov.uk/",
-    "score": 59
+    "name": "GOV Reuse Library",
+    "score": 59,
+    "summary": "Find and reuse digital service elements - Building public services together, one reusable block at a time",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/fission-codes/fission-codes",
-    "score": 59
+    "name": "Fission Codes",
+    "score": 59,
+    "summary": "Status codes for smart contracts powering microservices for Web3",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://nyaaya.org",
-    "score": 59
+    "name": "Nyaaya",
+    "score": 59,
+    "summary": "India's Laws Explained — open access legal information for every Indian citizen",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://overton.io",
-    "score": 59
+    "name": "Overton",
+    "score": 59,
+    "summary": "A platform for understanding and analyzing political positions and policy proposals",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://antievictionmappingproject.github.io/landlordtech",
-    "score": 58
+    "name": "Landlord Tech Watch",
+    "score": 58,
+    "summary": "Producing data, scholarship, and popular educational materials documenting how property technology increases landlord power while disempowering tenants",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.notifications.service.gov.uk",
-    "score": 58
+    "name": "GOV.UK Notify",
+    "score": 58,
+    "summary": "A free notification service for UK government, local authorities, and NHS to send emails, text messages, and letters",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://fullfact.org/ai",
-    "score": 57
+    "name": "Full Fact AI",
+    "score": 57,
+    "summary": "Scalable, robust software designed for fact checkers to identify the most important bad information",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/ytdl-org/youtube-dl",
-    "score": 57
+    "name": "youtube-dl",
+    "score": 57,
+    "summary": "Command-line program to download videos from YouTube.com and other video sites",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://plausible.io",
-    "score": 57
+    "name": "Plausible Analytics",
+    "score": 57,
+    "summary": "Simple, privacy-friendly Google Analytics alternative",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://sci-hub.se",
-    "score": 57
+    "name": "Sci-Hub",
+    "score": 57,
+    "summary": "Provides free access to academic research papers by circumventing publisher paywalls",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.mysociety.org/climate/neighbourhood-warmth",
-    "score": 57
+    "name": "Neighbourhood Warmth",
+    "score": 57,
+    "summary": "A free online platform helping people form teams around shared home energy challenges like retrofit assessments and energy efficiency",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.papertree.earth",
-    "score": 57
+    "name": "Papertree",
+    "score": 57,
+    "summary": "Interactive tree planting data platform for transparent climate action accountability",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://gov.uk/find-local-consultations",
-    "score": 56
+    "name": "Find local consultations",
+    "score": 56,
+    "summary": "A UK government service enabling citizens to discover and participate in local council consultations",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://liquidfeedback.com",
-    "score": 56
+    "name": "LiquidFeedback",
+    "score": 56,
+    "summary": "Liquid democracy software for transparent proposal development and collective decision-making",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://missingnumbers.org",
-    "score": 56
+    "name": "Missing Numbers",
+    "score": 56,
+    "summary": "Investigates and campaigns to close important gaps in UK public data",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://opendatacommunities.org",
-    "score": 56
+    "name": "Open Data Communities",
+    "score": 56,
+    "summary": "Official open data platform from the UK Ministry of Housing, Communities & Local Government publishing 200+ datasets on deprivation, housing, planning, and local government finance",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://policymogul.com",
-    "score": 56
+    "name": "PolicyMogul",
+    "score": 56,
+    "summary": "Champions of public affairs",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.myaction.center",
-    "score": 56
+    "name": "MyActionCenter",
+    "score": 56,
+    "summary": "Turn your supporters into an activist force through coordinated online actions and gamification",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://collaborative-data.theodi.org",
-    "score": 55
+    "name": "Collaborative Data Patterns",
+    "score": 55,
+    "summary": "A guidebook for designing and running projects involving collaborative maintenance of shared data assets",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://en.wikipedia.org/wiki/wikipedia:in_the_news",
-    "score": 55
+    "name": "In the news",
+    "score": 55,
+    "summary": "Section of the Main Page directing readers to articles substantially updated to reflect recent or current events of wide interest",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://granitt.io",
-    "score": 55
+    "name": "Granitt",
+    "score": 55,
+    "summary": "Government transparency and civic engagement platform",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://postbug.com",
-    "score": 55
+    "name": "PostBug",
+    "score": 55,
+    "summary": "Send printed postcards to people in power",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.torproject.org",
-    "score": 55
+    "name": "Tor Project",
+    "score": 55,
+    "summary": "Anonymity Online - Advance human rights and defend privacy through free and open source anonymity and privacy technologies",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://ciudadaniai.org",
-    "score": 54
+    "name": "Fundación Ciudadanía Inteligente",
+    "score": 54,
+    "summary": "Latin American organization fighting for the transformation of democracies through civic technology and open tools",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://opensupplyhub.org",
-    "score": 54
+    "name": "Open Supply Hub",
+    "score": 54,
+    "summary": "A global, open-source platform for supply chain transparency and worker rights",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.polimonitor.com",
-    "score": 54
+    "name": "PoliMonitor",
+    "score": 54,
+    "summary": "Political monitoring service enabling organisations to understand, engage and shape political discussions",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/deepseek-ai/deepseek-v3",
-    "score": 53
+    "name": "DeepSeek-V3",
+    "score": 53,
+    "summary": "A Mixture-of-Experts language model with 671B total parameters optimized for efficient inference and cost-effective training",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://openreferraluk.org",
-    "score": 53
+    "name": "Open Referral UK",
+    "score": 53,
+    "summary": "The open data standard that makes it easy to publish, find, and use community services data.",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://urbit.org",
-    "score": 53
+    "name": "Urbit",
+    "score": 53,
+    "summary": "A personal server operating system designed for self-sovereignty and decentralized computing",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.ushahidi.com",
-    "score": 53
+    "name": "Ushahidi",
+    "score": 53,
+    "summary": "Crowdsourcing Solutions to Empower Communities",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://channel.org",
-    "score": 52
+    "name": "Channel.org",
+    "score": 52,
+    "summary": "Own your Channels, content, and community",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://grantnav.threesixtygiving.org",
-    "score": 52
+    "name": "GrantNav",
+    "score": 52,
+    "summary": "Search, explore and download grants data published by UK funders in the 360Giving Data Standard",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://p4ai.net",
-    "score": 52
+    "name": "Principles for Public Participation in Procurement of AI",
+    "score": 52,
+    "summary": "Framework for public participation in AI procurement decisions",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://aisafety.info",
-    "score": 51
+    "name": "AISafety.info",
+    "score": 51,
+    "summary": "Educational resource on AI safety risks and how to help ensure beneficial AI outcomes",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://expo.diia.gov.ua",
-    "score": 51
+    "name": "Diia",
+    "score": 51,
+    "summary": "Ukraine's digital government ecosystem: mobile app, portal, and digital transformation projects",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/i-dot-ai/awesome-gov-datasets",
-    "score": 50
+    "name": "Awesome UK Government Datasets",
+    "score": 50,
+    "summary": "A curated list of references to useful UK Government datasets",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/kazad/pastecal",
-    "score": 50
+    "name": "Pastecal",
+    "score": 50,
+    "summary": "Zero-login shared calendar for collaborative scheduling without authentication",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/radicalxchange/rxc-voice",
-    "score": 50
+    "name": "RxC Voice",
+    "score": 50,
+    "summary": "An app for decentralized democratic governance leveraging Quadratic Funding, pol.is, and Quadratic Voting",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://labourxchange.uk",
-    "score": 50
+    "name": "Labour Xchange",
+    "score": 50,
+    "summary": "A fair work platform connecting underemployed and flexible workers with employers",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://parliamentwatch.ug/",
-    "score": 50
+    "name": "Parliament Watch Uganda",
+    "score": 50,
+    "summary": "Monitor and track the Ugandan Parliament with data and expert insights on transparency and accountability",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://shareyourpaper.org",
-    "score": 50
+    "name": "Shareyourpaper.org",
+    "score": 50,
+    "summary": "Simplest way to legally make academic papers freely available on Google Scholar, Web of Science, and personal sites",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://spacetu.be",
-    "score": 50
+    "name": "Spacetube",
+    "score": 50,
+    "summary": "Group-to-group chat tool built on Matrix for secure decentralised communication",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://whopostedwhat.com",
-    "score": 50
+    "name": "Who Posted What?",
+    "score": 50,
+    "summary": "Non-public Facebook keyword search tool for researchers and public interest workers",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://communityrule.info",
-    "score": 49
+    "name": "CommunityRule",
+    "score": 49,
+    "summary": "A governance toolkit for great communities",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://constituteproject.org",
-    "score": 49
+    "name": "Constitute Project",
+    "score": 49,
+    "summary": "A comprehensive analysis of the world's constitutions to support constitutional design and inform citizens",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://consulproject.org",
-    "score": 49
+    "name": "CONSUL Democracy",
+    "score": 49,
+    "summary": "The most complete citizen participation tool for an open, transparent and democratic government.",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://ckan.org",
-    "score": 48
+    "name": "CKAN",
+    "score": 48,
+    "summary": "The world's leading open source data management system for powering data hubs and data portals",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://coralproject.net",
-    "score": 48
+    "name": "Coral",
+    "score": 48,
+    "summary": "A better commenting experience — open source tools for safer, more engaged online communities.",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/huridocs",
-    "score": 48
+    "name": "HURIDOCS",
+    "score": 48,
+    "summary": "HURIDOCS equips human rights defenders with tools to mobilise information for justice and accountability",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://hand-written-petition-scanner.streamlit.app",
-    "score": 48
+    "name": "Hand-Written Petition Scanner",
+    "score": 48,
+    "summary": "Tool for digitizing and analyzing hand-written petitions using optical character recognition",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.forms.service.gov.uk",
-    "score": 48
+    "name": "GOV.UK Forms",
+    "score": 48,
+    "summary": "Create accessible online forms for UK government without technical knowledge",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://entitledto.co.uk",
-    "score": 47
+    "name": "Entitledto",
+    "score": 47,
+    "summary": "Free online benefits calculator helping UK citizens understand welfare entitlements",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://openaccess.transparency.org.uk",
-    "score": 47
+    "name": "Open Access – Transparency International UK",
+    "score": 47,
+    "summary": "Platform providing access to corporate transparency data and beneficial ownership information",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://arxiv.org",
-    "score": 46
+    "name": "arXiv",
+    "score": 46,
+    "summary": "Free distribution service and open-access archive for scholarly articles in physics, mathematics, computer science, and related fields",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://matrix.org",
-    "score": 46
+    "name": "Matrix",
+    "score": 46,
+    "summary": "An open standard and network for secure, decentralised, interoperable communication",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://unpaywall.org/products/extension",
-    "score": 46
+    "name": "Unpaywall Browser Extension",
+    "score": 46,
+    "summary": "Browser extension to find legal, open access versions of academic papers",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://whoisology.com",
-    "score": 46
+    "name": "Whoisology",
+    "score": 46,
+    "summary": "Billions of archived domain name whois records searchable and cross-referenced for reverse lookups",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://charmverse.io/",
-    "score": 45
+    "name": "CharmVerse",
+    "score": 45,
+    "summary": "The Network for Onchain Communities",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/whotargetsme/ad-transparency-standards/blob/main/implement.md",
-    "score": 45
+    "name": "Political Advertising Transparency Data Standard",
+    "score": 45,
+    "summary": "A schema standard for how political advertising data is presented across platforms to increase comprehension, trust, and interoperability",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://right-to-know.org",
-    "score": 45
+    "name": "Right To Know",
+    "score": 45,
+    "summary": "A digital toolkit for communities to discover environmental health hazards in their area",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://site.urbanistai.com",
-    "score": 45
+    "name": "UrbanistAI",
+    "score": 45,
+    "summary": "The platform to reimagine the future of cities through collective intelligence and AI-powered participatory planning.",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://sobre.ejparticipe.org",
-    "score": 45
+    "name": "Empurrando Juntas (EJ)",
+    "score": 45,
+    "summary": "AI-powered opinion collection platform that segments audiences into personas based on their views",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://cybersecurityfordemocracy.org",
-    "score": 44
+    "name": "Cybersecurity for Democracy",
+    "score": 44,
+    "summary": "A multi-university center for problem-driven research and research-driven policy",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://mapit.mysociety.org",
-    "score": 44
+    "name": "MapIt",
+    "score": 44,
+    "summary": "Match postcodes and geographical points to administrative areas",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://oa.report",
-    "score": 44
+    "name": "OA.Report",
+    "score": 44,
+    "summary": "Track Open Access policy compliance and research openness across funded publications",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.whatgov.co.uk",
-    "score": 44
+    "name": "WhatGov",
+    "score": 44,
+    "summary": "Parliament, Clearly",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://algorithmwatch.org",
-    "score": 43
+    "name": "AlgorithmWatch",
+    "score": 43,
+    "summary": "A non-governmental, non-profit organization based in Berlin and Zurich that fights for a world where algorithms and Artificial Intelligence (AI) do not weaken justice, human rights, democracy, and sustainability but strengthen them.",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://bsky.app",
-    "score": 43
+    "name": "Bluesky",
+    "score": 43,
+    "summary": "Open social media platform built on the AT Protocol",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://medium.com/@abscond/membership-a-prototype-ea822b2683b",
-    "score": 43
+    "name": "Membership",
+    "score": 43,
+    "summary": "A prototype for decentralized membership and governance systems",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.dsc.org.uk/publication/the-guide-to-major-trusts-2025-26/",
-    "score": 43
+    "name": "The Guide to Major Trusts 2025/26",
+    "score": 43,
+    "summary": "UK's definitive directory of over 1,000 largest grant-makers awarding £7.23 billion annually",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.martus.org",
-    "score": 43
+    "name": "Martus",
+    "score": 43,
+    "summary": "Free, open source secure information collection and management tool for human rights activists",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://creativecommons.org",
-    "score": 42
+    "name": "Creative Commons",
+    "score": 42,
+    "summary": "CC empowers individuals and communities around the world through technical, legal, and policy solutions that enable the sharing of education, culture, and science in the public interest.",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.whatdotheyknow.com",
-    "score": 42
+    "name": "WhatDoTheyKnow",
+    "score": 42,
+    "summary": "Make freedom of information requests and see responses from UK public authorities",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://publicmediastack.com",
-    "score": 41
+    "name": "Public Media Stack",
+    "score": 41,
+    "summary": "A curated research resource mapping software tools and technologies used across the public media workflow",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://soweego.readthedocs.io",
-    "score": 41
+    "name": "soweego",
+    "score": 41,
+    "summary": "Link Wikidata to large catalogs",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.crowdjustice.com",
-    "score": 41
+    "name": "CrowdJustice",
+    "score": 41,
+    "summary": "Crowdfunding platform for legal cases and justice campaigns",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://atlasofsurveillance.org",
-    "score": 40
+    "name": "Atlas of Surveillance",
+    "score": 40,
+    "summary": "Documenting Police Tech in Our Communities with Open Source Research",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://blog.kagi.com/slopstop",
-    "score": 40
+    "name": "Kagi SlopStop",
+    "score": 40,
+    "summary": "Community-driven AI slop detection in Kagi Search — your collective defense against AI-generated spam and content farms",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://standards.theodi.org",
-    "score": 40
+    "name": "Open Standards for Data Guidebook",
+    "score": 40,
+    "summary": "Helping people and organisations create, develop and adopt open standards for data",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://monitormamdani.com/",
-    "score": 39
+    "name": "Monitor Mamdani",
+    "score": 39,
+    "summary": "Live NYC Mayor Tracking Dashboard monitoring Zohran Mamdani's campaign promises and performance",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.govocal.com",
-    "score": 39
+    "name": "Go Vocal",
+    "score": 39,
+    "summary": "Online community engagement platform for governments",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://hact.org.uk/tools-and-services/uk-housing-data-standards",
-    "score": 37
+    "name": "UK Housing Data Standards",
+    "score": 37,
+    "summary": "Sector-developed data standards for UK social housing to improve data governance, performance, and regulatory reporting",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.wikidata.org",
-    "score": 36
+    "name": "Wikidata",
+    "score": 36,
+    "summary": "A free and open knowledge base that can be read and edited by both machines and humans",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://osf.io",
-    "score": 35
+    "name": "Open Science Framework",
+    "score": 35,
+    "summary": "A free, open platform for researchers to collaborate and share their work",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://policyengine.org/uk",
-    "score": 35
+    "name": "PolicyEngine",
+    "score": 35,
+    "summary": "Open-source policy analysis and simulation platform for tax and benefit systems",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://secfirst.org",
-    "score": 35
+    "name": "Security First / Umbrella",
+    "score": 35,
+    "summary": "Free, open source digital and physical security handbook app for journalists, activists, NGO staff, and people working in high-risk environments.",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.oporaua.org",
-    "score": 35
+    "name": "ОПОРА (Opora)",
+    "score": 35,
+    "summary": "Ukrainian civic network for election monitoring, democratic integrity, and civic participation",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.publiceditor.io",
-    "score": 35
+    "name": "Public Editor",
+    "score": 35,
+    "summary": "Platform for collaborative fact-checking and editorial transparency in journalism",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://membersinterests.org.uk",
-    "score": 34
+    "name": "Members' Interests",
+    "score": 34,
+    "summary": "Database of UK Members of Parliament financial interests and declarations",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.csail.mit.edu/research/wikum-bridging-discussion-systems-and-wikis-collective-summarization",
-    "score": 33
+    "name": "Wikum",
+    "score": 33,
+    "summary": "Tools for communities to collectively summarize large online discussions and manage embedded knowledge",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.dfos.com",
-    "score": 33
+    "name": "Democracy Fund Open Source",
+    "score": 33,
+    "summary": "Open source tools and resources for civic engagement and democratic participation",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://richardpope.org/2017/03/05/beckton-a-tool-to-build",
-    "score": 32
+    "name": "Beckton",
+    "score": 32,
+    "summary": "A conditional-commitment tool for creating groups of paying members — only charges if enough people join.",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/tulir/whatsmeow",
-    "score": 31
+    "name": "whatsmeow",
+    "score": 31,
+    "summary": "Go library for the WhatsApp web multidevice API",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://tracking-template-38b4c.web.app",
-    "score": 31
+    "name": null,
+    "score": 31,
+    "summary": "",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.govtrack.us",
-    "score": 31
+    "name": "GovTrack.us",
+    "score": 31,
+    "summary": "Tracking the U.S. Congress and the White House to make a more open and accountable government",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.teachingpublicservice.digital",
-    "score": 31
+    "name": "Teaching Public Service in the Digital Age",
+    "score": 31,
+    "summary": "Open-access syllabus and training to equip public servants with digital-era skills",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://nestr.io",
-    "score": 30
+    "name": "Nestr",
+    "score": 30,
+    "summary": "Purpose-driven collaboration platform using self-organization and AI",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://nookcrm.com",
-    "score": 30
+    "name": "Nook CRM",
+    "score": 30,
+    "summary": "The case management tool for community energy, codesigned by energy advisors",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://objector.ai",
-    "score": 30
+    "name": "Objector.ai",
+    "score": 30,
+    "summary": "AI-powered planning objection letter and toolkit to help citizens challenge unsuitable planning applications",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://thegovernmentsays.com",
-    "score": 30
+    "name": "The Government Says",
+    "score": 30,
+    "summary": "Real-time aggregation and monitoring of UK government press releases and statements",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://yrpri.org",
-    "score": 30
+    "name": "Your Priorities",
+    "score": 30,
+    "summary": "Idea generation, deliberation & decision-making platform for governments since 2008",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://aleph.occrp.org",
-    "score": 29
+    "name": "Aleph (OCCRP)",
+    "score": 29,
+    "summary": "The global archive of research material for investigative reporting. Follow the money through government records and databases.",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://fixmyblock.org",
-    "score": 29
+    "name": "FixMyBlock",
+    "score": 29,
+    "summary": "Tried and tested action guides for getting stuff fixed in your block",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://getodk.org",
-    "score": 29
+    "name": "ODK (Open Data Kit)",
+    "score": 29,
+    "summary": "Open-source tools for collecting, managing, and using data in resource-constrained environments",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/cavi-au/consent-o-matic",
-    "score": 29
+    "name": "Consent-O-Matic",
+    "score": 29,
+    "summary": "Browser extension that automatically fills out cookie popups based on user preferences",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/datakind/data-observation-toolkit",
-    "score": 29
+    "name": "Data Observation Toolkit (DOT)",
+    "score": 29,
+    "summary": "Open-source toolkit to monitor data integrity and flag problems in public health and humanitarian datasets",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/openpolitics/groupthink",
-    "score": 29
+    "name": "Groupthink (OpenPolitics Votebot)",
+    "score": 29,
+    "summary": "A collaborative democratic platform built atop GitHub, designed for open policymaking and manifesto writing",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://guardianproject.info",
-    "score": 29
+    "name": "Guardian Project",
+    "score": 29,
+    "summary": "Secure, privacy-enhancing mobile applications and tools for journalists, activists, and people at risk",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://datacollective.mozillafoundation.org/",
-    "score": 28
+    "name": "Mozilla Data Collective",
+    "score": 28,
+    "summary": "Rebuilding the AI data ecosystem with communities at the centre — 470+ high-quality global datasets, built by and for the community in a transparent and ethical way.",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://opencouncil.network",
-    "score": 27
+    "name": "Open Council Network",
+    "score": 27,
+    "summary": "Makes local government decision-making accessible to everyone through council meeting tracking and weekly summaries",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://fairbnb.coop",
-    "score": 25
+    "name": "Fairbnb.coop",
+    "score": 25,
+    "summary": "Community powered tourism platform",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.open-contracting.org",
-    "score": 25
+    "name": "Open Contracting Partnership",
+    "score": 25,
+    "summary": "Open, fair & efficient public contracting to improve US$2 trillion in annual public procurement spending",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/mastodon/mastodon",
-    "score": 24
+    "name": "Mastodon",
+    "score": 24,
+    "summary": "Your self-hosted, globally interconnected microblogging community",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://manifold.markets",
-    "score": 24
+    "name": "Manifold Markets",
+    "score": 24,
+    "summary": "A platform for creating and trading prediction markets on political, cultural, and business outcomes",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://onodi.co/bisect/",
-    "score": 24
+    "name": "Theft Bisect",
+    "score": 24,
+    "summary": "A binary search tool to help identify bike theft moments in CCTV footage",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.mpwatch.org",
-    "score": 24
+    "name": "MP Watch",
+    "score": 24,
+    "summary": "Uniting People and Politicians for Climate Action",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.plinth.org.uk",
-    "score": 24
+    "name": "Plinth",
+    "score": 24,
+    "summary": "AI-powered platform helping organisations deliver, measure and fund community impact",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.polimorphic.com",
-    "score": 24
+    "name": "Polimorphic",
+    "score": 24,
+    "summary": "AI-powered platform for service-first government operations and resident engagement",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://digitalcharitylab.org/product/digital-account-management-toolkit",
-    "score": 23
+    "name": "Digital Account Management Toolkit",
+    "score": 23,
+    "summary": "Free resource to help nonprofits manage social media and digital accounts securely and prevent account lockouts",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://idealist.org",
-    "score": 23
+    "name": "Idealist",
+    "score": 23,
+    "summary": "Global platform connecting millions of people with social-impact jobs, volunteer opportunities, and community action",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://openheartmind.org",
-    "score": 23
+    "name": "Open Heart Mind (OHM)",
+    "score": 23,
+    "summary": "Participatory gatherings and regenerative systems for collective flourishing — developing Wisdom, an open-source peer evaluation platform",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://openletter.earth",
-    "score": 23
+    "name": "Open Letter",
+    "score": 23,
+    "summary": "Platform for creating and signing open letters to effect civic and political change",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://trends.whotargets.me",
-    "score": 23
+    "name": "Who Targets Me Trends",
+    "score": 23,
+    "summary": "Platform for tracking and analyzing digital political advertising across Meta and Google in 60+ countries",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://riversentiment.app",
-    "score": 22
+    "name": "River Sentiment Dashboard",
+    "score": 22,
+    "summary": "Displays social media sentiment about rivers alongside ecological status data for 450+ rivers in the Thames basin",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://vframe.io",
-    "score": 22
+    "name": "VFRAME",
+    "score": 22,
+    "summary": "Computer vision for OSINT: detecting illegal munitions and documenting war crimes through AI-powered video analysis",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.hotosm.org",
-    "score": 22
+    "name": "Humanitarian OpenStreetMap Team (HOT)",
+    "score": 22,
+    "summary": "Mapping for impact in humanitarian crises and development challenges",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.writetothem.com",
-    "score": 22
+    "name": "WriteToThem",
+    "score": 22,
+    "summary": "Email your Councillor, MP, MSP, MS, MLA or London Assembly Member for free",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://civicmatch.app",
-    "score": 21
+    "name": "CivicMatch",
+    "score": 21,
+    "summary": "Connect citizens with civic opportunities and elected representatives",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://collab.land",
-    "score": 21
+    "name": "Collab.Land",
+    "score": 21,
+    "summary": "Web3 community management platform for token-gated membership verification",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://decelerator.org.uk",
-    "score": 21
+    "name": "The Decelerator",
+    "score": 21,
+    "summary": "A free support service for civil society organisations facing endings — closures, mergers, leadership transitions, and programme ends.",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://dovetail.network",
-    "score": 21
+    "name": "Dovetail",
+    "score": 21,
+    "summary": "Helps non-profits find a digital partner that fits",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/blacksky-algorithms/rsky",
-    "score": 21
+    "name": "rsky",
+    "score": 21,
+    "summary": "An AT Protocol implementation prioritizing community safety and self-governance, written in Rust",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/ribenamaplesyrup/sugartrail",
-    "score": 21
+    "name": "Sugartrail",
+    "score": 21,
+    "summary": "Network analysis and visualisation tool for exploring connections between companies, officers and addresses within UK Companies House",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://semanticclimate.github.io",
-    "score": 21
+    "name": "semanticClimate",
+    "score": 21,
+    "summary": "Semantic search and analysis of climate science literature",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://bellingcat.gitbook.io/toolkit",
-    "score": 20
+    "name": "Bellingcat Online Investigation Toolkit",
+    "score": 20,
+    "summary": "A toolkit for open source researchers - your place to discover tools for online investigations",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://numfocus.org",
-    "score": 20
+    "name": "NumFOCUS",
+    "score": 20,
+    "summary": "A Nonprofit Supporting Open Code for Better Science",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://nymtech.net",
-    "score": 20
+    "name": "Nym",
+    "score": 20,
+    "summary": "The World's Most Private Decentralized VPN",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://plunkett.my.site.com/keepitinthecommunity/s",
-    "score": 20
+    "name": "Keep It In The Community",
+    "score": 20,
+    "summary": "A platform for community-driven civic engagement and local resource sharing",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://programs.clearerthinking.org/understanding-your-morality/",
-    "score": 20
+    "name": "Understanding Your Morality",
+    "score": 20,
+    "summary": "An interactive tool to help people understand their moral values and reasoning",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://talktothecity.org",
-    "score": 20
+    "name": "Talk to the City",
+    "score": 20,
+    "summary": "Open-source LLM survey tool to improve collective discourse and decision-making by analyzing qualitative responses and generating easy-to-navigate reports",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://timecounts.org",
-    "score": 20
+    "name": "Timecounts",
+    "score": 20,
+    "summary": "The Modern Volunteer Management Solution",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://pursuanceproject.org",
-    "score": 19
+    "name": "Pursuance Project",
+    "score": 19,
+    "summary": "Open source software enabling individuals and organizations to collaborate on shared goals through secure task management and discussion",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://violationtrackeruk.goodjobsfirst.org",
-    "score": 19
+    "name": "Violation Tracker UK",
+    "score": 19,
+    "summary": "Database tracking corporate violations and enforcement actions in the United Kingdom",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.consoc.io",
-    "score": 19
+    "name": "Consciousness Evolution Operating System (ConSoc)",
+    "score": 19,
+    "summary": "Feel Symbiotic Cooperation",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://civictech.guide",
-    "score": 18
+    "name": "Civic Tech Field Guide",
+    "score": 18,
+    "summary": "The world's largest collection of projects using tech for the common good",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://gender-pay-gap.service.gov.uk",
-    "score": 18
+    "name": "Gender Pay Gap Service",
+    "score": 18,
+    "summary": "Search and compare gender pay gap data",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://all-our-ideas.citizens.is",
-    "score": 17
+    "name": "All Our Ideas",
+    "score": 17,
+    "summary": "A platform for crowdsourcing ideas and priorities through pairwise comparison voting",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://local-deep-researcher-hnmh.vercel.app/",
-    "score": 17
+    "name": "Local Deep Researcher",
+    "score": 17,
+    "summary": "A research tool for investigating local issues and civic engagement",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.workincharities.co.uk",
-    "score": 17
+    "name": "WorkInCharities",
+    "score": 17,
+    "summary": "Job board platform connecting charity and nonprofit sector workers with employment opportunities",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://conservativepartyfunding.co.uk",
-    "score": 16
+    "name": "Conservative Party Funding",
+    "score": 16,
+    "summary": "Industry overview of donations to the UK Conservative Party since 2019",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://datatrusts.uk",
-    "score": 16
+    "name": "The Data Trusts Initiative",
+    "score": 16,
+    "summary": "Working at the interface of technology, policy and the law to create data trusts that empower individuals and communities while supporting data use for social benefit.",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://opendigitalplanning.org/",
-    "score": 16
+    "name": "Open Digital Planning",
+    "score": 16,
+    "summary": "Planning services designed by councils for councils — a community of Local Planning Authorities transforming England's digital planning system",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://sourceafrica.net",
-    "score": 16
+    "name": "sourceAFRICA",
+    "score": 16,
+    "summary": "Africa's premier repository for actionable documents",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://voteforpolicies.org.uk",
-    "score": 16
+    "name": "Vote for Policies",
+    "score": 16,
+    "summary": "Compare political party policies without knowing which party they belong to, helping voters make informed decisions",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.donotpay.com",
-    "score": 16
+    "name": "DoNotPay",
+    "score": 16,
+    "summary": "AI-powered legal assistance and consumer advocacy platform",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://decidim.org",
-    "score": 15
+    "name": "Decidim",
+    "score": 15,
+    "summary": "A free/libre, open and safe digital platform for citizen participation. Reprogramming democracy is now possible.",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/bluesky-social",
-    "score": 15
+    "name": "Bluesky Social",
+    "score": 15,
+    "summary": "Social networking technology created by Bluesky",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://harmonica.chat/",
-    "score": 15
+    "name": "Harmonica",
+    "score": 15,
+    "summary": "AI-powered facilitation platform for conversational surveys and stakeholder engagement",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://viewpoints.xyz",
-    "score": 15
+    "name": "Viewpoints",
+    "score": 15,
+    "summary": "Effortless AI-powered polls and consensus building for meetings, events, and communities",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.localintelligencehub.com",
-    "score": 15
+    "name": "Local Intelligence Hub",
+    "score": 15,
+    "summary": "Data platform for analyzing local MPs, constituencies, public opinion and climate/nature movement engagement to support campaigning and organizing",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://coops.tech",
-    "score": 14
+    "name": "CoTech",
+    "score": 14,
+    "summary": "A UK-wide network of cooperative technology companies building values-aligned digital products",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.openorigins.com",
-    "score": 14
+    "name": "OpenOrigins",
+    "score": 14,
+    "summary": "The Trust Layer for a Verified Internet",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://civicpress.io/",
-    "score": 13
+    "name": "CivicPress",
+    "score": 13,
+    "summary": "Open infrastructure for transparent local government",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://data.mysociety.org",
-    "score": 13
+    "name": "mySociety Datasets and APIs",
+    "score": 13,
+    "summary": "Open datasets and APIs for democracy, transparency, and community engagement",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://publicaccountability.org",
-    "score": 13
+    "name": "The Accountability Project",
+    "score": 13,
+    "summary": "A searchable database of 1.9+ billion public records for researchers and journalists",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://turbophonebank.com",
-    "score": 13
+    "name": "Turbo Phonebank",
+    "score": 13,
+    "summary": "A free phonebank platform that turns Google Sheets into phonebanks and textbanks with 2-tap calling",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://mapped.commonknowledge.coop",
-    "score": 12
+    "name": "Mapped",
+    "score": 12,
+    "summary": "A tool for organisers and activists to locate their people by constituency and enrich supporter data with location-specific information",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://osintframework.com",
-    "score": 12
+    "name": "OSINT Framework",
+    "score": 12,
+    "summary": "A curated collection of free OSINT tools and resources for information gathering",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.communitytech.network",
-    "score": 12
+    "name": "Community Tech",
+    "score": 12,
+    "summary": "Technology built with, by and for communities that is locally accountable and creates local value",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.welivedit.ai",
-    "score": 12
+    "name": "We Live It",
+    "score": 12,
+    "summary": "AI-powered platform for community-driven urban planning and civic engagement",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://adhocracy.plus",
-    "score": 10
+    "name": "adhocracy+",
+    "score": 10,
+    "summary": "Makes digital democracy easy — for everyone, no matter where.",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://meta.wikimedia.org/wiki/abstract_wikipedia",
-    "score": 10
+    "name": "Abstract Wikipedia",
+    "score": 10,
+    "summary": "A Wikimedia project to create a language-independent layer of structured knowledge that can be rendered into multiple natural languages",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.givefood.org.uk",
-    "score": 10
+    "name": "Give Food",
+    "score": 10,
+    "summary": "UK charity using data to highlight and alleviate local food insecurity",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/vbuterin/dao",
-    "score": 9
+    "name": "The DAO (Standard DAO Framework)",
+    "score": 9,
+    "summary": "A Standard DAO (Decentralized Autonomous Organization) framework written in Solidity",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.opensanctions.org",
-    "score": 9
+    "name": "OpenSanctions",
+    "score": 9,
+    "summary": "Supreme Data on Supreme Leaders - open source sanctions and politically exposed persons data platform",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://developer.parliament.uk",
-    "score": 8
+    "name": "UK Parliament Developer Portal",
+    "score": 8,
+    "summary": "APIs and data for accessing UK Parliament information",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://theodi.org/insights/reports/registers-and-collaboration-making-lists-we-can-trust-report",
-    "score": 8
+    "name": "Registers and collaboration: making lists we can trust",
+    "score": 8,
+    "summary": "A report examining models of stewarding registers and the importance of transparency and collaboration in managing trusted lists",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.workerinfoexchange.org",
-    "score": 8
+    "name": "Worker Info Exchange",
+    "score": 8,
+    "summary": "Platform connecting workers with information about labor rights, workplace conditions, and employment resources",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://farmerchat.digitalgreen.org",
-    "score": 7
+    "name": "FarmerChat",
+    "score": 7,
+    "summary": "AI-powered conversational platform providing agricultural advisory to smallholder farmers",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/bellingcat/edgar",
-    "score": 7
+    "name": "EDGAR",
+    "score": 7,
+    "summary": "Tool for the retrieval of corporate and financial data from the SEC",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://oa.works/",
-    "score": 7
+    "name": "OA.Works",
+    "score": 7,
+    "summary": "Powerfully simple open access tools for a just and kind information age",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://quadraticvote.radicalxchange.org",
-    "score": 7
+    "name": "RxC Quadratic Voting",
+    "score": 7,
+    "summary": "An easy tool to host a quadratic vote. Quadratic Voting is the mathematically optimal way to vote in a democratic community by allocating votes that express the degree of your preferences, not just direction.",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.agenciesforgood.org",
-    "score": 7
+    "name": "Agencies for Good",
+    "score": 7,
+    "summary": "A community of tech for good agencies, consultancies and freelancers supporting socially impactful work",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.fixmystreet.com",
-    "score": 7
+    "name": "FixMyStreet",
+    "score": 7,
+    "summary": "Report, view, and discuss local street problems with UK councils",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.sign-in.service.gov.uk",
-    "score": 7
+    "name": "GOV.UK One Login",
+    "score": 7,
+    "summary": "Centralized digital identity and authentication platform for UK government services",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://docs.plus",
-    "score": 6
+    "name": "docs.plus",
+    "score": 6,
+    "summary": "Free, open-source collaborative documents for organizations",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://newpublic.substack.com/p/introducing-roundabout-built-for",
-    "score": 6
+    "name": "New_ Public Roundabout",
+    "score": 6,
+    "summary": "A community space for neighbors — local digital forum app built from the ground up with community stewards",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://radicle.xyz",
-    "score": 6
+    "name": "Radicle",
+    "score": 6,
+    "summary": "A sovereign, peer-to-peer code forge built on Git",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.openownership.org",
-    "score": 6
+    "name": "Open Ownership",
+    "score": 6,
+    "summary": "Driving global shift towards transparency and accountability in corporate ownership and control",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://citizenos.com/platform/",
-    "score": 5
+    "name": "Citizen OS",
+    "score": 5,
+    "summary": "Secure, free and open-source participation platform for meaningful discussions and democratic decisions",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://communities.sunlightfoundation.com/methodology",
-    "score": 5
+    "name": "Tactical Data Engagement",
+    "score": 5,
+    "summary": "A framework for local governments to catalyze resident-centered use of open data for community problem-solving",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://cotsi.org/",
-    "score": 5
+    "name": "COTSI (Cyber Operational Threat Situational Intelligence)",
+    "score": 5,
+    "summary": "Tracks daily price and availability of fake SMS verifications across 197 countries and 500+ platforms to map the online manipulation economy",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://societyforhopefultechnologists.org",
-    "score": 5
+    "name": "Society for Hopeful Technologists",
+    "score": 5,
+    "summary": "For everyone who wants technologies to work for people and planet.",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://thecircuit.cc",
-    "score": 5
+    "name": "The Circuit",
+    "score": 5,
+    "summary": "A data-driven collaborative journalism investigation into Cook County's court system using 3 million criminal cases",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://activisthandbook.org/",
-    "score": 4
+    "name": "Activist Handbook",
+    "score": 4,
+    "summary": "Campaigning guides for activists",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://orcid.org",
-    "score": 4
+    "name": "ORCID",
+    "score": 4,
+    "summary": "A persistent digital identifier for researchers to distinguish themselves and connect with their professional activities across disciplines, borders, and time",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://www.yoti.com",
-    "score": 4
+    "name": "Yoti",
+    "score": 4,
+    "summary": "Building the world's trusted identity platform",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://developers.democracyclub.org.uk/api/v1",
-    "score": 3
+    "name": "Democracy Club Developer API",
+    "score": 3,
+    "summary": "API for accessing ballots, candidates and polling stations data",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://openparliament.ca/",
-    "score": 3
+    "name": "openparliament.ca",
+    "score": 3,
+    "summary": "Making it easy to find out what your representatives in Ottawa are up to — see what they're saying, what laws they're proposing, and track parliamentary debates and bills.",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://github.com/sentinelteam/grim",
-    "score": 2
+    "name": "GRIM (Global Risk Simulator)",
+    "score": 2,
+    "summary": "AI Wargamer and Global Risk Simulator — a Telegram bot for simulating and role-playing global catastrophic risk scenarios",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://openaudience.org",
-    "score": 2
+    "name": "OpenAudience",
+    "score": 2,
+    "summary": "Understand your audience using open data by analyzing postcodes and output areas",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://privacybadger.org",
-    "score": 2
+    "name": "Privacy Badger",
+    "score": 2,
+    "summary": "A free browser extension made by EFF to stop companies from spying on you online.",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   },
   {
     "url": "https://securedrop.org",
-    "score": 1
+    "name": "SecureDrop",
+    "score": 1,
+    "summary": "Open source whistleblower submission system for secure anonymous document sharing",
+    "assessment": "Ranked using: Random score between 1 and 100. No detailed per-project assessment available for this iteration.",
+    "assessment_synthetic": true
   }
 ]
