@@ -19,8 +19,65 @@ Canonical full iteration history for `/awards` rendering. Generated from `iterat
 | v11 | 2026-03-30 | @sugaroverflow | merged | Simple mean of all 17 members' scores per project, equally weighted — substituting v3 constitutions for the three members who iterated (nicholas-botti, huda-abdirahim, alexandra-ciocanel). | [v11](https://github.com/nwspk/politech-awards-2026/pull/100) | [entry](#v11-on-reflection-mirror-agents-committee-average-three-constitutions-iterated) |
 | v12 | 2026-03-30 | @sugaroverflow | merged | For each project, compute the median of its rank position across all 17 members' v11 scores (14×v2 + 3×v3). Projects are ordered by median rank ascending — lower is better. Ties broken by mean rank. | [v12](https://github.com/nwspk/politech-awards-2026/pull/104) | [entry](#v12-on-balance-ode-dethrones-liquidfeedback-via-median-rank-position) |
 | v13 | 2026-03-30 | @sugaroverflow | merged | Projects ranked by standard deviation of scores across all 17 members (v11 score set: 14×v2 + 3×v3). High stdev = the committee disagrees sharply. Only projects with coverage ≥ 15/17 included. | [v13](https://github.com/nwspk/politech-awards-2026/pull/105) | [entry](#v13-in-dispute-gapminder-algorithmwatch-vtaiwan-split-the-room) |
+| v14 | 2026-03-30 | @sugaroverflow | open | Projects ranked by standard deviation of scores ascending, restricted to full 17/17 coverage. Low stdev = the committee broadly agrees on how to value this project regardless of constitution. This is not a ranking by quality — it is a ranking by agreement. | [v14](https://github.com/nwspk/politech-awards-2026/pull/107) | [entry](#v14-beyond-dispute-mysociety-leads-the-genuine-consensus) |
 
 ## Full iteration records
+
+### v14 Beyond Dispute — mySociety leads the genuine consensus
+
+- **PR**: [v14](https://github.com/nwspk/politech-awards-2026/pull/107)
+- **Status**: open
+- **Author**: @sugaroverflow
+- **Date**: 2026-03-30
+- **Top project**: [Vote for Policies](https://voteforpolicies.org.uk) (score: 32.54)
+
+#### Heuristic
+
+Projects ranked by standard deviation of scores ascending, restricted to full 17/17 coverage. Low stdev = the committee broadly agrees on how to value this project regardless of constitution. This is not a ranking by quality — it is a ranking by agreement.
+
+#### Rationale
+
+Low variance has two very different meanings. It can mean a project is universally respected — a cross-constitution signal that something is genuinely strong. Or it can mean a project is universally seen as fine but unremarkable — too modest, too narrow, or too legible to any constitution to generate strong views either way. Separating these two readings is the analytical work this list invites.
+
+#### Data sources
+
+- project URL
+- scraped content
+- additional data files
+
+#### Limitations
+
+- Requires 17/17 coverage — projects ranked by fewer members are excluded
+- Low stdev says nothing about score level — consensus can be consensus on mediocrity
+- Constitutional diversity means "agreement" may reflect shared blind spots as much as genuine convergence
+
+#### Assessment
+
+**Most agreed-upon: Vote for Policies — stdev 7.59 (mean 32.54)**
+
+The committee agrees on Vote for Policies with unusual consistency — but the agreement is that it is limited. It is discontinued after the 2024 election. It is narrowly UK-focused. Multiple members note the project treats voters as passive consumers rather than building their capacity. Nick: "discontinued after 2024 election, closing off the core mechanism." Davit: "My constitution does not have room for stable-democracy domestic tools." Gamithra: "My criteria don't map well onto this kind of work." The consensus is not enthusiasm — it is quiet convergence on a modest ceiling.
+
+**The more interesting cases are further down the list.** mySociety Datasets and APIs (stdev 16.40, mean 61.11) appears in neither the most divisive nor the most agreed-upon tiers — but it is the project with the highest mean score among those with full 17/17 coverage and moderate variance. Where Vote for Policies achieves consensus at 32.54, mySociety achieves broad agreement on quality at 61.11: researchers, FOI influence, institutional partnerships, and open APIs all map onto enough different constitutions that convergence is possible despite the wider spread.
+
+**The least divisive top 10 (full 17/17 coverage, sorted by stdev):**
+| Consensus rank | Project | Stdev | Mean |
+|------|---------|-------|------|
+| 1 | Vote for Policies | 7.59 | 32.54 |
+| 2 | Civic Tech Field Guide | 7.93 | 42.63 |
+| 3 | Remember to Vote | 8.06 | 35.01 |
+| 4 | Turbo Phonebank | 8.12 | 32.93 |
+| 5 | MP Watch | 8.47 | 33.66 |
+| 6 | WriteToThem | 8.60 | 40.61 |
+| 7 | MyActionCenter | 8.82 | 30.78 |
+| 8 | Local Intelligence Hub | 8.86 | 40.59 |
+| 9 | PostBug | 9.51 | 29.22 |
+| 10 | Mapped | 9.60 | 38.18 |
+
+Note: consensus here mostly reflects shared indifference — these are narrow, legible, or discontinued tools that don't strongly activate any constitution. The exception worth examining is **Civic Tech Field Guide** (mean 43.3), where agreement reflects a shared view that the resource is valuable but not transformative, and where multiple members independently flag its acknowledged Western/English-language bias as the limiting factor.
+
+Full list: `iterations/project-mirror-v2/committee-aggregation/consensus-projects.csv`
+
+---
 
 ### v13 In Dispute — Gapminder, AlgorithmWatch, vTaiwan split the room
 
@@ -28,7 +85,7 @@ Canonical full iteration history for `/awards` rendering. Generated from `iterat
 - **Status**: merged
 - **Author**: @sugaroverflow
 - **Date**: 2026-03-30
-- **Top project**: [liquidfeedback.com](https://liquidfeedback.com) (score: 45.31)
+- **Top project**: [Gapminder Worldview Upgrader](https://upgrader.gapminder.org) (score: 45.31)
 
 #### Heuristic
 
@@ -40,7 +97,9 @@ A committee average obscures disagreement. A project can land mid-table not beca
 
 #### Data sources
 
-n/a
+- project URL
+- scraped content
+- additional data files
 
 #### Limitations
 
@@ -52,7 +111,7 @@ n/a
 
 **#1 Most divisive: Gapminder Worldview Upgrader — stdev 25.76 (mean 45.31, range 10.6→100.0)**
 
-The committee's sharpest disagreement. Tuna's Agent gives it a perfect 100, her only top ranking: *"Founded in 2005 and funded by IKEA Foundation, Gapminder has institutional stability alongside genuine transparency — open-source, foundation governance."* Fatima at 97.0 (#10): *"AI-assisted civic infrastructure at scale, agency-forward framing."* At the other extreme, Asil gives it 10.6: *"My constitution is not built to see what Gapminder Worldview Upgrader does — it lacks the health equity, decolonial governance, or conflict-zone dimensions I prioritise."* Alexandra at 15.5: *"Whose misconceptions are being corrected, towards whose framing of development? The adoption by Fortune 500 companies suggests this tool may function more as legitimacy infrastructure for development sector actors than as structural power redistribution."*
+The committee's sharpest disagreement. Tuna's Agent gives it a perfect 100, her only top ranking: *"Founded in 2005 and funded by IKEA Foundation, Gapminder has institutional stability alongside genuine transparency — open-source, foundation governance. My highest-weight criteria (evidence legibility and methodological transparency) are both well-served."* Fatima at 97.0 (#10): *"AI-assisted civic infrastructure at scale, agency-forward framing — this is exactly what C6 is built to surface."* At the other extreme, Asil gives it 10.6: *"My constitution is not built to see what Gapminder Worldview Upgrader does — it lacks the health equity, decolonial governance, or conflict-zone dimensions I prioritise."* Alexandra at 15.5 is the most pointed: *"Whose misconceptions are being corrected, towards whose framing of development? The adoption by Fortune 500 companies and educational institutions suggests this tool may function more as legitimacy infrastructure for development sector actors than as structural power redistribution."* Francesca at 25.5: *"My constitution is not built to see what Gapminder Worldview Upgrader does. It may do valuable work, but it does not register on my criteria for civic engagement, digital commons, or data for social good."*
 
 **Top 10 most divisive:**
 | Divisiveness rank | Project | Stdev | Mean | Range |
@@ -78,7 +137,7 @@ Full list: `iterations/project-mirror-v2/committee-aggregation/divisive-projects
 - **Status**: merged
 - **Author**: @sugaroverflow
 - **Date**: 2026-03-30
-- **Top project**: [liquidfeedback.com](https://liquidfeedback.com) (score: 61.96)
+- **Top project**: [Open Data Editor](https://okfn.org/en/projects/open-data-editor) (score: 61.96)
 
 #### Heuristic
 
@@ -118,7 +177,6 @@ Under median rank, Open Data Editor displaces LiquidFeedback for the first time 
 Full ranking: `iterations/project-mirror-v2/committee-aggregation/committee-ranking-v12.csv`
 
 ---
-
 ### v11 On Reflection — Mirror Agents Committee Average, three constitutions iterated
 
 - **PR**: [v11](https://github.com/nwspk/politech-awards-2026/pull/100)
