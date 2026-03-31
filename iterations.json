@@ -244,5 +244,26 @@
     "limitations": "- **Not human inter-rater reliability:** Three models ≠ three humans; calibration differs (e.g. Claude’s conservative greens in v6 may compress variance on some dimensions).\n- **D4 / D8:** Downstream reach and funding are often **missing**; jurors must infer and mark `cannot_assess_dimensions` — still weak without manual audits.\n- **Cost / time:** Full 321 × 3 jurors is expensive; use `--limit` and `--url` for development.\n- **Category corrections** (infrastructure multiplier, security D3 weighting, etc.) in the rubric’s “Step 4” are **not** auto-applied in code yet — optional follow-up.\n- **Provenance:** Enriched JSON may contain imperfect citations; jurors should prefer **primary** links when present.",
     "assessment": "Ships the **documentation + scripts + aggregate + optional `the-algorithm.ts` mode** in one PR. Committee runs eval when ready, commits or archives `cache/alexandra-*.json` if they want a reproducible snapshot, then may set `top_project` in this README after a full run. **Winner selection** remains a committee choice; v9 makes the numeric layer **contestable**. Current `top_project` reflects the highest `median_composite` in the committed aggregate snapshot.\n\n**Iteration bot:** commit root **`results.json`** from **`SCORING_MODE=v9 npx tsx the-algorithm.ts`** (not the default ITN/A path), and keep **`iterations/v9/results.json`** in sync with that file when you refresh the PR.",
     "vote_result": null
+  },
+  {
+    "version": "v15",
+    "title": "Social Choice Round — LiquidFeedback wins committee deliberation (Opus 4.6)",
+    "date": "2026-03-31",
+    "author": "@sugaroverflow",
+    "pr_number": 112,
+    "pr_url": "https://github.com/nwspk/politech-awards-2026/pull/112",
+    "pr_status": "open",
+    "top_project": {
+      "name": "LiquidFeedback",
+      "url": "https://liquidfeedback.com",
+      "score": null
+    },
+    "heuristic": "Borda count (38 candidates × 16 agents = max 592 pts). Four phases: preference construction from existing ranking-table.csv, belief declaration, ballot strategy, and deliberation. All agent calls: claude-opus-4-6.",
+    "rationale": "The four aggregation PRs (#100–#107) each apply a different mathematical rule to the same preference data, yielding different winners (mean → LiquidFeedback, median rank → ODE, divisive → Gapminder, consensus → Vote for Policies). This round asks: given that each agent knows the honest standings and can reason strategically, what does the committee choose? Borda count is used because it is the most standard social-choice rule for ranked preferences and, crucially, the most theoretically susceptible to strategic manipulation (burying). If the honest result is stable under Borda with strategic reasoning, it is likely stable under any rule.",
+    "data_sources": null,
+    "keywords": null,
+    "limitations": "- AlgorithmWatch absent from Alexandra's Agent's v3 CSV → assigned 0, costs ~12 Borda points\n- Fundación Ciudadanía Inteligente absent from Nicholas's Agent's v3 CSV → assigned 0\n- Borda count rewards breadth of support over intensity; a project with passionate but isolated advocates (e.g. Worker Info Exchange) finishes last despite being a constitutional Rank 1\n- 3-point gap between honest and final tallies reflects minor CSV-loading path differences between phases; ranking substantively identical",
+    "assessment": "**Winner: LiquidFeedback — 454 / 592 pts. Unchanged from honest voting.**\n\n| Phase | Outcome |\n|-------|---------|\n| Honest Borda (pre-deliberation) | LiquidFeedback 457 pts, ODE 439 pts (+18 lead) |\n| Ballot strategy | 0 strategic deviations — all 16 agents voted honestly |\n| Deliberation | 13 outcome arguments, 3 passes, 0 ballot revisions |\n| Final Borda | LiquidFeedback 454 pts — result unchanged |\n\nEvery agent independently concluded that the 18-point lead was too large to overcome unilaterally and/or that strategic manipulation would violate their own constitutional commitments. The deliberation phase produced substantive arguments but no revisions.\n\n**Final Borda standings (top 5):**\n| Rank | Project | Pts |\n|------|---------|-----|\n| 1 | **LiquidFeedback** | **454** |\n| 2 | CONSUL Democracy | 441 |\n| 3 | Open Data Editor (ODE) | 436 |\n| 3 | Alaveteli | 436 |\n| 5 | Decidim | 422 |\n\n**Comparison with aggregation baselines:**\n| Method | Winner |\n|--------|--------|\n| v11 mean score | LiquidFeedback |\n| v12 median rank | ODE |\n| v13 most divisive | Gapminder Worldview Upgrader |\n| v14 lowest stdev | Vote for Policies |\n| Social Choice Round (Borda) | **LiquidFeedback** |\n\nLiquidFeedback is the only project to win under both mean-score aggregation (v11) and Borda count. Its 18-point honest lead proved robust: no single agent could close it unilaterally, and no credible coalition formed even when 13 agents made public arguments. The most analytically interesting output is the convergence on ODE as the shadow winner — four agents from different constitutional directions independently identified it as the constitutionally better choice for a majority of agents, just 18 Borda points behind.",
+    "vote_result": null
   }
 ]
