@@ -5,10 +5,11 @@ date: "2026-03-30"
 pr_url: "https://github.com/nwspk/politech-awards-2026/pull/104"
 version: v12
 pr_number: 104
-pr_status: "open"
+pr_status: "merged"
 top_project:
-  name: "Open Data Editor"
-  url: "https://okfn.org/en/projects/open-data-editor"
+  name: "liquidfeedback.com"
+  url: "https://liquidfeedback.com"
+  score: 65.08
   score: 61.96
 ---
 
