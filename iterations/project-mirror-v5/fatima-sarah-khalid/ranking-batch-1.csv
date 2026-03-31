@@ -1,0 +1,81 @@
+rank,project_name,url,score,rationale
+1,Mastodon,https://github.com/mastodon/mastodon,100,AI/tech infrastructure (C6=25); open source + forkable (C2=30); accessibility (C1=30) | mods: M_AGENCY+8+M1+5+M3+7
+2,CONSUL Democracy,https://consulproject.org,100,AI/tech infrastructure (C6=25); open source + forkable (C2=30); accessibility (C1=25) | mods: M_AGENCY+12+M1+10+M3+4
+3,Abstract Wikipedia,https://meta.wikimedia.org/wiki/abstract_wikipedia,100,open source + forkable (C2=30); accessibility (C1=25); forkable+community governed | mods: M_AGENCY+8+M1+10+M3+4
+4,CiviCRM,https://civicrm.org,99.8,open source + forkable (C2=30); accessibility (C1=25); legibility+agency (C3=28) | mods: M_AGENCY+8+M1+10+M3+4
+5,Alaveteli,https://alaveteli.org,99.8,AI/tech infrastructure (C6=25); open source + forkable (C2=30); legibility+agency (C3=28) | mods: M_AGENCY+12+M1+10
+6,Aleph (OCCRP),https://aleph.occrp.org,99.8,AI/tech infrastructure (C6=25); open source + forkable (C2=30); legibility+agency (C3=28) | mods: M_AGENCY+12+M1+10
+7,HURIDOCS,https://github.com/huridocs,99.8,AI/tech infrastructure (C6=25); open source + forkable (C2=30); legibility+agency (C3=28) | mods: M_AGENCY+12+M1+10
+8,OA.Works,https://oa.works/,99.8,open source + forkable (C2=30); legibility+agency (C3=28); forkable+community governed | mods: M_AGENCY+8+M1+10+M5+4
+9,Bonfire,https://bonfirenetworks.org/,99.1,AI/tech infrastructure (C6=25); open source + forkable (C2=30); legibility+agency (C3=28) | mods: M_AGENCY+12+M1+10
+10,Gapminder Worldview Upgrader,https://upgrader.gapminder.org,97.0,open source + forkable (C2=30); accessibility (C1=25); legibility+agency (C3=24) | mods: M_AGENCY+8+M1+10+M3+4
+11,Open Standards for Data Guidebook,https://standards.theodi.org,97.0,AI/tech infrastructure (C6=25); open source + forkable (C2=30); legibility+agency (C3=24) | mods: M_AGENCY+12+M1+10
+12,CKAN,https://ckan.org,95.4,open source + forkable (C2=30); accessibility (C1=25); forkable+community governed | mods: M_AGENCY+12+M1+10+M3+4
+13,Open Council Network,https://opencouncil.network,94.8,open source + forkable (C2=30); accessibility (C1=25); legibility+agency (C3=28) | mods: M_AGENCY+8+M1+5+M3+4
+14,ClimateAction.Tech,https://climateaction.tech,93.5,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+8+M1+10+M5+4
+15,Security First / Umbrella,https://secfirst.org,93.0,AI/tech infrastructure (C6=25); open source + forkable (C2=30); legibility+agency (C3=24) | mods: M_AGENCY+8+M1+10
+16,mySociety Datasets and APIs,https://data.mysociety.org,92.8,open source + forkable (C2=30); legibility+agency (C3=28); forkable+community governed | mods: M_AGENCY+12+M1+10
+17,LittleSis,https://littlesis.org,92.7,AI/tech infrastructure (C6=25); open source + forkable (C2=30); legibility+agency (C3=28) | mods: M_AGENCY+12+M1+5
+18,Decidim,https://decidim.org,92.3,open source + forkable (C2=30); legibility+agency (C3=28); forkable+community governed | mods: M_AGENCY+8+M1+10
+19,Turkopticon,https://turkopticon.ucsd.edu,92.3,open source + forkable (C2=30); legibility+agency (C3=28); forkable+community governed | mods: M_AGENCY+8+M1+10
+20,Open Digital Planning,https://opendigitalplanning.org/,92.0,AI/tech infrastructure (C6=25); open source + forkable (C2=30); legibility+agency (C3=24) | mods: M_AGENCY+12+M1+5
+21,Bellingcat Online Investigation Toolkit,https://bellingcat.gitbook.io/toolkit,91.4,AI/tech infrastructure (C6=25); open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+12+M1+10
+22,Logos,https://logos.co/,90.8,AI/tech infrastructure (C6=25); open source + forkable (C2=30); legibility+agency (C3=28) | mods: M_AGENCY+8+M1+5
+23,Humble Data Workshop,https://humbledata.org,90.8,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+8+M1+10+M5+4
+24,PolicyEngine,https://policyengine.org/uk,89.5,open source + forkable (C2=30); legibility+agency (C3=28); forkable+community governed | mods: M_AGENCY+8+M1+10
+25,Open Supply Hub,https://opensupplyhub.org,89.2,AI/tech infrastructure (C6=25); open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+12+M1+5
+26,PolicyKit,https://policykit.org,88.8,open source + forkable (C2=30); legibility+agency (C3=24); forkable+community governed | mods: M_AGENCY+8+M1+10
+27,adhocracy+,https://adhocracy.plus,88.8,open source + forkable (C2=30); legibility+agency (C3=28); forkable+community governed | mods: M_AGENCY+8+M1+10
+28,Populate Tools,https://github.com/populatetools,88.7,AI/tech infrastructure (C6=25); open source + forkable (C2=30); legibility+agency (C3=28) | mods: M_AGENCY+8+M1+5
+29,The Engine Room Library,https://library.theengineroom.org,88.5,open source + forkable (C2=30); accessibility (C1=25); forkable+community governed | mods: M_AGENCY+8+M1+5+M3+4
+30,Open Referral UK,https://openreferraluk.org,87.3,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+12+M1+10
+31,Open Data Editor (ODE),https://okfn.org/en/projects/open-data-editor/,87.3,AI/tech infrastructure (C6=25); open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+12+M1+10
+32,Public AI Inference Utility,https://publicai.co/,86.4,AI/tech infrastructure (C6=25); open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+12+M1+5
+33,Citizen OS,https://citizenos.com/platform/,86.1,open source + forkable (C2=30); legibility+agency (C3=24); forkable+community governed | mods: M_AGENCY+8+M1+10
+34,CommunityRule,https://communityrule.info,86.1,open source + forkable (C2=30); legibility+agency (C3=24); forkable+community governed | mods: M_AGENCY+8+M1+10
+35,Open Science Framework,https://osf.io,86.1,open source + forkable (C2=30); legibility+agency (C3=24); forkable+community governed | mods: M_AGENCY+8+M1+10
+36,oTree,https://www.otree.org,86.1,open source + forkable (C2=30); legibility+agency (C3=24); forkable+community governed | mods: M_AGENCY+8+M1+10
+37,LiquidFeedback,https://liquidfeedback.com,85.9,open source + forkable (C2=30); legibility+agency (C3=28); forkable+community governed | mods: M_AGENCY+12+M1+10
+38,Diia,https://expo.diia.gov.ua,85.4,AI/tech infrastructure (C6=25); open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+8+M1+10
+39,One Project,https://oneproject.org/,85.4,open source + forkable (C2=30); legibility+agency (C3=24); forkable+community governed | mods: M_AGENCY+8+M1+10
+40,Open Heart Mind (OHM),https://openheartmind.org,85.4,open source + forkable (C2=30); legibility+agency (C3=24); forkable+community governed | mods: M_AGENCY+8+M1+10
+41,Loomio,https://www.loomio.org,85.4,open source + forkable (C2=30); legibility+agency (C3=28); forkable+community governed | mods: M_AGENCY+8+M1+10
+42,Internet Archive Wayback Machine,https://web.archive.org,85.1,AI/tech infrastructure (C6=25); open source + forkable (C2=30); legibility+agency (C3=24) | mods: M_AGENCY+12+M1+5
+43,Channel.org,https://channel.org,83.8,open source + forkable (C2=30); legibility+agency (C3=24); forkable+community governed | mods: M_AGENCY+8+M1+5
+44,All Our Ideas,https://all-our-ideas.citizens.is,83.8,open source + forkable (C2=30); legibility+agency (C3=28); forkable+community governed | mods: M_AGENCY+8+M1+5
+45,WhatGov,https://www.whatgov.co.uk,83.8,open source + forkable (C2=30); legibility+agency (C3=28); forkable+community governed | mods: M_AGENCY+8+M1+5
+46,Matrix,https://matrix.org,83.8,AI/tech infrastructure (C6=25); open source + forkable (C2=30); legibility+agency (C3=28) | mods: M_AGENCY+8+M1+5
+47,EDGAR,https://github.com/bellingcat/edgar,83.7,AI/tech infrastructure (C6=25); open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+12+M1+5
+48,Journal of Open Source Software,https://joss.theoj.org,83.3,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+8+M1+10
+49,Shareyourpaper.org,https://shareyourpaper.org,83.3,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+8+M1+10
+50,Pursuance Project,https://pursuanceproject.org,83.1,open source + forkable (C2=30); legibility+agency (C3=28); forkable+community governed | mods: M_AGENCY+8+M1+5
+51,RxC Voice,https://github.com/radicalxchange/rxc-voice,83.1,open source + forkable (C2=30); legibility+agency (C3=28); forkable+community governed | mods: M_AGENCY+8+M1+5
+52,Schema.org,https://schema.org,82.3,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+12+M1+5
+53,GRIM (Global Risk Simulator),https://github.com/sentinelteam/grim,81.9,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+8+M1+10
+54,Cobudget,https://cobudget.com,81.9,open source + forkable (C2=30); legibility+agency (C3=28); forkable+community governed | mods: M_AGENCY+8+M1+10
+55,Groupthink (OpenPolitics Votebot),https://github.com/openpolitics/groupthink,81.8,open source + forkable (C2=30); legibility+agency (C3=28); forkable+community governed | mods: M_AGENCY+8+M1+5
+56,Participa (Podemos),https://github.com/podemos-info/participa,81.8,open source + forkable (C2=30); legibility+agency (C3=28); forkable+community governed | mods: M_AGENCY+8+M1+5
+57,Nym,https://nymtech.net,81.6,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+12+M1+5
+58,NumFOCUS,https://numfocus.org,81.1,open source + forkable (C2=30); legibility+agency (C3=24); forkable+community governed | mods: M_AGENCY+8+M1+5
+59,Polis,https://github.com/compdemocracy/polis,81.1,open source + forkable (C2=30); legibility+agency (C3=24); forkable+community governed | mods: M_AGENCY+8+M1+5
+60,Tor Project,https://www.torproject.org,81.1,open source + forkable (C2=30); legibility+agency (C3=24); forkable+community governed | mods: M_AGENCY+8+M1+5
+61,vTaiwan,https://github.com/g0v/vue.vtaiwan.tw,81.1,open source + forkable (C2=30); legibility+agency (C3=24); forkable+community governed | mods: M_AGENCY+8+M1+5
+62,Coral,https://coralproject.net,80.5,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+8+M1+10
+63,DISARM Frameworks,https://github.com/disarmfoundation/disarmframeworks,80.5,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+8+M1+10
+64,GlobaLeaks,https://www.globaleaks.org,80.5,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+8+M1+10
+65,Snowdrift.coop,https://snowdrift.coop,79.8,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+8+M1+10
+66,Awesome UK Government Datasets,https://github.com/i-dot-ai/awesome-gov-datasets,79.5,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+12+M1+5
+67,Open Collective,https://opencollective.com,78.8,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+12+M1+5
+68,soweego,https://soweego.readthedocs.io,78.8,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+12+M1+5
+69,The Government Says,https://thegovernmentsays.com,78.3,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+8+M1+5
+70,Tracka,https://yourtracka.org,76.4,AI/tech infrastructure (C6=25); accessibility (C1=30) | mods: M1+5+M3+4
+71,Data Observation Toolkit (DOT),https://github.com/datakind/data-observation-toolkit,75.5,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+8+M1+5
+72,Ethelo,https://ethelo.com,75.1,accessibility (C1=30) | mods: M1+10+M3+4
+73,Bluesky Social,https://github.com/bluesky-social,74.8,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+8+M1+5
+74,Murmurations Protocol,https://murmurations.network,74.8,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+8+M1+5
+75,Mozilla Data Collective,https://datacollective.mozillafoundation.org/,74.5,accessibility (C1=30) | mods: M_AGENCY+8+M3+4
+76,Fairbnb.coop,https://fairbnb.coop,73.7,accessibility (C1=25); legibility+agency (C3=24) | mods: M1+10+M3+4
+77,Democracy Club Developer API,https://developers.democracyclub.org.uk/api/v1,73.4,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+8+M1+5
+78,Tech Coops List,https://tech-coops.xyz,73.4,open source + forkable (C2=30); legibility+agency (C3=24); forkable+community governed | mods: M_AGENCY+8+M1+5
+79,Guardian Project,https://guardianproject.info,73.3,AI/tech infrastructure (C6=25) | mods: M_AGENCY+8
+80,PatCit,https://github.com/cverluise/patcit,73.1,mods: M_AGENCY+8+M5+4

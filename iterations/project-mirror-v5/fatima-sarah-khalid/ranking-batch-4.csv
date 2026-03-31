@@ -1,0 +1,82 @@
+rank,project_name,url,score,rationale
+242,Right To Know,https://right-to-know.org,42.4,No strong signals
+243,River Sentiment Dashboard,https://riversentiment.app,42.4,No strong signals
+244,The Commons Social Change Library,https://commonslibrary.org,42.4,No strong signals
+245,The Guide to Major Trusts 2025/26,https://www.dsc.org.uk/publication/the-guide-to-major-trusts-2025-26/,42.4,No strong signals
+246,TheyWorkForYou,https://www.theyworkforyou.com,42.4,No strong signals
+247,Timecounts,https://timecounts.org,42.4,No strong signals
+248,Turbo Phonebank,https://turbophonebank.com,42.4,No strong signals
+249,Violation Tracker UK,https://violationtrackeruk.goodjobsfirst.org,42.4,No strong signals
+250,WriteToThem,https://www.writetothem.com,42.4,No strong signals
+251,Esper,https://esper.com/product,42.4,No strong signals
+252,CivicMatch,https://civicmatch.app,41.7,AI/tech infrastructure (C6=25)
+253,Civic Tech Field Guide,https://civictech.guide,41.7,No strong signals
+254,Harmonica,https://harmonica.chat/,41.7,No strong signals
+255,Overton,https://overton.io,41.7,No strong signals
+256,User Research Library,https://research.localgov.digital,41.7,No strong signals
+257,Who Targets Me Trends,https://trends.whotargets.me,41.4,AI/tech infrastructure (C6=25) | mods: M_AGENCY-8+M1+5
+258,Gender Pay Gap Service,https://gender-pay-gap.service.gov.uk,41.0,AI/tech infrastructure (C6=25)
+259,Worker Info Exchange,https://www.workerinfoexchange.org,41.0,mods: M1+5+M2-14
+260,Collaborative Data Patterns,https://collaborative-data.theodi.org,41.0,No strong signals
+261,Deliberation & Technology (DelibTech) Network,https://www.demnext.org/projects/delibtech-network,41.0,No strong signals
+262,Nestr,https://nestr.io,41.0,No strong signals
+263,We Live It,https://www.welivedit.ai,41.0,No strong signals
+264,Wikum,https://www.csail.mit.edu/research/wikum-bridging-discussion-systems-and-wikis-collective-summarization,41.0,No strong signals
+265,PlanIT,https://planit.org.uk,40.5,accessibility (C1=25) | mods: M_AGENCY-10+M3+4
+266,Nook CRM,https://nookcrm.com,40.3,AI/tech infrastructure (C6=25)
+267,Choose a License,https://choosealicense.com,40.3,AI/tech infrastructure (C6=22)
+268,Empurrando Juntas (EJ),https://sobre.ejparticipe.org,40.3,No strong signals
+269,OpenAudience,https://openaudience.org,40.3,No strong signals
+270,PostBug,https://postbug.com,40.3,No strong signals
+271,Remember to Vote,https://remembertovote.org.uk,40.3,No strong signals
+272,GovWise,https://www.govwise.ai/en,39.6,No strong signals
+273,Libertrium,https://liberopinion.com,39.6,No strong signals
+274,Viewpoints,https://viewpoints.xyz,39.6,No strong signals
+275,WorkInCharities,https://www.workincharities.co.uk,39.6,No strong signals
+276,OA.Report,https://oa.report,39.6,No strong signals
+277,Parallel Parliament,https://www.parallelparliament.co.uk,39.6,AI/tech infrastructure (C6=22)
+278,PolicyMogul,https://policymogul.com,39.6,AI/tech infrastructure (C6=22)
+279,Charity Digital Skills Report,https://charitydigitalskills.co.uk,39.6,AI/tech infrastructure (C6=22)
+280,Privacy Badger,https://privacybadger.org,39.5,mods: M2-14
+281,Objector.ai,https://www.objector.ai,38.9,No strong signals
+282,Parse The Bill,https://parsethebill.com,38.9,No strong signals
+283,AISafety.info,https://aisafety.info,38.2,No strong signals
+284,Digital Account Management Toolkit,https://digitalcharitylab.org/product/digital-account-management-toolkit,38.2,No strong signals
+285,DoGooder,https://dogooder.co,38.2,No strong signals
+286,DoNotPay,https://www.donotpay.com,38.2,No strong signals
+287,Riseup,https://riseup.net,38.2,No strong signals
+288,The Decelerator,https://decelerator.org.uk,37.5,AI/tech infrastructure (C6=22)
+289,,https://tracking-template-38b4c.web.app,36.8,AI/tech infrastructure (C6=22) | mods: underdog_floor
+290,Unknown Academic Paper (SSRN 5351275),https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5351275,36.8,AI/tech infrastructure (C6=22) | mods: underdog_floor
+291,Unknown,,36.8,AI/tech infrastructure (C6=22) | mods: underdog_floor
+292,Conservative Party Funding,https://conservativepartyfunding.co.uk,36.8,No strong signals
+293,PoliMonitor,https://www.polimonitor.com,36.8,AI/tech infrastructure (C6=22)
+294,CiviClick,https://civiclick.com,36.8,No strong signals
+295,Spartacus,https://spartacus.app,36.8,No strong signals
+296,Granicus,https://granicus.com/uk,36.1,No strong signals
+297,Local Deep Researcher,https://local-deep-researcher-hnmh.vercel.app/,36.1,No strong signals
+298,DeepSeek-V3,https://github.com/deepseek-ai/deepseek-v3,35.4,No strong signals
+299,DemTech Navigator,https://navigator.oii.ox.ac.uk,35.4,No strong signals
+300,Fatebook,https://fatebook.io,35.4,No strong signals
+301,Filmot,https://filmot.com,35.4,No strong signals
+302,OpenOrigins,https://www.openorigins.com,35.4,No strong signals
+303,Public Editor,https://www.publiceditor.io,35.4,No strong signals
+304,Public Media Stack,https://publicmediastack.com,35.4,No strong signals
+305,Registers and collaboration: making lists we can trust,https://theodi.org/insights/reports/registers-and-collaboration-making-lists-we-can-trust-report,35.4,No strong signals
+306,Urbit,https://urbit.org,35.4,No strong signals
+307,COTSI (Cyber Operational Threat Situational Intelligence),https://cotsi.org/,35.4,AI/tech infrastructure (C6=25)
+308,Plausible Analytics,https://plausible.io,35.4,AI/tech infrastructure (C6=25)
+309,GOV Reuse Library,https://dev.reuselibrary.service.justice.gov.uk/,34.0,No strong signals
+310,GOV.UK Notify,https://www.notifications.service.gov.uk,34.0,No strong signals
+311,GOV.UK Pay,https://www.payments.service.gov.uk,34.0,No strong signals
+312,GrantNav,https://grantnav.threesixtygiving.org,34.0,No strong signals
+313,Plinth,https://www.plinth.org.uk,34.0,No strong signals
+314,Polimorphic,https://www.polimorphic.com,34.0,No strong signals
+315,Service Manual,https://www.gov.uk/service-manual,34.0,No strong signals
+316,Understanding Your Morality,https://programs.clearerthinking.org/understanding-your-morality/,34.0,No strong signals
+317,Collab.Land,https://collab.land,33.3,No strong signals
+318,Who Posted What?,https://whopostedwhat.com,33.3,No strong signals
+319,RightDD,https://www.rightsdd.com,28.5,No strong signals
+320,Whoisology,https://whoisology.com,27.1,No strong signals
+321,Shared Digital Guides,https://www.shareddigitalguides.org.uk,26.4,No strong signals
+322,Yoti,https://www.yoti.com,11.7,mods: M2-14
