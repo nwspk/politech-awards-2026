@@ -18,7 +18,7 @@ Canonical full iteration history for `/awards` rendering. Generated from `iterat
 | v10 | 2026-03-29 | @sugaroverflow | merged | Simple mean of all 18 members' scores per project, equally weighted — pure v2 constitutional rankings, no iteration substitutions. | [v10](https://github.com/nwspk/politech-awards-2026/pull/90) | [entry](#v10-prima-facie-liquidfeedback-wins-the-mirror-agent-s-committee-s-first-read-using-average) |
 | v11 | 2026-03-30 | @sugaroverflow | merged | Simple mean of all 17 members' scores per project, equally weighted — substituting v3 constitutions for the three members who iterated (nicholas-botti, huda-abdirahim, alexandra-ciocanel). | [v11](https://github.com/nwspk/politech-awards-2026/pull/100) | [entry](#v11-on-reflection-mirror-agents-committee-average-three-constitutions-iterated) |
 | v12 | 2026-03-30 | @sugaroverflow | merged | For each project, compute the median of its rank position across all 17 members' v11 scores (14×v2 + 3×v3). Projects are ordered by median rank ascending — lower is better. Ties broken by mean rank. | [v12](https://github.com/nwspk/politech-awards-2026/pull/104) | [entry](#v12-on-balance-ode-dethrones-liquidfeedback-via-median-rank-position) |
-| v13 | 2026-03-30 | @sugaroverflow | open | Projects ranked by standard deviation of scores across all 17 members (v11 score set: 14×v2 + 3×v3). High stdev = the committee disagrees sharply. Only projects with coverage ≥ 15/17 included. | [v13](https://github.com/nwspk/politech-awards-2026/pull/105) | [entry](#v13-in-dispute-gapminder-algorithmwatch-vtaiwan-split-the-room) |
+| v13 | 2026-03-30 | @sugaroverflow | merged | Projects ranked by standard deviation of scores across all 17 members (v11 score set: 14×v2 + 3×v3). High stdev = the committee disagrees sharply. Only projects with coverage ≥ 15/17 included. | [v13](https://github.com/nwspk/politech-awards-2026/pull/105) | [entry](#v13-in-dispute-gapminder-algorithmwatch-vtaiwan-split-the-room) |
 | v14 | 2026-03-30 | @sugaroverflow | open | Projects ranked by standard deviation of scores ascending, restricted to full 17/17 coverage. Low stdev = the committee broadly agrees on how to value this project regardless of constitution. This is not a ranking by quality — it is a ranking by agreement. | [v14](https://github.com/nwspk/politech-awards-2026/pull/107) | [entry](#v14-beyond-dispute-mysociety-leads-the-genuine-consensus) |
 
 ## Full iteration records
@@ -82,7 +82,7 @@ Full list: `iterations/project-mirror-v2/committee-aggregation/consensus-project
 ### v13 In Dispute — Gapminder, AlgorithmWatch, vTaiwan split the room
 
 - **PR**: [v13](https://github.com/nwspk/politech-awards-2026/pull/105)
-- **Status**: open
+- **Status**: merged
 - **Author**: @sugaroverflow
 - **Date**: 2026-03-30
 - **Top project**: [Gapminder Worldview Upgrader](https://upgrader.gapminder.org) (score: 45.31)
