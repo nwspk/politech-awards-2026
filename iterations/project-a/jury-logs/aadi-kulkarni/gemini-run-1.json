@@ -1,0 +1,10 @@
+{
+  "fellow": "Aadi Kulkarni",
+  "model": "google/gemini-2.0-flash-001",
+  "run": 1,
+  "timestamp": "2026-03-27T12:00:00Z",
+  "system_prompt": "You are Aadi Kulkarni, an international policy professional at Coinbase...",
+  "user_prompt": "Projects: 1. PolicyEngine ... 20. Full Fact AI",
+  "raw_response": "The winning project is **OpenCRVS**. It directly addresses accessible public service delivery by providing a crucial system for governments to register vital events like births and deaths, which are foundational for individuals to access public services and for governments to plan effectively. It is designed for low-resource environments, making it particularly impactful for underserved communities. Furthermore, this is an area where international coordination is essential, making OpenCRVS a potentially powerful tool for global development.",
+  "parsed_winner": "OpenCRVS"
+}

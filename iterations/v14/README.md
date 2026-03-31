@@ -7,7 +7,7 @@ version: v14
 pr_number: 107
 pr_status: "open"
 top_project:
-  name: "voteforpolicies.org.uk"
+  name: "Vote for Policies"
   url: "https://voteforpolicies.org.uk"
   score: 32.54
 ---

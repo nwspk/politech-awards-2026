@@ -1,9 +1,5 @@
 [
   {
-    "url": "https://voteforpolicies.org.uk",
-    "score": 32.54
-  },
-  {
     "url": "https://liquidfeedback.com",
     "score": 65.08
   },
@@ -1002,6 +998,10 @@
   {
     "url": "https://overton.io",
     "score": 32.58
+  },
+  {
+    "url": "https://voteforpolicies.org.uk",
+    "score": 32.54
   },
   {
     "url": "https://www.rightsdd.com",

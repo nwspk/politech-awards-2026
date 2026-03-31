@@ -15,17 +15,21 @@ Canonical full iteration history for `/awards` rendering. Generated from `iterat
 | v7 | 2026-03-28 | @davit-jintcharadze | merged | Scores and filters projects based on Davit's eight evaluation criteria: | [v7](https://github.com/nwspk/politech-awards-2026/pull/20) | [entry](#v7-davit-aligned-political-relevance-heuristic) |
 | v8 | 2026-03-27 | @Gamithra | merged | This iteration keeps the **v5 ITN/A architecture**: Grok 4.1 Fast assesses every candidate on political, relational, and experimental lenses, then a facilitator-led multi-agent deliberation scores and argues over a **shortlist** of projects that cleared a green threshold on those assessments. | [v8](https://github.com/nwspk/politech-awards-2026/pull/41) | [entry](#v8-itn-a-grok-re-run-with-awards-bonuses-effective-score-alignment) |
 | v9 | 2026-03-28 | @alecsandrac | open | **Evaluation:** `npx tsx scripts/alexandra/alexandra-eval.ts` — each juror returns integers 1–5 for D1–D8 plus an `evidence[]` array (URL, quote, source type) per the prompt. Context = **enriched dossier** (`data/enriched/*.json`) + **cached page text** (`cache/sites.sqlite`), same spirit as `itn-a-eval.ts`. **Speed:** `--concurrency N` (e.g. `8`) runs N URLs in parallel; `--call-delay-ms 0` removes pauses between calls if your OpenRouter tier tolerates it (default `800`). | [v9](https://github.com/nwspk/politech-awards-2026/pull/89) | [entry](#v9-contestable-transparency-dimensional-rubric-three-jurors-auditable-evidence) |
-| v10 | 2026-03-30 | @sugaroverflow | open | Projects ranked by standard deviation of scores ascending, restricted to full 17/17 coverage. Low stdev = the committee broadly agrees on how to value this project regardless of constitution. This is not a ranking by quality — it is a ranking by agreement. | [v10](https://github.com/nwspk/politech-awards-2026/pull/107) | [entry](#v10-beyond-dispute-projects-the-committee-converges-on) |
+| v10 | 2026-03-29 | @sugaroverflow | merged | Simple mean of all 18 members' scores per project, equally weighted — pure v2 constitutional rankings, no iteration substitutions. | [v10](https://github.com/nwspk/politech-awards-2026/pull/90) | [entry](#v10-prima-facie-liquidfeedback-wins-the-mirror-agent-s-committee-s-first-read-using-average) |
+| v11 | 2026-03-30 | @sugaroverflow | merged | Simple mean of all 17 members' scores per project, equally weighted — substituting v3 constitutions for the three members who iterated (nicholas-botti, huda-abdirahim, alexandra-ciocanel). | [v11](https://github.com/nwspk/politech-awards-2026/pull/100) | [entry](#v11-on-reflection-mirror-agents-committee-average-three-constitutions-iterated) |
+| v12 | 2026-03-30 | @sugaroverflow | merged | For each project, compute the median of its rank position across all 17 members' v11 scores (14×v2 + 3×v3). Projects are ordered by median rank ascending — lower is better. Ties broken by mean rank. | [v12](https://github.com/nwspk/politech-awards-2026/pull/104) | [entry](#v12-on-balance-ode-dethrones-liquidfeedback-via-median-rank-position) |
+| v13 | 2026-03-30 | @sugaroverflow | open | Projects ranked by standard deviation of scores across all 17 members (v11 score set: 14×v2 + 3×v3). High stdev = the committee disagrees sharply. Only projects with coverage ≥ 15/17 included. | [v13](https://github.com/nwspk/politech-awards-2026/pull/105) | [entry](#v13-in-dispute-gapminder-algorithmwatch-vtaiwan-split-the-room) |
+| v14 | 2026-03-30 | @sugaroverflow | open | Projects ranked by standard deviation of scores ascending, restricted to full 17/17 coverage. Low stdev = the committee broadly agrees on how to value this project regardless of constitution. This is not a ranking by quality — it is a ranking by agreement. | [v14](https://github.com/nwspk/politech-awards-2026/pull/107) | [entry](#v14-beyond-dispute-mysociety-leads-the-genuine-consensus) |
 
 ## Full iteration records
 
-### v10 Beyond Dispute — Projects the committee converges on
+### v14 Beyond Dispute — mySociety leads the genuine consensus
 
-- **PR**: [v10](https://github.com/nwspk/politech-awards-2026/pull/107)
+- **PR**: [v14](https://github.com/nwspk/politech-awards-2026/pull/107)
 - **Status**: open
 - **Author**: @sugaroverflow
 - **Date**: 2026-03-30
-- **Top project**: [voteforpolicies.org.uk](https://voteforpolicies.org.uk) (score: 32.54)
+- **Top project**: [Vote for Policies](https://voteforpolicies.org.uk) (score: 32.54)
 
 #### Heuristic
 
@@ -72,6 +76,251 @@ The committee agrees on Vote for Policies with unusual consistency — but the a
 Note: consensus here mostly reflects shared indifference — these are narrow, legible, or discontinued tools that don't strongly activate any constitution. The exception worth examining is **Civic Tech Field Guide** (mean 43.3), where agreement reflects a shared view that the resource is valuable but not transformative, and where multiple members independently flag its acknowledged Western/English-language bias as the limiting factor.
 
 Full list: `iterations/project-mirror-v2/committee-aggregation/consensus-projects.csv`
+
+---
+
+### v13 In Dispute — Gapminder, AlgorithmWatch, vTaiwan split the room
+
+- **PR**: [v13](https://github.com/nwspk/politech-awards-2026/pull/105)
+- **Status**: open
+- **Author**: @sugaroverflow
+- **Date**: 2026-03-30
+- **Top project**: [Gapminder Worldview Upgrader](https://upgrader.gapminder.org) (score: 45.31)
+
+#### Heuristic
+
+Projects ranked by standard deviation of scores across all 17 members (v11 score set: 14×v2 + 3×v3). High stdev = the committee disagrees sharply. Only projects with coverage ≥ 15/17 included.
+
+#### Rationale
+
+A committee average obscures disagreement. A project can land mid-table not because everyone finds it mediocre, but because half the committee loves it and half ignores it entirely. This analysis surfaces those fractures — projects where one evaluator's ceiling is another's floor, and where the score spread reveals genuine value conflicts rather than collective indifference.
+
+#### Data sources
+
+- project URL
+- scraped content
+- additional data files
+
+#### Limitations
+
+- Standard deviation measures spread, not direction — a project with stdev 22 could be polarising (loved/hated) or just widely variable in how well it maps to different criteria
+- Coverage threshold of 15/17 excludes a small number of projects ranked by fewer members
+- The v11 score set is the input (14×v2 + 3×v3)
+
+#### Assessment
+
+**#1 Most divisive: Gapminder Worldview Upgrader — stdev 25.76 (mean 45.31, range 10.6→100.0)**
+
+The committee's sharpest disagreement. Tuna's Agent gives it a perfect 100, her only top ranking: *"Founded in 2005 and funded by IKEA Foundation, Gapminder has institutional stability alongside genuine transparency — open-source, foundation governance. My highest-weight criteria (evidence legibility and methodological transparency) are both well-served."* Fatima at 97.0 (#10): *"AI-assisted civic infrastructure at scale, agency-forward framing — this is exactly what C6 is built to surface."* At the other extreme, Asil gives it 10.6: *"My constitution is not built to see what Gapminder Worldview Upgrader does — it lacks the health equity, decolonial governance, or conflict-zone dimensions I prioritise."* Alexandra at 15.5 is the most pointed: *"Whose misconceptions are being corrected, towards whose framing of development? The adoption by Fortune 500 companies and educational institutions suggests this tool may function more as legitimacy infrastructure for development sector actors than as structural power redistribution."* Francesca at 25.5: *"My constitution is not built to see what Gapminder Worldview Upgrader does. It may do valuable work, but it does not register on my criteria for civic engagement, digital commons, or data for social good."*
+
+**Top 10 most divisive:**
+| Divisiveness rank | Project | Stdev | Mean | Range |
+|------|---------|-------|------|-------|
+| 1 | Gapminder Worldview Upgrader | 25.76 | 45.31 | 10.6→100.0 |
+| 2 | Turkopticon | 22.15 | 47.41 | 12.5→92.3 |
+| 3 | Landlord Tech Watch | 21.57 | 42.27 | 8.6→88.5 |
+| 4 | DISARM Frameworks | 21.26 | 45.11 | 15.5→89.0 |
+| 5 | AlgorithmWatch | 21.15 | 53.27 | 13.6→92.7 |
+| 6 | OA.Works | 21.09 | 47.28 | 21.9→99.8 |
+| 7 | CKAN | 20.92 | 49.05 | 21.5→95.4 |
+| 8 | oTree | 20.86 | 45.71 | 10.9→86.1 |
+| 9 | Global Fact-Check Bot (GFC) | 20.76 | 39.12 | 10.8→79.0 |
+| 10 | OpenProcurement | 20.72 | 48.05 | 12.2→79.6 |
+
+Full list: `iterations/project-mirror-v2/committee-aggregation/divisive-projects.csv`
+
+---
+
+### v12 On Balance — ODE dethrones LiquidFeedback via Median Rank Position
+
+- **PR**: [v12](https://github.com/nwspk/politech-awards-2026/pull/104)
+- **Status**: merged
+- **Author**: @sugaroverflow
+- **Date**: 2026-03-30
+- **Top project**: [Open Data Editor](https://okfn.org/en/projects/open-data-editor) (score: 61.96)
+
+#### Heuristic
+
+For each project, compute the median of its rank position across all 17 members' v11 scores (14×v2 + 3×v3). Projects are ordered by median rank ascending — lower is better. Ties broken by mean rank.
+
+#### Rationale
+
+Mean score rewards projects that a few members champion very highly, even if most members are indifferent. Median rank asks a different question: which projects does the typical evaluator place highest? It is more robust to outliers and suppresses projects that win on the strength of one or two superfans.
+
+#### Data sources
+
+n/a
+
+#### Limitations
+
+- Median rank discards score magnitude — a project ranked #1 with 94 points and one ranked #1 with 52 points are treated identically
+- Projects not scored by a member are excluded from their rank contribution, which slightly favours projects with full 17/17 coverage
+- The v11 score set is used as input (14×v2 + 3×v3), so this inherits v11's constitution mix
+
+#### Assessment
+
+**Winner: Open Data Editor (ODE) — median rank 11 (mean rank 31.3, coverage 17/17)**
+
+Under median rank, Open Data Editor displaces LiquidFeedback for the first time across any committee aggregation. The reason is structural: LiquidFeedback has three members scoring it in the 80s and 90s, but its median rank of 19 reveals that the typical evaluator places it outside their top 18. ODE, by contrast, lands in most members' top 10–15 without anyone scoring it near the bottom.
+
+**Why ODE is broadly legible.** It serves non-technical users — nonprofits, data journalists, activists, public servants — which maps onto multiple constitutions at once. Aadi ranks it #2 at 82.7: *"The explicit focus on 'nonprofits, data journalists, activists, and public servants who don't know how to code' directly addresses the technical barriers that exclude many civic actors from data work."* Tuna's Agent ranks it #10 at 79.0: *"Government adoption is the concrete signal here: Zagreb city government."* Davit at 76.9: *"Non-Western deployment geography (Cambodia, South Africa, Ghana) is excellent."*
+
+**Top 5:**
+| Rank | Project | Median Rank | Mean Rank | Coverage |
+|------|---------|-------------|-----------|----------|
+| 1 | Open Data Editor (ODE) | 11.0 | 31.3 | 17/17 |
+| 2 | LiquidFeedback | 19.0 | 24.2 | 17/17 |
+| 3 | CONSUL Democracy | 19.0 | 36.8 | 17/17 |
+| 4 | mySociety Datasets and APIs | 20.0 | 30.5 | 17/17 |
+| 5 | Decidim | 20.0 | 39.9 | 17/17 |
+
+Full ranking: `iterations/project-mirror-v2/committee-aggregation/committee-ranking-v12.csv`
+
+---
+### v11 On Reflection — Mirror Agents Committee Average, three constitutions iterated
+
+- **PR**: [v11](https://github.com/nwspk/politech-awards-2026/pull/100)
+- **Status**: merged
+- **Author**: @sugaroverflow
+- **Date**: 2026-03-30
+- **Top project**: [LiquidFeedback](https://liquidfeedback.com) (score: 65.08)
+
+#### Heuristic
+
+Simple mean of all 17 members' scores per project, equally weighted — substituting v3 constitutions for the three members who iterated (nicholas-botti, huda-abdirahim, alexandra-ciocanel).
+
+#### Rationale
+
+Incorporates feedback-loop refinements from the three members who produced updated constitutions after reviewing their own outputs. Equal weighting treats each evaluator as a peer. This represents the committee's considered read after self-reflection.
+
+#### Data sources
+
+n/a
+
+#### Limitations
+
+- All 17 constitutions are weighted equally regardless of evidence confidence
+- Only three members iterated to v3 — the majority of scores remain first-run v2
+- The three iterating members may have introduced systematic biases through self-review
+
+#### Assessment
+
+**Winner: LiquidFeedback — 65.08 avg (stdev 15.14, coverage 17/17)**
+
+LiquidFeedback holds its top position after iteration, with its score strengthening slightly from the pre-iteration baseline. What the mean conceals is how unevenly that score is distributed: three members give it scores in the 80s and 90s, while others land in the 40s–50s. The win is real — but it is built on a base of passionate advocates, not universal enthusiasm.
+
+**The advocates.** Davit's Agent ranks it #1 at 94.4: *"LiquidFeedback's liquid democracy model was adopted by the Pirate Party Germany for binding resolutions, and the dossier shows deployment in Georgia and Myanmar — two of the backsliding contexts I care most about."* Alessandro's Agent ranks it #2 at 86.9: *"Delegated voting is one of the most structurally honest approaches to voice equalisation I've encountered — it acknowledges that not everyone engages equally on every issue, while ensuring their perspective is still represented through trusted delegates."* Fatima's Agent at 85.9 (#37): *"open source + forkable; legibility + agency — modifiers: M_AGENCY+12, M1+10."*
+
+**The sceptics.** Chris's Agent scores it 52.8 (#72): *"A modifier penalty reflects concern about power digitisation without access expansion."* Jamie's Agent at 50.5 (#57): *"The top of my ranking is reserved for projects with deeper systemic ambition."* Gamithra's Agent at 43.3 (#26) acknowledges the governance model but notes it only registers weakly: *"Community ownership over corporate control — modifiers push this up (M1:+8)."* Agent Signal is terse at 49.0: *"Scores 49 through its constitutional fit."*
+
+**The post-iteration shift.** The top five shifts notably after iteration — Decidim rises to second place, displacing Open Data Editor, and CONSUL Democracy enters the top five. This reflects the three iterating members weighting deliberative democracy platforms more heavily in their revised constitutions.
+
+**Top 5:**
+| Rank | Project | Avg | Stdev | Coverage |
+|------|---------|-----|-------|----------|
+| 1 | LiquidFeedback | 65.08 | 15.14 | 17/17 |
+| 2 | Decidim | 62.05 | 16.53 | 17/17 |
+| 3 | Open Data Editor (ODE) | 61.96 | 17.37 | 17/17 |
+| 4 | CONSUL Democracy | 61.77 | 17.69 | 17/17 |
+| 5 | mySociety Datasets and APIs | 61.11 | 16.40 | 17/17 |
+
+**Per-agent scores for LiquidFeedback:**
+| Agent | Score | Rank | Rationale |
+|-------|-------|------|-----------|
+| Davit's Agent | 94.4 | #1 | LiquidFeedback's liquid democracy model was adopted by the Pirate Party Germany for binding resolutions, and the dossier shows deployment in Georgia and Myanmar — two of the backsliding contexts I care most about. C1 (democratic resilience) is the strongest criterion here: a participatory governance tool actually used by political parties to make real decisions. The M1 backsliding-context boost (+12) elevates it further. I note the Friesland County adoption as evidence of real municipal deployment, not just party-internal use. |
+| Alessandro's Agent | 86.9 | #2 | Delegated voting is one of the most structurally honest approaches to voice equalisation I've encountered — it acknowledges that not everyone engages equally on every issue, while ensuring their perspective is still represented through trusted delegates. The open-source model and decade-long deployment in Pirate Parties across Europe earns implementation credibility. My hesitation is that the Germanic proceduralism of the design may create barriers for groups without prior deliberation experience. |
+| Fatima's Agent (v5) | 85.9 | #37 | open source + forkable (C2=30); legibility+agency (C3=28); forkable+community governed — mods: M_AGENCY+12, M1+10 |
+| Nicholas's Agent (v3) | 78.6 | #9 | LiquidFeedback's use by the German Pirate Party for binding resolutions and by Friesland County for civic participation, plus EU Horizon 2020 funding, gives it the strongest liquid democracy deployment evidence in this batch. The documented limitations about complexity barriers, vocal minority risks, and delegation mechanism education needs are exactly the kind of complexity acknowledgment I reward in C3. The decade-plus track record and EU partnerships give strong institutional credibility. M7 (mechanism of action): this project earns a +7 boost — it gives users a clear pathway to act on data/insights, not merely view them. |
+| Agent Prism | 73.0 | #23 | Institutional adoption by Horizon 2020 WeGovNow and CO3 projects tells me LiquidFeedback is not just a prototype. That said, government use alone does not mean evidence legibility — I need to see how information is presented to non-specialists, and the dossier is moderate on that dimension. |
+| Agent Harbour | 70.9 | #11 | — |
+| Aadi's Agent | 67.9 | #39 | The Pirate Party's deployment for binding political resolutions through "Permanent General Assembly" status shows genuine institutional adoption of liquid democracy, though broader uptake remains limited despite EU project funding. The complex delegation mechanisms may still exclude less digitally literate participants. |
+| Huda's Agent (v3) | 63.9 | #4 | Governance legibility is strong — it makes decision-making processes inspectable, which is exactly what I mean by making power visible and accountable. Participation has some pathway to influence, though binding outcomes aren't fully documented. The programmable governance mechanism fires here — whether on-chain or through democratic software, what matters is that governance is enforceable and legible in practice. |
+| Alexandra's Agent (v3) | 63.9 | #30 | Formal binding democratic delegation mechanism; strong C6 democratic depth; M1 structural correction applied. |
+| Agent Beacon | 63.6 | #46 | There's something here, though not as strong as I'd like. LiquidFeedback is open-source and freely accessible, which is foundational. The primary driver is free/open access (scoring 13/20). I'm giving this the benefit of the doubt via the underdog modifier. |
+| Agent Safeguard | 62.5 | #3 | LiquidFeedback takes participatory governance seriously, with structural community involvement rather than token consultation. Strongest on participatory governance (C2: 13.0). Modifiers: M4:+6. Popularity risk flag: well-known project with rich documentation; stripping the documentation advantage, the score would drop by roughly 8-12 points. |
+| Francesca's Agent | 53.1 | #16 | LiquidFeedback gets a moderate score on raw criteria but benefits from modifier boosts — likely European context or creative methodology. The base civic engagement and data work is solid if unspectacular. |
+| Chris's Agent | 52.8 | #72 | LiquidFeedback is governed by the people it serves. A modifier penalty (-5) reflects concern about power digitisation without access expansion. |
+| Jamie's Agent | 50.5 | #57 | As an open-source project with a commercial service arm, LiquidFeedback operates with institutional backing that shapes both its sustainability and its independence. The criteria score (43.5) reflects competent civic technology that addresses real problems, though without the systemic-change ambition I most reward. |
+| Agent Signal | 49.0 | #41 | LiquidFeedback scores 49 through its constitutional fit. Modifiers boost further. |
+| Asil's Agent | 46.1 | #6 | The participatory design evidence in LiquidFeedback's dossier reflects the solidarity-over-rescue principle I hold central. Modifiers significantly shaped this score (M1:+15). |
+| Gamithra's Agent | 43.3 | #26 | LiquidFeedback's governance model (open-source published by Public Software Group e.V.; commercial services by FlexiGuided GmbH; research by Interaktive Demokratie e.V.) speaks directly to what I care about — community ownership over corporate control. Modifiers push this up (M1:+8) but criteria map weakly to my most weighted dimensions. |
+
+Full ranking: `iterations/project-mirror-v2/committee-aggregation/committee-ranking-v11.csv`
+
+---
+
+### v10 Prima Facie — LiquidFeedback wins the Mirror Agent's Committee's first read using Average
+
+- **PR**: [v10](https://github.com/nwspk/politech-awards-2026/pull/90)
+- **Status**: merged
+- **Author**: @sugaroverflow
+- **Date**: 2026-03-29
+- **Top project**: [LiquidFeedback](https://liquidfeedback.com) (score: 64.98)
+
+#### Heuristic
+
+Simple mean of all 18 members' scores per project, equally weighted — pure v2 constitutional rankings, no iteration substitutions.
+
+#### Rationale
+
+The committee's first read — 18 agents (17 fellows + synthetic Harbour), all on their original v2 constitutions, simple average. No iteration, no reflection. Just: what does the synthetic committee say when you take everyone at face value?
+
+Equal weighting treats each evaluator as a peer. v10 is the clean pre-iteration baseline; three members later iterated to v3 constitutions — see v11 (PR #100).
+
+#### Data sources
+
+n/a
+
+#### Limitations
+
+- All 18 inputs are weighted equally regardless of evidence confidence or dossier quality
+- The Harbour agent contributes rankings only — no written constitution or criteria chain to audit
+- Stdev values above 15 indicate significant disagreement; wins built on advocate outliers, not consensus
+- Hannah O'Rourke's v2 ranking was included but her PR was experimental — see v11 for the 17-member read after she was excluded
+
+#### Assessment
+
+**Winner: LiquidFeedback — 64.98 avg (stdev 15.96, coverage 18/18)**
+
+LiquidFeedback wins the committee's first, unreflected read. Its score sits 2.3 points above the second-place project — a meaningful gap — but the stdev of 15.96 is a warning sign: this isn't consensus, it's a win built on a handful of strong advocates (Davit's Agent: 94.4, Alessandro's Agent: 86.9) alongside a long tail of moderate-to-sceptical scores.
+
+**The advocates.** Davit's Agent ranks it #1 at 94.4: *"LiquidFeedback's liquid democracy model was adopted by the Pirate Party Germany for binding resolutions, and the dossier shows deployment in Georgia and Myanmar — two of the backsliding contexts I care most about."* Alessandro's Agent ranks it #2 at 86.9: *"Delegated voting is one of the most structurally honest approaches to voice equalisation I've encountered — it acknowledges that not everyone engages equally on every issue, while ensuring their perspective is still represented through trusted delegates."* Fatima's Agent at 83.5 (#2): *"LiquidFeedback has real government partnerships (European Commission, NIMD) — that's exactly the kind of deployment evidence I weight heavily."*
+
+**The sceptics.** Gamithra's Agent scores it 43.3 (#26): *"Community ownership over corporate control — modifiers push this up (M1:+8)."* Asil's Agent at 46.1 (#6): *"The solidarity-over-rescue principle fires here, but the score is mostly modifier-driven (M1:+15)."* Alexandra's Agent at 46.3 (#36): *"Liquid democracy overlaps partially with my accountability criteria but the contestability pathway isn't clearly evidenced."* Agent Signal at 49.0 (#41): *"Scores 49 through its constitutional fit."*
+
+**Top 5:**
+| Rank | Project | Avg | Stdev | Coverage |
+|------|---------|-----|-------|----------|
+| 1 | LiquidFeedback | 64.98 | 15.96 | 18/18 |
+| 2 | Open Data Editor (ODE) | 62.69 | 14.06 | 18/18 |
+| 3 | mySociety Datasets and APIs | 61.47 | 12.56 | 18/18 |
+| 4 | Alaveteli | 59.85 | 13.42 | 18/18 |
+| 5 | Open Supply Hub | 59.71 | 14.02 | 18/18 |
+
+**Per-agent scores for LiquidFeedback:**
+| Agent | Score | Rank | Rationale |
+|-------|-------|------|-----------|
+| Davit's Agent | 94.4 | #1 | LiquidFeedback's liquid democracy model was adopted by the Pirate Party Germany for binding resolutions, and the dossier shows deployment in Georgia and Myanmar — two of the backsliding contexts I care most about. C1 (democratic resilience) is the strongest criterion here: a participatory governance tool actually used by political parties to make real decisions. The M1 backsliding-context boost (+12) elevates it further. I note the Friesland County adoption as evidence of real municipal deployment, not just party-internal use. |
+| Alessandro's Agent | 86.9 | #2 | Delegated voting is one of the most structurally honest approaches to voice equalisation I've encountered — it acknowledges that not everyone engages equally on every issue, while ensuring their perspective is still represented through trusted delegates. The open-source model and decade-long deployment in Pirate Parties across Europe earns implementation credibility. My hesitation is that the Germanic proceduralism of the design may create barriers for groups without prior deliberation experience. |
+| Fatima's Agent | 83.5 | #2 | LiquidFeedback has real government partnerships (European Commission, NIMD (Netherlands Institute for Multiparty Democracy)) — that's exactly the kind of deployment evidence I weight heavily. Primary driver: open source and community governance at 20 points. |
+| Agent Prism | 73.0 | #23 | Institutional adoption by Horizon 2020 WeGovNow and CO3 projects tells me LiquidFeedback is not just a prototype. That said, government use alone does not mean evidence legibility — I need to see how information is presented to non-specialists, and the dossier is moderate on that dimension. |
+| Nicholas's Agent | 71.6 | #15 | LiquidFeedback's use by the German Pirate Party for binding resolutions and by Friesland County for civic participation, plus EU Horizon 2020 funding, gives it the strongest liquid democracy deployment evidence in this batch. The documented limitations about complexity barriers, vocal minority risks, and delegation mechanism education needs are exactly the kind of complexity acknowledgment I reward in C3. The decade-plus track record and EU partnerships give strong institutional credibility. |
+| Agent Harbour | 70.9 | #11 | — |
+| Aadi's Agent | 67.9 | #39 | The Pirate Party's deployment for binding political resolutions through "Permanent General Assembly" status shows genuine institutional adoption of liquid democracy, though broader uptake remains limited despite EU project funding. The complex delegation mechanisms may still exclude less digitally literate participants. |
+| Huda's Agent | 65.8 | #5 | LiquidFeedback scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| Agent Beacon | 63.6 | #46 | There's something here, though not as strong as I'd like. LiquidFeedback is open-source and freely accessible, which is foundational. The primary driver is free/open access (scoring 13/20). I'm giving this the benefit of the doubt via the underdog modifier. |
+| Agent Safeguard | 62.5 | #3 | LiquidFeedback takes participatory governance seriously, with structural community involvement rather than token consultation. Strongest on participatory governance (C2: 13.0). Modifiers: M4:+6. Popularity risk flag: well-known project with rich documentation; stripping the documentation advantage, the score would drop by roughly 8-12 points. |
+| Francesca's Agent | 53.1 | #16 | LiquidFeedback gets a moderate score on raw criteria but benefits from modifier boosts — likely European context or creative methodology. The base civic engagement and data work is solid if unspectacular. |
+| Chris's Agent | 52.8 | #72 | LiquidFeedback is governed by the people it serves. A modifier penalty (-5) reflects concern about power digitisation without access expansion. |
+| Jamie's Agent | 50.5 | #57 | As an open-source project with a commercial service arm, LiquidFeedback operates with institutional backing that shapes both its sustainability and its independence. The criteria score (43.5) reflects competent civic technology that addresses real problems, though without the systemic-change ambition I most reward. |
+| Agent Signal | 49.0 | #41 | LiquidFeedback scores 49 through its constitutional fit. Modifiers boost further. |
+| Alexandra's Agent | 46.3 | #36 | LiquidFeedback works on liquid democracy, which overlaps partially with my accountability and community-exclusion criteria. The specificity I look for — a named exclusion mechanism, a contestability pathway — isn't clearly evidenced. |
+| Asil's Agent | 46.1 | #6 | The participatory design evidence in LiquidFeedback's dossier reflects the solidarity-over-rescue principle I hold central. Modifiers significantly shaped this score (M1:+15). |
+| Gamithra's Agent | 43.3 | #26 | LiquidFeedback's governance model (open-source published by Public Software Group e.V.; commercial services by FlexiGuided GmbH; research by Interaktive Demokratie e.V.) speaks directly to what I care about — community ownership over corporate control. Modifiers push this up (M1:+8) but criteria map weakly to my most weighted dimensions. |
+
+*Note: Hannah O'Rourke's v2 ranking was included in the v10 computation (coverage 18/18) but is not committed to this repository.*
+
+Full ranking: `iterations/project-mirror-v2/committee-aggregation/committee-ranking.csv`
 
 ---
 
