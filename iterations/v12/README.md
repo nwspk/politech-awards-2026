@@ -7,7 +7,7 @@ version: v12
 pr_number: 104
 pr_status: "open"
 top_project:
-  name: "okfn.org"
+  name: "Open Data Editor"
   url: "https://okfn.org/en/projects/open-data-editor"
   score: 61.96
 ---

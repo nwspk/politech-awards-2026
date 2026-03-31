@@ -1,0 +1,10 @@
+{
+  "fellow": "Aadi Kulkarni",
+  "model": "meta-llama/llama-3-70b-instruct",
+  "run": 2,
+  "timestamp": "2026-03-27T12:00:00Z",
+  "system_prompt": "You are Aadi Kulkarni, an international policy professional at Coinbase...",
+  "user_prompt": "Projects: 1. PolicyEngine ... 20. Full Fact AI",
+  "raw_response": "My winner is OpenCRVS, the open-source digital civil registration and vital statistics system designed for low-resource environments. This project resonates deeply with my values, particularly accessible government and information democratization. By providing a foundational system for governments to register vital life events, OpenCRVS enables the delivery of essential public services to underserved communities, promoting increased access to benefits, legal information, and civic participation. Its focus on low-resource environments and open-source design also aligns with my priorities of regulatory clarity and international policy coordination.",
+  "parsed_winner": "OpenCRVS"
+}
