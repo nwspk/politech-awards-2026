@@ -18,17 +18,17 @@ Canonical full iteration history for `/awards` rendering. Generated from `iterat
 | v10 | 2026-03-29 | @sugaroverflow | merged | Simple mean of all 18 members' scores per project, equally weighted — pure v2 constitutional rankings, no iteration substitutions. | [v10](https://github.com/nwspk/politech-awards-2026/pull/90) | [entry](#v10-prima-facie-liquidfeedback-wins-the-mirror-agent-s-committee-s-first-read-using-average) |
 | v11 | 2026-03-30 | @sugaroverflow | merged | Simple mean of all 17 members' scores per project, equally weighted — substituting v3 constitutions for the three members who iterated (nicholas-botti, huda-abdirahim, alexandra-ciocanel). | [v11](https://github.com/nwspk/politech-awards-2026/pull/100) | [entry](#v11-on-reflection-mirror-agents-committee-average-three-constitutions-iterated) |
 | v12 | 2026-03-30 | @sugaroverflow | merged | For each project, compute the median of its rank position across all 17 members' v11 scores (14×v2 + 3×v3). Projects are ordered by median rank ascending — lower is better. Ties broken by mean rank. | [v12](https://github.com/nwspk/politech-awards-2026/pull/104) | [entry](#v12-on-balance-ode-dethrones-liquidfeedback-via-median-rank-position) |
-| v13 | 2026-03-30 | @sugaroverflow | open | Projects ranked by standard deviation of scores across all 17 members (v11 score set: 14×v2 + 3×v3). High stdev = the committee disagrees sharply. Only projects with coverage ≥ 15/17 included. | [v13](https://github.com/nwspk/politech-awards-2026/pull/105) | [entry](#v13-in-dispute-gapminder-algorithmwatch-vtaiwan-split-the-room) |
+| v13 | 2026-03-30 | @sugaroverflow | merged | Projects ranked by standard deviation of scores across all 17 members (v11 score set: 14×v2 + 3×v3). High stdev = the committee disagrees sharply. Only projects with coverage ≥ 15/17 included. | [v13](https://github.com/nwspk/politech-awards-2026/pull/105) | [entry](#v13-in-dispute-gapminder-algorithmwatch-vtaiwan-split-the-room) |
 
 ## Full iteration records
 
 ### v13 In Dispute — Gapminder, AlgorithmWatch, vTaiwan split the room
 
 - **PR**: [v13](https://github.com/nwspk/politech-awards-2026/pull/105)
-- **Status**: open
+- **Status**: merged
 - **Author**: @sugaroverflow
 - **Date**: 2026-03-30
-- **Top project**: [Gapminder Worldview Upgrader](https://upgrader.gapminder.org) (score: 45.31)
+- **Top project**: [liquidfeedback.com](https://liquidfeedback.com) (score: 45.31)
 
 #### Heuristic
 
@@ -40,9 +40,7 @@ A committee average obscures disagreement. A project can land mid-table not beca
 
 #### Data sources
 
-- project URL
-- scraped content
-- additional data files
+n/a
 
 #### Limitations
 
@@ -54,23 +52,7 @@ A committee average obscures disagreement. A project can land mid-table not beca
 
 **#1 Most divisive: Gapminder Worldview Upgrader — stdev 25.76 (mean 45.31, range 10.6→100.0)**
 
-The committee's sharpest disagreement. Tuna's Agent gives it a perfect 100, her only top ranking: *"Founded in 2005 and funded by IKEA Foundation, Gapminder has institutional stability alongside genuine transparency — open-source, foundation governance. My highest-weight criteria (evidence legibility and methodological transparency) are both well-served."* Fatima at 97.0 (#10): *"AI-assisted civic infrastructure at scale, agency-forward framing — this is exactly what C6 is built to surface."* At the other extreme, Asil gives it 10.6: *"My constitution is not built to see what Gapminder Worldview Upgrader does — it lacks the health equity, decolonial governance, or conflict-zone dimensions I prioritise."* Alexandra at 15.5 is the most pointed: *"Whose misconceptions are being corrected, towards whose framing of development? The adoption by Fortune 500 companies and educational institutions suggests this tool may function more as legitimacy infrastructure for development sector actors than as structural power redistribution."* Francesca at 25.5: *"My constitution is not built to see what Gapminder Worldview Upgrader does. It may do valuable work, but it does not register on my criteria for civic engagement, digital commons, or data for social good."*
-
-**#5 AlgorithmWatch — stdev 21.15 (mean 53.27, range 13.6→92.7)**
-
-Safeguard ranks it #1 at 92.7: *"AlgorithmWatch is almost exactly what I look for: a project that builds enforcement infrastructure for AI governance while maintaining cross-jurisdictional reach. Strongest on enforcement/verification (C1: 20)."* Nick at 87.5: *"The EU AI Act FRIA requirement is a directly cited policy outcome — AlgorithmWatch claims to have led that advocacy."* But Alessandro, who acknowledges the project's importance, still scores it 39.7 (#167) and names the limitation directly: *"I keep coming back to this: my constitution scores AlgorithmWatch lower than its civic importance deserves. Algorithmic accountability is foundational to democratic governance. This is the clearest case where my constitution's blind spots are doing real damage to the ranking."* Gamithra gives it 13.6 (#267): *"My constitution struggles to see what AlgorithmWatch does — the criteria don't map well onto this kind of work. Modifiers pull this down."*
-
-**#11 vTaiwan — stdev 20.35 (mean 54.73, range 17.0→87.5)**
-
-Nick at 87.5 (#3): *"vTaiwan's documented influence on Uber, Airbnb, and alcohol sales regulation in Taiwan represents the strongest evidence of policymaker adoption in deliberative democracy that I have seen in this batch."* Alexandra at 80.6 (#4): *"Formal legislative consultation with documented policy outcomes; highest C1+C6 in batch."* Signal at 17.0 (#304): *"vTaiwan scores 17 through its constitutional fit."* Asil at 19.1 (#144): *"vTaiwan engages with governance redistribution in ways that resonate with my decolonial commitments — but the primary driver is community-centred design, and the evidence is thin."* The pattern: deliberative democracy specialists see a landmark. Constitutions built around health equity, campaign infrastructure, or enforcement see a Taiwan-specific platform with limited transferability.
-
-**Worker Info Exchange — stdev 18.39 (mean 40.08, range 13.4→94.7)**
-
-Alexandra gives it 94.7, her only top ranking in the entire dataset: *"This is the clearest case of a project that names a specific power asymmetry (algorithmic management of gig workers), builds formal legal mechanisms to contest it (GDPR Data Subject Access Requests, strategic litigation), and has documented wins: Amsterdam courts ordering Uber and Ola Cabs to disclose algorithmic data."* Nick at 67.0: *"The first court order overturning an automated worker dismissal under GDPR — landmark legal outcomes for algorithmic accountability."* Asil at 13.4: *"My constitution is not built to see what Worker Info Exchange does — it lacks the health equity, decolonial governance, or conflict-zone dimensions I prioritise."* Gamithra at 21.7: *"My constitution struggles to see what Worker Info Exchange does — the criteria don't map well onto this kind of work."* Fatima at 41.0: *"The highest-scoring criterion is making government processes legible at only 11 points — nothing here pulls strongly."*
-
-**Polis — stdev 18.66 (mean 58.31, range 19.9→94.4)**
-
-Nick ranks it #1 at 94.4: *"Polis is one of the most substantive deliberative democracy platforms in this list — the vTaiwan deployment directly informed Uber and Airbnb regulation, which is exactly the kind of policymaker advisory I value most."* Davit at 75.2: *"Polis explicitly models group opinion dynamics to find consensus — the psychological and behavioural dimension is stronger here than in most projects."* Signal at 33.0 (#175) and Asil at 19.9 (#131) barely register it. The split follows the same fault line as vTaiwan: the deliberative democracy constitutions treat Polis as a landmark; other constitutions see a tool that doesn't engage their criteria.
+The committee's sharpest disagreement. Tuna's Agent gives it a perfect 100, her only top ranking: *"Founded in 2005 and funded by IKEA Foundation, Gapminder has institutional stability alongside genuine transparency — open-source, foundation governance."* Fatima at 97.0 (#10): *"AI-assisted civic infrastructure at scale, agency-forward framing."* At the other extreme, Asil gives it 10.6: *"My constitution is not built to see what Gapminder Worldview Upgrader does — it lacks the health equity, decolonial governance, or conflict-zone dimensions I prioritise."* Alexandra at 15.5: *"Whose misconceptions are being corrected, towards whose framing of development? The adoption by Fortune 500 companies suggests this tool may function more as legitimacy infrastructure for development sector actors than as structural power redistribution."*
 
 **Top 10 most divisive:**
 | Divisiveness rank | Project | Stdev | Mean | Range |
@@ -96,7 +78,7 @@ Full list: `iterations/project-mirror-v2/committee-aggregation/divisive-projects
 - **Status**: merged
 - **Author**: @sugaroverflow
 - **Date**: 2026-03-30
-- **Top project**: [Open Data Editor](https://okfn.org/en/projects/open-data-editor) (score: 61.96)
+- **Top project**: [liquidfeedback.com](https://liquidfeedback.com) (score: 61.96)
 
 #### Heuristic
 
@@ -136,6 +118,7 @@ Under median rank, Open Data Editor displaces LiquidFeedback for the first time 
 Full ranking: `iterations/project-mirror-v2/committee-aggregation/committee-ranking-v12.csv`
 
 ---
+
 ### v11 On Reflection — Mirror Agents Committee Average, three constitutions iterated
 
 - **PR**: [v11](https://github.com/nwspk/politech-awards-2026/pull/100)
@@ -280,7 +263,6 @@ LiquidFeedback wins the committee's first, unreflected read. Its score sits 2.3 
 *Note: Hannah O'Rourke's v2 ranking was included in the v10 computation (coverage 18/18) but is not committed to this repository.*
 
 Full ranking: `iterations/project-mirror-v2/committee-aggregation/committee-ranking.csv`
-
 
 ---
 

@@ -44,6 +44,7 @@ _Bot-maintained summary. Full records: [docs/logs/iterations-log.md](docs/logs/i
 | v9 | 2026-03-28 | open | www.torproject.org | [v9](https://github.com/nwspk/politech-awards-2026/pull/89) | [entry](docs/logs/iterations-log.md) |
 | v10 | 2026-03-29 | merged | LiquidFeedback | [v10](https://github.com/nwspk/politech-awards-2026/pull/90) | [entry](docs/logs/iterations-log.md) |
 | v11 | 2026-03-30 | merged | LiquidFeedback | [v11](https://github.com/nwspk/politech-awards-2026/pull/100) | [entry](docs/logs/iterations-log.md) |
-| v12 | 2026-03-30 | merged | Open Data Editor | [v12](https://github.com/nwspk/politech-awards-2026/pull/104) | [entry](docs/logs/iterations-log.md) |
-| v13 | 2026-03-30 | open | Gapminder Worldview Upgrader | [v13](https://github.com/nwspk/politech-awards-2026/pull/105) | [entry](docs/logs/iterations-log.md) |
+| v12 | 2026-03-30 | merged | liquidfeedback.com | [v12](https://github.com/nwspk/politech-awards-2026/pull/104) | [entry](docs/logs/iterations-log.md) |
+| v13 | 2026-03-30 | merged | liquidfeedback.com | [v13](https://github.com/nwspk/politech-awards-2026/pull/105) | [entry](docs/logs/iterations-log.md) |
+
 <!-- ITERATIONS:END -->

@@ -5,10 +5,11 @@ date: "2026-03-30"
 pr_url: "https://github.com/nwspk/politech-awards-2026/pull/105"
 version: v13
 pr_number: 105
-pr_status: "open"
+pr_status: "merged"
 top_project:
-  name: "Gapminder Worldview Upgrader"
-  url: "https://upgrader.gapminder.org"
+  name: "liquidfeedback.com"
+  url: "https://liquidfeedback.com"
+  score: 65.08
   score: 45.31
 ---
 
