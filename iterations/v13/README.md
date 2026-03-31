@@ -7,7 +7,7 @@ version: v13
 pr_number: 105
 pr_status: "open"
 top_project:
-  name: "upgrader.gapminder.org"
+  name: "Gapminder Worldview Upgrader"
   url: "https://upgrader.gapminder.org"
   score: 45.31
 ---

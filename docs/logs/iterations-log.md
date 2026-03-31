@@ -17,16 +17,16 @@ Canonical full iteration history for `/awards` rendering. Generated from `iterat
 | v9 | 2026-03-28 | @alecsandrac | open | **Evaluation:** `npx tsx scripts/alexandra/alexandra-eval.ts` — each juror returns integers 1–5 for D1–D8 plus an `evidence[]` array (URL, quote, source type) per the prompt. Context = **enriched dossier** (`data/enriched/*.json`) + **cached page text** (`cache/sites.sqlite`), same spirit as `itn-a-eval.ts`. **Speed:** `--concurrency N` (e.g. `8`) runs N URLs in parallel; `--call-delay-ms 0` removes pauses between calls if your OpenRouter tier tolerates it (default `800`). | [v9](https://github.com/nwspk/politech-awards-2026/pull/89) | [entry](#v9-contestable-transparency-dimensional-rubric-three-jurors-auditable-evidence) |
 | v10 | 2026-03-29 | @sugaroverflow | merged | Simple mean of all 18 members' scores per project, equally weighted — pure v2 constitutional rankings, no iteration substitutions. | [v10](https://github.com/nwspk/politech-awards-2026/pull/90) | [entry](#v10-prima-facie-liquidfeedback-wins-the-mirror-agent-s-committee-s-first-read-using-average) |
 | v11 | 2026-03-30 | @sugaroverflow | merged | Simple mean of all 17 members' scores per project, equally weighted — substituting v3 constitutions for the three members who iterated (nicholas-botti, huda-abdirahim, alexandra-ciocanel). | [v11](https://github.com/nwspk/politech-awards-2026/pull/100) | [entry](#v11-on-reflection-mirror-agents-committee-average-three-constitutions-iterated) |
-| v13 | 2026-03-30 | @sugaroverflow | open | Projects ranked by standard deviation of scores across all 17 members (v11 score set: 14×v2 + 3×v3). High stdev = the committee disagrees sharply. Only projects with coverage ≥ 15/17 included. | [v13](https://github.com/nwspk/politech-awards-2026/pull/105) | [entry](#v13-in-dispute-projects-that-split-the-committee) |
+| v13 | 2026-03-30 | @sugaroverflow | open | Projects ranked by standard deviation of scores across all 17 members (v11 score set: 14×v2 + 3×v3). High stdev = the committee disagrees sharply. Only projects with coverage ≥ 15/17 included. | [v13](https://github.com/nwspk/politech-awards-2026/pull/105) | [entry](#v13-in-dispute-gapminder-algorithmwatch-vtaiwan-split-the-room) |
 ## Full iteration records
 
-### v13 In Dispute — Projects that split the committee
+### v13 In Dispute — Gapminder, AlgorithmWatch, vTaiwan split the room
 
 - **PR**: [v13](https://github.com/nwspk/politech-awards-2026/pull/105)
 - **Status**: open
 - **Author**: @sugaroverflow
 - **Date**: 2026-03-30
-- **Top project**: [upgrader.gapminder.org](https://upgrader.gapminder.org) (score: 45.31)
+- **Top project**: [Gapminder Worldview Upgrader](https://upgrader.gapminder.org) (score: 45.31)
 
 #### Heuristic
 
