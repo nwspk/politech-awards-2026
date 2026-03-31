@@ -1,59 +1,40 @@
 ---
-title: "Beyond Dispute — Projects the committee converges on"
+title: "Prima Facie — LiquidFeedback wins the Mirror Agent's Committee's first read using Average"
 author: "@sugaroverflow"
-date: "2026-03-30"
-pr_url: "https://github.com/nwspk/politech-awards-2026/pull/107"
+date: "2026-03-29"
+pr_url: "https://github.com/nwspk/politech-awards-2026/pull/90"
 version: v10
-pr_number: 107
+pr_number: 90
 pr_status: "open"
 top_project:
-  name: "voteforpolicies.org.uk"
-  url: "https://voteforpolicies.org.uk"
-  score: 32.54
+  name: "liquidfeedback.com"
+  url: "https://liquidfeedback.com"
+  score: 64.98
 ---
 
 ## Heuristic
 
-Projects ranked by standard deviation of scores ascending, restricted to full 17/17 coverage. Low stdev = the committee broadly agrees on how to value this project regardless of constitution. This is not a ranking by quality — it is a ranking by agreement.
+Simple mean of all 18 members' scores per project, equally weighted — pure v2 constitutional rankings, no iteration substitutions.
 
 ## Rationale
 
-Low variance has two very different meanings. It can mean a project is universally respected — a cross-constitution signal that something is genuinely strong. Or it can mean a project is universally seen as fine but unremarkable — too modest, too narrow, or too legible to any constitution to generate strong views either way. Separating these two readings is the analytical work this list invites.
+The committee's first read — 18 agents (17 fellows + synthetic Harbour), all on their original v2 constitutions, simple average. No iteration, no reflection. Just: what does the synthetic committee say when you take everyone at face value?
 
-## Data sources
-
-- project URL
-- scraped content
-- additional data files
-
-## Limitations
-
-- Requires 17/17 coverage — projects ranked by fewer members are excluded
-- Low stdev says nothing about score level — consensus can be consensus on mediocrity
-- Constitutional diversity means "agreement" may reflect shared blind spots as much as genuine convergence
+Equal weighting treats each evaluator as a peer. v10 is the clean pre-iteration baseline; three members later iterated to v3 constitutions — see v11 (PR #100).
 
 ## Assessment
 
-**Most agreed-upon: Vote for Policies — stdev 7.59 (mean 32.54)**
+**Winner: LiquidFeedback — 64.98 avg (stdev 15.96, coverage 18/18)**
 
-The committee agrees on Vote for Policies with unusual consistency — but the agreement is that it is limited. It is discontinued after the 2024 election. It is narrowly UK-focused. Multiple members note the project treats voters as passive consumers rather than building their capacity. Nick: "discontinued after 2024 election, closing off the core mechanism." Davit: "My constitution does not have room for stable-democracy domestic tools." Gamithra: "My criteria don't map well onto this kind of work." The consensus is not enthusiasm — it is quiet convergence on a modest ceiling.
+LiquidFeedback leads across 18 diverse constitutions. The win is built on a combination of passionate advocates (Davit: 94.4, Alessandro: 86.9) and broad map-ability — liquid delegation addresses apathy/representation at a system level, open source and jurisdiction-independent.
 
-**The more interesting cases are further down the list.** mySociety Datasets and APIs (stdev 16.40, mean 61.11) appears in neither the most divisive nor the most agreed-upon tiers — but it is the project with the highest mean score among those with full 17/17 coverage and moderate variance. Where Vote for Policies achieves consensus at 32.54, mySociety achieves broad agreement on quality at 61.11: researchers, FOI influence, institutional partnerships, and open APIs all map onto enough different constitutions that convergence is possible despite the wider spread.
+**Top 5:**
+| Rank | Project | Avg | Stdev | Coverage |
+|------|---------|-----|-------|----------|
+| 1 | LiquidFeedback | 64.98 | 15.96 | 18/18 |
+| 2 | Open Data Editor (ODE) | 62.69 | 14.06 | 18/18 |
+| 3 | mySociety Datasets and APIs | 61.47 | 12.56 | 18/18 |
+| 4 | Alaveteli | 59.85 | 13.42 | 18/18 |
+| 5 | Open Supply Hub | 59.71 | 14.02 | 18/18 |
 
-**The least divisive top 10 (full 17/17 coverage, sorted by stdev):**
-| Consensus rank | Project | Stdev | Mean |
-|------|---------|-------|------|
-| 1 | Vote for Policies | 7.59 | 32.54 |
-| 2 | Civic Tech Field Guide | 7.93 | 42.63 |
-| 3 | Remember to Vote | 8.06 | 35.01 |
-| 4 | Turbo Phonebank | 8.12 | 32.93 |
-| 5 | MP Watch | 8.47 | 33.66 |
-| 6 | WriteToThem | 8.60 | 40.61 |
-| 7 | MyActionCenter | 8.82 | 30.78 |
-| 8 | Local Intelligence Hub | 8.86 | 40.59 |
-| 9 | PostBug | 9.51 | 29.22 |
-| 10 | Mapped | 9.60 | 38.18 |
-
-Note: consensus here mostly reflects shared indifference — these are narrow, legible, or discontinued tools that don't strongly activate any constitution. The exception worth examining is **Civic Tech Field Guide** (mean 43.3), where agreement reflects a shared view that the resource is valuable but not transformative, and where multiple members independently flag its acknowledged Western/English-language bias as the limiting factor.
-
-Full list: `iterations/project-mirror-v2/committee-aggregation/consensus-projects.csv`
+Full ranking: `iterations/project-mirror-v2/committee-aggregation/committee-ranking.csv`
