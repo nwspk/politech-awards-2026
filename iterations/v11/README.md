@@ -7,9 +7,8 @@ version: v11
 pr_number: 100
 pr_status: "merged"
 top_project:
-  name: "liquidfeedback.com"
+  name: "LiquidFeedback"
   url: "https://liquidfeedback.com"
-  score: 65.08
   score: 65.08
 ---
 

@@ -5,9 +5,9 @@ date: "2026-03-29"
 pr_url: "https://github.com/nwspk/politech-awards-2026/pull/90"
 version: v10
 pr_number: 90
-pr_status: "open"
+pr_status: "merged"
 top_project:
-  name: "liquidfeedback.com"
+  name: "LiquidFeedback"
   url: "https://liquidfeedback.com"
   score: 64.98
 ---
@@ -21,6 +21,13 @@ Simple mean of all 18 members' scores per project, equally weighted — pure v2 
 The committee's first read — 18 agents (17 fellows + synthetic Harbour), all on their original v2 constitutions, simple average. No iteration, no reflection. Just: what does the synthetic committee say when you take everyone at face value?
 
 Equal weighting treats each evaluator as a peer. v10 is the clean pre-iteration baseline; three members later iterated to v3 constitutions — see v11 (PR #100).
+
+## Limitations
+
+- All 18 inputs are weighted equally regardless of evidence confidence or dossier quality
+- The Harbour agent contributes rankings only — no written constitution or criteria chain to audit
+- Stdev values above 15 indicate significant disagreement; wins built on advocate outliers, not consensus
+- Hannah O'Rourke's v2 ranking was included but her PR was experimental — see v11 for the 17-member read after she was excluded
 
 ## Assessment
 
