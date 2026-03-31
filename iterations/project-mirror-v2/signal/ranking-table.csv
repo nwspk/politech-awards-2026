@@ -1,0 +1,322 @@
+Rank,Project,URL,Score,Criteria Score,Modifier Adj,Dossier Completeness,Uncertainty,Popularity Risk,Primary Driver,Rationale
+1,Martus,https://www.martus.org,70,54.9,15,0.94,LOW,LOW,criteria,What draws me to Martus is its campaign relevance — exactly what progressive campaigns need.
+2,Journalist Studio,https://journaliststudio.google.com,69,50.0,19,0.94,LOW,LOW,modifier,Journalist Studio aligns well with my campaign-focused criteria.
+3,Who Targets Me Trends,https://trends.whotargets.me,69,59.8,9,0.96,LOW,LOW,criteria,I see potential in Who Targets Me Trends — evidence supports this ranking.
+4,Campaign Tracker,https://www.campaigntracker.nl/en,68,57.8,10,0.97,LOW,LOW,criteria,I see potential in Campaign Tracker — evidence supports this ranking.
+5,Open Supply Hub,https://opensupplyhub.org,68,48.0,20,0.98,LOW,LOW,modifier,Open Supply Hub scores 68 through its constitutional fit. Modifiers boost further.
+6,Open Data Editor (ODE),https://okfn.org/en/projects/open-data-editor/,66,49.0,17,0.98,LOW,LOW,modifier,Open Data Editor (ODE) aligns well with my campaign-focused criteria.
+7,Aleph (OCCRP),https://aleph.occrp.org,65,46.1,19,0.98,LOW,LOW,modifier,I see potential in Aleph (OCCRP) — evidence supports this ranking.
+8,Bellingcat Online Investigation Toolkit,https://bellingcat.gitbook.io/toolkit,65,49.0,16,1.0,LOW,LOW,modifier,Bellingcat Online Investigation Toolkit scores 65 through its constitutional fit. Modifiers boost further.
+9,Political Advertising Transparency Data Standard,https://github.com/whotargetsme/ad-transparency-standards/blob/main/implement.md,63,48.0,15,0.95,LOW,LOW,modifier,Political Advertising Transparency Data Standard aligns well with my campaign-focused criteria.
+10,ОПОРА (Opora),https://www.oporaua.org,60,51.0,9,0.95,LOW,LOW,criteria,What draws me to ОПОРА (Opora) is its campaign relevance — exactly what progressive campaigns need.
+11,Fundación Ciudadanía Inteligente,https://ciudadaniai.org,59,42.2,17,0.95,LOW,LOW,modifier,I see potential in Fundación Ciudadanía Inteligente — evidence supports this ranking.
+12,mySociety Datasets and APIs,https://data.mysociety.org,59,39.2,20,0.95,LOW,LOW,modifier,What draws me to mySociety Datasets and APIs is its campaign relevance — exactly what progressive campaigns need.
+13,Activist Handbook,https://activisthandbook.org/,56,39.2,17,0.93,LOW,LOW,modifier,Activist Handbook aligns well with my campaign-focused criteria.
+14,Pursuance Project,https://pursuanceproject.org,56,39.2,17,0.96,LOW,LOW,modifier,Pursuance Project aligns well with my campaign-focused criteria.
+15,Strike Map,https://strikemap.org,56,41.2,15,0.98,LOW,LOW,modifier,What draws me to Strike Map is its campaign relevance — exactly what progressive campaigns need.
+16,Turkopticon,https://turkopticon.ucsd.edu,55,39.2,16,0.94,LOW,LOW,modifier,Turkopticon scores 55 through its constitutional fit. Modifiers boost further.
+17,Landlord Tech Watch,https://antievictionmappingproject.github.io/landlordtech,54,39.2,15,0.98,LOW,LOW,modifier,Landlord Tech Watch scores 54 through its constitutional fit. Modifiers boost further.
+18,Open Letter,https://openletter.earth,54,45.1,9,0.98,LOW,LOW,criteria,Open Letter aligns well with my campaign-focused criteria.
+19,Hand-Written Petition Scanner,https://hand-written-petition-scanner.streamlit.app,53,37.3,16,0.93,LOW,LOW,modifier,I see potential in Hand-Written Petition Scanner — evidence supports this ranking.
+20,OpenElections Leaflet Scraper and Parser,https://github.com/thicknavyrain/uk_elections_leaflets,53,40.2,13,0.98,LOW,LOW,modifier,OpenElections Leaflet Scraper and Parser aligns well with my campaign-focused criteria.
+21,PolicyEngine,https://policyengine.org/uk,53,34.3,19,0.96,LOW,LOW,modifier,What draws me to PolicyEngine is its campaign relevance — exactly what progressive campaigns need.
+22,HURIDOCS,https://github.com/huridocs,52,32.4,20,0.95,LOW,LOW,modifier,What draws me to HURIDOCS is its campaign relevance — exactly what progressive campaigns need.
+23,The Commons Social Change Library,https://commonslibrary.org,52,43.1,9,0.98,LOW,LOW,criteria,The Commons Social Change Library aligns well with my campaign-focused criteria.
+24,Bluesky,https://bsky.app,51,35.3,16,0.95,LOW,HIGH,modifier,What draws me to Bluesky is its campaign relevance — exactly what progressive campaigns need. Popularity risk HIGH.
+25,Civic Tech Field Guide,https://civictech.guide,51,40.2,11,0.94,LOW,LOW,criteria,I see potential in Civic Tech Field Guide — evidence supports this ranking.
+26,DemTech Navigator,https://navigator.oii.ox.ac.uk,51,44.1,7,0.98,LOW,LOW,criteria,DemTech Navigator scores 51 through its constitutional fit. Modifiers boost further.
+27,Mapped,https://mapped.commonknowledge.coop,51,36.3,15,0.98,LOW,LOW,modifier,What draws me to Mapped is its campaign relevance — exactly what progressive campaigns need.
+28,Open Council Network,https://opencouncil.network,51,34.3,17,0.95,LOW,LOW,modifier,I see potential in Open Council Network — evidence supports this ranking.
+29,Talk to the City,https://talktothecity.org,51,34.3,17,0.98,LOW,LOW,modifier,Talk to the City aligns well with my campaign-focused criteria.
+30,CiviCRM,https://civicrm.org,50,33.3,17,0.95,LOW,LOW,modifier,CiviCRM scores 50 through its constitutional fit. Modifiers boost further.
+31,Community Notes (Birdwatch) Analysis Tool,https://github.com/travisbrown/birdwatch,50,34.3,16,0.98,LOW,LOW,modifier,Community Notes (Birdwatch) Analysis Tool scores 50 through its constitutional fit. Modifiers boost further.
+32,DoNotPay,https://www.donotpay.com,50,39.2,11,0.96,LOW,LOW,criteria,What draws me to DoNotPay is its civic potential — though direct campaign fit is limited.
+33,GlobaLeaks,https://www.globaleaks.org,50,31.4,19,0.96,LOW,LOW,modifier,What draws me to GlobaLeaks is its civic potential — though direct campaign fit is limited.
+34,Local Intelligence Hub,https://www.localintelligencehub.com,50,39.2,11,1.0,LOW,LOW,criteria,I see potential in Local Intelligence Hub — evidence supports this ranking.
+35,Missing Numbers,https://missingnumbers.org,50,39.2,11,0.98,LOW,LOW,criteria,Missing Numbers partially fits my campaign-focused criteria.
+36,Pastecal,https://github.com/kazad/pastecal,50,35.3,15,0.98,LOW,LOW,modifier,Pastecal scores 50 through its constitutional fit. Modifiers boost further.
+37,PlaceCal,https://github.com/geeksforsocialchange/placecal,50,35.3,15,0.98,LOW,LOW,modifier,PlaceCal partially fits my campaign-focused criteria.
+38,ShineYourEye,https://www.shineyoureye.org,50,38.2,12,1.0,LOW,LOW,modifier,What draws me to ShineYourEye is its civic potential — though direct campaign fit is limited.
+39,Violation Tracker UK,https://violationtrackeruk.goodjobsfirst.org,50,41.2,9,0.93,LOW,LOW,criteria,Violation Tracker UK partially fits my campaign-focused criteria.
+40,Guardian Project,https://guardianproject.info,49,29.4,20,0.95,LOW,HIGH,modifier,I see potential in Guardian Project — evidence supports this ranking. Popularity risk HIGH.
+41,LiquidFeedback,https://liquidfeedback.com,49,32.4,17,0.95,LOW,LOW,modifier,LiquidFeedback scores 49 through its constitutional fit. Modifiers boost further.
+42,Mozilla Data Collective,https://datacollective.mozillafoundation.org/,49,34.3,15,0.98,LOW,LOW,modifier,I see potential in Mozilla Data Collective — evidence supports this ranking.
+43,Ushahidi,https://www.ushahidi.com,49,30.4,19,0.95,LOW,LOW,modifier,Ushahidi scores 49 through its constitutional fit. Modifiers boost further.
+44,Atlas of Surveillance,https://atlasofsurveillance.org,48,31.4,17,0.96,LOW,LOW,modifier,Atlas of Surveillance scores 48 through its constitutional fit. Modifiers boost further.
+45,COTSI (Cyber Operational Threat Situational Intelligence),https://cotsi.org/,48,40.2,8,0.93,LOW,LOW,criteria,I see potential in COTSI (Cyber Operational Threat Situational Intelligence) — evidence supports this ranking.
+46,Give Food,https://www.givefood.org.uk,48,35.3,13,1.0,LOW,LOW,modifier,I see potential in Give Food — evidence supports this ranking.
+47,Global Fact-Check Bot (GFC),https://globalfactcheck.bot/,48,45.1,3,0.98,LOW,LOW,criteria,Global Fact-Check Bot (GFC) partially fits my campaign-focused criteria.
+48,Monitor Mamdani,https://monitormamdani.com/,48,39.2,9,1.0,LOW,LOW,criteria,Monitor Mamdani partially fits my campaign-focused criteria.
+49,Sugartrail,https://github.com/ribenamaplesyrup/sugartrail,48,35.3,13,0.98,LOW,LOW,modifier,I see potential in Sugartrail — evidence supports this ranking.
+50,Open Contracting Partnership,https://www.open-contracting.org,47,30.4,17,0.97,LOW,LOW,modifier,Open Contracting Partnership scores 47 through its constitutional fit. Modifiers boost further.
+51,OpenAudience,https://openaudience.org,47,38.2,9,0.98,LOW,LOW,criteria,OpenAudience partially fits my campaign-focused criteria.
+52,Rahvaalgatus,https://github.com/rahvaalgatus/rahvaalgatus,47,34.3,13,0.96,LOW,LOW,modifier,What draws me to Rahvaalgatus is its civic potential — though direct campaign fit is limited.
+53,Tracka,https://yourtracka.org,47,38.2,9,1.0,LOW,LOW,criteria,Tracka partially fits my campaign-focused criteria.
+54,Alaveteli,https://alaveteli.org,46,26.5,20,0.96,LOW,LOW,modifier,Alaveteli partially fits my campaign-focused criteria.
+55,Consent-O-Matic,https://github.com/cavi-au/consent-o-matic,46,27.5,19,0.98,LOW,LOW,modifier,What draws me to Consent-O-Matic is its civic potential — though direct campaign fit is limited.
+56,Democracy Club Developer API,https://developers.democracyclub.org.uk/api/v1,46,32.4,14,0.97,LOW,LOW,modifier,Democracy Club Developer API scores 46 through its constitutional fit. Modifiers boost further.
+57,DoGooder,https://dogooder.co,46,35.3,11,0.95,LOW,LOW,modifier,DoGooder partially fits my campaign-focused criteria.
+58,Humanitarian OpenStreetMap Team (HOT),https://www.hotosm.org,46,26.5,19,0.95,LOW,LOW,modifier,Humanitarian OpenStreetMap Team (HOT) scores 46 through its constitutional fit. Modifiers boost further.
+59,Relational Tech Project,https://relationaltechproject.org,46,31.4,15,1.0,LOW,LOW,modifier,Relational Tech Project scores 46 through its constitutional fit. Modifiers boost further.
+60,Timecounts,https://timecounts.org,46,37.3,9,0.98,LOW,LOW,criteria,I see potential in Timecounts — evidence supports this ranking.
+61,WhatDoTheyKnow,https://www.whatdotheyknow.com,46,26.5,19,0.95,LOW,LOW,modifier,WhatDoTheyKnow partially fits my campaign-focused criteria.
+62,docs.plus,https://docs.plus,46,31.4,15,0.68,LOW,LOW,modifier,I see potential in docs.plus — evidence supports this ranking.
+63,Open Ownership,https://www.openownership.org,45,30.4,15,0.95,LOW,LOW,modifier,I see potential in Open Ownership — evidence supports this ranking.
+64,OpenBudgets.eu,https://openbudgets.eu,45,34.3,11,0.85,LOW,LOW,modifier,OpenBudgets.eu partially fits my campaign-focused criteria.
+65,OpenSanctions,https://www.opensanctions.org,45,30.4,15,0.95,LOW,LOW,modifier,OpenSanctions scores 45 through its constitutional fit. Modifiers boost further.
+66,TheyWorkForYou,https://www.theyworkforyou.com,45,28.4,17,0.95,LOW,LOW,modifier,What draws me to TheyWorkForYou is its civic potential — though direct campaign fit is limited.
+67,CrowdJustice,https://www.crowdjustice.com,44,33.3,11,1.0,LOW,LOW,modifier,CrowdJustice partially fits my campaign-focused criteria.
+68,Discourse,https://www.discourse.org,44,24.5,19,0.94,LOW,HIGH,modifier,Discourse partially fits my campaign-focused criteria. Popularity risk HIGH.
+69,LittleSis,https://littlesis.org,44,23.5,20,0.97,LOW,LOW,modifier,I see potential in LittleSis — evidence supports this ranking.
+70,Loomio,https://www.loomio.org,44,24.5,19,0.95,LOW,LOW,modifier,Loomio scores 44 through its constitutional fit. Modifiers boost further.
+71,Mastodon C,https://www.mastodonc.com,44,24.5,19,0.95,LOW,LOW,modifier,What draws me to Mastodon C is its civic potential — though direct campaign fit is limited.
+72,ODK (Open Data Kit),https://getodk.org,44,24.5,19,0.95,LOW,LOW,modifier,I see potential in ODK (Open Data Kit) — evidence supports this ranking.
+73,OSINT Framework,https://osintframework.com,44,29.4,15,0.98,LOW,HIGH,modifier,OSINT Framework scores 44 through its constitutional fit. Modifiers boost further. Popularity risk HIGH.
+74,Participa (Podemos),https://github.com/podemos-info/participa,44,31.4,13,0.95,LOW,LOW,modifier,I see potential in Participa (Podemos) — evidence supports this ranking.
+75,The Government Says,https://thegovernmentsays.com,44,31.4,13,0.95,LOW,LOW,modifier,I see potential in The Government Says — evidence supports this ranking.
+76,MyActionCenter,https://www.myaction.center,43,32.4,11,0.98,LOW,LOW,modifier,MyActionCenter partially fits my campaign-focused criteria.
+77,Pageviews Analysis,https://pageviews.wmcloud.org,43,33.3,10,0.98,LOW,LOW,modifier,Pageviews Analysis scores 43 through its constitutional fit. Modifiers boost further.
+78,Parallel Parliament,https://www.parallelparliament.co.uk,43,34.3,9,0.97,LOW,LOW,criteria,Parallel Parliament partially fits my campaign-focused criteria.
+79,Stanford Participatory Budgeting Platform,https://github.com/stanfordcdt/pb,43,30.4,13,0.95,LOW,LOW,modifier,Stanford Participatory Budgeting Platform scores 43 through its constitutional fit. Modifiers boost further.
+80,Unpaywall Browser Extension,https://unpaywall.org/products/extension,43,28.4,15,0.95,LOW,LOW,modifier,Unpaywall Browser Extension scores 43 through its constitutional fit. Modifiers boost further.
+81,Who Posted What?,https://whopostedwhat.com,43,38.2,5,0.93,LOW,LOW,criteria,Who Posted What? partially fits my campaign-focused criteria.
+82,DISARM Frameworks,https://github.com/disarmfoundation/disarmframeworks,42,24.5,17,0.94,LOW,LOW,modifier,I see potential in DISARM Frameworks — evidence supports this ranking.
+83,OpenCRVS,https://www.opencrvs.org,42,27.5,15,0.95,LOW,LOW,modifier,I see potential in OpenCRVS — evidence supports this ranking.
+84,Parti,https://parti.xyz,42,24.5,17,0.98,LOW,LOW,modifier,Parti scores 42 through its constitutional fit. Modifiers boost further.
+85,River Sentiment Dashboard,https://riversentiment.app,42,27.5,14,0.98,LOW,LOW,modifier,River Sentiment Dashboard partially fits my campaign-focused criteria.
+86,VFRAME,https://vframe.io,42,27.5,15,0.95,LOW,LOW,modifier,VFRAME scores 42 through its constitutional fit. Modifiers boost further.
+87,arXiv,https://arxiv.org,42,27.5,15,0.96,LOW,LOW,modifier,What draws me to arXiv is its civic potential — though direct campaign fit is limited.
+88,Aragon,https://aragon.org,41,21.6,19,0.94,LOW,LOW,modifier,I see potential in Aragon — evidence supports this ranking.
+89,CiviClick,https://civiclick.com,41,30.4,11,0.95,LOW,LOW,modifier,CiviClick scores 41 through its constitutional fit. Modifiers boost further.
+90,Matrix,https://matrix.org,41,21.6,19,0.97,LOW,HIGH,modifier,I see potential in Matrix — evidence supports this ranking. Popularity risk HIGH.
+91,Open Collective,https://opencollective.com,41,21.6,19,0.94,LOW,HIGH,modifier,I see potential in Open Collective — evidence supports this ranking. Popularity risk HIGH.
+92,Tor Project,https://www.torproject.org,41,21.6,19,0.95,LOW,HIGH,modifier,Tor Project scores 41 through its constitutional fit. Modifiers boost further. Popularity risk HIGH.
+93,Anna's Archive,https://annas-archive.pm,40,25.5,15,0.94,LOW,HIGH,modifier,Anna's Archive partially fits my campaign-focused criteria. Popularity risk HIGH.
+94,Choose a License,https://choosealicense.com,40,24.5,15,0.96,LOW,LOW,modifier,Choose a License partially fits my campaign-focused criteria.
+95,Citizen OS,https://citizenos.com/platform/,40,22.5,17,0.95,LOW,LOW,modifier,What draws me to Citizen OS is its civic potential — though direct campaign fit is limited.
+96,Constitute Project,https://constituteproject.org,40,23.5,17,0.96,LOW,LOW,modifier,What draws me to Constitute Project is its civic potential — though direct campaign fit is limited.
+97,Contracts for Data Collaboration,https://contractsfordatacollaboration.org,40,24.5,15,0.94,LOW,LOW,modifier,Contracts for Data Collaboration partially fits my campaign-focused criteria.
+98,GovTrack.us,https://www.govtrack.us,40,20.6,19,0.96,LOW,LOW,modifier,What draws me to GovTrack.us is its civic potential — though direct campaign fit is limited.
+99,Interoperable Deliberative Tools,https://metagov.org/projects/interop,40,22.5,17,0.96,LOW,LOW,modifier,Interoperable Deliberative Tools scores 40 through its constitutional fit. Modifiers boost further.
+100,MapIt,https://mapit.mysociety.org,40,22.5,18,0.96,LOW,LOW,modifier,What draws me to MapIt is its civic potential — though direct campaign fit is limited.
+101,Marks Out Of Tenancy,https://www.marksoutoftenancy.com,40,29.4,11,0.98,LOW,LOW,modifier,Marks Out Of Tenancy scores 40 through its constitutional fit. Modifiers boost further.
+102,Members' Interests,https://membersinterests.org.uk,40,25.5,15,0.98,LOW,LOW,modifier,Members' Interests partially fits my campaign-focused criteria.
+103,ORCID,https://orcid.org,40,24.5,15,0.98,LOW,LOW,modifier,ORCID partially fits my campaign-focused criteria.
+104,Open Access – Transparency International UK,https://openaccess.transparency.org.uk,40,26.5,13,1.0,LOW,LOW,modifier,While I respect Open Access – Transparency International UK — evidence supports this ranking.
+105,Organise,https://www.organise.org.uk,40,31.4,9,0.96,LOW,LOW,criteria,Organise partially fits my campaign-focused criteria.
+106,Public Editor,https://www.publiceditor.io,40,29.4,11,0.93,LOW,LOW,modifier,While I respect Public Editor — evidence supports this ranking.
+107,Remember to Vote,https://remembertovote.org.uk,40,30.4,10,0.98,LOW,LOW,modifier,What draws me to Remember to Vote is its civic potential — though direct campaign fit is limited.
+108,Turbo Phonebank,https://turbophonebank.com,40,34.3,6,0.98,LOW,LOW,criteria,What draws me to Turbo Phonebank is its civic potential — though direct campaign fit is limited.
+109,Watch Duty,https://www.watchduty.org,40,31.4,9,0.96,LOW,LOW,criteria,Watch Duty partially fits my campaign-focused criteria.
+110,semanticClimate,https://semanticclimate.github.io,40,25.5,15,1.0,LOW,LOW,modifier,semanticClimate scores 40 through its constitutional fit. Modifiers boost further.
+111,Abstract Wikipedia,https://meta.wikimedia.org/wiki/abstract_wikipedia,39,29.4,10,0.98,LOW,LOW,modifier,Abstract Wikipedia partially fits my campaign-focused criteria.
+112,OpenOrigins,https://www.openorigins.com,39,30.4,9,0.96,LOW,LOW,criteria,OpenOrigins partially fits my campaign-focused criteria.
+113,PostBug,https://postbug.com,39,33.3,6,0.98,LOW,LOW,criteria,PostBug scores 39 through its constitutional fit. Modifiers boost further.
+114,Channel.org,https://channel.org,38,23.5,15,0.58,MEDIUM,LOW,modifier,Channel.org partially fits my campaign-focused criteria.
+115,Conservative Party Funding,https://conservativepartyfunding.co.uk,38,32.4,6,0.98,LOW,LOW,criteria,While I respect Conservative Party Funding — evidence supports this ranking.
+116,FixMyStreet,https://www.fixmystreet.com,38,18.6,19,0.97,LOW,LOW,modifier,While I respect FixMyStreet — evidence supports this ranking.
+117,Open Digital Planning,https://opendigitalplanning.org/,38,18.6,19,1.0,LOW,LOW,modifier,While I respect Open Digital Planning — evidence supports this ranking.
+118,Open Heart Mind (OHM),https://openheartmind.org,38,25.5,12,0.96,LOW,LOW,modifier,Open Heart Mind (OHM) scores 38 through its constitutional fit. Modifiers boost further.
+119,Public Media Stack,https://publicmediastack.com,38,26.5,11,0.98,LOW,LOW,modifier,Public Media Stack partially fits my campaign-focused criteria.
+120,Right To Know,https://right-to-know.org,38,29.4,9,0.98,LOW,LOW,modifier,Right To Know scores 38 through its constitutional fit. Modifiers boost further.
+121,RightDD,https://www.rightsdd.com,38,27.5,10,0.98,LOW,LOW,modifier,While I respect RightDD — evidence supports this ranking.
+122,Riseup,https://riseup.net,38,26.5,12,0.94,LOW,LOW,modifier,Riseup partially fits my campaign-focused criteria.
+123,RxC Quadratic Voting,https://quadraticvote.radicalxchange.org,38,24.5,14,0.96,LOW,LOW,modifier,RxC Quadratic Voting scores 38 through its constitutional fit. Modifiers boost further.
+124,SecureDrop,https://securedrop.org,38,18.6,19,0.95,LOW,HIGH,modifier,While I respect SecureDrop — evidence supports this ranking. Popularity risk HIGH.
+125,Shareyourpaper.org,https://shareyourpaper.org,38,23.5,14,0.66,LOW,LOW,modifier,What draws me to Shareyourpaper.org is its civic potential — though direct campaign fit is limited.
+126,Spacetube,https://spacetu.be,38,23.5,15,0.98,LOW,LOW,modifier,What draws me to Spacetube is its civic potential — though direct campaign fit is limited.
+127,Tech Coops List,https://tech-coops.xyz,38,20.6,17,0.98,LOW,LOW,modifier,While I respect Tech Coops List — evidence supports this ranking.
+128,Bonfire,https://bonfirenetworks.org/,37,19.6,17,0.94,LOW,LOW,modifier,Bonfire partially fits my campaign-focused criteria.
+129,CKAN,https://ckan.org,37,20.6,16,0.95,LOW,LOW,modifier,While I respect CKAN — evidence supports this ranking.
+130,Charity Digital Skills Report,https://charitydigitalskills.co.uk,37,28.4,9,0.98,LOW,LOW,modifier,Charity Digital Skills Report scores 37 through its constitutional fit. Modifiers boost further.
+131,Dunadyne,https://dunadyne.org,37,29.4,8,1.0,LOW,LOW,criteria,What draws me to Dunadyne is its civic potential — though direct campaign fit is limited.
+132,Fatebook,https://fatebook.io,37,20.6,16,0.96,LOW,LOW,modifier,What draws me to Fatebook is its civic potential — though direct campaign fit is limited.
+133,AlgorithmWatch,https://algorithmwatch.org,36,15.7,20,1.0,LOW,LOW,modifier,While I respect AlgorithmWatch — evidence supports this ranking.
+134,Granitt,https://granitt.io,36,24.5,11,0.98,LOW,LOW,modifier,While I respect Granitt — evidence supports this ranking.
+135,Humanitarian Data Exchange,https://data.humdata.org,36,21.6,14,0.98,LOW,LOW,modifier,Humanitarian Data Exchange partially fits my campaign-focused criteria.
+136,Mastodon,https://github.com/mastodon/mastodon,36,18.6,17,0.95,LOW,HIGH,modifier,Mastodon partially fits my campaign-focused criteria. Popularity risk HIGH.
+137,NumFOCUS,https://numfocus.org,36,23.5,12,0.96,LOW,LOW,modifier,While I respect NumFOCUS — evidence supports this ranking.
+138,Open Science Framework,https://osf.io,36,20.6,15,0.96,LOW,LOW,modifier,Open Science Framework scores 36 through its constitutional fit. Modifiers boost further.
+139,Parliament Watch Uganda,https://parliamentwatch.ug/,36,24.5,12,0.98,LOW,LOW,modifier,Parliament Watch Uganda partially fits my campaign-focused criteria.
+140,Populate Tools,https://github.com/populatetools,36,22.5,13,0.98,LOW,LOW,modifier,Populate Tools scores 36 through its constitutional fit. Modifiers boost further.
+141,Spartacus,https://spartacus.app,36,25.5,11,0.98,LOW,LOW,modifier,While I respect Spartacus — evidence supports this ranking.
+142,The DAO (Standard DAO Framework),https://github.com/vbuterin/dao,36,24.5,12,0.94,LOW,LOW,modifier,The DAO (Standard DAO Framework) partially fits my campaign-focused criteria.
+143,WardWatch,https://wardwatch.uk,36,26.5,9,0.98,LOW,LOW,modifier,While I respect WardWatch — evidence supports this ranking.
+144,WhatGov,https://www.whatgov.co.uk,36,22.5,13,0.98,LOW,LOW,modifier,WhatGov partially fits my campaign-focused criteria.
+145,Worker Info Exchange,https://www.workerinfoexchange.org,36,24.5,12,0.98,LOW,LOW,modifier,Worker Info Exchange scores 36 through its constitutional fit. Modifiers boost further.
+146,WriteToThem,https://www.writetothem.com,36,21.6,14,0.96,LOW,LOW,modifier,While I respect WriteToThem — evidence supports this ranking.
+147,All Our Ideas,https://all-our-ideas.citizens.is,35,19.6,15,0.95,LOW,LOW,modifier,All Our Ideas partially fits my campaign-focused criteria.
+148,ClimateAction.Tech,https://climateaction.tech,35,18.6,16,0.73,LOW,LOW,modifier,ClimateAction.Tech partially fits my campaign-focused criteria.
+149,Fairbnb.coop,https://fairbnb.coop,35,21.6,13,0.87,LOW,LOW,modifier,While I respect Fairbnb.coop — evidence supports this ranking.
+150,Kagi SlopStop,https://blog.kagi.com/slopstop,35,29.4,6,0.98,LOW,LOW,criteria,Kagi SlopStop partially fits my campaign-focused criteria.
+151,The Engine Room Library,https://library.theengineroom.org,35,19.6,15,0.94,LOW,LOW,modifier,What draws me to The Engine Room Library is its civic potential — though direct campaign fit is limited.
+152,adhocracy+,https://adhocracy.plus,35,17.6,17,0.97,LOW,LOW,modifier,adhocracy+ scores 35 through its constitutional fit. Modifiers boost further.
+153,postcodes.io,https://github.com/ideal-postcodes/postcodes.io,35,14.7,20,0.98,LOW,LOW,modifier,While I respect postcodes.io — evidence supports this ranking.
+154,youtube-dl,https://github.com/ytdl-org/youtube-dl,35,19.6,15,0.94,LOW,HIGH,modifier,youtube-dl scores 35 through its constitutional fit. Modifiers boost further. Popularity risk HIGH.
+155,Collaborative Data Patterns,https://collaborative-data.theodi.org,34,18.6,15,0.98,LOW,LOW,modifier,While I respect Collaborative Data Patterns — evidence supports this ranking.
+156,CommunityRule,https://communityrule.info,34,16.7,17,0.96,LOW,LOW,modifier,What draws me to CommunityRule is its civic potential — though direct campaign fit is limited.
+157,Coral,https://coralproject.net,34,18.6,15,0.95,LOW,LOW,modifier,Coral scores 34 through its constitutional fit. Modifiers boost further.
+158,Cybersecurity for Democracy,https://cybersecurityfordemocracy.org,34,17.6,16,0.95,LOW,LOW,modifier,What draws me to Cybersecurity for Democracy is its civic potential — though direct campaign fit is limited.
+159,Digital Account Management Toolkit,https://digitalcharitylab.org/product/digital-account-management-toolkit,34,21.6,12,0.98,LOW,LOW,modifier,Digital Account Management Toolkit scores 34 through its constitutional fit. Modifiers boost further.
+160,FixMyBlock,https://fixmyblock.org,34,25.5,9,0.98,LOW,LOW,modifier,FixMyBlock partially fits my campaign-focused criteria.
+161,Full Fact AI,https://fullfact.org/ai,34,25.5,8,0.94,LOW,LOW,modifier,What draws me to Full Fact AI is its civic potential — though direct campaign fit is limited.
+162,Gapminder Worldview Upgrader,https://upgrader.gapminder.org,34,21.6,12,0.96,LOW,LOW,modifier,Gapminder Worldview Upgrader scores 34 through its constitutional fit. Modifiers boost further.
+163,Groupthink (OpenPolitics Votebot),https://github.com/openpolitics/groupthink,34,21.6,12,0.98,LOW,LOW,modifier,While I respect Groupthink (OpenPolitics Votebot) — evidence supports this ranking.
+164,Idealist,https://idealist.org,34,23.5,11,0.96,LOW,LOW,modifier,Idealist partially fits my campaign-focused criteria.
+165,Manifold Markets,https://manifold.markets,34,18.6,15,0.85,LOW,LOW,modifier,Manifold Markets partially fits my campaign-focused criteria.
+166,Moral Machine,https://moralmachine.net,34,21.6,12,0.98,LOW,LOW,modifier,Moral Machine partially fits my campaign-focused criteria.
+167,PoliMonitor,https://www.polimonitor.com,34,24.5,9,0.97,LOW,LOW,modifier,What draws me to PoliMonitor is its civic potential — though direct campaign fit is limited.
+168,Wikidata,https://www.wikidata.org,34,22.5,12,0.95,LOW,LOW,modifier,While I respect Wikidata — evidence supports this ranking.
+169,django-collaborative,https://github.com/propublica/django-collaborative,34,20.6,13,0.98,LOW,LOW,modifier,django-collaborative partially fits my campaign-focused criteria.
+170,sourceAFRICA,https://sourceafrica.net,34,20.6,13,0.96,LOW,LOW,modifier,sourceAFRICA partially fits my campaign-focused criteria.
+171,DAO Governance Surfaces,https://github.com/notchia/dao-governance-surfaces,33,21.6,11,0.98,LOW,LOW,modifier,DAO Governance Surfaces partially fits my campaign-focused criteria.
+172,Decidim,https://decidim.org,33,16.7,16,0.85,LOW,LOW,modifier,Decidim scores 33 through its constitutional fit. Modifiers boost further.
+173,MP Watch,https://www.mpwatch.org,33,21.6,11,0.98,LOW,LOW,modifier,MP Watch scores 33 through its constitutional fit. Modifiers boost further.
+174,Nym,https://nymtech.net,33,13.7,19,0.94,LOW,LOW,modifier,Nym partially fits my campaign-focused criteria.
+175,Polis,https://github.com/compdemocracy/polis,33,13.7,19,0.95,LOW,LOW,modifier,What draws me to Polis is its civic potential — though direct campaign fit is limited.
+176,Privacy Badger,https://privacybadger.org,33,13.7,19,0.96,LOW,LOW,modifier,Privacy Badger partially fits my campaign-focused criteria.
+177,meet.coop,https://www.meet.coop,33,17.6,15,0.98,LOW,LOW,modifier,What draws me to meet.coop is its civic potential — though direct campaign fit is limited.
+178,Agreement Engine,https://medium.com/metagov/introducing-the-agreement-engine-bf03b6d5c16c,32,16.7,15,0.91,LOW,LOW,modifier,Agreement Engine partially fits my campaign-focused criteria.
+179,CharmVerse,https://charmverse.io/,32,13.7,18,0.96,LOW,LOW,modifier,What draws me to CharmVerse is its civic potential — though direct campaign fit is limited.
+180,Citizens Advice Tableau Public Profile,https://public.tableau.com/app/profile/citizensadvice/vizzes,32,27.5,5,1.0,LOW,LOW,criteria,What draws me to Citizens Advice Tableau Public Profile is its civic potential — though direct campaign fit is limited.
+181,Democracy Fund Open Source,https://www.dfos.com,32,18.6,13,0.98,LOW,LOW,modifier,What draws me to Democracy Fund Open Source is its civic potential — though direct campaign fit is limited.
+182,Metaculus,https://metaculus.com,32,21.6,10,0.98,LOW,LOW,modifier,Metaculus scores 32 through its constitutional fit. Modifiers boost further.
+183,Nook CRM,https://nookcrm.com,32,22.5,9,0.98,LOW,LOW,modifier,Nook CRM partially fits my campaign-focused criteria.
+184,Open Council Data UK,https://opencouncildata.co.uk,32,22.5,9,1.0,LOW,LOW,modifier,What draws me to Open Council Data UK is its civic potential — though direct campaign fit is limited.
+185,Open Referral UK,https://openreferraluk.org,32,22.5,10,0.95,LOW,LOW,modifier,While I respect Open Referral UK — evidence supports this ranking.
+186,Open Standards for Data Guidebook,https://standards.theodi.org,32,16.7,15,0.95,LOW,LOW,modifier,Open Standards for Data Guidebook partially fits my campaign-focused criteria.
+187,Overton,https://overton.io,32,22.5,9,0.98,LOW,LOW,modifier,While I respect Overton — evidence supports this ranking.
+188,Participedia,https://participedia.net,32,19.6,12,0.96,LOW,LOW,modifier,Participedia partially fits my campaign-focused criteria.
+189,Prolific,https://www.prolific.com,32,20.6,11,0.96,LOW,LOW,modifier,Prolific partially fits my campaign-focused criteria.
+190,Responsible Tech Guide 2025,https://alltechishuman.org/responsible-tech-guide-2025,32,20.6,11,0.98,LOW,LOW,modifier,What draws me to Responsible Tech Guide 2025 is its civic potential — though direct campaign fit is limited.
+191,Security First / Umbrella,https://secfirst.org,32,14.7,17,0.96,LOW,LOW,modifier,While I respect Security First / Umbrella — evidence supports this ranking.
+192,Teaching Public Service in the Digital Age,https://www.teachingpublicservice.digital,32,20.6,11,0.94,LOW,LOW,modifier,Teaching Public Service in the Digital Age partially fits my campaign-focused criteria.
+193,openparliament.ca,https://openparliament.ca/,32,18.6,13,0.74,LOW,LOW,modifier,openparliament.ca partially fits my campaign-focused criteria.
+194,Community Tech,https://www.communitytech.network,31,21.6,9,0.98,LOW,LOW,modifier,What draws me to Community Tech is its civic potential — though direct campaign fit is limited.
+195,Logos,https://logos.co/,31,15.7,15,1.0,LOW,LOW,modifier,While I respect Logos — evidence supports this ranking.
+196,Nyaaya,https://nyaaya.org,31,11.8,19,0.98,LOW,LOW,modifier,Nyaaya scores 31 through its constitutional fit. Modifiers boost further.
+197,One Project,https://oneproject.org/,31,15.7,15,0.94,LOW,LOW,modifier,One Project scores 31 through its constitutional fit. Modifiers boost further.
+198,PatCit,https://github.com/cverluise/patcit,31,17.6,13,0.96,LOW,LOW,modifier,What draws me to PatCit is its civic potential — though direct campaign fit is limited.
+199,The Circuit,https://thecircuit.cc,31,16.7,14,0.98,LOW,LOW,modifier,While I respect The Circuit — evidence supports this ranking.
+200,Theft Bisect,https://onodi.co/bisect/,31,21.6,9,0.96,LOW,LOW,modifier,Theft Bisect partially fits my campaign-focused criteria.
+201,Your Priorities,https://yrpri.org,31,17.6,13,0.95,LOW,LOW,modifier,What draws me to Your Priorities is its civic potential — though direct campaign fit is limited.
+202,dDocs,https://ddocs.new/,31,15.7,15,0.97,LOW,LOW,modifier,dDocs partially fits my campaign-focused criteria.
+203,CONSUL Democracy,https://consulproject.org,30,13.7,16,0.96,LOW,LOW,modifier,What draws me to CONSUL Democracy is its civic potential — though direct campaign fit is limited.
+204,Ethelo,https://ethelo.com,30,17.6,12,0.97,LOW,LOW,modifier,Ethelo scores 30 through its constitutional fit. Modifiers boost further.
+205,Harmonica,https://harmonica.chat/,30,18.6,11,0.98,LOW,LOW,modifier,Harmonica partially fits my campaign-focused criteria.
+206,OA.Report,https://oa.report,30,20.6,9,0.74,LOW,LOW,modifier,What draws me to OA.Report is its civic potential — though direct campaign fit is limited.
+207,Papertree,https://www.papertree.earth,30,14.7,15,0.9,LOW,LOW,modifier,What draws me to Papertree is its civic potential — though direct campaign fit is limited.
+208,Sci-Hub,https://sci-hub.se,30,23.5,7,0.94,LOW,LOW,criteria,Sci-Hub scores 30 through its constitutional fit. Modifiers boost further.
+209,Viewpoints,https://viewpoints.xyz,30,20.6,9,0.98,LOW,LOW,modifier,What draws me to Viewpoints is its civic potential — though direct campaign fit is limited.
+210,GOV.UK Forms,https://www.forms.service.gov.uk,29,11.8,17,0.96,LOW,LOW,modifier,What draws me to GOV.UK Forms is its civic potential — though direct campaign fit is limited.
+211,Go Vocal,https://www.govocal.com,29,16.7,12,0.98,LOW,LOW,modifier,What draws me to Go Vocal is its civic potential — though direct campaign fit is limited.
+212,Land Explorer,https://landexplorer.coop,29,17.6,11,0.98,LOW,LOW,modifier,While I respect Land Explorer — evidence supports this ranking.
+213,MP Twitter Bios,https://www.mptwitterbios.co.uk,29,17.6,11,0.98,LOW,LOW,modifier,What draws me to MP Twitter Bios is its civic potential — though direct campaign fit is limited.
+214,Plausible Analytics,https://plausible.io,29,15.7,13,0.94,LOW,HIGH,modifier,What draws me to Plausible Analytics is its civic potential — though direct campaign fit is limited. Popularity risk HIGH.
+215,Urbit,https://urbit.org,29,13.7,15,0.94,LOW,LOW,modifier,What draws me to Urbit is its civic potential — though direct campaign fit is limited.
+216,oTree,https://www.otree.org,29,15.7,13,0.94,LOW,LOW,modifier,oTree scores 29 through its constitutional fit. Modifiers boost further.
+217,Empurrando Juntas (EJ),https://sobre.ejparticipe.org,28,18.6,9,1.0,LOW,LOW,modifier,While I respect Empurrando Juntas (EJ) — evidence supports this ranking.
+218,Find local consultations,https://gov.uk/find-local-consultations,28,18.6,9,0.98,LOW,LOW,modifier,Find local consultations scores 28 through its constitutional fit. Modifiers boost further.
+219,GrantNav,https://grantnav.threesixtygiving.org,28,14.7,13,0.96,LOW,LOW,modifier,While I respect GrantNav — evidence supports this ranking.
+220,Kialo,https://kialo.com,28,20.6,7,0.96,LOW,LOW,modifier,Kialo scores 28 through its constitutional fit. Modifiers boost further.
+221,Registers and collaboration: making lists we can trust,https://theodi.org/insights/reports/registers-and-collaboration-making-lists-we-can-trust-report,28,16.7,11,0.98,LOW,LOW,modifier,Registers and collaboration: making lists we can trust partially fits my campaign-focused criteria.
+222,Shared Digital Guides,https://www.shareddigitalguides.org.uk,28,14.7,13,1.0,LOW,LOW,modifier,Shared Digital Guides partially fits my campaign-focused criteria.
+223,Society for Hopeful Technologists,https://societyforhopefultechnologists.org,28,19.6,8,0.98,LOW,LOW,modifier,While I respect Society for Hopeful Technologists — evidence supports this ranking.
+224,Whoisology,https://whoisology.com,28,22.5,5,0.98,LOW,LOW,criteria,What draws me to Whoisology is its civic potential — though direct campaign fit is limited.
+225,Wikum,https://www.csail.mit.edu/research/wikum-bridging-discussion-systems-and-wikis-collective-summarization,28,16.7,11,0.96,LOW,LOW,modifier,While I respect Wikum — evidence supports this ranking.
+226,tracking-template-38b4c.web.app,https://tracking-template-38b4c.web.app,28,6.9,2,0.2,HIGH,LOW,underdog-protection,tracking-template-38b4c.web.app scores 28 through its constitutional fit. Modifiers boost further. Limited dossier.
+227,Creative Commons,https://creativecommons.org,27,16.7,10,0.96,LOW,LOW,modifier,While I respect Creative Commons — evidence supports this ranking.
+228,GOV Reuse Library,https://dev.reuselibrary.service.justice.gov.uk/,27,17.6,9,0.98,LOW,LOW,modifier,GOV Reuse Library partially fits my campaign-focused criteria.
+229,Libertrium,https://liberopinion.com,27,15.7,11,0.97,LOW,LOW,modifier,Libertrium partially fits my campaign-focused criteria.
+230,Plinth,https://www.plinth.org.uk,27,17.6,9,0.96,LOW,LOW,modifier,Plinth partially fits my campaign-focused criteria.
+231,Public AI Inference Utility,https://publicai.co/,27,15.7,11,1.0,LOW,LOW,modifier,What draws me to Public AI Inference Utility is its civic potential — though direct campaign fit is limited.
+232,Radicle,https://radicle.xyz,27,11.8,15,0.96,LOW,LOW,modifier,While I respect Radicle — evidence supports this ranking.
+233,Agencies for Good,https://www.agenciesforgood.org,26,16.7,9,0.98,LOW,LOW,modifier,What draws me to Agencies for Good is its civic potential — though direct campaign fit is limited.
+234,Cobudget,https://cobudget.com,26,13.7,12,0.95,LOW,LOW,modifier,While I respect Cobudget — evidence supports this ranking.
+235,Esper,https://esper.com/product,26,18.6,7,0.98,LOW,LOW,modifier,While I respect Esper — evidence supports this ranking.
+236,Murmurations Protocol,https://murmurations.network,26,13.7,12,0.98,LOW,LOW,modifier,Murmurations Protocol scores 26 through its constitutional fit. Modifiers boost further.
+237,The Accountability Project,https://publicaccountability.org,26,20.6,5,0.96,LOW,LOW,criteria,The Accountability Project partially fits my campaign-focused criteria.
+238,rsky,https://github.com/blacksky-algorithms/rsky,26,12.7,13,0.98,LOW,LOW,modifier,rsky scores 26 through its constitutional fit. Modifiers boost further.
+239,Framework for Meaningful Engagement 2.0,https://ecnl.org/publications/framework-meaningful-engagement-20?mc_cid=b1c5158063&mc_eid=a09c64ec38,25,9.8,15,0.96,LOW,LOW,modifier,While I respect Framework for Meaningful Engagement 2.0 — evidence supports this ranking.
+240,Humble Data Workshop,https://humbledata.org,25,13.7,11,0.98,LOW,LOW,modifier,Humble Data Workshop partially fits my campaign-focused criteria.
+241,The Data Trusts Initiative,https://datatrusts.uk,25,19.6,5,0.94,LOW,LOW,criteria,What draws me to The Data Trusts Initiative is its civic potential — though direct campaign fit is limited.
+242,Vote for Policies,https://voteforpolicies.org.uk,25,19.6,5,0.94,LOW,LOW,criteria,Vote for Policies partially fits my campaign-focused criteria.
+243,deliberAIde,https://www.deliberaide.com,25,16.7,8,0.96,LOW,LOW,modifier,deliberAIde partially fits my campaign-focused criteria.
+244,Awesome UK Government Datasets,https://github.com/i-dot-ai/awesome-gov-datasets,24,10.8,13,0.98,LOW,LOW,modifier,Awesome UK Government Datasets scores 24 through its constitutional fit. Modifiers boost further.
+245,Cortico,https://cortico.ai/platform,24,14.7,9,0.94,LOW,LOW,modifier,While I respect Cortico — evidence supports this ranking.
+246,OA.Works,https://oa.works/,24,8.8,15,0.85,LOW,LOW,modifier,What draws me to OA.Works is its civic potential — though direct campaign fit is limited.
+247,Open Data Communities,https://opendatacommunities.org,24,14.7,9,0.94,LOW,LOW,modifier,Open Data Communities scores 24 through its constitutional fit. Modifiers boost further.
+248,Parse The Bill,https://parsethebill.com,24,18.6,5,0.98,LOW,LOW,criteria,Parse The Bill partially fits my campaign-focused criteria.
+249,Pear by Holepunch,https://docs.holepunch.to,24,12.7,11,0.98,LOW,LOW,modifier,What draws me to Pear by Holepunch is its civic potential — though direct campaign fit is limited.
+250,Principles for Public Participation in Procurement of AI,https://p4ai.net,24,12.7,11,0.94,LOW,LOW,modifier,What draws me to Principles for Public Participation in Procurement of AI is its civic potential — though direct campaign fit is limited.
+251,Dovetail,https://dovetail.network,23,17.6,5,0.97,LOW,LOW,criteria,While I respect Dovetail — evidence supports this ranking.
+252,Internet Archive Wayback Machine,https://web.archive.org,23,11.8,11,0.98,LOW,LOW,modifier,Internet Archive Wayback Machine scores 23 through its constitutional fit. Modifiers boost further.
+253,Local Deep Researcher,https://local-deep-researcher-hnmh.vercel.app/,23,11.8,11,0.91,LOW,LOW,modifier,Local Deep Researcher scores 23 through its constitutional fit. Modifiers boost further.
+254,RxC Voice,https://github.com/radicalxchange/rxc-voice,23,11.8,11,0.98,LOW,LOW,modifier,While I respect RxC Voice — evidence supports this ranking.
+255,Schema.org,https://schema.org,23,7.8,15,0.54,MEDIUM,HIGH,modifier,Schema.org scores 23 through its constitutional fit. Modifiers boost further. Popularity risk HIGH.
+256,soweego,https://soweego.readthedocs.io,23,14.7,8,0.96,LOW,LOW,modifier,What draws me to soweego is its civic potential — though direct campaign fit is limited.
+257,whatsmeow,https://github.com/tulir/whatsmeow,23,7.8,15,0.98,LOW,HIGH,modifier,whatsmeow scores 23 through its constitutional fit. Modifiers boost further. Popularity risk HIGH.
+258,Data Observation Toolkit (DOT),https://github.com/datakind/data-observation-toolkit,22,13.7,8,0.95,LOW,LOW,modifier,What draws me to Data Observation Toolkit (DOT) is its civic potential — though direct campaign fit is limited.
+259,EDGAR,https://github.com/bellingcat/edgar,22,8.8,13,0.98,LOW,LOW,modifier,While I respect EDGAR — evidence supports this ranking.
+260,Filmot,https://filmot.com,22,14.7,7,0.98,LOW,LOW,modifier,While I respect Filmot — evidence supports this ranking.
+261,GreenPT,https://greenpt.ai/,22,10.8,11,0.98,LOW,LOW,modifier,GreenPT scores 22 through its constitutional fit. Modifiers boost further.
+262,Local Insight,https://localinsight.org,22,14.7,7,0.98,LOW,LOW,modifier,What draws me to Local Insight is its civic potential — though direct campaign fit is limited.
+263,OpenProcurement,https://openprocurement.io,22,8.8,13,0.95,LOW,LOW,modifier,OpenProcurement partially fits my campaign-focused criteria.
+264,The Decelerator,https://decelerator.org.uk,22,15.7,6,0.98,LOW,LOW,modifier,What draws me to The Decelerator is its civic potential — though direct campaign fit is limited.
+265,AISafety.info,https://aisafety.info,21,8.8,12,0.68,LOW,LOW,modifier,AISafety.info partially fits my campaign-focused criteria.
+266,CivicPress,https://civicpress.io/,21,11.8,9,0.98,LOW,LOW,modifier,While I respect CivicPress — evidence supports this ranking.
+267,CoTech,https://coops.tech,21,7.8,13,0.98,LOW,LOW,modifier,CoTech scores 21 through its constitutional fit. Modifiers boost further.
+268,Membership,https://medium.com/@abscond/membership-a-prototype-ea822b2683b,21,5.9,15,0.94,LOW,LOW,modifier,Membership scores 21 through its constitutional fit. Modifiers boost further.
+269,Nestr,https://nestr.io,21,11.8,9,0.98,LOW,LOW,modifier,What draws me to Nestr is its civic potential — though direct campaign fit is limited.
+270,PlanIT,https://planit.org.uk,21,15.7,5,0.98,LOW,LOW,modifier,PlanIT partially fits my campaign-focused criteria.
+271,PolicyKit,https://policykit.org,21,5.9,15,0.94,LOW,LOW,modifier,PolicyKit partially fits my campaign-focused criteria.
+272,UK Housing Data Standards,https://hact.org.uk/tools-and-services/uk-housing-data-standards,21,11.8,9,0.98,LOW,LOW,modifier,UK Housing Data Standards partially fits my campaign-focused criteria.
+273,UK Parliament Developer Portal,https://developer.parliament.uk,21,14.7,6,0.98,LOW,LOW,modifier,UK Parliament Developer Portal scores 21 through its constitutional fit. Modifiers boost further.
+274,UrbanistAI,https://site.urbanistai.com,21,15.7,5,0.96,LOW,LOW,modifier,While I respect UrbanistAI — evidence supports this ranking.
+275,We Live It,https://www.welivedit.ai,21,14.7,6,0.98,LOW,LOW,modifier,What draws me to We Live It is its civic potential — though direct campaign fit is limited.
+276,Diia,https://expo.diia.gov.ua,20,3.9,16,0.97,LOW,LOW,modifier,While I respect Diia — evidence supports this ranking.
+277,GOV.UK Notify,https://www.notifications.service.gov.uk,20,0.0,20,0.96,LOW,LOW,modifier,GOV.UK Notify partially fits my campaign-focused criteria.
+278,Labour Xchange,https://labourxchange.uk,20,11.8,8,0.98,LOW,LOW,modifier,Labour Xchange scores 20 through its constitutional fit. Modifiers boost further.
+279,The Guide to Major Trusts 2025/26,https://www.dsc.org.uk/publication/the-guide-to-major-trusts-2025-26/,20,14.7,5,0.97,LOW,LOW,modifier,What draws me to The Guide to Major Trusts 2025/26 is its civic potential — though direct campaign fit is limited.
+280,User Research Library,https://research.localgov.digital,20,14.7,5,0.98,LOW,LOW,modifier,User Research Library partially fits my campaign-focused criteria.
+281,Beckton,https://richardpope.org/2017/03/05/beckton-a-tool-to-build,19,6.9,12,0.96,LOW,LOW,modifier,Beckton partially fits my campaign-focused criteria.
+282,Bluesky Social,https://github.com/bluesky-social,19,5.9,13,0.96,LOW,HIGH,modifier,While I respect Bluesky Social — evidence supports this ranking. Popularity risk HIGH.
+283,Collab.Land,https://collab.land,19,13.7,5,0.59,MEDIUM,LOW,modifier,Collab.Land scores 19 through its constitutional fit. Modifiers boost further.
+284,DeepSeek-V3,https://github.com/deepseek-ai/deepseek-v3,19,6.9,12,0.94,LOW,HIGH,modifier,What draws me to DeepSeek-V3 is its civic potential — though direct campaign fit is limited. Popularity risk HIGH.
+285,Deliberation & Technology (DelibTech) Network,https://www.demnext.org/projects/delibtech-network,19,7.8,11,0.98,LOW,LOW,modifier,Deliberation & Technology (DelibTech) Network scores 19 through its constitutional fit. Modifiers boost further.
+286,Journal of Open Source Software,https://joss.theoj.org,19,6.9,12,0.96,LOW,LOW,modifier,Journal of Open Source Software partially fits my campaign-focused criteria.
+287,Keep It In The Community,https://plunkett.my.site.com/keepitinthecommunity/s,19,10.8,8,1.0,LOW,LOW,modifier,What draws me to Keep It In The Community is its civic potential — though direct campaign fit is limited.
+288,Mapping.kids,https://mapping.kids,19,11.8,7,0.46,MEDIUM,LOW,modifier,While I respect Mapping.kids — thin dossier limits confidence.
+289,Neighbourhood Warmth,https://www.mysociety.org/climate/neighbourhood-warmth,19,11.8,7,0.98,LOW,LOW,modifier,While I respect Neighbourhood Warmth — evidence supports this ranking.
+290,Objector.ai,https://objector.ai,19,13.7,5,0.69,LOW,LOW,modifier,Objector.ai scores 19 through its constitutional fit. Modifiers boost further.
+291,Objector.ai,https://www.objector.ai,19,13.7,5,0.95,LOW,LOW,modifier,While I respect Objector.ai — evidence supports this ranking.
+292,PolicyMogul,https://policymogul.com,19,12.7,6,1.0,LOW,LOW,modifier,PolicyMogul scores 19 through its constitutional fit. Modifiers boost further.
+293,In the news,https://en.wikipedia.org/wiki/wikipedia:in_the_news,18,9.8,8,0.98,LOW,LOW,modifier,While I respect In the news — evidence supports this ranking.
+294,Entitledto,https://entitledto.co.uk,17,11.8,5,0.96,LOW,LOW,modifier,Entitledto scores 17 through its constitutional fit. Modifiers boost further.
+295,Frankenstein Bill,https://gordonguthrie.github.io/frankensteinbill,17,3.9,13,0.98,LOW,LOW,modifier,Frankenstein Bill partially fits my campaign-focused criteria.
+296,GOV.UK One Login,https://www.sign-in.service.gov.uk,17,3.9,13,0.97,LOW,LOW,modifier,GOV.UK One Login partially fits my campaign-focused criteria.
+297,Gender Pay Gap Service,https://gender-pay-gap.service.gov.uk,17,8.8,8,0.96,LOW,LOW,modifier,What draws me to Gender Pay Gap Service is its civic potential — though direct campaign fit is limited.
+298,GovWise,https://www.govwise.ai/en,17,11.8,5,0.98,LOW,LOW,modifier,What draws me to GovWise is its civic potential — though direct campaign fit is limited.
+299,Granicus,https://granicus.com/uk,17,9.8,7,0.94,LOW,LOW,modifier,What draws me to Granicus is its civic potential — though direct campaign fit is limited.
+300,Polimorphic,https://www.polimorphic.com,17,11.8,5,0.96,LOW,LOW,modifier,Polimorphic partially fits my campaign-focused criteria.
+301,Service Manual,https://www.gov.uk/service-manual,17,11.8,5,0.96,LOW,LOW,modifier,While I respect Service Manual — evidence supports this ranking.
+302,Tactical Data Engagement,https://communities.sunlightfoundation.com/methodology,17,11.8,5,0.96,LOW,LOW,modifier,Tactical Data Engagement scores 17 through its constitutional fit. Modifiers boost further.
+303,Turn2us Benefits Calculator,https://benefits-calculator.turn2us.org.uk,17,11.8,5,0.96,LOW,LOW,modifier,Turn2us Benefits Calculator scores 17 through its constitutional fit. Modifiers boost further.
+304,vTaiwan,https://github.com/g0v/vue.vtaiwan.tw,17,7.8,9,0.95,LOW,LOW,modifier,vTaiwan scores 17 through its constitutional fit. Modifiers boost further.
+305,GRIM (Global Risk Simulator),https://github.com/sentinelteam/grim,16,12.7,3,0.98,LOW,LOW,criteria,What draws me to GRIM (Global Risk Simulator) is its civic potential — though direct campaign fit is limited.
+306,Modular Politics,https://arxiv.org/abs/2005.13701,16,8.8,7,0.95,LOW,LOW,modifier,Modular Politics scores 16 through its constitutional fit. Modifiers boost further.
+307,CAN/DGSI 127 - Age Assurance Technologies Standard,https://dgc-cgn.org/product/can-dgsi-127/,15,6.9,8,0.98,LOW,LOW,modifier,What draws me to CAN/DGSI 127 - Age Assurance Technologies Standard is its civic potential — though direct campaign fit is limited.
+308,UK Policy Dojo,https://github.com/mikekelly/policy-dojo,15,5.9,9,0.98,LOW,LOW,modifier,While I respect UK Policy Dojo — evidence supports this ranking.
+309,Yoti,https://www.yoti.com,15,9.8,5,0.96,LOW,LOW,modifier,Yoti partially fits my campaign-focused criteria.
+310,New_ Public Roundabout,https://newpublic.substack.com/p/introducing-roundabout-built-for,14,7.8,6,1.0,LOW,LOW,modifier,While I respect New_ Public Roundabout — evidence supports this ranking.
+311,Snowdrift.coop,https://snowdrift.coop,14,5.9,8,0.84,LOW,LOW,modifier,While I respect Snowdrift.coop — evidence supports this ranking.
+312,Understanding Your Morality,https://programs.clearerthinking.org/understanding-your-morality/,14,11.8,2,0.98,LOW,LOW,criteria,Understanding Your Morality partially fits my campaign-focused criteria.
+313,Fission Codes,https://github.com/fission-codes/fission-codes,13,3.9,9,0.96,LOW,LOW,modifier,What draws me to Fission Codes is its civic potential — though direct campaign fit is limited.
+314,GOV.UK Pay,https://www.payments.service.gov.uk,13,0.0,13,0.95,LOW,LOW,modifier,GOV.UK Pay scores 13 through its constitutional fit. Modifiers boost further.
+315,CivicMatch,https://civicmatch.app,12,6.9,5,1.0,LOW,LOW,modifier,What draws me to CivicMatch is its civic potential — though direct campaign fit is limited.
+316,FarmerChat,https://farmerchat.digitalgreen.org,10,5.9,4,0.93,LOW,LOW,modifier,While I respect FarmerChat — evidence supports this ranking.
+317,The List,https://the-list.uk,9,6.9,2,1.0,LOW,LOW,criteria,The List partially fits my campaign-focused criteria.
+318,WorkInCharities,https://www.workincharities.co.uk,9,6.9,2,0.97,LOW,LOW,criteria,What draws me to WorkInCharities is its civic potential — though direct campaign fit is limited.
+319,Ladder Hub,https://ladderhub.org/,8,3.9,4,0.97,LOW,LOW,modifier,Ladder Hub partially fits my campaign-focused criteria.
+320,Unknown Academic Paper (SSRN 5351275),https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5351275,8,5.9,2,0.86,LOW,LOW,modifier,Unknown Academic Paper (SSRN 5351275) partially fits my campaign-focused criteria.
+321,Consciousness Evolution Operating System (ConSoc),https://www.consoc.io,5,0.0,2,0.91,LOW,LOW,modifier,While I respect Consciousness Evolution Operating System (ConSoc) — evidence supports this ranking.
