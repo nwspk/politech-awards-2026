@@ -1,82 +1,82 @@
-rank,project_name,url,score,rationale
-81,The DAO (Standard DAO Framework),https://github.com/vbuterin/dao,71.2,legibility+agency (C3=28) | mods: M_AGENCY+8
-82,deliberAIde,https://www.deliberaide.com,70.9,accessibility (C1=25) | mods: M1+10+M3+4
-83,Humanitarian Data Exchange,https://data.humdata.org,70.9,accessibility (C1=25) | mods: M1+10+M3+4
-84,Metaculus,https://metaculus.com,70.9,accessibility (C1=25) | mods: M1+10+M3+4
-85,Your Priorities,https://yrpri.org,70.9,accessibility (C1=25) | mods: M1+10+M3+4
-86,Contracts for Data Collaboration,https://contractsfordatacollaboration.org,70.5,AI/tech infrastructure (C6=25) | mods: M_AGENCY+8
-87,Cybersecurity for Democracy,https://cybersecurityfordemocracy.org,70.5,AI/tech infrastructure (C6=25) | mods: M_AGENCY+8
-88,rsky,https://github.com/blacksky-algorithms/rsky,69.8,AI/tech infrastructure (C6=25) | mods: M_AGENCY+8
-89,Framework for Meaningful Engagement 2.0,https://ecnl.org/publications/framework-meaningful-engagement-20?mc_cid=b1c5158063&mc_eid=a09c64ec38,69.5,accessibility (C1=30) | mods: M3+7
-90,Land Explorer,https://landexplorer.coop,68.9,accessibility (C1=25) | mods: M1+10+M3+4
-91,MapIt,https://mapit.mysociety.org,68.9,accessibility (C1=25) | mods: M1+10+M3+4
-92,UK Policy Dojo,https://github.com/mikekelly/policy-dojo,68.4,legibility+agency (C3=24) | mods: M_AGENCY+8
-93,Community Notes (Birdwatch) Analysis Tool,https://github.com/travisbrown/birdwatch,67.7,AI/tech infrastructure (C6=25) | mods: M_AGENCY+8
-94,Landlord Tech Watch,https://antievictionmappingproject.github.io/landlordtech,67.2,accessibility (C1=25) | mods: M3+4
-95,OpenElections Leaflet Scraper and Parser,https://github.com/thicknavyrain/uk_elections_leaflets,67.0,AI/tech infrastructure (C6=25) | mods: M_AGENCY+8
-96,Creative Commons,https://creativecommons.org,66.9,AI/tech infrastructure (C6=25) | mods: M1+10
-97,Ushahidi,https://www.ushahidi.com,66.9,AI/tech infrastructure (C6=25) | mods: M1+10
-98,Full Fact AI,https://fullfact.org/ai,66.6,accessibility (C1=30) | mods: M1+5+M3+4
-99,MP Twitter Bios,https://www.mptwitterbios.co.uk,66.5,accessibility (C1=25) | mods: M3+4
-100,Constitute Project,https://constituteproject.org,66.3,mods: M_AGENCY+8
-101,OpenProcurement,https://openprocurement.io,66.3,mods: M_AGENCY+8
-102,Humanitarian OpenStreetMap Team (HOT),https://www.hotosm.org,65.9,accessibility (C1=25) | mods: M1+5+M3+4
-103,sourceAFRICA,https://sourceafrica.net,65.6,AI/tech infrastructure (C6=25) | mods: M_AGENCY+8
-104,ODK (Open Data Kit),https://getodk.org,65.5,open source + forkable (C2=30); forkable+community governed | mods: M_AGENCY+12+M1+5+M2-14
-105,Ladder Hub,https://ladderhub.org/,65.2,accessibility (C1=30) | mods: M1+5+M3+4
-106,Kialo,https://kialo.com,65.2,accessibility (C1=25) | mods: M1+5+M3+4
-107,Relational Tech Project,https://relationaltechproject.org,64.7,mods: M1+5
-108,Neighbourhood Warmth,https://www.mysociety.org/climate/neighbourhood-warmth,63.9,accessibility (C1=25) | mods: M1+5+M3+4
-109,Frankenstein Bill,https://gordonguthrie.github.io/frankensteinbill,63.6,mods: M_AGENCY+8
-110,Teaching Public Service in the Digital Age,https://www.teachingpublicservice.digital,62.9,AI/tech infrastructure (C6=22) | mods: M_AGENCY+8
-111,openparliament.ca,https://openparliament.ca/,62.9,mods: M_AGENCY+8
-112,dDocs,https://ddocs.new/,62.6,mods: M1+5
-113,Principles for Public Participation in Procurement of AI,https://p4ai.net,62.6,mods: M1+5
-114,Open Access – Transparency International UK,https://openaccess.transparency.org.uk,62.3,AI/tech infrastructure (C6=25); accessibility (C1=25) | mods: M3+4
-115,Anna's Archive,https://annas-archive.pm,62.2,AI/tech infrastructure (C6=22) | mods: M_AGENCY+8
-116,Moral Machine,https://moralmachine.net,60.9,accessibility (C1=25); legibility+agency (C3=28) | mods: M3+4
-117,Democracy Fund Open Source,https://www.dfos.com,60.6,mods: M1+5
-118,CivicPress,https://civicpress.io/,60.1,AI/tech infrastructure (C6=22) | mods: M_AGENCY+8
-119,Fundación Ciudadanía Inteligente,https://ciudadaniai.org,60.0,mods: M1+10
-120,The Data Trusts Initiative,https://datatrusts.uk,60.0,mods: M1+10
-121,Idealist,https://idealist.org,59.6,AI/tech infrastructure (C6=22); accessibility (C1=25) | mods: M3+4
-122,Cortico,https://cortico.ai/platform,59.2,AI/tech infrastructure (C6=25) | mods: M1+5
-123,Open Ownership,https://www.openownership.org,59.2,AI/tech infrastructure (C6=25) | mods: M1+5
-124,Consent-O-Matic,https://github.com/cavi-au/consent-o-matic,59.0,AI/tech infrastructure (C6=25)
-125,VFRAME,https://vframe.io,58.6,AI/tech infrastructure (C6=25) | mods: M1+10
-126,Modular Politics,https://arxiv.org/abs/2005.13701,58.5,AI/tech infrastructure (C6=25) | mods: M1+5
-127,RxC Quadratic Voting,https://quadraticvote.radicalxchange.org,58.3,No strong signals
-128,WhatDoTheyKnow,https://www.whatdotheyknow.com,58.3,No strong signals
-129,Give Food,https://www.givefood.org.uk,57.9,mods: M1+10
-130,ShineYourEye,https://www.shineyoureye.org,57.8,AI/tech infrastructure (C6=25) | mods: M1+5
-131,Activist Handbook,https://activisthandbook.org/,57.8,mods: M1+5
-132,docs.plus,https://docs.plus,57.6,No strong signals
-133,Pastecal,https://github.com/kazad/pastecal,57.6,No strong signals
-134,PlaceCal,https://github.com/geeksforsocialchange/placecal,57.6,No strong signals
-135,Spacetube,https://spacetu.be,57.6,No strong signals
-136,Citizens Advice Tableau Public Profile,https://public.tableau.com/app/profile/citizensadvice/vizzes,57.5,AI/tech infrastructure (C6=25); accessibility (C1=25) | mods: M3+4
-137,Pageviews Analysis,https://pageviews.wmcloud.org,57.3,mods: M_AGENCY+8
-138,Tactical Data Engagement,https://communities.sunlightfoundation.com/methodology,57.0,accessibility (C1=30) | mods: M3+7
-139,OpenCRVS,https://www.opencrvs.org,57.0,mods: M3+7
-140,Prolific,https://www.prolific.com,56.8,AI/tech infrastructure (C6=25); accessibility (C1=25) | mods: M3+4
-141,Society for Hopeful Technologists,https://societyforhopefultechnologists.org,56.5,mods: M1+10
-142,Radicle,https://radicle.xyz,56.2,AI/tech infrastructure (C6=25)
-143,Stanford Participatory Budgeting Platform,https://github.com/stanfordcdt/pb,56.2,No strong signals
-144,Turn2us Benefits Calculator,https://benefits-calculator.turn2us.org.uk,56.1,accessibility (C1=30) | mods: M3+4
-145,Papertree,https://www.papertree.earth,55.6,AI/tech infrastructure (C6=25)
-146,Rahvaalgatus,https://github.com/rahvaalgatus/rahvaalgatus,55.6,No strong signals
-147,Participedia,https://participedia.net,55.6,No strong signals
-148,Theft Bisect,https://onodi.co/bisect/,55.6,No strong signals
-149,Mastodon C,https://www.mastodonc.com,55.4,accessibility (C1=25) | mods: M3+4
-150,postcodes.io,https://github.com/ideal-postcodes/postcodes.io,55.2,mods: M_AGENCY+8
-151,The Circuit,https://thecircuit.cc,55.0,AI/tech infrastructure (C6=25) | mods: M1+5
-152,Agreement Engine,https://medium.com/metagov/introducing-the-agreement-engine-bf03b6d5c16c,54.9,No strong signals
-153,Hand-Written Petition Scanner,https://hand-written-petition-scanner.streamlit.app,54.7,accessibility (C1=25) | mods: M3+4
-154,Manifold Markets,https://manifold.markets,54.7,accessibility (C1=25) | mods: M3+4
-155,OpenSanctions,https://www.opensanctions.org,54.4,AI/tech infrastructure (C6=25) | mods: M1+10
-156,Interoperable Deliberative Tools,https://metagov.org/projects/interop,54.3,mods: M1+5
-157,Membership,https://medium.com/@abscond/membership-a-prototype-ea822b2683b,54.2,No strong signals
-158,Entitledto,https://entitledto.co.uk,54.0,accessibility (C1=30) | mods: M3+4
-159,GreenPT,https://greenpt.ai/,54.0,AI/tech infrastructure (C6=25); accessibility (C1=25) | mods: M3+4
-160,Local Intelligence Hub,https://www.localintelligencehub.com,53.3,accessibility (C1=25) | mods: M3+4
-161,Marks Out Of Tenancy,https://www.marksoutoftenancy.com,53.3,accessibility (C1=25) | mods: M3+4
+rank,name,url,score,criteria_score,mod_adj,completeness,uncertainty,pop_risk,primary_driver,c1,c2,c3,c4,c5,c6,c7,rationale
+1,dDocs,https://ddocs.new/,65.3,59.0,6.2,0.45,MEDIUM,LOW,c2,14,23,20,4,2,18,4,dDocs: strong forkability and local-governance signals earn M_AGENCY boost of +9 (agency-first); primary driver is C2 at 23/30 pts.
+2,Gapminder Worldview Upgrader,https://upgrader.gapminder.org,65.3,57.6,7.6,0.73,LOW,LOW,c2,12,27,13,8,5,14,4,Gapminder Worldview Upgrader: open source is a baseline agency signal (M_AGENCY=6); primary driver is C2 at 27/30 pts.
+3,Open Science Framework,https://osf.io,65.3,57.6,7.6,0.82,LOW,HIGH,c2,14,20,16,6,4,18,5,Open Science Framework: open source is a baseline agency signal (M_AGENCY=6); primary driver is C2 at 20/30 pts.
+4,Teaching Public Service in the Digital Age,https://www.teachingpublicservice.digital,65.3,57.6,7.6,0.73,LOW,LOW,c2,14,23,16,4,5,15,6,Teaching Public Service in the Digital Age: open source is a baseline agency signal (M_AGENCY=6); primary driver is C2 at 23/30 pts.
+5,Abstract Wikipedia,https://meta.wikimedia.org/wiki/abstract_wikipedia,64.6,56.9,7.6,0.73,LOW,LOW,c2,20,24,13,4,3,14,4,Abstract Wikipedia: open source is a baseline agency signal (M_AGENCY=6); primary driver is C2 at 24/30 pts.
+6,docs.plus,https://docs.plus,64.6,58.3,6.2,0.64,LOW,LOW,c1,21,19,20,4,2,14,4,docs.plus: open source is a baseline agency signal (M_AGENCY=6); primary driver is C1 at 21/30 pts.
+7,GRIM (Global Risk Simulator),https://github.com/sentinelteam/grim,64.6,54.9,9.7,0.73,LOW,LOW,c2,18,23,10,6,3,14,5,GRIM (Global Risk Simulator): open source is a baseline agency signal (M_AGENCY=6); primary driver is C2 at 23/30 pts.
+8,SecureDrop,https://securedrop.org,64.6,58.3,6.2,0.64,LOW,LOW,c2,18,20,16,4,2,18,6,SecureDrop: open source is a baseline agency signal (M_AGENCY=6); primary driver is C2 at 20/30 pts.
+9,The Engine Room Library,https://library.theengineroom.org,64.6,58.3,6.2,0.64,LOW,LOW,c1,24,19,16,4,3,14,4,The Engine Room Library: open source is a baseline agency signal (M_AGENCY=6); primary driver is C1 at 24/30 pts.
+10,NumFOCUS,https://numfocus.org,63.9,56.2,7.6,0.82,LOW,HIGH,c2,14,24,10,10,4,14,5,NumFOCUS: open source is a baseline agency signal (M_AGENCY=6); primary driver is C2 at 24/30 pts.
+11,oTree,https://www.otree.org,63.9,59.7,4.2,0.73,LOW,LOW,c2,14,24,19,4,5,14,6,oTree: open source is a baseline agency signal (M_AGENCY=6); primary driver is C2 at 24/30 pts.
+12,Participedia,https://participedia.net,63.9,59.7,4.2,0.64,LOW,LOW,c3,17,19,23,4,3,14,6,Participedia: open source is a baseline agency signal (M_AGENCY=6); primary driver is C3 at 23/30 pts.
+13,Relational Tech Project,https://relationaltechproject.org,63.9,57.6,6.2,0.55,MEDIUM,LOW,c1,24,16,20,4,2,14,3,Relational Tech Project: open source is a baseline agency signal (M_AGENCY=6); primary driver is C1 at 24/30 pts.
+14,Theft Bisect,https://onodi.co/bisect/,63.9,57.6,6.2,0.73,LOW,LOW,c1,21,19,16,4,3,18,2,Theft Bisect: open source is a baseline agency signal (M_AGENCY=6); primary driver is C1 at 21/30 pts.
+15,Activist Handbook,https://activisthandbook.org/,63.2,61.1,2.1,0.73,LOW,LOW,c3,22,15,23,4,3,15,6,Activist Handbook: agency-first scoring; primary driver is C3 at 23/30 pts; M_AGENCY=0.
+16,CivicPress,https://civicpress.io/,63.2,56.9,6.2,0.64,LOW,LOW,c1,21,19,19,4,2,15,2,CivicPress: open source is a baseline agency signal (M_AGENCY=6); primary driver is C1 at 21/30 pts.
+17,Data Observation Toolkit (DOT),https://github.com/datakind/data-observation-toolkit,63.2,56.9,6.2,0.73,LOW,LOW,c1,21,19,13,6,4,14,5,Data Observation Toolkit (DOT): open source is a baseline agency signal (M_AGENCY=6); primary driver is C1 at 21/30 pts.
+18,Fairbnb.coop,https://fairbnb.coop,63.2,56.2,6.9,0.91,LOW,HIGH,c2,12,21,13,8,5,18,4,Fairbnb.coop: agency-first scoring; primary driver is C2 at 21/30 pts; M_AGENCY=0.
+19,MP Twitter Bios,https://www.mptwitterbios.co.uk,63.2,56.9,6.2,0.64,LOW,LOW,c1,21,19,20,4,2,14,2,MP Twitter Bios: open source is a baseline agency signal (M_AGENCY=6); primary driver is C1 at 21/30 pts.
+20,Open Contracting Partnership,https://www.open-contracting.org,63.2,57.6,5.6,0.91,LOW,HIGH,c1,19,11,19,6,4,18,6,Open Contracting Partnership: agency-first scoring; primary driver is C1 at 19/30 pts; M_AGENCY=0.
+21,Papertree,https://www.papertree.earth,63.2,59.0,4.2,0.55,MEDIUM,LOW,c3,14,16,23,4,2,22,4,Papertree: open source is a baseline agency signal (M_AGENCY=6); primary driver is C3 at 23/30 pts.
+22,Coral,https://coralproject.net,62.5,54.9,7.6,0.64,LOW,LOW,c2,14,24,13,6,2,14,6,Coral: open source is a baseline agency signal (M_AGENCY=6); primary driver is C2 at 24/30 pts.
+23,Fundación Ciudadanía Inteligente,https://ciudadaniai.org,62.5,59.0,3.5,0.91,LOW,HIGH,c3,15,11,28,8,5,14,4,Fundación Ciudadanía Inteligente: agency-first scoring; primary driver is C3 at 28/30 pts; M_AGENCY=0.
+24,Membership,https://medium.com/@abscond/membership-a-prototype-ea822b2683b,62.5,54.2,8.3,0.55,MEDIUM,LOW,c3,18,16,20,4,2,14,4,Membership: strong forkability and local-governance signals earn M_AGENCY boost of +9 (agency-first); primary driver is C3 at 20/30 pts.
+25,OSINT Framework,https://osintframework.com,62.5,56.2,6.2,0.64,LOW,LOW,c2,18,24,13,4,3,15,4,OSINT Framework: open source is a baseline agency signal (M_AGENCY=6); primary driver is C2 at 24/30 pts.
+26,Principles for Public Participation in Procurement of AI,https://p4ai.net,62.5,58.3,4.2,0.64,LOW,LOW,c3,17,16,24,4,4,14,5,Principles for Public Participation in Procurement of AI: open source is a baseline agency signal (M_AGENCY=6); primary driver is C3 at 24/30 pts.
+27,sourceAFRICA,https://sourceafrica.net,62.5,58.3,4.2,0.73,LOW,LOW,c3,14,19,28,4,3,14,2,sourceAFRICA: open source is a baseline agency signal (M_AGENCY=6); primary driver is C3 at 28/30 pts.
+28,Tor Project,https://www.torproject.org,62.5,58.3,4.2,0.73,LOW,LOW,c2,20,24,13,4,4,14,5,Tor Project: open source is a baseline agency signal (M_AGENCY=6); primary driver is C2 at 24/30 pts.
+29,Your Priorities,https://yrpri.org,62.5,59.0,3.5,0.91,LOW,HIGH,c3,15,11,28,6,5,14,6,Your Priorities: agency-first scoring; primary driver is C3 at 28/30 pts; M_AGENCY=0.
+30,Consent-O-Matic,https://github.com/cavi-au/consent-o-matic,61.8,55.6,6.2,0.64,LOW,LOW,c2,18,24,13,4,3,14,4,Consent-O-Matic: open source is a baseline agency signal (M_AGENCY=6); primary driver is C2 at 24/30 pts.
+31,Open Ownership,https://www.openownership.org,61.8,58.3,3.5,0.91,LOW,LOW,c3,13,10,23,6,5,22,5,Open Ownership: agency-first scoring; primary driver is C3 at 23/30 pts; M_AGENCY=0.
+32,Public AI Inference Utility,https://publicai.co/,61.8,55.6,6.2,0.82,LOW,LOW,c2,18,19,16,4,4,14,5,Public AI Inference Utility: open source is a baseline agency signal (M_AGENCY=6); primary driver is C2 at 19/30 pts.
+33,Spacetube,https://spacetu.be,61.8,53.5,8.3,0.64,LOW,LOW,c2,18,19,16,4,2,14,4,Spacetube: strong forkability and local-governance signals earn M_AGENCY boost of +9 (agency-first); primary driver is C2 at 19/30 pts.
+34,Talk to the City,https://talktothecity.org,61.8,59.7,2.1,0.82,LOW,LOW,c3,19,15,23,4,5,14,6,Talk to the City: agency-first scoring; primary driver is C3 at 23/30 pts; M_AGENCY=0.
+35,Ushahidi,https://www.ushahidi.com,61.8,58.3,3.5,0.91,LOW,LOW,c3,15,15,23,6,5,14,6,Ushahidi: agency-first scoring; primary driver is C3 at 23/30 pts; M_AGENCY=0.
+36,AlgorithmWatch,https://algorithmwatch.org,61.1,57.6,3.5,0.91,LOW,LOW,c3,18,11,23,4,4,18,5,AlgorithmWatch: agency-first scoring; primary driver is C3 at 23/30 pts; M_AGENCY=0.
+37,Anna's Archive,https://annas-archive.pm,61.1,54.9,6.2,0.64,LOW,LOW,c1,21,20,13,4,2,15,4,Anna's Archive: open source is a baseline agency signal (M_AGENCY=6); primary driver is C1 at 21/30 pts.
+38,CoTech,https://coops.tech,61.1,54.9,6.2,0.82,LOW,LOW,c3,17,17,23,4,2,14,2,CoTech: agency-first scoring; primary driver is C3 at 23/30 pts; M_AGENCY=0.
+39,Give Food,https://www.givefood.org.uk,61.1,55.6,5.6,0.82,LOW,LOW,c1,19,14,16,6,5,18,2,Give Food: agency-first scoring; primary driver is C1 at 19/30 pts; M_AGENCY=0.
+40,postcodes.io,https://github.com/ideal-postcodes/postcodes.io,61.1,54.9,6.2,0.64,LOW,LOW,c2,16,20,16,4,3,18,2,postcodes.io: open source is a baseline agency signal (M_AGENCY=6); primary driver is C2 at 20/30 pts.
+41,WhatGov,https://www.whatgov.co.uk,61.1,56.9,4.2,0.73,LOW,LOW,c3,17,19,23,4,3,14,2,WhatGov: open source is a baseline agency signal (M_AGENCY=6); primary driver is C3 at 23/30 pts.
+42,arXiv,https://arxiv.org,60.4,51.4,9.0,0.82,LOW,LOW,c2,12,21,13,4,5,14,5,arXiv: agency-first scoring; primary driver is C2 at 21/30 pts; M_AGENCY=3.
+43,Bluesky Social,https://github.com/bluesky-social,60.4,52.8,7.6,0.73,LOW,LOW,c2,14,24,13,4,2,14,5,Bluesky Social: open source is a baseline agency signal (M_AGENCY=6); primary driver is C2 at 24/30 pts.
+44,DAO Governance Surfaces,https://github.com/notchia/dao-governance-surfaces,60.4,54.2,6.2,0.64,LOW,LOW,c2,18,19,16,4,3,14,4,DAO Governance Surfaces: open source is a baseline agency signal (M_AGENCY=6); primary driver is C2 at 19/30 pts.
+45,VFRAME,https://vframe.io,60.4,52.8,7.6,0.91,LOW,LOW,c1,19,15,10,8,5,14,5,VFRAME: agency-first scoring; primary driver is C1 at 19/30 pts; M_AGENCY=3.
+46,Democracy Club Developer API,https://developers.democracyclub.org.uk/api/v1,59.7,55.6,4.2,0.73,LOW,LOW,c2,17,19,19,4,5,14,2,Democracy Club Developer API: open source is a baseline agency signal (M_AGENCY=6); primary driver is C2 at 19/30 pts.
+47,Mastodon C,https://www.mastodonc.com,59.7,57.6,2.1,0.82,LOW,LOW,c3,14,11,28,4,5,18,3,Mastodon C: agency-first scoring; primary driver is C3 at 28/30 pts; M_AGENCY=0.
+48,TheyWorkForYou,https://www.theyworkforyou.com,59.7,57.6,2.1,0.82,LOW,LOW,c3,19,15,23,4,5,14,3,TheyWorkForYou: agency-first scoring; primary driver is C3 at 23/30 pts; M_AGENCY=0.
+49,Martus,https://www.martus.org,59.0,52.8,6.2,0.64,LOW,LOW,c1,21,19,10,4,2,14,6,Martus: open source is a baseline agency signal (M_AGENCY=6); primary driver is C1 at 21/30 pts.
+50,Pageviews Analysis,https://pageviews.wmcloud.org,59.0,52.8,6.2,0.64,LOW,LOW,c2,18,20,13,4,3,14,4,Pageviews Analysis: open source is a baseline agency signal (M_AGENCY=6); primary driver is C2 at 20/30 pts.
+51,Radicle,https://radicle.xyz,59.0,50.7,8.3,0.64,LOW,LOW,c2,18,20,10,4,3,14,4,Radicle: strong forkability and local-governance signals earn M_AGENCY boost of +9 (agency-first); primary driver is C2 at 20/30 pts.
+52,Strike Map,https://strikemap.org,59.0,56.9,2.1,0.73,LOW,LOW,c3,22,10,23,4,2,18,3,Strike Map: agency-first scoring; primary driver is C3 at 23/30 pts; M_AGENCY=0.
+53,whatsmeow,https://github.com/tulir/whatsmeow,59.0,52.8,6.2,0.45,MEDIUM,LOW,c2,18,20,13,4,3,14,4,whatsmeow: open source is a baseline agency signal (M_AGENCY=6); primary driver is C2 at 20/30 pts.
+54,youtube-dl,https://github.com/ytdl-org/youtube-dl,59.0,50.7,8.3,0.64,LOW,LOW,c2,18,20,10,4,3,14,4,youtube-dl: strong forkability and local-governance signals earn M_AGENCY boost of +9 (agency-first); primary driver is C2 at 20/30 pts.
+55,Democracy Fund Open Source,https://www.dfos.com,58.3,54.2,4.2,0.55,MEDIUM,LOW,c3,17,16,23,4,2,14,2,Democracy Fund Open Source: open source is a baseline agency signal (M_AGENCY=6); primary driver is C3 at 23/30 pts.
+56,Interoperable Deliberative Tools,https://metagov.org/projects/interop,58.3,56.2,2.1,0.82,LOW,LOW,c3,15,11,25,4,3,18,5,Interoperable Deliberative Tools: agency-first scoring; primary driver is C3 at 25/30 pts; M_AGENCY=3.
+57,Journal of Open Source Software,https://joss.theoj.org,58.3,50.7,7.6,0.64,LOW,LOW,c2,14,24,10,4,2,15,4,Journal of Open Source Software: open source is a baseline agency signal (M_AGENCY=6); primary driver is C2 at 24/30 pts.
+58,MapIt,https://mapit.mysociety.org,58.3,52.8,5.6,0.73,LOW,LOW,c2,17,18,12,4,5,18,2,MapIt: agency-first scoring; primary driver is C2 at 18/30 pts; M_AGENCY=0.
+59,Nym,https://nymtech.net,58.3,52.1,6.2,0.55,MEDIUM,LOW,c2,14,27,10,4,2,14,4,Nym: strong forkability and local-governance signals earn M_AGENCY boost of +9 (agency-first); primary driver is C2 at 27/30 pts.
+60,ОПОРА (Opora),https://www.oporaua.org,58.3,56.2,2.1,0.73,LOW,LOW,c3,19,10,28,4,4,14,2,ОПОРА (Opora): agency-first scoring; primary driver is C3 at 28/30 pts; M_AGENCY=0.
+61,semanticClimate,https://semanticclimate.github.io,58.3,54.2,4.2,0.64,LOW,LOW,c2,14,23,13,4,2,18,4,semanticClimate: open source is a baseline agency signal (M_AGENCY=6); primary driver is C2 at 23/30 pts.
+62,Ethelo,https://ethelo.com,57.6,56.2,1.4,0.91,LOW,LOW,c3,22,10,23,4,5,14,3,Ethelo: platform-only or proprietary signals trigger M_AGENCY reduce of -6 under agency-first framing; C3 at 23/30 pts is the criteria driver.
+63,Pear by Holepunch,https://docs.holepunch.to,57.6,49.3,8.3,0.64,LOW,LOW,c2,18,19,10,4,2,14,4,Pear by Holepunch: strong forkability and local-governance signals earn M_AGENCY boost of +9 (agency-first); primary driver is C2 at 19/30 pts.
+64,rsky,https://github.com/blacksky-algorithms/rsky,57.6,51.4,6.2,0.55,MEDIUM,LOW,c2,18,20,10,4,3,14,5,rsky: open source is a baseline agency signal (M_AGENCY=6); primary driver is C2 at 20/30 pts.
+65,Schema.org,https://schema.org,57.6,53.5,4.2,0.45,MEDIUM,LOW,c2,14,27,10,4,2,18,2,Schema.org: open source is a baseline agency signal (M_AGENCY=6); primary driver is C2 at 27/30 pts.
+66,Wikum,https://www.csail.mit.edu/research/wikum-bridging-discussion-systems-and-wikis-collective-summarization,57.6,55.6,2.1,0.64,LOW,LOW,c3,19,17,20,4,2,14,4,Wikum: agency-first scoring; primary driver is C3 at 20/30 pts; M_AGENCY=0.
+67,Campaign Tracker,https://www.campaigntracker.nl/en,56.9,51.4,5.6,0.91,LOW,LOW,c1,19,14,16,4,5,14,2,Campaign Tracker: agency-first scoring; primary driver is C1 at 19/30 pts; M_AGENCY=0.
+68,Landlord Tech Watch,https://antievictionmappingproject.github.io/landlordtech,56.9,50.7,6.2,0.64,LOW,LOW,c1,21,19,10,4,3,14,2,Landlord Tech Watch: open source is a baseline agency signal (M_AGENCY=6); primary driver is C1 at 21/30 pts.
+69,LittleSis,https://littlesis.org,56.9,52.8,4.2,0.73,LOW,LOW,c2,14,20,20,4,2,14,2,LittleSis: open source is a baseline agency signal (M_AGENCY=6); primary driver is C2 at 20/30 pts.
+70,Parti,https://parti.xyz,56.9,54.9,2.1,0.73,LOW,LOW,c3,19,11,23,4,5,14,3,Parti: agency-first scoring; primary driver is C3 at 23/30 pts; M_AGENCY=0.
+71,Beckton,https://richardpope.org/2017/03/05/beckton-a-tool-to-build,56.2,50.0,6.2,0.64,LOW,LOW,c2,18,19,13,4,2,14,2,Beckton: open source is a baseline agency signal (M_AGENCY=6); primary driver is C2 at 19/30 pts.
+72,Discourse,https://www.discourse.org,56.2,52.8,3.5,0.82,LOW,LOW,c3,15,15,20,4,2,14,6,Discourse: agency-first scoring; primary driver is C3 at 20/30 pts; M_AGENCY=0.
+73,django-collaborative,https://github.com/propublica/django-collaborative,56.2,52.1,4.2,0.64,LOW,LOW,c2,14,19,16,4,2,18,2,django-collaborative: open source is a baseline agency signal (M_AGENCY=6); primary driver is C2 at 19/30 pts.
+74,EDGAR,https://github.com/bellingcat/edgar,56.2,52.1,4.2,0.55,MEDIUM,LOW,c2,12,24,16,4,3,14,2,EDGAR: open source is a baseline agency signal (M_AGENCY=6); primary driver is C2 at 24/30 pts.
+75,meet.coop,https://www.meet.coop,56.2,50.0,6.2,0.73,LOW,LOW,c3,16,17,20,4,2,8,5,meet.coop: agency-first scoring; primary driver is C3 at 20/30 pts; M_AGENCY=0.
+76,WriteToThem,https://www.writetothem.com,56.2,54.2,2.1,0.82,LOW,LOW,c3,19,10,23,4,5,14,3,WriteToThem: agency-first scoring; primary driver is C3 at 23/30 pts; M_AGENCY=0.
+77,Aragon,https://aragon.org,55.6,52.1,3.5,0.73,LOW,LOW,c3,12,15,23,4,2,15,4,Aragon: agency-first scoring; primary driver is C3 at 23/30 pts; M_AGENCY=0.
+78,GrantNav,https://grantnav.threesixtygiving.org,55.6,53.5,2.1,0.82,LOW,LOW,c1,19,10,19,4,5,18,2,GrantNav: agency-first scoring; primary driver is C1 at 19/30 pts; M_AGENCY=0.
+79,Creative Commons,https://creativecommons.org,54.9,49.3,5.6,0.91,LOW,LOW,c3,12,15,16,4,4,14,6,Creative Commons: agency-first scoring; primary driver is C3 at 16/30 pts; M_AGENCY=3.
+80,Humanitarian OpenStreetMap Team (HOT),https://www.hotosm.org,54.9,52.1,2.8,0.91,LOW,LOW,c3,12,15,20,4,4,14,6,Humanitarian OpenStreetMap Team (HOT): agency-first scoring; primary driver is C3 at 20/30 pts; M_AGENCY=0.
+81,Fission Codes,https://github.com/fission-codes/fission-codes,54.2,47.9,6.2,0.64,LOW,LOW,c2,18,19,10,4,2,14,2,Fission Codes: open source is a baseline agency signal (M_AGENCY=6); primary driver is C2 at 19/30 pts.
