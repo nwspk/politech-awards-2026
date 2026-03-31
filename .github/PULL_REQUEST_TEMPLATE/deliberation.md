@@ -45,10 +45,18 @@ labels: ["iteration"]
 
 ## Implementation
 
-- [ ] `results.json` at repo root (321 entries, winner at `[0]`, mean committee scores)
+- [ ] `results.json` at repo root — full schema: `{ url, name, score, summary, assessment, assessment_synthetic: false }`
+- [ ] `results.json` has 321 entries, winner at `[0]`, scores are mean committee scores (0–100)
+- [ ] `assessment` field populated with one line per agent: `Agent Name (score): "rationale"`
 - [ ] Committee composition table included in Assessment or Rationale
 - [ ] Agent names follow convention (`[First]'s Agent` / `Agent [Codename]`)
 - [ ] All per-agent scores in narrative verified against aggregation CSV
 
-<!-- Add the `iteration` label when ready. The bot will assign a version number,
-     create iterations/v{N}/README.md, and update iterations.json. -->
+<!-- results.json assessment format per project:
+Davit's Agent (94.4): "Backsliding-context deployment; liquid democracy for real party decisions"
+Alessandro's Agent (86.9): "Structurally honest voice equalisation via delegated voting"
+Fatima's Agent (85.9): "European Commission + NIMD government partnerships"
+...one line per agent, sorted by score descending
+
+Add the `iteration` label when ready. The bot will assign a version number,
+create iterations/v{N}/README.md, and update iterations.json. -->
