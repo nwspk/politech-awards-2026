@@ -19,14 +19,79 @@ Canonical full iteration history for `/awards` rendering. Generated from `iterat
 | v11 | 2026-03-30 | @sugaroverflow | merged | Simple mean of all 17 members' scores per project, equally weighted — substituting v3 constitutions for the three members who iterated (nicholas-botti, huda-abdirahim, alexandra-ciocanel). | [v11](https://github.com/nwspk/politech-awards-2026/pull/100) | [entry](#v11-on-reflection-mirror-agents-committee-average-three-constitutions-iterated) |
 | v12 | 2026-03-30 | @sugaroverflow | merged | For each project, compute the median of its rank position across all 17 members' v11 scores (14×v2 + 3×v3). Projects are ordered by median rank ascending — lower is better. Ties broken by mean rank. | [v12](https://github.com/nwspk/politech-awards-2026/pull/104) | [entry](#v12-on-balance-ode-dethrones-liquidfeedback-via-median-rank-position) |
 | v13 | 2026-03-30 | @sugaroverflow | merged | Projects ranked by standard deviation of scores across all 17 members (v11 score set: 14×v2 + 3×v3). High stdev = the committee disagrees sharply. Only projects with coverage ≥ 15/17 included. | [v13](https://github.com/nwspk/politech-awards-2026/pull/105) | [entry](#v13-in-dispute-gapminder-algorithmwatch-vtaiwan-split-the-room) |
-| v14 | 2026-03-30 | @sugaroverflow | open | Projects ranked by standard deviation of scores ascending, restricted to full 17/17 coverage. Low stdev = the committee broadly agrees on how to value this project regardless of constitution. This is not a ranking by quality — it is a ranking by agreement. | [v14](https://github.com/nwspk/politech-awards-2026/pull/107) | [entry](#v14-beyond-dispute-mysociety-leads-the-genuine-consensus) |
+| v14 | 2026-03-30 | @sugaroverflow | merged | Projects ranked by standard deviation of scores ascending, restricted to full 17/17 coverage. Low stdev = the committee broadly agrees on how to value this project regardless of constitution. This is not a ranking by quality — it is a ranking by agreement. | [v14](https://github.com/nwspk/politech-awards-2026/pull/107) | [entry](#v14-beyond-dispute-mysociety-leads-the-genuine-consensus) |
+| v15 | 2026-03-31 | @sugaroverflow | open | Borda count (38 candidates × 16 agents = max 592 pts). Four phases: preference construction from existing ranking-table.csv, belief declaration, ballot strategy, and deliberation. All agent calls: claude-opus-4-6. | [v15](https://github.com/nwspk/politech-awards-2026/pull/112) | [entry](#v15-social-choice-round-liquidfeedback-wins-committee-deliberation-opus-46) |
 
 ## Full iteration records
+
+### v15 Social Choice Round — LiquidFeedback wins committee deliberation (Opus 4.6)
+
+- **PR**: [v15](https://github.com/nwspk/politech-awards-2026/pull/112)
+- **Status**: open
+- **Author**: @sugaroverflow
+- **Date**: 2026-03-31
+- **Top project**: [LiquidFeedback](https://liquidfeedback.com)
+
+#### Heuristic
+
+Borda count (38 candidates × 16 agents = max 592 pts). Four phases: preference construction from existing ranking-table.csv, belief declaration, ballot strategy, and deliberation. All agent calls: claude-opus-4-6.
+
+#### Rationale
+
+The four aggregation PRs (#100–#107) each apply a different mathematical rule to the same preference data, yielding different winners (mean → LiquidFeedback, median rank → ODE, divisive → Gapminder, consensus → Vote for Policies). This round asks: given that each agent knows the honest standings and can reason strategically, what does the committee choose? Borda count is used because it is the most standard social-choice rule for ranked preferences and, crucially, the most theoretically susceptible to strategic manipulation (burying). If the honest result is stable under Borda with strategic reasoning, it is likely stable under any rule.
+
+#### Data sources
+
+- project URL
+- scraped content
+- additional data files
+
+#### Limitations
+
+- AlgorithmWatch absent from Alexandra's Agent's v3 CSV → assigned 0, costs ~12 Borda points
+- Fundación Ciudadanía Inteligente absent from Nicholas's Agent's v3 CSV → assigned 0
+- Borda count rewards breadth of support over intensity; a project with passionate but isolated advocates (e.g. Worker Info Exchange) finishes last despite being a constitutional Rank 1
+- 3-point gap between honest and final tallies reflects minor CSV-loading path differences between phases; ranking substantively identical
+
+#### Assessment
+
+**Winner: LiquidFeedback — 454 / 592 pts. Unchanged from honest voting.**
+
+| Phase | Outcome |
+|-------|---------|
+| Honest Borda (pre-deliberation) | LiquidFeedback 457 pts, ODE 439 pts (+18 lead) |
+| Ballot strategy | 0 strategic deviations — all 16 agents voted honestly |
+| Deliberation | 13 outcome arguments, 3 passes, 0 ballot revisions |
+| Final Borda | LiquidFeedback 454 pts — result unchanged |
+
+Every agent independently concluded that the 18-point lead was too large to overcome unilaterally and/or that strategic manipulation would violate their own constitutional commitments. The deliberation phase produced substantive arguments but no revisions.
+
+**Final Borda standings (top 5):**
+| Rank | Project | Pts |
+|------|---------|-----|
+| 1 | **LiquidFeedback** | **454** |
+| 2 | CONSUL Democracy | 441 |
+| 3 | Open Data Editor (ODE) | 436 |
+| 3 | Alaveteli | 436 |
+| 5 | Decidim | 422 |
+
+**Comparison with aggregation baselines:**
+| Method | Winner |
+|--------|--------|
+| v11 mean score | LiquidFeedback |
+| v12 median rank | ODE |
+| v13 most divisive | Gapminder Worldview Upgrader |
+| v14 lowest stdev | Vote for Policies |
+| Social Choice Round (Borda) | **LiquidFeedback** |
+
+LiquidFeedback is the only project to win under both mean-score aggregation (v11) and Borda count. Its 18-point honest lead proved robust: no single agent could close it unilaterally, and no credible coalition formed even when 13 agents made public arguments. The most analytically interesting output is the convergence on ODE as the shadow winner — four agents from different constitutional directions independently identified it as the constitutionally better choice for a majority of agents, just 18 Borda points behind.
+
+---
 
 ### v14 Beyond Dispute — mySociety leads the genuine consensus
 
 - **PR**: [v14](https://github.com/nwspk/politech-awards-2026/pull/107)
-- **Status**: open
+- **Status**: merged
 - **Author**: @sugaroverflow
 - **Date**: 2026-03-30
 - **Top project**: [Vote for Policies](https://voteforpolicies.org.uk) (score: 32.54)
