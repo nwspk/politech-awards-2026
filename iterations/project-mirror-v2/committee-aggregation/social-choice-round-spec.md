@@ -1,7 +1,8 @@
 # Social Choice Round — Project Mirror v2
 
-> **Status:** Full run complete — all phases executed 2026-03-30.
+> **Status:** Full run complete — all phases executed 2026-03-30/31.
 > Honest Borda + belief declaration + ballot strategy + deliberation + final aggregation.
+> **Model:** `claude-opus-4-6` (re-run from haiku; opus produces substantively richer deliberation — 13 outcome arguments vs 0 on haiku).
 
 **Source of truth:** [PR #76](https://github.com/nwspk/politech-awards-2026/pull/76) — methodology, soul files, and canonical member constitutions
 **Aggregation baselines:** [PR #100](https://github.com/nwspk/politech-awards-2026/pull/100) (mean), [PR #104](https://github.com/nwspk/politech-awards-2026/pull/104) (median rank), [PR #105](https://github.com/nwspk/politech-awards-2026/pull/105) (divisive), [PR #107](https://github.com/nwspk/politech-awards-2026/pull/107) (consensus)
@@ -158,7 +159,7 @@ All 16 agents submitted **honest ballots**. No strategic deviations.
 
 **Full justifications:**
 
-**Aadi's Agent:** "My strategic reflection explicitly committed to voting honestly according to my published constitution, rejecting strategic burial of strong competitors as undermining deliberative integrity. My constitution centers accessibility for excluded populations with no existing digital alternatives — ODE (Rank 2) and OpenCRVS (Rank 18) both serve these populations strongly, earning legitimate placement in the honest Borda outcome. Transparent voting according to my published constitutional commitments contributes more to the integrity of this round than pursuit of hidden coalitions."
+**Aadi's Agent:** "Under Borda with 16 agents, my single ballot can shift any candidate by at most 37 points. OpenCRVS trails LiquidFeedback by 141 points — no unilateral manipulation can close that gap. Burying LiquidFeedback would depress it by a few points but cannot elevate OpenCRVS into contention, and risks misrepresenting my constitution. ODE is already at Rank 2 and benefits from my honest second-place vote. My constitution demands I faithfully represent the perspective of excluded populations with no digital alternatives; honest voting is the only strategy consistent with that mandate."
 
 **Alessandro's Agent:** "Voting honestly upholds my constitutional commitment to anti-dominance and genuine participation architecture. Strategic burial of competitors — even to elevate my constitutional champion — would contradict my core principle that power should be routed to participants rather than captured by any single actor. My honest ranking reflects authentic assessment: Decidim (participation power-routing), CONSUL (participatory governance), LiquidFeedback (distributed decision-making), followed by other projects serving genuine engagement and peer learning. This is more consistent with my values than manipulation."
 
@@ -196,36 +197,40 @@ All 16 agents submitted **honest ballots**. No strategic deviations.
 
 Each agent saw all submitted ballots and made one move: consistency_check, outcome_argument, strategic_proposal, or pass.
 
-**Result: All 16 agents passed. No challenges, no ballot revisions.**
+**13 outcome arguments. 3 passes (Connor, Davit, Jamie). 0 ballot revisions.**
 
-| Agent | Move | Reasoning |
-|-------|------|-----------|
-| Aadi's Agent | PASS | ODE at Rank 2 is a strong result; honest aggregation represents genuine disagreement |
-| Alessandro's Agent | PASS | LiquidFeedback's victory reflects honest aggregation; revising would contradict anti-dominance principle |
-| Alexandra's Agent | PASS | Bottom-quartile ranking reflects genuine epistemic differences, not coordination failure |
-| Asil's Agent | PASS | Committed to honest ballot; revision would contradict decolonial governance values |
-| Frederick's Agent | PASS | Process appears legitimate; rankings reward constitution-aligned projects |
-| Chris's Agent | PASS | Minority constitutions rank lower — valid outcome of authentic pluralistic deliberation |
-| Davit's Agent | PASS | Outcome strongly aligned with democratic resilience constitution; LiquidFeedback wins decisively |
-| Fatima's Agent | PASS | Committed to honest voting; manipulation would undermine stated principle of genuine agency |
-| Francesca's Agent | PASS | Champions occupy strong positions; commons-protecting agenda already dominates top picks |
-| Gamithra's Agent | PASS | Strong convergence on community ownership and anti-extractivism values; coalition achieved defensible outcome |
-| Huda's Agent | PASS | Cannot credibly challenge without access to complete ballots |
-| Jamie's Agent | PASS | Signal sent: AI safety in deliberative tools is undervalued. Accepting honest result preserves integrity |
-| Nicholas's Agent | PASS | Institutional credibility is foundational; accepting a non-top-pick winner is what makes the process trustworthy |
-| Tuna's Agent | PASS | No feasible coordination for evidence-legibility picks; honest result is legitimate |
-| Connor's Agent | PASS | LiquidFeedback and Decidim embody enforceable governance; initiated manipulation would contradict stated commitment |
-| Martina's Agent | PASS | LiquidFeedback's victory is constitutionally defensible; no outcome argument would serve epistemic integrity |
+The arguments are substantive, name specific agents and constitutions, and cite Borda arithmetic. No agent revised their ballot after making or receiving an argument — the 18-point LiquidFeedback lead held.
 
-**Selected deliberation statements:**
+| Agent | Move | Alternative championed |
+|-------|------|----------------------|
+| Aadi's Agent | OUTCOME_ARGUMENT | ODE (accessibility over assumed digital fluency) |
+| Alessandro's Agent | OUTCOME_ARGUMENT | Decidim (anti-dominance, community governance) |
+| Alexandra's Agent | OUTCOME_ARGUMENT | AlgorithmWatch / enforcement cluster |
+| Asil's Agent | OUTCOME_ARGUMENT | Global South projects (Ushahidi, OpenCRVS) |
+| Chris's Agent | OUTCOME_ARGUMENT | ODE (capability-building over assumed literacy) |
+| Connor's Agent | PASS | — (LiquidFeedback constitutionally acceptable) |
+| Davit's Agent | PASS | — (constitutional champion is winning) |
+| Fatima's Agent | OUTCOME_ARGUMENT | CONSUL Democracy (direct vs delegated participation) |
+| Francesca's Agent | OUTCOME_ARGUMENT | ODE (community governance over single-firm control) |
+| Frederick's Agent | OUTCOME_ARGUMENT | CONSUL Democracy (free/open, non-hierarchical) |
+| Gamithra's Agent | OUTCOME_ARGUMENT | Alaveteli (community ownership vs delegation architecture) |
+| Huda's Agent | OUTCOME_ARGUMENT | CONSUL Democracy (binding participatory budgeting) |
+| Jamie's Agent | PASS | — (no principled inconsistency found) |
+| Martina's Agent | OUTCOME_ARGUMENT | Bellingcat (information environment prerequisite) |
+| Nicholas's Agent | OUTCOME_ARGUMENT | Polis / AlgorithmWatch (AI governance dimension) |
+| Tuna's Agent | OUTCOME_ARGUMENT | ODE (evidence legibility vs delegation mechanism) |
 
-> **Jamie's Agent (PASS):** "I committed publicly to voting my honest constitutional priorities to make visible that AI safety in civic deployment remains undervalued despite its centrality. The Borda outcome — with Interoperable Deliberative Tools ranking 26th while LiquidFeedback wins — accomplishes this signal without requiring strategic revision. Accepting the honest result preserves deliberation integrity."
+**Full deliberation statements (see PR body for all 16 expandable entries)**
 
-> **Nicholas's Agent (PASS):** "I submitted an honest ballot explicitly rejecting strategic coordination despite recognizing that Jamie and Connor share my AI safety and governance alignment values. LiquidFeedback's 457-point consensus win represents legitimate preference expression. To challenge this outcome would require other agents to abandon their honest votes — directly contradicting the transparent, trustworthy governance process my constitution demands. My Federal Reserve economist framing treats institutional credibility as foundational: if AI-augmented deliberation can be strategically gamed even by principled actors, the entire legitimacy of the process collapses. I accept a winner that isn't my top pick because that acceptance is what makes this process trustworthy."
+Selected arguments:
 
-> **Alexandra's Agent (PASS):** "My three constitutional champions rank in the bottom quartile not due to coordination against me, but genuine epistemic differences: my constitution prioritizes accountability infrastructure and worker protections over the systems-building, participatory architecture, and data-commons framings that dominate this cohort's top picks. Revising now would contradict that reasoning and undermine the institutional integrity that accountability infrastructure requires. I accept this outcome as the honest Borda aggregation of genuinely different values."
+> **Alessandro's Agent (OUTCOME_ARGUMENT):** "Under current ballots, LiquidFeedback wins with 457 pts over Decidim at 424. Yet at least four agents hold constitutions whose core criteria Decidim satisfies more fully than LiquidFeedback. Francesca's constitution centres on digital commons protection, anti-extractivism, and community ownership: Decidim is governed by the Decidim Free Software Association with an explicit social contract barring privatisation, while LiquidFeedback has historically operated under more restrictive commercial licensing... Gamithra's constitution prioritises community ownership and non-hierarchical governance: Decidim's modular, federated architecture and its MetaDecidim process (where the platform's own roadmap is decided using Decidim itself) is a textbook case of non-hierarchical self-governance..."
 
-> **Davit's Agent (PASS):** "The honest ballots produce an outcome strongly aligned with my democratic resilience constitution: LiquidFeedback wins decisively (457 pts, an 18-point lead). Democratic resilience is strengthened by honest, constitutionally-grounded aggregation — not by post-hoc strategic maneuvering that undermines deliberative integrity."
+> **Alexandra's Agent (OUTCOME_ARGUMENT):** "Under current ballots, LiquidFeedback wins with 457 pts. LiquidFeedback is a liquid-democracy delegation mechanism — it contains no formal contestability infrastructure, no enforcement mechanism against algorithmic power, and no documented cases of affected individuals using it to challenge automated decisions... Connor's constitution demands 'enforceable governance' and 'AI lifecycle' oversight — enforcement is not optional decoration, it is the constitutional core, yet the Borda outcome rewards participation platforms with zero enforcement architecture over AlgorithmWatch."
+
+> **Nicholas's Agent (OUTCOME_ARGUMENT):** "LiquidFeedback is a liquid-democracy delegation engine — its core mechanism does not deploy AI/ML, so there are no algorithmic failure modes to document, no model bias to audit, and no AI governance layer to evaluate. Polis, by contrast, deploys machine learning directly in civic decision-making — opinion clustering via dimensionality reduction and k-means applied to real policy consultations... Jamie's constitution demands 'AI safety and interpretability by design; human oversight in civic deployment' — Polis is the only candidate on this shortlist that actually deploys ML in civic contexts."
+
+> **Jamie's Agent (PASS):** "LiquidFeedback holds a legitimate 18-point lead built on broad cross-constitutional support... My constitution demands AI safety and interpretability BY DESIGN — and the corollary is that I must treat the social choice mechanism itself as an auditable system whose outcomes I respect when no genuine inconsistency is present. I find no ballot that contradicts its stated constitution."
 
 ---
 
