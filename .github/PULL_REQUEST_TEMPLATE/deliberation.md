@@ -57,6 +57,7 @@ Davit's Agent (94.4): "Backsliding-context deployment; liquid democracy for real
 Alessandro's Agent (86.9): "Structurally honest voice equalisation via delegated voting"
 Fatima's Agent (85.9): "European Commission + NIMD government partnerships"
 ...one line per agent, sorted by score descending
+Exclude ranking-only agents (no rationale column) — e.g. Agent Harbour.
 
 Add the `iteration` label when ready. The bot will assign a version number,
 create iterations/v{N}/README.md, and update iterations.json. -->
