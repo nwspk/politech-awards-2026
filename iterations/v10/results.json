@@ -1,9 +1,5 @@
 [
   {
-    "url": "https://upgrader.gapminder.org",
-    "score": 45.31
-  },
-  {
     "url": "https://liquidfeedback.com",
     "score": 65.08
   },
@@ -390,6 +386,10 @@
   {
     "url": "https://github.com/rahvaalgatus/rahvaalgatus",
     "score": 45.32
+  },
+  {
+    "url": "https://upgrader.gapminder.org",
+    "score": 45.31
   },
   {
     "url": "https://expo.diia.gov.ua",
