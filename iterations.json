@@ -296,7 +296,7 @@
     "pr_url": "https://github.com/nwspk/politech-awards-2026/pull/104",
     "pr_status": "merged",
     "top_project": {
-      "name": "liquidfeedback.com",
+      "name": "Open Data Editor",
       "url": "https://liquidfeedback.com",
       "score": 61.96
     },
@@ -317,7 +317,7 @@
     "pr_url": "https://github.com/nwspk/politech-awards-2026/pull/105",
     "pr_status": "merged",
     "top_project": {
-      "name": "liquidfeedback.com",
+      "name": "Gapminder Worldview Upgrader",
       "url": "https://liquidfeedback.com",
       "score": 45.31
     },
@@ -338,7 +338,7 @@
     "pr_url": "https://github.com/nwspk/politech-awards-2026/pull/107",
     "pr_status": "merged",
     "top_project": {
-      "name": "liquidfeedback.com",
+      "name": "Vote for Policies",
       "url": "https://liquidfeedback.com",
       "score": 32.54
     },
@@ -348,6 +348,27 @@
     "keywords": null,
     "limitations": "- Requires 17/17 coverage — projects ranked by fewer members are excluded\n- Low stdev says nothing about score level — consensus can be consensus on mediocrity\n- Constitutional diversity means \"agreement\" may reflect shared blind spots as much as genuine convergence",
     "assessment": "**Most agreed-upon: Vote for Policies — stdev 7.59 (mean 32.54)**\n\nThe committee agrees on Vote for Policies with unusual consistency — but the agreement is that it is limited. It is discontinued after the 2024 election. It is narrowly UK-focused. Multiple members note the project treats voters as passive consumers rather than building their capacity. Nick: \"discontinued after 2024 election, closing off the core mechanism.\" Davit: \"My constitution does not have room for stable-democracy domestic tools.\" The consensus is not enthusiasm — it is quiet convergence on a modest ceiling.\n\n**The least divisive top 10 (full 17/17 coverage, sorted by stdev):**\n| Consensus rank | Project | Stdev | Mean |\n|------|---------|-------|------|\n| 1 | Vote for Policies | 7.59 | 32.54 |\n| 2 | Civic Tech Field Guide | 7.93 | 42.63 |\n| 3 | Remember to Vote | 8.06 | 35.01 |\n| 4 | Turbo Phonebank | 8.12 | 32.93 |\n| 5 | MP Watch | 8.47 | 33.66 |\n| 6 | WriteToThem | 8.60 | 40.61 |\n| 7 | MyActionCenter | 8.82 | 30.78 |\n| 8 | Local Intelligence Hub | 8.86 | 40.59 |\n| 9 | PostBug | 9.51 | 29.22 |\n| 10 | Mapped | 9.60 | 38.18 |\n\nFull list: `iterations/project-mirror-v2/committee-aggregation/consensus-projects.csv`",
+    "vote_result": null
+  },
+  {
+    "version": "v15",
+    "title": "Social Choice Round — LiquidFeedback wins committee deliberation (Opus 4.6)",
+    "date": "2026-03-31",
+    "author": "@sugaroverflow",
+    "pr_number": 112,
+    "pr_url": "https://github.com/nwspk/politech-awards-2026/pull/112",
+    "pr_status": "open",
+    "top_project": {
+      "name": "LiquidFeedback",
+      "url": "https://liquidfeedback.com",
+      "score": null
+    },
+    "heuristic": "Borda count (38 candidates × 16 agents = max 592 pts). Four phases: preference construction from existing ranking-table.csv, belief declaration, ballot strategy, and deliberation. All agent calls: claude-opus-4-6.",
+    "rationale": "The four aggregation PRs (#100–#107) each apply a different mathematical rule to the same preference data, yielding different winners (mean → LiquidFeedback, median rank → ODE, divisive → Gapminder, consensus → Vote for Policies). This round asks: given that each agent knows the honest standings and can reason strategically, what does the committee choose? Borda count is used because it is the most standard social-choice rule for ranked preferences and, crucially, the most theoretically susceptible to strategic manipulation (burying). If the honest result is stable under Borda with strategic reasoning, it is likely stable under any rule.",
+    "data_sources": null,
+    "keywords": null,
+    "limitations": "- AlgorithmWatch absent from Alexandra's Agent's v3 CSV → assigned 0, costs ~12 Borda points\n- Fundación Ciudadanía Inteligente absent from Nicholas's Agent's v3 CSV → assigned 0\n- Borda count rewards breadth of support over intensity; a project with passionate but isolated advocates (e.g. Worker Info Exchange) finishes last despite being a constitutional Rank 1\n- 3-point gap between honest and final tallies reflects minor CSV-loading path differences between phases; ranking substantively identical",
+    "assessment": "**Winner: LiquidFeedback — 454 / 592 pts. Unchanged from honest voting.**\n\n| Phase | Outcome |\n|-------|---------|\n| Honest Borda (pre-deliberation) | LiquidFeedback 457 pts, ODE 439 pts (+18 lead) |\n| Ballot strategy | 0 strategic deviations — all 16 agents voted honestly |\n| Deliberation | 13 outcome arguments, 3 passes, 0 ballot revisions |\n| Final Borda | LiquidFeedback 454 pts — result unchanged |\n\nEvery agent independently concluded that the 18-point lead was too large to overcome unilaterally and/or that strategic manipulation would violate their own constitutional commitments. The deliberation phase produced substantive arguments but no revisions.\n\n**Final Borda standings (top 5):**\n| Rank | Project | Pts |\n|------|---------|-----|\n| 1 | **LiquidFeedback** | **454** |\n| 2 | CONSUL Democracy | 441 |\n| 3 | Open Data Editor (ODE) | 436 |\n| 3 | Alaveteli | 436 |\n| 5 | Decidim | 422 |\n\n**Comparison with aggregation baselines:**\n| Method | Winner |\n|--------|--------|\n| v11 mean score | LiquidFeedback |\n| v12 median rank | ODE |\n| v13 most divisive | Gapminder Worldview Upgrader |\n| v14 lowest stdev | Vote for Policies |\n| Social Choice Round (Borda) | **LiquidFeedback** |\n\nLiquidFeedback is the only project to win under both mean-score aggregation (v11) and Borda count. Its 18-point honest lead proved robust: no single agent could close it unilaterally, and no credible coalition formed even when 13 agents made public arguments. The most analytically interesting output is the convergence on ODE as the shadow winner — four agents from different constitutional directions independently identified it as the constitutionally better choice for a majority of agents, just 18 Borda points behind.",
     "vote_result": null
   }
 ]

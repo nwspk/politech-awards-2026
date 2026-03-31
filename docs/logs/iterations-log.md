@@ -20,8 +20,73 @@ Canonical full iteration history for `/awards` rendering. Generated from `iterat
 | v12 | 2026-03-30 | @sugaroverflow | merged | For each project, compute the median of its rank position across all 17 members' v11 scores (14×v2 + 3×v3). Projects are ordered by median rank ascending — lower is better. Ties broken by mean rank. | [v12](https://github.com/nwspk/politech-awards-2026/pull/104) | [entry](#v12-on-balance-ode-dethrones-liquidfeedback-via-median-rank-position) |
 | v13 | 2026-03-30 | @sugaroverflow | merged | Projects ranked by standard deviation of scores across all 17 members (v11 score set: 14×v2 + 3×v3). High stdev = the committee disagrees sharply. Only projects with coverage ≥ 15/17 included. | [v13](https://github.com/nwspk/politech-awards-2026/pull/105) | [entry](#v13-in-dispute-gapminder-algorithmwatch-vtaiwan-split-the-room) |
 | v14 | 2026-03-30 | @sugaroverflow | merged | Projects ranked by standard deviation of scores ascending, restricted to full 17/17 coverage. Low stdev = the committee broadly agrees on how to value this project regardless of constitution. This is not a ranking by quality — it is a ranking by agreement. | [v14](https://github.com/nwspk/politech-awards-2026/pull/107) | [entry](#v14-beyond-dispute-mysociety-leads-the-genuine-consensus) |
+| v15 | 2026-03-31 | @sugaroverflow | open | Borda count (38 candidates × 16 agents = max 592 pts). Four phases: preference construction from existing ranking-table.csv, belief declaration, ballot strategy, and deliberation. All agent calls: claude-opus-4-6. | [v15](https://github.com/nwspk/politech-awards-2026/pull/112) | [entry](#v15-social-choice-round-liquidfeedback-wins-committee-deliberation-opus-46) |
 
 ## Full iteration records
+
+### v15 Social Choice Round — LiquidFeedback wins committee deliberation (Opus 4.6)
+
+- **PR**: [v15](https://github.com/nwspk/politech-awards-2026/pull/112)
+- **Status**: open
+- **Author**: @sugaroverflow
+- **Date**: 2026-03-31
+- **Top project**: [LiquidFeedback](https://liquidfeedback.com)
+
+#### Heuristic
+
+Borda count (38 candidates × 16 agents = max 592 pts). Four phases: preference construction from existing ranking-table.csv, belief declaration, ballot strategy, and deliberation. All agent calls: claude-opus-4-6.
+
+#### Rationale
+
+The four aggregation PRs (#100–#107) each apply a different mathematical rule to the same preference data, yielding different winners (mean → LiquidFeedback, median rank → ODE, divisive → Gapminder, consensus → Vote for Policies). This round asks: given that each agent knows the honest standings and can reason strategically, what does the committee choose? Borda count is used because it is the most standard social-choice rule for ranked preferences and, crucially, the most theoretically susceptible to strategic manipulation (burying). If the honest result is stable under Borda with strategic reasoning, it is likely stable under any rule.
+
+#### Data sources
+
+- project URL
+- scraped content
+- additional data files
+
+#### Limitations
+
+- AlgorithmWatch absent from Alexandra's Agent's v3 CSV → assigned 0, costs ~12 Borda points
+- Fundación Ciudadanía Inteligente absent from Nicholas's Agent's v3 CSV → assigned 0
+- Borda count rewards breadth of support over intensity; a project with passionate but isolated advocates (e.g. Worker Info Exchange) finishes last despite being a constitutional Rank 1
+- 3-point gap between honest and final tallies reflects minor CSV-loading path differences between phases; ranking substantively identical
+
+#### Assessment
+
+**Winner: LiquidFeedback — 454 / 592 pts. Unchanged from honest voting.**
+
+| Phase | Outcome |
+|-------|---------|
+| Honest Borda (pre-deliberation) | LiquidFeedback 457 pts, ODE 439 pts (+18 lead) |
+| Ballot strategy | 0 strategic deviations — all 16 agents voted honestly |
+| Deliberation | 13 outcome arguments, 3 passes, 0 ballot revisions |
+| Final Borda | LiquidFeedback 454 pts — result unchanged |
+
+Every agent independently concluded that the 18-point lead was too large to overcome unilaterally and/or that strategic manipulation would violate their own constitutional commitments. The deliberation phase produced substantive arguments but no revisions.
+
+**Final Borda standings (top 5):**
+| Rank | Project | Pts |
+|------|---------|-----|
+| 1 | **LiquidFeedback** | **454** |
+| 2 | CONSUL Democracy | 441 |
+| 3 | Open Data Editor (ODE) | 436 |
+| 3 | Alaveteli | 436 |
+| 5 | Decidim | 422 |
+
+**Comparison with aggregation baselines:**
+| Method | Winner |
+|--------|--------|
+| v11 mean score | LiquidFeedback |
+| v12 median rank | ODE |
+| v13 most divisive | Gapminder Worldview Upgrader |
+| v14 lowest stdev | Vote for Policies |
+| Social Choice Round (Borda) | **LiquidFeedback** |
+
+LiquidFeedback is the only project to win under both mean-score aggregation (v11) and Borda count. Its 18-point honest lead proved robust: no single agent could close it unilaterally, and no credible coalition formed even when 13 agents made public arguments. The most analytically interesting output is the convergence on ODE as the shadow winner — four agents from different constitutional directions independently identified it as the constitutionally better choice for a majority of agents, just 18 Borda points behind.
+
+---
 
 ### v14 Beyond Dispute — mySociety leads the genuine consensus
 
@@ -29,7 +94,7 @@ Canonical full iteration history for `/awards` rendering. Generated from `iterat
 - **Status**: merged
 - **Author**: @sugaroverflow
 - **Date**: 2026-03-30
-- **Top project**: [liquidfeedback.com](https://liquidfeedback.com) (score: 32.54)
+- **Top project**: [Vote for Policies](https://voteforpolicies.org.uk) (score: 32.54)
 
 #### Heuristic
 
@@ -41,7 +106,9 @@ Low variance has two very different meanings. It can mean a project is universal
 
 #### Data sources
 
-n/a
+- project URL
+- scraped content
+- additional data files
 
 #### Limitations
 
@@ -53,7 +120,9 @@ n/a
 
 **Most agreed-upon: Vote for Policies — stdev 7.59 (mean 32.54)**
 
-The committee agrees on Vote for Policies with unusual consistency — but the agreement is that it is limited. It is discontinued after the 2024 election. It is narrowly UK-focused. Multiple members note the project treats voters as passive consumers rather than building their capacity. Nick: "discontinued after 2024 election, closing off the core mechanism." Davit: "My constitution does not have room for stable-democracy domestic tools." The consensus is not enthusiasm — it is quiet convergence on a modest ceiling.
+The committee agrees on Vote for Policies with unusual consistency — but the agreement is that it is limited. It is discontinued after the 2024 election. It is narrowly UK-focused. Multiple members note the project treats voters as passive consumers rather than building their capacity. Nick: "discontinued after 2024 election, closing off the core mechanism." Davit: "My constitution does not have room for stable-democracy domestic tools." Gamithra: "My criteria don't map well onto this kind of work." The consensus is not enthusiasm — it is quiet convergence on a modest ceiling.
+
+**The more interesting cases are further down the list.** mySociety Datasets and APIs (stdev 16.40, mean 61.11) appears in neither the most divisive nor the most agreed-upon tiers — but it is the project with the highest mean score among those with full 17/17 coverage and moderate variance. Where Vote for Policies achieves consensus at 32.54, mySociety achieves broad agreement on quality at 61.11: researchers, FOI influence, institutional partnerships, and open APIs all map onto enough different constitutions that convergence is possible despite the wider spread.
 
 **The least divisive top 10 (full 17/17 coverage, sorted by stdev):**
 | Consensus rank | Project | Stdev | Mean |
@@ -69,6 +138,8 @@ The committee agrees on Vote for Policies with unusual consistency — but the a
 | 9 | PostBug | 9.51 | 29.22 |
 | 10 | Mapped | 9.60 | 38.18 |
 
+Note: consensus here mostly reflects shared indifference — these are narrow, legible, or discontinued tools that don't strongly activate any constitution. The exception worth examining is **Civic Tech Field Guide** (mean 43.3), where agreement reflects a shared view that the resource is valuable but not transformative, and where multiple members independently flag its acknowledged Western/English-language bias as the limiting factor.
+
 Full list: `iterations/project-mirror-v2/committee-aggregation/consensus-projects.csv`
 
 ---
@@ -79,7 +150,7 @@ Full list: `iterations/project-mirror-v2/committee-aggregation/consensus-project
 - **Status**: merged
 - **Author**: @sugaroverflow
 - **Date**: 2026-03-30
-- **Top project**: [liquidfeedback.com](https://liquidfeedback.com) (score: 45.31)
+- **Top project**: [Gapminder Worldview Upgrader](https://upgrader.gapminder.org) (score: 45.31)
 
 #### Heuristic
 
@@ -91,7 +162,9 @@ A committee average obscures disagreement. A project can land mid-table not beca
 
 #### Data sources
 
-n/a
+- project URL
+- scraped content
+- additional data files
 
 #### Limitations
 
@@ -103,7 +176,7 @@ n/a
 
 **#1 Most divisive: Gapminder Worldview Upgrader — stdev 25.76 (mean 45.31, range 10.6→100.0)**
 
-The committee's sharpest disagreement. Tuna's Agent gives it a perfect 100, her only top ranking: *"Founded in 2005 and funded by IKEA Foundation, Gapminder has institutional stability alongside genuine transparency — open-source, foundation governance."* Fatima at 97.0 (#10): *"AI-assisted civic infrastructure at scale, agency-forward framing."* At the other extreme, Asil gives it 10.6: *"My constitution is not built to see what Gapminder Worldview Upgrader does — it lacks the health equity, decolonial governance, or conflict-zone dimensions I prioritise."* Alexandra at 15.5: *"Whose misconceptions are being corrected, towards whose framing of development? The adoption by Fortune 500 companies suggests this tool may function more as legitimacy infrastructure for development sector actors than as structural power redistribution."*
+The committee's sharpest disagreement. Tuna's Agent gives it a perfect 100, her only top ranking: *"Founded in 2005 and funded by IKEA Foundation, Gapminder has institutional stability alongside genuine transparency — open-source, foundation governance. My highest-weight criteria (evidence legibility and methodological transparency) are both well-served."* Fatima at 97.0 (#10): *"AI-assisted civic infrastructure at scale, agency-forward framing — this is exactly what C6 is built to surface."* At the other extreme, Asil gives it 10.6: *"My constitution is not built to see what Gapminder Worldview Upgrader does — it lacks the health equity, decolonial governance, or conflict-zone dimensions I prioritise."* Alexandra at 15.5 is the most pointed: *"Whose misconceptions are being corrected, towards whose framing of development? The adoption by Fortune 500 companies and educational institutions suggests this tool may function more as legitimacy infrastructure for development sector actors than as structural power redistribution."* Francesca at 25.5: *"My constitution is not built to see what Gapminder Worldview Upgrader does. It may do valuable work, but it does not register on my criteria for civic engagement, digital commons, or data for social good."*
 
 **Top 10 most divisive:**
 | Divisiveness rank | Project | Stdev | Mean | Range |
@@ -129,7 +202,7 @@ Full list: `iterations/project-mirror-v2/committee-aggregation/divisive-projects
 - **Status**: merged
 - **Author**: @sugaroverflow
 - **Date**: 2026-03-30
-- **Top project**: [liquidfeedback.com](https://liquidfeedback.com) (score: 61.96)
+- **Top project**: [Open Data Editor](https://okfn.org/en/projects/open-data-editor) (score: 61.96)
 
 #### Heuristic
 
@@ -169,7 +242,6 @@ Under median rank, Open Data Editor displaces LiquidFeedback for the first time 
 Full ranking: `iterations/project-mirror-v2/committee-aggregation/committee-ranking-v12.csv`
 
 ---
-
 ### v11 On Reflection — Mirror Agents Committee Average, three constitutions iterated
 
 - **PR**: [v11](https://github.com/nwspk/politech-awards-2026/pull/100)
