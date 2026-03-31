@@ -5,10 +5,11 @@ date: "2026-03-30"
 pr_url: "https://github.com/nwspk/politech-awards-2026/pull/100"
 version: v11
 pr_number: 100
-pr_status: "open"
+pr_status: "merged"
 top_project:
   name: "liquidfeedback.com"
   url: "https://liquidfeedback.com"
+  score: 65.08
   score: 65.08
 ---
 

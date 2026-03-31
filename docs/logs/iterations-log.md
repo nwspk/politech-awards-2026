@@ -15,14 +15,15 @@ Canonical full iteration history for `/awards` rendering. Generated from `iterat
 | v7 | 2026-03-28 | @davit-jintcharadze | merged | Scores and filters projects based on Davit's eight evaluation criteria: | [v7](https://github.com/nwspk/politech-awards-2026/pull/20) | [entry](#v7-davit-aligned-political-relevance-heuristic) |
 | v8 | 2026-03-27 | @Gamithra | merged | This iteration keeps the **v5 ITN/A architecture**: Grok 4.1 Fast assesses every candidate on political, relational, and experimental lenses, then a facilitator-led multi-agent deliberation scores and argues over a **shortlist** of projects that cleared a green threshold on those assessments. | [v8](https://github.com/nwspk/politech-awards-2026/pull/41) | [entry](#v8-itn-a-grok-re-run-with-awards-bonuses-effective-score-alignment) |
 | v9 | 2026-03-28 | @alecsandrac | open | **Evaluation:** `npx tsx scripts/alexandra/alexandra-eval.ts` — each juror returns integers 1–5 for D1–D8 plus an `evidence[]` array (URL, quote, source type) per the prompt. Context = **enriched dossier** (`data/enriched/*.json`) + **cached page text** (`cache/sites.sqlite`), same spirit as `itn-a-eval.ts`. **Speed:** `--concurrency N` (e.g. `8`) runs N URLs in parallel; `--call-delay-ms 0` removes pauses between calls if your OpenRouter tier tolerates it (default `800`). | [v9](https://github.com/nwspk/politech-awards-2026/pull/89) | [entry](#v9-contestable-transparency-dimensional-rubric-three-jurors-auditable-evidence) |
-| v10 | 2026-03-30 | @sugaroverflow | open | Simple mean of all 17 members' scores per project, equally weighted — substituting v3 constitutions for the three members who iterated (nicholas-botti, huda-abdirahim, alexandra-ciocanel). | [v10](https://github.com/nwspk/politech-awards-2026/pull/100) | [entry](#v10-on-reflection-mirror-agents-committee-average-three-constitutions-iterated) |
+| v10 | 2026-03-29 | @sugaroverflow | open | Simple mean of all 18 members' scores per project, equally weighted — pure v2 constitutional rankings, no iteration substitutions. | [v10](https://github.com/nwspk/politech-awards-2026/pull/90) | [entry](#v10-prima-facie-liquidfeedback-wins-the-mirror-agent-s-committee-s-first-read-using-average) |
+| v11 | 2026-03-30 | @sugaroverflow | merged | Simple mean of all 17 members' scores per project, equally weighted — substituting v3 constitutions for the three members who iterated (nicholas-botti, huda-abdirahim, alexandra-ciocanel). | [v11](https://github.com/nwspk/politech-awards-2026/pull/100) | [entry](#v11-on-reflection-mirror-agents-committee-average-three-constitutions-iterated) |
 
 ## Full iteration records
 
-### v10 On Reflection — Mirror Agents Committee Average, three constitutions iterated
+### v11 On Reflection — Mirror Agents Committee Average, three constitutions iterated
 
-- **PR**: [v10](https://github.com/nwspk/politech-awards-2026/pull/100)
-- **Status**: open
+- **PR**: [v11](https://github.com/nwspk/politech-awards-2026/pull/100)
+- **Status**: merged
 - **Author**: @sugaroverflow
 - **Date**: 2026-03-30
 - **Top project**: [liquidfeedback.com](https://liquidfeedback.com) (score: 65.08)
@@ -37,9 +38,7 @@ Incorporates feedback-loop refinements from the three members who produced updat
 
 #### Data sources
 
-- project URL
-- scraped content
-- additional data files
+n/a
 
 #### Limitations
 
@@ -57,7 +56,7 @@ LiquidFeedback holds its top position after iteration, with its score strengthen
 
 **The sceptics.** Chris scores it 52.8 (#72): *"A modifier penalty reflects concern about power digitisation without access expansion."* Jamie at 50.5 (#57): *"The top of my ranking is reserved for projects with deeper systemic ambition."* Gamithra at 43.3 (#26) acknowledges the governance model but notes it only registers weakly: *"Community ownership over corporate control — modifiers push this up (M1:+8)."* Signal is terse at 49.0: *"Scores 49 through its constitutional fit."*
 
-**The post-iteration shift.** The top five shifts notably after iteration — Decidim rises to second place, displacing Open Data Editor, and CONSUL Democracy enters the top five. This reflects the three iterating members weighting deliberative democracy platforms more heavily in their revised constitutions. Alessandro on Decidim: *"The Barcelona roots matter most to me — 40,000 citizens engaged in strategic planning, not as a consultation exercise but as a genuine co-design process."* Nick on Decidim: *"Barcelona founding, European Commission deployment for Conference on Future of Europe, Brazilian federal adoption — the strongest multi-government deployment evidence of any participatory democracy platform in this batch."*
+**The post-iteration shift.** The top five shifts notably after iteration — Decidim rises to second place, displacing Open Data Editor, and CONSUL Democracy enters the top five. This reflects the three iterating members weighting deliberative democracy platforms more heavily in their revised constitutions.
 
 **Top 5:**
 | Rank | Project | Avg | Stdev | Coverage |
@@ -68,28 +67,52 @@ LiquidFeedback holds its top position after iteration, with its score strengthen
 | 4 | CONSUL Democracy | 61.77 | 17.69 | 17/17 |
 | 5 | mySociety Datasets and APIs | 61.11 | 16.40 | 17/17 |
 
-**Per-agent scores for LiquidFeedback:**
-| Member | Score | Rank | Note |
-|--------|-------|------|------|
-| Davit | 94.4 | #1 | Backsliding-context deployment; liquid democracy for real party decisions |
-| Alessandro | 86.9 | #2 | Structurally honest voice equalisation via delegated voting |
-| Fatima | 85.9 | #37 | European Commission + NIMD government partnerships |
-| Nick (v3) | 78.6 | #9 | Strongest liquid democracy deployment evidence; documented limitations rewarded |
-| Tuna's Agent | 73.0 | #19 | Institutional adoption confirmed; evidence legibility only partial |
-| Harbour | 70.9 | #11 | — |
-| Aadi | 67.9 | #39 | Genuine adoption but complex delegation may exclude less digitally literate |
-| Alexandra (v3) | 63.9 | #30 | Formal binding mechanism; strong democratic depth |
-| Huda (v3) | 63.9 | #3 | Governance legibility strong; programmable governance fires |
-| Beacon | 63.6 | #44 | Open-source foundational; underdog modifier applied |
-| Safeguard | 62.5 | #3 | Participatory governance strong; popularity risk noted |
-| Francesca | 53.1 | #14 | Moderate raw score; modifier boosts carry it |
-| Chris | 52.8 | #72 | Penalty for power digitisation without access expansion |
-| Jamie | 50.5 | #57 | Below systemic-change ambition threshold |
-| Signal | 49.0 | #40 | Constitutional fit only |
-| Asil | 46.1 | #6 | Solidarity-over-rescue principle; M1:+15 modifier dominant |
-| Gamithra | 43.3 | #25 | Community ownership noted; criteria map weakly |
-
 Full ranking: `iterations/project-mirror-v2/committee-aggregation/committee-ranking-v11.csv`
+
+---
+
+### v10 Prima Facie — LiquidFeedback wins the Mirror Agent's Committee's first read using Average
+
+- **PR**: [v10](https://github.com/nwspk/politech-awards-2026/pull/90)
+- **Status**: open
+- **Author**: @sugaroverflow
+- **Date**: 2026-03-29
+- **Top project**: [liquidfeedback.com](https://liquidfeedback.com) (score: 64.98)
+
+#### Heuristic
+
+Simple mean of all 18 members' scores per project, equally weighted — pure v2 constitutional rankings, no iteration substitutions.
+
+#### Rationale
+
+The committee's first read — 18 agents (17 fellows + synthetic Harbour), all on their original v2 constitutions, simple average. No iteration, no reflection. Just: what does the synthetic committee say when you take everyone at face value?
+
+Equal weighting treats each evaluator as a peer. v10 is the clean pre-iteration baseline; three members later iterated to v3 constitutions — see v11 (PR #100).
+
+#### Data sources
+
+n/a
+
+#### Limitations
+
+n/a
+
+#### Assessment
+
+**Winner: LiquidFeedback — 64.98 avg (stdev 15.96, coverage 18/18)**
+
+LiquidFeedback leads across 18 diverse constitutions. The win is built on a combination of passionate advocates (Davit: 94.4, Alessandro: 86.9) and broad map-ability — liquid delegation addresses apathy/representation at a system level, open source and jurisdiction-independent.
+
+**Top 5:**
+| Rank | Project | Avg | Stdev | Coverage |
+|------|---------|-----|-------|----------|
+| 1 | LiquidFeedback | 64.98 | 15.96 | 18/18 |
+| 2 | Open Data Editor (ODE) | 62.69 | 14.06 | 18/18 |
+| 3 | mySociety Datasets and APIs | 61.47 | 12.56 | 18/18 |
+| 4 | Alaveteli | 59.85 | 13.42 | 18/18 |
+| 5 | Open Supply Hub | 59.71 | 14.02 | 18/18 |
+
+Full ranking: `iterations/project-mirror-v2/committee-aggregation/committee-ranking.csv`
 
 ---
 
