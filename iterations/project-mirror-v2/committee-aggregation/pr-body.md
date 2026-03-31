@@ -1,88 +1,57 @@
-## Project Mirror v2 — Committee Aggregation (v10 baseline)
+## Title
+Prima Facie — LiquidFeedback wins the committee's first read
 
-This is the **committee-level aggregation** for Project Mirror v2 — the synthesis of **18** inputs into a single composite ranking.
+## Heuristic
+Simple mean of all 18 inputs per project, equally weighted — 17 fellows on their v2 constitutions plus one synthetic Harbour agent (rankings only). No v3 substitutions, no iteration.
 
-**v10 baseline:** all 18 members scored using v2 constitutional rankings only. Three members later iterated to v3 — see v11 (PR #100).
+## Rationale
+Establishes the baseline: what does the synthetic committee say when every member's first-pass v2 constitution is taken at face value, with equal weighting? The Harbour agent's rankings are included as a peer input with no constitution in this repository. Three members later iterated to v3 constitutions — see v11 (PR #100) for that comparison. Hannah O'Rourke's v2 ranking is included here; her PR was experimental — see v11 where she is excluded.
 
-- **17** fellows with full Project Mirror v2 PRs (constitutional scores from their mirror runs)
-- **1** **synthetic Harbour agent** input: **rankings only** ([`ranking-table.csv`](https://github.com/nwspk/politech-awards-2026/blob/project-mirror-v2/committee-aggregation/iterations/project-mirror-v2/harbour/ranking-table.csv) + [`README.md`](https://github.com/nwspk/politech-awards-2026/blob/project-mirror-v2/committee-aggregation/iterations/project-mirror-v2/harbour/README.md)) — **no constitution** in this repository
+## Limitations
+- All 18 inputs are weighted equally regardless of evidence confidence or dossier quality
+- The Harbour agent contributes rankings only — no written constitution or criteria chain to audit
+- Stdev values above 15 indicate significant disagreement; wins built on advocate outliers, not consensus
+- Hannah O'Rourke's v2 ranking is included but her PR was experimental — see v11 for the 17-member read after she was excluded
 
-**Included:** Hannah O'Rourke — her v2 ranking table is included in this aggregation.
+## Assessment
+**Winner: LiquidFeedback — 64.98 avg (stdev 15.96, coverage 18/18)**
 
-Each score below is the simple mean of the **18** constitutional scores for that project.
+LiquidFeedback wins the committee's first, unreflected read. Its score sits 2.3 points above the second-place project — a meaningful gap — but the stdev of 15.96 is a warning sign: this isn't consensus, it's a win built on a handful of strong advocates (Davit's Agent: 94.4, Alessandro's Agent: 86.9) alongside a long tail of moderate-to-sceptical scores.
 
-Individual mirror PRs stay open for cohort feedback and amendments.
+**The advocates.** Davit's Agent ranks it #1 at 94.4: *"LiquidFeedback's liquid democracy model was adopted by the Pirate Party Germany for binding resolutions, and the dossier shows deployment in Georgia and Myanmar — two of the backsliding contexts I care most about."* Alessandro's Agent ranks it #2 at 86.9: *"Delegated voting is one of the most structurally honest approaches to voice equalisation I've encountered — it acknowledges that not everyone engages equally on every issue, while ensuring their perspective is still represented through trusted delegates."* Fatima's Agent at 83.5 (#2): *"LiquidFeedback has real government partnerships (European Commission, NIMD) — that's exactly the kind of deployment evidence I weight heavily."*
 
----
+**The sceptics.** Gamithra's Agent scores it 43.3 (#26): *"LiquidFeedback's governance model is community-forward, but modifiers push this up (M1:+8) more than the raw criteria."* Asil's Agent at 46.1 (#6): *"The solidarity-over-rescue principle fires here, but the score is mostly modifier-driven (M1:+15)."* Alexandra's Agent at 46.3 (#36): *"Liquid democracy overlaps partially with my accountability criteria but the contestability pathway isn't clearly evidenced."* Agent Signal at 49.0 (#41) is terse: *"Scores 49 through its constitutional fit."*
 
-## Committee Winner (v10)
-
-**LiquidFeedback** — avg score **64.98** across all 18 inputs (stdev 15.96, coverage 18)
-
----
-
-## Individual Mirror PRs (and synthetic input)
-
-| PR / source | Fellow | Constitutional Winner (v2) |
-|-------------|--------|---------------------------|
-| [#73](https://github.com/nwspk/politech-awards-2026/pull/73) | Aadi Kulkarni | OpenCRVS |
-| [#82](https://github.com/nwspk/politech-awards-2026/pull/82) | Alessandro Pedori | Decidim |
-| [#83](https://github.com/nwspk/politech-awards-2026/pull/83) | Alexandra Ciocanel | AlgorithmWatch (v2) |
-| [#87](https://github.com/nwspk/politech-awards-2026/pull/87) | Asil Sidahmed | Ushahidi |
-| [#85](https://github.com/nwspk/politech-awards-2026/pull/85) | Chris Owen | Humble Data Workshop |
-| [#81](https://github.com/nwspk/politech-awards-2026/pull/81) | Safeguard (Connor Dunlop) | AlgorithmWatch |
-| [#71](https://github.com/nwspk/politech-awards-2026/pull/71) | David Powell (Beacon) | mySociety Datasets and APIs |
-| [#86](https://github.com/nwspk/politech-awards-2026/pull/86) | Davit Jintcharadze | LiquidFeedback |
-| [Rankings only](https://github.com/nwspk/politech-awards-2026/tree/project-mirror-v2/committee-aggregation/iterations/project-mirror-v2/harbour) | Synthetic Harbour agent (Emily Mayhew) | Open Digital Planning |
-| [#67](https://github.com/nwspk/politech-awards-2026/pull/67) | Fatima Sarah Khalid | CONSUL Democracy |
-| [#88](https://github.com/nwspk/politech-awards-2026/pull/88) | Francesca Galli | mySociety Datasets and APIs |
-| [#72](https://github.com/nwspk/politech-awards-2026/pull/72) | Frederick O'Brien (Beacon codename) | Open Heart Mind |
-| [#68](https://github.com/nwspk/politech-awards-2026/pull/68) | Gamithra Marga | Bonfire |
-| [#84](https://github.com/nwspk/politech-awards-2026/pull/84) | Hannah O'Rourke | — |
-| [#74](https://github.com/nwspk/politech-awards-2026/pull/74) | Huda Abdirahim | Aragon (v2) |
-| [#70](https://github.com/nwspk/politech-awards-2026/pull/70) | Jamie Coombes | Interoperable Deliberative Tools |
-| [#75](https://github.com/nwspk/politech-awards-2026/pull/75) | Nicholas Botti | AlgorithmWatch (v2) |
-| [#80](https://github.com/nwspk/politech-awards-2026/pull/80) | Signal (Martina Orlea) | Martus |
-| [#79](https://github.com/nwspk/politech-awards-2026/pull/79) | Tuna Acisu | Gapminder Worldview Upgrader (100 — only perfect score in cohort) |
-
----
-
-## Top 20 — Committee Ranking v10
-
-Sorted by average score across all 18 inputs.
-
+**Top 5:**
 | Rank | Project | Avg Score | Stdev | Coverage |
 |------|---------|-----------|-------|----------|
-| 1 | LiquidFeedback | 64.98 | 15.96 | 18 |
-| 2 | Open Data Editor (ODE) | 62.69 | 14.06 | 18 |
-| 3 | mySociety Datasets and APIs | 61.47 | 12.56 | 18 |
-| 4 | Alaveteli | 59.85 | 13.42 | 18 |
-| 5 | Open Supply Hub | 59.71 | 14.02 | 18 |
-| 6 | CONSUL Democracy | 59.47 | 16.38 | 18 |
-| 7 | Decidim | 59.06 | 15.04 | 18 |
-| 8 | Bonfire | 58.04 | 13.96 | 18 |
-| 9 | AlgorithmWatch | 57.57 | 22.35 | 18 |
-| 10 | Polis | 57.14 | 17.84 | 18 |
-| 11 | Open Council Network | 56.86 | 12.8 | 18 |
-| 12 | ODK (Open Data Kit) | 56.63 | 12.87 | 18 |
-| 13 | Guardian Project | 56.58 | 16.72 | 18 |
-| 14 | HURIDOCS | 56.58 | 15.24 | 18 |
-| 15 | Open Contracting Partnership | 56.48 | 16.11 | 18 |
-| 16 | Participedia | 55.94 | 12.77 | 18 |
-| 17 | CommunityRule | 55.81 | 13.63 | 18 |
-| 18 | Ushahidi | 55.73 | 11.98 | 18 |
-| 19 | CiviCRM | 55.62 | 13.03 | 18 |
-| 20 | Open Digital Planning | 55.53 | 14.02 | 18 |
+| 1 | LiquidFeedback | 64.98 | 15.96 | 18/18 |
+| 2 | Open Data Editor (ODE) | 62.69 | 14.06 | 18/18 |
+| 3 | mySociety Datasets and APIs | 61.47 | 12.56 | 18/18 |
+| 4 | Alaveteli | 59.85 | 13.42 | 18/18 |
+| 5 | Open Supply Hub | 59.71 | 14.02 | 18/18 |
 
-Full ranking (all projects): [committee-ranking.csv](https://github.com/nwspk/politech-awards-2026/blob/project-mirror-v2/committee-aggregation/iterations/project-mirror-v2/committee-aggregation/committee-ranking.csv)
+**Per-agent scores for LiquidFeedback:**
+| Agent | Score | Rank | Rationale |
+|-------|-------|------|-----------|
+| Davit's Agent | 94.4 | #1 | LiquidFeedback's liquid democracy model was adopted by the Pirate Party Germany for binding resolutions, and the dossier shows deployment in Georgia and Myanmar — two of the backsliding contexts I care most about. C1 (democratic resilience) is the strongest criterion here: a participatory governance tool actually used by political parties to make real decisions. The M1 backsliding-context boost (+12) elevates it further. I note the Friesland County adoption as evidence of real municipal deployment, not just party-internal use. |
+| Alessandro's Agent | 86.9 | #2 | Delegated voting is one of the most structurally honest approaches to voice equalisation I've encountered — it acknowledges that not everyone engages equally on every issue, while ensuring their perspective is still represented through trusted delegates. The open-source model and decade-long deployment in Pirate Parties across Europe earns implementation credibility. My hesitation is that the Germanic proceduralism of the design may create barriers for groups without prior deliberation experience. |
+| Fatima's Agent | 83.5 | #2 | LiquidFeedback has real government partnerships (European Commission, NIMD (Netherlands Institute for Multiparty Democracy)) — that's exactly the kind of deployment evidence I weight heavily. Primary driver: open source and community governance at 20 points. |
+| Agent Prism | 73.0 | #23 | Institutional adoption by Horizon 2020 WeGovNow and CO3 projects tells me LiquidFeedback is not just a prototype. That said, government use alone does not mean evidence legibility — I need to see how information is presented to non-specialists, and the dossier is moderate on that dimension. |
+| Nicholas's Agent | 71.6 | #15 | LiquidFeedback's use by the German Pirate Party for binding resolutions and by Friesland County for civic participation, plus EU Horizon 2020 funding, gives it the strongest liquid democracy deployment evidence in this batch. The documented limitations about complexity barriers, vocal minority risks, and delegation mechanism education needs are exactly the kind of complexity acknowledgment I reward in C3. The decade-plus track record and EU partnerships give strong institutional credibility. |
+| Agent Harbour | 70.9 | #11 | — |
+| Aadi's Agent | 67.9 | #39 | The Pirate Party's deployment for binding political resolutions through "Permanent General Assembly" status shows genuine institutional adoption of liquid democracy, though broader uptake remains limited despite EU project funding. The complex delegation mechanisms may still exclude less digitally literate participants. |
+| Huda's Agent | 65.8 | #5 | LiquidFeedback scores well on governance legibility — it makes decision-making processes inspectable, which is what I care about: not just that decisions are made, but that those affected can see how. |
+| Agent Beacon | 63.6 | #46 | There's something here, though not as strong as I'd like. LiquidFeedback is open-source and freely accessible, which is foundational. The primary driver is free/open access (scoring 13/20). I'm giving this the benefit of the doubt via the underdog modifier. |
+| Agent Safeguard | 62.5 | #3 | LiquidFeedback takes participatory governance seriously, with structural community involvement rather than token consultation. Strongest on participatory governance (C2: 13.0). Modifiers: M4:+6. Popularity risk flag: well-known project with rich documentation; stripping the documentation advantage, the score would drop by roughly 8-12 points. |
+| Francesca's Agent | 53.1 | #16 | LiquidFeedback gets a moderate score on raw criteria but benefits from modifier boosts — likely European context or creative methodology. The base civic engagement and data work is solid if unspectacular. |
+| Chris's Agent | 52.8 | #72 | LiquidFeedback is governed by the people it serves. A modifier penalty (-5) reflects concern about power digitisation without access expansion. |
+| Jamie's Agent | 50.5 | #57 | As an open-source project with a commercial service arm, LiquidFeedback operates with institutional backing that shapes both its sustainability and its independence. The criteria score (43.5) reflects competent civic technology that addresses real problems, though without the systemic-change ambition I most reward. |
+| Agent Signal | 49.0 | #41 | LiquidFeedback scores 49 through its constitutional fit. Modifiers boost further. |
+| Alexandra's Agent | 46.3 | #36 | LiquidFeedback works on liquid democracy, which overlaps partially with my accountability and community-exclusion criteria. The specificity I look for — a named exclusion mechanism, a contestability pathway — isn't clearly evidenced. |
+| Asil's Agent | 46.1 | #6 | The participatory design evidence in LiquidFeedback's dossier reflects the solidarity-over-rescue principle I hold central. Modifiers significantly shaped this score (M1:+15). |
+| Gamithra's Agent | 43.3 | #26 | LiquidFeedback's governance model (open-source published by Public Software Group e.V.; commercial services by FlexiGuided GmbH; research by Interaktive Demokratie e.V.) speaks directly to what I care about — community ownership over corporate control. Modifiers push this up (M1:+8) but criteria map weakly to my most weighted dimensions. |
 
----
+*Note: Hannah O'Rourke's v2 ranking was included in the v10 computation (coverage 18/18) but is not committed to this repository. Her data was experimental — see v11 for the corrected 17-member read.*
 
-## Methodology
-
-- **Score:** each fellow's constitutional score (0–100) from their v2 mirror run; synthetic Harbour agent contributes only the scores in `ranking-table.csv`.
-- **Aggregation:** simple mean across all 18 inputs that scored the project.
-- **v10 definition:** pure v2 baseline — all 18 members use their v2 constitutional rankings. No v3 substitutions.
-- **Coverage:** projects scored by fewer than 18 inputs have coverage < 18 — included in full ranking but noted.
-- **Not included:** jury medians — constitutional scores only.
-- **Relationship to v11:** Three members (Nicholas Botti, Huda Abdirahim, Alexandra Ciocanel) subsequently iterated to v3. v11 (PR #100) substitutes their v3 scores. v10 is preserved here as the clean pre-iteration baseline.
+Full ranking: `iterations/project-mirror-v2/committee-aggregation/committee-ranking.csv`
